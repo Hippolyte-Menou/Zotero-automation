@@ -130,6 +130,49 @@ class ZoteroGroupClient:
         logger.info(f"Found {len(existing_pmids)} existing PMIDs in library")
         return existing_pmids
 
+    def get_collection_pmids(self, collection_key: str) -> list[str]:
+        """Return all PMIDs for items in a specific collection.
+
+        Used to seed citation expansion from the existing curated library
+        for a gene, avoiding redundant OpenAlex searches.
+        """
+        pmids: list[str] = []
+        for attempt in range(3):
+            try:
+                items = self.zot.everything(
+                    self.zot.collection_items(collection_key, itemType="-attachment")
+                )
+                break
+            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+                wait = 5 * (attempt + 1)
+                logger.warning(
+                    f"Zotero timeout fetching collection {collection_key} "
+                    f"(attempt {attempt + 1}/3): {e}. Retrying in {wait}s..."
+                )
+                time.sleep(wait)
+        else:
+            logger.error(f"Failed to fetch collection {collection_key} after 3 attempts")
+            return pmids
+
+        for item in items:
+            data = item.get("data", {})
+            extra = data.get("extra", "")
+            for line in extra.split("\n"):
+                line = line.strip()
+                if line.upper().startswith("PMID:"):
+                    pmid = line.split(":", 1)[1].strip()
+                    if pmid:
+                        pmids.append(pmid)
+                        break
+            else:
+                url = data.get("url", "")
+                if "pubmed.ncbi.nlm.nih.gov" in url:
+                    parts = url.rstrip("/").split("/")
+                    if parts and parts[-1].isdigit():
+                        pmids.append(parts[-1])
+
+        return pmids
+
     def add_papers(
         self,
         records: list[dict],
@@ -203,12 +246,14 @@ class ZoteroGroupClient:
             }
 
             for author_name in r.get("authors", []):
+                # OpenAlex display_name is "First Middle Last" format.
+                # rsplit at last space: ["First Middle", "Last"]
                 parts = author_name.rsplit(" ", 1)
                 if len(parts) == 2:
                     item["creators"].append({
                         "creatorType": "author",
-                        "lastName": parts[0],
-                        "firstName": parts[1],
+                        "firstName": parts[0],
+                        "lastName": parts[1],
                     })
                 else:
                     item["creators"].append({

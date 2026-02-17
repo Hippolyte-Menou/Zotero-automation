@@ -170,6 +170,74 @@ class OpenAlexClient:
 
         return results[:max_results]
 
+    def search_gene_recent(
+        self,
+        search_terms: list[str],
+        disease_keywords: list[str] | None = None,
+        year: int | None = None,
+        max_results: int = 10,
+    ) -> list[dict]:
+        """Search OpenAlex for recent papers (current year by default).
+
+        Same boolean query logic as search_gene() but filtered to papers
+        published from `year-01-01` onwards. Used as a bypass pass to
+        catch new publications before they accumulate enough citations.
+
+        Returns list of work dicts with full metadata.
+        """
+        import datetime
+        if year is None:
+            year = datetime.date.today().year
+
+        gene_part = " OR ".join(search_terms)
+        if disease_keywords:
+            kw_terms = _tags_to_keywords(disease_keywords)
+            disease_part = " OR ".join(kw_terms)
+            query = f"({gene_part}) AND ({disease_part})"
+        else:
+            query = gene_part
+
+        date_filter = f"{year}-01-01"
+        logger.info(
+            f"OpenAlex recent-papers query (from {date_filter}): {query}"
+        )
+
+        filters = [
+            f"title_and_abstract.search:{query}",
+            "type:article",
+            "has_pmid:true",
+            f"from_publication_date:{date_filter}",
+        ]
+        filter_str = ",".join(filters)
+
+        results: list[dict] = []
+        page = 1
+        per_page = 200
+
+        while len(results) < max_results:
+            data = self._get(
+                "/works",
+                params={
+                    "filter": filter_str,
+                    "select": WORK_FIELDS,
+                    "sort": "publication_date:desc",
+                    "per_page": str(per_page),
+                    "page": str(page),
+                },
+            )
+            if not data or "results" not in data:
+                break
+            batch = data["results"]
+            if not batch:
+                break
+            results.extend(batch)
+            if len(batch) < per_page:
+                break
+            page += 1
+
+        logger.info(f"OpenAlex recent-papers search: {len(results)} works found")
+        return results[:max_results]
+
     # ------------------------------------------------------------------
     # Citation network expansion
     # ------------------------------------------------------------------
@@ -209,6 +277,7 @@ class OpenAlexClient:
         library_size: int,
         max_seeds: int = 100,
         min_co_citations: int = 1,
+        max_min_co: int = 6,
         hop_label: str = "hop 1",
     ) -> list[dict]:
         """Single-hop citation network expansion with bibliographic coupling.
@@ -224,14 +293,16 @@ class OpenAlexClient:
         if not seed_works:
             return []
 
-        # Adaptive thresholds based on library size
-        adaptive_min_co = max(
-            min_co_citations,
-            int(math.log2(max(library_size, 2)))
+        # Adaptive threshold: scales with log2(library_size), capped at max_min_co
+        # to prevent mature genes from freezing out new discoveries.
+        adaptive_min_co = min(
+            max_min_co,
+            max(min_co_citations, int(math.log2(max(library_size, 2))))
         )
         logger.info(
             f"Citation expansion ({hop_label}): {len(seed_works)} seeds, "
-            f"library_size={library_size}, adaptive_min_co={adaptive_min_co}"
+            f"library_size={library_size}, adaptive_min_co={adaptive_min_co} "
+            f"(cap={max_min_co})"
         )
 
         # Keep the most-cited seeds for expansion
@@ -343,6 +414,7 @@ class OpenAlexClient:
         library_size: int,
         max_seeds: int = 100,
         min_co_citations: int = 1,
+        max_min_co: int = 6,
         gene_terms: list[str] | None = None,
         max_hops: int = 1,
         hop2_top_n: int = 10,
@@ -391,6 +463,7 @@ class OpenAlexClient:
                 library_size=library_size,
                 max_seeds=max_seeds,
                 min_co_citations=min_co_citations,
+                max_min_co=max_min_co,
                 hop_label=hop_label,
             )
 
@@ -551,7 +624,7 @@ class OpenAlexClient:
 
     @staticmethod
     def _filter_by_text(works: list[dict], exclude_terms: list[str]) -> list[dict]:
-        """Remove works whose title contains any exclude term."""
+        """Remove works whose title or abstract contains any exclude term."""
         import re
         patterns = [
             re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
@@ -560,7 +633,9 @@ class OpenAlexClient:
         kept = []
         for w in works:
             title = w.get("title", "") or ""
-            if any(p.search(title) for p in patterns):
+            abstract = _invert_abstract(w.get("abstract_inverted_index"))
+            text = f"{title} {abstract}"
+            if any(p.search(text) for p in patterns):
                 continue
             kept.append(w)
         return kept

@@ -53,6 +53,7 @@ def process_gene(
     openalex: OpenAlexClient,
     citation_cfg: dict,
     search_max_results: int = 25,
+    recent_max_results: int = 10,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
@@ -69,34 +70,7 @@ def process_gene(
     aliases = get_gene_aliases(symbol)
     search_terms = sorted(aliases)
 
-    # 2. OpenAlex search: gene symbol + aliases AND disease keywords
-    works = openalex.search_gene(
-        search_terms,
-        exclude_terms=text_excl,
-        max_results=search_max_results,
-        disease_keywords=gene_tags or None,
-    )
-
-    if not works:
-        logger.info(f"No results for {symbol}")
-        return {
-            "symbol": symbol, "found": 0, "new": 0,
-            "added": 0, "failed": 0,
-            "cit_candidates": 0, "cit_added": 0,
-        }
-
-    # 3. Dedup against existing library
-    all_records = [OpenAlexClient.work_to_record(w) for w in works]
-    new_records = [
-        r for r in all_records
-        if r.get("pmid") and r["pmid"] not in existing_pmids
-    ]
-    logger.info(
-        f"{symbol}: {len(all_records)} from OpenAlex search, "
-        f"{len(new_records)} new ({len(all_records) - len(new_records)} already in library)"
-    )
-
-    # 4. Get/create Zotero collection
+    # 2. Get/create Zotero collection (needed before fetching existing papers)
     if genes_parent_key:
         collection_key = zot.get_or_create_collection(
             collection_name, parent_key=genes_parent_key
@@ -104,32 +78,77 @@ def process_gene(
     else:
         collection_key = zot.get_or_create_collection(collection_name)
 
-    # 5. Upload search-found papers
+    # 3. Check existing papers in this gene's collection
+    collection_pmids = zot.get_collection_pmids(collection_key)
     search_stats = {"added": 0, "failed": 0}
-    if new_records:
-        search_stats = zot.add_papers(
-            new_records,
-            collection_key=collection_key,
-            gene_symbol=symbol,
-            extra_tags=gene_tags,
-            source_tag="source:search",
-        )
-        for r in new_records:
-            existing_pmids.add(r["pmid"])
 
-    # 6. Citation network expansion (multi-hop, gene-filtered, bib coupling)
-    library_size = len(all_records)
+    if collection_pmids:
+        # Gene already has papers in Zotero -- use them as seeds directly.
+        # Skip OpenAlex search to avoid redundant work.
+        logger.info(
+            f"{symbol}: {len(collection_pmids)} existing papers in collection, "
+            f"using as citation seeds (skipping OpenAlex search)"
+        )
+        seed_works = openalex.fetch_works_by_pmids(collection_pmids)
+        all_records = seed_works
+        new_records = []
+        library_size = len(collection_pmids)
+    else:
+        # No existing papers -- run OpenAlex search to bootstrap the collection.
+        logger.info(f"{symbol}: collection empty, running OpenAlex search")
+        seed_works = openalex.search_gene(
+            search_terms,
+            exclude_terms=text_excl,
+            max_results=search_max_results,
+            disease_keywords=gene_tags or None,
+        )
+
+        if not seed_works:
+            logger.info(f"No results for {symbol}")
+            return {
+                "symbol": symbol, "found": 0, "new": 0,
+                "added": 0, "failed": 0,
+                "cit_candidates": 0, "cit_added": 0,
+            }
+
+        all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
+        new_records = [
+            r for r in all_records
+            if r.get("pmid") and r["pmid"] not in existing_pmids
+        ]
+        logger.info(
+            f"{symbol}: {len(all_records)} from OpenAlex search, "
+            f"{len(new_records)} new ({len(all_records) - len(new_records)} already in library)"
+        )
+
+        if new_records:
+            search_stats = zot.add_papers(
+                new_records,
+                collection_key=collection_key,
+                gene_symbol=symbol,
+                extra_tags=gene_tags,
+                source_tag="source:search",
+            )
+            for r in new_records:
+                existing_pmids.add(r["pmid"])
+
+        library_size = len(all_records)
+
+    # 4. Citation network expansion (multi-hop, gene-filtered, bib coupling)
+    import re
     max_seeds = citation_cfg.get("max_seed_papers", 100)
     min_co = citation_cfg.get("min_co_citations", 1)
+    max_min_co = citation_cfg.get("max_min_co", 6)
     max_hops = citation_cfg.get("max_hops", 2)
     hop2_top_n = citation_cfg.get("hop2_top_n", 10)
 
     candidates = openalex.expand_citations(
-        seed_works=works,
+        seed_works=seed_works,
         existing_pmids=existing_pmids,
         library_size=library_size,
         max_seeds=max_seeds,
         min_co_citations=min_co,
+        max_min_co=max_min_co,
         gene_terms=search_terms,
         max_hops=max_hops,
         hop2_top_n=hop2_top_n,
@@ -143,7 +162,6 @@ def process_gene(
         ]
 
         # Text filter + dedup
-        import re
         if text_excl:
             patterns = [
                 re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
@@ -151,7 +169,10 @@ def process_gene(
             ]
             candidate_records = [
                 r for r in candidate_records
-                if not any(p.search(r.get("title", "")) for p in patterns)
+                if not any(
+                    p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
+                    for p in patterns
+                )
             ]
 
         candidate_records = [
@@ -171,9 +192,59 @@ def process_gene(
             for r in candidate_records:
                 existing_pmids.add(r["pmid"])
 
+    # 5. Recent papers pass -- bypass citation threshold for current-year papers
+    recent_works = openalex.search_gene_recent(
+        search_terms,
+        disease_keywords=gene_tags or None,
+        max_results=recent_max_results,
+    )
+    recent_added = 0
+    if recent_works:
+        recent_records = [
+            OpenAlexClient.work_to_record(w) for w in recent_works
+        ]
+
+        # Text filter
+        if text_excl:
+            patterns = [
+                re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                for t in text_excl
+            ]
+            recent_records = [
+                r for r in recent_records
+                if not any(
+                    p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
+                    for p in patterns
+                )
+            ]
+
+        # Dedup
+        recent_records = [
+            r for r in recent_records
+            if r.get("pmid") and r["pmid"] not in existing_pmids
+        ]
+
+        logger.info(
+            f"{symbol}: recent-papers pass: {len(recent_works)} found, "
+            f"{len(recent_records)} new after dedup"
+        )
+
+        if recent_records:
+            rec_stats = zot.add_papers(
+                recent_records,
+                collection_key=collection_key,
+                gene_symbol=symbol,
+                extra_tags=gene_tags,
+                source_tag="source:recent",
+            )
+            recent_added = rec_stats["added"]
+            for r in recent_records:
+                existing_pmids.add(r["pmid"])
+
     logger.info(
         f"{symbol}: search_added={search_stats['added']}, "
-        f"cit_candidates={len(candidates)}, cit_added={cit_added}"
+        f"cit_candidates={len(candidates)}, cit_added={cit_added}, "
+        f"recent_added={recent_added}"
     )
 
     return {
@@ -183,6 +254,7 @@ def process_gene(
         **search_stats,
         "cit_candidates": len(candidates),
         "cit_added": cit_added,
+        "recent_added": recent_added,
     }
 
 
@@ -214,6 +286,7 @@ def main():
     citation_cfg = config.get("citation_expansion", {})
     search_cfg = config.get("search", {})
     search_max_results = search_cfg.get("max_results", 25)
+    recent_max_results = search_cfg.get("recent_max_results", 10)
 
     # Determine which genes to run
     # Priority: CLI args > INPUT_GENES env var > all from genes.yml
@@ -270,6 +343,7 @@ def main():
             openalex=openalex,
             citation_cfg=citation_cfg,
             search_max_results=search_max_results,
+            recent_max_results=recent_max_results,
         )
         summary.append(stats)
 
@@ -282,7 +356,8 @@ def main():
         logger.info(
             f"  {s['symbol']:12s}  found={s['found']:4d}  "
             f"new={s['new']:4d}  added={s['added']:4d}  failed={s['failed']:4d}  "
-            f"cit_cand={s['cit_candidates']:4d}  cit_add={s['cit_added']:4d}"
+            f"cit_cand={s['cit_candidates']:4d}  cit_add={s['cit_added']:4d}  "
+            f"recent_add={s['recent_added']:4d}"
         )
 
 

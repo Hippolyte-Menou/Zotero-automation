@@ -139,10 +139,11 @@ def build_genes_yml(vault_root: Path, genes_yml_path: Path) -> str:
 
     # Preserve top-level config or use defaults
     collections = existing.get("collections", {"genes_parent": "6 - Genes"})
-    search = existing.get("search", {"max_results": 25})
+    search = existing.get("search", {"max_results": 25, "recent_max_results": 10})
     citation_expansion = existing.get("citation_expansion", {
         "max_seed_papers": 100,
         "min_co_citations": 1,
+        "max_min_co": 6,
         "max_hops": 2,
         "hop2_top_n": 10,
     })

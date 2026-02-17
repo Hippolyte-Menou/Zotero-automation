@@ -12,9 +12,11 @@ collections:
   genes_parent: 6 - Genes
 search:
   max_results: 25
+  recent_max_results: 10
 citation_expansion:
   max_seed_papers: 100
   min_co_citations: 1
+  max_min_co: 6
   max_hops: 2
   hop2_top_n: 10
 default_exclusions_text:

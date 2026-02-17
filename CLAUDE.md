@@ -40,6 +40,7 @@ The `tags` field in genes.yml provides disease keywords. Tag slugs are converted
 
 The more papers already exist in the library for a gene, the higher the bar for new citation-discovered candidates:
 - `min_co_citations` scales with `log2(library_size)` -- a gene with 4 papers needs 2 co-citations, a gene with 64 papers needs 6
+- `max_min_co` (default 6) caps the adaptive threshold so mature libraries don't freeze out new discoveries
 - Recency bonus: papers from the last 3 years get up to +3 on their effective score
 - Bibliographic coupling bonus: candidates sharing references with the seed set get up to +3
 - Gene-name filter: candidates must mention the gene symbol or aliases in their title or abstract
@@ -47,6 +48,10 @@ The more papers already exist in the library for a gene, the higher the bar for 
 ### Multi-hop expansion
 
 Top candidates from each hop become seeds for the next hop, discovering papers that don't directly cite the original search results but are in the same research neighborhood. Controlled by `max_hops` (default 2) and `hop2_top_n` (default 10).
+
+### Recent papers pass
+
+After citation expansion, a separate OpenAlex search filtered to the current year retrieves up to `recent_max_results` (default 10) new papers per gene. These bypass the adaptive citation threshold entirely, ensuring current-year publications are not missed because they haven't yet accumulated enough citations or bibliographic coupling. Uploaded with `source:recent` tag.
 
 ## Running locally
 
@@ -72,8 +77,9 @@ Logs are written to `logs/run_YYYY-MM-DD.log`.
 - **OpenAlex-only**: no PubMed/Entrez dependency; searches via OpenAlex full-text index
 - **Disease-focused search**: boolean AND with disease keywords from tags, capped at configurable max_results
 - **Multi-hop citation expansion**: 2-hop forward/backward citations via OpenAlex with gene-name filtering and bibliographic coupling
-- **Provenance tagging**: papers tagged `source:search` or `source:citation` to track discovery method
-- **Text exclusion filters**: whole-word regex on title (e.g., "cancer", "tumor")
+- **Provenance tagging**: papers tagged `source:search`, `source:citation`, or `source:recent` to track discovery method
+- **Recent papers pass**: current-year OpenAlex search bypasses citation threshold; catches new publications before they accumulate citations
+- **Text exclusion filters**: whole-word regex on title and abstract (e.g., "cancer", "tumor")
 - **Batch uploads**: 50 items per Zotero API request with retry on timeout
 - **Zotero resilience**: 60s read timeout, 3-attempt retry with backoff on timeouts
 - **Gene selection priority**: CLI args > `INPUT_GENES` env var > all genes in `genes.yml`
@@ -89,10 +95,12 @@ collections:
 
 search:
   max_results: 25          # cap OpenAlex search results per gene
+  recent_max_results: 10   # cap recent-papers pass results per gene
 
 citation_expansion:
   max_seed_papers: 100     # expand citations for top N most-cited seeds per gene
   min_co_citations: 1      # minimum co-citation count (before adaptive scaling)
+  max_min_co: 6            # cap on adaptive threshold (prevents mature genes from freezing)
   max_hops: 2              # number of citation expansion hops
   hop2_top_n: 10           # how many hop-1 candidates become hop-2 seeds
 
