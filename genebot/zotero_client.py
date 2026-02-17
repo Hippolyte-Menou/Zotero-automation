@@ -6,32 +6,13 @@ from pyzotero import zotero
 
 logger = logging.getLogger(__name__)
 
-# Mapping from PubMed publication type strings to normalised tag names.
-# Only types worth tagging are listed; everything else is ignored.
-_PT_TAG_MAP = {
-    "Review": "review",
-    "Systematic Review": "systematic-review",
-    "Meta-Analysis": "meta-analysis",
-    "Randomized Controlled Trial": "randomized-controlled-trial",
-    "Clinical Trial": "clinical-trial",
-    "Case Reports": "case-report",
-    "Multicenter Study": "multicenter-study",
-    "Observational Study": "observational-study",
-    "Practice Guideline": "guideline",
-    "Guideline": "guideline",
+# Mapping from OpenAlex work type strings to normalised tag names.
+_TYPE_TAG_MAP = {
+    "review": "review",
+    "editorial": "editorial",
+    "letter": "letter",
+    "erratum": "erratum",
 }
-
-
-def _publication_type_tags(pub_types: list[str]) -> list[str]:
-    """Return normalised tag strings for a PubMed PT field value list."""
-    seen = set()
-    tags = []
-    for pt in pub_types:
-        tag = _PT_TAG_MAP.get(pt)
-        if tag and tag not in seen:
-            tags.append(tag)
-            seen.add(tag)
-    return tags
 
 
 class ZoteroGroupClient:
@@ -61,7 +42,7 @@ class ZoteroGroupClient:
         """
         Return the key for a collection with the given name.
         If it does not exist, create it (optionally nested under parent_key).
-        Safe to call multiple times — never creates duplicates.
+        Safe to call multiple times -- never creates duplicates.
         """
         if not self._collection_cache:
             self._load_collection_cache()
@@ -77,7 +58,7 @@ class ZoteroGroupClient:
         resp = self.zot.create_collections([payload])
         if resp.get("successful"):
             key = list(resp["successful"].values())[0]["data"]["key"]
-            logger.info(f"Created collection '{name}' (parent={parent_key}) → key {key}")
+            logger.info(f"Created collection '{name}' (parent={parent_key}) -> key {key}")
             self._collection_cache[name] = key
             return key
         else:
@@ -87,7 +68,7 @@ class ZoteroGroupClient:
         """
         Ensure a chain of nested collections exists and return the leaf key.
         Example: ensure_collection_path("6 - Genes", "CRB1")
-          → creates "6 - Genes" if needed, then "CRB1" under it.
+          -> creates "6 - Genes" if needed, then "CRB1" under it.
         """
         parent_key: str | None = None
         for name in names:
@@ -142,10 +123,13 @@ class ZoteroGroupClient:
         """
         Add papers to the Zotero group library in batches of 50.
 
+        Accepts records produced by OpenAlexClient.work_to_record().
+
         Tags applied to every item:
           - gene symbol (if provided)
-          - publication-type tags derived from PubMed PT field
+          - work type tag (from OpenAlex type field)
           - any extra_tags passed in (disease groups etc.)
+          - source_tag for provenance tracking
         """
         stats = {"added": 0, "failed": 0, "skipped_no_data": 0}
 
@@ -159,7 +143,13 @@ class ZoteroGroupClient:
             tag_strings: list[str] = []
             if gene_symbol:
                 tag_strings.append(gene_symbol)
-            tag_strings.extend(_publication_type_tags(r.get("publication_type", [])))
+
+            # Work type tag from OpenAlex
+            for pt in r.get("publication_type", []):
+                tag = _TYPE_TAG_MAP.get(pt)
+                if tag:
+                    tag_strings.append(tag)
+
             if extra_tags:
                 tag_strings.extend(extra_tags)
             if source_tag:

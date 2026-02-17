@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 """
 Gene Literature Bot
-Exhaustive PubMed search -> Zotero group library.
+OpenAlex search + citation network -> Zotero group library.
 
 Reads gene list from genes.yml, credentials from environment variables.
 
 Local usage:
-    export NCBI_EMAIL="you@example.com"
     export ZOTERO_API_KEY="xxx"
     export ZOTERO_GROUP_ID="123456"
     python run.py                     # all genes from genes.yml
@@ -24,11 +23,8 @@ import datetime
 import yaml
 
 from genebot.hgnc import get_gene_aliases
-from genebot.pubmed import build_query, search_pubmed, fetch_by_pmids
-from genebot.filters import filter_by_text
-from genebot.zotero_client import ZoteroGroupClient
-from genebot.disease_terms import get_disease_query_terms
 from genebot.openalex import OpenAlexClient
+from genebot.zotero_client import ZoteroGroupClient
 
 os.makedirs("logs", exist_ok=True)
 
@@ -50,21 +46,17 @@ def load_genes_config(path: str = "genes.yml") -> dict:
 
 def process_gene(
     gene_cfg: dict,
-    default_excl_mesh: list[str],
     default_excl_text: list[str],
     genes_parent_key: str | None,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
-    ncbi_email: str,
-    ncbi_api_key: str | None,
-    openalex_client: OpenAlexClient | None = None,
-    citation_cfg: dict | None = None,
+    openalex: OpenAlexClient,
+    citation_cfg: dict,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
     symbol = gene_cfg["symbol"]
     collection_name = gene_cfg.get("collection", symbol)
-    mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
     text_excl = gene_cfg.get("exclude_text", default_excl_text)
     gene_tags = gene_cfg.get("tags", [])
 
@@ -72,38 +64,33 @@ def process_gene(
     logger.info(f"Processing: {symbol}")
     logger.info(f"{'=' * 60}")
 
-    # 1. Gene aliases
+    # 1. Gene aliases from HGNC
     aliases = get_gene_aliases(symbol)
+    search_terms = sorted(aliases)
 
-    # 2. Disease-scoped PubMed search
-    disease_terms = get_disease_query_terms(gene_tags)
-    query = build_query(aliases, mesh_excl, disease_terms=disease_terms)
-    pubmed_delay = 0.11 if ncbi_api_key else 0.34
-    records = search_pubmed(
-        query=query,
-        email=ncbi_email,
-        api_key=ncbi_api_key,
-        delay=pubmed_delay,
-    )
+    # 2. OpenAlex search: gene symbol + aliases in title/abstract
+    works = openalex.search_gene(search_terms, exclude_terms=text_excl)
 
-    if not records:
+    if not works:
         logger.info(f"No results for {symbol}")
         return {
-            "symbol": symbol, "found": 0, "new": 0, "added": 0, "failed": 0,
-            "citation_candidates": 0, "citation_new": 0, "citation_added": 0,
+            "symbol": symbol, "found": 0, "new": 0,
+            "added": 0, "failed": 0,
+            "cit_candidates": 0, "cit_added": 0,
         }
 
-    # 3. Text filter
-    records = filter_by_text(records, text_excl)
-
-    # 4. Dedup against existing library
-    new_records = [r for r in records if r.get("pmid") and r["pmid"] not in existing_pmids]
+    # 3. Dedup against existing library
+    all_records = [OpenAlexClient.work_to_record(w) for w in works]
+    new_records = [
+        r for r in all_records
+        if r.get("pmid") and r["pmid"] not in existing_pmids
+    ]
     logger.info(
-        f"{symbol}: {len(records)} after filters, "
-        f"{len(new_records)} new ({len(records) - len(new_records)} already in library)"
+        f"{symbol}: {len(all_records)} from OpenAlex search, "
+        f"{len(new_records)} new ({len(all_records) - len(new_records)} already in library)"
     )
 
-    # 5. Get/create nested collection: "6 - Genes" > "CRB1"
+    # 4. Get/create Zotero collection
     if genes_parent_key:
         collection_key = zot.get_or_create_collection(
             collection_name, parent_key=genes_parent_key
@@ -111,111 +98,105 @@ def process_gene(
     else:
         collection_key = zot.get_or_create_collection(collection_name)
 
-    # 6. Upload PubMed-found papers
-    pubmed_stats = {"added": 0, "failed": 0}
+    # 5. Upload search-found papers
+    search_stats = {"added": 0, "failed": 0}
     if new_records:
-        pubmed_stats = zot.add_papers(
+        search_stats = zot.add_papers(
             new_records,
             collection_key=collection_key,
             gene_symbol=symbol,
             extra_tags=gene_tags,
-            source_tag="source:pubmed",
+            source_tag="source:search",
         )
         for r in new_records:
             existing_pmids.add(r["pmid"])
 
-    # 7. Citation network expansion
-    citation_candidates = 0
-    citation_new = 0
-    citation_added = 0
+    # 6. Citation network expansion
+    #    Adaptive: the more papers already in the library, the higher the bar
+    library_size = len(all_records)  # total search hits = proxy for gene's literature size
+    max_seeds = citation_cfg.get("max_seed_papers", 100)
+    min_co = citation_cfg.get("min_co_citations", 1)
 
-    if openalex_client and records:
-        cfg = citation_cfg or {}
-        max_seeds = cfg.get("max_seed_papers", 100)
-        min_co = cfg.get("min_co_citations", 1)
+    candidates = openalex.expand_citations(
+        seed_works=works,
+        existing_pmids=existing_pmids,
+        library_size=library_size,
+        max_seeds=max_seeds,
+        min_co_citations=min_co,
+    )
 
-        # Use all PubMed results (new + existing) as seeds
-        seed_pmids = [r["pmid"] for r in records if r.get("pmid")]
-        candidates = openalex_client.expand_seeds(seed_pmids, existing_pmids, max_seeds=max_seeds)
+    cit_added = 0
+    if candidates:
+        # Fetch full metadata for candidate PMIDs
+        candidate_pmids = [c["pmid"] for c in candidates]
+        candidate_works = openalex.fetch_works_by_pmids(candidate_pmids)
+        candidate_records = [OpenAlexClient.work_to_record(w) for w in candidate_works]
 
-        # Filter by minimum co-citation count
-        candidates = [c for c in candidates if c["co_citations"] >= min_co]
-        citation_candidates = len(candidates)
-
-        if candidates:
-            # Fetch full Medline records for candidates
-            candidate_pmids = [c["pmid"] for c in candidates]
-            citation_records = fetch_by_pmids(
-                candidate_pmids,
-                email=ncbi_email,
-                api_key=ncbi_api_key,
-                delay=pubmed_delay,
-            )
-
-            # Apply same text filters
-            citation_records = filter_by_text(citation_records, text_excl)
-
-            # Final dedup (expand_seeds already filtered, but fetch_by_pmids may return extras)
-            citation_new_records = [
-                r for r in citation_records
-                if r.get("pmid") and r["pmid"] not in existing_pmids
+        # Text filter + dedup
+        import re
+        if text_excl:
+            patterns = [
+                re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                for t in text_excl
             ]
-            citation_new = len(citation_new_records)
+            candidate_records = [
+                r for r in candidate_records
+                if not any(p.search(r.get("title", "")) for p in patterns)
+            ]
 
-            if citation_new_records:
-                cit_stats = zot.add_papers(
-                    citation_new_records,
-                    collection_key=collection_key,
-                    gene_symbol=symbol,
-                    extra_tags=gene_tags,
-                    source_tag="source:citation",
-                )
-                citation_added = cit_stats["added"]
-                for r in citation_new_records:
-                    existing_pmids.add(r["pmid"])
+        candidate_records = [
+            r for r in candidate_records
+            if r.get("pmid") and r["pmid"] not in existing_pmids
+        ]
 
-            logger.info(
-                f"{symbol} citations: {len(seed_pmids)} seeds -> "
-                f"{citation_candidates} candidates -> {citation_new} new -> "
-                f"{citation_added} added"
+        if candidate_records:
+            cit_stats = zot.add_papers(
+                candidate_records,
+                collection_key=collection_key,
+                gene_symbol=symbol,
+                extra_tags=gene_tags,
+                source_tag="source:citation",
             )
+            cit_added = cit_stats["added"]
+            for r in candidate_records:
+                existing_pmids.add(r["pmid"])
+
+    logger.info(
+        f"{symbol}: search_added={search_stats['added']}, "
+        f"cit_candidates={len(candidates)}, cit_added={cit_added}"
+    )
 
     return {
         "symbol": symbol,
-        "found": len(records),
+        "found": len(all_records),
         "new": len(new_records),
-        **pubmed_stats,
-        "citation_candidates": citation_candidates,
-        "citation_new": citation_new,
-        "citation_added": citation_added,
+        **search_stats,
+        "cit_candidates": len(candidates),
+        "cit_added": cit_added,
     }
 
 
 def main():
     # Credentials from env
-    ncbi_email = os.environ.get("NCBI_EMAIL")
-    ncbi_api_key = os.environ.get("NCBI_API_KEY") or None
     zotero_api_key = os.environ.get("ZOTERO_API_KEY")
     zotero_group_id = os.environ.get("ZOTERO_GROUP_ID")
 
-    if not ncbi_email or not zotero_api_key or not zotero_group_id:
+    if not zotero_api_key or not zotero_group_id:
         logger.error(
-            "Missing required env vars. Set: NCBI_EMAIL, ZOTERO_API_KEY, ZOTERO_GROUP_ID"
+            "Missing required env vars. Set: ZOTERO_API_KEY, ZOTERO_GROUP_ID"
         )
         sys.exit(1)
 
-    # OpenAlex client (optional but recommended for citation expansion)
+    # OpenAlex client
     openalex_key = os.environ.get("OPENALEX_API_KEY") or None
-    openalex_client: OpenAlexClient | None = None
+    openalex = OpenAlexClient(api_key=openalex_key)
     if openalex_key:
-        openalex_client = OpenAlexClient(api_key=openalex_key)
         logger.info("OpenAlex client initialized (with API key)")
     else:
-        logger.info("OPENALEX_API_KEY not set -- citation expansion disabled")
+        logger.info("OpenAlex client initialized (no API key -- lower rate limit)")
 
     # Load gene config
     config = load_genes_config()
-    default_excl_mesh = config.get("default_exclusions_mesh", [])
     default_excl_text = config.get("default_exclusions_text", [])
     all_genes = config.get("genes", [])
     collections_cfg = config.get("collections", {})
@@ -236,7 +217,6 @@ def main():
 
     genes_to_run = []
     if target_symbols:
-        # Match against config; create default entry for unknown symbols
         known = {g["symbol"]: g for g in all_genes}
         for s in target_symbols:
             if s in known:
@@ -260,7 +240,7 @@ def main():
     )
     existing_pmids = zot.get_existing_pmids()
 
-    # Ensure parent collection exists once (e.g. "6 - Genes"), reuse key for all genes
+    # Ensure parent collection exists once
     genes_parent_key: str | None = None
     if genes_parent_name:
         genes_parent_key = zot.get_or_create_collection(genes_parent_name)
@@ -271,14 +251,11 @@ def main():
     for gene_cfg in genes_to_run:
         stats = process_gene(
             gene_cfg=gene_cfg,
-            default_excl_mesh=default_excl_mesh,
             default_excl_text=default_excl_text,
             genes_parent_key=genes_parent_key,
             zot=zot,
             existing_pmids=existing_pmids,
-            ncbi_email=ncbi_email,
-            ncbi_api_key=ncbi_api_key,
-            openalex_client=openalex_client,
+            openalex=openalex,
             citation_cfg=citation_cfg,
         )
         summary.append(stats)
@@ -289,16 +266,10 @@ def main():
     logger.info("SUMMARY")
     logger.info("=" * 60)
     for s in summary:
-        cit_part = ""
-        if s.get("citation_candidates", 0) > 0:
-            cit_part = (
-                f"  cit_cand={s['citation_candidates']:4d}  "
-                f"cit_new={s['citation_new']:4d}  cit_add={s['citation_added']:4d}"
-            )
         logger.info(
             f"  {s['symbol']:12s}  found={s['found']:4d}  "
-            f"new={s['new']:4d}  added={s['added']:4d}  failed={s['failed']:4d}"
-            f"{cit_part}"
+            f"new={s['new']:4d}  added={s['added']:4d}  failed={s['failed']:4d}  "
+            f"cit_cand={s['cit_candidates']:4d}  cit_add={s['cit_added']:4d}"
         )
 
 
