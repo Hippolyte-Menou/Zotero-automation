@@ -2,18 +2,18 @@
 
 ## Project overview
 
-Automated OpenAlex-to-Zotero pipeline. Searches OpenAlex for gene-specific literature, expands results via citation network traversal with adaptive selectivity, deduplicates against an existing Zotero group library, and uploads new papers. Runs via GitHub Actions (weekly cron or manual trigger) or locally.
+Automated OpenAlex-to-Zotero pipeline. Searches OpenAlex for gene-specific literature using disease keyword filtering, expands results via multi-hop citation network traversal with bibliographic coupling and gene-name filtering, deduplicates against an existing Zotero group library, and uploads new papers. Runs via GitHub Actions (weekly cron or manual trigger) or locally.
 
 ## Architecture
 
 ```
 run.py                  # entrypoint -- orchestrates the full pipeline
-genes.yml               # gene list + exclusion config + citation expansion settings
+genes.yml               # gene list + exclusion config + search/citation settings
 build_genes_yml.py      # generates genes.yml from vault gene notes
 genebot/
   hgnc.py               # fetch gene aliases from HGNC REST API
   openalex.py           # OpenAlex API client (search + citation expansion)
-  zotero_client.py      # Zotero group library client (pyzotero)
+  zotero_client.py      # Zotero group library client (pyzotero + httpx)
 .github/workflows/
   genebot.yml           # GitHub Actions workflow (cron + manual dispatch)
 ```
@@ -21,17 +21,32 @@ genebot/
 ## Pipeline flow
 
 1. For each gene, fetch HGNC aliases (symbol + previous/alias names)
-2. Search OpenAlex: `title_and_abstract.search` with gene symbol + aliases, filtered to `type:article,has_pmid:true`
+2. Search OpenAlex: `(gene OR aliases) AND (disease keywords)` using boolean syntax in `title_and_abstract.search`, filtered to `type:article,has_pmid:true`, capped at `search.max_results` (default 25)
 3. Apply text exclusion filters, dedup against Zotero library
 4. Upload new search-found papers with `source:search` tag
-5. Citation expansion: resolve search results via OpenAlex, expand one hop (references + forward citations), score by co-citation count with recency bonus, apply adaptive threshold based on library size, fetch full metadata, filter, dedup, upload with `source:citation` tag
+5. Multi-hop citation expansion (default 2 hops):
+   - Hop 1: expand search results via backward references + forward citations
+   - Score candidates by co-citation count + bibliographic coupling (shared references with seed set, capped at +3) + recency bonus (up to +3 for papers < 3 years old)
+   - Apply adaptive threshold based on library size
+   - Fetch full metadata, filter by gene-name presence in title/abstract
+   - Hop 2: top N candidates from hop 1 become new seeds, repeat expansion
+   - Merge, deduplicate, text-filter, upload with `source:citation` tag
+
+### Disease keyword search
+
+The `tags` field in genes.yml provides disease keywords. Tag slugs are converted to search terms (`retinitis-pigmentosa` -> `"retinitis pigmentosa"`). The OpenAlex query becomes `(ABCA4 OR ARMD2 OR STGD) AND ("stargardt disease" OR "retinitis pigmentosa" OR ...)`, keeping results focused on the gene's ophthalmic context.
 
 ### Adaptive selectivity
 
 The more papers already exist in the library for a gene, the higher the bar for new citation-discovered candidates:
 - `min_co_citations` scales with `log2(library_size)` -- a gene with 4 papers needs 2 co-citations, a gene with 64 papers needs 6
-- Recency bonus: papers from the last 3 years get up to +3 on their effective score, so recent papers can pass with fewer co-citations
-- This prevents well-covered genes from accumulating tangential papers while still allowing fresh discoveries
+- Recency bonus: papers from the last 3 years get up to +3 on their effective score
+- Bibliographic coupling bonus: candidates sharing references with the seed set get up to +3
+- Gene-name filter: candidates must mention the gene symbol or aliases in their title or abstract
+
+### Multi-hop expansion
+
+Top candidates from each hop become seeds for the next hop, discovering papers that don't directly cite the original search results but are in the same research neighborhood. Controlled by `max_hops` (default 2) and `hop2_top_n` (default 10).
 
 ## Running locally
 
@@ -55,10 +70,12 @@ Logs are written to `logs/run_YYYY-MM-DD.log`.
 
 - **Idempotent**: only adds papers not already in the library (dedup by PMID)
 - **OpenAlex-only**: no PubMed/Entrez dependency; searches via OpenAlex full-text index
-- **Citation network expansion**: one-hop forward/backward citations via OpenAlex. Scored by co-citation count with recency bonus. Adaptive threshold scales with library size.
+- **Disease-focused search**: boolean AND with disease keywords from tags, capped at configurable max_results
+- **Multi-hop citation expansion**: 2-hop forward/backward citations via OpenAlex with gene-name filtering and bibliographic coupling
 - **Provenance tagging**: papers tagged `source:search` or `source:citation` to track discovery method
 - **Text exclusion filters**: whole-word regex on title (e.g., "cancer", "tumor")
-- **Batch uploads**: 50 items per Zotero API request
+- **Batch uploads**: 50 items per Zotero API request with retry on timeout
+- **Zotero resilience**: 60s read timeout, 3-attempt retry with backoff on timeouts
 - **Gene selection priority**: CLI args > `INPUT_GENES` env var > all genes in `genes.yml`
 - Unknown gene symbols passed via CLI/env get default exclusions (no custom config required)
 
@@ -70,9 +87,14 @@ Logs are written to `logs/run_YYYY-MM-DD.log`.
 collections:
   genes_parent: "6 - Genes"
 
+search:
+  max_results: 25          # cap OpenAlex search results per gene
+
 citation_expansion:
-  max_seed_papers: 100    # expand citations for top N most-cited seeds per gene
-  min_co_citations: 1     # minimum co-citation count (before adaptive scaling)
+  max_seed_papers: 100     # expand citations for top N most-cited seeds per gene
+  min_co_citations: 1      # minimum co-citation count (before adaptive scaling)
+  max_hops: 2              # number of citation expansion hops
+  hop2_top_n: 10           # how many hop-1 candidates become hop-2 seeds
 
 default_exclusions_text:
   - cancer
@@ -82,10 +104,10 @@ default_exclusions_text:
 genes:
   - symbol: PAX6
     collection: PAX6
-    tags:
+    tags:                    # used as disease keywords in search AND clause
       - aniridia
       - anterior-segment-dysgenesis
-    exclude_text:           # optional per-gene override
+    exclude_text:            # optional per-gene override
       - "pancreatic"
 ```
 
@@ -100,6 +122,7 @@ genes:
 ## Dependencies
 
 - `pyzotero` -- Zotero API client
+- `httpx` -- HTTP client with configurable timeouts (used by pyzotero)
 - `requests` -- HGNC REST API + OpenAlex API
 - `pyyaml` -- config parsing
 

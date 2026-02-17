@@ -2,6 +2,7 @@
 
 import time
 import logging
+import httpx
 from pyzotero import zotero
 
 logger = logging.getLogger(__name__)
@@ -17,7 +18,11 @@ _TYPE_TAG_MAP = {
 
 class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
-        self.zot = zotero.Zotero(group_id, "group", api_key)
+        client = httpx.Client(
+            timeout=httpx.Timeout(60.0, connect=15.0),
+            follow_redirects=True,
+        )
+        self.zot = zotero.Zotero(group_id, "group", api_key, client=client)
         self.delay = delay
         # Cache of collection name -> key, populated lazily
         self._collection_cache: dict[str, str] = {}
@@ -83,11 +88,26 @@ class ZoteroGroupClient:
         """
         Retrieve all PMIDs already in the group library.
         Scans the 'extra' field and PubMed URLs for PMID entries.
+        Retries up to 3 times on timeout.
         """
         logger.info("Fetching existing library items for deduplication...")
         existing_pmids = set()
 
-        items = self.zot.everything(self.zot.items(itemType="-attachment"))
+        items = None
+        for attempt in range(3):
+            try:
+                items = self.zot.everything(self.zot.items(itemType="-attachment"))
+                break
+            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+                wait = 5 * (attempt + 1)
+                logger.warning(
+                    f"Zotero read timeout (attempt {attempt + 1}/3): {e}. "
+                    f"Retrying in {wait}s..."
+                )
+                time.sleep(wait)
+        if items is None:
+            logger.error("Failed to fetch library items after 3 attempts")
+            return existing_pmids
 
         for item in items:
             data = item.get("data", {})
@@ -210,20 +230,34 @@ class ZoteroGroupClient:
             batch = items_to_create[i : i + batch_size]
             logger.info(f"Uploading batch {i // batch_size + 1} ({len(batch)} items)")
 
-            try:
-                resp = self.zot.create_items(batch)
-                n_success = len(resp.get("successful", {}))
-                n_failed = len(resp.get("failed", {}))
-                stats["added"] += n_success
-                stats["failed"] += n_failed
+            for attempt in range(3):
+                try:
+                    resp = self.zot.create_items(batch)
+                    n_success = len(resp.get("successful", {}))
+                    n_failed = len(resp.get("failed", {}))
+                    stats["added"] += n_success
+                    stats["failed"] += n_failed
 
-                if n_failed > 0:
-                    for idx, err in resp["failed"].items():
-                        logger.warning(f"  Failed item {idx}: {err}")
+                    if n_failed > 0:
+                        for idx, err in resp["failed"].items():
+                            logger.warning(f"  Failed item {idx}: {err}")
+                    break
 
-            except Exception as e:
-                stats["failed"] += len(batch)
-                logger.error(f"Batch upload error: {e}")
+                except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+                    wait = 5 * (attempt + 1)
+                    logger.warning(
+                        f"Batch upload timeout (attempt {attempt + 1}/3): {e}. "
+                        f"Retrying in {wait}s..."
+                    )
+                    time.sleep(wait)
+                    if attempt == 2:
+                        stats["failed"] += len(batch)
+                        logger.error(f"Batch upload failed after 3 attempts: {e}")
+
+                except Exception as e:
+                    stats["failed"] += len(batch)
+                    logger.error(f"Batch upload error: {e}")
+                    break
 
             time.sleep(self.delay)
 

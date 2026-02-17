@@ -10,9 +10,13 @@
 
 collections:
   genes_parent: 6 - Genes
+search:
+  max_results: 25
 citation_expansion:
   max_seed_papers: 100
   min_co_citations: 1
+  max_hops: 2
+  hop2_top_n: 10
 default_exclusions_text:
 - cancer
 - tumor

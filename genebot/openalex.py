@@ -22,7 +22,8 @@ BASE_URL = "https://api.openalex.org"
 # Enough to build a Zotero item without a second API call.
 WORK_FIELDS = (
     "id,ids,title,publication_year,publication_date,cited_by_count,"
-    "type,primary_location,authorships,referenced_works"
+    "type,primary_location,authorships,referenced_works,"
+    "abstract_inverted_index"
 )
 
 
@@ -36,6 +37,21 @@ def _invert_abstract(inv_index: dict | None) -> str:
             word_positions.append((pos, word))
     word_positions.sort()
     return " ".join(w for _, w in word_positions)
+
+
+def _tags_to_keywords(tags: list[str]) -> list[str]:
+    """Convert genes.yml tag slugs to OpenAlex search keywords.
+
+    Replaces hyphens with spaces. Multi-word terms are quoted for
+    exact phrase matching in OpenAlex boolean search.
+    """
+    keywords = []
+    for tag in tags:
+        term = tag.replace("-", " ")
+        if " " in term:
+            term = f'"{term}"'
+        keywords.append(term)
+    return keywords
 
 
 class OpenAlexClient:
@@ -87,15 +103,26 @@ class OpenAlexClient:
         search_terms: list[str],
         exclude_terms: list[str] | None = None,
         max_results: int = 10000,
+        disease_keywords: list[str] | None = None,
     ) -> list[dict]:
         """Search OpenAlex for works mentioning any of the search terms.
 
-        Uses title_and_abstract.search with OR logic for gene symbol + aliases.
+        Uses title_and_abstract.search with boolean logic:
+        - Without disease_keywords: OR logic for gene symbol + aliases
+        - With disease_keywords: (gene terms) AND (disease terms)
+
         Filters: type=article, has_pmid=true.
 
         Returns list of work dicts with full metadata.
         """
-        query = " OR ".join(search_terms)
+        gene_part = " OR ".join(search_terms)
+        if disease_keywords:
+            kw_terms = _tags_to_keywords(disease_keywords)
+            disease_part = " OR ".join(kw_terms)
+            query = f"({gene_part}) AND ({disease_part})"
+        else:
+            query = gene_part
+        logger.info(f"OpenAlex query: {query}")
         filters = [
             f"title_and_abstract.search:{query}",
             "type:article",
@@ -175,24 +202,24 @@ class OpenAlexClient:
 
         return results[:limit]
 
-    def expand_citations(
+    def _expand_one_hop(
         self,
         seed_works: list[dict],
         existing_pmids: set[str],
         library_size: int,
         max_seeds: int = 100,
         min_co_citations: int = 1,
+        hop_label: str = "hop 1",
     ) -> list[dict]:
-        """Expand seed papers via one-hop citation network.
+        """Single-hop citation network expansion with bibliographic coupling.
 
-        Adaptive selectivity: the larger the existing library for this gene,
-        the higher the bar for inclusion:
-        - min_co_citations scales with log2(library_size)
-        - candidates also get a recency bonus (recent papers need fewer
-          co-citations to pass)
+        Scores candidates by:
+        - co_citations: how many seeds cite or are cited by this candidate
+        - bib_coupling: how many references the candidate shares with the
+          seed set (capped at 3 to avoid over-weighting review papers)
+        - recency_bonus: recent papers (< 3 years) get up to +3
 
-        Returns candidate PMIDs sorted by score, with full work metadata
-        fetched for the top candidates.
+        Returns scored candidate list sorted by effective_score.
         """
         if not seed_works:
             return []
@@ -203,7 +230,7 @@ class OpenAlexClient:
             int(math.log2(max(library_size, 2)))
         )
         logger.info(
-            f"Citation expansion: {len(seed_works)} seeds, "
+            f"Citation expansion ({hop_label}): {len(seed_works)} seeds, "
             f"library_size={library_size}, adaptive_min_co={adaptive_min_co}"
         )
 
@@ -216,15 +243,20 @@ class OpenAlexClient:
 
         seed_pmids = {self._extract_pmid(w) for w in seed_works}
 
-        # candidate OpenAlex ID -> {co_citations, directions, year}
+        # Build seed reference set for bibliographic coupling
+        seed_reference_set: set[str] = set()
+        for w in seeds:
+            seed_reference_set.update(w.get("referenced_works", []))
+
+        # candidate OpenAlex ID -> {co_citations, bib_coupling, directions, year, referenced_works}
         candidates: dict[str, dict] = defaultdict(
-            lambda: {"co_citations": 0, "directions": set(), "year": 0}
+            lambda: {"co_citations": 0, "bib_coupling": 0, "directions": set(), "year": 0}
         )
 
         for i, work in enumerate(seeds):
             openalex_id = work.get("id", "")
             if (i + 1) % 20 == 0 or (i + 1) == len(seeds):
-                logger.info(f"Expanding seed {i + 1}/{len(seeds)}")
+                logger.info(f"Expanding seed {i + 1}/{len(seeds)} ({hop_label})")
 
             # Backward: referenced_works already in the work object
             for ref_id in work.get("referenced_works", []):
@@ -242,12 +274,12 @@ class OpenAlexClient:
                     if year > candidates[cit_id]["year"]:
                         candidates[cit_id]["year"] = year
 
-        logger.info(f"Raw candidates from citation network: {len(candidates)}")
+        logger.info(f"Raw candidates from citation network ({hop_label}): {len(candidates)}")
 
         # Resolve OpenAlex IDs to PMIDs (only those with PMIDs)
         candidate_ids = list(candidates.keys())
         id_to_pmid = self._resolve_openalex_ids_to_pmids(candidate_ids)
-        logger.info(f"Candidates with PMIDs: {len(id_to_pmid)}")
+        logger.info(f"Candidates with PMIDs ({hop_label}): {len(id_to_pmid)}")
 
         # Score, filter, sort
         current_year = time.localtime().tm_year
@@ -261,9 +293,16 @@ class OpenAlexClient:
             co_cit = info["co_citations"]
             year = info["year"]
 
+            # Bibliographic coupling: count shared references with seed set
+            # (candidates from forward citations won't have referenced_works
+            # in the lightweight data -- bib_coupling stays 0 for them here,
+            # it will be computed after full metadata fetch in expand_citations)
+            bib_coupling = info["bib_coupling"]
+
             # Recency bonus: papers from the last 3 years get a lower bar
             recency_bonus = max(0, 3 - (current_year - year)) if year else 0
-            effective_co = co_cit + recency_bonus
+            bib_bonus = min(bib_coupling, 3)
+            effective_co = co_cit + bib_bonus + recency_bonus
 
             if effective_co < adaptive_min_co:
                 continue
@@ -280,6 +319,7 @@ class OpenAlexClient:
                 "pmid": pmid,
                 "openalex_id": oa_id,
                 "co_citations": co_cit,
+                "bib_coupling": bib_coupling,
                 "recency_bonus": recency_bonus,
                 "effective_score": effective_co,
                 "year": year,
@@ -289,11 +329,140 @@ class OpenAlexClient:
         scored.sort(key=lambda x: x["effective_score"], reverse=True)
 
         logger.info(
-            f"Citation expansion: {len(seeds)} seeds -> {len(scored)} candidates "
-            f"above threshold (adaptive_min_co={adaptive_min_co})"
+            f"Citation expansion ({hop_label}): {len(seeds)} seeds -> "
+            f"{len(scored)} candidates above threshold "
+            f"(adaptive_min_co={adaptive_min_co})"
         )
 
         return scored
+
+    def expand_citations(
+        self,
+        seed_works: list[dict],
+        existing_pmids: set[str],
+        library_size: int,
+        max_seeds: int = 100,
+        min_co_citations: int = 1,
+        gene_terms: list[str] | None = None,
+        max_hops: int = 1,
+        hop2_top_n: int = 10,
+    ) -> list[dict]:
+        """Multi-hop citation expansion with gene-name filtering and
+        bibliographic coupling.
+
+        Hop 1: expand seed_works via citation network.
+        Hop 2 (if max_hops >= 2): top candidates from hop 1 become new seeds.
+
+        After each hop, candidates are filtered to only keep papers that
+        mention the gene (symbol or aliases) in their title or abstract.
+
+        Returns final scored candidate list with full work metadata attached
+        (key 'work' on each candidate dict).
+        """
+        if not seed_works:
+            return []
+
+        all_seen_pmids = set(existing_pmids)
+        all_candidates: list[dict] = []
+
+        for hop in range(1, max_hops + 1):
+            hop_label = f"hop {hop}"
+
+            if hop == 1:
+                hop_seeds = seed_works
+            else:
+                # Use top candidates from previous hop as new seeds
+                if not all_candidates:
+                    logger.info(f"No candidates from previous hop, skipping {hop_label}")
+                    break
+                top_pmids = [c["pmid"] for c in all_candidates[:hop2_top_n]]
+                hop_seed_works = self.fetch_works_by_pmids(top_pmids)
+                if not hop_seed_works:
+                    logger.info(f"Could not fetch seed works for {hop_label}")
+                    break
+                hop_seeds = hop_seed_works
+                logger.info(
+                    f"{hop_label}: using top {len(hop_seeds)} candidates as seeds"
+                )
+
+            scored = self._expand_one_hop(
+                seed_works=hop_seeds,
+                existing_pmids=all_seen_pmids,
+                library_size=library_size,
+                max_seeds=max_seeds,
+                min_co_citations=min_co_citations,
+                hop_label=hop_label,
+            )
+
+            if not scored:
+                logger.info(f"No candidates from {hop_label}")
+                break
+
+            # Fetch full metadata for candidates
+            candidate_pmids = [c["pmid"] for c in scored]
+            candidate_works = self.fetch_works_by_pmids(candidate_pmids)
+            work_by_pmid = {self._extract_pmid(w): w for w in candidate_works}
+
+            # Compute bibliographic coupling from full metadata
+            # Build seed reference set
+            seed_ref_set: set[str] = set()
+            for w in hop_seeds:
+                seed_ref_set.update(w.get("referenced_works", []))
+
+            for c in scored:
+                work = work_by_pmid.get(c["pmid"])
+                if not work:
+                    continue
+                refs = set(work.get("referenced_works", []))
+                bib_coupling = len(refs & seed_ref_set)
+                c["bib_coupling"] = bib_coupling
+                bib_bonus = min(bib_coupling, 3)
+                c["effective_score"] = (
+                    c["co_citations"] + bib_bonus + c["recency_bonus"]
+                )
+                c["work"] = work
+
+            # Remove candidates without full metadata
+            scored = [c for c in scored if "work" in c]
+
+            # Gene-name filter
+            if gene_terms:
+                before = len(scored)
+                scored = [
+                    c for c in scored
+                    if self._mentions_gene(c["work"], gene_terms)
+                ]
+                removed = before - len(scored)
+                if removed:
+                    logger.info(
+                        f"Gene filter ({hop_label}): removed {removed}/{before} "
+                        f"candidates (no gene mention in title/abstract)"
+                    )
+
+            # Re-sort after bib coupling update
+            scored.sort(key=lambda x: x["effective_score"], reverse=True)
+
+            # Track seen PMIDs to avoid duplicates across hops
+            for c in scored:
+                all_seen_pmids.add(c["pmid"])
+
+            all_candidates.extend(scored)
+
+        # Deduplicate across hops (keep highest score)
+        seen: set[str] = set()
+        deduped: list[dict] = []
+        all_candidates.sort(key=lambda x: x["effective_score"], reverse=True)
+        for c in all_candidates:
+            if c["pmid"] not in seen:
+                seen.add(c["pmid"])
+                deduped.append(c)
+
+        logger.info(
+            f"Citation expansion complete: {len(deduped)} final candidates "
+            f"across {min(max_hops, len(all_candidates) > 0 and max_hops or 1)} hop(s)"
+        )
+
+        return deduped
 
     def fetch_works_by_pmids(self, pmids: list[str]) -> list[dict]:
         """Fetch full work metadata for a list of PMIDs.
@@ -367,6 +536,18 @@ class OpenAlexClient:
                 page += 1
 
         return result
+
+    @staticmethod
+    def _mentions_gene(work: dict, gene_terms: list[str]) -> bool:
+        """Check if a work mentions any gene term in title or abstract."""
+        import re
+        title = work.get("title", "") or ""
+        abstract = _invert_abstract(work.get("abstract_inverted_index"))
+        text = f"{title} {abstract}"
+        for term in gene_terms:
+            if re.search(rf"\b{re.escape(term)}\b", text, re.IGNORECASE):
+                return True
+        return False
 
     @staticmethod
     def _filter_by_text(works: list[dict], exclude_terms: list[str]) -> list[dict]:

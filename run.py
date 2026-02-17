@@ -52,6 +52,7 @@ def process_gene(
     existing_pmids: set[str],
     openalex: OpenAlexClient,
     citation_cfg: dict,
+    search_max_results: int = 25,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
@@ -68,8 +69,13 @@ def process_gene(
     aliases = get_gene_aliases(symbol)
     search_terms = sorted(aliases)
 
-    # 2. OpenAlex search: gene symbol + aliases in title/abstract
-    works = openalex.search_gene(search_terms, exclude_terms=text_excl)
+    # 2. OpenAlex search: gene symbol + aliases AND disease keywords
+    works = openalex.search_gene(
+        search_terms,
+        exclude_terms=text_excl,
+        max_results=search_max_results,
+        disease_keywords=gene_tags or None,
+    )
 
     if not works:
         logger.info(f"No results for {symbol}")
@@ -111,11 +117,12 @@ def process_gene(
         for r in new_records:
             existing_pmids.add(r["pmid"])
 
-    # 6. Citation network expansion
-    #    Adaptive: the more papers already in the library, the higher the bar
-    library_size = len(all_records)  # total search hits = proxy for gene's literature size
+    # 6. Citation network expansion (multi-hop, gene-filtered, bib coupling)
+    library_size = len(all_records)
     max_seeds = citation_cfg.get("max_seed_papers", 100)
     min_co = citation_cfg.get("min_co_citations", 1)
+    max_hops = citation_cfg.get("max_hops", 2)
+    hop2_top_n = citation_cfg.get("hop2_top_n", 10)
 
     candidates = openalex.expand_citations(
         seed_works=works,
@@ -123,14 +130,17 @@ def process_gene(
         library_size=library_size,
         max_seeds=max_seeds,
         min_co_citations=min_co,
+        gene_terms=search_terms,
+        max_hops=max_hops,
+        hop2_top_n=hop2_top_n,
     )
 
     cit_added = 0
     if candidates:
-        # Fetch full metadata for candidate PMIDs
-        candidate_pmids = [c["pmid"] for c in candidates]
-        candidate_works = openalex.fetch_works_by_pmids(candidate_pmids)
-        candidate_records = [OpenAlexClient.work_to_record(w) for w in candidate_works]
+        # Candidates already have full metadata attached (key 'work')
+        candidate_records = [
+            OpenAlexClient.work_to_record(c["work"]) for c in candidates
+        ]
 
         # Text filter + dedup
         import re
@@ -202,6 +212,8 @@ def main():
     collections_cfg = config.get("collections", {})
     genes_parent_name = collections_cfg.get("genes_parent")
     citation_cfg = config.get("citation_expansion", {})
+    search_cfg = config.get("search", {})
+    search_max_results = search_cfg.get("max_results", 25)
 
     # Determine which genes to run
     # Priority: CLI args > INPUT_GENES env var > all from genes.yml
@@ -257,6 +269,7 @@ def main():
             existing_pmids=existing_pmids,
             openalex=openalex,
             citation_cfg=citation_cfg,
+            search_max_results=search_max_results,
         )
         summary.append(stats)
 
