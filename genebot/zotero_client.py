@@ -18,11 +18,9 @@ _TYPE_TAG_MAP = {
 
 class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
-        client = httpx.Client(
-            timeout=httpx.Timeout(60.0, connect=15.0),
-            follow_redirects=True,
-        )
-        self.zot = zotero.Zotero(group_id, "group", api_key, client=client)
+        self.zot = zotero.Zotero(group_id, "group", api_key)
+        # Override default timeout (httpx default is 5s, too short for large libraries)
+        self.zot.client.timeout = httpx.Timeout(60.0, connect=15.0)
         self.delay = delay
         # Cache of collection name -> key, populated lazily
         self._collection_cache: dict[str, str] = {}
