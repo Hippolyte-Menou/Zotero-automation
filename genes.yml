@@ -1,32 +1,81 @@
 # genes.yml
-# Define genes to track and their specific exclusions.
-# Each gene inherits default exclusions unless overridden.
+# Define genes to track, their exclusions, and their Zotero tags.
+# Each gene inherits default exclusions unless overridden with exclude_mesh / exclude_text.
+#
+# Tag strategy:
+#   - Gene symbol is always added automatically (no need to list it)
+#   - Publication type is auto-derived from PubMed PT field (review, case-report, etc.)
+#   - Disease group tags are defined here under `tags` — you maintain these
+
+# Top-level collection structure (bot creates these if absent, never duplicates)
+collections:
+  genes_parent: "6 - Genes"
 
 default_exclusions_mesh:
   - "Neoplasms"
+  - "Diabetes Mellitus"
+  - "Cardiovascular Diseases"
+  - "Hypertension"
+  - "Atherosclerosis"
+  - "Obesity"
+  - "Alzheimer Disease"
+  - "Letter"
+  - "Editorial"
+  - "Comment"
+  - "News"
+  - "Biography"
+  - "Congress"
 
 default_exclusions_text:
+  # Oncology (strict)
   - "cancer"
   - "tumor"
+  - "tumour"
   - "carcinoma"
   - "metastasis"
+  - "oncogene"
+  - "oncology"
+  - "malignant"
+  - "lymphoma"
+  - "leukemia"
+  - "leukaemia"
+  - "sarcoma"
+  - "glioma"
+  - "melanoma"
+  - "adenocarcinoma"
+  - "adenoma"
+  - "chemotherapy"
+  - "radiotherapy"
+  - "immunotherapy"
+  # Common diseases unrelated to rare genetics
+  - "type 2 diabetes"
+  - "myocardial infarction"
 
 genes:
   - symbol: CRB1
-    collection: "CRB1 Literature"
-    # uses default exclusions
+    collection: "CRB1"
+    tags:
+      - retinal-dystrophy
+      - leber-congenital-amaurosis
+      - retinitis-pigmentosa
 
   - symbol: RHO
-    collection: "RHO Literature"
-    # uses default exclusions
+    collection: "RHO"
+    tags:
+      - retinal-dystrophy
+      - retinitis-pigmentosa
+    # RHO is ambiguous (rhodopsin vs Rho GTPase family).
+    # If GTPase/cytoskeleton papers slip through, add gene-level overrides:
+    # exclude_text:
+    #   - "Rho GTPase"
+    #   - "RhoA"
+    #   - "actin cytoskeleton"
 
-  # Example with custom exclusions:
-  # - symbol: PAX6
-  #   collection: "PAX6 Literature"
-  #   exclude_mesh:
-  #     - "Neoplasms"
-  #     - "Diabetes Mellitus"
-  #   exclude_text:
-  #     - "cancer"
-  #     - "tumor"
-  #     - "pancreatic"
+  # Template for new genes:
+  # - symbol: ABCA4
+  #   collection: "ABCA4"
+  #   tags:
+  #     - retinal-dystrophy
+  #     - stargardt-disease
+  #   # exclude_mesh: [...]   # omit to inherit defaults
+  #   # exclude_text: [...]   # omit to inherit defaults

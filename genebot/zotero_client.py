@@ -6,16 +6,102 @@ from pyzotero import zotero
 
 logger = logging.getLogger(__name__)
 
+# Mapping from PubMed publication type strings to normalised tag names.
+# Only types worth tagging are listed; everything else is ignored.
+_PT_TAG_MAP = {
+    "Review": "review",
+    "Systematic Review": "systematic-review",
+    "Meta-Analysis": "meta-analysis",
+    "Randomized Controlled Trial": "randomized-controlled-trial",
+    "Clinical Trial": "clinical-trial",
+    "Case Reports": "case-report",
+    "Multicenter Study": "multicenter-study",
+    "Observational Study": "observational-study",
+    "Practice Guideline": "guideline",
+    "Guideline": "guideline",
+}
+
+
+def _publication_type_tags(pub_types: list[str]) -> list[str]:
+    """Return normalised tag strings for a PubMed PT field value list."""
+    seen = set()
+    tags = []
+    for pt in pub_types:
+        tag = _PT_TAG_MAP.get(pt)
+        if tag and tag not in seen:
+            tags.append(tag)
+            seen.add(tag)
+    return tags
+
 
 class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
         self.zot = zotero.Zotero(group_id, "group", api_key)
         self.delay = delay
+        # Cache of collection name -> key, populated lazily
+        self._collection_cache: dict[str, str] = {}
+
+    # ------------------------------------------------------------------
+    # Collections
+    # ------------------------------------------------------------------
+
+    def _load_collection_cache(self) -> None:
+        """Fetch all collections and populate the local cache."""
+        collections = self.zot.everything(self.zot.collections())
+        self._collection_cache = {
+            c["data"]["name"]: c["data"]["key"] for c in collections
+        }
+        logger.debug(f"Collection cache loaded: {len(self._collection_cache)} collections")
+
+    def get_or_create_collection(
+        self,
+        name: str,
+        parent_key: str | None = None,
+    ) -> str:
+        """
+        Return the key for a collection with the given name.
+        If it does not exist, create it (optionally nested under parent_key).
+        Safe to call multiple times — never creates duplicates.
+        """
+        if not self._collection_cache:
+            self._load_collection_cache()
+
+        if name in self._collection_cache:
+            return self._collection_cache[name]
+
+        # Create the collection
+        payload: dict = {"name": name}
+        if parent_key:
+            payload["parentCollection"] = parent_key
+
+        resp = self.zot.create_collections([payload])
+        if resp.get("successful"):
+            key = list(resp["successful"].values())[0]["data"]["key"]
+            logger.info(f"Created collection '{name}' (parent={parent_key}) → key {key}")
+            self._collection_cache[name] = key
+            return key
+        else:
+            raise RuntimeError(f"Failed to create collection '{name}': {resp}")
+
+    def ensure_collection_path(self, *names: str) -> str:
+        """
+        Ensure a chain of nested collections exists and return the leaf key.
+        Example: ensure_collection_path("6 - Genes", "CRB1")
+          → creates "6 - Genes" if needed, then "CRB1" under it.
+        """
+        parent_key: str | None = None
+        for name in names:
+            parent_key = self.get_or_create_collection(name, parent_key=parent_key)
+        return parent_key  # type: ignore[return-value]
+
+    # ------------------------------------------------------------------
+    # Items
+    # ------------------------------------------------------------------
 
     def get_existing_pmids(self) -> set[str]:
         """
         Retrieve all PMIDs already in the group library.
-        Scans the 'extra' field for PMID entries.
+        Scans the 'extra' field and PubMed URLs for PMID entries.
         """
         logger.info("Fetching existing library items for deduplication...")
         existing_pmids = set()
@@ -45,19 +131,44 @@ class ZoteroGroupClient:
         logger.info(f"Found {len(existing_pmids)} existing PMIDs in library")
         return existing_pmids
 
-    def add_papers(self, records: list[dict], collection_key: str | None = None) -> dict:
+    def add_papers(
+        self,
+        records: list[dict],
+        collection_key: str | None = None,
+        gene_symbol: str | None = None,
+        extra_tags: list[str] | None = None,
+    ) -> dict:
         """
         Add papers to the Zotero group library in batches of 50.
-        Creates journal article items from PubMed metadata.
+
+        Tags applied to every item:
+          - gene symbol (if provided)
+          - publication-type tags derived from PubMed PT field
+          - any extra_tags passed in (disease groups etc.)
         """
         stats = {"added": 0, "failed": 0, "skipped_no_data": 0}
 
-        # Build all items first
         items_to_create = []
         for r in records:
             if not r.get("title"):
                 stats["skipped_no_data"] += 1
                 continue
+
+            # Build tag list
+            tag_strings: list[str] = []
+            if gene_symbol:
+                tag_strings.append(gene_symbol)
+            tag_strings.extend(_publication_type_tags(r.get("publication_type", [])))
+            if extra_tags:
+                tag_strings.extend(extra_tags)
+
+            # Deduplicate while preserving order
+            seen: set[str] = set()
+            unique_tags = []
+            for t in tag_strings:
+                if t not in seen:
+                    unique_tags.append({"tag": t})
+                    seen.add(t)
 
             item = {
                 "itemType": "journalArticle",
@@ -70,10 +181,14 @@ class ZoteroGroupClient:
                 "pages": r.get("pages", ""),
                 "date": r.get("date_published", ""),
                 "DOI": r.get("doi", ""),
-                "url": f"https://pubmed.ncbi.nlm.nih.gov/{r['pmid']}/" if r.get("pmid") else "",
+                "url": (
+                    f"https://pubmed.ncbi.nlm.nih.gov/{r['pmid']}/"
+                    if r.get("pmid")
+                    else ""
+                ),
                 "extra": f"PMID: {r['pmid']}" if r.get("pmid") else "",
                 "creators": [],
-                "tags": [],
+                "tags": unique_tags,
             }
 
             for author_name in r.get("authors", []):
@@ -120,18 +235,3 @@ class ZoteroGroupClient:
             time.sleep(self.delay)
 
         return stats
-
-    def get_or_create_collection(self, name: str) -> str:
-        """Get collection key by name, or create it."""
-        collections = self.zot.collections()
-        for c in collections:
-            if c["data"]["name"] == name:
-                return c["data"]["key"]
-
-        resp = self.zot.create_collections([{"name": name}])
-        if resp.get("successful"):
-            key = list(resp["successful"].values())[0]["data"]["key"]
-            logger.info(f"Created collection '{name}' with key {key}")
-            return key
-        else:
-            raise RuntimeError(f"Failed to create collection '{name}': {resp}")

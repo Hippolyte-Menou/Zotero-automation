@@ -50,6 +50,7 @@ def process_gene(
     gene_cfg: dict,
     default_excl_mesh: list[str],
     default_excl_text: list[str],
+    genes_parent_key: str | None,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
     ncbi_email: str,
@@ -58,9 +59,10 @@ def process_gene(
     """Process a single gene. Returns stats dict."""
 
     symbol = gene_cfg["symbol"]
-    collection_name = gene_cfg.get("collection", f"{symbol} Literature")
+    collection_name = gene_cfg.get("collection", symbol)
     mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
     text_excl = gene_cfg.get("exclude_text", default_excl_text)
+    gene_tags = gene_cfg.get("tags", [])
 
     logger.info(f"{'=' * 60}")
     logger.info(f"Processing: {symbol}")
@@ -95,9 +97,21 @@ def process_gene(
     if not new_records:
         return {"symbol": symbol, "found": len(records), "new": 0, "added": 0, "failed": 0}
 
-    # 5. Get/create collection and upload
-    collection_key = zot.get_or_create_collection(collection_name)
-    upload_stats = zot.add_papers(new_records, collection_key=collection_key)
+    # 5. Get/create nested collection: "6 - Genes" > "CRB1"
+    if genes_parent_key:
+        collection_key = zot.get_or_create_collection(
+            collection_name, parent_key=genes_parent_key
+        )
+    else:
+        collection_key = zot.get_or_create_collection(collection_name)
+
+    # 6. Upload with tags: gene symbol + disease groups (pub type tags added inside add_papers)
+    upload_stats = zot.add_papers(
+        new_records,
+        collection_key=collection_key,
+        gene_symbol=symbol,
+        extra_tags=gene_tags,
+    )
 
     # Track newly added PMIDs so subsequent genes don't re-add
     for r in new_records:
@@ -129,6 +143,8 @@ def main():
     default_excl_mesh = config.get("default_exclusions_mesh", [])
     default_excl_text = config.get("default_exclusions_text", [])
     all_genes = config.get("genes", [])
+    collections_cfg = config.get("collections", {})
+    genes_parent_name = collections_cfg.get("genes_parent")
 
     # Determine which genes to run
     # Priority: CLI args > INPUT_GENES env var > all from genes.yml
@@ -168,6 +184,12 @@ def main():
     )
     existing_pmids = zot.get_existing_pmids()
 
+    # Ensure parent collection exists once (e.g. "6 - Genes"), reuse key for all genes
+    genes_parent_key: str | None = None
+    if genes_parent_name:
+        genes_parent_key = zot.get_or_create_collection(genes_parent_name)
+        logger.info(f"Using parent collection '{genes_parent_name}' (key={genes_parent_key})")
+
     # Process each gene
     summary = []
     for gene_cfg in genes_to_run:
@@ -175,6 +197,7 @@ def main():
             gene_cfg=gene_cfg,
             default_excl_mesh=default_excl_mesh,
             default_excl_text=default_excl_text,
+            genes_parent_key=genes_parent_key,
             zot=zot,
             existing_pmids=existing_pmids,
             ncbi_email=ncbi_email,
