@@ -66,10 +66,10 @@ genes:
       - retinitis-pigmentosa
     # RHO is ambiguous (rhodopsin vs Rho GTPase family).
     # If GTPase/cytoskeleton papers slip through, add gene-level overrides:
-    # exclude_text:
-    #   - "Rho GTPase"
-    #   - "RhoA"
-    #   - "actin cytoskeleton"
+    exclude_text:
+      - "Rho GTPase"
+      - "RhoA"
+      - "actin cytoskeleton"
 
   # Template for new genes:
   # - symbol: ABCA4
