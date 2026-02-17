@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.semanticscholar.org)",
+      "Bash(python:*)",
+      "WebFetch(domain:docs.openalex.org)"
+    ]
+  }
+}

@@ -137,6 +137,7 @@ class ZoteroGroupClient:
         collection_key: str | None = None,
         gene_symbol: str | None = None,
         extra_tags: list[str] | None = None,
+        source_tag: str | None = None,
     ) -> dict:
         """
         Add papers to the Zotero group library in batches of 50.
@@ -161,6 +162,8 @@ class ZoteroGroupClient:
             tag_strings.extend(_publication_type_tags(r.get("publication_type", [])))
             if extra_tags:
                 tag_strings.extend(extra_tags)
+            if source_tag:
+                tag_strings.append(source_tag)
 
             # Deduplicate while preserving order
             seen: set[str] = set()

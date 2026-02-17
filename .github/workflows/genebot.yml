@@ -31,6 +31,7 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           INPUT_GENES: ${{ inputs.genes }}
         run: python run.py
 

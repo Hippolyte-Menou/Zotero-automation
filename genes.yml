@@ -10,6 +10,9 @@
 
 collections:
   genes_parent: 6 - Genes
+citation_expansion:
+  max_seed_papers: 100
+  min_co_citations: 1
 default_exclusions_mesh:
 - Neoplasms
 - Diabetes Mellitus

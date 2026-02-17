@@ -141,6 +141,10 @@ def build_genes_yml(vault_root: Path, genes_yml_path: Path) -> str:
 
     # Preserve top-level config or use defaults
     collections = existing.get("collections", {"genes_parent": "6 - Genes"})
+    citation_expansion = existing.get("citation_expansion", {
+        "max_seed_papers": 100,
+        "min_co_citations": 1,
+    })
     default_excl_mesh = existing.get("default_exclusions_mesh", [])
     default_excl_text = existing.get("default_exclusions_text", [])
 
@@ -155,6 +159,7 @@ def build_genes_yml(vault_root: Path, genes_yml_path: Path) -> str:
     # Build final structure
     config = {
         "collections": collections,
+        "citation_expansion": citation_expansion,
         "default_exclusions_mesh": default_excl_mesh,
         "default_exclusions_text": default_excl_text,
         "genes": [],
