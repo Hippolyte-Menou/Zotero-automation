@@ -613,7 +613,7 @@ class OpenAlexClient:
             "journal_abbr": "",
             "year": str(work.get("publication_year", "")),
             "date_published": work.get("publication_date", ""),
-            "abstract": "",
+            "abstract": _invert_abstract(work.get("abstract_inverted_index")),
             "publication_type": [work.get("type", "")],
             "volume": "",
             "issue": "",
