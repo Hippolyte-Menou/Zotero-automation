@@ -1,0 +1,32 @@
+# genes.yml
+# Define genes to track and their specific exclusions.
+# Each gene inherits default exclusions unless overridden.
+
+default_exclusions_mesh:
+  - "Neoplasms"
+
+default_exclusions_text:
+  - "cancer"
+  - "tumor"
+  - "carcinoma"
+  - "metastasis"
+
+genes:
+  - symbol: CRB1
+    collection: "CRB1 Literature"
+    # uses default exclusions
+
+  - symbol: RHO
+    collection: "RHO Literature"
+    # uses default exclusions
+
+  # Example with custom exclusions:
+  # - symbol: PAX6
+  #   collection: "PAX6 Literature"
+  #   exclude_mesh:
+  #     - "Neoplasms"
+  #     - "Diabetes Mellitus"
+  #   exclude_text:
+  #     - "cancer"
+  #     - "tumor"
+  #     - "pancreatic"
