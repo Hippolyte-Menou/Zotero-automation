@@ -108,7 +108,7 @@ def process_gene(
             return {
                 "symbol": symbol, "found": 0, "new": 0,
                 "added": 0, "failed": 0,
-                "cit_candidates": 0, "cit_added": 0, recent_added: 0
+                "cit_candidates": 0, "cit_added": 0, "recent_added": 0
             }
 
         all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
