@@ -23,7 +23,7 @@ BASE_URL = "https://api.openalex.org"
 WORK_FIELDS = (
     "id,ids,title,publication_year,publication_date,cited_by_count,"
     "type,primary_location,authorships,referenced_works,"
-    "abstract_inverted_index"
+    "abstract_inverted_index,biblio,mesh,language"
 )
 
 
@@ -127,6 +127,8 @@ class OpenAlexClient:
             f"title_and_abstract.search:{query}",
             "type:article",
             "has_pmid:true",
+            "is_retracted:false",
+            "language:en|fr",
         ]
         filter_str = ",".join(filters)
 
@@ -207,6 +209,8 @@ class OpenAlexClient:
             "type:article",
             "has_pmid:true",
             f"from_publication_date:{date_filter}",
+            "is_retracted:false",
+            "language:en|fr",
         ]
         filter_str = ",".join(filters)
 
@@ -252,7 +256,7 @@ class OpenAlexClient:
             data = self._get(
                 "/works",
                 params={
-                    "filter": f"cites:{openalex_id},has_pmid:true",
+                    "filter": f"cites:{openalex_id},has_pmid:true,is_retracted:false,language:en|fr",
                     "select": "id,ids,cited_by_count,publication_year",
                     "per_page": str(per_page),
                     "page": str(page),
@@ -418,6 +422,7 @@ class OpenAlexClient:
         gene_terms: list[str] | None = None,
         max_hops: int = 1,
         hop2_top_n: int = 10,
+        exclude_mesh: list[str] | None = None,
     ) -> list[dict]:
         """Multi-hop citation expansion with gene-name filtering and
         bibliographic coupling.
@@ -426,7 +431,8 @@ class OpenAlexClient:
         Hop 2 (if max_hops >= 2): top candidates from hop 1 become new seeds.
 
         After each hop, candidates are filtered to only keep papers that
-        mention the gene (symbol or aliases) in their title or abstract.
+        mention the gene (symbol or aliases) in their title or abstract,
+        then further filtered by MeSH exclusion if exclude_mesh is provided.
 
         Returns final scored candidate list with full work metadata attached
         (key 'work' on each candidate dict).
@@ -512,6 +518,19 @@ class OpenAlexClient:
                         f"candidates (no gene mention in title/abstract)"
                     )
 
+            # MeSH exclusion filter
+            if exclude_mesh:
+                before = len(scored)
+                hop_works = [c["work"] for c in scored]
+                kept_works = self._filter_by_mesh(hop_works, exclude_mesh)
+                kept_pmids = {self._extract_pmid(w) for w in kept_works}
+                scored = [c for c in scored if c["pmid"] in kept_pmids]
+                if len(scored) < before:
+                    logger.info(
+                        f"MeSH exclusion ({hop_label}): removed "
+                        f"{before - len(scored)} candidates"
+                    )
+
             # Re-sort after bib coupling update
             scored.sort(key=lambda x: x["effective_score"], reverse=True)
 
@@ -553,7 +572,7 @@ class OpenAlexClient:
                 data = self._get(
                     "/works",
                     params={
-                        "filter": f"pmid:{pmid_filter}",
+                        "filter": f"pmid:{pmid_filter},is_retracted:false",
                         "select": WORK_FIELDS,
                         "per_page": "200",
                         "page": str(page),
@@ -591,7 +610,7 @@ class OpenAlexClient:
                 data = self._get(
                     "/works",
                     params={
-                        "filter": f"ids.openalex:{id_filter},has_pmid:true",
+                        "filter": f"ids.openalex:{id_filter},has_pmid:true,is_retracted:false",
                         "select": "id,ids",
                         "per_page": "200",
                         "page": str(page),
@@ -621,6 +640,40 @@ class OpenAlexClient:
             if re.search(rf"\b{re.escape(term)}\b", text, re.IGNORECASE):
                 return True
         return False
+
+    @staticmethod
+    def _filter_by_mesh(works: list[dict], exclude_mesh: list[str]) -> list[dict]:
+        """Remove works whose MeSH descriptors contain any excluded descriptor name.
+
+        Works with an empty mesh array are always kept -- not all PubMed records
+        have MeSH terms assigned (recent publications, non-indexed journals).
+        Only works that have >= 1 MeSH entry AND a match in exclude_mesh are dropped.
+
+        exclude_mesh: list of MeSH descriptor names, matched case-insensitively.
+                      e.g. ["Neoplasms", "Diabetes Mellitus"]
+        """
+        if not exclude_mesh:
+            return works
+
+        blocked = {term.lower() for term in exclude_mesh}
+        kept = []
+        removed = 0
+        for w in works:
+            mesh_entries = w.get("mesh") or []
+            if not mesh_entries:
+                kept.append(w)
+                continue
+            descriptors = {
+                (e.get("descriptor_name") or "").lower()
+                for e in mesh_entries
+            }
+            if descriptors & blocked:
+                removed += 1
+            else:
+                kept.append(w)
+        if removed:
+            logger.info(f"MeSH exclusion filter removed {removed} works")
+        return kept
 
     @staticmethod
     def _filter_by_text(works: list[dict], exclude_terms: list[str]) -> list[dict]:
@@ -670,14 +723,46 @@ class OpenAlexClient:
         loc = work.get("primary_location") or {}
         source = loc.get("source") or {}
         journal = source.get("display_name", "")
+        journal_abbr = source.get("abbreviated_title", "")
 
-        # Authors
+        # Volume / issue / pages from biblio
+        biblio = work.get("biblio") or {}
+        volume = biblio.get("volume") or ""
+        issue = biblio.get("issue") or ""
+        first_page = biblio.get("first_page") or ""
+        last_page = biblio.get("last_page") or ""
+        pages = f"{first_page}-{last_page}" if first_page and last_page else first_page
+
+        # Authors -- preserve as list of (first_name, last_name) tuples
+        # so zotero_client can assign the correct Zotero creator fields.
+        # OpenAlex display_name is "First [Middle] Last" but raw_author_name
+        # can be "Last, First" for non-Western records; we prefer the raw form
+        # when it contains a comma because it gives an unambiguous split.
         authors = []
         for authorship in work.get("authorships", []):
             author = authorship.get("author", {})
-            name = author.get("display_name", "")
-            if name:
-                authors.append(name)
+            display = author.get("display_name", "") or ""
+            raw = authorship.get("raw_author_name", "") or ""
+
+            if "," in raw:
+                # "Zaghloul, Khaled K." -> last="Zaghloul", first="Khaled K."
+                last, _, first = raw.partition(",")
+                authors.append((first.strip(), last.strip()))
+            elif display:
+                # "First [Middle] Last" -> rsplit on last space
+                parts = display.rsplit(" ", 1)
+                if len(parts) == 2:
+                    authors.append((parts[0], parts[1]))
+                else:
+                    authors.append(("", display))
+
+        # MeSH descriptor names (PubMed works only; empty list for others)
+        mesh_entries = work.get("mesh") or []
+        mesh_terms = [
+            e["descriptor_name"]
+            for e in mesh_entries
+            if e.get("descriptor_name")
+        ]
 
         return {
             "pmid": pmid,
@@ -685,13 +770,14 @@ class OpenAlexClient:
             "title": work.get("title", ""),
             "authors": authors,
             "journal": journal,
-            "journal_abbr": "",
+            "journal_abbr": journal_abbr,
             "year": str(work.get("publication_year", "")),
             "date_published": work.get("publication_date", ""),
             "abstract": _invert_abstract(work.get("abstract_inverted_index")),
             "publication_type": [work.get("type", "")],
-            "volume": "",
-            "issue": "",
-            "pages": "",
+            "volume": volume,
+            "issue": issue,
+            "pages": pages,
             "cited_by_count": work.get("cited_by_count", 0),
+            "mesh_terms": mesh_terms,
         }

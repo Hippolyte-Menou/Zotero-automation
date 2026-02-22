@@ -216,6 +216,10 @@ class ZoteroGroupClient:
             if source_tag:
                 tag_strings.append(source_tag)
 
+            # MeSH descriptor names as additional tags (plain Title Case)
+            for mesh_term in r.get("mesh_terms", []):
+                tag_strings.append(mesh_term)
+
             # Deduplicate while preserving order
             seen: set[str] = set()
             unique_tags = []
@@ -245,22 +249,22 @@ class ZoteroGroupClient:
                 "tags": unique_tags,
             }
 
-            for author_name in r.get("authors", []):
-                # OpenAlex display_name is "First Middle Last" format.
-                # rsplit at last space: ["First Middle", "Last"]
-                parts = author_name.rsplit(" ", 1)
-                if len(parts) == 2:
-                    item["creators"].append({
-                        "creatorType": "author",
-                        "firstName": parts[0],
-                        "lastName": parts[1],
-                    })
+            for author_entry in r.get("authors", []):
+                # authors is a list of (firstName, lastName) tuples produced
+                # by OpenAlexClient.work_to_record() -- name splitting and
+                # comma-form detection happen there.
+                if isinstance(author_entry, tuple):
+                    first_name, last_name = author_entry
                 else:
-                    item["creators"].append({
-                        "creatorType": "author",
-                        "lastName": author_name,
-                        "firstName": "",
-                    })
+                    # Legacy fallback: plain string "First Last"
+                    parts = author_entry.rsplit(" ", 1)
+                    first_name = parts[0] if len(parts) == 2 else ""
+                    last_name = parts[1] if len(parts) == 2 else author_entry
+                item["creators"].append({
+                    "creatorType": "author",
+                    "firstName": first_name,
+                    "lastName": last_name,
+                })
 
             if collection_key:
                 item["collections"] = [collection_key]

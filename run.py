@@ -47,6 +47,7 @@ def load_genes_config(path: str = "genes.yml") -> dict:
 def process_gene(
     gene_cfg: dict,
     default_excl_text: list[str],
+    default_excl_mesh: list[str],
     genes_parent_key: str | None,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
@@ -60,6 +61,7 @@ def process_gene(
     symbol = gene_cfg["symbol"]
     collection_name = gene_cfg.get("collection", symbol)
     text_excl = gene_cfg.get("exclude_text", default_excl_text)
+    mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
     gene_tags = gene_cfg.get("tags", [])
 
     logger.info(f"{'=' * 60}")
@@ -111,6 +113,10 @@ def process_gene(
                 "cit_candidates": 0, "cit_added": 0, "recent_added": 0
             }
 
+        # Apply MeSH exclusion on raw works before converting to records
+        if mesh_excl:
+            seed_works = openalex._filter_by_mesh(seed_works, mesh_excl)
+
         all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
         new_records = [
             r for r in all_records
@@ -152,6 +158,7 @@ def process_gene(
         gene_terms=search_terms,
         max_hops=max_hops,
         hop2_top_n=hop2_top_n,
+        exclude_mesh=mesh_excl or None,
     )
 
     cit_added = 0
@@ -200,6 +207,10 @@ def process_gene(
     )
     recent_added = 0
     if recent_works:
+        # MeSH exclusion on raw works before converting to records
+        if mesh_excl:
+            recent_works = openalex._filter_by_mesh(recent_works, mesh_excl)
+
         recent_records = [
             OpenAlexClient.work_to_record(w) for w in recent_works
         ]
@@ -280,6 +291,7 @@ def main():
     # Load gene config
     config = load_genes_config()
     default_excl_text = config.get("default_exclusions_text", [])
+    default_excl_mesh = config.get("default_exclusions_mesh", [])
     all_genes = config.get("genes", [])
     collections_cfg = config.get("collections", {})
     genes_parent_name = collections_cfg.get("genes_parent")
@@ -337,6 +349,7 @@ def main():
         stats = process_gene(
             gene_cfg=gene_cfg,
             default_excl_text=default_excl_text,
+            default_excl_mesh=default_excl_mesh,
             genes_parent_key=genes_parent_key,
             zot=zot,
             existing_pmids=existing_pmids,

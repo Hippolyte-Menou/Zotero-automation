@@ -41,6 +41,23 @@ default_exclusions_text:
 - immunotherapy
 - type 2 diabetes
 - myocardial infarction
+default_exclusions_mesh:
+- Neoplasms
+- Carcinoma
+- Sarcoma
+- Lymphoma
+- Leukemia
+- Melanoma
+- Glioma
+- Adenocarcinoma
+- Diabetes Mellitus
+- Cardiovascular Diseases
+- Myocardial Infarction
+- Heart Failure
+- Hypertension
+- Atherosclerosis
+- Obesity
+- Alzheimer Disease
 genes:
 - symbol: ABCA4
   collection: ABCA4
