@@ -82,14 +82,16 @@ class ZoteroGroupClient:
     # Items
     # ------------------------------------------------------------------
 
-    def get_existing_pmids(self) -> set[str]:
+    def get_existing_items(self) -> dict[str, str]:
         """
-        Retrieve all PMIDs already in the group library.
+        Retrieve all PMIDs already in the group library mapped to their Zotero item keys.
         Scans the 'extra' field and PubMed URLs for PMID entries.
         Retries up to 3 times on timeout.
+
+        Returns {pmid: zotero_item_key}.
         """
         logger.info("Fetching existing library items for deduplication...")
-        existing_pmids = set()
+        pmid_to_key: dict[str, str] = {}
 
         items = None
         for attempt in range(3):
@@ -105,30 +107,84 @@ class ZoteroGroupClient:
                 time.sleep(wait)
         if items is None:
             logger.error("Failed to fetch library items after 3 attempts")
-            return existing_pmids
+            return pmid_to_key
 
         for item in items:
             data = item.get("data", {})
+            zot_key = data.get("key", "")
 
+            pmid = ""
             # Check 'extra' field for PMID
             extra = data.get("extra", "")
             for line in extra.split("\n"):
                 line = line.strip()
                 if line.upper().startswith("PMID:"):
                     pmid = line.split(":", 1)[1].strip()
-                    existing_pmids.add(pmid)
+                    break
 
-            # Check URL field for PubMed URL
-            url = data.get("url", "")
-            if "pubmed.ncbi.nlm.nih.gov" in url:
-                parts = url.rstrip("/").split("/")
-                if parts:
-                    candidate = parts[-1]
-                    if candidate.isdigit():
-                        existing_pmids.add(candidate)
+            # Fall back to PubMed URL
+            if not pmid:
+                url = data.get("url", "")
+                if "pubmed.ncbi.nlm.nih.gov" in url:
+                    parts = url.rstrip("/").split("/")
+                    if parts and parts[-1].isdigit():
+                        pmid = parts[-1]
 
-        logger.info(f"Found {len(existing_pmids)} existing PMIDs in library")
-        return existing_pmids
+            if pmid and zot_key:
+                pmid_to_key[pmid] = zot_key
+
+        logger.info(f"Found {len(pmid_to_key)} existing PMIDs in library")
+        return pmid_to_key
+
+    def get_existing_pmids(self) -> set[str]:
+        """Return the set of PMIDs already in the library. Wraps get_existing_items()."""
+        return set(self.get_existing_items().keys())
+
+    def get_trashed_pmids(self) -> set[str]:
+        """Return PMIDs of all items currently in the group library trash.
+
+        Trashed PMIDs are used to block re-upload of deliberately deleted papers.
+        Retries up to 3 times on timeout.
+        """
+        logger.info("Fetching trashed items...")
+        trashed: set[str] = set()
+
+        items = None
+        for attempt in range(3):
+            try:
+                items = self.zot.everything(self.zot.trash())
+                break
+            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+                wait = 5 * (attempt + 1)
+                logger.warning(
+                    f"Zotero timeout fetching trash (attempt {attempt + 1}/3): {e}. "
+                    f"Retrying in {wait}s..."
+                )
+                time.sleep(wait)
+        if items is None:
+            logger.error("Failed to fetch trash after 3 attempts")
+            return trashed
+
+        for item in items:
+            data = item.get("data", {})
+            pmid = ""
+            extra = data.get("extra", "")
+            for line in extra.split("\n"):
+                line = line.strip()
+                if line.upper().startswith("PMID:"):
+                    pmid = line.split(":", 1)[1].strip()
+                    break
+            if not pmid:
+                url = data.get("url", "")
+                if "pubmed.ncbi.nlm.nih.gov" in url:
+                    parts = url.rstrip("/").split("/")
+                    if parts and parts[-1].isdigit():
+                        pmid = parts[-1]
+            if pmid:
+                trashed.add(pmid)
+
+        logger.info(f"Found {len(trashed)} PMIDs in trash")
+        return trashed
 
     def get_collection_pmids(self, collection_key: str) -> list[str]:
         """Return all PMIDs for items in a specific collection.
@@ -192,9 +248,10 @@ class ZoteroGroupClient:
           - any extra_tags passed in (disease groups etc.)
           - source_tag for provenance tracking
         """
-        stats = {"added": 0, "failed": 0, "skipped_no_data": 0}
+        stats: dict = {"added": 0, "failed": 0, "skipped_no_data": 0, "pmid_to_key": {}}
 
         items_to_create = []
+        ordered_pmids: list[str] = []  # parallel to items_to_create for key mapping
         for r in records:
             if not r.get("title"):
                 stats["skipped_no_data"] += 1
@@ -270,6 +327,7 @@ class ZoteroGroupClient:
                 item["collections"] = [collection_key]
 
             items_to_create.append(item)
+            ordered_pmids.append(r.get("pmid") or "")
 
         # Push in batches of 50 (Zotero API limit)
         batch_size = 50
@@ -284,6 +342,13 @@ class ZoteroGroupClient:
                     n_failed = len(resp.get("failed", {}))
                     stats["added"] += n_success
                     stats["failed"] += n_failed
+
+                    # Capture {pmid: zotero_key} for successfully created items
+                    for idx_str, item_data in resp.get("successful", {}).items():
+                        zot_key = item_data.get("data", {}).get("key", "")
+                        pmid = ordered_pmids[i + int(idx_str)]
+                        if zot_key and pmid:
+                            stats["pmid_to_key"][pmid] = zot_key
 
                     if n_failed > 0:
                         for idx, err in resp["failed"].items():
@@ -309,3 +374,39 @@ class ZoteroGroupClient:
             time.sleep(self.delay)
 
         return stats
+
+    # ------------------------------------------------------------------
+    # Relations
+    # ------------------------------------------------------------------
+
+    def add_relations(self, item_key: str, related_keys: list[str]) -> None:
+        """Add dc:relation links between item_key and each key in related_keys.
+
+        Relations are set bidirectionally: item_key -> related_keys and each
+        related_key -> item_key. Existing relations are preserved (set merge).
+        Skips patching if nothing new to add.
+        """
+        base_uri = f"http://zotero.org/groups/{self.zot.library_id}/items"
+
+        def _patch(key: str, add_uris: list[str]) -> None:
+            try:
+                item = self.zot.item(key)
+            except Exception as e:
+                logger.warning(f"add_relations: could not fetch item {key}: {e}")
+                return
+            existing = item["data"].get("relations", {}).get("dc:relation", [])
+            if isinstance(existing, str):
+                existing = [existing]
+            merged = list(set(existing) | set(add_uris))
+            if set(merged) == set(existing):
+                return  # nothing new
+            item["data"].setdefault("relations", {})["dc:relation"] = merged
+            try:
+                self.zot.update_item(item)
+            except Exception as e:
+                logger.warning(f"add_relations: could not patch item {key}: {e}")
+
+        source_uri = f"{base_uri}/{item_key}"
+        _patch(item_key, [f"{base_uri}/{k}" for k in related_keys])
+        for rk in related_keys:
+            _patch(rk, [source_uri])

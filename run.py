@@ -44,6 +44,52 @@ def load_genes_config(path: str = "genes.yml") -> dict:
         return yaml.safe_load(f)
 
 
+def _link_relations(
+    zot: ZoteroGroupClient,
+    openalex: OpenAlexClient,
+    new_pmids: set[str],
+    pmid_to_oa_refs: dict[str, list[str]],
+    pmid_to_key: dict[str, str],
+    gene_symbol: str,
+) -> None:
+    """For each newly uploaded paper, resolve referenced_works to Zotero keys
+    and set bidirectional dc:relation links between items in the library.
+    """
+    all_oa_ids: set[str] = set()
+    for pmid in new_pmids:
+        all_oa_ids.update(pmid_to_oa_refs.get(pmid, []))
+
+    if not all_oa_ids:
+        return
+
+    logger.info(
+        f"{gene_symbol}: resolving {len(all_oa_ids)} OpenAlex reference IDs "
+        f"for {len(new_pmids)} newly uploaded papers"
+    )
+    oa_id_to_pmid = openalex._resolve_openalex_ids_to_pmids(list(all_oa_ids))
+
+    linked = 0
+    for pmid in new_pmids:
+        if pmid not in pmid_to_key:
+            continue
+        oa_refs = pmid_to_oa_refs.get(pmid, [])
+        related_keys = [
+            pmid_to_key[oa_id_to_pmid[oa_id]]
+            for oa_id in oa_refs
+            if oa_id in oa_id_to_pmid
+            and oa_id_to_pmid[oa_id] in pmid_to_key
+            and oa_id_to_pmid[oa_id] != pmid
+        ]
+        if related_keys:
+            logger.info(
+                f"{gene_symbol}: {pmid} -> {len(related_keys)} related items"
+            )
+            zot.add_relations(pmid_to_key[pmid], related_keys)
+            linked += 1
+
+    logger.info(f"{gene_symbol}: linked relations for {linked} newly uploaded papers")
+
+
 def process_gene(
     gene_cfg: dict,
     default_excl_text: list[str],
@@ -51,6 +97,7 @@ def process_gene(
     genes_parent_key: str | None,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
+    pmid_to_key: dict[str, str],
     openalex: OpenAlexClient,
     citation_cfg: dict,
     search_max_results: int = 25,
@@ -63,6 +110,11 @@ def process_gene(
     text_excl = gene_cfg.get("exclude_text", default_excl_text)
     mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
     gene_tags = gene_cfg.get("tags", [])
+
+    # Track pmid -> OpenAlex referenced_works for relation linking
+    pmid_to_oa_refs: dict[str, list[str]] = {}
+    # Track PMIDs uploaded in this run (for relation linking)
+    new_pmids: set[str] = set()
 
     logger.info(f"{'=' * 60}")
     logger.info(f"Processing: {symbol}")
@@ -117,6 +169,12 @@ def process_gene(
         if mesh_excl:
             seed_works = openalex._filter_by_mesh(seed_works, mesh_excl)
 
+        # Preserve referenced_works before flattening
+        for w in seed_works:
+            pmid = OpenAlexClient._extract_pmid(w)
+            if pmid:
+                pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
+
         all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
         new_records = [
             r for r in all_records
@@ -135,8 +193,10 @@ def process_gene(
                 extra_tags=gene_tags,
                 source_tag="source:search",
             )
+            pmid_to_key.update(search_stats.get("pmid_to_key", {}))
             for r in new_records:
                 existing_pmids.add(r["pmid"])
+                new_pmids.add(r["pmid"])
 
         library_size = len(all_records)
 
@@ -164,6 +224,13 @@ def process_gene(
     cit_added = 0
     if candidates:
         # Candidates already have full metadata attached (key 'work')
+        # Preserve referenced_works before flattening
+        for c in candidates:
+            w = c.get("work", {})
+            pmid = OpenAlexClient._extract_pmid(w)
+            if pmid:
+                pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
+
         candidate_records = [
             OpenAlexClient.work_to_record(c["work"]) for c in candidates
         ]
@@ -196,8 +263,10 @@ def process_gene(
                 source_tag="source:citation",
             )
             cit_added = cit_stats["added"]
+            pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
             for r in candidate_records:
                 existing_pmids.add(r["pmid"])
+                new_pmids.add(r["pmid"])
 
     # 5. Recent papers pass -- bypass citation threshold for current-year papers
     recent_works = openalex.search_gene_recent(
@@ -210,6 +279,12 @@ def process_gene(
         # MeSH exclusion on raw works before converting to records
         if mesh_excl:
             recent_works = openalex._filter_by_mesh(recent_works, mesh_excl)
+
+        # Preserve referenced_works before flattening
+        for w in recent_works:
+            pmid = OpenAlexClient._extract_pmid(w)
+            if pmid:
+                pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
 
         recent_records = [
             OpenAlexClient.work_to_record(w) for w in recent_works
@@ -249,8 +324,21 @@ def process_gene(
                 source_tag="source:recent",
             )
             recent_added = rec_stats["added"]
+            pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
+                new_pmids.add(r["pmid"])
+
+    # Link relations for all newly uploaded papers
+    if new_pmids:
+        _link_relations(
+            zot=zot,
+            openalex=openalex,
+            new_pmids=new_pmids,
+            pmid_to_oa_refs=pmid_to_oa_refs,
+            pmid_to_key=pmid_to_key,
+            gene_symbol=symbol,
+        )
 
     logger.info(
         f"{symbol}: search_added={search_stats['added']}, "
@@ -329,13 +417,19 @@ def main():
 
     logger.info(f"Genes to process: {[g['symbol'] for g in genes_to_run]}")
 
-    # Init Zotero client and fetch existing PMIDs once
+    # Init Zotero client and fetch existing items once (pmid -> zotero_key)
     zot = ZoteroGroupClient(
         group_id=zotero_group_id,
         api_key=zotero_api_key,
         delay=1.0,
     )
-    existing_pmids = zot.get_existing_pmids()
+    pmid_to_key: dict[str, str] = zot.get_existing_items()
+    existing_pmids: set[str] = set(pmid_to_key.keys())
+
+    trashed_pmids = zot.get_trashed_pmids()
+    if trashed_pmids:
+        logger.info(f"Blocking {len(trashed_pmids)} trashed PMIDs from re-upload")
+        existing_pmids.update(trashed_pmids)
 
     # Ensure parent collection exists once
     genes_parent_key: str | None = None
@@ -353,6 +447,7 @@ def main():
             genes_parent_key=genes_parent_key,
             zot=zot,
             existing_pmids=existing_pmids,
+            pmid_to_key=pmid_to_key,
             openalex=openalex,
             citation_cfg=citation_cfg,
             search_max_results=search_max_results,
