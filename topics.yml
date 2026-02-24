@@ -1,0 +1,771 @@
+# topics.yml
+# Topic-based literature discovery for categories 1-5.
+# Category 6 (Genes) is handled by genes.yml.
+#
+# Query strategy per category:
+#   - Anatomy/Embryology/Physiology/Examinations: keyword search + OpenAlex
+#     topic filter (ophthalmology subfield 2731) + type preference for reviews
+#   - Pathologies: disease-name search within ophthalmology, clinical focus,
+#     subcollections derived from disease_name_mapping.json MOC categories
+#
+# Deduplication: papers already in the Zotero library (from any source,
+# including gene pipeline) are skipped by PMID. No true duplicates.
+
+# ---------------------------------------------------------------------------
+# Global settings
+# ---------------------------------------------------------------------------
+
+search:
+  max_results: 50           # broader than gene searches
+  recent_max_results: 5     # fewer recent papers per sub-topic
+  type_filter: "review|article"   # default; overridable per sub-topic
+
+citation_expansion:
+  enabled: true
+  max_seed_papers: 30       # lighter than genes (100)
+  min_co_citations: 2       # higher floor -- topic papers are less interconnected
+  max_min_co: 4             # lower cap than genes (6)
+  max_hops: 1               # single hop only
+  hop2_top_n: 5
+
+# OpenAlex topic IDs for scoping
+# These are combined with keyword searches to stay within ophthalmology
+openalex_scoping:
+  ophthalmology_subfield: 2731
+  # Key topic IDs (can be OR'd in filters)
+  retinal_disease: [T10250, T10170, T12599]          # glaucoma+retinal, retinal diseases, retinal+optic
+  retinal_development: [T10691]                        # retinal development & disorders (mol bio subfield)
+  photoreceptor_physiology: [T12236]                   # photoreceptor & optogenetics (neuroscience)
+  imaging: [T11438]                                    # retinal imaging & analysis
+  ocular_disease: [T11194]                             # ocular diseases & Behcet
+  surgery: [T11291]                                    # intraocular surgery & lenses
+
+# Shared exclusions (same as genes.yml -- oncology, cardio, metabolic)
+default_exclusions_text:
+  - cancer
+  - tumor
+  - tumour
+  - carcinoma
+  - metastasis
+  - oncogene
+  - oncology
+  - malignant
+  - lymphoma
+  - leukemia
+  - leukaemia
+  - sarcoma
+  - glioma
+  - melanoma
+  - adenocarcinoma
+  - adenoma
+  - chemotherapy
+  - radiotherapy
+  - immunotherapy
+  - type 2 diabetes
+  - myocardial infarction
+
+default_exclusions_mesh:
+  - Neoplasms
+  - Carcinoma
+  - Sarcoma
+  - Lymphoma
+  - Leukemia
+  - Melanoma
+  - Glioma
+  - Adenocarcinoma
+  - Diabetes Mellitus
+  - Cardiovascular Diseases
+  - Myocardial Infarction
+  - Heart Failure
+  - Hypertension
+  - Atherosclerosis
+  - Obesity
+  - Alzheimer Disease
+
+# ---------------------------------------------------------------------------
+# Categories
+# ---------------------------------------------------------------------------
+
+categories:
+
+  # =========================================================================
+  # 1 - ANATOMY (merged with histology)
+  # =========================================================================
+  # Mirrors: B - Anatomie/ vault subfolders
+  # Focus: structural descriptions, morphology, ultrastructure, cell types
+  # Preferred types: reviews, high-impact primary research
+  - name: "1 - Anatomy"
+    collection: "1 - Anatomy"
+    topic_ids: [T10250, T10170, T10691, T12599]
+    type_filter: "review|article"
+    citation_expansion:
+      enabled: true
+    sub_topics:
+
+      # 01 - Tunique externe (sclera, cornea, limbus)
+      - name: Tunique externe
+        collection: Tunique externe
+        keywords:
+          - sclera anatomy
+          - corneal anatomy
+          - corneal ultrastructure
+          - corneal endothelium
+          - corneal epithelium
+          - Bowman layer
+          - Descemet membrane
+          - limbus anatomy
+          - corneal stroma
+        clinical_scope:
+          - cornea
+          - sclera
+          - limbus
+        max_results: 30
+
+      # 02 - Tunique moyenne (uvea: iris, ciliary body, choroid)
+      - name: Tunique moyenne
+        collection: Tunique moyenne
+        keywords:
+          - uveal anatomy
+          - choroidal anatomy
+          - choroid ultrastructure
+          - ciliary body anatomy
+          - iris anatomy
+          - Bruch membrane
+          - choriocapillaris
+        clinical_scope:
+          - uvea
+          - choroid
+          - iris
+          - ciliary body
+        max_results: 30
+
+      # 03 - Tunique interne (retina, RPE, photoreceptors)
+      - name: Tunique interne
+        collection: Tunique interne
+        keywords:
+          - retinal anatomy
+          - retinal layers
+          - retinal pigment epithelium
+          - photoreceptor morphology
+          - outer nuclear layer
+          - inner nuclear layer
+          - ganglion cell layer
+          - Muller glia
+          - retinal histology
+          - foveal anatomy
+          - macula anatomy
+        clinical_scope:
+          - retina
+          - photoreceptor
+          - fovea
+          - macula
+        max_results: 40
+
+      # 04 - Milieux transparents (aqueous humor, vitreous, lens)
+      - name: Milieux transparents
+        collection: Milieux transparents
+        keywords:
+          - crystalline lens anatomy
+          - lens capsule
+          - vitreous anatomy
+          - vitreous structure
+          - aqueous humor anatomy
+          - anterior chamber anatomy
+          - zonular fibers
+        clinical_scope:
+          - lens
+          - vitreous
+          - aqueous humor
+        max_results: 20
+
+      # 05 - Structures annexes (eyelids, conjunctiva, lacrimal)
+      - name: Structures annexes
+        collection: Structures annexes
+        keywords:
+          - eyelid anatomy
+          - conjunctival anatomy
+          - lacrimal gland anatomy
+          - meibomian gland anatomy
+          - tarsal plate
+        clinical_scope:
+          - eyelid
+          - conjunctiva
+          - lacrimal
+        max_results: 20
+
+      # 06 - Vascularisation et innervation
+      - name: Vascularisation et innervation
+        collection: Vascularisation et innervation
+        keywords:
+          - retinal vasculature
+          - choroidal vasculature
+          - central retinal artery
+          - optic nerve anatomy
+          - optic nerve head
+          - lamina cribrosa
+          - blood-retinal barrier
+          - ciliary arteries
+        clinical_scope:
+          - retinal vasculature
+          - optic nerve
+          - choroidal blood supply
+        max_results: 30
+
+      # 07 - Orbite et structures perioculaires
+      - name: Orbite
+        collection: Orbite
+        keywords:
+          - orbital anatomy
+          - extraocular muscles
+          - optic canal
+          - orbital apex
+          - Tenon capsule
+        clinical_scope:
+          - orbit
+          - extraocular muscles
+        max_results: 20
+
+      # 08 - Microanatomie specialisee (cell types, junctions)
+      - name: Microanatomie specialisee
+        collection: Microanatomie specialisee
+        keywords:
+          - retinal cell types
+          - single-cell transcriptomics retina
+          - retinal interneurons
+          - bipolar cells retina
+          - amacrine cells retina
+          - horizontal cells retina
+          - rod photoreceptor ultrastructure
+          - cone photoreceptor ultrastructure
+          - outer segment disc
+          - connecting cilium photoreceptor
+        clinical_scope:
+          - retinal cell types
+          - photoreceptor ultrastructure
+        max_results: 30
+        type_filter: "review|article"
+
+  # =========================================================================
+  # 2 - EMBRYOLOGY
+  # =========================================================================
+  # Mirrors: C - Embryologie/ vault subfolders
+  # Focus: eye development, organogenesis, differentiation, signaling
+  - name: "2 - Embryology"
+    collection: "2 - Embryology"
+    topic_ids: [T10691, T12236]
+    type_filter: "review|article"
+    citation_expansion:
+      enabled: true
+    sub_topics:
+
+      # 01 - Chronologie du developpement oculaire
+      - name: Chronologie du developpement
+        collection: Chronologie du developpement
+        keywords:
+          - eye development stages
+          - eye development timeline
+          - ocular morphogenesis
+          - eye organogenesis
+          - embryonic eye development
+        max_results: 30
+
+      # 02 - Genetique du developpement oculaire
+      - name: Genetique du developpement
+        collection: Genetique du developpement
+        keywords:
+          - eye development transcription factors
+          - PAX6 eye development
+          - SHH eye development
+          - BMP signaling eye
+          - WNT signaling eye development
+          - eye field specification
+          - retinal progenitor cells
+          - retinal fate determination
+        max_results: 30
+
+      # 03 - Induction de la vesicule optique
+      - name: Vesicule optique
+        collection: Vesicule optique
+        keywords:
+          - optic vesicle induction
+          - optic cup formation
+          - optic stalk development
+          - optic fissure closure
+          - retinal pigment epithelium specification
+        max_results: 20
+
+      # 04 - Differenciation des tuniques
+      - name: Differenciation des tuniques
+        collection: Differenciation des tuniques
+        keywords:
+          - retinal differentiation
+          - photoreceptor differentiation
+          - retinal ganglion cell development
+          - retinal lamination
+          - RPE differentiation
+          - corneal development
+          - iris development
+        max_results: 30
+
+      # 05 - Structures derivees (lens, cornea development)
+      - name: Structures derivees
+        collection: Structures derivees
+        keywords:
+          - lens development
+          - lens placode
+          - lens fiber differentiation
+          - crystallin expression
+          - corneal development embryology
+          - anterior segment development
+          - neural crest eye
+          - periocular mesenchyme
+        max_results: 25
+
+      # 06 - Structures annexes (eyelid, lacrimal development)
+      - name: Developpement structures annexes
+        collection: Developpement structures annexes
+        keywords:
+          - eyelid development
+          - lacrimal gland development
+          - extraocular muscle development
+          - conjunctival development
+        max_results: 15
+
+      # 07 - Malformations (overlaps with pathologies but developmental focus)
+      - name: Malformations oculaires
+        collection: Malformations oculaires
+        keywords:
+          - ocular malformations genetics
+          - microphthalmia development
+          - anophthalmia development
+          - coloboma embryology
+          - anterior segment dysgenesis development
+          - congenital ocular anomalies
+          - optic fissure closure defect
+        max_results: 25
+
+  # =========================================================================
+  # 3 - PHYSIOLOGY
+  # =========================================================================
+  # Mirrors: D - Physiologie/ vault subfolders
+  # Focus: functional mechanisms, reviews preferred
+  - name: "3 - Physiology"
+    collection: "3 - Physiology"
+    topic_ids: [T12236, T10691, T10250]
+    type_filter: "review|article"
+    citation_expansion:
+      enabled: true
+    sub_topics:
+
+      # 02 - Physiologie de la vision
+      - name: Physiologie de la vision
+        collection: Physiologie de la vision
+        keywords:
+          - phototransduction cascade
+          - visual cycle retinoid
+          - dark adaptation physiology
+          - rhodopsin activation
+          - cone phototransduction
+          - rod phototransduction
+          - visual pigment regeneration
+          - retinol cycle RPE
+          - color vision physiology
+        max_results: 40
+
+      # 03 - Physiologie des milieux transparents
+      - name: Milieux transparents physiologie
+        collection: Milieux transparents physiologie
+        keywords:
+          - corneal transparency mechanism
+          - lens transparency
+          - aqueous humor dynamics
+          - aqueous humor production
+          - vitreous humor physiology
+        max_results: 20
+
+      # 04 - Accommodation
+      - name: Accommodation
+        collection: Accommodation
+        keywords:
+          - accommodation physiology
+          - presbyopia mechanism
+          - ciliary muscle contraction
+          - lens elasticity accommodation
+        max_results: 15
+
+      # 05 - Physiologie pupillaire
+      - name: Physiologie pupillaire
+        collection: Physiologie pupillaire
+        keywords:
+          - pupillary light reflex
+          - pupil physiology
+          - intrinsically photosensitive retinal ganglion cells
+          - melanopsin signaling
+          - pupillary pathway
+        max_results: 20
+
+      # 06 - Mouvements oculaires
+      - name: Mouvements oculaires
+        collection: Mouvements oculaires
+        keywords:
+          - saccade physiology
+          - smooth pursuit eye movement
+          - vestibulo-ocular reflex
+          - optokinetic nystagmus
+          - vergence eye movement
+          - oculomotor control
+        max_results: 20
+
+      # 07 - Systeme lacrymal
+      - name: Systeme lacrymal
+        collection: Systeme lacrymal
+        keywords:
+          - tear film physiology
+          - tear film composition
+          - meibomian gland function
+          - lacrimal secretion
+          - ocular surface homeostasis
+        max_results: 20
+
+      # 08 - Pression intraoculaire
+      - name: Pression intraoculaire
+        collection: Pression intraoculaire
+        keywords:
+          - intraocular pressure regulation
+          - trabecular meshwork physiology
+          - aqueous humor outflow
+          - Schlemm canal
+          - uveoscleral outflow
+        max_results: 20
+
+      # 09 - Physiologie vasculaire oculaire
+      - name: Physiologie vasculaire oculaire
+        collection: Physiologie vasculaire oculaire
+        keywords:
+          - retinal blood flow regulation
+          - choroidal blood flow
+          - blood-retinal barrier physiology
+          - retinal autoregulation
+          - neurovascular coupling retina
+        max_results: 25
+
+      # 10 - Neurophysiologie oculaire
+      - name: Neurophysiologie oculaire
+        collection: Neurophysiologie oculaire
+        keywords:
+          - visual cortex physiology
+          - lateral geniculate nucleus
+          - optic radiation
+          - visual processing retina
+          - retinal ganglion cell physiology
+          - ON OFF pathways retina
+        max_results: 25
+
+      # 11 - Vieillissement oculaire
+      - name: Vieillissement oculaire
+        collection: Vieillissement oculaire
+        keywords:
+          - aging retina
+          - RPE aging
+          - lipofuscin accumulation retina
+          - drusen formation
+          - presbyopia aging lens
+          - age-related changes eye
+        max_results: 20
+
+      # 12 - Chronobiologie oculaire
+      - name: Chronobiologie oculaire
+        collection: Chronobiologie oculaire
+        keywords:
+          - circadian rhythm eye
+          - melanopsin circadian
+          - ipRGC circadian
+          - melatonin retina
+          - photoentrainment
+        max_results: 15
+
+  # =========================================================================
+  # 4 - EXAMINATIONS
+  # =========================================================================
+  # Mirrors: E - Examens/ vault subfolders
+  # Focus: clinical examination techniques, imaging, interpretation
+  - name: "4 - Examinations"
+    collection: "4 - Examinations"
+    topic_ids: [T11438, T10250, T10170]
+    type_filter: "review|article"
+    citation_expansion:
+      enabled: true
+    sub_topics:
+
+      # 02 - Fonction visuelle
+      - name: Fonction visuelle
+        collection: Fonction visuelle
+        keywords:
+          - visual acuity testing methods
+          - visual field testing perimetry
+          - color vision testing
+          - contrast sensitivity testing
+          - microperimetry technique
+        max_results: 25
+
+      # 03 - Segment anterieur
+      - name: Examen segment anterieur
+        collection: Examen segment anterieur
+        keywords:
+          - slit lamp examination technique
+          - gonioscopy technique
+          - specular microscopy cornea
+          - anterior segment OCT
+          - pachymetry
+          - corneal topography
+          - endothelial cell count
+        max_results: 25
+
+      # 04 - Segment posterieur
+      - name: Examen segment posterieur
+        collection: Examen segment posterieur
+        keywords:
+          - fundoscopy technique
+          - fundus photography
+          - indirect ophthalmoscopy
+          - widefield imaging retina
+          - ultra-widefield imaging
+        max_results: 20
+
+      # 05 - Imagerie oculaire
+      - name: Imagerie oculaire
+        collection: Imagerie oculaire
+        keywords:
+          - optical coherence tomography retina
+          - OCT angiography retina
+          - fundus autofluorescence imaging
+          - fluorescein angiography technique
+          - indocyanine green angiography
+          - adaptive optics retinal imaging
+          - en face OCT
+          - swept source OCT
+        max_results: 40
+
+      # 06 - Neuro-ophtalmologie
+      - name: Examens neuro-ophtalmologiques
+        collection: Examens neuro-ophtalmologiques
+        keywords:
+          - visual evoked potentials
+          - pupillometry technique
+          - optic nerve head imaging
+          - RNFL thickness measurement
+          - ganglion cell analysis OCT
+        max_results: 20
+
+      # 07 - Surface oculaire
+      - name: Examens surface oculaire
+        collection: Examens surface oculaire
+        keywords:
+          - Schirmer test
+          - tear breakup time
+          - meibography
+          - ocular surface staining
+          - tear film analysis
+        max_results: 15
+
+      # 08 - Vision binoculaire
+      - name: Vision binoculaire
+        collection: Vision binoculaire
+        keywords:
+          - strabismus examination
+          - binocular vision testing
+          - Worth four-dot test
+          - stereoacuity testing
+          - cover test technique
+        max_results: 15
+
+      # 09 - Examens genetiques
+      - name: Examens genetiques
+        collection: Examens genetiques
+        keywords:
+          - genetic testing inherited retinal disease
+          - next-generation sequencing ophthalmology
+          - whole exome sequencing eye disease
+          - gene panel retinal dystrophy
+          - variant interpretation inherited eye disease
+        max_results: 25
+
+      # 10 - Explorations fonctionnelles specialisees
+      - name: Explorations fonctionnelles
+        collection: Explorations fonctionnelles
+        keywords:
+          - electroretinography technique
+          - full-field ERG
+          - multifocal ERG
+          - pattern ERG
+          - electro-oculography
+          - dark adaptometry
+          - chromatic pupillometry
+          - ISCEV standard
+        max_results: 30
+
+      # 11 - Technologies emergentes
+      - name: Technologies emergentes
+        collection: Technologies emergentes
+        keywords:
+          - artificial intelligence ophthalmology
+          - deep learning retinal imaging
+          - adaptive optics scanning laser ophthalmoscopy
+          - handheld OCT
+          - home monitoring retina
+        max_results: 20
+
+  # =========================================================================
+  # 5 - PATHOLOGIES
+  # =========================================================================
+  # Derived from disease_name_mapping.json MOC categories.
+  # Focus: clinical phenotype, natural history, epidemiology, classification.
+  # Gene-specific molecular studies are covered by the gene pipeline.
+  #
+  # Query strategy: disease name + clinical keywords within ophthalmology.
+  # No gene-name filter (unlike gene pipeline).
+  # Citation expansion uses disease-name presence instead of gene-name.
+  - name: "5 - Pathologies"
+    collection: "5 - Pathologies"
+    topic_ids: [T10250, T10170, T11194, T12599]
+    type_filter: "review|article"
+    # Clinical focus keywords ANDed with disease names
+    clinical_keywords:
+      - phenotype
+      - natural history
+      - clinical features
+      - classification
+      - epidemiology
+      - genotype-phenotype
+      - prognosis
+      - management
+      - diagnostic criteria
+    citation_expansion:
+      enabled: true
+      # Stricter for pathologies -- many papers, want high relevance
+      min_co_citations: 3
+      max_min_co: 5
+      max_hops: 1
+    sub_topics:
+
+      # --- Albinismes ---
+      - name: Albinismes
+        collection: Albinismes
+        diseases:
+          - name: Albinisme oculaire
+            en_keywords: ["ocular albinism"]
+          - name: Albinisme oculo-cutane
+            en_keywords: ["oculocutaneous albinism"]
+          - name: Albinisme syndromique
+            en_keywords: ["Hermansky-Pudlak syndrome", "Chediak-Higashi syndrome"]
+          - name: Hypoplasie foveolaire
+            en_keywords: ["foveal hypoplasia"]
+          - name: Nystagmus congenital
+            en_keywords: ["congenital nystagmus", "infantile nystagmus"]
+        max_results: 30
+
+      # --- Anomalies du developpement oculaire ---
+      - name: Anomalies du developpement oculaire
+        collection: Anomalies du developpement oculaire
+        diseases:
+          - name: Aniridie
+            en_keywords: ["aniridia"]
+          - name: Anomalie de Peters
+            en_keywords: ["Peters anomaly"]
+          - name: Anophtalmie et microphtalmie
+            en_keywords: ["anophthalmia", "microphthalmia"]
+          - name: Colobome
+            en_keywords: ["ocular coloboma", "chorioretinal coloboma"]
+          - name: Ectopie du cristallin
+            en_keywords: ["ectopia lentis"]
+          - name: Glaucome congenital
+            en_keywords: ["congenital glaucoma", "primary congenital glaucoma"]
+          - name: Megalocornee
+            en_keywords: ["megalocornea"]
+          - name: Syndrome d'Axenfeld-Rieger
+            en_keywords: ["Axenfeld-Rieger syndrome", "anterior segment dysgenesis"]
+        max_results: 40
+
+      # --- Cataractes congenitales ---
+      - name: Cataractes congenitales
+        collection: Cataractes congenitales
+        diseases:
+          - name: Cataracte congenitale
+            en_keywords: ["congenital cataract", "hereditary cataract", "pediatric cataract"]
+        max_results: 25
+
+      # --- Dystrophies corneennes ---
+      - name: Dystrophies corneennes
+        collection: Dystrophies corneennes
+        diseases:
+          - name: Dystrophie grillagee
+            en_keywords: ["lattice corneal dystrophy"]
+          - name: Dystrophie granulaire
+            en_keywords: ["granular corneal dystrophy"]
+          - name: Dystrophie de Meesmann
+            en_keywords: ["Meesmann corneal dystrophy"]
+          - name: Dystrophie endotheliale
+            en_keywords: ["Fuchs endothelial dystrophy", "congenital hereditary endothelial dystrophy"]
+          - name: Dystrophie posterieure polymorphe
+            en_keywords: ["posterior polymorphous corneal dystrophy"]
+          - name: Dystrophie cristalline de Schnyder
+            en_keywords: ["Schnyder corneal dystrophy"]
+          - name: Dystrophie de Fleck
+            en_keywords: ["Fleck corneal dystrophy"]
+          - name: Dystrophie maculaire de la cornee
+            en_keywords: ["macular corneal dystrophy"]
+          - name: Dystrophie gelatineuse
+            en_keywords: ["gelatinous drop-like corneal dystrophy"]
+        max_results: 30
+
+      # --- Dystrophies retiniennes ---
+      - name: Dystrophies retiniennes
+        collection: Dystrophies retiniennes
+        diseases:
+          - name: Retinite pigmentaire
+            en_keywords: ["retinitis pigmentosa"]
+          - name: Amaurose congenitale de Leber
+            en_keywords: ["Leber congenital amaurosis"]
+          - name: Maladie de Stargardt
+            en_keywords: ["Stargardt disease"]
+          - name: Dystrophie des cones et batonnets
+            en_keywords: ["cone-rod dystrophy"]
+          - name: Cecite nocturne stationnaire
+            en_keywords: ["congenital stationary night blindness"]
+          - name: Choroideremie
+            en_keywords: ["choroideremia"]
+          - name: Maladie de Best
+            en_keywords: ["Best vitelliform macular dystrophy"]
+          - name: Achromatopsie
+            en_keywords: ["achromatopsia"]
+          - name: Monochromatisme a cones bleus
+            en_keywords: ["blue cone monochromacy"]
+          - name: Atrophie gyree
+            en_keywords: ["gyrate atrophy"]
+          - name: Syndrome de Usher
+            en_keywords: ["Usher syndrome"]
+          - name: Syndrome de Bardet-Biedl
+            en_keywords: ["Bardet-Biedl syndrome"]
+          - name: Syndrome d'Alstrom
+            en_keywords: ["Alstrom syndrome"]
+          - name: Retinoschisis juvenil
+            en_keywords: ["X-linked retinoschisis"]
+          - name: Atrophie optique hereditaire
+            en_keywords: ["dominant optic atrophy", "Leber hereditary optic neuropathy"]
+          - name: Myopie forte
+            en_keywords: ["high myopia", "pathologic myopia"]
+        max_results: 50
+
+      # --- Vitreoretinopathies ---
+      - name: Vitreoretinopathies
+        collection: Vitreoretinopathies
+        diseases:
+          - name: Maladie de Norrie
+            en_keywords: ["Norrie disease"]
+          - name: Syndrome de Wagner
+            en_keywords: ["Wagner syndrome", "Wagner vitreoretinopathy"]
+          - name: Vitreoretinochoroidopathie
+            en_keywords: ["familial exudative vitreoretinopathy", "FEVR"]
+          - name: Syndrome de Stickler
+            en_keywords: ["Stickler syndrome"]
+        max_results: 25

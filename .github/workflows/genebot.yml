@@ -1,0 +1,74 @@
+name: Gene & Topic Literature Bot
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # every Sunday at 03:00 UTC
+  workflow_dispatch:       # manual trigger from GitHub UI
+    inputs:
+      mode:
+        description: 'Pipeline mode (empty = both pipelines)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - genes
+          - topics
+        default: ''
+      categories:
+        description: 'Topic category to run (e.g. "1 - Anatomy"). Leave empty for all categories.'
+        required: false
+        type: string
+      genes:
+        description: 'Space-separated gene symbols (leave empty for defaults from genes.yml)'
+        required: false
+        type: string
+
+jobs:
+  update-library:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          INPUT_GENES: ${{ inputs.genes }}
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_CATEGORIES: ${{ inputs.categories }}
+        run: python run.py
+
+      - name: Prepare dashboard data
+        if: always()
+        run: |
+          mkdir -p site/data
+          if [ -f data/near_misses.json ]; then
+            cp data/near_misses.json site/data/
+          else
+            echo '{"generated_at":"","pipeline_version":"1.0","stats":{"total_rejections":0,"by_reason":{},"by_category":{}},"hierarchy":{},"articles":[]}' > site/data/near_misses.json
+          fi
+
+      - name: Deploy dashboard to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
