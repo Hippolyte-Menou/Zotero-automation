@@ -48,6 +48,23 @@ jobs:
           INPUT_CATEGORIES: ${{ inputs.categories }}
         run: python run.py
 
+      - name: Prepare dashboard data
+        if: always()
+        run: |
+          mkdir -p site/data
+          if [ -f data/near_misses.json ]; then
+            cp data/near_misses.json site/data/
+          else
+            echo '{"generated_at":"","pipeline_version":"1.0","stats":{"total_rejections":0,"by_reason":{},"by_category":{}},"hierarchy":{},"articles":[]}' > site/data/near_misses.json
+          fi
+
+      - name: Deploy dashboard to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+
       - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4

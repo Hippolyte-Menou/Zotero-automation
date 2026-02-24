@@ -25,6 +25,7 @@ import yaml
 from genebot.hgnc import get_gene_aliases
 from genebot.openalex import OpenAlexClient
 from genebot.zotero_client import ZoteroGroupClient
+from genebot.rejection_log import RejectionLog
 
 os.makedirs("logs", exist_ok=True)
 
@@ -140,6 +141,7 @@ def process_gene(
     citation_cfg: dict,
     search_max_results: int = 25,
     recent_max_results: int = 10,
+    rejection_log: RejectionLog | None = None,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
@@ -157,6 +159,9 @@ def process_gene(
     logger.info(f"{'=' * 60}")
     logger.info(f"Processing: {symbol}")
     logger.info(f"{'=' * 60}")
+
+    if rejection_log:
+        rejection_log.set_context(subcollection=symbol, category="6 - Genes")
 
     # 1. Gene aliases from HGNC
     aliases = get_gene_aliases(symbol)
@@ -193,6 +198,7 @@ def process_gene(
             exclude_terms=text_excl,
             max_results=search_max_results,
             disease_keywords=gene_tags or None,
+            rejection_log=rejection_log,
         )
 
         if not seed_works:
@@ -205,7 +211,9 @@ def process_gene(
 
         # Apply MeSH exclusion on raw works before converting to records
         if mesh_excl:
-            seed_works = openalex._filter_by_mesh(seed_works, mesh_excl)
+            seed_works = openalex._filter_by_mesh(
+                seed_works, mesh_excl, rejection_log=rejection_log
+            )
 
         # Preserve referenced_works before flattening
         for w in seed_works:
@@ -257,6 +265,7 @@ def process_gene(
         max_hops=max_hops,
         hop2_top_n=hop2_top_n,
         exclude_mesh=mesh_excl or None,
+        rejection_log=rejection_log,
     )
 
     cit_added = 0
@@ -276,16 +285,25 @@ def process_gene(
         # Text filter + dedup
         if text_excl:
             patterns = [
-                re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
                 for t in text_excl
             ]
-            candidate_records = [
-                r for r in candidate_records
-                if not any(
-                    p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
-                    for p in patterns
-                )
-            ]
+            filtered_records = []
+            for r in candidate_records:
+                text = f"{r.get('title', '')} {r.get('abstract', '')}"
+                matched = None
+                for pat, term in patterns:
+                    if pat.search(text):
+                        matched = term
+                        break
+                if matched:
+                    if rejection_log:
+                        rejection_log.add_from_record(
+                            r, reason="text_exclusion", matched_term=matched
+                        )
+                else:
+                    filtered_records.append(r)
+            candidate_records = filtered_records
 
         candidate_records = [
             r for r in candidate_records
@@ -316,7 +334,9 @@ def process_gene(
     if recent_works:
         # MeSH exclusion on raw works before converting to records
         if mesh_excl:
-            recent_works = openalex._filter_by_mesh(recent_works, mesh_excl)
+            recent_works = openalex._filter_by_mesh(
+                recent_works, mesh_excl, rejection_log=rejection_log
+            )
 
         # Preserve referenced_works before flattening
         for w in recent_works:
@@ -331,16 +351,25 @@ def process_gene(
         # Text filter
         if text_excl:
             patterns = [
-                re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
                 for t in text_excl
             ]
-            recent_records = [
-                r for r in recent_records
-                if not any(
-                    p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
-                    for p in patterns
-                )
-            ]
+            filtered_recent = []
+            for r in recent_records:
+                text = f"{r.get('title', '')} {r.get('abstract', '')}"
+                matched = None
+                for pat, term in patterns:
+                    if pat.search(text):
+                        matched = term
+                        break
+                if matched:
+                    if rejection_log:
+                        rejection_log.add_from_record(
+                            r, reason="text_exclusion", matched_term=matched
+                        )
+                else:
+                    filtered_recent.append(r)
+            recent_records = filtered_recent
 
         # Dedup
         recent_records = [
@@ -404,6 +433,7 @@ def process_topic_subtopic(
     existing_pmids: set[str],
     pmid_to_key: dict[str, str],
     openalex: OpenAlexClient,
+    rejection_log: RejectionLog | None = None,
 ) -> dict:
     """Process a single sub-topic within a category. Returns stats dict."""
 
@@ -455,6 +485,9 @@ def process_topic_subtopic(
     logger.info(f"Processing topic: {category_name} / {sub_name}")
     logger.info(f"{'=' * 60}")
 
+    if rejection_log:
+        rejection_log.set_context(subcollection=sub_name, category=category_name)
+
     # 1. Get/create nested Zotero collection
     collection_key = zot.get_or_create_collection(
         collection_name, parent_key=category_parent_key
@@ -486,6 +519,7 @@ def process_topic_subtopic(
             subfield_id=subfield_id,
             topic_ids=topic_ids,
             clinical_keywords=clinical_keywords,
+            rejection_log=rejection_log,
         )
 
         if not seed_works:
@@ -544,6 +578,7 @@ def process_topic_subtopic(
             max_hops=cit_cfg.get("max_hops", 1),
             hop2_top_n=cit_cfg.get("hop2_top_n", 5),
             exclude_mesh=mesh_excl or None,
+            rejection_log=rejection_log,
         )
 
         if candidates:
@@ -561,16 +596,25 @@ def process_topic_subtopic(
             if text_excl:
                 import re
                 patterns = [
-                    re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                    (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
                     for t in text_excl
                 ]
-                candidate_records = [
-                    r for r in candidate_records
-                    if not any(
-                        p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
-                        for p in patterns
-                    )
-                ]
+                filtered_records = []
+                for r in candidate_records:
+                    text = f"{r.get('title', '')} {r.get('abstract', '')}"
+                    matched = None
+                    for pat, term in patterns:
+                        if pat.search(text):
+                            matched = term
+                            break
+                    if matched:
+                        if rejection_log:
+                            rejection_log.add_from_record(
+                                r, reason="text_exclusion", matched_term=matched
+                            )
+                    else:
+                        filtered_records.append(r)
+                candidate_records = filtered_records
 
             candidate_records = [
                 r for r in candidate_records
@@ -603,7 +647,9 @@ def process_topic_subtopic(
     )
     if recent_works:
         if mesh_excl:
-            recent_works = openalex._filter_by_mesh(recent_works, mesh_excl)
+            recent_works = openalex._filter_by_mesh(
+                recent_works, mesh_excl, rejection_log=rejection_log
+            )
         for w in recent_works:
             pmid = OpenAlexClient._extract_pmid(w)
             if pmid:
@@ -614,16 +660,25 @@ def process_topic_subtopic(
         if text_excl:
             import re
             patterns = [
-                re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
                 for t in text_excl
             ]
-            recent_records = [
-                r for r in recent_records
-                if not any(
-                    p.search(f"{r.get('title', '')} {r.get('abstract', '')}")
-                    for p in patterns
-                )
-            ]
+            filtered_recent = []
+            for r in recent_records:
+                text = f"{r.get('title', '')} {r.get('abstract', '')}"
+                matched = None
+                for pat, term in patterns:
+                    if pat.search(text):
+                        matched = term
+                        break
+                if matched:
+                    if rejection_log:
+                        rejection_log.add_from_record(
+                            r, reason="text_exclusion", matched_term=matched
+                        )
+                else:
+                    filtered_recent.append(r)
+            recent_records = filtered_recent
 
         recent_records = [
             r for r in recent_records
@@ -770,6 +825,8 @@ def main():
         logger.info(f"Blocking {len(trashed_pmids)} trashed PMIDs from re-upload")
         existing_pmids.update(trashed_pmids)
 
+    rejection_log = RejectionLog()
+
     # -----------------------------------------------------------------
     # Gene pipeline
     # -----------------------------------------------------------------
@@ -822,6 +879,7 @@ def main():
                     citation_cfg=citation_cfg,
                     search_max_results=search_max_results,
                     recent_max_results=recent_max_results,
+                    rejection_log=rejection_log,
                 )
                 gene_summary.append(stats)
 
@@ -880,6 +938,7 @@ def main():
                         existing_pmids=existing_pmids,
                         pmid_to_key=pmid_to_key,
                         openalex=openalex,
+                        rejection_log=rejection_log,
                     )
                     topic_summary.append(stats)
 
@@ -896,6 +955,13 @@ def main():
                         f"cit_cand={s['cit_candidates']:4d}  cit_add={s['cit_added']:4d}  "
                         f"recent_add={s['recent_added']:4d}"
                     )
+
+
+    # -----------------------------------------------------------------
+    # Write rejection log for near-miss dashboard
+    # -----------------------------------------------------------------
+    os.makedirs("data", exist_ok=True)
+    rejection_log.to_json("data/near_misses.json")
 
 
 if __name__ == "__main__":

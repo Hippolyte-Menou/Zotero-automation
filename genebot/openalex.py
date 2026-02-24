@@ -109,6 +109,7 @@ class OpenAlexClient:
         exclude_terms: list[str] | None = None,
         max_results: int = 10000,
         disease_keywords: list[str] | None = None,
+        rejection_log=None,
     ) -> list[dict]:
         """Search OpenAlex for works mentioning any of the search terms.
 
@@ -172,7 +173,9 @@ class OpenAlexClient:
         # Post-hoc text exclusion
         if exclude_terms:
             before = len(results)
-            results = self._filter_by_text(results, exclude_terms)
+            results = self._filter_by_text(
+                results, exclude_terms, rejection_log=rejection_log
+            )
             logger.info(f"Text filter removed {before - len(results)} works")
 
         return results[:max_results]
@@ -328,6 +331,7 @@ class OpenAlexClient:
         subfield_id: int | None = None,
         topic_ids: list[str] | None = None,
         clinical_keywords: list[str] | None = None,
+        rejection_log=None,
     ) -> list[dict]:
         """Search OpenAlex for works matching topic keywords.
 
@@ -391,13 +395,17 @@ class OpenAlexClient:
         # Post-hoc text exclusion
         if exclude_terms:
             before = len(results)
-            results = self._filter_by_text(results, exclude_terms)
+            results = self._filter_by_text(
+                results, exclude_terms, rejection_log=rejection_log
+            )
             if before - len(results):
                 logger.info(f"Text filter removed {before - len(results)} works")
 
         # Post-hoc MeSH exclusion
         if exclude_mesh:
-            results = self._filter_by_mesh(results, exclude_mesh)
+            results = self._filter_by_mesh(
+                results, exclude_mesh, rejection_log=rejection_log
+            )
 
         return results
 
@@ -483,6 +491,7 @@ class OpenAlexClient:
         min_co_citations: int = 1,
         max_min_co: int = 6,
         hop_label: str = "hop 1",
+        below_threshold: list[dict] | None = None,
     ) -> list[dict]:
         """Single-hop citation network expansion with bibliographic coupling.
 
@@ -580,6 +589,25 @@ class OpenAlexClient:
             effective_co = co_cit + bib_bonus + recency_bonus
 
             if effective_co < adaptive_min_co:
+                if below_threshold is not None:
+                    dirs_bt = info["directions"]
+                    if "reference" in dirs_bt and "citation" in dirs_bt:
+                        dir_bt = "both"
+                    elif "citation" in dirs_bt:
+                        dir_bt = "citation"
+                    else:
+                        dir_bt = "reference"
+                    below_threshold.append({
+                        "pmid": pmid,
+                        "openalex_id": oa_id,
+                        "co_citations": co_cit,
+                        "bib_coupling": bib_coupling,
+                        "recency_bonus": recency_bonus,
+                        "effective_score": effective_co,
+                        "threshold": adaptive_min_co,
+                        "year": year,
+                        "direction": dir_bt,
+                    })
                 continue
 
             dirs = info["directions"]
@@ -623,6 +651,7 @@ class OpenAlexClient:
         max_hops: int = 1,
         hop2_top_n: int = 10,
         exclude_mesh: list[str] | None = None,
+        rejection_log=None,
     ) -> list[dict]:
         """Multi-hop citation expansion with mention filtering and
         bibliographic coupling.
@@ -666,6 +695,7 @@ class OpenAlexClient:
                     f"{hop_label}: using top {len(hop_seeds)} candidates as seeds"
                 )
 
+            hop_below: list[dict] = [] if rejection_log else []
             scored = self._expand_one_hop(
                 seed_works=hop_seeds,
                 existing_pmids=all_seen_pmids,
@@ -674,7 +704,33 @@ class OpenAlexClient:
                 min_co_citations=min_co_citations,
                 max_min_co=max_min_co,
                 hop_label=hop_label,
+                below_threshold=hop_below if rejection_log else None,
             )
+
+            # Log below-threshold candidates (top 50 by score)
+            if rejection_log and hop_below:
+                hop_below.sort(
+                    key=lambda x: x["effective_score"], reverse=True
+                )
+                top_below = hop_below[:50]
+                below_pmids = [b["pmid"] for b in top_below if b.get("pmid")]
+                if below_pmids:
+                    below_works = self.fetch_works_by_pmids(below_pmids)
+                    below_by_pmid = {
+                        self._extract_pmid(w): w for w in below_works
+                    }
+                    for b in top_below:
+                        work = below_by_pmid.get(b["pmid"])
+                        if work:
+                            rejection_log.add_from_work(
+                                work,
+                                reason="score_below_threshold",
+                                scores=b,
+                            )
+                    logger.info(
+                        f"Rejection log ({hop_label}): recorded "
+                        f"{len(top_below)} below-threshold candidates"
+                    )
 
             if not scored:
                 logger.info(f"No candidates from {hop_label}")
@@ -710,10 +766,23 @@ class OpenAlexClient:
             # Mention filter (gene names, disease names, topic keywords)
             if terms:
                 before = len(scored)
-                scored = [
-                    c for c in scored
-                    if self._mentions_terms(c["work"], terms)
-                ]
+                kept_mention = []
+                for c in scored:
+                    if self._mentions_terms(c["work"], terms):
+                        kept_mention.append(c)
+                    elif rejection_log:
+                        rejection_log.add_from_work(
+                            c["work"],
+                            reason="mention_filter",
+                            scores={
+                                "co_citations": c.get("co_citations"),
+                                "bib_coupling": c.get("bib_coupling"),
+                                "recency_bonus": c.get("recency_bonus"),
+                                "effective_score": c.get("effective_score"),
+                                "direction": c.get("direction"),
+                            },
+                        )
+                scored = kept_mention
                 removed = before - len(scored)
                 if removed:
                     logger.info(
@@ -725,7 +794,9 @@ class OpenAlexClient:
             if exclude_mesh:
                 before = len(scored)
                 hop_works = [c["work"] for c in scored]
-                kept_works = self._filter_by_mesh(hop_works, exclude_mesh)
+                kept_works = self._filter_by_mesh(
+                    hop_works, exclude_mesh, rejection_log=rejection_log
+                )
                 kept_pmids = {self._extract_pmid(w) for w in kept_works}
                 scored = [c for c in scored if c["pmid"] in kept_pmids]
                 if len(scored) < before:
@@ -849,7 +920,11 @@ class OpenAlexClient:
         return False
 
     @staticmethod
-    def _filter_by_mesh(works: list[dict], exclude_mesh: list[str]) -> list[dict]:
+    def _filter_by_mesh(
+        works: list[dict],
+        exclude_mesh: list[str],
+        rejection_log=None,
+    ) -> list[dict]:
         """Remove works whose MeSH descriptors contain any excluded descriptor name.
 
         Works with an empty mesh array are always kept -- not all PubMed records
@@ -858,6 +933,9 @@ class OpenAlexClient:
 
         exclude_mesh: list of MeSH descriptor names, matched case-insensitively.
                       e.g. ["Neoplasms", "Diabetes Mellitus"]
+
+        If rejection_log is provided, rejected works are recorded with the
+        first matched MeSH descriptor.
         """
         if not exclude_mesh:
             return works
@@ -874,8 +952,15 @@ class OpenAlexClient:
                 (e.get("descriptor_name") or "").lower()
                 for e in mesh_entries
             }
-            if descriptors & blocked:
+            matched = descriptors & blocked
+            if matched:
                 removed += 1
+                if rejection_log:
+                    # Report the first matching MeSH term (original casing)
+                    matched_term = next(iter(matched))
+                    rejection_log.add_from_work(
+                        w, reason="mesh_exclusion", matched_term=matched_term
+                    )
             else:
                 kept.append(w)
         if removed:
@@ -883,11 +968,19 @@ class OpenAlexClient:
         return kept
 
     @staticmethod
-    def _filter_by_text(works: list[dict], exclude_terms: list[str]) -> list[dict]:
-        """Remove works whose title or abstract contains any exclude term."""
+    def _filter_by_text(
+        works: list[dict],
+        exclude_terms: list[str],
+        rejection_log=None,
+    ) -> list[dict]:
+        """Remove works whose title or abstract contains any exclude term.
+
+        If rejection_log is provided, rejected works are recorded with the
+        matched term.
+        """
         import re
         patterns = [
-            re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE)
+            (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
             for t in exclude_terms
         ]
         kept = []
@@ -895,7 +988,16 @@ class OpenAlexClient:
             title = w.get("title", "") or ""
             abstract = _invert_abstract(w.get("abstract_inverted_index"))
             text = f"{title} {abstract}"
-            if any(p.search(text) for p in patterns):
+            matched = None
+            for pat, term in patterns:
+                if pat.search(text):
+                    matched = term
+                    break
+            if matched:
+                if rejection_log:
+                    rejection_log.add_from_work(
+                        w, reason="text_exclusion", matched_term=matched
+                    )
                 continue
             kept.append(w)
         return kept
