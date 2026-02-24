@@ -5,10 +5,6 @@ on:
     - cron: '0 3 * * 0'  # every Sunday at 03:00 UTC
   workflow_dispatch:       # manual trigger from GitHub UI
     inputs:
-      genes:
-        description: 'Space-separated gene symbols (leave empty for defaults from genes.yml)'
-        required: false
-        type: string
       mode:
         description: 'Pipeline mode (empty = both pipelines)'
         required: false
@@ -20,6 +16,10 @@ on:
         default: ''
       categories:
         description: 'Topic category to run (e.g. "1 - Anatomy"). Leave empty for all categories.'
+        required: false
+        type: string
+      genes:
+        description: 'Space-separated gene symbols (leave empty for defaults from genes.yml)'
         required: false
         type: string
 
