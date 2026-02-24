@@ -1,10 +1,15 @@
-"""OpenAlex API client for gene literature discovery.
+"""OpenAlex API client for gene and topic literature discovery.
 
 Uses the OpenAlex Academic Graph API (https://docs.openalex.org/) for both
 keyword-based paper search and citation network expansion.
 
-Adaptive selectivity: the more papers already exist in the library for a gene,
-the higher the bar (co-citation count or recency) a new candidate must clear.
+Supports two search modes:
+- Gene search: (gene_name OR aliases) AND (disease_keywords)
+- Topic search: keyword-based with OpenAlex topic/subfield scoping
+
+Adaptive selectivity: the more papers already exist in the library for a gene
+or topic, the higher the bar (co-citation count or recency) a new candidate
+must clear.
 """
 
 import time
@@ -243,6 +248,201 @@ class OpenAlexClient:
         return results[:max_results]
 
     # ------------------------------------------------------------------
+    # Topic search
+    # ------------------------------------------------------------------
+
+    def _search_topic_query(
+        self,
+        query: str,
+        max_results: int,
+        type_filter: str | None = None,
+        subfield_id: int | None = None,
+        topic_ids: list[str] | None = None,
+        extra_filters: list[str] | None = None,
+    ) -> list[dict]:
+        """Execute a single OpenAlex topic query with pagination.
+
+        Builds the filter string from:
+        - title_and_abstract.search:{query}
+        - primary_topic.subfield.id:{subfield_id} (optional)
+        - topics.id:{id1|id2|...} (optional)
+        - type:{type_filter} (optional, e.g. "review|article")
+        - has_pmid, is_retracted, language (standard)
+        - any extra_filters (e.g. from_publication_date)
+        """
+        filters = [
+            f"title_and_abstract.search:{query}",
+            "has_pmid:true",
+            "is_retracted:false",
+            "language:en|fr",
+        ]
+        if type_filter:
+            filters.append(f"type:{type_filter}")
+        if subfield_id:
+            filters.append(f"primary_topic.subfield.id:{subfield_id}")
+        if topic_ids:
+            filters.append(f"topics.id:{'|'.join(str(t) for t in topic_ids)}")
+        if extra_filters:
+            filters.extend(extra_filters)
+        filter_str = ",".join(filters)
+
+        results: list[dict] = []
+        page = 1
+        per_page = 200
+
+        while len(results) < max_results:
+            data = self._get(
+                "/works",
+                params={
+                    "filter": filter_str,
+                    "select": WORK_FIELDS,
+                    "sort": "publication_date:desc",
+                    "per_page": str(per_page),
+                    "page": str(page),
+                },
+            )
+            if not data or "results" not in data:
+                break
+            batch = data["results"]
+            if not batch:
+                break
+            results.extend(batch)
+            total = data.get("meta", {}).get("count", 0)
+            if total > max_results and page == 1:
+                logger.info(
+                    f"Topic query returned {total} results, capping at {max_results}"
+                )
+            if len(batch) < per_page:
+                break
+            page += 1
+
+        return results[:max_results]
+
+    def search_topic(
+        self,
+        keywords: list[str],
+        exclude_terms: list[str] | None = None,
+        exclude_mesh: list[str] | None = None,
+        max_results: int = 50,
+        type_filter: str | None = None,
+        subfield_id: int | None = None,
+        topic_ids: list[str] | None = None,
+        clinical_keywords: list[str] | None = None,
+    ) -> list[dict]:
+        """Search OpenAlex for works matching topic keywords.
+
+        Two modes:
+        - Keyword mode (no clinical_keywords): OR all keywords into one query.
+          Used for anatomy, embryology, physiology, examinations.
+        - Disease+clinical mode (with clinical_keywords): for each keyword,
+          AND with clinical terms, merge results. Used for pathologies.
+
+        Multi-word keywords are auto-quoted for phrase matching.
+
+        Returns list of work dicts with full metadata.
+        """
+        if not keywords:
+            return []
+
+        def _quote(kw: str) -> str:
+            return f'"{kw}"' if " " in kw else kw
+
+        if clinical_keywords:
+            # Disease+clinical mode: iterate per disease keyword
+            clinical_part = " OR ".join(_quote(ck) for ck in clinical_keywords)
+            per_disease_cap = max(5, max_results // max(len(keywords), 1))
+            all_results: list[dict] = []
+            seen_ids: set[str] = set()
+
+            for kw in keywords:
+                query = f"({_quote(kw)}) AND ({clinical_part})"
+                logger.info(f"Topic search (disease+clinical): {query}")
+                batch = self._search_topic_query(
+                    query=query,
+                    max_results=per_disease_cap,
+                    type_filter=type_filter,
+                    subfield_id=subfield_id,
+                    topic_ids=topic_ids,
+                )
+                for w in batch:
+                    oa_id = w.get("id", "")
+                    if oa_id not in seen_ids:
+                        seen_ids.add(oa_id)
+                        all_results.append(w)
+
+            logger.info(
+                f"Topic search (disease+clinical): "
+                f"{len(all_results)} unique works from {len(keywords)} queries"
+            )
+            results = all_results[:max_results]
+        else:
+            # Keyword mode: OR all keywords
+            query = " OR ".join(_quote(kw) for kw in keywords)
+            logger.info(f"Topic search (keyword): {query}")
+            results = self._search_topic_query(
+                query=query,
+                max_results=max_results,
+                type_filter=type_filter,
+                subfield_id=subfield_id,
+                topic_ids=topic_ids,
+            )
+            logger.info(f"Topic search: {len(results)} works found")
+
+        # Post-hoc text exclusion
+        if exclude_terms:
+            before = len(results)
+            results = self._filter_by_text(results, exclude_terms)
+            if before - len(results):
+                logger.info(f"Text filter removed {before - len(results)} works")
+
+        # Post-hoc MeSH exclusion
+        if exclude_mesh:
+            results = self._filter_by_mesh(results, exclude_mesh)
+
+        return results
+
+    def search_topic_recent(
+        self,
+        keywords: list[str],
+        max_results: int = 5,
+        type_filter: str | None = None,
+        subfield_id: int | None = None,
+        topic_ids: list[str] | None = None,
+        year: int | None = None,
+    ) -> list[dict]:
+        """Search OpenAlex for recent topic papers (current year by default).
+
+        Keyword-only mode (OR all keywords), filtered to papers published
+        from year-01-01 onwards. No clinical_keywords for the recent pass.
+
+        Returns list of work dicts with full metadata.
+        """
+        import datetime
+        if year is None:
+            year = datetime.date.today().year
+
+        if not keywords:
+            return []
+
+        def _quote(kw: str) -> str:
+            return f'"{kw}"' if " " in kw else kw
+
+        query = " OR ".join(_quote(kw) for kw in keywords)
+        date_filter = f"{year}-01-01"
+        logger.info(f"Topic recent-papers query (from {date_filter}): {query}")
+
+        results = self._search_topic_query(
+            query=query,
+            max_results=max_results,
+            type_filter=type_filter,
+            subfield_id=subfield_id,
+            topic_ids=topic_ids,
+            extra_filters=[f"from_publication_date:{date_filter}"],
+        )
+        logger.info(f"Topic recent-papers search: {len(results)} works found")
+        return results
+
+    # ------------------------------------------------------------------
     # Citation network expansion
     # ------------------------------------------------------------------
 
@@ -419,26 +619,29 @@ class OpenAlexClient:
         max_seeds: int = 100,
         min_co_citations: int = 1,
         max_min_co: int = 6,
-        gene_terms: list[str] | None = None,
+        mention_terms: list[str] | None = None,
         max_hops: int = 1,
         hop2_top_n: int = 10,
         exclude_mesh: list[str] | None = None,
     ) -> list[dict]:
-        """Multi-hop citation expansion with gene-name filtering and
+        """Multi-hop citation expansion with mention filtering and
         bibliographic coupling.
 
         Hop 1: expand seed_works via citation network.
         Hop 2 (if max_hops >= 2): top candidates from hop 1 become new seeds.
 
         After each hop, candidates are filtered to only keep papers that
-        mention the gene (symbol or aliases) in their title or abstract,
-        then further filtered by MeSH exclusion if exclude_mesh is provided.
+        mention the search terms (gene names, disease names, topic keywords)
+        in their title or abstract, then further filtered by MeSH exclusion
+        if exclude_mesh is provided.
 
         Returns final scored candidate list with full work metadata attached
         (key 'work' on each candidate dict).
         """
         if not seed_works:
             return []
+
+        terms = mention_terms
 
         all_seen_pmids = set(existing_pmids)
         all_candidates: list[dict] = []
@@ -504,18 +707,18 @@ class OpenAlexClient:
             # Remove candidates without full metadata
             scored = [c for c in scored if "work" in c]
 
-            # Gene-name filter
-            if gene_terms:
+            # Mention filter (gene names, disease names, topic keywords)
+            if terms:
                 before = len(scored)
                 scored = [
                     c for c in scored
-                    if self._mentions_gene(c["work"], gene_terms)
+                    if self._mentions_terms(c["work"], terms)
                 ]
                 removed = before - len(scored)
                 if removed:
                     logger.info(
-                        f"Gene filter ({hop_label}): removed {removed}/{before} "
-                        f"candidates (no gene mention in title/abstract)"
+                        f"Mention filter ({hop_label}): removed {removed}/{before} "
+                        f"candidates (no term mention in title/abstract)"
                     )
 
             # MeSH exclusion filter
@@ -630,13 +833,17 @@ class OpenAlexClient:
         return result
 
     @staticmethod
-    def _mentions_gene(work: dict, gene_terms: list[str]) -> bool:
-        """Check if a work mentions any gene term in title or abstract."""
+    def _mentions_terms(work: dict, terms: list[str]) -> bool:
+        """Check if a work mentions any term in title or abstract.
+
+        Uses word-boundary regex for each term. Works for gene names,
+        disease names, anatomical terms, or any keyword.
+        """
         import re
         title = work.get("title", "") or ""
         abstract = _invert_abstract(work.get("abstract_inverted_index"))
         text = f"{title} {abstract}"
-        for term in gene_terms:
+        for term in terms:
             if re.search(rf"\b{re.escape(term)}\b", text, re.IGNORECASE):
                 return True
         return False

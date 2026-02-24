@@ -1,4 +1,4 @@
-name: Gene Literature Bot
+name: Gene & Topic Literature Bot
 
 on:
   schedule:
@@ -7,6 +7,19 @@ on:
     inputs:
       genes:
         description: 'Space-separated gene symbols (leave empty for defaults from genes.yml)'
+        required: false
+        type: string
+      mode:
+        description: 'Pipeline mode (empty = both pipelines)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - genes
+          - topics
+        default: ''
+      categories:
+        description: 'Topic category to run (e.g. "1 - Anatomy"). Leave empty for all categories.'
         required: false
         type: string
 
@@ -31,6 +44,8 @@ jobs:
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           INPUT_GENES: ${{ inputs.genes }}
+          INPUT_MODE: ${{ inputs.mode }}
+          INPUT_CATEGORIES: ${{ inputs.categories }}
         run: python run.py
 
       - name: Upload logs
