@@ -1,12 +1,14 @@
-# Gene Literature Bot
+# Gene & Topic Literature Bot
 
-OpenAlex-powered literature search for gene-specific papers, with citation network expansion and automatic upload to a Zotero group library. Runs on GitHub Actions (no server needed).
+OpenAlex-powered literature search with two complementary pipelines -- gene-specific papers (with citation network expansion) and topic-based ophthalmology literature (anatomy, embryology, physiology, examinations, pathologies). Automatic upload to a Zotero group library. Runs on GitHub Actions (no server needed).
 
 ## How it works
 
+### Gene pipeline
+
 For each gene, the pipeline runs three passes:
 
-### Pass 1 -- Search (bootstrap only)
+#### Pass 1 -- Search (bootstrap only)
 
 Skipped if the gene already has papers in Zotero (uses existing collection as seeds instead).
 
@@ -22,7 +24,7 @@ When the collection is empty, searches OpenAlex using a boolean query:
 - Capped at `search.max_results` results (default 25)
 - Papers passing text exclusion are uploaded with `source:search` tag
 
-### Pass 2 -- Citation network expansion
+#### Pass 2 -- Citation network expansion
 
 Expands from the seed set (existing Zotero papers, or search results) via two hops:
 
@@ -51,13 +53,13 @@ adaptive_min_co = min(max_min_co, max(min_co_citations, floor(log2(library_size)
 | 32-63        | 5 |
 | 64+          | 6 (capped) |
 
-After filtering, full metadata is fetched for surviving candidates. A gene-name filter then removes any paper that does not mention the gene symbol or an alias in its title or abstract.
+After filtering, full metadata is fetched for surviving candidates. A mention-term filter then removes any paper that does not mention the gene symbol or an alias in its title or abstract.
 
 **Hop 2**: Top `hop2_top_n` (default 10) candidates from hop 1 become new seeds; the same scoring and filtering logic repeats.
 
 Surviving candidates are text-filtered, deduplicated, and uploaded with `source:citation` tag.
 
-### Pass 3 -- Recent papers
+#### Pass 3 -- Recent papers
 
 A separate OpenAlex search filtered to the current year:
 
@@ -65,7 +67,44 @@ A separate OpenAlex search filtered to the current year:
 (GENE OR aliases) AND (disease terms) AND from_publication_date:YYYY-01-01
 ```
 
-Capped at `search.recent_max_results` (default 10). Bypasses the adaptive citation threshold entirely -- new 2026 papers cannot yet accumulate co-citations or bibliographic coupling, so they are fetched directly. Text-filtered, deduplicated, uploaded with `source:recent` tag.
+Capped at `search.recent_max_results` (default 10). Bypasses the adaptive citation threshold entirely -- new papers cannot yet accumulate co-citations or bibliographic coupling, so they are fetched directly. Text-filtered, deduplicated, uploaded with `source:recent` tag.
+
+### Topic pipeline
+
+For each sub-topic defined in `topics.yml`, the pipeline searches OpenAlex using one of two modes:
+
+#### Keyword OR mode (categories 1-4: Anatomy, Embryology, Physiology, Examinations)
+
+All keywords are OR'd into a single query, scoped to the ophthalmology subfield and optional topic IDs:
+
+```
+title_and_abstract.search: "corneal anatomy" OR "sclera structure" OR ...
+primary_topic.subfield.id: 2731
+type: review|article
+```
+
+#### Disease+clinical AND mode (category 5: Pathologies)
+
+For each disease keyword, AND with clinical keywords, then merge results across diseases:
+
+```
+title_and_abstract.search: "retinitis pigmentosa" AND ("phenotype" OR "genotype" OR ...)
+primary_topic.subfield.id: 2731
+```
+
+Per-disease result cap = `max_results / len(diseases)` (floor of 5).
+
+#### Shared steps
+
+After search:
+1. Apply text exclusion and MeSH exclusion filters
+2. Deduplicate against shared PMID set (cross-pipeline)
+3. Upload with `source:search` tag, tagged with category and sub-topic names
+4. Citation expansion (if enabled) with mention-term filtering
+5. Recent papers pass for current-year publications
+6. Link related items via Zotero dc:relation
+
+Collections are created as nested hierarchies mirroring the vault structure (e.g., "1 - Anatomy" / "Tunique externe").
 
 ---
 
@@ -88,7 +127,9 @@ Capped at `search.recent_max_results` (default 10). Bypasses the adaptive citati
    - `ZOTERO_GROUP_ID`
    - `OPENALEX_API_KEY` (optional, recommended)
 
-### 3. Edit `genes.yml`
+### 3. Edit config files
+
+#### `genes.yml` -- gene pipeline
 
 Add your genes of interest. Each gene can have disease keyword tags and optional custom text exclusion terms.
 
@@ -114,11 +155,49 @@ genes:
       - "some term"
 ```
 
+#### `topics.yml` -- topic pipeline
+
+Define categories and sub-topics with keywords. Settings inherit: sub-topic > category > global.
+
+```yaml
+search:
+  max_results: 30
+  recent_max_results: 10
+
+openalex_scoping:
+  subfield_id: 2731        # ophthalmology
+  type_filter: "review|article"
+
+categories:
+  - name: "1 - Anatomy"
+    sub_topics:
+      - name: "Tunique externe"
+        collection: "Tunique externe"
+        keywords:
+          - "corneal anatomy"
+          - "sclera structure"
+
+  - name: "5 - Pathologies"
+    sub_topics:
+      - name: "Dystrophies retiniennes"
+        collection: "Dystrophies retiniennes"
+        clinical_keywords:
+          - "phenotype"
+          - "genotype"
+        diseases:
+          - name: "Retinitis pigmentosa"
+            en_keywords:
+              - "retinitis pigmentosa"
+              - "rod-cone dystrophy"
+```
+
 ### 4. Run
 
 - **Automatic**: runs every Sunday at 03:00 UTC (edit cron in `.github/workflows/genebot.yml`)
-- **Manual**: go to Actions tab > Gene Literature Bot > Run workflow
-- **Specific genes**: use the "genes" input field (e.g., `CRB1 PAX6`) when triggering manually
+- **Manual**: go to Actions tab > Gene & Topic Literature Bot > Run workflow
+  - `mode`: empty (both pipelines), `genes`, or `topics`
+  - `genes`: space-separated gene symbols (e.g., `CRB1 PAX6`)
+  - `categories`: topic category filter (e.g., `1 - Anatomy`)
 
 ## Local usage
 
@@ -128,14 +207,31 @@ pip install -r requirements.txt
 export ZOTERO_API_KEY="xxx"
 export ZOTERO_GROUP_ID="123456"
 
-python run.py              # all genes from genes.yml
-python run.py CRB1 RHO     # specific genes only
+python run.py                          # both pipelines (default)
+python run.py --genes                  # all genes from genes.yml
+python run.py --genes CRB1 RHO        # specific genes only
+python run.py --topics                 # all topic categories
+python run.py --topics anatomy         # specific category (alias)
+python run.py --topics "1 - Anatomy"   # specific category (full name)
 ```
+
+### Category aliases
+
+| Alias | Resolves to |
+|-------|-------------|
+| `anatomy` | `1 - Anatomy` |
+| `embryology` | `2 - Embryology` |
+| `physiology` | `3 - Physiology` |
+| `examinations` | `4 - Examinations` |
+| `pathologies` | `5 - Pathologies` |
 
 ## Notes
 
 - Idempotent: re-running only adds newly published papers (dedup by PMID)
+- Cross-pipeline dedup: shared PMID set prevents the same paper appearing in both gene and topic collections
 - Incremental: once a gene has papers in Zotero, search is skipped and existing papers seed the citation expansion
 - Text exclusion (title + abstract, whole-word regex) removes off-topic papers (cancer, tumor, etc.)
+- MeSH exclusion removes papers tagged with excluded MeSH descriptors (Neoplasms, Diabetes Mellitus, etc.)
+- Provenance tagging: `source:search`, `source:citation`, `source:recent`
 - Zotero uploads use batch API (50 items/request) with 60s timeout and 3-attempt retry
 - Logs are uploaded as GitHub Actions artifacts (retained 30 days)
