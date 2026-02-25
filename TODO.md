@@ -10,11 +10,11 @@
 
 ## Medium priority
 
-- [ ] **Cross-subcollection duplicates** -- Highlight articles rejected in multiple genes/topics. Same PMID appearing for RPGR and CRB1 signals broad relevance. Add a "shared near-misses" grouped view.
+- [x] **Cross-subcollection duplicates** -- Highlight articles rejected in multiple genes/topics. Same PMID appearing for RPGR and CRB1 signals broad relevance. Add a "shared near-misses" grouped view.
 
-- [ ] **Summary statistics panel** -- Collapsible stats bar at the top: total rejections, breakdown by reason (pie/bar), top 5 subcollections by count. Quick overview without scrolling.
+- [x] **Summary statistics panel** -- Collapsible stats bar at the top: total rejections, breakdown by reason (horizontal bars), top 5 subcollections by count. Toggle via "Stats" button in meta bar.
 
-- [ ] **"How close" indicator** -- For score-below-threshold articles, show `effective_score / threshold` as a visual progress bar. Add a "closest misses" preset sort to surface 5/6 before 1/6.
+- [x] **"How close" indicator** -- For score-below-threshold articles, visual progress bar showing `effective_score / threshold` ratio with red/amber/green gradient. "Closest to threshold" sort preset auto-filters to score articles.
 
 ## Low priority
 

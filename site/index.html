@@ -574,6 +574,197 @@ select, button {
 .sub-badge-topic { background: #0d6efd; }
 .col-subs { width: 160px; }
 
+/* Stats panel */
+.stats-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.stats-toggle:hover { background: var(--hover); color: var(--text); }
+.stats-toggle.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
+
+.stats-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.stats-panel.open {
+  max-height: 400px;
+  margin-bottom: 16px;
+}
+.stats-panel-inner {
+  padding: 14px 18px;
+}
+.stats-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.stats-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 100px;
+}
+.stats-big-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+.stats-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.stats-breakdown {
+  flex: 1;
+  min-width: 200px;
+}
+.stats-breakdown-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.stats-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.stats-bar-label {
+  width: 130px;
+  text-align: right;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.stats-bar-track {
+  flex: 1;
+  height: 14px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stats-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.stats-bar-fill.fill-score { background: var(--badge-score); }
+.stats-bar-fill.fill-text { background: var(--badge-text); }
+.stats-bar-fill.fill-mesh { background: var(--badge-mesh); }
+.stats-bar-fill.fill-mention { background: var(--badge-mention); }
+.stats-bar-count {
+  width: 36px;
+  text-align: right;
+  color: var(--text);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.stats-top-subs {
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+.stats-top-subs-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.stats-sub-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+.stats-sub-name {
+  width: 150px;
+  text-align: right;
+  color: var(--text);
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stats-sub-bar {
+  flex: 1;
+  height: 10px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stats-sub-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  opacity: 0.7;
+}
+.stats-sub-count {
+  width: 30px;
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* Score progress bar */
+.score-bar-container {
+  width: 72px;
+  height: 16px;
+  background: var(--bg);
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid var(--border);
+}
+.score-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.2s ease;
+}
+.score-low { background: #dc3545; }
+.score-mid { background: #f0ad4e; }
+.score-high { background: #198754; }
+.score-bar-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text);
+  text-shadow: 0 0 2px var(--surface);
+}
+
+@media (prefers-color-scheme: dark) {
+  .score-low { background: #c0392b; }
+  .score-mid { background: #d49a3e; }
+  .score-high { background: #157347; }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar { display: none; }
@@ -605,6 +796,9 @@ select, button {
 
   <main class="main">
     <div id="metaBar" class="meta-bar"></div>
+    <div class="stats-panel" id="statsPanel">
+      <div class="stats-panel-inner" id="statsPanelContent"></div>
+    </div>
 
     <div class="main-header">
       <div>
@@ -625,6 +819,7 @@ select, button {
           <option value="recurring_desc">Most recurring</option>
           <option value="year_desc">Newest first</option>
           <option value="first_seen_desc">Recently added</option>
+          <option value="closest_desc">Closest to threshold</option>
         </select>
         <label class="recurring-toggle"><input type="checkbox" id="recurringOnly"> Recurring only</label>
         <div class="selection-controls">
@@ -932,6 +1127,11 @@ select, button {
       if (currentSort === "first_seen_desc") {
         return (b.first_seen || "").localeCompare(a.first_seen || "");
       }
+      if (currentSort === "closest_desc") {
+        var ratioA = (a.effective_score || 0) / (a.threshold || 1);
+        var ratioB = (b.effective_score || 0) / (b.threshold || 1);
+        return ratioB - ratioA || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
       // Column-based sorting
       switch (sortColumn) {
         case "title":
@@ -1043,8 +1243,14 @@ select, button {
       }
       html += '<td class="col-score" style="text-align:right">';
       if (a.reason === "score_below_threshold" && a.effective_score != null) {
-        var displayThreshold = tuningThreshold != null ? tuningThreshold : (a.threshold || "?");
-        html += a.effective_score + '<span style="color:var(--text-secondary)"> / ' + displayThreshold + '</span>';
+        var displayThreshold = tuningThreshold != null ? tuningThreshold : (a.threshold || 1);
+        var ratio = displayThreshold > 0 ? (a.effective_score / displayThreshold) : 0;
+        var barPct = Math.min(ratio * 100, 100);
+        var barClass = ratio < 0.5 ? "score-low" : (ratio < 0.8 ? "score-mid" : "score-high");
+        html += '<div class="score-bar-container">';
+        html += '<div class="score-bar-fill ' + barClass + '" style="width:' + barPct.toFixed(1) + '%"></div>';
+        html += '<span class="score-bar-label">' + a.effective_score + ' / ' + displayThreshold + '</span>';
+        html += '</div>';
         if (articleRescued) html += '<span class="rescued-badge">PASS</span>';
         const parts = [];
         if (a.co_citations != null) parts.push("co:" + a.co_citations);
@@ -1210,9 +1416,14 @@ select, button {
     if (currentSort === "cited_desc") { sortColumn = "cited"; sortDirection = "desc"; }
     else if (currentSort === "year_desc") { sortColumn = "year"; sortDirection = "desc"; }
     else if (currentSort === "shared_desc") { sortColumn = "subs"; sortDirection = "desc"; }
-    else if (currentSort === "recurring_desc" || currentSort === "first_seen_desc") {
+    else if (currentSort === "recurring_desc" || currentSort === "first_seen_desc" || currentSort === "closest_desc") {
       sortColumn = ""; // No column highlight for dropdown-only sorts
       sortDirection = "desc";
+    }
+    // Auto-set reason filter when "closest to threshold" is selected
+    if (currentSort === "closest_desc" && currentReason !== "score_below_threshold") {
+      currentReason = "score_below_threshold";
+      document.getElementById("reasonFilter").value = "score_below_threshold";
     }
     currentPage = 1;
     renderArticles();
@@ -1273,7 +1484,100 @@ select, button {
     let text = "Last updated: " + dt + " | Total near-misses: " + total;
     if (recurring > 0) text += " | Recurring: " + recurring;
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
-    document.getElementById("metaBar").textContent = text;
+    var el = document.getElementById("metaBar");
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>';
+    renderStatsPanel();
+  }
+
+  window.__toggleStats = function() {
+    var panel = document.getElementById("statsPanel");
+    var btn = document.getElementById("statsToggle");
+    panel.classList.toggle("open");
+    if (btn) btn.classList.toggle("active");
+  };
+
+  function renderStatsPanel() {
+    if (!data || !data.articles) return;
+    var container = document.getElementById("statsPanelContent");
+    var articles = data.articles;
+    var total = articles.length;
+
+    // Breakdown by reason
+    var reasons = {};
+    var reasonKeys = ["score_below_threshold", "text_exclusion", "mesh_exclusion", "mention_filter"];
+    for (var i = 0; i < reasonKeys.length; i++) reasons[reasonKeys[i]] = 0;
+    for (var j = 0; j < articles.length; j++) {
+      var r = articles[j].reason || "unknown";
+      reasons[r] = (reasons[r] || 0) + 1;
+    }
+    var maxReasonCount = 0;
+    for (var k = 0; k < reasonKeys.length; k++) {
+      if (reasons[reasonKeys[k]] > maxReasonCount) maxReasonCount = reasons[reasonKeys[k]];
+    }
+
+    // Top subcollections
+    var subCounts = {};
+    for (var m = 0; m < articles.length; m++) {
+      var subs = (articles[m].subcollection || "").split(",").map(function(s) { return s.trim(); });
+      for (var n = 0; n < subs.length; n++) {
+        if (subs[n]) subCounts[subs[n]] = (subCounts[subs[n]] || 0) + 1;
+      }
+    }
+    var topSubs = Object.keys(subCounts).map(function(s) { return { name: s, count: subCounts[s] }; });
+    topSubs.sort(function(a, b) { return b.count - a.count; });
+    topSubs = topSubs.slice(0, 5);
+    var maxSubCount = topSubs.length > 0 ? topSubs[0].count : 1;
+
+    var reasonFillClass = {
+      score_below_threshold: "fill-score",
+      text_exclusion: "fill-text",
+      mesh_exclusion: "fill-mesh",
+      mention_filter: "fill-mention"
+    };
+
+    var html = '<div class="stats-grid">';
+    // Left: big numbers
+    html += '<div class="stats-summary">';
+    html += '<div class="stats-big-number">' + total + '</div>';
+    html += '<div class="stats-label">total rejections</div>';
+    if (data.pipeline_runs) {
+      html += '<div style="margin-top:8px"><span style="font-size:20px;font-weight:700">' + data.pipeline_runs + '</span></div>';
+      html += '<div class="stats-label">pipeline runs</div>';
+    }
+    html += '</div>';
+
+    // Right: breakdown bars
+    html += '<div class="stats-breakdown">';
+    html += '<div class="stats-breakdown-title">By reason</div>';
+    for (var ri = 0; ri < reasonKeys.length; ri++) {
+      var rk = reasonKeys[ri];
+      var rc = reasons[rk] || 0;
+      var pct = maxReasonCount > 0 ? (rc / maxReasonCount * 100) : 0;
+      html += '<div class="stats-bar-row">';
+      html += '<span class="stats-bar-label">' + reasonLabel(rk) + '</span>';
+      html += '<div class="stats-bar-track"><div class="stats-bar-fill ' + (reasonFillClass[rk] || '') + '" style="width:' + pct.toFixed(1) + '%"></div></div>';
+      html += '<span class="stats-bar-count">' + rc + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+    html += '</div>';
+
+    // Bottom: top subcollections
+    if (topSubs.length > 0) {
+      html += '<div class="stats-top-subs">';
+      html += '<div class="stats-top-subs-title">Top subcollections</div>';
+      for (var si = 0; si < topSubs.length; si++) {
+        var sp = maxSubCount > 0 ? (topSubs[si].count / maxSubCount * 100) : 0;
+        html += '<div class="stats-sub-row">';
+        html += '<span class="stats-sub-name" title="' + escapeAttr(topSubs[si].name) + '">' + escapeHtml(topSubs[si].name) + '</span>';
+        html += '<div class="stats-sub-bar"><div class="stats-sub-fill" style="width:' + sp.toFixed(1) + '%"></div></div>';
+        html += '<span class="stats-sub-count">' + topSubs[si].count + '</span>';
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
   }
 
   function escapeHtml(s) {
