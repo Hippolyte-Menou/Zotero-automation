@@ -29,25 +29,28 @@ GENES = [
 
 TOPIC_HIERARCHY = {
     "1 - Anatomy": [
-        "Tunique externe", "Tunique interne", "Tunique intermediaire",
-        "Cristallin", "Vitre", "Chambres et humeur aqueuse",
-        "Voies optiques", "Annexes oculaires",
+        "Outer coat", "Inner coat", "Middle coat",
+        "Transparent media", "Adnexal structures",
+        "Vascularization and innervation", "Orbit", "Specialized microanatomy",
     ],
     "2 - Embryology": [
-        "Vesicule optique", "Differenciation retinienne",
-        "Crete neurale", "Cristallin embryonnaire",
+        "Developmental timeline", "Developmental genetics",
+        "Optic vesicle", "Coat differentiation",
+        "Derived structures", "Adnexal development", "Ocular malformations",
     ],
     "3 - Physiology": [
-        "Phototransduction", "Cycle visuel", "Neurotransmission retinienne",
-        "Barriere hemato-retinienne", "Pression intraoculaire",
+        "Visual physiology", "Transparent media physiology",
+        "Pupillary physiology", "Ocular motility", "Intraocular pressure",
+        "Ocular vascular physiology", "Ocular neurophysiology",
     ],
     "4 - Examinations": [
-        "OCT", "ERG", "Champ visuel", "Angiographie",
-        "Imagerie autofluorescence",
+        "Visual function", "Anterior segment examination",
+        "Posterior segment examination", "Ocular imaging",
+        "Specialized functional testing", "Genetic testing",
     ],
     "5 - Pathologies": [
-        "Dystrophies retiniennes", "Glaucome", "Cataracte congenitale",
-        "Neuropathies optiques", "Albinisme", "Dystrophies corneennes",
+        "Retinal dystrophies", "Corneal dystrophies", "Congenital cataracts",
+        "Albinism", "Ocular developmental anomalies", "Vitreoretinopathies",
     ],
 }
 

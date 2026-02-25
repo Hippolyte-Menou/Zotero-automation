@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git check-ignore:*)",
       "Bash(python:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(git remote set-url --push origin https://github.com/Hippolyte-Menou/Zotero-automation.git)",
+      "Bash(git push origin main)"
     ]
   },
   "enableAllProjectMcpServers": true,
