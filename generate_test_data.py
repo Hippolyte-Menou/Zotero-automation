@@ -373,6 +373,43 @@ def main():
                 )
                 pmid_counter += 1
 
+    # Cross-subcollection shared articles (~30 entries)
+    # These simulate articles rejected in multiple subcollections simultaneously
+    all_topic_subs = []
+    for cat, subs in TOPIC_HIERARCHY.items():
+        for sub in subs:
+            all_topic_subs.append((cat, sub))
+
+    shared_count = 0
+    for _ in range(30):
+        combo_type = random.choice(["gene-gene", "gene-topic", "topic-topic"])
+        reason = random.choices(reasons, weights=reason_weights, k=1)[0]
+
+        if combo_type == "gene-gene":
+            genes = random.sample(GENES, random.randint(2, 3))
+            subcollections = ",".join(genes)
+            categories = ",".join(["6 - Genes"] * len(genes))
+            article = make_gene_article(genes[0], reason, pmid_counter)
+        elif combo_type == "gene-topic":
+            gene = random.choice(GENES)
+            topic_cat, topic_sub = random.choice(all_topic_subs)
+            subcollections = f"{gene},{topic_sub}"
+            categories = f"6 - Genes,{topic_cat}"
+            article = make_gene_article(gene, reason, pmid_counter)
+        else:  # topic-topic
+            picks = random.sample(all_topic_subs, random.randint(2, 3))
+            subcollections = ",".join(p[1] for p in picks)
+            categories = ",".join(p[0] for p in picks)
+            article = make_topic_article(picks[0][0], picks[0][1], reason, pmid_counter)
+
+        article["subcollection"] = subcollections
+        article["category"] = categories
+        # Higher seen_count for shared articles (stronger recurring signal)
+        article["seen_count"] = random.randint(2, 6)
+        articles.append(article)
+        pmid_counter += 1
+        shared_count += 1
+
     # Build hierarchy
     hierarchy = {"6 - Genes": sorted(GENES)}
     for cat, subs in sorted(TOPIC_HIERARCHY.items()):
@@ -406,6 +443,7 @@ def main():
     print(f"Generated {len(articles)} synthetic articles")
     print(f"  Genes: {len(GENES)} subcollections")
     print(f"  Topics: {sum(len(v) for v in TOPIC_HIERARCHY.values())} subcollections")
+    print(f"  Shared (cross-subcollection): {shared_count}")
     print(f"  By reason: {by_reason}")
     print(f"  Recurring (seen_count > 1): {recurring}")
     print(f"  Pipeline runs: {data['pipeline_runs']}")

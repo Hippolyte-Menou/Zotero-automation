@@ -528,6 +528,52 @@ select, button {
   vertical-align: middle;
 }
 
+/* Shared near-misses */
+.shared-separator {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 4px 16px;
+}
+.shared-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  gap: 6px;
+}
+.shared-item:hover { background: var(--accent-light); }
+.shared-item.active {
+  background: var(--accent);
+  color: #fff;
+}
+.shared-item .count {
+  margin-left: auto;
+  font-weight: 400;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+.shared-item.active .count { color: rgba(255,255,255,0.7); }
+
+.sub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.sub-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+.sub-badge-gene { background: #6f42c1; }
+.sub-badge-topic { background: #0d6efd; }
+.col-subs { width: 160px; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar { display: none; }
@@ -575,6 +621,7 @@ select, button {
         </select>
         <select class="filter-select" id="sortSelect">
           <option value="cited_desc">Most cited</option>
+          <option value="shared_desc">Most shared</option>
           <option value="recurring_desc">Most recurring</option>
           <option value="year_desc">Newest first</option>
           <option value="first_seen_desc">Recently added</option>
@@ -657,7 +704,23 @@ select, button {
       counts[key] = (counts[key] || 0) + 1;
     }
 
+    // Count shared articles (subcollection contains a comma)
+    let sharedCount = 0;
+    for (const a of data.articles) {
+      if ((a.subcollection || "").includes(",")) sharedCount++;
+    }
+
     let html = "";
+
+    // Shared near-misses entry at top of sidebar
+    if (sharedCount > 0) {
+      html += '<div class="shared-item" id="sharedItem" onclick="window.__selectShared()">';
+      html += '<span>Shared Near-Misses</span>';
+      html += '<span class="count">' + sharedCount + '</span>';
+      html += '</div>';
+      html += '<hr class="shared-separator">';
+    }
+
     const sortedCats = Object.keys(data.hierarchy).sort();
 
     for (const cat of sortedCats) {
@@ -764,6 +827,31 @@ select, button {
     document.querySelectorAll(".tree-item").forEach(el => {
       el.classList.toggle("active", el.dataset.sub === sub && el.dataset.cat === cat);
     });
+    var sharedEl = document.getElementById("sharedItem");
+    if (sharedEl) sharedEl.classList.remove("active");
+
+    renderArticles();
+  };
+
+  window.__selectShared = function() {
+    currentCategory = "__shared__";
+    currentSubcollection = "__shared__";
+    currentPage = 1;
+    tuningThreshold = null;
+    selectedPmids.clear();
+    updateSelectAllCheckbox();
+    updateSelectedCount();
+
+    // Default to "Most shared" sort
+    currentSort = "shared_desc";
+    sortColumn = "subs";
+    sortDirection = "desc";
+    document.getElementById("sortSelect").value = "shared_desc";
+
+    // Highlight shared item, clear tree items
+    document.querySelectorAll(".tree-item").forEach(el => el.classList.remove("active"));
+    var sharedEl = document.getElementById("sharedItem");
+    if (sharedEl) sharedEl.classList.add("active");
 
     renderArticles();
   };
@@ -787,7 +875,7 @@ select, button {
     } else {
       sortColumn = col;
       // Default direction: desc for numeric columns, asc for text
-      sortDirection = (col === "cited" || col === "year" || col === "score") ? "desc" : "asc";
+      sortDirection = (col === "cited" || col === "year" || col === "score" || col === "subs") ? "desc" : "asc";
     }
     // Sync the dropdown to reflect column sorting
     currentSort = sortColumn + "_" + sortDirection;
@@ -802,23 +890,42 @@ select, button {
     renderArticles();
   };
 
+  function getSubCount(a) {
+    return (a.subcollection || "").split(",").map(s => s.trim()).filter(Boolean).length;
+  }
+
   function getFilteredArticles() {
     if (!data || !currentSubcollection) return [];
-    let result = data.articles.filter(a => {
-      // Handle comma-separated subcollection/category from merged entries
-      const subs = (a.subcollection || "").split(",").map(s => s.trim());
-      const cats = (a.category || "").split(",").map(s => s.trim());
-      if (!subs.includes(currentSubcollection)) return false;
-      if (!cats.includes(currentCategory)) return false;
-      if (currentReason !== "all" && a.reason !== currentReason) return false;
-      if (recurringOnly && (a.seen_count || 1) <= 1) return false;
-      return true;
-    });
+
+    let result;
+    if (currentSubcollection === "__shared__") {
+      result = data.articles.filter(a => {
+        if (getSubCount(a) <= 1) return false;
+        if (currentReason !== "all" && a.reason !== currentReason) return false;
+        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
+        return true;
+      });
+    } else {
+      result = data.articles.filter(a => {
+        // Handle comma-separated subcollection/category from merged entries
+        const subs = (a.subcollection || "").split(",").map(s => s.trim());
+        const cats = (a.category || "").split(",").map(s => s.trim());
+        if (!subs.includes(currentSubcollection)) return false;
+        if (!cats.includes(currentCategory)) return false;
+        if (currentReason !== "all" && a.reason !== currentReason) return false;
+        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
+        return true;
+      });
+    }
 
     // Sort
     var dir = sortDirection === "asc" ? 1 : -1;
     result.sort((a, b) => {
       // Special dropdown-only sorts
+      if (currentSort === "shared_desc") {
+        var diff = getSubCount(b) - getSubCount(a);
+        return diff || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
       if (currentSort === "recurring_desc") {
         return ((b.seen_count || 1) - (a.seen_count || 1)) || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
       }
@@ -833,6 +940,9 @@ select, button {
           return dir * (a.reason || "").localeCompare(b.reason || "");
         case "score":
           return dir * ((a.effective_score || 0) - (b.effective_score || 0));
+        case "subs":
+          var d = dir * (getSubCount(a) - getSubCount(b));
+          return d || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
         case "year":
           return dir * ((a.year || "").localeCompare(b.year || ""));
         case "cited":
@@ -851,10 +961,12 @@ select, button {
     const start = (currentPage - 1) * PAGE_SIZE;
     const page = filteredArticles.slice(start, start + PAGE_SIZE);
 
-    document.getElementById("mainTitle").textContent = currentSubcollection || "Select a subcollection";
-    document.getElementById("mainSubtitle").textContent =
-      filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") +
-      (currentReason !== "all" ? " (" + reasonLabel(currentReason) + ")" : "");
+    var isShared = currentSubcollection === "__shared__";
+    document.getElementById("mainTitle").textContent = isShared ? "Shared Near-Misses" : (currentSubcollection || "Select a subcollection");
+    document.getElementById("mainSubtitle").textContent = isShared
+      ? filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") + " appearing in 2+ subcollections"
+      : filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") +
+        (currentReason !== "all" ? " (" + reasonLabel(currentReason) + ")" : "");
 
     renderTuningPanel();
 
@@ -873,6 +985,10 @@ select, button {
     html += 'Article' + sortArrow("title") + '</th>';
     html += '<th class="col-reason sortable' + sortActiveClass("reason") + '" onclick="window.__sortBy(\'reason\')">';
     html += 'Reason' + sortArrow("reason") + '</th>';
+    if (isShared) {
+      html += '<th class="col-subs sortable' + sortActiveClass("subs") + '" onclick="window.__sortBy(\'subs\')">';
+      html += 'Subs' + sortArrow("subs") + '</th>';
+    }
     html += '<th class="col-score sortable' + sortActiveClass("score") + '" onclick="window.__sortBy(\'score\')">';
     html += 'Score' + sortArrow("score") + '</th>';
     html += '<th class="col-cited sortable' + sortActiveClass("cited") + '" onclick="window.__sortBy(\'cited\')">';
@@ -915,6 +1031,16 @@ select, button {
         html += '<div class="first-seen" title="' + escapeAttr(dateTitle) + '">Since ' + fsDate + '</div>';
       }
       html += "</td>";
+      if (isShared) {
+        html += '<td class="col-subs"><div class="sub-badges">';
+        var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+        var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+        for (var si = 0; si < subs.length; si++) {
+          var isGene = (cats[si] || "").indexOf("Genes") !== -1;
+          html += '<span class="sub-badge ' + (isGene ? "sub-badge-gene" : "sub-badge-topic") + '">' + escapeHtml(subs[si]) + '</span>';
+        }
+        html += '</div></td>';
+      }
       html += '<td class="col-score" style="text-align:right">';
       if (a.reason === "score_below_threshold" && a.effective_score != null) {
         var displayThreshold = tuningThreshold != null ? tuningThreshold : (a.threshold || "?");
@@ -1083,6 +1209,7 @@ select, button {
     // Sync column sort state from dropdown
     if (currentSort === "cited_desc") { sortColumn = "cited"; sortDirection = "desc"; }
     else if (currentSort === "year_desc") { sortColumn = "year"; sortDirection = "desc"; }
+    else if (currentSort === "shared_desc") { sortColumn = "subs"; sortDirection = "desc"; }
     else if (currentSort === "recurring_desc" || currentSort === "first_seen_desc") {
       sortColumn = ""; // No column highlight for dropdown-only sorts
       sortDirection = "desc";
@@ -1207,6 +1334,10 @@ select, button {
     var container = document.getElementById("tuningContent");
     if (!data || !currentSubcollection) {
       container.innerHTML = '<div class="tuning-disabled">Select a subcollection to tune thresholds.</div>';
+      return;
+    }
+    if (currentSubcollection === "__shared__") {
+      container.innerHTML = '<div class="tuning-disabled">Threshold tuning is per-subcollection. Select a specific gene or topic.</div>';
       return;
     }
 
