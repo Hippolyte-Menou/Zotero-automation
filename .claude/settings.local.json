@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(git check-ignore:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(test:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

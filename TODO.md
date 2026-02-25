@@ -6,7 +6,7 @@
 
 - [x] **Cumulative mode** -- Merge new rejections into existing JSON instead of overwriting. Deduplicate by PMID, add `first_seen` / `last_seen` / `seen_count` fields. Papers that recur across runs are strong rescue candidates.
 
-- [ ] **Threshold tuning panel** -- Sidebar widget to temporarily adjust the adaptive threshold and preview which articles would have passed. Helps calibrate `min_co_citations` and `max_min_co` without re-running the pipeline.
+- [x] **Threshold tuning panel** -- Sidebar widget to temporarily adjust the adaptive threshold and preview which articles would have passed. Helps calibrate `min_co_citations` and `max_min_co` without re-running the pipeline.
 
 ## Medium priority
 

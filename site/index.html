@@ -436,6 +436,98 @@ select, button {
   margin-bottom: 16px;
 }
 
+/* Threshold tuning panel */
+.tuning-panel {
+  border-top: 1px solid var(--border);
+  padding: 0;
+}
+.tuning-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  gap: 6px;
+  user-select: none;
+}
+.tuning-header:hover { background: var(--accent-light); }
+.tuning-header .arrow {
+  font-size: 10px;
+  transition: transform 0.15s;
+  width: 12px;
+  text-align: center;
+}
+.tuning-header .arrow.open { transform: rotate(90deg); }
+.tuning-body {
+  display: none;
+  padding: 8px 16px 14px;
+}
+.tuning-body.open { display: block; }
+.tuning-row {
+  margin-bottom: 10px;
+}
+.tuning-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.tuning-label strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.tuning-slider {
+  width: 100%;
+  margin: 0;
+  accent-color: var(--accent);
+}
+.tuning-result {
+  font-size: 12px;
+  padding: 6px 8px;
+  background: var(--accent-light);
+  border-radius: 4px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.tuning-result .rescued-count {
+  font-weight: 600;
+  color: var(--accent);
+}
+.tuning-reset {
+  font-size: 12px;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 4px;
+}
+.tuning-reset:hover { text-decoration: underline; }
+.tuning-disabled {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 4px 0;
+}
+
+/* Rescued row highlight */
+.article-table tr.rescued td {
+  background: var(--accent-light);
+}
+.rescued-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  background: #198754;
+  color: #fff;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar { display: none; }
@@ -452,6 +544,17 @@ select, button {
       <input type="text" class="sidebar-search" id="sidebarSearch" placeholder="Search subcollections...">
     </div>
     <div class="sidebar-tree" id="sidebarTree"></div>
+    <div class="tuning-panel" id="tuningPanel">
+      <div class="tuning-header" onclick="window.__toggleTuning()">
+        <span class="arrow" id="tuningArrow">&#9654;</span>
+        <span>Threshold Tuning</span>
+      </div>
+      <div class="tuning-body" id="tuningBody">
+        <div id="tuningContent">
+          <div class="tuning-disabled">Select a subcollection to tune thresholds.</div>
+        </div>
+      </div>
+    </div>
   </aside>
 
   <main class="main">
@@ -513,6 +616,7 @@ select, button {
   let selectedPmids = new Set();
   let filteredArticles = [];
   let azFilter = "";
+  let tuningThreshold = null;  // null = no override, number = custom threshold
 
   // ------------------------------------------------------------------
   // Data loading
@@ -651,6 +755,7 @@ select, button {
     currentCategory = cat;
     currentSubcollection = sub;
     currentPage = 1;
+    tuningThreshold = null;
     selectedPmids.clear();
     updateSelectAllCheckbox();
     updateSelectedCount();
@@ -751,6 +856,8 @@ select, button {
       filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") +
       (currentReason !== "all" ? " (" + reasonLabel(currentReason) + ")" : "");
 
+    renderTuningPanel();
+
     if (page.length === 0) {
       document.getElementById("content").innerHTML =
         '<div class="empty-state"><h3>No articles</h3>' +
@@ -781,8 +888,9 @@ select, button {
       const authors = formatAuthors(a.authors);
       const hasAbstract = a.abstract && a.abstract.length > 0;
       const abstractId = "abs-" + pmid;
+      const articleRescued = isRescued(a);
 
-      html += "<tr>";
+      html += '<tr' + (articleRescued ? ' class="rescued"' : '') + '>';
       html += '<td class="col-check"><input type="checkbox" data-pmid="' + escapeAttr(pmid) + '"' + checked + ' onchange="window.__toggleSelect(this)"></td>';
       html += "<td>";
       html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + escapeHtml(a.title || "Untitled") + '</a></div>';
@@ -809,7 +917,9 @@ select, button {
       html += "</td>";
       html += '<td class="col-score" style="text-align:right">';
       if (a.reason === "score_below_threshold" && a.effective_score != null) {
-        html += a.effective_score + '<span style="color:var(--text-secondary)"> / ' + (a.threshold || "?") + '</span>';
+        var displayThreshold = tuningThreshold != null ? tuningThreshold : (a.threshold || "?");
+        html += a.effective_score + '<span style="color:var(--text-secondary)"> / ' + displayThreshold + '</span>';
+        if (articleRescued) html += '<span class="rescued-badge">PASS</span>';
         const parts = [];
         if (a.co_citations != null) parts.push("co:" + a.co_citations);
         if (a.bib_coupling != null) parts.push("bib:" + a.bib_coupling);
@@ -1047,6 +1157,128 @@ select, button {
   function escapeAttr(s) {
     if (!s) return "";
     return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // ------------------------------------------------------------------
+  // Threshold tuning panel
+  // ------------------------------------------------------------------
+
+  window.__toggleTuning = function() {
+    var body = document.getElementById("tuningBody");
+    var arrow = document.getElementById("tuningArrow");
+    body.classList.toggle("open");
+    arrow.classList.toggle("open");
+  };
+
+  function getSubcollectionThreshold() {
+    if (!data || !currentSubcollection) return null;
+    // Find the most common threshold among score_below_threshold articles in this subcollection
+    var thresholds = {};
+    var maxCount = 0;
+    var bestThreshold = null;
+    for (var i = 0; i < data.articles.length; i++) {
+      var a = data.articles[i];
+      if (a.reason !== "score_below_threshold") continue;
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+      if (!subs.includes(currentSubcollection) || !cats.includes(currentCategory)) continue;
+      if (a.threshold == null) continue;
+      var t = a.threshold;
+      thresholds[t] = (thresholds[t] || 0) + 1;
+      if (thresholds[t] > maxCount) {
+        maxCount = thresholds[t];
+        bestThreshold = t;
+      }
+    }
+    return bestThreshold;
+  }
+
+  function getScoreArticlesForSubcollection() {
+    if (!data || !currentSubcollection) return [];
+    return data.articles.filter(function(a) {
+      if (a.reason !== "score_below_threshold") return false;
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+      return subs.includes(currentSubcollection) && cats.includes(currentCategory);
+    });
+  }
+
+  function renderTuningPanel() {
+    var container = document.getElementById("tuningContent");
+    if (!data || !currentSubcollection) {
+      container.innerHTML = '<div class="tuning-disabled">Select a subcollection to tune thresholds.</div>';
+      return;
+    }
+
+    var scoreArticles = getScoreArticlesForSubcollection();
+    if (scoreArticles.length === 0) {
+      container.innerHTML = '<div class="tuning-disabled">No score-based rejections for this subcollection.</div>';
+      return;
+    }
+
+    var currentThreshold = getSubcollectionThreshold();
+    if (currentThreshold == null) {
+      container.innerHTML = '<div class="tuning-disabled">No threshold data available.</div>';
+      return;
+    }
+
+    // Find score range
+    var maxScore = 0;
+    for (var i = 0; i < scoreArticles.length; i++) {
+      var s = scoreArticles[i].effective_score || 0;
+      if (s > maxScore) maxScore = s;
+    }
+    var sliderMax = Math.max(currentThreshold + 2, maxScore + 1, 10);
+
+    var sliderVal = tuningThreshold != null ? tuningThreshold : currentThreshold;
+    var rescued = 0;
+    for (var j = 0; j < scoreArticles.length; j++) {
+      if ((scoreArticles[j].effective_score || 0) >= sliderVal) rescued++;
+    }
+    var isModified = tuningThreshold != null && tuningThreshold !== currentThreshold;
+
+    var html = '';
+    html += '<div class="tuning-row">';
+    html += '<div class="tuning-label"><span>Threshold</span><strong>' + sliderVal + '</strong></div>';
+    html += '<input type="range" class="tuning-slider" id="tuningSlider" min="0" max="' + sliderMax + '" step="1" value="' + sliderVal + '" oninput="window.__tuneThreshold(this.value)">';
+    html += '<div class="tuning-label"><span>0</span><span>Current: ' + currentThreshold + '</span><span>' + sliderMax + '</span></div>';
+    html += '</div>';
+
+    html += '<div class="tuning-result">';
+    if (isModified) {
+      html += '<span class="rescued-count">' + rescued + '</span> of ' + scoreArticles.length + ' would pass';
+      html += ' (threshold ' + currentThreshold + ' -> ' + sliderVal + ')';
+    } else {
+      html += scoreArticles.length + ' article' + (scoreArticles.length !== 1 ? 's' : '') + ' below threshold';
+    }
+    html += '</div>';
+
+    if (isModified) {
+      html += '<button class="tuning-reset" onclick="window.__resetTuning()">Reset to current (' + currentThreshold + ')</button>';
+    }
+
+    container.innerHTML = html;
+  }
+
+  window.__tuneThreshold = function(val) {
+    tuningThreshold = parseInt(val, 10);
+    renderTuningPanel();
+    if (currentSubcollection) renderArticles();
+  };
+
+  window.__resetTuning = function() {
+    tuningThreshold = null;
+    renderTuningPanel();
+    if (currentSubcollection) renderArticles();
+  };
+
+  function isRescued(article) {
+    if (tuningThreshold == null) return false;
+    if (article.reason !== "score_below_threshold") return false;
+    var currentThreshold = article.threshold;
+    if (currentThreshold == null) return false;
+    // Rescued = was below original threshold but passes new threshold
+    return (article.effective_score || 0) < currentThreshold && (article.effective_score || 0) >= tuningThreshold;
   }
 
   // ------------------------------------------------------------------
