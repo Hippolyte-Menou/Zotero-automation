@@ -2,9 +2,9 @@
 
 ## High priority
 
-- [ ] **Sortable columns** -- Add clickable column headers to sort by cited-by count, effective score, year, journal. Score-below-threshold articles already have all fields; text/MeSH exclusions sort by cited-by and year.
+- [x] **Sortable columns** -- Clickable column headers (Article, Reason, Score, Cited, Year) with toggle asc/desc and visual sort arrows. Score column shows effective_score/threshold with breakdown. Dropdown kept for recurring/first-seen sorts.
 
-- [ ] **Cumulative mode** -- Merge new rejections into existing JSON instead of overwriting. Deduplicate by PMID, add `first_seen` / `last_seen` / `seen_count` fields. Papers that recur across runs are strong rescue candidates.
+- [x] **Cumulative mode** -- Merge new rejections into existing JSON instead of overwriting. Deduplicate by PMID, add `first_seen` / `last_seen` / `seen_count` fields. Papers that recur across runs are strong rescue candidates.
 
 - [ ] **Threshold tuning panel** -- Sidebar widget to temporarily adjust the adaptive threshold and preview which articles would have passed. Helps calibrate `min_co_citations` and `max_min_co` without re-running the pipeline.
 

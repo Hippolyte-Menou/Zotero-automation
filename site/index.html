@@ -267,6 +267,27 @@ select, button {
   border-bottom: 2px solid var(--border);
   background: var(--table-header-bg);
 }
+.article-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 20px;
+}
+.article-table th.sortable:hover {
+  color: var(--accent);
+}
+.sort-arrow {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  opacity: 0.3;
+}
+.article-table th.sort-active .sort-arrow {
+  opacity: 1;
+  color: var(--accent);
+}
 .article-table td {
   padding: 10px 12px;
   border-bottom: 1px solid var(--table-border);
@@ -357,6 +378,7 @@ select, button {
 
 .col-check { width: 36px; }
 .col-reason { width: 130px; }
+.col-score { width: 80px; text-align: right; }
 .col-cited { width: 70px; text-align: right; }
 .col-year { width: 60px; }
 
@@ -485,6 +507,8 @@ select, button {
   let currentPage = 1;
   let currentReason = "score_below_threshold";
   let currentSort = "cited_desc";
+  let sortColumn = "cited";
+  let sortDirection = "desc";
   let recurringOnly = false;
   let selectedPmids = new Set();
   let filteredArticles = [];
@@ -643,6 +667,36 @@ select, button {
   // Articles rendering
   // ------------------------------------------------------------------
 
+  function sortActiveClass(col) {
+    return sortColumn === col ? " sort-active" : "";
+  }
+
+  function sortArrow(col) {
+    if (sortColumn !== col) return '<span class="sort-arrow">&#9650;</span>';
+    return '<span class="sort-arrow">' + (sortDirection === "asc" ? "&#9650;" : "&#9660;") + '</span>';
+  }
+
+  window.__sortBy = function(col) {
+    if (sortColumn === col) {
+      sortDirection = sortDirection === "desc" ? "asc" : "desc";
+    } else {
+      sortColumn = col;
+      // Default direction: desc for numeric columns, asc for text
+      sortDirection = (col === "cited" || col === "year" || col === "score") ? "desc" : "asc";
+    }
+    // Sync the dropdown to reflect column sorting
+    currentSort = sortColumn + "_" + sortDirection;
+    var sel = document.getElementById("sortSelect");
+    // Set dropdown to matching value if it exists, otherwise clear
+    var matchVal = null;
+    for (var i = 0; i < sel.options.length; i++) {
+      if (sel.options[i].value === currentSort) { matchVal = currentSort; break; }
+    }
+    sel.value = matchVal || "";
+    currentPage = 1;
+    renderArticles();
+  };
+
   function getFilteredArticles() {
     if (!data || !currentSubcollection) return [];
     let result = data.articles.filter(a => {
@@ -657,17 +711,28 @@ select, button {
     });
 
     // Sort
+    var dir = sortDirection === "asc" ? 1 : -1;
     result.sort((a, b) => {
-      switch (currentSort) {
-        case "recurring_desc":
-          return ((b.seen_count || 1) - (a.seen_count || 1)) || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
-        case "year_desc":
-          return (b.year || "").localeCompare(a.year || "");
-        case "first_seen_desc":
-          return (b.first_seen || "").localeCompare(a.first_seen || "");
-        case "cited_desc":
+      // Special dropdown-only sorts
+      if (currentSort === "recurring_desc") {
+        return ((b.seen_count || 1) - (a.seen_count || 1)) || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
+      if (currentSort === "first_seen_desc") {
+        return (b.first_seen || "").localeCompare(a.first_seen || "");
+      }
+      // Column-based sorting
+      switch (sortColumn) {
+        case "title":
+          return dir * (a.title || "").localeCompare(b.title || "");
+        case "reason":
+          return dir * (a.reason || "").localeCompare(b.reason || "");
+        case "score":
+          return dir * ((a.effective_score || 0) - (b.effective_score || 0));
+        case "year":
+          return dir * ((a.year || "").localeCompare(b.year || ""));
+        case "cited":
         default:
-          return (b.cited_by_count || 0) - (a.cited_by_count || 0);
+          return dir * ((a.cited_by_count || 0) - (b.cited_by_count || 0));
       }
     });
     return result;
@@ -697,10 +762,16 @@ select, button {
     let html = '<table class="article-table">';
     html += '<thead><tr>';
     html += '<th class="col-check"></th>';
-    html += '<th>Article</th>';
-    html += '<th class="col-reason">Reason</th>';
-    html += '<th class="col-cited">Cited</th>';
-    html += '<th class="col-year">Year</th>';
+    html += '<th class="sortable' + sortActiveClass("title") + '" onclick="window.__sortBy(\'title\')">';
+    html += 'Article' + sortArrow("title") + '</th>';
+    html += '<th class="col-reason sortable' + sortActiveClass("reason") + '" onclick="window.__sortBy(\'reason\')">';
+    html += 'Reason' + sortArrow("reason") + '</th>';
+    html += '<th class="col-score sortable' + sortActiveClass("score") + '" onclick="window.__sortBy(\'score\')">';
+    html += 'Score' + sortArrow("score") + '</th>';
+    html += '<th class="col-cited sortable' + sortActiveClass("cited") + '" onclick="window.__sortBy(\'cited\')">';
+    html += 'Cited' + sortArrow("cited") + '</th>';
+    html += '<th class="col-year sortable' + sortActiveClass("year") + '" onclick="window.__sortBy(\'year\')">';
+    html += 'Year' + sortArrow("year") + '</th>';
     html += '</tr></thead><tbody>';
 
     for (const a of page) {
@@ -726,15 +797,6 @@ select, button {
       if ((a.seen_count || 1) > 1) {
         html += '<span class="badge badge-recurring" title="Seen in ' + a.seen_count + ' pipeline runs">x' + a.seen_count + '</span>';
       }
-      if (a.reason === "score_below_threshold" && a.effective_score != null) {
-        html += '<div class="score-detail">Score: ' + a.effective_score + ' / ' + (a.threshold || "?") + '</div>';
-        const parts = [];
-        if (a.co_citations != null) parts.push("co-cit: " + a.co_citations);
-        if (a.bib_coupling != null) parts.push("bib: " + a.bib_coupling);
-        if (a.recency_bonus != null) parts.push("recency: +" + a.recency_bonus);
-        if (a.direction) parts.push(a.direction);
-        if (parts.length) html += '<div class="score-detail">' + escapeHtml(parts.join(", ")) + '</div>';
-      }
       if (a.matched_term) {
         html += '<div class="matched-term">"' + escapeHtml(a.matched_term) + '"</div>';
       }
@@ -743,6 +805,19 @@ select, button {
         let dateTitle = "First seen: " + fsDate;
         if (a.last_seen) dateTitle += " | Last seen: " + new Date(a.last_seen).toLocaleDateString();
         html += '<div class="first-seen" title="' + escapeAttr(dateTitle) + '">Since ' + fsDate + '</div>';
+      }
+      html += "</td>";
+      html += '<td class="col-score" style="text-align:right">';
+      if (a.reason === "score_below_threshold" && a.effective_score != null) {
+        html += a.effective_score + '<span style="color:var(--text-secondary)"> / ' + (a.threshold || "?") + '</span>';
+        const parts = [];
+        if (a.co_citations != null) parts.push("co:" + a.co_citations);
+        if (a.bib_coupling != null) parts.push("bib:" + a.bib_coupling);
+        if (a.recency_bonus != null) parts.push("rec:+" + a.recency_bonus);
+        if (a.direction) parts.push(a.direction);
+        if (parts.length) html += '<div class="score-detail">' + escapeHtml(parts.join(" ")) + '</div>';
+      } else {
+        html += '<span style="color:var(--text-secondary)">-</span>';
       }
       html += "</td>";
       html += '<td class="col-cited" style="text-align:right">' + (a.cited_by_count || 0) + "</td>";
@@ -895,6 +970,13 @@ select, button {
 
   document.getElementById("sortSelect").addEventListener("change", function() {
     currentSort = this.value;
+    // Sync column sort state from dropdown
+    if (currentSort === "cited_desc") { sortColumn = "cited"; sortDirection = "desc"; }
+    else if (currentSort === "year_desc") { sortColumn = "year"; sortDirection = "desc"; }
+    else if (currentSort === "recurring_desc" || currentSort === "first_seen_desc") {
+      sortColumn = ""; // No column highlight for dropdown-only sorts
+      sortDirection = "desc";
+    }
     currentPage = 1;
     renderArticles();
   });
