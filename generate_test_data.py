@@ -10,7 +10,7 @@ Output: site/data/near_misses.json
 import json
 import random
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 random.seed(42)
 
@@ -210,6 +210,26 @@ def random_abstract():
     )
 
 
+def random_cumulative_fields():
+    """Generate first_seen, last_seen, seen_count for synthetic data."""
+    now = datetime.now(timezone.utc)
+    seen_count = random.choices([1, 2, 3, 4, 5], weights=[50, 25, 13, 7, 5], k=1)[0]
+    # first_seen is 1-12 weeks ago
+    weeks_ago = random.randint(1, 12)
+    first_seen = now - timedelta(weeks=weeks_ago)
+    if seen_count > 1:
+        # last_seen is between first_seen and now
+        span = (now - first_seen).total_seconds()
+        last_seen = first_seen + timedelta(seconds=random.uniform(span * 0.3, span))
+    else:
+        last_seen = first_seen
+    return {
+        "first_seen": first_seen.isoformat(),
+        "last_seen": last_seen.isoformat(),
+        "seen_count": seen_count,
+    }
+
+
 def make_gene_article(gene, reason, pmid_counter):
     pmid = str(38000000 + pmid_counter)
     tmpl = random.choice(GENE_TITLE_TEMPLATES)
@@ -265,6 +285,7 @@ def make_gene_article(gene, reason, pmid_counter):
             "direction": random.choice(["citation", "reference", "both"]),
         })
 
+    article.update(random_cumulative_fields())
     return article
 
 
@@ -323,6 +344,7 @@ def make_topic_article(category, subtopic, reason, pmid_counter):
             "direction": random.choice(["citation", "reference", "both"]),
         })
 
+    article.update(random_cumulative_fields())
     return article
 
 
@@ -366,6 +388,7 @@ def main():
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "pipeline_version": "1.0",
+        "pipeline_runs": random.randint(3, 12),
         "stats": {
             "total_rejections": len(articles),
             "by_reason": by_reason,
@@ -379,10 +402,13 @@ def main():
     with open("site/data/near_misses.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
+    recurring = sum(1 for a in articles if a.get("seen_count", 1) > 1)
     print(f"Generated {len(articles)} synthetic articles")
     print(f"  Genes: {len(GENES)} subcollections")
     print(f"  Topics: {sum(len(v) for v in TOPIC_HIERARCHY.values())} subcollections")
     print(f"  By reason: {by_reason}")
+    print(f"  Recurring (seen_count > 1): {recurring}")
+    print(f"  Pipeline runs: {data['pipeline_runs']}")
     print(f"  Written to site/data/near_misses.json")
 
 

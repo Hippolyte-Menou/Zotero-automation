@@ -38,6 +38,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Fetch previous near-miss data
+        run: |
+          mkdir -p data
+          git fetch origin gh-pages --depth=1 || true
+          git show origin/gh-pages:data/near_misses.json > data/previous_near_misses.json 2>/dev/null || echo '{}' > data/previous_near_misses.json
+
       - name: Run bot
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}

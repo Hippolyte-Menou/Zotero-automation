@@ -958,10 +958,13 @@ def main():
 
 
     # -----------------------------------------------------------------
-    # Write rejection log for near-miss dashboard
+    # Write rejection log for near-miss dashboard (cumulative merge)
     # -----------------------------------------------------------------
     os.makedirs("data", exist_ok=True)
-    rejection_log.to_json("data/near_misses.json")
+    previous_path = "data/previous_near_misses.json"
+    if not os.path.isfile(previous_path):
+        previous_path = None
+    rejection_log.to_json("data/near_misses.json", previous_path=previous_path)
 
 
 if __name__ == "__main__":

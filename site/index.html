@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 <title>Near-Miss Articles Dashboard</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -20,6 +21,34 @@
   --badge-text: #dc3545;
   --badge-mesh: #fd7e14;
   --badge-mention: #6c757d;
+  --hover: #e9ecef;
+  --table-header-bg: #f8f9fa;
+  --table-border: #eee;
+  --table-hover: #fafbfc;
+  --btn-primary-hover: #0b5ed7;
+  --btn-disabled: #6c757d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a2e;
+    --surface: #16213e;
+    --border: #2a2a4a;
+    --text: #e0e0e0;
+    --text-secondary: #8888a0;
+    --accent: #4d8ffa;
+    --accent-light: #1e2a4a;
+    --badge-score: #d49a3e;
+    --badge-text: #c0392b;
+    --badge-mesh: #e06a10;
+    --badge-mention: #6c6c8a;
+    --hover: #1e2a4a;
+    --table-header-bg: #1a1a2e;
+    --table-border: #2a2a4a;
+    --table-hover: #1e2a4a;
+    --btn-primary-hover: #3a7ae0;
+    --btn-disabled: #4a4a6a;
+  }
 }
 
 body {
@@ -197,16 +226,16 @@ select, button {
   cursor: pointer;
   font-weight: 500;
 }
-.btn:hover { background: #e9ecef; }
+.btn:hover { background: var(--hover); }
 .btn-primary {
   background: var(--accent);
   color: #fff;
   border-color: var(--accent);
 }
-.btn-primary:hover { background: #0b5ed7; }
+.btn-primary:hover { background: var(--btn-primary-hover); }
 .btn-primary:disabled {
-  background: #6c757d;
-  border-color: #6c757d;
+  background: var(--btn-disabled);
+  border-color: var(--btn-disabled);
   cursor: not-allowed;
 }
 
@@ -236,15 +265,15 @@ select, button {
   letter-spacing: 0.5px;
   color: var(--text-secondary);
   border-bottom: 2px solid var(--border);
-  background: #f8f9fa;
+  background: var(--table-header-bg);
 }
 .article-table td {
   padding: 10px 12px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--table-border);
   vertical-align: top;
 }
 .article-table tr:last-child td { border-bottom: none; }
-.article-table tr:hover td { background: #fafbfc; }
+.article-table tr:hover td { background: var(--table-hover); }
 
 .article-title a {
   color: var(--text);
@@ -271,6 +300,26 @@ select, button {
 .badge-text { background: var(--badge-text); }
 .badge-mesh { background: var(--badge-mesh); }
 .badge-mention { background: var(--badge-mention); }
+.badge-recurring {
+  background: #6f42c1;
+  font-size: 10px;
+  padding: 1px 6px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.first-seen {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.recurring-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+}
 
 .score-detail {
   font-size: 12px;
@@ -298,7 +347,7 @@ select, button {
   display: none;
   margin-top: 6px;
   padding: 8px;
-  background: #f8f9fa;
+  background: var(--table-header-bg);
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.6;
@@ -328,7 +377,7 @@ select, button {
   cursor: pointer;
   font-size: 13px;
 }
-.page-btn:hover { background: #e9ecef; }
+.page-btn:hover { background: var(--hover); }
 .page-btn.active {
   background: var(--accent);
   color: #fff;
@@ -399,6 +448,13 @@ select, button {
           <option value="mesh_exclusion">MeSH exclusion</option>
           <option value="mention_filter">Mention filter</option>
         </select>
+        <select class="filter-select" id="sortSelect">
+          <option value="cited_desc">Most cited</option>
+          <option value="recurring_desc">Most recurring</option>
+          <option value="year_desc">Newest first</option>
+          <option value="first_seen_desc">Recently added</option>
+        </select>
+        <label class="recurring-toggle"><input type="checkbox" id="recurringOnly"> Recurring only</label>
         <div class="selection-controls">
           <label><input type="checkbox" id="selectAll"> All on page</label>
           <span id="selectedCount">0 selected</span>
@@ -428,6 +484,8 @@ select, button {
   let currentCategory = null;
   let currentPage = 1;
   let currentReason = "score_below_threshold";
+  let currentSort = "cited_desc";
+  let recurringOnly = false;
   let selectedPmids = new Set();
   let filteredArticles = [];
   let azFilter = "";
@@ -587,12 +645,32 @@ select, button {
 
   function getFilteredArticles() {
     if (!data || !currentSubcollection) return [];
-    return data.articles.filter(a => {
-      if (a.subcollection !== currentSubcollection) return false;
-      if (a.category !== currentCategory) return false;
+    let result = data.articles.filter(a => {
+      // Handle comma-separated subcollection/category from merged entries
+      const subs = (a.subcollection || "").split(",").map(s => s.trim());
+      const cats = (a.category || "").split(",").map(s => s.trim());
+      if (!subs.includes(currentSubcollection)) return false;
+      if (!cats.includes(currentCategory)) return false;
       if (currentReason !== "all" && a.reason !== currentReason) return false;
+      if (recurringOnly && (a.seen_count || 1) <= 1) return false;
       return true;
     });
+
+    // Sort
+    result.sort((a, b) => {
+      switch (currentSort) {
+        case "recurring_desc":
+          return ((b.seen_count || 1) - (a.seen_count || 1)) || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+        case "year_desc":
+          return (b.year || "").localeCompare(a.year || "");
+        case "first_seen_desc":
+          return (b.first_seen || "").localeCompare(a.first_seen || "");
+        case "cited_desc":
+        default:
+          return (b.cited_by_count || 0) - (a.cited_by_count || 0);
+      }
+    });
+    return result;
   }
 
   function renderArticles() {
@@ -645,6 +723,9 @@ select, button {
       html += "</td>";
       html += '<td class="col-reason">';
       html += reasonBadge(a.reason);
+      if ((a.seen_count || 1) > 1) {
+        html += '<span class="badge badge-recurring" title="Seen in ' + a.seen_count + ' pipeline runs">x' + a.seen_count + '</span>';
+      }
       if (a.reason === "score_below_threshold" && a.effective_score != null) {
         html += '<div class="score-detail">Score: ' + a.effective_score + ' / ' + (a.threshold || "?") + '</div>';
         const parts = [];
@@ -656,6 +737,12 @@ select, button {
       }
       if (a.matched_term) {
         html += '<div class="matched-term">"' + escapeHtml(a.matched_term) + '"</div>';
+      }
+      if (a.first_seen) {
+        const fsDate = new Date(a.first_seen).toLocaleDateString();
+        let dateTitle = "First seen: " + fsDate;
+        if (a.last_seen) dateTitle += " | Last seen: " + new Date(a.last_seen).toLocaleDateString();
+        html += '<div class="first-seen" title="' + escapeAttr(dateTitle) + '">Since ' + fsDate + '</div>';
       }
       html += "</td>";
       html += '<td class="col-cited" style="text-align:right">' + (a.cited_by_count || 0) + "</td>";
@@ -806,6 +893,20 @@ select, button {
     renderArticles();
   });
 
+  document.getElementById("sortSelect").addEventListener("change", function() {
+    currentSort = this.value;
+    currentPage = 1;
+    renderArticles();
+  });
+
+  document.getElementById("recurringOnly").addEventListener("change", function() {
+    recurringOnly = this.checked;
+    currentPage = 1;
+    selectedPmids.clear();
+    updateSelectedCount();
+    renderArticles();
+  });
+
   // ------------------------------------------------------------------
   // Sidebar search
   // ------------------------------------------------------------------
@@ -849,8 +950,11 @@ select, button {
     if (!data) return;
     const dt = data.generated_at ? new Date(data.generated_at).toLocaleString() : "unknown";
     const total = data.stats ? data.stats.total_rejections : data.articles.length;
-    document.getElementById("metaBar").textContent =
-      "Last updated: " + dt + " | Total near-misses: " + total;
+    const recurring = data.articles ? data.articles.filter(a => (a.seen_count || 1) > 1).length : 0;
+    let text = "Last updated: " + dt + " | Total near-misses: " + total;
+    if (recurring > 0) text += " | Recurring: " + recurring;
+    if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
+    document.getElementById("metaBar").textContent = text;
   }
 
   function escapeHtml(s) {

@@ -18,4 +18,4 @@
 
 ## Low priority
 
-- [ ] **Dark mode** -- Add `prefers-color-scheme: dark` media query with inverted palette. CSS is already structured for this.
+- [x] **Dark mode** -- Add `prefers-color-scheme: dark` media query with inverted palette. CSS is already structured for this.

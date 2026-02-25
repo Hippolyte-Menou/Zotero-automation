@@ -3,10 +3,15 @@
 Collects articles rejected by the pipeline at various filter stages,
 with metadata and rejection reason. Writes JSON for the GitHub Pages
 dashboard to display.
+
+Cumulative mode: when a previous JSON file is provided, new rejections
+are merged with existing entries. Articles are deduplicated by PMID
+(fallback to DOI), with first_seen/last_seen/seen_count tracking.
 """
 
 import json
 import logging
+import os
 from datetime import datetime, timezone
 
 logger = logging.getLogger(__name__)
@@ -110,13 +115,18 @@ class RejectionLog:
         })
 
     def build_hierarchy(self) -> dict[str, list[str]]:
-        """Build category -> subcollection list from entries."""
+        """Build category -> subcollection list from entries.
+
+        Handles comma-separated values from merged entries (an article
+        rejected in multiple genes/categories).
+        """
         hierarchy: dict[str, set[str]] = {}
         for e in self.entries:
-            cat = e.get("category", "")
-            sub = e.get("subcollection", "")
-            if cat and sub:
-                hierarchy.setdefault(cat, set()).add(sub)
+            cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
+            subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
+            for cat in cats:
+                for sub in subs:
+                    hierarchy.setdefault(cat, set()).add(sub)
         return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
 
     def build_stats(self) -> dict:
@@ -134,17 +144,161 @@ class RejectionLog:
             "by_category": by_category,
         }
 
-    def to_json(self, path: str) -> None:
-        """Write all entries to JSON file."""
+    def _dedup_key(self, entry: dict) -> str | None:
+        """Return a dedup key for an entry: PMID first, DOI fallback, or None."""
+        pmid = entry.get("pmid", "").strip()
+        if pmid:
+            return f"pmid:{pmid}"
+        doi = entry.get("doi", "").strip()
+        if doi:
+            return f"doi:{doi}"
+        return None
+
+    def _merge_subcollections(self, existing: str, new: str) -> str:
+        """Merge subcollection values, comma-separated if they differ."""
+        if not existing:
+            return new
+        if not new or new == existing:
+            return existing
+        parts = {s.strip() for s in existing.split(",")}
+        parts.add(new.strip())
+        return ", ".join(sorted(parts))
+
+    def _merge_categories(self, existing: str, new: str) -> str:
+        """Merge category values, comma-separated if they differ."""
+        if not existing:
+            return new
+        if not new or new == existing:
+            return existing
+        parts = {s.strip() for s in existing.split(",")}
+        parts.add(new.strip())
+        return ", ".join(sorted(parts))
+
+    def _load_previous(self, previous_path: str) -> tuple[dict, int]:
+        """Load previous JSON data. Returns (data_dict, pipeline_runs)."""
+        if not previous_path or not os.path.isfile(previous_path):
+            return {}, 0
+        try:
+            with open(previous_path, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+            if not isinstance(prev, dict) or "articles" not in prev:
+                logger.warning(
+                    f"Previous data at {previous_path} has no 'articles' key, "
+                    f"starting fresh"
+                )
+                return {}, 0
+            pipeline_runs = prev.get("pipeline_runs", 0)
+            return prev, pipeline_runs
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(f"Could not load previous data from {previous_path}: {e}")
+            return {}, 0
+
+    def to_json(self, path: str, previous_path: str | None = None) -> None:
+        """Write all entries to JSON file, optionally merging with previous data.
+
+        If previous_path is provided and exists, loads previous entries and
+        merges: existing articles keep their first_seen, get updated last_seen
+        and incremented seen_count. New articles start with seen_count=1.
+        Articles from previous data not seen this run are preserved as-is.
+        """
+        now = datetime.now(timezone.utc).isoformat()
+
+        # Build index of previous entries
+        prev_data, prev_runs = self._load_previous(previous_path)
+        prev_index: dict[str, dict] = {}
+        if prev_data:
+            for article in prev_data.get("articles", []):
+                key = self._dedup_key(article)
+                if key:
+                    prev_index[key] = article
+
+        # Merge new entries with previous
+        merged_index: dict[str, dict] = {}
+        seen_keys: set[str] = set()
+
+        for entry in self.entries:
+            key = self._dedup_key(entry)
+            if key is None:
+                # No PMID or DOI -- cannot merge, just add with defaults
+                entry.setdefault("first_seen", now)
+                entry["last_seen"] = now
+                entry["seen_count"] = 1
+                # Use a unique fallback key
+                fallback = f"_no_id_{id(entry)}"
+                merged_index[fallback] = entry
+                continue
+
+            seen_keys.add(key)
+
+            if key in prev_index:
+                # Existing article: keep first_seen, update rest
+                existing = prev_index[key]
+                entry["first_seen"] = existing.get("first_seen", now)
+                entry["last_seen"] = now
+                entry["seen_count"] = existing.get("seen_count", 1) + 1
+                # Merge subcollection/category if they differ
+                entry["subcollection"] = self._merge_subcollections(
+                    existing.get("subcollection", ""),
+                    entry.get("subcollection", ""),
+                )
+                entry["category"] = self._merge_categories(
+                    existing.get("category", ""),
+                    entry.get("category", ""),
+                )
+            else:
+                # New article
+                entry["first_seen"] = now
+                entry["last_seen"] = now
+                entry["seen_count"] = 1
+
+            # If same key appears multiple times in this run, keep highest seen_count
+            if key in merged_index:
+                prev_count = merged_index[key].get("seen_count", 1)
+                if entry["seen_count"] >= prev_count:
+                    entry["subcollection"] = self._merge_subcollections(
+                        merged_index[key].get("subcollection", ""),
+                        entry.get("subcollection", ""),
+                    )
+                    entry["category"] = self._merge_categories(
+                        merged_index[key].get("category", ""),
+                        entry.get("category", ""),
+                    )
+                    merged_index[key] = entry
+            else:
+                merged_index[key] = entry
+
+        # Carry forward previous articles not seen this run
+        for key, article in prev_index.items():
+            if key not in seen_keys:
+                # Ensure cumulative fields exist on carried-forward entries
+                article.setdefault("first_seen", now)
+                article.setdefault("last_seen", article["first_seen"])
+                article.setdefault("seen_count", 1)
+                if key not in merged_index:
+                    merged_index[key] = article
+
+        # Final merged list
+        merged_articles = list(merged_index.values())
+
+        # Rebuild hierarchy and stats from merged set
+        self.entries = merged_articles
+        pipeline_runs = prev_runs + 1
+
         data = {
-            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "generated_at": now,
             "pipeline_version": "1.0",
+            "pipeline_runs": pipeline_runs,
             "stats": self.build_stats(),
             "hierarchy": self.build_hierarchy(),
-            "articles": self.entries,
+            "articles": merged_articles,
         }
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
+
+        new_count = sum(1 for a in merged_articles if a.get("seen_count", 1) == 1)
+        recurring_count = sum(1 for a in merged_articles if a.get("seen_count", 1) > 1)
         logger.info(
-            f"Rejection log written: {len(self.entries)} entries -> {path}"
+            f"Rejection log written: {len(merged_articles)} entries "
+            f"({new_count} new, {recurring_count} recurring, "
+            f"run #{pipeline_runs}) -> {path}"
         )
