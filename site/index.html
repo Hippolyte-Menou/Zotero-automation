@@ -29,8 +29,7 @@
   --btn-disabled: #6c757d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+html.dark {
     --bg: #1a1a2e;
     --surface: #16213e;
     --border: #2a2a4a;
@@ -48,7 +47,6 @@
     --table-hover: #1e2a4a;
     --btn-primary-hover: #3a7ae0;
     --btn-disabled: #4a4a6a;
-  }
 }
 
 body {
@@ -95,6 +93,8 @@ body {
   border-radius: 6px;
   font-size: 13px;
   outline: none;
+  background: var(--bg);
+  color: var(--text);
 }
 .sidebar-search:focus { border-color: var(--accent); }
 
@@ -216,6 +216,7 @@ select, button {
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--surface);
+  color: var(--text);
   cursor: pointer;
 }
 .btn {
@@ -588,6 +589,18 @@ select, button {
 .stats-toggle:hover { background: var(--hover); color: var(--text); }
 .stats-toggle.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
 
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.theme-toggle:hover { background: var(--hover); color: var(--text); }
+
 .stats-panel {
   max-height: 0;
   overflow: hidden;
@@ -759,11 +772,9 @@ select, button {
   text-shadow: 0 0 2px var(--surface);
 }
 
-@media (prefers-color-scheme: dark) {
-  .score-low { background: #c0392b; }
-  .score-mid { background: #d49a3e; }
-  .score-high { background: #157347; }
-}
+html.dark .score-low { background: #c0392b; }
+html.dark .score-mid { background: #d49a3e; }
+html.dark .score-high { background: #157347; }
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -771,6 +782,14 @@ select, button {
   .main { margin-left: 0; }
 }
 </style>
+<script>
+(function() {
+  var pref = localStorage.getItem("theme");
+  if (pref === "dark" || (!pref && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  }
+})();
+</script>
 </head>
 <body>
 
@@ -1485,7 +1504,8 @@ select, button {
     if (recurring > 0) text += " | Recurring: " + recurring;
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
     var el = document.getElementById("metaBar");
-    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>';
+    var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
     renderStatsPanel();
   }
 
@@ -1494,6 +1514,12 @@ select, button {
     var btn = document.getElementById("statsToggle");
     panel.classList.toggle("open");
     if (btn) btn.classList.toggle("active");
+  };
+
+  window.__toggleTheme = function() {
+    var isDark = document.documentElement.classList.toggle("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    renderMetaBar();
   };
 
   function renderStatsPanel() {

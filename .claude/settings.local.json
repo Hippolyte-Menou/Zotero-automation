@@ -5,7 +5,11 @@
       "Bash(python:*)",
       "Bash(test:*)",
       "Bash(git remote set-url --push origin https://github.com/Hippolyte-Menou/Zotero-automation.git)",
-      "Bash(git push origin main)"
+      "Bash(git push origin main)",
+      "Bash(start http://localhost:8000)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(pip show playwright)",
+      "Bash(pip install playwright)"
     ]
   },
   "enableAllProjectMcpServers": true,

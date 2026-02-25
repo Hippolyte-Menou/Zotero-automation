@@ -242,6 +242,18 @@ python run.py --topics "1 - Anatomy"   # specific category (full name)
 
 Every pipeline run generates a JSON log of articles that were considered but ultimately rejected. These near-misses are deployed as a static GitHub Pages dashboard so you can review what was filtered out and rescue interesting papers.
 
+![Dashboard landing page](docs/screenshots/dashboard-landing.png)
+
+![Gene view with score progress bars](docs/screenshots/gene-view.png)
+
+![Shared near-misses across subcollections](docs/screenshots/shared-near-misses.png)
+
+![Summary statistics panel](docs/screenshots/stats-panel.png)
+
+![Threshold tuning widget](docs/screenshots/threshold-tuning.png)
+
+![Dark mode](docs/screenshots/dark-mode.png)
+
 ### What gets logged
 
 | Rejection reason | When | Details captured |
@@ -269,7 +281,7 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 - **Expandable abstracts**: click to toggle per article
 - **Pagination**: 50 articles per page
 - **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import
-- **Dark mode**: automatic via `prefers-color-scheme: dark` media query
+- **Dark mode**: defaults to system preference via `prefers-color-scheme`, with a manual toggle button in the header bar (persists via localStorage)
 
 ### How it deploys
 
