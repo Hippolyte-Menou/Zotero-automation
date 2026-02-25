@@ -54,7 +54,14 @@ Zotero-automation/
 ### Near-miss dashboard
 - Articles considered but rejected (score below threshold, text/MeSH exclusion, mention filter)
 - Static site deployed to gh-pages after each run
-- Features: sidebar navigation, search, reason filter, BibTeX export
+- Features: sidebar navigation, search, reason filter, sortable columns, BibTeX export
+- Cumulative mode: merges new rejections with existing data, tracks `first_seen` / `last_seen` / `seen_count`
+- Cross-subcollection view: shared near-misses appearing in 2+ genes/topics
+- Summary statistics panel: collapsible bar with total rejections, breakdown by reason (horizontal bars), top 5 subcollections
+- Score progress bars: visual `effective_score / threshold` ratio with red/amber/green gradient for score-below-threshold articles
+- "Closest to threshold" sort: surfaces near-misses closest to passing for rescue prioritization
+- Threshold tuning: sidebar widget to preview what-if threshold adjustments with rescued article highlighting
+- Dark mode: automatic via `prefers-color-scheme`
 
 ## CLI reference
 

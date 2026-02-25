@@ -258,10 +258,18 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 - **Sidebar navigation**: collapsible tree following vault hierarchy (1-Anatomy through 6-Genes), with article counts per subcollection
 - **Search**: real-time text filter on subcollection names; A-Z letter filter for genes
 - **Reason filter**: dropdown to show all reasons or a specific one (defaults to score_below_threshold)
+- **Sortable columns**: clickable headers (Article, Reason, Score, Cited, Year) with toggle asc/desc and visual sort arrows
 - **Article table**: title (linked to PubMed), authors, journal, year, citation count, color-coded rejection badge, score breakdown for citation candidates
+- **Score progress bars**: for score-below-threshold articles, a visual bar showing `effective_score / threshold` ratio with red (< 50%) / amber (50-80%) / green (> 80%) gradient
+- **"Closest to threshold" sort**: preset that orders articles by how close they came to passing, auto-filtering to score-based rejections
+- **Summary statistics panel**: collapsible stats bar (toggle via "Stats" button) showing total rejections, breakdown by reason as horizontal bars, and top 5 subcollections by article count
+- **Cumulative tracking**: merges new rejections with existing data across runs; tracks `first_seen`, `last_seen`, and `seen_count` per article; recurring articles are flagged with a badge
+- **Cross-subcollection view**: "Shared Near-Misses" entry in sidebar showing articles rejected in 2+ genes/topics, signaling broad relevance
+- **Threshold tuning**: sidebar widget to adjust the adaptive threshold and preview which articles would have passed, with rescued articles highlighted in the table
 - **Expandable abstracts**: click to toggle per article
 - **Pagination**: 50 articles per page
 - **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import
+- **Dark mode**: automatic via `prefers-color-scheme: dark` media query
 
 ### How it deploys
 
