@@ -209,7 +209,7 @@ export ZOTERO_GROUP_ID="123456"
 
 python run.py                          # both pipelines (default)
 python run.py --genes                  # all genes from genes.yml
-python run.py --genes CRB1 RHO        # specific genes only
+python run.py --genes CRB1 RHO         # specific genes only
 python run.py --topics                 # all topic categories
 python run.py --topics anatomy         # specific category (alias)
 python run.py --topics "1 - Anatomy"   # specific category (full name)
