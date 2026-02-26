@@ -1,21 +1,25 @@
-# Dashboard TODO
+# TODO
 
 ## High priority
 
-- [x] **Sortable columns** -- Clickable column headers (Article, Reason, Score, Cited, Year) with toggle asc/desc and visual sort arrows. Score column shows effective_score/threshold with breakdown. Dropdown kept for recurring/first-seen sorts.
+- [ ] **Crash recovery / checkpointing** -- Save progress after each gene/topic so a mid-run crash (API timeout, rate limit) doesn't lose all data. Resume from last checkpoint on next run. Plan in a dedicated session.
 
-- [x] **Cumulative mode** -- Merge new rejections into existing JSON instead of overwriting. Deduplicate by PMID, add `first_seen` / `last_seen` / `seen_count` fields. Papers that recur across runs are strong rescue candidates.
+- [ ] **Dashboard rescue queue** -- One-click "rescue" button on near-miss articles that writes to `data/rescue_queue.json`. Next bot run picks them up and uploads to Zotero. Consider a more frequent cron job (e.g., twice-weekly) so rescued articles don't wait a full week.
 
-- [x] **Threshold tuning panel** -- Sidebar widget to temporarily adjust the adaptive threshold and preview which articles would have passed. Helps calibrate `min_co_citations` and `max_min_co` without re-running the pipeline.
+- [ ] **DOI dedup** -- Currently dedup is PMID-only. Add DOI as a secondary dedup key to catch preprints, alternate records, and entries missing PMIDs.
 
 ## Medium priority
 
-- [x] **Cross-subcollection duplicates** -- Highlight articles rejected in multiple genes/topics. Same PMID appearing for RPGR and CRB1 signals broad relevance. Add a "shared near-misses" grouped view.
+- [ ] **Watch list with email digest** -- Add a `watch` field in `genes.yml` and `topics.yml` to flag hot genes/topics. Weekly run sends an email summary of new papers found for watched items. GitHub Actions can send email via a simple action or webhook.
 
-- [x] **Summary statistics panel** -- Collapsible stats bar at the top: total rejections, breakdown by reason (horizontal bars), top 5 subcollections by count. Toggle via "Stats" button in meta bar.
+- [ ] **Author network tracking** -- Identify prolific authors (appearing 3+ times in the Zotero library). Auto-search their recent publications on each run. Authors tend to work in coherent threads -- if 5 papers by someone are in the library, their 6th is likely relevant.
 
-- [x] **"How close" indicator** -- For score-below-threshold articles, visual progress bar showing `effective_score / threshold` ratio with red/amber/green gradient. "Closest to threshold" sort preset auto-filters to score articles.
+- [ ] **PubMed as supplementary source for topics** -- OpenAlex misses some papers, especially for MeSH-based queries. Add PubMed search (via Entrez API) as a secondary source for the topic pipeline. Cross-dedup with OpenAlex results.
 
-## Low priority
+## Low priority / needs design
 
-- [x] **Dark mode** -- Add `prefers-color-scheme: dark` media query with inverted palette. CSS is already structured for this.
+- [ ] **Cross-gene pathway boosting** -- When a paper mentions multiple genes from the gene list, boost its priority score. Papers connecting two "known" genes are disproportionately valuable -- they reveal pathway-level relationships. Needs design for scoring formula integration.
+
+- [ ] **Gene discovery / candidate suggestions** -- Beyond searching known genes, suggest new genes to add based on co-occurrence patterns, shared pathways, or citation overlap with the existing library. Needs a longer design session.
+
+- [ ] **Reading queue prioritization** -- Score unread Zotero items by: recency, citation velocity (citations/year), number of library genes mentioned, review vs primary data. Output a ranked "read next" list. Needs design for where the output lives (dashboard? vault markdown?).
