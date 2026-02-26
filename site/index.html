@@ -739,6 +739,82 @@ select, button {
   flex-shrink: 0;
 }
 
+/* Run history panel */
+.history-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.history-toggle:hover { background: var(--hover); color: var(--text); }
+.history-toggle.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
+
+.history-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.history-panel.open {
+  max-height: 600px;
+  margin-bottom: 16px;
+  overflow-y: auto;
+}
+.history-panel-inner {
+  padding: 14px 18px;
+}
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.history-table th {
+  padding: 6px 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--border);
+  background: var(--table-header-bg);
+  white-space: nowrap;
+}
+.history-table th.num { text-align: right; }
+.history-table td {
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--table-border);
+  vertical-align: middle;
+}
+.history-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.history-table tr:last-child td { border-bottom: none; }
+.history-table tr:hover td { background: var(--table-hover); }
+.history-pipeline-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 3px;
+}
+.history-pipeline-genes { background: #6f42c1; }
+.history-pipeline-topics { background: #0d6efd; }
+.history-errors { color: var(--badge-text); font-weight: 600; }
+.history-empty {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
 /* Score progress bar */
 .score-bar-container {
   width: 72px;
@@ -848,6 +924,9 @@ html.dark .score-high { background: #157347; }
     <div class="stats-panel" id="statsPanel">
       <div class="stats-panel-inner" id="statsPanelContent"></div>
     </div>
+    <div class="history-panel" id="historyPanel">
+      <div class="history-panel-inner" id="historyPanelContent"></div>
+    </div>
 
     <div class="main-header">
       <div>
@@ -896,6 +975,7 @@ html.dark .score-high { background: #157347; }
 
   const PAGE_SIZE = 50;
   let data = null;
+  let runHistory = null;
   let currentSubcollection = null;
   let currentCategory = null;
   let currentPage = 1;
@@ -1551,13 +1631,20 @@ html.dark .score-high { background: #157347; }
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
     var el = document.getElementById("metaBar");
     var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
-    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()">History</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
     renderStatsPanel();
   }
 
   window.__toggleStats = function() {
     var panel = document.getElementById("statsPanel");
     var btn = document.getElementById("statsToggle");
+    panel.classList.toggle("open");
+    if (btn) btn.classList.toggle("active");
+  };
+
+  window.__toggleHistory = function() {
+    var panel = document.getElementById("historyPanel");
+    var btn = document.getElementById("historyToggle");
     panel.classList.toggle("open");
     if (btn) btn.classList.toggle("active");
   };
@@ -1649,6 +1736,77 @@ html.dark .score-high { background: #157347; }
       html += '</div>';
     }
 
+    container.innerHTML = html;
+  }
+
+  // ------------------------------------------------------------------
+  // Run history
+  // ------------------------------------------------------------------
+
+  async function loadRunHistory() {
+    try {
+      var resp = await fetch("data/run_history.json");
+      if (!resp.ok) return;
+      runHistory = await resp.json();
+      renderRunHistoryPanel();
+    } catch (e) {
+      // Silently ignore -- history is optional
+    }
+  }
+
+  function renderRunHistoryPanel() {
+    var container = document.getElementById("historyPanelContent");
+    if (!runHistory || !runHistory.runs || runHistory.runs.length === 0) {
+      container.innerHTML = '<div class="history-empty">No run history available yet.</div>';
+      return;
+    }
+
+    // Show runs newest-first
+    var runs = runHistory.runs.slice().reverse();
+
+    var html = '<table class="history-table">';
+    html += '<thead><tr>';
+    html += '<th>Date</th>';
+    html += '<th>Pipelines</th>';
+    html += '<th class="num">Found</th>';
+    html += '<th class="num">New</th>';
+    html += '<th class="num">Uploaded</th>';
+    html += '<th class="num">Failed</th>';
+    html += '<th class="num">API Errors</th>';
+    html += '</tr></thead>';
+    html += '<tbody>';
+
+    for (var i = 0; i < runs.length; i++) {
+      var run = runs[i];
+      var dt = run.timestamp ? new Date(run.timestamp).toLocaleString() : "unknown";
+      var gt = (run.genes && run.genes.totals) || {};
+      var tt = (run.topics && run.topics.totals) || {};
+      var pipes = run.pipelines || {};
+
+      var found = (gt.found || 0) + (tt.found || 0);
+      var newCount = (gt["new"] || 0) + (tt["new"] || 0);
+      var uploaded = (gt.added || 0) + (gt.cit_added || 0) + (gt.recent_added || 0)
+                   + (tt.added || 0) + (tt.cit_added || 0) + (tt.recent_added || 0);
+      var failed = (gt.failed || 0) + (tt.failed || 0);
+      var apiErrors = run.openalex_failed_requests || 0;
+
+      var pipeHtml = '';
+      if (pipes.genes) pipeHtml += '<span class="history-pipeline-badge history-pipeline-genes">Genes</span>';
+      if (pipes.topics) pipeHtml += '<span class="history-pipeline-badge history-pipeline-topics">Topics</span>';
+      if (!pipeHtml) pipeHtml = '<span style="color:var(--text-secondary)">--</span>';
+
+      html += '<tr>';
+      html += '<td>' + escapeHtml(dt) + '</td>';
+      html += '<td>' + pipeHtml + '</td>';
+      html += '<td class="num">' + found + '</td>';
+      html += '<td class="num">' + newCount + '</td>';
+      html += '<td class="num">' + uploaded + '</td>';
+      html += '<td class="num">' + failed + '</td>';
+      html += '<td class="num">' + (apiErrors > 0 ? '<span class="history-errors">' + apiErrors + '</span>' : '0') + '</td>';
+      html += '</tr>';
+    }
+
+    html += '</tbody></table>';
     container.innerHTML = html;
   }
 
@@ -1797,6 +1955,7 @@ html.dark .score-high { background: #157347; }
   });
 
   loadData();
+  loadRunHistory();
 
 })();
 </script>

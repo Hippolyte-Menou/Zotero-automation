@@ -68,4 +68,4 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Spread runs across multiple days for OpenAlex budget** -- Instead of one weekly mega-run, split genes and topics across different days (e.g. genes Mon/Wed, topics Tue/Thu, or rotate gene batches daily). Stays within OpenAlex daily API limits and reduces per-run duration. Requires checkpointing and cumulative near-miss merging across runs.
 
-- [ ] **Dashboard: run history panel** -- Load `data/run_history.json` in the near-miss dashboard and display per-run stats (papers found/uploaded/failed per gene/topic, OpenAlex errors). Could be a collapsible panel or separate tab with a table of past runs and sparkline trends.
+- [x] **Dashboard: run history panel** -- Load `data/run_history.json` in the near-miss dashboard and display per-run stats (papers found/uploaded/failed per gene/topic, OpenAlex errors). *(Implemented: collapsible "History" panel in meta bar loads run_history.json and renders a table with date, pipelines, found/new/uploaded/failed counts, and API errors per run.)*
