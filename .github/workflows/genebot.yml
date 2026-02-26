@@ -46,7 +46,7 @@ jobs:
           git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
 
       - name: Run bot
-        timeout-minutes: 120
+        timeout-minutes: 360
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
