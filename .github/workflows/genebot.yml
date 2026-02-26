@@ -44,6 +44,7 @@ jobs:
           git fetch origin gh-pages --depth=1 || true
           git show origin/gh-pages:data/near_misses.json > data/previous_near_misses.json 2>/dev/null || echo '{}' > data/previous_near_misses.json
           git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
+          git show origin/gh-pages:data/run_history.json > data/run_history.json 2>/dev/null || echo '{"runs":[]}' > data/run_history.json
 
       - name: Run bot
         timeout-minutes: 360
@@ -68,6 +69,9 @@ jobs:
           fi
           if [ -f data/citation_cache.json ]; then
             cp data/citation_cache.json site/data/
+          fi
+          if [ -f data/run_history.json ]; then
+            cp data/run_history.json site/data/
           fi
 
       - name: Deploy dashboard to GitHub Pages
