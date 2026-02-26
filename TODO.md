@@ -60,7 +60,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Literature velocity metric** -- [DESIGN] Track new papers per gene per month across runs. Flag accelerating genes (hot area) and decelerating ones (mature/stalled).
 
-- [ ] **Mention filter fallback on empty results** -- If mention filter removes all citation candidates for a gene, raise a GitHub issue rather than silently returning zero. Guards against empty-library edge case.
+- [x] **Mention filter fallback on empty results** -- If mention filter removes all citation candidates for a gene, raise a GitHub issue rather than silently returning zero. Guards against empty-library edge case.
 
 - [ ] **Cache backward references** -- Currently backward references (referenced_works) are re-fetched fresh every run even if unchanged. Cache the reference list per seed to save API calls on stable papers.
 
