@@ -54,6 +54,7 @@ Zotero-automation/
 - OpenAlex API: separate retry budgets for errors (3) and rate limits (5); failed request count tracked and logged
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution
 - HGNC alias resolution retries transient failures (3 attempts)
+- Per-gene `blocked_aliases` in genes.yml to suppress HGNC aliases that are common words or collide with other symbols
 
 ### Near-miss dashboard
 - Articles considered but rejected (score below threshold, text/MeSH exclusion, mention filter)
