@@ -4,7 +4,7 @@ import time
 import logging
 import httpx
 from pyzotero import zotero
-from pyzotero import exceptions as zotero_exceptions
+from pyzotero import errors as zotero_exceptions
 
 logger = logging.getLogger(__name__)
 
