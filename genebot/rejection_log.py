@@ -40,7 +40,7 @@ class RejectionLog:
         """Record a rejection from a raw OpenAlex work dict."""
         from genebot.openalex import OpenAlexClient, _invert_abstract
 
-        pmid = OpenAlexClient._extract_pmid(work) or ""
+        pmid = OpenAlexClient.extract_pmid(work) or ""
         ids = work.get("ids", {})
         raw_doi = ids.get("doi", "")
         doi = raw_doi.replace("https://doi.org/", "") if raw_doi else ""
