@@ -13,6 +13,7 @@ collections:
 search:
   max_results: 25
   recent_max_results: 10
+  re_search_interval_weeks: 8
 citation_expansion:
   max_seed_papers: 50
   min_co_citations: 1
