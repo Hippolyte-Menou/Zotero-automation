@@ -770,15 +770,6 @@ def main():
     )
     args = parser.parse_args()
 
-    # Category aliases for convenience
-    _CATEGORY_ALIASES = {
-        "anatomy": "1 - Anatomy",
-        "embryology": "2 - Embryology",
-        "physiology": "3 - Physiology",
-        "examinations": "4 - Examinations",
-        "pathologies": "5 - Pathologies",
-    }
-
     # Determine mode
     # No flags = both pipelines (default for cron)
     # --genes = gene pipeline only (optionally with specific symbols)
@@ -808,11 +799,9 @@ def main():
         if args.topics is not None or env_mode in ("topics", "all"):
             run_topics = True
             if args.topics and args.topics != "ALL":
-                raw = args.topics
-                topic_category_filter = _CATEGORY_ALIASES.get(raw.lower(), raw)
+                topic_category_filter = args.topics
             elif env_categories:
-                raw = env_categories
-                topic_category_filter = _CATEGORY_ALIASES.get(raw.lower(), raw)
+                topic_category_filter = env_categories
 
     # Credentials from env
     zotero_api_key = os.environ.get("ZOTERO_API_KEY")
@@ -945,6 +934,17 @@ def main():
             logger.warning("No topics configured in topics.yml, skipping topic pipeline")
         else:
             categories = topic_cfg["categories"]
+
+            # Resolve category alias (e.g. "anatomy" -> "1 - Anatomy")
+            if topic_category_filter:
+                alias_map = {
+                    c["alias"].lower(): c["name"]
+                    for c in categories
+                    if c.get("alias")
+                }
+                topic_category_filter = alias_map.get(
+                    topic_category_filter.lower(), topic_category_filter
+                )
 
             # Filter to specific category if requested
             if topic_category_filter:
