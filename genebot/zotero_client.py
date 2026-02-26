@@ -1,5 +1,6 @@
 """Zotero group library interaction via pyzotero."""
 
+import re
 import time
 import logging
 import httpx
@@ -150,19 +151,52 @@ class ZoteroGroupClient:
     # Items
     # ------------------------------------------------------------------
 
+    # Regex patterns for PMID extraction (compiled once at class level)
+    # Matches: "PMID: 123", "PMID:123", "pmid 123", "PubMed ID: 123"
+    _RE_PMID_PREFIX = re.compile(
+        r"(?:pmid|pubmed\s*id)\s*:?\s*(\d+)", re.IGNORECASE
+    )
+    # Matches current PubMed URLs: pubmed.ncbi.nlm.nih.gov/12345
+    _RE_PUBMED_NEW = re.compile(
+        r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)"
+    )
+    # Matches old-style PubMed URLs: ncbi.nlm.nih.gov/pubmed/12345
+    _RE_PUBMED_OLD = re.compile(
+        r"ncbi\.nlm\.nih\.gov/pubmed/(\d+)"
+    )
+
     @staticmethod
     def _extract_pmid_from_data(data: dict) -> str:
-        """Extract PMID from a Zotero item's data dict (extra field or PubMed URL)."""
+        """Extract PMID from a Zotero item's data dict.
+
+        Checks (in order):
+        1. Extra field for PMID prefix variants (PMID:, pmid, PubMed ID:, etc.)
+        2. URL field for PubMed URLs (current and old-style domains)
+        3. Extra field for embedded PubMed URLs
+        """
+        cls = ZoteroGroupClient
+
         extra = data.get("extra", "")
-        for line in extra.split("\n"):
-            line = line.strip()
-            if line.upper().startswith("PMID:"):
-                return line.split(":", 1)[1].strip()
+        if extra:
+            m = cls._RE_PMID_PREFIX.search(extra)
+            if m:
+                return m.group(1)
+
+        # Check url field for both PubMed URL formats
         url = data.get("url", "")
-        if "pubmed.ncbi.nlm.nih.gov" in url:
-            parts = url.rstrip("/").split("/")
-            if parts and parts[-1].isdigit():
-                return parts[-1]
+        if url:
+            for pattern in (cls._RE_PUBMED_NEW, cls._RE_PUBMED_OLD):
+                m = pattern.search(url)
+                if m:
+                    return m.group(1)
+
+        # Check extra field for embedded PubMed URLs (some translators dump URLs there)
+        if extra:
+            for pattern in (cls._RE_PUBMED_NEW, cls._RE_PUBMED_OLD):
+                m = pattern.search(extra)
+                if m:
+                    return m.group(1)
+
         return ""
 
     def get_existing_items(self) -> dict[str, str]:

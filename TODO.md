@@ -48,7 +48,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **HGNC alias overrides** -- Per-gene alias blocklist in genes.yml for genes whose HGNC aliases are common words or collide with other symbols.
 
-- [ ] **Robust PMID parsing from Zotero extra field** -- Current parser expects `PMID:` prefix or PubMed URL. Add case-insensitive matching and alternative formats to prevent phantom duplicates.
+- [x] **Robust PMID parsing from Zotero extra field** -- Current parser expects `PMID:` prefix or PubMed URL. Add case-insensitive matching and alternative formats to prevent phantom duplicates.
 
 - [ ] **Force-include list** -- [DESIGN] `include_pmids` field in genes.yml for manually discovered papers. Bot handles tagging, collection placement, and relation linking.
 
