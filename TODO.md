@@ -28,7 +28,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Near-miss semantic clustering** -- [DESIGN] Group near-miss articles by title/abstract similarity (TF-IDF + cosine). If 5 near-misses cluster around a topic not in the library, that's a systematic blind spot, not 5 independent rejections.
 
-- [ ] **Category aliases in topics.yml** -- Move hardcoded `--topics anatomy` aliases from run.py into topics.yml as an `alias` field. Self-documenting and user-extensible.
+- [x] **Category aliases in topics.yml** -- Move hardcoded `--topics anatomy` aliases from run.py into topics.yml as an `alias` field. Self-documenting and user-extensible.
 
 - [ ] **Mention filter: log dropped candidates as near-misses** -- Citation candidates removed by the mention filter are currently invisible. Log them with reason `mention_filter` so the dashboard surfaces them.
 

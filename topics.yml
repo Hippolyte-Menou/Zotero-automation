@@ -85,6 +85,7 @@ default_exclusions_mesh:
 - Alzheimer Disease
 categories:
 - name: 1 - Anatomy
+  alias: anatomy
   collection: 1 - Anatomy
   topic_ids:
   - T10250
@@ -234,6 +235,7 @@ categories:
         inner segment, Macula lutea, Fovea centralis, Outer nuclear layer, Outer plexiform layer, Inner nuclear layer, Inner
         plexiform layer, Ganglion cell layer, Bruch membrane]
 - name: 2 - Embryology
+  alias: embryology
   collection: 2 - Embryology
   topic_ids:
   - T10691
@@ -315,6 +317,7 @@ categories:
     - optic fissure closure defect
     max_results: 25
 - name: 3 - Physiology
+  alias: physiology
   collection: 3 - Physiology
   topic_ids:
   - T12236
@@ -431,6 +434,7 @@ categories:
     - photoentrainment
     max_results: 15
 - name: 4 - Examinations
+  alias: examinations
   collection: 4 - Examinations
   topic_ids:
   - T11438
@@ -545,6 +549,7 @@ categories:
     - home monitoring retina
     max_results: 20
 - name: 5 - Pathologies
+  alias: pathologies
   collection: 5 - Pathologies
   topic_ids:
   - T10250
