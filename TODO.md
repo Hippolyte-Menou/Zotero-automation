@@ -20,7 +20,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Dashboard: recent additions panel** -- Companion to near-misses: show papers uploaded in the last 4 weeks, grouped by gene/topic. Gives a complete picture of pipeline activity alongside rejections.
 
-- [ ] **Per-run metrics + run history** -- Append per-run stats to `data/run_history.json`: papers found/uploaded/rejected per gene/topic, error count, duration. Generate a markdown summary in GitHub Actions job summary. Enables trend analysis.
+- [x] **Per-run metrics + run history** -- Append per-run stats to `data/run_history.json`: papers found/uploaded/rejected per gene/topic, error count, duration. Generate a markdown summary in GitHub Actions job summary. Enables trend analysis. *(Implemented: `build_run_record()` / `save_run_history()` in run.py append cumulative records; `write_github_summary()` outputs markdown table to `$GITHUB_STEP_SUMMARY`; workflow fetches/deploys `run_history.json` alongside other data.)*
 
 - [x] **Periodic gene re-search** -- Currently search pass is skipped if gene already has papers (bootstrap-only). Re-run search every N weeks to catch papers that match the query but aren't in the citation network. *(Implemented via `re_search_interval_weeks` in genes.yml search config; tracks `last_search_date` per gene in citation cache.)*
 
@@ -67,3 +67,5 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 - [ ] **Split workflow into two jobs to bypass 360-min limit** -- Gene pipeline and topic pipeline run as separate GitHub Actions jobs (each gets its own 360-min timeout). Share near-miss data and citation cache via artifacts. Currently the combined run takes 5+ hours, hitting the per-job ceiling.
 
 - [ ] **Spread runs across multiple days for OpenAlex budget** -- Instead of one weekly mega-run, split genes and topics across different days (e.g. genes Mon/Wed, topics Tue/Thu, or rotate gene batches daily). Stays within OpenAlex daily API limits and reduces per-run duration. Requires checkpointing and cumulative near-miss merging across runs.
+
+- [ ] **Dashboard: run history panel** -- Load `data/run_history.json` in the near-miss dashboard and display per-run stats (papers found/uploaded/failed per gene/topic, OpenAlex errors). Could be a collapsible panel or separate tab with a table of past runs and sparkline trends.

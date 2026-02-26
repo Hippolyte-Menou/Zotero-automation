@@ -246,6 +246,146 @@ def _link_relations(
     logger.info(f"{gene_symbol}: linked relations for {linked} newly uploaded papers")
 
 
+# -----------------------------------------------------------------
+# Run history / metrics
+# -----------------------------------------------------------------
+
+RUN_HISTORY_PATH = "data/run_history.json"
+
+
+def build_run_record(
+    run_genes: bool,
+    run_topics: bool,
+    gene_summary: list[dict],
+    topic_summary: list[dict],
+    failed_requests: int,
+) -> dict:
+    """Build a structured record of this run's stats."""
+    gene_totals = {
+        "found": 0, "new": 0, "added": 0, "failed": 0,
+        "cit_candidates": 0, "cit_added": 0, "recent_added": 0,
+    }
+    for s in gene_summary:
+        for k in gene_totals:
+            gene_totals[k] += s.get(k, 0)
+
+    topic_totals = {
+        "found": 0, "new": 0, "added": 0, "failed": 0,
+        "cit_candidates": 0, "cit_added": 0, "recent_added": 0,
+    }
+    for s in topic_summary:
+        for k in topic_totals:
+            topic_totals[k] += s.get(k, 0)
+
+    return {
+        "timestamp": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "pipelines": {
+            "genes": run_genes,
+            "topics": run_topics,
+        },
+        "genes": {
+            "totals": gene_totals,
+            "per_gene": gene_summary,
+        },
+        "topics": {
+            "totals": topic_totals,
+            "per_topic": topic_summary,
+        },
+        "openalex_failed_requests": failed_requests,
+    }
+
+
+def save_run_history(record: dict, path: str = RUN_HISTORY_PATH) -> None:
+    """Append a run record to the cumulative run history file."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    history = {"runs": []}
+    if os.path.isfile(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(f"Could not load run history, starting fresh: {e}")
+            history = {"runs": []}
+
+    history["runs"].append(record)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+    logger.info(f"Saved run history ({len(history['runs'])} runs) -> {path}")
+
+
+def write_github_summary(record: dict) -> None:
+    """Write a markdown summary to $GITHUB_STEP_SUMMARY (no-op outside Actions)."""
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not summary_path:
+        return
+
+    gt = record["genes"]["totals"]
+    tt = record["topics"]["totals"]
+    per_gene = record["genes"]["per_gene"]
+    per_topic = record["topics"]["per_topic"]
+
+    lines = [
+        "## Run Summary",
+        "",
+        f"**Date:** {record['timestamp']}",
+        "",
+    ]
+
+    if record["pipelines"]["genes"] and per_gene:
+        total_added = gt["added"] + gt["cit_added"] + gt["recent_added"]
+        lines.append("### Gene Pipeline")
+        lines.append("")
+        lines.append(
+            f"**{len(per_gene)} genes** | "
+            f"found {gt['found']} | new {gt['new']} | "
+            f"uploaded {total_added} | failed {gt['failed']}"
+        )
+        lines.append("")
+        lines.append("| Gene | Found | New | Search | Citation | Recent | Failed |")
+        lines.append("|------|------:|----:|-------:|---------:|-------:|-------:|")
+        for s in per_gene:
+            lines.append(
+                f"| {s['symbol']} | {s['found']} | {s['new']} | "
+                f"{s.get('added', 0)} | {s['cit_added']} | "
+                f"{s['recent_added']} | {s.get('failed', 0)} |"
+            )
+        lines.append("")
+
+    if record["pipelines"]["topics"] and per_topic:
+        total_added = tt["added"] + tt["cit_added"] + tt["recent_added"]
+        lines.append("### Topic Pipeline")
+        lines.append("")
+        lines.append(
+            f"**{len(per_topic)} sub-topics** | "
+            f"found {tt['found']} | new {tt['new']} | "
+            f"uploaded {total_added} | failed {tt['failed']}"
+        )
+        lines.append("")
+        lines.append("| Topic | Found | New | Search | Citation | Recent | Failed |")
+        lines.append("|-------|------:|----:|-------:|---------:|-------:|-------:|")
+        for s in per_topic:
+            lines.append(
+                f"| {s['name']} | {s['found']} | {s['new']} | "
+                f"{s.get('added', 0)} | {s['cit_added']} | "
+                f"{s['recent_added']} | {s.get('failed', 0)} |"
+            )
+        lines.append("")
+
+    if record["openalex_failed_requests"] > 0:
+        lines.append(
+            f"**OpenAlex:** {record['openalex_failed_requests']} "
+            f"request(s) failed after retries"
+        )
+        lines.append("")
+
+    try:
+        with open(summary_path, "a", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        logger.info("Wrote GitHub Actions job summary")
+    except OSError as e:
+        logger.warning(f"Could not write GitHub summary: {e}")
+
+
 def process_gene(
     gene_cfg: dict,
     default_excl_text: list[str],
@@ -969,6 +1109,9 @@ def main():
     if citation_cache is None:
         citation_cache = {"version": 1, "seeds": {}, "last_run_date": ""}
 
+    gene_summary = []
+    topic_summary = []
+
     # -----------------------------------------------------------------
     # Gene pipeline
     # -----------------------------------------------------------------
@@ -1155,6 +1298,19 @@ def main():
     if not os.path.isfile(previous_path):
         previous_path = None
     rejection_log.to_json("data/near_misses.json", previous_path=previous_path)
+
+    # -----------------------------------------------------------------
+    # Append per-run metrics to run history
+    # -----------------------------------------------------------------
+    run_record = build_run_record(
+        run_genes=run_genes,
+        run_topics=run_topics,
+        gene_summary=gene_summary if run_genes else [],
+        topic_summary=topic_summary if run_topics else [],
+        failed_requests=openalex.failed_request_count,
+    )
+    save_run_history(run_record)
+    write_github_summary(run_record)
 
 
 if __name__ == "__main__":
