@@ -470,6 +470,43 @@ class ZoteroGroupClient:
         return stats
 
     # ------------------------------------------------------------------
+    # Post-upload verification
+    # ------------------------------------------------------------------
+
+    def verify_upload(
+        self,
+        collection_key: str,
+        expected_pmids: set[str],
+        label: str = "",
+    ) -> set[str]:
+        """Re-fetch collection PMIDs and compare against intended uploads.
+
+        Catches papers silently lost to Zotero timeouts or transient errors.
+        Returns the set of PMIDs that were expected but not found in the
+        collection after upload.
+        """
+        if not expected_pmids:
+            return set()
+
+        actual_pmids = set(self.get_collection_pmids(collection_key))
+        missing = expected_pmids - actual_pmids
+
+        prefix = f"{label}: " if label else ""
+        if missing:
+            logger.warning(
+                f"{prefix}Post-upload verification: {len(missing)} of "
+                f"{len(expected_pmids)} uploaded PMIDs not found in collection. "
+                f"Missing: {sorted(missing)}"
+            )
+        else:
+            logger.info(
+                f"{prefix}Post-upload verification OK: all "
+                f"{len(expected_pmids)} uploaded PMIDs confirmed in collection"
+            )
+
+        return missing
+
+    # ------------------------------------------------------------------
     # Relations
     # ------------------------------------------------------------------
 

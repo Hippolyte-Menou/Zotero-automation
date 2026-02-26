@@ -477,6 +477,10 @@ def process_gene(
             gene_symbol=symbol,
         )
 
+    # Post-upload verification: re-fetch collection and check for missing PMIDs
+    if new_pmids:
+        zot.verify_upload(collection_key, new_pmids, label=symbol)
+
     logger.info(
         f"{symbol}: search_added={search_stats['added']}, "
         f"cit_candidates={len(candidates)}, cit_added={cit_added}, "
@@ -751,6 +755,13 @@ def process_topic_subtopic(
             pmid_to_oa_refs=pmid_to_oa_refs,
             pmid_to_key=pmid_to_key,
             gene_symbol=f"{category_name}/{sub_name}",
+        )
+
+    # Post-upload verification: re-fetch collection and check for missing PMIDs
+    if new_pmids:
+        zot.verify_upload(
+            collection_key, new_pmids,
+            label=f"{category_name}/{sub_name}",
         )
 
     logger.info(

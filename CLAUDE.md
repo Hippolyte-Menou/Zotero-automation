@@ -55,6 +55,7 @@ Zotero-automation/
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution
 - HGNC alias resolution retries transient failures (3 attempts)
 - Per-gene `blocked_aliases` in genes.yml to suppress HGNC aliases that are common words or collide with other symbols
+- Post-upload verification: after all uploads for a gene/topic, re-fetches collection PMIDs and warns about any missing papers (catches silent Zotero timeout losses)
 
 ### Near-miss dashboard
 - Articles considered but rejected (score below threshold, text/MeSH exclusion, mention filter)

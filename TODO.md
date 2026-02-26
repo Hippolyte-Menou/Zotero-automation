@@ -24,7 +24,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Periodic gene re-search** -- Currently search pass is skipped if gene already has papers (bootstrap-only). Re-run search every N weeks to catch papers that match the query but aren't in the citation network.
 
-- [ ] **Post-upload verification** -- After batch upload, re-fetch collection PMIDs and compare against intended uploads. Catches papers silently lost to Zotero timeouts.
+- [x] **Post-upload verification** -- After batch upload, re-fetch collection PMIDs and compare against intended uploads. Catches papers silently lost to Zotero timeouts.
 
 - [ ] **Near-miss semantic clustering** -- [DESIGN] Group near-miss articles by title/abstract similarity (TF-IDF + cosine). If 5 near-misses cluster around a topic not in the library, that's a systematic blind spot, not 5 independent rejections.
 
