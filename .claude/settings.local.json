@@ -9,7 +9,8 @@
       "Bash(start http://localhost:8000)",
       "mcp__Claude_Preview__preview_start",
       "Bash(pip show playwright)",
-      "Bash(pip install playwright)"
+      "Bash(pip install playwright)",
+      "Bash(python3:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
