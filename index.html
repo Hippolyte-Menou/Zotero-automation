@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 <title>Near-Miss Articles Dashboard</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -20,6 +21,32 @@
   --badge-text: #dc3545;
   --badge-mesh: #fd7e14;
   --badge-mention: #6c757d;
+  --hover: #e9ecef;
+  --table-header-bg: #f8f9fa;
+  --table-border: #eee;
+  --table-hover: #fafbfc;
+  --btn-primary-hover: #0b5ed7;
+  --btn-disabled: #6c757d;
+}
+
+html.dark {
+    --bg: #1a1a2e;
+    --surface: #16213e;
+    --border: #2a2a4a;
+    --text: #e0e0e0;
+    --text-secondary: #8888a0;
+    --accent: #4d8ffa;
+    --accent-light: #1e2a4a;
+    --badge-score: #d49a3e;
+    --badge-text: #c0392b;
+    --badge-mesh: #e06a10;
+    --badge-mention: #6c6c8a;
+    --hover: #1e2a4a;
+    --table-header-bg: #1a1a2e;
+    --table-border: #2a2a4a;
+    --table-hover: #1e2a4a;
+    --btn-primary-hover: #3a7ae0;
+    --btn-disabled: #4a4a6a;
 }
 
 body {
@@ -66,6 +93,8 @@ body {
   border-radius: 6px;
   font-size: 13px;
   outline: none;
+  background: var(--bg);
+  color: var(--text);
 }
 .sidebar-search:focus { border-color: var(--accent); }
 
@@ -187,6 +216,7 @@ select, button {
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--surface);
+  color: var(--text);
   cursor: pointer;
 }
 .btn {
@@ -197,16 +227,16 @@ select, button {
   cursor: pointer;
   font-weight: 500;
 }
-.btn:hover { background: #e9ecef; }
+.btn:hover { background: var(--hover); }
 .btn-primary {
   background: var(--accent);
   color: #fff;
   border-color: var(--accent);
 }
-.btn-primary:hover { background: #0b5ed7; }
+.btn-primary:hover { background: var(--btn-primary-hover); }
 .btn-primary:disabled {
-  background: #6c757d;
-  border-color: #6c757d;
+  background: var(--btn-disabled);
+  border-color: var(--btn-disabled);
   cursor: not-allowed;
 }
 
@@ -236,15 +266,36 @@ select, button {
   letter-spacing: 0.5px;
   color: var(--text-secondary);
   border-bottom: 2px solid var(--border);
-  background: #f8f9fa;
+  background: var(--table-header-bg);
+}
+.article-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 20px;
+}
+.article-table th.sortable:hover {
+  color: var(--accent);
+}
+.sort-arrow {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10px;
+  opacity: 0.3;
+}
+.article-table th.sort-active .sort-arrow {
+  opacity: 1;
+  color: var(--accent);
 }
 .article-table td {
   padding: 10px 12px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--table-border);
   vertical-align: top;
 }
 .article-table tr:last-child td { border-bottom: none; }
-.article-table tr:hover td { background: #fafbfc; }
+.article-table tr:hover td { background: var(--table-hover); }
 
 .article-title a {
   color: var(--text);
@@ -271,6 +322,26 @@ select, button {
 .badge-text { background: var(--badge-text); }
 .badge-mesh { background: var(--badge-mesh); }
 .badge-mention { background: var(--badge-mention); }
+.badge-recurring {
+  background: #6f42c1;
+  font-size: 10px;
+  padding: 1px 6px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.first-seen {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.recurring-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+}
 
 .score-detail {
   font-size: 12px;
@@ -298,7 +369,7 @@ select, button {
   display: none;
   margin-top: 6px;
   padding: 8px;
-  background: #f8f9fa;
+  background: var(--table-header-bg);
   border-radius: 4px;
   font-size: 12px;
   line-height: 1.6;
@@ -308,6 +379,7 @@ select, button {
 
 .col-check { width: 36px; }
 .col-reason { width: 130px; }
+.col-score { width: 80px; text-align: right; }
 .col-cited { width: 70px; text-align: right; }
 .col-year { width: 60px; }
 
@@ -328,7 +400,7 @@ select, button {
   cursor: pointer;
   font-size: 13px;
 }
-.page-btn:hover { background: #e9ecef; }
+.page-btn:hover { background: var(--hover); }
 .page-btn.active {
   background: var(--accent);
   color: #fff;
@@ -365,12 +437,359 @@ select, button {
   margin-bottom: 16px;
 }
 
+/* Threshold tuning panel */
+.tuning-panel {
+  border-top: 1px solid var(--border);
+  padding: 0;
+}
+.tuning-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  gap: 6px;
+  user-select: none;
+}
+.tuning-header:hover { background: var(--accent-light); }
+.tuning-header .arrow {
+  font-size: 10px;
+  transition: transform 0.15s;
+  width: 12px;
+  text-align: center;
+}
+.tuning-header .arrow.open { transform: rotate(90deg); }
+.tuning-body {
+  display: none;
+  padding: 8px 16px 14px;
+}
+.tuning-body.open { display: block; }
+.tuning-row {
+  margin-bottom: 10px;
+}
+.tuning-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.tuning-label strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.tuning-slider {
+  width: 100%;
+  margin: 0;
+  accent-color: var(--accent);
+}
+.tuning-result {
+  font-size: 12px;
+  padding: 6px 8px;
+  background: var(--accent-light);
+  border-radius: 4px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.tuning-result .rescued-count {
+  font-weight: 600;
+  color: var(--accent);
+}
+.tuning-reset {
+  font-size: 12px;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 4px;
+}
+.tuning-reset:hover { text-decoration: underline; }
+.tuning-disabled {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 4px 0;
+}
+
+/* Rescued row highlight */
+.article-table tr.rescued td {
+  background: var(--accent-light);
+}
+.rescued-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  background: #198754;
+  color: #fff;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* Shared near-misses */
+.shared-separator {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 4px 16px;
+}
+.shared-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  gap: 6px;
+}
+.shared-item:hover { background: var(--accent-light); }
+.shared-item.active {
+  background: var(--accent);
+  color: #fff;
+}
+.shared-item .count {
+  margin-left: auto;
+  font-weight: 400;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+.shared-item.active .count { color: rgba(255,255,255,0.7); }
+
+.sub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.sub-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+.sub-badge-gene { background: #6f42c1; }
+.sub-badge-topic { background: #0d6efd; }
+.col-subs { width: 160px; }
+
+/* Stats panel */
+.stats-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.stats-toggle:hover { background: var(--hover); color: var(--text); }
+.stats-toggle.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.theme-toggle:hover { background: var(--hover); color: var(--text); }
+
+.stats-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.stats-panel.open {
+  max-height: 400px;
+  margin-bottom: 16px;
+}
+.stats-panel-inner {
+  padding: 14px 18px;
+}
+.stats-grid {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.stats-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 100px;
+}
+.stats-big-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+.stats-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.stats-breakdown {
+  flex: 1;
+  min-width: 200px;
+}
+.stats-breakdown-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.stats-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.stats-bar-label {
+  width: 130px;
+  text-align: right;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.stats-bar-track {
+  flex: 1;
+  height: 14px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stats-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.stats-bar-fill.fill-score { background: var(--badge-score); }
+.stats-bar-fill.fill-text { background: var(--badge-text); }
+.stats-bar-fill.fill-mesh { background: var(--badge-mesh); }
+.stats-bar-fill.fill-mention { background: var(--badge-mention); }
+.stats-bar-count {
+  width: 36px;
+  text-align: right;
+  color: var(--text);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.stats-top-subs {
+  margin-top: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+.stats-top-subs-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+.stats-sub-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+.stats-sub-name {
+  width: 150px;
+  text-align: right;
+  color: var(--text);
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.stats-sub-bar {
+  flex: 1;
+  height: 10px;
+  background: var(--bg);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stats-sub-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+  opacity: 0.7;
+}
+.stats-sub-count {
+  width: 30px;
+  text-align: right;
+  color: var(--text-secondary);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+/* Score progress bar */
+.score-bar-container {
+  width: 72px;
+  height: 16px;
+  background: var(--bg);
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid var(--border);
+}
+.score-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.2s ease;
+}
+.score-low { background: #dc3545; }
+.score-mid { background: #f0ad4e; }
+.score-high { background: #198754; }
+.score-bar-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text);
+  text-shadow: 0 0 2px var(--surface);
+}
+
+html.dark .score-low { background: #c0392b; }
+html.dark .score-mid { background: #d49a3e; }
+html.dark .score-high { background: #157347; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar { display: none; }
   .main { margin-left: 0; }
 }
 </style>
+<script>
+(function() {
+  var pref = localStorage.getItem("theme");
+  if (pref === "dark" || (!pref && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  }
+})();
+</script>
 </head>
 <body>
 
@@ -381,10 +800,24 @@ select, button {
       <input type="text" class="sidebar-search" id="sidebarSearch" placeholder="Search subcollections...">
     </div>
     <div class="sidebar-tree" id="sidebarTree"></div>
+    <div class="tuning-panel" id="tuningPanel">
+      <div class="tuning-header" onclick="window.__toggleTuning()">
+        <span class="arrow" id="tuningArrow">&#9654;</span>
+        <span>Threshold Tuning</span>
+      </div>
+      <div class="tuning-body" id="tuningBody">
+        <div id="tuningContent">
+          <div class="tuning-disabled">Select a subcollection to tune thresholds.</div>
+        </div>
+      </div>
+    </div>
   </aside>
 
   <main class="main">
     <div id="metaBar" class="meta-bar"></div>
+    <div class="stats-panel" id="statsPanel">
+      <div class="stats-panel-inner" id="statsPanelContent"></div>
+    </div>
 
     <div class="main-header">
       <div>
@@ -399,6 +832,15 @@ select, button {
           <option value="mesh_exclusion">MeSH exclusion</option>
           <option value="mention_filter">Mention filter</option>
         </select>
+        <select class="filter-select" id="sortSelect">
+          <option value="cited_desc">Most cited</option>
+          <option value="shared_desc">Most shared</option>
+          <option value="recurring_desc">Most recurring</option>
+          <option value="year_desc">Newest first</option>
+          <option value="first_seen_desc">Recently added</option>
+          <option value="closest_desc">Closest to threshold</option>
+        </select>
+        <label class="recurring-toggle"><input type="checkbox" id="recurringOnly"> Recurring only</label>
         <div class="selection-controls">
           <label><input type="checkbox" id="selectAll"> All on page</label>
           <span id="selectedCount">0 selected</span>
@@ -428,9 +870,14 @@ select, button {
   let currentCategory = null;
   let currentPage = 1;
   let currentReason = "score_below_threshold";
+  let currentSort = "cited_desc";
+  let sortColumn = "cited";
+  let sortDirection = "desc";
+  let recurringOnly = false;
   let selectedPmids = new Set();
   let filteredArticles = [];
   let azFilter = "";
+  let tuningThreshold = null;  // null = no override, number = custom threshold
 
   // ------------------------------------------------------------------
   // Data loading
@@ -471,7 +918,23 @@ select, button {
       counts[key] = (counts[key] || 0) + 1;
     }
 
+    // Count shared articles (subcollection contains a comma)
+    let sharedCount = 0;
+    for (const a of data.articles) {
+      if ((a.subcollection || "").includes(",")) sharedCount++;
+    }
+
     let html = "";
+
+    // Shared near-misses entry at top of sidebar
+    if (sharedCount > 0) {
+      html += '<div class="shared-item" id="sharedItem" onclick="window.__selectShared()">';
+      html += '<span>Shared Near-Misses</span>';
+      html += '<span class="count">' + sharedCount + '</span>';
+      html += '</div>';
+      html += '<hr class="shared-separator">';
+    }
+
     const sortedCats = Object.keys(data.hierarchy).sort();
 
     for (const cat of sortedCats) {
@@ -569,6 +1032,7 @@ select, button {
     currentCategory = cat;
     currentSubcollection = sub;
     currentPage = 1;
+    tuningThreshold = null;
     selectedPmids.clear();
     updateSelectAllCheckbox();
     updateSelectedCount();
@@ -577,6 +1041,31 @@ select, button {
     document.querySelectorAll(".tree-item").forEach(el => {
       el.classList.toggle("active", el.dataset.sub === sub && el.dataset.cat === cat);
     });
+    var sharedEl = document.getElementById("sharedItem");
+    if (sharedEl) sharedEl.classList.remove("active");
+
+    renderArticles();
+  };
+
+  window.__selectShared = function() {
+    currentCategory = "__shared__";
+    currentSubcollection = "__shared__";
+    currentPage = 1;
+    tuningThreshold = null;
+    selectedPmids.clear();
+    updateSelectAllCheckbox();
+    updateSelectedCount();
+
+    // Default to "Most shared" sort
+    currentSort = "shared_desc";
+    sortColumn = "subs";
+    sortDirection = "desc";
+    document.getElementById("sortSelect").value = "shared_desc";
+
+    // Highlight shared item, clear tree items
+    document.querySelectorAll(".tree-item").forEach(el => el.classList.remove("active"));
+    var sharedEl = document.getElementById("sharedItem");
+    if (sharedEl) sharedEl.classList.add("active");
 
     renderArticles();
   };
@@ -585,14 +1074,102 @@ select, button {
   // Articles rendering
   // ------------------------------------------------------------------
 
+  function sortActiveClass(col) {
+    return sortColumn === col ? " sort-active" : "";
+  }
+
+  function sortArrow(col) {
+    if (sortColumn !== col) return '<span class="sort-arrow">&#9650;</span>';
+    return '<span class="sort-arrow">' + (sortDirection === "asc" ? "&#9650;" : "&#9660;") + '</span>';
+  }
+
+  window.__sortBy = function(col) {
+    if (sortColumn === col) {
+      sortDirection = sortDirection === "desc" ? "asc" : "desc";
+    } else {
+      sortColumn = col;
+      // Default direction: desc for numeric columns, asc for text
+      sortDirection = (col === "cited" || col === "year" || col === "score" || col === "subs") ? "desc" : "asc";
+    }
+    // Sync the dropdown to reflect column sorting
+    currentSort = sortColumn + "_" + sortDirection;
+    var sel = document.getElementById("sortSelect");
+    // Set dropdown to matching value if it exists, otherwise clear
+    var matchVal = null;
+    for (var i = 0; i < sel.options.length; i++) {
+      if (sel.options[i].value === currentSort) { matchVal = currentSort; break; }
+    }
+    sel.value = matchVal || "";
+    currentPage = 1;
+    renderArticles();
+  };
+
+  function getSubCount(a) {
+    return (a.subcollection || "").split(",").map(s => s.trim()).filter(Boolean).length;
+  }
+
   function getFilteredArticles() {
     if (!data || !currentSubcollection) return [];
-    return data.articles.filter(a => {
-      if (a.subcollection !== currentSubcollection) return false;
-      if (a.category !== currentCategory) return false;
-      if (currentReason !== "all" && a.reason !== currentReason) return false;
-      return true;
+
+    let result;
+    if (currentSubcollection === "__shared__") {
+      result = data.articles.filter(a => {
+        if (getSubCount(a) <= 1) return false;
+        if (currentReason !== "all" && a.reason !== currentReason) return false;
+        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
+        return true;
+      });
+    } else {
+      result = data.articles.filter(a => {
+        // Handle comma-separated subcollection/category from merged entries
+        const subs = (a.subcollection || "").split(",").map(s => s.trim());
+        const cats = (a.category || "").split(",").map(s => s.trim());
+        if (!subs.includes(currentSubcollection)) return false;
+        if (!cats.includes(currentCategory)) return false;
+        if (currentReason !== "all" && a.reason !== currentReason) return false;
+        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
+        return true;
+      });
+    }
+
+    // Sort
+    var dir = sortDirection === "asc" ? 1 : -1;
+    result.sort((a, b) => {
+      // Special dropdown-only sorts
+      if (currentSort === "shared_desc") {
+        var diff = getSubCount(b) - getSubCount(a);
+        return diff || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
+      if (currentSort === "recurring_desc") {
+        return ((b.seen_count || 1) - (a.seen_count || 1)) || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
+      if (currentSort === "first_seen_desc") {
+        return (b.first_seen || "").localeCompare(a.first_seen || "");
+      }
+      if (currentSort === "closest_desc") {
+        var ratioA = (a.effective_score || 0) / (a.threshold || 1);
+        var ratioB = (b.effective_score || 0) / (b.threshold || 1);
+        return ratioB - ratioA || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+      }
+      // Column-based sorting
+      switch (sortColumn) {
+        case "title":
+          return dir * (a.title || "").localeCompare(b.title || "");
+        case "reason":
+          return dir * (a.reason || "").localeCompare(b.reason || "");
+        case "score":
+          return dir * ((a.effective_score || 0) - (b.effective_score || 0));
+        case "subs":
+          var d = dir * (getSubCount(a) - getSubCount(b));
+          return d || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
+        case "year":
+          return dir * ((a.year || "").localeCompare(b.year || ""));
+        case "cited":
+        default:
+          return dir * ((a.cited_by_count || 0) - (b.cited_by_count || 0));
+      }
     });
+    return result;
   }
 
   function renderArticles() {
@@ -603,10 +1180,14 @@ select, button {
     const start = (currentPage - 1) * PAGE_SIZE;
     const page = filteredArticles.slice(start, start + PAGE_SIZE);
 
-    document.getElementById("mainTitle").textContent = currentSubcollection || "Select a subcollection";
-    document.getElementById("mainSubtitle").textContent =
-      filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") +
-      (currentReason !== "all" ? " (" + reasonLabel(currentReason) + ")" : "");
+    var isShared = currentSubcollection === "__shared__";
+    document.getElementById("mainTitle").textContent = isShared ? "Shared Near-Misses" : (currentSubcollection || "Select a subcollection");
+    document.getElementById("mainSubtitle").textContent = isShared
+      ? filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") + " appearing in 2+ subcollections"
+      : filteredArticles.length + " article" + (filteredArticles.length !== 1 ? "s" : "") +
+        (currentReason !== "all" ? " (" + reasonLabel(currentReason) + ")" : "");
+
+    renderTuningPanel();
 
     if (page.length === 0) {
       document.getElementById("content").innerHTML =
@@ -619,10 +1200,20 @@ select, button {
     let html = '<table class="article-table">';
     html += '<thead><tr>';
     html += '<th class="col-check"></th>';
-    html += '<th>Article</th>';
-    html += '<th class="col-reason">Reason</th>';
-    html += '<th class="col-cited">Cited</th>';
-    html += '<th class="col-year">Year</th>';
+    html += '<th class="sortable' + sortActiveClass("title") + '" onclick="window.__sortBy(\'title\')">';
+    html += 'Article' + sortArrow("title") + '</th>';
+    html += '<th class="col-reason sortable' + sortActiveClass("reason") + '" onclick="window.__sortBy(\'reason\')">';
+    html += 'Reason' + sortArrow("reason") + '</th>';
+    if (isShared) {
+      html += '<th class="col-subs sortable' + sortActiveClass("subs") + '" onclick="window.__sortBy(\'subs\')">';
+      html += 'Subs' + sortArrow("subs") + '</th>';
+    }
+    html += '<th class="col-score sortable' + sortActiveClass("score") + '" onclick="window.__sortBy(\'score\')">';
+    html += 'Score' + sortArrow("score") + '</th>';
+    html += '<th class="col-cited sortable' + sortActiveClass("cited") + '" onclick="window.__sortBy(\'cited\')">';
+    html += 'Cited' + sortArrow("cited") + '</th>';
+    html += '<th class="col-year sortable' + sortActiveClass("year") + '" onclick="window.__sortBy(\'year\')">';
+    html += 'Year' + sortArrow("year") + '</th>';
     html += '</tr></thead><tbody>';
 
     for (const a of page) {
@@ -632,8 +1223,9 @@ select, button {
       const authors = formatAuthors(a.authors);
       const hasAbstract = a.abstract && a.abstract.length > 0;
       const abstractId = "abs-" + pmid;
+      const articleRescued = isRescued(a);
 
-      html += "<tr>";
+      html += '<tr' + (articleRescued ? ' class="rescued"' : '') + '>';
       html += '<td class="col-check"><input type="checkbox" data-pmid="' + escapeAttr(pmid) + '"' + checked + ' onchange="window.__toggleSelect(this)"></td>';
       html += "<td>";
       html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + escapeHtml(a.title || "Untitled") + '</a></div>';
@@ -645,17 +1237,48 @@ select, button {
       html += "</td>";
       html += '<td class="col-reason">';
       html += reasonBadge(a.reason);
-      if (a.reason === "score_below_threshold" && a.effective_score != null) {
-        html += '<div class="score-detail">Score: ' + a.effective_score + ' / ' + (a.threshold || "?") + '</div>';
-        const parts = [];
-        if (a.co_citations != null) parts.push("co-cit: " + a.co_citations);
-        if (a.bib_coupling != null) parts.push("bib: " + a.bib_coupling);
-        if (a.recency_bonus != null) parts.push("recency: +" + a.recency_bonus);
-        if (a.direction) parts.push(a.direction);
-        if (parts.length) html += '<div class="score-detail">' + escapeHtml(parts.join(", ")) + '</div>';
+      if ((a.seen_count || 1) > 1) {
+        html += '<span class="badge badge-recurring" title="Seen in ' + a.seen_count + ' pipeline runs">x' + a.seen_count + '</span>';
       }
       if (a.matched_term) {
         html += '<div class="matched-term">"' + escapeHtml(a.matched_term) + '"</div>';
+      }
+      if (a.first_seen) {
+        const fsDate = new Date(a.first_seen).toLocaleDateString();
+        let dateTitle = "First seen: " + fsDate;
+        if (a.last_seen) dateTitle += " | Last seen: " + new Date(a.last_seen).toLocaleDateString();
+        html += '<div class="first-seen" title="' + escapeAttr(dateTitle) + '">Since ' + fsDate + '</div>';
+      }
+      html += "</td>";
+      if (isShared) {
+        html += '<td class="col-subs"><div class="sub-badges">';
+        var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+        var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+        for (var si = 0; si < subs.length; si++) {
+          var isGene = (cats[si] || "").indexOf("Genes") !== -1;
+          html += '<span class="sub-badge ' + (isGene ? "sub-badge-gene" : "sub-badge-topic") + '">' + escapeHtml(subs[si]) + '</span>';
+        }
+        html += '</div></td>';
+      }
+      html += '<td class="col-score" style="text-align:right">';
+      if (a.reason === "score_below_threshold" && a.effective_score != null) {
+        var displayThreshold = tuningThreshold != null ? tuningThreshold : (a.threshold || 1);
+        var ratio = displayThreshold > 0 ? (a.effective_score / displayThreshold) : 0;
+        var barPct = Math.min(ratio * 100, 100);
+        var barClass = ratio < 0.5 ? "score-low" : (ratio < 0.8 ? "score-mid" : "score-high");
+        html += '<div class="score-bar-container">';
+        html += '<div class="score-bar-fill ' + barClass + '" style="width:' + barPct.toFixed(1) + '%"></div>';
+        html += '<span class="score-bar-label">' + a.effective_score + ' / ' + displayThreshold + '</span>';
+        html += '</div>';
+        if (articleRescued) html += '<span class="rescued-badge">PASS</span>';
+        const parts = [];
+        if (a.co_citations != null) parts.push("co:" + a.co_citations);
+        if (a.bib_coupling != null) parts.push("bib:" + a.bib_coupling);
+        if (a.recency_bonus != null) parts.push("rec:+" + a.recency_bonus);
+        if (a.direction) parts.push(a.direction);
+        if (parts.length) html += '<div class="score-detail">' + escapeHtml(parts.join(" ")) + '</div>';
+      } else {
+        html += '<span style="color:var(--text-secondary)">-</span>';
       }
       html += "</td>";
       html += '<td class="col-cited" style="text-align:right">' + (a.cited_by_count || 0) + "</td>";
@@ -806,6 +1429,33 @@ select, button {
     renderArticles();
   });
 
+  document.getElementById("sortSelect").addEventListener("change", function() {
+    currentSort = this.value;
+    // Sync column sort state from dropdown
+    if (currentSort === "cited_desc") { sortColumn = "cited"; sortDirection = "desc"; }
+    else if (currentSort === "year_desc") { sortColumn = "year"; sortDirection = "desc"; }
+    else if (currentSort === "shared_desc") { sortColumn = "subs"; sortDirection = "desc"; }
+    else if (currentSort === "recurring_desc" || currentSort === "first_seen_desc" || currentSort === "closest_desc") {
+      sortColumn = ""; // No column highlight for dropdown-only sorts
+      sortDirection = "desc";
+    }
+    // Auto-set reason filter when "closest to threshold" is selected
+    if (currentSort === "closest_desc" && currentReason !== "score_below_threshold") {
+      currentReason = "score_below_threshold";
+      document.getElementById("reasonFilter").value = "score_below_threshold";
+    }
+    currentPage = 1;
+    renderArticles();
+  });
+
+  document.getElementById("recurringOnly").addEventListener("change", function() {
+    recurringOnly = this.checked;
+    currentPage = 1;
+    selectedPmids.clear();
+    updateSelectedCount();
+    renderArticles();
+  });
+
   // ------------------------------------------------------------------
   // Sidebar search
   // ------------------------------------------------------------------
@@ -849,8 +1499,111 @@ select, button {
     if (!data) return;
     const dt = data.generated_at ? new Date(data.generated_at).toLocaleString() : "unknown";
     const total = data.stats ? data.stats.total_rejections : data.articles.length;
-    document.getElementById("metaBar").textContent =
-      "Last updated: " + dt + " | Total near-misses: " + total;
+    const recurring = data.articles ? data.articles.filter(a => (a.seen_count || 1) > 1).length : 0;
+    let text = "Last updated: " + dt + " | Total near-misses: " + total;
+    if (recurring > 0) text += " | Recurring: " + recurring;
+    if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
+    var el = document.getElementById("metaBar");
+    var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
+    renderStatsPanel();
+  }
+
+  window.__toggleStats = function() {
+    var panel = document.getElementById("statsPanel");
+    var btn = document.getElementById("statsToggle");
+    panel.classList.toggle("open");
+    if (btn) btn.classList.toggle("active");
+  };
+
+  window.__toggleTheme = function() {
+    var isDark = document.documentElement.classList.toggle("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    renderMetaBar();
+  };
+
+  function renderStatsPanel() {
+    if (!data || !data.articles) return;
+    var container = document.getElementById("statsPanelContent");
+    var articles = data.articles;
+    var total = articles.length;
+
+    // Breakdown by reason
+    var reasons = {};
+    var reasonKeys = ["score_below_threshold", "text_exclusion", "mesh_exclusion", "mention_filter"];
+    for (var i = 0; i < reasonKeys.length; i++) reasons[reasonKeys[i]] = 0;
+    for (var j = 0; j < articles.length; j++) {
+      var r = articles[j].reason || "unknown";
+      reasons[r] = (reasons[r] || 0) + 1;
+    }
+    var maxReasonCount = 0;
+    for (var k = 0; k < reasonKeys.length; k++) {
+      if (reasons[reasonKeys[k]] > maxReasonCount) maxReasonCount = reasons[reasonKeys[k]];
+    }
+
+    // Top subcollections
+    var subCounts = {};
+    for (var m = 0; m < articles.length; m++) {
+      var subs = (articles[m].subcollection || "").split(",").map(function(s) { return s.trim(); });
+      for (var n = 0; n < subs.length; n++) {
+        if (subs[n]) subCounts[subs[n]] = (subCounts[subs[n]] || 0) + 1;
+      }
+    }
+    var topSubs = Object.keys(subCounts).map(function(s) { return { name: s, count: subCounts[s] }; });
+    topSubs.sort(function(a, b) { return b.count - a.count; });
+    topSubs = topSubs.slice(0, 5);
+    var maxSubCount = topSubs.length > 0 ? topSubs[0].count : 1;
+
+    var reasonFillClass = {
+      score_below_threshold: "fill-score",
+      text_exclusion: "fill-text",
+      mesh_exclusion: "fill-mesh",
+      mention_filter: "fill-mention"
+    };
+
+    var html = '<div class="stats-grid">';
+    // Left: big numbers
+    html += '<div class="stats-summary">';
+    html += '<div class="stats-big-number">' + total + '</div>';
+    html += '<div class="stats-label">total rejections</div>';
+    if (data.pipeline_runs) {
+      html += '<div style="margin-top:8px"><span style="font-size:20px;font-weight:700">' + data.pipeline_runs + '</span></div>';
+      html += '<div class="stats-label">pipeline runs</div>';
+    }
+    html += '</div>';
+
+    // Right: breakdown bars
+    html += '<div class="stats-breakdown">';
+    html += '<div class="stats-breakdown-title">By reason</div>';
+    for (var ri = 0; ri < reasonKeys.length; ri++) {
+      var rk = reasonKeys[ri];
+      var rc = reasons[rk] || 0;
+      var pct = maxReasonCount > 0 ? (rc / maxReasonCount * 100) : 0;
+      html += '<div class="stats-bar-row">';
+      html += '<span class="stats-bar-label">' + reasonLabel(rk) + '</span>';
+      html += '<div class="stats-bar-track"><div class="stats-bar-fill ' + (reasonFillClass[rk] || '') + '" style="width:' + pct.toFixed(1) + '%"></div></div>';
+      html += '<span class="stats-bar-count">' + rc + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+    html += '</div>';
+
+    // Bottom: top subcollections
+    if (topSubs.length > 0) {
+      html += '<div class="stats-top-subs">';
+      html += '<div class="stats-top-subs-title">Top subcollections</div>';
+      for (var si = 0; si < topSubs.length; si++) {
+        var sp = maxSubCount > 0 ? (topSubs[si].count / maxSubCount * 100) : 0;
+        html += '<div class="stats-sub-row">';
+        html += '<span class="stats-sub-name" title="' + escapeAttr(topSubs[si].name) + '">' + escapeHtml(topSubs[si].name) + '</span>';
+        html += '<div class="stats-sub-bar"><div class="stats-sub-fill" style="width:' + sp.toFixed(1) + '%"></div></div>';
+        html += '<span class="stats-sub-count">' + topSubs[si].count + '</span>';
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
   }
 
   function escapeHtml(s) {
@@ -861,6 +1614,132 @@ select, button {
   function escapeAttr(s) {
     if (!s) return "";
     return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  // ------------------------------------------------------------------
+  // Threshold tuning panel
+  // ------------------------------------------------------------------
+
+  window.__toggleTuning = function() {
+    var body = document.getElementById("tuningBody");
+    var arrow = document.getElementById("tuningArrow");
+    body.classList.toggle("open");
+    arrow.classList.toggle("open");
+  };
+
+  function getSubcollectionThreshold() {
+    if (!data || !currentSubcollection) return null;
+    // Find the most common threshold among score_below_threshold articles in this subcollection
+    var thresholds = {};
+    var maxCount = 0;
+    var bestThreshold = null;
+    for (var i = 0; i < data.articles.length; i++) {
+      var a = data.articles[i];
+      if (a.reason !== "score_below_threshold") continue;
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+      if (!subs.includes(currentSubcollection) || !cats.includes(currentCategory)) continue;
+      if (a.threshold == null) continue;
+      var t = a.threshold;
+      thresholds[t] = (thresholds[t] || 0) + 1;
+      if (thresholds[t] > maxCount) {
+        maxCount = thresholds[t];
+        bestThreshold = t;
+      }
+    }
+    return bestThreshold;
+  }
+
+  function getScoreArticlesForSubcollection() {
+    if (!data || !currentSubcollection) return [];
+    return data.articles.filter(function(a) {
+      if (a.reason !== "score_below_threshold") return false;
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+      return subs.includes(currentSubcollection) && cats.includes(currentCategory);
+    });
+  }
+
+  function renderTuningPanel() {
+    var container = document.getElementById("tuningContent");
+    if (!data || !currentSubcollection) {
+      container.innerHTML = '<div class="tuning-disabled">Select a subcollection to tune thresholds.</div>';
+      return;
+    }
+    if (currentSubcollection === "__shared__") {
+      container.innerHTML = '<div class="tuning-disabled">Threshold tuning is per-subcollection. Select a specific gene or topic.</div>';
+      return;
+    }
+
+    var scoreArticles = getScoreArticlesForSubcollection();
+    if (scoreArticles.length === 0) {
+      container.innerHTML = '<div class="tuning-disabled">No score-based rejections for this subcollection.</div>';
+      return;
+    }
+
+    var currentThreshold = getSubcollectionThreshold();
+    if (currentThreshold == null) {
+      container.innerHTML = '<div class="tuning-disabled">No threshold data available.</div>';
+      return;
+    }
+
+    // Find score range
+    var maxScore = 0;
+    for (var i = 0; i < scoreArticles.length; i++) {
+      var s = scoreArticles[i].effective_score || 0;
+      if (s > maxScore) maxScore = s;
+    }
+    var sliderMax = Math.max(currentThreshold + 2, maxScore + 1, 10);
+
+    var sliderVal = tuningThreshold != null ? tuningThreshold : currentThreshold;
+    var rescued = 0;
+    for (var j = 0; j < scoreArticles.length; j++) {
+      if ((scoreArticles[j].effective_score || 0) >= sliderVal) rescued++;
+    }
+    var isModified = tuningThreshold != null && tuningThreshold !== currentThreshold;
+
+    var html = '';
+    html += '<div class="tuning-row">';
+    html += '<div class="tuning-label"><span>Threshold</span><strong>' + sliderVal + '</strong></div>';
+    html += '<input type="range" class="tuning-slider" id="tuningSlider" min="0" max="' + sliderMax + '" step="1" value="' + sliderVal + '" oninput="window.__tuneThreshold(this.value)">';
+    html += '<div class="tuning-label"><span>0</span><span>Current: ' + currentThreshold + '</span><span>' + sliderMax + '</span></div>';
+    html += '</div>';
+
+    html += '<div class="tuning-result">';
+    if (isModified) {
+      html += '<span class="rescued-count">' + rescued + '</span> of ' + scoreArticles.length + ' would pass';
+      html += ' (threshold ' + currentThreshold + ' -> ' + sliderVal + ')';
+    } else {
+      html += scoreArticles.length + ' article' + (scoreArticles.length !== 1 ? 's' : '') + ' below threshold';
+    }
+    html += '</div>';
+
+    if (isModified) {
+      html += '<button class="tuning-reset" onclick="window.__resetTuning()">Reset to current (' + currentThreshold + ')</button>';
+    }
+
+    container.innerHTML = html;
+  }
+
+  window.__tuneThreshold = function(val) {
+    tuningThreshold = parseInt(val, 10);
+    renderTuningPanel();
+    if (currentSubcollection) renderArticles();
+  };
+
+  window.__resetTuning = function() {
+    tuningThreshold = null;
+    renderTuningPanel();
+    if (currentSubcollection) renderArticles();
+  };
+
+  function isRescued(article) {
+    if (tuningThreshold == null) return false;
+    if (article.reason !== "score_below_threshold") return false;
+    var currentThreshold = article.threshold;
+    if (currentThreshold == null) return false;
+    // Rescued = was below original threshold but passes new threshold
+    return (article.effective_score || 0) < currentThreshold && (article.effective_score || 0) >= tuningThreshold;
   }
 
   // ------------------------------------------------------------------
