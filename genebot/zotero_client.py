@@ -14,9 +14,12 @@ def _is_retryable(exc: Exception) -> bool:
     if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout)):
         return True
     if isinstance(exc, zotero_exceptions.HTTPError):
-        # Retry on server-side errors (5xx); bail immediately on client errors (4xx)
         msg = str(exc)
-        return "Code: 5" in msg
+        if "Code: 5" in msg:
+            return True
+        resp = getattr(exc, "response", None)
+        if resp is not None and hasattr(resp, "status_code"):
+            return 500 <= resp.status_code < 600
     return False
 
 
@@ -35,8 +38,8 @@ class ZoteroGroupClient:
         # Override default timeout (httpx default is 5s, too short for large libraries)
         self.zot.client.timeout = httpx.Timeout(60.0, connect=15.0)
         self.delay = delay
-        # Cache of collection name -> key, populated lazily
-        self._collection_cache: dict[str, str] = {}
+        # Cache of (name, parent_key) -> key, populated lazily
+        self._collection_cache: dict[tuple[str, str | None], str] = {}
 
     # ------------------------------------------------------------------
     # Collections
@@ -45,9 +48,11 @@ class ZoteroGroupClient:
     def _load_collection_cache(self) -> None:
         """Fetch all collections and populate the local cache."""
         collections = self.zot.everything(self.zot.collections())
-        self._collection_cache = {
-            c["data"]["name"]: c["data"]["key"] for c in collections
-        }
+        self._collection_cache = {}
+        for c in collections:
+            name = c["data"]["name"]
+            parent = c["data"].get("parentCollection") or None
+            self._collection_cache[(name, parent)] = c["data"]["key"]
         logger.debug(f"Collection cache loaded: {len(self._collection_cache)} collections")
 
     def get_or_create_collection(
@@ -63,8 +68,9 @@ class ZoteroGroupClient:
         if not self._collection_cache:
             self._load_collection_cache()
 
-        if name in self._collection_cache:
-            return self._collection_cache[name]
+        cache_key = (name, parent_key)
+        if cache_key in self._collection_cache:
+            return self._collection_cache[cache_key]
 
         # Create the collection
         payload: dict = {"name": name}
@@ -75,7 +81,7 @@ class ZoteroGroupClient:
         if resp.get("successful"):
             key = list(resp["successful"].values())[0]["data"]["key"]
             logger.info(f"Created collection '{name}' (parent={parent_key}) -> key {key}")
-            self._collection_cache[name] = key
+            self._collection_cache[(name, parent_key)] = key
             return key
         else:
             raise RuntimeError(f"Failed to create collection '{name}': {resp}")
@@ -94,6 +100,21 @@ class ZoteroGroupClient:
     # ------------------------------------------------------------------
     # Items
     # ------------------------------------------------------------------
+
+    @staticmethod
+    def _extract_pmid_from_data(data: dict) -> str:
+        """Extract PMID from a Zotero item's data dict (extra field or PubMed URL)."""
+        extra = data.get("extra", "")
+        for line in extra.split("\n"):
+            line = line.strip()
+            if line.upper().startswith("PMID:"):
+                return line.split(":", 1)[1].strip()
+        url = data.get("url", "")
+        if "pubmed.ncbi.nlm.nih.gov" in url:
+            parts = url.rstrip("/").split("/")
+            if parts and parts[-1].isdigit():
+                return parts[-1]
+        return ""
 
     def get_existing_items(self) -> dict[str, str]:
         """
@@ -128,22 +149,7 @@ class ZoteroGroupClient:
             data = item.get("data", {})
             zot_key = data.get("key", "")
 
-            pmid = ""
-            # Check 'extra' field for PMID
-            extra = data.get("extra", "")
-            for line in extra.split("\n"):
-                line = line.strip()
-                if line.upper().startswith("PMID:"):
-                    pmid = line.split(":", 1)[1].strip()
-                    break
-
-            # Fall back to PubMed URL
-            if not pmid:
-                url = data.get("url", "")
-                if "pubmed.ncbi.nlm.nih.gov" in url:
-                    parts = url.rstrip("/").split("/")
-                    if parts and parts[-1].isdigit():
-                        pmid = parts[-1]
+            pmid = self._extract_pmid_from_data(data)
 
             if pmid and zot_key:
                 pmid_to_key[pmid] = zot_key
@@ -184,19 +190,7 @@ class ZoteroGroupClient:
 
         for item in items:
             data = item.get("data", {})
-            pmid = ""
-            extra = data.get("extra", "")
-            for line in extra.split("\n"):
-                line = line.strip()
-                if line.upper().startswith("PMID:"):
-                    pmid = line.split(":", 1)[1].strip()
-                    break
-            if not pmid:
-                url = data.get("url", "")
-                if "pubmed.ncbi.nlm.nih.gov" in url:
-                    parts = url.rstrip("/").split("/")
-                    if parts and parts[-1].isdigit():
-                        pmid = parts[-1]
+            pmid = self._extract_pmid_from_data(data)
             if pmid:
                 trashed.add(pmid)
 
@@ -231,20 +225,9 @@ class ZoteroGroupClient:
 
         for item in items:
             data = item.get("data", {})
-            extra = data.get("extra", "")
-            for line in extra.split("\n"):
-                line = line.strip()
-                if line.upper().startswith("PMID:"):
-                    pmid = line.split(":", 1)[1].strip()
-                    if pmid:
-                        pmids.append(pmid)
-                        break
-            else:
-                url = data.get("url", "")
-                if "pubmed.ncbi.nlm.nih.gov" in url:
-                    parts = url.rstrip("/").split("/")
-                    if parts and parts[-1].isdigit():
-                        pmids.append(parts[-1])
+            pmid = self._extract_pmid_from_data(data)
+            if pmid:
+                pmids.append(pmid)
 
         return pmids
 
@@ -375,15 +358,21 @@ class ZoteroGroupClient:
                     break
 
                 except (httpx.TimeoutException, httpx.ReadTimeout) as e:
-                    wait = 5 * (attempt + 1)
-                    logger.warning(
-                        f"Batch upload timeout (attempt {attempt + 1}/3): {e}. "
-                        f"Retrying in {wait}s..."
-                    )
-                    time.sleep(wait)
-                    if attempt == 2:
+                    if attempt == 0:
+                        wait = 5
+                        logger.warning(
+                            f"Batch upload timeout (attempt 1/3): {e}. "
+                            f"Retrying in {wait}s..."
+                        )
+                        time.sleep(wait)
+                    else:
+                        logger.warning(
+                            f"Batch upload timeout on retry (attempt {attempt + 1}/3): {e}. "
+                            f"Skipping further retries to avoid duplicates. "
+                            f"{len(batch)} items may need manual verification."
+                        )
                         stats["failed"] += len(batch)
-                        logger.error(f"Batch upload failed after 3 attempts: {e}")
+                        break
 
                 except Exception as e:
                     stats["failed"] += len(batch)

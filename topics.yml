@@ -129,7 +129,7 @@ categories:
     - iris
     - ciliary body
     max_results: 30
-    mesh_terms: [Lens, Iris, Ciliary body, Optic nerve, Vitreous body, Anterior chamber, Choroid, Sclera]
+    mesh_terms: [Uvea, Choroid, Iris, Ciliary Body, Bruch Membrane]
   - name: Inner coat
     collection: Inner coat
     keywords:
@@ -168,7 +168,7 @@ categories:
     - vitreous
     - aqueous humor
     max_results: 20
-    mesh_terms: [Lens, Iris, Ciliary body, Optic nerve, Vitreous body, Anterior chamber, Choroid, Sclera]
+    mesh_terms: [Lens, Vitreous Body, Anterior Chamber, Aqueous Humor, Zonule of Zinn]
   - name: Adnexal structures
     collection: Adnexal structures
     keywords:
@@ -198,7 +198,7 @@ categories:
     - optic nerve
     - choroidal blood supply
     max_results: 30
-    mesh_terms: [Lens, Iris, Ciliary body, Optic nerve, Vitreous body, Anterior chamber, Choroid, Sclera]
+    mesh_terms: [Retinal Vessels, Ophthalmic Artery, Optic Nerve, Central Retinal Artery, Central Retinal Vein, Ciliary Arteries]
   - name: Orbit
     collection: Orbit
     keywords:
@@ -211,7 +211,7 @@ categories:
     - orbit
     - extraocular muscles
     max_results: 20
-    mesh_terms: [Lens, Iris, Ciliary body, Optic nerve, Vitreous body, Anterior chamber, Choroid, Sclera]
+    mesh_terms: [Orbit, Oculomotor Muscles, Extraocular Muscles, Lacrimal Apparatus, Tenon Capsule]
   - name: Specialized microanatomy
     collection: Specialized microanatomy
     keywords:

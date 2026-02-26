@@ -2,6 +2,7 @@
 
 import requests
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -14,8 +15,19 @@ def get_gene_aliases(symbol: str) -> set[str]:
     Includes: approved symbol, previous symbols, alias symbols, full name.
     """
     headers = {"Accept": "application/json"}
-    r = requests.get(HGNC_URL.format(symbol=symbol), headers=headers, timeout=10)
-    r.raise_for_status()
+    for attempt in range(3):
+        try:
+            r = requests.get(HGNC_URL.format(symbol=symbol), headers=headers, timeout=10)
+            r.raise_for_status()
+            break
+        except requests.exceptions.RequestException as e:
+            if attempt < 2:
+                wait = 2 ** (attempt + 1)
+                logger.warning(f"HGNC request failed for {symbol} ({e}), retrying in {wait}s")
+                time.sleep(wait)
+            else:
+                logger.error(f"HGNC request failed for {symbol} after 3 attempts: {e}")
+                return {symbol}
 
     docs = r.json().get("response", {}).get("docs", [])
     if not docs:

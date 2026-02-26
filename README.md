@@ -195,7 +195,7 @@ categories:
 
 - **Automatic**: runs every Sunday at 03:00 UTC (edit cron in `.github/workflows/genebot.yml`)
 - **Manual**: go to Actions tab > Gene & Topic Literature Bot > Run workflow
-  - `mode`: empty (both pipelines), `genes`, or `topics`
+  - `mode`: `both` (default, both pipelines), `genes`, or `topics`
   - `genes`: space-separated gene symbols (e.g., `CRB1 PAX6`)
   - `categories`: topic category filter (e.g., `1 - Anatomy`)
 
@@ -233,7 +233,11 @@ python run.py --topics "1 - Anatomy"   # specific category (full name)
 - Text exclusion (title + abstract, whole-word regex) removes off-topic papers (cancer, tumor, etc.)
 - MeSH exclusion removes papers tagged with excluded MeSH descriptors (Neoplasms, Diabetes Mellitus, etc.)
 - Provenance tagging: `source:search`, `source:citation`, `source:recent`
-- Zotero uploads use batch API (50 items/request) with 60s timeout and 3-attempt retry
+- Zotero uploads use batch API (50 items/request) with 60s timeout and retry (stops after first retry on timeout to avoid duplicates)
+- OpenAlex API: separate retry budgets for errors (3 attempts) and rate limits (5 attempts with exponential backoff)
+- HGNC alias resolution retries transient failures (3 attempts)
+- Citation candidates pre-filtered to co_citations >= 1 before PMID resolution (reduces API calls)
+- Failed API request count logged at end of run for visibility
 - Logs are uploaded as GitHub Actions artifacts (retained 30 days)
 
 ---
@@ -280,15 +284,19 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 - **Threshold tuning**: sidebar widget to adjust the adaptive threshold and preview which articles would have passed, with rescued articles highlighted in the table
 - **Expandable abstracts**: click to toggle per article
 - **Pagination**: 50 articles per page
-- **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import
+- **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import (LaTeX special characters escaped)
 - **Dark mode**: defaults to system preference via `prefers-color-scheme`, with a manual toggle button in the header bar (persists via localStorage)
+- **Mobile responsive**: hamburger menu toggle for sidebar on screens < 768px
+- **Accessible**: ARIA labels on all interactive elements, keyboard navigation (Enter/Space) on sidebar tree items
 
 ### How it deploys
 
-After each pipeline run (including failures), the GitHub Actions workflow:
+After each pipeline run, the GitHub Actions workflow:
 
 1. Copies `data/near_misses.json` into `site/data/`
-2. Deploys the `site/` directory to the `gh-pages` branch via `peaceiris/actions-gh-pages@v4`
+2. Deploys the `site/` directory to the `gh-pages` branch via `peaceiris/actions-gh-pages@v4` (only if data preparation succeeds)
+
+The workflow has a 120-minute timeout on the bot step.
 
 The dashboard is then accessible at `https://<username>.github.io/Zotero-automation/`.
 

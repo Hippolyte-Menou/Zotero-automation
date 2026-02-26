@@ -17,7 +17,9 @@ GitHub Actions:
 """
 
 import os
+import re
 import sys
+import json
 import logging
 import datetime
 import yaml
@@ -27,17 +29,37 @@ from genebot.openalex import OpenAlexClient
 from genebot.zotero_client import ZoteroGroupClient
 from genebot.rejection_log import RejectionLog
 
-os.makedirs("logs", exist_ok=True)
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-    handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler(f"logs/run_{datetime.date.today()}.log"),
-    ],
-)
 logger = logging.getLogger("genebot")
+
+
+def filter_records_by_text(
+    records: list[dict],
+    exclude_terms: list[str],
+    rejection_log=None,
+) -> list[dict]:
+    """Filter records by text exclusion terms. Returns non-matching records."""
+    if not exclude_terms:
+        return records
+    patterns = [
+        (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
+        for t in exclude_terms
+    ]
+    filtered = []
+    for r in records:
+        text = f"{r.get('title', '')} {r.get('abstract', '')}"
+        matched = None
+        for pat, term in patterns:
+            if pat.search(text):
+                matched = term
+                break
+        if matched:
+            if rejection_log:
+                rejection_log.add_from_record(
+                    r, reason="text_exclusion", matched_term=matched
+                )
+        else:
+            filtered.append(r)
+    return filtered
 
 
 def load_genes_config(path: str = "genes.yml") -> dict:
@@ -53,6 +75,59 @@ def load_topics_config(path: str = "topics.yml") -> dict:
     except FileNotFoundError:
         logger.warning(f"Topics config not found at {path}")
         return {}
+
+
+def load_citation_cache(path: str = "data/citation_cache.json") -> dict | None:
+    """Load citation cache from previous run. Returns None if not found."""
+    if not os.path.isfile(path):
+        logger.info("No citation cache found, will do full expansion")
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            cache = json.load(f)
+        seed_count = len(cache.get("seeds", {}))
+        if seed_count == 0:
+            logger.info("Citation cache is empty, will do full expansion")
+            return None
+        logger.info(
+            f"Loaded citation cache: {seed_count} seeds, "
+            f"last run: {cache.get('last_run_date', 'unknown')}"
+        )
+        return cache
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"Could not load citation cache: {e}")
+        return None
+
+
+def save_citation_cache(cache: dict, path: str = "data/citation_cache.json") -> None:
+    """Save citation cache for next run."""
+    cache["last_run_date"] = datetime.date.today().isoformat()
+    cache.setdefault("version", 1)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False)
+    seed_count = len(cache.get("seeds", {}))
+    logger.info(f"Saved citation cache: {seed_count} seeds -> {path}")
+
+
+def select_rotation_genes(
+    all_genes: list[dict],
+    citation_cache: dict,
+) -> set[str]:
+    """Select genes due for full forward expansion this week.
+
+    Returns set of gene symbols. Picks len(all_genes)//4 genes
+    sorted by oldest last_full_expanded date.
+    """
+    batch_size = max(1, len(all_genes) // 4)
+    gene_dates = citation_cache.get("genes", {})
+    ranked = sorted(
+        all_genes,
+        key=lambda g: gene_dates.get(g["symbol"], {}).get(
+            "last_full_expanded", "2000-01-01"
+        ),
+    )
+    return {g["symbol"] for g in ranked[:batch_size]}
 
 
 def _get_subtopic_keywords(sub_topic: dict) -> list[str]:
@@ -105,7 +180,7 @@ def _link_relations(
         f"{gene_symbol}: resolving {len(all_oa_ids)} OpenAlex reference IDs "
         f"for {len(new_pmids)} newly uploaded papers"
     )
-    oa_id_to_pmid = openalex._resolve_openalex_ids_to_pmids(list(all_oa_ids))
+    oa_id_to_pmid = openalex.resolve_openalex_ids_to_pmids(list(all_oa_ids))
 
     linked = 0
     for pmid in new_pmids:
@@ -142,6 +217,8 @@ def process_gene(
     search_max_results: int = 25,
     recent_max_results: int = 10,
     rejection_log: RejectionLog | None = None,
+    citation_cache: dict | None = None,
+    force_full_expansion: bool = False,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
@@ -211,13 +288,13 @@ def process_gene(
 
         # Apply MeSH exclusion on raw works before converting to records
         if mesh_excl:
-            seed_works = openalex._filter_by_mesh(
+            seed_works = openalex.filter_by_mesh(
                 seed_works, mesh_excl, rejection_log=rejection_log
             )
 
         # Preserve referenced_works before flattening
         for w in seed_works:
-            pmid = OpenAlexClient._extract_pmid(w)
+            pmid = OpenAlexClient.extract_pmid(w)
             if pmid:
                 pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
 
@@ -244,16 +321,18 @@ def process_gene(
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
 
-        library_size = len(all_records)
+        library_size = len(collection_pmids) + len(new_records)
 
     # 4. Citation network expansion (multi-hop, gene-filtered, bib coupling)
-    import re
     max_seeds = citation_cfg.get("max_seed_papers", 100)
     min_co = citation_cfg.get("min_co_citations", 1)
     max_min_co = citation_cfg.get("max_min_co", 6)
     max_hops = citation_cfg.get("max_hops", 2)
     hop2_top_n = citation_cfg.get("hop2_top_n", 10)
 
+    # force_full_expansion: pass None cache so _expand_one_hop does full
+    # forward expansion (no skip-gate, no since_date filter)
+    effective_cache = None if force_full_expansion else citation_cache
     candidates = openalex.expand_citations(
         seed_works=seed_works,
         existing_pmids=existing_pmids,
@@ -266,7 +345,14 @@ def process_gene(
         hop2_top_n=hop2_top_n,
         exclude_mesh=mesh_excl or None,
         rejection_log=rejection_log,
+        citation_cache=effective_cache,
     )
+
+    # Update gene rotation date in the real cache
+    if force_full_expansion and citation_cache is not None:
+        citation_cache.setdefault("genes", {})[symbol] = {
+            "last_full_expanded": datetime.date.today().isoformat()
+        }
 
     cit_added = 0
     if candidates:
@@ -274,7 +360,7 @@ def process_gene(
         # Preserve referenced_works before flattening
         for c in candidates:
             w = c.get("work", {})
-            pmid = OpenAlexClient._extract_pmid(w)
+            pmid = OpenAlexClient.extract_pmid(w)
             if pmid:
                 pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
 
@@ -283,27 +369,7 @@ def process_gene(
         ]
 
         # Text filter + dedup
-        if text_excl:
-            patterns = [
-                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
-                for t in text_excl
-            ]
-            filtered_records = []
-            for r in candidate_records:
-                text = f"{r.get('title', '')} {r.get('abstract', '')}"
-                matched = None
-                for pat, term in patterns:
-                    if pat.search(text):
-                        matched = term
-                        break
-                if matched:
-                    if rejection_log:
-                        rejection_log.add_from_record(
-                            r, reason="text_exclusion", matched_term=matched
-                        )
-                else:
-                    filtered_records.append(r)
-            candidate_records = filtered_records
+        candidate_records = filter_records_by_text(candidate_records, text_excl, rejection_log)
 
         candidate_records = [
             r for r in candidate_records
@@ -334,13 +400,13 @@ def process_gene(
     if recent_works:
         # MeSH exclusion on raw works before converting to records
         if mesh_excl:
-            recent_works = openalex._filter_by_mesh(
+            recent_works = openalex.filter_by_mesh(
                 recent_works, mesh_excl, rejection_log=rejection_log
             )
 
         # Preserve referenced_works before flattening
         for w in recent_works:
-            pmid = OpenAlexClient._extract_pmid(w)
+            pmid = OpenAlexClient.extract_pmid(w)
             if pmid:
                 pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
 
@@ -349,27 +415,7 @@ def process_gene(
         ]
 
         # Text filter
-        if text_excl:
-            patterns = [
-                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
-                for t in text_excl
-            ]
-            filtered_recent = []
-            for r in recent_records:
-                text = f"{r.get('title', '')} {r.get('abstract', '')}"
-                matched = None
-                for pat, term in patterns:
-                    if pat.search(text):
-                        matched = term
-                        break
-                if matched:
-                    if rejection_log:
-                        rejection_log.add_from_record(
-                            r, reason="text_exclusion", matched_term=matched
-                        )
-                else:
-                    filtered_recent.append(r)
-            recent_records = filtered_recent
+        recent_records = filter_records_by_text(recent_records, text_excl, rejection_log)
 
         # Dedup
         recent_records = [
@@ -434,6 +480,7 @@ def process_topic_subtopic(
     pmid_to_key: dict[str, str],
     openalex: OpenAlexClient,
     rejection_log: RejectionLog | None = None,
+    citation_cache: dict | None = None,
 ) -> dict:
     """Process a single sub-topic within a category. Returns stats dict."""
 
@@ -532,7 +579,7 @@ def process_topic_subtopic(
 
         # Preserve referenced_works
         for w in seed_works:
-            pmid = OpenAlexClient._extract_pmid(w)
+            pmid = OpenAlexClient.extract_pmid(w)
             if pmid:
                 pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
 
@@ -579,12 +626,13 @@ def process_topic_subtopic(
             hop2_top_n=cit_cfg.get("hop2_top_n", 5),
             exclude_mesh=mesh_excl or None,
             rejection_log=rejection_log,
+            citation_cache=citation_cache,
         )
 
         if candidates:
             for c in candidates:
                 w = c.get("work", {})
-                pmid = OpenAlexClient._extract_pmid(w)
+                pmid = OpenAlexClient.extract_pmid(w)
                 if pmid:
                     pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
 
@@ -593,28 +641,7 @@ def process_topic_subtopic(
             ]
 
             # Text filter
-            if text_excl:
-                import re
-                patterns = [
-                    (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
-                    for t in text_excl
-                ]
-                filtered_records = []
-                for r in candidate_records:
-                    text = f"{r.get('title', '')} {r.get('abstract', '')}"
-                    matched = None
-                    for pat, term in patterns:
-                        if pat.search(text):
-                            matched = term
-                            break
-                    if matched:
-                        if rejection_log:
-                            rejection_log.add_from_record(
-                                r, reason="text_exclusion", matched_term=matched
-                            )
-                    else:
-                        filtered_records.append(r)
-                candidate_records = filtered_records
+            candidate_records = filter_records_by_text(candidate_records, text_excl, rejection_log)
 
             candidate_records = [
                 r for r in candidate_records
@@ -647,38 +674,17 @@ def process_topic_subtopic(
     )
     if recent_works:
         if mesh_excl:
-            recent_works = openalex._filter_by_mesh(
+            recent_works = openalex.filter_by_mesh(
                 recent_works, mesh_excl, rejection_log=rejection_log
             )
         for w in recent_works:
-            pmid = OpenAlexClient._extract_pmid(w)
+            pmid = OpenAlexClient.extract_pmid(w)
             if pmid:
                 pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
 
         recent_records = [OpenAlexClient.work_to_record(w) for w in recent_works]
 
-        if text_excl:
-            import re
-            patterns = [
-                (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
-                for t in text_excl
-            ]
-            filtered_recent = []
-            for r in recent_records:
-                text = f"{r.get('title', '')} {r.get('abstract', '')}"
-                matched = None
-                for pat, term in patterns:
-                    if pat.search(text):
-                        matched = term
-                        break
-                if matched:
-                    if rejection_log:
-                        rejection_log.add_from_record(
-                            r, reason="text_exclusion", matched_term=matched
-                        )
-                else:
-                    filtered_recent.append(r)
-            recent_records = filtered_recent
+        recent_records = filter_records_by_text(recent_records, text_excl, rejection_log)
 
         recent_records = [
             r for r in recent_records
@@ -735,6 +741,16 @@ def process_topic_subtopic(
 
 
 def main():
+    os.makedirs("logs", exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        handlers=[
+            logging.StreamHandler(sys.stdout),
+            logging.FileHandler(f"logs/run_{datetime.date.today()}.log"),
+        ],
+    )
+
     import argparse
 
     parser = argparse.ArgumentParser(description="Gene & Topic Literature Bot")
@@ -771,7 +787,7 @@ def main():
     env_categories = os.environ.get("INPUT_CATEGORIES", "").strip()
     env_genes = os.environ.get("INPUT_GENES", "").split()
 
-    if args.genes is None and args.topics is None and not env_mode:
+    if args.genes is None and args.topics is None and (not env_mode or env_mode == "both"):
         # No flags at all -> run both pipelines
         run_genes = True
         run_topics = True
@@ -827,6 +843,11 @@ def main():
 
     rejection_log = RejectionLog()
 
+    # Load citation cache for incremental expansion
+    citation_cache = load_citation_cache()
+    if citation_cache is None:
+        citation_cache = {"version": 1, "seeds": {}, "last_run_date": ""}
+
     # -----------------------------------------------------------------
     # Gene pipeline
     # -----------------------------------------------------------------
@@ -852,6 +873,17 @@ def main():
                     genes_to_run.append({"symbol": s})
         else:
             genes_to_run = all_genes
+
+        # Determine which genes get full forward expansion this week
+        manual_run = gene_symbols is not None
+        if manual_run:
+            full_expansion_genes = {g["symbol"] for g in genes_to_run}
+        else:
+            full_expansion_genes = select_rotation_genes(all_genes, citation_cache)
+        logger.info(
+            f"Full forward expansion for {len(full_expansion_genes)} genes "
+            f"(rotation): {sorted(full_expansion_genes)}"
+        )
 
         if not genes_to_run:
             logger.warning("No genes to process. Add genes to genes.yml or pass as arguments.")
@@ -880,6 +912,8 @@ def main():
                     search_max_results=search_max_results,
                     recent_max_results=recent_max_results,
                     rejection_log=rejection_log,
+                    citation_cache=citation_cache,
+                    force_full_expansion=gene_cfg["symbol"] in full_expansion_genes,
                 )
                 gene_summary.append(stats)
 
@@ -939,6 +973,7 @@ def main():
                         pmid_to_key=pmid_to_key,
                         openalex=openalex,
                         rejection_log=rejection_log,
+                        citation_cache=citation_cache,
                     )
                     topic_summary.append(stats)
 
@@ -956,6 +991,14 @@ def main():
                         f"recent_add={s['recent_added']:4d}"
                     )
 
+
+    # -----------------------------------------------------------------
+    # Save citation cache for next run
+    # -----------------------------------------------------------------
+    save_citation_cache(citation_cache)
+
+    if openalex.failed_request_count > 0:
+        logger.warning(f"OpenAlex API: {openalex.failed_request_count} request(s) failed after retries")
 
     # -----------------------------------------------------------------
     # Write rejection log for near-miss dashboard (cumulative merge)

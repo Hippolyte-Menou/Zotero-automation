@@ -12,9 +12,11 @@ or topic, the higher the bar (co-citation count or recency) a new candidate
 must clear.
 """
 
+import re
 import time
 import logging
 import math
+import datetime
 from collections import defaultdict
 
 import requests
@@ -68,6 +70,11 @@ class OpenAlexClient:
         self.params: dict[str, str] = {}
         if api_key:
             self.params["api_key"] = api_key
+        self._failed_requests = 0
+
+    @property
+    def failed_request_count(self) -> int:
+        return self._failed_requests
 
     # ------------------------------------------------------------------
     # Low-level HTTP
@@ -76,27 +83,37 @@ class OpenAlexClient:
     def _get(self, endpoint: str, params: dict | None = None) -> dict | None:
         url = f"{BASE_URL}{endpoint}"
         merged = {**self.params, **(params or {})}
-        for attempt in range(3):
+        attempt = 0
+        rate_limit_waits = 0
+        while attempt < 3:
             try:
                 resp = self.session.get(url, params=merged, timeout=15)
                 if resp.status_code == 429:
-                    wait = 2 ** (attempt + 1)
-                    logger.warning(f"Rate limited (429), waiting {wait}s")
+                    rate_limit_waits += 1
+                    if rate_limit_waits > 5:
+                        logger.error("Rate limited too many times, giving up")
+                        self._failed_requests += 1
+                        return None
+                    wait = 2 ** rate_limit_waits
+                    logger.warning(f"Rate limited (429), waiting {wait}s (retry {rate_limit_waits}/5)")
                     time.sleep(wait)
-                    continue
+                    continue  # Do NOT increment attempt
                 if resp.status_code == 404:
                     return None
                 resp.raise_for_status()
                 time.sleep(self.delay)
                 return resp.json()
             except requests.exceptions.RequestException as e:
-                if attempt < 2:
-                    wait = 2 ** (attempt + 1)
+                attempt += 1
+                if attempt < 3:
+                    wait = 2 ** attempt
                     logger.warning(f"Request failed ({e}), retrying in {wait}s")
                     time.sleep(wait)
                 else:
                     logger.error(f"Request failed after 3 attempts: {e}")
+                    self._failed_requests += 1
                     return None
+        self._failed_requests += 1
         return None
 
     # ------------------------------------------------------------------
@@ -195,7 +212,6 @@ class OpenAlexClient:
 
         Returns list of work dicts with full metadata.
         """
-        import datetime
         if year is None:
             year = datetime.date.today().year
 
@@ -403,7 +419,7 @@ class OpenAlexClient:
 
         # Post-hoc MeSH exclusion
         if exclude_mesh:
-            results = self._filter_by_mesh(
+            results = self.filter_by_mesh(
                 results, exclude_mesh, rejection_log=rejection_log
             )
 
@@ -425,7 +441,6 @@ class OpenAlexClient:
 
         Returns list of work dicts with full metadata.
         """
-        import datetime
         if year is None:
             year = datetime.date.today().year
 
@@ -454,17 +469,36 @@ class OpenAlexClient:
     # Citation network expansion
     # ------------------------------------------------------------------
 
-    def get_citations(self, openalex_id: str, limit: int = 500) -> list[dict]:
-        """Get works that cite the given work (forward citations)."""
+    def get_citations(
+        self,
+        openalex_id: str,
+        limit: int = 500,
+        since_date: str | None = None,
+    ) -> list[dict]:
+        """Get works that cite the given work (forward citations).
+
+        If since_date is provided (YYYY-MM-DD), only returns citations
+        published on or after that date.
+        """
         results = []
         page = 1
         per_page = min(limit, 200)
+
+        filter_parts = [
+            f"cites:{openalex_id}",
+            "has_pmid:true",
+            "is_retracted:false",
+            "language:en|fr",
+        ]
+        if since_date:
+            filter_parts.append(f"from_publication_date:{since_date}")
+        filter_str = ",".join(filter_parts)
 
         while len(results) < limit:
             data = self._get(
                 "/works",
                 params={
-                    "filter": f"cites:{openalex_id},has_pmid:true,is_retracted:false,language:en|fr",
+                    "filter": filter_str,
                     "select": "id,ids,cited_by_count,publication_year",
                     "per_page": str(per_page),
                     "page": str(page),
@@ -482,6 +516,24 @@ class OpenAlexClient:
 
         return results[:limit]
 
+    def _should_expand_seed(self, work: dict, citation_cache: dict | None) -> bool:
+        """Check if a seed needs forward citation expansion.
+
+        Returns False (skip) if the seed's cited_by_count matches the cached
+        value, meaning no new citations since last run.
+        """
+        if citation_cache is None:
+            return True
+        oa_id = work.get("id", "")
+        if not oa_id:
+            return True
+        cached = citation_cache.get("seeds", {}).get(oa_id)
+        if cached is None:
+            return True
+        current_count = work.get("cited_by_count", 0)
+        cached_count = cached.get("cited_by_count", -1)
+        return current_count != cached_count
+
     def _expand_one_hop(
         self,
         seed_works: list[dict],
@@ -492,6 +544,7 @@ class OpenAlexClient:
         max_min_co: int = 6,
         hop_label: str = "hop 1",
         below_threshold: list[dict] | None = None,
+        citation_cache: dict | None = None,
     ) -> list[dict]:
         """Single-hop citation network expansion with bibliographic coupling.
 
@@ -525,7 +578,7 @@ class OpenAlexClient:
             reverse=True,
         )[:max_seeds]
 
-        seed_pmids = {self._extract_pmid(w) for w in seed_works}
+        seed_pmids = {self.extract_pmid(w) for w in seed_works}
 
         # Build seed reference set for bibliographic coupling
         seed_reference_set: set[str] = set()
@@ -537,18 +590,43 @@ class OpenAlexClient:
             lambda: {"co_citations": 0, "bib_coupling": 0, "directions": set(), "year": 0}
         )
 
+        # Derive since_date for incremental forward citations (7-day buffer)
+        since_date: str | None = None
+        if citation_cache is not None:
+            last_run = citation_cache.get("last_run_date")
+            if last_run:
+                buffer_date = (
+                    datetime.date.fromisoformat(last_run)
+                    - datetime.timedelta(days=7)
+                )
+                since_date = buffer_date.isoformat()
+
+        skipped_seeds = 0
         for i, work in enumerate(seeds):
             openalex_id = work.get("id", "")
             if (i + 1) % 20 == 0 or (i + 1) == len(seeds):
                 logger.info(f"Expanding seed {i + 1}/{len(seeds)} ({hop_label})")
 
-            # Backward: referenced_works already in the work object
+            # Backward: referenced_works already in the work object (always free)
             for ref_id in work.get("referenced_works", []):
                 candidates[ref_id]["co_citations"] += 1
                 candidates[ref_id]["directions"].add("reference")
 
             # Forward: query works that cite this seed
-            citing_works = self.get_citations(openalex_id, limit=500)
+            if self._should_expand_seed(work, citation_cache):
+                citing_works = self.get_citations(
+                    openalex_id, limit=500, since_date=since_date
+                )
+                # Update cache entry
+                if citation_cache is not None:
+                    citation_cache.setdefault("seeds", {})[openalex_id] = {
+                        "cited_by_count": work.get("cited_by_count", 0),
+                        "last_expanded": datetime.date.today().isoformat(),
+                    }
+            else:
+                citing_works = []
+                skipped_seeds += 1
+
             for citing in citing_works:
                 cit_id = citing.get("id", "")
                 if cit_id:
@@ -558,11 +636,19 @@ class OpenAlexClient:
                     if year > candidates[cit_id]["year"]:
                         candidates[cit_id]["year"] = year
 
+        logger.info(
+            f"Citation expansion ({hop_label}): skipped {skipped_seeds}/{len(seeds)} "
+            f"seeds (cited_by_count unchanged)"
+        )
         logger.info(f"Raw candidates from citation network ({hop_label}): {len(candidates)}")
 
         # Resolve OpenAlex IDs to PMIDs (only those with PMIDs)
-        candidate_ids = list(candidates.keys())
-        id_to_pmid = self._resolve_openalex_ids_to_pmids(candidate_ids)
+        candidate_ids = [
+            oa_id for oa_id, info in candidates.items()
+            if info["co_citations"] >= 1
+        ]
+        logger.info(f"Candidates with co_citations >= 1 ({hop_label}): {len(candidate_ids)} (filtered from {len(candidates)})")
+        id_to_pmid = self.resolve_openalex_ids_to_pmids(candidate_ids)
         logger.info(f"Candidates with PMIDs ({hop_label}): {len(id_to_pmid)}")
 
         # Score, filter, sort
@@ -652,6 +738,7 @@ class OpenAlexClient:
         hop2_top_n: int = 10,
         exclude_mesh: list[str] | None = None,
         rejection_log=None,
+        citation_cache: dict | None = None,
     ) -> list[dict]:
         """Multi-hop citation expansion with mention filtering and
         bibliographic coupling.
@@ -671,6 +758,7 @@ class OpenAlexClient:
             return []
 
         terms = mention_terms
+        mention_patterns = self.compile_mention_patterns(terms) if terms else []
 
         all_seen_pmids = set(existing_pmids)
         all_candidates: list[dict] = []
@@ -705,6 +793,7 @@ class OpenAlexClient:
                 max_min_co=max_min_co,
                 hop_label=hop_label,
                 below_threshold=hop_below if rejection_log else None,
+                citation_cache=citation_cache,
             )
 
             # Log below-threshold candidates (top 50 by score)
@@ -717,7 +806,7 @@ class OpenAlexClient:
                 if below_pmids:
                     below_works = self.fetch_works_by_pmids(below_pmids)
                     below_by_pmid = {
-                        self._extract_pmid(w): w for w in below_works
+                        self.extract_pmid(w): w for w in below_works
                     }
                     for b in top_below:
                         work = below_by_pmid.get(b["pmid"])
@@ -739,7 +828,7 @@ class OpenAlexClient:
             # Fetch full metadata for candidates
             candidate_pmids = [c["pmid"] for c in scored]
             candidate_works = self.fetch_works_by_pmids(candidate_pmids)
-            work_by_pmid = {self._extract_pmid(w): w for w in candidate_works}
+            work_by_pmid = {self.extract_pmid(w): w for w in candidate_works}
 
             # Compute bibliographic coupling from full metadata
             # Build seed reference set
@@ -768,7 +857,7 @@ class OpenAlexClient:
                 before = len(scored)
                 kept_mention = []
                 for c in scored:
-                    if self._mentions_terms(c["work"], terms):
+                    if self.mentions_terms(c["work"], mention_patterns):
                         kept_mention.append(c)
                     elif rejection_log:
                         rejection_log.add_from_work(
@@ -794,10 +883,10 @@ class OpenAlexClient:
             if exclude_mesh:
                 before = len(scored)
                 hop_works = [c["work"] for c in scored]
-                kept_works = self._filter_by_mesh(
+                kept_works = self.filter_by_mesh(
                     hop_works, exclude_mesh, rejection_log=rejection_log
                 )
-                kept_pmids = {self._extract_pmid(w) for w in kept_works}
+                kept_pmids = {self.extract_pmid(w) for w in kept_works}
                 scored = [c for c in scored if c["pmid"] in kept_pmids]
                 if len(scored) < before:
                     logger.info(
@@ -866,7 +955,7 @@ class OpenAlexClient:
     # Helpers
     # ------------------------------------------------------------------
 
-    def _resolve_openalex_ids_to_pmids(
+    def resolve_openalex_ids_to_pmids(
         self, openalex_ids: list[str],
     ) -> dict[str, str]:
         """Resolve a list of OpenAlex IDs to PMIDs.
@@ -893,7 +982,7 @@ class OpenAlexClient:
                 if not data or "results" not in data:
                     break
                 for work in data["results"]:
-                    pmid = self._extract_pmid(work)
+                    pmid = self.extract_pmid(work)
                     oa_id = work.get("id", "")
                     if pmid and oa_id:
                         result[oa_id] = pmid
@@ -904,23 +993,23 @@ class OpenAlexClient:
         return result
 
     @staticmethod
-    def _mentions_terms(work: dict, terms: list[str]) -> bool:
-        """Check if a work mentions any term in title or abstract.
+    def compile_mention_patterns(terms: list[str]) -> list[re.Pattern]:
+        """Pre-compile word-boundary regex patterns for mention filtering."""
+        return [re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE) for t in terms]
 
-        Uses word-boundary regex for each term. Works for gene names,
-        disease names, anatomical terms, or any keyword.
-        """
-        import re
+    @staticmethod
+    def mentions_terms(work: dict, patterns: list[re.Pattern]) -> bool:
+        """Check if a work mentions any term using pre-compiled patterns."""
         title = work.get("title", "") or ""
         abstract = _invert_abstract(work.get("abstract_inverted_index"))
         text = f"{title} {abstract}"
-        for term in terms:
-            if re.search(rf"\b{re.escape(term)}\b", text, re.IGNORECASE):
+        for pat in patterns:
+            if pat.search(text):
                 return True
         return False
 
     @staticmethod
-    def _filter_by_mesh(
+    def filter_by_mesh(
         works: list[dict],
         exclude_mesh: list[str],
         rejection_log=None,
@@ -978,7 +1067,6 @@ class OpenAlexClient:
         If rejection_log is provided, rejected works are recorded with the
         matched term.
         """
-        import re
         patterns = [
             (re.compile(rf"\b{re.escape(t)}\b", re.IGNORECASE), t)
             for t in exclude_terms
@@ -1003,7 +1091,7 @@ class OpenAlexClient:
         return kept
 
     @staticmethod
-    def _extract_pmid(work: dict) -> str | None:
+    def extract_pmid(work: dict) -> str | None:
         ids = work.get("ids", {})
         pmid = ids.get("pmid", "")
         if pmid:

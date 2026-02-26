@@ -45,23 +45,30 @@ Zotero-automation/
 - Nested Zotero collections mirroring vault structure
 
 ### Shared logic
-- Text exclusion filters (cancer, tumor, mouse model, etc.)
-- MeSH exclusion filters (Neoplasms, Diabetes Mellitus, etc.)
+- Text exclusion via `filter_records_by_text()` (shared function, not duplicated)
+- MeSH exclusion via `openalex.filter_by_mesh()`
 - Cross-pipeline dedup by PMID
 - Provenance tags: `source:search`, `source:citation`, `source:recent`
-- Batch Zotero upload (50 items/request, 60s timeout, 3 retries)
+- Batch Zotero upload (50 items/request, 60s timeout, stops retrying after first timeout to avoid duplicates)
+- Collection cache keyed by `(name, parent_key)` tuple (prevents cross-parent name collisions)
+- OpenAlex API: separate retry budgets for errors (3) and rate limits (5); failed request count tracked and logged
+- Citation candidates pre-filtered to co_citations >= 1 before PMID resolution
+- HGNC alias resolution retries transient failures (3 attempts)
 
 ### Near-miss dashboard
 - Articles considered but rejected (score below threshold, text/MeSH exclusion, mention filter)
-- Static site deployed to gh-pages after each run
-- Features: sidebar navigation, search, reason filter, sortable columns, BibTeX export
-- Cumulative mode: merges new rejections with existing data, tracks `first_seen` / `last_seen` / `seen_count`
+- Static site deployed to gh-pages after each run (only if data prep succeeds)
+- Features: sidebar navigation, search, reason filter, sortable columns, BibTeX export (with LaTeX escaping)
+- Cumulative mode: merges new rejections with existing data, tracks `first_seen` / `last_seen` / `seen_count`; `to_json()` does not mutate instance state
 - Cross-subcollection view: shared near-misses appearing in 2+ genes/topics
 - Summary statistics panel: collapsible bar with total rejections, breakdown by reason (horizontal bars), top 5 subcollections
 - Score progress bars: visual `effective_score / threshold` ratio with red/amber/green gradient for score-below-threshold articles
 - "Closest to threshold" sort: surfaces near-misses closest to passing for rescue prioritization
 - Threshold tuning: sidebar widget to preview what-if threshold adjustments with rescued article highlighting
 - Dark mode: automatic via `prefers-color-scheme`
+- Mobile responsive: hamburger toggle for sidebar on screens < 768px
+- Accessible: ARIA labels, keyboard navigation (Enter/Space) on tree items, `role="button" tabindex="0"`
+- XSS-safe: `escapeAttr()` handles backslashes; all dynamic onclick values escaped
 
 ## CLI reference
 
@@ -103,6 +110,15 @@ No test suite. Use `generate_test_data.py` for dashboard testing:
 python generate_test_data.py
 python -m http.server 8000 -d site
 ```
+
+## Architecture notes
+
+- `run.py` logging is configured inside `main()`, not at module level (safe to import as library)
+- `openalex.py` public API methods (no underscore prefix): `extract_pmid()`, `filter_by_mesh()`, `resolve_openalex_ids_to_pmids()`, `compile_mention_patterns()`, `mentions_terms()`
+- `zotero_client.py` collection cache is keyed by `(name, parent_key)` tuple to prevent cross-parent collisions
+- `rejection_log.py` `to_json()` does not mutate `self.entries` -- uses local variable for merged output
+- GitHub Actions workflow mode input uses `both`/`genes`/`topics` (no empty string option)
+- Workflow deploys dashboard only if data preparation step succeeds
 
 ## Dependencies
 

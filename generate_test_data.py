@@ -264,6 +264,8 @@ def make_gene_article(gene, reason, pmid_counter):
         bib = random.randint(0, 3)
         recency = random.randint(0, 3)
         eff = co_cit + min(bib, 3) + recency
+        if eff >= threshold:
+            eff = threshold - 1
         article.update({
             "co_citations": co_cit,
             "bib_coupling": bib,
@@ -323,6 +325,8 @@ def make_topic_article(category, subtopic, reason, pmid_counter):
         bib = random.randint(0, 3)
         recency = random.randint(0, 3)
         eff = co_cit + min(bib, 3) + recency
+        if eff >= threshold:
+            eff = threshold - 1
         article.update({
             "co_citations": co_cit,
             "bib_coupling": bib,

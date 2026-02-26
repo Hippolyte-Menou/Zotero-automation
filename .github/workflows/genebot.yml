@@ -6,14 +6,14 @@ on:
   workflow_dispatch:       # manual trigger from GitHub UI
     inputs:
       mode:
-        description: 'Pipeline mode (empty = both pipelines)'
+        description: 'Pipeline mode'
         required: false
         type: choice
         options:
-          - ''
+          - both
           - genes
           - topics
-        default: ''
+        default: both
       categories:
         description: 'Topic category to run (e.g. "1 - Anatomy"). Leave empty for all categories.'
         required: false
@@ -38,13 +38,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch previous near-miss data
+      - name: Fetch previous data from gh-pages
         run: |
           mkdir -p data
           git fetch origin gh-pages --depth=1 || true
           git show origin/gh-pages:data/near_misses.json > data/previous_near_misses.json 2>/dev/null || echo '{}' > data/previous_near_misses.json
+          git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
 
       - name: Run bot
+        timeout-minutes: 120
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
@@ -55,6 +57,7 @@ jobs:
         run: python run.py
 
       - name: Prepare dashboard data
+        id: prepare-data
         if: always()
         run: |
           mkdir -p site/data
@@ -63,9 +66,12 @@ jobs:
           else
             echo '{"generated_at":"","pipeline_version":"1.0","stats":{"total_rejections":0,"by_reason":{},"by_category":{}},"hierarchy":{},"articles":[]}' > site/data/near_misses.json
           fi
+          if [ -f data/citation_cache.json ]; then
+            cp data/citation_cache.json site/data/
+          fi
 
       - name: Deploy dashboard to GitHub Pages
-        if: always()
+        if: always() && steps.prepare-data.outcome == 'success'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

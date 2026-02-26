@@ -278,27 +278,50 @@ class RejectionLog:
                     merged_index[key] = article
 
         # Final merged list
-        merged_articles = list(merged_index.values())
+        output_entries = list(merged_index.values())
 
-        # Rebuild hierarchy and stats from merged set
-        self.entries = merged_articles
+        # Rebuild hierarchy and stats from merged set (without mutating self.entries)
         pipeline_runs = prev_runs + 1
+
+        def _build_stats_from(entries: list) -> dict:
+            by_reason: dict[str, int] = {}
+            by_category: dict[str, int] = {}
+            for e in entries:
+                reason = e.get("reason", "unknown")
+                by_reason[reason] = by_reason.get(reason, 0) + 1
+                cat = e.get("category", "unknown")
+                by_category[cat] = by_category.get(cat, 0) + 1
+            return {
+                "total_rejections": len(entries),
+                "by_reason": by_reason,
+                "by_category": by_category,
+            }
+
+        def _build_hierarchy_from(entries: list) -> dict:
+            hierarchy: dict[str, set] = {}
+            for e in entries:
+                cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
+                subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
+                for cat in cats:
+                    for sub in subs:
+                        hierarchy.setdefault(cat, set()).add(sub)
+            return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
 
         data = {
             "generated_at": now,
             "pipeline_version": "1.0",
             "pipeline_runs": pipeline_runs,
-            "stats": self.build_stats(),
-            "hierarchy": self.build_hierarchy(),
-            "articles": merged_articles,
+            "stats": _build_stats_from(output_entries),
+            "hierarchy": _build_hierarchy_from(output_entries),
+            "articles": output_entries,
         }
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
 
-        new_count = sum(1 for a in merged_articles if a.get("seen_count", 1) == 1)
-        recurring_count = sum(1 for a in merged_articles if a.get("seen_count", 1) > 1)
+        new_count = sum(1 for a in output_entries if a.get("seen_count", 1) == 1)
+        recurring_count = sum(1 for a in output_entries if a.get("seen_count", 1) > 1)
         logger.info(
-            f"Rejection log written: {len(merged_articles)} entries "
+            f"Rejection log written: {len(output_entries)} entries "
             f"({new_count} new, {recurring_count} recurring, "
             f"run #{pipeline_runs}) -> {path}"
         )
