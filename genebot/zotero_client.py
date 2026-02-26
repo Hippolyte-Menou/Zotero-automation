@@ -41,6 +41,55 @@ class ZoteroGroupClient:
         # Cache of (name, parent_key) -> key, populated lazily
         self._collection_cache: dict[tuple[str, str | None], str] = {}
 
+    def _paginate_with_retry(
+        self,
+        method,
+        label: str,
+        max_retries: int = 3,
+        **kwargs,
+    ) -> list[dict] | None:
+        """Paginate through a Zotero listing endpoint, retrying individual
+        pages on transient errors instead of restarting from the beginning.
+
+        *method* is a bound pyzotero method (e.g. ``self.zot.items``).
+        Returns the full item list, or ``None`` if a page fails after all
+        retries.
+        """
+        limit = 100
+        start = 0
+        all_items: list[dict] = []
+
+        while True:
+            page = None
+            for attempt in range(max_retries):
+                try:
+                    page = method(limit=limit, start=start, **kwargs)
+                    break
+                except Exception as e:
+                    if not _is_retryable(e):
+                        raise
+                    wait = 5 * (attempt + 1)
+                    logger.warning(
+                        f"Zotero transient error fetching {label} "
+                        f"(start={start}, attempt {attempt + 1}/{max_retries}): "
+                        f"{e}. Retrying in {wait}s..."
+                    )
+                    time.sleep(wait)
+
+            if page is None:
+                logger.error(
+                    f"Failed to fetch {label} at start={start} "
+                    f"after {max_retries} attempts"
+                )
+                return None
+
+            all_items.extend(page)
+            if len(page) < limit:
+                break
+            start += limit
+
+        return all_items
+
     # ------------------------------------------------------------------
     # Collections
     # ------------------------------------------------------------------
@@ -120,29 +169,17 @@ class ZoteroGroupClient:
         """
         Retrieve all PMIDs already in the group library mapped to their Zotero item keys.
         Scans the 'extra' field and PubMed URLs for PMID entries.
-        Retries up to 3 times on timeout.
+        Retries individual pages on transient errors.
 
         Returns {pmid: zotero_item_key}.
         """
         logger.info("Fetching existing library items for deduplication...")
         pmid_to_key: dict[str, str] = {}
 
-        items = None
-        for attempt in range(3):
-            try:
-                items = self.zot.everything(self.zot.items(itemType="-attachment"))
-                break
-            except Exception as e:
-                if not _is_retryable(e):
-                    raise
-                wait = 5 * (attempt + 1)
-                logger.warning(
-                    f"Zotero transient error fetching items (attempt {attempt + 1}/3): {e}. "
-                    f"Retrying in {wait}s..."
-                )
-                time.sleep(wait)
+        items = self._paginate_with_retry(
+            self.zot.items, "library items", itemType="-attachment"
+        )
         if items is None:
-            logger.error("Failed to fetch library items after 3 attempts")
             return pmid_to_key
 
         for item in items:
@@ -165,27 +202,13 @@ class ZoteroGroupClient:
         """Return PMIDs of all items currently in the group library trash.
 
         Trashed PMIDs are used to block re-upload of deliberately deleted papers.
-        Retries up to 3 times on timeout.
+        Retries individual pages on transient errors.
         """
         logger.info("Fetching trashed items...")
         trashed: set[str] = set()
 
-        items = None
-        for attempt in range(3):
-            try:
-                items = self.zot.everything(self.zot.trash())
-                break
-            except Exception as e:
-                if not _is_retryable(e):
-                    raise
-                wait = 5 * (attempt + 1)
-                logger.warning(
-                    f"Zotero transient error fetching trash (attempt {attempt + 1}/3): {e}. "
-                    f"Retrying in {wait}s..."
-                )
-                time.sleep(wait)
+        items = self._paginate_with_retry(self.zot.trash, "trash")
         if items is None:
-            logger.error("Failed to fetch trash after 3 attempts")
             return trashed
 
         for item in items:
@@ -204,23 +227,13 @@ class ZoteroGroupClient:
         for a gene, avoiding redundant OpenAlex searches.
         """
         pmids: list[str] = []
-        for attempt in range(3):
-            try:
-                items = self.zot.everything(
-                    self.zot.collection_items(collection_key, itemType="-attachment")
-                )
-                break
-            except Exception as e:
-                if not _is_retryable(e):
-                    raise
-                wait = 5 * (attempt + 1)
-                logger.warning(
-                    f"Zotero transient error fetching collection {collection_key} "
-                    f"(attempt {attempt + 1}/3): {e}. Retrying in {wait}s..."
-                )
-                time.sleep(wait)
-        else:
-            logger.error(f"Failed to fetch collection {collection_key} after 3 attempts")
+
+        items = self._paginate_with_retry(
+            lambda **kw: self.zot.collection_items(collection_key, **kw),
+            f"collection {collection_key}",
+            itemType="-attachment",
+        )
+        if items is None:
             return pmids
 
         for item in items:
