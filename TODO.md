@@ -42,9 +42,9 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Auto-regenerate genes.yml in CI** -- GitHub Action pre-step (or vault push trigger) runs `build_genes_yml.py` so the bot always uses the latest gene list without manual rebuild.
 
-- [ ] **MeSH terms as Zotero tags** -- Write top MeSH descriptors from OpenAlex as Zotero tags on uploaded papers. Enriches library browsing.
+- [x] **MeSH terms as Zotero tags** -- Write top MeSH descriptors from OpenAlex as Zotero tags on uploaded papers. Enriches library browsing.
 
-- [ ] **Stale gene detection** -- Flag genes with no new papers found in last N runs. Either well-covered (good) or search/expansion isn't reaching new literature (investigate).
+- [x] **Stale gene detection** -- Flag genes with no new papers found in last N runs. Either well-covered (good) or search/expansion isn't reaching new literature (investigate). *(Single-run warning implemented; multi-run tracking across N runs requires per-run metrics.)*
 
 - [x] **HGNC alias overrides** -- Per-gene alias blocklist in genes.yml for genes whose HGNC aliases are common words or collide with other symbols.
 

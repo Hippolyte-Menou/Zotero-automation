@@ -925,6 +925,17 @@ def main():
                     f"recent_add={s['recent_added']:4d}"
                 )
 
+            # Stale gene detection: flag genes with zero new papers this run
+            stale_genes = [
+                s["symbol"] for s in gene_summary
+                if s["added"] + s["cit_added"] + s["recent_added"] == 0
+            ]
+            if stale_genes:
+                logger.warning(
+                    f"Stale genes ({len(stale_genes)} with no new papers this run): "
+                    f"{', '.join(stale_genes)}"
+                )
+
     # -----------------------------------------------------------------
     # Topic pipeline
     # -----------------------------------------------------------------
