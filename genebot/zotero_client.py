@@ -4,8 +4,21 @@ import time
 import logging
 import httpx
 from pyzotero import zotero
+from pyzotero import exceptions as zotero_exceptions
 
 logger = logging.getLogger(__name__)
+
+
+def _is_retryable(exc: Exception) -> bool:
+    """Return True for transient errors that warrant a retry (5xx, timeouts)."""
+    if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout)):
+        return True
+    if isinstance(exc, zotero_exceptions.HTTPError):
+        # Retry on server-side errors (5xx); bail immediately on client errors (4xx)
+        msg = str(exc)
+        return "Code: 5" in msg
+    return False
+
 
 # Mapping from OpenAlex work type strings to normalised tag names.
 _TYPE_TAG_MAP = {
@@ -98,10 +111,12 @@ class ZoteroGroupClient:
             try:
                 items = self.zot.everything(self.zot.items(itemType="-attachment"))
                 break
-            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+            except Exception as e:
+                if not _is_retryable(e):
+                    raise
                 wait = 5 * (attempt + 1)
                 logger.warning(
-                    f"Zotero read timeout (attempt {attempt + 1}/3): {e}. "
+                    f"Zotero transient error fetching items (attempt {attempt + 1}/3): {e}. "
                     f"Retrying in {wait}s..."
                 )
                 time.sleep(wait)
@@ -154,10 +169,12 @@ class ZoteroGroupClient:
             try:
                 items = self.zot.everything(self.zot.trash())
                 break
-            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+            except Exception as e:
+                if not _is_retryable(e):
+                    raise
                 wait = 5 * (attempt + 1)
                 logger.warning(
-                    f"Zotero timeout fetching trash (attempt {attempt + 1}/3): {e}. "
+                    f"Zotero transient error fetching trash (attempt {attempt + 1}/3): {e}. "
                     f"Retrying in {wait}s..."
                 )
                 time.sleep(wait)
@@ -199,10 +216,12 @@ class ZoteroGroupClient:
                     self.zot.collection_items(collection_key, itemType="-attachment")
                 )
                 break
-            except (httpx.TimeoutException, httpx.ReadTimeout) as e:
+            except Exception as e:
+                if not _is_retryable(e):
+                    raise
                 wait = 5 * (attempt + 1)
                 logger.warning(
-                    f"Zotero timeout fetching collection {collection_key} "
+                    f"Zotero transient error fetching collection {collection_key} "
                     f"(attempt {attempt + 1}/3): {e}. Retrying in {wait}s..."
                 )
                 time.sleep(wait)
