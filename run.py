@@ -62,6 +62,17 @@ def filter_records_by_text(
     return filtered
 
 
+def _is_duplicate(record: dict, existing_pmids: set[str], existing_dois: set[str]) -> bool:
+    """Check if a record is already in the library by PMID or DOI."""
+    pmid = record.get("pmid")
+    if pmid and pmid in existing_pmids:
+        return True
+    doi = record.get("doi", "")
+    if doi and doi.lower() in existing_dois:
+        return True
+    return False
+
+
 def load_genes_config(path: str = "genes.yml") -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
@@ -211,6 +222,7 @@ def process_gene(
     genes_parent_key: str | None,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
+    existing_dois: set[str],
     pmid_to_key: dict[str, str],
     openalex: OpenAlexClient,
     citation_cfg: dict,
@@ -307,7 +319,7 @@ def process_gene(
         all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
         new_records = [
             r for r in all_records
-            if r.get("pmid") and r["pmid"] not in existing_pmids
+            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
         ]
         logger.info(
             f"{symbol}: {len(all_records)} from OpenAlex search, "
@@ -326,6 +338,8 @@ def process_gene(
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
+                if r.get("doi"):
+                    existing_dois.add(r["doi"].lower())
 
         library_size = len(collection_pmids) + len(new_records)
 
@@ -379,7 +393,7 @@ def process_gene(
 
         candidate_records = [
             r for r in candidate_records
-            if r.get("pmid") and r["pmid"] not in existing_pmids
+            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
         ]
 
         if candidate_records:
@@ -395,6 +409,8 @@ def process_gene(
             for r in candidate_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
+                if r.get("doi"):
+                    existing_dois.add(r["doi"].lower())
 
     # 5. Recent papers pass -- bypass citation threshold for current-year papers
     recent_works = openalex.search_gene_recent(
@@ -426,7 +442,7 @@ def process_gene(
         # Dedup
         recent_records = [
             r for r in recent_records
-            if r.get("pmid") and r["pmid"] not in existing_pmids
+            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
         ]
 
         logger.info(
@@ -447,6 +463,8 @@ def process_gene(
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
+                if r.get("doi"):
+                    existing_dois.add(r["doi"].lower())
 
     # Link relations for all newly uploaded papers
     if new_pmids:
@@ -483,6 +501,7 @@ def process_topic_subtopic(
     category_parent_key: str,
     zot: ZoteroGroupClient,
     existing_pmids: set[str],
+    existing_dois: set[str],
     pmid_to_key: dict[str, str],
     openalex: OpenAlexClient,
     rejection_log: RejectionLog | None = None,
@@ -592,7 +611,7 @@ def process_topic_subtopic(
         all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
         new_records = [
             r for r in all_records
-            if r.get("pmid") and r["pmid"] not in existing_pmids
+            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
         ]
 
         logger.info(
@@ -613,6 +632,8 @@ def process_topic_subtopic(
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
+                if r.get("doi"):
+                    existing_dois.add(r["doi"].lower())
 
         library_size = len(all_records)
 
@@ -651,7 +672,7 @@ def process_topic_subtopic(
 
             candidate_records = [
                 r for r in candidate_records
-                if r.get("pmid") and r["pmid"] not in existing_pmids
+                if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
             ]
 
             if candidate_records:
@@ -668,6 +689,8 @@ def process_topic_subtopic(
                 for r in candidate_records:
                     existing_pmids.add(r["pmid"])
                     new_pmids.add(r["pmid"])
+                    if r.get("doi"):
+                        existing_dois.add(r["doi"].lower())
 
     # 4. Recent papers pass
     recent_added = 0
@@ -694,7 +717,7 @@ def process_topic_subtopic(
 
         recent_records = [
             r for r in recent_records
-            if r.get("pmid") and r["pmid"] not in existing_pmids
+            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
         ]
 
         logger.info(
@@ -716,6 +739,8 @@ def process_topic_subtopic(
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
+                if r.get("doi"):
+                    existing_dois.add(r["doi"].lower())
 
     # 5. Link relations
     if new_pmids:
@@ -830,11 +855,16 @@ def main():
     )
     pmid_to_key: dict[str, str] = zot.get_existing_items()
     existing_pmids: set[str] = set(pmid_to_key.keys())
+    existing_dois: set[str] = set(zot.get_existing_dois().keys())
 
     trashed_pmids = zot.get_trashed_pmids()
     if trashed_pmids:
         logger.info(f"Blocking {len(trashed_pmids)} trashed PMIDs from re-upload")
         existing_pmids.update(trashed_pmids)
+    trashed_dois = zot.get_trashed_dois()
+    if trashed_dois:
+        logger.info(f"Blocking {len(trashed_dois)} trashed DOIs from re-upload")
+        existing_dois.update(trashed_dois)
 
     rejection_log = RejectionLog()
 
@@ -901,6 +931,7 @@ def main():
                     genes_parent_key=genes_parent_key,
                     zot=zot,
                     existing_pmids=existing_pmids,
+                    existing_dois=existing_dois,
                     pmid_to_key=pmid_to_key,
                     openalex=openalex,
                     citation_cfg=citation_cfg,
@@ -987,6 +1018,7 @@ def main():
                         category_parent_key=cat_key,
                         zot=zot,
                         existing_pmids=existing_pmids,
+                        existing_dois=existing_dois,
                         pmid_to_key=pmid_to_key,
                         openalex=openalex,
                         rejection_log=rejection_log,
