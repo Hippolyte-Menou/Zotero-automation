@@ -242,6 +242,12 @@ def process_gene(
 
     # 1. Gene aliases from HGNC
     aliases = get_gene_aliases(symbol)
+    blocked = set(gene_cfg.get("blocked_aliases", []))
+    if blocked:
+        removed = aliases & blocked
+        if removed:
+            logger.info(f"{symbol}: blocking HGNC aliases: {sorted(removed)}")
+            aliases -= blocked
     search_terms = sorted(aliases)
 
     # 2. Get/create Zotero collection (needed before fetching existing papers)

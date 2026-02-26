@@ -46,7 +46,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Stale gene detection** -- Flag genes with no new papers found in last N runs. Either well-covered (good) or search/expansion isn't reaching new literature (investigate).
 
-- [ ] **HGNC alias overrides** -- Per-gene alias blocklist in genes.yml for genes whose HGNC aliases are common words or collide with other symbols.
+- [x] **HGNC alias overrides** -- Per-gene alias blocklist in genes.yml for genes whose HGNC aliases are common words or collide with other symbols.
 
 - [x] **Robust PMID parsing from Zotero extra field** -- Current parser expects `PMID:` prefix or PubMed URL. Add case-insensitive matching and alternative formats to prevent phantom duplicates.
 
