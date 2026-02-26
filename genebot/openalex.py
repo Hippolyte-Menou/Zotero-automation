@@ -762,6 +762,8 @@ class OpenAlexClient:
 
         all_seen_pmids = set(existing_pmids)
         all_candidates: list[dict] = []
+        pre_mention_total = 0
+        mention_removed_total = 0
 
         for hop in range(1, max_hops + 1):
             hop_label = f"hop {hop}"
@@ -855,6 +857,7 @@ class OpenAlexClient:
             # Mention filter (gene names, disease names, topic keywords)
             if terms:
                 before = len(scored)
+                pre_mention_total += before
                 kept_mention = []
                 for c in scored:
                     if self.mentions_terms(c["work"], mention_patterns):
@@ -873,6 +876,7 @@ class OpenAlexClient:
                         )
                 scored = kept_mention
                 removed = before - len(scored)
+                mention_removed_total += removed
                 if removed:
                     logger.info(
                         f"Mention filter ({hop_label}): removed {removed}/{before} "
@@ -911,6 +915,14 @@ class OpenAlexClient:
             if c["pmid"] not in seen:
                 seen.add(c["pmid"])
                 deduped.append(c)
+
+        if not deduped and pre_mention_total > 0 and mention_removed_total == pre_mention_total:
+            logger.warning(
+                f"Mention filter removed ALL {pre_mention_total} citation "
+                f"candidate(s) -- search terms may be too narrow or "
+                f"candidates lack relevant title/abstract text. "
+                f"Terms used: {terms}"
+            )
 
         logger.info(
             f"Citation expansion complete: {len(deduped)} final candidates "
