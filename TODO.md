@@ -65,3 +65,5 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 - [ ] **Cache backward references** -- Currently backward references (referenced_works) are re-fetched fresh every run even if unchanged. Cache the reference list per seed to save API calls on stable papers.
 
 - [ ] **Split workflow into two jobs to bypass 360-min limit** -- Gene pipeline and topic pipeline run as separate GitHub Actions jobs (each gets its own 360-min timeout). Share near-miss data and citation cache via artifacts. Currently the combined run takes 5+ hours, hitting the per-job ceiling.
+
+- [ ] **Spread runs across multiple days for OpenAlex budget** -- Instead of one weekly mega-run, split genes and topics across different days (e.g. genes Mon/Wed, topics Tue/Thu, or rotate gene batches daily). Stays within OpenAlex daily API limits and reduces per-run duration. Requires checkpointing and cumulative near-miss merging across runs.
