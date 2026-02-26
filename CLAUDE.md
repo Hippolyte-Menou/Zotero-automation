@@ -47,7 +47,7 @@ Zotero-automation/
 ### Shared logic
 - Text exclusion via `filter_records_by_text()` (shared function, not duplicated)
 - MeSH exclusion via `openalex.filter_by_mesh()`
-- Cross-pipeline dedup by PMID
+- Cross-pipeline dedup by PMID + DOI (secondary key catches preprints and records missing PMIDs)
 - Provenance tags: `source:search`, `source:citation`, `source:recent`
 - Batch Zotero upload (50 items/request, 60s timeout, stops retrying after first timeout to avoid duplicates)
 - Collection cache keyed by `(name, parent_key)` tuple (prevents cross-parent name collisions)

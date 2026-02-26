@@ -6,7 +6,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Crash recovery / checkpointing** -- Save progress after each gene/topic so a mid-run crash doesn't lose already-uploaded data. Resume from last checkpoint on next run.
 
-- [ ] **DOI dedup** -- Add DOI as secondary dedup key alongside PMID. Catches preprints, European journals, and records missing PMIDs that currently slip through.
+- [x] **DOI dedup** -- Add DOI as secondary dedup key alongside PMID. Catches preprints, European journals, and records missing PMIDs that currently slip through.
 
 - [ ] **Inverse bot: flag low-value library papers** -- [DESIGN] For each existing library paper, compute how well it would score if discovered today. Flag the bottom percentile for manual review/removal. Helps keep the library lean as it grows.
 
@@ -30,7 +30,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [x] **Category aliases in topics.yml** -- Move hardcoded `--topics anatomy` aliases from run.py into topics.yml as an `alias` field. Self-documenting and user-extensible.
 
-- [ ] **Mention filter: log dropped candidates as near-misses** -- Citation candidates removed by the mention filter are currently invisible. Log them with reason `mention_filter` so the dashboard surfaces them.
+- [x] **Mention filter: log dropped candidates as near-misses** -- Citation candidates removed by the mention filter are currently invisible. Log them with reason `mention_filter` so the dashboard surfaces them. *(Already implemented in openalex.py expand_citations.)*
 
 ## Low priority
 

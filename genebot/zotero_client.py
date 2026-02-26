@@ -199,16 +199,36 @@ class ZoteroGroupClient:
 
         return ""
 
+    @staticmethod
+    def _extract_doi_from_data(data: dict) -> str:
+        """Extract and normalise DOI from a Zotero item's data dict.
+
+        Checks the native DOI field first, then falls back to the extra field.
+        Returns a bare DOI (no URL prefix) in lowercase, or empty string.
+        """
+        raw = data.get("DOI", "")
+        if not raw:
+            extra = data.get("extra", "")
+            if extra:
+                m = re.search(r"(?:doi|DOI)\s*:?\s*(10\.\S+)", extra)
+                if m:
+                    raw = m.group(1)
+        if raw:
+            return raw.replace("https://doi.org/", "").strip().lower()
+        return ""
+
     def get_existing_items(self) -> dict[str, str]:
         """
         Retrieve all PMIDs already in the group library mapped to their Zotero item keys.
         Scans the 'extra' field and PubMed URLs for PMID entries.
+        Also populates ``doi_to_key`` for secondary dedup.
         Retries individual pages on transient errors.
 
         Returns {pmid: zotero_item_key}.
         """
         logger.info("Fetching existing library items for deduplication...")
         pmid_to_key: dict[str, str] = {}
+        self._doi_to_key: dict[str, str] = {}
 
         items = self._paginate_with_retry(
             self.zot.items, "library items", itemType="-attachment"
@@ -221,12 +241,22 @@ class ZoteroGroupClient:
             zot_key = data.get("key", "")
 
             pmid = self._extract_pmid_from_data(data)
+            doi = self._extract_doi_from_data(data)
 
             if pmid and zot_key:
                 pmid_to_key[pmid] = zot_key
+            if doi and zot_key:
+                self._doi_to_key[doi] = zot_key
 
-        logger.info(f"Found {len(pmid_to_key)} existing PMIDs in library")
+        logger.info(
+            f"Found {len(pmid_to_key)} existing PMIDs and "
+            f"{len(self._doi_to_key)} existing DOIs in library"
+        )
         return pmid_to_key
+
+    def get_existing_dois(self) -> dict[str, str]:
+        """Return {doi: zotero_item_key} collected by the last get_existing_items() call."""
+        return getattr(self, "_doi_to_key", {})
 
     def get_existing_pmids(self) -> set[str]:
         """Return the set of PMIDs already in the library. Wraps get_existing_items()."""
@@ -236,10 +266,12 @@ class ZoteroGroupClient:
         """Return PMIDs of all items currently in the group library trash.
 
         Trashed PMIDs are used to block re-upload of deliberately deleted papers.
+        Also populates ``_trashed_dois`` for secondary DOI dedup.
         Retries individual pages on transient errors.
         """
         logger.info("Fetching trashed items...")
         trashed: set[str] = set()
+        self._trashed_dois: set[str] = set()
 
         items = self._paginate_with_retry(self.zot.trash, "trash")
         if items is None:
@@ -250,9 +282,16 @@ class ZoteroGroupClient:
             pmid = self._extract_pmid_from_data(data)
             if pmid:
                 trashed.add(pmid)
+            doi = self._extract_doi_from_data(data)
+            if doi:
+                self._trashed_dois.add(doi)
 
-        logger.info(f"Found {len(trashed)} PMIDs in trash")
+        logger.info(f"Found {len(trashed)} PMIDs and {len(self._trashed_dois)} DOIs in trash")
         return trashed
+
+    def get_trashed_dois(self) -> set[str]:
+        """Return DOIs collected by the last get_trashed_pmids() call."""
+        return getattr(self, "_trashed_dois", set())
 
     def get_collection_pmids(self, collection_key: str) -> list[str]:
         """Return all PMIDs for items in a specific collection.
