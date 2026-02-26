@@ -73,6 +73,37 @@ def _is_duplicate(record: dict, existing_pmids: set[str], existing_dois: set[str
     return False
 
 
+def _is_re_search_due(
+    symbol: str, interval_weeks: int, citation_cache: dict | None
+) -> bool:
+    """Check if a gene is due for periodic re-search.
+
+    If no search date is recorded yet, sets today as the baseline and
+    returns False (the gene will become due after interval_weeks).
+    """
+    if not citation_cache or interval_weeks <= 0:
+        return False
+    genes = citation_cache.setdefault("genes", {})
+    gene_entry = genes.setdefault(symbol, {})
+    last_search = gene_entry.get("last_search_date")
+    if not last_search:
+        gene_entry["last_search_date"] = datetime.date.today().isoformat()
+        return False
+    days_since = (
+        datetime.date.today() - datetime.date.fromisoformat(last_search)
+    ).days
+    return days_since >= interval_weeks * 7
+
+
+def _record_search_date(symbol: str, citation_cache: dict | None) -> None:
+    """Record today as the last search date for a gene in the citation cache."""
+    if citation_cache is None:
+        return
+    genes = citation_cache.setdefault("genes", {})
+    gene_entry = genes.setdefault(symbol, {})
+    gene_entry["last_search_date"] = datetime.date.today().isoformat()
+
+
 def load_genes_config(path: str = "genes.yml") -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
@@ -228,6 +259,7 @@ def process_gene(
     citation_cfg: dict,
     search_max_results: int = 25,
     recent_max_results: int = 10,
+    re_search_interval_weeks: int = 0,
     rejection_log: RejectionLog | None = None,
     citation_cache: dict | None = None,
     force_full_expansion: bool = False,
@@ -276,15 +308,67 @@ def process_gene(
 
     if collection_pmids:
         # Gene already has papers in Zotero -- use them as seeds directly.
-        # Skip OpenAlex search to avoid redundant work.
         logger.info(
             f"{symbol}: {len(collection_pmids)} existing papers in collection, "
-            f"using as citation seeds (skipping OpenAlex search)"
+            f"using as citation seeds"
         )
         seed_works = openalex.fetch_works_by_pmids(collection_pmids)
         all_records = seed_works
         new_records = []
         library_size = len(collection_pmids)
+
+        # Periodic re-search: run OpenAlex search even for populated genes
+        # to catch papers that match the query but aren't reachable via
+        # citation expansion.
+        if _is_re_search_due(symbol, re_search_interval_weeks, citation_cache):
+            logger.info(f"{symbol}: periodic re-search due, running OpenAlex search")
+            re_search_works = openalex.search_gene(
+                search_terms,
+                exclude_terms=text_excl,
+                max_results=search_max_results,
+                disease_keywords=gene_tags or None,
+                rejection_log=rejection_log,
+            )
+            if re_search_works:
+                if mesh_excl:
+                    re_search_works = openalex.filter_by_mesh(
+                        re_search_works, mesh_excl, rejection_log=rejection_log
+                    )
+                for w in re_search_works:
+                    pmid = OpenAlexClient.extract_pmid(w)
+                    if pmid:
+                        pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
+                re_search_records = [
+                    OpenAlexClient.work_to_record(w) for w in re_search_works
+                ]
+                re_search_records = [
+                    r for r in re_search_records
+                    if r.get("pmid")
+                    and not _is_duplicate(r, existing_pmids, existing_dois)
+                ]
+                logger.info(
+                    f"{symbol}: re-search found {len(re_search_works)} works, "
+                    f"{len(re_search_records)} new after dedup"
+                )
+                if re_search_records:
+                    search_stats = zot.add_papers(
+                        re_search_records,
+                        collection_key=collection_key,
+                        gene_symbol=symbol,
+                        extra_tags=gene_tags,
+                        source_tag="source:search",
+                    )
+                    pmid_to_key.update(search_stats.get("pmid_to_key", {}))
+                    for r in re_search_records:
+                        existing_pmids.add(r["pmid"])
+                        new_pmids.add(r["pmid"])
+                        if r.get("doi"):
+                            existing_dois.add(r["doi"].lower())
+                    new_records = re_search_records
+                    library_size += len(re_search_records)
+            _record_search_date(symbol, citation_cache)
+        else:
+            logger.info(f"{symbol}: skipping OpenAlex search (not due for re-search)")
     else:
         # No existing papers -- run OpenAlex search to bootstrap the collection.
         logger.info(f"{symbol}: collection empty, running OpenAlex search")
@@ -342,6 +426,7 @@ def process_gene(
                     existing_dois.add(r["doi"].lower())
 
         library_size = len(collection_pmids) + len(new_records)
+        _record_search_date(symbol, citation_cache)
 
     # 4. Citation network expansion (multi-hop, gene-filtered, bib coupling)
     max_seeds = citation_cfg.get("max_seed_papers", 100)
@@ -898,6 +983,7 @@ def main():
         search_cfg = config.get("search", {})
         search_max_results = search_cfg.get("max_results", 25)
         recent_max_results = search_cfg.get("recent_max_results", 10)
+        re_search_interval_weeks = search_cfg.get("re_search_interval_weeks", 0)
 
         genes_to_run = []
         if gene_symbols:
@@ -948,6 +1034,7 @@ def main():
                     citation_cfg=citation_cfg,
                     search_max_results=search_max_results,
                     recent_max_results=recent_max_results,
+                    re_search_interval_weeks=re_search_interval_weeks,
                     rejection_log=rejection_log,
                     citation_cache=citation_cache,
                     force_full_expansion=gene_cfg["symbol"] in full_expansion_genes,

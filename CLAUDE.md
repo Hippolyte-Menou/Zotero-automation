@@ -35,7 +35,7 @@ Zotero-automation/
 ## Key concepts
 
 ### Gene pipeline (run.py --genes)
-1. **Search pass** (bootstrap only -- skipped if gene already has Zotero papers): OpenAlex query using HGNC aliases + disease terms from `genes.yml` tags
+1. **Search pass** (bootstrap + periodic re-search): OpenAlex query using HGNC aliases + disease terms from `genes.yml` tags. Runs on first encounter (empty collection) and then every `re_search_interval_weeks` (default 8, configurable in genes.yml `search` section; 0 disables). Tracks `last_search_date` per gene in the citation cache.
 2. **Citation expansion** (2-hop): backward refs + forward citations, scored by co-citation + bib coupling + recency bonus, adaptive threshold based on library size
 3. **Recent papers pass**: current-year search bypassing citation threshold
 
