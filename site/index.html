@@ -999,7 +999,7 @@ html.dark .score-high { background: #157347; }
   top: 8px;
   left: 8px;
   z-index: 1001;
-  background: var(--primary);
+  background: var(--accent);
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -1147,7 +1147,12 @@ html.dark .score-high { background: #157347; }
   }
 
   function saveRescueQueue() {
-    localStorage.setItem("rescueQueue", JSON.stringify(rescueQueue));
+    try {
+      localStorage.setItem("rescueQueue", JSON.stringify(rescueQueue));
+    } catch (e) {
+      // QuotaExceededError or SecurityError (private browsing)
+      console.warn("Could not save rescue queue to localStorage:", e);
+    }
   }
 
   function isInRescueQueue(article) {
@@ -1312,7 +1317,7 @@ html.dark .score-high { background: #157347; }
       for (const sub of subs) {
         const c = counts[cat + "/" + sub] || 0;
         html += '<div class="tree-item" role="button" tabindex="0" data-sub="' + escapeAttr(sub) + '" data-cat="' + escapeAttr(cat) + '" ';
-        html += 'onclick="window.__selectSub(\'' + escapeAttr(cat) + "','" + escapeAttr(sub) + '\')">';
+        html += 'onclick="window.__selectSub(\'' + escapeInlineHandler(cat) + "','" + escapeInlineHandler(sub) + '\')">';
         html += '<span class="name">' + escapeHtml(sub) + '</span>';
         html += '<span class="count">' + c + '</span>';
         html += '</div>';
@@ -1322,7 +1327,7 @@ html.dark .score-high { background: #157347; }
     }
     tree.innerHTML = html;
 
-    document.querySelectorAll(".tree-item, .tree-category-header").forEach(function(el) {
+    document.querySelectorAll(".tree-item, .tree-category-header, .shared-item").forEach(function(el) {
       el.addEventListener("keydown", function(e) {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -1598,7 +1603,7 @@ html.dark .score-high { background: #157347; }
         var abstractHtml = isTextExcl
           ? highlightTerm(a.abstract, a.matched_term)
           : escapeHtml(a.abstract);
-        html += '<button class="abstract-toggle" onclick="window.__toggleAbstract(\'' + escapeAttr(abstractId) + '\')">Show abstract</button>';
+        html += '<button class="abstract-toggle" onclick="window.__toggleAbstract(\'' + escapeInlineHandler(abstractId) + '\')">Show abstract</button>';
         html += '<div class="abstract-text" id="' + abstractId + '">' + abstractHtml + '</div>';
       }
       html += "</td>";
@@ -1655,9 +1660,9 @@ html.dark .score-high { background: #157347; }
       var inQueue = isInRescueQueue(a);
       html += '<td class="col-rescue">';
       if (inQueue) {
-        html += '<button class="rescue-btn rescued" onclick="window.__unrescueArticle(\'' + escapeAttr(pmid) + "','" + escapeAttr(a.doi || "") + '\')" title="Remove from rescue queue">Queued</button>';
+        html += '<button class="rescue-btn rescued" onclick="window.__unrescueArticle(\'' + escapeInlineHandler(pmid) + "','" + escapeInlineHandler(a.doi || "") + '\')" title="Remove from rescue queue">Queued</button>';
       } else {
-        html += '<button class="rescue-btn" onclick="window.__rescueArticle(\'' + escapeAttr(pmid) + "','" + escapeAttr(a.doi || "") + '\')" title="Add to rescue queue">Rescue</button>';
+        html += '<button class="rescue-btn" onclick="window.__rescueArticle(\'' + escapeInlineHandler(pmid) + "','" + escapeInlineHandler(a.doi || "") + '\')" title="Add to rescue queue">Rescue</button>';
       }
       html += "</td>";
       html += "</tr>";
@@ -1915,9 +1920,17 @@ html.dark .score-high { background: #157347; }
   };
 
   window.__toggleTheme = function() {
+    // Preserve panel toggle states before re-rendering the meta bar
+    var statsOpen = document.getElementById("statsPanel") && document.getElementById("statsPanel").classList.contains("open");
+    var historyOpen = document.getElementById("historyPanel") && document.getElementById("historyPanel").classList.contains("open");
+    var recentOpen = document.getElementById("recentPanel") && document.getElementById("recentPanel").classList.contains("open");
     var isDark = document.documentElement.classList.toggle("dark");
     localStorage.setItem("theme", isDark ? "dark" : "light");
     renderMetaBar();
+    // Restore toggle button active states
+    if (statsOpen) { var b = document.getElementById("statsToggle"); if (b) b.classList.add("active"); }
+    if (historyOpen) { var b = document.getElementById("historyToggle"); if (b) b.classList.add("active"); }
+    if (recentOpen) { var b = document.getElementById("recentToggle"); if (b) b.classList.add("active"); }
   };
 
   function renderStatsPanel() {
@@ -2173,6 +2186,19 @@ html.dark .score-high { background: #157347; }
   function escapeAttr(s) {
     if (!s) return "";
     return s.replace(/\\/g, "\\\\").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function escapeInlineHandler(s) {
+    // Escape for JS string literal (single-quoted) inside a double-quoted HTML attribute.
+    // Step 1: JS string escaping (backslash, single quote, newlines).
+    // Step 2: HTML attribute escaping (ampersand, angle brackets, double quote).
+    // Unlike escapeAttr, this does NOT escape backslash at the HTML level
+    // (to avoid double-escaping the JS escapes) and does NOT entity-encode
+    // single quotes (which would be decoded back by the HTML parser, re-opening
+    // the JS string breakout that escapeAttr fails to prevent).
+    if (!s) return "";
+    s = s.replace(/\\/g, "\\\\").replace(/'/g, "\\'").replace(/\n/g, "\\n").replace(/\r/g, "\\r");
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
   function highlightTerm(text, term) {

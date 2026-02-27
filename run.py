@@ -415,16 +415,18 @@ def process_rescue_queue(
     pmid_to_key: dict[str, str],
     genes_parent_key: str | None,
     additions_tracker: list[dict],
-) -> int:
+) -> tuple[int, list[dict]]:
     """Process rescued articles: look up on OpenAlex and upload to Zotero.
 
-    Returns number of successfully uploaded articles.
+    Returns (uploaded_count, failed_entries) where failed_entries are entries
+    that should be retried on the next run (transient failures only).
     """
     if not rescue_entries:
-        return 0
+        return 0, []
 
     logger.info(f"Processing rescue queue: {len(rescue_entries)} entries")
     uploaded = 0
+    failed_entries: list[dict] = []
 
     for entry in rescue_entries:
         pmid = entry.get("pmid", "").strip()
@@ -460,6 +462,7 @@ def process_rescue_queue(
             logger.warning(
                 f"Rescue: could not find {pmid or doi} on OpenAlex, skipping"
             )
+            failed_entries.append(entry)
             continue
 
         record = OpenAlexClient.work_to_record(work)
@@ -513,9 +516,10 @@ def process_rescue_queue(
             logger.warning(
                 f"Rescue: failed to upload {record.get('pmid', doi)}"
             )
+            failed_entries.append(entry)
 
     logger.info(f"Rescue queue: {uploaded}/{len(rescue_entries)} uploaded")
-    return uploaded
+    return uploaded, failed_entries
 
 
 def clear_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> None:
@@ -578,12 +582,19 @@ def _track_additions(
     category: str,
     source_tag: str,
     tracker: list[dict] | None,
+    added_pmids: set[str] | None = None,
 ) -> None:
-    """Append uploaded records to the additions tracker."""
+    """Append uploaded records to the additions tracker.
+
+    If added_pmids is provided, only records whose PMID appears in the set
+    are tracked (filters out records that failed to upload).
+    """
     if tracker is None:
         return
     now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     for r in records:
+        if added_pmids is not None and r.get("pmid", "") not in added_pmids:
+            continue
         tracker.append({
             "pmid": r.get("pmid", ""),
             "doi": r.get("doi", ""),
@@ -710,7 +721,7 @@ def process_gene(
                         source_tag="source:search",
                     )
                     pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-                    _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker)
+                    _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
                     for r in re_search_records:
                         existing_pmids.add(r["pmid"])
                         new_pmids.add(r["pmid"])
@@ -771,7 +782,7 @@ def process_gene(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-            _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker)
+            _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -844,7 +855,7 @@ def process_gene(
             )
             cit_added = cit_stats["added"]
             pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
-            _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker)
+            _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
             for r in candidate_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -899,7 +910,7 @@ def process_gene(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
-            _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker)
+            _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -1074,7 +1085,7 @@ def process_topic_subtopic(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-            _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker)
+            _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -1132,7 +1143,7 @@ def process_topic_subtopic(
                 )
                 cit_added = cit_stats["added"]
                 pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
-                _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker)
+                _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
                 for r in candidate_records:
                     existing_pmids.add(r["pmid"])
                     new_pmids.add(r["pmid"])
@@ -1183,7 +1194,7 @@ def process_topic_subtopic(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
-            _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker)
+            _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -1509,17 +1520,17 @@ def main():
     # -----------------------------------------------------------------
     rescue_entries = load_rescue_queue()
     if rescue_entries:
-        # Determine genes parent key for rescue queue (may need creation)
+        # Determine genes parent key for rescue queue -- always resolve from
+        # config so gene rescues work even when only the topic pipeline ran.
         rescue_genes_parent_key = None
-        if run_genes:
-            config = load_genes_config()
-            collections_cfg = config.get("collections", {})
-            genes_parent_name = collections_cfg.get("genes_parent")
-            if genes_parent_name:
-                rescue_genes_parent_key = zot.get_or_create_collection(
-                    genes_parent_name
-                )
-        rescued_count = process_rescue_queue(
+        rescue_cfg = load_genes_config()
+        rescue_collections_cfg = rescue_cfg.get("collections", {})
+        rescue_genes_parent_name = rescue_collections_cfg.get("genes_parent")
+        if rescue_genes_parent_name:
+            rescue_genes_parent_key = zot.get_or_create_collection(
+                rescue_genes_parent_name
+            )
+        rescued_count, failed_entries = process_rescue_queue(
             rescue_entries=rescue_entries,
             zot=zot,
             openalex=openalex,
@@ -1529,7 +1540,15 @@ def main():
             genes_parent_key=rescue_genes_parent_key,
             additions_tracker=additions_tracker,
         )
-        if rescued_count > 0:
+        if failed_entries:
+            # Write back failed entries for retry on next run
+            os.makedirs(os.path.dirname(RESCUE_QUEUE_PATH), exist_ok=True)
+            with open(RESCUE_QUEUE_PATH, "w", encoding="utf-8") as f:
+                json.dump(failed_entries, f, ensure_ascii=False, indent=2)
+            logger.warning(
+                f"Rescue queue: {len(failed_entries)} entries kept for retry"
+            )
+        else:
             clear_rescue_queue()
 
     # -----------------------------------------------------------------
