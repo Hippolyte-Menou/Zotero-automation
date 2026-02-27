@@ -4,7 +4,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 ## High priority
 
-- [ ] **Crash recovery / checkpointing** -- Save progress after each gene/topic so a mid-run crash doesn't lose already-uploaded data. Resume from last checkpoint on next run.
+- [x] **Crash recovery / checkpointing** -- Save progress after each gene/topic so a mid-run crash doesn't lose already-uploaded data. Resume from last checkpoint on next run. *(Implemented: `_flush_incremental_state()` saves citation cache + rejection log + recent additions + `data/checkpoint.json` after each gene/topic; on restart, completed items are skipped; checkpoint ignored for targeted runs and discarded if > 48h old; workflow fetches/deploys checkpoint from gh-pages.)*
 
 - [x] **DOI dedup** -- Add DOI as secondary dedup key alongside PMID. Catches preprints, European journals, and records missing PMIDs that currently slip through.
 

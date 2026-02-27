@@ -44,6 +44,14 @@ Zotero-automation/
 - Category 5 (Pathologies): disease+clinical AND mode
 - Nested Zotero collections mirroring vault structure
 
+### Crash recovery / checkpointing
+- After each gene/topic completes, all tracking state (citation cache, rejection log, recent additions) is flushed to disk and a lightweight `data/checkpoint.json` records which genes/topics are done
+- On next run startup: if a checkpoint exists and is < 48h old, completed genes/topics are skipped and summaries restored; stale checkpoints (> 48h) are discarded with a warning
+- Checkpoint is ignored for targeted runs (`--genes CRB1`, `--topics anatomy`) since those are intentional re-runs, not crash continuations
+- On successful completion: checkpoint file is deleted
+- GitHub Actions workflow fetches/deploys checkpoint from gh-pages so it persists across CI runs
+- Partial gene processing (crash mid-`process_gene`): gene is not marked complete, reprocessed next run; Zotero dedup prevents double uploads
+
 ### Shared logic
 - Text exclusion via `filter_records_by_text()` (shared function, not duplicated)
 - MeSH exclusion via `openalex.filter_by_mesh()`
@@ -127,6 +135,7 @@ python -m http.server 8000 -d site
 - `run.py` rescue queue: `load_rescue_queue()` reads `data/rescue_queue.json`; `process_rescue_queue()` uploads entries via OpenAlex lookup + Zotero upload and returns `(count, failed_entries)` for partial-success handling; failed entries are written back for retry on next run; `clear_rescue_queue()` removes the file only when all entries succeed
 - `run.py` recent additions: `_track_additions()` records each upload, filtered by `added_pmids` set to exclude records that failed upload; `save_recent_additions()` merges with previous data and prunes to 8 weeks; both gene and topic pipelines pass `additions_tracker` list
 - Workflow deploys `rescue_queue.json` to gh-pages so the dashboard can load it for pre-populating the rescue queue on next visit
+- `run.py` checkpointing: `_flush_incremental_state()` saves citation cache + rejection log + recent additions + checkpoint after each gene/topic; `load_checkpoint()` / `save_checkpoint()` / `clear_checkpoint()` manage `data/checkpoint.json`; checkpoint ignored for targeted runs and discarded if > 48h old
 
 ## Dependencies
 

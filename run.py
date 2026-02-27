@@ -152,6 +152,51 @@ def save_citation_cache(cache: dict, path: str = "data/citation_cache.json") -> 
     logger.info(f"Saved citation cache: {seed_count} seeds -> {path}")
 
 
+def load_checkpoint(path: str = CHECKPOINT_PATH) -> dict | None:
+    """Load checkpoint from a previous interrupted run.
+
+    Returns None if no checkpoint, file is corrupt, or checkpoint is stale
+    (older than CHECKPOINT_MAX_AGE_HOURS).
+    """
+    if not os.path.isfile(path):
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            ckpt = json.load(f)
+        started_at = ckpt.get("started_at", "")
+        if started_at:
+            started = datetime.datetime.fromisoformat(started_at)
+            age = datetime.datetime.now(datetime.timezone.utc) - started
+            if age.total_seconds() > CHECKPOINT_MAX_AGE_HOURS * 3600:
+                logger.warning(
+                    f"Discarding stale checkpoint ({age.total_seconds() / 3600:.1f}h old, "
+                    f"max {CHECKPOINT_MAX_AGE_HOURS}h): {path}"
+                )
+                return None
+        logger.info(
+            f"Loaded checkpoint: {len(ckpt.get('completed_genes', []))} genes, "
+            f"{len(ckpt.get('completed_topics', []))} topics completed"
+        )
+        return ckpt
+    except (json.JSONDecodeError, OSError, ValueError) as e:
+        logger.warning(f"Could not load checkpoint: {e}")
+        return None
+
+
+def save_checkpoint(checkpoint: dict, path: str = CHECKPOINT_PATH) -> None:
+    """Write checkpoint to disk."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(checkpoint, f, ensure_ascii=False, indent=1)
+
+
+def clear_checkpoint(path: str = CHECKPOINT_PATH) -> None:
+    """Delete checkpoint file after successful run completion."""
+    if os.path.isfile(path):
+        os.remove(path)
+        logger.info(f"Cleared checkpoint: {path}")
+
+
 def select_rotation_genes(
     all_genes: list[dict],
     citation_cache: dict,
@@ -251,6 +296,8 @@ def _link_relations(
 # -----------------------------------------------------------------
 
 RUN_HISTORY_PATH = "data/run_history.json"
+CHECKPOINT_PATH = "data/checkpoint.json"
+CHECKPOINT_MAX_AGE_HOURS = 48
 
 
 def build_run_record(
@@ -1237,6 +1284,29 @@ def process_topic_subtopic(
     }
 
 
+def _flush_incremental_state(
+    citation_cache: dict,
+    rejection_log,
+    additions_tracker: list[dict],
+    checkpoint: dict,
+) -> None:
+    """Flush all tracking state to disk after each gene/topic.
+
+    All three save functions handle merge/overwrite safely and can be called
+    repeatedly without data loss.
+    """
+    save_citation_cache(citation_cache)
+
+    os.makedirs("data", exist_ok=True)
+    previous_path = "data/previous_near_misses.json"
+    if not os.path.isfile(previous_path):
+        previous_path = None
+    rejection_log.to_json("data/near_misses.json", previous_path=previous_path)
+
+    save_recent_additions(additions_tracker)
+    save_checkpoint(checkpoint)
+
+
 def main():
     os.makedirs("logs", exist_ok=True)
     logging.basicConfig(
@@ -1344,6 +1414,37 @@ def main():
     topic_summary = []
 
     # -----------------------------------------------------------------
+    # Load checkpoint from previous interrupted run
+    # -----------------------------------------------------------------
+    completed_genes: set[str] = set()
+    completed_topics: set[tuple[str, str]] = set()
+
+    # Only use checkpoint for full (unfiltered) runs -- targeted CLI runs
+    # (e.g. --genes CRB1) are intentional re-runs, not crash continuations.
+    is_targeted_run = gene_symbols is not None or topic_category_filter is not None
+    if not is_targeted_run:
+        ckpt = load_checkpoint()
+        if ckpt:
+            completed_genes = set(ckpt.get("completed_genes", []))
+            completed_topics = {
+                tuple(t) for t in ckpt.get("completed_topics", [])
+            }
+            gene_summary = ckpt.get("gene_summary", [])
+            topic_summary = ckpt.get("topic_summary", [])
+            logger.info(
+                f"Resuming from checkpoint: skipping {len(completed_genes)} genes, "
+                f"{len(completed_topics)} topics"
+            )
+
+    checkpoint = {
+        "started_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "completed_genes": list(completed_genes),
+        "completed_topics": [list(t) for t in completed_topics],
+        "gene_summary": gene_summary,
+        "topic_summary": topic_summary,
+    }
+
+    # -----------------------------------------------------------------
     # Gene pipeline
     # -----------------------------------------------------------------
     if run_genes:
@@ -1392,9 +1493,13 @@ def main():
                 genes_parent_key = zot.get_or_create_collection(genes_parent_name)
                 logger.info(f"Using parent collection '{genes_parent_name}' (key={genes_parent_key})")
 
-            # Process each gene
-            gene_summary = []
+            # Process each gene (skip those completed in a previous checkpoint)
             for gene_cfg in genes_to_run:
+                symbol = gene_cfg["symbol"]
+                if symbol in completed_genes:
+                    logger.info(f"Skipping {symbol} (completed in previous checkpoint)")
+                    continue
+
                 stats = process_gene(
                     gene_cfg=gene_cfg,
                     default_excl_text=default_excl_text,
@@ -1411,10 +1516,18 @@ def main():
                     re_search_interval_weeks=re_search_interval_weeks,
                     rejection_log=rejection_log,
                     citation_cache=citation_cache,
-                    force_full_expansion=gene_cfg["symbol"] in full_expansion_genes,
+                    force_full_expansion=symbol in full_expansion_genes,
                     additions_tracker=additions_tracker,
                 )
                 gene_summary.append(stats)
+
+                # Checkpoint: mark gene complete and flush state
+                completed_genes.add(symbol)
+                checkpoint["completed_genes"] = list(completed_genes)
+                checkpoint["gene_summary"] = gene_summary
+                _flush_incremental_state(
+                    citation_cache, rejection_log, additions_tracker, checkpoint
+                )
 
             # Print gene summary
             logger.info("")
@@ -1473,7 +1586,6 @@ def main():
                         f"Available: {[c['name'] for c in topic_cfg['categories']]}"
                     )
 
-            topic_summary = []
             for cat_cfg in categories:
                 cat_name = cat_cfg["name"]
                 logger.info(f"\n{'#' * 60}")
@@ -1484,6 +1596,15 @@ def main():
                 cat_key = zot.get_or_create_collection(cat_name)
 
                 for sub_topic in cat_cfg.get("sub_topics", []):
+                    sub_name = sub_topic.get("name", "")
+                    topic_key = (cat_name, sub_name)
+                    if topic_key in completed_topics:
+                        logger.info(
+                            f"Skipping {cat_name}/{sub_name} "
+                            f"(completed in previous checkpoint)"
+                        )
+                        continue
+
                     stats = process_topic_subtopic(
                         sub_topic=sub_topic,
                         category_cfg=cat_cfg,
@@ -1499,6 +1620,17 @@ def main():
                         additions_tracker=additions_tracker,
                     )
                     topic_summary.append(stats)
+
+                    # Checkpoint: mark subtopic complete and flush state
+                    completed_topics.add(topic_key)
+                    checkpoint["completed_topics"] = [
+                        list(t) for t in completed_topics
+                    ]
+                    checkpoint["topic_summary"] = topic_summary
+                    _flush_incremental_state(
+                        citation_cache, rejection_log, additions_tracker,
+                        checkpoint,
+                    )
 
             # Print topic summary
             if topic_summary:
@@ -1585,6 +1717,11 @@ def main():
     # Save recent additions for dashboard
     # -----------------------------------------------------------------
     save_recent_additions(additions_tracker)
+
+    # -----------------------------------------------------------------
+    # Clear checkpoint on successful completion
+    # -----------------------------------------------------------------
+    clear_checkpoint()
 
 
 if __name__ == "__main__":
