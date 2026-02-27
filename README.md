@@ -198,7 +198,7 @@ categories:
 
 ### 4. Run
 
-- **Automatic**: runs every Sunday at 03:00 UTC (edit cron in `.github/workflows/genebot.yml`)
+- **Automatic**: runs every Saturday at 22:00 UTC (edit cron in `.github/workflows/genebot.yml`)
 - **Manual**: go to Actions tab > Gene & Topic Literature Bot > Run workflow
   - `mode`: `both` (default, both pipelines), `genes`, or `topics`
   - `genes`: space-separated gene symbols (e.g., `CRB1 PAX6`)
@@ -247,8 +247,8 @@ Aliases are defined in `topics.yml`. Default aliases:
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution (reduces API calls)
 - Backward references are cached per seed in the citation cache to avoid redundant API calls on stable papers
 - Failed API request count logged at end of run for visibility
-- Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary
-- Logs are uploaded as GitHub Actions artifacts (retained 30 days)
+- Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary; two records per full run (one per pipeline job)
+- Logs are uploaded as separate GitHub Actions artifacts per pipeline (`run-logs-genes-*`, `run-logs-topics-*`), retained 30 days
 
 ---
 
@@ -313,12 +313,17 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 
 ### How it deploys
 
-After each pipeline run, the GitHub Actions workflow:
+The GitHub Actions workflow runs 3 sequential jobs, each with its own 360-minute timeout:
 
-1. Copies `data/near_misses.json`, `data/run_history.json`, `data/recent_additions.json`, and `data/rescue_queue.json` into `site/data/`
-2. Deploys the `site/` directory to the `gh-pages` branch via `peaceiris/actions-gh-pages@v4` (only if data preparation succeeds)
+```
+gh-pages baseline --> [run-genes] --artifact--> [run-topics] --artifact--> [deploy-dashboard]
+```
 
-The workflow has a 120-minute timeout on the bot step.
+1. **run-genes**: fetches baseline data from gh-pages, runs the gene pipeline, uploads `data/` as an artifact. Skipped when `mode=topics`.
+2. **run-topics**: fetches gh-pages baseline, downloads the genes artifact (overwrites baseline with genes' output), runs the topic pipeline, uploads the updated `data/` artifact. Skipped when `mode=genes`. Does not run if the genes job failed.
+3. **deploy-dashboard**: downloads the final artifact, copies data files into `site/data/`, deploys `site/` to gh-pages with `keep_files: true`.
+
+`keep_files: true` merges into the gh-pages branch instead of replacing it. This means partial runs never wipe complete data -- only the files present in the artifact are overwritten. This is safe because all data files are cumulative (near-misses merge, run history appends, recent additions deduplicate).
 
 The dashboard is then accessible at `https://<username>.github.io/Zotero-automation/`.
 

@@ -24,7 +24,8 @@ on:
         type: string
 
 jobs:
-  update-library:
+  run-genes:
+    if: inputs.mode != 'topics'
     runs-on: ubuntu-latest
 
     steps:
@@ -49,20 +50,119 @@ jobs:
           git show origin/gh-pages:data/rescue_queue.json > data/rescue_queue.json 2>/dev/null || echo '[]' > data/rescue_queue.json
           git show origin/gh-pages:data/checkpoint.json > data/checkpoint.json 2>/dev/null || true
 
-      - name: Run bot
+      - name: Run gene pipeline
         timeout-minutes: 360
         env:
           ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
           ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           INPUT_GENES: ${{ inputs.genes }}
-          INPUT_MODE: ${{ inputs.mode }}
-          INPUT_CATEGORIES: ${{ inputs.categories }}
+          INPUT_MODE: genes
         run: python run.py
+
+      - name: Upload pipeline data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
+          retention-days: 1
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-logs-genes-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
+
+  run-topics:
+    if: always() && inputs.mode != 'genes' && (needs.run-genes.result == 'success' || needs.run-genes.result == 'skipped')
+    needs: [run-genes]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch previous data from gh-pages
+        run: |
+          mkdir -p data
+          git fetch origin gh-pages --depth=1 || true
+          git show origin/gh-pages:data/near_misses.json > data/previous_near_misses.json 2>/dev/null || echo '{}' > data/previous_near_misses.json
+          git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
+          git show origin/gh-pages:data/run_history.json > data/run_history.json 2>/dev/null || echo '{"runs":[]}' > data/run_history.json
+          git show origin/gh-pages:data/recent_additions.json > data/recent_additions.json 2>/dev/null || echo '{"additions":[]}' > data/recent_additions.json
+          git show origin/gh-pages:data/rescue_queue.json > data/rescue_queue.json 2>/dev/null || echo '[]' > data/rescue_queue.json
+          git show origin/gh-pages:data/checkpoint.json > data/checkpoint.json 2>/dev/null || true
+
+      - name: Download gene pipeline data
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
+
+      - name: Prepare near-miss baseline from genes output
+        run: |
+          # If genes produced near_misses.json, it becomes the baseline for topics merge
+          if [ -f data/near_misses.json ]; then
+            cp data/near_misses.json data/previous_near_misses.json
+          fi
+
+      - name: Run topic pipeline
+        timeout-minutes: 360
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          INPUT_CATEGORIES: ${{ inputs.categories }}
+          INPUT_MODE: topics
+        run: python run.py
+
+      - name: Upload pipeline data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
+          retention-days: 1
+          overwrite: true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-logs-topics-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
+
+  deploy-dashboard:
+    if: always()
+    needs: [run-genes, run-topics]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download pipeline data
+        id: download-data
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
 
       - name: Prepare dashboard data
         id: prepare-data
-        if: always()
+        if: steps.download-data.outcome == 'success'
         run: |
           mkdir -p site/data
           if [ -f data/near_misses.json ]; then
@@ -87,16 +187,9 @@ jobs:
           fi
 
       - name: Deploy dashboard to GitHub Pages
-        if: always() && steps.prepare-data.outcome == 'success'
+        if: steps.prepare-data.outcome == 'success'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-
-      - name: Upload logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: run-logs-${{ github.run_id }}
-          path: logs/
-          retention-days: 30
+          keep_files: true

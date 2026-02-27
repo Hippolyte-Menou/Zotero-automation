@@ -44,13 +44,37 @@ Zotero-automation/
 - Category 5 (Pathologies): disease+clinical AND mode
 - Nested Zotero collections mirroring vault structure
 
+### CI workflow architecture (3 jobs)
+
+The workflow splits into 3 sequential jobs so each pipeline gets its own 360-minute timeout:
+
+```
+gh-pages data
+     |
+     v
+[run-genes] --artifact--> [run-topics] --artifact--> [deploy-dashboard]
+```
+
+- **run-genes**: Fetches gh-pages baseline, runs gene pipeline, uploads `data/` as `pipeline-data` artifact. Skipped when `mode=topics`.
+- **run-topics**: Fetches gh-pages baseline, downloads genes artifact (overwrites baseline), copies `near_misses.json` to `previous_near_misses.json` for cumulative merge, runs topic pipeline, uploads updated `data/` (overwrite). Skipped when `mode=genes`. Does not run if genes job failed.
+- **deploy-dashboard**: Downloads final `pipeline-data` artifact, deploys to gh-pages with `keep_files: true` (merges into gh-pages instead of replacing the branch, so partial runs never wipe complete data).
+
+| Mode | `both` / cron | `genes` | `topics` |
+|------|---------------|---------|----------|
+| run-genes | runs | runs | skipped |
+| run-topics | runs | skipped | runs |
+| deploy | runs | runs | runs |
+
+Two `run_history` records per full run (one per pipeline job). Separate log artifacts: `run-logs-genes-*` and `run-logs-topics-*`.
+
 ### Crash recovery / checkpointing
 - After each gene/topic completes, all tracking state (citation cache, rejection log, recent additions) is flushed to disk and a lightweight `data/checkpoint.json` records which genes/topics are done
 - On next run startup: if a checkpoint exists and is < 48h old, completed genes/topics are skipped and summaries restored; stale checkpoints (> 48h) are discarded with a warning
 - Checkpoint is ignored for targeted runs (`--genes CRB1`, `--topics anatomy`) since those are intentional re-runs, not crash continuations
 - On successful completion: checkpoint file is deleted
-- GitHub Actions workflow fetches/deploys checkpoint from gh-pages so it persists across CI runs
+- GitHub Actions workflow fetches/deploys checkpoint from gh-pages so it persists across CI runs; with `keep_files: true`, stale checkpoints on gh-pages auto-expire via the 48h discard rule
 - Partial gene processing (crash mid-`process_gene`): gene is not marked complete, reprocessed next run; Zotero dedup prevents double uploads
+- Cross-job crash recovery: if genes succeeds and topics crashes, the checkpoint is uploaded via artifact and deployed to gh-pages; next cron re-runs genes (fast, everything deduped) then topics resumes from checkpoint
 
 ### Shared logic
 - Text exclusion via `filter_records_by_text()` (shared function, not duplicated)
@@ -131,10 +155,12 @@ python -m http.server 8000 -d site
 - `zotero_client.py` collection cache is keyed by `(name, parent_key)` tuple to prevent cross-parent collisions
 - `rejection_log.py` `to_json()` does not mutate `self.entries` -- uses local variable for merged output
 - GitHub Actions workflow mode input uses `both`/`genes`/`topics` (no empty string option)
-- Workflow deploys dashboard only if data preparation step succeeds
+- Workflow uses 3 sequential jobs (`run-genes`, `run-topics`, `deploy-dashboard`) with artifact passing; `pipeline-data` artifact carries state between jobs
+- Deploy uses `keep_files: true` (merge into gh-pages, never replace the branch) -- safe because all data files are cumulative (near_misses merges, run_history appends, recent_additions deduplicates)
+- Genes artifact download in topics job uses `continue-on-error: true` (artifact may not exist if genes was skipped)
 - `run.py` rescue queue: `load_rescue_queue()` reads `data/rescue_queue.json`; `process_rescue_queue()` uploads entries via OpenAlex lookup + Zotero upload and returns `(count, failed_entries)` for partial-success handling; failed entries are written back for retry on next run; `clear_rescue_queue()` removes the file only when all entries succeed
 - `run.py` recent additions: `_track_additions()` records each upload, filtered by `added_pmids` set to exclude records that failed upload; `save_recent_additions()` merges with previous data and prunes to 8 weeks; both gene and topic pipelines pass `additions_tracker` list
-- Workflow deploys `rescue_queue.json` to gh-pages so the dashboard can load it for pre-populating the rescue queue on next visit
+- Workflow deploys `rescue_queue.json` to gh-pages so the dashboard can load it for pre-populating the rescue queue on next visit; gene job processes rescue queue first, topics job gets the updated file via artifact
 - `run.py` checkpointing: `_flush_incremental_state()` saves citation cache + rejection log + recent additions + checkpoint after each gene/topic; `load_checkpoint()` / `save_checkpoint()` / `clear_checkpoint()` manage `data/checkpoint.json`; checkpoint ignored for targeted runs and discarded if > 48h old
 
 ## Dependencies
