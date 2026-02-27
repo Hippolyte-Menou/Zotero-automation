@@ -16,7 +16,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **Dashboard rescue queue** -- One-click "rescue" button on near-miss articles that writes to `data/rescue_queue.json`. Bot picks them up on next run. Consider twice-weekly cron so rescued articles don't wait a full week.
 
-- [ ] **Dashboard: highlight exclusion triggers** -- For text/MeSH-excluded articles, highlight the specific words or MeSH terms that triggered the exclusion. Makes it easy to spot false positives and refine filters.
+- [x] **Dashboard: highlight exclusion triggers** -- For text/MeSH-excluded articles, highlight the specific words or MeSH terms that triggered the exclusion. Makes it easy to spot false positives and refine filters. *(Implemented: `highlightTerm()` wraps matched text-exclusion terms in `<span class="trigger-mark">` in both title and abstract; MeSH-excluded articles show the triggering descriptor as a styled tag badge. Dark mode supported.)*
 
 - [ ] **Dashboard: recent additions panel** -- Companion to near-misses: show papers uploaded in the last 4 weeks, grouped by gene/topic. Gives a complete picture of pipeline activity alongside rejections.
 
