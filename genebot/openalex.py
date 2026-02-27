@@ -979,6 +979,24 @@ class OpenAlexClient:
         logger.info(f"Fetched {len(result)} works by PMID from OpenAlex")
         return result
 
+    def fetch_works_by_doi(self, doi: str) -> list[dict]:
+        """Fetch work metadata for a single DOI. Returns list (0 or 1 works)."""
+        # Normalize to bare DOI (strip URL prefix if present)
+        bare = doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
+        data = self._get(
+            "/works",
+            params={
+                "filter": f"doi:{bare},is_retracted:false",
+                "select": WORK_FIELDS,
+                "per_page": "1",
+            },
+        )
+        if not data or "results" not in data:
+            logger.info(f"DOI lookup returned no results: {bare}")
+            return []
+        logger.info(f"Fetched {len(data['results'])} work(s) by DOI from OpenAlex")
+        return data["results"]
+
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------

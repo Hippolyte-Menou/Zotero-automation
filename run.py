@@ -278,7 +278,7 @@ def build_run_record(
             topic_totals[k] += s.get(k, 0)
 
     return {
-        "timestamp": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "timestamp": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "pipelines": {
             "genes": run_genes,
             "topics": run_topics,
@@ -386,6 +386,227 @@ def write_github_summary(record: dict) -> None:
         logger.warning(f"Could not write GitHub summary: {e}")
 
 
+RESCUE_QUEUE_PATH = "data/rescue_queue.json"
+RECENT_ADDITIONS_PATH = "data/recent_additions.json"
+
+
+def load_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> list[dict]:
+    """Load rescue queue from JSON file. Returns empty list if not found."""
+    if not os.path.isfile(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            entries = json.load(f)
+        if isinstance(entries, list):
+            return entries
+        logger.warning(f"Rescue queue at {path} is not a list, ignoring")
+        return []
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"Could not load rescue queue from {path}: {e}")
+        return []
+
+
+def process_rescue_queue(
+    rescue_entries: list[dict],
+    zot: ZoteroGroupClient,
+    openalex: OpenAlexClient,
+    existing_pmids: set[str],
+    existing_dois: set[str],
+    pmid_to_key: dict[str, str],
+    genes_parent_key: str | None,
+    additions_tracker: list[dict],
+) -> tuple[int, list[dict]]:
+    """Process rescued articles: look up on OpenAlex and upload to Zotero.
+
+    Returns (uploaded_count, failed_entries) where failed_entries are entries
+    that should be retried on the next run (transient failures only).
+    """
+    if not rescue_entries:
+        return 0, []
+
+    logger.info(f"Processing rescue queue: {len(rescue_entries)} entries")
+    uploaded = 0
+    failed_entries: list[dict] = []
+
+    for entry in rescue_entries:
+        pmid = entry.get("pmid", "").strip()
+        doi = entry.get("doi", "").strip()
+        subcollection = entry.get("subcollection", "").strip()
+        category = entry.get("category", "").strip()
+        title = entry.get("title", "")
+
+        if not pmid and not doi:
+            logger.warning(f"Rescue entry has no PMID or DOI, skipping: {title}")
+            continue
+
+        # Skip if already in library
+        if pmid and pmid in existing_pmids:
+            logger.info(f"Rescue: {pmid} already in library, skipping")
+            continue
+        if doi and doi.lower() in existing_dois:
+            logger.info(f"Rescue: DOI {doi} already in library, skipping")
+            continue
+
+        # Look up on OpenAlex by PMID or DOI
+        work = None
+        if pmid:
+            works = openalex.fetch_works_by_pmids([pmid])
+            if works:
+                work = works[0]
+        if not work and doi:
+            works = openalex.fetch_works_by_doi(doi)
+            if works:
+                work = works[0]
+
+        if not work:
+            logger.warning(
+                f"Rescue: could not find {pmid or doi} on OpenAlex, skipping"
+            )
+            failed_entries.append(entry)
+            continue
+
+        record = OpenAlexClient.work_to_record(work)
+        if not record.get("title"):
+            logger.warning(f"Rescue: no title for {pmid or doi}, skipping")
+            continue
+
+        # Determine target collection
+        # Use first subcollection if comma-separated
+        target_sub = subcollection.split(",")[0].strip() if subcollection else ""
+        target_cat = category.split(",")[0].strip() if category else ""
+        collection_key = None
+
+        if target_sub and target_cat:
+            if target_cat == "6 - Genes" and genes_parent_key:
+                collection_key = zot.get_or_create_collection(
+                    target_sub, parent_key=genes_parent_key
+                )
+            elif target_cat:
+                cat_key = zot.get_or_create_collection(target_cat)
+                collection_key = zot.get_or_create_collection(
+                    target_sub, parent_key=cat_key
+                )
+
+        stats = zot.add_papers(
+            [record],
+            collection_key=collection_key,
+            source_tag="source:rescue",
+        )
+        if stats.get("added", 0) > 0:
+            uploaded += 1
+            pmid_to_key.update(stats.get("pmid_to_key", {}))
+            if record.get("pmid"):
+                existing_pmids.add(record["pmid"])
+            if record.get("doi"):
+                existing_dois.add(record["doi"].lower())
+            additions_tracker.append({
+                "pmid": record.get("pmid", ""),
+                "doi": record.get("doi", ""),
+                "title": record.get("title", ""),
+                "year": record.get("year", ""),
+                "subcollection": target_sub,
+                "category": target_cat,
+                "source": "source:rescue",
+                "uploaded_at": datetime.datetime.now(datetime.timezone.utc).strftime(
+                    "%Y-%m-%dT%H:%M:%SZ"
+                ),
+            })
+            logger.info(f"Rescue: uploaded {record.get('pmid', doi)} -> {target_sub}")
+        else:
+            logger.warning(
+                f"Rescue: failed to upload {record.get('pmid', doi)}"
+            )
+            failed_entries.append(entry)
+
+    logger.info(f"Rescue queue: {uploaded}/{len(rescue_entries)} uploaded")
+    return uploaded, failed_entries
+
+
+def clear_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> None:
+    """Remove the rescue queue file after processing."""
+    if os.path.isfile(path):
+        os.remove(path)
+        logger.info(f"Cleared rescue queue: {path}")
+
+
+def save_recent_additions(
+    additions: list[dict], path: str = RECENT_ADDITIONS_PATH
+) -> None:
+    """Save recent additions to JSON, merging with previous data.
+
+    Keeps entries from the last 8 weeks (2 run cycles).
+    """
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    # Load existing
+    existing: list[dict] = []
+    if os.path.isfile(path):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+            existing = prev.get("additions", [])
+        except (json.JSONDecodeError, OSError):
+            existing = []
+
+    # Merge: append new, dedup by PMID
+    seen_keys: set[str] = set()
+    merged: list[dict] = []
+
+    for a in additions + existing:
+        pmid = a.get("pmid", "").strip()
+        doi = a.get("doi", "").strip()
+        key = f"pmid:{pmid}" if pmid else (f"doi:{doi}" if doi else None)
+        if key and key in seen_keys:
+            continue
+        if key:
+            seen_keys.add(key)
+        merged.append(a)
+
+    # Prune entries older than 8 weeks
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(weeks=8)
+    cutoff_iso = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
+    merged = [a for a in merged if (a.get("uploaded_at", "") >= cutoff_iso)]
+
+    data = {
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "additions": merged,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+    logger.info(f"Saved recent additions: {len(merged)} entries -> {path}")
+
+
+def _track_additions(
+    records: list[dict],
+    subcollection: str,
+    category: str,
+    source_tag: str,
+    tracker: list[dict] | None,
+    added_pmids: set[str] | None = None,
+) -> None:
+    """Append uploaded records to the additions tracker.
+
+    If added_pmids is provided, only records whose PMID appears in the set
+    are tracked (filters out records that failed to upload).
+    """
+    if tracker is None:
+        return
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for r in records:
+        if added_pmids is not None and r.get("pmid", "") not in added_pmids:
+            continue
+        tracker.append({
+            "pmid": r.get("pmid", ""),
+            "doi": r.get("doi", ""),
+            "title": r.get("title", ""),
+            "year": r.get("year", ""),
+            "subcollection": subcollection,
+            "category": category,
+            "source": source_tag,
+            "uploaded_at": now,
+        })
+
+
 def process_gene(
     gene_cfg: dict,
     default_excl_text: list[str],
@@ -403,6 +624,7 @@ def process_gene(
     rejection_log: RejectionLog | None = None,
     citation_cache: dict | None = None,
     force_full_expansion: bool = False,
+    additions_tracker: list[dict] | None = None,
 ) -> dict:
     """Process a single gene. Returns stats dict."""
 
@@ -499,6 +721,7 @@ def process_gene(
                         source_tag="source:search",
                     )
                     pmid_to_key.update(search_stats.get("pmid_to_key", {}))
+                    _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
                     for r in re_search_records:
                         existing_pmids.add(r["pmid"])
                         new_pmids.add(r["pmid"])
@@ -559,6 +782,7 @@ def process_gene(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
+            _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -631,6 +855,7 @@ def process_gene(
             )
             cit_added = cit_stats["added"]
             pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
+            _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
             for r in candidate_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -685,6 +910,7 @@ def process_gene(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
+            _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -735,6 +961,7 @@ def process_topic_subtopic(
     openalex: OpenAlexClient,
     rejection_log: RejectionLog | None = None,
     citation_cache: dict | None = None,
+    additions_tracker: list[dict] | None = None,
 ) -> dict:
     """Process a single sub-topic within a category. Returns stats dict."""
 
@@ -858,6 +1085,7 @@ def process_topic_subtopic(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
+            _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
             for r in new_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -915,6 +1143,7 @@ def process_topic_subtopic(
                 )
                 cit_added = cit_stats["added"]
                 pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
+                _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
                 for r in candidate_records:
                     existing_pmids.add(r["pmid"])
                     new_pmids.add(r["pmid"])
@@ -965,6 +1194,7 @@ def process_topic_subtopic(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
+            _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
             for r in recent_records:
                 existing_pmids.add(r["pmid"])
                 new_pmids.add(r["pmid"])
@@ -1103,6 +1333,7 @@ def main():
         existing_dois.update(trashed_dois)
 
     rejection_log = RejectionLog()
+    additions_tracker: list[dict] = []
 
     # Load citation cache for incremental expansion
     citation_cache = load_citation_cache()
@@ -1181,6 +1412,7 @@ def main():
                     rejection_log=rejection_log,
                     citation_cache=citation_cache,
                     force_full_expansion=gene_cfg["symbol"] in full_expansion_genes,
+                    additions_tracker=additions_tracker,
                 )
                 gene_summary.append(stats)
 
@@ -1264,6 +1496,7 @@ def main():
                         openalex=openalex,
                         rejection_log=rejection_log,
                         citation_cache=citation_cache,
+                        additions_tracker=additions_tracker,
                     )
                     topic_summary.append(stats)
 
@@ -1281,6 +1514,42 @@ def main():
                         f"recent_add={s['recent_added']:4d}"
                     )
 
+
+    # -----------------------------------------------------------------
+    # Process rescue queue (rescued near-miss articles)
+    # -----------------------------------------------------------------
+    rescue_entries = load_rescue_queue()
+    if rescue_entries:
+        # Determine genes parent key for rescue queue -- always resolve from
+        # config so gene rescues work even when only the topic pipeline ran.
+        rescue_genes_parent_key = None
+        rescue_cfg = load_genes_config()
+        rescue_collections_cfg = rescue_cfg.get("collections", {})
+        rescue_genes_parent_name = rescue_collections_cfg.get("genes_parent")
+        if rescue_genes_parent_name:
+            rescue_genes_parent_key = zot.get_or_create_collection(
+                rescue_genes_parent_name
+            )
+        rescued_count, failed_entries = process_rescue_queue(
+            rescue_entries=rescue_entries,
+            zot=zot,
+            openalex=openalex,
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            pmid_to_key=pmid_to_key,
+            genes_parent_key=rescue_genes_parent_key,
+            additions_tracker=additions_tracker,
+        )
+        if failed_entries:
+            # Write back failed entries for retry on next run
+            os.makedirs(os.path.dirname(RESCUE_QUEUE_PATH), exist_ok=True)
+            with open(RESCUE_QUEUE_PATH, "w", encoding="utf-8") as f:
+                json.dump(failed_entries, f, ensure_ascii=False, indent=2)
+            logger.warning(
+                f"Rescue queue: {len(failed_entries)} entries kept for retry"
+            )
+        else:
+            clear_rescue_queue()
 
     # -----------------------------------------------------------------
     # Save citation cache for next run
@@ -1311,6 +1580,11 @@ def main():
     )
     save_run_history(run_record)
     write_github_summary(run_record)
+
+    # -----------------------------------------------------------------
+    # Save recent additions for dashboard
+    # -----------------------------------------------------------------
+    save_recent_additions(additions_tracker)
 
 
 if __name__ == "__main__":
