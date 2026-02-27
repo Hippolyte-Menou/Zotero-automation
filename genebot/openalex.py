@@ -583,7 +583,11 @@ class OpenAlexClient:
         # Build seed reference set for bibliographic coupling
         seed_reference_set: set[str] = set()
         for w in seeds:
-            seed_reference_set.update(w.get("referenced_works", []))
+            refs = w.get("referenced_works", [])
+            if not refs and citation_cache is not None:
+                oa_id = w.get("id", "")
+                refs = citation_cache.get("seeds", {}).get(oa_id, {}).get("referenced_works", [])
+            seed_reference_set.update(refs)
 
         # candidate OpenAlex ID -> {co_citations, bib_coupling, directions, year, referenced_works}
         candidates: dict[str, dict] = defaultdict(
@@ -607,8 +611,11 @@ class OpenAlexClient:
             if (i + 1) % 20 == 0 or (i + 1) == len(seeds):
                 logger.info(f"Expanding seed {i + 1}/{len(seeds)} ({hop_label})")
 
-            # Backward: referenced_works already in the work object (always free)
-            for ref_id in work.get("referenced_works", []):
+            # Backward: use work object's referenced_works, fall back to cache
+            refs = work.get("referenced_works", [])
+            if not refs and citation_cache is not None:
+                refs = citation_cache.get("seeds", {}).get(openalex_id, {}).get("referenced_works", [])
+            for ref_id in refs:
                 candidates[ref_id]["co_citations"] += 1
                 candidates[ref_id]["directions"].add("reference")
 
@@ -617,15 +624,20 @@ class OpenAlexClient:
                 citing_works = self.get_citations(
                     openalex_id, limit=500, since_date=since_date
                 )
-                # Update cache entry
+                # Update cache entry (including referenced_works)
                 if citation_cache is not None:
-                    citation_cache.setdefault("seeds", {})[openalex_id] = {
-                        "cited_by_count": work.get("cited_by_count", 0),
-                        "last_expanded": datetime.date.today().isoformat(),
-                    }
+                    entry = citation_cache.setdefault("seeds", {}).setdefault(openalex_id, {})
+                    entry["cited_by_count"] = work.get("cited_by_count", 0)
+                    entry["last_expanded"] = datetime.date.today().isoformat()
+                    entry["referenced_works"] = work.get("referenced_works", [])
             else:
                 citing_works = []
                 skipped_seeds += 1
+                # Cache referenced_works for skipped seeds too
+                if citation_cache is not None and openalex_id:
+                    entry = citation_cache.setdefault("seeds", {}).setdefault(openalex_id, {})
+                    if "referenced_works" not in entry:
+                        entry["referenced_works"] = work.get("referenced_works", [])
 
             for citing in citing_works:
                 cit_id = citing.get("id", "")
@@ -833,10 +845,14 @@ class OpenAlexClient:
             work_by_pmid = {self.extract_pmid(w): w for w in candidate_works}
 
             # Compute bibliographic coupling from full metadata
-            # Build seed reference set
+            # Build seed reference set (with cache fallback)
             seed_ref_set: set[str] = set()
             for w in hop_seeds:
-                seed_ref_set.update(w.get("referenced_works", []))
+                refs = w.get("referenced_works", [])
+                if not refs and citation_cache is not None:
+                    oa_id = w.get("id", "")
+                    refs = citation_cache.get("seeds", {}).get(oa_id, {}).get("referenced_works", [])
+                seed_ref_set.update(refs)
 
             for c in scored:
                 work = work_by_pmid.get(c["pmid"])
