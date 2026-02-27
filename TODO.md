@@ -62,7 +62,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [x] **Mention filter fallback on empty results** -- If mention filter removes all citation candidates for a gene, raise a GitHub issue rather than silently returning zero. Guards against empty-library edge case.
 
-- [ ] **Cache backward references** -- Currently backward references (referenced_works) are re-fetched fresh every run even if unchanged. Cache the reference list per seed to save API calls on stable papers.
+- [x] **Cache backward references** -- Currently backward references (referenced_works) are re-fetched fresh every run even if unchanged. Cache the reference list per seed to save API calls on stable papers. *(Implemented: `_expand_one_hop` stores each seed's `referenced_works` in the citation cache and uses cached refs as fallback; `expand_citations` bib-coupling seed ref set also uses cache fallback.)*
 
 - [ ] **Split workflow into two jobs to bypass 360-min limit** -- Gene pipeline and topic pipeline run as separate GitHub Actions jobs (each gets its own 360-min timeout). Share near-miss data and citation cache via artifacts. Currently the combined run takes 5+ hours, hitting the per-job ceiling.
 
