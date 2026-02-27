@@ -14,11 +14,11 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 ## Medium priority
 
-- [ ] **Dashboard rescue queue** -- One-click "rescue" button on near-miss articles that writes to `data/rescue_queue.json`. Bot picks them up on next run. Consider twice-weekly cron so rescued articles don't wait a full week.
+- [x] **Dashboard rescue queue** -- One-click "rescue" button on near-miss articles that writes to `data/rescue_queue.json`. Bot picks them up on next run. Consider twice-weekly cron so rescued articles don't wait a full week. *(Implemented: dashboard stores rescued articles in localStorage with per-article Rescue/Queued toggle; "Download rescue_queue.json" exports the queue; run.py `process_rescue_queue()` looks up articles on OpenAlex and uploads them to the target Zotero collection with `source:rescue` tag; queue file is cleared after successful processing.)*
 
 - [x] **Dashboard: highlight exclusion triggers** -- For text/MeSH-excluded articles, highlight the specific words or MeSH terms that triggered the exclusion. Makes it easy to spot false positives and refine filters. *(Implemented: `highlightTerm()` wraps matched text-exclusion terms in `<span class="trigger-mark">` in both title and abstract; MeSH-excluded articles show the triggering descriptor as a styled tag badge. Dark mode supported.)*
 
-- [ ] **Dashboard: recent additions panel** -- Companion to near-misses: show papers uploaded in the last 4 weeks, grouped by gene/topic. Gives a complete picture of pipeline activity alongside rejections.
+- [x] **Dashboard: recent additions panel** -- Companion to near-misses: show papers uploaded in the last 4 weeks, grouped by gene/topic. Gives a complete picture of pipeline activity alongside rejections. *(Implemented: `_track_additions()` records each uploaded paper with PMID, title, year, subcollection, category, source tag, and upload timestamp; `save_recent_additions()` merges with previous data and prunes entries older than 8 weeks; dashboard loads `data/recent_additions.json` and renders a collapsible "Recent" panel grouped by subcollection with source-tag badges and PubMed links.)*
 
 - [x] **Per-run metrics + run history** -- Append per-run stats to `data/run_history.json`: papers found/uploaded/rejected per gene/topic, error count, duration. Generate a markdown summary in GitHub Actions job summary. Enables trend analysis. *(Implemented: `build_run_record()` / `save_run_history()` in run.py append cumulative records; `write_github_summary()` outputs markdown table to `$GITHUB_STEP_SUMMARY`; workflow fetches/deploys `run_history.json` alongside other data.)*
 

@@ -549,6 +549,126 @@ html.dark .trigger-mark {
   vertical-align: middle;
 }
 
+/* Rescue queue */
+.rescue-btn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.rescue-btn:hover {
+  background: #198754;
+  color: #fff;
+  border-color: #198754;
+}
+.rescue-btn.rescued {
+  background: #198754;
+  color: #fff;
+  border-color: #198754;
+  cursor: default;
+}
+.col-rescue { width: 70px; text-align: center; }
+.rescue-export-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--accent-light);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.rescue-export-bar .rescue-count {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* Recent additions panel */
+.recent-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.recent-toggle:hover { background: var(--hover); color: var(--text); }
+.recent-toggle.active { background: var(--accent-light); color: var(--accent); border-color: var(--accent); }
+
+.recent-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.recent-panel.open {
+  max-height: 600px;
+  margin-bottom: 16px;
+  overflow-y: auto;
+}
+.recent-panel-inner {
+  padding: 14px 18px;
+}
+.recent-group-header {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  padding: 8px 0 4px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+.recent-group-header .recent-group-count {
+  font-weight: 400;
+  color: var(--text-secondary);
+  font-size: 12px;
+  margin-left: 6px;
+}
+.recent-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 3px 0;
+  font-size: 12px;
+}
+.recent-item a {
+  color: var(--text);
+  text-decoration: none;
+}
+.recent-item a:hover { color: var(--accent); text-decoration: underline; }
+.recent-item .recent-meta {
+  color: var(--text-secondary);
+  font-size: 11px;
+  white-space: nowrap;
+}
+.recent-source-tag {
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+.recent-source-search { background: #0d6efd; }
+.recent-source-citation { background: #6f42c1; }
+.recent-source-recent { background: #198754; }
+.recent-source-rescue { background: #fd7e14; }
+.recent-empty {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
 /* Shared near-misses */
 .shared-separator {
   border: none;
@@ -945,6 +1065,11 @@ html.dark .score-high { background: #157347; }
     <div class="history-panel" id="historyPanel">
       <div class="history-panel-inner" id="historyPanelContent"></div>
     </div>
+    <div class="recent-panel" id="recentPanel">
+      <div class="recent-panel-inner" id="recentPanelContent"></div>
+    </div>
+
+    <div id="rescueBar"></div>
 
     <div class="main-header">
       <div>
@@ -994,6 +1119,8 @@ html.dark .score-high { background: #157347; }
   const PAGE_SIZE = 50;
   let data = null;
   let runHistory = null;
+  let recentAdditions = null;
+  let rescueQueue = loadRescueQueue();
   let currentSubcollection = null;
   let currentCategory = null;
   let currentPage = 1;
@@ -1008,6 +1135,98 @@ html.dark .score-high { background: #157347; }
   let tuningThreshold = null;  // null = no override, number = custom threshold
 
   // ------------------------------------------------------------------
+  // Rescue queue (localStorage-based)
+  // ------------------------------------------------------------------
+
+  function loadRescueQueue() {
+    try {
+      var raw = localStorage.getItem("rescueQueue");
+      if (raw) return JSON.parse(raw);
+    } catch (e) { /* ignore */ }
+    return {};
+  }
+
+  function saveRescueQueue() {
+    localStorage.setItem("rescueQueue", JSON.stringify(rescueQueue));
+  }
+
+  function isInRescueQueue(article) {
+    var key = rescueKey(article);
+    return key ? !!rescueQueue[key] : false;
+  }
+
+  function rescueKey(article) {
+    if (article.pmid) return "pmid:" + article.pmid;
+    if (article.doi) return "doi:" + article.doi;
+    return null;
+  }
+
+  window.__rescueArticle = function(pmid, doi) {
+    if (!data || !data.articles) return;
+    var article = data.articles.find(function(a) {
+      return (pmid && a.pmid === pmid) || (doi && a.doi === doi);
+    });
+    if (!article) return;
+    var key = rescueKey(article);
+    if (!key || rescueQueue[key]) return;
+    rescueQueue[key] = {
+      pmid: article.pmid || "",
+      doi: article.doi || "",
+      title: article.title || "",
+      subcollection: article.subcollection || "",
+      category: article.category || "",
+      rescued_at: new Date().toISOString(),
+    };
+    saveRescueQueue();
+    renderRescueBar();
+    renderArticles();
+  };
+
+  window.__unrescueArticle = function(pmid, doi) {
+    var key = pmid ? "pmid:" + pmid : (doi ? "doi:" + doi : null);
+    if (!key || !rescueQueue[key]) return;
+    delete rescueQueue[key];
+    saveRescueQueue();
+    renderRescueBar();
+    renderArticles();
+  };
+
+  window.__exportRescueQueue = function() {
+    var entries = Object.values(rescueQueue);
+    if (entries.length === 0) return;
+    var output = JSON.stringify(entries, null, 2);
+    var blob = new Blob([output], { type: "application/json;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "rescue_queue.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  window.__clearRescueQueue = function() {
+    rescueQueue = {};
+    saveRescueQueue();
+    renderRescueBar();
+    renderArticles();
+  };
+
+  function renderRescueBar() {
+    var bar = document.getElementById("rescueBar");
+    var count = Object.keys(rescueQueue).length;
+    if (count === 0) {
+      bar.innerHTML = "";
+      return;
+    }
+    var html = '<div class="rescue-export-bar">';
+    html += '<span class="rescue-count">' + count + '</span> article' + (count !== 1 ? 's' : '') + ' in rescue queue';
+    html += ' <button class="btn" onclick="window.__exportRescueQueue()">Download rescue_queue.json</button>';
+    html += ' <button class="btn" onclick="window.__clearRescueQueue()" style="color:var(--badge-text)">Clear</button>';
+    html += '</div>';
+    bar.innerHTML = html;
+  }
+
+  // ------------------------------------------------------------------
   // Data loading
   // ------------------------------------------------------------------
 
@@ -1020,6 +1239,7 @@ html.dark .score-high { background: #157347; }
       data = await resp.json();
       renderSidebar();
       renderMetaBar();
+      renderRescueBar();
       content.innerHTML =
         '<div class="empty-state"><h3>Choose a subcollection from the sidebar</h3>' +
         '<p>Browse genes and topic categories to review near-miss articles.</p></div>';
@@ -1351,6 +1571,7 @@ html.dark .score-high { background: #157347; }
     html += 'Cited' + sortArrow("cited") + '</th>';
     html += '<th class="col-year sortable' + sortActiveClass("year") + '" onclick="window.__sortBy(\'year\')">';
     html += 'Year' + sortArrow("year") + '</th>';
+    html += '<th class="col-rescue">Rescue</th>';
     html += '</tr></thead><tbody>';
 
     for (const a of page) {
@@ -1431,6 +1652,14 @@ html.dark .score-high { background: #157347; }
       html += "</td>";
       html += '<td class="col-cited" style="text-align:right">' + (a.cited_by_count || 0) + "</td>";
       html += '<td class="col-year">' + escapeHtml(a.year || "") + "</td>";
+      var inQueue = isInRescueQueue(a);
+      html += '<td class="col-rescue">';
+      if (inQueue) {
+        html += '<button class="rescue-btn rescued" onclick="window.__unrescueArticle(\'' + escapeAttr(pmid) + "','" + escapeAttr(a.doi || "") + '\')" title="Remove from rescue queue">Queued</button>';
+      } else {
+        html += '<button class="rescue-btn" onclick="window.__rescueArticle(\'' + escapeAttr(pmid) + "','" + escapeAttr(a.doi || "") + '\')" title="Add to rescue queue">Rescue</button>';
+      }
+      html += "</td>";
       html += "</tr>";
     }
     html += "</tbody></table>";
@@ -1660,7 +1889,7 @@ html.dark .score-high { background: #157347; }
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
     var el = document.getElementById("metaBar");
     var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
-    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()">History</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
     renderStatsPanel();
   }
 
@@ -1674,6 +1903,13 @@ html.dark .score-high { background: #157347; }
   window.__toggleHistory = function() {
     var panel = document.getElementById("historyPanel");
     var btn = document.getElementById("historyToggle");
+    panel.classList.toggle("open");
+    if (btn) btn.classList.toggle("active");
+  };
+
+  window.__toggleRecent = function() {
+    var panel = document.getElementById("recentPanel");
+    var btn = document.getElementById("recentToggle");
     panel.classList.toggle("open");
     if (btn) btn.classList.toggle("active");
   };
@@ -1836,6 +2072,96 @@ html.dark .score-high { background: #157347; }
     }
 
     html += '</tbody></table>';
+    container.innerHTML = html;
+  }
+
+  // ------------------------------------------------------------------
+  // Recent additions
+  // ------------------------------------------------------------------
+
+  async function loadRecentAdditions() {
+    try {
+      var resp = await fetch("data/recent_additions.json");
+      if (!resp.ok) return;
+      recentAdditions = await resp.json();
+      renderRecentPanel();
+    } catch (e) {
+      // Silently ignore -- recent additions is optional
+    }
+  }
+
+  function renderRecentPanel() {
+    var container = document.getElementById("recentPanelContent");
+    if (!recentAdditions || !recentAdditions.additions || recentAdditions.additions.length === 0) {
+      container.innerHTML = '<div class="recent-empty">No recent additions recorded yet.</div>';
+      return;
+    }
+
+    // Filter to last 4 weeks
+    var cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 28);
+    var cutoffISO = cutoff.toISOString();
+
+    var recent = recentAdditions.additions.filter(function(a) {
+      return (a.uploaded_at || "") >= cutoffISO;
+    });
+
+    if (recent.length === 0) {
+      container.innerHTML = '<div class="recent-empty">No papers uploaded in the last 4 weeks.</div>';
+      return;
+    }
+
+    // Group by subcollection
+    var groups = {};
+    for (var i = 0; i < recent.length; i++) {
+      var a = recent[i];
+      var groupKey = a.subcollection || "Unknown";
+      if (!groups[groupKey]) groups[groupKey] = [];
+      groups[groupKey].push(a);
+    }
+
+    // Sort groups alphabetically
+    var groupKeys = Object.keys(groups).sort();
+
+    var sourceClass = {
+      "source:search": "recent-source-search",
+      "source:citation": "recent-source-citation",
+      "source:recent": "recent-source-recent",
+      "source:rescue": "recent-source-rescue",
+    };
+    var sourceLabel = {
+      "source:search": "search",
+      "source:citation": "citation",
+      "source:recent": "recent",
+      "source:rescue": "rescue",
+    };
+
+    var html = '<div style="margin-bottom:8px;font-size:13px;color:var(--text-secondary)">' + recent.length + ' paper' + (recent.length !== 1 ? 's' : '') + ' uploaded in the last 4 weeks</div>';
+
+    for (var gi = 0; gi < groupKeys.length; gi++) {
+      var gk = groupKeys[gi];
+      var items = groups[gk];
+      // Sort by upload date descending
+      items.sort(function(a, b) { return (b.uploaded_at || "").localeCompare(a.uploaded_at || ""); });
+
+      html += '<div class="recent-group-header">' + escapeHtml(gk) + '<span class="recent-group-count">(' + items.length + ')</span></div>';
+
+      for (var ii = 0; ii < items.length; ii++) {
+        var item = items[ii];
+        var url = item.pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + item.pmid : "#";
+        var src = item.source || "";
+        var srcCls = sourceClass[src] || "";
+        var srcLbl = sourceLabel[src] || src.replace("source:", "");
+        var dateStr = item.uploaded_at ? new Date(item.uploaded_at).toLocaleDateString() : "";
+
+        html += '<div class="recent-item">';
+        if (srcLbl) html += '<span class="recent-source-tag ' + srcCls + '">' + escapeHtml(srcLbl) + '</span>';
+        html += '<a href="' + escapeAttr(url) + '" target="_blank" rel="noopener">' + escapeHtml(item.title || "Untitled") + '</a>';
+        html += '<span class="recent-meta">' + escapeHtml(item.year || "") + (dateStr ? " | " + dateStr : "") + '</span>';
+        html += '</div>';
+      }
+    }
+
     container.innerHTML = html;
   }
 
@@ -2002,6 +2328,7 @@ html.dark .score-high { background: #157347; }
 
   loadData();
   loadRunHistory();
+  loadRecentAdditions();
 
 })();
 </script>
