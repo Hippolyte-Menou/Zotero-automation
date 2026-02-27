@@ -8,27 +8,27 @@ OpenAlex-powered literature search with two complementary pipelines -- gene-spec
 
 For each gene, the pipeline runs three passes:
 
-#### Pass 1 -- Search (bootstrap only)
+#### Pass 1 -- Search (bootstrap + periodic re-search)
 
-Skipped if the gene already has papers in Zotero (uses existing collection as seeds instead).
-
-When the collection is empty, searches OpenAlex using a boolean query:
+On first encounter (empty collection), searches OpenAlex using a boolean query:
 
 ```
 (GENE OR alias1 OR alias2) AND ("disease A" OR "disease B" OR ...)
 ```
 
-- Gene terms come from HGNC aliases
+- Gene terms come from HGNC aliases (with per-gene `blocked_aliases` to suppress noisy aliases)
 - Disease terms come from the `tags` field in `genes.yml` (slug `retinitis-pigmentosa` -> `"retinitis pigmentosa"`)
 - Filtered to `type:article, has_pmid:true`
 - Capped at `search.max_results` results (default 25)
 - Papers passing text exclusion are uploaded with `source:search` tag
 
+Once a gene has papers, search is skipped unless `re_search_interval_weeks` has elapsed since the last search date (tracked per gene in the citation cache). This catches papers that match the query but are not reachable via citation expansion.
+
 #### Pass 2 -- Citation network expansion
 
 Expands from the seed set (existing Zotero papers, or search results) via two hops:
 
-**Hop 1**: For each seed, collect backward references and forward citations. Score every candidate:
+**Hop 1**: For each seed, collect backward references (cached per seed) and forward citations. Score every candidate:
 
 ```
 effective_score = co_citations + bib_coupling_bonus + recency_bonus
@@ -98,7 +98,7 @@ Per-disease result cap = `max_results / len(diseases)` (floor of 5).
 
 After search:
 1. Apply text exclusion and MeSH exclusion filters
-2. Deduplicate against shared PMID set (cross-pipeline)
+2. Deduplicate against shared PMID set (cross-pipeline); DOI used as secondary dedup key for records missing PMIDs
 3. Upload with `source:search` tag, tagged with category and sub-topic names
 4. Citation expansion (if enabled) with mention-term filtering
 5. Recent papers pass for current-year publications
@@ -137,6 +137,7 @@ Add your genes of interest. Each gene can have disease keyword tags and optional
 search:
   max_results: 25          # cap search results per gene (bootstrap only)
   recent_max_results: 10   # cap recent-papers pass per gene
+  re_search_interval_weeks: 8   # re-run search pass every N weeks (0 = disabled)
 
 citation_expansion:
   max_seed_papers: 100     # top N most-cited seeds used for expansion
@@ -153,11 +154,13 @@ genes:
       - retinitis-pigmentosa
     exclude_text:           # optional per-gene override (inherits defaults otherwise)
       - "some term"
+    blocked_aliases:        # suppress HGNC aliases that are common words or collide
+      - "ABC"
 ```
 
 #### `topics.yml` -- topic pipeline
 
-Define categories and sub-topics with keywords. Settings inherit: sub-topic > category > global.
+Define categories and sub-topics with keywords. Settings inherit: sub-topic > category > global. Category aliases for the CLI are defined in `topics.yml` under each category's `alias` field.
 
 ```yaml
 search:
@@ -170,6 +173,7 @@ openalex_scoping:
 
 categories:
   - name: "1 - Anatomy"
+    alias: anatomy
     sub_topics:
       - name: "Tunique externe"
         collection: "Tunique externe"
@@ -178,6 +182,7 @@ categories:
           - "sclera structure"
 
   - name: "5 - Pathologies"
+    alias: pathologies
     sub_topics:
       - name: "Dystrophies retiniennes"
         collection: "Dystrophies retiniennes"
@@ -217,6 +222,8 @@ python run.py --topics "1 - Anatomy"   # specific category (full name)
 
 ### Category aliases
 
+Aliases are defined in `topics.yml`. Default aliases:
+
 | Alias | Resolves to |
 |-------|-------------|
 | `anatomy` | `1 - Anatomy` |
@@ -227,17 +234,20 @@ python run.py --topics "1 - Anatomy"   # specific category (full name)
 
 ## Notes
 
-- Idempotent: re-running only adds newly published papers (dedup by PMID)
-- Cross-pipeline dedup: shared PMID set prevents the same paper appearing in both gene and topic collections
-- Incremental: once a gene has papers in Zotero, search is skipped and existing papers seed the citation expansion
+- Idempotent: re-running only adds newly published papers (dedup by PMID + DOI)
+- Cross-pipeline dedup: shared PMID/DOI set prevents the same paper appearing in both gene and topic collections
+- Incremental: once a gene has papers in Zotero, search is skipped until `re_search_interval_weeks` elapses
 - Text exclusion (title + abstract, whole-word regex) removes off-topic papers (cancer, tumor, etc.)
 - MeSH exclusion removes papers tagged with excluded MeSH descriptors (Neoplasms, Diabetes Mellitus, etc.)
-- Provenance tagging: `source:search`, `source:citation`, `source:recent`
+- Provenance tagging: `source:search`, `source:citation`, `source:recent`, `source:rescue`
 - Zotero uploads use batch API (50 items/request) with 60s timeout and retry (stops after first retry on timeout to avoid duplicates)
+- Post-upload verification: re-fetches collection PMIDs after each batch and warns about silently lost papers
 - OpenAlex API: separate retry budgets for errors (3 attempts) and rate limits (5 attempts with exponential backoff)
 - HGNC alias resolution retries transient failures (3 attempts)
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution (reduces API calls)
+- Backward references are cached per seed in the citation cache to avoid redundant API calls on stable papers
 - Failed API request count logged at end of run for visibility
+- Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary
 - Logs are uploaded as GitHub Actions artifacts (retained 30 days)
 
 ---
@@ -246,54 +256,66 @@ python run.py --topics "1 - Anatomy"   # specific category (full name)
 
 Every pipeline run generates a JSON log of articles that were considered but ultimately rejected. These near-misses are deployed as a static GitHub Pages dashboard so you can review what was filtered out and rescue interesting papers.
 
-![Dashboard landing page](docs/screenshots/dashboard-landing.png)
-
-![Gene view with score progress bars](docs/screenshots/gene-view.png)
-
-![Shared near-misses across subcollections](docs/screenshots/shared-near-misses.png)
-
-![Summary statistics panel](docs/screenshots/stats-panel.png)
-
-![Threshold tuning widget](docs/screenshots/threshold-tuning.png)
-
-![Dark mode](docs/screenshots/dark-mode.png)
-
 ### What gets logged
 
 | Rejection reason | When | Details captured |
 |---|---|---|
 | `score_below_threshold` | Citation expansion: candidate scored below adaptive threshold | co-citations, bib coupling, recency bonus, effective score, threshold, direction |
-| `text_exclusion` | Title/abstract matched a blocked term (cancer, tumor, mouse model, ...) | matched term |
-| `mesh_exclusion` | MeSH descriptors matched a blocked descriptor (Neoplasms, Diabetes, ...) | matched MeSH term |
+| `text_exclusion` | Title/abstract matched a blocked term (cancer, tumor, mouse model, ...) | matched term, highlighted in title and abstract |
+| `mesh_exclusion` | MeSH descriptors matched a blocked descriptor (Neoplasms, Diabetes, ...) | matched MeSH descriptor, shown as a tag badge |
 | `mention_filter` | Citation candidate passed scoring but gene/keyword not mentioned in title or abstract | co-citations, bib coupling, recency bonus, effective score, direction |
 
 For `score_below_threshold`, metadata is fetched for the top 50 candidates per hop (ranked by effective score) to keep API calls bounded.
 
 ### Dashboard features
 
+**Navigation and filtering**
 - **Sidebar navigation**: collapsible tree following vault hierarchy (1-Anatomy through 6-Genes), with article counts per subcollection
 - **Search**: real-time text filter on subcollection names; A-Z letter filter for genes
 - **Reason filter**: dropdown to show all reasons or a specific one (defaults to score_below_threshold)
 - **Sortable columns**: clickable headers (Article, Reason, Score, Cited, Year) with toggle asc/desc and visual sort arrows
+- **Recurring filter**: checkbox to show only articles seen in multiple pipeline runs
+
+**Article display**
 - **Article table**: title (linked to PubMed), authors, journal, year, citation count, color-coded rejection badge, score breakdown for citation candidates
 - **Score progress bars**: for score-below-threshold articles, a visual bar showing `effective_score / threshold` ratio with red (< 50%) / amber (50-80%) / green (> 80%) gradient
 - **"Closest to threshold" sort**: preset that orders articles by how close they came to passing, auto-filtering to score-based rejections
-- **Summary statistics panel**: collapsible stats bar (toggle via "Stats" button) showing total rejections, breakdown by reason as horizontal bars, and top 5 subcollections by article count
-- **Cumulative tracking**: merges new rejections with existing data across runs; tracks `first_seen`, `last_seen`, and `seen_count` per article; recurring articles are flagged with a badge
-- **Cross-subcollection view**: "Shared Near-Misses" entry in sidebar showing articles rejected in 2+ genes/topics, signaling broad relevance
-- **Threshold tuning**: sidebar widget to adjust the adaptive threshold and preview which articles would have passed, with rescued articles highlighted in the table
+- **Exclusion trigger highlighting**: for text-excluded articles, the matched term is highlighted in both title and abstract; for MeSH-excluded articles, the triggering descriptor is shown as a colored tag badge
 - **Expandable abstracts**: click to toggle per article
 - **Pagination**: 50 articles per page
-- **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import (LaTeX special characters escaped)
-- **Dark mode**: defaults to system preference via `prefers-color-scheme`, with a manual toggle button in the header bar (persists via localStorage)
+
+**Analysis panels** (toggle via header buttons)
+- **Stats panel**: total rejections, breakdown by reason as horizontal bars, top 5 subcollections by article count, pipeline run count
+- **History panel**: per-run metrics table (date, pipelines run, papers found/new/uploaded/failed, OpenAlex API errors) loaded from `data/run_history.json`
+- **Recent additions panel**: papers uploaded in the last 4 weeks grouped by subcollection, with source-tag badges (search/citation/recent/rescue) and PubMed links, loaded from `data/recent_additions.json`
+
+**Cumulative tracking**
+- Merges new rejections with existing data across runs; tracks `first_seen`, `last_seen`, and `seen_count` per article
+- Recurring articles are flagged with a badge showing how many runs they have appeared in
+- Cross-subcollection view: "Shared Near-Misses" entry in sidebar showing articles rejected in 2+ genes/topics
+
+**Rescue queue**
+- Per-article "Rescue" button saves articles to a localStorage queue
+- "Download rescue_queue.json" exports the queue for bot pickup
+- On the next pipeline run, `run.py` reads `data/rescue_queue.json`, looks up each article on OpenAlex, uploads it to the target Zotero collection with `source:rescue` tag, and writes back any failed entries for retry
+- Rescued articles appear in the Recent additions panel on the next dashboard deployment
+
+**Threshold tuning**
+- Sidebar widget to adjust the adaptive threshold and preview which articles would have passed
+- Rescued articles highlighted with a "PASS" badge in the table
+- Reset button restores the current threshold
+
+**Interface**
+- **BibTeX export**: select articles via checkboxes, export as `.bib` file for manual Zotero import (LaTeX special characters escaped, DOI normalized)
+- **Dark mode**: defaults to system preference via `prefers-color-scheme`, manual toggle persists via localStorage; panel open states preserved on toggle
 - **Mobile responsive**: hamburger menu toggle for sidebar on screens < 768px
-- **Accessible**: ARIA labels on all interactive elements, keyboard navigation (Enter/Space) on sidebar tree items
+- **Accessible**: ARIA labels on all interactive elements, keyboard navigation (Enter/Space) on sidebar tree items and tuning panel header
 
 ### How it deploys
 
 After each pipeline run, the GitHub Actions workflow:
 
-1. Copies `data/near_misses.json` into `site/data/`
+1. Copies `data/near_misses.json`, `data/run_history.json`, `data/recent_additions.json`, and `data/rescue_queue.json` into `site/data/`
 2. Deploys the `site/` directory to the `gh-pages` branch via `peaceiris/actions-gh-pages@v4` (only if data preparation succeeds)
 
 The workflow has a 120-minute timeout on the bot step.
@@ -311,16 +333,28 @@ The dashboard is then accessible at `https://<username>.github.io/Zotero-automat
 Generate synthetic test data and serve locally:
 
 ```bash
-python generate_test_data.py          # creates site/data/near_misses.json with ~880 articles
+python generate_test_data.py          # creates ~990 near-misses + run history + recent additions + rescue queue
 python -m http.server 8000 -d site    # open http://localhost:8000
 ```
+
+`generate_test_data.py` writes four files to `site/data/`:
+
+| File | Content |
+|---|---|
+| `near_misses.json` | ~990 synthetic rejected articles with cumulative tracking fields |
+| `run_history.json` | 8 synthetic pipeline runs over the last 8 weeks |
+| `recent_additions.json` | ~90 synthetic uploaded papers from the last 6 weeks |
+| `rescue_queue.json` | 5 pre-populated rescue queue entries |
 
 ### Files
 
 | File | Purpose |
 |---|---|
-| `genebot/rejection_log.py` | `RejectionLog` class -- accumulates rejected articles during a pipeline run |
+| `genebot/rejection_log.py` | `RejectionLog` class -- accumulates rejected articles, handles cumulative merge with previous data |
 | `site/index.html` | Complete single-page dashboard (HTML + CSS + JS, no dependencies) |
-| `generate_test_data.py` | Generates realistic synthetic near-misses for testing the dashboard |
+| `generate_test_data.py` | Generates realistic synthetic data for all four dashboard data files |
 | `data/near_misses.json` | Pipeline output (gitignored, generated at runtime) |
-| `site/data/near_misses.json` | Copy for gh-pages deployment (gitignored, generated by CI) |
+| `data/run_history.json` | Cumulative per-run metrics (gitignored, generated at runtime) |
+| `data/recent_additions.json` | Uploaded papers tracker (gitignored, generated at runtime) |
+| `data/rescue_queue.json` | Rescued articles pending bot pickup (gitignored, generated by dashboard export) |
+| `site/data/*.json` | Copies for gh-pages deployment (gitignored, generated by CI) |
