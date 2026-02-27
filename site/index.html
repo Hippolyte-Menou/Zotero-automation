@@ -356,6 +356,24 @@ select, button {
   font-style: italic;
   margin-top: 2px;
 }
+.trigger-mark {
+  background: rgba(220, 53, 69, 0.18);
+  border-radius: 2px;
+  padding: 0 1px;
+}
+html.dark .trigger-mark {
+  background: rgba(220, 53, 69, 0.3);
+}
+.mesh-trigger-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  background: var(--badge-mesh);
+  color: #fff;
+  margin-top: 3px;
+}
 
 .abstract-toggle {
   font-size: 12px;
@@ -1344,14 +1362,23 @@ html.dark .score-high { background: #157347; }
       const abstractId = "abs-" + pmid;
       const articleRescued = isRescued(a);
 
+      var isTextExcl = a.reason === "text_exclusion" && a.matched_term;
+      var isMeshExcl = a.reason === "mesh_exclusion" && a.matched_term;
+      var titleHtml = isTextExcl
+        ? highlightTerm(a.title || "Untitled", a.matched_term)
+        : escapeHtml(a.title || "Untitled");
+
       html += '<tr' + (articleRescued ? ' class="rescued"' : '') + '>';
       html += '<td class="col-check"><input type="checkbox" data-pmid="' + escapeAttr(pmid) + '"' + checked + ' onchange="window.__toggleSelect(this)"></td>';
       html += "<td>";
-      html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + escapeHtml(a.title || "Untitled") + '</a></div>';
+      html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + titleHtml + '</a></div>';
       html += '<div class="article-meta">' + escapeHtml(authors) + " &mdash; " + escapeHtml(a.journal || "") + "</div>";
       if (hasAbstract) {
+        var abstractHtml = isTextExcl
+          ? highlightTerm(a.abstract, a.matched_term)
+          : escapeHtml(a.abstract);
         html += '<button class="abstract-toggle" onclick="window.__toggleAbstract(\'' + escapeAttr(abstractId) + '\')">Show abstract</button>';
-        html += '<div class="abstract-text" id="' + abstractId + '">' + escapeHtml(a.abstract) + '</div>';
+        html += '<div class="abstract-text" id="' + abstractId + '">' + abstractHtml + '</div>';
       }
       html += "</td>";
       html += '<td class="col-reason">';
@@ -1359,7 +1386,9 @@ html.dark .score-high { background: #157347; }
       if ((a.seen_count || 1) > 1) {
         html += '<span class="badge badge-recurring" title="Seen in ' + a.seen_count + ' pipeline runs">x' + a.seen_count + '</span>';
       }
-      if (a.matched_term) {
+      if (a.matched_term && isMeshExcl) {
+        html += '<div><span class="mesh-trigger-tag">' + escapeHtml(a.matched_term) + '</span></div>';
+      } else if (a.matched_term) {
         html += '<div class="matched-term">"' + escapeHtml(a.matched_term) + '"</div>';
       }
       if (a.first_seen) {
@@ -1818,6 +1847,23 @@ html.dark .score-high { background: #157347; }
   function escapeAttr(s) {
     if (!s) return "";
     return s.replace(/\\/g, "\\\\").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function highlightTerm(text, term) {
+    if (!text || !term) return escapeHtml(text);
+    var escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    var re = new RegExp("(\\b" + escaped + "\\b)", "gi");
+    var parts = text.split(re);
+    var out = "";
+    for (var i = 0; i < parts.length; i++) {
+      if (re.test(parts[i])) {
+        out += '<span class="trigger-mark">' + escapeHtml(parts[i]) + '</span>';
+      } else {
+        out += escapeHtml(parts[i]);
+      }
+      re.lastIndex = 0;
+    }
+    return out;
   }
 
   // ------------------------------------------------------------------

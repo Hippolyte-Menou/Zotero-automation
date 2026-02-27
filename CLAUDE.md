@@ -70,7 +70,8 @@ Zotero-automation/
 - Dark mode: automatic via `prefers-color-scheme`
 - Mobile responsive: hamburger toggle for sidebar on screens < 768px
 - Accessible: ARIA labels, keyboard navigation (Enter/Space) on tree items, `role="button" tabindex="0"`
-- XSS-safe: `escapeAttr()` handles backslashes; all dynamic onclick values escaped
+- Exclusion trigger highlighting: text-excluded articles highlight the matched term in title/abstract; MeSH-excluded articles show the triggering descriptor as a colored tag
+- XSS-safe: `escapeAttr()` handles backslashes; all dynamic onclick values escaped; `highlightTerm()` escapes before wrapping in mark spans
 
 ## CLI reference
 
