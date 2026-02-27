@@ -1045,7 +1045,7 @@ html.dark .score-high { background: #157347; }
     </div>
     <div class="sidebar-tree" id="sidebarTree"></div>
     <div class="tuning-panel" id="tuningPanel">
-      <div class="tuning-header" onclick="window.__toggleTuning()">
+      <div class="tuning-header" role="button" tabindex="0" aria-label="Toggle threshold tuning panel" onclick="window.__toggleTuning()">
         <span class="arrow" id="tuningArrow">&#9654;</span>
         <span>Threshold Tuning</span>
       </div>
@@ -1779,6 +1779,7 @@ html.dark .score-high { background: #157347; }
 
   function escapeLatex(s) {
     if (!s) return "";
+    s = s.replace(/\\/g, "\\textbackslash{}");
     return s.replace(/([#$%&_{}~^])/g, "\\$1");
   }
 
@@ -1799,7 +1800,7 @@ html.dark .score-high { background: #157347; }
       "  journal = {" + journal + "},",
       "  year = {" + (article.year || "") + "},"
     ];
-    if (article.doi) lines.push("  doi = {" + article.doi + "},");
+    if (article.doi) lines.push("  doi = {" + escapeLatex(article.doi) + "},");
     if (article.pmid) lines.push("  pmid = {" + article.pmid + "},");
     lines.push("}");
     return lines.join("\n");
@@ -1894,7 +1895,7 @@ html.dark .score-high { background: #157347; }
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
     var el = document.getElementById("metaBar");
     var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
-    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()">' + themeLabel + '</button>';
+    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()" aria-label="Toggle statistics panel">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()" aria-label="Toggle run history panel">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()" aria-label="Toggle recent additions panel">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">' + themeLabel + '</button>';
     renderStatsPanel();
   }
 
@@ -2228,6 +2229,10 @@ html.dark .score-high { background: #157347; }
     body.classList.toggle("open");
     arrow.classList.toggle("open");
   };
+
+  document.querySelector(".tuning-header").addEventListener("keydown", function(e) {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); this.click(); }
+  });
 
   function getSubcollectionThreshold() {
     if (!data || !currentSubcollection) return null;

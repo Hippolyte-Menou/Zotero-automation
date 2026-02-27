@@ -278,7 +278,7 @@ def build_run_record(
             topic_totals[k] += s.get(k, 0)
 
     return {
-        "timestamp": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "timestamp": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "pipelines": {
             "genes": run_genes,
             "topics": run_topics,
@@ -507,7 +507,7 @@ def process_rescue_queue(
                 "subcollection": target_sub,
                 "category": target_cat,
                 "source": "source:rescue",
-                "uploaded_at": datetime.datetime.utcnow().strftime(
+                "uploaded_at": datetime.datetime.now(datetime.timezone.utc).strftime(
                     "%Y-%m-%dT%H:%M:%SZ"
                 ),
             })
@@ -563,12 +563,12 @@ def save_recent_additions(
         merged.append(a)
 
     # Prune entries older than 8 weeks
-    cutoff = datetime.datetime.utcnow() - datetime.timedelta(weeks=8)
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(weeks=8)
     cutoff_iso = cutoff.strftime("%Y-%m-%dT%H:%M:%SZ")
     merged = [a for a in merged if (a.get("uploaded_at", "") >= cutoff_iso)]
 
     data = {
-        "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "additions": merged,
     }
     with open(path, "w", encoding="utf-8") as f:
@@ -591,7 +591,7 @@ def _track_additions(
     """
     if tracker is None:
         return
-    now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     for r in records:
         if added_pmids is not None and r.get("pmid", "") not in added_pmids:
             continue

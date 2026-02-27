@@ -78,6 +78,9 @@ jobs:
           if [ -f data/recent_additions.json ]; then
             cp data/recent_additions.json site/data/
           fi
+          if [ -f data/rescue_queue.json ]; then
+            cp data/rescue_queue.json site/data/
+          fi
 
       - name: Deploy dashboard to GitHub Pages
         if: always() && steps.prepare-data.outcome == 'success'
