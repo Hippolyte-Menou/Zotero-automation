@@ -31,6 +31,16 @@ from genebot.rejection_log import RejectionLog
 
 logger = logging.getLogger("genebot")
 
+# -----------------------------------------------------------------
+# Global constants
+# -----------------------------------------------------------------
+
+RUN_HISTORY_PATH = "data/run_history.json"
+CHECKPOINT_PATH = "data/checkpoint.json"
+CHECKPOINT_MAX_AGE_HOURS = 48
+RESCUE_QUEUE_PATH = "data/rescue_queue.json"
+RECENT_ADDITIONS_PATH = "data/recent_additions.json"
+
 
 def filter_records_by_text(
     records: list[dict],
@@ -150,15 +160,6 @@ def save_citation_cache(cache: dict, path: str = "data/citation_cache.json") -> 
         json.dump(cache, f, ensure_ascii=False)
     seed_count = len(cache.get("seeds", {}))
     logger.info(f"Saved citation cache: {seed_count} seeds -> {path}")
-
-
-# -----------------------------------------------------------------
-# Checkpoint / run-history constants (must precede functions that use them)
-# -----------------------------------------------------------------
-
-RUN_HISTORY_PATH = "data/run_history.json"
-CHECKPOINT_PATH = "data/checkpoint.json"
-CHECKPOINT_MAX_AGE_HOURS = 48
 
 
 def load_checkpoint(path: str = CHECKPOINT_PATH) -> dict | None:
@@ -431,10 +432,6 @@ def write_github_summary(record: dict) -> None:
         logger.info("Wrote GitHub Actions job summary")
     except OSError as e:
         logger.warning(f"Could not write GitHub summary: {e}")
-
-
-RESCUE_QUEUE_PATH = "data/rescue_queue.json"
-RECENT_ADDITIONS_PATH = "data/recent_additions.json"
 
 
 def load_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> list[dict]:
