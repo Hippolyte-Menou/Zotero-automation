@@ -42,6 +42,87 @@
         "per_topic": []
       },
       "openalex_failed_requests": 0
+    },
+    {
+      "timestamp": "2026-03-01T18:04:33Z",
+      "pipelines": {
+        "genes": true,
+        "topics": false
+      },
+      "genes": {
+        "totals": {
+          "found": 97,
+          "new": 25,
+          "added": 25,
+          "failed": 0,
+          "cit_candidates": 6,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_gene": [
+          {
+            "symbol": "DCT",
+            "found": 72,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 6,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SIX1",
+            "found": 25,
+            "new": 25,
+            "added": 25,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {
+              "41749365": "XK3DJ8WE",
+              "41760717": "XQBGK52G",
+              "41756954": "8D928BJR",
+              "41734531": "EEIPBI8N",
+              "41712287": "UGKSIABQ",
+              "41756981": "Q6CHTJGE",
+              "41703130": "26FTSHD2",
+              "41698564": "SEEZU57Q",
+              "41667105": "WSTSQQH8",
+              "41727038": "XM8AX9DF",
+              "41684316": "HH24Q5X3",
+              "41681676": "4SKEQXKG",
+              "41645416": "N682XR3Z",
+              "41651226": "FBW9AIG3",
+              "41684930": "DRQHKCNE",
+              "41637526": "XBWMNN8D",
+              "41632294": "QZPSBZNV",
+              "41629251": "D5SMX9NA",
+              "41656765": "ZB2SNCFV",
+              "41720090": "JIUR3FPR",
+              "41639491": "FXFSEANB",
+              "41747744": "5IAP62HE",
+              "41655632": "ZN5KZTIH",
+              "41620469": "CGFT9WHA",
+              "41631719": "ZSPCNHGG"
+            },
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          }
+        ]
+      },
+      "topics": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_topic": []
+      },
+      "openalex_failed_requests": 0
     }
   ]
 }
