@@ -31,6 +31,16 @@ from genebot.rejection_log import RejectionLog
 
 logger = logging.getLogger("genebot")
 
+# -----------------------------------------------------------------
+# Global constants
+# -----------------------------------------------------------------
+
+RUN_HISTORY_PATH = "data/run_history.json"
+CHECKPOINT_PATH = "data/checkpoint.json"
+CHECKPOINT_MAX_AGE_HOURS = 48
+RESCUE_QUEUE_PATH = "data/rescue_queue.json"
+RECENT_ADDITIONS_PATH = "data/recent_additions.json"
+
 
 def filter_records_by_text(
     records: list[dict],
@@ -291,15 +301,6 @@ def _link_relations(
     logger.info(f"{gene_symbol}: linked relations for {linked} newly uploaded papers")
 
 
-# -----------------------------------------------------------------
-# Run history / metrics
-# -----------------------------------------------------------------
-
-RUN_HISTORY_PATH = "data/run_history.json"
-CHECKPOINT_PATH = "data/checkpoint.json"
-CHECKPOINT_MAX_AGE_HOURS = 48
-
-
 def build_run_record(
     run_genes: bool,
     run_topics: bool,
@@ -431,10 +432,6 @@ def write_github_summary(record: dict) -> None:
         logger.info("Wrote GitHub Actions job summary")
     except OSError as e:
         logger.warning(f"Could not write GitHub summary: {e}")
-
-
-RESCUE_QUEUE_PATH = "data/rescue_queue.json"
-RECENT_ADDITIONS_PATH = "data/recent_additions.json"
 
 
 def load_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> list[dict]:
