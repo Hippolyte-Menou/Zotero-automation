@@ -152,6 +152,15 @@ def save_citation_cache(cache: dict, path: str = "data/citation_cache.json") -> 
     logger.info(f"Saved citation cache: {seed_count} seeds -> {path}")
 
 
+# -----------------------------------------------------------------
+# Checkpoint / run-history constants (must precede functions that use them)
+# -----------------------------------------------------------------
+
+RUN_HISTORY_PATH = "data/run_history.json"
+CHECKPOINT_PATH = "data/checkpoint.json"
+CHECKPOINT_MAX_AGE_HOURS = 48
+
+
 def load_checkpoint(path: str = CHECKPOINT_PATH) -> dict | None:
     """Load checkpoint from a previous interrupted run.
 
@@ -289,15 +298,6 @@ def _link_relations(
             linked += 1
 
     logger.info(f"{gene_symbol}: linked relations for {linked} newly uploaded papers")
-
-
-# -----------------------------------------------------------------
-# Run history / metrics
-# -----------------------------------------------------------------
-
-RUN_HISTORY_PATH = "data/run_history.json"
-CHECKPOINT_PATH = "data/checkpoint.json"
-CHECKPOINT_MAX_AGE_HOURS = 48
 
 
 def build_run_record(
