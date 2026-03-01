@@ -8,6 +8,10 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [x] **DOI dedup** -- Add DOI as secondary dedup key alongside PMID. Catches preprints, European journals, and records missing PMIDs that currently slip through.
 
+- [x] **Orphan paper detection (Inverse bot)** -- Compute internal citation graph centrality for all Zotero library papers. Flag orphans (centrality = 0, no backward/forward/bib-coupling links to any other library paper) for manual review. *(Implemented: `inverse_bot.py` builds adjacency from backward refs + forward citations + bib coupling, scores every paper, flags zero-centrality orphans; output `site/data/flagged_papers.json` with `hierarchy` dict + `category`/`subcollection` fields; whitelist in `data/inverse_bot_whitelist.json`; separate Wednesday cron `inverse_bot.yml`; dashboard Review tab with dismiss + whitelist download.)*
+
+- [x] **Review tab: same sidebar architecture as Near Misses** -- Review tab sidebar was a flat list of subcollection names derived from a `subcollections` array. Aligned it with the Near Misses two-tier collapsible hierarchy (category -> subcollection, A-Z strip for Genes, "Shared Flagged" top entry). *(Implemented: `zotero_client.get_all_items_full()` now resolves `category` and `subcollection` string fields via parent-chain walk; `inverse_bot.save_flagged_papers()` builds `hierarchy` dict; `generate_test_data.py` updated to match; `renderReviewSidebar()` rewritten to mirror `renderSidebar()`; `getReviewArticles()` uses comma-split filtering identical to Near Misses.)*
+
 - [ ] **Inverse bot: flag low-value library papers** -- [DESIGN] For each existing library paper, compute how well it would score if discovered today. Flag the bottom percentile for manual review/removal. Helps keep the library lean as it grows.
 
 - [ ] **Citation graph visualization** -- [DESIGN] Render the citation network per gene (seeds + expanded papers + relations) as an interactive graph. Shows how papers connect, where expansion reaches, and which papers are hubs. Could be a dashboard tab or Excalidraw export.

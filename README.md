@@ -204,6 +204,8 @@ categories:
   - `genes`: space-separated gene symbols (e.g., `CRB1 PAX6`)
   - `categories`: topic category filter (e.g., `1 - Anatomy`)
 
+The orphan detection workflow runs automatically every Wednesday and can also be triggered manually from Actions tab > Inverse Bot.
+
 ## Local usage
 
 ```bash
@@ -235,6 +237,7 @@ Aliases are defined in `topics.yml`. Default aliases:
 ## Notes
 
 - Idempotent: re-running only adds newly published papers (dedup by PMID + DOI)
+- Orphan detection: a separate Wednesday workflow (`inverse_bot.py`) scores every library paper for internal citation centrality and flags isolated papers (no backward/forward/bib-coupling links to any other library paper) in the dashboard Review tab
 - Cross-pipeline dedup: shared PMID/DOI set prevents the same paper appearing in both gene and topic collections
 - Incremental: once a gene has papers in Zotero, search is skipped until `re_search_interval_weeks` elapses
 - Text exclusion (title + abstract, whole-word regex) removes off-topic papers (cancer, tumor, etc.)
@@ -300,6 +303,21 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 - On the next pipeline run, `run.py` reads `data/rescue_queue.json`, looks up each article on OpenAlex, uploads it to the target Zotero collection with `source:rescue` tag, and writes back any failed entries for retry
 - Rescued articles appear in the Recent additions panel on the next dashboard deployment
 
+### Review tab (orphan detection)
+
+A companion tab in the same dashboard shows papers flagged by the inverse bot as orphans -- library papers with zero internal citation centrality (no backward reference, forward citation, or bibliographic coupling link connects them to any other library paper).
+
+**How it works**: `inverse_bot.py` builds a citation adjacency graph from all Zotero library papers using OpenAlex data, computes a centrality score for each paper, and flags those with score = 0. Results are written to `site/data/flagged_papers.json` and deployed to gh-pages.
+
+**Dashboard features**:
+- Same two-tier collapsible sidebar as Near Misses: category -> subcollection, A-Z letter strip for the Genes category, "Shared Flagged" entry at top for papers in multiple collections
+- Article table with title, authors, journal, year, and source-tag badge
+- Per-article "Dismiss" button: saves the PMID to localStorage `inverseBotsWhitelist`, hiding it from the list
+- "Download whitelist" exports `inverse_bot_whitelist.json` for bot pickup; the inverse bot skips whitelisted papers on subsequent runs
+- Dark mode, mobile responsive, accessible (same as Near Misses)
+
+**Runs on a separate schedule**: Wednesday cron (`.github/workflows/inverse_bot.yml`), independent from the weekly genebot workflow.
+
 **Threshold tuning**
 - Sidebar widget to adjust the adaptive threshold and preview which articles would have passed
 - Rescued articles highlighted with a "PASS" badge in the table
@@ -338,15 +356,16 @@ The dashboard is then accessible at `https://<username>.github.io/Zotero-automat
 Generate synthetic test data and serve locally:
 
 ```bash
-python generate_test_data.py          # creates ~990 near-misses + run history + recent additions + rescue queue
+python generate_test_data.py          # creates near-misses + flagged papers + run history + recent additions + rescue queue
 python -m http.server 8000 -d site    # open http://localhost:8000
 ```
 
-`generate_test_data.py` writes four files to `site/data/`:
+`generate_test_data.py` writes five files to `site/data/`:
 
 | File | Content |
 |---|---|
 | `near_misses.json` | ~990 synthetic rejected articles with cumulative tracking fields |
+| `flagged_papers.json` | ~150 synthetic orphan papers with `hierarchy` + `category`/`subcollection` fields |
 | `run_history.json` | 8 synthetic pipeline runs over the last 8 weeks |
 | `recent_additions.json` | ~90 synthetic uploaded papers from the last 6 weeks |
 | `rescue_queue.json` | 5 pre-populated rescue queue entries |
@@ -355,10 +374,13 @@ python -m http.server 8000 -d site    # open http://localhost:8000
 
 | File | Purpose |
 |---|---|
+| `inverse_bot.py` | Orphan detection: citation centrality scoring, flags isolated library papers |
 | `genebot/rejection_log.py` | `RejectionLog` class -- accumulates rejected articles, handles cumulative merge with previous data |
-| `site/index.html` | Complete single-page dashboard (HTML + CSS + JS, no dependencies) |
-| `generate_test_data.py` | Generates realistic synthetic data for all four dashboard data files |
+| `site/index.html` | Complete single-page dashboard with Near Misses and Review tabs (HTML + CSS + JS, no dependencies) |
+| `generate_test_data.py` | Generates realistic synthetic data for all five dashboard data files |
 | `data/near_misses.json` | Pipeline output (gitignored, generated at runtime) |
+| `data/flagged_papers.json` | Orphan detection output (gitignored, generated at runtime) |
+| `data/inverse_bot_whitelist.json` | Dismissed orphan PMIDs (gitignored, generated by dashboard export) |
 | `data/run_history.json` | Cumulative per-run metrics (gitignored, generated at runtime) |
 | `data/recent_additions.json` | Uploaded papers tracker (gitignored, generated at runtime) |
 | `data/rescue_queue.json` | Rescued articles pending bot pickup (gitignored, generated by dashboard export) |

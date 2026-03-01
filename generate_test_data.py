@@ -540,6 +540,86 @@ def generate_recent_additions(now, articles):
     }
 
 
+def generate_flagged_papers(now):
+    """Generate synthetic flagged_papers.json for inverse bot dashboard testing.
+
+    Simulates ~60 orphan papers scattered across gene and topic subcollections.
+    """
+    rng = random.Random(55)
+    source_tags = ["source:search", "source:citation", "source:recent"]
+    source_weights = [0.4, 0.45, 0.15]
+
+    articles = []
+    pmid_base = 50000000
+
+    all_subs = []
+    for gene in rng.sample(GENES, 30):
+        all_subs.append((gene, "6 - Genes"))
+    for cat, subs in TOPIC_HIERARCHY.items():
+        for sub in rng.sample(subs, min(len(subs), 2)):
+            all_subs.append((sub, cat))
+
+    for i, (sub, cat) in enumerate(all_subs):
+        n = rng.randint(1, 4)
+        for j in range(n):
+            pmid = str(pmid_base + i * 10 + j)
+            source = rng.choices(source_tags, weights=source_weights, k=1)[0]
+            # ~30% of flagged papers appear in 2 subcollections (comma-joined strings)
+            subcollection = sub
+            category = cat
+            if rng.random() < 0.3 and len(all_subs) > 1:
+                other_sub, other_cat = rng.choice(all_subs)
+                if other_sub != sub:
+                    subcollection = f"{sub}, {other_sub}"
+                    if other_cat != cat:
+                        category = f"{cat}, {other_cat}"
+            articles.append({
+                "pmid": pmid,
+                "doi": f"10.9999/orphan.{pmid}",
+                "zotero_key": f"ZK{pmid}",
+                "title": rng.choice(GENE_TITLE_TEMPLATES).format(
+                    gene=sub if cat == "6 - Genes" else rng.choice(GENES),
+                    disease=rng.choice(DISEASES),
+                    region=rng.choice(REGIONS),
+                    model=rng.choice(MODELS),
+                ),
+                "authors": [
+                    [rng.choice(FIRST_NAMES), rng.choice(LAST_NAMES)]
+                    for _ in range(rng.randint(1, 4))
+                ],
+                "journal": rng.choice(JOURNALS),
+                "year": str(rng.choice([2018, 2019, 2020, 2021, 2022])),
+                "abstract": random_abstract(),
+                "cited_by_count": rng.randint(0, 8),
+                "centrality": 0,
+                "source_tags": [source],
+                "category": category,
+                "subcollection": subcollection,
+            })
+
+    articles.sort(key=lambda a: a["title"].lower())
+
+    # Build hierarchy dict (same format as near_misses.json)
+    hierarchy: dict = {}
+    for a in articles:
+        cats = [c.strip() for c in a["category"].split(",") if c.strip()]
+        subs = [s.strip() for s in a["subcollection"].split(",") if s.strip()]
+        for c in cats:
+            hierarchy.setdefault(c, set()).update(subs)
+    hierarchy = {k: sorted(v) for k, v in sorted(hierarchy.items())}
+
+    return {
+        "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "threshold_k": 0,
+        "total_evaluated": len(articles) + rng.randint(400, 800),
+        "total_flagged": len(articles),
+        "total_dismissed": 0,
+        "total_unresolvable": rng.randint(5, 20),
+        "hierarchy": hierarchy,
+        "articles": articles,
+    }
+
+
 def generate_rescue_queue(articles):
     """Generate a rescue queue with 5 near-miss articles."""
     rng = random.Random(77)
@@ -665,6 +745,11 @@ def main():
     with open("site/data/rescue_queue.json", "w", encoding="utf-8") as f:
         json.dump(rescue_queue, f, ensure_ascii=False, indent=2)
 
+    # Flagged papers (inverse bot)
+    flagged_papers = generate_flagged_papers(now)
+    with open("site/data/flagged_papers.json", "w", encoding="utf-8") as f:
+        json.dump(flagged_papers, f, ensure_ascii=False, indent=1)
+
     recurring = sum(1 for a in articles if a.get("seen_count", 1) > 1)
     print(f"Generated {len(articles)} synthetic near-miss articles")
     print(f"  Genes: {len(GENES)} subcollections")
@@ -680,6 +765,8 @@ def main():
     print(f"  Written to site/data/recent_additions.json")
     print(f"Generated rescue queue: {len(rescue_queue)} entries")
     print(f"  Written to site/data/rescue_queue.json")
+    print(f"Generated flagged papers: {len(flagged_papers['articles'])} orphans")
+    print(f"  Written to site/data/flagged_papers.json")
 
 
 if __name__ == "__main__":

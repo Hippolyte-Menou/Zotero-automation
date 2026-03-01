@@ -1,0 +1,65 @@
+name: Inverse Bot
+
+on:
+  schedule:
+    - cron: '0 2 * * 3'  # Wednesday 02:00 UTC
+  workflow_dispatch:      # manual trigger from GitHub UI
+
+jobs:
+  inverse-bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch previous data from gh-pages
+        run: |
+          mkdir -p data site/data
+          git fetch origin gh-pages --depth=1 || true
+          git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
+          git show origin/gh-pages:data/inverse_bot_whitelist.json > data/inverse_bot_whitelist.json 2>/dev/null || echo '{"dismissed":[]}' > data/inverse_bot_whitelist.json
+
+      - name: Run inverse bot
+        timeout-minutes: 110
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: python inverse_bot.py
+
+      - name: Prepare dashboard data
+        run: |
+          mkdir -p site/data
+          if [ -f site/data/flagged_papers.json ]; then
+            echo "flagged_papers.json ready"
+          fi
+          if [ -f data/citation_cache.json ]; then
+            cp data/citation_cache.json site/data/
+          fi
+          if [ -f data/inverse_bot_whitelist.json ]; then
+            cp data/inverse_bot_whitelist.json site/data/
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          keep_files: true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: inverse-bot-logs-${{ github.run_id }}
+          path: logs/
+          retention-days: 30

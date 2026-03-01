@@ -501,7 +501,7 @@ def process_rescue_queue(
             if works:
                 work = works[0]
         if not work and doi:
-            works = openalex.fetch_works_by_doi(doi)
+            works = openalex.fetch_works_by_dois([doi])
             if works:
                 work = works[0]
 

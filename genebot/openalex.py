@@ -979,23 +979,43 @@ class OpenAlexClient:
         logger.info(f"Fetched {len(result)} works by PMID from OpenAlex")
         return result
 
-    def fetch_works_by_doi(self, doi: str) -> list[dict]:
-        """Fetch work metadata for a single DOI. Returns list (0 or 1 works)."""
-        # Normalize to bare DOI (strip URL prefix if present)
-        bare = doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
-        data = self._get(
-            "/works",
-            params={
-                "filter": f"doi:{bare},is_retracted:false",
-                "select": WORK_FIELDS,
-                "per_page": "1",
-            },
-        )
-        if not data or "results" not in data:
-            logger.info(f"DOI lookup returned no results: {bare}")
-            return []
-        logger.info(f"Fetched {len(data['results'])} work(s) by DOI from OpenAlex")
-        return data["results"]
+    def fetch_works_by_dois(self, dois: list[str]) -> list[dict]:
+        """Fetch work metadata for a list of DOIs.
+
+        Returns list of work dicts (same shape as fetch_works_by_pmids).
+        DOIs are normalised to lowercase bare form before querying.
+        Uses batches of up to 50 per request.
+        """
+        result: list[dict] = []
+        batch_size = 50
+
+        for i in range(0, len(dois), batch_size):
+            batch = dois[i : i + batch_size]
+            normalized_batch = [
+                d.replace("https://doi.org/", "").replace("http://doi.org/", "").lower()
+                for d in batch
+            ]
+            doi_filter = "|".join(normalized_batch)
+            page = 1
+            while True:
+                data = self._get(
+                    "/works",
+                    params={
+                        "filter": f"doi:{doi_filter},is_retracted:false",
+                        "select": WORK_FIELDS,
+                        "per_page": "200",
+                        "page": str(page),
+                    },
+                )
+                if not data or "results" not in data:
+                    break
+                result.extend(data["results"])
+                if len(data["results"]) < 200:
+                    break
+                page += 1
+
+        logger.info(f"Fetched {len(result)} works by DOI from OpenAlex")
+        return result
 
     # ------------------------------------------------------------------
     # Helpers

@@ -293,6 +293,126 @@ class ZoteroGroupClient:
         """Return DOIs collected by the last get_trashed_pmids() call."""
         return getattr(self, "_trashed_dois", set())
 
+    @staticmethod
+    def _get_top_level_ancestor(key: str, parent_map: dict) -> str:
+        """Walk up the collection parent chain and return the top-level ancestor key."""
+        visited: set[str] = set()
+        current = key
+        while True:
+            if current in visited:
+                break  # cycle protection
+            visited.add(current)
+            parent = parent_map.get(current)
+            if parent is None:
+                return current
+            current = parent
+        return key  # fallback
+
+    def get_all_items_full(self) -> list[dict]:
+        """Fetch all library items with full metadata for inverse bot analysis.
+
+        Returns a list of dicts with: pmid, doi, zotero_key, title, authors,
+        year, journal, abstract, source_tags, category, subcollection.
+
+        category and subcollection mirror the near-misses data model:
+        - category: top-level Zotero collection name (comma-joined if multiple)
+        - subcollection: direct collection name (comma-joined if multiple)
+
+        Items without both pmid and doi are skipped (cannot be matched on
+        OpenAlex for centrality computation).
+        """
+        import re as _re
+
+        logger.info("Fetching full library metadata for inverse bot analysis...")
+
+        # Build collection key -> name map and parent map
+        coll_map: dict[str, str] = {}
+        parent_map: dict[str, str | None] = {}
+        try:
+            collections = self.zot.everything(self.zot.collections())
+            for c in collections:
+                key = c["data"].get("key", "")
+                name = c["data"].get("name", "")
+                # pyzotero returns False (not None) for root collections
+                raw_parent = c["data"].get("parentCollection") or None
+                if key:
+                    if name:
+                        coll_map[key] = name
+                    parent_map[key] = raw_parent
+        except Exception as e:
+            logger.warning(
+                f"Could not fetch collections: {e}. Category names will be raw keys."
+            )
+
+        items = self._paginate_with_retry(
+            self.zot.items, "all library items (full)", itemType="-attachment"
+        )
+        if items is None:
+            logger.error("Failed to fetch library items for inverse bot")
+            return []
+
+        result: list[dict] = []
+        for item in items:
+            data = item.get("data", {})
+            zot_key = item.get("key", "") or data.get("key", "")
+
+            pmid = self._extract_pmid_from_data(data)
+            doi = self._extract_doi_from_data(data)
+
+            if not pmid and not doi:
+                continue  # Cannot match on OpenAlex
+
+            # Authors
+            authors: list[list[str]] = []
+            for creator in data.get("creators", []):
+                if creator.get("creatorType") == "author":
+                    first = creator.get("firstName", "")
+                    last = creator.get("lastName", "")
+                    authors.append([first, last])
+
+            # Year from date field
+            year = ""
+            date_str = data.get("date", "")
+            if date_str:
+                m = _re.search(r"\d{4}", date_str)
+                if m:
+                    year = m.group(0)
+
+            # Source tags (provenance)
+            source_tags = [
+                t["tag"] for t in data.get("tags", [])
+                if t.get("tag", "").startswith("source:")
+            ]
+
+            # Resolve collection keys to category (top-level) and subcollection (leaf)
+            seen_cats: dict[str, None] = {}
+            seen_subs: dict[str, None] = {}
+            for k in data.get("collections", []):
+                sub_name = coll_map.get(k, k)
+                anc_key = self._get_top_level_ancestor(k, parent_map)
+                cat_name = coll_map.get(anc_key, anc_key)
+                seen_subs[sub_name] = None
+                seen_cats[cat_name] = None
+            category = ", ".join(seen_cats)
+            subcollection = ", ".join(seen_subs)
+
+            result.append({
+                "pmid": pmid,
+                "doi": doi,
+                "zotero_key": zot_key,
+                "title": data.get("title", ""),
+                "authors": authors,
+                "year": year,
+                "journal": data.get("publicationTitle", ""),
+                "abstract": data.get("abstractNote", ""),
+                "source_tags": source_tags,
+                "category": category,
+                "subcollection": subcollection,
+            })
+
+        logger.info(f"Retrieved {len(result)} library items with identifiers")
+        return result
+
     def get_collection_pmids(self, collection_key: str) -> list[str]:
         """Return all PMIDs for items in a specific collection.
 
