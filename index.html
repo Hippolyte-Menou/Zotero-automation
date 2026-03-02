@@ -457,6 +457,27 @@ html.dark .trigger-mark {
   margin-bottom: 16px;
 }
 
+.scope-chip {
+  display: inline-block;
+  padding: 2px 8px;
+  margin-left: 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  vertical-align: middle;
+}
+.scope-chip-close {
+  display: inline-block;
+  margin-left: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.scope-chip-close:hover { opacity: 1; }
+
 /* Threshold tuning panel */
 .tuning-panel {
   border-top: 1px solid var(--border);
@@ -1306,6 +1327,10 @@ html.dark .score-high { background: #157347; }
     document.getElementById("nearMissControls").style.display = mode === "nearmiss" ? "" : "none";
     document.getElementById("reviewControls").style.display = mode === "review" ? "" : "none";
 
+    // Reset scope on tab switch
+    currentCategory = null;
+    currentSubcollection = null;
+
     // Panels only shown in near-miss mode
     var panelIds = ["metaBar", "statsPanel", "historyPanel", "recentPanel", "rescueBar", "pagination"];
     panelIds.forEach(function(id) {
@@ -1323,9 +1348,12 @@ html.dark .score-high { background: #157347; }
       renderReviewArticles();
     } else {
       renderSidebar();
+      renderMetaBar();
+      renderScopedPanels();
+      document.getElementById("mainTitle").textContent = "Select a subcollection";
+      document.getElementById("mainSubtitle").textContent = "";
       var content = document.getElementById("content");
       content.innerHTML = '<div class="empty-state"><h3>Choose a subcollection from the sidebar</h3><p>Browse genes and topic categories to review near-miss articles.</p></div>';
-      currentSubcollection = null;
     }
   };
 
@@ -1625,7 +1653,7 @@ html.dark .score-high { background: #157347; }
     var content = document.getElementById("content");
 
     if (!flaggedData) {
-      document.getElementById("mainTitle").textContent = "Review -- Low-Centrality Papers";
+      document.getElementById("mainTitle").textContent = "Review - Low-Centrality Papers";
       document.getElementById("mainSubtitle").textContent = "";
       content.innerHTML = '<div class="empty-state"><h3>No review data</h3>' +
         '<p>Run <code>python inverse_bot.py</code> to generate flagged_papers.json.</p></div>';
@@ -1870,6 +1898,8 @@ html.dark .score-high { background: #157347; }
     if (sharedEl) sharedEl.classList.remove("active");
 
     renderArticles();
+    renderScopedPanels();
+    renderMetaBar();
   };
 
   window.__selectShared = function() {
@@ -1893,7 +1923,33 @@ html.dark .score-high { background: #157347; }
     if (sharedEl) sharedEl.classList.add("active");
 
     renderArticles();
+    renderScopedPanels();
+    renderMetaBar();
   };
+
+  window.__resetScope = function() {
+    currentCategory = null;
+    currentSubcollection = null;
+    document.querySelectorAll(".tree-item").forEach(el => el.classList.remove("active"));
+    var sharedEl = document.getElementById("sharedItem");
+    if (sharedEl) sharedEl.classList.remove("active");
+
+    // Re-render panels in global mode
+    renderScopedPanels();
+    renderMetaBar();
+
+    // Reset main content area
+    document.getElementById("mainTitle").textContent = "Select a subcollection";
+    document.getElementById("mainSubtitle").textContent = "";
+    document.getElementById("content").innerHTML = '<div class="empty-state"><h3>Choose a subcollection from the sidebar</h3><p>Browse genes and topic categories to review near-miss articles.</p></div>';
+    document.getElementById("pagination").innerHTML = "";
+  };
+
+  function renderScopedPanels() {
+    renderStatsPanel(currentCategory, currentSubcollection);
+    renderRunHistoryPanel(currentCategory, currentSubcollection);
+    renderRecentPanel(currentCategory, currentSubcollection);
+  }
 
   // ------------------------------------------------------------------
   // Articles rendering
@@ -2358,8 +2414,12 @@ html.dark .score-high { background: #157347; }
     if (data.pipeline_runs) text += " | Pipeline runs: " + data.pipeline_runs;
     var el = document.getElementById("metaBar");
     var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
-    el.innerHTML = escapeHtml(text) + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()" aria-label="Toggle statistics panel">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()" aria-label="Toggle run history panel">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()" aria-label="Toggle recent additions panel">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">' + themeLabel + '</button>';
-    renderStatsPanel();
+    var scopeChip = "";
+    if (currentSubcollection && currentSubcollection !== "__shared__") {
+      scopeChip = '<span class="scope-chip">Viewing: ' + escapeHtml(currentSubcollection) + ' <span class="scope-chip-close" onclick="window.__resetScope()" role="button" tabindex="0" aria-label="Clear scope filter">x</span></span>';
+    }
+    el.innerHTML = escapeHtml(text) + scopeChip + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()" aria-label="Toggle statistics panel">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()" aria-label="Toggle run history panel">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()" aria-label="Toggle recent additions panel">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">' + themeLabel + '</button>';
+    renderStatsPanel(currentCategory, currentSubcollection);
   }
 
   window.__toggleStats = function() {
@@ -2397,10 +2457,21 @@ html.dark .score-high { background: #157347; }
     if (recentOpen) { var b = document.getElementById("recentToggle"); if (b) b.classList.add("active"); }
   };
 
-  function renderStatsPanel() {
+  function renderStatsPanel(scopeCategory, scopeSubcollection) {
     if (!data || !data.articles) return;
     var container = document.getElementById("statsPanelContent");
-    var articles = data.articles;
+    var scoped = scopeCategory && scopeSubcollection && scopeSubcollection !== "__shared__";
+    var articles;
+
+    if (scoped) {
+      articles = data.articles.filter(function(a) {
+        var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+        var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+        return subs.includes(scopeSubcollection) && cats.includes(scopeCategory);
+      });
+    } else {
+      articles = data.articles;
+    }
     var total = articles.length;
 
     // Breakdown by reason
@@ -2416,18 +2487,22 @@ html.dark .score-high { background: #157347; }
       if (reasons[reasonKeys[k]] > maxReasonCount) maxReasonCount = reasons[reasonKeys[k]];
     }
 
-    // Top subcollections
-    var subCounts = {};
-    for (var m = 0; m < articles.length; m++) {
-      var subs = (articles[m].subcollection || "").split(",").map(function(s) { return s.trim(); });
-      for (var n = 0; n < subs.length; n++) {
-        if (subs[n]) subCounts[subs[n]] = (subCounts[subs[n]] || 0) + 1;
+    // Top subcollections (only in global mode)
+    var topSubs = [];
+    var maxSubCount = 1;
+    if (!scoped) {
+      var subCounts = {};
+      for (var m = 0; m < articles.length; m++) {
+        var subs = (articles[m].subcollection || "").split(",").map(function(s) { return s.trim(); });
+        for (var n = 0; n < subs.length; n++) {
+          if (subs[n]) subCounts[subs[n]] = (subCounts[subs[n]] || 0) + 1;
+        }
       }
+      topSubs = Object.keys(subCounts).map(function(s) { return { name: s, count: subCounts[s] }; });
+      topSubs.sort(function(a, b) { return b.count - a.count; });
+      topSubs = topSubs.slice(0, 5);
+      maxSubCount = topSubs.length > 0 ? topSubs[0].count : 1;
     }
-    var topSubs = Object.keys(subCounts).map(function(s) { return { name: s, count: subCounts[s] }; });
-    topSubs.sort(function(a, b) { return b.count - a.count; });
-    topSubs = topSubs.slice(0, 5);
-    var maxSubCount = topSubs.length > 0 ? topSubs[0].count : 1;
 
     var reasonFillClass = {
       score_below_threshold: "fill-score",
@@ -2440,8 +2515,8 @@ html.dark .score-high { background: #157347; }
     // Left: big numbers
     html += '<div class="stats-summary">';
     html += '<div class="stats-big-number">' + total + '</div>';
-    html += '<div class="stats-label">total rejections</div>';
-    if (data.pipeline_runs) {
+    html += '<div class="stats-label">' + (scoped ? escapeHtml(scopeSubcollection) + ' rejections' : 'total rejections') + '</div>';
+    if (!scoped && data.pipeline_runs) {
       html += '<div style="margin-top:8px"><span style="font-size:20px;font-weight:700">' + data.pipeline_runs + '</span></div>';
       html += '<div class="stats-label">pipeline runs</div>';
     }
@@ -2463,8 +2538,8 @@ html.dark .score-high { background: #157347; }
     html += '</div>';
     html += '</div>';
 
-    // Bottom: top subcollections
-    if (topSubs.length > 0) {
+    // Bottom: top subcollections (global mode only)
+    if (!scoped && topSubs.length > 0) {
       html += '<div class="stats-top-subs">';
       html += '<div class="stats-top-subs-title">Top subcollections</div>';
       for (var si = 0; si < topSubs.length; si++) {
@@ -2496,12 +2571,14 @@ html.dark .score-high { background: #157347; }
     }
   }
 
-  function renderRunHistoryPanel() {
+  function renderRunHistoryPanel(scopeCategory, scopeSubcollection) {
     var container = document.getElementById("historyPanelContent");
     if (!runHistory || !runHistory.runs || runHistory.runs.length === 0) {
       container.innerHTML = '<div class="history-empty">No run history available yet.</div>';
       return;
     }
+
+    var scoped = scopeCategory && scopeSubcollection && scopeSubcollection !== "__shared__";
 
     // Show runs newest-first
     var runs = runHistory.runs.slice().reverse();
@@ -2509,43 +2586,80 @@ html.dark .score-high { background: #157347; }
     var html = '<table class="history-table">';
     html += '<thead><tr>';
     html += '<th>Date</th>';
-    html += '<th>Pipelines</th>';
+    if (!scoped) html += '<th>Pipelines</th>';
     html += '<th class="num">Found</th>';
     html += '<th class="num">New</th>';
     html += '<th class="num">Uploaded</th>';
     html += '<th class="num">Failed</th>';
-    html += '<th class="num">API Errors</th>';
+    if (!scoped) html += '<th class="num">API Errors</th>';
     html += '</tr></thead>';
     html += '<tbody>';
 
+    var hasRows = false;
     for (var i = 0; i < runs.length; i++) {
       var run = runs[i];
       var dt = run.timestamp ? new Date(run.timestamp).toLocaleString() : "unknown";
-      var gt = (run.genes && run.genes.totals) || {};
-      var tt = (run.topics && run.topics.totals) || {};
-      var pipes = run.pipelines || {};
 
-      var found = (gt.found || 0) + (tt.found || 0);
-      var newCount = (gt["new"] || 0) + (tt["new"] || 0);
-      var uploaded = (gt.added || 0) + (gt.cit_added || 0) + (gt.recent_added || 0)
-                   + (tt.added || 0) + (tt.cit_added || 0) + (tt.recent_added || 0);
-      var failed = (gt.failed || 0) + (tt.failed || 0);
-      var apiErrors = run.openalex_failed_requests || 0;
+      if (scoped) {
+        // Find matching per_gene or per_topic entry
+        var entry = null;
+        var perGene = (run.genes && run.genes.per_gene) || [];
+        for (var gi = 0; gi < perGene.length; gi++) {
+          if (perGene[gi].symbol === scopeSubcollection) { entry = perGene[gi]; break; }
+        }
+        if (!entry) {
+          var perTopic = (run.topics && run.topics.per_topic) || [];
+          for (var ti = 0; ti < perTopic.length; ti++) {
+            if (perTopic[ti].name === scopeSubcollection) { entry = perTopic[ti]; break; }
+          }
+        }
+        if (!entry) continue; // Skip runs where this gene/topic wasn't processed
 
-      var pipeHtml = '';
-      if (pipes.genes) pipeHtml += '<span class="history-pipeline-badge history-pipeline-genes">Genes</span>';
-      if (pipes.topics) pipeHtml += '<span class="history-pipeline-badge history-pipeline-topics">Topics</span>';
-      if (!pipeHtml) pipeHtml = '<span style="color:var(--text-secondary)">--</span>';
+        var found = entry.found || 0;
+        var newCount = entry["new"] || 0;
+        var uploaded = (entry.added || 0) + (entry.cit_added || 0) + (entry.recent_added || 0);
+        var failed = entry.failed || 0;
 
-      html += '<tr>';
-      html += '<td>' + escapeHtml(dt) + '</td>';
-      html += '<td>' + pipeHtml + '</td>';
-      html += '<td class="num">' + found + '</td>';
-      html += '<td class="num">' + newCount + '</td>';
-      html += '<td class="num">' + uploaded + '</td>';
-      html += '<td class="num">' + failed + '</td>';
-      html += '<td class="num">' + (apiErrors > 0 ? '<span class="history-errors">' + apiErrors + '</span>' : '0') + '</td>';
-      html += '</tr>';
+        html += '<tr>';
+        html += '<td>' + escapeHtml(dt) + '</td>';
+        html += '<td class="num">' + found + '</td>';
+        html += '<td class="num">' + newCount + '</td>';
+        html += '<td class="num">' + uploaded + '</td>';
+        html += '<td class="num">' + failed + '</td>';
+        html += '</tr>';
+        hasRows = true;
+      } else {
+        var gt = (run.genes && run.genes.totals) || {};
+        var tt = (run.topics && run.topics.totals) || {};
+        var pipes = run.pipelines || {};
+
+        var found = (gt.found || 0) + (tt.found || 0);
+        var newCount = (gt["new"] || 0) + (tt["new"] || 0);
+        var uploaded = (gt.added || 0) + (gt.cit_added || 0) + (gt.recent_added || 0)
+                     + (tt.added || 0) + (tt.cit_added || 0) + (tt.recent_added || 0);
+        var failed = (gt.failed || 0) + (tt.failed || 0);
+        var apiErrors = run.openalex_failed_requests || 0;
+
+        var pipeHtml = '';
+        if (pipes.genes) pipeHtml += '<span class="history-pipeline-badge history-pipeline-genes">Genes</span>';
+        if (pipes.topics) pipeHtml += '<span class="history-pipeline-badge history-pipeline-topics">Topics</span>';
+        if (!pipeHtml) pipeHtml = '<span style="color:var(--text-secondary)">--</span>';
+
+        html += '<tr>';
+        html += '<td>' + escapeHtml(dt) + '</td>';
+        html += '<td>' + pipeHtml + '</td>';
+        html += '<td class="num">' + found + '</td>';
+        html += '<td class="num">' + newCount + '</td>';
+        html += '<td class="num">' + uploaded + '</td>';
+        html += '<td class="num">' + failed + '</td>';
+        html += '<td class="num">' + (apiErrors > 0 ? '<span class="history-errors">' + apiErrors + '</span>' : '0') + '</td>';
+        html += '</tr>';
+        hasRows = true;
+      }
+    }
+
+    if (!hasRows && scoped) {
+      html += '<tr><td colspan="5" style="text-align:center;color:var(--text-secondary)">No history for this subcollection</td></tr>';
     }
 
     html += '</tbody></table>';
@@ -2567,12 +2681,14 @@ html.dark .score-high { background: #157347; }
     }
   }
 
-  function renderRecentPanel() {
+  function renderRecentPanel(scopeCategory, scopeSubcollection) {
     var container = document.getElementById("recentPanelContent");
     if (!recentAdditions || !recentAdditions.additions || recentAdditions.additions.length === 0) {
       container.innerHTML = '<div class="recent-empty">No recent additions recorded yet.</div>';
       return;
     }
+
+    var scoped = scopeCategory && scopeSubcollection && scopeSubcollection !== "__shared__";
 
     // Filter to last 4 weeks
     var cutoff = new Date();
@@ -2580,25 +2696,17 @@ html.dark .score-high { background: #157347; }
     var cutoffISO = cutoff.toISOString();
 
     var recent = recentAdditions.additions.filter(function(a) {
-      return (a.uploaded_at || "") >= cutoffISO;
+      if ((a.uploaded_at || "") < cutoffISO) return false;
+      if (scoped) {
+        return (a.subcollection || "") === scopeSubcollection;
+      }
+      return true;
     });
 
     if (recent.length === 0) {
-      container.innerHTML = '<div class="recent-empty">No papers uploaded in the last 4 weeks.</div>';
+      container.innerHTML = '<div class="recent-empty">' + (scoped ? 'No papers uploaded for ' + escapeHtml(scopeSubcollection) + ' in the last 4 weeks.' : 'No papers uploaded in the last 4 weeks.') + '</div>';
       return;
     }
-
-    // Group by subcollection
-    var groups = {};
-    for (var i = 0; i < recent.length; i++) {
-      var a = recent[i];
-      var groupKey = a.subcollection || "Unknown";
-      if (!groups[groupKey]) groups[groupKey] = [];
-      groups[groupKey].push(a);
-    }
-
-    // Sort groups alphabetically
-    var groupKeys = Object.keys(groups).sort();
 
     var sourceClass = {
       "source:search": "recent-source-search",
@@ -2613,18 +2721,14 @@ html.dark .score-high { background: #157347; }
       "source:rescue": "rescue",
     };
 
-    var html = '<div style="margin-bottom:8px;font-size:13px;color:var(--text-secondary)">' + recent.length + ' paper' + (recent.length !== 1 ? 's' : '') + ' uploaded in the last 4 weeks</div>';
+    var html = '<div style="margin-bottom:8px;font-size:13px;color:var(--text-secondary)">' + recent.length + ' paper' + (recent.length !== 1 ? 's' : '') + ' uploaded in the last 4 weeks' + (scoped ? ' for ' + escapeHtml(scopeSubcollection) : '') + '</div>';
 
-    for (var gi = 0; gi < groupKeys.length; gi++) {
-      var gk = groupKeys[gi];
-      var items = groups[gk];
-      // Sort by upload date descending
-      items.sort(function(a, b) { return (b.uploaded_at || "").localeCompare(a.uploaded_at || ""); });
+    if (scoped) {
+      // Flat list (single subcollection, no grouping)
+      recent.sort(function(a, b) { return (b.uploaded_at || "").localeCompare(a.uploaded_at || ""); });
 
-      html += '<div class="recent-group-header">' + escapeHtml(gk) + '<span class="recent-group-count">(' + items.length + ')</span></div>';
-
-      for (var ii = 0; ii < items.length; ii++) {
-        var item = items[ii];
+      for (var ii = 0; ii < recent.length; ii++) {
+        var item = recent[ii];
         var url = item.pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + item.pmid : "#";
         var src = item.source || "";
         var srcCls = sourceClass[src] || "";
@@ -2636,6 +2740,40 @@ html.dark .score-high { background: #157347; }
         html += '<a href="' + escapeAttr(url) + '" target="_blank" rel="noopener">' + escapeHtml(item.title || "Untitled") + '</a>';
         html += '<span class="recent-meta">' + escapeHtml(item.year || "") + (dateStr ? " | " + dateStr : "") + '</span>';
         html += '</div>';
+      }
+    } else {
+      // Group by subcollection
+      var groups = {};
+      for (var i = 0; i < recent.length; i++) {
+        var a = recent[i];
+        var groupKey = a.subcollection || "Unknown";
+        if (!groups[groupKey]) groups[groupKey] = [];
+        groups[groupKey].push(a);
+      }
+
+      var groupKeys = Object.keys(groups).sort();
+
+      for (var gi = 0; gi < groupKeys.length; gi++) {
+        var gk = groupKeys[gi];
+        var items = groups[gk];
+        items.sort(function(a, b) { return (b.uploaded_at || "").localeCompare(a.uploaded_at || ""); });
+
+        html += '<div class="recent-group-header">' + escapeHtml(gk) + '<span class="recent-group-count">(' + items.length + ')</span></div>';
+
+        for (var ii = 0; ii < items.length; ii++) {
+          var item = items[ii];
+          var url = item.pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + item.pmid : "#";
+          var src = item.source || "";
+          var srcCls = sourceClass[src] || "";
+          var srcLbl = sourceLabel[src] || src.replace("source:", "");
+          var dateStr = item.uploaded_at ? new Date(item.uploaded_at).toLocaleDateString() : "";
+
+          html += '<div class="recent-item">';
+          if (srcLbl) html += '<span class="recent-source-tag ' + srcCls + '">' + escapeHtml(srcLbl) + '</span>';
+          html += '<a href="' + escapeAttr(url) + '" target="_blank" rel="noopener">' + escapeHtml(item.title || "Untitled") + '</a>';
+          html += '<span class="recent-meta">' + escapeHtml(item.year || "") + (dateStr ? " | " + dateStr : "") + '</span>';
+          html += '</div>';
+        }
       }
     }
 
