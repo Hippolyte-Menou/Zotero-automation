@@ -18,7 +18,7 @@ citation_expansion:
   max_seed_papers: 50
   min_co_citations: 1
   max_min_co: 6
-  max_hops: 2
+  max_hops: 1
   hop2_top_n: 10
 default_exclusions_text:
 - cancer

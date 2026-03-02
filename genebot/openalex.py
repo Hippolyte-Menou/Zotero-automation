@@ -101,6 +101,9 @@ class OpenAlexClient:
                 if resp.status_code == 404:
                     return None
                 resp.raise_for_status()
+                remaining = resp.headers.get("X-RateLimit-Remaining-USD")
+                if remaining is not None:
+                    logger.debug(f"OpenAlex budget remaining: ${remaining}")
                 time.sleep(self.delay)
                 return resp.json()
             except requests.exceptions.RequestException as e:

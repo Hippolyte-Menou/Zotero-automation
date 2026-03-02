@@ -843,29 +843,33 @@ def process_gene(
     max_hops = citation_cfg.get("max_hops", 2)
     hop2_top_n = citation_cfg.get("hop2_top_n", 10)
 
-    # force_full_expansion: pass None cache so _expand_one_hop does full
-    # forward expansion (no skip-gate, no since_date filter)
-    effective_cache = None if force_full_expansion else citation_cache
-    candidates = openalex.expand_citations(
-        seed_works=seed_works,
-        existing_pmids=existing_pmids,
-        library_size=library_size,
-        max_seeds=max_seeds,
-        min_co_citations=min_co,
-        max_min_co=max_min_co,
-        mention_terms=search_terms,
-        max_hops=max_hops,
-        hop2_top_n=hop2_top_n,
-        exclude_mesh=mesh_excl or None,
-        rejection_log=rejection_log,
-        citation_cache=effective_cache,
-    )
+    if not force_full_expansion:
+        logger.info(f"{symbol}: skipping citation expansion (not in rotation)")
+        candidates = []
+    else:
+        # force_full_expansion: pass None cache so _expand_one_hop does full
+        # forward expansion (no skip-gate, no since_date filter)
+        effective_cache = None if force_full_expansion else citation_cache
+        candidates = openalex.expand_citations(
+            seed_works=seed_works,
+            existing_pmids=existing_pmids,
+            library_size=library_size,
+            max_seeds=max_seeds,
+            min_co_citations=min_co,
+            max_min_co=max_min_co,
+            mention_terms=search_terms,
+            max_hops=max_hops,
+            hop2_top_n=hop2_top_n,
+            exclude_mesh=mesh_excl or None,
+            rejection_log=rejection_log,
+            citation_cache=effective_cache,
+        )
 
-    # Update gene rotation date in the real cache
-    if force_full_expansion and citation_cache is not None:
-        citation_cache.setdefault("genes", {})[symbol] = {
-            "last_full_expanded": datetime.date.today().isoformat()
-        }
+        # Update gene rotation date in the real cache
+        if citation_cache is not None:
+            citation_cache.setdefault("genes", {})[symbol] = {
+                "last_full_expanded": datetime.date.today().isoformat()
+            }
 
     cit_added = 0
     if candidates:
