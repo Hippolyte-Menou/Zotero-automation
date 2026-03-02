@@ -1,12 +1,12 @@
-# Zotero Automation -- CLAUDE.md
+# Zotero Automation - CLAUDE.md
 
 ## What this is
 
-OpenAlex-powered literature discovery bot with two pipelines (gene-specific + topic-based), automatic Zotero upload, and a near-miss dashboard. Runs on GitHub Actions, no server needed. This is a **git submodule** of the Ophthalmogenetics vault -- commits here go to its own repo.
+OpenAlex-powered literature discovery bot with two pipelines (gene-specific + topic-based), automatic Zotero upload, and a near-miss dashboard. Runs on GitHub Actions, no server needed. This is a **git submodule** of the Ophthalmogenetics vault; commits here go to its own repo.
 
 ## Global rules
 
-- **Never use emojis** -- not in files, not in chat, not in commits, not anywhere.
+- **Never use emojis** - not in files, not in chat, not in commits, not anywhere.
 - Stay inside this submodule unless explicitly told to look elsewhere.
 
 ## Project structure
@@ -39,7 +39,7 @@ Zotero-automation/
 
 ### Gene pipeline (run.py --genes)
 1. **Search pass** (bootstrap + periodic re-search): OpenAlex query using HGNC aliases + disease terms from `genes.yml` tags. Runs on first encounter (empty collection) and then every `re_search_interval_weeks` (default 8, configurable in genes.yml `search` section; 0 disables). Tracks `last_search_date` per gene in the citation cache.
-2. **Citation expansion** (2-hop): backward refs + forward citations, scored by co-citation + bib coupling + recency bonus, adaptive threshold based on library size
+2. **Citation expansion** (1-hop, rotation genes only): backward refs + forward citations, scored by co-citation + bib coupling + recency bonus, adaptive threshold based on library size. Non-rotation genes skip citation expansion entirely (candidates set to empty).
 3. **Recent papers pass**: current-year search bypassing citation threshold
 
 ### Topic pipeline (run.py --topics)
@@ -53,7 +53,7 @@ Each pipeline runs in its own workflow on a different schedule:
 
 | Day | Workflow | What runs |
 |-----|----------|-----------|
-| Mon-Fri | `gene_pipeline.yml` | All 189 genes: 1/5 get full expansion (least recently expanded), 4/5 get quick search. Rescue queue processed each day. |
+| Mon-Fri | `gene_pipeline.yml` | All 189 genes: 1/5 get full citation expansion (least recently expanded), 4/5 skip citation expansion entirely (search + recent papers only). Rescue queue processed each day. |
 | Saturday | `topic_pipeline.yml` | All 5 topic categories. |
 | Sunday | `inverse_bot.yml` | Orphan paper detection. |
 
@@ -80,7 +80,7 @@ Separate log artifacts: `run-logs-genes-*` and `run-logs-topics-*`.
 - Provenance tags: `source:search`, `source:citation`, `source:recent`, `source:rescue`
 - Batch Zotero upload (50 items/request, 60s timeout, stops retrying after first timeout to avoid duplicates)
 - Collection cache keyed by `(name, parent_key)` tuple (prevents cross-parent name collisions)
-- OpenAlex API: separate retry budgets for errors (3) and rate limits (5); failed request count tracked and logged
+- OpenAlex API: separate retry budgets for errors (3) and rate limits (5); failed request count tracked and logged; `_get()` logs `X-RateLimit-Remaining-USD` header at debug level for budget monitoring
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution
 - HGNC alias resolution retries transient failures (3 attempts)
 - Per-gene `blocked_aliases` in genes.yml to suppress HGNC aliases that are common words or collide with other symbols
@@ -108,7 +108,7 @@ Separate log artifacts: `run-logs-genes-*` and `run-logs-topics-*`.
 - `inverse_bot.py` computes a citation centrality score for every paper in the Zotero library using backward references, forward citations, and bibliographic coupling
 - Orphans (centrality = 0, no library neighbors via any link type) are flagged for manual review
 - Output: `site/data/flagged_papers.json` with top-level `hierarchy` dict + per-article `category` and `subcollection` string fields (comma-joined for multi-collection papers), matching the Near Misses data model exactly
-- Whitelist: `data/inverse_bot_whitelist.json` -- dismissed paper PMIDs, separate from the citation cache
+- Whitelist: `data/inverse_bot_whitelist.json` - dismissed paper PMIDs, separate from the citation cache
 - Cache: `data/citation_cache.json` extended with `inverse_bot` section keyed by OpenAlex ID (stores `referenced_works`, `cited_by_count`, `fetched_at`)
 - Runs on a separate Wednesday cron (`.github/workflows/inverse_bot.yml`), independent from the genebot workflow
 - Dashboard Review tab: same two-tier collapsible sidebar architecture as Near Misses (category -> subcollection, A-Z strip for Genes, "Shared Flagged" at top); dismiss button writes to localStorage `inverseBotsWhitelist`; "Download whitelist" exports for bot pickup
@@ -162,11 +162,11 @@ python -m http.server 8000 -d site
 - `zotero_client.py` collection cache is keyed by `(name, parent_key)` tuple to prevent cross-parent collisions
 - `zotero_client.py` `get_all_items_full()` builds `parent_map: {key: str | None}` (pyzotero returns `parentCollection: False` for roots, coerced with `or None`) and uses `_get_top_level_ancestor()` to walk up the collection hierarchy; returns `category` (top-level ancestor name, comma-joined) and `subcollection` (direct collection name, comma-joined) string fields instead of the old `subcollections: list[str]`
 - `zotero_client.py` `_get_top_level_ancestor(key, parent_map)` is a static helper with a `visited` set for cycle protection
-- `rejection_log.py` `to_json()` does not mutate `self.entries` -- uses local variable for merged output
+- `rejection_log.py` `to_json()` does not mutate `self.entries` - uses local variable for merged output
 - `flagged_papers.json` top-level structure: `{"hierarchy": {cat: [subs]}, "articles": [{..., "category": str, "subcollection": str, ...}]}`; mirrors Near Misses data model so the Review tab can use the identical sidebar rendering code path
 - Separate workflows per pipeline: `gene_pipeline.yml` (Mon-Fri), `topic_pipeline.yml` (Sat), `inverse_bot.yml` (Sun)
 - Each workflow uses 2 jobs (`run-*` -> `deploy-dashboard`) with artifact passing; `pipeline-data` artifact carries state between jobs
-- Deploy uses `keep_files: true` (merge into gh-pages, never replace the branch) -- safe because all data files are cumulative (near_misses merges, run_history appends, recent_additions deduplicates)
+- Deploy uses `keep_files: true` (merge into gh-pages, never replace the branch) - safe because all data files are cumulative (near_misses merges, run_history appends, recent_additions deduplicates)
 - `run.py` rescue queue: `load_rescue_queue()` reads `data/rescue_queue.json`; `process_rescue_queue()` uploads entries via OpenAlex lookup + Zotero upload and returns `(count, failed_entries)` for partial-success handling; failed entries are written back for retry on next run; `clear_rescue_queue()` removes the file only when all entries succeed
 - `run.py` recent additions: `_track_additions()` records each upload, filtered by `added_pmids` set to exclude records that failed upload; `save_recent_additions()` merges with previous data and prunes to 8 weeks; both gene and topic pipelines pass `additions_tracker` list
 - Workflow deploys `rescue_queue.json` to gh-pages so the dashboard can load it for pre-populating the rescue queue on next visit; gene job processes rescue queue first, topics job gets the updated file via artifact

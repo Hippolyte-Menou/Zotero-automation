@@ -26,7 +26,7 @@ Once a gene has papers, search is skipped unless `re_search_interval_weeks` has 
 
 #### Pass 2 - Citation network expansion
 
-Expands from the seed set (existing Zotero papers, or search results) via two hops:
+Expands from the seed set (existing Zotero papers, or search results) via a single hop. Only runs for rotation genes (1/5 of all genes per day, selected by least-recently-expanded); non-rotation genes skip citation expansion entirely.
 
 **Hop 1**: For each seed, collect backward references (cached per seed) and forward citations. Score every candidate:
 
@@ -54,8 +54,6 @@ adaptive_min_co = min(max_min_co, max(min_co_citations, floor(log2(library_size)
 | 64+          | 6 (capped) |
 
 After filtering, full metadata is fetched for surviving candidates. A mention-term filter then removes any paper that does not mention the gene symbol or an alias in its title or abstract.
-
-**Hop 2**: Top `hop2_top_n` (default 10) candidates from hop 1 become new seeds; the same scoring and filtering logic repeats.
 
 Surviving candidates are text-filtered, deduplicated, and uploaded with `source:citation` tag.
 
@@ -143,8 +141,8 @@ citation_expansion:
   max_seed_papers: 100     # top N most-cited seeds used for expansion
   min_co_citations: 1      # floor for adaptive threshold
   max_min_co: 6            # ceiling for adaptive threshold
-  max_hops: 2
-  hop2_top_n: 10
+  max_hops: 1
+  hop2_top_n: 10           # unused at max_hops=1, kept for reference
 
 genes:
   - symbol: ABCA4
@@ -206,7 +204,7 @@ Three separate workflows spread across the week:
 | Saturday | Topic Pipeline | `topic_pipeline.yml` - 06:00 UTC |
 | Sunday | Inverse Bot | `inverse_bot.yml` - 02:00 UTC |
 
-- **Gene pipeline** (Mon-Fri): each day, 1/5 of all genes get full citation expansion (least recently expanded), while the remaining 4/5 get quick search (re-search check + recent papers). All 189 genes are fully expanded once per week. Manual trigger: Actions tab > Gene Pipeline > Run workflow (`genes`: space-separated symbols, `force_full_expansion`: override rotation)
+- **Gene pipeline** (Mon-Fri): each day, 1/5 of all genes get full citation expansion (least recently expanded), while the remaining 4/5 skip citation expansion entirely (re-search check + recent papers only). All 189 genes are fully expanded once per week. Manual trigger: Actions tab > Gene Pipeline > Run workflow (`genes`: space-separated symbols, `force_full_expansion`: override rotation)
 - **Topic pipeline** (Sat): all 5 topic categories in a single run. Manual trigger: Actions tab > Topic Pipeline > Run workflow (`categories`: e.g., `1 - Anatomy`)
 - **Orphan detection** (Sun): flags isolated library papers. Manual trigger: Actions tab > Inverse Bot
 
@@ -254,6 +252,7 @@ Aliases are defined in `topics.yml`. Default aliases:
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution (reduces API calls)
 - Backward references are cached per seed in the citation cache to avoid redundant API calls on stable papers
 - Failed API request count logged at end of run for visibility
+- OpenAlex budget tracking: `X-RateLimit-Remaining-USD` header logged at debug level after each successful API response
 - Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary; one record per workflow run
 - Logs are uploaded as separate GitHub Actions artifacts per pipeline (`run-logs-genes-*`, `run-logs-topics-*`), retained 30 days
 
