@@ -1,0 +1,116 @@
+name: Gene Pipeline
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'  # Mon-Fri 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      genes:
+        description: 'Space-separated gene symbols (leave empty for all genes from genes.yml)'
+        required: false
+        type: string
+      force_full_expansion:
+        description: 'Force full citation expansion on all genes (override rotation)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  run-genes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch previous data from gh-pages
+        run: |
+          mkdir -p data
+          git fetch origin gh-pages --depth=1 || true
+          git show origin/gh-pages:data/near_misses.json > data/previous_near_misses.json 2>/dev/null || echo '{}' > data/previous_near_misses.json
+          git show origin/gh-pages:data/citation_cache.json > data/citation_cache.json 2>/dev/null || echo '{}' > data/citation_cache.json
+          git show origin/gh-pages:data/run_history.json > data/run_history.json 2>/dev/null || echo '{"runs":[]}' > data/run_history.json
+          git show origin/gh-pages:data/recent_additions.json > data/recent_additions.json 2>/dev/null || echo '{"additions":[]}' > data/recent_additions.json
+          git show origin/gh-pages:data/rescue_queue.json > data/rescue_queue.json 2>/dev/null || echo '[]' > data/rescue_queue.json
+          git show origin/gh-pages:data/checkpoint.json > data/checkpoint.json 2>/dev/null || true
+
+      - name: Run gene pipeline
+        timeout-minutes: 360
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+          ZOTERO_GROUP_ID: ${{ secrets.ZOTERO_GROUP_ID }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          INPUT_GENES: ${{ inputs.genes }}
+          INPUT_MODE: genes
+        run: python run.py
+
+      - name: Upload pipeline data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
+          retention-days: 1
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-logs-genes-${{ github.run_id }}
+          path: logs/
+          retention-days: 30
+
+  deploy-dashboard:
+    if: always()
+    needs: [run-genes]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download pipeline data
+        id: download-data
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: pipeline-data
+          path: data/
+
+      - name: Prepare dashboard data
+        id: prepare-data
+        if: steps.download-data.outcome == 'success'
+        run: |
+          mkdir -p site/data
+          if [ -f data/near_misses.json ]; then
+            cp data/near_misses.json site/data/
+          fi
+          if [ -f data/citation_cache.json ]; then
+            cp data/citation_cache.json site/data/
+          fi
+          if [ -f data/run_history.json ]; then
+            cp data/run_history.json site/data/
+          fi
+          if [ -f data/recent_additions.json ]; then
+            cp data/recent_additions.json site/data/
+          fi
+          if [ -f data/rescue_queue.json ]; then
+            cp data/rescue_queue.json site/data/
+          fi
+          if [ -f data/checkpoint.json ]; then
+            cp data/checkpoint.json site/data/
+          fi
+
+      - name: Deploy dashboard to GitHub Pages
+        if: steps.prepare-data.outcome == 'success'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          keep_files: true

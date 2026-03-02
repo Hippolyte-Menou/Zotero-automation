@@ -198,13 +198,17 @@ categories:
 
 ### 4. Run
 
-- **Automatic**: runs every Saturday at 22:00 UTC (edit cron in `.github/workflows/genebot.yml`)
-- **Manual**: go to Actions tab > Gene & Topic Literature Bot > Run workflow
-  - `mode`: `both` (default, both pipelines), `genes`, or `topics`
-  - `genes`: space-separated gene symbols (e.g., `CRB1 PAX6`)
-  - `categories`: topic category filter (e.g., `1 - Anatomy`)
+Three separate workflows spread across the week:
 
-The orphan detection workflow runs automatically every Wednesday and can also be triggered manually from Actions tab > Inverse Bot.
+| Day | Workflow | Trigger |
+|-----|----------|---------|
+| Mon-Fri | Gene Pipeline | `gene_pipeline.yml` - 06:00 UTC |
+| Saturday | Topic Pipeline | `topic_pipeline.yml` - 06:00 UTC |
+| Sunday | Inverse Bot | `inverse_bot.yml` - 02:00 UTC |
+
+- **Gene pipeline** (Mon-Fri): each day, 1/5 of all genes get full citation expansion (least recently expanded), while the remaining 4/5 get quick search (re-search check + recent papers). All 189 genes are fully expanded once per week. Manual trigger: Actions tab > Gene Pipeline > Run workflow (`genes`: space-separated symbols, `force_full_expansion`: override rotation)
+- **Topic pipeline** (Sat): all 5 topic categories in a single run. Manual trigger: Actions tab > Topic Pipeline > Run workflow (`categories`: e.g., `1 - Anatomy`)
+- **Orphan detection** (Sun): flags isolated library papers. Manual trigger: Actions tab > Inverse Bot
 
 ## Local usage
 
@@ -237,7 +241,7 @@ Aliases are defined in `topics.yml`. Default aliases:
 ## Notes
 
 - Idempotent: re-running only adds newly published papers (dedup by PMID + DOI)
-- Orphan detection: a separate Wednesday workflow (`inverse_bot.py`) scores every library paper for internal citation centrality and flags isolated papers (no backward/forward/bib-coupling links to any other library paper) in the dashboard Review tab
+- Orphan detection: a separate Sunday workflow (`inverse_bot.py`) scores every library paper for internal citation centrality and flags isolated papers (no backward/forward/bib-coupling links to any other library paper) in the dashboard Review tab
 - Cross-pipeline dedup: shared PMID/DOI set prevents the same paper appearing in both gene and topic collections
 - Incremental: once a gene has papers in Zotero, search is skipped until `re_search_interval_weeks` elapses
 - Text exclusion (title + abstract, whole-word regex) removes off-topic papers (cancer, tumor, etc.)
@@ -250,7 +254,7 @@ Aliases are defined in `topics.yml`. Default aliases:
 - Citation candidates pre-filtered to co_citations >= 1 before PMID resolution (reduces API calls)
 - Backward references are cached per seed in the citation cache to avoid redundant API calls on stable papers
 - Failed API request count logged at end of run for visibility
-- Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary; two records per full run (one per pipeline job)
+- Per-run metrics (found/new/uploaded/failed per gene/topic, API errors) appended to `data/run_history.json` and written to GitHub Actions job summary; one record per workflow run
 - Logs are uploaded as separate GitHub Actions artifacts per pipeline (`run-logs-genes-*`, `run-logs-topics-*`), retained 30 days
 
 ---
@@ -316,7 +320,7 @@ A companion tab in the same dashboard shows papers flagged by the inverse bot as
 - "Download whitelist" exports `inverse_bot_whitelist.json` for bot pickup; the inverse bot skips whitelisted papers on subsequent runs
 - Dark mode, mobile responsive, accessible (same as Near Misses)
 
-**Runs on a separate schedule**: Wednesday cron (`.github/workflows/inverse_bot.yml`), independent from the weekly genebot workflow.
+**Runs on a separate schedule**: Sunday cron (`.github/workflows/inverse_bot.yml`), independent from the gene and topic pipeline workflows.
 
 **Threshold tuning**
 - Sidebar widget to adjust the adaptive threshold and preview which articles would have passed
@@ -331,17 +335,16 @@ A companion tab in the same dashboard shows papers flagged by the inverse bot as
 
 ### How it deploys
 
-The GitHub Actions workflow runs 3 sequential jobs, each with its own 360-minute timeout:
+Each workflow (`gene_pipeline.yml`, `topic_pipeline.yml`, `inverse_bot.yml`) runs 2 jobs:
 
 ```
-gh-pages baseline --> [run-genes] --artifact--> [run-topics] --artifact--> [deploy-dashboard]
+gh-pages baseline --> [run-pipeline] --artifact--> [deploy-dashboard]
 ```
 
-1. **run-genes**: fetches baseline data from gh-pages, runs the gene pipeline, uploads `data/` as an artifact. Skipped when `mode=topics`.
-2. **run-topics**: fetches gh-pages baseline, downloads the genes artifact (overwrites baseline with genes' output), runs the topic pipeline, uploads the updated `data/` artifact. Skipped when `mode=genes`. Does not run if the genes job failed.
-3. **deploy-dashboard**: downloads the final artifact, copies data files into `site/data/`, deploys `site/` to gh-pages with `keep_files: true`.
+1. **run-pipeline**: fetches baseline data from gh-pages, runs the pipeline, uploads `data/` as an artifact.
+2. **deploy-dashboard**: downloads the artifact, copies data files into `site/data/`, deploys `site/` to gh-pages with `keep_files: true`.
 
-`keep_files: true` merges into the gh-pages branch instead of replacing it. This means partial runs never wipe complete data - only the files present in the artifact are overwritten. This is safe because all data files are cumulative (near-misses merge, run history appends, recent additions deduplicate).
+`keep_files: true` merges into the gh-pages branch instead of replacing it. Each daily deploy only overwrites the files present in the artifact, never wiping data from other days. This is safe because all data files are cumulative (near-misses merge, run history appends, recent additions deduplicate).
 
 The dashboard is then accessible at `https://<username>.github.io/Zotero-automation/`.
 

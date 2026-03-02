@@ -213,10 +213,10 @@ def select_rotation_genes(
 ) -> set[str]:
     """Select genes due for full forward expansion this week.
 
-    Returns set of gene symbols. Picks len(all_genes)//4 genes
+    Returns set of gene symbols. Picks len(all_genes)//5 genes
     sorted by oldest last_full_expanded date.
     """
-    batch_size = max(1, len(all_genes) // 4)
+    batch_size = max(1, len(all_genes) // 5)
     gene_dates = citation_cache.get("genes", {})
     ranked = sorted(
         all_genes,
