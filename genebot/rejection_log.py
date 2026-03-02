@@ -160,8 +160,8 @@ class RejectionLog:
             return new
         if not new or new == existing:
             return existing
-        parts = {s.strip() for s in existing.split(",")}
-        parts.add(new.strip())
+        parts = {s.strip() for s in existing.split(",") if s.strip()}
+        parts.update(s.strip() for s in new.split(",") if s.strip())
         return ", ".join(sorted(parts))
 
     def _merge_categories(self, existing: str, new: str) -> str:
@@ -170,8 +170,8 @@ class RejectionLog:
             return new
         if not new or new == existing:
             return existing
-        parts = {s.strip() for s in existing.split(",")}
-        parts.add(new.strip())
+        parts = {s.strip() for s in existing.split(",") if s.strip()}
+        parts.update(s.strip() for s in new.split(",") if s.strip())
         return ", ".join(sorted(parts))
 
     def _load_previous(self, previous_path: str) -> tuple[dict, int]:
@@ -216,7 +216,8 @@ class RejectionLog:
         merged_index: dict[str, dict] = {}
         seen_keys: set[str] = set()
 
-        for entry in self.entries:
+        for orig_entry in self.entries:
+            entry = dict(orig_entry)  # shallow copy to avoid mutating self.entries
             key = self._dedup_key(entry)
             if key is None:
                 # No PMID or DOI -- cannot merge, just add with defaults
@@ -224,7 +225,7 @@ class RejectionLog:
                 entry["last_seen"] = now
                 entry["seen_count"] = 1
                 # Use a unique fallback key
-                fallback = f"_no_id_{id(entry)}"
+                fallback = f"_no_id_{id(orig_entry)}"
                 merged_index[fallback] = entry
                 continue
 
@@ -274,6 +275,12 @@ class RejectionLog:
                 article.setdefault("first_seen", now)
                 article.setdefault("last_seen", article["first_seen"])
                 article.setdefault("seen_count", 1)
+                # Deduplicate subcollection/category values corrupted by prior bug
+                for field in ("subcollection", "category"):
+                    val = article.get(field, "")
+                    if val:
+                        deduped = ", ".join(sorted({s.strip() for s in val.split(",") if s.strip()}))
+                        article[field] = deduped
                 if key not in merged_index:
                     merged_index[key] = article
 
