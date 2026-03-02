@@ -992,6 +992,63 @@ html.dark .score-low { background: #c0392b; }
 html.dark .score-mid { background: #d49a3e; }
 html.dark .score-high { background: #157347; }
 
+/* Tab switcher */
+.tab-switcher {
+  display: flex;
+  gap: 4px;
+  padding: 8px 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tab-btn {
+  flex: 1;
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+  background: var(--bg);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.tab-btn:hover { background: var(--hover); color: var(--text); }
+.tab-btn.active {
+  background: var(--surface);
+  color: var(--accent);
+  border-color: var(--accent);
+  border-bottom-color: var(--surface);
+  margin-bottom: -1px;
+  z-index: 1;
+}
+
+/* Review tab -- dismiss button */
+.btn-dismiss {
+  padding: 2px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: none;
+  color: var(--text-secondary);
+  font-size: 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-dismiss:hover { background: var(--hover); border-color: #dc3545; color: #dc3545; }
+.btn-dismiss.dismissed { background: var(--hover); color: var(--text-secondary); cursor: default; }
+.btn-dismiss.dismissed:hover { border-color: var(--border); color: var(--text-secondary); background: var(--hover); }
+
+/* Review tab -- centrality badge */
+.badge-centrality {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  background: #6c757d;
+  color: #fff;
+}
+
 /* Sidebar toggle */
 .sidebar-toggle {
   display: none;
@@ -1040,8 +1097,12 @@ html.dark .score-high { background: #157347; }
   <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">&#9776;</button>
   <aside class="sidebar">
     <div class="sidebar-header">
-      <h2>Near-Miss Articles</h2>
+      <h2>Literature Dashboard</h2>
       <input type="text" class="sidebar-search" id="sidebarSearch" placeholder="Search subcollections..." aria-label="Search subcollections">
+    </div>
+    <div class="tab-switcher">
+      <button class="tab-btn active" id="tabNearMiss" onclick="window.__switchView('nearmiss')">Near Misses</button>
+      <button class="tab-btn" id="tabReview" onclick="window.__switchView('review')">Review</button>
     </div>
     <div class="sidebar-tree" id="sidebarTree"></div>
     <div class="tuning-panel" id="tuningPanel">
@@ -1076,7 +1137,7 @@ html.dark .score-high { background: #157347; }
         <div class="main-title" id="mainTitle">Select a subcollection</div>
         <div class="main-subtitle" id="mainSubtitle"></div>
       </div>
-      <div class="main-controls">
+      <div class="main-controls" id="nearMissControls">
         <select class="filter-select" id="reasonFilter" aria-label="Filter by reason">
           <option value="all">All reasons</option>
           <option value="score_below_threshold" selected>Score below threshold</option>
@@ -1098,6 +1159,15 @@ html.dark .score-high { background: #157347; }
           <span id="selectedCount">0 selected</span>
         </div>
         <button class="btn btn-primary" id="exportBtn" disabled>Export BibTeX</button>
+      </div>
+      <div class="main-controls" id="reviewControls" style="display:none">
+        <select class="filter-select" id="reviewSortSelect" aria-label="Sort flagged articles">
+          <option value="cited_desc">Most cited</option>
+          <option value="year_desc">Newest first</option>
+          <option value="subs_desc">Most subcollections</option>
+        </select>
+        <label class="recurring-toggle"><input type="checkbox" id="showDismissed"> Show dismissed</label>
+        <button class="btn btn-primary" id="downloadWhitelistBtn" onclick="window.__downloadWhitelist()">Download whitelist</button>
       </div>
     </div>
 
@@ -1134,9 +1204,130 @@ html.dark .score-high { background: #157347; }
   let azFilter = "";
   let tuningThreshold = null;  // null = no override, number = custom threshold
 
+  // Review tab state
+  let viewMode = "nearmiss";  // "nearmiss" | "review"
+  let flaggedData = null;
+  let reviewCategory = null;      // null = All categories
+  let reviewSubcollection = null; // null = All subcollections
+  let reviewSort = "cited_desc";
+  let showDismissed = false;
+
   // ------------------------------------------------------------------
   // Rescue queue (localStorage-based)
   // ------------------------------------------------------------------
+
+  // ------------------------------------------------------------------
+  // Dismiss whitelist (localStorage-based, exportable)
+  // ------------------------------------------------------------------
+
+  function loadDismissed() {
+    try {
+      var raw = localStorage.getItem("inverseBotsWhitelist");
+      if (raw) return JSON.parse(raw);
+    } catch (e) { /* ignore */ }
+    return {};
+  }
+
+  var dismissedMap = loadDismissed();  // {pmid|doi: {pmid, doi, title, dismissed_at}}
+
+  function dismissKey(article) {
+    if (article.pmid) return "pmid:" + article.pmid;
+    if (article.doi) return "doi:" + article.doi;
+    return null;
+  }
+
+  function isDismissed(article) {
+    var key = dismissKey(article);
+    return key ? !!dismissedMap[key] : false;
+  }
+
+  function saveDismissed() {
+    try {
+      localStorage.setItem("inverseBotsWhitelist", JSON.stringify(dismissedMap));
+    } catch (e) {
+      console.warn("Could not save whitelist to localStorage:", e);
+    }
+  }
+
+  window.__dismissArticle = function(pmid, doi) {
+    if (!flaggedData) return;
+    var article = flaggedData.articles.find(function(a) {
+      return (pmid && a.pmid === pmid) || (doi && a.doi === doi);
+    });
+    if (!article) return;
+    var key = dismissKey(article);
+    if (!key || dismissedMap[key]) return;
+    dismissedMap[key] = {
+      pmid: article.pmid || "",
+      doi: article.doi || "",
+      title: article.title || "",
+      dismissed_at: new Date().toISOString()
+    };
+    saveDismissed();
+    renderReviewArticles();
+  };
+
+  window.__undismissArticle = function(pmid, doi) {
+    if (!flaggedData) return;
+    var article = flaggedData.articles.find(function(a) {
+      return (pmid && a.pmid === pmid) || (doi && a.doi === doi);
+    });
+    if (!article) return;
+    var key = dismissKey(article);
+    if (!key) return;
+    delete dismissedMap[key];
+    saveDismissed();
+    renderReviewArticles();
+  };
+
+  window.__downloadWhitelist = function() {
+    var entries = Object.values(dismissedMap);
+    var payload = {
+      generated_at: new Date().toISOString(),
+      dismissed: entries
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2)], {type: "application/json"});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "inverse_bot_whitelist.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // ------------------------------------------------------------------
+  // View switcher
+  // ------------------------------------------------------------------
+
+  window.__switchView = function(mode) {
+    viewMode = mode;
+    document.getElementById("tabNearMiss").classList.toggle("active", mode === "nearmiss");
+    document.getElementById("tabReview").classList.toggle("active", mode === "review");
+    document.getElementById("nearMissControls").style.display = mode === "nearmiss" ? "" : "none";
+    document.getElementById("reviewControls").style.display = mode === "review" ? "" : "none";
+
+    // Panels only shown in near-miss mode
+    var panelIds = ["metaBar", "statsPanel", "historyPanel", "recentPanel", "rescueBar", "pagination"];
+    panelIds.forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.style.display = mode === "nearmiss" ? "" : "none";
+    });
+
+    var sidebarSearch = document.getElementById("sidebarSearch");
+    if (sidebarSearch) sidebarSearch.placeholder = mode === "review" ? "Search subcollections..." : "Search subcollections...";
+
+    if (mode === "review") {
+      reviewCategory = null;
+      reviewSubcollection = null;
+      renderReviewSidebar();
+      renderReviewArticles();
+    } else {
+      renderSidebar();
+      var content = document.getElementById("content");
+      content.innerHTML = '<div class="empty-state"><h3>Choose a subcollection from the sidebar</h3><p>Browse genes and topic categories to review near-miss articles.</p></div>';
+      currentSubcollection = null;
+    }
+  };
 
   function loadRescueQueue() {
     try {
@@ -1254,6 +1445,278 @@ html.dark .score-high { background: #157347; }
         '<p>Ensure data/near_misses.json exists. Run the pipeline first.</p>' +
         '<p style="font-size:12px;margin-top:8px">' + escapeHtml(e.message) + '</p></div>';
     }
+  }
+
+  async function loadFlaggedData() {
+    try {
+      const resp = await fetch("data/flagged_papers.json");
+      if (!resp.ok) {
+        // No data yet -- review tab will show placeholder
+        return;
+      }
+      flaggedData = await resp.json();
+    } catch (e) {
+      // Silently ignore -- review tab shows "no data" state
+    }
+  }
+
+  // ------------------------------------------------------------------
+  // Review tab rendering
+  // ------------------------------------------------------------------
+
+  function renderReviewSidebar() {
+    var tree = document.getElementById("sidebarTree");
+    if (!flaggedData || !flaggedData.hierarchy) {
+      tree.innerHTML = '<div style="padding:12px;color:var(--text-secondary);font-size:13px">No flagged data yet.</div>';
+      return;
+    }
+
+    // Count articles per cat/sub composite key (comma-split for shared articles)
+    var counts = {};
+    for (var a of flaggedData.articles) {
+      if (!showDismissed && isDismissed(a)) continue;
+      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      for (var ci = 0; ci < cats.length; ci++) {
+        for (var si = 0; si < subs.length; si++) {
+          var key = cats[ci] + "/" + subs[si];
+          counts[key] = (counts[key] || 0) + 1;
+        }
+      }
+    }
+
+    // Count shared articles (subcollection contains a comma)
+    var sharedCount = 0;
+    for (var a of flaggedData.articles) {
+      if (!showDismissed && isDismissed(a)) continue;
+      if ((a.subcollection || "").includes(",")) sharedCount++;
+    }
+
+    var html = "";
+
+    // Shared flagged entry at top of sidebar
+    if (sharedCount > 0) {
+      html += '<div class="shared-item" id="reviewSharedItem" role="button" tabindex="0" onclick="window.__selectReviewShared()">';
+      html += '<span>Shared Flagged</span>';
+      html += '<span class="count">' + sharedCount + '</span>';
+      html += '</div>';
+      html += '<hr class="shared-separator">';
+    }
+
+    // All flagged entry
+    var total = 0;
+    for (var a of flaggedData.articles) {
+      if (!showDismissed && isDismissed(a)) continue;
+      total++;
+    }
+    html += '<div class="tree-item" role="button" tabindex="0" style="font-weight:600" onclick="window.__selectReviewSub(null,null)">';
+    html += '<span class="name">All flagged</span><span class="count">' + total + '</span>';
+    html += '</div>';
+
+    var sortedCats = Object.keys(flaggedData.hierarchy).sort();
+
+    for (var ci2 = 0; ci2 < sortedCats.length; ci2++) {
+      var cat = sortedCats[ci2];
+      var subs2 = flaggedData.hierarchy[cat];
+      var isGenes = cat.indexOf("Genes") !== -1;
+      var catCount = 0;
+      for (var si2 = 0; si2 < subs2.length; si2++) catCount += counts[cat + "/" + subs2[si2]] || 0;
+
+      html += '<div class="tree-category" data-cat="' + escapeAttr(cat) + '">';
+      html += '<div class="tree-category-header" onclick="window.__toggleCat(this)">';
+      html += '<span class="arrow">&#9654;</span>';
+      html += '<span>' + escapeHtml(cat) + '</span>';
+      html += '<span class="count">' + catCount + '</span>';
+      html += '</div>';
+      html += '<div class="tree-children">';
+
+      if (isGenes && subs2.length > 20) {
+        html += '<div class="az-filter">';
+        var letters2 = {};
+        for (var k = 0; k < subs2.length; k++) letters2[(subs2[k][0] || "").toUpperCase()] = true;
+        var sortedLetters = Object.keys(letters2).sort();
+        for (var li = 0; li < sortedLetters.length; li++) {
+          html += '<button class="az-btn" onclick="window.__azFilterReview(\'' + sortedLetters[li] + '\')">' + sortedLetters[li] + '</button>';
+        }
+        html += '<button class="az-btn" onclick="window.__azFilterReview(\'\')">All</button>';
+        html += '</div>';
+      }
+
+      for (var si3 = 0; si3 < subs2.length; si3++) {
+        var sub = subs2[si3];
+        var c = counts[cat + "/" + sub] || 0;
+        html += '<div class="tree-item" role="button" tabindex="0" data-sub="' + escapeAttr(sub) + '" data-cat="' + escapeAttr(cat) + '" ';
+        html += 'onclick="window.__selectReviewSub(\'' + escapeInlineHandler(cat) + "','" + escapeInlineHandler(sub) + '\')">';
+        html += '<span class="name">' + escapeHtml(sub) + '</span>';
+        html += '<span class="count">' + c + '</span>';
+        html += '</div>';
+      }
+
+      html += '</div></div>';
+    }
+
+    tree.innerHTML = html;
+
+    document.querySelectorAll(".tree-item, .tree-category-header, #reviewSharedItem").forEach(function(el) {
+      el.addEventListener("keydown", function(e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); el.click(); }
+      });
+    });
+  }
+
+  window.__selectReviewSub = function(cat, sub) {
+    reviewCategory = cat;
+    reviewSubcollection = sub;
+    renderReviewArticles();
+  };
+
+  window.__selectReviewShared = function() {
+    reviewCategory = "__shared__";
+    reviewSubcollection = "__shared__";
+    renderReviewArticles();
+  };
+
+  window.__azFilterReview = function(letter) {
+    var items = document.querySelectorAll(".tree-item[data-sub]");
+    items.forEach(function(el) {
+      if (!letter || (el.dataset.sub || "")[0].toUpperCase() === letter) {
+        el.style.display = "";
+      } else {
+        el.style.display = "none";
+      }
+    });
+  };
+
+  function getReviewArticles() {
+    if (!flaggedData || !flaggedData.articles) return [];
+    var articles = flaggedData.articles.filter(function(a) {
+      if (!showDismissed && isDismissed(a)) return false;
+      // "Shared Flagged" mode: articles in multiple subcollections
+      if (reviewSubcollection === "__shared__") {
+        return (a.subcollection || "").includes(",");
+      }
+      if (!reviewSubcollection && !reviewCategory) return true;  // All
+      // Comma-split matching (same as near-misses getFilteredArticles)
+      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
+      var cats = (a.category || "").split(",").map(function(c) { return c.trim(); });
+      if (reviewSubcollection && subs.indexOf(reviewSubcollection) === -1) return false;
+      if (reviewCategory && cats.indexOf(reviewCategory) === -1) return false;
+      return true;
+    });
+
+    // Sort
+    articles = articles.slice();
+    if (reviewSort === "year_desc") {
+      articles.sort(function(a, b) { return (parseInt(b.year) || 0) - (parseInt(a.year) || 0); });
+    } else if (reviewSort === "subs_desc") {
+      articles.sort(function(a, b) {
+        var bCount = (b.subcollection || "").split(",").filter(function(s) { return s.trim(); }).length;
+        var aCount = (a.subcollection || "").split(",").filter(function(s) { return s.trim(); }).length;
+        return bCount - aCount;
+      });
+    } else {
+      // cited_desc (default)
+      articles.sort(function(a, b) { return (b.cited_by_count || 0) - (a.cited_by_count || 0); });
+    }
+    return articles;
+  }
+
+  function renderReviewArticles() {
+    var content = document.getElementById("content");
+
+    if (!flaggedData) {
+      document.getElementById("mainTitle").textContent = "Review -- Low-Centrality Papers";
+      document.getElementById("mainSubtitle").textContent = "";
+      content.innerHTML = '<div class="empty-state"><h3>No review data</h3>' +
+        '<p>Run <code>python inverse_bot.py</code> to generate flagged_papers.json.</p></div>';
+      return;
+    }
+
+    var articles = getReviewArticles();
+    var subLabel = reviewSubcollection === "__shared__" ? "Shared Flagged" : (reviewSubcollection || "All flagged");
+    document.getElementById("mainTitle").textContent = "Review: " + subLabel;
+    document.getElementById("mainSubtitle").textContent =
+      articles.length + " orphan paper" + (articles.length !== 1 ? "s" : "") +
+      " (centrality = 0)" +
+      (flaggedData.generated_at ? " -- last computed " + new Date(flaggedData.generated_at).toLocaleDateString() : "");
+
+    if (articles.length === 0) {
+      content.innerHTML = '<div class="empty-state"><h3>No flagged papers</h3>' +
+        '<p>No orphan papers' + (reviewSubcollection ? ' for ' + escapeHtml(subLabel) : '') +
+        (showDismissed ? "" : " (dismissed papers hidden)") + '.</p></div>';
+      return;
+    }
+
+    var html = '<table class="article-table">';
+    html += '<thead><tr>';
+    html += '<th>Article</th>';
+    html += '<th class="col-subs">Sub-collections</th>';
+    html += '<th style="width:80px;text-align:center">Centrality</th>';
+    html += '<th class="col-cited">Cited</th>';
+    html += '<th class="col-year">Year</th>';
+    html += '<th style="width:90px">Dismiss</th>';
+    html += '</tr></thead><tbody>';
+
+    for (var a of articles) {
+      var pmid = a.pmid || "";
+      var doi = a.doi || "";
+      var pubmedUrl = pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + pmid : (doi ? "https://doi.org/" + doi : "#");
+      var authors = formatAuthors(a.authors);
+      var hasAbstract = a.abstract && a.abstract.length > 0;
+      var abstractId = "rv-abs-" + (pmid || doi.replace(/\W/g, ""));
+      var dismissed = isDismissed(a);
+
+      var sourceBadges = (a.source_tags || []).map(function(t) {
+        var label = t.replace("source:", "");
+        return '<span class="badge badge-' + escapeAttr(label) + '" style="margin-right:2px">' + escapeHtml(label) + '</span>';
+      }).join("");
+
+      html += '<tr' + (dismissed ? ' style="opacity:0.45"' : '') + '>';
+
+      // Article column
+      html += "<td>";
+      html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + escapeHtml(a.title || "Untitled") + '</a></div>';
+      html += '<div class="article-meta">' + escapeHtml(authors) + (a.journal ? " &mdash; " + escapeHtml(a.journal) : "") + '</div>';
+      if (sourceBadges) {
+        html += '<div style="margin-top:3px">' + sourceBadges + '</div>';
+      }
+      if (hasAbstract) {
+        html += '<button class="abstract-toggle" onclick="window.__toggleAbstract(\'' + escapeInlineHandler(abstractId) + '\')">Show abstract</button>';
+        html += '<div class="abstract-text" id="' + abstractId + '">' + escapeHtml(a.abstract) + '</div>';
+      }
+      html += "</td>";
+
+      // Sub-collections
+      html += '<td class="col-subs"><div class="sub-badges">';
+      var subBadges = (a.subcollection || "").split(",").map(function(s) { return s.trim(); }).filter(Boolean);
+      for (var sbi = 0; sbi < subBadges.length; sbi++) {
+        html += '<span class="sub-badge sub-badge-gene">' + escapeHtml(subBadges[sbi]) + '</span>';
+      }
+      html += '</div></td>';
+
+      // Centrality
+      html += '<td style="text-align:center"><span class="badge-centrality">' + (a.centrality || 0) + '</span></td>';
+
+      // Cited
+      html += '<td class="col-cited">' + (a.cited_by_count || 0) + '</td>';
+
+      // Year
+      html += '<td class="col-year">' + escapeHtml(a.year || "") + '</td>';
+
+      // Dismiss button
+      var pmidEsc = escapeInlineHandler(pmid);
+      var doiEsc = escapeInlineHandler(doi);
+      if (dismissed) {
+        html += '<td><button class="btn-dismiss dismissed" onclick="window.__undismissArticle(\'' + pmidEsc + "','" + doiEsc + '\')">Dismissed</button></td>';
+      } else {
+        html += '<td><button class="btn-dismiss" onclick="window.__dismissArticle(\'' + pmidEsc + "','" + doiEsc + '\')">Dismiss</button></td>';
+      }
+
+      html += "</tr>";
+    }
+
+    html += '</tbody></table>';
+    content.innerHTML = html;
   }
 
   // ------------------------------------------------------------------
@@ -2357,7 +2820,19 @@ html.dark .score-high { background: #157347; }
     document.querySelector(".sidebar").classList.toggle("open");
   });
 
+  document.getElementById("reviewSortSelect").addEventListener("change", function() {
+    reviewSort = this.value;
+    renderReviewArticles();
+  });
+
+  document.getElementById("showDismissed").addEventListener("change", function() {
+    showDismissed = this.checked;
+    renderReviewSidebar();
+    renderReviewArticles();
+  });
+
   loadData();
+  loadFlaggedData();
   loadRunHistory();
   loadRecentAdditions();
 

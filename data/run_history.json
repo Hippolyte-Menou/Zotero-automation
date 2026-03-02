@@ -123,6 +123,49 @@
         "per_topic": []
       },
       "openalex_failed_requests": 0
+    },
+    {
+      "timestamp": "2026-03-02T10:52:42Z",
+      "pipelines": {
+        "genes": true,
+        "topics": false
+      },
+      "genes": {
+        "totals": {
+          "found": 72,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 7,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_gene": [
+          {
+            "symbol": "DCT",
+            "found": 72,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 7,
+            "cit_added": 0,
+            "recent_added": 0
+          }
+        ]
+      },
+      "topics": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_topic": []
+      },
+      "openalex_failed_requests": 0
     }
   ]
 }

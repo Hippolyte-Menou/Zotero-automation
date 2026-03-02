@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-03-01T18:04:33.604576+00:00",
+ "generated_at": "2026-03-02T10:52:42.031868+00:00",
  "pipeline_version": "1.0",
- "pipeline_runs": 1,
+ "pipeline_runs": 2,
  "stats": {
-  "total_rejections": 305,
+  "total_rejections": 313,
   "by_reason": {
-   "score_below_threshold": 150,
-   "mention_filter": 71,
+   "score_below_threshold": 155,
+   "mention_filter": 73,
    "mesh_exclusion": 4,
-   "text_exclusion": 80
+   "text_exclusion": 81
   },
   "by_category": {
-   "6 - Genes": 305
+   "6 - Genes": 313
   }
  },
  "hierarchy": {
@@ -82,8 +82,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2245916",
@@ -118,8 +118,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1924386",
@@ -182,8 +182,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2133550",
@@ -219,15 +219,15 @@
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 5,
+   "co_citations": 3,
    "bib_coupling": 0,
    "recency_bonus": 0,
-   "effective_score": 5,
+   "effective_score": 3,
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1976385",
@@ -263,15 +263,15 @@
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 5,
+   "co_citations": 3,
    "bib_coupling": 0,
    "recency_bonus": 0,
-   "effective_score": 5,
+   "effective_score": 3,
    "threshold": 6,
-   "direction": "both",
+   "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "4031539",
@@ -302,8 +302,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11167683",
@@ -342,8 +342,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11526213",
@@ -402,8 +402,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9014213",
@@ -442,8 +442,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "27775611",
@@ -474,8 +474,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10963668",
@@ -514,8 +514,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12164780",
@@ -562,8 +562,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "21375698",
@@ -590,8 +590,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "14634018",
@@ -654,8 +654,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8898882",
@@ -694,8 +694,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7659683",
@@ -750,8 +750,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9177734",
@@ -790,8 +790,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9218796",
@@ -818,8 +818,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7961973",
@@ -841,7 +841,7 @@
    ],
    "journal": "Journal of Biological Chemistry",
    "year": "1994",
-   "abstract": "Tyrosinase, the key enzyme in melanin synthesis, is expressed specifically in pigment-producing cells. Studies with transgenic mice and gene transfer experiments have demonstrated that the 270-base pair 5'-flanking sequence of the mouse tyrosinase gene leads to weak but cell type-specific and developmentally regulated expression. To elucidate the underlying transcriptional control, we focused on the identification of cis-acting elements within this 270-base pair minimal promoter. We also addressed the potential role of promoter elements in the control of cAMP regulation of the tyrosinase gene. Deletion and linker scanning mutagenesis revealed that promoter activity is modulated by two positive elements and one negative element. One of the positive elements includes the M-box, a sequence motif shared with the promoter of two other melanocyte-specific genes, trp-1 and trp-2. Cotransfection experiments provide evidence that a basic helix-loop-helix-zipper protein, encoded at the microphthalmia gene locus, transactivates the tyrosinase promoter, probably by binding to the M-box. Activating cis elements are bound by nuclear factors in vitro and confer increased expression to a reporter gene both in melanoma cells and in fibroblasts. We therefore suggest that the positive promoter elements modulate tyrosinase expression rather than determine cell specificity in vivo, whereas the negative element acts cell type specifically.",
+   "abstract": "",
    "cited_by_count": 93,
    "reason": "score_below_threshold",
    "subcollection": "DCT",
@@ -854,8 +854,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8066023",
@@ -902,8 +902,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12559959",
@@ -954,8 +954,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12519122",
@@ -994,8 +994,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11831643",
@@ -1038,8 +1038,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9818385",
@@ -1078,8 +1078,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "18674612",
@@ -1134,8 +1134,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "26894771",
@@ -1198,8 +1198,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9593634",
@@ -1234,8 +1234,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9266602",
@@ -1270,8 +1270,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "24521313",
@@ -1314,8 +1314,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16185282",
@@ -1362,8 +1362,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16033338",
@@ -1410,8 +1410,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2007565",
@@ -1442,8 +1442,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9107139",
@@ -1482,8 +1482,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8348959",
@@ -1542,8 +1542,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "21265866",
@@ -1574,8 +1574,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "31949887",
@@ -1642,8 +1642,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "18935965",
@@ -1674,8 +1674,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39008470",
@@ -1726,8 +1726,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9199364",
@@ -1774,8 +1774,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16927299",
@@ -1802,8 +1802,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15892713",
@@ -1850,8 +1850,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9510032",
@@ -1898,8 +1898,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15140066",
@@ -1938,8 +1938,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9540976",
@@ -1982,8 +1982,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "18983539",
@@ -2070,8 +2070,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "20844763",
@@ -2130,8 +2130,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11105050",
@@ -2166,8 +2166,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12100497",
@@ -2210,8 +2210,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9056640",
@@ -2274,8 +2274,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "19493314",
@@ -2322,8 +2322,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7813420",
@@ -2375,15 +2375,15 @@
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 4,
+   "co_citations": 5,
    "bib_coupling": 0,
    "recency_bonus": 0,
-   "effective_score": 4,
+   "effective_score": 5,
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8027058",
@@ -2434,8 +2434,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1752358",
@@ -2466,8 +2466,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8040609",
@@ -2514,8 +2514,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "6774031",
@@ -2535,19 +2535,19 @@
    "year": "1980",
    "abstract": "",
    "cited_by_count": 189,
-   "reason": "score_below_threshold",
+   "reason": "mention_filter",
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 2,
-   "bib_coupling": 0,
+   "co_citations": 15,
+   "bib_coupling": 7,
    "recency_bonus": 0,
-   "effective_score": 2,
-   "threshold": 6,
+   "effective_score": 18,
+   "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "6810464",
@@ -2578,8 +2578,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3008090",
@@ -2626,8 +2626,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "17355913",
@@ -2662,8 +2662,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3132713",
@@ -2679,19 +2679,19 @@
    "year": "1988",
    "abstract": "A mouse melanoma cDNA clone was isolated by virtue of its reactivity with two antisera raised against tyrosinase (EC 1.14.18.1) from two species, hamster and mouse. The cDNA (5A) cross-hybridizes with another, pMT4 [Shibahara, S., Tomita, V., Sakakura, T., Nager, C., Bhabatosh, C. & Muller, R. (1986) Nucleic Acids Res. 14, 2413-2427], previously thought to encode mouse tyrosinase. Two other cDNAs, one human and one mouse, have been reported recently [Kwon, B. S., Haq, A. K., Pomerantz, S. H. & Halaban, R. (1987) Proc. Natl. Acad. Sci. USA 84, 7473-7477; and Yamamoto, H., Takeuchi, S., Kudo, T., Makino, K., Nakata, A., Shinoda, T. & Takeuchi, T. (1987) Jpn. J. Genet. 62, 271-277] as candidates for tyrosinase, and they map at or very close to the mouse albino (c) locus. The proteins they encode are very similar to each other but are distinct from (although related to) the pMT4-encoded protein. Here I use recombinant inbred strains to localize pMT4 at or close to the mouse brown (b) locus. I suggest that the gene mapping to c is the authentic tyrosinase gene, whereas that mapping to b encodes a tyrosinase-related protein. All b mutations in laboratory strains are associated with the same diagnostic Taq I fragment, suggesting that all derive from the same original mutation. I discuss possible function(s) of the tyrosinase-related protein.",
    "cited_by_count": 247,
-   "reason": "score_below_threshold",
+   "reason": "mention_filter",
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 2,
-   "bib_coupling": 0,
+   "co_citations": 13,
+   "bib_coupling": 8,
    "recency_bonus": 0,
-   "effective_score": 2,
-   "threshold": 6,
+   "effective_score": 16,
+   "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "6432918",
@@ -2730,8 +2730,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15383650",
@@ -2770,8 +2770,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3113493",
@@ -2810,8 +2810,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "6772968",
@@ -2850,8 +2850,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1898730",
@@ -2886,8 +2886,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7665913",
@@ -2926,8 +2926,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8167148",
@@ -2978,8 +2978,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1946209",
@@ -2995,19 +2995,19 @@
    "year": "1991",
    "abstract": "Dopachrome, an intermediate in melanin biosynthesis, exhibits some unusual properties. At physiologic pH (e.g., pH 6-8) it is unstable and spontaneously loses its carboxyl group to form 5,6-dihydroxyindole (DHI) and CO2. However, over this same pH range, if various metals or a melanocyte-specific enzyme are present, it rapidly rearranges to its isomer form--5,6-dihydroxyindole-2-carboxylic acid (DHICA)--which is far more stable than dopachrome in its ability to retain the carboxyl group. Whether or not the carboxyl group is retained could have important implications for the regulation of melanogenesis, since in the presence of oxygen DHI spontaneously forms a black precipitate, whereas DHICA forms a golden-brown solution. The solubility of \"DHICA-melanin\" is due to the presence of carboxyl groups, which provide negative charges and hydrophilicity. Thus, in vivo, the extent to which dopachrome is converted to DHI or DHICA may well influence the solubility and color of the melanin formed. The purpose of this article is to review recent findings in these areas and to discuss the possible significance of dopachrome conversion in the regulation of melanogenesis and color formation.",
    "cited_by_count": 143,
-   "reason": "score_below_threshold",
+   "reason": "mention_filter",
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 2,
-   "bib_coupling": 0,
+   "co_citations": 10,
+   "bib_coupling": 34,
    "recency_bonus": 0,
-   "effective_score": 2,
-   "threshold": 6,
-   "direction": "reference",
+   "effective_score": 13,
+   "threshold": null,
+   "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "36829566",
@@ -3042,8 +3042,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "22536431",
@@ -3090,72 +3090,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "37072620",
-   "doi": "10.1038/s42003-023-04640-5",
-   "title": "Pigmentation and TYRP1 expression are mediated by zinc through the early secretory pathway-resident ZNT proteins",
-   "authors": [
-    [
-     "Takumi",
-     "Wagatsuma"
-    ],
-    [
-     "Eisuke",
-     "Suzuki"
-    ],
-    [
-     "Miku",
-     "Shiotsu"
-    ],
-    [
-     "Akiko",
-     "Sogo"
-    ],
-    [
-     "Yukina",
-     "Nishito"
-    ],
-    [
-     "Hideya",
-     "Ando"
-    ],
-    [
-     "Hisashi",
-     "Hashimoto"
-    ],
-    [
-     "Michael J.",
-     "Petris"
-    ],
-    [
-     "Masato",
-     "Kinoshita"
-    ],
-    [
-     "Taiho",
-     "Kambe"
-    ]
-   ],
-   "journal": "Communications Biology",
-   "year": "2023",
-   "abstract": "",
-   "cited_by_count": 30,
-   "reason": "mention_filter",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": null,
-   "co_citations": 10,
-   "bib_coupling": 30,
-   "recency_bonus": 0,
-   "effective_score": 13,
-   "threshold": null,
-   "direction": "citation",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16584806",
@@ -3202,8 +3138,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12039032",
@@ -3238,8 +3174,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2823263",
@@ -3278,8 +3214,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2106316",
@@ -3306,8 +3242,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "34021746",
@@ -3350,8 +3286,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8651291",
@@ -3418,8 +3354,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11171088",
@@ -3462,8 +3398,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10588869",
@@ -3494,8 +3430,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9405100",
@@ -3534,8 +3470,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12032083",
@@ -3562,8 +3498,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "5432063",
@@ -3578,7 +3514,7 @@
    "journal": "Nature",
    "year": "1970",
    "abstract": "",
-   "cited_by_count": 251012,
+   "cited_by_count": 251014,
    "reason": "mention_filter",
    "subcollection": "DCT",
    "category": "6 - Genes",
@@ -3590,8 +3526,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7969144",
@@ -3634,8 +3570,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2492536",
@@ -3670,8 +3606,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "21572549",
@@ -3702,8 +3638,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1429711",
@@ -3746,8 +3682,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "33751833",
@@ -3782,8 +3718,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "37176019",
@@ -3814,8 +3750,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11641241",
@@ -3862,8 +3798,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15265682",
@@ -3914,8 +3850,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1907365",
@@ -3954,8 +3890,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12028580",
@@ -3986,8 +3922,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11156606",
@@ -4042,8 +3978,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16420243",
@@ -4074,8 +4010,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3142518",
@@ -4110,8 +4046,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "20201954",
@@ -4142,8 +4078,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "825109",
@@ -4174,8 +4110,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "2111010",
@@ -4214,8 +4150,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15619429",
@@ -4242,8 +4178,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "20726950",
@@ -4274,8 +4210,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7961886",
@@ -4330,8 +4266,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8857665",
@@ -4366,8 +4302,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12835099",
@@ -4402,8 +4338,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8192674",
@@ -4446,8 +4382,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "21324755",
@@ -4478,8 +4414,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "28601556",
@@ -4534,8 +4470,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "17516925",
@@ -4570,8 +4506,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11231058",
@@ -4610,8 +4546,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "16934245",
@@ -4646,8 +4582,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "19401874",
@@ -4678,8 +4614,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "33305505",
@@ -4726,8 +4662,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "41314540",
@@ -4766,8 +4702,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12028581",
@@ -4798,8 +4734,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3110555",
@@ -4826,8 +4762,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3141148",
@@ -4866,8 +4802,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "723948",
@@ -4898,8 +4834,8 @@
    "threshold": null,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "3131764",
@@ -4942,8 +4878,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11259383",
@@ -4986,8 +4922,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10823941",
@@ -5034,8 +4970,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7539206",
@@ -5066,8 +5002,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9464259",
@@ -5114,8 +5050,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39259488",
@@ -5150,8 +5086,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7855068",
@@ -5206,8 +5142,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10385911",
@@ -5238,8 +5174,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12595535",
@@ -5274,8 +5210,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10656687",
@@ -5330,8 +5266,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "7971745",
@@ -5370,8 +5306,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8248015",
@@ -5406,8 +5342,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1303241",
@@ -5438,8 +5374,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "27287415",
@@ -5506,8 +5442,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9425902",
@@ -5542,8 +5478,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "19002157",
@@ -5574,8 +5510,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10985850",
@@ -5610,8 +5546,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "17076280",
@@ -5646,8 +5582,8 @@
    "threshold": null,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12859616",
@@ -5678,8 +5614,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10585852",
@@ -5722,8 +5658,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1530581",
@@ -5766,8 +5702,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "22297637",
@@ -5830,8 +5766,8 @@
    "threshold": null,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8306979",
@@ -5868,8 +5804,8 @@
    "category": "6 - Genes",
    "matched_term": "melanoma",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8148378",
@@ -5912,8 +5848,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "18206123",
@@ -5970,8 +5906,8 @@
    "category": "6 - Genes",
    "matched_term": "melanoma",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10886507",
@@ -6020,8 +5956,8 @@
    "category": "6 - Genes",
    "matched_term": "melanoma",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8530077",
@@ -6070,8 +6006,8 @@
    "category": "6 - Genes",
    "matched_term": "melanoma",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "41580497",
@@ -6122,8 +6058,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "41752190",
@@ -6170,7 +6106,115 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "7980602",
+   "doi": "10.1006/bbrc.1994.2596",
+   "title": "Dopachrome Tautomerase Is a Zinc-Containing Enzyme",
+   "authors": [
+    [
+     "Francisco",
+     "Solano"
+    ],
+    [
+     "JOSÉ H.",
+     "MARTÍNEZ‐LIARTE"
+    ],
+    [
+     "Celia",
+     "Jiménez‐Cervantes"
+    ],
+    [
+     "José C.",
+     "García‐Borrón"
+    ],
+    [
+     "José Antonio",
+     "Lozano"
+    ]
+   ],
+   "journal": "Biochemical and Biophysical Research Communications",
+   "year": "1994",
+   "abstract": "",
+   "cited_by_count": 51,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 4,
+   "bib_coupling": 0,
+   "recency_bonus": 0,
+   "effective_score": 4,
+   "threshold": 6,
+   "direction": "reference",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "41500342",
+   "doi": "10.1016/j.freeradbiomed.2026.01.008",
+   "title": "Zinc-MTF1-metallothionein axis plays critical roles in the defense against ferroptosis in human cells",
+   "authors": [
+    [
+     "Takumi",
+     "Wagatsuma"
+    ],
+    [
+     "Akane",
+     "Yamamoto"
+    ],
+    [
+     "Yuzuna",
+     "Nishimura"
+    ],
+    [
+     "Masashi",
+     "Kawami"
+    ],
+    [
+     "Junya",
+     "Ito"
+    ],
+    [
+     "Tasuku",
+     "Hirayama"
+    ],
+    [
+     "Seiji",
+     "Masuda"
+    ],
+    [
+     "Kenji",
+     "Nakagawa"
+    ],
+    [
+     "Yasuo",
+     "Uchida"
+    ],
+    [
+     "Taiho",
+     "Kambe"
+    ]
+   ],
+   "journal": "Free Radical Biology and Medicine",
+   "year": "2026",
+   "abstract": "Ferroptosis, an iron-dependent form of regulated cell death characterized by lipid hydroperoxide accumulation, has attracted considerable attention because of its potential clinical applications. Ferroptosis is governed by redox reactions; however, the factors regulating this process, as well as their relationship with the central mediator of cellular redox homeostasis glutathione (GSH), warrant further investigation. Metallothioneins (MTs), cysteine-rich proteins that play central roles in zinc storage and homeostasis, comprise eleven isoforms in humans. This isoform multiplicity complicates functional analysis of human MTs, making it difficult to generate knockout cell lines and elucidate their precise roles in biological processes, including ferroptosis. Here, we established MT-knockout human cell lines and demonstrated that MTs protected against iron overload- or GSH depletion-induced ferroptosis in cooperation with GSH through their abundant thiol groups. Zinc enhanced this protective effect by inducing MT expression via metal-responsive transcription factor 1 (MTF1) activation. Importantly, this protective function was conserved across different human cell types, and MT expression levels may contribute to cell-type-specific susceptibility to ferroptosis. These findings highlight the zinc-MTF1-MT axis as a critical regulatory pathway that complements the GSH-glutathione peroxidase 4 system in controlling ferroptosis and may constitute a promising target for ferroptosis-directed therapeutic strategies.",
+   "cited_by_count": 0,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 3,
+   "effective_score": 4,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
    "seen_count": 1
   },
   {
@@ -6278,8 +6322,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "40683250",
@@ -6326,8 +6370,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "40554927",
@@ -6406,8 +6450,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "41101985",
@@ -6442,8 +6486,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "41365902",
@@ -6585,7 +6629,7 @@
    ],
    "journal": "Nature Communications",
    "year": "2025",
-   "abstract": "",
+   "abstract": "Despite the improvement of therapeutic options, melanoma patients with advanced metastatic disease are still in high need of durable treatments. Analysis of clinical data from patients receiving targeted and/or immunotherapy, along with genetic and functional studies in preclinical melanoma models, demonstrates the key role of the microphthalmia-associated transcription factor (MITF) throughout disease progression, and provides a solid rationale for its therapeutic inhibition. However, direct targeting of MITF or other basic helix-loop-helix leucine zipper (bHLH-LZ) transcription factors is unprecedented. Here, we report on the discovery of ligands for the DNA binding domain of MITF, using fragment-based screening (FBS) by nuclear magnetic resonance (NMR). Initial fragments, binding the kink pocket of MITF very weakly, are optimized to sub-micromolar affinities by structure-based design enabled by X-ray crystallography and biophysics. Furthermore, NMR experiments and molecular dynamics simulations reveal a dynamic conformational exchange between helices in the asymmetric homodimer, a phenomenon that is perturbed by ligand binding. This work advances our knowledge on direct targeting of bHLH-LZ DNA binding domains and sets the basis to further explore pharmacological inhibition of MITF.",
    "cited_by_count": 0,
    "reason": "score_below_threshold",
    "subcollection": "DCT",
@@ -6598,8 +6642,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39933952",
@@ -6638,8 +6682,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1674912",
@@ -6670,51 +6714,343 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
-   "pmid": "7980602",
-   "doi": "10.1006/bbrc.1994.2596",
-   "title": "Dopachrome Tautomerase Is a Zinc-Containing Enzyme",
+   "pmid": "39970778",
+   "doi": "10.1016/j.redox.2025.103552",
+   "title": "Copper in melanoma: At the crossroad of protumorigenic and anticancer roles",
    "authors": [
     [
-     "Francisco",
-     "Solano"
+     "Natalia",
+     "Chrzan"
     ],
     [
-     "JOSÉ H.",
-     "MARTÍNEZ‐LIARTE"
-    ],
-    [
-     "Celia",
-     "Jiménez‐Cervantes"
-    ],
-    [
-     "José C.",
-     "García‐Borrón"
-    ],
-    [
-     "José Antonio",
-     "Lozano"
+     "Mariusz L.",
+     "Hartman"
     ]
    ],
-   "journal": "Biochemical and Biophysical Research Communications",
-   "year": "1994",
+   "journal": "Redox Biology",
+   "year": "2025",
    "abstract": "",
-   "cited_by_count": 51,
+   "cited_by_count": 18,
    "reason": "score_below_threshold",
    "subcollection": "DCT",
    "category": "6 - Genes",
    "matched_term": null,
-   "co_citations": 3,
+   "co_citations": 1,
    "bib_coupling": 0,
-   "recency_bonus": 0,
+   "recency_bonus": 2,
    "effective_score": 3,
    "threshold": 6,
-   "direction": "reference",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "40091271",
+   "doi": "10.1111/pcmr.70008",
+   "title": "Piceatannol—Can It Be Used to Treat Hyperpigmentation of the Skin?",
+   "authors": [
+    [
+     "Ravi Kumar",
+     "Rajan"
+    ]
+   ],
+   "journal": "Pigment Cell & Melanoma Research",
+   "year": "2025",
+   "abstract": "Over the years, the cosmetic industry has shifted its focus from synthtic to natural compounds. This change is driven not only by the safety profile of natural ingredients but also by increased consumer awareness about the products they use. As a result, many natural skincare products have been launched in recent years. Hyperpigmentation disorders, such as melasma, age spots (solar lentigines), post-inflammatory hyperpigmentation, freckles, and acanthosis nigricans, are significant concerns. These conditions not only pose pathological issues but also affect individuals' self-esteem. Consequently, treating hyperpigmentation by reducing melanogenesis has become a key area of interest in cosmetology. Among various natural compounds, piceatannol (PCT) shows great potential in treating hyperpigmentation. The primary mechanism previously explored is the inhibition of the tyrosinase enzyme, which is one of the most researched strategies for combating melanogenesis. Additionally, PCT has been shown to downregulate MITF expression, a key gene responsible for the transcription of various melanogenic proteins and enzymes. However, beyond these two mechanisms, little is known about how PCT may inhibit melanogenesis. In this review, we aim to bridge that gap. We will explore and speculate on the possible upstream signaling pathways to MITF, such as Nrf, FOXO3a, CREB, MAPK signaling, etc., where PCT could potentially act to inhibit melanogenesis. This review will not only pave the way for future research related to PCT and hyperpigmentation but also highlight pathways that could be targeted for developing cosmetics and treatments for hyperpigmentation disorders.",
+   "cited_by_count": 2,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "40976557",
+   "doi": "10.1016/j.preteyeres.2025.101404",
+   "title": "Zinc in eye health, retinal biology and disease",
+   "authors": [
+    [
+     "Brian S.",
+     "McKay"
+    ],
+    [
+     "Andreas M.",
+     "Grabrucker"
+    ],
+    [
+     "Richard B.",
+     "Thompson"
+    ],
+    [
+     "Emily Y.",
+     "Chew"
+    ],
+    [
+     "Imre",
+     "Lengyel"
+    ],
+    [
+     "Héctor",
+     "González‐Iglesias"
+    ]
+   ],
+   "journal": "Progress in Retinal and Eye Research",
+   "year": "2025",
+   "abstract": "Zinc is an essential trace mineral that plays a crucial role in numerous bodily functions, including immune response, wound healing, and protein synthesis. Regarding eye health, zinc is particularly important due to its high concentration, functional abundance, and critical roles in the retina/RPE/choroid complex, where both deficiency and excess can lead to cellular dysfunction. This mineral contributes significantly to the maintenance of the structure and function of the tissues, and it is believed to help protect against oxidative stress, which can damage cells in the eye. The retinal pigment epithelium/choroid complex (RPE/choroid) contains the highest zinc concentration. Therefore, it is unsurprising that several eye disorders associated with this interface are associated with reduced zinc accumulation, and zinc supplementation has become an essential secondary preventive therapy for diseases like age-related macular degeneration (AMD). Despite zinc's importance in health and diseases of the outer retina, it still needs to be fully understood how zinc participates in cellular and molecular events and how zinc supplementation might be beneficial. However, it appears that adequate zinc levels are essential for retinal health and overall vision, particularly as we age. This review is focused on summarising our current understanding of the biology of zinc, with particular attention paid to the RPE/choroid interface.",
+   "cited_by_count": 1,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "40709436",
+   "doi": "10.1093/molbev/msaf175",
+   "title": "A Splicing Mutation in <i>mitfa</i> is Involved in the Depigmentation of Cavefish <i>Triplophysa rosa</i>",
+   "authors": [
+    [
+     "Mingming",
+     "Zhang"
+    ],
+    [
+     "Qingshuo",
+     "Zhao"
+    ],
+    [
+     "Jhen-Li",
+     "Huang"
+    ],
+    [
+     "Ming",
+     "Zou"
+    ],
+    [
+     "Baocheng",
+     "Guo"
+    ],
+    [
+     "Yahui",
+     "Zhao"
+    ],
+    [
+     "Fanwei",
+     "Meng"
+    ]
+   ],
+   "journal": "Molecular Biology and Evolution",
+   "year": "2025",
+   "abstract": "Regression traits such as pigmentation loss in cave-dwelling species offer powerful models for understanding evolutionary mechanisms under extreme environments. In this study, we investigated the genetic and evolutionary mechanisms underlying pigmentation loss in the cavefish Triplophysa rosa, a depigmented, eyeless species endemic to subterranean habitats. Compared with its surface-dwelling relative T. stenura, T. rosa exhibited significantly reduced expression of melanogenesis genes, indicating transcriptional repression of pigmentation pathways. Further analysis revealed a novel splicing site mutation in melanocyte inducing transcription factor a (mitfa), which results in a 63-nt deletion and loss of 21 amino acids in the activation domain. Functional rescue assays in zebrafish confirmed that the loss of 21 amino acids in Mitfa severely compromises melanin synthesis. Additionally, a premature stop codon in tyrosinase-related protein 1a (tyrp1a) was detected, which may also contribute to the depigmented phenotype. Evolutionary analyses indicated that pigmentation-specific genes in the T. rosa lineage are under relaxed purifying selection, consistent with weakened selective constraints on pigmentation in cave environments. Collectively, our findings indicate that a splice-site mutation in mitfa, acting against a background of relaxed selection on pigmentation genes, contributes to pigmentation loss in T. rosa, offering integrated proximate (molecular) and evolutionary insights into the troglomorphic traits in cavefish.",
+   "cited_by_count": 3,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "39857261",
+   "doi": "10.3390/biology14010030",
+   "title": "Population Genomics Reveals Elevated Inbreeding and Accumulation of Deleterious Mutations in White Raccoon Dogs",
+   "authors": [
+    [
+     "Yinping",
+     "Tian"
+    ],
+    [
+     "Yu",
+     "Lin"
+    ],
+    [
+     "Yue",
+     "Ma"
+    ],
+    [
+     "Jun",
+     "Li"
+    ],
+    [
+     "Sunil Kumar",
+     "Sahu"
+    ],
+    [
+     "Jiale",
+     "Fan"
+    ],
+    [
+     "Chen",
+     "Lin"
+    ],
+    [
+     "Zhiang",
+     "Li"
+    ],
+    [
+     "Minhui",
+     "Shi"
+    ],
+    [
+     "Fengping",
+     "He"
+    ],
+    [
+     "Lijun",
+     "Bai"
+    ],
+    [
+     "Yuan",
+     "Fu"
+    ],
+    [
+     "Zhangwen",
+     "Deng"
+    ],
+    [
+     "Huabing",
+     "Guo"
+    ],
+    [
+     "Haimeng",
+     "Li"
+    ],
+    [
+     "Qiye",
+     "Li"
+    ],
+    [
+     "Yanchun",
+     "Xu"
+    ],
+    [
+     "Tianming",
+     "Lan"
+    ],
+    [
+     "Zhijun",
+     "Hou"
+    ],
+    [
+     "Yanling",
+     "Xia"
+    ],
+    [
+     "Shuhui",
+     "Yang"
+    ]
+   ],
+   "journal": "Biology",
+   "year": "2025",
+   "abstract": "The formation of animal breeds usually begins with a small subsample from their ancestral population. Deleterious mutations accumulate in the population under genetic drift, inbreeding, and artificial selection during the development and maintenance of traits desired by humans. White raccoon dogs are among the most popular breeds of farmed raccoon dogs, but white raccoon dogs are more susceptible to disease and have a lower reproductive ability. However, the accumulation of deleterious mutations in this white breed is largely unknown. By analyzing and comparing whole-genome sequencing data from 20 white raccoon dogs and 38 normal raccoon dogs, we detected an increased occurrence of loss-of-function (LoF) mutations in white raccoon dogs compared with normal raccoon dogs. With the finding of a significantly higher dosage of homozygous missense mutations in the white raccoon dog genome, we detected a greater fitness cost in white raccoon dogs. Although a much higher FROH level for ROH fragments longer than 1 Mb has been reported in white raccoon dogs, we did not detect a genetic signal of genetic purging in white raccoon dogs. This study provides valuable genomic resources and new insights into the accumulation of mutation loads in farmed raccoon dogs.",
+   "cited_by_count": 1,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "40605698",
+   "doi": "10.1111/ahg.70003",
+   "title": "Genetics of Skin, Hair, and Eye Color in Human Pigmentation Disorders",
+   "authors": [
+    [
+     "Prashiela",
+     "Manga"
+    ],
+    [
+     "Stacie K.",
+     "Loftus"
+    ]
+   ],
+   "journal": "Annals of Human Genetics",
+   "year": "2025",
+   "abstract": "Skin, hair, and eye (oculocutaneous) color is due to melanin, a pigment produced by melanocytes. This review considers processes required for pigmentation and the complex genetic network that regulates them. The first requisite is migration of neural crest-derived melanoblasts, which populate various embryonic sites, then differentiate into melanocytes or seed stem cell niches. Differentiation is marked by expression of genes essential for melanogenesis, which takes place in melanosomes and involves conversion of tyrosine into melanin. Melanosome biogenesis requires premelanosome maturation through coordinated delivery of melanogenic enzymes such as tyrosinase (TYR), structural proteins, and transporters that establish an intraluminal environment conducive to melanogenesis. Sorting of proteins through endolysosomal pathways and delivery to melanosomes is facilitated by trafficking protein complexes. Finally, melanin is transferred to keratinocytes to protect against ultraviolet light. Numerous pigment-related disorders result from disruption of these pathways, including Waardenburg syndrome caused by melanoblast migration disruption, oculocutaneous albinism presenting with absent/reduced melanogenesis, and melanoma resulting from dysregulation of proliferation/survival. Genetic variants also determine normal color variation, which is pronounced across populations that, historically, lived in different geographical regions. This variation, shaped by genetic factors, environmental influences, and evolutionary pressures, underpins the wide range of pigmentation phenotypes seen today.",
+   "cited_by_count": 1,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 1
+  },
+  {
+   "pmid": "41051229",
+   "doi": "10.1093/bbb/zbaf143",
+   "title": "Elemental selectivity and homeostatic crosstalk among zinc, copper, and manganese in vertebrate cells",
+   "authors": [
+    [
+     "Taiho",
+     "Kambe"
+    ],
+    [
+     "Akane",
+     "Yamamoto"
+    ],
+    [
+     "Kazuyuki",
+     "Nakakita"
+    ]
+   ],
+   "journal": "Bioscience Biotechnology and Biochemistry",
+   "year": "2025",
+   "abstract": "Zinc (Zn), Copper (Cu), and Manganese (Mn) are micronutrients that are essential for biological functions. They act as cofactors for numerous proteins and serve as signaling molecules. Although recent studies have significantly advanced our understanding of the individual roles of these metals, their homeostatic interactions remain largely unclear, except for a few well-documented cases, most notably the well-known competition between Zn and Cu for intestinal absorption. Moreover, recent research in vertebrates has suggested that Mn metabolism is closely linked to Zn metabolism in various cellular processes. Investigating the regulatory mechanisms governing homeostasis of essential trace metals is crucial for elucidating their functions in cellular systems. In this review, we provide a brief overview of the recent advances in understanding the competition between Cu, Mn, and Zn, with a particular focus on the interaction of Zn with the other two metals.",
+   "cited_by_count": 0,
+   "reason": "score_below_threshold",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": null,
+   "co_citations": 1,
+   "bib_coupling": 0,
+   "recency_bonus": 2,
+   "effective_score": 3,
+   "threshold": 6,
+   "direction": "citation",
+   "first_seen": "2026-03-02T10:52:42.031868+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
    "seen_count": 1
   },
   {
@@ -6766,8 +7102,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9700169",
@@ -6818,8 +7154,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "6411733",
@@ -6862,8 +7198,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "8707852",
@@ -6902,8 +7238,8 @@
    "threshold": 6,
    "direction": "both",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "1321344",
@@ -6938,8 +7274,8 @@
    "threshold": 6,
    "direction": "reference",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12789278",
@@ -6970,8 +7306,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39277608",
@@ -7081,7 +7417,7 @@
    ],
    "journal": "Scientific Reports",
    "year": "2024",
-   "abstract": "",
+   "abstract": "Microphthalmia-associated transcription factor (MITF) is a master regulator of melanocyte function, development and plays a significant role in melanoma pathogenesis. MITF genomic amplification promotes melanoma development, and it can facilitate resistance to multiple therapies. Here, we show that MITF regulates a global antioxidant program that increases survival of melanoma cell lines by protecting the cells from reactive oxygen species (ROS)-induced damage. In addition, this redox program is correlated with MITF expression in human melanoma cell lines and patient-derived melanoma samples. Using a zebrafish melanoma model, we show that MITF decreases ROS-mediated DNA damage in vivo. Some of the MITF target genes involved, such as IDH1 and NNT, are regulated through direct MITF binding to canonical enhancer box (E-BOX) sequences proximal to their promoters. Utilizing functional experiments, we demonstrate the role of MITF and its target genes in reducing cytosolic and mitochondrial ROS. Collectively, our data identify MITF as a significant driver of the cellular antioxidant state.",
    "cited_by_count": 9,
    "reason": "score_below_threshold",
    "subcollection": "DCT",
@@ -7094,8 +7430,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10760582",
@@ -7162,8 +7498,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "12753399",
@@ -7210,8 +7546,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "21040502",
@@ -7254,8 +7590,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9870544",
@@ -7302,8 +7638,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39457382",
@@ -7334,8 +7670,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "39408953",
@@ -7394,8 +7730,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "9806836",
@@ -7454,8 +7790,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "10080955",
@@ -7486,8 +7822,8 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "15250942",
@@ -7522,8 +7858,302 @@
    "threshold": 6,
    "direction": "citation",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "9447965",
+   "doi": "10.1128/mcb.18.2.694",
+   "title": "Different <i>cis</i> -Acting Elements Are Involved in the Regulation of TRP1 and TRP2 Promoter Activities by Cyclic AMP: Pivotal Role of M Boxes (GTCATGTGCT) and of Microphthalmia",
+   "authors": [
+    [
+     "Corine",
+     "Bertolotto"
+    ],
+    [
+     "Roser",
+     "Buscà"
+    ],
+    [
+     "Patricia",
+     "Abbe"
+    ],
+    [
+     "Karine",
+     "Bille"
+    ],
+    [
+     "Édith",
+     "Aberdam"
+    ],
+    [
+     "Jean‐Paul",
+     "Ortonne"
+    ],
+    [
+     "Robert",
+     "Ballotti"
+    ]
+   ],
+   "journal": "Molecular and Cellular Biology",
+   "year": "1998",
+   "abstract": "In melanocytes and in melanoma cells, cyclic AMP (cAMP)-elevating agents stimulate melanogenesis and increase the transcription of tyrosinase, the rate-limiting enzyme in melanin synthesis. However, two other enzymes, tyrosinase-related protein 1 (TRP1) and TRP2, are required for a normal melanization process leading to eumelanin synthesis. In B16 melanoma cells, we demonstrated that stimulation of melanogenesis by cAMP-elevating agents results in an increase in tyrosinase, TRP1, and TRP2 expression. cAMP, through a cAMP-dependent protein kinase pathway, stimulates TRP1 and TRP2 promoter activities in both B16 mouse melanoma cells and normal human melanocytes. Regulation of the TRP1 and TRP2 promoters by cAMP involves a M box and an E box. Further, a classical cAMP response element-like motif participates in the cAMP responsiveness of the TRP2 promoter, demonstrating that the TRP2 gene is subjected to different regulatory processes, which could account for its different expression patterns during embryonic development or under specific physiological and pathological conditions. We also found that microphthalmia, a basic helix-loop-helix transcription factor, strongly stimulates the transcriptional activities of the TRP1 and TRP2 promoters, mainly through binding to the M boxes. Additionally, we demonstrated that cAMP increases microphthalmia expression and thereby its binding to TRP1 and TRP2 M boxes. These convergent and compelling results disclose at least a part of the molecular mechanism involved in the regulation of melanogenic gene expression by cAMP and emphasize the pivotal role of microphthalmia in this process.",
+   "cited_by_count": 310,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "melanoma",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "37072620",
+   "doi": "10.1038/s42003-023-04640-5",
+   "title": "Pigmentation and TYRP1 expression are mediated by zinc through the early secretory pathway-resident ZNT proteins",
+   "authors": [
+    [
+     "Takumi",
+     "Wagatsuma"
+    ],
+    [
+     "Eisuke",
+     "Suzuki"
+    ],
+    [
+     "Miku",
+     "Shiotsu"
+    ],
+    [
+     "Akiko",
+     "Sogo"
+    ],
+    [
+     "Yukina",
+     "Nishito"
+    ],
+    [
+     "Hideya",
+     "Ando"
+    ],
+    [
+     "Hisashi",
+     "Hashimoto"
+    ],
+    [
+     "Michael J.",
+     "Petris"
+    ],
+    [
+     "Masato",
+     "Kinoshita"
+    ],
+    [
+     "Taiho",
+     "Kambe"
+    ]
+   ],
+   "journal": "Communications Biology",
+   "year": "2023",
+   "abstract": "Tyrosinase (TYR) and tyrosinase-related proteins 1 and 2 (TYRP1 and TYRP2) are essential for pigmentation. They are generally classified as type-3 copper proteins, with binuclear copper active sites. Although there is experimental evidence for a copper cofactor in TYR, delivered via the copper transporter, ATP7A, the presence of copper in TYRP1 and TYRP2 has not been demonstrated. Here, we report that the expression and function of TYRP1 requires zinc, mediated by ZNT5-ZNT6 heterodimers (ZNT5-6) or ZNT7-ZNT7 homodimers (ZNT7). Loss of ZNT5-6 and ZNT7 function results in hypopigmentation in medaka fish and human melanoma cells, and is accompanied by immature melanosomes and reduced melanin content, as observed in TYRP1 dysfunction. The requirement of ZNT5-6 and ZNT7 for TYRP1 expression is conserved in human, mouse, and chicken orthologs. Our results provide novel insights into the pigmentation process and address questions regarding metalation in tyrosinase protein family.",
+   "cited_by_count": 30,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "melanoma",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "7929451",
+   "doi": "10.1016/s0021-9258(18)47128-1",
+   "title": "Cloning of the human DOPAchrome tautomerase/tyrosinase-related protein 2 gene and identification of two regulatory regions required for its pigment cell-specific expression.",
+   "authors": [
+    [
+     "Kouji",
+     "Yokoyama"
+    ],
+    [
+     "Ken‐ichi",
+     "Yasumoto"
+    ],
+    [
+     "Hiroshi",
+     "Suzuki"
+    ],
+    [
+     "Shigeki",
+     "Shibahara"
+    ]
+   ],
+   "journal": "Journal of Biological Chemistry",
+   "year": "1994",
+   "abstract": "We have cloned and sequenced the human genomic DNA segments encoding the 5'-flanking region and the first two exons of the DOPAchrome tautomerase (DT)/tyrosinase-related protein 2 (TRP-2) gene. The DT gene is a member of the tyrosinase gene family and specifically expressed in melanin-producing cells. A transcriptional initiation site of the DT gene was identified by S1 nuclease-mapping and primer-extension analyses using RNA prepared from human pigmented melanoma cells. To study the mechanism for pigment cell-specific expression of the human DT gene, we analyzed the promoter function of its 5'-flanking region by transient expression assays. The fusion genes, containing the DT gene promoter upstream from a firefly luciferase reporter gene, were introduced into human pigmented melanoma cells and HeLa cells, and the pigment cell-specific promoter activity was evaluated by comparing the luciferase activity expressed in both cell lines. A series of 5' deletion studies of the human DT gene promoter revealed that the 32-bp element, located between -447 and -415, is sufficient to confer pigment cell-specific expression of a reporter gene on a homologous promoter, but not on a heterologous simian virus 40 promoter. Internal deletion studies using a homologous or a heterologous promoter revealed that the pigment cell-specific expression of a reporter gene mediated by the 32-bp element is dependent on the presence of another region of the DT gene spanning from -268 to -56, which was termed the proximal region. However, the proximal region by itself is not sufficient to confer cell type-specific expression. These results indicate that the presence of two regulatory regions, the 32-bp element and the proximal region, is required for pigment cell-specific expression of the DT gene. Both regulatory regions contain a CANNTG motif, a well known binding site for a large family of transcription factors possessing a basic helix-loop-helix structure.",
+   "cited_by_count": 100,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "melanoma",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "8270621",
+   "doi": "10.1242/jcs.106.1.153",
+   "title": "The mouse <i>brown</i> (<i>b</i>) locus protein has dopachrome tautomerase activity and is located in lysosomes in transfected fibroblasts",
+   "authors": [
+    [
+     "Alison J.",
+     "Winder"
+    ],
+    [
+     "Anna",
+     "Wittbjer"
+    ],
+    [
+     "Evald",
+     "Rosengren"
+    ],
+    [
+     "Hans",
+     "Rorsman"
+    ]
+   ],
+   "journal": "Journal of Cell Science",
+   "year": "1993",
+   "abstract": "Many genes mapping to pigmentation loci are involved in the regulation of melanin synthesis in the mouse. The brown (b) locus controls black/brown coat coloration, and its product has significant homology to the key melanogenic enzyme tyrosinase. This has led to suggestions that the b-protein is itself a melanogenic enzyme. In order to investigate its function, we have established lines of mouse fibroblasts stably expressing the b-protein by co-transfection of a b-protein expression vector and a plasmid conferring resistance to the antibiotic G418. The b-protein synthesised by these cells has the expected molecular mass of 75 kDa and reacts with three different anti-b-protein antibodies. We were unable to confirm previous reports that the b-protein has tyrosinase or catalase activity, but detected stereospecific dopachrome tautomerase activity in b-protein-expressing fibroblasts. This dopachrome tautomerase binds to Concanavalin A-Sepharose, and the major product of its action on L-dopachrome is 5,6-dihydroxyindole-2-carboxylic acid. Since this activity is not present in untransfected cells we conclude that the b-protein has dopachrome tautomerase activity. Fibroblasts do not contain melanosomes, the specialised organelles in which the b-protein is located in melanocytes. Nevertheless, indirect immunofluorescence localisation of the b-protein in transfected fibroblasts produces a distinctive pattern of intense juxtanuclear staining combined with punctate cytoplasmic staining. Double-labelling shows co-localisation of the b-protein with the late endosomal/lysosomal markers beta-glucuronidase and LAMP-1, both in transfected fibroblasts and in mouse melanoma cells. These findings are consistent with the hypothesis that melanosomes are closely related to lysosomes.",
+   "cited_by_count": 71,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "melanoma",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "12719423",
+   "doi": "10.1074/jbc.m303167200",
+   "title": "The Inhibition of Early N-Glycan Processing Targets TRP-2 to Degradation in B16 Melanoma Cells",
+   "authors": [
+    [
+     "Gabriela",
+     "Negroiu"
+    ],
+    [
+     "Raymond A.",
+     "Dwek"
+    ],
+    [
+     "Ştefana M.",
+     "Petrescu"
+    ]
+   ],
+   "journal": "Journal of Biological Chemistry",
+   "year": "2003",
+   "abstract": "Tyrosinase-related protein-2 (TRP-2) is a DOPAchrome tautomerase catalyzing a distal step in the melanin synthesis pathway. Similar to the other two melanogenic enzymes belonging to the TRP gene family, tyrosinase and TRP-1, TRP-2 is expressed in melanocytes and melanoma cells. Despite the increasing evidence of its efficiency as a melanoma antigen, little is known about the maturation and intracellular trafficking of TRP-2. Here we show that TRP-2 is mainly distributed in the TGN of melanoma cells instead of being confined solely to melanosomes. This, together with the plasma membrane occasional localization observed by immunofluorescence, suggest the TRP-2 participation in a recycling pathway, which could include or not the melanosomes. Using pulse-chase experiments we show that the TRP-2 polypeptide folds in the endoplasmic reticulum (ER) in the presence of calnexin, until it reaches a dithiothreitol-resistant conformation enabling its ER exit to the Golgi. If N-glycosylation inhibitors prevent the association with calnexin, the TRP-2 nascent chain undergoes an accelerated degradation process. This process is delayed in the presence of proteasomal inhibitors, indicating that the misfolded chain is retro-translocated from the ER into the cytosol and degraded in proteasomes. This is a rare example in which calnexin although indispensable for the nascent chain folding is not required for its targeting to degradation. Therefore TRP-2 may prove to be a good model to document the calnexin-independent retro-translocation process of proteasomally degraded proteins. Clearly, TRP-2 has a distinct maturation pathway from tyrosinase and TRP-1 and possibly a second regulatory function within the cell.",
+   "cited_by_count": 35,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "melanoma",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "9263330",
+   "doi": "10.1111/j.1600-0749.1997.tb00489.x",
+   "title": "Comparison of TRPs From Murine and Human Malignant Melanocytes",
+   "authors": [
+    [
+     "María",
+     "Martínez‐Esparza"
+    ],
+    [
+     "Celia",
+     "Jiménez‐Cervantes"
+    ],
+    [
+     "José C.",
+     "García‐Borrón"
+    ],
+    [
+     "José Antonio",
+     "Lozano"
+    ],
+    [
+     "Véronique DEL",
+     "Marmol"
+    ],
+    [
+     "Ghanem",
+     "Ghanem"
+    ],
+    [
+     "Francisco",
+     "Solano"
+    ]
+   ],
+   "journal": "Pigment Cell Research",
+   "year": "1997",
+   "abstract": "Most of our knowledge of the mammalian tyrosinase related protein (TRP) activities is derived from studies using murine melanoma models, such as B16 or Cloudman S-91 melanocytes. Owing to the high degree of homology between the murine and human enzymes, it has been assumed that their kinetic behaviour could be similar. However, the protein sequences at the metal binding sites of the murine and human enzymes show some differences of possible functional relevance. These differences are more significant in the metal-A site than in the metal-B site. By using three human melanoma cell lines (HBL, SCL, and BEU), we have studied the catalytic abilities of the human melanogenic enzymes in comparison to those obtained for the counterpart murine enzymes isolated from B16 melanoma. We have found that TRP2 extracted from all cell lines show dopachrome tautomerase activity, although the activity levels in human malignant melanocytes are much lower than in mouse cells. Reconstitution experiments of the human enzyme indicate that TRP2 has Zn at its metal binding-sites. Although mouse tyrosinase does not show DHICA oxidase activity, and this step of the melanogenesis pathway is specifically catalyzed by mouse TRP1, the human enzyme seems to recognize carboxylated indoles. Thus, human tyrosinase could display some residual DHICA oxidase activity, and the function of human TRP1 could differ from that of the murine protein. Attempts to clarify the nature of the metal cofactor in TRP1 were unsuccessful. The enzyme contains mostly Fe and Cu, but the reconstitution of the enzymatic activity from the apoprotein with these ions was not possible.",
+   "cited_by_count": 7,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "malignant",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
+  },
+  {
+   "pmid": "40955865",
+   "doi": "10.1002/smll.202506711",
+   "title": "Metabolic Regulation of Biosynthesis of Melanin Nanoparticles for Enhancing Photothermal Therapy of Breast Tumor",
+   "authors": [
+    [
+     "Lijie",
+     "Yang"
+    ],
+    [
+     "Yongquan",
+     "Huang"
+    ],
+    [
+     "Chenxing",
+     "Liu"
+    ],
+    [
+     "Yuanyuan",
+     "Wang"
+    ],
+    [
+     "Huai‐Yu",
+     "Wang"
+    ],
+    [
+     "Fei",
+     "Yan"
+    ],
+    [
+     "Zhongzhen",
+     "Su"
+    ]
+   ],
+   "journal": "Small",
+   "year": "2025",
+   "abstract": "Photothermal therapy (PTT) has received increasing attention for its minimally invasive and high spatiotemporal selectivity. However, most photothermal therapeutic agents are commonly produced through chemical or physical approaches, potentially introducing harmful factors to human health or the environment. Biosynthetic melanin nanoparticles exhibit excellent photothermal conversion efficiency and biocompatibility, making it a promising candidate for tumor PTT. In the previous study, it engineered Escherichia coli to express tyrosinase (tyr1) for the biosynthesis of melanin nanoparticles (Mel-M). However, single-enzyme overexpressing system is limited in yield and structure regulation.This study developed a multi-enzyme system by overexpressing tyr1, tyrosinase-related protein 1 (Tyrp1), and dopachrome tautomerase (Dct) through metabolic engineering strategy.The multi-enzyme system successfully improving the yield of melanin nanoparticles (Mel-A), with greater polymerization and stronger near-infrared (NIR) absorption. The resulting Mel-A not only possesses good photothermal stability and biocompatibility, but also displays higher photothermal conversion efficiency (66.5%) with good photoacoustic imaging (PAI) performance, significantly enhancing the efficacy of photothermal therapy of breast tumor. The study provides a promising strategy to regulate biosynthesis of melanin nanoparticles for improving their applications in cancer diagnosis and therapy.",
+   "cited_by_count": 1,
+   "reason": "text_exclusion",
+   "subcollection": "DCT",
+   "category": "6 - Genes",
+   "matched_term": "cancer",
+   "first_seen": "2026-03-01T18:04:33.604576+00:00",
+   "last_seen": "2026-03-02T10:52:42.031868+00:00",
+   "seen_count": 2
   },
   {
    "pmid": "11470231",
@@ -7793,242 +8423,6 @@
    "effective_score": 2,
    "threshold": 6,
    "direction": "citation",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "9447965",
-   "doi": "10.1128/mcb.18.2.694",
-   "title": "Different <i>cis</i> -Acting Elements Are Involved in the Regulation of TRP1 and TRP2 Promoter Activities by Cyclic AMP: Pivotal Role of M Boxes (GTCATGTGCT) and of Microphthalmia",
-   "authors": [
-    [
-     "Corine",
-     "Bertolotto"
-    ],
-    [
-     "Roser",
-     "Buscà"
-    ],
-    [
-     "Patricia",
-     "Abbe"
-    ],
-    [
-     "Karine",
-     "Bille"
-    ],
-    [
-     "Édith",
-     "Aberdam"
-    ],
-    [
-     "Jean‐Paul",
-     "Ortonne"
-    ],
-    [
-     "Robert",
-     "Ballotti"
-    ]
-   ],
-   "journal": "Molecular and Cellular Biology",
-   "year": "1998",
-   "abstract": "In melanocytes and in melanoma cells, cyclic AMP (cAMP)-elevating agents stimulate melanogenesis and increase the transcription of tyrosinase, the rate-limiting enzyme in melanin synthesis. However, two other enzymes, tyrosinase-related protein 1 (TRP1) and TRP2, are required for a normal melanization process leading to eumelanin synthesis. In B16 melanoma cells, we demonstrated that stimulation of melanogenesis by cAMP-elevating agents results in an increase in tyrosinase, TRP1, and TRP2 expression. cAMP, through a cAMP-dependent protein kinase pathway, stimulates TRP1 and TRP2 promoter activities in both B16 mouse melanoma cells and normal human melanocytes. Regulation of the TRP1 and TRP2 promoters by cAMP involves a M box and an E box. Further, a classical cAMP response element-like motif participates in the cAMP responsiveness of the TRP2 promoter, demonstrating that the TRP2 gene is subjected to different regulatory processes, which could account for its different expression patterns during embryonic development or under specific physiological and pathological conditions. We also found that microphthalmia, a basic helix-loop-helix transcription factor, strongly stimulates the transcriptional activities of the TRP1 and TRP2 promoters, mainly through binding to the M boxes. Additionally, we demonstrated that cAMP increases microphthalmia expression and thereby its binding to TRP1 and TRP2 M boxes. These convergent and compelling results disclose at least a part of the molecular mechanism involved in the regulation of melanogenic gene expression by cAMP and emphasize the pivotal role of microphthalmia in this process.",
-   "cited_by_count": 310,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "melanoma",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "7929451",
-   "doi": "10.1016/s0021-9258(18)47128-1",
-   "title": "Cloning of the human DOPAchrome tautomerase/tyrosinase-related protein 2 gene and identification of two regulatory regions required for its pigment cell-specific expression.",
-   "authors": [
-    [
-     "Kouji",
-     "Yokoyama"
-    ],
-    [
-     "Ken‐ichi",
-     "Yasumoto"
-    ],
-    [
-     "Hiroshi",
-     "Suzuki"
-    ],
-    [
-     "Shigeki",
-     "Shibahara"
-    ]
-   ],
-   "journal": "Journal of Biological Chemistry",
-   "year": "1994",
-   "abstract": "We have cloned and sequenced the human genomic DNA segments encoding the 5'-flanking region and the first two exons of the DOPAchrome tautomerase (DT)/tyrosinase-related protein 2 (TRP-2) gene. The DT gene is a member of the tyrosinase gene family and specifically expressed in melanin-producing cells. A transcriptional initiation site of the DT gene was identified by S1 nuclease-mapping and primer-extension analyses using RNA prepared from human pigmented melanoma cells. To study the mechanism for pigment cell-specific expression of the human DT gene, we analyzed the promoter function of its 5'-flanking region by transient expression assays. The fusion genes, containing the DT gene promoter upstream from a firefly luciferase reporter gene, were introduced into human pigmented melanoma cells and HeLa cells, and the pigment cell-specific promoter activity was evaluated by comparing the luciferase activity expressed in both cell lines. A series of 5' deletion studies of the human DT gene promoter revealed that the 32-bp element, located between -447 and -415, is sufficient to confer pigment cell-specific expression of a reporter gene on a homologous promoter, but not on a heterologous simian virus 40 promoter. Internal deletion studies using a homologous or a heterologous promoter revealed that the pigment cell-specific expression of a reporter gene mediated by the 32-bp element is dependent on the presence of another region of the DT gene spanning from -268 to -56, which was termed the proximal region. However, the proximal region by itself is not sufficient to confer cell type-specific expression. These results indicate that the presence of two regulatory regions, the 32-bp element and the proximal region, is required for pigment cell-specific expression of the DT gene. Both regulatory regions contain a CANNTG motif, a well known binding site for a large family of transcription factors possessing a basic helix-loop-helix structure.",
-   "cited_by_count": 100,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "melanoma",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "8270621",
-   "doi": "10.1242/jcs.106.1.153",
-   "title": "The mouse <i>brown</i> (<i>b</i>) locus protein has dopachrome tautomerase activity and is located in lysosomes in transfected fibroblasts",
-   "authors": [
-    [
-     "Alison J.",
-     "Winder"
-    ],
-    [
-     "Anna",
-     "Wittbjer"
-    ],
-    [
-     "Evald",
-     "Rosengren"
-    ],
-    [
-     "Hans",
-     "Rorsman"
-    ]
-   ],
-   "journal": "Journal of Cell Science",
-   "year": "1993",
-   "abstract": "Many genes mapping to pigmentation loci are involved in the regulation of melanin synthesis in the mouse. The brown (b) locus controls black/brown coat coloration, and its product has significant homology to the key melanogenic enzyme tyrosinase. This has led to suggestions that the b-protein is itself a melanogenic enzyme. In order to investigate its function, we have established lines of mouse fibroblasts stably expressing the b-protein by co-transfection of a b-protein expression vector and a plasmid conferring resistance to the antibiotic G418. The b-protein synthesised by these cells has the expected molecular mass of 75 kDa and reacts with three different anti-b-protein antibodies. We were unable to confirm previous reports that the b-protein has tyrosinase or catalase activity, but detected stereospecific dopachrome tautomerase activity in b-protein-expressing fibroblasts. This dopachrome tautomerase binds to Concanavalin A-Sepharose, and the major product of its action on L-dopachrome is 5,6-dihydroxyindole-2-carboxylic acid. Since this activity is not present in untransfected cells we conclude that the b-protein has dopachrome tautomerase activity. Fibroblasts do not contain melanosomes, the specialised organelles in which the b-protein is located in melanocytes. Nevertheless, indirect immunofluorescence localisation of the b-protein in transfected fibroblasts produces a distinctive pattern of intense juxtanuclear staining combined with punctate cytoplasmic staining. Double-labelling shows co-localisation of the b-protein with the late endosomal/lysosomal markers beta-glucuronidase and LAMP-1, both in transfected fibroblasts and in mouse melanoma cells. These findings are consistent with the hypothesis that melanosomes are closely related to lysosomes.",
-   "cited_by_count": 71,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "melanoma",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "12719423",
-   "doi": "10.1074/jbc.m303167200",
-   "title": "The Inhibition of Early N-Glycan Processing Targets TRP-2 to Degradation in B16 Melanoma Cells",
-   "authors": [
-    [
-     "Gabriela",
-     "Negroiu"
-    ],
-    [
-     "Raymond A.",
-     "Dwek"
-    ],
-    [
-     "Ştefana M.",
-     "Petrescu"
-    ]
-   ],
-   "journal": "Journal of Biological Chemistry",
-   "year": "2003",
-   "abstract": "Tyrosinase-related protein-2 (TRP-2) is a DOPAchrome tautomerase catalyzing a distal step in the melanin synthesis pathway. Similar to the other two melanogenic enzymes belonging to the TRP gene family, tyrosinase and TRP-1, TRP-2 is expressed in melanocytes and melanoma cells. Despite the increasing evidence of its efficiency as a melanoma antigen, little is known about the maturation and intracellular trafficking of TRP-2. Here we show that TRP-2 is mainly distributed in the TGN of melanoma cells instead of being confined solely to melanosomes. This, together with the plasma membrane occasional localization observed by immunofluorescence, suggest the TRP-2 participation in a recycling pathway, which could include or not the melanosomes. Using pulse-chase experiments we show that the TRP-2 polypeptide folds in the endoplasmic reticulum (ER) in the presence of calnexin, until it reaches a dithiothreitol-resistant conformation enabling its ER exit to the Golgi. If N-glycosylation inhibitors prevent the association with calnexin, the TRP-2 nascent chain undergoes an accelerated degradation process. This process is delayed in the presence of proteasomal inhibitors, indicating that the misfolded chain is retro-translocated from the ER into the cytosol and degraded in proteasomes. This is a rare example in which calnexin although indispensable for the nascent chain folding is not required for its targeting to degradation. Therefore TRP-2 may prove to be a good model to document the calnexin-independent retro-translocation process of proteasomally degraded proteins. Clearly, TRP-2 has a distinct maturation pathway from tyrosinase and TRP-1 and possibly a second regulatory function within the cell.",
-   "cited_by_count": 35,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "melanoma",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "9263330",
-   "doi": "10.1111/j.1600-0749.1997.tb00489.x",
-   "title": "Comparison of TRPs From Murine and Human Malignant Melanocytes",
-   "authors": [
-    [
-     "María",
-     "Martínez‐Esparza"
-    ],
-    [
-     "Celia",
-     "Jiménez‐Cervantes"
-    ],
-    [
-     "José C.",
-     "García‐Borrón"
-    ],
-    [
-     "José Antonio",
-     "Lozano"
-    ],
-    [
-     "Véronique DEL",
-     "Marmol"
-    ],
-    [
-     "Ghanem",
-     "Ghanem"
-    ],
-    [
-     "Francisco",
-     "Solano"
-    ]
-   ],
-   "journal": "Pigment Cell Research",
-   "year": "1997",
-   "abstract": "Most of our knowledge of the mammalian tyrosinase related protein (TRP) activities is derived from studies using murine melanoma models, such as B16 or Cloudman S-91 melanocytes. Owing to the high degree of homology between the murine and human enzymes, it has been assumed that their kinetic behaviour could be similar. However, the protein sequences at the metal binding sites of the murine and human enzymes show some differences of possible functional relevance. These differences are more significant in the metal-A site than in the metal-B site. By using three human melanoma cell lines (HBL, SCL, and BEU), we have studied the catalytic abilities of the human melanogenic enzymes in comparison to those obtained for the counterpart murine enzymes isolated from B16 melanoma. We have found that TRP2 extracted from all cell lines show dopachrome tautomerase activity, although the activity levels in human malignant melanocytes are much lower than in mouse cells. Reconstitution experiments of the human enzyme indicate that TRP2 has Zn at its metal binding-sites. Although mouse tyrosinase does not show DHICA oxidase activity, and this step of the melanogenesis pathway is specifically catalyzed by mouse TRP1, the human enzyme seems to recognize carboxylated indoles. Thus, human tyrosinase could display some residual DHICA oxidase activity, and the function of human TRP1 could differ from that of the murine protein. Attempts to clarify the nature of the metal cofactor in TRP1 were unsuccessful. The enzyme contains mostly Fe and Cu, but the reconstitution of the enzymatic activity from the apoprotein with these ions was not possible.",
-   "cited_by_count": 7,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "malignant",
-   "first_seen": "2026-03-01T18:04:33.604576+00:00",
-   "last_seen": "2026-03-01T18:04:33.604576+00:00",
-   "seen_count": 1
-  },
-  {
-   "pmid": "40955865",
-   "doi": "10.1002/smll.202506711",
-   "title": "Metabolic Regulation of Biosynthesis of Melanin Nanoparticles for Enhancing Photothermal Therapy of Breast Tumor",
-   "authors": [
-    [
-     "Lijie",
-     "Yang"
-    ],
-    [
-     "Yongquan",
-     "Huang"
-    ],
-    [
-     "Chenxing",
-     "Liu"
-    ],
-    [
-     "Yuanyuan",
-     "Wang"
-    ],
-    [
-     "Huai‐Yu",
-     "Wang"
-    ],
-    [
-     "Fei",
-     "Yan"
-    ],
-    [
-     "Zhongzhen",
-     "Su"
-    ]
-   ],
-   "journal": "Small",
-   "year": "2025",
-   "abstract": "Photothermal therapy (PTT) has received increasing attention for its minimally invasive and high spatiotemporal selectivity. However, most photothermal therapeutic agents are commonly produced through chemical or physical approaches, potentially introducing harmful factors to human health or the environment. Biosynthetic melanin nanoparticles exhibit excellent photothermal conversion efficiency and biocompatibility, making it a promising candidate for tumor PTT. In the previous study, it engineered Escherichia coli to express tyrosinase (tyr1) for the biosynthesis of melanin nanoparticles (Mel-M). However, single-enzyme overexpressing system is limited in yield and structure regulation.This study developed a multi-enzyme system by overexpressing tyr1, tyrosinase-related protein 1 (Tyrp1), and dopachrome tautomerase (Dct) through metabolic engineering strategy.The multi-enzyme system successfully improving the yield of melanin nanoparticles (Mel-A), with greater polymerization and stronger near-infrared (NIR) absorption. The resulting Mel-A not only possesses good photothermal stability and biocompatibility, but also displays higher photothermal conversion efficiency (66.5%) with good photoacoustic imaging (PAI) performance, significantly enhancing the efficacy of photothermal therapy of breast tumor. The study provides a promising strategy to regulate biosynthesis of melanin nanoparticles for improving their applications in cancer diagnosis and therapy.",
-   "cited_by_count": 1,
-   "reason": "text_exclusion",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "matched_term": "cancer",
    "first_seen": "2026-03-01T18:04:33.604576+00:00",
    "last_seen": "2026-03-01T18:04:33.604576+00:00",
    "seen_count": 1
