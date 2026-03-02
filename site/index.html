@@ -1323,6 +1323,8 @@ html.dark .score-high { background: #157347; }
       renderReviewArticles();
     } else {
       renderSidebar();
+      document.getElementById("mainTitle").textContent = "Select a subcollection";
+      document.getElementById("mainSubtitle").textContent = "";
       var content = document.getElementById("content");
       content.innerHTML = '<div class="empty-state"><h3>Choose a subcollection from the sidebar</h3><p>Browse genes and topic categories to review near-miss articles.</p></div>';
       currentSubcollection = null;
@@ -1625,7 +1627,7 @@ html.dark .score-high { background: #157347; }
     var content = document.getElementById("content");
 
     if (!flaggedData) {
-      document.getElementById("mainTitle").textContent = "Review -- Low-Centrality Papers";
+      document.getElementById("mainTitle").textContent = "Review - Low-Centrality Papers";
       document.getElementById("mainSubtitle").textContent = "";
       content.innerHTML = '<div class="empty-state"><h3>No review data</h3>' +
         '<p>Run <code>python inverse_bot.py</code> to generate flagged_papers.json.</p></div>';
