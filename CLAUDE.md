@@ -99,7 +99,8 @@ Separate log artifacts: `run-logs-genes-*` and `run-logs-topics-*`.
 - Dark mode: automatic via `prefers-color-scheme`
 - Mobile responsive: hamburger toggle for sidebar on screens < 768px
 - Accessible: ARIA labels, keyboard navigation (Enter/Space) on tree items, `role="button" tabindex="0"`
-- Exclusion trigger highlighting: text-excluded articles highlight the matched term in title/abstract; MeSH-excluded articles show the triggering descriptor as a colored tag
+- Exclusion trigger highlighting: text-excluded articles highlight the matched term in title/abstract (red `trigger-mark`); MeSH-excluded articles show the triggering descriptor as a colored tag
+- Search keyword highlighting: gene aliases, disease terms, and topic keywords stored in `search_keywords` field are highlighted in teal (`keyword-mark`) across all rejection reasons; `highlightAll()` applies trigger highlights first (visual precedence), then keyword highlights on remaining segments; backward-compatible with old data missing the field
 - XSS-safe: `escapeInlineHandler()` for JS-string-inside-HTML-attribute contexts (onclick handlers); `escapeAttr()` for plain HTML attributes; `highlightTerm()` escapes before wrapping in mark spans
 - Rescue queue: per-article "Rescue" button saves to localStorage; "Download rescue_queue.json" exports for bot pickup; run.py `process_rescue_queue()` uploads rescued articles with `source:rescue` tag and clears the queue
 - Recent additions panel: collapsible panel showing papers uploaded in the last 4 weeks, grouped by gene/topic with source-tag badges; data from `data/recent_additions.json` (cumulative, pruned to 8 weeks)
@@ -162,6 +163,7 @@ python -m http.server 8000 -d site
 - `zotero_client.py` collection cache is keyed by `(name, parent_key)` tuple to prevent cross-parent collisions
 - `zotero_client.py` `get_all_items_full()` builds `parent_map: {key: str | None}` (pyzotero returns `parentCollection: False` for roots, coerced with `or None`) and uses `_get_top_level_ancestor()` to walk up the collection hierarchy; returns `category` (top-level ancestor name, comma-joined) and `subcollection` (direct collection name, comma-joined) string fields instead of the old `subcollections: list[str]`
 - `zotero_client.py` `_get_top_level_ancestor(key, parent_map)` is a static helper with a `visited` set for cycle protection
+- `rejection_log.py` `set_context()` accepts optional `search_keywords: list[str]` param; keywords are stored per entry and merged (union + sorted) across runs via `_merge_search_keywords()`
 - `rejection_log.py` `to_json()` does not mutate `self.entries` - uses local variable for merged output
 - `flagged_papers.json` top-level structure: `{"hierarchy": {cat: [subs]}, "articles": [{..., "category": str, "subcollection": str, ...}]}`; mirrors Near Misses data model so the Review tab can use the identical sidebar rendering code path
 - Separate workflows per pipeline: `gene_pipeline.yml` (Mon-Fri), `topic_pipeline.yml` (Sat), `inverse_bot.yml` (Sun)

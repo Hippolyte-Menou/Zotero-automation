@@ -266,10 +266,10 @@ Every pipeline run generates a JSON log of articles that were considered but ult
 
 | Rejection reason | When | Details captured |
 |---|---|---|
-| `score_below_threshold` | Citation expansion: candidate scored below adaptive threshold | co-citations, bib coupling, recency bonus, effective score, threshold, direction |
-| `text_exclusion` | Title/abstract matched a blocked term (cancer, tumor, mouse model, ...) | matched term, highlighted in title and abstract |
-| `mesh_exclusion` | MeSH descriptors matched a blocked descriptor (Neoplasms, Diabetes, ...) | matched MeSH descriptor, shown as a tag badge |
-| `mention_filter` | Citation candidate passed scoring but gene/keyword not mentioned in title or abstract | co-citations, bib coupling, recency bonus, effective score, direction |
+| `score_below_threshold` | Citation expansion: candidate scored below adaptive threshold | co-citations, bib coupling, recency bonus, effective score, threshold, direction, search keywords |
+| `text_exclusion` | Title/abstract matched a blocked term (cancer, tumor, mouse model, ...) | matched term (highlighted red), search keywords (highlighted teal) |
+| `mesh_exclusion` | MeSH descriptors matched a blocked descriptor (Neoplasms, Diabetes, ...) | matched MeSH descriptor (tag badge), search keywords (highlighted teal) |
+| `mention_filter` | Citation candidate passed scoring but gene/keyword not mentioned in title or abstract | co-citations, bib coupling, recency bonus, effective score, direction, search keywords |
 
 For `score_below_threshold`, metadata is fetched for the top 50 candidates per hop (ranked by effective score) to keep API calls bounded.
 
@@ -286,7 +286,8 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 - **Article table**: title (linked to PubMed), authors, journal, year, citation count, color-coded rejection badge, score breakdown for citation candidates
 - **Score progress bars**: for score-below-threshold articles, a visual bar showing `effective_score / threshold` ratio with red (< 50%) / amber (50-80%) / green (> 80%) gradient
 - **"Closest to threshold" sort**: preset that orders articles by how close they came to passing, auto-filtering to score-based rejections
-- **Exclusion trigger highlighting**: for text-excluded articles, the matched term is highlighted in both title and abstract; for MeSH-excluded articles, the triggering descriptor is shown as a colored tag badge
+- **Exclusion trigger highlighting**: for text-excluded articles, the matched term is highlighted in red in both title and abstract; for MeSH-excluded articles, the triggering descriptor is shown as a colored tag badge
+- **Search keyword highlighting**: gene aliases, disease terms, and topic keywords that led to discovering each article are highlighted in teal across all rejection reasons; when both trigger and keyword highlights apply, trigger terms take visual precedence; backward-compatible with older data missing the `search_keywords` field
 - **Expandable abstracts**: click to toggle per article
 - **Pagination**: 50 articles per page
 

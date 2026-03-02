@@ -687,9 +687,6 @@ def process_gene(
     logger.info(f"Processing: {symbol}")
     logger.info(f"{'=' * 60}")
 
-    if rejection_log:
-        rejection_log.set_context(subcollection=symbol, category="6 - Genes")
-
     # 1. Gene aliases from HGNC
     aliases = get_gene_aliases(symbol)
     blocked = set(gene_cfg.get("blocked_aliases", []))
@@ -699,6 +696,13 @@ def process_gene(
             logger.info(f"{symbol}: blocking HGNC aliases: {sorted(removed)}")
             aliases -= blocked
     search_terms = sorted(aliases)
+
+    if rejection_log:
+        rejection_log.set_context(
+            subcollection=symbol,
+            category="6 - Genes",
+            search_keywords=search_terms + gene_tags,
+        )
 
     # 2. Get/create Zotero collection (needed before fetching existing papers)
     if genes_parent_key:
@@ -1062,7 +1066,11 @@ def process_topic_subtopic(
     logger.info(f"{'=' * 60}")
 
     if rejection_log:
-        rejection_log.set_context(subcollection=sub_name, category=category_name)
+        rejection_log.set_context(
+            subcollection=sub_name,
+            category=category_name,
+            search_keywords=keywords,
+        )
 
     # 1. Get/create nested Zotero collection
     collection_key = zot.get_or_create_collection(

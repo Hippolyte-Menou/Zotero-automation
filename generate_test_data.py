@@ -101,6 +101,34 @@ LAST_NAMES = [
     "Bergman", "Moretti", "Nakamura", "Lefevre",
 ]
 
+# -- Gene aliases (subset for test data) --
+GENE_ALIASES = {
+    "ABCA4": ["ABCR", "STGD1", "FFM", "RP19"],
+    "RPGR": ["RP3", "XLRP3", "COD1", "RP15"],
+    "CRB1": ["RP12", "LCA8"],
+    "RHO": ["RP4", "OPN2", "rhodopsin"],
+    "USH2A": ["USH2", "RP39", "usherin"],
+    "RPE65": ["LCA2", "RP20", "retinal pigment epithelium 65"],
+    "PAX6": ["AN2", "aniridia"],
+    "CEP290": ["BBS14", "JBTS5", "LCA10", "NPHP6"],
+    "RS1": ["XLRS1", "retinoschisin"],
+    "BEST1": ["VMD2", "bestrophin-1"],
+}
+
+# -- Subtopic keyword samples (for topic articles) --
+SUBTOPIC_KEYWORDS = {
+    "Outer coat": ["sclera", "cornea", "limbus"],
+    "Inner coat": ["retina", "photoreceptor", "ganglion cell"],
+    "Middle coat": ["choroid", "ciliary body", "iris"],
+    "Transparent media": ["lens", "vitreous", "aqueous humor"],
+    "Developmental timeline": ["optic vesicle", "eye morphogenesis"],
+    "Developmental genetics": ["PAX6", "SOX2", "SHH", "hedgehog"],
+    "Visual physiology": ["phototransduction", "visual cycle", "dark adaptation"],
+    "Ocular imaging": ["OCT", "fundus autofluorescence", "adaptive optics"],
+    "Retinal dystrophies": ["retinitis pigmentosa", "cone-rod dystrophy", "Stargardt"],
+    "Corneal dystrophies": ["Fuchs dystrophy", "keratoconus", "TGFBI"],
+}
+
 TEXT_EXCLUSION_TERMS = [
     "cancer", "tumor", "neoplasm", "carcinoma", "melanoma",
     "metastasis", "chemotherapy", "mouse model", "zebrafish",
@@ -291,6 +319,13 @@ def make_gene_article(gene, reason, pmid_counter):
         model=random.choice(MODELS),
     )
 
+    # Build search_keywords: gene aliases + a disease tag
+    aliases = GENE_ALIASES.get(gene, [gene])
+    kw = [gene] + aliases
+    # Add a disease term for ~50% of articles
+    if random.random() < 0.5:
+        kw.append(random.choice(DISEASES).replace(" ", "-"))
+
     article = {
         "pmid": pmid,
         "doi": f"10.1000/synth.{pmid}",
@@ -304,6 +339,7 @@ def make_gene_article(gene, reason, pmid_counter):
         "subcollection": gene,
         "category": "6 - Genes",
         "matched_term": None,
+        "search_keywords": sorted(set(kw)),
     }
 
     if reason == "score_below_threshold":
@@ -352,6 +388,9 @@ def make_topic_article(category, subtopic, reason, pmid_counter):
         process=random.choice(PROCESSES),
     )
 
+    # Build search_keywords from subtopic
+    kw = SUBTOPIC_KEYWORDS.get(subtopic, [subtopic.lower()])
+
     article = {
         "pmid": pmid,
         "doi": f"10.1000/synth.{pmid}",
@@ -365,6 +404,7 @@ def make_topic_article(category, subtopic, reason, pmid_counter):
         "subcollection": subtopic,
         "category": category,
         "matched_term": None,
+        "search_keywords": sorted(set(kw)),
     }
 
     if reason == "score_below_threshold":

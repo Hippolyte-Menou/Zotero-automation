@@ -24,11 +24,18 @@ class RejectionLog:
         self.entries: list[dict] = []
         self._subcollection: str = ""
         self._category: str = ""
+        self._search_keywords: list[str] = []
 
-    def set_context(self, subcollection: str, category: str) -> None:
+    def set_context(
+        self,
+        subcollection: str,
+        category: str,
+        search_keywords: list[str] | None = None,
+    ) -> None:
         """Set the current subcollection/category for subsequent add() calls."""
         self._subcollection = subcollection
         self._category = category
+        self._search_keywords = list(search_keywords) if search_keywords else []
 
     def add_from_work(
         self,
@@ -76,6 +83,7 @@ class RejectionLog:
             "subcollection": self._subcollection,
             "category": self._category,
             "matched_term": matched_term,
+            "search_keywords": list(self._search_keywords),
         }
         if scores:
             entry.update({
@@ -112,6 +120,7 @@ class RejectionLog:
             "subcollection": self._subcollection,
             "category": self._category,
             "matched_term": matched_term,
+            "search_keywords": list(self._search_keywords),
         })
 
     def build_hierarchy(self) -> dict[str, list[str]]:
@@ -173,6 +182,14 @@ class RejectionLog:
         parts = {s.strip() for s in existing.split(",") if s.strip()}
         parts.update(s.strip() for s in new.split(",") if s.strip())
         return ", ".join(sorted(parts))
+
+    def _merge_search_keywords(
+        self, existing: list | None, new: list | None
+    ) -> list[str]:
+        """Merge search_keywords lists (union, sorted)."""
+        combined = set(existing or [])
+        combined.update(new or [])
+        return sorted(combined)
 
     def _load_previous(self, previous_path: str) -> tuple[dict, int]:
         """Load previous JSON data. Returns (data_dict, pipeline_runs)."""
@@ -246,6 +263,10 @@ class RejectionLog:
                     existing.get("category", ""),
                     entry.get("category", ""),
                 )
+                entry["search_keywords"] = self._merge_search_keywords(
+                    existing.get("search_keywords"),
+                    entry.get("search_keywords"),
+                )
             else:
                 # New article
                 entry["first_seen"] = now
@@ -263,6 +284,10 @@ class RejectionLog:
                     entry["category"] = self._merge_categories(
                         merged_index[key].get("category", ""),
                         entry.get("category", ""),
+                    )
+                    entry["search_keywords"] = self._merge_search_keywords(
+                        merged_index[key].get("search_keywords"),
+                        entry.get("search_keywords"),
                     )
                     merged_index[key] = entry
             else:
