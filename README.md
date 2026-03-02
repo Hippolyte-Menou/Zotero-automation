@@ -1,6 +1,6 @@
 # Gene & Topic Literature Bot
 
-OpenAlex-powered literature search with two complementary pipelines -- gene-specific papers (with citation network expansion) and topic-based ophthalmology literature (anatomy, embryology, physiology, examinations, pathologies). Automatic upload to a Zotero group library. Runs on GitHub Actions (no server needed).
+OpenAlex-powered literature search with two complementary pipelines - gene-specific papers (with citation network expansion) and topic-based ophthalmology literature (anatomy, embryology, physiology, examinations, pathologies). Automatic upload to a Zotero group library. Runs on GitHub Actions (no server needed).
 
 ## How it works
 
@@ -8,7 +8,7 @@ OpenAlex-powered literature search with two complementary pipelines -- gene-spec
 
 For each gene, the pipeline runs three passes:
 
-#### Pass 1 -- Search (bootstrap + periodic re-search)
+#### Pass 1 - Search (bootstrap + periodic re-search)
 
 On first encounter (empty collection), searches OpenAlex using a boolean query:
 
@@ -24,7 +24,7 @@ On first encounter (empty collection), searches OpenAlex using a boolean query:
 
 Once a gene has papers, search is skipped unless `re_search_interval_weeks` has elapsed since the last search date (tracked per gene in the citation cache). This catches papers that match the query but are not reachable via citation expansion.
 
-#### Pass 2 -- Citation network expansion
+#### Pass 2 - Citation network expansion
 
 Expands from the seed set (existing Zotero papers, or search results) via two hops:
 
@@ -33,9 +33,9 @@ Expands from the seed set (existing Zotero papers, or search results) via two ho
 ```
 effective_score = co_citations + bib_coupling_bonus + recency_bonus
 
-  co_citations        -- how many seeds reference or cite this candidate
-  bib_coupling_bonus  -- min(shared_references_with_seed_set, 3)
-  recency_bonus       -- max(0, 3 - (current_year - paper_year))
+  co_citations        - how many seeds reference or cite this candidate
+  bib_coupling_bonus  - min(shared_references_with_seed_set, 3)
+  recency_bonus       - max(0, 3 - (current_year - paper_year))
 ```
 
 Candidates must clear an adaptive threshold:
@@ -59,7 +59,7 @@ After filtering, full metadata is fetched for surviving candidates. A mention-te
 
 Surviving candidates are text-filtered, deduplicated, and uploaded with `source:citation` tag.
 
-#### Pass 3 -- Recent papers
+#### Pass 3 - Recent papers
 
 A separate OpenAlex search filtered to the current year:
 
@@ -67,7 +67,7 @@ A separate OpenAlex search filtered to the current year:
 (GENE OR aliases) AND (disease terms) AND from_publication_date:YYYY-01-01
 ```
 
-Capped at `search.recent_max_results` (default 10). Bypasses the adaptive citation threshold entirely -- new papers cannot yet accumulate co-citations or bibliographic coupling, so they are fetched directly. Text-filtered, deduplicated, uploaded with `source:recent` tag.
+Capped at `search.recent_max_results` (default 10). Bypasses the adaptive citation threshold entirely - new papers cannot yet accumulate co-citations or bibliographic coupling, so they are fetched directly. Text-filtered, deduplicated, uploaded with `source:recent` tag.
 
 ### Topic pipeline
 
@@ -114,9 +114,9 @@ Collections are created as nested hierarchies mirroring the vault structure (e.g
 
 | Credential | Where |
 |---|---|
-| **Zotero API key** | https://www.zotero.org/settings/keys/new -- enable Read/Write on your group |
+| **Zotero API key** | https://www.zotero.org/settings/keys/new - enable Read/Write on your group |
 | **Zotero group ID** | Numeric ID from your group URL: `zotero.org/groups/123456/...` |
-| **OpenAlex API key** | Optional. https://openalex.org -- higher rate limit |
+| **OpenAlex API key** | Optional. https://openalex.org - higher rate limit |
 
 ### 2. Configure GitHub repository
 
@@ -129,7 +129,7 @@ Collections are created as nested hierarchies mirroring the vault structure (e.g
 
 ### 3. Edit config files
 
-#### `genes.yml` -- gene pipeline
+#### `genes.yml` - gene pipeline
 
 Add your genes of interest. Each gene can have disease keyword tags and optional custom text exclusion terms.
 
@@ -158,7 +158,7 @@ genes:
       - "ABC"
 ```
 
-#### `topics.yml` -- topic pipeline
+#### `topics.yml` - topic pipeline
 
 Define categories and sub-topics with keywords. Settings inherit: sub-topic > category > global. Category aliases for the CLI are defined in `topics.yml` under each category's `alias` field.
 
@@ -305,7 +305,7 @@ For `score_below_threshold`, metadata is fetched for the top 50 candidates per h
 
 ### Review tab (orphan detection)
 
-A companion tab in the same dashboard shows papers flagged by the inverse bot as orphans -- library papers with zero internal citation centrality (no backward reference, forward citation, or bibliographic coupling link connects them to any other library paper).
+A companion tab in the same dashboard shows papers flagged by the inverse bot as orphans - library papers with zero internal citation centrality (no backward reference, forward citation, or bibliographic coupling link connects them to any other library paper).
 
 **How it works**: `inverse_bot.py` builds a citation adjacency graph from all Zotero library papers using OpenAlex data, computes a centrality score for each paper, and flags those with score = 0. Results are written to `site/data/flagged_papers.json` and deployed to gh-pages.
 
@@ -341,7 +341,7 @@ gh-pages baseline --> [run-genes] --artifact--> [run-topics] --artifact--> [depl
 2. **run-topics**: fetches gh-pages baseline, downloads the genes artifact (overwrites baseline with genes' output), runs the topic pipeline, uploads the updated `data/` artifact. Skipped when `mode=genes`. Does not run if the genes job failed.
 3. **deploy-dashboard**: downloads the final artifact, copies data files into `site/data/`, deploys `site/` to gh-pages with `keep_files: true`.
 
-`keep_files: true` merges into the gh-pages branch instead of replacing it. This means partial runs never wipe complete data -- only the files present in the artifact are overwritten. This is safe because all data files are cumulative (near-misses merge, run history appends, recent additions deduplicate).
+`keep_files: true` merges into the gh-pages branch instead of replacing it. This means partial runs never wipe complete data - only the files present in the artifact are overwritten. This is safe because all data files are cumulative (near-misses merge, run history appends, recent additions deduplicate).
 
 The dashboard is then accessible at `https://<username>.github.io/Zotero-automation/`.
 
@@ -375,7 +375,7 @@ python -m http.server 8000 -d site    # open http://localhost:8000
 | File | Purpose |
 |---|---|
 | `inverse_bot.py` | Orphan detection: citation centrality scoring, flags isolated library papers |
-| `genebot/rejection_log.py` | `RejectionLog` class -- accumulates rejected articles, handles cumulative merge with previous data |
+| `genebot/rejection_log.py` | `RejectionLog` class - accumulates rejected articles, handles cumulative merge with previous data |
 | `site/index.html` | Complete single-page dashboard with Near Misses and Review tabs (HTML + CSS + JS, no dependencies) |
 | `generate_test_data.py` | Generates realistic synthetic data for all five dashboard data files |
 | `data/near_misses.json` | Pipeline output (gitignored, generated at runtime) |
