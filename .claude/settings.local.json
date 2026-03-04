@@ -11,7 +11,8 @@
       "Bash(pip show playwright)",
       "Bash(pip install playwright)",
       "Bash(python3:*)",
-      "Bash(pip show pyzotero)"
+      "Bash(pip show pyzotero)",
+      "WebSearch"
     ]
   },
   "enableAllProjectMcpServers": true,
