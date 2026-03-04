@@ -66,6 +66,13 @@ default_exclusions_text:
 - immunotherapy
 - type 2 diabetes
 - myocardial infarction
+- covid
+- covid-19
+- sars-cov
+- sars-cov-2
+- coronavirus
+- cirrhosis
+- myeloma
 default_exclusions_mesh:
 - Neoplasms
 - Carcinoma
@@ -83,6 +90,11 @@ default_exclusions_mesh:
 - Atherosclerosis
 - Obesity
 - Alzheimer Disease
+- COVID-19
+- SARS-CoV-2
+- Coronavirus Infections
+- Liver Cirrhosis
+- Multiple Myeloma
 categories:
 - name: 1 - Anatomy
   alias: anatomy
