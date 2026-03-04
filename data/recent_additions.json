@@ -1,6 +1,886 @@
 {
- "generated_at": "2026-03-03T07:37:03Z",
+ "generated_at": "2026-03-04T07:23:17Z",
  "additions": [
+  {
+   "pmid": "41766020",
+   "doi": "10.1007/s10143-026-04198-w",
+   "title": "Repeat stereotactic radiosurgery for pituitary adenomas: a systematic review and meta-analysis",
+   "year": "2026",
+   "subcollection": "ACO2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T06:43:50Z"
+  },
+  {
+   "pmid": "41766136",
+   "doi": "",
+   "title": "Bardet-Biedl Syndrome in India: Genotypic Spectrum and Clinical Features From a Single-Centre Cohort.",
+   "year": "2026",
+   "subcollection": "BBS1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T06:45:12Z"
+  },
+  {
+   "pmid": "41767075",
+   "doi": "",
+   "title": "A Case of Knobloch Syndrome With Lens Dislocation Resembling Homocystinuria.",
+   "year": "2026",
+   "subcollection": "BBS2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T06:45:28Z"
+  },
+  {
+   "pmid": "41767322",
+   "doi": "10.18240/ijo.2026.03.03",
+   "title": "Vaccinia-related kinase 1/snail family transcriptional repressor 1 regulates epithelial-mesenchymal transition and inflammation in proliferative vitreoretinopathy",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T06:45:35Z"
+  },
+  {
+   "pmid": "41770450",
+   "doi": "10.1007/s40618-026-02850-2",
+   "title": "Different clinical autoimmune polyglandular syndrome phenotypes among patients with thyroid diseases",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T06:50:54Z"
+  },
+  {
+   "pmid": "29487175",
+   "doi": "10.1242/jcs.212506",
+   "title": "Connexin hemichannels mediate glutathione transport and protect lens fiber cells from oxidative stress",
+   "year": "2018",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "12975451",
+   "doi": "10.1085/jgp.200308861",
+   "title": "Single-channel SCAM Identifies Pore-lining Residues in the First Extracellular Loop and First Transmembrane Domains of Cx46 Hemichannels",
+   "year": "2003",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "19357237",
+   "doi": "10.1152/ajpcell.00054.2009",
+   "title": "Modulation of Cx46 hemichannels by nitric oxide",
+   "year": "2009",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "8088962",
+   "doi": "",
+   "title": "Bovine connexin44, a lens gap junction protein: molecular cloning, immunologic characterization, and functional expression.",
+   "year": "1994",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "16192745",
+   "doi": "10.1159/000088527",
+   "title": "Connexin 46 and Connexin 50 in Selenite Cataract",
+   "year": "2005",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "36736424",
+   "doi": "10.1016/j.jbc.2023.102965",
+   "title": "The second extracellular domain of connexin 50 is important for in cell adhesion, lens differentiation, and adhesion molecule expression",
+   "year": "2023",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:53:14Z"
+  },
+  {
+   "pmid": "23555834",
+   "doi": "10.1371/journal.pone.0059926",
+   "title": "Identification and Functional Analysis of GJA8 Mutation in a Chinese Family with Autosomal Dominant Perinuclear Cataracts",
+   "year": "2013",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "17895360",
+   "doi": "10.1242/jcs.000935",
+   "title": "Promotion of lens epithelial-fiber differentiation by the C-terminus of connexin 45.6 – a role independent of gap junction communication",
+   "year": "2007",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "11687537",
+   "doi": "",
+   "title": "Prenatal lens development in connexin43 and connexin50 double knockout mice.",
+   "year": "2001",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "16380444",
+   "doi": "10.1085/jgp.200509397",
+   "title": "Regulation of Connexin Hemichannels by Monovalent Cations",
+   "year": "2005",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "25260631",
+   "doi": "10.1113/jphysiol.2014.280636",
+   "title": "Charge at the 46th residue of connexin 50 is crucial for the gap‐junctional unitary conductance and transjunctional voltage‐dependent gating",
+   "year": "2014",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "26625162",
+   "doi": "10.1371/journal.pone.0143876",
+   "title": "The First Extracellular Domain Plays an Important Role in Unitary Channel Conductance of Cx50 Gap Junction Channels",
+   "year": "2015",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:54:47Z"
+  },
+  {
+   "pmid": "12576843",
+   "doi": "10.1097/01.ju.0000058369.72348.ba",
+   "title": "Sildenafil Response is Influenced by the G Protein β3 Subunit<i>Gnb3</i>C825t Polymorphism: A Pilot Study",
+   "year": "2003",
+   "subcollection": "GNB3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:56:47Z"
+  },
+  {
+   "pmid": "14586390",
+   "doi": "10.1016/s0009-9236(03)00230-3",
+   "title": "Venous response to nitroglycerin is enhanced in young, healthy carriers of the 825T allele of the G protein β3 subunit gene (GNB3)",
+   "year": "2003",
+   "subcollection": "GNB3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:56:47Z"
+  },
+  {
+   "pmid": "12515581",
+   "doi": "10.1186/1471-2156-4-1",
+   "title": "Identification of three novel OA1 gene mutations identified in three families misdiagnosed with congenital nystagmus and carrier status determination by real-time quantitative PCR assay",
+   "year": "2003",
+   "subcollection": "GPR143",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:57:39Z"
+  },
+  {
+   "pmid": "29761529",
+   "doi": "10.1002/jnr.24246",
+   "title": "Pigmentation and vision: Is GPR143 in control?",
+   "year": "2018",
+   "subcollection": "GPR143",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:57:39Z"
+  },
+  {
+   "pmid": "26061757",
+   "doi": "10.1038/srep11334",
+   "title": "Deep intronic GPR143 mutation in a Japanese family with ocular albinism",
+   "year": "2015",
+   "subcollection": "GPR143",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:57:39Z"
+  },
+  {
+   "pmid": "15254223",
+   "doi": "10.1128/mcb.24.15.6550-6559.2004",
+   "title": "The Microphthalmia Transcription Factor (Mitf) Controls Expression of the Ocular Albinism Type 1 Gene: Link between Melanin Synthesis and Melanosome Biogenesis",
+   "year": "2004",
+   "subcollection": "GPR143",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:57:39Z"
+  },
+  {
+   "pmid": "28196803",
+   "doi": "10.1242/dev.145904",
+   "title": "Neural tube closure: cellular, molecular and biomechanical mechanisms",
+   "year": "2017",
+   "subcollection": "GRHL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:59:19Z"
+  },
+  {
+   "pmid": "27564454",
+   "doi": "10.1002/dvdy.24439",
+   "title": "Identification of a novel progenitor cell marker, grainyhead‐like 2 in the developing pituitary",
+   "year": "2016",
+   "subcollection": "GRHL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T06:59:19Z"
+  },
+  {
+   "pmid": "17255100",
+   "doi": "10.1074/jbc.m610369200",
+   "title": "The Function of Guanylate Cyclase 1 and Guanylate Cyclase 2 in Rod and Cone Photoreceptors",
+   "year": "2007",
+   "subcollection": "GRK1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:00:42Z"
+  },
+  {
+   "pmid": "9380677",
+   "doi": "10.1073/pnas.94.20.10577",
+   "title": "Rhodopsin kinase: Expression in baculovirus-infected insect cells, and characterization of post-translational modifications",
+   "year": "1997",
+   "subcollection": "GRK1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:00:42Z"
+  },
+  {
+   "pmid": "19457073",
+   "doi": "10.1111/j.1471-4159.2009.06118.x",
+   "title": "Mechanism of rhodopsin kinase regulation by recoverin",
+   "year": "2009",
+   "subcollection": "GRK1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:00:42Z"
+  },
+  {
+   "pmid": "22371490",
+   "doi": "10.1074/jbc.m112.345751",
+   "title": "Defective Retinal Depolarizing Bipolar Cells in Regulators of G Protein Signaling (RGS) 7 and 11 Double Null Mice",
+   "year": "2012",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "14570248",
+   "doi": "10.1017/s0952523803203059",
+   "title": "Immunohistochemical analysis of the outer plexiform layer in the <i>nob</i> mouse shows no abnormalities",
+   "year": "2003",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "8084499",
+   "doi": "10.1016/0304-3940(94)90602-5",
+   "title": "Expression of mRNAs of l-AP4-sensitive metabotropic glutamate receptors (mGluR4, mGluR6, mGluR7) in the rat retina",
+   "year": "1994",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "20007977",
+   "doi": "10.1074/jbc.m109.058511",
+   "title": "Membrane Anchor R9AP Potentiates GTPase-accelerating Protein Activity of RGS11·Gβ5 Complex and Accelerates Inactivation of the mGluR6-Go Signaling",
+   "year": "2009",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "7722646",
+   "doi": "10.1523/jneurosci.15-04-03075.1995",
+   "title": "A novel metabotropic glutamate receptor expressed in the retina and olfactory bulb",
+   "year": "1995",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "12205131",
+   "doi": "10.1152/jn.2002.88.3.1088",
+   "title": "Regulation of the Retinal Bipolar Cell mGluR6 Pathway by Calcineurin",
+   "year": "2002",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "9144651",
+   "doi": "10.1016/s0028-3908(96)00172-4",
+   "title": "Cloning, Distribution and Functional Expression of the Human mGlu6 Metabotropic Glutamate Receptor",
+   "year": "1997",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "17266783",
+   "doi": "10.1017/s0952523806230268",
+   "title": "G protein coupling profile of mGluR6 and expression of Gα proteins in retinal ON bipolar cells",
+   "year": "2006",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "11034622",
+   "doi": "10.1111/j.1469-7793.2000.00327.x",
+   "title": "Activation of Ca<sup>2+</sup>‐calmodulin kinase II induces desensitization by background light in dogfish retinal ‘on’ bipolar cells",
+   "year": "2000",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "18671302",
+   "doi": "10.1002/cne.21807",
+   "title": "Probing neurochemical structure and function of retinal ON bipolar cells with a transgenic mouse",
+   "year": "2008",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "18087239",
+   "doi": "",
+   "title": "Expression of genes encoding glutamate receptors and transporters in rod and cone bipolar cells of the primate retina determined by single-cell polymerase chain reaction.",
+   "year": "2007",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:02:39Z"
+  },
+  {
+   "pmid": "11584009",
+   "doi": "10.1074/jbc.m107539200",
+   "title": "Instead of Binding Calcium, One of the EF-hand Structures in Guanylyl Cyclase Activating Protein-2 Is Required for Targeting Photoreceptor Guanylyl Cyclase",
+   "year": "2001",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "21829700",
+   "doi": "10.1371/journal.pone.0023117",
+   "title": "Differential Calcium Signaling by Cone Specific Guanylate Cyclase-Activating Proteins from the Zebrafish Retina",
+   "year": "2011",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "25071437",
+   "doi": "10.3389/fnmol.2014.00056",
+   "title": "Membrane guanylate cyclase, a multimodal transduction machine: history, present, and future directions",
+   "year": "2014",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "20050595",
+   "doi": "10.1021/bi901495y",
+   "title": "Activation of Retinal Guanylyl Cyclase RetGC1 by GCAP1: Stoichiometry of Binding and Effect of New LCA-Related Mutations",
+   "year": "2010",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "26100624",
+   "doi": "10.1074/jbc.m115.661371",
+   "title": "Dimerization Domain of Retinal Membrane Guanylyl Cyclase 1 (RetGC1) Is an Essential Part of Guanylyl Cyclase-activating Protein (GCAP) Binding Interface",
+   "year": "2015",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "36683846",
+   "doi": "10.3389/fnmol.2022.1022771",
+   "title": "Multilimbed membrane guanylate cyclase signaling system, evolutionary ladder",
+   "year": "2023",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "21928830",
+   "doi": "10.1021/bi201342b",
+   "title": "Retinal Degeneration 3 (RD3) Protein Inhibits Catalytic Activity of Retinal Membrane Guanylyl Cyclase (RetGC) and Its Stimulation by Activating Proteins",
+   "year": "2011",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "15448139",
+   "doi": "10.1074/jbc.m408683200",
+   "title": "Ca2+-dependent Conformational Changes in Guanylyl Cyclase-activating Protein 2 (GCAP-2) Revealed by Site-specific Phosphorylation and Partial Proteolysis",
+   "year": "2004",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "10037711",
+   "doi": "10.1074/jbc.274.10.6244",
+   "title": "Identification of a Domain in Guanylyl Cyclase-activating Protein 1 That Interacts with a Complex of Guanylyl Cyclase and Tubulin in Photoreceptors",
+   "year": "1999",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "15355355",
+   "doi": "10.1111/j.1432-1033.2004.04320.x",
+   "title": "Irregular dimerization of guanylate cyclase‐activating protein 1 mutants causes loss of target activation",
+   "year": "2004",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "27104297",
+   "doi": "10.1021/acs.biochem.6b00005",
+   "title": "Mapping Calcium-Sensitive Regions in the Neuronal Calcium Sensor GCAP2 by Site-Specific Fluorescence Labeling",
+   "year": "2016",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "24917784",
+   "doi": "10.3389/fnmol.2014.00045",
+   "title": "Membrane guanylyl cyclase complexes shape the photoresponses of retinal rods and cones",
+   "year": "2014",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "27695398",
+   "doi": "10.3389/fnmol.2016.00083",
+   "title": "Integrative Signaling Networks of Membrane Guanylate Cyclases: Biochemistry and Physiology",
+   "year": "2016",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "26204433",
+   "doi": "10.1021/acschembio.5b00278",
+   "title": "Differential Nanosecond Protein Dynamics in Homologous Calcium Sensors",
+   "year": "2015",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "12833163",
+   "doi": "10.18388/abp.2003_3691",
+   "title": "Ca2+ differently affects hydrophobic properties of guanylyl cyclase-activating proteins (GCAPs) and recoverin.",
+   "year": "2003",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "22212098",
+   "doi": "10.1111/j.1471-4159.2011.07643.x",
+   "title": "Operation profile of zebrafish guanylate cyclase‐activating protein 3",
+   "year": "2011",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "21520322",
+   "doi": "10.1002/pro.643",
+   "title": "The myristoylation of guanylate cyclase‐activating protein‐2 causes an increase in thermodynamic stability in the presence but not in the absence of Ca<sup>2+</sup>",
+   "year": "2011",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "15961391",
+   "doi": "10.1074/jbc.m501789200",
+   "title": "Recoverin Undergoes Light-dependent Intracellular Translocation in Rod Photoreceptors",
+   "year": "2005",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "10571055",
+   "doi": "10.1016/s0014-5793(99)01312-5",
+   "title": "Regions in vertebrate photoreceptor guanylyl cyclase ROS‐GC1 involved in Ca<sup>2+</sup>‐dependent regulation by guanylyl cyclase‐activating protein GCAP‐1",
+   "year": "1999",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "17936244",
+   "doi": "10.1016/j.bbamem.2007.08.024",
+   "title": "Characterization of the myristoyl lipid modification of membrane-bound GCAP-2 by 2H solid-state NMR spectroscopy",
+   "year": "2007",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "31346032",
+   "doi": "10.1074/jbc.ra119.009948",
+   "title": "Retinal guanylyl cyclase activation by calcium sensor proteins mediates photoreceptor degeneration in an rd3 mouse model of congenital human blindness",
+   "year": "2019",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "9305994",
+   "doi": "10.1021/bi971212k",
+   "title": "Domain-Specific Stabilization of Photoreceptor Membrane Guanylyl Cyclase by Adenine Nucleotides and Guanylyl Cyclase Activating Proteins (GCAPs)",
+   "year": "1997",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "12741820",
+   "doi": "10.1021/bi034025x",
+   "title": "Calcium-Modulated Guanylate Cyclase Transduction Machinery in the Photoreceptor−Bipolar Synaptic Region",
+   "year": "2003",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "26858600",
+   "doi": "10.3389/fnmol.2016.00005",
+   "title": "Bicarbonate and Ca2+ Sensing Modulators Activate Photoreceptor ROS-GC1 Synergistically",
+   "year": "2016",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "30283299",
+   "doi": "10.3389/fnmol.2018.00330",
+   "title": "Molecular Details of Retinal Guanylyl Cyclase 1/GCAP-2 Interaction",
+   "year": "2018",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "18840097",
+   "doi": "10.1042/bj20081513",
+   "title": "Interaction of retinal guanylate cyclase with the α subunit of transducin: potential role in transducin localization",
+   "year": "2008",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "21632921",
+   "doi": "10.1523/jneurosci.6650-10.2011",
+   "title": "Role of Guanylyl Cyclase Modulation in Mouse Cone Phototransduction",
+   "year": "2011",
+   "subcollection": "GUCA1A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:04:20Z"
+  },
+  {
+   "pmid": "16306048",
+   "doi": "10.1074/jbc.m506911200",
+   "title": "Maintenance of Olfactory Neurogenesis Requires HSF1, a Major Heat Shock Transcription Factor in Mice",
+   "year": "2005",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "19250318",
+   "doi": "10.1111/j.1742-4658.2009.06923.x",
+   "title": "Differential recognition of heat shock elements by members of the heat shock transcription factor family",
+   "year": "2009",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "20945528",
+   "doi": "10.1111/j.1742-4658.2010.07827.x",
+   "title": "The heat shock factor family and adaptation to proteotoxic stress",
+   "year": "2010",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "19864465",
+   "doi": "10.1091/mbc.e09-07-0639",
+   "title": "A Novel Mouse HSF3 Has the Potential to Activate Nonclassical Heat-Shock Genes during Heat Shock",
+   "year": "2009",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "21258402",
+   "doi": "10.1038/onc.2010.623",
+   "title": "Regulation of transcription of hypoxia-inducible factor-1α (HIF-1α) by heat shock factors HSF2 and HSF4",
+   "year": "2011",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "31815953",
+   "doi": "10.1371/journal.pone.0225010",
+   "title": "Autosomal recessive congenital cataracts linked to HSF4 in a consanguineous Pakistani family",
+   "year": "2019",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "19883468",
+   "doi": "10.1111/j.1463-5224.2009.00735.x",
+   "title": "Mutation in <i>HSF4</i> is associated with hereditary cataract in the Australian Shepherd",
+   "year": "2009",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "12391166",
+   "doi": "10.1128/mcb.22.22.8005-8014.2002",
+   "title": "Heat Shock Transcription Factor 2 Is Not Essential for Embryonic Development, Fertility, or Adult Cognitive and Psychomotor Function in Mice",
+   "year": "2002",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "34345029",
+   "doi": "10.1038/s41433-021-01711-x",
+   "title": "Variants in PAX6, PITX3 and HSF4 causing autosomal dominant congenital cataracts",
+   "year": "2021",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "17651328",
+   "doi": "10.1111/j.1439-0388.2007.00663.x",
+   "title": "Evaluation of canine heat‐shock transcription factor 4 as a candidate for primary cataracts in English Cocker Spaniels and wire‐haired Kromfohrlanders",
+   "year": "2007",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "29977800",
+   "doi": "10.18240/ijo.2018.06.03",
+   "title": "Bioinformatics analysis of microarray data to explore the key genes involved in HSF4 mutation-induced cataract",
+   "year": "2018",
+   "subcollection": "HSF4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:09:08Z"
+  },
+  {
+   "pmid": "16469746",
+   "doi": "10.1074/jbc.m508161200",
+   "title": "Molecular Cloning and Characterization of Chick SPACRCAN",
+   "year": "2006",
+   "subcollection": "IMPG1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:12:47Z"
+  },
+  {
+   "pmid": "18466325",
+   "doi": "10.1111/j.1471-4159.2008.05468.x",
+   "title": "Characterization of a motif for specific binding to hyaluronan in chicken SPACR",
+   "year": "2008",
+   "subcollection": "IMPG1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:12:47Z"
+  },
+  {
+   "pmid": "32176358",
+   "doi": "10.1002/hep.31236",
+   "title": "Lysyl Oxidase (LOX) Family Members: Rationale and Their Potential as Therapeutic Targets for Liver Fibrosis",
+   "year": "2020",
+   "subcollection": "LOXL3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:15:18Z"
+  },
+  {
+   "pmid": "41622621",
+   "doi": "10.1093/molbev/msag029",
+   "title": "Genomic adaptations for tail-length evolution in arboreal snakes",
+   "year": "2026",
+   "subcollection": "LOXL3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-04T07:15:18Z"
+  },
+  {
+   "pmid": "41768827",
+   "doi": "",
+   "title": "Monitoring of Metabolic Disorders Through Electro-Sensing of Riboflavin by Novel Super-Conductive Silver Ink Modified Paper.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41770255",
+   "doi": "10.1021/acs.jnatprod.6c00095",
+   "title": "Spiroeutypetides A and B, Polyketides with 5/6/5 and 6/6/5 Tricyclic Ring Systems Produced by the Marine-Derived Fungus <i>Eutypella</i> sp. F0219",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41770446",
+   "doi": "10.1007/s11356-026-37522-4",
+   "title": "Combined risks of microplastics, trace metals, and antimicrobial resistance in the Nhue–Day River Basin, Vietnam",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41770598",
+   "doi": "",
+   "title": "Global evolutionary landscape of H11 avian influenza and initial isolates identified in Xinjiang, China.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41769945",
+   "doi": "10.1097/tp.0000000000005679",
+   "title": "Response to: Early Refusal Pattern Phenotyping as a Surrogate for Organ Quality Assessment in Kidney Allocation",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41770292",
+   "doi": "10.1007/s12015-026-11092-x",
+   "title": "Integrated Bulk and Single-Cell Transcriptomic Analysis Reveals Mitochondrial Transporter Gene Programs in Human Spermatogonial Stem Cells",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
+  {
+   "pmid": "41770471",
+   "doi": "10.1007/s40820-026-02117-8",
+   "title": "Graphene-Skinned Fiber with Fine-Tunable Electrical Resistance via Radical and Substrate Engineering for Electromagnetic-Thermal Fabric",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-04T07:20:03Z"
+  },
   {
    "pmid": "41756894",
    "doi": "10.64898/2026.02.17.706456",
