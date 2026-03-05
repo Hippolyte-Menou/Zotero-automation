@@ -8632,6 +8632,175 @@
         "per_topic": []
       },
       "openalex_failed_requests": 9
+    },
+    {
+      "timestamp": "2026-03-05T22:23:37Z",
+      "pipelines": {
+        "genes": true,
+        "topics": false
+      },
+      "genes": {
+        "totals": {
+          "found": 63,
+          "new": 37,
+          "added": 37,
+          "failed": 0,
+          "cit_candidates": 32,
+          "cit_added": 27,
+          "recent_added": 0
+        },
+        "per_gene": [
+          {
+            "symbol": "SMARCA2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARID2",
+            "found": 25,
+            "new": 25,
+            "added": 25,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {
+              "41685408": "SG64PD8C",
+              "41768999": "NI4KV93Q",
+              "41765286": "FTMCRZQC",
+              "41555927": "Z7ZXANN3",
+              "41465175": "DBHPGV4H",
+              "41352540": "F6C6GXPJ",
+              "41174994": "MVHTUKHK",
+              "41168328": "7DT3SGRM",
+              "41370269": "ZXGHSJ2B",
+              "41153399": "G2NDEKRJ",
+              "41068697": "M2CICH6D",
+              "41069227": "ZSZ9H8WJ",
+              "40977432": "8VPWMPEE",
+              "40847610": "DWBMS3XM",
+              "40881361": "ZQHBKKFD",
+              "40806714": "6R4849JC",
+              "40719069": "8TRQINSX",
+              "40712661": "B25X3CNW",
+              "40724730": "RSN54TFX",
+              "40581118": "DI8R6UA7",
+              "41200582": "TSFIBB5D",
+              "40317680": "885QQBJS",
+              "40135540": "S9CCG9BK",
+              "40160374": "RTJ5ZXMS",
+              "40317201": "USFX4NZQ"
+            },
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARID1B",
+            "found": 25,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 1,
+            "cit_added": 1,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PUF60",
+            "found": 1,
+            "new": 1,
+            "added": 1,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {
+              "27804958": "3257NF9F"
+            },
+            "cit_candidates": 31,
+            "cit_added": 26,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NAA15",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NAA10",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU4ATAC",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU2-2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PRR12",
+            "found": 12,
+            "new": 11,
+            "added": 11,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {
+              "38798311": "X8AEXVVB",
+              "38632549": "7XQQMZBJ",
+              "36247910": "ZC878RTA",
+              "34680889": "DBT9DBMZ",
+              "34041212": "C6SFKQKU",
+              "30264509": "PQ3G8ZCH",
+              "27763793": "JPKCN9SQ",
+              "26163108": "53UZI9VA",
+              "25249376": "HBUAQC5F",
+              "24140398": "JWVEF78E",
+              "23551940": "CN7B5DP5"
+            },
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          }
+        ]
+      },
+      "topics": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_topic": []
+      },
+      "openalex_failed_requests": 4
     }
   ]
 }
