@@ -115,6 +115,15 @@ genes:
   tags:
   - alstrom-syndrome
   - ciliopathy
+- symbol: ARID1B
+  collection: ARID1B
+  tags:
+  - intellectual-disability
+  - structural-eye-disease
+- symbol: ARID2
+  collection: ARID2
+  tags:
+  - intellectual-disability
 - symbol: ARL3
   collection: ARL3
   tags:
@@ -672,6 +681,16 @@ genes:
   collection: MYOC
   tags:
   - glaucoma
+- symbol: NAA10
+  collection: NAA10
+  tags:
+  - intellectual-disability
+  - microphthalmia
+  - structural-eye-disease
+- symbol: NAA15
+  collection: NAA15
+  tags:
+  - intellectual-disability
 - symbol: NDP
   collection: NDP
   tags:
@@ -826,6 +845,16 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - vitelliform
+- symbol: PRR12
+  collection: PRR12
+  tags:
+  - intellectual-disability
+  - structural-eye-disease
+- symbol: PUF60
+  collection: PUF60
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: RAB28
   collection: RAB28
   tags:
@@ -884,6 +913,17 @@ genes:
   tags:
   - retinal-dystrophy
   - rod-cone-dystrophy
+- symbol: RNU2-2
+  collection: RNU2-2
+  tags:
+  - intellectual-disability
+  - structural-eye-disease
+- symbol: RNU4ATAC
+  collection: RNU4ATAC
+  tags:
+  - intellectual-disability
+  - microphthalmia
+  - structural-eye-disease
 - symbol: ROM1
   collection: ROM1
   tags:
@@ -964,6 +1004,11 @@ genes:
   - corneal-dystrophy
   - endothelial
   - fuchs
+- symbol: SMARCA2
+  collection: SMARCA2
+  tags:
+  - intellectual-disability
+  - structural-eye-disease
 - symbol: SNRNP200
   collection: SNRNP200
   tags:
