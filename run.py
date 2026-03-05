@@ -82,6 +82,20 @@ def _is_duplicate(record: dict, existing_pmids: set[str], existing_dois: set[str
         return True
     return False
 
+def _register_new_records(
+    records: list[dict],
+    existing_pmids: set[str],
+    existing_dois: set[str],
+    new_pmids: set[str],
+) -> None:
+    """Track newly uploaded records in the dedup sets."""
+    for r in records:
+        existing_pmids.add(r["pmid"])
+        new_pmids.add(r["pmid"])
+        if r.get("doi"):
+            existing_dois.add(r["doi"].lower())
+
+
 
 def _is_re_search_due(
     symbol: str, interval_weeks: int, citation_cache: dict | None
@@ -168,29 +182,29 @@ def load_checkpoint(path: str = CHECKPOINT_PATH) -> dict | None:
     Returns None if no checkpoint, file is corrupt, or checkpoint is stale
     (older than CHECKPOINT_MAX_AGE_HOURS).
     """
-    if not os.path.isfile(path):
-        return None
     try:
         with open(path, "r", encoding="utf-8") as f:
             ckpt = json.load(f)
-        started_at = ckpt.get("started_at", "")
-        if started_at:
-            started = datetime.datetime.fromisoformat(started_at)
-            age = datetime.datetime.now(datetime.timezone.utc) - started
-            if age.total_seconds() > CHECKPOINT_MAX_AGE_HOURS * 3600:
-                logger.warning(
-                    f"Discarding stale checkpoint ({age.total_seconds() / 3600:.1f}h old, "
-                    f"max {CHECKPOINT_MAX_AGE_HOURS}h): {path}"
-                )
-                return None
-        logger.info(
-            f"Loaded checkpoint: {len(ckpt.get('completed_genes', []))} genes, "
-            f"{len(ckpt.get('completed_topics', []))} topics completed"
-        )
-        return ckpt
+    except FileNotFoundError:
+        return None
     except (json.JSONDecodeError, OSError, ValueError) as e:
         logger.warning(f"Could not load checkpoint: {e}")
         return None
+    started_at = ckpt.get("started_at", "")
+    if started_at:
+        started = datetime.datetime.fromisoformat(started_at)
+        age = datetime.datetime.now(datetime.timezone.utc) - started
+        if age.total_seconds() > CHECKPOINT_MAX_AGE_HOURS * 3600:
+            logger.warning(
+                f"Discarding stale checkpoint ({age.total_seconds() / 3600:.1f}h old, "
+                f"max {CHECKPOINT_MAX_AGE_HOURS}h): {path}"
+            )
+            return None
+    logger.info(
+        f"Loaded checkpoint: {len(ckpt.get('completed_genes', []))} genes, "
+        f"{len(ckpt.get('completed_topics', []))} topics completed"
+    )
+    return ckpt
 
 
 def save_checkpoint(checkpoint: dict, path: str = CHECKPOINT_PATH) -> None:
@@ -770,11 +784,7 @@ def process_gene(
                     )
                     pmid_to_key.update(search_stats.get("pmid_to_key", {}))
                     _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-                    for r in re_search_records:
-                        existing_pmids.add(r["pmid"])
-                        new_pmids.add(r["pmid"])
-                        if r.get("doi"):
-                            existing_dois.add(r["doi"].lower())
+                    _register_new_records(re_search_records, existing_pmids, existing_dois, new_pmids)
                     new_records = re_search_records
                     library_size += len(re_search_records)
             _record_search_date(symbol, citation_cache)
@@ -831,11 +841,7 @@ def process_gene(
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
             _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-            for r in new_records:
-                existing_pmids.add(r["pmid"])
-                new_pmids.add(r["pmid"])
-                if r.get("doi"):
-                    existing_dois.add(r["doi"].lower())
+            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids)
 
         library_size = len(collection_pmids) + len(new_records)
         _record_search_date(symbol, citation_cache)
@@ -908,11 +914,7 @@ def process_gene(
             cit_added = cit_stats["added"]
             pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
             _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
-            for r in candidate_records:
-                existing_pmids.add(r["pmid"])
-                new_pmids.add(r["pmid"])
-                if r.get("doi"):
-                    existing_dois.add(r["doi"].lower())
+            _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids)
 
     # 5. Recent papers pass -- bypass citation threshold for current-year papers
     recent_works = openalex.search_gene_recent(
@@ -963,11 +965,7 @@ def process_gene(
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
             _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
-            for r in recent_records:
-                existing_pmids.add(r["pmid"])
-                new_pmids.add(r["pmid"])
-                if r.get("doi"):
-                    existing_dois.add(r["doi"].lower())
+            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids)
 
     # Link relations for all newly uploaded papers
     if new_pmids:
@@ -1142,11 +1140,7 @@ def process_topic_subtopic(
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
             _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-            for r in new_records:
-                existing_pmids.add(r["pmid"])
-                new_pmids.add(r["pmid"])
-                if r.get("doi"):
-                    existing_dois.add(r["doi"].lower())
+            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids)
 
         library_size = len(all_records)
 
@@ -1200,11 +1194,7 @@ def process_topic_subtopic(
                 cit_added = cit_stats["added"]
                 pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
                 _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
-                for r in candidate_records:
-                    existing_pmids.add(r["pmid"])
-                    new_pmids.add(r["pmid"])
-                    if r.get("doi"):
-                        existing_dois.add(r["doi"].lower())
+                _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids)
 
     # 4. Recent papers pass
     recent_added = 0
@@ -1251,11 +1241,7 @@ def process_topic_subtopic(
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
             _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
-            for r in recent_records:
-                existing_pmids.add(r["pmid"])
-                new_pmids.add(r["pmid"])
-                if r.get("doi"):
-                    existing_dois.add(r["doi"].lower())
+            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids)
 
     # 5. Link relations
     if new_pmids:

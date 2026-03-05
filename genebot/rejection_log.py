@@ -123,14 +123,15 @@ class RejectionLog:
             "search_keywords": list(self._search_keywords),
         })
 
-    def build_hierarchy(self) -> dict[str, list[str]]:
+    @staticmethod
+    def _build_hierarchy(entries: list[dict]) -> dict[str, list[str]]:
         """Build category -> subcollection list from entries.
 
         Handles comma-separated values from merged entries (an article
         rejected in multiple genes/categories).
         """
         hierarchy: dict[str, set[str]] = {}
-        for e in self.entries:
+        for e in entries:
             cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
             subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
             for cat in cats:
@@ -138,20 +139,27 @@ class RejectionLog:
                     hierarchy.setdefault(cat, set()).add(sub)
         return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
 
-    def build_stats(self) -> dict:
+    @staticmethod
+    def _build_stats(entries: list[dict]) -> dict:
         """Compute summary statistics."""
         by_reason: dict[str, int] = {}
         by_category: dict[str, int] = {}
-        for e in self.entries:
+        for e in entries:
             reason = e.get("reason", "unknown")
             by_reason[reason] = by_reason.get(reason, 0) + 1
             cat = e.get("category", "unknown")
             by_category[cat] = by_category.get(cat, 0) + 1
         return {
-            "total_rejections": len(self.entries),
+            "total_rejections": len(entries),
             "by_reason": by_reason,
             "by_category": by_category,
         }
+
+    def build_hierarchy(self) -> dict[str, list[str]]:
+        return self._build_hierarchy(self.entries)
+
+    def build_stats(self) -> dict:
+        return self._build_stats(self.entries)
 
     def _dedup_key(self, entry: dict) -> str | None:
         """Return a dedup key for an entry: PMID first, DOI fallback, or None."""
@@ -163,18 +171,8 @@ class RejectionLog:
             return f"doi:{doi}"
         return None
 
-    def _merge_subcollections(self, existing: str, new: str) -> str:
-        """Merge subcollection values, comma-separated if they differ."""
-        if not existing:
-            return new
-        if not new or new == existing:
-            return existing
-        parts = {s.strip() for s in existing.split(",") if s.strip()}
-        parts.update(s.strip() for s in new.split(",") if s.strip())
-        return ", ".join(sorted(parts))
-
-    def _merge_categories(self, existing: str, new: str) -> str:
-        """Merge category values, comma-separated if they differ."""
+    def _merge_csv_field(self, existing: str, new: str) -> str:
+        """Merge comma-separated field values, deduplicating and sorting."""
         if not existing:
             return new
         if not new or new == existing:
@@ -255,11 +253,11 @@ class RejectionLog:
                 entry["last_seen"] = now
                 entry["seen_count"] = existing.get("seen_count", 1) + 1
                 # Merge subcollection/category if they differ
-                entry["subcollection"] = self._merge_subcollections(
+                entry["subcollection"] = self._merge_csv_field(
                     existing.get("subcollection", ""),
                     entry.get("subcollection", ""),
                 )
-                entry["category"] = self._merge_categories(
+                entry["category"] = self._merge_csv_field(
                     existing.get("category", ""),
                     entry.get("category", ""),
                 )
@@ -277,11 +275,11 @@ class RejectionLog:
             if key in merged_index:
                 prev_count = merged_index[key].get("seen_count", 1)
                 if entry["seen_count"] >= prev_count:
-                    entry["subcollection"] = self._merge_subcollections(
+                    entry["subcollection"] = self._merge_csv_field(
                         merged_index[key].get("subcollection", ""),
                         entry.get("subcollection", ""),
                     )
-                    entry["category"] = self._merge_categories(
+                    entry["category"] = self._merge_csv_field(
                         merged_index[key].get("category", ""),
                         entry.get("category", ""),
                     )
@@ -315,36 +313,12 @@ class RejectionLog:
         # Rebuild hierarchy and stats from merged set (without mutating self.entries)
         pipeline_runs = prev_runs + 1
 
-        def _build_stats_from(entries: list) -> dict:
-            by_reason: dict[str, int] = {}
-            by_category: dict[str, int] = {}
-            for e in entries:
-                reason = e.get("reason", "unknown")
-                by_reason[reason] = by_reason.get(reason, 0) + 1
-                cat = e.get("category", "unknown")
-                by_category[cat] = by_category.get(cat, 0) + 1
-            return {
-                "total_rejections": len(entries),
-                "by_reason": by_reason,
-                "by_category": by_category,
-            }
-
-        def _build_hierarchy_from(entries: list) -> dict:
-            hierarchy: dict[str, set] = {}
-            for e in entries:
-                cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
-                subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
-                for cat in cats:
-                    for sub in subs:
-                        hierarchy.setdefault(cat, set()).add(sub)
-            return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
-
         data = {
             "generated_at": now,
             "pipeline_version": "1.0",
             "pipeline_runs": pipeline_runs,
-            "stats": _build_stats_from(output_entries),
-            "hierarchy": _build_hierarchy_from(output_entries),
+            "stats": self._build_stats(output_entries),
+            "hierarchy": self._build_hierarchy(output_entries),
             "articles": output_entries,
         }
         with open(path, "w", encoding="utf-8") as f:
