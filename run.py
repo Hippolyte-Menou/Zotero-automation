@@ -690,7 +690,7 @@ def process_gene(
     collection_name = gene_cfg.get("collection", symbol)
     text_excl = gene_cfg.get("exclude_text", default_excl_text)
     mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
-    gene_tags = gene_cfg.get("tags", [])
+    gene_tags = gene_cfg.get("tags") or []
 
     # Track pmid -> OpenAlex referenced_works for relation linking
     pmid_to_oa_refs: dict[str, list[str]] = {}
