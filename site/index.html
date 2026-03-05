@@ -1470,6 +1470,10 @@ html.dark .score-high { background: #157347; }
       const resp = await fetch("data/near_misses.json");
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       data = await resp.json();
+      (data.articles || []).forEach(function(a) {
+        a.title = stripHtmlTags(a.title);
+        a.abstract = stripHtmlTags(a.abstract);
+      });
       renderSidebar();
       renderMetaBar();
       renderRescueBar();
@@ -1492,6 +1496,10 @@ html.dark .score-high { background: #157347; }
         return;
       }
       flaggedData = await resp.json();
+      (flaggedData.articles || []).forEach(function(a) {
+        a.title = stripHtmlTags(a.title);
+        a.abstract = stripHtmlTags(a.abstract);
+      });
     } catch (e) {
       // Silently ignore -- review tab shows "no data" state
     }
@@ -2331,11 +2339,11 @@ html.dark .score-high { background: #157347; }
     const lastAuthor = (article.authors && article.authors.length > 0)
       ? (article.authors[0][1] || "Unknown") : "Unknown";
     const cleanLast = lastAuthor.replace(/[^a-zA-Z]/g, "");
-    const id = cleanLast + (article.year || "") + "_" + (article.pmid || "");
+    const id = (article.year || "0000") + "_" + (cleanLast || "Unknown");
     const authorStr = (article.authors || [])
       .map(a => escapeLatex((a[1] || "") + ", " + (a[0] || "")))
       .join(" and ");
-    const title = escapeLatex((article.title || "").replace(/[{}]/g, ""));
+    const title = escapeLatex((article.title || "").replace(/<[^>]*>/g, "").replace(/[{}]/g, ""));
     const journal = escapeLatex(article.journal || "");
     const lines = [
       "@article{" + id + ",",
@@ -2700,6 +2708,9 @@ html.dark .score-high { background: #157347; }
       var resp = await fetch("data/recent_additions.json");
       if (!resp.ok) return;
       recentAdditions = await resp.json();
+      (recentAdditions.additions || []).forEach(function(a) {
+        a.title = stripHtmlTags(a.title);
+      });
       renderRecentPanel();
     } catch (e) {
       // Silently ignore -- recent additions is optional
@@ -2803,6 +2814,11 @@ html.dark .score-high { background: #157347; }
     }
 
     container.innerHTML = html;
+  }
+
+  function stripHtmlTags(s) {
+    if (!s) return "";
+    return s.replace(/<[^>]*>/g, "");
   }
 
   function escapeHtml(s) {

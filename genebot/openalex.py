@@ -34,6 +34,13 @@ WORK_FIELDS = (
 )
 
 
+def _strip_html(text: str) -> str:
+    """Remove HTML/XML tags (e.g. <scp>, <i>, <sub>) from OpenAlex text."""
+    if not text:
+        return text
+    return re.sub(r"<[^>]*>", "", text)
+
+
 def _invert_abstract(inv_index: dict | None) -> str:
     """Reconstruct plain-text abstract from OpenAlex inverted index."""
     if not inv_index:
@@ -1233,13 +1240,13 @@ class OpenAlexClient:
         return {
             "pmid": pmid,
             "doi": doi,
-            "title": work.get("title", ""),
+            "title": _strip_html(work.get("title", "") or ""),
             "authors": authors,
             "journal": journal,
             "journal_abbr": journal_abbr,
             "year": str(work.get("publication_year", "")),
             "date_published": work.get("publication_date", ""),
-            "abstract": _invert_abstract(work.get("abstract_inverted_index")),
+            "abstract": _strip_html(_invert_abstract(work.get("abstract_inverted_index"))),
             "publication_type": [work.get("type", "")],
             "volume": volume,
             "issue": issue,
