@@ -8801,6 +8801,96 @@
         "per_topic": []
       },
       "openalex_failed_requests": 4
+    },
+    {
+      "timestamp": "2026-03-05T23:14:07Z",
+      "pipelines": {
+        "genes": true,
+        "topics": false
+      },
+      "genes": {
+        "totals": {
+          "found": 4,
+          "new": 4,
+          "added": 4,
+          "failed": 0,
+          "cit_candidates": 5,
+          "cit_added": 4,
+          "recent_added": 0
+        },
+        "per_gene": [
+          {
+            "symbol": "NAA10",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NAA15",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU2-2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU4ATAC",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SMARCA2",
+            "found": 4,
+            "new": 4,
+            "added": 4,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {
+              "39971696": "WGBQP443",
+              "35283102": "J5CRV4F5",
+              "30858614": "XZRMQPPG",
+              "9845365": "G7PCV7T6"
+            },
+            "cit_candidates": 5,
+            "cit_added": 4,
+            "recent_added": 0
+          }
+        ]
+      },
+      "topics": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_topic": []
+      },
+      "openalex_failed_requests": 4
     }
   ]
 }
