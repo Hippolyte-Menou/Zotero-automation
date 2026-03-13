@@ -49,6 +49,9 @@ default_exclusions_text:
 - coronavirus
 - cirrhosis
 - myeloma
+- respiratory
+- pulmonary
+- surfactant
 default_exclusions_mesh:
 - Neoplasms
 - Carcinoma
@@ -87,20 +90,38 @@ genes:
   - optic-atrophy
   - optic-neuropathy
   - retinal-dystrophy
+  exclude_text:
+  - sepsis
+  - metapneumovirus
+  - syphilis
+  - pituitary
+  - telemedicine
+  - methanol
+  - cytomegalovirus
 - symbol: ADAM9
   collection: ADAM9
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  exclude_text:
+  - alpha-secretase
+  - tnf-converting enzyme
 - symbol: ADAMTSL4
   collection: ADAMTSL4
   tags:
   - ectopia-lentis
+  - ectopia-lentis-et-pupillae
+  - lens-luxation
+  - zonular-dystrophy
 - symbol: ADGRV1
   collection: ADGRV1
   tags:
   - ciliopathy
   - usher-syndrome
+  exclude_text:
+  - seizure
+  - epilepsy
+  - febrile
 - symbol: AGK
   collection: AGK
   tags:
@@ -115,6 +136,15 @@ genes:
   tags:
   - alstrom-syndrome
   - ciliopathy
+  - cone-rod-dystrophy
+  - retinal-degeneration
+  - retinal-dystrophy
+  exclude_text:
+  - Bardet-Biedl
+  - Joubert
+  - Meckel
+  - nephronophthisis
+  - oral-facial-digital
 - symbol: ARID1B
   collection: ARID1B
   tags:
@@ -124,6 +154,12 @@ genes:
   collection: ARID2
   tags:
   - intellectual-disability
+  exclude_text:
+  - cholangiocarcinoma
+  - tumor suppressor
+  - cancer drug resistance
+  blocked_aliases:
+  - BAF200
 - symbol: ARL3
   collection: ARL3
   tags:

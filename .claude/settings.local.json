@@ -13,7 +13,8 @@
       "Bash(python3:*)",
       "Bash(pip show pyzotero)",
       "WebSearch",
-      "Bash(rtk git:*)"
+      "Bash(rtk git:*)",
+      "Bash(ls *.md *.txt)"
     ]
   },
   "enableAllProjectMcpServers": true,

@@ -688,8 +688,10 @@ def process_gene(
 
     symbol = gene_cfg["symbol"]
     collection_name = gene_cfg.get("collection", symbol)
-    text_excl = gene_cfg.get("exclude_text", default_excl_text)
-    mesh_excl = gene_cfg.get("exclude_mesh", default_excl_mesh)
+    gene_excl_text = gene_cfg.get("exclude_text", [])
+    text_excl = list(dict.fromkeys(default_excl_text + gene_excl_text))
+    gene_excl_mesh = gene_cfg.get("exclude_mesh", [])
+    mesh_excl = list(dict.fromkeys(default_excl_mesh + gene_excl_mesh))
     gene_tags = gene_cfg.get("tags") or []
 
     # Track pmid -> OpenAlex referenced_works for relation linking
