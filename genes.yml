@@ -98,6 +98,16 @@ genes:
   - telemedicine
   - methanol
   - cytomegalovirus
+- symbol: ACTB
+  collection: ACTB
+  tags:
+  - coloboma
+  - structural-eye-disease
+- symbol: ACTG1
+  collection: ACTG1
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: ADAM9
   collection: ADAM9
   tags:
@@ -131,6 +141,12 @@ genes:
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+- symbol: ALDH1A3
+  collection: ALDH1A3
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: ALMS1
   collection: ALMS1
   tags:
@@ -188,6 +204,14 @@ genes:
   tags:
   - achromatopsia
   - retinal-dystrophy
+- symbol: B3GLCT
+  collection: B3GLCT
+  tags:
+  - coloboma
+  - congenital-cataract
+  - congenital-glaucoma
+  - corneal-dystrophy
+  - structural-eye-disease
 - symbol: BBS1
   collection: BBS1
   tags:
@@ -210,6 +234,12 @@ genes:
   - ciliopathy
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: BCOR
+  collection: BCOR
+  tags:
+  - congenital-cataract
+  - microphthalmia
+  - structural-eye-disease
 - symbol: BEST1
   collection: BEST1
   tags:
@@ -227,6 +257,24 @@ genes:
   collection: BFSP2
   tags:
   - congenital-cataract
+- symbol: BMP4
+  collection: BMP4
+  tags:
+  - coloboma
+  - microphthalmia
+  - stickler-syndrome
+  - structural-eye-disease
+- symbol: C12ORF57
+  collection: C12ORF57
+  tags:
+  - coloboma
+  - structural-eye-disease
+- symbol: C16ORF62
+  collection: C16ORF62
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: CABP4
   collection: CABP4
   tags:
@@ -239,6 +287,11 @@ genes:
   - cone-rod-dystrophy
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+- symbol: CAPN15
+  collection: CAPN15
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: CC2D2A
   collection: CC2D2A
   tags:
@@ -272,6 +325,11 @@ genes:
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: CHD7
+  collection: CHD7
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: CHM
   collection: CHM
   tags:
@@ -326,6 +384,13 @@ genes:
   - retinal-detachment
   - stickler-syndrome
   - vitreoretinopathy
+- symbol: COL4A1
+  collection: COL4A1
+  tags:
+  - congenital-cataract
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: COL8A2
   collection: COL8A2
   tags:
@@ -478,6 +543,11 @@ genes:
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: FAT1
+  collection: FAT1
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: FBN1
   collection: FBN1
   tags:
@@ -494,6 +564,21 @@ genes:
   tags:
   - anterior-segment-dysgenesis
   - congenital-cataract
+- symbol: FRAS1
+  collection: FRAS1
+  tags:
+  - microphthalmia
+  - structural-eye-disease
+- symbol: FREM1
+  collection: FREM1
+  tags:
+  - microphthalmia
+  - structural-eye-disease
+- symbol: FREM2
+  collection: FREM2
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: FRMD7
   collection: FRMD7
   tags:
@@ -511,6 +596,11 @@ genes:
   collection: FZD4
   tags:
   - vitreoretinopathy
+- symbol: FZD5
+  collection: FZD5
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: GDF6
   collection: GDF6
   tags:
@@ -555,6 +645,11 @@ genes:
   collection: GRHL2
   tags:
   - corneal-dystrophy
+- symbol: GRIP1
+  collection: GRIP1
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: GRK1
   collection: GRK1
   tags:
@@ -588,11 +683,26 @@ genes:
   collection: GZF1
   tags:
   - myopia
+- symbol: HCCS
+  collection: HCCS
+  tags:
+  - coloboma
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: HK1
   collection: HK1
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: HMX1
+  collection: HMX1
+  tags:
+  - coloboma
+  - congenital-cataract
+  - corneal-dystrophy
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: HSF4
   collection: HSF4
   tags:
@@ -644,6 +754,11 @@ genes:
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: KMT2D
+  collection: KMT2D
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: KRT12
   collection: KRT12
   tags:
@@ -675,6 +790,12 @@ genes:
   collection: LRMDA
   tags:
   - albinism
+- symbol: LRP2
+  collection: LRP2
+  tags:
+  - coloboma
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: LSS
   collection: LSS
   tags:
@@ -685,6 +806,12 @@ genes:
   - corneal-disease
   - glaucoma
   - megalocornea
+- symbol: MAB21L2
+  collection: MAB21L2
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: MAF
   collection: MAF
   tags:
@@ -699,6 +826,12 @@ genes:
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: MFRP
+  collection: MFRP
+  tags:
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: MIP
   collection: MIP
   tags:
@@ -717,12 +850,17 @@ genes:
   collection: MYOC
   tags:
   - glaucoma
+- symbol: MYRF
+  collection: MYRF
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: NAA10
   collection: NAA10
-  tags:
+  tags: null
 - symbol: NAA15
   collection: NAA15
-  tags:
+  tags: null
 - symbol: NDP
   collection: NDP
   tags:
@@ -784,6 +922,13 @@ genes:
   collection: OVOL2
   tags:
   - corneal-dystrophy
+- symbol: PAX2
+  collection: PAX2
+  tags:
+  - coloboma
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: PAX6
   collection: PAX6
   tags:
@@ -845,11 +990,22 @@ genes:
   tags:
   - anterior-segment-dysgenesis
   - congenital-cataract
+- symbol: PLK4
+  collection: PLK4
+  tags:
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: POC1B
   collection: POC1B
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+- symbol: PORCN
+  collection: PORCN
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: PRCD
   collection: PRCD
   tags:
@@ -882,16 +1038,48 @@ genes:
   tags:
   - intellectual-disability
   - structural-eye-disease
+- symbol: PRSS56
+  collection: PRSS56
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: PUF60
   collection: PUF60
   tags:
   - coloboma
+  - structural-eye-disease
+- symbol: RAB18
+  collection: RAB18
+  tags:
+  - congenital-cataract
+  - corneal-dystrophy
+  - microphthalmia
   - structural-eye-disease
 - symbol: RAB28
   collection: RAB28
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+- symbol: RAB3GAP1
+  collection: RAB3GAP1
+  tags:
+  - congenital-cataract
+  - corneal-dystrophy
+  - microphthalmia
+  - structural-eye-disease
+- symbol: RAB3GAP2
+  collection: RAB3GAP2
+  tags:
+  - congenital-cataract
+  - corneal-dystrophy
+  - microphthalmia
+  - structural-eye-disease
+- symbol: RARB
+  collection: RARB
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: RAX
   collection: RAX
   tags:
@@ -947,10 +1135,10 @@ genes:
   - rod-cone-dystrophy
 - symbol: RNU2-2
   collection: RNU2-2
-  tags:
+  tags: null
 - symbol: RNU4ATAC
   collection: RNU4ATAC
-  tags:
+  tags: null
 - symbol: ROM1
   collection: ROM1
   tags:
@@ -991,6 +1179,13 @@ genes:
   - cone-rod-dystrophy
   - leber-congenital-amaurosis
   - retinal-dystrophy
+- symbol: RPGRIP1L
+  collection: RPGRIP1L
+  tags:
+  - ciliopathy
+  - coloboma
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: RS1
   collection: RS1
   tags:
@@ -1008,6 +1203,16 @@ genes:
   - cone-rod-dystrophy
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: SHH
+  collection: SHH
+  tags:
+  - microphthalmia
+  - structural-eye-disease
+- symbol: SIX6
+  collection: SIX6
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: SLC24A1
   collection: SLC24A1
   tags:
@@ -1033,7 +1238,18 @@ genes:
   - fuchs
 - symbol: SMARCA2
   collection: SMARCA2
+  tags: null
+- symbol: SMO
+  collection: SMO
   tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
+- symbol: SMOC1
+  collection: SMOC1
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: SNRNP200
   collection: SNRNP200
   tags:
@@ -1050,10 +1266,21 @@ genes:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+- symbol: STRA6
+  collection: STRA6
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: TACSTD2
   collection: TACSTD2
   tags:
   - corneal-dystrophy
+- symbol: TBC1D20
+  collection: TBC1D20
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: TDRD7
   collection: TDRD7
   tags:
@@ -1062,12 +1289,23 @@ genes:
   collection: TEK
   tags:
   - glaucoma
+- symbol: TENM3
+  collection: TENM3
+  tags:
+  - coloboma
+  - microphthalmia
+  - structural-eye-disease
 - symbol: TGFBI
   collection: TGFBI
   tags:
   - corneal-dystrophy
   - epithelial
   - lattice
+- symbol: TMEM98
+  collection: TMEM98
+  tags:
+  - microphthalmia
+  - structural-eye-disease
 - symbol: TRIM44
   collection: TRIM44
   tags:
@@ -1083,6 +1321,12 @@ genes:
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+- symbol: TUBGCP4
+  collection: TUBGCP4
+  tags:
+  - microphthalmia
+  - retinal-dystrophy
+  - structural-eye-disease
 - symbol: TULP1
   collection: TULP1
   tags:
@@ -1148,6 +1392,11 @@ genes:
   tags:
   - ciliopathy
   - usher-syndrome
+- symbol: YAP1
+  collection: YAP1
+  tags:
+  - coloboma
+  - structural-eye-disease
 - symbol: ZEB1
   collection: ZEB1
   tags:
