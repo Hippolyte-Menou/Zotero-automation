@@ -644,8 +644,8 @@ def generate_flagged_papers(now):
     for a in articles:
         cats = [c.strip() for c in a["category"].split(",") if c.strip()]
         subs = [s.strip() for s in a["subcollection"].split(",") if s.strip()]
-        for c in cats:
-            hierarchy.setdefault(c, set()).update(subs)
+        for c, s in zip(cats, subs):
+            hierarchy.setdefault(c, set()).add(s)
     hierarchy = {k: sorted(v) for k, v in sorted(hierarchy.items())}
 
     return {

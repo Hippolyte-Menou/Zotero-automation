@@ -134,9 +134,11 @@ class RejectionLog:
         for e in entries:
             cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
             subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
-            for cat in cats:
-                for sub in subs:
-                    hierarchy.setdefault(cat, set()).add(sub)
+            # Categories and subcollections are positionally paired (Nth cat
+            # matches Nth sub).  Use zip to preserve the pairing instead of a
+            # cross-product, which would leak genes into topic categories.
+            for cat, sub in zip(cats, subs):
+                hierarchy.setdefault(cat, set()).add(sub)
         return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
 
     @staticmethod

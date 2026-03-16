@@ -387,8 +387,8 @@ def save_flagged_papers(
     for a in flagged:
         cats = [c.strip() for c in a.get("category", "").split(",") if c.strip()]
         subs = [s.strip() for s in a.get("subcollection", "").split(",") if s.strip()]
-        for cat in cats:
-            hierarchy.setdefault(cat, set()).update(subs)
+        for cat, sub in zip(cats, subs):
+            hierarchy.setdefault(cat, set()).add(sub)
     hierarchy_sorted = {k: sorted(v) for k, v in sorted(hierarchy.items())}
 
     output = {

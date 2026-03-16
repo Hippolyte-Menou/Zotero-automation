@@ -14,7 +14,8 @@
       "Bash(pip show pyzotero)",
       "WebSearch",
       "Bash(rtk git:*)",
-      "Bash(ls *.md *.txt)"
+      "Bash(ls *.md *.txt)",
+      "Bash(cd:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
