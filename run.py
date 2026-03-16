@@ -1046,9 +1046,13 @@ def process_topic_subtopic(
     if topic_ids:
         topic_ids = [str(t) for t in topic_ids]
 
-    # Exclusions
-    text_excl = topic_cfg.get("default_exclusions_text", [])
-    mesh_excl = topic_cfg.get("default_exclusions_mesh", [])
+    # Exclusions: global defaults + category-level + sub-topic-level
+    text_excl = list(topic_cfg.get("default_exclusions_text", []))
+    text_excl.extend(category_cfg.get("exclusions_text", []))
+    text_excl.extend(sub_topic.get("exclusions_text", []))
+    mesh_excl = list(topic_cfg.get("default_exclusions_mesh", []))
+    mesh_excl.extend(category_cfg.get("exclusions_mesh", []))
+    mesh_excl.extend(sub_topic.get("exclusions_mesh", []))
 
     # Clinical keywords (pathologies only)
     clinical_keywords = category_cfg.get("clinical_keywords")
