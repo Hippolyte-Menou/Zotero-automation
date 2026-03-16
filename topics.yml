@@ -447,56 +447,224 @@ categories:
   - name: Optic vesicle
     collection: Optic vesicle
     keywords:
-    - optic vesicle evagination
-    - optic vesicle induction morphogenesis
-    - optic cup invagination
-    - optic cup morphogenesis
-    - optic stalk patterning
-    - optic fissure closure morphogenesis
+    - optic vesicle evagination morphogenesis
+    - optic vesicle induction development
+    - optic cup invagination morphogenesis
+    - optic cup formation mechanical forces
+    - eye field specification transcription factor
+    - eye field anterior neural plate
+    - optic fissure closure mechanism
     - choroid fissure closure embryonic
-    - retinal pigment epithelium specification embryonic
-    - optic vesicle neuroepithelium
-    max_results: 20
+    - lens induction placode specification
+    - lens placode invagination morphogenesis
+    - retinal pigment epithelium specification optic vesicle
+    - neural retina RPE fate determination optic cup
+    - dorsoventral patterning optic vesicle retina
+    - nasotemporal patterning optic vesicle
+    - optic stalk development PAX2
+    - BMP FGF Wnt signaling optic vesicle
+    - SHH hedgehog optic vesicle patterning
+    - retinoic acid signaling eye development
+    - optic vesicle neuroepithelium compartmentalization
+    - proximodistal patterning optic vesicle
+    exclusions_text:
+    - retinal organoid protocol
+    - gene therapy
+    - surgical technique
+    - Drosophila imaginal disc
+    - photoreceptor degeneration treatment
+    - crystallin fiber differentiation
+    - retinal ganglion cell axon guidance
+    exclusions_mesh:
+    - Gene Therapy
+    - Drug Delivery Systems
+    - Retinal Degeneration/therapy
+    max_results: 40
   - name: Coat differentiation
     collection: Coat differentiation
     keywords:
-    - retinal differentiation embryonic
+    # Retinal neurogenesis
+    - retinal neurogenesis cell fate determination
+    - retinal progenitor temporal competence multipotent
+    - bHLH transcription factor retinal cell fate
+    - Notch signaling retinal progenitor neurogenesis
+    - retinal ganglion cell genesis ATOH7 Math5
+    - retinal lamination development morphogenesis
+    - retinal neurogenesis wave embryonic
+    # Photoreceptor specification
     - photoreceptor differentiation developmental
-    - photoreceptor genesis timing
-    - retinal ganglion cell genesis
-    - retinal lamination development
-    - RPE differentiation embryonic
-    - corneal differentiation embryonic
-    - iris differentiation morphogenesis
+    - NRL NR2E3 CRX photoreceptor cell fate
+    - rod cone specification transcription factor
+    - photoreceptor genesis timing embryonic
+    # RPE
+    - RPE specification differentiation MITF OTX2
+    - retinal pigment epithelium embryonic development
+    # Cornea
+    - corneal stroma morphogenesis collagen embryonic
+    - corneal transparency development lumican keratocan
+    - corneal development neural crest mesenchyme
+    - corneal epithelial differentiation embryonic
+    # Iris and ciliary body
+    - iris differentiation morphogenesis neuroectoderm
     - ciliary body differentiation embryonic
-    - choroid development morphogenesis
-    - retinal neurogenesis wave
-    max_results: 20
+    - ciliary epithelium development signaling
+    # Choroid and sclera
+    - choroid vasculogenesis development RPE VEGF
+    - scleral development morphogenesis neural crest
+    - choriocapillaris development embryonic
+    # Anterior segment
+    - anterior segment morphogenesis FOXC1 PITX2
+    - iridocorneal angle development trabecular meshwork
+    # Fovea
+    - foveal development pit formation cone packing
+    - foveal maturation postnatal primate
+    # Muller glia
+    - Muller glia genesis Notch CDK retina
+    exclusions_text:
+    - retinal degeneration
+    - inherited retinal dystrophy
+    - gene therapy
+    - stem cell therapy
+    - regenerative medicine
+    - neuroprotection
+    - clinical trial
+    - case report
+    - drug delivery
+    - pharmacology
+    - age-related macular
+    - diabetic retinopathy
+    - retinoblastoma
+    - organoid differentiation protocol
+    - tissue engineering scaffold
+    exclusions_mesh:
+    - Retinal Degeneration
+    - Gene Therapy
+    - Stem Cell Transplantation
+    - Retinoblastoma
+    - Macular Degeneration
+    - Clinical Trial
+    - Case Reports
+    max_results: 40
   - name: Derived structures
     collection: Derived structures
     keywords:
+    # Lens development
     - lens placode induction
+    - lens placode invagination
     - lens vesicle morphogenesis
     - lens fiber differentiation embryonic
+    - lens pit morphogenesis
     - crystallin expression developmental
+    - lens suture development
+    - lens organelle elimination differentiation
+    # Corneal development
     - corneal morphogenesis embryonic
+    - corneal development embryonic
+    - corneal innervation development
+    - corneal epithelium specification
+    - corneal collagen matrix embryonic
+    # Anterior segment & neural crest
     - anterior segment morphogenesis
+    - anterior segment mesenchyme progenitors
     - neural crest periocular migration
     - periocular mesenchyme differentiation
+    - ocular mesenchyme development
+    - iris development vertebrate
+    # Drainage structures
     - trabecular meshwork development embryonic
+    - Schlemm canal development embryonic
+    - anterior chamber angle development
+    # Hyaloid & vitreous
     - hyaloid vasculature development
+    - hyaloid vasculature regression
+    - hyaloid vessel regression autophagy
     - vitreous development embryonic
-    max_results: 25
+    - hyalocyte ontogeny
+    # Optic fissure
+    - optic fissure closure
+    - choroid fissure fusion development
+    # Lens regeneration
+    - lens regeneration Wolffian
+    - lens transdifferentiation newt
+    exclusions_text:
+    - cataract surgery
+    - intraocular lens implant
+    - keratoplasty
+    - LASIK
+    - vitrectomy
+    - trabeculectomy
+    - gene therapy
+    - drug delivery
+    - retinal detachment
+    exclusions_mesh:
+    - Cataract Extraction
+    - Lens Implantation, Intraocular
+    - Keratoplasty, Penetrating
+    - Vitrectomy
+    - Trabeculectomy
+    max_results: 40
   - name: Adnexal development
     collection: Adnexal development
     keywords:
+    # Eyelid development
     - eyelid morphogenesis embryonic
     - eyelid fusion opening development
+    - eyelid closure embryonic BMP MAP3K1
+    - eyelid development Wnt PCP Prickle
+    - levator palpebrae superioris muscle development
+    # Lacrimal system
     - lacrimal gland morphogenesis
+    - lacrimal gland development FGF10 Pax6
+    - lacrimal gland branching morphogenesis signaling
+    - nasolacrimal duct development embryonic
+    - lacrimal drainage system embryology
+    # Extraocular muscles
     - extraocular muscle myogenesis embryonic
+    - extraocular muscle development Pitx2
+    - oculomotor nerve development embryonic
+    - cranial motor nerve morphogenesis trochlear abducens
+    - congenital cranial dysinnervation disorder development
+    # Conjunctiva and meibomian glands
     - conjunctival differentiation embryonic
+    - conjunctival epithelium development goblet cell
     - meibomian gland development embryonic
-    max_results: 15
+    - meibomian gland morphogenesis FGF Sox9
+    # Orbit and periocular mesenchyme
+    - orbital development embryonic bone mesenchyme
+    - periocular mesenchyme neural crest differentiation
+    - cranial neural crest periocular orbit
+    - orbital embryology fetal development
+    # Cross-cutting
+    - ocular adnexa development embryology review
+    exclusions_text:
+    - dry eye disease
+    - Sjogren syndrome
+    - thyroid eye disease
+    - Graves ophthalmopathy
+    - blepharoplasty
+    - dacryocystorhinostomy
+    - strabismus surgery
+    - botulinum toxin
+    - cosmetic
+    - rejuvenation
+    - tumor
+    - lymphoma
+    - carcinoma
+    - retinoblastoma
+    - rosacea
+    - pemphigoid
+    - tissue engineering scaffold
+    - drug delivery
+    exclusions_mesh:
+    - Dry Eye Syndromes
+    - Sjogren's Syndrome
+    - Graves Ophthalmopathy
+    - Blepharoplasty
+    - Dacryocystorhinostomy
+    - Strabismus/surgery
+    - Eye Neoplasms
+    - Lymphoma
+    max_results: 40
   - name: Ocular malformations
     collection: Ocular malformations
     keywords:
@@ -907,6 +1075,8 @@ categories:
       en_keywords: [oculocutaneous albinism]
     - name: Syndromic albinism
       en_keywords: [Hermansky-Pudlak syndrome, Chediak-Higashi syndrome]
+    - name: FHONDA
+      en_keywords: [FHONDA, foveal hypoplasia optic nerve decussation anterior segment dysgenesis]
     mesh_terms: [Ocular albinism, Oculocutaneous albinism]
   - name: Ocular developmental anomalies
     collection: Ocular developmental anomalies
@@ -926,10 +1096,22 @@ categories:
       en_keywords: [Glaucoma]
     - name: Megalocornea
       en_keywords: [megalocornea]
-    - name: Microphthalmia/coloboma
-      en_keywords: [ocular coloboma, chorioretinal coloboma]
+    - name: Coloboma
+      en_keywords: [ocular coloboma, coloboma]
+    - name: Chorioretinal coloboma
+      en_keywords: [chorioretinal coloboma, retinochoroidal coloboma]
+    - name: Lens coloboma
+      en_keywords: [lens coloboma, crystalline lens coloboma]
+    - name: Iris coloboma
+      en_keywords: [iris coloboma]
     - name: Peters anomaly
       en_keywords: [Peters anomaly]
+    - name: Peters Plus syndrome
+      en_keywords: [Peters Plus syndrome]
+    - name: Gillespie syndrome
+      en_keywords: [Gillespie syndrome, aniridia cerebellar ataxia]
+    - name: Syndromic ocular developmental anomalies
+      en_keywords: [CHARGE syndrome eye, syndromic anterior segment dysgenesis, syndromic ocular malformation]
     mesh_terms: [Aniridia, Congenital glaucoma]
   - name: Congenital cataracts
     collection: Congenital cataracts
@@ -939,6 +1121,8 @@ categories:
       en_keywords: [Cataract]
     - name: Congenital cataract
       en_keywords: [congenital cataract, hereditary cataract, pediatric cataract]
+    - name: Syndromic congenital cataract
+      en_keywords: [syndromic congenital cataract, galactosemia cataract, Lowe syndrome cataract, cerebrooculofacioskeletal syndrome]
     mesh_terms: [Congenital cataract]
   - name: Corneal dystrophies
     collection: Corneal dystrophies
@@ -964,6 +1148,10 @@ categories:
       en_keywords: [macular corneal dystrophy]
     - name: Schnyder corneal dystrophy
       en_keywords: [Schnyder corneal dystrophy]
+    - name: Congenital hereditary stromal dystrophy
+      en_keywords: [congenital hereditary stromal corneal dystrophy, Turpin corneal dystrophy]
+    - name: Pre-Descemet corneal dystrophy
+      en_keywords: [pre-Descemet corneal dystrophy, punctiform pre-Descemet dystrophy]
     mesh_terms: [Corneal dystrophy, Fuchs endothelial dystrophy, Lattice corneal dystrophy, Granular corneal dystrophy]
   - name: Retinal dystrophies
     collection: Retinal dystrophies
@@ -1009,6 +1197,16 @@ categories:
       en_keywords: [Usher syndrome]
     - name: X-linked retinoschisis
       en_keywords: [X-linked retinoschisis]
+    - name: Severe early-onset retinal dystrophy
+      en_keywords: [severe early-onset retinal dystrophy, early-onset retinal degeneration]
+    - name: Oligocone trichromacy
+      en_keywords: [oligocone trichromacy]
+    - name: LCHAD deficiency retinopathy
+      en_keywords: [LCHAD deficiency retinopathy, long-chain 3-hydroxyacyl-CoA dehydrogenase retinal dystrophy]
+    - name: Congenital stationary night blindness, Riggs type
+      en_keywords: [Riggs type night blindness, complete congenital stationary night blindness]
+    - name: Congenital stationary night blindness, Schubert-Bornstein type
+      en_keywords: [Schubert-Bornstein night blindness, incomplete congenital stationary night blindness]
     mesh_terms: [Retinitis pigmentosa, Cone-rod dystrophy, Stargardt disease, Vitelliform macular dystrophy, Leber congenital
         amaurosis, Choroideremia, Retinoschisis, Age-related macular degeneration, High myopia, Hereditary optic neuropathy]
   - name: Vitreoretinopathies
@@ -1023,3 +1221,5 @@ categories:
       en_keywords: [Stickler syndrome]
     - name: Wagner vitreoretinopathy
       en_keywords: [Wagner syndrome, Wagner vitreoretinopathy]
+    - name: Knobloch syndrome
+      en_keywords: [Knobloch syndrome]
