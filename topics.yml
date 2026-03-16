@@ -7,7 +7,7 @@
 #
 # What is preserved across rebuilds:
 #   - All top-level config (search, citation_expansion, openalex_scoping, exclusions)
-#   - Categories 1-4 keywords, clinical_scope, max_results, type_filter
+#   - Categories 1-4 keywords, clinical_scope, max_results, type_filter, exclusions_text, exclusions_mesh
 #   - Category 5 clinical_keywords, citation_expansion, per-sub-topic max_results
 #   - Hand-curated per-disease en_keywords overrides
 #
@@ -107,61 +107,133 @@ categories:
   type_filter: review|article
   citation_expansion:
     enabled: true
+  exclusions_text:
+  - surgery
+  - surgical
+  - transplant
+  - keratoplasty
+  - trabeculectomy
+  - vitrectomy
+  - phacoemulsification
+  - implant
+  - injection
+  - intravitreal
+  - anti-VEGF
+  - gene therapy
+  - clinical trial
+  - case report
+  - case series
+  - cohort study
+  - retrospective
+  - prospective
+  - treatment
+  - therapeutic
+  - drug delivery
+  - pharmacology
+  - disease progression
+  - patient
+  exclusions_mesh:
+  - Ophthalmologic Surgical Procedures
+  - Drug Therapy
+  - Intravitreal Injections
+  - Keratoplasty
+  - Clinical Trial
+  - Case Reports
   sub_topics:
   - name: Outer coat
     collection: Outer coat
     keywords:
-    - sclera anatomy
-    - corneal anatomy
+    - sclera histology
+    - sclera ultrastructure
+    - scleral collagen structure
+    - corneal histology
     - corneal ultrastructure
-    - corneal endothelium
-    - corneal epithelium
-    - Bowman layer
-    - Descemet membrane
-    - limbus anatomy
-    - corneal stroma
+    - corneal morphology
+    - corneal endothelium morphology
+    - corneal epithelium structure
+    - corneal epithelium ultrastructure
+    - Bowman layer structure
+    - Descemet membrane ultrastructure
+    - limbus stem cell niche anatomy
+    - corneal stroma collagen
+    - corneal stroma keratocyte
+    - corneal innervation anatomy
+    - scleral spur morphology
+    - corneal layers histology
     clinical_scope:
-    - cornea
-    - sclera
-    - limbus
+    - corneal histology
+    - scleral morphology
+    - corneal ultrastructure
     max_results: 30
     mesh_terms: [Cornea, Corneal endothelium, Corneal epithelium, Corneal stroma, Descemet membrane]
   - name: Middle coat
     collection: Middle coat
     keywords:
-    - uveal anatomy
-    - choroidal anatomy
+    - uveal tract histology
+    - uveal tract morphology
+    - choroid histology
     - choroid ultrastructure
-    - ciliary body anatomy
-    - iris anatomy
-    - Bruch membrane
-    - choriocapillaris
+    - choroidal vasculature architecture
+    - choroidal layers morphology
+    - Haller layer choroid
+    - Sattler layer choroid
+    - choriocapillaris ultrastructure
+    - choriocapillaris angioarchitecture
+    - Bruch membrane ultrastructure
+    - Bruch membrane five-layer structure
+    - suprachoroidal lamina
+    - lamina fusca morphology
+    - choroidal melanocyte distribution
+    - iris histology
+    - iris stroma morphology
+    - iris ultrastructure
+    - sphincter pupillae morphology
+    - dilator pupillae morphology
+    - iris pigment epithelium
+    - iris collarette anatomy
+    - iris crypts morphology
+    - ciliary body histology
+    - ciliary body ultrastructure
+    - ciliary muscle fiber morphology
+    - ciliary processes ultrastructure
+    - pars plicata morphology
+    - pars plana histology
+    - ciliary epithelium ultrastructure
+    - pigmented non-pigmented ciliary epithelium
+    - zonules of Zinn structure
+    - zonular fiber composition fibrillin
     clinical_scope:
-    - uvea
-    - choroid
-    - iris
-    - ciliary body
-    max_results: 30
+    - uveal histology
+    - choroidal morphology
+    - iris morphology
+    - ciliary body structure
+    max_results: 40
     mesh_terms: [Uvea, Choroid, Iris, Ciliary Body, Bruch Membrane]
   - name: Inner coat
     collection: Inner coat
     keywords:
-    - retinal anatomy
-    - retinal layers
-    - retinal pigment epithelium
-    - photoreceptor morphology
-    - outer nuclear layer
-    - inner nuclear layer
-    - ganglion cell layer
-    - Muller glia
     - retinal histology
-    - foveal anatomy
-    - macula anatomy
+    - retinal layers morphology
+    - retinal pigment epithelium ultrastructure
+    - RPE morphology
+    - photoreceptor morphology
+    - outer nuclear layer histology
+    - inner nuclear layer histology
+    - ganglion cell layer morphology
+    - Muller glia morphology
+    - retinal ultrastructure
+    - foveal morphology
+    - foveal pit structure
+    - macula histology
+    - inner limiting membrane structure
+    - outer limiting membrane structure
+    - nerve fiber layer anatomy
+    - retinal lamination morphology
     clinical_scope:
-    - retina
-    - photoreceptor
-    - fovea
-    - macula
+    - retinal histology
+    - retinal morphology
+    - photoreceptor structure
+    - foveal anatomy
     max_results: 40
     mesh_terms: [Retina, Photoreceptors, Rod cells, Cone cells, Retinal pigment epithelium, Photoreceptor outer segment, Photoreceptor
         inner segment, Macula lutea, Fovea centralis, Outer nuclear layer, Outer plexiform layer, Inner nuclear layer, Inner
@@ -169,77 +241,102 @@ categories:
   - name: Transparent media
     collection: Transparent media
     keywords:
-    - crystalline lens anatomy
-    - lens capsule
-    - vitreous anatomy
-    - vitreous structure
-    - aqueous humor anatomy
-    - anterior chamber anatomy
-    - zonular fibers
+    - crystalline lens histology
+    - crystalline lens ultrastructure
+    - lens capsule structure
+    - lens fiber cell morphology
+    - lens epithelium morphology
+    - vitreous ultrastructure
+    - vitreous collagen structure
+    - vitreous hyaluronic acid
+    - aqueous humor composition
+    - anterior chamber morphology
     clinical_scope:
-    - lens
-    - vitreous
-    - aqueous humor
+    - lens morphology
+    - vitreous structure
+    - aqueous humor composition
     max_results: 20
     mesh_terms: [Lens, Vitreous Body, Anterior Chamber, Aqueous Humor, Zonule of Zinn]
   - name: Adnexal structures
     collection: Adnexal structures
     keywords:
-    - eyelid anatomy
-    - conjunctival anatomy
-    - lacrimal gland anatomy
-    - meibomian gland anatomy
-    - tarsal plate
+    - eyelid histology
+    - eyelid morphology
+    - conjunctival histology
+    - conjunctival goblet cell morphology
+    - lacrimal gland histology
+    - lacrimal gland ultrastructure
+    - meibomian gland histology
+    - meibomian gland morphology
+    - tarsal plate structure
+    - orbicularis oculi morphology
+    - levator palpebrae anatomy
     clinical_scope:
-    - eyelid
-    - conjunctiva
-    - lacrimal
+    - eyelid histology
+    - conjunctival morphology
+    - lacrimal gland structure
     max_results: 20
   - name: Vascularization and innervation
     collection: Vascularization and innervation
     keywords:
-    - retinal vasculature
-    - choroidal vasculature
-    - central retinal artery
-    - optic nerve anatomy
-    - optic nerve head
-    - lamina cribrosa
-    - blood-retinal barrier
-    - ciliary arteries
+    - retinal vasculature architecture
+    - retinal vascular morphology
+    - choroidal vasculature architecture
+    - central retinal artery anatomy
+    - central retinal vein anatomy
+    - optic nerve histology
+    - optic nerve head morphology
+    - lamina cribrosa ultrastructure
+    - blood-retinal barrier ultrastructure
+    - inner blood-retinal barrier structure
+    - outer blood-retinal barrier structure
+    - ciliary arteries anatomy
+    - ophthalmic artery anatomy
+    - vortex veins anatomy
+    - retinal capillary morphology
+    - trigeminal innervation cornea
     clinical_scope:
-    - retinal vasculature
-    - optic nerve
-    - choroidal blood supply
+    - retinal vascular anatomy
+    - optic nerve morphology
+    - choroidal vascular architecture
     max_results: 30
     mesh_terms: [Retinal Vessels, Ophthalmic Artery, Optic Nerve, Central Retinal Artery, Central Retinal Vein, Ciliary Arteries]
   - name: Orbit
     collection: Orbit
     keywords:
-    - orbital anatomy
-    - extraocular muscles
-    - optic canal
-    - orbital apex
-    - Tenon capsule
+    - orbital anatomy morphology
+    - extraocular muscles histology
+    - extraocular muscles fiber types
+    - optic canal anatomy
+    - orbital apex anatomy
+    - Tenon capsule structure
+    - orbital fat morphology
+    - orbital bones anatomy
+    - annulus of Zinn anatomy
     clinical_scope:
-    - orbit
-    - extraocular muscles
+    - orbital morphology
+    - extraocular muscle structure
     max_results: 20
     mesh_terms: [Orbit, Oculomotor Muscles, Extraocular Muscles, Lacrimal Apparatus, Tenon Capsule]
   - name: Specialized microanatomy
     collection: Specialized microanatomy
     keywords:
-    - retinal cell types
-    - single-cell transcriptomics retina
-    - retinal interneurons
-    - bipolar cells retina
-    - amacrine cells retina
-    - horizontal cells retina
+    - retinal cell types classification
+    - single-cell transcriptomics retina atlas
+    - retinal interneuron morphology
+    - bipolar cell subtypes retina
+    - amacrine cell morphology retina
+    - horizontal cell morphology retina
     - rod photoreceptor ultrastructure
     - cone photoreceptor ultrastructure
-    - outer segment disc
-    - connecting cilium photoreceptor
+    - outer segment disc membrane ultrastructure
+    - connecting cilium photoreceptor structure
+    - inner segment ellipsoid morphology
+    - photoreceptor cilium axoneme
+    - retinal pigment epithelium apical processes
+    - RPE melanosomes morphology
     clinical_scope:
-    - retinal cell types
+    - retinal cell type morphology
     - photoreceptor ultrastructure
     max_results: 30
     type_filter: review|article
@@ -255,78 +352,121 @@ categories:
   type_filter: review|article
   citation_expansion:
     enabled: true
+  exclusions_text:
+  - surgery
+  - surgical
+  - transplant
+  - clinical trial
+  - case report
+  - case series
+  - cohort study
+  - retrospective
+  - prospective
+  - treatment
+  - therapeutic
+  - drug delivery
+  - pharmacology
+  - patient
+  - disease model
+  - knockout mouse phenotype
+  - iPSC disease modeling
+  exclusions_mesh:
+  - Ophthalmologic Surgical Procedures
+  - Drug Therapy
+  - Clinical Trial
+  - Case Reports
+  - Disease Models, Animal
   sub_topics:
   - name: Developmental timeline
     collection: Developmental timeline
     keywords:
-    - eye development stages
-    - eye development timeline
-    - ocular morphogenesis
-    - eye organogenesis
-    - embryonic eye development
+    - eye development stages embryonic
+    - eye development timeline Carnegie
+    - ocular morphogenesis embryo
+    - eye organogenesis stages
+    - embryonic eye development weeks
+    - fetal eye development morphology
+    - human eye embryogenesis
     max_results: 30
   - name: Developmental genetics
     collection: Developmental genetics
     keywords:
-    - eye development transcription factors
-    - PAX6 eye development
-    - SHH eye development
-    - BMP signaling eye
-    - WNT signaling eye development
-    - eye field specification
-    - retinal progenitor cells
-    - retinal fate determination
+    - eye development transcription factor network
+    - PAX6 eye morphogenesis
+    - SHH optic vesicle patterning
+    - BMP signaling optic cup
+    - WNT signaling eye field
+    - eye field specification transcription factors
+    - retinal progenitor cell competence
+    - retinal fate determination transcription factor
+    - VSX2 CHX10 retinal identity
+    - MITF RPE specification
+    - RAX eye field
     max_results: 30
   - name: Optic vesicle
     collection: Optic vesicle
     keywords:
-    - optic vesicle induction
-    - optic cup formation
-    - optic stalk development
-    - optic fissure closure
-    - retinal pigment epithelium specification
+    - optic vesicle evagination
+    - optic vesicle induction morphogenesis
+    - optic cup invagination
+    - optic cup morphogenesis
+    - optic stalk patterning
+    - optic fissure closure morphogenesis
+    - choroid fissure closure embryonic
+    - retinal pigment epithelium specification embryonic
+    - optic vesicle neuroepithelium
     max_results: 20
   - name: Coat differentiation
     collection: Coat differentiation
     keywords:
-    - retinal differentiation
-    - photoreceptor differentiation
-    - retinal ganglion cell development
-    - retinal lamination
-    - RPE differentiation
-    - corneal development
-    - iris development
+    - retinal differentiation embryonic
+    - photoreceptor differentiation developmental
+    - photoreceptor genesis timing
+    - retinal ganglion cell genesis
+    - retinal lamination development
+    - RPE differentiation embryonic
+    - corneal differentiation embryonic
+    - iris differentiation morphogenesis
+    - ciliary body differentiation embryonic
+    - choroid development morphogenesis
+    - retinal neurogenesis wave
     max_results: 30
   - name: Derived structures
     collection: Derived structures
     keywords:
-    - lens development
-    - lens placode
-    - lens fiber differentiation
-    - crystallin expression
-    - corneal development embryology
-    - anterior segment development
-    - neural crest eye
-    - periocular mesenchyme
+    - lens placode induction
+    - lens vesicle morphogenesis
+    - lens fiber differentiation embryonic
+    - crystallin expression developmental
+    - corneal morphogenesis embryonic
+    - anterior segment morphogenesis
+    - neural crest periocular migration
+    - periocular mesenchyme differentiation
+    - trabecular meshwork development embryonic
+    - hyaloid vasculature development
+    - vitreous development embryonic
     max_results: 25
   - name: Adnexal development
     collection: Adnexal development
     keywords:
-    - eyelid development
-    - lacrimal gland development
-    - extraocular muscle development
-    - conjunctival development
+    - eyelid morphogenesis embryonic
+    - eyelid fusion opening development
+    - lacrimal gland morphogenesis
+    - extraocular muscle myogenesis embryonic
+    - conjunctival differentiation embryonic
+    - meibomian gland development embryonic
     max_results: 15
   - name: Ocular malformations
     collection: Ocular malformations
     keywords:
-    - ocular malformations genetics
-    - microphthalmia development
-    - anophthalmia development
-    - coloboma embryology
-    - anterior segment dysgenesis development
-    - congenital ocular anomalies
-    - optic fissure closure defect
+    - ocular malformation developmental mechanism
+    - microphthalmia embryonic mechanism
+    - anophthalmia developmental pathway
+    - coloboma optic fissure closure failure
+    - anterior segment dysgenesis developmental
+    - congenital ocular anomaly morphogenesis
+    - optic fissure closure defect mechanism
+    - cyclopia holoprosencephaly eye
     max_results: 25
 - name: 3 - Physiology
   alias: physiology
@@ -338,112 +478,162 @@ categories:
   type_filter: review|article
   citation_expansion:
     enabled: true
+  exclusions_text:
+  - surgery
+  - surgical
+  - clinical trial
+  - case report
+  - case series
+  - cohort study
+  - retrospective
+  - prospective
+  - treatment
+  - therapeutic
+  - drug delivery
+  - pharmacology
+  - patient
+  - disease progression
+  - mutation screening
+  - genotype-phenotype
+  exclusions_mesh:
+  - Ophthalmologic Surgical Procedures
+  - Drug Therapy
+  - Clinical Trial
+  - Case Reports
   sub_topics:
   - name: Visual physiology
     collection: Visual physiology
     keywords:
-    - phototransduction cascade
-    - visual cycle retinoid
-    - dark adaptation physiology
-    - rhodopsin activation
-    - cone phototransduction
-    - rod phototransduction
-    - visual pigment regeneration
-    - retinol cycle RPE
-    - color vision physiology
+    - phototransduction cascade mechanism
+    - visual cycle retinoid biochemistry
+    - dark adaptation mechanism physiology
+    - rhodopsin activation kinetics
+    - cone phototransduction mechanism
+    - rod phototransduction mechanism
+    - visual pigment regeneration cycle
+    - retinoid cycle RPE photoreceptor
+    - 11-cis retinal isomerization
+    - transducin activation cascade
+    - phosphodiesterase phototransduction
+    - cGMP-gated channel photoreceptor
+    - recoverin phototransduction
+    - color vision trichromacy mechanism
     max_results: 40
     mesh_terms: [Phototransduction, Visual cycle, Rhodopsin, Melanin, Ciliary transport]
   - name: Transparent media physiology
     collection: Transparent media physiology
     keywords:
-    - corneal transparency mechanism
-    - lens transparency
-    - aqueous humor dynamics
-    - aqueous humor production
-    - vitreous humor physiology
+    - corneal transparency mechanism biophysics
+    - corneal deturgescence mechanism
+    - crystallin lens transparency
+    - lens refractive index gradient
+    - aqueous humor dynamics production
+    - aqueous humor secretion mechanism
+    - vitreous humor biophysics
+    - vitreous gel structure function
     max_results: 20
   - name: Accommodation
     collection: Accommodation
     keywords:
-    - accommodation physiology
-    - presbyopia mechanism
-    - ciliary muscle contraction
-    - lens elasticity accommodation
+    - accommodation mechanism physiology
+    - Helmholtz accommodation theory
+    - Schachar accommodation theory
+    - ciliary muscle contraction accommodation
+    - lens elasticity accommodation mechanism
+    - zonular tension accommodation
+    - lens shape change accommodation
     max_results: 15
   - name: Pupillary physiology
     collection: Pupillary physiology
     keywords:
-    - pupillary light reflex
-    - pupil physiology
-    - intrinsically photosensitive retinal ganglion cells
-    - melanopsin signaling
-    - pupillary pathway
+    - pupillary light reflex pathway mechanism
+    - pupil constriction dilation physiology
+    - intrinsically photosensitive retinal ganglion cell physiology
+    - melanopsin signaling mechanism
+    - pupillary reflex arc afferent efferent
+    - consensual pupillary reflex mechanism
+    - near reflex accommodation convergence miosis
     max_results: 20
   - name: Ocular motility
     collection: Ocular motility
     keywords:
-    - saccade physiology
-    - smooth pursuit eye movement
-    - vestibulo-ocular reflex
-    - optokinetic nystagmus
-    - vergence eye movement
-    - oculomotor control
+    - saccade generation physiology
+    - smooth pursuit mechanism physiology
+    - vestibulo-ocular reflex mechanism
+    - optokinetic reflex pathway
+    - vergence eye movement mechanism
+    - oculomotor control brainstem
+    - superior colliculus saccade
+    - frontal eye field oculomotor
     max_results: 20
   - name: Lacrimal system
     collection: Lacrimal system
     keywords:
-    - tear film physiology
-    - tear film composition
-    - meibomian gland function
-    - lacrimal secretion
-    - ocular surface homeostasis
+    - tear film physiology composition
+    - tear film lipid layer mechanism
+    - tear film mucin layer function
+    - meibomian gland secretion mechanism
+    - lacrimal gland secretion physiology
+    - ocular surface homeostasis mechanism
+    - tear film stability biophysics
+    - lacrimal drainage physiology
     max_results: 20
   - name: Intraocular pressure
     collection: Intraocular pressure
     keywords:
-    - intraocular pressure regulation
-    - trabecular meshwork physiology
-    - aqueous humor outflow
-    - Schlemm canal
-    - uveoscleral outflow
+    - intraocular pressure regulation physiology
+    - trabecular meshwork outflow mechanism
+    - aqueous humor outflow pathway
+    - Schlemm canal endothelium physiology
+    - uveoscleral outflow mechanism
+    - aqueous humor production ciliary epithelium
+    - conventional outflow pathway physiology
     max_results: 20
   - name: Ocular vascular physiology
     collection: Ocular vascular physiology
     keywords:
-    - retinal blood flow regulation
-    - choroidal blood flow
-    - blood-retinal barrier physiology
-    - retinal autoregulation
-    - neurovascular coupling retina
+    - retinal blood flow autoregulation mechanism
+    - choroidal blood flow regulation
+    - blood-retinal barrier permeability physiology
+    - retinal vascular autoregulation mechanism
+    - neurovascular coupling retina mechanism
+    - retinal oxygen delivery physiology
+    - choroidal blood flow autonomic regulation
     max_results: 25
   - name: Ocular neurophysiology
     collection: Ocular neurophysiology
     keywords:
-    - visual cortex physiology
-    - lateral geniculate nucleus
-    - optic radiation
-    - visual processing retina
-    - retinal ganglion cell physiology
-    - ON OFF pathways retina
+    - visual cortex receptive field physiology
+    - lateral geniculate nucleus visual processing
+    - optic radiation visual pathway
+    - retinal ganglion cell receptive field physiology
+    - ON OFF pathway retinal processing
+    - retinal signal processing circuitry
+    - magnocellular parvocellular pathway
+    - visual cortex orientation selectivity
     max_results: 25
   - name: Ocular aging
     collection: Ocular aging
     keywords:
-    - aging retina
-    - RPE aging
-    - lipofuscin accumulation retina
-    - drusen formation
-    - presbyopia aging lens
-    - age-related changes eye
+    - aging retina normal physiology
+    - RPE aging lipofuscin accumulation
+    - A2E bisretinoid accumulation
+    - drusen formation mechanism normal aging
+    - presbyopia lens aging mechanism
+    - age-related changes ocular tissue normal
+    - Bruch membrane aging thickening
+    - photoreceptor aging normal
     max_results: 20
   - name: Ocular chronobiology
     collection: Ocular chronobiology
     keywords:
-    - circadian rhythm eye
-    - melanopsin circadian
-    - ipRGC circadian
-    - melatonin retina
-    - photoentrainment
+    - circadian rhythm retina mechanism
+    - melanopsin circadian photoentrainment
+    - ipRGC circadian signaling
+    - melatonin retina synthesis rhythm
+    - photoentrainment suprachiasmatic nucleus
+    - retinal clock gene expression
+    - dopamine retinal circadian
     max_results: 15
 - name: 4 - Examinations
   alias: examinations
@@ -455,110 +645,152 @@ categories:
   type_filter: review|article
   citation_expansion:
     enabled: true
+  exclusions_text:
+  - surgery
+  - surgical
+  - clinical trial
+  - case report
+  - case series
+  - retrospective study
+  - prospective study
+  - treatment outcome
+  - therapeutic
+  - drug delivery
+  - pharmacology
+  - disease progression
+  - mutation screening
+  - genotype-phenotype
+  - natural history
+  exclusions_mesh:
+  - Ophthalmologic Surgical Procedures
+  - Drug Therapy
+  - Clinical Trial
+  - Case Reports
   sub_topics:
   - name: Visual function
     collection: Visual function
     keywords:
-    - visual acuity testing methods
-    - visual field testing perimetry
-    - color vision testing
-    - contrast sensitivity testing
-    - microperimetry technique
+    - visual acuity testing methodology protocol
+    - visual field perimetry technique methodology
+    - color vision testing protocol Ishihara
+    - contrast sensitivity testing methodology
+    - microperimetry technique protocol
+    - visual acuity chart design LogMAR
+    - perimetry algorithm strategy comparison
     max_results: 25
     mesh_terms: [Optical coherence tomography, Electroretinography, Fundus autofluorescence, Visual field, Fluorescein angiography,
       Visual acuity]
   - name: Anterior segment examination
     collection: Anterior segment examination
     keywords:
-    - slit lamp examination technique
-    - gonioscopy technique
-    - specular microscopy cornea
-    - anterior segment OCT
-    - pachymetry
-    - corneal topography
-    - endothelial cell count
+    - slit lamp biomicroscopy technique principles
+    - gonioscopy technique methodology
+    - specular microscopy technique protocol
+    - anterior segment OCT technique principles
+    - pachymetry measurement technique
+    - corneal topography methodology principles
+    - endothelial cell count technique specular
+    - Scheimpflug imaging technique principles
+    - ultrasound biomicroscopy UBM technique
     max_results: 25
   - name: Posterior segment examination
     collection: Posterior segment examination
     keywords:
-    - fundoscopy technique
-    - fundus photography
-    - indirect ophthalmoscopy
-    - widefield imaging retina
-    - ultra-widefield imaging
+    - fundoscopy technique methodology
+    - fundus photography technique protocol
+    - indirect ophthalmoscopy technique principles
+    - widefield imaging technique methodology
+    - ultra-widefield imaging technique principles
+    - direct ophthalmoscopy technique
+    - slit lamp fundoscopy technique lens
     max_results: 20
   - name: Ocular imaging
     collection: Ocular imaging
     keywords:
-    - optical coherence tomography retina
-    - OCT angiography retina
-    - fundus autofluorescence imaging
-    - fluorescein angiography technique
-    - indocyanine green angiography
-    - adaptive optics retinal imaging
-    - en face OCT
-    - swept source OCT
+    - optical coherence tomography technique principles
+    - OCT angiography technique methodology
+    - fundus autofluorescence imaging technique principles
+    - fluorescein angiography technique protocol
+    - indocyanine green angiography technique protocol
+    - adaptive optics retinal imaging technique
+    - en face OCT technique methodology
+    - swept source OCT technique principles
+    - OCT segmentation algorithm methodology
+    - multimodal retinal imaging technique
     max_results: 40
     mesh_terms: [Optical coherence tomography, Electroretinography, Fundus autofluorescence, Visual field, Fluorescein angiography,
       Visual acuity]
   - name: Neuro-ophthalmologic examinations
     collection: Neuro-ophthalmologic examinations
     keywords:
-    - visual evoked potentials
-    - pupillometry technique
-    - optic nerve head imaging
-    - RNFL thickness measurement
-    - ganglion cell analysis OCT
+    - visual evoked potential technique methodology
+    - pupillometry technique protocol
+    - optic nerve head imaging technique methodology
+    - RNFL thickness measurement technique protocol
+    - ganglion cell analysis OCT methodology
+    - VEP recording technique standard
+    - optic disc photography technique
     max_results: 20
   - name: Ocular surface examinations
     collection: Ocular surface examinations
     keywords:
-    - Schirmer test
-    - tear breakup time
-    - meibography
-    - ocular surface staining
-    - tear film analysis
+    - Schirmer test technique protocol
+    - tear breakup time measurement technique
+    - meibography technique methodology
+    - ocular surface staining technique protocol
+    - tear film analysis methodology
+    - tear osmolarity measurement technique
+    - non-invasive tear breakup time technique
     max_results: 15
   - name: Binocular vision
     collection: Binocular vision
     keywords:
-    - strabismus examination
-    - binocular vision testing
-    - Worth four-dot test
-    - stereoacuity testing
-    - cover test technique
+    - strabismus examination technique methodology
+    - binocular vision testing protocol
+    - Worth four-dot test technique
+    - stereoacuity testing methodology
+    - cover test technique protocol
+    - prism cover test methodology
+    - Hess screen test technique
     max_results: 15
   - name: Genetic testing
     collection: Genetic testing
     keywords:
-    - genetic testing inherited retinal disease
-    - next-generation sequencing ophthalmology
-    - whole exome sequencing eye disease
-    - gene panel retinal dystrophy
-    - variant interpretation inherited eye disease
+    - genetic testing methodology inherited retinal disease
+    - next-generation sequencing technique ophthalmology
+    - whole exome sequencing methodology eye
+    - gene panel design retinal dystrophy
+    - variant interpretation guidelines ophthalmology
+    - long-read sequencing structural variant eye
+    - RNA sequencing splicing analysis eye
+    - copy number variation detection methodology eye
     max_results: 25
   - name: Specialized functional testing
     collection: Specialized functional testing
     keywords:
-    - electroretinography technique
-    - full-field ERG
-    - multifocal ERG
-    - pattern ERG
-    - electro-oculography
-    - dark adaptometry
-    - chromatic pupillometry
-    - ISCEV standard
+    - electroretinography technique protocol
+    - full-field ERG technique ISCEV standard
+    - multifocal ERG technique methodology
+    - pattern ERG technique protocol
+    - electro-oculography technique standard
+    - dark adaptometry technique methodology
+    - chromatic pupillometry technique protocol
+    - ISCEV standard protocol guideline
+    - ERG recording technique electrode
+    - flicker ERG technique 30Hz
     max_results: 30
     mesh_terms: [Optical coherence tomography, Electroretinography, Fundus autofluorescence, Visual field, Fluorescein angiography,
       Visual acuity]
   - name: Emerging technologies
     collection: Emerging technologies
     keywords:
-    - artificial intelligence ophthalmology
-    - deep learning retinal imaging
-    - adaptive optics scanning laser ophthalmoscopy
-    - handheld OCT
-    - home monitoring retina
+    - artificial intelligence ophthalmology imaging methodology
+    - deep learning retinal imaging technique
+    - adaptive optics scanning laser ophthalmoscopy technique
+    - handheld OCT device technique
+    - home monitoring retina device methodology
+    - machine learning OCT segmentation methodology
+    - smartphone fundoscopy technique
     max_results: 20
 - name: 5 - Pathologies
   alias: pathologies
