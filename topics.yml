@@ -132,6 +132,24 @@ categories:
   - pharmacology
   - disease progression
   - patient
+  - management
+  - diagnosis
+  - prognosis
+  - outcome
+  - glaucoma
+  - macular degeneration
+  - diabetic retinopathy
+  - uveitis
+  - keratoconus
+  - keratitis
+  - dry eye disease
+  - cataract extraction
+  - retinal detachment repair
+  - wound healing
+  - scar
+  - fibrosis
+  - neuroprotection
+  - randomized
   exclusions_mesh:
   - Ophthalmologic Surgical Procedures
   - Drug Therapy
@@ -139,6 +157,14 @@ categories:
   - Keratoplasty
   - Clinical Trial
   - Case Reports
+  - Glaucoma
+  - Macular Degeneration
+  - Diabetic Retinopathy
+  - Uveitis
+  - Keratoconus
+  - Retinal Detachment
+  - Cataract
+  - Wound Healing
   sub_topics:
   - name: Outer coat
     collection: Outer coat
@@ -370,12 +396,27 @@ categories:
   - disease model
   - knockout mouse phenotype
   - iPSC disease modeling
+  - organoid disease
+  - stem cell therapy
+  - regenerative medicine
+  - neuroprotection
+  - management
+  - diagnosis
+  - prognosis
+  - outcome
+  - randomized
+  - gene therapy
+  - retinal degeneration
+  - inherited retinal
   exclusions_mesh:
   - Ophthalmologic Surgical Procedures
   - Drug Therapy
   - Clinical Trial
   - Case Reports
   - Disease Models, Animal
+  - Retinal Degeneration
+  - Gene Therapy
+  - Stem Cell Transplantation
   sub_topics:
   - name: Developmental timeline
     collection: Developmental timeline
@@ -402,7 +443,7 @@ categories:
     - VSX2 CHX10 retinal identity
     - MITF RPE specification
     - RAX eye field
-    max_results: 30
+    max_results: 20
   - name: Optic vesicle
     collection: Optic vesicle
     keywords:
@@ -430,7 +471,7 @@ categories:
     - ciliary body differentiation embryonic
     - choroid development morphogenesis
     - retinal neurogenesis wave
-    max_results: 30
+    max_results: 20
   - name: Derived structures
     collection: Derived structures
     keywords:
@@ -495,11 +536,29 @@ categories:
   - disease progression
   - mutation screening
   - genotype-phenotype
+  - management
+  - diagnosis
+  - prognosis
+  - outcome
+  - randomized
+  - neuroprotection
+  - gene therapy
+  - inherited retinal
+  - retinal dystrophy
+  - retinitis pigmentosa
+  - macular degeneration
+  - diabetic retinopathy
+  - glaucoma
   exclusions_mesh:
   - Ophthalmologic Surgical Procedures
   - Drug Therapy
   - Clinical Trial
   - Case Reports
+  - Retinitis Pigmentosa
+  - Macular Degeneration
+  - Glaucoma
+  - Diabetic Retinopathy
+  - Gene Therapy
   sub_topics:
   - name: Visual physiology
     collection: Visual physiology
@@ -661,11 +720,26 @@ categories:
   - mutation screening
   - genotype-phenotype
   - natural history
+  - management
+  - diagnosis of
+  - prognosis
+  - randomized
+  - neuroprotection
+  - gene therapy
+  - findings in
+  - changes in
+  - associated with
+  - patients with
+  - correlation with disease
   exclusions_mesh:
   - Ophthalmologic Surgical Procedures
   - Drug Therapy
   - Clinical Trial
   - Case Reports
+  - Retinitis Pigmentosa
+  - Macular Degeneration
+  - Glaucoma
+  - Diabetic Retinopathy
   sub_topics:
   - name: Visual function
     collection: Visual function
