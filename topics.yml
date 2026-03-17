@@ -369,6 +369,126 @@ categories:
     mesh_terms: [Retina, Photoreceptors, Rod cells, Cone cells, Retinal pigment epithelium, Photoreceptor outer segment, Photoreceptor
         inner segment, Macula lutea, Fovea centralis, Outer nuclear layer, Outer plexiform layer, Inner nuclear layer, Inner
         plexiform layer, Ganglion cell layer, Bruch membrane]
+  - name: Comparative anatomy
+    collection: Comparative anatomy
+    keywords:
+    # General comparative / evolution
+    - comparative ocular anatomy vertebrate
+    - eye evolution vertebrate morphology
+    - camera eye evolution convergent
+    - visual ecology eye adaptation
+    - eye size allometry scaling body size
+    - visual system evolution vertebrate invertebrate
+    # Retinal structures comparative
+    - comparative retinal morphology species
+    - retinal topography ganglion cell density comparative
+    - retinal ganglion cell types comparative diversity
+    - rod cone ratio comparative species nocturnal diurnal
+    - photoreceptor diversity comparative vertebrate
+    - fovea area centralis visual streak comparative
+    - retinal wholemount ganglion cell density species
+    # Opsins and visual pigments
+    - opsin evolution visual pigment diversity phylogeny
+    - opsin gene duplication spectral tuning evolution
+    - crystallin lens protein evolution taxon-specific
+    # Specific structures comparative
+    - tapetum lucidum comparative morphology ultrastructure
+    - pecten oculi avian eye anatomy function
+    - cornea comparative species vertebrate structure
+    - lens morphology comparative vertebrate accommodation
+    - optic nerve comparative anatomy species
+    - iris pupil shape comparative adaptation
+    - ciliary body comparative species accommodation
+    - sclera comparative species vertebrate cartilaginous
+    - extraocular muscles comparative species anatomy
+    - eyelid nictitating membrane comparative species
+    - Harderian gland comparative anatomy
+    # Mammals
+    - primate fovea comparative anatomy evolution
+    - primate color vision trichromacy evolution opsin
+    - cetacean eye anatomy adaptation aquatic
+    - bat eye retina chiroptera photoreceptor
+    - marsupial eye anatomy retina morphology
+    - monotreme eye platypus echidna retina
+    - subterranean eye reduction mole blind mole rat
+    # Birds
+    - avian eye anatomy retina morphology
+    - avian fovea visual acuity raptor
+    - bird color vision tetrachromacy oil droplet
+    - owl eye anatomy nocturnal adaptation
+    # Reptiles and amphibians
+    - reptile eye anatomy squamate retina
+    - snake eye spectacle brille morphology
+    - gecko eye photoreceptor transmutation
+    - chameleon eye accommodation independent movement
+    - turtle eye retina photoreceptor color
+    - frog eye retina amphibian anatomy
+    - salamander eye lens regeneration
+    # Fish
+    - teleost eye retina cone mosaic anatomy
+    - zebrafish retina cell types photoreceptor
+    - cichlid eye opsin adaptive radiation
+    - deep-sea fish eye adaptation tubular
+    - cave fish blind Astyanax eye regression evolution
+    - shark eye elasmobranch retina tapetum
+    - lamprey eye retina photoreceptor evolution
+    # Invertebrates
+    - cephalopod camera eye octopus squid anatomy
+    - insect compound eye ommatidium anatomy
+    - Drosophila eye rhabdomere photoreceptor morphology
+    - mantis shrimp stomatopod eye color vision polarization
+    - spider eye jumping spider retina visual acuity
+    - scallop mirror eye reflecting optics
+    - jellyfish box jellyfish cubozoan eye anatomy
+    - planarian eyespot photoreceptor regeneration
+    - amphioxus lancelet frontal eye photoreceptor
+    - trilobite eye fossil compound schizochroal
+    # Adaptations
+    - nocturnal eye adaptation anatomy mammal bird
+    - aquatic eye adaptation underwater marine
+    - deep sea eye adaptation extreme fish crustacean
+    - subterranean cave eye reduction regression vestigial
+    - UV vision ultraviolet eye transmission photoreceptor
+    - polarization vision eye insect cephalopod crustacean
+    - infrared detection pit organ snake anatomy
+    clinical_scope:
+    - comparative ocular morphology
+    - vertebrate eye evolution
+    - cross-species retinal anatomy
+    - invertebrate eye morphology
+    max_results: 50
+    exclusions_text:
+    - surgery
+    - surgical
+    - clinical trial
+    - case report
+    - case series
+    - treatment
+    - therapeutic
+    - drug delivery
+    - gene therapy
+    - neuroprotection
+    - retinitis pigmentosa
+    - macular degeneration
+    - diabetic retinopathy
+    - glaucoma
+    - disease model
+    - knockout mice
+    - patient
+    - diagnosis
+    - prognosis
+    exclusions_mesh:
+    - Ophthalmologic Surgical Procedures
+    - Drug Therapy
+    - Clinical Trial
+    - Case Reports
+    - Retinitis Pigmentosa
+    - Macular Degeneration
+    - Glaucoma
+    - Gene Therapy
+    mesh_terms: [Eye, Retina, Photoreceptors, Rod cells, Cone cells, Fovea centralis, Cornea,
+        Lens, Choroid, Optic Nerve, Tapetum Lucidum, Visual Pigments, Opsins, Vertebrates,
+        Invertebrates, Biological Evolution]
 - name: 2 - Embryology
   alias: embryology
   collection: 2 - Embryology
