@@ -1234,6 +1234,40 @@ html.dark .score-high { background: #157347; }
   let azFilter = "";
   let tuningThreshold = null;  // null = no override, number = custom threshold
 
+  // Performance: article index and caches
+  let articleIndex = {};     // "cat/sub" -> [article indices]
+  let sharedArticles = [];   // indices of articles in 2+ subcollections
+  let _filterCache = { key: null, result: [] };
+
+  function _emptyHighlightCache() {
+    return { _triggerTerm: null, triggerRe: null, keywordRe: null, keywords: null };
+  }
+  let _highlightCache = _emptyHighlightCache();
+
+  function splitField(s) {
+    return (s || "").split(",").map(function(v) { return v.trim(); }).filter(Boolean);
+  }
+
+  function buildArticleIndex() {
+    articleIndex = {};
+    sharedArticles = [];
+    const articles = data.articles || [];
+    for (let i = 0; i < articles.length; i++) {
+      const a = articles[i];
+      const cats = splitField(a.category);
+      const subs = splitField(a.subcollection);
+      const len = Math.min(cats.length, subs.length);
+      if (subs.length > 1) {
+        sharedArticles.push(i);
+      }
+      for (let pi = 0; pi < len; pi++) {
+        const key = cats[pi] + "/" + subs[pi];
+        if (!articleIndex[key]) articleIndex[key] = [];
+        articleIndex[key].push(i);
+      }
+    }
+  }
+
   // Review tab state
   let viewMode = "nearmiss";  // "nearmiss" | "review"
   let flaggedData = null;
@@ -1474,6 +1508,7 @@ html.dark .score-high { background: #157347; }
         a.title = stripHtmlTags(a.title);
         a.abstract = stripHtmlTags(a.abstract);
       });
+      buildArticleIndex();
       renderSidebar();
       renderMetaBar();
       renderRescueBar();
@@ -1520,13 +1555,12 @@ html.dark .score-high { background: #157347; }
     var counts = {};
     for (var a of flaggedData.articles) {
       if (!showDismissed && isDismissed(a)) continue;
-      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
-      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-      for (var ci = 0; ci < cats.length; ci++) {
-        for (var si = 0; si < subs.length; si++) {
-          var key = cats[ci] + "/" + subs[si];
-          counts[key] = (counts[key] || 0) + 1;
-        }
+      var cats = splitField(a.category);
+      var subs = splitField(a.subcollection);
+      var len = Math.min(cats.length, subs.length);
+      for (var pi = 0; pi < len; pi++) {
+        var key = cats[pi] + "/" + subs[pi];
+        counts[key] = (counts[key] || 0) + 1;
       }
     }
 
@@ -1641,12 +1675,17 @@ html.dark .score-high { background: #157347; }
         return (a.subcollection || "").includes(",");
       }
       if (!reviewSubcollection && !reviewCategory) return true;  // All
-      // Comma-split matching (same as near-misses getFilteredArticles)
-      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-      var cats = (a.category || "").split(",").map(function(c) { return c.trim(); });
-      if (reviewSubcollection && subs.indexOf(reviewSubcollection) === -1) return false;
-      if (reviewCategory && cats.indexOf(reviewCategory) === -1) return false;
-      return true;
+      // Positionally paired matching (Nth cat matches Nth sub)
+      var subs = splitField(a.subcollection);
+      var cats = splitField(a.category);
+      var matched = false;
+      for (var pi = 0; pi < Math.min(cats.length, subs.length); pi++) {
+        if ((!reviewCategory || cats[pi] === reviewCategory) &&
+            (!reviewSubcollection || subs[pi] === reviewSubcollection)) {
+          matched = true; break;
+        }
+      }
+      return matched;
     });
 
     // Sort
@@ -1655,8 +1694,8 @@ html.dark .score-high { background: #157347; }
       articles.sort(function(a, b) { return (parseInt(b.year) || 0) - (parseInt(a.year) || 0); });
     } else if (reviewSort === "subs_desc") {
       articles.sort(function(a, b) {
-        var bCount = (b.subcollection || "").split(",").filter(function(s) { return s.trim(); }).length;
-        var aCount = (a.subcollection || "").split(",").filter(function(s) { return s.trim(); }).length;
+        var bCount = splitField(b.subcollection).length;
+        var aCount = splitField(a.subcollection).length;
         return bCount - aCount;
       });
     } else {
@@ -1733,7 +1772,7 @@ html.dark .score-high { background: #157347; }
 
       // Sub-collections
       html += '<td class="col-subs"><div class="sub-badges">';
-      var subBadges = (a.subcollection || "").split(",").map(function(s) { return s.trim(); }).filter(Boolean);
+      var subBadges = splitField(a.subcollection);
       for (var sbi = 0; sbi < subBadges.length; sbi++) {
         html += '<span class="sub-badge sub-badge-gene">' + escapeHtml(subBadges[sbi]) + '</span>';
       }
@@ -1772,26 +1811,13 @@ html.dark .score-high { background: #157347; }
     const tree = document.getElementById("sidebarTree");
     if (!data || !data.hierarchy) { tree.innerHTML = ""; return; }
 
-    // Count articles per subcollection per reason
-    const counts = {};
-    for (const a of data.articles) {
-      const key = a.category + "/" + a.subcollection;
-      counts[key] = (counts[key] || 0) + 1;
-    }
-
-    // Count shared articles (subcollection contains a comma)
-    let sharedCount = 0;
-    for (const a of data.articles) {
-      if ((a.subcollection || "").includes(",")) sharedCount++;
-    }
-
     let html = "";
 
     // Shared near-misses entry at top of sidebar
-    if (sharedCount > 0) {
+    if (sharedArticles.length > 0) {
       html += '<div class="shared-item" id="sharedItem" role="button" tabindex="0" onclick="window.__selectShared()">';
       html += '<span>Shared Near-Misses</span>';
-      html += '<span class="count">' + sharedCount + '</span>';
+      html += '<span class="count">' + sharedArticles.length + '</span>';
       html += '</div>';
       html += '<hr class="shared-separator">';
     }
@@ -1802,7 +1828,7 @@ html.dark .score-high { background: #157347; }
       const subs = data.hierarchy[cat];
       const isGenes = cat === "6 - Genes";
       let catCount = 0;
-      for (const sub of subs) catCount += counts[cat + "/" + sub] || 0;
+      for (const sub of subs) catCount += (articleIndex[cat + "/" + sub] || []).length;
 
       html += '<div class="tree-category" data-cat="' + escapeAttr(cat) + '">';
       html += '<div class="tree-category-header" onclick="window.__toggleCat(this)">';
@@ -1823,7 +1849,7 @@ html.dark .score-high { background: #157347; }
       }
 
       for (const sub of subs) {
-        const c = counts[cat + "/" + sub] || 0;
+        const c = (articleIndex[cat + "/" + sub] || []).length;
         html += '<div class="tree-item" role="button" tabindex="0" data-sub="' + escapeAttr(sub) + '" data-cat="' + escapeAttr(cat) + '" ';
         html += 'onclick="window.__selectSub(\'' + escapeInlineHandler(cat) + "','" + escapeInlineHandler(sub) + '\')">';
         html += '<span class="name">' + escapeHtml(sub) + '</span>';
@@ -1903,6 +1929,8 @@ html.dark .score-high { background: #157347; }
     currentSubcollection = sub;
     currentPage = 1;
     tuningThreshold = null;
+    _filterCache.key = null;
+    _highlightCache = _emptyHighlightCache();
     selectedPmids.clear();
     updateSelectAllCheckbox();
     updateSelectedCount();
@@ -1924,6 +1952,8 @@ html.dark .score-high { background: #157347; }
     currentSubcollection = "__shared__";
     currentPage = 1;
     tuningThreshold = null;
+    _filterCache.key = null;
+    _highlightCache = _emptyHighlightCache();
     selectedPmids.clear();
     updateSelectAllCheckbox();
     updateSelectedCount();
@@ -2003,37 +2033,40 @@ html.dark .score-high { background: #157347; }
   };
 
   function getSubCount(a) {
-    return (a.subcollection || "").split(",").map(s => s.trim()).filter(Boolean).length;
+    return splitField(a.subcollection).length;
   }
 
   function getFilteredArticles() {
     if (!data || !currentSubcollection) return [];
 
-    let result;
+    // Return cached result if filter/sort params unchanged
+    var cacheKey = currentCategory + "|" + currentSubcollection + "|" +
+      currentReason + "|" + recurringOnly + "|" +
+      currentSort + "|" + sortColumn + "|" + sortDirection;
+    if (_filterCache.key === cacheKey) return _filterCache.result;
+
+    var result = [];
+    var articles = data.articles;
     if (currentSubcollection === "__shared__") {
-      result = data.articles.filter(a => {
-        if (getSubCount(a) <= 1) return false;
-        if (currentReason !== "all" && a.reason !== currentReason) return false;
-        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
-        return true;
-      });
+      for (var i = 0; i < sharedArticles.length; i++) {
+        var a = articles[sharedArticles[i]];
+        if (currentReason !== "all" && a.reason !== currentReason) continue;
+        if (recurringOnly && (a.seen_count || 1) <= 1) continue;
+        result.push(a);
+      }
     } else {
-      result = data.articles.filter(a => {
-        // Handle comma-separated subcollection/category from merged entries
-        const subs = (a.subcollection || "").split(",").map(s => s.trim());
-        const cats = (a.category || "").split(",").map(s => s.trim());
-        if (!subs.includes(currentSubcollection)) return false;
-        if (!cats.includes(currentCategory)) return false;
-        if (currentReason !== "all" && a.reason !== currentReason) return false;
-        if (recurringOnly && (a.seen_count || 1) <= 1) return false;
-        return true;
-      });
+      var indices = articleIndex[currentCategory + "/" + currentSubcollection] || [];
+      for (var i = 0; i < indices.length; i++) {
+        var a = articles[indices[i]];
+        if (currentReason !== "all" && a.reason !== currentReason) continue;
+        if (recurringOnly && (a.seen_count || 1) <= 1) continue;
+        result.push(a);
+      }
     }
 
     // Sort
     var dir = sortDirection === "asc" ? 1 : -1;
-    result.sort((a, b) => {
-      // Special dropdown-only sorts
+    result.sort(function(a, b) {
       if (currentSort === "shared_desc") {
         var diff = getSubCount(b) - getSubCount(a);
         return diff || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
@@ -2049,7 +2082,6 @@ html.dark .score-high { background: #157347; }
         var ratioB = (b.effective_score || 0) / (b.threshold || 1);
         return ratioB - ratioA || ((b.cited_by_count || 0) - (a.cited_by_count || 0));
       }
-      // Column-based sorting
       switch (sortColumn) {
         case "title":
           return dir * (a.title || "").localeCompare(b.title || "");
@@ -2067,6 +2099,8 @@ html.dark .score-high { background: #157347; }
           return dir * ((a.cited_by_count || 0) - (b.cited_by_count || 0));
       }
     });
+
+    _filterCache = { key: cacheKey, result: result };
     return result;
   }
 
@@ -2178,8 +2212,8 @@ html.dark .score-high { background: #157347; }
       html += "</td>";
       if (isShared) {
         html += '<td class="col-subs"><div class="sub-badges">';
-        var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-        var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
+        var subs = splitField(a.subcollection);
+        var cats = splitField(a.category);
         for (var si = 0; si < subs.length; si++) {
           var isGene = (cats[si] || "").indexOf("Genes") !== -1;
           html += '<span class="sub-badge ' + (isGene ? "sub-badge-gene" : "sub-badge-topic") + '">' + escapeHtml(subs[si]) + '</span>';
@@ -2497,11 +2531,11 @@ html.dark .score-high { background: #157347; }
     var articles;
 
     if (scoped) {
-      articles = data.articles.filter(function(a) {
-        var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-        var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
-        return subs.includes(scopeSubcollection) && cats.includes(scopeCategory);
-      });
+      var key = scopeCategory + "/" + scopeSubcollection;
+      var indices = articleIndex[key] || [];
+      var all = data.articles;
+      articles = [];
+      for (var i = 0; i < indices.length; i++) articles.push(all[indices[i]]);
     } else {
       articles = data.articles;
     }
@@ -2526,7 +2560,7 @@ html.dark .score-high { background: #157347; }
     if (!scoped) {
       var subCounts = {};
       for (var m = 0; m < articles.length; m++) {
-        var subs = (articles[m].subcollection || "").split(",").map(function(s) { return s.trim(); });
+        var subs = splitField(articles[m].subcollection);
         for (var n = 0; n < subs.length; n++) {
           if (subs[n]) subCounts[subs[n]] = (subCounts[subs[n]] || 0) + 1;
         }
@@ -2844,52 +2878,67 @@ html.dark .score-high { background: #157347; }
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
 
-  function highlightTerm(text, term) {
-    if (!text || !term) return escapeHtml(text);
+  function _getTriggerRe(term) {
+    if (_highlightCache._triggerTerm === term && _highlightCache.triggerRe) {
+      return _highlightCache.triggerRe;
+    }
+    if (!term) return null;
     var escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     var re = new RegExp("(\\b" + escaped + "\\b)", "gi");
+    _highlightCache._triggerTerm = term;
+    _highlightCache.triggerRe = re;
+    return re;
+  }
+
+  function _getKeywordRe(keywords) {
+    if (_highlightCache.keywords === keywords && _highlightCache.keywordRe) {
+      return _highlightCache.keywordRe;
+    }
+    if (!keywords || !keywords.length) return null;
+    var sorted = keywords.slice().sort(function(a, b) { return b.length - a.length; });
+    var escaped = sorted.map(function(k) { return k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); });
+    var re = new RegExp("(\\b(?:" + escaped.join("|") + ")\\b)", "gi");
+    _highlightCache.keywords = keywords;
+    _highlightCache.keywordRe = re;
+    return re;
+  }
+
+  function _applyRe(text, re, cssClass) {
+    re.lastIndex = 0;
     var parts = text.split(re);
     var out = "";
     for (var i = 0; i < parts.length; i++) {
+      re.lastIndex = 0;
       if (re.test(parts[i])) {
-        out += '<span class="trigger-mark">' + escapeHtml(parts[i]) + '</span>';
+        out += '<span class="' + cssClass + '">' + escapeHtml(parts[i]) + '</span>';
       } else {
         out += escapeHtml(parts[i]);
       }
       re.lastIndex = 0;
     }
     return out;
+  }
+
+  function highlightTerm(text, term) {
+    if (!text || !term) return escapeHtml(text);
+    return _applyRe(text, _getTriggerRe(term), "trigger-mark");
   }
 
   function highlightKeywords(text, keywords) {
     if (!text || !keywords || !keywords.length) return escapeHtml(text);
-    // Sort longest-first to prevent partial matches
-    var sorted = keywords.slice().sort(function(a, b) { return b.length - a.length; });
-    var escaped = sorted.map(function(k) { return k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); });
-    var re = new RegExp("(\\b(?:" + escaped.join("|") + ")\\b)", "gi");
-    var parts = text.split(re);
-    var out = "";
-    for (var i = 0; i < parts.length; i++) {
-      if (re.test(parts[i])) {
-        out += '<span class="keyword-mark">' + escapeHtml(parts[i]) + '</span>';
-      } else {
-        out += escapeHtml(parts[i]);
-      }
-      re.lastIndex = 0;
-    }
-    return out;
+    return _applyRe(text, _getKeywordRe(keywords), "keyword-mark");
   }
 
   function highlightAll(text, triggerTerm, keywords) {
-    // Apply trigger highlight first (visual precedence), then keyword highlight on remaining segments
     if (!text) return "";
     if (!triggerTerm) return highlightKeywords(text, keywords);
     if (!keywords || !keywords.length) return highlightTerm(text, triggerTerm);
-    var escaped = triggerTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    var re = new RegExp("(\\b" + escaped + "\\b)", "gi");
+    var re = _getTriggerRe(triggerTerm);
+    re.lastIndex = 0;
     var parts = text.split(re);
     var out = "";
     for (var i = 0; i < parts.length; i++) {
+      re.lastIndex = 0;
       if (re.test(parts[i])) {
         out += '<span class="trigger-mark">' + escapeHtml(parts[i]) + '</span>';
       } else {
@@ -2917,16 +2966,15 @@ html.dark .score-high { background: #157347; }
 
   function getSubcollectionThreshold() {
     if (!data || !currentSubcollection) return null;
-    // Find the most common threshold among score_below_threshold articles in this subcollection
+    var key = currentCategory + "/" + currentSubcollection;
+    var indices = articleIndex[key] || [];
+    var all = data.articles;
     var thresholds = {};
     var maxCount = 0;
     var bestThreshold = null;
-    for (var i = 0; i < data.articles.length; i++) {
-      var a = data.articles[i];
+    for (var i = 0; i < indices.length; i++) {
+      var a = all[indices[i]];
       if (a.reason !== "score_below_threshold") continue;
-      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
-      if (!subs.includes(currentSubcollection) || !cats.includes(currentCategory)) continue;
       if (a.threshold == null) continue;
       var t = a.threshold;
       thresholds[t] = (thresholds[t] || 0) + 1;
@@ -2940,12 +2988,15 @@ html.dark .score-high { background: #157347; }
 
   function getScoreArticlesForSubcollection() {
     if (!data || !currentSubcollection) return [];
-    return data.articles.filter(function(a) {
-      if (a.reason !== "score_below_threshold") return false;
-      var subs = (a.subcollection || "").split(",").map(function(s) { return s.trim(); });
-      var cats = (a.category || "").split(",").map(function(s) { return s.trim(); });
-      return subs.includes(currentSubcollection) && cats.includes(currentCategory);
-    });
+    var key = currentCategory + "/" + currentSubcollection;
+    var indices = articleIndex[key] || [];
+    var all = data.articles;
+    var result = [];
+    for (var i = 0; i < indices.length; i++) {
+      var a = all[indices[i]];
+      if (a.reason === "score_below_threshold") result.push(a);
+    }
+    return result;
   }
 
   function renderTuningPanel() {
