@@ -52,6 +52,26 @@ default_exclusions_text:
 - respiratory
 - pulmonary
 - surfactant
+# Animal pigmentation (coat/feather/plumage) - noise across DCT, SLC24A5, SLC45A2, TYR, TYRP1
+- coat color
+- coat colour
+- plumage
+- feather pigment
+- feather color
+- feather colour
+- fur pigment
+# Animal breeding genetics
+- cashmere goat
+- quail
+- livestock
+# Plant biology
+- arabidopsis
+- soybean
+- sugarcane
+- nicotiana
+# Geoscience / environmental
+- soil contamination
+- groundwater
 default_exclusions_mesh:
 - Neoplasms
 - Carcinoma
@@ -116,6 +136,12 @@ genes:
   exclude_text:
   - alpha-secretase
   - tnf-converting enzyme
+  - endothelial transmigration
+  - calvarial osteogenesis
+  - amyloid precursor
+  - substance P
+  - encephalomyocarditis
+  - innate immunity
 - symbol: ADAMTSL4
   collection: ADAMTSL4
   tags:
@@ -132,10 +158,21 @@ genes:
   - seizure
   - epilepsy
   - febrile
+  - myelin
+  - bone mineral density
+  - cochlear
+  - auditory
+  - hair cell
 - symbol: AGK
   collection: AGK
   tags:
   - congenital-cataract
+  exclude_text:
+  - sengers syndrome
+  - cardiomyopathy
+  - T cell
+  - thrombosis
+  - mitochondrial protein transport
 - symbol: AIPL1
   collection: AIPL1
   tags:
@@ -204,6 +241,23 @@ genes:
   tags:
   - achromatopsia
   - retinal-dystrophy
+  exclude_text:
+  - hepatitis
+  - liver fibrosis
+  - dengue
+  - zika
+  - west nile
+  - cystic fibrosis
+  - spinal cord
+  - cerebral ischemia
+  - hibernation
+  - osteocalcin
+  - multiple sclerosis
+  - antitrypsin
+  - chondrocyte
+  - cardiac
+  - heart failure
+  - pituitary
 - symbol: B3GLCT
   collection: B3GLCT
   tags:
@@ -240,6 +294,11 @@ genes:
   - congenital-cataract
   - microphthalmia
   - structural-eye-disease
+  exclude_text:
+  - trophoblast
+  - mesenchymal stem
+  - periodontal
+  - extraembryonic
 - symbol: BEST1
   collection: BEST1
   tags:
@@ -305,6 +364,14 @@ genes:
   tags:
   - ciliopathy
   - usher-syndrome
+  exclude_text:
+  - noise-induced hearing
+  - sensorineural hearing loss
+  - cochlear
+  - auditory
+  - vestibular
+  - hair cell
+  - pituitary adenoma
 - symbol: CDHR1
   collection: CDHR1
   tags:
@@ -345,6 +412,12 @@ genes:
   tags:
   - ciliopathy
   - usher-syndrome
+  exclude_text:
+  - cochlear
+  - auditory
+  - hair cell
+  - mechanotransduction
+  - HIV
 - symbol: CLRN1
   collection: CLRN1
   tags:
@@ -373,6 +446,13 @@ genes:
   tags:
   - stickler-syndrome
   - vitreoretinopathy
+  exclude_text:
+  - cochlear
+  - auditory
+  - fibrochondrogenesis
+  - malocclusion
+  - chondrocyte
+  - bone mineralization
 - symbol: COL18A1
   collection: COL18A1
   tags:
@@ -384,6 +464,17 @@ genes:
   - retinal-detachment
   - stickler-syndrome
   - vitreoretinopathy
+  exclude_text:
+  - spondyloepiphyseal
+  - achondrogenesis
+  - chondrodysplasia
+  - avascular necrosis
+  - femoral head
+  - platyspondylic
+  - endochondral
+  - cartilage
+  - skeletal dysplasia
+  - hip dysplasia
 - symbol: COL4A1
   collection: COL4A1
   tags:
@@ -391,6 +482,12 @@ genes:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  exclude_text:
+  - porencephaly
+  - cerebral hemorrhage
+  - intracranial hemorrhage
+  - stroke
+  - cerebral small vessel
 - symbol: COL8A2
   collection: COL8A2
   tags:
@@ -401,6 +498,13 @@ genes:
   tags:
   - stickler-syndrome
   - vitreoretinopathy
+  exclude_text:
+  - intervertebral
+  - osteoarthritis
+  - kashin-beck
+  - clubfoot
+  - epiphyseal dysplasia
+  - cartilage
 - symbol: CRB1
   collection: CRB1
   tags:
@@ -495,10 +599,19 @@ genes:
   - periodontal
   - insulin
   - angiogenesis
+  - proteoglycan binding
+  - collagen binding
+  - stromal wound
 - symbol: DCT
   collection: DCT
   tags:
   - albinism
+  exclude_text:
+  - melanogenesis
+  - melanocyte
+  - DOPAchrome
+  - skin pigment
+  - melanin synthesis
 - symbol: DHDDS
   collection: DHDDS
   tags:
@@ -514,6 +627,10 @@ genes:
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  exclude_text:
+  - tuberculosis
+  - mycobacterium
+  - traumatic brain
 - symbol: ELOVL4
   collection: ELOVL4
   tags:
@@ -528,11 +645,23 @@ genes:
   collection: EPHA2
   tags:
   - congenital-cataract
+  exclude_text:
+  - cell migration
+  - receptor clustering
+  - SAM domain
+  - integrin
 - symbol: ESPN
   collection: ESPN
   tags:
   - ciliopathy
   - usher-syndrome
+  exclude_text:
+  - sertoli cell
+  - ectoplasmic specialization
+  - epididym
+  - microvilli
+  - purkinje cell
+  - actin bundling
 - symbol: EYS
   collection: EYS
   tags:
@@ -559,6 +688,12 @@ genes:
   tags:
   - anterior-segment-dysgenesis
   - axenfeld-rieger
+  exclude_text:
+  - osteoblast
+  - endochondral
+  - somitogenesis
+  - vascular smooth muscle
+  - diaphragm
 - symbol: FOXE3
   collection: FOXE3
   tags:
@@ -631,6 +766,14 @@ genes:
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  exclude_text:
+  - hypertension
+  - syncope
+  - coronary
+  - sildenafil
+  - erectile
+  - nicotine dependence
+  - mood disorder
 - symbol: GPR143
   collection: GPR143
   tags:
@@ -645,6 +788,16 @@ genes:
   collection: GRHL2
   tags:
   - corneal-dystrophy
+  exclude_text:
+  - cochlear
+  - auditory
+  - hearing loss
+  - lung morphogenesis
+  - mammary
+  - keratinocyte
+  - salivary gland
+  - neural tube
+  - pituitary
 - symbol: GRIP1
   collection: GRIP1
   tags:
@@ -707,6 +860,10 @@ genes:
   collection: HSF4
   tags:
   - congenital-cataract
+  exclude_text:
+  - heat shock response
+  - Hsf2
+  - HIF-1
 - symbol: IDH3A
   collection: IDH3A
   tags:
@@ -985,11 +1142,31 @@ genes:
   - axenfeld-rieger
   - corneal-disease
   - dermoid
+  exclude_text:
+  - atrial fibrillation
+  - arrhythmia
+  - cardiac
+  - gut morphogenesis
+  - intestinal
+  - cecal
+  - dental
+  - tooth
+  - amelogenin
+  - gonad
+  - hematopoietic
+  - myoblast
+  - skeletal muscle
 - symbol: PITX3
   collection: PITX3
   tags:
   - anterior-segment-dysgenesis
   - congenital-cataract
+  exclude_text:
+  - dopamine
+  - nigrostriatal
+  - locomotor
+  - psychostimulant
+  - dyskinesia
 - symbol: PLK4
   collection: PLK4
   tags:
@@ -1222,6 +1399,11 @@ genes:
   collection: SLC24A5
   tags:
   - albinism
+  exclude_text:
+  - skin pigment
+  - skin color
+  - skin colour
+  - population genetics
 - symbol: SLC38A8
   collection: SLC38A8
   tags:
@@ -1230,6 +1412,11 @@ genes:
   collection: SLC45A2
   tags:
   - albinism
+  exclude_text:
+  - skin pigment
+  - skin color
+  - skin colour
+  - population genetics
 - symbol: SLC4A11
   collection: SLC4A11
   tags:
@@ -1392,6 +1579,13 @@ genes:
   tags:
   - ciliopathy
   - usher-syndrome
+  exclude_text:
+  - cochlear
+  - auditory
+  - hearing loss
+  - proprioceptor
+  - vestibular
+  - myelinated axon
 - symbol: YAP1
   collection: YAP1
   tags:
@@ -1402,6 +1596,15 @@ genes:
   tags:
   - corneal-dystrophy
   - fuchs
+  exclude_text:
+  - skeletal muscle
+  - endometriosis
+  - mammary
+  - T-cell
+  - CD4
+  - immunoglobulin
+  - myogenesis
+  - palate
 - symbol: ZNF408
   collection: ZNF408
   tags:
