@@ -1,6 +1,666 @@
 {
- "generated_at": "2026-03-26T07:49:57Z",
+ "generated_at": "2026-03-27T07:54:47Z",
  "additions": [
+  {
+   "pmid": "35460761",
+   "doi": "10.1016/j.dci.2022.104427",
+   "title": "MAPK/MAK/MRK overlapping kinase mediated apoptosis through caspase signaling pathway from Cristaria plicata",
+   "year": "2022",
+   "subcollection": "MAK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:29:53Z"
+  },
+  {
+   "pmid": "8570168",
+   "doi": "",
+   "title": "Molecular cloning of a novel serine/threonine kinase, MRK, possibly involved in cardiac development.",
+   "year": "1995",
+   "subcollection": "MAK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:29:53Z"
+  },
+  {
+   "pmid": "8952953",
+   "doi": "10.1007/s002329900148",
+   "title": "Properties of Chicken Lens MIP Channels Reconstituted into Planar Lipid Bilayers",
+   "year": "1996",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "118041",
+   "doi": "10.1016/0014-4835(79)90009-5",
+   "title": "Lens membranes VII. MIP is an immunologically specific component of lens fiber membranes and is identical with 26K band protein",
+   "year": "1979",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "6299583",
+   "doi": "10.1016/0092-8674(83)90081-8",
+   "title": "Differences between liver gap junction protein and lens MIP 26 from rat: Implications for tissue specificity of gap junctions",
+   "year": "1983",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "7542238",
+   "doi": "10.1074/jbc.270.29.17414",
+   "title": "Structural Analysis of a MIP Family Protein from the Digestive Tract of Cicadella viridis",
+   "year": "1995",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "8856044",
+   "doi": "10.1016/0005-2760(96)00089-6",
+   "title": "Lipid differentiation in MP26 junction enriched membranes of bovine lens fiber cells",
+   "year": "1996",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "2541249",
+   "doi": "10.1007/bf01871720",
+   "title": "Phosphorylation of MP26, a lens junction protein, is enhanced by activators of protein kinase C",
+   "year": "1989",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "38963984",
+   "doi": "10.1016/j.bbrc.2024.150320",
+   "title": "Aquaporin-0-protein interactions elucidated by crosslinking mass spectrometry",
+   "year": "2024",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "7729414",
+   "doi": "10.1002/j.1460-2075.1995.tb07122.x",
+   "title": "Fps1, a yeast member of the MIP family of channel proteins, is a facilitator for glycerol uptake and efflux and is inactive under osmotic stress.",
+   "year": "1995",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "9252401",
+   "doi": "10.1074/jbc.272.33.20782",
+   "title": "Cloning and Functional Expression of a New Water Channel Abundantly Expressed in the Testis Permeable to Water, Glycerol, and Urea",
+   "year": "1997",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "10637642",
+   "doi": "10.1016/s0966-842x(99)01645-5",
+   "title": "Microbial MIP channels",
+   "year": "2000",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "7526388",
+   "doi": "10.1073/pnas.91.23.10997",
+   "title": "Cloning and expression of AQP3, a water channel from the medullary collecting duct of rat kidney.",
+   "year": "1994",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "10419471",
+   "doi": "10.1074/jbc.274.31.21631",
+   "title": "Transport of Water and Glycerol in Aquaporin 3 Is Gated by H+",
+   "year": "1999",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "2065732",
+   "doi": "10.1016/0014-4835(91)90066-n",
+   "title": "MP26, a protein of intercellular junctions in the bovine lens: Electrophoretic and chromatographic characterization",
+   "year": "1991",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "3371069",
+   "doi": "10.3109/02713688808995750",
+   "title": "MP17, a fiber-specific intrinsic membrane protein from mammalian eye lens",
+   "year": "1988",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "3907984",
+   "doi": "10.3109/02713688509003363",
+   "title": "Lens junctional protein: Analyzing MP26 with monoclonal antibodies",
+   "year": "1985",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "2373168",
+   "doi": "10.1016/0014-4835(90)90123-c",
+   "title": "Partial amino acid sequence of the major intrinsic protein (MIP) of the chicken lens deduced from the nucleotide sequence of a cDNA clone",
+   "year": "1990",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "3030671",
+   "doi": "10.1002/9780470513408.ch7",
+   "title": "Sequence Diversity of Gap Junction Proteins",
+   "year": "2007",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "20147624",
+   "doi": "10.1073/pnas.0910632107",
+   "title": "Electrostatics of aquaporin and aquaglyceroporin channels correlates with their transport selectivity",
+   "year": "2010",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "8536718",
+   "doi": "10.1111/j.1432-1033.1995.670_b.x",
+   "title": "Characterization of the Ovine‐Lens Plasma‐Membrane Protein‐Kinase Substrates",
+   "year": "1995",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:31:26Z"
+  },
+  {
+   "pmid": "15221449",
+   "doi": "10.1007/s00439-004-1137-3",
+   "title": "Identification and molecular modelling of a mutation in the motor head domain of myosin VIIA in a family with autosomal dominant hearing impairment (DFNA11)",
+   "year": "2004",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "9171832",
+   "doi": "10.1038/ng0697-188",
+   "title": "Mutations in the myosin VIIA gene cause non-syndromic recessive deafness",
+   "year": "1997",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "9680294",
+   "doi": "10.1046/j.1365-4624.1997.00020.x",
+   "title": "Mutation analysis of the mouse myosin VIIA deafness gene",
+   "year": "1997",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "9354784",
+   "doi": "10.1038/ng1197-268",
+   "title": "Autosomal dominant non-syndromic deafness caused by a mutation in the myosin VIIA gene",
+   "year": "1997",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "21687988",
+   "doi": "10.1007/s00018-011-0749-8",
+   "title": "Functional characterization of the human myosin-7a motor domain",
+   "year": "2011",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "11753415",
+   "doi": "10.1038/nn784",
+   "title": "Reduced climbing and increased slipping adaptation in cochlear hair cells of mice with Myo7a mutations",
+   "year": "2001",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "29167268",
+   "doi": "10.1074/jbc.m117.810119",
+   "title": "The shaker-1 mouse myosin VIIa deafness mutation results in a severely reduced rate of the ATP hydrolysis step",
+   "year": "2017",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "16415346",
+   "doi": "10.1074/jbc.m511592200",
+   "title": "Drosophila Myosin VIIA Is a High Duty Ratio Motor with a Unique Kinetic Mechanism",
+   "year": "2006",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "16449806",
+   "doi": "10.1159/000091199",
+   "title": "Identification of a Novel Mutation in the Myosin VIIA Motor Domain in a Family with Autosomal Dominant Hearing Loss (DFNA11)",
+   "year": "2006",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "9391006",
+   "doi": "",
+   "title": "Myosin VIIA is required for aminoglycoside accumulation in cochlear hair cells.",
+   "year": "1997",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "41359246",
+   "doi": "10.1007/s13258-025-01716-w",
+   "title": "A novel duplication mutation in the MYO7A gene associated with autosomal recessive hearing loss in a Chinese family",
+   "year": "2025",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "21031134",
+   "doi": "",
+   "title": "Reinforcement of a minor alternative splicing event in MYO7A due to a missense mutation results in a mild form of retinopathy and deafness.",
+   "year": "2010",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "15090598",
+   "doi": "10.1242/jcs.01066",
+   "title": "Unconventional myosin VIIa and vezatin, two proteins crucial for Listeria entry into epithelial cells",
+   "year": "2004",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "40569347",
+   "doi": "10.1007/s13258-025-01653-8",
+   "title": "NGS-based identification of a MYO7A mutation in a Korean family with DFNB2, a subtype of autosomal recessive non-syndromic hearing loss",
+   "year": "2025",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "17451552",
+   "doi": "10.1111/j.1600-0854.2007.00548.x",
+   "title": "The Ternary Rab27a–Myrip–Myosin VIIa Complex Regulates Melanosome Motility in the Retinal Pigment Epithelium",
+   "year": "2007",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "12471897",
+   "doi": "10.1042/bse0350159",
+   "title": "The roles of unconventional myosins in hearing and deafness",
+   "year": "2000",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "26968074",
+   "doi": "10.1016/j.ijporl.2016.01.001",
+   "title": "Novel compound heterozygous mutations in MYO7A gene associated with autosomal recessive sensorineural hearing loss in a Chinese family",
+   "year": "2016",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "10447383",
+   "doi": "10.1002/(sici)1098-1004(1999)14:2<181::aid-humu11>3.0.co;2-3",
+   "title": "Identification of three novel mutations in the MYO7A gene",
+   "year": "1999",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "7951250",
+   "doi": "10.1093/hmg/3.6.989",
+   "title": "A human gene responsible for neurosensory, non-syndromic recessive deafness is a candidate homologue of the mouse sh-1 gene",
+   "year": "1994",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:33:40Z"
+  },
+  {
+   "pmid": "39423611",
+   "doi": "10.1016/j.visres.2024.108502",
+   "title": "Gene therapy for glaucoma: Targeting key mechanisms",
+   "year": "2024",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "17562996",
+   "doi": "10.1001/archopht.125.6.823",
+   "title": "Myocilin Variants in Indian Patients With Open-angle Glaucoma",
+   "year": "2007",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "20021252",
+   "doi": "10.3109/02713680903374182",
+   "title": "Variable Clinical Spectrum of the Myocilin Gln368X Mutation in a Dutch Family with Primary Open Angle Glaucoma",
+   "year": "2009",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "24768183",
+   "doi": "10.1016/j.gene.2014.04.033",
+   "title": "Identification of a novel MYOC mutation, p.(Trp373*), in a family with open angle glaucoma",
+   "year": "2014",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "12454038",
+   "doi": "",
+   "title": "cDNA microarray analysis of gene expression changes induced by dexamethasone in cultured human trabecular meshwork cells.",
+   "year": "2002",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "28153738",
+   "doi": "10.1016/j.exer.2017.01.006",
+   "title": "Myocilin expression is regulated by retinoic acid in the trabecular meshwork-derived cellular environment",
+   "year": "2017",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:36:26Z"
+  },
+  {
+   "pmid": "41862006",
+   "doi": "10.1016/j.survophthal.2026.03.013",
+   "title": "Therapeutic potential of norrin/FZD4/β-catenin signaling in blood-retinal barrier protection.",
+   "year": "2026",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:38:36Z"
+  },
+  {
+   "pmid": "33588793",
+   "doi": "10.1186/s12886-021-01852-3",
+   "title": "Novel Norrie disease gene mutations in Chinese patients with familial exudative vitreoretinopathy",
+   "year": "2021",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:38:36Z"
+  },
+  {
+   "pmid": "40777295",
+   "doi": "10.1101/2025.07.22.666172",
+   "title": "C1q limits cystoid edema by maintaining basal beta-catenin-dependent signaling and blood-retina barrier function",
+   "year": "2025",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:38:36Z"
+  },
+  {
+   "pmid": "41086024",
+   "doi": "10.1172/jci.insight.190227",
+   "title": "C1q limits cystoid edema by maintaining basal β-catenin–dependent signaling and blood-retina barrier function",
+   "year": "2025",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:38:36Z"
+  },
+  {
+   "pmid": "24305999",
+   "doi": "10.1093/hmg/ddt611",
+   "title": "ITGB6 loss-of-function mutations cause autosomal recessive amelogenesis imperfecta",
+   "year": "2013",
+   "subcollection": "NHS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:39:31Z"
+  },
+  {
+   "pmid": "23082226",
+   "doi": "10.1371/journal.pone.0047869",
+   "title": "Nicotinamide Mononucleotide Adenylyltransferase 2 (Nmnat2) Regulates Axon Integrity in the Mouse Embryo",
+   "year": "2012",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "24787896",
+   "doi": "10.1016/j.nbd.2014.04.013",
+   "title": "Axonal transport plays a crucial role in mediating the axon-protective effects of NmNAT",
+   "year": "2014",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "21596138",
+   "doi": "10.1016/j.mcn.2011.05.002",
+   "title": "Nmnat exerts neuroprotective effects in dendrites and axons",
+   "year": "2011",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "25818290",
+   "doi": "10.1016/j.celrep.2015.02.060",
+   "title": "Absence of SARM1 Rescues Development and Survival of NMNAT2-Deficient Axons",
+   "year": "2015",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "17207927",
+   "doi": "10.1016/j.neulet.2006.11.067",
+   "title": "Identification of a critical site in Wlds: Essential for Nmnat enzyme activity and axon-protective function",
+   "year": "2006",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "26876181",
+   "doi": "10.1016/j.celrep.2016.01.050",
+   "title": "The Apoptotic Engulfment Machinery Regulates Axonal Degeneration in C. elegans Neurons",
+   "year": "2016",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "11788603",
+   "doi": "",
+   "title": "Structure of human nicotinamide/nicotinic acid mononucleotide adenylyltransferase. Basis for the dual substrate specificity and activation of the oncolytic agent tiazofurin.",
+   "year": "2002",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "27923046",
+   "doi": "10.1371/journal.pgen.1006503",
+   "title": "Mitochondria and Caspases Tune Nmnat-Mediated Stabilization to Promote Axon Regeneration",
+   "year": "2016",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "22334709",
+   "doi": "10.1074/jbc.m111.304469",
+   "title": "Regulation of Poly(ADP-ribose) Polymerase-1-dependent Gene Expression through Promoter-directed Recruitment of a Nuclear NAD+ Synthase",
+   "year": "2012",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "30461420",
+   "doi": "10.7554/elife.39756",
+   "title": "Expanded genetic screening in Caenorhabditis elegans identifies new regulators and an inhibitory role for NAD+ in axon regeneration",
+   "year": "2018",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "39824831",
+   "doi": "10.1038/s41419-024-07326-w",
+   "title": "Programmed neurite degeneration in human central nervous system neurons driven by changes in NAD+ metabolism",
+   "year": "2025",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:40:47Z"
+  },
+  {
+   "pmid": "34343570",
+   "doi": "10.1016/j.exer.2021.108715",
+   "title": "Characterization and allogeneic transplantation of a novel transgenic cone-rich donor mouse line",
+   "year": "2021",
+   "subcollection": "NRL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:43:06Z"
+  },
+  {
+   "pmid": "40767624",
+   "doi": "10.7554/elife.101918",
+   "title": "Identification and characterization of early human photoreceptor states and cell-state-specific retinoblastoma-related features",
+   "year": "2024",
+   "subcollection": "NRL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:43:06Z"
+  },
+  {
+   "pmid": "17251447",
+   "doi": "10.1167/iovs.06-0652",
+   "title": "RPE65 Is Essential for the Function of Cone Photoreceptors in NRL-Deficient Mice",
+   "year": "2007",
+   "subcollection": "NRL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:43:06Z"
+  },
+  {
+   "pmid": "38915659",
+   "doi": "10.1101/2023.02.28.530247",
+   "title": "Identification and characterization of early human photoreceptor states and cell-state-specific retinoblastoma-related features",
+   "year": "2023",
+   "subcollection": "NRL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-27T07:43:06Z"
+  },
   {
    "pmid": "38718796",
    "doi": "10.1016/j.stem.2024.04.014",
@@ -24552,16 +25212,6 @@
    "uploaded_at": "2026-03-05T07:16:33Z"
   },
   {
-   "pmid": "21031134",
-   "doi": "",
-   "title": "Reinforcement of a minor alternative splicing event in MYO7A due to a missense mutation results in a mild form of retinopathy and deafness.",
-   "year": "2010",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T07:16:33Z"
-  },
-  {
    "pmid": "33248112",
    "doi": "10.1016/j.ydbio.2020.11.007",
    "title": "Mutations in Drosophila crinkled/Myosin VIIA disrupt denticle morphogenesis",
@@ -24802,16 +25452,6 @@
    "uploaded_at": "2026-03-05T07:16:33Z"
   },
   {
-   "pmid": "12471897",
-   "doi": "10.1042/bse0350159",
-   "title": "The roles of unconventional myosins in hearing and deafness",
-   "year": "2000",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T07:16:33Z"
-  },
-  {
    "pmid": "11889386",
    "doi": "10.1097/00005537-200202000-00017",
    "title": "Phenotype of DFNA11: A Nonsyndromic Hearing Loss Caused by a Myosin VIIA Mutation",
@@ -24882,16 +25522,6 @@
    "uploaded_at": "2026-03-05T07:16:33Z"
   },
   {
-   "pmid": "26968074",
-   "doi": "10.1016/j.ijporl.2016.01.001",
-   "title": "Novel compound heterozygous mutations in MYO7A gene associated with autosomal recessive sensorineural hearing loss in a Chinese family",
-   "year": "2016",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T07:16:33Z"
-  },
-  {
    "pmid": "23383098",
    "doi": "10.1371/journal.pone.0055178",
    "title": "Identification and Functional Study of a New Missense Mutation in the Motor Head Domain of Myosin VIIA in a Family with Autosomal Dominant Hearing Impairment (DFNA11)",
@@ -24945,16 +25575,6 @@
    "pmid": "15083529",
    "doi": "10.1002/cm.10179",
    "title": "Actin‐dependent motility of melanosomes from fish retinal pigment epithelial (RPE) cells investigated using in vitro motility assays",
-   "year": "2004",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T07:16:33Z"
-  },
-  {
-   "pmid": "15090598",
-   "doi": "10.1242/jcs.01066",
-   "title": "Unconventional myosin VIIa and vezatin, two proteins crucial for <i>Listeria</i> entry into epithelial cells",
    "year": "2004",
    "subcollection": "MYO7A",
    "category": "6 - Genes",
@@ -27236,16 +27856,6 @@
    "doi": "10.1002/jnr.22498",
    "title": "Overexpression of Wld<sup>s</sup> or Nmnat2 in mauthner cells by single‐cell electroporation delays axon degeneration in live zebrafish",
    "year": "2010",
-   "subcollection": "NMNAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T07:58:54Z"
-  },
-  {
-   "pmid": "24787896",
-   "doi": "10.1016/j.nbd.2014.04.013",
-   "title": "Axonal transport plays a crucial role in mediating the axon-protective effects of NmNAT",
-   "year": "2014",
    "subcollection": "NMNAT1",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -33952,16 +34562,6 @@
    "uploaded_at": "2026-03-02T13:35:58Z"
   },
   {
-   "pmid": "9680294",
-   "doi": "10.1046/j.1365-4624.1997.00020.x",
-   "title": "Mutation analysis of the mouse myosin VIIA deafness gene",
-   "year": "1997",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:35:58Z"
-  },
-  {
    "pmid": "8900236",
    "doi": "",
    "title": "Myosin VIIA mutation screening in 189 Usher syndrome type 1 patients.",
@@ -34002,30 +34602,10 @@
    "uploaded_at": "2026-03-02T13:35:58Z"
   },
   {
-   "pmid": "9391006",
-   "doi": "",
-   "title": "Myosin VIIA is required for aminoglycoside accumulation in cochlear hair cells.",
-   "year": "1997",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:35:58Z"
-  },
-  {
    "pmid": "10958658",
    "doi": "10.1093/hmg/9.14.2189",
    "title": "Mariner is defective in myosin VIIA: a zebrafish model for human hereditary deafness",
    "year": "2000",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:35:58Z"
-  },
-  {
-   "pmid": "7951250",
-   "doi": "10.1093/hmg/3.6.989",
-   "title": "A human gene responsible for neurosensory, non-syndromic recessive deafness is a candidate homologue of the mouse <i>sh-1</i> gene",
-   "year": "1994",
    "subcollection": "MYO7A",
    "category": "6 - Genes",
    "source": "source:citation",
