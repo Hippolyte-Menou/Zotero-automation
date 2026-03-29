@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-22T04:37:29Z",
+  "generated_at": "2026-03-29T04:52:59Z",
   "threshold_k": 0,
-  "total_evaluated": 16717,
-  "total_flagged": 397,
+  "total_evaluated": 16981,
+  "total_flagged": 417,
   "total_dismissed": 0,
-  "total_unresolvable": 491,
+  "total_unresolvable": 490,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -1666,28 +1666,6 @@
       "subcollection": "Corneal dystrophy, lattice"
     },
     {
-      "pmid": "15429913",
-      "doi": "",
-      "zotero_key": "7RADD63M",
-      "title": "[Megalocornea-cataract].",
-      "authors": [
-        [
-          "TA",
-          "VOS"
-        ]
-      ],
-      "journal": "Nederlands tijdschrift voor geneeskunde",
-      "year": "1950",
-      "abstract": "",
-      "cited_by_count": 1,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Megalocornea"
-    },
-    {
       "pmid": "21137185",
       "doi": "",
       "zotero_key": "NEZIBZCH",
@@ -1890,28 +1868,6 @@
       "subcollection": "Night blindness, congenital stationary"
     },
     {
-      "pmid": "11032012",
-      "doi": "",
-      "zotero_key": "5TA6RD2W",
-      "title": "[Norrie disease].",
-      "authors": [
-        [
-          "N",
-          "Okamoto"
-        ]
-      ],
-      "journal": "Ryoikibetsu shokogun shirizu",
-      "year": "2000",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Norrie disease"
-    },
-    {
       "pmid": "11528763",
       "doi": "",
       "zotero_key": "UTW28HVR",
@@ -1924,6 +1880,28 @@
       ],
       "journal": "Ryoikibetsu shokogun shirizu",
       "year": "2001",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Norrie disease"
+    },
+    {
+      "pmid": "11032012",
+      "doi": "",
+      "zotero_key": "5TA6RD2W",
+      "title": "[Norrie disease].",
+      "authors": [
+        [
+          "N",
+          "Okamoto"
+        ]
+      ],
+      "journal": "Ryoikibetsu shokogun shirizu",
+      "year": "2000",
       "abstract": "",
       "cited_by_count": 0,
       "centrality": 0,
@@ -3096,6 +3074,40 @@
       "subcollection": "Peters anomaly"
     },
     {
+      "pmid": "41865098",
+      "doi": "10.1007/s00467-026-07268-9",
+      "zotero_key": "DTJNW2CX",
+      "title": "A pediatric case of C3 glomerulonephritis initially misclassified as IgA nephropathy with a favorable response to C3-targeted therapy",
+      "authors": [
+        [
+          "Laura",
+          "Alconcher"
+        ],
+        [
+          "Analía Sánchez",
+          "Lucero"
+        ],
+        [
+          "Celia Dos",
+          "Santos"
+        ],
+        [
+          "María Fernanda",
+          "Toniolo"
+        ]
+      ],
+      "journal": "Pediatric Nephrology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41218194",
       "doi": "10.1097/iae.0000000000004727",
       "zotero_key": "B86FVWSW",
@@ -3408,28 +3420,6 @@
       "subcollection": "Syndromic albinism"
     },
     {
-      "pmid": "108645",
-      "doi": "10.1159/000308802",
-      "zotero_key": "6IR4F4UB",
-      "title": "Albinism.",
-      "authors": [
-        [
-          "J",
-          "François"
-        ]
-      ],
-      "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
-      "year": "1979",
-      "abstract": "",
-      "cited_by_count": 7,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Albinism, ocular"
-    },
-    {
       "pmid": "2020024",
       "doi": "",
       "zotero_key": "862WMG9F",
@@ -3454,6 +3444,28 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Foveal hypoplasia"
+    },
+    {
+      "pmid": "",
+      "doi": "10.1159/000308802",
+      "zotero_key": "6IR4F4UB",
+      "title": "Albinism.",
+      "authors": [
+        [
+          "J",
+          "François"
+        ]
+      ],
+      "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
+      "year": "1979",
+      "abstract": "",
+      "cited_by_count": 7,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Albinism, ocular, Syndromic albinism"
     },
     {
       "pmid": "41794829",
@@ -4102,27 +4114,51 @@
       "subcollection": "PCDH15"
     },
     {
-      "pmid": "41763550",
-      "doi": "10.1542/pir.2025-006919",
-      "zotero_key": "34WMR67E",
-      "title": "Basics of Mechanical Ventilation for the Outpatient Pediatrician",
+      "pmid": "41866401",
+      "doi": "10.1007/s10072-026-08991-9",
+      "zotero_key": "GNJU8P4I",
+      "title": "Bell’s palsy as the first manifestation of neurosyphilis in an immunocompetent and HIV-negative patient: a challenging diagnosis",
       "authors": [
         [
-          "Andrea Montano",
-          "Ballesteros"
+          "Marco",
+          "Bisquoli"
         ],
         [
-          "Adam",
-          "Beaton"
+          "Massimo",
+          "Bondavalli"
         ],
         [
-          "B",
-          "Totapally"
+          "C",
+          "Lazzaretti"
+        ],
+        [
+          "Manuela",
+          "Napoli"
+        ],
+        [
+          "Letizia",
+          "Caprari"
+        ],
+        [
+          "Pedro Henrique Almeida",
+          "Fraiman"
+        ],
+        [
+          "Sergio",
+          "Mezzadri"
+        ],
+        [
+          "Sara",
+          "Montepietra"
+        ],
+        [
+          "Francesco",
+          "Cavallieri"
         ]
       ],
-      "journal": "Pediatrics in Review",
+      "journal": "Neurological Sciences",
       "year": "2026",
-      "abstract": "Advancements in medical technology have allowed a growing number of children with complex medical conditions and technology dependence to be discharged home from the hospital, including patients receiving mechanical ventilation. Familiarity with the principles of mechanical ventilator support, common modes used in the outpatient setting, and common complications is imperative in taking care of these children.After completing this article, readers should be able to: Describe the physiology of breathing.List the different types of respiratory support.Describe the basics of mechanical ventilation.List the indications for mechanical ventilation and home mechanical ventilation.Manage the initial settings of invasive mechanical ventilation.List the complications of hospital and home mechanical ventilation.The respiratory system consists of the airways, which conduct gases to and from the lungs, which function as the gas exchange system, and the respiratory muscles, which act as the ventilatory pump. The respiratory system’s primary function is gas exchange, which includes oxygenation and ventilation. Oxygenation refers to the transfer of oxygen from alveoli to arterial blood, and ventilation refers to removing carbon dioxide, a byproduct of cellular metabolism, from the pulmonary arterial blood. Respiratory failure ensues when the respiratory system fails to effectively supply oxygen or remove carbon dioxide, leading to hypoxemia, hypercapnia, or both. Infants and young children are at higher risk of increased work of breathing and respiratory failure due to anatomic and physiologic differences from adults (Table 1).Normal spontaneous breathing is negative-pressure breathing. It occurs via contraction of the diaphragm and, to a lesser extent, the external intercostal muscles. Negative-pressure breathing leads to expansion of the chest cavity, creating more negative intrapleural pressure, allowing air to fill the lungs. Normal exhalation, on the other hand, is a passive process. The inspiratory muscles relax, allowing the lung, chest wall, and abdominal structures to recoil, leading to air exhalation (Figure 1). Normal breathing constitutes a small proportion (<5%) of total oxygen consumption. The respiratory centers in the brainstem (medulla oblongata and pons) regulate rhythmic breathing. The dorsal respiratory group and the ventral respiratory group, which are present in the medulla oblongata, play a crucial role in generating rhythmic breathing patterns. The pneumotaxic and apneustic centers that are present in the pons modulate the medullary respiratory centers. Central and peripheral chemoreceptors regulate ventilation. Central chemoreceptors in the medulla oblongata and pons are very sensitive to changes in pH and Paco2; in cases of chronic hypercarbia, these receptors become less sensitive. Peripheral chemoreceptors in the carotid and aortic bodies respond to changes in Pao2, although to a lesser extent. Signals are sent from the respiratory centers to the respiratory muscles via the phrenic and intercostal nerves (Figure 2).Respiratory support may be needed either to assist with the work of breathing or to improve gas exchange. Respiratory support devices can be divided into oxygen delivery devices, noninvasive positive- or negative-pressure devices, and invasive mechanical ventilation (IMV).Oxygen delivery devices are categorized into low and high flow, depending on the liters of oxygen delivered per minute. All these devices are connected to an oxygen source, and the fraction of inspired oxygen (Fio2) delivered to the patient will depend on the percentage of room air mixed with the supplemental oxygen. The device that provides the most Fio2 to a spontaneously breathing child is the non-rebreather face mask. Compared with other high-flow devices, a high-flow nasal cannula (HFNC) also delivers heated and humidified air. Oxygen delivery devices, except for HFNC, may not provide ventilatory support. When patients develop hypercapnic respiratory failure or hypoxemic respiratory failure that is refractory to supplemental oxygen, positive-pressure ventilation might be needed. Various respiratory support devices are listed in Table 2.Mechanical ventilation is a life-support technology that assists patients who cannot breathe effectively due to respiratory, neuromuscular, or neurologic conditions. Mechanical ventilation can be provided in a variety of modes and with different interfaces. Some key concepts and types of ventilation are discussed in this section.1–3Positive-pressure ventilation refers to the delivery of air to the lungs using positive pressure via noninvasive ventilation (NIV) or IMV.NIV refers to delivering positive pressure to the airway via nasal or naso-oral interfaces without requiring endotracheal intubation or tracheostomy. Some of the benefits of NIV include improved patient comfort, avoidance of endotracheal intubation, decreased need for sedation, and decreased risk for hospital-acquired infections. Positive pressure is delivered via continuous positive airway pressure (CPAP) or as biphasic positive airway pressure (BiPAP). For NIV to be successful, the patient requires an intact upper airway, airway protective reflexes, and an adequate seal on the mask interface to avoid pressure loss.IMV requires endotracheal intubation or tracheostomy to provide positive pressure to the airways. IMV is indicated when the pulmonary function cannot be sustained with noninvasive modalities, as in cases of severe and rapidly progressing respiratory failure, significant neurologic or neuromuscular impairment, refractory shock with multiorgan dysfunction, or a combination of these conditions.Negative-pressure ventilation (NPV) mimics normal physiologic respiration. A chest shell (cuirass) is placed external to the chest, generating subatmospheric pressure to initiate inspiration. The chest wall moves outward and induces negative pressure in the intrapleural cavity, allowing alveolar recruitment and airflow. In contrast to normal spontaneous breathing, the exhalation process is active with NPV, as the cuirass increases the intra-alveolar pressure to allow air to flow out of the lungs. Similarly to NIV, pressure delivery during NPV may be continuous or biphasic. The most common modality used with NPV is continuous negative pressure. NPV might improve cardiac output by lowering intrathoracic pressure, thus increasing right ventricular (RV) preload and decreasing RV afterload. NPV cannot provide supplemental oxygen directly, so children with hypoxemia often need additional oxygen delivery sources. In their practice, pediatricians may encounter patients receiving NPV, as it is increasingly used in children with neuromuscular disorders such as spinal muscular atrophy.Conventional ventilators deliver a preset tidal volume or inspiratory pressure and a baseline positive end-expiratory pressure (PEEP) at a rate in the physiologic range for age. Inspiratory time is typically set shorter than the expiratory time to avoid hyperinflation while providing sufficient inspiratory time to ensure proper lung inflation.High-frequency oscillation ventilation (HFOV) delivers small tidal volumes (1–3 mL/kg) at a supraphysiologic frequency of 3 to 15 Hz (1 Hz = 60 oscillations per minute), which translates to rates of 180 to 900 breaths per minute. High mean airway pressures help with alveolar recruitment and adequate oxygenation. Ventilation is maintained by diffusion, turbulence, and movement of air between lung regions (pendelluft effect). HFOV is typically used in a hospital setting when conventional ventilation fails to maintain adequate oxygenation in patients with pediatric acute respiratory distress syndrome, or bronchopleural fistulas, or in neonates with meconium aspiration syndrome or persistent pulmonary hypertension.4A typical mechanical ventilator consists of a control panel (for user interface), a power source, a gas supply system, a central processing unit (the brain of the ventilator), a breathing circuit with a humidification system, and a patient interface (endotracheal or tracheostomy tube for invasive ventilation and various masks and cannulas for NIV) (Figure 3).Hospital ventilators are typically larger, more powerful, and more expensive than home ventilators. Hospital ventilators offer a wider range of adjustable parameters and monitoring capabilities to meet the patient’s requirements. They typically require a high-pressure gas source at 50 psi.Home ventilators are designed to be more compact, lightweight, portable, and easier to use. The ventilator is connected to an oxygen source (usually a concentrator) and a humidifier. A high-pressure gas source is not required for home ventilators. Pediatric home ventilators must offer a more sensitive trigger, generate lower tidal volume and flow rate, and have adequate audible alarms. Home ventilators should be able to operate with an internal battery when there is no access to electricity. Unlike hospital ventilators, home ventilators have limitations, including the inability to provide high peak pressures or Fio2 greater than 0.6. With improved technology, newer home ventilators have capabilities closer to hospital ventilators.The most common terminology used for mechanical ventilation is listed in Table 3.Various modes of mechanical breaths are described based on how inspiration is initiated, sustained (limited or controlled), and terminated. Individual brands of ventilators may deliver specific modes of mechanical breaths or use proprietary names for similar modes. In general, the following modes are available with most conventional mechanical ventilators (Figure 4). Controlled mandatory ventilation: The ventilator delivers breaths at a fixed rate and set volume or pressure, regardless of the patient’s respiratory efforts. The ventilator controls all phases of the breath. It is typically used in patients who are heavily sedated, chemically paralyzed, or unable to initiate their own breaths.Synchronized intermittent mandatory ventilation (SIMV): The ventilator provides breaths at a fixed set rate, synchronizing with the patient’s own inspiratory efforts. SIMV can be pressure-limited (preset pressure) or volume-limited (preset volume). The ventilator delivers controlled breaths if the patient’s spontaneous respiratory rate is lower than the set SIMV rate. It also allows the patient to take spontaneous breaths between the synchronized mandatory ones, which can be supported with volume or pressure.Assist-control (AC) ventilation: In AC ventilation, the patient can trigger their own breaths, and the ventilator will deliver a full ventilator breath, with the preset volume or pressure for each trigger, ensuring a minimum respiratory rate. Every triggered breath with AC is a full ventilator breath.CPAP (CPAP/pressure support [PS]): CPAP mode provides continuous positive pressure, allowing the patient to breathe spontaneously. The patient entirely controls the breathing cycle. A PS or volume support can be added to CPAP for spontaneous breaths.A control variable is the primary parameter the ventilator adjusts to achieve during inspiration. A limit (target) variable sets the maximum value the variable can attain during the inspiratory phase. The limit variable does not end the inspiration. A cycle variable ends the inspiration once the set variable value is achieved. A breath can be delivered by controlling the volume, pressure, time, or flow, with volume and pressure being the most used control variables. Volume control: A set tidal volume is delivered, while the airway pressure generated will vary depending on the airway resistance and respiratory compliance. This mode might be used when a tight Paco2 control is required and lung compliance is normal.Pressure control: The peak pressure is set to minimize the risk of barotrauma, while the delivered tidal volume varies depending on respiratory compliance and airway resistance.Ventilator graphics are useful for monitoring minute ventilation, respiratory mechanics, and improvement in respiratory function (Figures 5 and 6).Table 4 shows the starting settings for mechanical ventilation in the inpatient setting. In this section are some considerations for mechanical ventilation strategies in specific pathologies.Asthma and bronchiolitis are considered obstructive diseases due to increased airway resistance. Effective ventilation of these patients requires minimizing the risk of air trapping and hyperinflation. This can be accomplished by setting a low respiratory rate and a short inspiratory time, allowing sufficient time for complete exhalation.Patients with central nervous system dysfunction may have respiratory failure from loss of airway protection reflexes, impaired respiratory drive, diminished upper airway tone, or a combination thereof. In children with increased intracranial pressure, strict CO2 control is essential with guaranteed minute ventilation. Additionally, avoiding lung hyperinflation is important, as elevated intrathoracic pressures can compromise venous return from the brain.In patients with muscular disorders, muscle weakness leads to hypoventilation. When providing mechanical ventilation to these patients, encouraging spontaneous breathing is imperative to prevent muscle deconditioning and improve their chances of successful ventilator weaning. If oxygenation is not a concern, PEEP and Fio2 should be maintained at minimal levels.Over the past 20 to 30 years, advances in the medical field have contributed to a growing number of children using home mechanical ventilation (HMV). A Canadian epidemiological study reported a 37% increase in the number of patients discharged home with a ventilator over 13 years.5HMV aims to ensure adequate ventilation and oxygenation using stable ventilator settings without the need for continuous monitoring while maximizing growth and development. Ventilator mode and settings are initially established and adjusted in the inpatient setting, with close monitoring and titration to meet each patient’s needs.HMV should be considered when a patient develops progressive chronic respiratory failure or failure to wean from mechanical ventilation. Patients with chronic respiratory failure due to neuromuscular disorders, impaired neurologic control of breathing, or increased respiratory load from airway and lung pathology might benefit from HMV (Table 5).The choice of ventilation type and mode is determined by the cause and severity of the respiratory failure (Table 6).NIV can be delivered through nasal, oronasal, or full-face masks. The key to successful NIV is selecting a well-fitting mask to minimize leakage and maximize comfort. Most ventilators compensate for leaks by delivering a higher flow to reach the set pressure. Depending on the patient’s condition, CPAP or biphasic mode might be required.Some of the disadvantages of NIV are the risk of gastric content aspiration, especially in younger patients who cannot remove the mask; skin breakdown; and difficulty in clearing airway secretions. If a patient fails NIV, IMV via tracheostomy is the alternative for long-term home ventilatory support.Invasive HMV is delivered via tracheostomy. The stoma should be healed adequately before initiating HMV and considering discharge from the hospital. The gas delivered should be warmed and humidified to prevent the drying of the airway mucosa. Most ventilators have an active humidification device attached.Most home ventilators can provide volume- or pressure-controlled ventilation. Volume-control ventilation delivers a set tidal volume, while pressure-control ventilation delivers a set positive pressure. The benefit of pressure-controlled ventilation is that it can adapt to the patient’s irregular breathing patterns and compensate for some leaks. Some of the current home ventilators can deliver more advanced modes of ventilation.Single-limb circuits are often used in home mechanical ventilators because they are simpler and less bulky. These circuits cannot measure tidal volumes, so they are estimated using algorithmic calculations. Some single-limb circuits have a leak port to compensate for leaks and allow some CO2 removal. Other circuits have an exhalation valve to allow complete CO2 elimination. Double-limb circuits have an inhalation limb and an exhalation limb connected to inhalation and exhalation ports, respectively. Accurate measurement of tidal volumes is possible with double-limb circuits.NPV may be used in children with neuromuscular disease for long-term support. NPV is increasingly used for managing children with respiratory failure and spinal muscular atrophy.Children who require HMV, in general, have multiple underlying comorbidities; hence, they should be cared for by a multidisciplinary team that includes a primary care physician, pulmonologist, and respiratory therapist, along with other specialists depending on the patient’s comorbidities. Most children requiring home ventilation need continuous nursing and respiratory therapy care. Parents and caregivers should be trained to recognize and troubleshoot ventilator malfunction, tracheostomy dislodgement, and acute hypoxemia. The ventilator should have appropriately set alarms to alert caregivers of possible problems.Airway clearance techniques should be used routinely to prevent mucous plugging and subsequent atelectasis and to minimize the risk of respiratory infections. These techniques range from nebulization with mucolytics to the use of chest physiotherapy and cough assist devices.It is recommended that children be monitored with pulse oximeters, especially while asleep, alongside ventilator alarms.7 The equipment necessary at home should include batteries, suctioning equipment, supplemental oxygen, a nebulizer, a self-inflating bag and mask, and extra tracheostomy tubes.Weaning is the gradual process of shifting the responsibility for breathing from the ventilator back to the patient as the condition requiring mechanical ventilation improves. Weaning is typically guided by the patient’s respiratory effort, adequacy of ventilation and oxygenation, and decreased dependence on mechanical ventilator support. Children undergoing HMV require regular monitoring by pulmonologists to determine whether weaning off the ventilatory support is appropriate or feasible.The plugging of airways with thick mucus is most often seen in younger children and smaller-diameter tracheostomy cannulas. Infants have not yet developed alveolar collateral ventilation (pores of Kohn or channels of Lambert), so mucous plugging in smaller airways more frequently can lead to atelectasis. Humidification devices prevent the drying of secretions and decrease the risk of mucous plugging. Some patients might also need nebulized mucolytics.Accidental removal of the tracheostomy cannula happens more frequently in infants or when short tubing pulls on the cannula. Parents and caregivers should be trained before hospital discharge to manage the dislodgement of tracheostomy tubes and to perform cardiopulmonary resuscitation in case of an emergency. A spare cannula of the same and smaller size should always be available for emergent tube exchange.Mask leakage can occur when masks or headgear are not fitted properly. Even though a small leak is expected, larger leaks might compromise ventilation effectiveness. This may result in hypoxemia or hypercapnia and frequent nighttime awakenings, particularly in patients who require mechanical ventilation for obstructive sleep apnea.Midfacial deformity can occur, most commonly when masks used for NIV are improperly fitted. The high pressures exerted by the mask may interfere with normal facial bone growth. Younger children should be monitored regularly to ensure the mask fits properly, preventing skin breakdown and minimizing the risk of facial bone hypoplasia.Ventilator malfunctions can occur due to power failure, equipment defects, disconnection, or changes in the patient’s condition. Caregivers should be trained to recognize and troubleshoot the most common causes of ventilator malfunction, such as circuit disconnection, lack of power supply, or poor battery backup. Caregivers should also be appropriately trained to provide manual ventilation until help arrives. Families should have functioning supplies, such as suction machines, appropriately sized catheters, resuscitation bags, and nebulization machines if needed.Children with artificial airways are at higher risk for developing infections, such as tracheitis or ventilator-associated pneumonia. Children with artificial airways are often colonized with hospital-acquired organisms, like Pseudomonas, Klebsiella, and methicillin-resistant Staphylococcus aureus. If there are changes in tracheal or or increased oxygen or ventilatory should be and the patient should be (Table HMV should be as of a and of care that includes the primary and primary care low of undergoing HMV should be monitored with noninvasive such as pulse especially when on due to lack of trained caregivers who can troubleshoot common causes of ventilator should be for children with chronic on due to lack of to for the in this",
+      "abstract": "",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -4538,6 +4574,56 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41862711",
+      "doi": "10.1007/s00405-026-10048-8",
+      "zotero_key": "B7ZPFM5H",
+      "title": "Clinical manifestations of injured tracheal and esophageal branches of the recurrent laryngeal nerve following thyroid surgery",
+      "authors": [
+        [
+          "Fujun",
+          "Lv"
+        ],
+        [
+          "Feng",
+          "Ji"
+        ],
+        [
+          "Xili",
+          "Wang"
+        ],
+        [
+          "Dongxiao",
+          "Jiao"
+        ],
+        [
+          "Lingfei",
+          "Feng"
+        ],
+        [
+          "Kunpeng",
+          "Guo"
+        ],
+        [
+          "Dandan",
+          "Ding"
+        ],
+        [
+          "Haofang",
+          "Yuan"
+        ]
+      ],
+      "journal": "European Archives of Oto-Rhino-Laryngology",
+      "year": "2026",
+      "abstract": "Tracheal branch (TB) and esophageal branch (EB) injuries of the recurrent laryngeal nerve (RLN) during thyroid surgery are underexplored. In this study, we examined postoperative clinical manifestations in these injuries. Using a head-mounted 2.5× magnifying loupe, TBs and EBs were isolated to assess branching patterns and postoperative outcomes. TBs comprised 1–3 branches, most commonly two, whereas EBs comprised 1–2 branches, usually one. Clinical symptoms were more frequent after TB injury than in controls, with 81.6% of patients showing chest tightness or dyspnea at 1 month, but only 5.3% at 1 year (not significant vs. controls). After EB injury, symptoms were initially higher than in controls, but only 8% persisted at 1 year (not significant). Transient hypoparathyroidism occurred in 25.4% and 16.7% of TBs and EBs, respectively. Symptoms that may result from RLN branch injuries generally resolve over time, highlighting the importance of protecting TBs and EBs during thyroid surgery.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41089136",
       "doi": "10.7759/cureus.92151",
       "zotero_key": "GSIEKBZK",
@@ -4758,6 +4844,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARID2"
+    },
+    {
+      "pmid": "41860084",
+      "doi": "10.1002/acn3.70364",
+      "zotero_key": "SCJHD7IQ",
+      "title": "Comment on: Fibrinogen Changes Before and After Intravenous Thrombolysis as Predictors of Cerebral Injury and Clinical Outcomes in Acute Ischemic Stroke—The 24‐h Time‐Point May be a Pro‐Thrombotic Blind Spot: Check 6‐h Fibrinogen Rebound to Catch Early Re‐Occluders",
+      "authors": [
+        [
+          "Qichao",
+          "Fang"
+        ],
+        [
+          "Luting",
+          "Ying"
+        ],
+        [
+          "Yongjin",
+          "Gong"
+        ]
+      ],
+      "journal": "Annals of Clinical and Translational Neurology",
+      "year": "2026",
+      "abstract": "Zhai et al. [1] establish that a fibrinogen increase 24 h after intravenous thrombolysis (IVT) predicts greater cerebral injury and worse outcomes. The selection of this time point is practical, yet it may overlook a critical early dynamic. Research indicates fibrinogen reaches its lowest level approximately 6 h following alteplase administration [2, 3]. A rapid increase from this point, or “rebound,” could signify robust thrombin generation and a heightened pro-thrombotic state preceding clinical decline [2]. Theoretically, patients experiencing early re-occlusion might demonstrate a significant fibrinogen rebound between 6 and 24 h, while their net 24-h change could appear unremarkable, potentially weakening the observed predictive signal [1]. This gap can be addressed with feasible steps. First, if 6-h plasma samples were routinely collected and stored, performing a retrospective fibrinogen assay on these aliquots would allow direct comparison of its predictive value against the 24-h measure. Second, calculating the rate of fibrinogen change (the slope from 6 to 24 h) could identify patients with a rapid rebound, a pattern more closely tied to active thrombosis than a single elevated value [2]. Third, integrating this dynamic measure into existing models for early neurological deterioration could clarify whether the risk is better captured by the velocity of change rather than its final magnitude. Adopting more frequent fibrinogen assessment, such as at 6-h intervals, aligns with calls for enhanced monitoring during thrombolysis to guide management [4]. Identifying a rapid fibrinogen rebound early could signal the need for vigilant monitoring or prompt review of antithrombotic strategies, which are critical in the acute phase to sustain vessel patency [5]. Exploring the 6-h time point, therefore, could shift the role of fibrinogen from a late prognostic indicator to an early signal with potential implications for real-time clinical decision-making. Q.F. and Y.G. designed the commentary; Q.F. drafted the manuscript; L.Y. checked numeric accuracy; all authors approved the final version. This study was supported by Xianju County People's Hospital. The authors declare no conflicts of interest. The authors have nothing to report.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41423800",
@@ -5306,6 +5422,23 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Schnyder corneal dystrophy"
+    },
+    {
+      "pmid": "41866701",
+      "doi": "10.1002/oby.70194",
+      "zotero_key": "4CE989QZ",
+      "title": "Correction to “Setmelanotide in Bardet‐Biedl Syndrome: A 52‐Week Comparison of Phase 3 Trial Participants With a Matched Registry Cohort”",
+      "authors": [],
+      "journal": "Obesity",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "41739803",
@@ -6438,6 +6571,86 @@
       "subcollection": "Developmental timeline"
     },
     {
+      "pmid": "41866351",
+      "doi": "10.1038/s41598-026-44024-3",
+      "zotero_key": "HRIB2KTR",
+      "title": "Dynamic characteristics and adaptability research of high-speed railway roadbed with silt-cement improved aeolian sand",
+      "authors": [
+        [
+          "Xunchang",
+          "Li"
+        ],
+        [
+          "Changhao",
+          "Huang"
+        ],
+        [
+          "Kexin",
+          "Ren"
+        ],
+        [
+          "Wei",
+          "Yang"
+        ],
+        [
+          "Yuhui",
+          "Zhu"
+        ],
+        [
+          "Dongdong",
+          "Han"
+        ],
+        [
+          "Xuqing",
+          "Pang"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "The dynamic characteristics of silty-cement modified aeolian sand for high-speed railway subgrade have been insufficiently studied. Its engineering applicability needs to be validated.The internal acceleration distribution patterns are systematically investigated. The attenuation characteristics are analyzed through 1:10 scale laboratory model tests. The cumulative settlement changes are analyzed under dynamic loading conditions. Its engineering suitability was evaluated through comparative analysis which conducted the existing modified soil subgrade dynamic response data. Key findings are as follows: (1) The vibration energy attenuation pattern was found to align with established research. More than 50% of energy loss was concentrated in the modified layer structure. (2) A dynamic response limit of 2.49 m was reached for the modified subgrade. This result was found to be comparable to previous studies. Adequate safety margin for embankment structures was ensured. (3) The cumulative settlement under single-cycle 100,000 vibration cycles was measured at approximately 0.297 mm. Superior settlement resistance was demonstrated compared to other modified soils. However, a significant settlement increase of 0.970 mm was observed under double-cycle 100,000 cycles. Compromised deformation resistance was indicated. (4) The theoretical framework for dynamic response analysis was enriched by these findings. A technical basis was provided for implementing this innovative silty-cement modified aeolian sand system in desert fringe regions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41865039",
+      "doi": "10.1038/s41598-026-41571-7",
+      "zotero_key": "5PSAP2J7",
+      "title": "Early prediction of wind turbine anomalies using 1D-CNN and temporal feature engineering on multi-source SCADA data",
+      "authors": [
+        [
+          "Mohamed Maher",
+          "Ata"
+        ],
+        [
+          "Shorok",
+          "Osama"
+        ],
+        [
+          "Mai Ramadan",
+          "Ibraheem"
+        ],
+        [
+          "Ahmed R.",
+          "Abas"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Early and accurate detection of anomalies in wind turbines is critical for ensuring system reliability, minimizing unplanned downtime, and reducing maintenance costs in large-scale renewable energy infrastructures. In this study, we propose a robust deep learning framework for wind turbine anomaly detection, leveraging a newly constructed dataset that integrates Supervisory Control and Data Acquisition (SCADA) data from three distinct wind farms. Extensive preprocessing and domain-specific temporal feature engineering were employed to capture complex patterns and enhance model generalizability across heterogeneous data sources. A comparative evaluation of several state-of-the-art deep learning models—including 1D Convolutional Neural Networks (1D-CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Bidirectional LSTM (Bi-LSTM), and Gated Recurrent Units (GRU); was conducted using standard classification metrics. Among these, the 1D-CNN consistently outperformed the recurrent models, achieving an accuracy and F1-score of 85%. This performance is attributed to the model’s capacity to effectively learn localized temporal dynamics in multivariate time series data. The findings demonstrate that a carefully designed 1D-CNN architecture, combined with strategic temporal feature engineering and multi-source data fusion, offers a scalable and accurate solution for early fault detection in wind turbine systems. This work lays the foundation for intelligent condition monitoring systems in the renewable energy sector. We then propose and evaluate a hybrid CNN-LSTM architecture augmented with an attention mechanism. This model leverages both CNN’s strength of extracting local features. And LSTM capacity to capture temporal dependencies, while the attention layer dynamically focuses on the most important segments of the sequence. Our findings show that the suggested hybrid model performs noticeably better than the independent base models, attaining higher generalization and accuracy. This work advances wind turbine fault detection through creating a diverse, multi-source wind farm dataset for superior generalizability; pioneering a reproducible benchmarking framework across deep learning models on heterogeneous data; and a hybrid CNN-LSTM with attention, surpassing baselines by 2% while enabling practical decision-making.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41772666",
       "doi": "10.1186/s13054-026-05855-8",
       "zotero_key": "45RHGCT7",
@@ -6711,6 +6924,80 @@
       "journal": "Otolaryngology",
       "year": "2026",
       "abstract": "Air pollutants and meteorological factors significantly influence the incidence of AR and CRS in Southern China, with distinct susceptibility patterns between the 2 diseases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41870028",
+      "doi": "10.1152/ajpheart.00854.2025",
+      "zotero_key": "GX8MRMT8",
+      "title": "Elevated Maternal Cholesterol is Linked to a Co-expression Network of Neonatal Indole Metabolism and Birth Weight",
+      "authors": [
+        [
+          "L. H.",
+          "Wu"
+        ],
+        [
+          "Jielin",
+          "Yang"
+        ],
+        [
+          "Leroy Sivapragasam",
+          "Pakkiri"
+        ],
+        [
+          "Lara J.",
+          "Monteiro"
+        ],
+        [
+          "Reyna",
+          "Peñailillo"
+        ],
+        [
+          "Poh Leong",
+          "Lim"
+        ],
+        [
+          "Mahesh",
+          "Choolani"
+        ],
+        [
+          "Matthew W.",
+          "Kemp"
+        ],
+        [
+          "Ling-Jun",
+          "Li"
+        ],
+        [
+          "Claudette",
+          "Cantin"
+        ],
+        [
+          "Ignacio",
+          "Valenzuela"
+        ],
+        [
+          "Andrea",
+          "Leiva"
+        ],
+        [
+          "Chester Lee",
+          "Drum"
+        ],
+        [
+          "Sebastian",
+          "Illanes"
+        ]
+      ],
+      "journal": "American Journal of Physiology-Heart and Circulatory Physiology",
+      "year": "2026",
+      "abstract": "The Developmental Origins of Health and Disease (DOHaD) hypothesis links intrauterine exposure to sub-optimal fetal development and later-life cardiometabolic health. In 56 mother-newborn pairs, we quantified 389 newborn cord-blood metabolites by LC-MS/MS and recorded 24 clinical variables. With weighted co-expression network analysis, we identified \"module 05\", comprising birth weight and metabolites enriched for the \"gut-liver indole metabolism\" pathway (indole, indole-3-pyruvic acid, and indole-3-lactic acid). Multivariable regression revealed that each 1-SD higher \"module 05\" expression score was associated with -0.26 [95% CI: -0.51, -0.01] SD lower 3rd-trimester total cholesterol (P = 0.039), adjusting for newborn and maternal covariates. This supports a coordinated newborn pattern of lower birth weight and lower cord-blood indole metabolite abundance in pregnancy cases with higher late-pregnancy total cholesterol. Stratified analyses further suggested that, among pregnancies with maternal supraphysiological hypercholesterolaemia (MSPH; 3rd-trimester total cholesterol ≥280 mg/dL), higher maternal age and higher 1st-trimester systolic blood pressure were accompanied by lower \"module 05\" score, whereas these associations were not observed in non-MSPH pregnancies. Complementary regression analysis associated each tertile higher cord-blood indole-3-propionic acid (IPA) with -9.09 [-17.45, -0.72] mg/dL lower 1st-trimester cholesterol (P = 0.038). Separately, each 1-tertile higher IPA was linked to 192.22 [55.44, 329.00] gram higher newborn weight (P = 0.008). Both 1st- and 3rd-trimester total cholesterols were positively associated with higher cord-blood oxidative stress (8-hydroxy-2'-deoxyguanosine; 8-OHdG). In conclusion, maternal cholesterol level varies with cord-blood indole metabolites and birth weight, suggesting a potential shared metabolic axis modifiable by maternal cholesterol level in mother-newborn pairs.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -7112,6 +7399,112 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41860327",
+      "doi": "10.1097/ccm.0000000000007084",
+      "zotero_key": "B3IEZWNW",
+      "title": "Executive Summary: Society of Critical Care Medicine Guidelines on Caring for Older Adults in the ICU",
+      "authors": [
+        [
+          "Lauren E.",
+          "Ferrante"
+        ],
+        [
+          "Dipayan",
+          "Chaudhuri"
+        ],
+        [
+          "Kallirroi Laiya",
+          "Carayannopoulos"
+        ],
+        [
+          "Sachin",
+          "Jain"
+        ],
+        [
+          "Judith A.",
+          "Tate"
+        ],
+        [
+          "Evelyn",
+          "Álvarez"
+        ],
+        [
+          "C. Adrian",
+          "Austin"
+        ],
+        [
+          "Lisa",
+          "Burry"
+        ],
+        [
+          "Michael J.",
+          "Devinney"
+        ],
+        [
+          "William J.",
+          "Ehlenbach"
+        ],
+        [
+          "Mary Beth",
+          "Happ"
+        ],
+        [
+          "Aluko A.",
+          "Hope"
+        ],
+        [
+          "May",
+          "Hua"
+        ],
+        [
+          "Michelle E.",
+          "Kho"
+        ],
+        [
+          "Jessica A.",
+          "Palakshappa"
+        ],
+        [
+          "Leslie P.",
+          "Scheunemann"
+        ],
+        [
+          "Liron",
+          "Sinvani"
+        ],
+        [
+          "Barbara",
+          "Stahl"
+        ],
+        [
+          "Sophia",
+          "Wang"
+        ],
+        [
+          "Hannah",
+          "Wunsch"
+        ],
+        [
+          "Bram",
+          "Rochwerg"
+        ],
+        [
+          "Nathan E.",
+          "Brummel"
+        ]
+      ],
+      "journal": "Critical Care Medicine",
+      "year": "2026",
+      "abstract": "For the past 25 years, older adults, defined as those 65 years old or older, have composed more than half of all ICU days in the United States (1). With the number of older Americans projected to increase from 58 million in 2022 to 82 million by 2050, the proportion of ICU patients who are older is expected to rise (2–4). Caring for older patients in critical care settings requires knowledge of their unique factors and considerations, such as geriatric syndromes and outcomes that matter most to this growing demographic (5). The Board of the American College of Critical Care Medicine convened a multidisciplinary panel to develop focused, evidence-based recommendations on caring for older adults in the ICU. The panel conducted a systematic review of the published scientific literature, focusing on patient-oriented, clinically relevant outcomes to answer Patient, Intervention, Comparator, and Outcomes (PICO) questions regarding the care of older adults in the ICU. The clinical practice recommendations were developed according to the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) process (3). This clinical practice guidelines reflect the state of knowledge at the time of publication. The full guidelines may be accessed via (6). RECOMMENDATIONS The panel made two conditional recommendations as presented below. A “Conditional” recommendation reflects a low degree of certainty in the appropriateness of the patient care strategy for all patients. It requires that the clinician use clinical knowledge and expertise and strongly considers the individual patient’s values and preferences to determine the best course of action. The ultimate judgment regarding any specific care must be made by the treating clinician and the patient, taking into consideration the individual circumstances of the patient, available treatment options, and resources. The remaining three PICO questions addressed in these guidelines resulted in no recommendation being made due to inconsistent or insufficient evidence. Future research is needed on several topic areas covered by this guideline. A summary of research priorities for each topic is presented in Table 3 of the full guidelines (6). We suggest a geriatric model of care for all older adults admitted to the ICU (conditional recommendation, very low certainty of evidence). Remarks: The parameters in geriatric models of care may vary depending on hospital, resources, and expertise available. The included studies intentionally incorporated geriatric principles into the care of older adults (e.g., removal of unnecessary tethering devices, addressing hearing impairment, improving functional and cognitive outcomes through occupational therapy). A systematic literature search was completed, and three studies investigating a geriatric-specific model of care or formal geriatrics consultation were included in discussion with the panel (7–9). The GRADE evidence synthesis showed very low certainty across all evaluated outcomes due to risk of bias, imprecision, and indirectness. In one randomized controlled trial (RCT), mortality and hospital length of stay showed an uncertain effect (7). In another RCT, activities of daily living outcomes showed an uncertain effect (8). Pooled analysis from these two RCTs showed an uncertain effect on in-hospital delirium and discharge to a nursing home. The final included study, a pre-/post-intervention pilot trial, suggested that a three-component ICU intervention reduced incident delirium (9). Despite uncertain effects in the evidence, the panel determined the desirable effects of a geriatric model of care are small to moderate, especially in considering that many of the point estimates fall on the side of benefit and align with outcomes that matter most to older adults. Undesirable effects were determined trivial by the panel, highlighting the perceived lack of harms in a geriatric model of care. There was no evidence to address cost effectiveness of the interventions. With regard to equity, the panel acknowledged that geriatricians may not be widely available in critical care settings. However, the panel noted that geriatric models of care can be implemented without a geriatrician and that implementation of age-friendly principles would improve equitable care for older adults with critical illness. We suggest not using antipsychotic medications for the prevention of delirium in critically ill older adult patients (conditional recommendation, very low certainty evidence). Remarks: The antipsychotic drugs used in the included studies were haloperidol and quetiapine. A systematic literature search was completed, and three RCTs investigating the prevention of delirium in adults with critical illness (but not exclusively over the age of 65) were included (10–12). The GRADE evidence synthesis showed very low certainty across all evaluated outcomes due to indirectness, risk of bias, inconsistency, and imprecision. Pooled analysis of the three RCTs showed an uncertain effect on the incidence and duration of delirium. Likewise, pooled effects of mortality, duration of invasive mechanical ventilation, ICU length of stay, hospital length of stay, and adverse events showed uncertain effects. The panel was limited in its ability to make conclusions for older adults based on this evidence, particularly in light of the trials not being conducted exclusively in this population. The panel expressed concern about the potential harms of routine antipsychotic use in older patients with critical illness, acknowledging that antipsychotics are included in high-risk medication lists for older adults and have been clearly associated with adverse events in other studies of older adults (13–15). There was no evidence to address cost effectiveness of the interventions, and the panel expressed concern about the role of social determinants of health, race, ethnicity, and language in detecting delirium in older adults. RESEARCH AGENDA We developed a research agenda for the care of older adults in the ICU, presented in Table 3 of the main guidelines document (6). In addition to the research agenda outlined in each area, the panel acknowledged the dearth of critical care trials that exclusively enroll older persons. The panel also noted that many critical care trials enrolling the general ICU population often have age cutoffs for upper limit that are not justified scientifically. With the aging of the population, it is imperative that the critical care research community designs clinical trials that exclusively enroll older adults and prioritizes improved inclusion of older adults in critical care clinical trials in the general ICU population.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41764073",
       "doi": "10.1016/j.ymthe.2026.02.040",
       "zotero_key": "VRQCN6XR",
@@ -7368,6 +7761,44 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41861176",
+      "doi": "10.1097/md.0000000000048046",
+      "zotero_key": "WQIJT3WG",
+      "title": "Factors influencing corneal edema after phacoemulsification combined with intraocular lens implantation in elderly diabetic cataract patients and establishment of a predictive model",
+      "authors": [
+        [
+          "Maierdanjiang",
+          "Ainiwaer"
+        ],
+        [
+          "Yingying",
+          "Hong"
+        ],
+        [
+          "Binghe",
+          "Xiao"
+        ],
+        [
+          "L",
+          "Ning"
+        ],
+        [
+          "Yong",
+          "Ji"
+        ]
+      ],
+      "journal": "Medicine",
+      "year": "2026",
+      "abstract": "This study aimed to explore the factors influencing corneal edema after phacoemulsification combined with intraocular lens implantation in elderly diabetic cataract (DC) patients and to establish a predictive model. A retrospective analysis was conducted on 300 DC patients who underwent phacoemulsification combined with intraocular lens implantation in our hospital between June 2022 and October 2023. Patients were randomly divided into a modeling group (n = 210) and a validation group (n = 90) in a 7:3 ratio. The modeling group was further divided into corneal-edema group (n = 57) and non-corneal-dema group (n = 153) based on the occurrence of postoperative corneal edema. Univariate and binary logistics regression analyses were employed to identify the influencing factors of postoperative corneal edema in DC patients. A predictive model was constructed using SPSS, and the model's application value was evaluated using receiver operating characteristic curve, calibration curve, and decision curve analysis in R language. There were no statistically significant differences in terms of general information between the modeling group and validation group (P > .05). Significant differences were observed in the comparison of diabetes duration, preoperative endothelial cell density, postoperative corneal endothelial cell loss, hypertension, surgery duration, and age between the corneal-edema group and non-corneal-edema group (P < .05). The results of binary logistics regression analysis showed that diabetes duration, preoperative endothelial cell density, postoperative corneal endothelial cell loss, hypertension, surgery duration, and age were influencing factors for postoperative corneal edema in DC patients (P < .05). The calibration curves of the model in the modeling group and validation group exhibited a slope close to 1, showing good consistency between predicted and actual risks. Receiver operating characteristic analysis results indicated an area under the curve of 0.96 and a standard error of 0.021 (95% confidence interval: 0.872-0.994) in the modeling group and an area under the curve of 0.94 and a standard error of 0.024 (95% confidence interval: 0.867-0.966) in the validation group. Decision curve analysis curve analysis demonstrated that the model had good application efficacy and clinical benefits in both groups. The predictive model based on influencing factors demonstrated good predictive performance and warrants further validation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
+    },
+    {
       "pmid": "3943873",
       "doi": "10.1007/bf00283944",
       "zotero_key": "UQUPUGT6",
@@ -7558,6 +7989,32 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41873703",
+      "doi": "10.1002/ajmg.a.70141",
+      "zotero_key": "RKR6BC9U",
+      "title": "Finding the Genetic Diagnosis for a Mother and Daughter With a Novel Phenotype of Hand and Foot Abnormalities and Severe Pectus Excavatum Previously Reported in Am J Med Genet Part A by Low K et al. (2013)",
+      "authors": [
+        [
+          "Rebecca",
+          "Mawby"
+        ],
+        [
+          "Mira",
+          "Kharbanda"
+        ]
+      ],
+      "journal": "American Journal of Medical Genetics Part A",
+      "year": "2026",
+      "abstract": "We read with great interest the article by Low et al. (2013) describing a mother and daughter with index and middle finger hyperphalangism, short ulnar deviated index fingers, broad valgus deviated halluces, pectus excavatum, tracheomalacia, and facial dysmorphism. There was no genetic diagnosis at the time of publication. The mother and daughter were subsequently reviewed by Wessex Clinical Genetics Service, University Hospital Southampton in 2025. Duo Whole Genome Sequencing identified the recurrent ERF variant c.266A > G p.(Tyr89Cys) that causes Chitayat Syndrome, as described by Balasubramanian et al. (2017). Interestingly, this paper made reference to our mother-daughter pair. First described by Chitayat et al. (1993), Chitayat Syndrome is characterized by hyperphalangism, characteristic facies, hallux valgus, and bronchomalacia. Similar to our patients, Balasubramanian et al. (2017) described pectus excavatum in all of their ERF Chitayat patients. This result provides a genetic explanation for the clinical history and dysmorphology in mother and daughter. I attach some more recent photographs as shown in Figure 1. We felt that readers may be interested in the outcome following the initial publication in AJMG in 2013, particularly as the characteristic dysmorphology associated with this condition is readily recognizable and may aid diagnosis in similar cases. The authors declare no conflicts of interest. Data sharing not applicable to this article as no datasets were generated or analysed during the current study.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "40965398",
       "doi": "10.1016/j.oret.2025.08.012",
       "zotero_key": "Q42GFPWU",
@@ -7710,6 +8167,52 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "41862771",
+      "doi": "10.1007/s11894-026-01039-0",
+      "zotero_key": "5CQDBTM3",
+      "title": "Gastrointestinal Complaints After Fundoplication: Rapid Review and Evidence Mapping",
+      "authors": [
+        [
+          "Alberto",
+          "Aiolfi"
+        ],
+        [
+          "Davide",
+          "Bona"
+        ],
+        [
+          "Francesco",
+          "Cammarata"
+        ],
+        [
+          "Moustafa",
+          "Elshafei"
+        ],
+        [
+          "Cristina",
+          "Ogliari"
+        ],
+        [
+          "Carmelo",
+          "Scarpignato"
+        ],
+        [
+          "Luigi",
+          "Bonavina"
+        ]
+      ],
+      "journal": "Current Gastroenterology Reports",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "32659838",
@@ -8030,6 +8533,36 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41864891",
+      "doi": "10.1186/s12870-026-08565-z",
+      "zotero_key": "UMDGZ565",
+      "title": "Growth, stomatal behavior, and photosynthetic pigment responses of sweet potato (Ipomoea batatas L) to different doses of gamma irradiation in M1V1 generation",
+      "authors": [
+        [
+          "Adem Abe",
+          "Woya"
+        ],
+        [
+          "Meseret Tesema",
+          "Terfa"
+        ],
+        [
+          "Amsalu Gobena",
+          "Roro"
+        ]
+      ],
+      "journal": "BMC Plant Biology",
+      "year": "2026",
+      "abstract": "Induced mutation through physical mutagens, such as gamma irradiation is an effective and complementary breeding tool to enhance crop improvement by increasing genetic variation and creating heritable mutant alleles. This is highly important in crops such as sweetpotato, where genetic and reproductive constraints limit conventional improvements. This study was therefore designed to investigate the effects of gamma irradiation on the growth, stomatal behavior, and photosynthetic pigments of sweet potato (Ipomoea batatas L.) in the M1V1 generation. The experiment was conducted in a screenhouse in a randomized complete block design (RCBD) with twenty replications. Three sweet potato genotypes, Awassa-83, Alamura, and Kabode, were subjected to gamma irradiation doses of 0, 15, 25, and 35 Gray (Gy) to assess their median lethal dose (LD50), which was estimated via a probit model based on the seedling mortality rate, growth, stomatal behavior, and photosynthetic pigment responses. Significant differences (P < 0.05) were observed across varieties, doses, and their interactions for vine number, leaf number, internode length, vine length, and petiole length. The vine number was consistently reduced across the three varieties as the gamma dose increased to the maximum. The decline was 4.85 vines at 15 Gy in Alamura to Kabode’s 1.63 vines at 35 Gy. Similarly, the internode and vine length decreased with increasing dose across the varieties where Alamura scored the highest in both trait at 15 Gy but up to 30% decline in internode and 65% decline in vine length at the maximum dose of Kabode and Awassa-83, respectively. Stomatal traits response, including stomatal length and number, varied among the varieties with differing gamma dose following a non-linear pattern. Pigment analysis revealed that chlorophyll a, b and total chlorophyll was peaked in Awassa-83 and Alamura at 15 Gy before collapsing below 2 µg/ml at 35 Gy across all varieties. Carotenoids were moderately enhanced at 25 Gy in Awassa-83 (5.32 µg/ml) but declined sharply at 35 Gy. These findings highlight the potential of gamma irradiation in creating variation among the varieties for important traits. Further, the varieties responded differently to the gamma irradiation doses, showing genotypic differences. This helps to identify potential mutants in the subsequent generation for the traits studied and their physiological ramifications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41705621",
       "doi": "10.1002/ajh.70235",
       "zotero_key": "78WN6ZPP",
@@ -8194,64 +8727,6 @@
       "subcollection": "Aniridia"
     },
     {
-      "pmid": "41796120",
-      "doi": "10.1038/s41377-026-02246-0",
-      "zotero_key": "5RKAQSZW",
-      "title": "Highly efficient and ultrahigh-resolution quantum dot light-emitting diodes via photoisomeric transformation",
-      "authors": [
-        [
-          "Chenglong",
-          "Wu"
-        ],
-        [
-          "Chengzhao",
-          "Luo"
-        ],
-        [
-          "Yonghuan",
-          "Huo"
-        ],
-        [
-          "Yun",
-          "Chen"
-        ],
-        [
-          "Chengze",
-          "Xu"
-        ],
-        [
-          "Xin",
-          "Zhou"
-        ],
-        [
-          "Zhiyong",
-          "Zheng"
-        ],
-        [
-          "Xinwen",
-          "Wang"
-        ],
-        [
-          "zhenwei",
-          "ren"
-        ],
-        [
-          "Yu",
-          "Chen"
-        ]
-      ],
-      "journal": "Light Science & Applications",
-      "year": "2026",
-      "abstract": "The direct photopatterning technique provides a straightforward approach for high-resolution quantum dot (QD) patterns for next-generation displays. However, the extensively deteriorated QD optical properties deriving from the changes of the QD surface states and/or surroundings set substantial limitations in obtaining high-quality QD patterns and efficient electroluminescent devices. Here, we propose an ingenious and effective approach by utilizing the photoisomeric transformation from spiropyran to merocyanine for highly emissive QD patterns. We reveal the suppression of non-radiative energy transfer between QDs and the dissociative merocyanine for fast luminescence recovery. We achieve small-sized (0.8 μm), high-resolution (15,800 pixels per inch, PPI), high-fidelity (~100%), multicolor, and elaborated QD pixels, and showcase their good compatibility for CdSe/ZnS and perovskite QD pixel fabrication, as well as on both rigid and flexible substrates. These merits promote highly performing pixelated devices with a large luminance of 35,534 cd m-2 and a record efficiency of 24.5% at 6350 PPI among the direct photopatterning devices. Furthermore, we verify the wide applicability of the proposed strategy for high-performance pixelated perovskite devices with an efficiency of 13.8% at 1760 PPI. The above results confirm the great value of the proposed approach for high-quality QD patterns and high-performance pixelated devices.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "754415",
       "doi": "",
       "zotero_key": "Z38QAPRJ",
@@ -8342,34 +8817,46 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41803283",
-      "doi": "10.1038/s41598-026-42914-0",
-      "zotero_key": "CJ3HWRWJ",
-      "title": "Identifying the coupling coordination relationship and driving forces between urbanization and the supply–demand of ecosystem service: a case study of the Gansu Province",
+      "pmid": "41870539",
+      "doi": "10.1021/acs.jproteome.5c00640",
+      "zotero_key": "MN4JIBU5",
+      "title": "Impact of Prematurity on Metabolic Maturation",
       "authors": [
         [
-          "Guofeng",
-          "Dang"
+          "Kate",
+          "Pearse"
         ],
         [
-          "Jia",
-          "Hu"
+          "Aneurin",
+          "Young"
         ],
         [
-          "Guibin",
-          "Li"
+          "Mark J.",
+          "Johnson"
+        ],
+        [
+          "R. Mark",
+          "Beattie"
+        ],
+        [
+          "J. E.",
+          "Swann"
+        ],
+        [
+          "Luise",
+          "Marino"
         ]
       ],
-      "journal": "Scientific Reports",
+      "journal": "Journal of Proteome Research",
       "year": "2026",
-      "abstract": "Assessing the correlation between urbanization and the supply-demand of ecosystem services (ESS) aids in driving the sustainable and high-quality regional development. Exploring the degree of coupling coordination among urbanization and the supply and demand of ESS, as well as their relevant driving factors holds significant theoretical and practical value. This study utilizes elevation, meteorological, NDVI, population density, nighttime light, and socio-economic data to quantify the supply-demand relationships of ESS and the comprehensive urbanization level (CUL). It analyzed the ESS supply-demand and CUL in Gansu Province during the 2002-2022 period, and used the coupling coordination degree (CCD) model to analyze their coupling coordination relationship at different scales. Finally, the geographic detector was applied to recognize the key driving factors that have an effect on CCD. The results indicate: (1) The supply-demand ratio (ESSDR) of water services and comprehensive ecosystem services (CESS) show an upward trend, while that of carbon services and soil services shows a downward trend, the change in habitat quality is not obvious. (2) CUL has increased and continues to rise, with regional development imbalances and a spatially scattered, point-like distribution pattern. (3) Overall, the CCD between CUL and ESSDR is low, with most regions in a state of imbalance, but the CCD level shows an overall upward trend. (4) In factor detection, socio-economic factors exhibit greater influence than natural factors, with population density has a relatively significant influence. In interaction detection, natural factors become the primary driving force, with NDVI showing a increase in influence when synergized with other factors.",
+      "abstract": "Growth failure in infants born preterm is a significant issue, increasing the risk of poorer neurodevelopmental outcomes and metabolic syndrome later in life. The aim of this study was to characterize patterns associated with urinary metabolites in extremely preterm and very preterm infants and to explore relationships with growth over time. Untargeted hydrogen-1 nuclear magnetic resonance (1H NMR) spectroscopy was used to characterize changes in urinary metabolites over time and explore relationships with growth and nutritional intake. Partial least-squares regression models were constructed to identify metabolic variation associated with age, growth, and nutrition. Biochemical aging differed between very (mean 29.4 weeks ± 1.08 gestational age; n = 21) and extremely (≤28 weeks gestational age; n = 33) preterm infants, but these differences were not apparent when urinary metabolites were aligned to postmenstrual age. Citrate was the only metabolite significantly positively associated with weight-for-age Z-score. At weeks 1 and 2, citrate was positively associated with gestational age and a greater increase in WAZ from birth to discharge. Biochemical aging aligned to chronological age differed between very and extremely preterm infants, but this variation was lost when aligned to postmenstrual age. Urinary citrate excretion in the first two weeks of life was associated with weight gain and may be a future modifiable biomarker to improve growth outcomes.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:recent"
       ],
       "category": "6 - Genes",
-      "subcollection": "PRPH2"
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41830639",
@@ -9326,40 +9813,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41723537",
-      "doi": "10.1186/s13048-026-02034-9",
-      "zotero_key": "5XS38R3R",
-      "title": "Lifestyle factors for polycystic ovary syndrome: a case-control study",
-      "authors": [
-        [
-          "Xiaona",
-          "Huo"
-        ],
-        [
-          "Han",
-          "Liu"
-        ],
-        [
-          "Min",
-          "Nian"
-        ],
-        [
-          "George",
-          "Zhang"
-        ]
-      ],
-      "journal": "Journal of Ovarian Research",
-      "year": "2026",
-      "abstract": "Lifestyle interventions have been proposed to be the first-line treatment for polycystic ovarian syndrome (PCOS), but our knowledge of PCOS-related lifestyle factors is still limited. This study aimed to explore PCOS-related lifestyle factors in reproductive-age women in China. A case-control study was carried out in Shandong, China, from June to October 2014. 350 PCOS-related infertile women were recruited as cases, while 308 women who were seeking the treatment of fallopian tube obstruction or assisted reproduction due to male infertility were recruited as controls. Several specific lifestyle and behavioral factors associated with EDC exposure were examined. Multivariate logistic regression analysis was used to estimate the odds ratios (ORs) and 95% confidence intervals (CI). There were no differences in socio-demographic characteristics, smoking, and alcohol consumption between the cases and controls. PCOS women had significantly more obesity than the controls (P < 0.01). After controlling for potential confounders, using foam or plastic cups at home (daily vs. never: adjusted odds ratio [aOR] 2.6, 95% confidence interval [CI] 1.4–4.5), using foam or plastic tableware at home (occasionally vs. never: aOR 1.7, 95% CI 1.2–2.5), eating melons and fruits without pericarp (for occasionally vs. always/often: aOR 1.6, 95% CI 1.0–2.5), drinking tap water vs. spring water/bottled water (aOR 1.5, 95% CI 1.1–2.2), cooking (daily vs. ≤ 1 time/week: aOR 1.8, 95% CI 1.2–2.8), contacting liquid detergent (1.5 to 3 h/week vs. < 1.5 h/week, aOR 2.5, 95% CI 1.3–4.9), and contacting soap or shampoo (3–6 vs. < 3 h/week, aOR 2.1, 95% CI 1.2–3.8) were significantly associated with PCOS. The association between mild cooking oil fumes and PCOS risk was attenuated after adjustment, but it remained borderline significant (aOR 1.4, 95% CI 0.97–1.9). Our study suggests that PCOS may be associated with certain lifestyle factors. Future prospective studies are needed to confirm our findings.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41839864",
       "doi": "10.1038/s41467-026-70425-z",
       "zotero_key": "3V95E5KS",
@@ -9438,6 +9891,36 @@
       "year": "2026",
       "abstract": "Mechanical computing represents a highly promising paradigm for environment-adaptive information processing. However, existing implementations are generally constrained by limited architectural scalability, and their modes of application in practical scenarios remain insufficiently defined. Here, we develop a light-programmable mechanical computing system that not only performs scalable logic operations but also enables environment-adaptive optical camouflage. The system is based on a polyaniline composite film (PCF) that integrates light-responsive expansion-contraction elements with a flexible conductive layer. Light illumination dynamically modulates the conductive pathways, giving rise to optically controlled single-pole single-throw (SPST) and single-pole double-throw (SPDT) relays that reconfigure signal transmission routes. Interconnecting these relays enables the construction of basic logic gates and 2-bit full-adder circuits, establishing a scalable paradigm for light-programmable mechanical computation. Moreover, we implement an adaptive camouflage function that senses environmental textures and generates matching optical patterns, demonstrating potential for intelligent skin applications capable of environmental interaction. This work establishes a light-programmable, pathway-reconfigurable mechanical computing framework, expanding possibilities for autonomous and adaptive intelligent systems.",
       "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41860142",
+      "doi": "10.1111/nph.70889",
+      "zotero_key": "QV7HDVUD",
+      "title": "Limitations of temporally linearized soil–water flux gradients in estimating root water uptake",
+      "authors": [
+        [
+          "Hang",
+          "Fu"
+        ],
+        [
+          "Bingcheng",
+          "Si"
+        ],
+        [
+          "W.",
+          "Zou"
+        ]
+      ],
+      "journal": "New Phytologist",
+      "year": "2026",
+      "abstract": "In a recent article, Rickard et al. (2025) proposed a novel approach to estimate root water uptake in field-grown plants by integrating soil moisture dynamics with root hydraulic traits. Their effort to bridge soil physical processes and plant hydraulic functioning represents a timely and important contribution to plant ecohydrology. Burks & Tumber-Dávila (2025) commented that this is a ‘promising framework for scaling spatiotemporal root water uptake estimations’, providing a simple and scalable approach to track root hydraulic adjustments under fluctuating soil moisture conditions. We fully acknowledge the innovation of using a soil–water mass balance framework to infer root water uptake in situ. This method offers a promising alternative to traditional tracer-based approaches and demonstrates how temporal changes in soil–water content can be quantitatively linked to root physiological responses. However, upon reviewing their derivation of root water uptake from soil–water balance equations, we identified a potentially important inconsistency in the approximation of spatial water flux gradients. Specifically, Eqn 3 in their paper appears to involve a conceptual inconsistency, as it approximates the spatial derivative of soil–water flux (∂Q/∂z) from its temporal variations. This implicitly assumes that ∂Q/∂z changes linearly with time at a given depth, an assumption that lacks clear physical justification under real soil conditions. Since this approximation directly informs the estimation of root water uptake (their Eqn 4) and further affects the calculation of root water potential and radial permeability (their Eqns 7, 8), any systematic error in ∂Q/∂z could bias the entire hydraulic inference framework. In this Correspondence article, we aim to clarify this issue, demonstrate its potential impact using numerical simulations, and discuss the implications for interpreting root water uptake from soil–water content time series. Rickard et al. (2025) derived the daytime root water uptake density (denoted as S) from the soil–water mass balance ∂ Θ ∂ t = − ∂ q ∂ z − S $$ \\left(\\frac{\\partial \\varTheta }{\\partial t}=-\\frac{\\partial q}{\\partial z}-S\\right) $$ , under the assumption that plant transpiration occurs only during the daytime and is negligible at night (Fig. 1). The derivation of Eqn 3 relies on the key assumption that the vertical water flux profile (∂Q/∂z) changes linearly over time (Eqn 2), implying temporal smoothness and continuity between the two consecutive nights and the intervening daytime period. The assumption for approximating ∂Q2/∂z (Eqn 2) may not hold in real field conditions. Soil–water profiles are often subject to abrupt changes caused by various boundary fluxes such as intense precipitation and evaporation, making the temporal variation of ∂Q/∂z highly nonlinear. As a result, the linear interpolation in Eqn 2 may introduce significant errors, especially during dynamic hydrological events. In Case 1, the MARE of Eqn 2 is 0.04 during the early non-steady evaporation phase (Fig. 2a). Once a steady-state evaporation regime was established, the MARE is drastically reduced to 0.001 (c. 40-fold reduction, Fig. 2a). This validates our hypothesis that the temporal linearization of ∂Q/∂z is only valid under steady-state conditions. By contrast, under field conditions where precipitation varies dynamically, the MARE of Eqn 2 in estimating ∂Q/∂z reaches 4.45. These rapid atmospheric variations induce nonlinear changes in soil–water fluxes, confirming that the linear approximating ∂Q/∂z using Eqn 2 can introduce substantial errors when soil–water dynamics deviate from steady-state. Additionally, error peaks coincide with precipitation events, indicating that Eqn 2 estimates are highly sensitive to rapid soil–water changes. This is expected, as rainfall amplifies temporal variation and violates the steady-state assumption of Eqn 2. Overall, while Eqn 2 may be suitable under controlled or steady-state conditions, it is inappropriate for real-world, nonstationary soil–plant–atmosphere systems with inherently nonlinear dynamics. Theoretically, transpiration rates estimated using Eqn 3 should fall between Tupper and Tlower (Eqns 5, 6). However, Rickard et al. (2025) frequently reported values outside these bounds, with 38.5% in grassland and 36.3% in wheat plots exceeding the physically plausible range, typically after rainfall events (Fig. 3). This strongly highlights substantial errors introduced by Eqn 2 under non-steady-state conditions, consistent with our simulations. Notably, as these bounds are already conservative, the actual proportion of implausible estimates may be even higher. In most cases, the vertical profile of root water uptake (S) is not known. Therefore, a nonparametric representation is preferred, as it does not assume any fixed functional form (shape free). This approach provides greater flexibility to capture complex or multimodal uptake patterns that cannot be adequately represented by simple analytical functions. By contrast, parametric representation assumes a predefined mathematical shape (such as an exponential decay), which can be applied when the actual uptake profile is relatively simple. For example, this is the case when root distribution is shallow and concentrated near the top-soil layer and soil–water availability is not strongly limiting. Eqn 8 also enables coupling with Bayesian inference, integrating the prior distribution of the sink term (e.g. parametric or nonparametric forms) with observed soil–water changes to infer the most likely root water uptake profile. Such approaches are conceptually similar to continuous isotope mixing models (Fu et al., 2024) but further incorporate soil–water mass balance constraints. We believe this offers a more rigorous and generalizable framework for quantifying in situ root water uptake, respecting soil–water physics and allowing probabilistic uncertainty quantification. In summary, while we fully acknowledge the scientific value and innovation of Rickard et al. (2025), we believe clarifying the mathematical foundations of their approach is warranted. Ensuring consistency between physical meaning, method limitations, and numerical approximations is essential for robust root water uptake estimation. We offer these remarks in the spirit of constructive dialogue and hope they support further refinement of integrated ecohydrological models and encourage broader collaborations to advance quantitative understanding of root–soil–water interactions. This research was supported by the National Key R & D Program of China (2022YFD1500100), the Outstanding Youth Fund of Heilongjiang Province (JQ2024D002), China Agriculture Research System of MOF and MARA (CARS04), National Natural Science Foundation of China (42507413). Special thanks to the Electronic Rothamsted Archive (e-RA) for providing the daily meteorological data of the Rothamsted site in Fig. 3. None declared. HF, BS and WZ designed the research; HF performed numerical simulation, analysis, and visualization and completed the initial draft; all authors participated in manuscript writing and editing. The MOIST source code is publicly available in Fu et al. (2025) (doi: 10.1029/2024WR037068). Field data used in this study are publicly available from Rickard et al. (2025) (doi: 10.1111/nph.70013) and Stumpp et al. (2012) (doi: 10.2136/vzj2011.0075). The New Phytologist Foundation remains neutral with regard to jurisdictional claims in maps and in any institutional affiliations.",
+      "cited_by_count": 1,
       "centrality": 0,
       "source_tags": [
         "source:recent"
@@ -9602,6 +10085,36 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41866985",
+      "doi": "10.1177/08977151261434917",
+      "zotero_key": "EEDJ5DTQ",
+      "title": "Low or Low-Normal Insulin-Like Growth Factor 1 After Traumatic Brain Injury: Interpretation and Implications",
+      "authors": [
+        [
+          "Varun",
+          "Mishra"
+        ],
+        [
+          "Melissa",
+          "Martínez"
+        ],
+        [
+          "Justin",
+          "Weppner"
+        ]
+      ],
+      "journal": "Journal of Neurotrauma",
+      "year": "2026",
+      "abstract": "Growth hormone deficiency (GHD) is a prevalent consequence of traumatic brain injury (TBI) that can contribute to prolonged adverse symptoms and impaired quality of life. The overlap between symptoms of GHD and chronic TBI complicates the clinical picture, highlighting the need for precise diagnostic tools. Insulin-like growth factor 1 (IGF-1), a key mediator of growth hormone (GH) activity, is frequently utilized as a surrogate marker of GH status. However, IGF-1 levels may be normal in patients with confirmed GHD. Furthermore, low or low-normal IGF-1 is not specific to GHD, and provocative testing is required to confirm GHD in most patients with suspected deficiency. To provide a pragmatic clinical framework for interpreting IGF-1 z-score z-scores improves diagnostic precision by standardizing IGF-1 levels for age and sex. Our framework aids clinicians in integrating thorough neuroendocrine evaluation with broader medical assessments, clinical considerations, and comorbidities, thereby improving diagnostic accuracy and patient management. Future research should emphasize refined screening protocols for neuroendocrine dysfunction in TBI.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "7614089",
       "doi": "",
       "zotero_key": "32RRMBUZ",
@@ -9728,28 +10241,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, Meesmann"
-    },
-    {
-      "pmid": "14780651",
-      "doi": "",
-      "zotero_key": "NB3TN2HQ",
-      "title": "Megalocornea-cataract.",
-      "authors": [
-        [
-          "TA",
-          "VOS"
-        ]
-      ],
-      "journal": "Ophthalmologica. Journal international d'ophtalmologie. International journal of ophthalmology. Zeitschrift fur Augenheilkunde",
-      "year": "1950",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Megalocornea"
     },
     {
       "pmid": "16141491",
@@ -10722,6 +11213,32 @@
       "subcollection": "Neurophysiologie oculaire, Ocular neurophysiology"
     },
     {
+      "pmid": "41874475",
+      "doi": "10.1002/epd2.70231",
+      "zotero_key": "C9SD5SXH",
+      "title": "Occipital spikes of the blind: Insights from EEG source localization",
+      "authors": [
+        [
+          "Agilda",
+          "Dema"
+        ],
+        [
+          "Douglas",
+          "Nordli"
+        ]
+      ],
+      "journal": "Epileptic Disorders",
+      "year": "2026",
+      "abstract": "“Occipital spikes of the blind” are a rare but striking EEG finding classically observed in individuals with blindness or severe visual impairment.1 Despite their sharp occipital morphology, their physiologic significance has remained uncertain, and they are often misclassified as epileptiform. We identified this pattern in a 4-year-old girl with cortical visual impairment from occipital encephalocele and applied modern EEG source localization to delineate its cortical origin. Averaged epochs revealed highly stereotyped occipital transients with surface positivity maximal at O1–O2 and a confined field distribution. Dipole modeling localized activity within the primary visual cortex with a confined posterior field and consistent cortical source. In this case, the combined scalp topography and source model support the interpretation that the observed discharges may represent non-epileptic, lesion-associated cortical hyperexcitability and/or adaptive reorganization following visual deafferentation. Recognition of this deceptive pattern may help avoid misclassification during presurgical evaluation for suspected occipital lobe epilepsy and underscores the importance of integrating clinical context, scalp topography, and source analysis in EEG interpretation. However, one case cannot determine whether similar sharply contoured occipital discharges in other blind children behave the same way or remain uniformly benign over time. Therefore, further investigation of additional patients with comparable findings, along with longitudinal follow-up into adolescence and adulthood, will be important to clarify the long-term clinical significance and relative benignity of such activity. More broadly, this case highlights the continuing need for expert oversight when distinguishing physiologic from epileptiform waveforms, particularly as AI-based spike detection and automated EEG interpretation become more widely adopted (Figure 1). The authors thank the patient and her family for their consent and support in publishing this report. The authors received no financial support for the research, authorship, and/or publication of this article. The authors declare no conflict of interest. Written informed consent was obtained from the patient's legal guardians for inclusion in this report. All identifying details have been omitted or anonymized to protect patient confidentiality. The data that support the findings of this study are available from the corresponding author upon reasonable request. Data S1: Data S2: Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article. 1. Which of the following best describes the cortical source of “occipital spikes of the blind”? 2. Which EEG characteristic most helps distinguish “occipital spikes of the blind” from epileptiform occipital spikes? 3. What is a likely underlying mechanism for occipital spikes of the blind? Answers may be found in the supporting information.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "10160423",
       "doi": "10.1097/00055735-199512000-00013",
       "zotero_key": "89PIGSUC",
@@ -10776,6 +11293,52 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Ocular imaging"
+    },
+    {
+      "pmid": "41872290",
+      "doi": "10.1038/s41598-026-44792-y",
+      "zotero_key": "XKX8XEP4",
+      "title": "Optimizing urban development through identification of urban fringe areas and construction of ecological security pattern",
+      "authors": [
+        [
+          "Yu",
+          "Zhong"
+        ],
+        [
+          "Xia",
+          "Zhu"
+        ],
+        [
+          "Tiange",
+          "Zhang"
+        ],
+        [
+          "Yuanping",
+          "Liu"
+        ],
+        [
+          "Hongpeng",
+          "Zhao"
+        ],
+        [
+          "Cui",
+          "Jia"
+        ],
+        [
+          "Jie",
+          "Cao"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Urban Fringe Areas (UFA) are ecological barriers for cities, and building an Ecological Security Pattern (ESP) in these areas can promote sustainable and high-quality development of the urban environment. This paper took Beijing as an example. It used road network data to divide the grid and trained a model to determine the scope of UFA. This makes the determination of urban fringe areas more accurate. Furthermore, this study proposes an innovative framework for identifying ecological sources, \"ecological sensitivity-ecological connectivity\" method, and the minimum cumulative resistance model to construct a detailed ESP in these areas. The findings indicated: (1) This paper used road network data to segment the grid, which overcame the drawbacks of the traditional method and improved accuracy and reliability. (2) The quantitative analysis method was employed to construct scientific labeling data, and the urban fringe areas determination model was built and worked well. The UFA of Beijing were mainly in Shunyi, Changping, Tongzhou, Daxing and Fangshan Districts. (3) Ecological sensitivity in Beijing's UFA was relatively dispersed. A total of 28 ecological sources were identified, covering an area of 31.35km2, mainly in the northwest and adjacent to mountainous areas. (4) There were 37 ecological corridors, densely distributed in the northern and southwestern parts of Beijing's UFA, indicating two distinct partitioned states. The ESP of Beijing's UFA requires further improvement. These findings provide critical insights for sustainable urban ecological development and the optimization of ESP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41378240",
@@ -10948,6 +11511,52 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41860748",
+      "doi": "10.1007/s10900-026-01563-0",
+      "zotero_key": "CJUHV842",
+      "title": "Patterns and Correlates of Co-occurring Smoking, Alcohol Use, Gambling, and High Internet Use Among University Students: A Cross-Sectional Study in Türkiye",
+      "authors": [
+        [
+          "Ahmet Burak",
+          "Avcu"
+        ],
+        [
+          "Sena Nur",
+          "Gundogdu"
+        ],
+        [
+          "Merve",
+          "SÜLÜ"
+        ],
+        [
+          "Cengiz Çağdaş",
+          "Kekilli"
+        ],
+        [
+          "G",
+          "Boz"
+        ],
+        [
+          "Ayşe",
+          "Baran"
+        ],
+        [
+          "Metin",
+          "Genç"
+        ]
+      ],
+      "journal": "Journal of Community Health",
+      "year": "2026",
+      "abstract": "University life may facilitate multiple addictive behaviors that tend to cluster rather than occur in isolation. The aim of this study was to estimate the prevalence and co-occurrence patterns of daily cigarette smoking, past-30-day alcohol use, gambling, and high daily internet use, and to evaluate their sociodemographic and behavioral associations among undergraduate students in Türkiye. This cross-sectional study was conducted at Inonu University (Malatya, Türkiye) between February-May 2024. Using stratified random sampling, n = 366 students were included. Outcomes were daily smoking, past-30-day alcohol use, past-year gambling, and high daily internet use (≥ 5 h/day). Analysis included UpSet framework for co-occurrence and logistic regression models. A Firth-penalized model assessed smoking factors. Prevalence was 39.1% for high internet use, 30.1% for daily smoking, 22.1% for gambling, and 7.7% for alcohol use. Overall, 59.0% reported at least one behavior, 27.6% reported ≥ 2, and 10.4% reported ≥ 3; the most common triple combination was high internet use, smoking, and gambling (6.3%). Male sex was associated with smoking (adjusted odds ratio [aOR] = 3.19) and gambling (aOR = 5.95). Smoking was independently associated with alcohol use (aOR = 5.34) and gambling (aOR = 2.25). High internet use was associated with highest family income (aOR = 2.81), alcohol (aOR = 2.54), and gambling (aOR = 2.73). Peer smoking showed an association with daily smoking (aOR = 17.25 for 2-3 friends vs. none). Risk behaviors are common and frequently cluster, particularly internet use, smoking, and gambling. These findings support integrated campus prevention and screening strategies that address multiple behaviors simultaneously rather than in isolation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41840420",
       "doi": "10.1186/s40359-026-04342-7",
       "zotero_key": "3K9JSVB9",
@@ -11060,6 +11669,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
+    },
+    {
+      "pmid": "41862278",
+      "doi": "10.1002/mdc3.70602",
+      "zotero_key": "2RBE98WX",
+      "title": "Perinatal Post‐Anoxic Spinal Cord Injury: A Barrier to Pallidal Neuromodulation? About 2 Cases",
+      "authors": [
+        [
+          "Marylou",
+          "Grasso"
+        ],
+        [
+          "Cassandra",
+          "Coelho"
+        ],
+        [
+          "Emilie",
+          "Chan‐Seng"
+        ],
+        [
+          "Philippe",
+          "Coubes"
+        ],
+        [
+          "Gaëtan",
+          "Poulen"
+        ]
+      ],
+      "journal": "Movement Disorders Clinical Practice",
+      "year": "2026",
+      "abstract": "Perinatal hypoxic–ischemic encephalopathy (HIE) is a leading cause of dystonia-dyskinesia syndromes (DDS) through cortical-striatal-thalamo-cortical network injury, resulting in persistent hyperkinetic motor disorders.1 Here, DDS refers to a persistent hyperkinetic phenotype dominated by dyskinesias and associated with dystonic phenomena, offering greater specificity than cerebral palsy while acknowledging areas of overlap. Deep brain stimulation of the internal globus pallidus (GPi-DBS) is increasingly proposed for severe, pharmacoresistant secondary dystonia, yet outcomes remain heterogeneous. Identifying predictors of DBS response is crucial to refine patient selection. Previous studies show that sensorimotor and corticospinal pathway integrity predicts GPi-DBS outcomes in acquired dystonia. In perinatal brain injury, preserved CMCTs were associated with better motor outcomes (P = 0.008), as well normal somatosensory evoked potentials (SEP) (P = 0.023). Combined abnormalities predicted the poorest outcomes (P = 0.017 and P = 0.002).2 Although perinatal hypoxia–ischemia predominantly affects the brain, spinal cord involvement has been described in both human and experimental models, including gray and white matter loss, neuronal degeneration, and corticospinal tract disruption.3 The impact of spinal magnetic resonance imaging (MRI) abnormalities, possibly reflecting Wallerian degeneration after perinatal injury, on DBS efficacy remains unexplored. We report 2 patients with HIE-related DDS who showed no clinical benefit from GPi-DBS, both exhibiting abnormal spinal MRI and electrophysiological findings (Fig. 1). A 21-year-old woman presented with generalized DDS with right predominance after perinatal anoxia, including hypertonia and dyskinesia, pyramidal signs, and spasticity. She underwent uncomplicated GPi-DBS at 14 years with optimal lead placement. Clinical scores (Burke Fahn Marsden's dystonia rating scale - motor BFMDRS-M, 67.5; Barry-Albright dystonia rating scale BADRS, 22) remained unchanged at 1 and 5 years. Brain MRI revealed typical anoxic changes with bilateral putaminal atrophy and hyperintensities. Spinal MRI demonstrated centromedullary T2 hyperintensities in the cervical cord. Motor evoked potentials (MEP) and SEPs were altered in all limbs. A 25-year-old woman with perinatal injury presented with generalized dystonia and dyskinesia without spasticity, characterized by slow athetoid movements, and underwent uncomplicated GPi-DBS at age 17, with optimal lead placement. BFMDRS-M (31.5) and BADRS (15) scores showed no improvement at 1 and 5 years. Brain MRI showed bilateral putaminal hyperintensities and atrophy, whereas spinal MRI revealed centromedullary T2 hyperintensities without atrophy. MEPs were normal, but SEPs were abnormal in the lower limbs. In both cases, the absence of motor improvement was associated with spinal cord abnormalities—structural (T2 hyperintensities) and/or functional (evoked potential alterations)—suggesting that spinal integrity may condition the motor response to pallidal stimulation. Spinal involvement after perinatal anoxia is well documented histologically but rarely explored clinically.4, 5 Spinal abnormalities long after perinatal injury likely reflect secondary degeneration of motor and sensory pathways, such as Wallerian degeneration, rather than primary cord lesions, and usually occur alongside cerebral damage rather than in isolation. Hypoxia-induced anterior horn and corticospinal pathway injury may cause persistent hypertonia and impaired inhibitory control, whereas disrupted sensory tracts could further compromise sensorimotor integration. These mechanisms could limit the capacity of GPi-DBS to modulate motor circuits effectively. Our observations suggest that abnormal spinal MRI or evoked potentials might represent negative prognostic markers for GPi-DBS efficacy in post-anoxic dystonia. Routine spinal imaging and neurophysiological evaluation should therefore be considered before surgery to identify patients unlikely to benefit. Further studies are warranted to determine the prevalence of spinal cord lesions after perinatal hypoxia and its correlation with DBS outcomes. Recognition of spinal lesions as potential contraindications could refine patient selection and avoid unnecessary surgical interventions in nonresponders. (1) Research project: A. Conception, B. Organization, C. Execution; (2) Analysis: A. Design, B. Execution, C. Review and critique; (3) Manuscript: A. Writing of the first draft, B. Review and critique. M.G.: 1B, 1C, 2B, 3A C.S.: 1C, 2C, 3B E.C.-S.: 1C, 2C, 3B P.C.: 1A, 2A, 2C, 3B G.P.: 1A, 2A, 2C, 3B Open access publication funding provided by COUPERIN CY26. Ethical Compliance Statement: The study was approved by the local Institutional Review Board of the University Medical Center of Montpellier. Written informed consent was obtained from all patients and/or caregivers. We confirm that we have read the journal's position on issues involved in ethical publication and affirm that this work is consistent with those guidelines. The data that support the findings of this study are available from the corresponding author upon reasonable request.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41528829",
@@ -11620,6 +12267,28 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
+    },
+    {
+      "pmid": "41872723",
+      "doi": "10.1097/j.jcrs.0000000000001918",
+      "zotero_key": "9DF7EHVM",
+      "title": "Real-world data on toxic anterior segment syndrome",
+      "authors": [
+        [
+          "Liliana",
+          "Werner"
+        ]
+      ],
+      "journal": "Journal of Cataract & Refractive Surgery",
+      "year": "2026",
+      "abstract": "An ounce of prevention is worth a pound of cure. —Benjamin Franklin Toxic anterior segment syndrome (TASS) is defined as a sterile postoperative inflammatory reaction caused by a noninfectious agent that gains access to the anterior segment.1 The toxic inflammatory process typically starts 12 to 48 hours after anterior segment surgery of any kind, is limited to the anterior segment of the eye, is always Gram stain and culture negative, and usually improves with steroid treatment. The primary differential diagnosis of TASS is infectious endophthalmitis. Studies demonstrate that TASS can be caused by different factors related to solutions used in conjunction with anterior segment surgery (eg, solutions containing preservatives used intraocularly), processing of surgical instruments, and intraocular devices implanted during surgery, among many others.1–5 The bulk of the literature available on TASS is represented by case series describing specific TASS outbreaks, as well as results from questionnaires issued from such outbreaks, which were submitted for analysis of possible causality.2–5 Large-scale, real-world data on TASS remain limited, especially from high-volume ambulatory surgical centers (ASCs). In this issue, a Correspondence by Wallerstein et al. (page 406) describes a retrospective study assessing the incidence of TASS across nonhospital ASCs in Canada. Data included 190 005 consecutive eyes from 109 121 patients. Refractive lens exchange (RLE) and cataract surgery procedures were performed by 172 surgeons across 54 surgical centers from January 2022 to April 2025, including sites contracted to perform publicly funded cataract surgery. TASS reporting followed standardized protocols, which were implemented across all facilities, with data extracted from a centralized electronic medical record and risk management system. A comprehensive survey was also sent to all surgeons requesting confirmation of any TASS case. At the time of the study analysis, 59 275 (54.32%) patients underwent immediate sequential bilateral cataract surgery or RLE, 22 020 (20.18%) had delayed sequential bilateral surgery, and 27 826 (25.50%) had unilateral surgery or were pending the second procedure. In this study, there were 10 confirmed TASS cases, observed in 9 patients (1 bilateral case), for an incidence of 5.3 cases per 100 000 eyes (0.0053%). They included 3 cases in eyes undergoing RLE, as well as 2 private and 5 public cataract cases, which were all managed successfully with intensive topical corticosteroids. The authors attributed the relatively low TASS rate to implementation of sterilization guidelines by the ASCRS, such as elimination of enzymatic detergents, use of distilled water during instrument reprocessing, and standardized autoclaving and maintenance routines.6,7 The aforementioned Correspondence correlates well with a recent study designed to identify trends in the reporting of TASS to the ASCRS TASS Task Force from 2012 to 2022.3 Data from 77 questionnaires (68 from the United States, 5 from Canada, and 1 each from Slovenia, Mexico, Colombia, and Malaysia) were analyzed in this study. The reporting centers performed 56 319 cataract surgeries and reported 539 cases of TASS during this period. Common practices associated with the TASS outbreaks in the surveys included reuse of single-use cannulas, phacoemulsification, and irrigation/aspiration tips; use of enzymatic cleaners; inadequate flushing of phacoemulsification and irrigation/aspiration handpieces; reuse of phacoemulsification tubing; use of preservative-containing intracameral anesthetic; and addition of antibiotics to a balanced salt solution. These data were compared with data from 2007 up to 2012 obtained in a similar manner.4,5 The comparison showed that the frequency of TASS outbreaks has dramatically decreased in the past decade (a 10-fold decrease of cases per year). Real-world data are defined as data relating to patient health status and/or the delivery of health care routinely collected from a variety of sources, such as electronic health records, medical claims, data from product or disease registries, and data gathered from other sources (eg, digital health technologies) that can inform on health status.8 These types of data keep gaining ground as a way to efficiently answer research questions relevant to patients outside of a formal clinical trial setting. It is important to keep in mind though that these are ultimately large-scale retrospective cohort studies, carrying therefore possible inherent limitations, such as lack of control groups, incomplete or absent data points, and selection bias, among others.8,9 However, in the context of an entity such as TASS, which can stem from multiple sources, tapping into significant amounts of existing clinical practice data may be a valuable tool to gain insight into rate trends. It is appropriate to remind readers that help assessing causes of TASS during outbreaks is still available through the ASCRS TASS Task Force. Recommended practices for cleaning and sterilizing intraocular surgical instruments were published in 2007 in this journal, and updated in 2018.6,7 They are also available in the ASCRS website, together with other TASS registry tools: a form for voluntary report to the U.S. Food and Drug Administration, an instrument reprocessing and product questionnaire, and a questionnaire focused on sterilization practices.10 Once completed, the questionnaires are sent to members of the Task Force, led by Nick Mamalis, MD, who will analyze the answers and provide a complete report with recommendations to the submitting center. Although pinpointing the exact cause(s) of TASS may be quite difficult or even not possible in many cases, going through the questionnaires still is an excellent exercise for practices to review and update their overall operating room protocols to current standards. It is noteworthy that the main “treatment” for TASS continues to be centered on prevention because once the toxic agent enters the eye and causes damage, there is little the clinician can do other than suppress the secondary inflammatory response.1 Therefore, promoting awareness of this condition and appropriate measures to prevent its occurrence was demonstrated to be the most important tool in decreasing TASS rates.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "10160419",
@@ -12248,6 +12917,64 @@
       "subcollection": "Posterior segment examination"
     },
     {
+      "pmid": "41874432",
+      "doi": "10.1093/gigascience/giag033",
+      "zotero_key": "J7DNUAK3",
+      "title": "SMIntegration: A Web Tool for Comprehensive Spatial Metabolomics and Transcriptomics Integrated Analysis and Visualization",
+      "authors": [
+        [
+          "Haoke",
+          "Deng"
+        ],
+        [
+          "Xiaolian",
+          "Ning"
+        ],
+        [
+          "Xun",
+          "Lin"
+        ],
+        [
+          "Liang",
+          "Zong"
+        ],
+        [
+          "shanqiao",
+          "zheng"
+        ],
+        [
+          "Yun",
+          "Zhao"
+        ],
+        [
+          "J",
+          "Wang"
+        ],
+        [
+          "L",
+          "Chen"
+        ],
+        [
+          "Jin",
+          "Zi"
+        ],
+        [
+          "Zhanlong",
+          "Mei"
+        ]
+      ],
+      "journal": "GigaScience",
+      "year": "2026",
+      "abstract": "Current tools for spatial omics analysis often face challenges in performing integrated transcriptomics and metabolomics analysis, in-depth biological interpretation, and user-friendly operation. To address this, we developed SMIntegration, the first web-based graphical platform designed specifically for integrated spatial metabolomics and transcriptomics analysis. Built with R/Shiny and deployed using Docker containerization, the platform provides a complete integration workflow, starting from pre-processed spatial features through to functional annotation. Its core functions include: (1) automated and interactive spatial registration; (2) cross-modal spatial pattern recognition; (3) flexible differential analysis of genes and mass features based on clustering results, user-defined regions, or cell type annotations; and (4) group-specific gene-metabolite network construction and interactive visualization. Using adjacent mouse brain coronal sections (Stereo-seq transcriptomics and AFADESI-MS metabolomics) as an example, SMIntegration successfully identified both the periaqueductal gray and subcommissural organ, which were missed by single-modality clustering. Cell type analysis revealed an association between astrocyte-enriched GABA metabolism and Slc6a11, while a comparison between the cornu ammonis region and the midbrain periaqueductal gray dissected glutamatergic and endogenous cannabinoid signaling pathway modules. With a zero-code interface, SMIntegration enables a wide range of researchers to deeply explore gene-metabolite interaction mechanisms within microenvironments during development, homeostasis, and disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "29859327",
       "doi": "10.1016/j.neulet.2018.05.043",
       "zotero_key": "PGWEGIFP",
@@ -12782,6 +13509,136 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Middle coat"
+    },
+    {
+      "pmid": "41862416",
+      "doi": "10.1002/wjs.70303",
+      "zotero_key": "H745UCVT",
+      "title": "Surgical Management of Zollinger‐Ellison Syndrome in Multiple Endocrine Neoplasia Type 1 an AFCE and GTE Cohort Study. (Association Francophone de Chirurgie Endocrinienne and Groupe d'étude des Tumeurs Endocrines)",
+      "authors": [
+        [
+          "Sébastien",
+          "Gaujoux"
+        ],
+        [
+          "F.",
+          "Pattou"
+        ],
+        [
+          "Guillaume",
+          "Cadiot"
+        ],
+        [
+          "M.",
+          "Adham"
+        ],
+        [
+          "Philippe",
+          "Bachellier"
+        ],
+        [
+          "J.P.",
+          "Bail"
+        ],
+        [
+          "Robert",
+          "Caiazzo"
+        ],
+        [
+          "Nicolas",
+          "Carrère"
+        ],
+        [
+          "P",
+          "Chaffanjon"
+        ],
+        [
+          "Sophie",
+          "Deguelte"
+        ],
+        [
+          "Gianluca",
+          "Donatini"
+        ],
+        [
+          "Bertrand",
+          "Dousset"
+        ],
+        [
+          "Matthieu",
+          "Faron"
+        ],
+        [
+          "Caroline",
+          "Gronnier"
+        ],
+        [
+          "Bruno",
+          "Heyd"
+        ],
+        [
+          "Jean‐Christophe",
+          "Lifante"
+        ],
+        [
+          "J.",
+          "Lubrano"
+        ],
+        [
+          "Nicolas",
+          "Meurisse"
+        ],
+        [
+          "Eric",
+          "Mirallié"
+        ],
+        [
+          "Nicolas",
+          "Santucci"
+        ],
+        [
+          "Alain",
+          "Sauvanet"
+        ],
+        [
+          "Frédéric",
+          "Sebag"
+        ],
+        [
+          "Laurent",
+          "Sulpice"
+        ],
+        [
+          "B.",
+          "Thebault"
+        ],
+        [
+          "J.‐J.",
+          "Tuech"
+        ],
+        [
+          "Thomas",
+          "Walter"
+        ],
+        [
+          "Christine",
+          "Binquet"
+        ],
+        [
+          "P.",
+          "Goudet"
+        ]
+      ],
+      "journal": "World Journal of Surgery",
+      "year": "2026",
+      "abstract": "The high rate of invaded nodes in lymphadenectomies in MEN1 patients operated for ZES, the absence of operative mortality, and the decreased survival in metastatic patients are indirect arguments for surgery. Pancreaticoduodenectomy may be indicated in young and fit individuals to better control hypergastrinemia and to prevent metastatic progression in the ZES group. Gastrinoma removal is justified when associated with large pNETs.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41834590",
@@ -13368,6 +14225,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41863175",
+      "doi": "10.2174/0109298673400943251203124438",
+      "zotero_key": "V7IIW2HP",
+      "title": "The Role of Antioxidants in Child Eye Health with a Focus on Myopia",
+      "authors": [
+        [
+          "Yermekova",
+          "Didara"
+        ],
+        [
+          "Yuliya",
+          "Semenova"
+        ],
+        [
+          "Geir",
+          "Bjørklund"
+        ]
+      ],
+      "journal": "Current Medicinal Chemistry",
+      "year": "2026",
+      "abstract": "The role of antioxidants in pediatric eye health remains an underexplored area, particularly in the prevention and management of refractive errors. According to the World Health Organization, refractive errors are the leading cause of visual impairment among children globally, with myopia being the most prevalent and significant contributor. Oxidative stress and ocular hypoxia are key factors in myopia development and progression. Vision impairment resulting from myopia and associated ocular diseases can have profound consequences, affecting educational performance, psychosocial development, and daily activities. Antioxidant supplementation has been proposed as a potential strategy to counteract the effects of reactive oxygen species and support ocular health. This literature review examines the therapeutic potential of antioxidants-vitamin A, vitamin D, lutein, crocetin, omega-3 fatty acids, zinc, copper, manganese, and selenium- in mitigating myopia progression. Despite their promising protective effects, the clinical impact of these supplements remains a subject of debate. While experimental studies have demonstrated beneficial outcomes, further large-scale randomized controlled trials are necessary to establish their efficacy and determine optimal dosing for clinical application.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "41460122",
@@ -14118,6 +15005,76 @@
       "subcollection": "BBS1"
     },
     {
+      "pmid": "41865060",
+      "doi": "10.1038/s41598-026-42552-6",
+      "zotero_key": "ZR3GEMAP",
+      "title": "Urine microscopy can identify cholemic nephropathy as a distinct form of kidney dysfunction in patients with acute on chronic liver failure",
+      "authors": [
+        [
+          "Rakhi",
+          "Maiwall"
+        ],
+        [
+          "Ashini",
+          "Hidam"
+        ],
+        [
+          "Gaurav",
+          "Tripathi"
+        ],
+        [
+          "Archana",
+          "Rastogi"
+        ],
+        [
+          "Deepanshu",
+          "Maheshwari"
+        ],
+        [
+          "Dhananjay",
+          "Kumar"
+        ],
+        [
+          "Jaswinder Singh",
+          "Maras"
+        ],
+        [
+          "Meenu",
+          "Bajpai"
+        ],
+        [
+          "Samba Siva Rao",
+          "Pasupulati"
+        ],
+        [
+          "Anupam",
+          "Kumar"
+        ],
+        [
+          "Vaishnavi",
+          "Rathi"
+        ],
+        [
+          "Richard",
+          "Moreau"
+        ],
+        [
+          "Shiv Kumar",
+          "Sarin"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Cholemic nephropathy(CN) is an unrecognized cause of kidney dysfunction in patients with acute on chronic liver failure (ACLF). We aimed to evaluate whether urine microscopy(UM) could identify CN in ACLF patients and differentiate from hepatorenal syndrome (HRS) and acute tubular necrosis (ATN). Forty-five patients with ACLF with AKI stratified based on UM as HRS(bland sediment; n = 15), CN(bilirubin crystals; n = 15) and ATN (coarse granular casts; n = 15) were compared to no AKI (n = 15). ACLF patients with mean age of 44 ± 10 years, 93% males were enrolled. Patients with HRS and CN showed significantly elevated biomarkers of renal repair (EGF, Osteopontin, calbindin) and lower levels of renal injury (renin, lipocalin-2, cystatin c, alpha-1 macroglobulin, albumin, TIMP-1, IP-10 and KIM-1) compared to ATN. CN patients had significantly elevated bile acids, proinflammatory cytokines (20 out of 29) compared to other groups. Metabolomic analysis of plasma and renal tubule epithelial cells (RTEC)identified 190 (151 up- and 39 downregulated) and 196 (61 up and 135-down) differentially expressed metabolites in biopsy-proven CN compared to ATN(FC > 1.5, P  22 mg/dl) or AARC score identified CN with more than 95% accuracy. Taken together, our study shows higher bile acids, preserved renal repair and lesser tubular injury despite intense systemic inflammation with preserved metabolic adaptation of the host differentiated CN from ATN.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41767322",
       "doi": "10.18240/ijo.2026.03.03",
       "zotero_key": "2JM3HNNR",
@@ -14389,6 +15346,32 @@
       "journal": "PubMed",
       "year": "2026",
       "abstract": "WD and tetratricopeptide repeats protein 1 (WDTC1) encodes a component of the cullin-RING E3 ligase complexes that mediate polyubiquitination of specific target proteins for degradation and has been shown to regulate lipid storage in studies performed in Drosophila, mice, and humans. WDTC1 is expressed in a wide variety of tissues and organs including the brain and is predicted to be loss-of-function intolerant. To determine the phenotypes associated with WDTC1 haploinsufficiency, we identified seven individuals, six of whom have not been previously reported, who are heterozygous for loss-of-function or putatively damaging missense variants in WDTC1. None of these individuals were reported to be obese, but all had neurodevelopmental phenotypes that included developmental delay and intellectual disability. Seizures were also recurrently reported. One loss-of-function variant was inherited from an affected mother, and one missense variant was inherited from an unaffected father. Our findings suggest that WDTC1 haploinsufficiency causes a neurodevelopmental syndrome characterized by variable developmental delay, intellectual disability, and seizures. The identification of additional patients with loss-of-function variants will be needed to identify recurrent patterns of less common phenotypes, determine with greater certainty if obesity is or is not a feature associated with this disorder, and confirm that this disorder is incompletely penetrant.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "41866043",
+      "doi": "10.1542/hpeds.2025-008878",
+      "zotero_key": "PVPDN3GI",
+      "title": "What’s Your Why: How Unnecessary Ordering Indications Lead to Inequities in Newborn Toxicology Testing",
+      "authors": [
+        [
+          "Gina",
+          "Liu"
+        ],
+        [
+          "Sharon",
+          "Ostfeld-Johns"
+        ]
+      ],
+      "journal": "Hospital Pediatrics",
+      "year": "2026",
+      "abstract": "Prenatal substance use affects many families in the United States and is associated with negative maternal and child outcomes.1,2 Newborn toxicology testing may be ordered for a variety of indications in the context of known or unknown prenatal substance use, including to guide clinical management, formulate safety assessments, or substantiate reports to child protective services (CPS).3 However, toxicology testing is not without harms, potentially deterring patients from seeking care, incurring costs from low-value testing, and carrying a risk of inaccurately interpreted results, including frequent false-positive results.3–5 Inequities in peripartum toxicology testing are common, with clinicians being more likely to order toxicology tests for patients who are Black, both mothers and newborns, and more likely to report Black families to CPS for the same testing results.6–8In this clinical environment, the new Hospital Pediatrics article by Costa et al describes a quality improvement (QI) project aimed at reducing these exact racial disparities in newborn toxicology testing practices.9 Having gathered data demonstrating that newborns of Black parents disproportionately experienced toxicology testing compared with newborns of white parents at their own institution, the study team created a new set of institutional guidelines that were implemented through a QI change package.We applaud the authors for their efforts to improve equity for Black families affected by parental substance use, given the multiple intersecting dimensions of stigmatization and marginalization faced by these families. One strength of their study was their multipronged approach to implementation. In addition to policy creation and clinician education, the team made use of higher-impact workflow change strategies, including use of an electronic health record order set and changes to clinical documentation templates. The team also brought together multidisciplinary perspectives encompassing pediatric and obstetric care, social work, and hospital leadership, which ensured representation of diverse perspectives during policy design and implementation buy-in across multiple settings.Within the year following implementation of their new practice patterns, they observed an increase in the rate of toxicology testing of Black newborns (5.2% to 9.9%) relative to white newborns (3.2% to 3.7%). They concluded, based on this result, that “health care systems that desire to eliminate health care inequity must reach beyond hospital policy changes to identify legislative, community, and other drivers that lead to such inequity in the first place.”9This commendable study was strongly grounded in multidisciplinary team alignment, clear-eyed and clearly stated goals with tangible benefits for families, and a robust QI approach, but the results must have been disappointing to the authors. From our vantage point, a pediatrics resident with clinical and qualitative research expertise in parent communication related to newborn toxicology testing and an internal medicine-pediatrics hospitalist with QI expertise in decreasing rates of and inequities in newborn toxicology testing, we have some ideas about why this project showed an outcome entirely counter to its goals.When considering newborn toxicology testing, having evidence-based and consistent indications for testing is a clear starting point. The authors do not describe in detail why the indications of “no prenatal care” or “prenatal care starting after 20 weeks” were chosen. It is well documented that rates of first-trimester presentation to prenatal care are lower for Black women than white women, because of factors including limited appointment accessibility, insurance or financial barriers, and discriminatory care.10–13 As a result, it can be be anticipated that using late or no prenatal care as an indication for newborn toxicology testing would disproportionately affect Black families. In this article, late prenatal care accounted for 21.9% of tests on Black newborns vs 8.0% of tests on white newborns, a statistically significant disproportionality (Table 1). Given the multifactorial reasons that a patient could present later to prenatal care, prenatal care timing is clinically low yield for detection of prenatal substance use and should not be included as a routine reason for newborn toxicology testing.14 In fact, the authors highlight evidence that reflects that when perinatal toxicology testing for limited prenatal care was eliminated (along with the indication for cannabis use only), it led to improved racial equity in testing and CPS reporting, decreased overall rates of CPS reporting, and did not result in changes in newborn outcomes after delivery.14 This collective evidence can empower providers to not test newborns for indications based on prenatal care timing, particularly if their goal is excellent, equitable care.Another indication for testing that was included for unclear reasons is “known maternal drug use.” The authors highlight ambiguity in the legal requirements in their state for when newborn toxicology testing is required, and that “many health systems operationalize state law by employing institutional policies that call for a newborn toxicology test to confirm PSE [prenatal substance exposure].”9 In a review of each state’s minimum legal requirements related to the Child Abuse Prevention and Treatment Act, Michigan does not require ordering toxicology testing for known PSE (only required by 4 states).15 Additionally, as Michigan does not require CPS reports for known use of medications for opioid use disorder (MOUD) during pregnancy, the use in the QI project of MOUD alone as an indication for newborn toxicology testing is also in excess of legal requirements. As such, infants would be observed for development of neonatal opioid withdrawal syndrome regardless of toxicology test results; such testing also does not aid in clinical management during the newborn hospitalization.The tension between clinical use of testing vs mandated reporting responsibilities is particularly highlighted in the authors’ findings regarding prenatal tetrahydrocannabinol (THC) exposure. Of the 55 additional tests performed in the postpolicy period relative to prepolicy levels, only 4 were positive for substances other than THC (Table 2). For Black newborns specifically, 18 of the 19 incremental positive results were positive for only THC. Given the limited evidence on the relationship between prenatal cannabis use and neonatal outcomes, these THC-only positive results are unlikely to change clinical management.16 Perinatal toxicology testing for cannabis use as a sole indication is also unlikely to reveal exposure to clinically actionable substances but carries the risk of false positives, and prenatal exposure to cannabis in isolation is not associated with increased risk of child maltreatment.5,17 Although Costa et al provide the context that their state CPS agency does require reporting for prenatal cannabis use, they thus identified elimination of testing for low-risk cannabis use as an important future target for decreasing low-use tests and decreasing racial disparities in testing.Another driver of racial inequity identified by the study team was differential rates of verbal screening for prenatal substance use, leading to racially disproportionate testing. Current evidence supports that parental history is positive for the majority of substance-exposed newborns, demonstrating that verbal screening can identify prenatal substance use, obviating the need for newborn toxicology testing.3,18 As a result, the study team implemented universal screening for parental substance use by pediatricians in the newborn setting as part of their project. This approach is consistent with current guidance, which recommends that all pediatricians screen for parental substance use, but there is a range of comfort among pediatricians with performing screening and ensuring appropriate referrals and social supports for positive screens.19 Although details on implementation and postpolicy rates of verbal screening, including if they used a validated screening questionnaire, were not included here, this aspect of the project is novel. Future studies describing the implementation of universal screening and qualitative evaluation of its acceptability would be useful for other institutions seeking to implement similar policies.Although this article focuses on universal changes to testing indications and verbal screening, it is also worth noting that some health care systems that have identified equity challenges take an approach of accountability and respond in a differential way to different patient groups.20 Such a differential approach has not yet been tried (to our knowledge) in the area of newborn toxicology testing. One way this might be put into action would be a real-time clinical decision support tool for providers when ordering a toxicology test on a minoritized patient that would provide information on the existing racial disparities in testing.Overall, Costa et al have made a significant contribution to the vitally important topic of improving equity for families affected by substance use. Their work describes the potential unintended consequences of QI efforts in inadvertently increasing racial disparities and, in doing so, has highlighted several potential avenues through which hospitals and health systems can improve newborn toxicology testing policies. Starting with the “why”—and only obtaining toxicology tests when they will answer a clinical question in an actionable way—is a must. Although teams caring for families affected by prenatal substance use must work within the constraints of larger sociolegal contexts, care teams are not powerless. Rather, the article serves as an important reminder of the impact of institutional policy and the importance of gathering data to assess the effect of policy changes on our ability to provide the most equitable and just care for all our patients.We acknowledge the strength of all patients and families affected by substance use and substance use disorder.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
