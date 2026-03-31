@@ -1,6 +1,1226 @@
 {
- "generated_at": "2026-03-30T08:32:15Z",
+ "generated_at": "2026-03-31T08:03:16Z",
  "additions": [
+  {
+   "pmid": "41904388",
+   "doi": "10.1186/s12879-026-12981-9",
+   "title": "Group-based trajectory modeling of blood pressure reactivity and mortality in septic patients: a retrospective study of the MIMIC-IV database",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:31:14Z"
+  },
+  {
+   "pmid": "41904396",
+   "doi": "10.1186/s12872-026-05798-6",
+   "title": "Predictive value of frontal QRS-T angle for no-reflow phenomenon in patients with acute coronary syndrome",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:31:14Z"
+  },
+  {
+   "pmid": "10393029",
+   "doi": "",
+   "title": "cGMP phosphodiesterase-alpha mutation causes progressive retinal atrophy in the Cardigan Welsh corgi dog.",
+   "year": "1999",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:42:52Z"
+  },
+  {
+   "pmid": "18775863",
+   "doi": "10.1167/iovs.08-2562",
+   "title": "Characterization of a Canine Model of Autosomal Recessive Retinitis Pigmentosa due to aPDE6AMutation",
+   "year": "2009",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:42:52Z"
+  },
+  {
+   "pmid": "17110911",
+   "doi": "",
+   "title": "Mutations in the gene encoding the alpha-subunit of rod phosphodiesterase in consanguineous Pakistani families.",
+   "year": "2006",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:42:52Z"
+  },
+  {
+   "pmid": "35033039",
+   "doi": "10.1186/s12886-021-02242-5",
+   "title": "Novel variants in PDE6A and PDE6B genes and its phenotypes in patients with retinitis pigmentosa in Chinese families",
+   "year": "2022",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:42:52Z"
+  },
+  {
+   "pmid": "30619975",
+   "doi": "10.1016/j.ajoc.2018.12.019",
+   "title": "Clinical findings of end-stage retinitis pigmentosa with a homozygous PDE6A variant (p.R653X)",
+   "year": "2018",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:42:52Z"
+  },
+  {
+   "pmid": "36910709",
+   "doi": "10.1016/j.omtn.2023.02.011",
+   "title": "In vivo base editing rescues photoreceptors in a mouse model of retinitis pigmentosa",
+   "year": "2023",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:43:46Z"
+  },
+  {
+   "pmid": "20394059",
+   "doi": "10.1002/cne.22322",
+   "title": "Progression of neuronal and synaptic remodeling in the rd10 mouse model of retinitis pigmentosa",
+   "year": "2010",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:43:46Z"
+  },
+  {
+   "pmid": "19887631",
+   "doi": "10.1073/pnas.0907720106",
+   "title": "A homologous genetic basis of the murine cpfl1 mutant and human achromatopsia linked to mutations in the PDE6C gene",
+   "year": "2009",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:44:05Z"
+  },
+  {
+   "pmid": "21127010",
+   "doi": "10.1093/hmg/ddq517",
+   "title": "Decreased catalytic activity and altered activation properties of PDE6C mutants associated with autosomal recessive achromatopsia",
+   "year": "2010",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:44:05Z"
+  },
+  {
+   "pmid": "39641747",
+   "doi": "10.1167/iovs.65.14.16",
+   "title": "Onset and Progression of Disease in Nonhuman Primates With PDE6C Cone Disorder",
+   "year": "2024",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:44:05Z"
+  },
+  {
+   "pmid": "9707115",
+   "doi": "10.1038/29004",
+   "title": "Pitx2 determines left–right asymmetry of internal organs in vertebrates",
+   "year": "1998",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "9708734",
+   "doi": "10.1016/s0092-8674(00)81475-0",
+   "title": "Pitx2 Participates in the Late Phase of the Pathway Controlling Left-Right Asymmetry",
+   "year": "1998",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "9708732",
+   "doi": "10.1016/s0092-8674(00)81473-7",
+   "title": "Pitx2, a Bicoid-Type Homeobox Gene, Is Involved in a Lefty-Signaling Pathway in Determination of Left-Right Asymmetry",
+   "year": "1998",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "9708733",
+   "doi": "10.1016/s0092-8674(00)81474-9",
+   "title": "The Transcription Factor Pitx2 Mediates Situs-Specific Morphogenesis in Response to Left-Right Asymmetric Signals",
+   "year": "1998",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "11222154",
+   "doi": "10.1242/dev.128.6.1005",
+   "title": "Differential expression and functional analysis of Pitx2 isoforms in regulation of heart looping in the chick",
+   "year": "2001",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "11807026",
+   "doi": "10.1242/dev.129.2.329",
+   "title": "Pitx2is required at multiple stages of pituitary organogenesis: pituitary primordium formation and cell specification",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "23953978",
+   "doi": "10.1016/j.tcm.2013.06.001",
+   "title": "Homeobox transcription factor Pitx2: The rise of an asymmetry gene in cardiogenesis and arrhythmogenesis",
+   "year": "2013",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "18339718",
+   "doi": "10.1210/en.2007-0425",
+   "title": "Paired-Like Homeodomain Transcription Factors 1 and 2 Regulate Follicle-Stimulating Hormone β-Subunit Transcription through a Conserved cis-Element",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "19174163",
+   "doi": "10.1016/j.febslet.2009.01.028",
+   "title": "Proteomic and genomic analysis of PITX2 interacting and regulating networks",
+   "year": "2009",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "9347917",
+   "doi": "10.1016/s0925-4773(97)00110-x",
+   "title": "Expression patterns of Brx1 (Rieg gene), Sonic hedgehog, Nkx2.2, Dlx1 and Arx during zona limitans intrathalamica and embryonic ventral lateral geniculate nuclear formation",
+   "year": "1997",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "9026314",
+   "doi": "10.1006/mcne.1996.0062",
+   "title": "Otlx2,anOtx-Related Homeobox Gene Expressed in the Pituitary Gland and in a Restricted Pattern in the Forebrain",
+   "year": "1996",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "11032870",
+   "doi": "10.1046/j.1471-4159.2000.0751818.x",
+   "title": "Analysis of Three Ptx2 Splice Variants on Transcriptional Activity and Differential Expression Pattern in the Brain",
+   "year": "2000",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "16958127",
+   "doi": "10.1002/dvdy.20924",
+   "title": "Pitx2c overexpression promotes cell proliferation and arrests differentiation in myoblasts",
+   "year": "2006",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "16835440",
+   "doi": "10.1242/dev.02470",
+   "title": "Conserved regulation and role ofPitx2in situs-specific morphogenesis of visceral organs",
+   "year": "2006",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "20129917",
+   "doi": "10.1074/jbc.m109.087429",
+   "title": "Pitx2-dependent Occupancy by Histone Deacetylases Is Associated with T-box Gene Regulation in Mammalian Abdominal Tissue",
+   "year": "2010",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "17166778",
+   "doi": "10.1016/j.modgep.2006.11.004",
+   "title": "Expression pattern of the homeodomain transcription factor Pitx2 during muscle development",
+   "year": "2006",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "12453462",
+   "doi": "10.1006/dbio.2002.0835",
+   "title": "Pitx2 Distinguishes Subtypes of Terminally Differentiated Neurons in the Developing Mouse Neuroepithelium",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "20019746",
+   "doi": "10.1038/cdd.2009.194",
+   "title": "Akt2-mediated phosphorylation of Pitx2 controls Ccnd1 mRNA decay during muscle cell differentiation",
+   "year": "2009",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "22860089",
+   "doi": "10.1371/journal.pone.0042228",
+   "title": "Loss of Abdominal Muscle in Pitx2 Mutants Associated with Altered Axial Specification of Lateral Plate Mesoderm",
+   "year": "2012",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "12173688",
+   "doi": "10.1080/ann.34.3.179.191",
+   "title": "Genetic defects in the development and function of the anterior pituitary gland",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "12441290",
+   "doi": "10.1242/dev.00192",
+   "title": "Pitx1andPitx2are required for development of hindlimb buds",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "15890066",
+   "doi": "10.1186/1471-2350-6-20",
+   "title": "Mutational analysis of the PITX2coding region revealed no common cause for transposition of the great arteries (dTGA)",
+   "year": "2005",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "18946986",
+   "doi": "10.1134/s1062359008020039",
+   "title": "Localization of the PITX2 gene expression in human eye cells in the course of prenatal development",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "15255117",
+   "doi": "10.1076/opge.25.1.57.29002",
+   "title": "A novel mutation in the PITX2 gene in a family with Axenfeld-Rieger syndrome",
+   "year": "2004",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "18312615",
+   "doi": "10.1186/1471-213x-8-25",
+   "title": "PITX2 gain-of-function induced defects in mouse forelimb development",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "18458156",
+   "doi": "10.1083/jcb.200711145",
+   "title": "Pitx2 is functionally important in the early stages of vascular smooth muscle cell differentiation",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "12223489",
+   "doi": "10.1074/jbc.m207824200",
+   "title": "Pitx Factors Are Involved in Basal and Hormone-regulated Activity of the Human Prolactin Promoter",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "12091315",
+   "doi": "10.1242/dev.129.14.3455",
+   "title": "The Foxh1-dependent autoregulatory enhancer controls the level of Nodal signals in the mouse embryo",
+   "year": "2002",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "11060236",
+   "doi": "10.1242/dev.127.23.5101",
+   "title": "Asymmetric Nodal signaling in the zebrafish diencephalon positions the pineal organ",
+   "year": "2000",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "14648844",
+   "doi": "10.1002/dvdy.10415",
+   "title": "Left–right asymmetric morphogenesis in the Xenopus digestive system",
+   "year": "2003",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "31185933",
+   "doi": "10.1186/s12881-019-0840-9",
+   "title": "A novel frameshift mutation in the PITX2 gene in a family with Axenfeld-Rieger syndrome using targeted exome sequencing",
+   "year": "2019",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:46:20Z"
+  },
+  {
+   "pmid": "17905480",
+   "doi": "10.1016/j.neurobiolaging.2007.08.014",
+   "title": "The transcription factor PITX3 is associated with sporadic Parkinson's disease",
+   "year": "2007",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "19345444",
+   "doi": "10.1016/j.neurobiolaging.2009.02.015",
+   "title": "Association of transcription factor polymorphisms PITX3 and EN1 with Parkinson's disease",
+   "year": "2009",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "17919745",
+   "doi": "10.1016/j.bbr.2007.08.032",
+   "title": "Phenotypic segregation of aphakia and Pitx3-null mutants reveals that Pitx3 deficiency increases consolidation of specific movement components",
+   "year": "2007",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "22309633",
+   "doi": "10.1111/j.1468-1331.2011.03644.x",
+   "title": "Decreased NURR1 and PITX3 gene expression in Chinese patients with Parkinson’s disease",
+   "year": "2012",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "18573342",
+   "doi": "10.1016/j.nbd.2008.05.017",
+   "title": "Impaired learning and memory in Pitx3 deficient aphakia mice: A genetic model for striatum-dependent cognitive symptoms in Parkinson's disease",
+   "year": "2008",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "24480473",
+   "doi": "10.1016/j.brainres.2014.01.023",
+   "title": "Pitx3 deficient mice as a genetic animal model of co-morbid depressive disorder and parkinsonism",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "21524731",
+   "doi": "10.1016/j.brainres.2011.03.064",
+   "title": "PITX3 gene polymorphism is associated with Parkinson's disease in Chinese population",
+   "year": "2011",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "17540357",
+   "doi": "10.1016/j.ydbio.2007.04.034",
+   "title": "Sequential expression and redundancy of Pitx2 and Pitx3 genes during muscle development",
+   "year": "2007",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "26477573",
+   "doi": "10.1007/s10519-015-9753-3",
+   "title": "Neurobehavioral Anomalies in the Pitx3/ak Murine Model of Parkinson’s Disease and MPTP",
+   "year": "2015",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "24680684",
+   "doi": "10.1016/j.bbrc.2014.03.085",
+   "title": "Impaired motor coordination in Pitx3 overexpression mice",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "26755703",
+   "doi": "10.1242/dev.126748",
+   "title": "Differences in the spatiotemporal expression and epistatic gene regulation of the mesodiencephalic dopaminergic precursor markerPITX3during chicken and mouse development",
+   "year": "2016",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "21865882",
+   "doi": "10.1097/nen.0b013e31822830e5",
+   "title": "Signaling of Glial Cell Line-Derived Neurotrophic Factor and Its Receptor GFRα1 Induce Nurr1 and Pitx3 to Promote Survival of Grafted Midbrain-Derived Neural Stem Cells in a Rat Model of Parkinson Disease",
+   "year": "2011",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "24394914",
+   "doi": "10.1016/j.neulet.2013.12.054",
+   "title": "Association between PITX3 promoter polymorphism and risk of Parkinson's disease: The impact of ethnicity and onset age",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "24749075",
+   "doi": "10.1016/j.stemcr.2014.03.001",
+   "title": "Detailed Analysis of the Genetic and Epigenetic Signatures of iPSC-Derived Mesodiencephalic Dopaminergic Neurons",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "16190884",
+   "doi": "10.1111/j.1460-9568.2005.04327.x",
+   "title": "Differential expression of the homeobox gene Pitx3 in midbrain dopaminergic neurons",
+   "year": "2005",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "28685157",
+   "doi": "10.1038/s41531-017-0022-4",
+   "title": "Embryonic development of selectively vulnerable neurons in Parkinson’s disease",
+   "year": "2017",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "28133444",
+   "doi": "10.3389/fnmol.2016.00166",
+   "title": "Mest/Peg1 Is Essential for the Development and Maintenance of a SNc Neuronal Subset",
+   "year": "2017",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "24525476",
+   "doi": "10.1159/000353981",
+   "title": "&lt;b&gt;&lt;i&gt;PITX3&lt;/i&gt;&lt;/b&gt; and Risk for Parkinson's Disease: A Systematic Review and Meta-Analysis",
+   "year": "2013",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:49:41Z"
+  },
+  {
+   "pmid": "31387336",
+   "doi": "10.3390/cells8080841",
+   "title": "Poc1B and Sas-6 Function Together during the Atypical Centriole Formation in Drosophila melanogaster",
+   "year": "2019",
+   "subcollection": "POC1B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:51:25Z"
+  },
+  {
+   "pmid": "41904130",
+   "doi": "10.1038/s41467-026-70836-y",
+   "title": "Predictive patterning via solid-state dewetting of transferred single-crystal films",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:52:07Z"
+  },
+  {
+   "pmid": "41902880",
+   "doi": "10.1007/s40199-026-00600-6",
+   "title": "Chemical profiling and biological activities of the medicinal macrofungus Coriolopsis gallica: volatile, non-volatile, and fatty acid composition with antioxidant and in silico–supported anti-inflammatory properties",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:52:07Z"
+  },
+  {
+   "pmid": "41904573",
+   "doi": "10.1186/s13690-026-01905-3",
+   "title": "Bayesian multilevel analysis of multimorbidity among women in Somalia: prevalence, patterns, and determinants",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:52:07Z"
+  },
+  {
+   "pmid": "41904369",
+   "doi": "10.1186/s12864-026-12756-1",
+   "title": "Lineage-specific expansion and positive selection of NPC2 genes in the crab spider Ebrechtella tricuspidata and other arachnids",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:52:07Z"
+  },
+  {
+   "pmid": "41904215",
+   "doi": "10.1038/s41525-026-00557-0",
+   "title": "A novel phenotype-guided genome analysis pipeline for variant discovery",
+   "year": "2026",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:55:48Z"
+  },
+  {
+   "pmid": "41902999",
+   "doi": "10.1007/s10384-026-01337-0",
+   "title": "Longitudinal evaluation of peripheral photoreceptor atrophy in fundus albipunctatus",
+   "year": "2026",
+   "subcollection": "SAG",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:56:07Z"
+  },
+  {
+   "pmid": "41902795",
+   "doi": "10.1080/15376516.2026.2627917",
+   "title": "Quercetin attenuates ox-LDL-induced endothelial injury by regulating ferroptosis via the SIRT3/AMPK signaling pathway",
+   "year": "2026",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-03-31T07:57:02Z"
+  },
+  {
+   "pmid": "28824374",
+   "doi": "10.3389/fnmol.2017.00243",
+   "title": "Chromatin Remodeling BAF (SWI/SNF) Complexes in Neural Development and Disorders",
+   "year": "2017",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "39412992",
+   "doi": "10.1016/j.celrep.2024.114877",
+   "title": "Activity-assembled nBAF complex mediates rapid immediate early gene transcription by regulating RNA polymerase II productive elongation",
+   "year": "2024",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "39235627",
+   "doi": "10.1007/s00294-024-01300-x",
+   "title": "Transcriptional activation domains interact with ATPase subunits of yeast chromatin remodelling complexes SWI/SNF, RSC and INO80",
+   "year": "2024",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10361278",
+   "doi": "10.1046/j.1365-2958.1999.01390.x",
+   "title": "The product of the SNF2/SWI2 paralogue INO80 of Saccharomyces cerevisiae required for efficient expression of various yeast structural genes is part of a high‐molecular‐weight protein complex",
+   "year": "1999",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "23785148",
+   "doi": "10.1523/jneurosci.1258-13.2013",
+   "title": "Kinetic Analysis of npBAF to nBAF Switching Reveals Exchange of SS18 with CREST and Integration with Neural Developmental Pathways",
+   "year": "2013",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "24402584",
+   "doi": "10.1534/g3.113.009852",
+   "title": "Caenorhabditis elegans SWI/SNF Subunits Control Sequential Developmental Stages in the Somatic Gonad",
+   "year": "2014",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "21810178",
+   "doi": "10.1111/j.1742-4658.2011.08281.x",
+   "title": "Mechanisms for ATP‐dependent chromatin remodelling: the means to the end",
+   "year": "2011",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "32694869",
+   "doi": "10.1038/s41436-020-0898-y",
+   "title": "De novo SMARCA2 variants clustered outside the helicase domain cause a new recognizable syndrome with intellectual disability and blepharophimosis distinct from Nicolaides–Baraitser syndrome",
+   "year": "2020",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "9435219",
+   "doi": "10.1073/pnas.95.2.492",
+   "title": "Architectural DNA binding by a high-mobility-group/kinesin-like subunit in mammalian SWI/SNF-related complexes",
+   "year": "1998",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "9799253",
+   "doi": "10.1093/genetics/150.3.987",
+   "title": "Sth1p, a Saccharomyces cerevisiae Snf2p/Swi2p Homolog, Is an Essential ATPase in RSC and Differs From Snf/Swi in Its Interactions With Histones and Chromatin-Associated Proteins",
+   "year": "1998",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8804307",
+   "doi": "10.1101/gad.10.17.2117",
+   "title": "Diversity and specialization of mammalian SWI/SNF complexes.",
+   "year": "1996",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8232556",
+   "doi": "10.1038/366170a0",
+   "title": "BRG1 contains a conserved domain of the SWI2/SNF2 family necessary for normal mitotic growth and transcription",
+   "year": "1993",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1339306",
+   "doi": "10.1016/0092-8674(92)90192-f",
+   "title": "Characterization of the yeast SWI1, SWI2, and SWI3 genes, which encode a global activator of transcription",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1360703",
+   "doi": "10.1126/science.1360703",
+   "title": "Roles of SWI1, SWI2, and SWI3 Proteins for Transcriptional Enhancement by Steroid Receptors",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "31081214",
+   "doi": "10.1111/mmi.14272",
+   "title": "Snf2 controls pulcherriminic acid biosynthesis and antifungal activity of the biocontrol yeast Metschnikowia pulcherrima",
+   "year": "2019",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8127913",
+   "doi": "10.1073/pnas.91.5.1950",
+   "title": "A multisubunit complex containing the SWI1/ADR6,SWI2/SNF2, SWI3, SNF5, and SNF6 gene products isolated fromyeast.",
+   "year": "1994",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10725359",
+   "doi": "10.1073/pnas.97.7.3364",
+   "title": "Whole-genome expression analysis of snf/swi mutants of Saccharomyces cerevisiae",
+   "year": "2000",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10601972",
+   "doi": "10.1677/jme.0.0230255",
+   "title": "Nuclear receptors: coactivators, corepressors and chromatin remodeling in the control of transcription",
+   "year": "1999",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10733587",
+   "doi": "10.1128/mcb.20.8.2839-2851.2000",
+   "title": "Mammalian SWI-SNF Complexes Contribute to Activation of the hsp70 Gene",
+   "year": "2000",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "7623818",
+   "doi": "10.1128/mcb.15.8.4240",
+   "title": "SNF11, a New Component of the Yeast SNF-SWI Complex That Interacts with a Conserved Region of SNF2",
+   "year": "1995",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "18805831",
+   "doi": "10.1136/jmg.2008.060095",
+   "title": "Schimke immuno-osseous dysplasia: SMARCAL1 loss-of-function and phenotypic correlation",
+   "year": "2008",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1508678",
+   "doi": "10.1093/nar/20.15.3925",
+   "title": "Molecular cloning of RAD16, a gene involved in differential repair inSaccharomyces cerevisiae",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1549132",
+   "doi": "10.1128/mcb.12.4.1893",
+   "title": "An essential Saccharomyces cerevisiae gene homologous to SNF2 encodes a helicase-related protein in a new family.",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1626430",
+   "doi": "10.1002/yea.320080506",
+   "title": "Identification of RAD 16, a yeast excision repair gene homologous to the recombinational repair gene RAD 54 and to the SNF2 gene involved in transcriptioal activation",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "9151708",
+   "doi": "10.1084/jem.185.10.1827",
+   "title": "A New Mouse Gene, SRG3, Related to the SWI3 of Saccharomyces cerevisiae, Is Required for Apoptosis Induced by Glucocorticoids in a Thymoma Cell Line",
+   "year": "1997",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10336627",
+   "doi": "10.1046/j.1432-1327.1999.00379.x",
+   "title": "Characterization of a chromatin remodelling activity in Xenopus oocytes",
+   "year": "1999",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1459453",
+   "doi": "10.1101/gad.6.12a.2288",
+   "title": "Evidence that SNF2/SWI2 and SNF5 activate transcription in yeast by altering chromatin structure.",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1516829",
+   "doi": "10.1101/gad.6.9.1707",
+   "title": "Yeast SNF2/SWI2, SNF5, and SNF6 proteins function coordinately with the gene-specific transcriptional activators GAL4 and Bicoid.",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "18809673",
+   "doi": "10.1074/jbc.m806061200",
+   "title": "BRD7, a Novel PBAF-specific SWI/SNF Subunit, Is Required for Target Gene Activation and Repression in Embryonic Stem Cells",
+   "year": "2008",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "7908117",
+   "doi": "10.1128/mcb.14.4.2225",
+   "title": "Identification and characterization of Drosophila relatives of the yeast transcriptional activator SNF2/SWI2.",
+   "year": "1994",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "3540598",
+   "doi": "10.1128/mcb.6.11.3643",
+   "title": "Molecular analysis of SNF2 and SNF5, genes required for expression of glucose-repressible genes in Saccharomyces cerevisiae.",
+   "year": "1986",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "17688423",
+   "doi": "10.1042/bj20070449",
+   "title": "DGA1 (diacylglycerol acyltransferase gene) overexpression and leucine biosynthesis significantly increase lipid accumulation in the Δsnf2 disruptant of Saccharomyces cerevisiae",
+   "year": "2007",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "10801781",
+   "doi": "10.1074/jbc.m000056200",
+   "title": "Interaction between RNA Polymerase and RapA, a Bacterial Homolog of the SWI/SNF Protein Family",
+   "year": "2000",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "14670975",
+   "doi": "10.1074/jbc.m310849200",
+   "title": "A Short-range Gradient of Histone H3 Acetylation and Tup1p Redistribution at the Promoter of the Saccharomyces cerevisiae SUC2 Gene",
+   "year": "2004",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "9335585",
+   "doi": "10.1093/genetics/147.2.451",
+   "title": "Essential Functional Interactions of SAGA, a Saccharomyces cerevisiae Complex of Spt, Ada, and Gcn5 Proteins, With the Snf/Swi and Srb/Mediator Complexes",
+   "year": "1997",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1901413",
+   "doi": "10.1073/pnas.88.7.2687",
+   "title": "Functional interdependence of the yeast SNF2, SNF5, and SNF6 proteins in transcriptional activation.",
+   "year": "1991",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8417358",
+   "doi": "10.1128/mcb.13.1.638",
+   "title": "Roles of multiple glucose transporters in Saccharomyces cerevisiae.",
+   "year": "1993",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1648006",
+   "doi": "10.1093/genetics/128.1.69",
+   "title": "The SNF2, SNF5 and SNF6 genes are required for Ty transcription in Saccharomyces cerevisiae.",
+   "year": "1991",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "3547080",
+   "doi": "10.1128/mcb.7.2.672",
+   "title": "SSN20 is an essential gene with mutant alleles that suppress defects in SUC2 transcription in Saccharomyces cerevisiae.",
+   "year": "1987",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8224817",
+   "doi": "10.1093/genetics/135.1.17",
+   "title": "Molecular and genetic analysis of the SNF7 gene in Saccharomyces cerevisiae.",
+   "year": "1993",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "23002104",
+   "doi": "10.1128/ec.00210-12",
+   "title": "The SWI/SNF KlSnf2 Subunit Controls the Glucose Signaling Pathway To Coordinate Glycolysis and Glucose Transport in Kluyveromyces lactis",
+   "year": "2012",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "3049551",
+   "doi": "10.1128/jb.170.10.4838-4845.1988",
+   "title": "High-affinity glucose transport in Saccharomyces cerevisiae is under general glucose repression control",
+   "year": "1988",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "2188093",
+   "doi": "10.1128/mcb.10.6.2544",
+   "title": "SNF6 encodes a nuclear protein that is required for expression of many genes in Saccharomyces cerevisiae.",
+   "year": "1990",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1886612",
+   "doi": "10.1007/bf00282476",
+   "title": "The GAM1/SNF2 gene of Saccharomyces cerevisiae encodes a highly charged nuclear protein required for transcription of the STA1 gene",
+   "year": "1991",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "2540420",
+   "doi": "10.1128/mcb.9.2.484-491.1989",
+   "title": "Control of the Saccharomyces cerevisiae Regulatory Gene PET494: Transcriptional Repression by Glucose and Translational Induction by Oxygen",
+   "year": "1989",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "2407604",
+   "doi": "10.1093/genetics/124.1.39",
+   "title": "Consequences of growth media, gene copy number, and regulatory mutations on the expression of the PRB1 gene of Saccharomyces cerevisiae.",
+   "year": "1990",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "15093770",
+   "doi": "10.1016/j.femsyr.2004.01.009",
+   "title": "Swi1p and Snf2p are essential for methanol utilisation",
+   "year": "2004",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "20025509",
+   "doi": "10.1089/hyb.2009.0041",
+   "title": "Production of a Rat Monoclonal Antibody Against Brg1",
+   "year": "2009",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "1561836",
+   "doi": "10.1002/yea.320080208",
+   "title": "Identification of a Saccharomyces cerevisiae homolog of the SNF2 transcrioptional regulator in the DNA sequence of an 8·6 kb region in the LTE1‐CYS1 interval on the left arm of chormosome I",
+   "year": "1992",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8322516",
+   "doi": "10.1002/yea.320090510",
+   "title": "Genes required for derepression of an extracellular glucoamylase gene, STA2, in the yeast Saccharomyces",
+   "year": "1993",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "7785322",
+   "doi": "10.1002/yea.320110304",
+   "title": "Molecular analysis of the SNF8 gene of Saccharomyces cerevisiae",
+   "year": "1995",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "8458575",
+   "doi": "10.1101/gad.7.4.583",
+   "title": "The yeast SNF2/SWI2 protein has DNA-stimulated ATPase activity required for transcriptional activation.",
+   "year": "1993",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
+  {
+   "pmid": "7862161",
+   "doi": "10.1128/mcb.15.3.1698",
+   "title": "HPR1 Encodes a Global Positive Regulator of Transcription in Saccharomyces cerevisiae",
+   "year": "1995",
+   "subcollection": "SMARCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-03-31T07:57:37Z"
+  },
   {
    "pmid": "41902395",
    "doi": "10.1002/mdc3.70608",
@@ -22702,16 +23922,6 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "23953978",
-   "doi": "10.1016/j.tcm.2013.06.001",
-   "title": "Homeobox transcription factor Pitx2: The rise of an asymmetry gene in cardiogenesis and arrhythmogenesis",
-   "year": "2013",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "16879162",
    "doi": "10.1111/j.1365-2826.2006.01461.x",
    "title": "Pituitary Transcription Factors: From Congenital Deficiencies to Gene Therapy",
@@ -22726,16 +23936,6 @@
    "doi": "10.1182/blood-2005-02-0529",
    "title": "Expression of Pitx2 in stromal cells is required for normal hematopoiesis",
    "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16958127",
-   "doi": "10.1002/dvdy.20924",
-   "title": "Pitx2c overexpression promotes cell proliferation and arrests differentiation in myoblasts",
-   "year": "2006",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -22776,16 +23976,6 @@
    "doi": "10.1006/dbio.2000.9950",
    "title": "The Pitx2 Homeobox Protein Is Required Early for Endoderm Formation and Nodal Signaling",
    "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12441290",
-   "doi": "10.1242/dev.00192",
-   "title": "Pitx1andPitx2are required for development of hindlimb buds",
-   "year": "2002",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -22876,16 +24066,6 @@
    "doi": "10.1167/iovs.08-2950",
    "title": "An Altered Phenotype in a Conditional Knockout of Pitx2 in Extraocular Muscle",
    "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "14648844",
-   "doi": "10.1002/dvdy.10415",
-   "title": "Left–right asymmetric morphogenesis in the Xenopus digestive system",
-   "year": "2003",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -23012,40 +24192,10 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "12453462",
-   "doi": "10.1006/dbio.2002.0835",
-   "title": "Pitx2 Distinguishes Subtypes of Terminally Differentiated Neurons in the Developing Mouse Neuroepithelium",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18339718",
-   "doi": "10.1210/en.2007-0425",
-   "title": "Paired-Like Homeodomain Transcription Factors 1 and 2 Regulate Follicle-Stimulating Hormone β-Subunit Transcription through a Conserved cis-Element",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "38802693",
    "doi": "10.1007/s10528-024-10836-z",
    "title": "In Silico Characterization of Pathogenic Homeodomain Missense Mutations in the PITX2 Gene",
    "year": "2024",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11807026",
-   "doi": "10.1242/dev.129.2.329",
-   "title": "Pitx2is required at multiple stages of pituitary organogenesis: pituitary primordium formation and cell specification",
-   "year": "2002",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -23082,16 +24232,6 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "19174163",
-   "doi": "10.1016/j.febslet.2009.01.028",
-   "title": "Proteomic and genomic analysis of PITX2 interacting and regulating networks",
-   "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "27009473",
    "doi": "10.1111/aos.13030",
    "title": "Novel PITX2 gene mutations in patients with Axenfeld‐Rieger syndrome",
@@ -23102,30 +24242,10 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "22860089",
-   "doi": "10.1371/journal.pone.0042228",
-   "title": "Loss of Abdominal Muscle in Pitx2 Mutants Associated with Altered Axial Specification of Lateral Plate Mesoderm",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "12612071",
    "doi": "10.1128/mcb.23.6.1968-1982.2003",
    "title": "Dominant Negative Dimerization of a Mutant Homeodomain Protein in Axenfeld-Rieger Syndrome",
    "year": "2003",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11060236",
-   "doi": "10.1242/dev.127.23.5101",
-   "title": "Asymmetric Nodal signaling in the zebrafish diencephalon positions the pineal organ",
-   "year": "2000",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -23196,16 +24316,6 @@
    "doi": "10.1002/dvdy.22033",
    "title": "Signaling “cross‐talk” is integrated by transcription factors in the development of the anterior segment in the eye",
    "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12091315",
-   "doi": "10.1242/dev.129.14.3455",
-   "title": "The Foxh1-dependent autoregulatory enhancer controls the level of Nodal signals in the mouse embryo",
-   "year": "2002",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -23302,16 +24412,6 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "17166778",
-   "doi": "10.1016/j.modgep.2006.11.004",
-   "title": "Expression pattern of the homeodomain transcription factor Pitx2 during muscle development",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "25893250",
    "doi": "10.1371/journal.pone.0124409",
    "title": "PITX2 Loss-of-Function Mutation Contributes to Congenital Endocardial Cushion Defect and Axenfeld-Rieger Syndrome",
@@ -23336,16 +24436,6 @@
    "doi": "",
    "title": "Effect of PITX2 knockdown on transcriptome of primary human trabecular meshwork cell cultures.",
    "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12173688",
-   "doi": "10.1080/ann.34.3.179.191",
-   "title": "Genetic defects in the development and function of the anterior pituitary gland",
-   "year": "2002",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -23422,16 +24512,6 @@
    "uploaded_at": "2026-03-06T07:08:02Z"
   },
   {
-   "pmid": "18458156",
-   "doi": "10.1083/jcb.200711145",
-   "title": "Pitx2 is functionally important in the early stages of vascular smooth muscle cell differentiation",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
    "pmid": "11003663",
    "doi": "10.1128/mcb.20.20.7673-7684.2000",
    "title": "Reprogrammable Recognition Codes in Bicoid Homeodomain-DNA Interaction",
@@ -23486,16 +24566,6 @@
    "doi": "10.1242/dev.127.22.4787",
    "title": "Zic3 is involved in the left-right specification of the Xenopus embryo",
    "year": "2000",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20129917",
-   "doi": "10.1074/jbc.m109.087429",
-   "title": "Pitx2-dependent Occupancy by Histone Deacetylases Is Associated with T-box Gene Regulation in Mammalian Abdominal Tissue",
-   "year": "2010",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -24022,16 +25092,6 @@
    "uploaded_at": "2026-03-06T07:23:08Z"
   },
   {
-   "pmid": "24680684",
-   "doi": "10.1016/j.bbrc.2014.03.085",
-   "title": "Impaired motor coordination in Pitx3 overexpression mice",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
    "pmid": "25150543",
    "doi": "10.1037/bne0000016",
    "title": "L-dopa reverses behavioral deficits in the Pitx3 mouse fetus.",
@@ -24082,36 +25142,6 @@
    "uploaded_at": "2026-03-06T07:23:08Z"
   },
   {
-   "pmid": "24480473",
-   "doi": "10.1016/j.brainres.2014.01.023",
-   "title": "Pitx3 deficient mice as a genetic animal model of co-morbid depressive disorder and parkinsonism",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "24394914",
-   "doi": "10.1016/j.neulet.2013.12.054",
-   "title": "Association between PITX3 promoter polymorphism and risk of Parkinson's disease: The impact of ethnicity and onset age",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "24525476",
-   "doi": "10.1159/000353981",
-   "title": "&lt;b&gt;&lt;i&gt;PITX3&lt;/i&gt;&lt;/b&gt; and Risk for Parkinson's Disease: A Systematic Review and Meta-Analysis",
-   "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
    "pmid": "20376326",
    "doi": "",
    "title": "Absence of PITX3 mutation in a Tunisian family with congenital cataract and mental retardation.",
@@ -24146,26 +25176,6 @@
    "doi": "10.1111/j.1471-4159.2010.06650.x",
    "title": "FoxP1 promotes midbrain identity in embryonic stem cell‐derived dopamine neurons by regulating Pitx3",
    "year": "2010",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "17919745",
-   "doi": "10.1016/j.bbr.2007.08.032",
-   "title": "Phenotypic segregation of aphakia and Pitx3-null mutants reveals that Pitx3 deficiency increases consolidation of specific movement components",
-   "year": "2007",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "26477573",
-   "doi": "10.1007/s10519-015-9753-3",
-   "title": "Neurobehavioral Anomalies in the Pitx3/ak Murine Model of Parkinson’s Disease and MPTP",
-   "year": "2015",
    "subcollection": "PITX3",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -24226,16 +25236,6 @@
    "doi": "10.1242/dev.094565",
    "title": "Specification of dopaminergic subsets involves interplay of En1 and Pitx3",
    "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "22309633",
-   "doi": "10.1111/j.1468-1331.2011.03644.x",
-   "title": "Decreased NURR1 and PITX3 gene expression in Chinese patients with Parkinson’s disease",
-   "year": "2012",
    "subcollection": "PITX3",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -24506,16 +25506,6 @@
    "doi": "10.1080/13816810.2021.1894460",
    "title": "A homozygous POC1B variant causes recessive cone-rod dystrophy",
    "year": "2021",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "31387336",
-   "doi": "10.3390/cells8080841",
-   "title": "Poc1B and Sas-6 Function Together during the Atypical Centriole Formation in Drosophila melanogaster",
-   "year": "2019",
    "subcollection": "POC1B",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -25096,16 +26086,6 @@
    "doi": "10.1111/nph.70182",
    "title": "<scp>BAF</scp> 60/ <scp>SWP</scp> 73 subunits define subclasses of <scp>SWI</scp> / <scp>SNF</scp> chromatin remodelling complexes in Arabidopsis",
    "year": "2025",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T23:13:55Z"
-  },
-  {
-   "pmid": "7908117",
-   "doi": "10.1128/mcb.14.4.2225",
-   "title": "Identification and characterization of Drosophila relatives of the yeast transcriptional activator SNF2/SWI2.",
-   "year": "1994",
    "subcollection": "SMARCA2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -38612,16 +39592,6 @@
    "uploaded_at": "2026-03-02T13:58:52Z"
   },
   {
-   "pmid": "20019746",
-   "doi": "10.1038/cdd.2009.194",
-   "title": "Akt2-mediated phosphorylation of Pitx2 controls Ccnd1 mRNA decay during muscle cell differentiation",
-   "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-02T13:58:52Z"
-  },
-  {
    "pmid": "17850355",
    "doi": "10.1111/j.1399-0004.2007.00879.x",
    "title": "Cytogenetically invisible microdeletions involving <i>PITX2 </i>in Rieger syndrome",
@@ -38666,16 +39636,6 @@
    "doi": "10.1242/dev.126.24.5749",
    "title": "Mouse Pitx2 deficiency leads to anomalies of the ventral body wall, heart, extra- and periocular mesoderm and right pulmonary isomerism",
    "year": "1999",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "9347917",
-   "doi": "10.1016/s0925-4773(97)00110-x",
-   "title": "Expression patterns of Brx1 (Rieg gene), Sonic hedgehog, Nkx2.2, Dlx1 and Arx during zona limitans intrathalamica and embryonic ventral lateral geniculate nuclear formation",
-   "year": "1997",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -38922,16 +39882,6 @@
    "uploaded_at": "2026-03-02T13:59:57Z"
   },
   {
-   "pmid": "9708733",
-   "doi": "10.1016/s0092-8674(00)81474-9",
-   "title": "The Transcription Factor Pitx2 Mediates Situs-Specific Morphogenesis in Response to Left-Right Asymmetric Signals",
-   "year": "1998",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
    "pmid": "28911203",
    "doi": "10.1093/hmg/ddx251",
    "title": "Mutations of conserved non-coding elements of PITX2 in patients with ocular dysgenesis and developmental glaucoma",
@@ -38976,16 +39926,6 @@
    "doi": "10.1083/jcb.152.3.545",
    "title": "Pitx2 Regulates Procollagen Lysyl Hydroxylase (Plod) Gene Expression",
    "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "17540357",
-   "doi": "10.1016/j.ydbio.2007.04.034",
-   "title": "Sequential expression and redundancy of Pitx2 and Pitx3 genes during muscle development",
-   "year": "2007",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -39212,26 +40152,6 @@
    "uploaded_at": "2026-03-02T13:59:57Z"
   },
   {
-   "pmid": "11222154",
-   "doi": "10.1242/dev.128.6.1005",
-   "title": "Differential expression and functional analysis of <i>Pitx2</i> isoforms in regulation of heart looping in the chick",
-   "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "11032870",
-   "doi": "10.1046/j.1471-4159.2000.0751818.x",
-   "title": "Analysis of Three Ptx2 Splice Variants on Transcriptional Activity and Differential Expression Pattern in the Brain",
-   "year": "2000",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
    "pmid": "12397115",
    "doi": "10.1242/dev.129.21.5081",
    "title": "<i>Pitx2c</i>patterns anterior myocardium and aortic arch vessels and is required for local cell movement into atrioventricular cushions",
@@ -39322,26 +40242,6 @@
    "uploaded_at": "2026-03-02T13:59:57Z"
   },
   {
-   "pmid": "16835440",
-   "doi": "10.1242/dev.02470",
-   "title": "Conserved regulation and role of<i>Pitx2</i>in situs-specific morphogenesis of visceral organs",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "18312615",
-   "doi": "10.1186/1471-213x-8-25",
-   "title": "PITX2 gain-of-function induced defects in mouse forelimb development",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
    "pmid": "11172719",
    "doi": "10.1016/s1097-2765(01)00162-9",
    "title": "Two-Step Regulation of Left–Right Asymmetric Expression of Pitx2",
@@ -39402,40 +40302,10 @@
    "uploaded_at": "2026-03-02T13:59:57Z"
   },
   {
-   "pmid": "9708732",
-   "doi": "10.1016/s0092-8674(00)81473-7",
-   "title": "Pitx2, a Bicoid-Type Homeobox Gene, Is Involved in a Lefty-Signaling Pathway in Determination of Left-Right Asymmetry",
-   "year": "1998",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "9708734",
-   "doi": "10.1016/s0092-8674(00)81475-0",
-   "title": "Pitx2 Participates in the Late Phase of the Pathway Controlling Left-Right Asymmetry",
-   "year": "1998",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
    "pmid": "15751970",
    "doi": "10.1021/bi048362x",
    "title": "Protein Kinase C Phosphorylation Modulates N- and C-Terminal Regulatory Activities of the PITX2 Homeodomain Protein",
    "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "9026314",
-   "doi": "10.1006/mcne.1996.0062",
-   "title": "Otlx2,anOtx-Related Homeobox Gene Expressed in the Pituitary Gland and in a Restricted Pattern in the Forebrain",
-   "year": "1996",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -39466,16 +40336,6 @@
    "doi": "10.1038/eye.2009.114",
    "title": "Case of novel PITX2 gene mutation associated with Peters' anomaly and persistent hyperplastic primary vitreous",
    "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T13:59:57Z"
-  },
-  {
-   "pmid": "9707115",
-   "doi": "10.1038/29004",
-   "title": "Pitx2 determines left–right asymmetry of internal organs in vertebrates",
-   "year": "1998",
    "subcollection": "PITX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -39712,16 +40572,6 @@
    "uploaded_at": "2026-03-02T14:07:51Z"
   },
   {
-   "pmid": "18573342",
-   "doi": "10.1016/j.nbd.2008.05.017",
-   "title": "Impaired learning and memory in Pitx3 deficient aphakia mice: A genetic model for striatum-dependent cognitive symptoms in Parkinson's disease",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T14:07:51Z"
-  },
-  {
    "pmid": "15950611",
    "doi": "10.1016/j.ydbio.2005.03.028",
    "title": "Pitx3 regulates tyrosine hydroxylase expression in the substantia nigra and identifies a subgroup of mesencephalic dopaminergic progenitor neurons during mouse development",
@@ -39736,16 +40586,6 @@
    "doi": "10.1242/dev.01723",
    "title": "<i>pitx3</i>defines an equivalence domain for lens and anterior pituitary placode",
    "year": "2005",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T14:07:51Z"
-  },
-  {
-   "pmid": "19345444",
-   "doi": "10.1016/j.neurobiolaging.2009.02.015",
-   "title": "Association of transcription factor polymorphisms PITX3 and EN1 with Parkinson's disease",
-   "year": "2009",
    "subcollection": "PITX3",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -39816,26 +40656,6 @@
    "doi": "10.1002/dvdy.20540",
    "title": "Lens and retina formation require expression of <i>Pitx3</i> in <i>Xenopus</i> pre‐lens ectoderm",
    "year": "2005",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T14:07:51Z"
-  },
-  {
-   "pmid": "21524731",
-   "doi": "10.1016/j.brainres.2011.03.064",
-   "title": "PITX3 gene polymorphism is associated with Parkinson's disease in Chinese population",
-   "year": "2011",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T14:07:51Z"
-  },
-  {
-   "pmid": "17905480",
-   "doi": "10.1016/j.neurobiolaging.2007.08.014",
-   "title": "The transcription factor PITX3 is associated with sporadic Parkinson's disease",
-   "year": "2007",
    "subcollection": "PITX3",
    "category": "6 - Genes",
    "source": "source:citation",
