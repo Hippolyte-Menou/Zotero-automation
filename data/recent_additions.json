@@ -1,6 +1,616 @@
 {
- "generated_at": "2026-04-02T08:32:45Z",
+ "generated_at": "2026-04-03T07:55:01Z",
  "additions": [
+  {
+   "pmid": "41920472",
+   "doi": "10.1007/s11136-026-04223-x",
+   "title": "From QI-disability to QID-12: creating a brief proxy-report measure of quality of life for children with intellectual disability",
+   "year": "2026",
+   "subcollection": "ARID1B",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:17:27Z"
+  },
+  {
+   "pmid": "41915029",
+   "doi": "10.1152/ajpcell.00804.2025",
+   "title": "Harnessing AlphaFold3 to Elucidate BBSome Structure and Protein Partners",
+   "year": "2026",
+   "subcollection": "BBS1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:18:30Z"
+  },
+  {
+   "pmid": "41913599",
+   "doi": "10.1177/00220345261430674",
+   "title": "Aberrant Proliferation and Cell Fate Underlie Oral Defects in a Mouse Model of EvC Syndrome",
+   "year": "2026",
+   "subcollection": "BBS1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:18:30Z"
+  },
+  {
+   "pmid": "41918049",
+   "doi": "10.1186/s40942-026-00843-0",
+   "title": "Relaxing retinectomy and autologous retinal transplant for complex retinal detachment with macular hole: a case series",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:19:06Z"
+  },
+  {
+   "pmid": "41912478",
+   "doi": "10.1038/s41419-026-08592-6",
+   "title": "REP-1 deficiency induces aberrant mitochondrial metabolic rewiring from glycolysis to lipid oxidation in CHM disease",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:19:06Z"
+  },
+  {
+   "pmid": "41920238",
+   "doi": "10.1186/s41687-026-01054-9",
+   "title": "Caregiver-perceived behavioral challenges in fragile X syndrome and implications for measuring treatment benefit in clinical trials",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41916548",
+   "doi": "10.1542/pir.2025-006958",
+   "title": "Unexplained Pediatric Ascites: Navigating a Diagnostic Maze",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41917724",
+   "doi": "10.1097/tp.0000000000005706",
+   "title": "Tailored Machine Perfusion for Personalized Medicine",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41919582",
+   "doi": "10.1002/mdc3.70613",
+   "title": "Niemann Pick Type C Presenting as Familial Late‐Onset Richardson Syndrome. A Case Series of Four Siblings",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41919600",
+   "doi": "10.1177/00033197261434136",
+   "title": "The Association Between Depression and Advanced Stages of Cardiovascular–Kidney–Metabolic Syndrome",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41914086",
+   "doi": "",
+   "title": "Association of Plasma and Cerebrospinal Fluid Glucose Level with Clinical Severity in Patients with Guillain-Barre Syndrome.",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:26:25Z"
+  },
+  {
+   "pmid": "41916968",
+   "doi": "10.1038/s41420-026-03074-2",
+   "title": "Store-operated calcium entry drives alcohol-exacerbated neuroinflammation in retinal degeneration",
+   "year": "2026",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:38:34Z"
+  },
+  {
+   "pmid": "41920290",
+   "doi": "10.1007/s12098-026-06128-6",
+   "title": "Acoustic Correlates of Stress in Children with Autism Spectrum Disorder",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41917916",
+   "doi": "10.1186/s12904-026-02082-4",
+   "title": "Healthcare professionals’ experiences of delivering palliative and end-of-life care in ethnically diverse communities: a qualitative study",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41916583",
+   "doi": "10.1542/peds.2026-075994",
+   "title": "Vitamin K Deficiency Bleeding After Refusal: A Sentinel Event in a Misinformation Era",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41919336",
+   "doi": "10.1021/acs.nanolett.6c00344",
+   "title": "Ultrastable, Omnidirectionally Stretchable, and Transparent Electrodes Based on Ag@Au Core–Sheath Nanowires with Noncoplanar Patterns for Wearable Electronics",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41916554",
+   "doi": "10.1542/pir.2025-006743",
+   "title": "An Infant and Mother With Hypertelorism",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41919904",
+   "doi": "10.1002/ecy.70367",
+   "title": "Coming out of the cold: Vanadium is an important player in N‐fixation in warm tropical environments",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41920273",
+   "doi": "10.1007/s12311-026-01981-9",
+   "title": "Experimental Models to Study Polyglutamine Spinocerebellar Ataxias: From Mechanisms to Therapeutic Developments",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:40:18Z"
+  },
+  {
+   "pmid": "41915430",
+   "doi": "10.1172/jci193367",
+   "title": "Loss of RPGR disrupts motile cilia and causes primary ciliary dyskinesia by affecting F-actin dynamics",
+   "year": "2026",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-03T07:44:34Z"
+  },
+  {
+   "pmid": "24244186",
+   "doi": "10.1371/journal.pgen.1003912",
+   "title": "The Light Skin Allele of SLC24A5 in South Asians and Europeans Shares Identity by Descent",
+   "year": "2013",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "16847698",
+   "doi": "10.1007/s00414-006-0112-z",
+   "title": "Population differences of two coding SNPs in pigmentation-related genes SLC24A5 and SLC45A2",
+   "year": "2006",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "25801600",
+   "doi": "10.1016/j.legalmed.2015.03.001",
+   "title": "SLC24A5 and ASIP as phenotypic predictors in Brazilian population for forensic purposes",
+   "year": "2015",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "30895295",
+   "doi": "10.1093/gbe/evz057",
+   "title": "A Genome-Wide Association Study of Skin and Iris Pigmentation among Individuals of South Asian Ancestry",
+   "year": "2019",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "30530665",
+   "doi": "10.1073/pnas.1801948115",
+   "title": "Rapid evolution of a skin-lightening allele in southern African KhoeSan",
+   "year": "2018",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "23525585",
+   "doi": "10.1515/hmbci.2011.021",
+   "title": "Genetic ancestry, skin reflectance and pigmentation genotypes in association with serum vitamin D metabolite balance",
+   "year": "2011",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "34870899",
+   "doi": "10.1111/pcmr.13024",
+   "title": "Impact of a SLC24A5 variant on the retinal pigment epithelium of a Japanese patient with oculocutaneous albinism type 6",
+   "year": "2021",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "33600456",
+   "doi": "10.1371/journal.pgen.1009319",
+   "title": "Genetic loci associated with skin pigmentation in African Americans and their effects on vitamin D deficiency",
+   "year": "2021",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "25058410",
+   "doi": "10.1371/journal.pgen.1004488",
+   "title": "Cuba: Exploring the History of Admixture and the Genetic Basis of Pigmentation Using Autosomal and Uniparental Markers",
+   "year": "2014",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "26918427",
+   "doi": "10.1002/ajhb.22836",
+   "title": "Association of genetic variants with skin pigmentation phenotype among populations of west Maharashtra, India",
+   "year": "2016",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "18637132",
+   "doi": "10.1111/j.1600-0625.2008.00758.x",
+   "title": "A study of a single variant allele (rs1426654) of the pigmentation‐related gene SLC24A5 in Greek subjects",
+   "year": "2008",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "32443864",
+   "doi": "10.3390/genes11050575",
+   "title": "Characterization of POU2F1 Gene and Its Potential Impact on the Expression of Genes Involved in Fur Color Formation in Rex Rabbit",
+   "year": "2020",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "39075179",
+   "doi": "10.1038/s41598-024-68437-0",
+   "title": "Skin pigmentation related variants in Mexican population and interaction effects on serum 25(OH)D concentration and vitamin D deficiency",
+   "year": "2024",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "29981211",
+   "doi": "10.1111/pcmr.12723",
+   "title": "Cellular localization of the K+‐dependent Na+–Ca2+ exchanger NCKX5 and the role of the cytoplasmic loop in its distribution in pigmented cells",
+   "year": "2018",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:47:10Z"
+  },
+  {
+   "pmid": "25451601",
+   "doi": "10.1016/j.jmb.2014.10.016",
+   "title": "Transport of l-Glutamine, l-Alanine, l-Arginine and l-Histidine by the Neuron-Specific Slc38a8 (SNAT8) in CNS",
+   "year": "2014",
+   "subcollection": "SLC38A8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:13Z"
+  },
+  {
+   "pmid": "41797184",
+   "doi": "10.1016/j.bbrc.2026.153578",
+   "title": "Common dominant-negative spectrum of SLC45A2 mutations in OCA4 defined by endoplasmic reticulum retention",
+   "year": "2026",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "28192564",
+   "doi": "10.1167/iovs.16-20612",
+   "title": "A Japanese Family With Autosomal Dominant Oculocutaneous Albinism Type 4",
+   "year": "2017",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "19916045",
+   "doi": "10.1007/s10528-009-9289-4",
+   "title": "A Decreasing Gradient of 374F Allele Frequencies in the Skin Pigmentation Gene SLC45A2, from the North of West Europe to North Africa",
+   "year": "2009",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "32232994",
+   "doi": "10.1111/age.12930",
+   "title": "Genome‐wide association studies for iris pigmentation and heterochromia patterns in Large White pigs",
+   "year": "2020",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "28457509",
+   "doi": "10.1016/j.legalmed.2016.12.013",
+   "title": "Haplotypes from the SLC45A2 gene are associated with the presence of freckles and eye, hair and skin pigmentation in Brazil",
+   "year": "2017",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "16162179",
+   "doi": "10.1111/j.1600-0749.2005.00261.x",
+   "title": "OCA4: evidence for a founder effect for the p.D157N mutation of the MATP gene in Japanese and Korean",
+   "year": "2005",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "17768386",
+   "doi": "",
+   "title": "SLC45A2 variations in Indian oculocutaneous albinism patients.",
+   "year": "2007",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "25703744",
+   "doi": "10.1111/ced.12612",
+   "title": "Mutational spectrum of theTYRandSLC45A2genes in Pakistani families with oculocutaneous albinism, and potential founder effect of missense substitution (p.Arg77Gln) of tyrosinase",
+   "year": "2015",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "34078970",
+   "doi": "10.1038/s41598-021-90896-y",
+   "title": "Evident hypopigmentation without other ocular deficits in Dutch patients with oculocutaneous albinism type 4",
+   "year": "2021",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "15656822",
+   "doi": "10.1111/j.1365-2133.2005.06403.x",
+   "title": "A Korean case of oculocutaneous albinism type IV caused by a D157N mutation in theMATPgene",
+   "year": "2005",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "23660638",
+   "doi": "10.1007/s10528-013-9595-8",
+   "title": "Near Fixation of 374l Allele Frequencies of the Skin Pigmentation Gene SLC45A2 in Africa",
+   "year": "2013",
+   "subcollection": "SLC45A2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:48:54Z"
+  },
+  {
+   "pmid": "41809205",
+   "doi": "10.2147/opth.s553795",
+   "title": "Congenital Hereditary Endothelial Dystrophy: A Review of the Molecular Pathogenesis, Genetic Basis, and Emerging Treatments",
+   "year": "2026",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "34533563",
+   "doi": "10.1167/iovs.62.12.15",
+   "title": "Mitochondrial ROS Induced Lysosomal Dysfunction and Autophagy Impairment in an Animal Model of Congenital Hereditary Endothelial Dystrophy",
+   "year": "2021",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "18474783",
+   "doi": "10.1001/archopht.126.5.700",
+   "title": "Identification of Mutations in the SLC4A11 Gene in Patients With Recessive Congenital Hereditary Endothelial Dystrophy",
+   "year": "2008",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "17397048",
+   "doi": "10.1002/humu.9487",
+   "title": "NovelSLC4A11mutations in patients with recessive congenital hereditary endothelial dystrophy (CHED2)",
+   "year": "2007",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "39206384",
+   "doi": "10.3389/fphys.2024.1440720",
+   "title": "NH3/NH4+ allosterically activates SLC4A11 by causing an acidic shift in the intracellular pK that governs H+(OH−) conductance",
+   "year": "2024",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "41896991",
+   "doi": "10.1186/s13293-026-00879-9",
+   "title": "Sex differences in congenital hereditary endothelial dystrophy (CHED) and Slc4a11−/− mouse model of CHED",
+   "year": "2026",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "16825429",
+   "doi": "10.1136/jmg.2006.044644",
+   "title": "Autosomal recessive corneal endothelial dystrophy (CHED2) is associated with mutations in SLC4A11",
+   "year": "2006",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "17667634",
+   "doi": "10.1097/ico.0b013e318074bb01",
+   "title": "Autosomal Recessive CHED Associated With Novel Compound Heterozygous Mutations in SLC4A11",
+   "year": "2007",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "26641551",
+   "doi": "10.1167/iovs.15-17802",
+   "title": "High Throughput Assay Identifies Glafenine as a Corrector for the Folding Defect in Corneal Dystrophy–Causing Mutants of SLC4A11",
+   "year": "2015",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "31124301",
+   "doi": "10.14814/phy2.14089",
+   "title": "Expression of SLC 4A11 protein in mouse and rat medulla: a candidate transporter involved in outer medullary ammonia recycling",
+   "year": "2019",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "31774702",
+   "doi": "10.1152/ajpcell.00425.2019",
+   "title": "SLC4A11 function: evidence for H+(OH−) and NH3-H+ transport",
+   "year": "2019",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "26018076",
+   "doi": "10.1074/jbc.m114.627455",
+   "title": "Human SLC4A11 Is a Novel NH3/H+ Co-transporter",
+   "year": "2015",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "15525507",
+   "doi": "10.1016/j.molcel.2004.09.030",
+   "title": "NaBC1 Is a Ubiquitous Electrogenic Na+-Coupled Borate Transporter Essential for Cellular Boron Homeostasis and Cell Growth and Proliferation",
+   "year": "2004",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "11302728",
+   "doi": "10.1006/bbrc.2001.4692",
+   "title": "Human BTR1, a New Bicarbonate Transporter Superfamily Member and Human AE4 from Kidney",
+   "year": "2001",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
+  {
+   "pmid": "17679935",
+   "doi": "",
+   "title": "Mutational spectrum of the SLC4A11 gene in autosomal recessive congenital hereditary endothelial dystrophy.",
+   "year": "2007",
+   "subcollection": "SLC4A11",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-03T07:50:04Z"
+  },
   {
    "pmid": "25697513",
    "doi": "10.1007/978-1-4939-2330-4_1",
@@ -25532,16 +26142,6 @@
    "uploaded_at": "2026-03-09T08:44:19Z"
   },
   {
-   "pmid": "24244186",
-   "doi": "10.1371/journal.pgen.1003912",
-   "title": "The Light Skin Allele of SLC24A5 in South Asians and Europeans Shares Identity by Descent",
-   "year": "2013",
-   "subcollection": "SLC24A5",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-09T08:44:19Z"
-  },
-  {
    "pmid": "22073278",
    "doi": "10.1371/journal.pone.0027162",
    "title": "Genomic Ancestry, Self-Reported “Color” and Quantitative Measures of Skin Pigmentation in Brazilian Admixed Siblings",
@@ -48936,16 +49536,6 @@
    "doi": "10.1038/ejhg.2013.212",
    "title": "Isolated foveal hypoplasia with secondary nystagmus and low vision is associated with a homozygous SLC38A8 mutation",
    "year": "2013",
-   "subcollection": "SLC38A8",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-02T14:50:44Z"
-  },
-  {
-   "pmid": "25451601",
-   "doi": "10.1016/j.jmb.2014.10.016",
-   "title": "Transport of l-Glutamine, l-Alanine, l-Arginine and l-Histidine by the Neuron-Specific Slc38a8 (SNAT8) in CNS",
-   "year": "2014",
    "subcollection": "SLC38A8",
    "category": "6 - Genes",
    "source": "source:citation",
