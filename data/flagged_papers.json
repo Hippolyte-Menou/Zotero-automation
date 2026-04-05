@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-29T04:52:59Z",
+  "generated_at": "2026-04-05T04:52:31Z",
   "threshold_k": 0,
-  "total_evaluated": 16981,
-  "total_flagged": 417,
+  "total_evaluated": 17647,
+  "total_flagged": 437,
   "total_dismissed": 0,
-  "total_unresolvable": 490,
+  "total_unresolvable": 409,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -46,7 +46,6 @@
       "Bardet-Biedl syndrome",
       "Best vitelliform macular dystrophy",
       "Cataract",
-      "Choroideremia",
       "Coloboma",
       "Cone dystrophy",
       "Cone-rod dystrophy",
@@ -91,6 +90,7 @@
     "6 - Genes": [
       "ACO2",
       "AGK",
+      "ARID1B",
       "ARID2",
       "ARR3",
       "ARSG",
@@ -127,14 +127,15 @@
       "PRPF3",
       "PRPH2",
       "PRR12",
+      "RDH11",
       "RDH12",
       "RGR",
       "RHO",
+      "RPGR",
       "RPGRIP1",
       "RPGRIP1L",
       "SAG",
       "SLC4A11",
-      "SMARCA2",
       "SOX2",
       "TGFBI",
       "TYR",
@@ -522,7 +523,7 @@
     {
       "pmid": "20204230",
       "doi": "10.1590/s0325-00752010000100016",
-      "zotero_key": "P7SMCKWH",
+      "zotero_key": "V2FA4VP5",
       "title": "[CHARGE syndrome].",
       "authors": [
         [
@@ -551,7 +552,7 @@
         "source:deep-search"
       ],
       "category": "5 - Pathologies",
-      "subcollection": "Coloboma"
+      "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
     },
     {
       "pmid": "41645371",
@@ -2094,7 +2095,7 @@
     {
       "pmid": "23986189",
       "doi": "10.1055/s-0033-1350689",
-      "zotero_key": "TXAVVGA5",
+      "zotero_key": "4KKJJ74K",
       "title": "[Retinal exudative disease in childhood: Coats' disease and familial exudative vitreoretinopathy (FEVR)].",
       "authors": [
         [
@@ -2123,7 +2124,7 @@
         "source:deep-search"
       ],
       "category": "5 - Pathologies",
-      "subcollection": "Familial exudative vitreoretinopathy"
+      "subcollection": "Norrie disease, Familial exudative vitreoretinopathy"
     },
     {
       "pmid": "23302280",
@@ -2348,7 +2349,7 @@
     {
       "pmid": "18552902",
       "doi": "",
-      "zotero_key": "FHQP3RRK",
+      "zotero_key": "MN2ZDUBW",
       "title": "[The CHARGE syndrome].",
       "authors": [
         [
@@ -2369,7 +2370,7 @@
         "source:deep-search"
       ],
       "category": "5 - Pathologies",
-      "subcollection": "Coloboma"
+      "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
     },
     {
       "pmid": "14839859",
@@ -3274,6 +3275,40 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41920290",
+      "doi": "10.1007/s12098-026-06128-6",
+      "zotero_key": "UBIXMRC7",
+      "title": "Acoustic Correlates of Stress in Children with Autism Spectrum Disorder",
+      "authors": [
+        [
+          "Rashmi Devajana",
+          "Ganesh"
+        ],
+        [
+          "Nayana",
+          "Siddaraju"
+        ],
+        [
+          "Revathi",
+          "Raveendran"
+        ],
+        [
+          "Maheshwari",
+          "Somashekhar"
+        ]
+      ],
+      "journal": "The Indian Journal of Pediatrics",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "14061611",
       "doi": "10.1016/0002-9394(63)91867-1",
       "zotero_key": "G3DZ4DGK",
@@ -3366,32 +3401,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "IFT172"
-    },
-    {
-      "pmid": "6969271",
-      "doi": "",
-      "zotero_key": "VNEWB3GG",
-      "title": "Age-related changes in the cornea.",
-      "authors": [
-        [
-          "JC",
-          "Kotulak"
-        ],
-        [
-          "T",
-          "Brungardt"
-        ]
-      ],
-      "journal": "Journal of the American Optometric Association",
-      "year": "1980",
-      "abstract": "",
-      "cited_by_count": 15,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Corneal dystrophy, Fleck"
     },
     {
       "pmid": "1537658",
@@ -3676,6 +3685,56 @@
       "subcollection": "Vascularization and innervation"
     },
     {
+      "pmid": "41902462",
+      "doi": "10.1002/anie.8139859",
+      "zotero_key": "MXQFWCNV",
+      "title": "Anomalous Sodium Insertion in Highly Oriented Graphite: Thermodynamics, Kinetics and Evidence for Two‐Sided Intercalation",
+      "authors": [
+        [
+          "Chuanhai",
+          "Gan"
+        ],
+        [
+          "Chuanlian",
+          "Xiao"
+        ],
+        [
+          "Hongguang",
+          "Wang"
+        ],
+        [
+          "Peter van",
+          "Aken"
+        ],
+        [
+          "Rotraut",
+          "Merkle"
+        ],
+        [
+          "Sebastian",
+          "Bette"
+        ],
+        [
+          "Bettina V.",
+          "Lotsch"
+        ],
+        [
+          "Joachim",
+          "Maier"
+        ]
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "year": "2026",
+      "abstract": "The difficult intercalation of sodium (Na) into graphite is studied by systematic and long-time investigations (of up to 2 years) using highly oriented pyrolytic graphite (HOPG). In this way a comprehensive picture of the thermodynamics, kinetics and the atomistic situation is arrived at. The results do not only allow us to draw conclusions on the applicability in Na-based batteries, but also to understand the anomalous behavior of Na within the alkali metals as regards open circuit voltage (OCV), storage capacity, storage kinetics, and atomistic storage pattern. The round picture requires including entropic effects and space charges into the established discussion. Such considerations even give new insight into the staging mechanism as such. The storage was performed both chemically and electrochemically over a wide temperature range. Our analyses show that at room temperature higher Na concentrations may be thermodynamically possible, but they are kinetically out of reach. The sodiated samples were investigated by electrochemical tools, by chemical analysis as well as by advanced electron microscopy. The latter reveals an unexpected, striking storage pattern: Unlike the other alkali metals, Na enters HOPG predominantly in the form of bilayers before it forms larger aggregates and finally staging compounds.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "3026067",
       "doi": "",
       "zotero_key": "6NPQ96RR",
@@ -3842,6 +3901,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "41914086",
+      "doi": "",
+      "zotero_key": "I7RJN3WV",
+      "title": "Association of Plasma and Cerebrospinal Fluid Glucose Level with Clinical Severity in Patients with Guillain-Barre Syndrome.",
+      "authors": [
+        [
+          "M R K",
+          "Talukder"
+        ],
+        [
+          "M N",
+          "Sadat"
+        ],
+        [
+          "A",
+          "Jahan"
+        ],
+        [
+          "H",
+          "Akhter"
+        ],
+        [
+          "S. R.",
+          "Roy"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Guillain-Barre' syndrome (GBS) is an acute onset disease of the peripheral nerves with a variable presentation and severity. It is the most common cause of acute flaccid paralysis worldwide after the eradication of poliomyelitis. Regarding the diagnosis of GBS, cerebrospinal fluid analysis and electrophysiological study plays a pivotal role. The objective of the study was to find out an association between cerebrospinal fluid (CSF) glucose, fasting plasma glucose (FPG) and hemoglobin A1C (HbA1C) with clinical severity in patients with GBS. This cross-sectional observational study conducted in the department of Neurology, Mymensingh medical college included 61 patients of GBS who were not known to have diabetes mellitus. Besides analyzing CSF and electrophysiological study various epidemiological and clinical parameters were also studied. FPG and HbA1C were measured for each patient. Clinical severities were assessed by Hughes functional grading scale and were classified into ambulatory group (Grade 1-3) and non-ambulatory group (Grade 4-6). Most of the patients were male (67.2%). Axonal variety was found the most common subtype 35(57.4%) followed by AIDP 23(37.7%) elicited by electrophysiological criteria. Ambulatory group (disability score ≤3) represents 63.9% patients and 36.1% were in non-ambulatory group (disability score ≥4). Mean CSF glucose found to be significantly higher in non-ambulatory group (3.40±0.39) mmol/L compared to ambulatory group (2.85±0.41) mmol/L, (p5.5mmol/L) was found in non-ambulatory group (63.6%) compared to ambulatory group (28.2%), (p=0.007). No significant difference of elevated HbA1C was found between ambulatory and non-ambulatory group (p=0.206). This study demonstrates that higher grades of clinical severity were associated with elevated CSF glucose and FPG but not with HbA1C.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41802866",
@@ -4168,6 +4265,32 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41891881",
+      "doi": "10.1093/chidev/aacag032",
+      "zotero_key": "XTEJFVM6",
+      "title": "Beyond the Approximate Number System: Evidence for spatialization of the Object Tracking System at birth",
+      "authors": [
+        [
+          "Vittoria",
+          "Volpi"
+        ],
+        [
+          "Maria Dolores de",
+          "Hevia"
+        ]
+      ],
+      "journal": "Child Development",
+      "year": "2026",
+      "abstract": "Human numerical cognition relies on two core systems: the Approximate Number System (ANS), supporting approximate magnitude estimation, and the Object Tracking System (OTS), enabling precise individuation of up to 3 or 4 items. This study tested 32 healthy, full-term newborns (0-3 days old; 18 females) recruited from a maternity ward serving a socioeconomically and ethnically diverse population. Newborns familiarized with 2 elements (OTS range) preferred 1 element on the left, whereas those familiarized with 4 elements (ANS range) preferred 12 elements on the right. This pattern (η²p = 0.462) indicates that both numerical systems exhibit a shared spatial signature from birth, suggesting that spatial organization is a fundamental property of early numerical cognition.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41708580",
       "doi": "10.1111/ans.70546",
       "zotero_key": "68RSWBRP",
@@ -4320,6 +4443,48 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "41906871",
+      "doi": "10.1080/08880018.2026.2628528",
+      "zotero_key": "3V6MT8TI",
+      "title": "Central auditory processing in children with sickle cell disease",
+      "authors": [
+        [
+          "Heba G A",
+          "Ali"
+        ],
+        [
+          "Mohamed Abdel-Mohsen",
+          "Ellaboudy"
+        ],
+        [
+          "Fatma Soliman Elsayed",
+          "Ebeid"
+        ],
+        [
+          "Abeer Mohamed",
+          "Elgendy"
+        ],
+        [
+          "Nouran Ahmed",
+          "Almallah"
+        ],
+        [
+          "Marwa Waheed",
+          "Tolba"
+        ]
+      ],
+      "journal": "Pediatric Hematology and Oncology",
+      "year": "2026",
+      "abstract": "The complexity of sickle cell disease (SCD) goes beyond hematological manifestations, affecting different organs and systems, including auditory system. We aimed to assess Central Auditory Processing (CAP) abilities in children with SCD as well as to detect risk factors for Auditory Processing Disorders (APD) in children with SCD. A diagnostic observational cross sectional study that included thirty-three patients aged 6-16 years with a confirmed diagnosis of SCD. Demographic, clinical and laboratory characteristics were collected. Audiological testing included tympanometry, pure tone audiometry, IQ testing, specific history for CAP abilities and APD screening test battery. Among the 33 screened patients, all had normal pure tone audiometry, and 2 patients had middle ear affection. Auditory Perception was assessed in 25 eligible participants. The majority of the studied patients (n = 21, 84%) APD. The most affected tests were patterning (n = 21, 84%) and auditory memory (n = 16, 64%). Results showed positive correlation between age of transfusion and dichotic listening, APD was commonly encountered in children with SCD, thus screening for APD is recommended in all patients with SCD for early detection and intervention of any abnormalities.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "1960885",
@@ -5366,6 +5531,56 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Specialized microanatomy"
+    },
+    {
+      "pmid": "41896995",
+      "doi": "10.1186/s13102-026-01657-1",
+      "zotero_key": "9PHH9PK2",
+      "title": "Contemporary trends in tactical formations and team success in Europe’s top-tier football leagues: a comparative analysis",
+      "authors": [
+        [
+          "Erdi",
+          "Tokul"
+        ],
+        [
+          "Özgün Miraç",
+          "Özçilingir"
+        ],
+        [
+          "Kaan",
+          "Kaya"
+        ],
+        [
+          "E.",
+          "YILMAZ"
+        ],
+        [
+          "Dolunay",
+          "Saray"
+        ],
+        [
+          "Eda",
+          "Ağaşçioğlu"
+        ],
+        [
+          "Abdullah",
+          "Demirli"
+        ],
+        [
+          "Kamil",
+          "Erdem"
+        ]
+      ],
+      "journal": "BMC Sports Science Medicine and Rehabilitation",
+      "year": "2026",
+      "abstract": "This study examines the distribution of tactical formations and their relationship with team success across the six major European football leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1, and TFF Super League) during the 2023–2024 season. A total of 2,132 matches and 4,038 formation data points were collected via OPTA Sportsdata and verified through fbref.com. The formations were grouped into eight main categories according to structural similarities. Statistical analyses included one-way analysis of variance (ANOVA) and chi-square tests. The findings indicate that the 4–2-3–1 system was the most frequently used formation, while the 3–4-3 provided the highest average points per match. The dominance of 4–2-3–1 was evident in the TFF Super League, whereas the 3–4-3 was more common in the Bundesliga and Serie A, and the 4–4-2 was more prevalent in La Liga. Conversely, five-defender formations yielded lower average points and limited success. In conclusion, the effectiveness of tactical formations is not solely determined by their structural advantages but also by their alignment with league culture, player profiles, and managerial strategies. These findings should be interpreted as a season-specific snapshot of formation usage patterns in the 2023–2024 season, rather than evidence of long-term tactical trends.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "8536934",
@@ -6705,6 +6920,44 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41920593",
+      "doi": "10.1097/icb.0000000000001907",
+      "zotero_key": "GVEESWJ5",
+      "title": "Early-onset hydroxychloroquine maculopathy: on the importance of genetic work-up",
+      "authors": [
+        [
+          "Kelly",
+          "Donovan"
+        ],
+        [
+          "T.",
+          "Christopher"
+        ],
+        [
+          "Renn H.",
+          "Lovett"
+        ],
+        [
+          "Priyatham S.",
+          "Mettu"
+        ],
+        [
+          "Oleg",
+          "Alekseev"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2026",
+      "abstract": "This patient developed bull's eye maculopathy after limited exposure to HCQ. Genetic testing revealed an underlying cone-rod dystrophy, which likely increased her susceptibility to HCQ toxicity. This case emphasizes the importance of diagnostic work-up for unusually early-onset HCQ maculopathy, which may include genetic testing.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Retinal dystrophies"
+    },
+    {
       "pmid": "41715899",
       "doi": "10.12659/ajcr.951257",
       "zotero_key": "XVHJ2X9P",
@@ -7307,6 +7560,44 @@
       "subcollection": "Lacrimal system, Systeme lacrymal"
     },
     {
+      "pmid": "41924369",
+      "doi": "10.18240/ijo.2026.04.03",
+      "zotero_key": "R89TBPU4",
+      "title": "Epigallocatechin gallate in N-methyl-N-nitrosourea-induced retinitis pigmentosa mouse model",
+      "authors": [
+        [
+          "Xiao-Qing",
+          "Cai"
+        ],
+        [
+          "Zhou-Fan",
+          "Zhang"
+        ],
+        [
+          "Jing",
+          "Gu"
+        ],
+        [
+          "Ting-Ting",
+          "Chen"
+        ],
+        [
+          "Ai-Na",
+          "Chen"
+        ]
+      ],
+      "journal": "International Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "EGCG exerts robust neuroprotective effects in MNU-induced RP through enhancement of antioxidant defenses, suppression of neuroinflammation, and preservation of retinal structure and function. These findings suggest EGCG as a promising candidate for adjuvant antioxidant therapy in RP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Retinal dystrophies"
+    },
+    {
       "pmid": "18274562",
       "doi": "",
       "zotero_key": "NWHWQDSF",
@@ -7347,6 +7638,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Congenital cataract"
+    },
+    {
+      "pmid": "41896747",
+      "doi": "10.1186/s12872-026-05708-w",
+      "zotero_key": "3D5N88U3",
+      "title": "Evaluation of safety and affection of variable duration of dual antiplatelet therapy using aspirin plus ticagrelor after successful percutaneous coronary intervention for diabetic patients with acute coronary syndrome",
+      "authors": [
+        [
+          "NADIA M.",
+          "IBRAHIM"
+        ],
+        [
+          "M. T. M.",
+          "Zaki"
+        ],
+        [
+          "Khaled Ahmed Fouad Abdel",
+          "Magid"
+        ],
+        [
+          "Khaled A.",
+          "Fouad"
+        ],
+        [
+          "Mina",
+          "Iskandar"
+        ]
+      ],
+      "journal": "BMC Cardiovascular Disorders",
+      "year": "2026",
+      "abstract": "Atherosclerotic cardiovascular disease (ASCVD) represents the primary cause of morbidity and mortality among cases with diabetes. To determine whether a strategy of ticagrelor monotherapy initiated after 3 months of dual antiplatelet treatment (DAPT) modifies the rate of major adverse cardiovascular effect (MACE) as the primary endpoint and bleeding events as the secondary endpoint, relative to a 12-month regimen of ticagrelor-based DAPT in diabetic cases with acute coronary syndrome (ACS) treated by Percutaneous coronary intervention (PCI). This randomized, open-label study included 400 diabetic patients with acute coronary syndrome (STEMI or NSTEMI) treated with PCI. Patients were randomly assigned to receive ticagrelor monotherapy after 3 months of DAPT or to continue ticagrelor plus aspirin for 12 months. The primary endpoint was major adverse cardiovascular events (MACE), and the secondary endpoint was bleeding events. Hemoglobin level after three month was substantially higher in group 1, the mean ± SD was 12.97 ± 1.7 g/dl while group 2 was 12.6 ± 1.47 g/dl (p = 0.02). Platelet count did not differ markedly between groups. Similarly, the incidence of complications—mortality, chest pain, bleeding, ICH, ischemic stroke, recurrent MI, and repeated PCI—showed no significant variation between them. There was no significant difference in the incidence of MACE between the two groups during 12 months of follow-up. Ticagrelor monotherapy was associated with a lower incidence of overall bleeding events, mainly driven by reductions in mild bleeding, while rates of moderate or severe bleeding were comparable between groups. Switching to ticagrelor monotherapy after 3 months of DAPT results in a significant reduction in bleeding events among diabetic cases with ACS undergoing PCI, while maintaining a comparable safety profile regarding complications. Pan African Clinical Trials Registry (PACTR202511832264697) Date of registration 24 November 2025.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41755761",
@@ -8101,6 +8430,76 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41920472",
+      "doi": "10.1007/s11136-026-04223-x",
+      "zotero_key": "RX2UXXTG",
+      "title": "From QI-disability to QID-12: creating a brief proxy-report measure of quality of life for children with intellectual disability",
+      "authors": [
+        [
+          "Melissa K.",
+          "Licari"
+        ],
+        [
+          "Andrew JO",
+          "Whitehouse"
+        ],
+        [
+          "Natasha N.",
+          "Ludwig"
+        ],
+        [
+          "Mary",
+          "Wojnaroski"
+        ],
+        [
+          "Rebecca",
+          "Hommer"
+        ],
+        [
+          "Gabrielle",
+          "Conecker"
+        ],
+        [
+          "JayEtta",
+          "Hecker"
+        ],
+        [
+          "Kelly",
+          "Muzyczka"
+        ],
+        [
+          "H. M.",
+          "Leonard"
+        ],
+        [
+          "Katrina",
+          "Williams"
+        ],
+        [
+          "Dinah",
+          "Reddihough"
+        ],
+        [
+          "J.",
+          "Downs"
+        ],
+        [
+          "P.",
+          "Jacoby"
+        ]
+      ],
+      "journal": "Quality of Life Research",
+      "year": "2026",
+      "abstract": "Quality of Life Disability (QI-Disability) is a 32-item parent-report measure assessing quality of life (QOL) in children with intellectual disability across domains of physical health, positive emotions, negative emotions, social interactions, leisure and outdoors, and independence. This study aimed to develop and validate a short form for use in clinical and research settings. Caregivers of 1,699 children with intellectual disability aged 3–18 years and representing mild to profound functional impairments, completed the QI-Disability measure as part of different studies. A Genetic Algorithm (GA) was applied to select a reduced item set. The short form was evaluated against the original scale using correlational, reliability, and Rasch analyses. The GA-derived 12-item set (QID-12) represented each of the six QOL domains. Correlation between QID-12 and QI-Disability total scores was high (r = 0.97). Internal consistency of QID-12 was acceptable (α = 0.85). Rasch analysis demonstrated good fit of all items to the partial credit model, person separation reliability was 0.84, and there was no evidence of multidimensionality (p > 0.99). Item targeting was appropriate across the ability spectrum. Disordered category thresholds were observed for three items, but overall psychometric performance remained satisfactory. QID-12 provides a valid and reliable short form of the QI-Disability. It retains coverage of the key domains of child QOL while substantially reducing respondent burden, supporting its use in both clinical practice and population research. Measuring quality of life (QOL) in children with intellectual disability is typically based on parent or proxy-report. Existing QOL questionnaires are lengthy and may form part of a battery of measures that can be time consuming to complete. Thus, there is a need for briefer, psychometrically sound questionnaires that can reduce respondent burden and provide an overall measure of child QOL for some clinical or research contexts. The Quality of Life Inventory – Disability (QI-Disability) is a validated 32-item parent-report measure of children’s QOL across six domains - physical health, positive and negative emotions, social interaction, leisure and the outdoors, and independence. This study sought to develop and validate a short-form version of QI-Disability in a large sample of children with mild to profound intellectual disability. The resulting 12-item short-form (QID-12) demonstrated strong validity and reliability, capturing the six key domains of child QOL while substantially reducing respondent burden. These findings support the use of QID-12 in both clinical practice and population research taking into account that the short form is not intended to replace the full QI-Disability in all contexts.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
+    },
+    {
       "pmid": "41750745",
       "doi": "10.3390/diagnostics16040597",
       "zotero_key": "KZDWPDHG",
@@ -8247,32 +8646,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
-    },
-    {
-      "pmid": "6392017",
-      "doi": "10.1093/genetics/108.4.845",
-      "zotero_key": "GQWH52VX",
-      "title": "GENES AFFECTING THE REGULATION OF <i>SUC2</i> GENE EXPRESSION BY GLUCOSE REPRESSION IN <i>SACCHAROMYCES CEREVISIAE</i>",
-      "authors": [
-        [
-          "Lenore",
-          "Neigeborn"
-        ],
-        [
-          "Marian",
-          "Carlson"
-        ]
-      ],
-      "journal": "Genetics",
-      "year": "1984",
-      "abstract": "Mutants of Saccharomyces cerevisiae with defects in sucrose or raffinose fermentation were isolated. In addition to mutations in the SUC2 structural gene for invertase, we recovered 18 recessive mutations that affected the regulation of invertase synthesis by glucose repression. These mutations included five new snf1 (sucrose nonfermenting) alleles and also defined five new complementation groups, designated snf2, snf3, snf4, snf5, and snf6. The snf2, snf4, and snf5 mutants produced little or no secreted invertase under derepressing conditions and were pleiotropically defective in galactose and glycerol utilization, which are both regulated by glucose repression. The snf6 mutant produced low levels of secreted invertase under derepressing conditions, and no pleiotropy was detected. The snf3 mutants derepressed secreted invertase to 10-35% the wild-type level but grew less well on sucrose than expected from their invertase activity; in addition, snf3 mutants synthesized some invertase under glucose-repressing conditions.--We examined the interactions between the different snf mutations and ssn6, a mutation causing constitutive (glucose-insensitive) high-level invertase synthesis that was previously isolated as a suppressor of snf1. The ssn6 mutation completely suppressed the defects in derepression of invertase conferred by snf1, snf3, snf4 and snf6, and each double mutant showed the constitutivity for invertase typical of ssn6 single mutants. In contrast, snf2 ssn6 and snf5 ssn6 strains produced only moderate levels of invertase under derepressing conditions and very low levels under repressing conditions. These findings suggest roles for the SNF1 through SNF6 and SSN6 genes in the regulation of SUC2 gene expression by glucose repression.",
-      "cited_by_count": 577,
-      "centrality": 0,
-      "source_tags": [
-        "source:citation"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "SMARCA2"
     },
     {
       "pmid": "40666342",
@@ -8461,6 +8834,56 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41910887",
+      "doi": "10.1007/s11701-026-03294-9",
+      "zotero_key": "GQQBTEJF",
+      "title": "Global trends and research landscape of robotic surgery in plastic and reconstructive surgery: a bibliometric analysis (1999–2025)",
+      "authors": [
+        [
+          "Aiman Perween",
+          "Afsar"
+        ],
+        [
+          "Nishant",
+          "Kumar"
+        ],
+        [
+          "Reza",
+          "Shahriarirad"
+        ],
+        [
+          "Vasupriya",
+          "Ravi"
+        ],
+        [
+          "Alice",
+          "Yao"
+        ],
+        [
+          "Jesse C.",
+          "Selber"
+        ],
+        [
+          "Andréa",
+          "Moreira"
+        ],
+        [
+          "Aparna",
+          "Vijayasekaran"
+        ]
+      ],
+      "journal": "Journal of Robotic Surgery",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "9219674",
       "doi": "10.1016/s0275-5408(96)00073-7",
       "zotero_key": "FF2S3JAQ",
@@ -8533,6 +8956,94 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41886658",
+      "doi": "",
+      "zotero_key": "8IPUPK73",
+      "title": "Greening in Rhode Island and Project G-SPACE.",
+      "authors": [
+        [
+          "Aliana Rodriguez",
+          "Acevedo"
+        ],
+        [
+          "N.",
+          "Zeltzer"
+        ],
+        [
+          "Abby",
+          "Katz"
+        ],
+        [
+          "U.",
+          "Nwanaji-Enwerem"
+        ],
+        [
+          "Madelyn",
+          "Dewitt"
+        ],
+        [
+          "Isha",
+          "Thakkar"
+        ],
+        [
+          "Bethel",
+          "Daniel"
+        ],
+        [
+          "D.",
+          "Grigsby-Toussaint"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "This article (1) summarizes historical and present greening initiatives across Rhode Island, and (2) illustrates how Project Greenspace, Sleep Patterns, Activity Space, and Environment (G-SPACE) benefits from and builds upon this public health work.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41904388",
+      "doi": "10.1186/s12879-026-12981-9",
+      "zotero_key": "AIFRPEZB",
+      "title": "Group-based trajectory modeling of blood pressure reactivity and mortality in septic patients: a retrospective study of the MIMIC-IV database",
+      "authors": [
+        [
+          "Xu",
+          "Chen"
+        ],
+        [
+          "Yuanjun",
+          "Qi"
+        ],
+        [
+          "Yi",
+          "Zhang"
+        ],
+        [
+          "Kaijia",
+          "Shi"
+        ],
+        [
+          "Xinru",
+          "Tian"
+        ]
+      ],
+      "journal": "BMC Infectious Diseases",
+      "year": "2026",
+      "abstract": "Circulatory instability is a key determinant of mortality in sepsis, and early hemodynamic response patterns largely shape the heterogeneity of the syndrome and the need for individualized resuscitation strategies. The Blood Pressure Reactivity Index (BPRI), calculated as the ratio of mean arterial pressure (MAP) to the vasoactive–inotropic score (VIS), has been proposed to quantify circulatory stability, with static measurements showing important prognostic value. However, whether dynamic BPRI trajectories can more accurately capture vascular reactivity phenotypes and further clarify the relationship between different trajectory patterns and clinical outcomes remains unclear. In this retrospective study using the MIMIC-IV v3.1 database, we identified adult sepsis patients who required continuous vasoactive support for at least 72 h during early ICU care. The BPRI was calculated every 12 h, and group-based trajectory modeling was applied to identify distinct 72-hour dynamic patterns. Baseline characteristics and clinical outcomes were compared across trajectory groups. The primary outcome was 28-day mortality. Secondary outcomes included ICU mortality, 7-day mortality, 90-day mortality, and ICU length of stay. Mortality outcomes were evaluated using multivariable logistic regression models, whereas ICU length of stay was analyzed using a generalized linear model. Kaplan–Meier survival curves were used to compare survival across trajectories, and stratified analyses were performed to examine the robustness and consistency of these associations. Four BPRI trajectories were identified: an early high followed by a decline (Trajectory 1), a rapid and sustained increase (Trajectory 2), a persistently low and stable pattern (Trajectory 3), and a slow increase with moderate variability (Trajectory 4). Trajectory 3 exhibited the greatest illness severity and the highest 28-day (43%) and 90-day mortality (51%). Trajectory 2 showed progressive BPRI improvement and consistently favorable outcomes. After full adjustment, Trajectory 2 remained independently associated with reduced ICU mortality (OR = 0.52, 95% CI 0.27–0.95), 28-day mortality (OR = 0.56, 95% CI 0.32–0.96), and 90-day mortality (OR = 0.52, 95% CI 0.31–0.88). Trajectory 1 and Trajectory 4 were not independently associated with mortality. Kaplan–Meier curves demonstrated early and sustained separation of survival across trajectories, and subgroup analyses confirmed the robustness of Trajectory 2’s protective effect. Dynamic BPRI trajectories identify distinct hemodynamic phenotypes in sepsis: only a continuously improving pattern predicts lower mortality, whereas low, declining, or fluctuating trajectories indicate high risk. Tracking BPRI dynamics may facilitate earlier recognition of adverse patterns and support individualized resuscitation. Not applicable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41864891",
       "doi": "10.1186/s12870-026-08565-z",
       "zotero_key": "UMDGZ565",
@@ -8561,6 +9072,68 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41910703",
+      "doi": "10.1007/s40264-026-01658-6",
+      "zotero_key": "ERE4E9BK",
+      "title": "Guillain–Barré Syndrome Following Recombinant Zoster Vaccine in US Medicare Adults Age 65 Years or Older",
+      "authors": [
+        [
+          "Susan dos",
+          "Reis"
+        ],
+        [
+          "Yueh-Yi",
+          "Chiang"
+        ],
+        [
+          "Alejandro",
+          "Amill-Rosario"
+        ],
+        [
+          "H.H.",
+          "Lee"
+        ],
+        [
+          "Abree",
+          "Johnson"
+        ],
+        [
+          "Kathleen",
+          "Ryan"
+        ],
+        [
+          "Driss",
+          "Oraichi"
+        ],
+        [
+          "Harry",
+          "Seifert"
+        ],
+        [
+          "Huifeng",
+          "Yun"
+        ],
+        [
+          "Susan",
+          "Gamble"
+        ],
+        [
+          "O M areen",
+          "Spence"
+        ]
+      ],
+      "journal": "Drug Safety",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41705621",
@@ -8651,6 +9224,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "41915029",
+      "doi": "10.1152/ajpcell.00804.2025",
+      "zotero_key": "JF8PQEBC",
+      "title": "Harnessing AlphaFold3 to Elucidate BBSome Structure and Protein Partners",
+      "authors": [
+        [
+          "Deng-Fu",
+          "Guo"
+        ],
+        [
+          "Younes",
+          "Rouabhi"
+        ],
+        [
+          "Mallory",
+          "Tollefson"
+        ],
+        [
+          "Kai",
+          "Vorhies"
+        ],
+        [
+          "Kamal",
+          "Rahmouni"
+        ]
+      ],
+      "journal": "American Journal of Physiology-Cell Physiology",
+      "year": "2026",
+      "abstract": "The BBSome, an eight-protein complex implicated in Bardet-Biedl syndrome (BBS), plays a crucial role in ciliary function. Although important aspects of its structural organization and protein interactions have been elucidated, additional questions remain regarding how these features relate to cargo recognition and complex dynamics. Using AlphaFold3, we generated a structural model closely matching recent cryo-EM data (Cα RMSD: 1.203 Å). Interface residue analysis of the model identified BBSome proteins BBS1 and BBS9 as central interaction hubs (most interface residues between two proteins), with BBS2 and BBS7 showing the most polar contacts. The common BBS1M390R pathogenic mutation, known to cause BBS, was predicted to destabilize the complex. BBS4 was also found to interact stably with pericentriolar material 1, suggesting a role in centriolar satellite localization. AlphaFold3-mediated analysis of BBSome interactions with G protein-coupled receptors (GPCRs) led to the identification of contact hotspots on BBS1, BBS4, and BBS5. These predictions were supported by immunoprecipitation and peptide competition assays. The modeling also suggested plausible interfaces between specific BBS proteins and metabolic signaling proteins, including MRAP2 (an MC4R chaperonin), the leptin receptor, and the insulin receptor. These predicted interfaces align with previously reported biochemical associations between BBS proteins and these receptors, supporting the idea that the BBSome regulates trafficking and signaling in metabolic pathways. Together, these findings provide new insights into BBSome structure and receptor interactions, offering a predictive framework to explore its role in ciliary trafficking and human disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "18168502",
@@ -9001,52 +9612,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
-    },
-    {
-      "pmid": "41761102",
-      "doi": "10.1186/s12873-026-01515-w",
-      "zotero_key": "FI4PRBAH",
-      "title": "Injury patterns and predictors of surgical intervention in road traffic accident patients presenting to the emergency department",
-      "authors": [
-        [
-          "Mustafa",
-          "Altun"
-        ],
-        [
-          "Emre",
-          "Kudu"
-        ],
-        [
-          "Mehmet Birkan",
-          "Korgan"
-        ],
-        [
-          "Mustafa",
-          "Aytemiz"
-        ],
-        [
-          "Atahan",
-          "Turan"
-        ],
-        [
-          "Furkan",
-          "Yakın"
-        ],
-        [
-          "Arzu",
-          "Denizbaşı"
-        ]
-      ],
-      "journal": "BMC Emergency Medicine",
-      "year": "2026",
-      "abstract": "Road traffic accidents (RTAs) impose substantial clinical and operational burdens on emergency departments (EDs). Identifying the injury patterns and predictors of surgical intervention is essential for trauma system planning and triage optimization. This study aimed to characterize the injury distribution and identify the independent predictors of surgical intervention in RTA patients presenting to a high-volume tertiary trauma center. This retrospective cohort study evaluated all patients presenting to the ED following RTAs between January 1 and December 31, 2024. Data were obtained from electronic medical records. Variables included age, sex, initial hemodynamic status, mechanism of injury, Glasgow Coma Scale (GCS), Injury Severity Score (ISS), anatomical injury regions, imaging utilization, transfusion requirement, and hospital length of stay. The primary outcome was the requirement for surgical intervention, defined as any operative procedure or major therapeutic intervention requiring surgical team involvement, encompassing both traditional operating room procedures and life-saving bedside interventions. Secondary outcomes included injury distribution patterns across anatomical regions and clinical outcomes, such as mortality and patient clinical disposition. Of 4747 included patients, the median age was 26 years, and 74.7% were male. Motorcycle injuries (49.3%) were the leading mechanism. Surgical intervention was required in 470 patients (9.9%). Tibial (23.4%) and femoral (13.8%) fractures were the most frequent operative indications. Surgically managed patients had higher ISS (median 9 vs 2), greater transfusion needs (24.5% vs 0.4%), and longer hospital stays (p < 0.001). Age (OR 1.03), male sex (OR 1.43), hemodynamic instability on ED arrival (OR 4.63), lower GCS (OR 1.13), lower extremity trauma (OR 2.32), head-maxillofacial trauma (OR 1.52), abdominal or pelvic trauma (1.38), motorcycle crashes (compared with vehicle occupants, OR 2.03), and pedestrian crashes (compared with vehicle occupants, OR 1.67) independently predicted surgical intervention. The need for surgical intervention in RTA patients is primarily driven by physiological status, specific injury mechanisms, and the distribution of anatomical injuries. Incorporating physiological status and mechanism-informed triage pathways into trauma protocols may enhance surgical readiness, optimize resource allocation, and improve care delivery in high-volume urban trauma centers.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "23956131",
@@ -10085,6 +10650,258 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41904678",
+      "doi": "10.1016/j.gim.2026.102558",
+      "zotero_key": "GRAXWQWK",
+      "title": "Loss of function of retinol dehydrogenase 11 causes a recessive syndrome characterized by myopathy, retinal dystrophy, juvenile cataracts, and microcephaly",
+      "authors": [
+        [
+          "Francesca Clementina",
+          "Radio"
+        ],
+        [
+          "Giorgio",
+          "Tasca"
+        ],
+        [
+          "Sandra",
+          "Coppens"
+        ],
+        [
+          "Giovanni",
+          "Chillemi"
+        ],
+        [
+          "Sandra",
+          "Whalen"
+        ],
+        [
+          "Isabelle",
+          "Marey"
+        ],
+        [
+          "Chiara",
+          "Leoni"
+        ],
+        [
+          "Roberta",
+          "Onesimo"
+        ],
+        [
+          "Nicolas",
+          "Deconinck"
+        ],
+        [
+          "Adele",
+          "D’Amico"
+        ],
+        [
+          "Gauthier",
+          "Remiche"
+        ],
+        [
+          "Andres",
+          "Nascimento"
+        ],
+        [
+          "Carlos",
+          "Ortez"
+        ],
+        [
+          "Cristina",
+          "Jou"
+        ],
+        [
+          "Sophie",
+          "Lecomte"
+        ],
+        [
+          "Benedetto",
+          "Falsini"
+        ],
+        [
+          "Andrea",
+          "Ciolfi"
+        ],
+        [
+          "Marco",
+          "Ferilli"
+        ],
+        [
+          "Camilla",
+          "Cappelletti"
+        ],
+        [
+          "Marcello",
+          "Niceta"
+        ],
+        [
+          "Vykuntaraju K.",
+          "Gowda"
+        ],
+        [
+          "Varunvenkat M.",
+          "Srinivasan"
+        ],
+        [
+          "Mohammad Yahya Vahidi",
+          "Mehrjardi"
+        ],
+        [
+          "Ali",
+          "Dadbinpour"
+        ],
+        [
+          "Mojtaba",
+          "Movahedinia"
+        ],
+        [
+          "Zahra",
+          "Firoozfar"
+        ],
+        [
+          "Shahryar",
+          "Alavi"
+        ],
+        [
+          "Reza",
+          "Alibakhshi"
+        ],
+        [
+          "Donya",
+          "Ghazinader"
+        ],
+        [
+          "Majid",
+          "Mojarrad"
+        ],
+        [
+          "Mohsen",
+          "Rajati"
+        ],
+        [
+          "Boris",
+          "Keren"
+        ],
+        [
+          "Enrico",
+          "Bertini"
+        ],
+        [
+          "Giuseppe",
+          "Zampino"
+        ],
+        [
+          "Daniel Natera de",
+          "Benito"
+        ],
+        [
+          "Reza",
+          "Maroofian"
+        ],
+        [
+          "Marco",
+          "Tartaglia"
+        ]
+      ],
+      "journal": "Genetics in Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RDH11"
+    },
+    {
+      "pmid": "41915430",
+      "doi": "10.1172/jci193367",
+      "zotero_key": "VBN6R7HK",
+      "title": "Loss of RPGR disrupts motile cilia and causes primary ciliary dyskinesia by affecting F-actin dynamics",
+      "authors": [
+        [
+          "Yang",
+          "Wu"
+        ],
+        [
+          "Erika",
+          "Tavares"
+        ],
+        [
+          "B.",
+          "Liang"
+        ],
+        [
+          "W B",
+          "Wee"
+        ],
+        [
+          "V.",
+          "Mennella"
+        ],
+        [
+          "Han-Chao",
+          "Feng"
+        ],
+        [
+          "Jiaying",
+          "Cao"
+        ],
+        [
+          "Pui Yee",
+          "Wong"
+        ],
+        [
+          "Jiayi",
+          "Zheng"
+        ],
+        [
+          "Mu",
+          "He"
+        ],
+        [
+          "Kirk AJ",
+          "Stephenson"
+        ],
+        [
+          "Liran Hanan",
+          "Hochma"
+        ],
+        [
+          "Juqiang",
+          "Li"
+        ],
+        [
+          "Nan‐Peng",
+          "Chen"
+        ],
+        [
+          "Sharon",
+          "Dell"
+        ],
+        [
+          "Elise",
+          "Heon"
+        ],
+        [
+          "ZHEN",
+          "LIU"
+        ]
+      ],
+      "journal": "Journal of Clinical Investigation",
+      "year": "2026",
+      "abstract": "Cilia are cellular organelles extruding from the surface of various cell types, serving either sensory or motile functions. Retinitis pigmentosa GTPase regulator (RPGR) variants affect both photoreceptor sensory cilia and airway motile cilia, leading to retinitis pigmentosa (RP) and primary ciliary dyskinesia (PCD), respectively. Not all patients develop PCD, and it remains unclear which RPGR variants predispose patients to PCD. Here, we leverage 2D organoids, super-resolution microscopy, and live-cell imaging to characterize the multiciliated cells (MCCs) from patients with different RPGR variants and CRISPR-modified RPGR KO MCCs. We demonstrate that MCCs with RPGR variants have reduced ciliation, shorter cilia, impaired cilia beat, or cilia beat incoordination, potentially resulting in compromised mucociliary clearance and lung diseases. Moreover, we show that RPGR regulates motile cilia through interfering with F-actin dynamics, evidenced by the undissolved F-actin meshwork in RPGR-deficient MCCs, and the defects can be ameliorated with either Latrunculin A or Y27632 treatment. Though PCD was observed only in patients with variants that affect both isoforms, patients with RPGRORF15 variants also showed cilia and airway anomalies. All RPGR variants affect motile cilia one way or another, and the mechanisms involve the accumulation of apical F-actin.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RPGR"
+    },
+    {
       "pmid": "41866985",
       "doi": "10.1177/08977151261434917",
       "zotero_key": "EEDJ5DTQ",
@@ -10665,6 +11482,36 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41896275",
+      "doi": "10.1038/s41598-026-45733-5",
+      "zotero_key": "N5HV7664",
+      "title": "Multi-objective scenarios analysis for optimizing mariculture spatial allocation: a case study of Lianyungang, China",
+      "authors": [
+        [
+          "Qiulu",
+          "Wang"
+        ],
+        [
+          "Changjuan",
+          "Li"
+        ],
+        [
+          "Yaning",
+          "Li"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Optimizing the spatial allocation of fishery production is crucial for implementing the China's \"Blue Granary\" strategy and achieving sustainable utilization of fishery resources. An optimization framework was constructed from three objectives dimensions: demand, pattern, and efficiency. Taking the sea area of Lianyungang in Jiangsu Province as a case study, compound annual growth rate models were used to predict the mariculture output in 2030. The spatial pattern was optimized through spatial identification of protected area and fishery resource, environmental suitability assessment, and spatial use compatibility analysis. Subsequently, an adaptation matrix aligning spatial zones and aquaculture mode was established, proposing multi-scenario mariculture spatial layouts. The results were as follows: 1) Based on 2018 and 2022 as reference years, the predicted mariculture outputs for Jiangsu in 2030 are 1.1375 million tonnes and 1.0658 million tonnes, respectively, with the study area contributing 173,200 tonnes and 158,800 tonnes;2) Spatial analysis identified 891.7 km² of fishery conservation zones and 1,853.8 km² of suitable aquaculture areas within the study region, including 1,205.4 km² suitable for deep-water aquaculture and 648.4 km² for shallow-water aquaculture, of which 188.3 km² are multifunctional three-dimensional spaces; 3) Four scenarios were simulated based on predicted yields and per-unit-area productivity, with spatial layouts optimized using method-specific spatial parameter matching. The spatial ranges for the four aquaculture methods under different scenarios are as follows: deep-water cage culture requires 3,715-4,035 cubic meters of water space, raft culture necessitates 1,755-2,165 hectares of marine area, suspended cage culture occupies 295-725 hectares of operational range, and bottom sowing requires 1,280-1,855 hectares of seabed area. This study presents a methodological framework for mariculture spatial optimization that may contribute to sustainable marine fisheries development.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41452621",
       "doi": "10.1177/11206721251408667",
       "zotero_key": "XMIJWWRX",
@@ -10867,6 +11714,60 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "High myopia"
+    },
+    {
+      "pmid": "41910154",
+      "doi": "10.1152/ajprenal.00465.2025",
+      "zotero_key": "U82MK4EU",
+      "title": "NBL1 Associates with Renal Phenotypes in Mice, but Partial Nbl1 Reduction Does Not Ameliorate Kidney Disease",
+      "authors": [
+        [
+          "Courtney",
+          "Willey"
+        ],
+        [
+          "Rei",
+          "Bufi"
+        ],
+        [
+          "Yuka",
+          "Takemon"
+        ],
+        [
+          "Abigail",
+          "Brackett"
+        ],
+        [
+          "Alicia",
+          "Warren"
+        ],
+        [
+          "Samantha",
+          "Spellacy"
+        ],
+        [
+          "Daniel M.",
+          "Gatti"
+        ],
+        [
+          "Susan",
+          "Sheehan"
+        ],
+        [
+          "Ron",
+          "Korstanje"
+        ]
+      ],
+      "journal": "American Journal of Physiology-Renal Physiology",
+      "year": "2026",
+      "abstract": "Increased concentrations of neuroblastoma suppressor of tumorigenicity 1 (NBL1) in the blood have been associated with disease progression in diabetic kidney disease and IgA nephropathy. However, it is unclear whether NBL1 is a causal factor for kidney disease and what is driving these increased concentrations in the blood. To test this, we evaluated Nbl1 heterozygous knockout (Nbl1 +/-) mice in two models of kidney injury, X-linked Alport syndrome (XLAS) and chronic low-dose cisplatin treatment and compared them to wild-type (WT) controls. In parallel, we assessed serum NBL1, kidney function and damage, and performed a genetic analysis for the drivers of NBL1 concentrations in two independent cohorts of genetically diverse Diversity Outbred mice with XLAS (DO-XLAS), analyzing each cohort separately. Serum NBL1 was consistently associated with reduced GFR across both DO-XLAS cohorts, while correlations with ACR were variable between cohorts, and not consistently replicated. In both XLAS and cisplatin models, partial reduction of NBL1 (~50%) in Nbl1 +/- mice did not alter GFR, ACR, or histological injury relative to WT controls. Genetic analysis of NBL1 concentrations in our DO-XLAS cohorts identified associations with loci on Chromosomes 4 and 17. Together, these findings indicate that elevated serum NBL1 reflects kidney injury and, under partial reduction, does not alter disease severity, consistent with NBL1 functioning as a biomarker rather than a causal driver of kidney disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "2620824",
@@ -11073,28 +11974,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "USH2A"
-    },
-    {
-      "pmid": "5001711",
-      "doi": "10.1097/00007611-197111000-00003",
-      "zotero_key": "BBUCZNH8",
-      "title": "Norrie's disease.",
-      "authors": [
-        [
-          "LF",
-          "Perez"
-        ]
-      ],
-      "journal": "Southern medical journal",
-      "year": "1971",
-      "abstract": "",
-      "cited_by_count": 6,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Norrie disease"
     },
     {
       "pmid": "17230742",
@@ -11459,56 +12338,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "KRT3"
-    },
-    {
-      "pmid": "41832457",
-      "doi": "10.1186/s12904-026-02065-5",
-      "zotero_key": "ABSHR9QI",
-      "title": "Patient, family, and healthcare provider experiences in advance care planning: a qualitative study",
-      "authors": [
-        [
-          "Apiradee",
-          "Pimsen"
-        ],
-        [
-          "Nedruetai",
-          "Punaglom"
-        ],
-        [
-          "Anuwat",
-          "Taweesuwanakrai"
-        ],
-        [
-          "Wanida",
-          "Winyoohatthakit"
-        ],
-        [
-          "Siriluk",
-          "Winitchayothin"
-        ],
-        [
-          "Supinda",
-          "Ruangjiratain"
-        ],
-        [
-          "Virapun",
-          "Wirojratana"
-        ],
-        [
-          "Ahmad",
-          "Rifai"
-        ]
-      ],
-      "journal": "BMC Palliative Care",
-      "year": "2026",
-      "abstract": "Advance care planning (ACP) aligns care with patients’ values and improves end-of-life outcomes. Yet uptake remains limited and frequently crisis-triggered, particularly in collectivist contexts where family interdependence and emotional tolerance shape participation. Empirical understanding of how ACP is experienced across patients, families, and healthcare providers in non-Western settings remains limited. To explore how patients, family caregivers, and healthcare providers experience and negotiate participation in ACP within a Thai palliative care context. Qualitative study using reflexive thematic analysis. A university hospital in Bangkok, Thailand. Thirty participants: 10 patients with life-limiting illness, 10 family caregivers, and 10 healthcare providers. Semi-structured interviews were conducted at a palliative care center between January and October 2025. Interviews were transcribed verbatim, translated using meaning-based equivalence, and analyzed inductively using reflexive thematic analysis. Four themes (10 subthemes) conceptualized ACP as a relationally negotiated, culturally embedded practice. (1) Timing and pathways: emotional, familial, and structural readiness shaped when ACP became possible, most often during clinical crises. (2) Values and visions of a good death: comfort, peace, and minimizing burden guided preferences, while caregiving and resource constraints limited feasibility. (3) Communication as relational positioning in ACP: gentle honesty and paced disclosure fostered engagement; decisions were negotiated within family circles; physicians typically initiated ACP, while nurses sustained relational continuity. (4) Structural conditions shaping the possibility of ACP: hierarchy, workload, limited training, and constrained community support restricted proactive implementation, reinforcing reactive patterns. ACP in this context functions as a relationally negotiated practice contingent upon alignment across emotional, familial, and structural readiness. Crisis initiation reflects misalignment across these domains rather than cultural resistance alone. Strengthening culturally attuned communication, family-centered engagement, interdisciplinary role clarity, and structural support may enable earlier and sustained ACP dialogue. In collectivist healthcare systems, ACP depends on alignment across emotional, familial, and structural readiness. Without coordinated relational and institutional support, conversations remain crisis-triggered despite shared endorsement of dignified, non-burdensome care.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "41860748",
@@ -11897,6 +12726,44 @@
       "subcollection": "Retinal dystrophies"
     },
     {
+      "pmid": "41904396",
+      "doi": "10.1186/s12872-026-05798-6",
+      "zotero_key": "HQKKC9AT",
+      "title": "Predictive value of frontal QRS-T angle for no-reflow phenomenon in patients with acute coronary syndrome",
+      "authors": [
+        [
+          "Mustafa",
+          "Özkoç"
+        ],
+        [
+          "Onur",
+          "Altınkaya"
+        ],
+        [
+          "Selim",
+          "Aydemir"
+        ],
+        [
+          "Sidar Şiyar",
+          "Aydın"
+        ],
+        [
+          "Remziye",
+          "Doğan"
+        ]
+      ],
+      "journal": "BMC Cardiovascular Disorders",
+      "year": "2026",
+      "abstract": "Coronary no-reflow phenomenon (NRP) is a complex condition that can be observed frequently after percutaneous coronary intervention (PCI) in patients with acute coronary syndrome (ACS) and is associated with significant adverse cardiac events and a poor prognosis. In this study, we aimed to evaluate the relationship between the frontal QRS-T angle, which has been associated with myocardial repolarization and adverse cardiac outcomes in previous researches, and NRP. Our retrospective, single center study included 1207 patients hospitalized in our clinic with ACS between 2020 and 2025. The primary endpoint in this research was the occurrence of NRP, and patients were divided into two categories according to this condition. 46 patients with NRP were identified. A control group of patients who did not occur NRP, matched 1:2 in terms of age and gender, was identified (n = 92). Electrocardiograms of the patients were evaluated before PCI and frontal QRS-T angles were recorded. Clinical features, frontal QRS-T angle, and laboratory parameters were statistically evaluated to differentiate between the two categories. The frontal QRS-T angle was significantly greater in the patient group with NRP than in the control group (105.8 ± 51.9 vs. 54.5 ± 37.7, P < 0.001). As a result, frontal QRS-T angle was independently associated with NRP in ACS patients (P < 0.001) and predicted NRP with a cut-off value of 73.0, 71.7% sensitivity and 70.3% specificity in ROC-Curve analysis (AUC: 0.802, 95% CI: 0.731–0.873, P < 0.001). In our research, we observed that the frontal QRS-T angle was an independent predictor of NRP in the ACS patient group. We believe this may be particularly important in the treatment of NRP, early detection of high-risk patients, and improvement of prognosis through appropriate measures. Not applicable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "40371404",
       "doi": "10.15386/mpr-2743",
       "zotero_key": "8KBUABHW",
@@ -12067,26 +12934,34 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "14210674",
-      "doi": "10.1111/j.1469-8749.1964.tb08153.x",
-      "zotero_key": "JUDEBC3T",
-      "title": "PSEUDOGLIOMA.",
+      "pmid": "41888485",
+      "doi": "10.1007/s40257-026-01026-1",
+      "zotero_key": "288AUG97",
+      "title": "Psychocutaneous Disorders in Pediatric and Adolescent Populations: A Narrative Review",
       "authors": [
         [
-          "CA",
-          "BROWN"
+          "Isabella J.",
+          "Tan"
+        ],
+        [
+          "Alexis",
+          "Mitelman"
+        ],
+        [
+          "Mohammad",
+          "Jafferany"
         ]
       ],
-      "journal": "Developmental medicine and child neurology",
-      "year": "1964",
-      "abstract": "",
-      "cited_by_count": 1,
+      "journal": "American Journal of Clinical Dermatology",
+      "year": "2026",
+      "abstract": "Psychocutaneous disorders (PCDs) in children and adolescents lie at the intersection of dermatology and psychiatry and include primary psychiatric conditions with cutaneous manifestations, dermatologic diseases with psychiatric sequelae, and functional or overlap syndromes. Despite substantial psychosocial burden and chronic morbidity, pediatric PCDs remain under-recognized and inconsistently managed. We conducted a narrative review of PubMed, Embase, PsycINFO, Scopus, and Web of Science (2000-2025), including epidemiologic studies, clinical trials, meta-analyses, and consensus statements addressing prevalence, risk factors, diagnostic tools, and management strategies in pediatric psychodermatology. Available data suggest that 20-30% of youth with chronic skin disease have comorbid psychiatric conditions; trichotillomania and excoriation disorder affect approximately 1-5% of children, and adolescents with acne have a two- to three-fold increased risk of depression. Diagnosis is frequently delayed due to overlapping clinical presentations, limited clinician training, and inconsistent use of validated screening instruments, many of which are better studied in older adolescents than younger children. Behavioral interventions remain first-line for most pediatric PCDs, with pharmacologic therapy reserved for moderate-to-severe or refractory cases; optimized dermatologic management may mitigate secondary psychiatric distress. Early recognition through structured screening, developmentally informed assessment, and attention to family and psychosocial context is needed to improve outcomes. Key gaps include limited pediatric-specific epidemiologic data, insufficient validation of assessment tools in younger populations, and a lack of longitudinal treatment studies, highlighting the need for targeted research to inform care.",
+      "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:deep-search"
+        "source:recent"
       ],
-      "category": "5 - Pathologies",
-      "subcollection": "Norrie disease"
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41772523",
@@ -12475,10 +13350,11 @@
       "cited_by_count": 1,
       "centrality": 0,
       "source_tags": [
+        "source:deep-search",
         "source:search"
       ],
-      "category": "6 - Genes",
-      "subcollection": "RPGRIP1"
+      "category": "6 - Genes, 5 - Pathologies",
+      "subcollection": "RPGRIP1, Leber congenital amaurosis"
     },
     {
       "pmid": "41794914",
@@ -12973,48 +13849,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "29859327",
-      "doi": "10.1016/j.neulet.2018.05.043",
-      "zotero_key": "PGWEGIFP",
-      "title": "SNCA REP1 and Parkinson's disease.",
-      "authors": [
-        [
-          "L",
-          "Shu"
-        ],
-        [
-          "Y",
-          "Zhang"
-        ],
-        [
-          "Q",
-          "Sun"
-        ],
-        [
-          "H",
-          "Pan"
-        ],
-        [
-          "J",
-          "Guo"
-        ],
-        [
-          "B",
-          "Tang"
-        ]
-      ],
-      "journal": "Neuroscience letters",
-      "year": "2018",
-      "abstract": "",
-      "cited_by_count": 15,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Choroideremia"
     },
     {
       "pmid": "41764407",
@@ -13667,6 +14501,32 @@
       "subcollection": "Ocular developmental anomalies"
     },
     {
+      "pmid": "41917724",
+      "doi": "10.1097/tp.0000000000005706",
+      "zotero_key": "MPMQZMXZ",
+      "title": "Tailored Machine Perfusion for Personalized Medicine",
+      "authors": [
+        [
+          "Jianwen",
+          "Liu"
+        ],
+        [
+          "K.K.Y.",
+          "Man"
+        ]
+      ],
+      "journal": "Transplantation",
+      "year": "2026",
+      "abstract": "Machine perfusion (MP) has emerged as a new standard of care for liver transplantation in extended-criteria donors (ECDs), such as those with steatotic grafts, aged grafts, donation after circulatory death (DCD), and grafts with viral infections. The application of various MP techniques has significantly expanded the donor pool, particularly for DCD livers, which now account for up to 40% of transplants in some countries.1 Several pilot and randomized controlled trials (RCTs) have demonstrated the efficacy of MP in this setting. The first multicenter RCT using normothermic MP (NMP) for ECD demonstrated that NMP significantly reduced early graft injury, organ discard rate, and prolonged preservation time but did not benefit patient or graft survival.2 In parallel, another European multicenter RCT explored dual hypothermic oxygenated MP (D-HOPE), reporting superior outcomes in DCD liver transplantation, including the reduced rates of early allograft dysfunction (EAD), postreperfusion syndrome (PRS), and biliary complications.3 As high-quality RCTs continue to be conducted globally, MP indications are expanding, together with the development of combined or sequential perfusion protocols.4,5 Nevertheless, evidence remains scarce regarding which MP approach is best suited for specific ECD subtypes. In the current issue, Stefano et al6 presented new data addressing this question. In this retrospective single-center study, they evaluated multiple MP strategies—including normothermic regional perfusion (NRP) followed by either D-HOPE or NMP, as well as D-HOPE alone—applied to various subtypes of ECDs, such as DCD and ECDs after brain death (ECD-DBD). Strategically, the team used NRP followed by MP for DCD grafts: 50 donors received by D-HOPE, whereas the other 11 underwent NMP. The median NRP duration was 240 min for all DCD grafts. For ECD-DBD grafts, pure D-HOPE was used with a median perfusion time of 137 min, significantly shorter than the MP time in the NRP-MP group. The DBD grafts preserved by static cold storage served as controls. Following propensity score matching, demographic characteristics were comparable across groups, with the exception of significantly higher warm ischemic time (44 min) in the DCD group and older donor age in the ECD-DBD group. Despite these differences, their study reported similar long-term patient and graft survival across donor subtypes, managed with tailored MP protocols. One-year survival rates ranged from 91.8% to 94.2%, and 3-y survival rates varied between 88% and 93.4%, consistent with benchmark studies. Notably, the incidence of ischemic cholangiopathy was only 3.3% in the MP group and 4.9% in the static cold storage group. Other early complications, including EAD, PRS, and acute kidney injury, were also comparable among the 3 groups. The sequential application of NRP followed by NMP was associated with improved outcomes and feasibility for long-distance organ transport. Although a relatively higher incidence of severe PRS (41.7%) was observed in this subgroup, the small sample size necessitates further validation through multicenter prospective studies to better assess its association with clinical meaningful outcomes. Notably, the DCD cohort in this study faced additional challenges due to Italian legislation requiring 20 min of absent cardiac electrical activity to declare death, prolonging warm ischemic time by an extra 10–15 min. Despite this, the use of tailored MP protocols still yielded excellent outcomes, thereby underscoring the role of personalized medicine in graft preservation and transplantation. Current RCT or cohort studies also underscore the potential for innovative MP applications beyond preservation. MP can serve as a platform for targeted drug delivery, graft bioengineering, and quality assessment.7 Several preclinical studies have already demonstrated this concept, using MP to deliver siRNA, defatting cocktails, novel oxygen carriers, and other agents. An automated MP device was designed for simultaneous management of physiological homeostasis and assessment of graft quality, enabling injured human livers to be transplanted after 7 d of ex vivo perfusion.8 The same team also applied defatting strategy to severely steatotic liver during MP for 12 d, increasing the organ viability for transplantation.9 Another team used MP in animal models to deliver siRNA into grafts, achieving efficient gene editing within a short perfusion window and highlighting the potential of MP-facilitated genetic modification.10 In summary, MP has established its role in improving outcomes for ECD livers, with modalities such as NMP and HOPE demonstrating significant benefits in graft survival and complication reduction. Looking ahead, the field must now move toward defining personalized perfusion protocols, matching specific MP techniques to distinct donor graft subtypes and recipient underlying diseases to optimize results. Furthermore, through close integration of basic science research and clinical validation, the future of MP promises to unlock innovative applications as a dynamic therapeutic platform, such as ex vivo graft repair, targeted drug delivery, and genetic modification, ultimately rescuing untransplantable organs and further expanding the donor pool (Figure 1).FIGURE 1.: Personalized machine perfusion: key factors and its future directions as a diagnostic and therapeutic platform. D-HOPE, dual hypothermic oxygenated machine perfusion; HMP, hypothermic machine perfusion; NMP, normothermic machine perfusion; NRP, normothermic regional perfusion. Modified using BioRender.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41721608",
       "doi": "10.1111/ijlh.70066",
       "zotero_key": "D57UARGW",
@@ -13751,6 +14611,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Anomalies du developpement oculaire, Ocular developmental anomalies"
+    },
+    {
+      "pmid": "41919600",
+      "doi": "10.1177/00033197261434136",
+      "zotero_key": "NDXBHW53",
+      "title": "The Association Between Depression and Advanced Stages of Cardiovascular–Kidney–Metabolic Syndrome",
+      "authors": [
+        [
+          "Zhihang",
+          "Du"
+        ],
+        [
+          "Caixia",
+          "Cao"
+        ],
+        [
+          "Xueyu",
+          "Lv"
+        ],
+        [
+          "Ying",
+          "Hou"
+        ],
+        [
+          "Dan",
+          "Li"
+        ]
+      ],
+      "journal": "Angiology",
+      "year": "2026",
+      "abstract": "This study aimed to investigate the association between depression and advanced stages of cardiovascular-kidney-metabolic (CKM) syndrome. This cross-sectional study utilized nationally representative data from the National Health and Nutrition Examination Survey (NHANES) from 2011 to 2018. Depression was assessed using the Patient Health Questionnaire-9 (PHQ-9). Advanced CKM syndrome was defined as CKM stages 3-4. Weighted logistic regression models were applied to evaluate the association between depression and advanced CKM syndrome. Among 6677 adults, depression was positively associated with advanced CKM syndrome. Each 1-point increase in PHQ-9 score was associated with higher odds of advanced CKM syndrome (odds ratio [OR] = 1.05, 95% CI: 1.02-1.08), and individuals with moderate-to-severe depression had significantly increased odds (OR = 1.89, 95% CI: 1.25-2.87). Restricted cubic spline analysis revealed an L-shaped nonlinear relationship. A least absolute shrinkage and selection operator (LASSO) logistic regression model identified 9 factors associated with advanced CKM syndrome among individuals with depression, demonstrating high discriminative performance. Subgroup analyses indicated heterogeneity by sex, with a more pronounced association observed among women, highlighting the importance of early mental health screening in CKM syndrome risk stratification.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "8493888",
@@ -14099,52 +14997,6 @@
       "subcollection": "Outer coat"
     },
     {
-      "pmid": "24736654",
-      "doi": "10.1371/journal.pone.0092990",
-      "zotero_key": "H26KPXIP",
-      "title": "The ovine cerebral venous system: comparative anatomy, visualization, and implications for translational research.",
-      "authors": [
-        [
-          "A",
-          "Hoffmann"
-        ],
-        [
-          "MH",
-          "Stoffel"
-        ],
-        [
-          "B",
-          "Nitzsche"
-        ],
-        [
-          "D",
-          "Lobsien"
-        ],
-        [
-          "J",
-          "Seeger"
-        ],
-        [
-          "H",
-          "Schneider"
-        ],
-        [
-          "J",
-          "Boltze"
-        ]
-      ],
-      "journal": "PloS one",
-      "year": "2014",
-      "abstract": "",
-      "cited_by_count": 38,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
       "pmid": "",
       "doi": "10.1159/000535545",
       "zotero_key": "P72682DM",
@@ -14434,6 +15286,48 @@
       "journal": "Scientific Reports",
       "year": "2026",
       "abstract": "The current work establishes a breakthrough for the electrical double-layer capacitor (EDLC) device, utilizing biodegradable polymer and non-toxic salt. In this project, polymer electrolytes (PEs) comprising polyvinyl alcohol (PVA), sodium thiocyanate (NaSCN), glycerol (Gly), and various amounts of TiO2 nanofillers were prepared by solution casting. The electrolyte inserted with 3 wt% TiO2 showed the maximum DC conductivity, reaching 1.86 × 10-3 S/cm. Dielectric analysis revealed a high dielectric constant (8.5 × 106), indicating efficient charge storage. The AC conductivity pattern demonstrated a low-frequency spike and a flat region, emphasizing the direct current (DC) component. Additional tests on the highset conducting electrolyte verified that ion transport was the primary mechanism (tion = 0.976) and that the electrolyte maintained good electrochemical stability around 2.5 V. This electrolyte was subsequently employed in the construction of an EDLC device. The cyclic voltammetry (CV) results revealed a non-Faradaic charge storage process characterized by an almost leaf-like profile. Galvanostatic charge-discharge curves close enough to the ideal shape with minimal voltage drop, reinforcing the device's excellent performance. The constructed EDLC exhibited strong performance, delivering 138 F/g in capacitance, with an output power of 4000 W/kg and an energy storage capacity of 17.3 Wh/kg. The Ragone plot showed high power and energy densities comparable to lead-acid and Ni-Cd batteries, highlighting its potential for rapid charge-discharge performance. Finally, the limitations of EDLC devices have been discussed.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "41910568",
+      "doi": "10.1037/xhp0001395",
+      "zotero_key": "CGFA8PC6",
+      "title": "Trade-offs between visual sampling and memory in stable and changing worlds.",
+      "authors": [
+        [
+          "Luzi",
+          "Xu"
+        ],
+        [
+          "Surya",
+          "Gayet"
+        ],
+        [
+          "Andre",
+          "Sahakian"
+        ],
+        [
+          "Jacqueline",
+          "Gottlieb"
+        ],
+        [
+          "S. Van der",
+          "Stigchel"
+        ],
+        [
+          "Chris L. E.",
+          "Paffen"
+        ]
+      ],
+      "journal": "Journal of Experimental Psychology Human Perception & Performance",
+      "year": "2026",
+      "abstract": "In natural behavior, humans make trade-offs between sampling information from the visual environment and relying on memory. As is often the case, observers favor visual sampling when its cost is low (e.g., a sampling only takes a few saccades); but when the sampling cost is artificially increased (e.g., by imposing longer waiting times), they favor visual working memory over visual sampling. Studies investigating this ubiquitous trade-off have neglected the stability in the real world, where repetitive patterns may engage a different memory system: long-term memory (LTM). Two competing hypotheses were derived from previous studies: when stable environments allow the formation of LTM (and sampling costs are relatively low), observers may either (a) continue to rely on visual sampling, or (b) choose to favor memory over visual sampling. We provide evidence for the latter hypothesis, based on a copying task in which participants reproduced an example display containing several colored polygons that either changed or remained stable over consecutive trials. Experiment 1 showed that, when the example display was repeated, the sampling frequency and durations decayed exponentially, eventually disappearing entirely. In Experiments 2 and 3, we replicated the reduction in sampling behavior when only half of the example polygons were repeated. Moreover, participants' recall of repeated items on a surprise memory test predicted this reduction in sampling behavior, confirming the involvement of LTM. Our findings demonstrate that repetitive patterns in stable visual environments make memory use preferable over visual sampling by reducing memory cost through the recruitment of LTM. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -14749,6 +15643,60 @@
       "subcollection": "Anterior segment examination"
     },
     {
+      "pmid": "41919336",
+      "doi": "10.1021/acs.nanolett.6c00344",
+      "zotero_key": "9B5H5JI9",
+      "title": "Ultrastable, Omnidirectionally Stretchable, and Transparent Electrodes Based on Ag@Au Core–Sheath Nanowires with Noncoplanar Patterns for Wearable Electronics",
+      "authors": [
+        [
+          "Liancong",
+          "Yue"
+        ],
+        [
+          "Jiajia",
+          "Wang"
+        ],
+        [
+          "Youyou",
+          "Liu"
+        ],
+        [
+          "Xiangyi",
+          "Kong"
+        ],
+        [
+          "Min",
+          "Gong"
+        ],
+        [
+          "Xiang",
+          "Lin"
+        ],
+        [
+          "Fei",
+          "Gao"
+        ],
+        [
+          "Liang",
+          "Zhang"
+        ],
+        [
+          "Dongrui",
+          "Wang"
+        ]
+      ],
+      "journal": "Nano Letters",
+      "year": "2026",
+      "abstract": "On-skin electrophysiological devices require stretchable transparent electrodes offering omnidirectional compliance, stable conductivity, environmental resilience, and high transparency. Herein, we present hierarchical, environmentally robust omnidirectionally stretchable transparent electrodes (OSTEs) using Ag@Au core-sheath nanowires (Ag@Au NWs). Fabrication employs reusable hydrophobic masks to pattern 2D geometries on prestrained substrates; strain release self-assembles 3D wrinkled architectures. Combined with salt-assisted NW cold-welding, this enables exceptional multidirectional stretchability and strain-tolerant conductivity. The optimized OSTE achieves 9.24 Ω/sq at 75.0% transmittance, withstands >10,000 cycles of 30% uniaxial strain (resistance increase 2O2). Ag@Au NW OSTEs deliver high-fidelity EMG/ECG signals with significant motion-artifact suppression during skin deformation and perspiration, outperforming commercial Ag/AgCl gel electrodes. This scalable materials-structure integration approach accelerates precise wearable biosensors for dynamic health monitoring.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "30019745",
       "doi": "10.14670/hh-18-029",
       "zotero_key": "KF3XZ97J",
@@ -14945,6 +15893,36 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41916548",
+      "doi": "10.1542/pir.2025-006958",
+      "zotero_key": "5A52G98H",
+      "title": "Unexplained Pediatric Ascites: Navigating a Diagnostic Maze",
+      "authors": [
+        [
+          "Mossaab",
+          "Hassoun"
+        ],
+        [
+          "Ahmad",
+          "Malas"
+        ],
+        [
+          "Mossaab",
+          "Hassoun"
+        ]
+      ],
+      "journal": "Pediatrics in Review",
+      "year": "2026",
+      "abstract": "A 9-year-old Middle Eastern boy developed abdominal pain and diarrhea for 7 days before presenting to an external clinic. Stool analysis identified Entamoeba histolytica cysts, leading to a 10-day metronidazole course (25 mg/kg/d). The family first noted abdominal distention on day 3 of therapy. Despite full antimicrobial compliance, distention progressed over the next 3 weeks alongside worsening malaise and anorexia. The patient is referred to our hospital 1 month after initial symptoms onset. There is no history of travel, sick contact, or animal exposure. Family history is significant for Crohn’s disease (CD) in 2 paternal uncles, diagnosed in adolescence, but negative for recurrent fevers, autoimmune disorders, or consanguinity.On physical examination, the patient appears pale and lethargic, with dry mucous membranes and mild periorbital shadows. Vital signs reveal tachycardia (110 beats per minute), normotension (blood pressure, 110/70 mm Hg), and an afebrile status (36.8 °C [98.2 °F]). Abdominal inspection demonstrates marked, symmetric distention with taut, glistening skin. Palpation elicits diffuse tenderness without guarding or rebound, and percussion confirms shifting dullness. A fluid wave is elicited too, consistent with significant ascites. There is no evidence of hepatosplenomegaly. Bowel sounds are normoactive, and no abdominal masses or lymphadenopathy are detected. Examination of the skin reveals no rash, erythema, or ecchymoses, and joints are without swelling, warmth, or limited range of motion. The remainder of the physical examination is unremarkable. Abdominal ultrasonography confirms large-volume ascites (2.3 L) with no other abnormal findings.The child is admitted for further workup and management. Initial evaluation reveals neutrophilic predominance (78%) on complete blood count (CBC), elevated inflammatory markers (erythrocyte sedimentation rate, 49 mm/h; C-reactive protein [CRP], 34 mg/L), hypoalbuminemia (3.0 g/dL), and increased fecal calprotectin (877 μg/g). Renal function tests, electrolytes, and liver enzymes are unremarkable. Ascitic fluid analysis confirms exudative ascites (serum-ascites albumin gradient [SAAG], 0.5 g/dL; protein, 4.5 g/dL). See Table 1 for initial laboratory investigation results. The Gram stain of ascitic fluid demonstrates gram-positive cocci. These are subsequently identified as coagulase-negative staphylococci, a finding that is most likely indicative of contamination. Further evaluation includes autoimmune serology, which shows negative results for antinuclear antibodies (ANAs, C; p.Val726Ala), diagnostic of FMF.9,10 Colchicine (0.5 mg twice per day) was started immediately upon genetic confirmation. Prednisone was tapered and stopped uneventfully.FMF is an autosomal recessive autoinflammatory disorder caused by pathogenic variants in the MEFV gene, which encodes pyrin, a critical regulator of inflammasome activity.7,8 The homozygous MEFV c.2177T>C (p.Val726Ala) mutation identified in this case disrupts pyrin’s ability to suppress interleukin-1β (IL-1β) release, leading to uncontrolled neutrophilic inflammation and recurrent serositis.8,11 FMF typically manifests as recurrent fever (85% of cases), acute serositis (92%), and self-limited arthritis (40%). Chronic ascites, observed in our case, represents an atypical manifestation of FMF, documented in rare case reports and linked to persistent IL-1β–mediated neutrophilic inflammation of peritoneal membranes.12,13Elevated fecal calprotectin in the patient initially pointed toward inflammatory bowel disease (IBD). However, increased fecal calprotectin is nonspecific for IBD, as levels >200 μg/g occur in bacterial gastroenteritis (eg, Salmonella), enteropathy induced by nonsteroidal anti-inflammatory drugs, and systemic inflammatory disorders such as FMF.14 Studies demonstrate that fecal calprotectin levels in FMF patients (median, 192 μg/g) can approach those seen in mild IBD, likely due to subclinical intestinal inflammation secondary to peritoneal and mesenteric serositis rather than mucosal ulceration.14 This distinction is critical, as colonoscopy in our case revealed no granulomas, crypt architectural distortion, or other hallmarks of IBD, despite the significantly elevated calprotectin level. The discordance between serosal inflammation (driving calprotectin elevation) and mucosal integrity (preserved on endoscopy) underscores the necessity of integrating genetic testing with clinical and endoscopic findings to differentiate FMF from IBD.9,14A homozygous splicing variant in IRF5 (NM_032643.4:c.-13 + 3G>T) was detected as an incidental finding on WES, and is known to be associated with increased risk for systemic lupus erythematosus (SLE), although the child has not developed any symptoms related to the condition.15 While homozygous IRF5 variants amplify SLE susceptibility compared with heterozygous states (odds ratio, 2.5–3.0 vs 1.5–1.8), meta-analyses show homozygous rs2004640-T/T genotypes confer 1.8- to 2.2-fold increased risk vs wild type. Epidemiological studies demonstrate SLE patients have 1.6 to 3.2 times higher FMF prevalence vs general populations, with shared IL-1β/IFN-α pathway interactions mediated through IRF5’s dual role in inflammasome priming and interferon signaling.15 The patient exhibited no SLE-related manifestations. Biannual monitoring for proteinuria, CBC abnormalities, and ANA/double-stranded DNA (anti-dsDNA) is advised, while anti-Smith antibody screening lacks evidence in asymptomatic carriers. The patient will be monitored during regular follow-up visits, but our primary focus remains FMF management.At 2-year follow-up, the child remains asymptomatic on daily colchicine (1 mg), with normal inflammatory marker levels, and no ascites recurrence on serial ultrasonography. Growth parameters and renal function remain within normal limits, and annual serum amyloid A (SAA) monitoring shows no evidence of amyloidosis. SAA should be monitored every 3 months during colchicine dose escalation in active FMF to assess subclinical inflammation and amyloidosis risk. Annual monitoring is adequate for patients who remain stable.8,16 Persistent SAA elevation (>10 mg/L) drives AA amyloid deposition, particularly in high-risk genotypes.11,16 Our patient’s favorable renal and inflammatory outcomes align with cohort studies demonstrating that colchicine initiation within 12 months of symptom onset reduces amyloidosis incidence by 94% to 97% (vs late/no treatment) while achieving complete attack control in 85% to 90% of compliant patients.7,8,16 This protective effect correlates with maintaining SAA levels <10 mg/L, which stabilizes renal function in 92% of early-treated cases.Chronic ascites, even in the absence of fever, warrants consideration of FMF, especially in populations or regions with a high prevalence of the disease.Elevated fecal calprotectin in FMF mirrors IBD but reflects serosal, not mucosal, inflammation. Endoscopy remains the diagnostic procedure to avoid misdiagnosis.In complex cases such as FMF with atypical presentations, WES can provide definitive molecular diagnosis to confirm clinical suspicion and guide long-term management.Early colchicine initiation is associated with prevention of amyloidosis and achievement of disease remission in most patients with FMF.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "11954755",
       "doi": "10.1007/s00431-001-0870-z",
       "zotero_key": "VGDHVRST",
@@ -15095,6 +16073,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
+    },
+    {
+      "pmid": "41910550",
+      "doi": "10.1037/abn0001108",
+      "zotero_key": "DWQ5RGQA",
+      "title": "Variability is not flexibility: Emotion regulation switching predicts increased momentary distress when context is stable.",
+      "authors": [
+        [
+          "Mark Shuquan",
+          "Chen"
+        ],
+        [
+          "Kaiwen",
+          "Bi"
+        ],
+        [
+          "Wisteria",
+          "Deng"
+        ],
+        [
+          "Yutong",
+          "Zhu"
+        ],
+        [
+          "Jutta",
+          "Joormann"
+        ]
+      ],
+      "journal": "Journal of Psychopathology and Clinical Science",
+      "year": "2026",
+      "abstract": "Recent research has challenged the assumption that specific emotion regulation (ER) strategies are universally adaptive, emphasizing instead the importance of fit of ER strategy to emotion-eliciting context (i.e., ER flexibility). However, most studies did not directly assess the context of ER but rely instead on measuring variability in ER as a proxy of flexibility. The current study aims at using a novel computational tool to directly assess ER-context interaction in two studies. Across a daily diary study (Study 1, N = 92, 1,149 diaries) and an ecological momentary assessment study (Study 2, N = 158, 12,217 observations), we applied the Bray-Curtis dissimilarity index-a computational tool that quantifies the type and degree of change between two profiles (i.e., patterns of ER and context)-to test whether ER effort scaling (i.e., endorsement changes) and strategy switching (i.e., replacement changes) predict momentary distress differently depending on whether context remains stable or changes. Greater moment-to-moment strategy switching predicted higher negative affect (Study 1) and momentary psychopathology symptoms (Study 2) when context was stable. These findings challenge the practice of using variability as a proxy for flexibility, underscoring that true flexibility cannot be evaluated without directly assessing context. We discuss implications for research on ER flexibility and psychopathology, emphasizing the need to prioritize rigorous context assessment in advancing clinical science. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41763573",
@@ -15431,6 +16447,28 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "X-linked retinoschisis"
+    },
+    {
+      "pmid": "41888830",
+      "doi": "10.1186/s12905-026-04418-x",
+      "zotero_key": "7ZIFJTNE",
+      "title": "“I feel more comfortable with a female doctor”: gender preference, cultural context, and health experiences of young Syrian migrant women in Turkey",
+      "authors": [
+        [
+          "Ayla",
+          "Güllü"
+        ]
+      ],
+      "journal": "BMC Women s Health",
+      "year": "2026",
+      "abstract": "Migrant women often encounter complex physical and psychological health challenges shaped by the migration process and resettlement environments. This study qualitatively explores the post-migration health experiences of young Syrian migrant women living in Turkey, with particular attention to their perceptions of healthcare providers’ gender in the context of women’s health. Semi-structured, in-depth interviews were conducted with 14 women aged 18–28. Data were analyzed using thematic analysis to identify key patterns in participants’ health experiences and healthcare interactions. Four main themes emerged: (1) changes in physical health, (2) impact on psychological health, (3) gender preference for healthcare providers, and (4) healthcare service experiences. Migration affects health in multifaceted ways, with outcomes mediated by individual, social, and structural factors. Gender preference in healthcare reflects strategies to ensure emotional safety, trust, and relational comfort rather than simple cultural adherence. Beyond formal access, culturally sensitive, gender-responsive, and relationally attentive care is critical for promoting the well-being of migrant women. Policies and practices should address both structural access and the experiential dimensions of inclusion to foster equitable, patient-centered healthcare.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     }
   ]
 }
