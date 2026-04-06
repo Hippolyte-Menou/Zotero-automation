@@ -60208,6 +60208,2449 @@
         ]
       },
       "openalex_failed_requests": 1
+    },
+    {
+      "timestamp": "2026-04-06T08:14:03Z",
+      "pipelines": {
+        "genes": true,
+        "topics": false
+      },
+      "genes": {
+        "totals": {
+          "found": 10821,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 76,
+          "cit_added": 61,
+          "recent_added": 16
+        },
+        "per_gene": [
+          {
+            "symbol": "ABCA4",
+            "found": 525,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ACO2",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ACTB",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ACTG1",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ADAM9",
+            "found": 31,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ADAMTSL4",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ADGRV1",
+            "found": 74,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "AGK",
+            "found": 27,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "AIPL1",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ALDH1A3",
+            "found": 12,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ALMS1",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARID1B",
+            "found": 7,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARID2",
+            "found": 22,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARL3",
+            "found": 77,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARL6",
+            "found": 27,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ARR3",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 1
+          },
+          {
+            "symbol": "ARSG",
+            "found": 25,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ATF6",
+            "found": 114,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "B3GLCT",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BBS1",
+            "found": 26,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BBS10",
+            "found": 46,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BBS12",
+            "found": 2,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BBS2",
+            "found": 15,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BCOR",
+            "found": 22,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BEST1",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BFSP1",
+            "found": 34,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BFSP2",
+            "found": 38,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "BMP4",
+            "found": 18,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "C12ORF57",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "C16ORF62",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CABP4",
+            "found": 6,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CACNA1F",
+            "found": 114,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CAPN15",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CC2D2A",
+            "found": 44,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CDH23",
+            "found": 87,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CDHR1",
+            "found": 44,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CEP290",
+            "found": 22,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CERKL",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CHD7",
+            "found": 56,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CHM",
+            "found": 153,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CHST6",
+            "found": 54,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CIB2",
+            "found": 31,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CLRN1",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CNGA1",
+            "found": 37,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CNGA3",
+            "found": 104,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CNGB3",
+            "found": 54,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL11A1",
+            "found": 83,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL18A1",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL2A1",
+            "found": 119,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL4A1",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL8A2",
+            "found": 270,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "COL9A1",
+            "found": 14,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRB1",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRX",
+            "found": 214,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYAA",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYAB",
+            "found": 66,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYBA1",
+            "found": 19,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYBA4",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYBB1",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYBB2",
+            "found": 58,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYBB3",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYGB",
+            "found": 7,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYGC",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYGD",
+            "found": 34,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CRYGS",
+            "found": 18,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "CYP1B1",
+            "found": 259,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "DCN",
+            "found": 43,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 1
+          },
+          {
+            "symbol": "DCT",
+            "found": 64,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "DHDDS",
+            "found": 42,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "DHX38",
+            "found": 30,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "DRAM2",
+            "found": 12,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ELOVL4",
+            "found": 120,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ELP4",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "EPHA2",
+            "found": 64,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ESPN",
+            "found": 59,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "EYS",
+            "found": 24,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FAM161A",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FAT1",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FBN1",
+            "found": 94,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 6
+          },
+          {
+            "symbol": "FOXC1",
+            "found": 161,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FOXE3",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FRAS1",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FREM1",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FREM2",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FRMD7",
+            "found": 72,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FSCN2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FYCO1",
+            "found": 34,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FZD4",
+            "found": 82,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "FZD5",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GDF6",
+            "found": 19,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GJA3",
+            "found": 103,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GJA8",
+            "found": 104,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GNAT1",
+            "found": 23,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GNAT2",
+            "found": 33,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GNB3",
+            "found": 16,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GPR143",
+            "found": 84,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GPR179",
+            "found": 19,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GRHL2",
+            "found": 32,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GRIP1",
+            "found": 5,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GRK1",
+            "found": 81,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GRM6",
+            "found": 107,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GUCA1A",
+            "found": 171,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GUCA1B",
+            "found": 12,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GUCY2D",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 16,
+            "cit_added": 16,
+            "recent_added": 0
+          },
+          {
+            "symbol": "GZF1",
+            "found": 5,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "HCCS",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "HK1",
+            "found": 3,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "HMX1",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "HSF4",
+            "found": 59,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IDH3A",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IFT140",
+            "found": 63,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IFT172",
+            "found": 18,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IMPDH1",
+            "found": 47,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IMPG1",
+            "found": 31,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "IQCB1",
+            "found": 32,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "KCNJ13",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "KIF3B",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "KMT2D",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "KRT12",
+            "found": 25,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "KRT3",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LCA5",
+            "found": 28,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LOXL3",
+            "found": 28,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LRAT",
+            "found": 80,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LRIT3",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LRMDA",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LRP2",
+            "found": 5,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LSS",
+            "found": 47,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "LTBP2",
+            "found": 37,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MAB21L2",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MAF",
+            "found": 147,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MAK",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MERTK",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MFRP",
+            "found": 23,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MIP",
+            "found": 174,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MKKS",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MYO7A",
+            "found": 174,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MYOC",
+            "found": 370,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "MYRF",
+            "found": 13,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NAA10",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NAA15",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 25,
+            "cit_added": 17,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NDP",
+            "found": 155,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NHS",
+            "found": 57,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NMNAT1",
+            "found": 146,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NR2E3",
+            "found": 132,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NRL",
+            "found": 79,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "NYX",
+            "found": 45,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OAT",
+            "found": 93,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OCA2",
+            "found": 104,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OPN1LW",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OPN1MW",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OTX2",
+            "found": 21,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "OVOL2",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PAX2",
+            "found": 27,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PAX6",
+            "found": 522,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PCDH15",
+            "found": 16,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PDE6A",
+            "found": 27,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PDE6B",
+            "found": 31,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PDE6C",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PDE6H",
+            "found": 2,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PIKFYVE",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PITPNM3",
+            "found": 15,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PITX2",
+            "found": 171,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PITX3",
+            "found": 98,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PLK4",
+            "found": 2,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "POC1B",
+            "found": 24,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PORCN",
+            "found": 12,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PRCD",
+            "found": 7,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PROM1",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PRPF3",
+            "found": 15,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PRPH2",
+            "found": 114,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 5
+          },
+          {
+            "symbol": "PRR12",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PRSS56",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "PUF60",
+            "found": 32,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAB18",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAB28",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAB3GAP1",
+            "found": 12,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAB3GAP2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RARB",
+            "found": 7,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAX",
+            "found": 13,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RAX2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RBP3",
+            "found": 16,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RD3",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RDH11",
+            "found": 14,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RDH12",
+            "found": 59,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RGR",
+            "found": 20,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RHO",
+            "found": 467,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RLBP1",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU2-2",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RNU4ATAC",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ROM1",
+            "found": 66,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RP1",
+            "found": 72,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RP2",
+            "found": 67,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RP9",
+            "found": 22,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RPE65",
+            "found": 261,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RPGR",
+            "found": 244,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RPGRIP1",
+            "found": 15,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "RPGRIP1L",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 1
+          },
+          {
+            "symbol": "RS1",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SAG",
+            "found": 19,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 1
+          },
+          {
+            "symbol": "SEMA4A",
+            "found": 2,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SHH",
+            "found": 6,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SIX6",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SLC24A1",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SLC24A5",
+            "found": 39,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SLC38A8",
+            "found": 14,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SLC45A2",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SLC4A11",
+            "found": 32,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SMARCA2",
+            "found": 56,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SMO",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SMOC1",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SNRNP200",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SOX2",
+            "found": 16,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "SPATA7",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "STRA6",
+            "found": 30,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TACSTD2",
+            "found": 11,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 1,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TBC1D20",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TDRD7",
+            "found": 22,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 4,
+            "cit_added": 4,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TEK",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 17,
+            "cit_added": 13,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TENM3",
+            "found": 3,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TGFBI",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 2,
+            "cit_added": 2,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TMEM98",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TRIM44",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TRPM1",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 6,
+            "cit_added": 4,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TTLL5",
+            "found": 9,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 5,
+            "cit_added": 5,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TUBGCP4",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TULP1",
+            "found": 9,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 1
+          },
+          {
+            "symbol": "TYR",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "TYRP1",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "UBIAD1",
+            "found": 49,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "UNC119",
+            "found": 23,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "USH1C",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "USH1G",
+            "found": 19,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "USH2A",
+            "found": 103,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "USP45",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "VCAN",
+            "found": 43,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "VSX2",
+            "found": 76,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "WDPCP",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "WHRN",
+            "found": 39,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "YAP1",
+            "found": 1,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ZEB1",
+            "found": 24,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "symbol": "ZNF408",
+            "found": 9,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          }
+        ]
+      },
+      "topics": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_topic": []
+      },
+      "openalex_failed_requests": 15
     }
   ]
 }
