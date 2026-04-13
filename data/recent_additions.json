@@ -1,6 +1,2206 @@
 {
- "generated_at": "2026-04-11T07:33:50Z",
+ "generated_at": "2026-04-13T09:02:34Z",
  "additions": [
+  {
+   "pmid": "41963357",
+   "doi": "10.1038/s41525-026-00566-z",
+   "title": "Variants in the ciliopathy gene SCLT1 are associated with non-syndromic and syndromic retinal degeneration of variable severity",
+   "year": "2026",
+   "subcollection": "ARSG",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:08:16Z"
+  },
+  {
+   "pmid": "24311462",
+   "doi": "10.1002/ajmg.a.36224",
+   "title": "Haploinsufficiency of BMP4 gene may be the underlying cause of Frías syndrome",
+   "year": "2013",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "19249007",
+   "doi": "10.1016/j.ajhg.2009.02.002",
+   "title": "Mutations in BMP4 Are Associated with Subepithelial, Microform, and Overt Cleft Lip",
+   "year": "2009",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "23103883",
+   "doi": "10.1016/j.ejmg.2012.10.007",
+   "title": "Concurrent deletion of BMP4 and OTX2 genes, two master genes in ophthalmogenesis",
+   "year": "2012",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "19116164",
+   "doi": "10.1016/j.mod.2008.11.008",
+   "title": "Genetic interaction between Bmp2 and Bmp4 reveals shared functions during multiple aspects of mouse organogenesis",
+   "year": "2008",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "35633847",
+   "doi": "10.1155/2022/8059409",
+   "title": "Novel Variant in Exon 3 of the BMP4 Gene Resulted in Ectopic Posterior Pituitary, Craniocervical Junction Dysmorphism and Limb Anomaly",
+   "year": "2022",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "10049358",
+   "doi": "10.1101/gad.13.4.424",
+   "title": "Bmp4 is required for the generation of primordial germ cells in the mouse embryo",
+   "year": "1999",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "31566563",
+   "doi": "10.7554/elife.48872",
+   "title": "BMP7 functions predominantly as a heterodimer with BMP2 or BMP4 during mammalian embryogenesis",
+   "year": "2019",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "19685083",
+   "doi": "10.1007/s00467-009-1287-6",
+   "title": "Functional analysis of BMP4 mutations identified in pediatric CAKUT patients",
+   "year": "2009",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "40314998",
+   "doi": "10.7554/elife.106980",
+   "title": "Not all dimers are equal",
+   "year": "2025",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "40842263",
+   "doi": "10.1111/cge.70048",
+   "title": "Molecular Landscape in Limb Anomalies: Diagnostic Yield and New Candidate Genes",
+   "year": "2025",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:09:59Z"
+  },
+  {
+   "pmid": "22539353",
+   "doi": "10.1002/humu.22106",
+   "title": "A novel classification system to predict the pathogenic effects of CHD7 missense variants in CHARGE syndrome",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19279158",
+   "doi": "10.1093/hmg/ddp112",
+   "title": "Defects in neural stem cell proliferation and olfaction in Chd7 deficient mice indicate a mechanism for hyposmia in human CHARGE syndrome",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23885230",
+   "doi": "10.1159/000351127",
+   "title": "More Clinical Overlap between 22q11.2 Deletion Syndrome and CHARGE Syndrome than Often Anticipated",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18089695",
+   "doi": "10.1210/jc.2007-1419",
+   "title": "Endocrine and Radiological Studies in Patients with Molecularly Confirmed CHARGE Syndrome",
+   "year": "2007",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23677905",
+   "doi": "10.1161/circgenetics.113.000054",
+   "title": "The Cardiac Phenotype in Patients With a CHD7 Mutation",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24728844",
+   "doi": "10.1007/s00439-014-1444-2",
+   "title": "CHD7, the gene mutated in CHARGE syndrome, regulates genes involved in neural crest cell guidance",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26411921",
+   "doi": "10.1016/j.tig.2015.05.009",
+   "title": "Functional Insights into Chromatin Remodelling from Studies on CHARGE Syndrome",
+   "year": "2015",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "33127760",
+   "doi": "10.1073/pnas.2005222117",
+   "title": "CHD7 regulates cardiovascular development through ATP-dependent and -independent activities",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22363697",
+   "doi": "10.1371/journal.pone.0031650",
+   "title": "Role of Chd7 in Zebrafish: A Model for CHARGE Syndrome",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19475719",
+   "doi": "10.1111/j.1399-0004.2009.01151.x",
+   "title": "Proven germline mosaicism in a father of two children with CHARGE syndrome",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31534343",
+   "doi": "10.2147/jmdh.s175713",
+   "title": "&lt;p&gt;Growth in CHARGE syndrome: optimizing care with a multidisciplinary approach&lt;/p&gt;",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18834967",
+   "doi": "10.1016/j.ajhg.2008.09.005",
+   "title": "Mutations in CHD7, Encoding a Chromatin-Remodeling Protein, Cause Idiopathic Hypogonadotropic Hypogonadism and Kallmann Syndrome",
+   "year": "2008",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29033785",
+   "doi": "10.3389/fnmol.2017.00309",
+   "title": "Versatile Roles of the Chromatin Remodeler CHD7 during Brain Development and Disease",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31689711",
+   "doi": "10.1210/clinem/dgz182",
+   "title": "Phenotypic Spectrum of Idiopathic Hypogonadotropic Hypogonadism Patients With CHD7 Variants From a Large Chinese Cohort",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "17334995",
+   "doi": "10.1002/ajmg.a.31441",
+   "title": "An Alu retrotransposition‐mediated deletion of CHD7 in a patient with CHARGE syndrome",
+   "year": "2007",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20591827",
+   "doi": "10.1093/hmg/ddq265",
+   "title": "CHD7 functions in the nucleolus as a positive regulator of ribosomal RNA biogenesis",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40528267",
+   "doi": "10.1186/s13287-025-04437-9",
+   "title": "CHD7 regulates definitive endodermal and mesodermal development from human embryonic stem cells",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20453063",
+   "doi": "10.1093/hmg/ddq189",
+   "title": "CHD8 interacts with CHD7, a protein which is mutated in CHARGE syndrome",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29178447",
+   "doi": "10.1002/ajmg.c.31591",
+   "title": "Phenotype and genotype analysis of a French cohort of 119 patients with CHARGE syndrome",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19159393",
+   "doi": "10.1111/j.1399-0004.2008.01127.x",
+   "title": "Clinical and genetic analysis of the CHD7 gene in Korean patients with CHARGE syndrome",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26551301",
+   "doi": "10.1016/j.gene.2015.11.006",
+   "title": "Revealing the function of a novel splice-site mutation of CHD7 in CHARGE syndrome",
+   "year": "2015",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24368733",
+   "doi": "10.7554/elife.01305",
+   "title": "Deregulated FGF and homeotic gene expression underlies cerebellar vermis hypoplasia in CHARGE syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "28317875",
+   "doi": "10.1038/ncomms14758",
+   "title": "Chd7 is indispensable for mammalian brain development through activation of a neuronal differentiation programme",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "33900016",
+   "doi": "10.15252/embr.202050958",
+   "title": "Chromatin remodeller CHD7 is required for GABAergic neuron development by promoting PAQR3 expression",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38790272",
+   "doi": "10.3390/genes15050643",
+   "title": "CHD7 Disorder—Not CHARGE Syndrome—Presenting as Isolated Cochleovestibular Dysfunction",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23285124",
+   "doi": "10.1371/journal.pone.0052640",
+   "title": "Identification and Characterization of FAM124B as a Novel Component of a CHD7 and CHD8 Containing Complex",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "17701983",
+   "doi": "10.1002/cne.21460",
+   "title": "Defects in vestibular sensory epithelia and innervation in mice with loss of Chd7 function: Implications for human CHARGE syndrome",
+   "year": "2007",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38597178",
+   "doi": "10.1002/ajmg.a.63618",
+   "title": "Ocular manifestations of CHARGE syndrome in a pediatric cohort with genotype/phenotype analysis",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21554267",
+   "doi": "10.1111/j.1399-0004.2011.01701.x",
+   "title": "CHD7 mutations causing CHARGE syndrome are predominantly of paternal origin",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18978652",
+   "doi": "10.1097/mcd.0b013e328306a704",
+   "title": "A familial CHARGE syndrome with a CHD7 nonsense mutation and new clinical features",
+   "year": "2008",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29168327",
+   "doi": "10.1002/ajmg.c.31595",
+   "title": "Distinct cerebellar foliation anomalies in a CHD7 haploinsufficient mouse model of CHARGE syndrome",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24214489",
+   "doi": "10.1002/ajmg.a.36192",
+   "title": "Family history and clefting as major criteria for CHARGE syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "41210246",
+   "doi": "10.3389/fped.2025.1618512",
+   "title": "Case Report: Unveiling CHARGE syndrome: a neonatal case study with esophageal atresia and feeding difficulties",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "16960397",
+   "doi": "10.1507/endocrj.k06-099",
+   "title": "Kallmann Syndrome Phenotype in a Female Patient with CHARGE Syndrome and CHD7 Mutation",
+   "year": "2006",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "17937444",
+   "doi": "10.1002/ajmg.a.32008",
+   "title": "Limb anomalies in patients with CHARGE syndrome: An expansion of the phenotype",
+   "year": "2007",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "37231428",
+   "doi": "10.1186/s12902-023-01373-8",
+   "title": "Combined pituitary hormone deficiency harboring CHD7 gene missense mutation without CHARGE syndrome: a case report",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21532573",
+   "doi": "10.1038/ng.825",
+   "title": "Sox2 cooperates with Chd7 to regulate genes that are mutated in human syndromes",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24975120",
+   "doi": "10.1002/dvdy.24156",
+   "title": "The chromatin remodeling protein CHD7, mutated in CHARGE syndrome, is necessary for proper craniofacial and tracheal development",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22646239",
+   "doi": "10.1111/j.1365-2443.2012.01606.x",
+   "title": "Identification of CHD7S as a novel splicing variant of CHD7 with functions similar and antagonistic to those of the full‐length CHD7L",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26187070",
+   "doi": "10.1016/j.gene.2015.07.042",
+   "title": "Identification of one novel CHD7 mutation in a patient from China with atypical CHARGE syndrome",
+   "year": "2015",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40461563",
+   "doi": "10.1038/s41598-025-00606-1",
+   "title": "A novel cardiomyopathy phenotype linked to a CHD7 missense variant",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19403480",
+   "doi": "10.1542/peds.2008-3400",
+   "title": "CHARGE (Coloboma, Heart Defect, Atresia Choanae, Retarded Growth and Development, Genital Hypoplasia, Ear Anomalies/Deafness) Syndrome and Chromosome 22q11.2 Deletion Syndrome: A Comparison of Immunologic and Nonimmunologic Phenotypic Features",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24026680",
+   "doi": "10.1093/hmg/ddt435",
+   "title": "CHD7 and retinoic acid signaling cooperate to regulate neural stem cell and inner ear development in mouse models of CHARGE syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23526466",
+   "doi": "10.1210/jc.2012-3467",
+   "title": "Structural Pituitary Abnormalities Associated With CHARGE Syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21875659",
+   "doi": "10.1016/j.heares.2011.08.005",
+   "title": "Mature middle and inner ears express Chd7 and exhibit distinctive pathologies in a mouse model of CHARGE syndrome",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26334530",
+   "doi": "10.1186/s12881-015-0225-7",
+   "title": "CHARGE syndrome due to deletion of region upstream of CHD7 gene START codon",
+   "year": "2015",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "16763960",
+   "doi": "10.1002/ajmg.a.31308",
+   "title": "CHD7 gene and non‐syndromic cleft lip and palate",
+   "year": "2006",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21995344",
+   "doi": "10.1186/1687-9856-2011-11",
+   "title": "Unique phenotype in a patient with CHARGE syndrome",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20878218",
+   "doi": "10.1007/s10897-010-9328-7",
+   "title": "Prevalence of Genetic Testing in CHARGE Syndrome",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18505430",
+   "doi": "10.1111/j.1365-2249.2008.03681.x",
+   "title": "Mutations in CHD7 in patients with CHARGE syndrome cause T–B + natural killer cell + severe combined immune deficiency and may cause Omenn-like syndrome",
+   "year": "2008",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26670829",
+   "doi": "10.1167/iovs.15-18069",
+   "title": "Mouse Models for the Dissection of CHD7 Functions in Eye Development and the Molecular Basis for Ocular Defects in CHARGE Syndrome",
+   "year": "2015",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18846226",
+   "doi": "10.1371/journal.pgen.1000217",
+   "title": "Drosophila Kismet Regulates Histone H3 Lysine 27 Methylation and Early Elongation by RNA Polymerase II",
+   "year": "2008",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26928066",
+   "doi": "10.1038/nn.4258",
+   "title": "Chd7 cooperates with Sox10 and regulates the onset of CNS myelination and remyelination",
+   "year": "2016",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29144511",
+   "doi": "10.1038/gim.2017.197",
+   "title": "Evaluating CHARGE syndrome in congenital hypogonadotropic hypogonadism patients harboring CHD7 variants",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22539951",
+   "doi": "10.1371/journal.pone.0034944",
+   "title": "Otitis Media in a New Mouse Model for CHARGE Syndrome with a Deletion in the Chd7 Gene",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29467333",
+   "doi": "10.1172/jci.insight.97440",
+   "title": "CHD7 represses the retinoic acid synthesis enzyme ALDH1A3 during inner ear development",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "36568983",
+   "doi": "10.3389/fcell.2022.1030587",
+   "title": "Craniofacial and cardiac defects in chd7 zebrafish mutants mimic CHARGE syndrome",
+   "year": "2022",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "28609304",
+   "doi": "10.1097/mao.0000000000001481",
+   "title": "Suprameatal Cochlear Implantation in a CHARGE Patient With a Novel CHD7 Variant and KALLMANN Syndrome Phenotype: A Case Report",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "25077900",
+   "doi": "10.1210/jc.2014-2110",
+   "title": "The Prevalence ofCHD7Missense Versus Truncating Mutations Is Higher in Patients With Kallmann Syndrome Than in Typical CHARGE Patients",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23024289",
+   "doi": "10.1136/jmedgenet-2012-100926",
+   "title": "Antenatal spectrum of CHARGE syndrome in 40 fetuses with CHD7 mutations",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22302456",
+   "doi": "10.1002/ajmg.a.34400",
+   "title": "Ophthalmic features of CHARGE syndrome with CHD7 mutations",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23333604",
+   "doi": "10.1016/j.gene.2013.01.010",
+   "title": "Genetic analysis of the CHD7 gene in Korean patients with CHARGE syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "41225453",
+   "doi": "10.1186/s12887-025-06251-x",
+   "title": "De novo CHD7 variant in a CHARGE syndrome preterm infant initially diagnosed as idiopathic hypogonadotropic hypogonadism: a case report and literature review",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "32804436",
+   "doi": "10.1002/ajmg.a.61798",
+   "title": "Additional individuals with CHD7 variants in Chinese and other southeast Asian patients",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "25054096",
+   "doi": "10.4161/rdis.28688",
+   "title": "Epistatic interactions betweenChd7andFgf8during cerebellar development",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19855134",
+   "doi": "10.1172/jci37561",
+   "title": "Great vessel development requires biallelic expression of Chd7 and Tbx1 in pharyngeal ectoderm in mice",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "28165338",
+   "doi": "10.1172/jci83408",
+   "title": "The chromatin remodeling factor CHD7 controls cerebellar development by regulating reelin expression",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38148819",
+   "doi": "10.1016/j.heliyon.2023.e23272",
+   "title": "Digenic CHD7 and SMCHD1 inheritance Unveils phenotypic variability in a family mainly presenting with hypogonadotropic hypogonadism",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23827709",
+   "doi": "10.1016/j.stem.2013.05.002",
+   "title": "The Chromatin Remodeler CHD7 Regulates Adult Neurogenesis via Activation of SoxC Transcription Factors",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "27418670",
+   "doi": "10.1093/hmg/ddw198",
+   "title": "Rescue of neural crest-derived phenotypes in a zebrafish CHARGE model by Sox10 downregulation",
+   "year": "2016",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29179815",
+   "doi": "10.7554/elife.21114",
+   "title": "CHARGE syndrome modeling using patient-iPSCs reveals defective migration of neural crest cells harboring CHD7 mutations",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24293546",
+   "doi": "10.1093/hmg/ddt610",
+   "title": "CHD7 interacts with BMP R-SMADs to epigenetically regulate cardiogenesis in mice",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20716578",
+   "doi": "10.1093/hmg/ddq348",
+   "title": "Kismet/CHD7 regulates axon morphology, memory and locomotion in a Drosophila model of CHARGE syndrome",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29353058",
+   "doi": "10.1016/j.ajpath.2017.12.005",
+   "title": "Chd7 Is Critical for Early T-Cell Development and Thymus Organogenesis in Zebrafish",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "33060836",
+   "doi": "10.1038/s41598-020-74537-4",
+   "title": "CHD7 promotes neural progenitor differentiation in embryonic stem cells via altered chromatin accessibility and nascent gene expression",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21901784",
+   "doi": "10.1002/dvdy.22722",
+   "title": "Chd7 plays a critical role in controlling left–right symmetry during zebrafish somitogenesis",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "25606431",
+   "doi": "10.1016/j.mgene.2014.06.002",
+   "title": "A novel CHD7 mutation in a Chinese patient with CHARGE syndrome",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31146700",
+   "doi": "10.1186/s12881-019-0813-z",
+   "title": "Feeding difficulty is the dominant feature in 12 Chinese newborns with CHD7 pathogenic variants",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "34230955",
+   "doi": "10.1093/hmg/ddab183",
+   "title": "CHARGE syndrome and related disorders: a mechanistic link",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "36794641",
+   "doi": "10.1002/ajmg.a.63148",
+   "title": "Expanding the reproductive organ phenotype of CHD7‐spectrum disorder",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38477756",
+   "doi": "10.1093/jbmr/zjae024",
+   "title": "CHD7 regulates craniofacial cartilage development via controlling HTR2B expression",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "37427070",
+   "doi": "10.21037/tp-22-634",
+   "title": "Analysis of the CHD7 gene mutations in patients of congenital heart disease with extracardiac malformations",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24550764",
+   "doi": "10.1159/000355431",
+   "title": "Novel Frameshift CHD7 Mutation Related to CHARGE Syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29440260",
+   "doi": "10.1101/gad.301887.117",
+   "title": "Chromatin remodeler CHD7 regulates the stem cell identity of human neural progenitors",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "28475860",
+   "doi": "10.1016/j.ajhg.2017.04.004",
+   "title": "CHARGE and Kabuki Syndromes: Gene-Specific DNA Methylation Signatures Identify Epigenetic Mechanisms Linking These Clinically Overlapping Conditions",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "27061523",
+   "doi": "10.1002/pd.4825",
+   "title": "Prenatal findings in children with early postnatal diagnosis of CHARGE syndrome",
+   "year": "2016",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "21931733",
+   "doi": "10.1371/journal.pone.0024511",
+   "title": "CHD7 Mutational Analysis and Clinical Considerations for Auditory Rehabilitation in Deaf Patients with CHARGE Syndrome",
+   "year": "2011",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "32509017",
+   "doi": "10.3892/etm.2020.8683",
+   "title": "CHARGE syndrome associated with de novo (I1460Rfs*15) frameshift mutation of CHD7 gene in a patient with arteria lusoria and horseshoe kidney",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "34202106",
+   "doi": "10.3390/genes12070972",
+   "title": "Visual Function and Ophthalmological Findings in CHARGE Syndrome: Revision of Literature, Definition of a New Clinical Spectrum and Genotype Phenotype Correlation",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20943277",
+   "doi": "10.1016/j.ijporl.2010.09.006",
+   "title": "Identification of three novel mutations in the CHD7 gene in patients with clinical signs of typical or atypical CHARGE syndrome",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38057991",
+   "doi": "10.1002/ajmg.a.63491",
+   "title": "Maternal CHD7 gonosomal mosaicism in a fetus with CHARGE syndrome",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23249195",
+   "doi": "10.1586/erm.12.120",
+   "title": "Molecular studies of theCHD7gene: an obligatory diagnostic step in an expanding range of clinical phenotypes",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "38352994",
+   "doi": "10.1002/ajmg.a.63561",
+   "title": "Monodactyly in a patient with CHARGE syndrome: An additional case report",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "37668839",
+   "doi": "10.1007/s00439-023-02581-x",
+   "title": "CHD7 variants associated with hearing loss and enlargement of the vestibular aqueduct",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "19248844",
+   "doi": "10.1016/j.ejmg.2009.02.005",
+   "title": "Detection of CHD7 deletions by MLPA in CHARGE syndrome patients with a less typical phenotype",
+   "year": "2009",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "16118347",
+   "doi": "10.1136/jmg.2005.032946",
+   "title": "Confirmation of CHD7 as a cause of CHARGE association identified by mapping a balanced chromosome translocation in affected monozygotic twins",
+   "year": "2005",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "17931565",
+   "doi": "10.1016/j.jaci.2007.08.013",
+   "title": "Complete DiGeorge syndrome associated with CHD7 mutation",
+   "year": "2007",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40915599",
+   "doi": "10.1016/j.jgg.2025.08.012",
+   "title": "ATPase-deficient CHD7 disease variant disrupts neural development via chromatin dysregulation",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24705355",
+   "doi": "10.1093/hmg/ddu156",
+   "title": "CHARGE and Kabuki syndromes: a phenotypic and molecular link",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "37052590",
+   "doi": "10.1093/cvr/cvad059",
+   "title": "CHARGE syndrome-associated CHD7 acts at ISL1-regulated enhancers to modulate second heart field gene expression",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "36288662",
+   "doi": "10.1016/j.heares.2022.108633",
+   "title": "Loss of the chromatin remodeler CHD7 impacts glial cells and myelination in the mouse cochlear spiral ganglion",
+   "year": "2022",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "37243350",
+   "doi": "10.1111/cge.14363",
+   "title": "Investigating genotype‐to‐phenotype correlation in CHARGE syndrome by deep phenotyping and multiparametric clustering",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40196636",
+   "doi": "10.1101/2025.03.28.646031",
+   "title": "CHD7 binds to insulators during neuronal differentiation",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "36396635",
+   "doi": "10.1038/s41467-022-34759-8",
+   "title": "CHD7 regulates otic lineage specification and hair cell differentiation in human inner ear organoids",
+   "year": "2022",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22399515",
+   "doi": "10.1210/jc.2011-2652",
+   "title": "The Results ofCHD7Analysis in Clinically Well-Characterized Patients with Kallmann Syndrome",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29531775",
+   "doi": "10.1038/hgv.2018.6",
+   "title": "An unclassified variant of CHD7 activates a cryptic splice site in a patient with CHARGE syndrome",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40015694",
+   "doi": "10.3766/jaaa.230055",
+   "title": "Genetic and Clinical Predictors of Hearing Loss Among Patients with CHARGE Syndrome",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "41210995",
+   "doi": "10.1016/j.isci.2025.113726",
+   "title": "CHD7 regulates cardiac neural crest cell differentiation through SOX5-mediated self-activation",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "34161779",
+   "doi": "10.1016/j.jmb.2021.167114",
+   "title": "A Novel N-terminal Region to Chromodomain in CHD7 is Required for the Efficient Remodeling Activity",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "30733481",
+   "doi": "10.1038/s41598-018-38178-y",
+   "title": "High frequency of CHD7 mutations in congenital hypogonadotropic hypogonadism",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "30277262",
+   "doi": "10.1111/joa.12889",
+   "title": "Autism‐linked CHD gene expression patterns during development predict multi‐organ disease phenotypes",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20657659",
+   "doi": "10.1371/journal.pgen.1001010",
+   "title": "Chromatin Remodeling in Development and Disease: Focus on CHD7",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29432577",
+   "doi": "10.1093/hmg/ddy045",
+   "title": "Sema3a plays a role in the pathogenesis of CHARGE syndrome",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29082607",
+   "doi": "10.1002/ajmg.c.31587",
+   "title": "Inner ear manifestations in CHARGE: Abnormalities, treatments, animal models, and progress toward treatments in auditory and vestibular structures",
+   "year": "2017",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "29615807",
+   "doi": "10.1038/s41598-018-23856-8",
+   "title": "An intronic mutation in Chd7 creates a cryptic splice site, causing aberrant splicing in a mouse model of CHARGE syndrome",
+   "year": "2018",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "35078197",
+   "doi": "10.1159/000520376",
+   "title": "De novo Splice Site Mutation of the &lt;b&gt;&lt;i&gt;CHD7&lt;/i&gt;&lt;/b&gt; Gene in a Chinese Patient with Typical CHARGE Syndrome",
+   "year": "2022",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20925924",
+   "doi": "10.1186/1756-0500-3-252",
+   "title": "Cloning and characterization of a novel alternatively spliced transcript of the human CHD7 putative helicase",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "34663690",
+   "doi": "10.26508/lsa.202101127",
+   "title": "HERVH-derived lncRNAs negatively regulate chromatin targeting and remodeling mediated by CHD7",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "23956205",
+   "doi": "10.1002/ajmg.a.36178",
+   "title": "Evidence for replicative mechanism in a CHD7 rearrangement in a patient with CHARGE syndrome",
+   "year": "2013",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26813943",
+   "doi": "10.1038/ejhg.2015.276",
+   "title": "Prominent scapulae mimicking an inherited myopathy expands the phenotype of CHD7-related disease",
+   "year": "2016",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "33844462",
+   "doi": "10.1002/ajmg.a.62208",
+   "title": "Craniosynostosis is a feature of CHD7‐related CHARGE syndrome",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "33290368",
+   "doi": "10.1097/brs.0000000000003857",
+   "title": "Genetic Variants of CHD7 Are Associated with Adolescent Idiopathic Scoliosis",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "36914558",
+   "doi": "10.1111/joa.13856",
+   "title": "Pervasive cortical and white matter anomalies in a mouse model for CHARGE syndrome",
+   "year": "2023",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "18484313",
+   "doi": "10.1080/13816810801918391",
+   "title": "New Recognized Ophthalmic Morphologic Anomalies in CHARGE Syndrome Caused by the R2319C Mutation in theCHD7Gene",
+   "year": "2008",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "25257999",
+   "doi": "10.1002/ajmg.a.36747",
+   "title": "CHD7 mutations are not a major cause of atrioventricular septal and conotruncal heart defects",
+   "year": "2014",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31929333",
+   "doi": "10.1097/mcd.0000000000000315",
+   "title": "A novel missense variant in CHD7, a rare cause of CHARGE syndrome",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40178132",
+   "doi": "10.1002/ajmg.a.64053",
+   "title": "Gut Microbiome Pilot Study of Patients With CHARGE Syndrome and Sibling Controls",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "20686492",
+   "doi": "10.1038/jhg.2010.95",
+   "title": "Combined microdeletions and CHD7 mutation causing severe CHARGE/DiGeorge syndrome: clinical presentation and molecular investigation by array-CGH",
+   "year": "2010",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "32126561",
+   "doi": "10.1159/000506165",
+   "title": "A Preterm Infant with Multiple Anomalies Diagnosed with Atypical CHARGE Syndrome after a Novel &lt;b&gt;&lt;i&gt;CHD7&lt;/i&gt;&lt;/b&gt; Variant Confirmed Using Whole-Genome Sequencing",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "32982993",
+   "doi": "10.3389/fendo.2020.00626",
+   "title": "GnRH Deficient Patients With Congenital Hypogonadotropic Hypogonadism: Novel Genetic Findings in ANOS1, RNF216, WDR11, FGFR1, CHD7, and POLR3A Genes in a Case Series and Review of the Literature",
+   "year": "2020",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "22517486",
+   "doi": "10.1002/pd.3876",
+   "title": "Prenatal diagnosis of CHARGE syndrome by identification of a novel CHD7 mutation in a previously unaffected family",
+   "year": "2012",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "26996150",
+   "doi": "10.1002/ajmg.a.37629",
+   "title": "Response to correspondence to Hale et al. atypical phenotypes associated with pathogenic CHD7 variants and a proposal for broadening CHARGE syndrome clinical diagnostic criteria",
+   "year": "2016",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "34563184",
+   "doi": "10.1186/s12902-021-00836-0",
+   "title": "A novel heterozygous mutation of CHD7 gene in a Chinese patient with Kallmann syndrome: a case report",
+   "year": "2021",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31043788",
+   "doi": "10.1177/1178631019839010",
+   "title": "De Novo Duplication in the CHD7 Gene Associated With Severe CHARGE Syndrome",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "39359670",
+   "doi": "10.1297/cpe.2024-0006",
+   "title": "CHARGE syndrome in a child with a &lt;i&gt;CHD7&lt;/i&gt; variant and a novel pathogenic &lt;i&gt;SOX2&lt;/i&gt; variant: A case report",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "39618705",
+   "doi": "10.1177/2050313x241293307",
+   "title": "A case report of CHARGE syndrome caused by a de novo CHD7 gene mutation",
+   "year": "2024",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "31289371",
+   "doi": "10.1038/s41431-019-0465-7",
+   "title": "A functional assay to study the pathogenicity of CHD7 protein variants encountered in CHARGE syndrome patients",
+   "year": "2019",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "40236205",
+   "doi": "10.1101/2025.04.02.646816",
+   "title": "CHD7 binds distinct regions in the Sox11 locus to regulate neuronal differentiation",
+   "year": "2025",
+   "subcollection": "CHD7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:13:30Z"
+  },
+  {
+   "pmid": "24628545",
+   "doi": "10.1111/cge.12379",
+   "title": "Whole exome analysis identifies dominant COL4A1 mutations in patients with complex ocular phenotypes involving microphthalmia",
+   "year": "2014",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "38729574",
+   "doi": "10.1016/j.cdev.2024.203926",
+   "title": "Evaluating neural crest cell migration in a Col4a1 mutant mouse model of ocular anterior segment dysgenesis",
+   "year": "2024",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41001161",
+   "doi": "10.1002/ccr3.70964",
+   "title": "COL4A1 ‐Related Leukoencephalopathy and Microangiopathy: A Case Series of Two Palestinian Siblings",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41248836",
+   "doi": "10.1016/j.matbio.2025.11.004",
+   "title": "Zebrafish col4a1 loss-of-function models mirror key neurovascular and ocular features of COL4A1/A2 syndrome and enable human variants assessment in vivo",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "35382634",
+   "doi": "10.1177/10935266221080134",
+   "title": "Prenatal Diagnosis of COL4A1 Mutations in Eight Cases: Further Delineation of the Neurohistopathological Phenotype",
+   "year": "2022",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "18160688",
+   "doi": "10.1056/nejmoa071906",
+   "title": "COL4A1 Mutations and Hereditary Angiopathy, Nephropathy, Aneurysms, and Muscle Cramps",
+   "year": "2007",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "21625620",
+   "doi": "10.1371/journal.pgen.1002062",
+   "title": "COL4A1 Mutations Cause Ocular Dysgenesis, Neuronal Localization Defects, and Myopathy in Mice and Walker-Warburg Syndrome in Humans",
+   "year": "2011",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "22522439",
+   "doi": "10.1002/ana.22682",
+   "title": "COL4A1 mutations in patients with sporadic late‐onset intracerebral hemorrhage",
+   "year": "2011",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "25873210",
+   "doi": "10.1016/j.jns.2015.03.042",
+   "title": "Two families with novel missense mutations in COL4A1: When diagnosis can be missed",
+   "year": "2015",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "26748532",
+   "doi": "10.1111/cge.12723",
+   "title": "Association of COL4A1 gene polymorphisms with cerebral palsy in a Chinese Han population",
+   "year": "2016",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "29477007",
+   "doi": "10.1016/j.wneu.2018.02.074",
+   "title": "Genetic Variations of COL4A1 Gene and Intracerebral Hemorrhage Outcome: A Cohort Study in a Chinese Han Population",
+   "year": "2018",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "30413629",
+   "doi": "10.1212/wnl.0000000000006567",
+   "title": "Neurologic phenotypes associated with COL4A1 / 2 mutations",
+   "year": "2018",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41311701",
+   "doi": "10.3389/fnins.2025.1639871",
+   "title": "Multimodal neuroimaging of Col4a1-mutant mouse models of Gould syndrome",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41484600",
+   "doi": "10.1007/s10072-025-08611-y",
+   "title": "Late-onset intracerebral hemorrhage associated with COL4A1 variants: clinical and genetic perspectives",
+   "year": "2026",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "16159887",
+   "doi": "10.1093/hmg/ddi348",
+   "title": "Dominant mutations of Col4a1 result in basement membrane defects which lead to anterior segment dysgenesis and glomerulopathy",
+   "year": "2005",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "17179069",
+   "doi": "10.1534/genetics.106.064733",
+   "title": "Type IV Procollagen Missense Mutations Associated With Defects of the Eye, Vascular Stability, the Brain, Kidney Function and Embryonic or Postnatal Viability in the Mouse, Mus musculus: An Extension of the Col4a1 Allelic Series and the Identification of the First Two Col4a2 Mutant Alleles",
+   "year": "2006",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "14998921",
+   "doi": "10.1242/dev.01037",
+   "title": "Collagen IV is essential for basement membrane stability but dispensable for initiation of its assembly during early development",
+   "year": "2004",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "17317786",
+   "doi": "10.1093/hmg/ddm024",
+   "title": "Col4a1 mutation causes endoplasmic reticulum stress and genetically modifiable ocular dysgenesis",
+   "year": "2007",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "30315939",
+   "doi": "10.1016/j.ejmg.2018.10.004",
+   "title": "Further refinement of COL4A1 and COL4A2 related cortical malformations",
+   "year": "2018",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "30351356",
+   "doi": "10.1093/hmg/ddy369",
+   "title": "4-Sodium phenyl butyric acid has both efficacy and counter-indicative effects in the treatment of Col4a1 disease",
+   "year": "2018",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "38717426",
+   "doi": "10.1167/iovs.65.5.15",
+   "title": "TGFβ Signaling Dysregulation May Contribute to COL4A1-Related Glaucomatous Optic Nerve Damage",
+   "year": "2024",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "40946812",
+   "doi": "10.1016/j.matbio.2025.09.003",
+   "title": "Biomechanical and compositional basement membrane defects due to a Col4a1 mutation affect cardiac morphology and function",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41398913",
+   "doi": "10.1186/s13287-025-04804-6",
+   "title": "Neurotrauma induced retinal basement membrane COL4A1 defects are restored by adipose tissue derived mesenchymal stem cell concentrated conditioned medium",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "40716787",
+   "doi": "10.1136/bcr-2025-266705",
+   "title": "Rapid genetic testing in the PICU: uncovering COL4A2-related GOULD syndrome in super-refractory status epilepticus",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "20385946",
+   "doi": "10.1001/archophthalmol.2010.42",
+   "title": "Ophthalmological Features Associated With COL4A1 Mutations",
+   "year": "2010",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "38392956",
+   "doi": "10.3390/neurolint16010015",
+   "title": "Missense Variants in COL4A1/2 Are Associated with Cerebral Aneurysms: A Case Report and Literature Review",
+   "year": "2024",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "32446163",
+   "doi": "10.1016/j.eplepsyres.2020.106349",
+   "title": "Phenotypic characterization of COL4A1-related West syndrome",
+   "year": "2020",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "40616396",
+   "doi": "10.1016/j.gim.2025.101514",
+   "title": "COL4A1 and COL4A2-related disorders: Clinical features, diagnostic guidelines, and management",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "40279671",
+   "doi": "10.1083/jcb.202409153",
+   "title": "A multifunction murine Col4a1 allele reveals potential gene therapy parameters for Gould syndrome",
+   "year": "2025",
+   "subcollection": "COL4A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:26:02Z"
+  },
+  {
+   "pmid": "41964069",
+   "doi": "10.1186/s13063-025-09314-7",
+   "title": "Nintedanib in progressive bronchiolitis obliterans syndrome (BOS) grade 0p-1-2 in lung transplant recipients (INFINITIx-BOS): protocol of a French multicenter randomized controlled trial",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:33:40Z"
+  },
+  {
+   "pmid": "41965848",
+   "doi": "10.1186/s13099-026-00819-3",
+   "title": "Bacterial and fungal biomarkers in irritable bowel syndrome (IBS) and inflammatory bowel disease (IBD): trans-kingdom interactions, Blastocystis carriage, and enterotype–succinotype stratification",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:33:40Z"
+  },
+  {
+   "pmid": "41960862",
+   "doi": "10.1177/13860291251414840",
+   "title": "A comprehensive review of GLP-1 and aerobic training in cardiovascular disease management",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:33:40Z"
+  },
+  {
+   "pmid": "41961712",
+   "doi": "10.1097/md.0000000000048264",
+   "title": "Causal effects of Epstein–Barr virus antibodies on autoimmune neuroinflammatory diseases: A generalised summary data-based Mendelian randomisation study",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:33:40Z"
+  },
+  {
+   "pmid": "41961990",
+   "doi": "10.1021/acs.bioconjchem.6c00041",
+   "title": "A Long-Acting Glucagon-like Peptide 2 Protracted by Coomassie Brilliant Blue to Enhance Intestinal Growth in Mice",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:33:40Z"
+  },
+  {
+   "pmid": "41950885",
+   "doi": "10.1016/j.jpurol.2026.105880",
+   "title": "FREM2 as a candidate gene for posterior urethral valves: Evidence from a case-parent cohort",
+   "year": "2026",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "41168230",
+   "doi": "10.1038/s41467-025-64597-3",
+   "title": "Interplay of ECM organization, ROCK signaling, and cell polarity drives mesothelium formation and lung growth",
+   "year": "2025",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "41006360",
+   "doi": "10.1038/s41598-025-14737-y",
+   "title": "Frem2 knockout mice exhibit Fraser syndrome phenotypes and neonatal lethality due to bilateral renal agenesis",
+   "year": "2025",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "24700879",
+   "doi": "10.1681/asn.2013101103",
+   "title": "Mild Recessive Mutations in Six Fraser Syndrome–Related Genes Cause Isolated Congenital Anomalies of the Kidney and Urinary Tract",
+   "year": "2014",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "29688405",
+   "doi": "10.1093/hmg/ddy144",
+   "title": "A homozygous mutation p.Arg2167Trp in FREM2 causes isolated cryptophthalmos",
+   "year": "2018",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "17596926",
+   "doi": "10.1016/j.matbio.2007.05.008",
+   "title": "Basement membrane localization of Frem3 is independent of the Fras1/Frem1/Frem2 protein complex within the sublamina densa",
+   "year": "2007",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "39554083",
+   "doi": "10.1101/2024.10.28.620501",
+   "title": "Frem2 Knockout Mice Exhibit Fraser Syndrome Phenotypes and Neonatal Lethality Due to Bilateral Renal Agenesis",
+   "year": "2024",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "17462874",
+   "doi": "10.1016/j.matbio.2007.03.001",
+   "title": "Frem3, a member of the 12 CSPG repeats-containing extracellular matrix protein family, is a basement membrane protein with tissue distribution patterns distinct from those of Fras1, Frem2, and QBRICK/Frem1",
+   "year": "2007",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "34408272",
+   "doi": "10.1038/s10038-021-00972-4",
+   "title": "Cryptophthalmos, dental anomalies, oral vestibule defect, and a novel FREM2 mutation",
+   "year": "2021",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "24115501",
+   "doi": "10.1002/ajmg.a.36119",
+   "title": "Ablepharon macrostomia syndrome: A distinct genetic entity clinically related to the group of FRAS–FREM complex disorders",
+   "year": "2013",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "31554749",
+   "doi": "10.1538/expanim.19-0088",
+   "title": "Genetic mutation of &lt;i&gt;Frem3&lt;/i&gt; does not causeFraser syndrome in mice",
+   "year": "2019",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "38727584",
+   "doi": "10.1080/00071668.2024.2328686",
+   "title": "Identification of potential candidate genes for the Huoyan trait in developing Wulong goose embryos by transcriptomic analysis",
+   "year": "2024",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "22031191",
+   "doi": "10.1177/1933719111408113",
+   "title": "Differential Gene Expression in the Adrenals of Normal and Anencephalic Fetuses and Studies Focused on the Fras-1-Related Extracellular Matrix Protein (FREM2) Gene",
+   "year": "2011",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "38642601",
+   "doi": "10.1016/j.exer.2024.109903",
+   "title": "Proteomic characteristics of the aqueous humor in Uyghur patients with pseudoexfoliation syndrome and pseudoexfoliative glaucoma",
+   "year": "2024",
+   "subcollection": "FREM2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:34:59Z"
+  },
+  {
+   "pmid": "16059943",
+   "doi": "10.1002/ajmg.a.30864",
+   "title": "Microphthalmia with linear skin defects (MLS) syndrome: Clinical, cytogenetic, and molecular characterization of 11 cases",
+   "year": "2005",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "23401659",
+   "doi": "",
+   "title": "Familial cases of a submicroscopic Xp22.2 deletion: genotype-phenotype correlation in microphthalmia with linear skin defects syndrome.",
+   "year": "2013",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "21736702",
+   "doi": "10.1111/j.1742-4658.2011.08231.x",
+   "title": "Cytochrome c biogenesis in mitochondria – Systems III and V",
+   "year": "2011",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "12900578",
+   "doi": "10.1159/000071607",
+   "title": "Microphthalmia with linear skin defects syndrome (MLS): a male with a mosaic paracentric inversion of Xp",
+   "year": "2002",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "19610109",
+   "doi": "10.1002/ajmg.a.32968",
+   "title": "A large X‐chromosomal deletion is associated with microphthalmia with linear skin defects (MLS) and amelogenesis imperfecta (XAI)",
+   "year": "2009",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "30068298",
+   "doi": "10.1186/s12887-018-1234-4",
+   "title": "A mosaic form of microphthalmia with linear skin defects",
+   "year": "2018",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "17845869",
+   "doi": "10.1016/j.ejmg.2007.07.004",
+   "title": "Mother and daughter with a terminal Xp deletion: Implication of chromosomal mosaicism and X-inactivation in the high clinical variability of the microphthalmia with linear skin defects (MLS) syndrome",
+   "year": "2007",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "36369709",
+   "doi": "10.1002/ajmg.a.63043",
+   "title": "Variable phenotype of secondary congenital corneal opacities associated with microphthalmia with linear skin defects syndrome",
+   "year": "2022",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "9747372",
+   "doi": "10.1046/j.1365-2133.1998.02277.x",
+   "title": "Reticulolinear aplasia cutis congenita of the face and neck: a distinctive cutaneous manifestation in several syndromes linked to Xp22",
+   "year": "1998",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "9559515",
+   "doi": "10.3928/0191-3913-19980301-15",
+   "title": "An XX Male With Microphthalmos and Sclerocornea",
+   "year": "1998",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "14514677",
+   "doi": "10.1074/jbc.m308881200",
+   "title": "Overlapping Specificities of the Mitochondrial Cytochrome c and c1 Heme Lyases",
+   "year": "2003",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "7856638",
+   "doi": "10.1002/ajmg.1320530205",
+   "title": "Female infant with oncocytic cardiomyopathy and microphthalmia with linear skin defects (MLS): A clue to the pathogenesis of oncocytic cardiomyopathy?",
+   "year": "1994",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "19277062",
+   "doi": "10.1038/ejhg.2009.40",
+   "title": "Goltz–Gorlin (focal dermal hypoplasia) and the microphthalmia with linear skin defects (MLS) syndrome: no evidence of genetic overlap",
+   "year": "2009",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "17286317",
+   "doi": "10.1002/pd.1674",
+   "title": "Microphthalmia with linear skin defects (MLS) syndrome evaluated by prenatal karyotyping, FISH and array comparative genomic hybridization",
+   "year": "2007",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "25182979",
+   "doi": "10.1186/1471-2431-14-220",
+   "title": "Microphthalmia with Linear Skin Defects (MLS) associated with Autism Spectrum Disorder (ASD) in a patient with Familial 12.9Mb Terminal Xp deletion",
+   "year": "2014",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-13T08:40:48Z"
+  },
+  {
+   "pmid": "41965558",
+   "doi": "10.1186/s12886-026-04800-1",
+   "title": "Gelatinous drop-like amyloid in FOXC2 distichiasis syndrome: a case report",
+   "year": "2026",
+   "subcollection": "KRT3",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:44:14Z"
+  },
+  {
+   "pmid": "41965322",
+   "doi": "10.1113/ep093788",
+   "title": "The maturation of regional sweating patterns from childhood to young adulthood in females",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:52:30Z"
+  },
+  {
+   "pmid": "41965050",
+   "doi": "10.1002/anie.8906317",
+   "title": "Tandem Reactivity of Metal−Carbon and Carbon−Silicon Bonds in Mononuclear α‐Silyl Organolithium or Organosodium Complexes Towards CO, CO 2 and Heteroallenes",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:52:30Z"
+  },
+  {
+   "pmid": "41964492",
+   "doi": "10.1111/jce.70331",
+   "title": "An Unusual Case of Pacemaker‐Mediated Tachycardia With Alternating Ventricular Capture. What Is the Mechanism?",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:52:30Z"
+  },
+  {
+   "pmid": "41964595",
+   "doi": "10.4103/mgr.medgasres-d-26-00046",
+   "title": "Research trends and hotspots in osteoporosis associated with gas molecules and related factors: a bibliometric analysis",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:52:30Z"
+  },
+  {
+   "pmid": "41965827",
+   "doi": "10.1186/s13052-026-02260-3",
+   "title": "Persistent use of broad-spectrum antibiotics for suspected community acquired urinary tract infections in children in Italian primary care settings",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:52:30Z"
+  },
+  {
+   "pmid": "41961469",
+   "doi": "10.1002/advs.202520828",
+   "title": "Cis ‐ and Trans ‐Regulatory Factors Independently Shape Phenotypic Heterogeneity of Retinitis Pigmentosa",
+   "year": "2026",
+   "subcollection": "RHO",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:54:55Z"
+  },
+  {
+   "pmid": "41950725",
+   "doi": "10.1016/j.scr.2026.103968",
+   "title": "Generation of human P347L RHO-associated retinitis pigmentosa iPSC lines by a mutation insertion in the RHODOPSIN gene carrying the RHO c.1040C &gt; T variant using CRISPR/Cas9",
+   "year": "2026",
+   "subcollection": "RHO",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-13T08:54:55Z"
+  },
   {
    "pmid": "10024875",
    "doi": "10.1016/s1097-2765(00)80170-7",
@@ -16952,16 +19152,6 @@
    "uploaded_at": "2026-03-16T07:30:19Z"
   },
   {
-   "pmid": "40314998",
-   "doi": "10.7554/elife.106980",
-   "title": "Not all dimers are equal",
-   "year": "2025",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T07:30:19Z"
-  },
-  {
    "pmid": "41155148",
    "doi": "10.3390/ijms26209854",
    "title": "Next-Generation Sequencing in Congenital Eye Malformations: Identification of Genetic Causes and Comparison of Different Panel-Based Diagnostic Strategies",
@@ -17742,16 +19932,6 @@
    "uploaded_at": "2026-03-16T07:34:10Z"
   },
   {
-   "pmid": "40616396",
-   "doi": "10.1016/j.gim.2025.101514",
-   "title": "COL4A1 and COL4A2-related disorders: Clinical features, diagnostic guidelines, and management",
-   "year": "2025",
-   "subcollection": "COL4A1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T07:39:18Z"
-  },
-  {
    "pmid": "38978838",
    "doi": "10.3389/fped.2024.1417873",
    "title": "COL4A1 gene mutations and perinatal intracranial hemorrhage in neonates: case reports and literature review",
@@ -18442,16 +20622,6 @@
    "uploaded_at": "2026-03-16T07:50:08Z"
   },
   {
-   "pmid": "21736702",
-   "doi": "10.1111/j.1742-4658.2011.08231.x",
-   "title": "Cytochrome c biogenesis in mitochondria – Systems III and V",
-   "year": "2011",
-   "subcollection": "HCCS",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T07:50:08Z"
-  },
-  {
    "pmid": "18463129",
    "doi": "10.1136/jmg.2008.058305",
    "title": "Dosage compensation of the mammalian X chromosome influences the phenotypic variability of X-linked dominant male-lethal disorders",
@@ -18506,16 +20676,6 @@
    "doi": "10.1055/s-0039-3402047",
    "title": "Microphthalmia, Linear Skin Defects, Callosal Agenesis, and Cleft Palate in a Patient with Deletion at Xp22.3p22.2",
    "year": "2020",
-   "subcollection": "HCCS",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T07:50:08Z"
-  },
-  {
-   "pmid": "14514677",
-   "doi": "10.1074/jbc.m308881200",
-   "title": "Overlapping Specificities of the Mitochondrial Cytochrome c and c1 Heme Lyases",
-   "year": "2003",
    "subcollection": "HCCS",
    "category": "6 - Genes",
    "source": "source:citation",
