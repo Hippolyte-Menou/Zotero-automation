@@ -1,6 +1,1686 @@
 {
- "generated_at": "2026-04-13T09:02:34Z",
+ "generated_at": "2026-04-14T08:19:43Z",
  "additions": [
+  {
+   "pmid": "41964885",
+   "doi": "10.1007/s00417-026-07222-3",
+   "title": "Quantitative analysis of trabecular meshwork pigment after ICL implantation and influencing factors",
+   "year": "2026",
+   "subcollection": "ARR3",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-14T07:37:45Z"
+  },
+  {
+   "pmid": "41965849",
+   "doi": "10.1186/s40246-026-00953-8",
+   "title": "Clinical, genetic and bioinformatic analysis of Saudi families with Joubert syndrome and related disorders",
+   "year": "2026",
+   "subcollection": "BBS1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-14T07:38:18Z"
+  },
+  {
+   "pmid": "41964718",
+   "doi": "10.1007/s10143-026-04281-2",
+   "title": "Outpatient supratentorial craniotomy for brain lesions: a pilot feasibility and safety study",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-14T07:46:00Z"
+  },
+  {
+   "pmid": "41964805",
+   "doi": "10.1007/s10072-026-09013-4",
+   "title": "Repetitive transcranial magnetic stimulation for visual snow syndrome: symptoms relief and changes in brain dynamics. A case report",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-14T07:46:00Z"
+  },
+  {
+   "pmid": "41965341",
+   "doi": "10.1038/s41420-026-03102-1",
+   "title": "CX3CR1-mediated immune networks in sepsis: implications for precision therapy",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-14T07:46:00Z"
+  },
+  {
+   "pmid": "12140190",
+   "doi": "10.1093/hmg/11.16.1879",
+   "title": "Mfrp, a gene encoding a frizzled related protein, is mutated in the mouse retinal degeneration 6",
+   "year": "2002",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "11263980",
+   "doi": "10.1006/bbrc.2001.4551",
+   "title": "Molecular Cloning and Characterization of MFRP, a Novel Gene Encoding a Membrane-Type Frizzled-Related Protein",
+   "year": "2001",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "20361016",
+   "doi": "",
+   "title": "A detailed phenotypic assessment of individuals affected by MFRP-related oculopathy.",
+   "year": "2010",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "17122143",
+   "doi": "10.1167/iovs.06-0449",
+   "title": "Spatial and Temporal Expression of MFRP and Its Interaction with CTRP5",
+   "year": "2006",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "22142163",
+   "doi": "10.1089/hum.2011.169",
+   "title": "Gene Therapy for Retinitis Pigmentosa Caused by MFRP Mutations: Human Phenotype and Preliminary Proof of Concept",
+   "year": "2011",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "30499344",
+   "doi": "10.1089/hum.2018.192",
+   "title": "Long-Term Effects of Gene Therapy in a Novel Mouse Model of Human MFRP -Associated Retinopathy",
+   "year": "2018",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "18764959",
+   "doi": "10.1017/s0952523808080723",
+   "title": "Membrane frizzled-related protein is necessary for the normal development and maintenance of photoreceptor outer segments",
+   "year": "2008",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "19753314",
+   "doi": "",
+   "title": "Compound heterozygosity for a novel and a recurrent MFRP gene mutation in a family with the nanophthalmos-retinitis pigmentosa complex.",
+   "year": "2009",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "35163536",
+   "doi": "10.3390/ijms23031615",
+   "title": "Genetic Interaction between Mfrp and Adipor1 Mutations Affect Retinal Disease Phenotypes",
+   "year": "2022",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "37501562",
+   "doi": "10.1080/13816810.2023.2208220",
+   "title": "Pathogenic variants of MFRP and PRSS56 genes are major causes of nanophthalmos in Japanese patients",
+   "year": "2023",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "33755662",
+   "doi": "10.1371/journal.pgen.1009458",
+   "title": "Identification of MFRP and the secreted serine proteases PRSS56 and ADAMTS19 as part of a molecular network involved in ocular growth regulation",
+   "year": "2021",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "16352474",
+   "doi": "10.1080/13816810500374359",
+   "title": "The Mouse's Eye andMfrp: Not Quite Human",
+   "year": "2005",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "32118495",
+   "doi": "10.1080/13816810.2020.1731835",
+   "title": "Novel mutations in MFRP and PRSS56 are associated with posterior microphthalmos",
+   "year": "2020",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "23112574",
+   "doi": "",
+   "title": "Membrane frizzled-related protein gene-related ophthalmological syndrome: 30-month follow-up of a sporadic case and review of genotype-phenotype correlation in the literature.",
+   "year": "2012",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "39569896",
+   "doi": "10.1111/ceo.14465",
+   "title": "MFRP, PRSS56, and MYRF account for 60.5% of a Chinese cohort with nanophthalmos",
+   "year": "2024",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "22565643",
+   "doi": "10.1007/s10384-012-0145-4",
+   "title": "Novel compound heterozygous mutations in the MFRP gene in a Japanese patient with posterior microphthalmos",
+   "year": "2012",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "26583794",
+   "doi": "10.1097/opx.0000000000000751",
+   "title": "Identification of MFRP Mutations in Chinese Families with High Hyperopia",
+   "year": "2015",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "34913948",
+   "doi": "10.1167/iovs.62.15.13",
+   "title": "Ablation of mpeg + Macrophages Exacerbates mfrp -Related Hyperopia",
+   "year": "2021",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "38557281",
+   "doi": "10.1080/13816810.2024.2322650",
+   "title": "Posterior microphthalmos with retinal involvement related to MFRP gene: a report of 10 Brazilian patients",
+   "year": "2024",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "10967077",
+   "doi": "",
+   "title": "Retinal degeneration 6 (rd6): a new mouse model for human retinitis punctata albescens.",
+   "year": "2000",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "33203948",
+   "doi": "10.1038/s41598-020-76725-8",
+   "title": "Novel TMEM98, MFRP, PRSS56 variants in a large United States high hyperopia and nanophthalmos cohort",
+   "year": "2020",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "28511025",
+   "doi": "10.1080/13816810.2017.1323340",
+   "title": "Co-inheritance of the membrane frizzled-related protein ocular phenotype and glycogen storage disease type Ib",
+   "year": "2017",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "34293777",
+   "doi": "10.1097/icb.0000000000001179",
+   "title": "NOVEL MFRP MUTATION WITH NANOPHTHALMOS, OPTIC DISK DRUSEN, AND PERIPHERAL RETINOSCHISIS IMAGED WITH ULTRA-WIDEFIELD OPTICAL COHERENCE TOMOGRAPHY",
+   "year": "2021",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "40249779",
+   "doi": "10.1073/pnas.2425523122",
+   "title": "MFRP is a molecular hub that organizes the apical membrane of RPE cells by engaging in interactions with specific proteins and lipids",
+   "year": "2025",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "41039698",
+   "doi": "10.1080/13816810.2025.2566428",
+   "title": "Membrane frizzled-related protein: a comprehensive analysis of genetic characteristics, phenotypic manifestations and impact on retinal microvasculature",
+   "year": "2025",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "39076172",
+   "doi": "10.3389/fgene.2024.1407361",
+   "title": "MFRP variations cause nanophthalmos in five Chinese families with distinct phenotypic diversity",
+   "year": "2024",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "30254279",
+   "doi": "10.1038/s41598-018-32579-9",
+   "title": "ADIPOR1 is essential for vision and its RPE expression is lost in the Mfrprd6 mouse",
+   "year": "2018",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "31914617",
+   "doi": "10.1096/fj.201902359r",
+   "title": "Membrane‐type frizzled‐related protein regulates lipidome and transcription for photoreceptor function",
+   "year": "2019",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "31264930",
+   "doi": "10.1080/13816810.2019.1633547",
+   "title": "Posterior microphthalmos, retinitis pigmentosa, and foveoschisis caused by a mutation in the MFRP gene: a familial study",
+   "year": "2019",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "31266062",
+   "doi": "10.1167/iovs.18-26275",
+   "title": "Detection of Clinically Relevant Genetic Variants in Chinese Patients With Nanophthalmos by Trio-Based Whole-Genome Sequencing Study",
+   "year": "2019",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "23077403",
+   "doi": "",
+   "title": "A novel crumbs homolog 1 mutation in a family with retinitis pigmentosa, nanophthalmos, and optic disc drusen.",
+   "year": "2012",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "25606400",
+   "doi": "10.1016/j.mgene.2014.01.004",
+   "title": "Genetic analysis of axial length genes in high grade myopia from Indian population",
+   "year": "2014",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "19169412",
+   "doi": "",
+   "title": "Evaluation of MFRP as a candidate gene for high hyperopia.",
+   "year": "2009",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "25383852",
+   "doi": "10.1097/icb.0000000000000088",
+   "title": "EFFICACY OF TOPICAL DORZOLAMIDE THERAPY FOR CYSTOID MACULAR EDEMA IN A PATIENT WITH MFRP-RELATED NANOPHTHALMOS–RETINITIS PIGMENTOSA–FOVEOSCHISIS–OPTIC DISK DRUSEN SYNDROME",
+   "year": "2014",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "36605040",
+   "doi": "10.1159/000527260",
+   "title": "&lt;i&gt;MFRP&lt;/i&gt;-Associated Retinopathy and Nanophthalmos in Two Irish Probands: A Case Report",
+   "year": "2022",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "12944416",
+   "doi": "10.1093/hmg/ddg289",
+   "title": "Mutation in a short-chain collagen gene, CTRP5 , results in extracellular deposit formation in late-onset retinal degeneration: a genetic model for age-related macular degeneration",
+   "year": "2003",
+   "subcollection": "MFRP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T07:53:31Z"
+  },
+  {
+   "pmid": "10587573",
+   "doi": "10.1093/hmg/9.1.1",
+   "title": "Primary renal hypoplasia in humans and mice with PAX2 mutations: evidence of increased apoptosis in fetal kidneys of Pax21Neu +/- mutant mice",
+   "year": "2000",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "31001663",
+   "doi": "10.1007/s00467-019-04256-0",
+   "title": "Dominant PAX2 mutations may cause steroid-resistant nephrotic syndrome and FSGS in children",
+   "year": "2019",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "35444690",
+   "doi": "10.3389/fgene.2022.799562",
+   "title": "Detection of De Novo PAX2 Variants and Phenotypes in Chinese Population: A Single-Center Study",
+   "year": "2022",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "8943028",
+   "doi": "10.1073/pnas.93.24.13870",
+   "title": "The mouse Pax2 1Neu mutation is identical to a human PAX2 mutation in a family with renal-coloboma syndrome and results in developmental defects of the brain, ear, eye, and kidney",
+   "year": "1996",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "22138676",
+   "doi": "10.1007/s00467-011-2053-0",
+   "title": "PAX2 in human kidney malformations and disease",
+   "year": "2011",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "22660956",
+   "doi": "10.1007/s00467-012-2205-x",
+   "title": "Discordant phenotype in monozygotic twins with renal coloboma syndrome and a PAX2 mutation",
+   "year": "2012",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "21108633",
+   "doi": "10.1111/j.1399-0004.2010.01588.x",
+   "title": "PAX2 gene mutations in pediatric and young adult transplant recipients: kidney and urinary tract malformations without ocular anomalies",
+   "year": "2010",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "40572647",
+   "doi": "10.3390/medicina61060959",
+   "title": "Clinical Characteristics and Genetic Variants in Children with PAX2 Mutation-Associated Disorders",
+   "year": "2025",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "8575306",
+   "doi": "10.1242/dev.121.12.4057",
+   "title": "Pax-2 controls multiple steps of urogenital development",
+   "year": "1995",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "8589702",
+   "doi": "10.1093/hmg/4.11.2183",
+   "title": "Mutation of PAX2 in two siblings with renal-coloboma syndrome",
+   "year": "1995",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "11093271",
+   "doi": "10.1038/sj.ejhg.5200539",
+   "title": "PAX2 mutations in renal–coloboma syndrome: mutational hotspot and germline mosaicism",
+   "year": "2000",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "11461952",
+   "doi": "10.1681/asn.v1281769",
+   "title": "PAX2 Gene Mutation in a Family with Isolated Renal Hypoplasia",
+   "year": "2001",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "11241473",
+   "doi": "10.1002/1096-8628(2000)9999:999<00::aid-ajmg1143>3.0.co;2-f",
+   "title": "Renal-coloboma syndrome: Prenatal detection and clinical spectrum in a large family",
+   "year": "2001",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "34906559",
+   "doi": "10.1016/j.cca.2021.12.007",
+   "title": "Identification of of a PAX2 mutation from maternal mosaicism causes recurrent renal disorder in siblings",
+   "year": "2021",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "30241513",
+   "doi": "10.1186/s12882-018-1044-9",
+   "title": "New PAX2 heterozygous mutation in a child with chronic kidney disease: a case report and review of the literature",
+   "year": "2018",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "33997468",
+   "doi": "10.1016/j.ajoc.2021.101091",
+   "title": "A novel PAX2 heterozygous mutation in a family with Papillorenal syndrome: A case report and review of the literature",
+   "year": "2021",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "39235128",
+   "doi": "10.1002/mgg3.70006",
+   "title": "Frameshift Mutation in PAX2 Related to Focal Segmental Glomerular Sclerosis: A Case Report and Literature Review",
+   "year": "2024",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "11168927",
+   "doi": "10.1046/j.1523-1755.2001.059002457.x",
+   "title": "PAX2 mutations in oligomeganephronia",
+   "year": "2001",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "16049068",
+   "doi": "10.1681/asn.2005030239",
+   "title": "Multicystic Dysplastic Kidney and Variable Phenotype in a Family with a Novel Deletion Mutation of PAX2",
+   "year": "2005",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "34908837",
+   "doi": "10.2147/ndt.s332747",
+   "title": "The Role of PAX2 in Neurodevelopment and Disease",
+   "year": "2021",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "35929805",
+   "doi": "10.1021/acschemneuro.2c00352",
+   "title": "Decreased Microglia in Pax2 Mutant Mice Leads to Impaired Learning and Memory",
+   "year": "2022",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "40582774",
+   "doi": "10.1080/13816810.2025.2519747",
+   "title": "A novel PAX2 heterozygous mutation in a male with anterior segment dysgenesis, colobomatous optic nerves and atypical retinal findings: a case report",
+   "year": "2025",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "41278347",
+   "doi": "10.1016/j.ekir.2025.09.039",
+   "title": "PAX2-Associated Kidney Dysplasia and Podocyte Injury: 2 Faces of a Monogenic Disorder",
+   "year": "2025",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "23539225",
+   "doi": "10.2215/cjn.10221012",
+   "title": "Severe Prenatal Renal Anomalies Associated with Mutations in HNF1B or PAX2 Genes",
+   "year": "2013",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "17403695",
+   "doi": "10.1093/ndt/gfm187",
+   "title": "Renal hypoplasia without optic coloboma associated with PAX2 gene deletion",
+   "year": "2007",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "36835576",
+   "doi": "10.3390/ijms24044165",
+   "title": "PAX2 and CAKUT Phenotypes: Report on Two New Variants and a Review of Mutations from the Leiden Open Variation Database",
+   "year": "2023",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "16971658",
+   "doi": "10.1681/asn.2006030277",
+   "title": "Prevalence of Mutations in Renal Developmental Genes in Children with Renal Hypodysplasia",
+   "year": "2006",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "17314325",
+   "doi": "10.1681/asn.2006070739",
+   "title": "Pax2 and Pax8 Regulate Branching Morphogenesis and Nephron Differentiation in the Developing Kidney",
+   "year": "2007",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "21380624",
+   "doi": "10.1007/s00467-011-1826-9",
+   "title": "HNF1B and PAX2 mutations are a common cause of renal hypodysplasia in the CKiD cohort",
+   "year": "2011",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "16672320",
+   "doi": "10.1681/asn.2005101074",
+   "title": "Suppression of Ureteric Bud Apoptosis Rescues Nephron Endowment and Adult Renal Function in Pax2 Mutant Mice",
+   "year": "2006",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "14566649",
+   "doi": "10.1076/opge.24.4.191.17229",
+   "title": "Optic nerve dysplasia and renal insufficiency in a family with a novel PAX2 mutation, Arg115X: further ophthalmologic delineation of the renal-coloboma syndrome",
+   "year": "2003",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "31692565",
+   "doi": "10.1016/j.ajoc.2019.100563",
+   "title": "A new mutation in the PAX2 gene in a Papillorenal Syndrome patient",
+   "year": "2019",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "34285019",
+   "doi": "10.1136/bcr-2021-241708",
+   "title": "Papillorenal syndrome: a systemic diagnosis not to be missed on fundoscopy",
+   "year": "2021",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "9783702",
+   "doi": "10.1136/jmg.35.10.806",
+   "title": "The prevalence of PAX2 mutations in patients with isolated colobomas or colobomas associated with urogenital anomalies.",
+   "year": "1998",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "14569086",
+   "doi": "10.1097/01.asn.0000094082.11026.ee",
+   "title": "Ureteric Bud Apoptosis and Renal Hypoplasia in Transgenic PAX2-Bax Fetal Mice Mimics the Renal-Coloboma Syndrome",
+   "year": "2003",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "20221250",
+   "doi": "10.1371/journal.pgen.1000870",
+   "title": "Papillorenal Syndrome-Causing Missense Mutations in PAX2/Pax2 Result in Hypomorphic Alleles in Mouse and Human",
+   "year": "2010",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "18083586",
+   "doi": "10.1016/j.jaapos.2007.08.007",
+   "title": "Optic nerve axon number in mouse is regulated by PAX2",
+   "year": "2007",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "31538321",
+   "doi": "10.1007/s13730-019-00419-y",
+   "title": "A novel truncating PAX2 mutation in a boy with renal coloboma syndrome with focal segmental glomerulosclerosis causing rapid progression to end-stage kidney disease",
+   "year": "2019",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "33363218",
+   "doi": "10.1159/000510841",
+   "title": "&lt;b&gt;&lt;i&gt;PAX2&lt;/i&gt;&lt;/b&gt; Mutation-Related Oligomeganephronia in a Young Adult Patient",
+   "year": "2020",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "41963849",
+   "doi": "10.1186/s12887-026-06843-1",
+   "title": "Minigene-based splicing analysis uncovers pathogenic splice-altering effects of PAX2",
+   "year": "2026",
+   "subcollection": "PAX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:00:25Z"
+  },
+  {
+   "pmid": "19586929",
+   "doi": "10.1136/jmg.2009.068403",
+   "title": "Phenotype and genotype in 17 patients with Goltz–Gorlin syndrome",
+   "year": "2009",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "22888000",
+   "doi": "10.1074/jbc.m112.381970",
+   "title": "Precise Regulation of Porcupine Activity Is Required for Physiological Wnt Signaling",
+   "year": "2012",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "19863546",
+   "doi": "10.1111/j.1399-0004.2009.01248.x",
+   "title": "Novel PORCN mutations in focal dermal hypoplasia",
+   "year": "2009",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "41834648",
+   "doi": "10.1177/10556656261431892",
+   "title": "Cleft Lip and Palate is Common in PORCN-Related Focal Dermal Hypoplasia in Asians: Three New Case Reports and Literature Review",
+   "year": "2026",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "24798332",
+   "doi": "10.1074/jbc.m114.561209",
+   "title": "Identification of Key Residues and Regions Important for Porcupine-mediated Wnt Acylation",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "26853229",
+   "doi": "10.1002/ajmg.c.31473",
+   "title": "Phenotypic and molecular characterization of focal dermal hypoplasia in 18 individuals",
+   "year": "2016",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "35101074",
+   "doi": "10.1186/s13023-021-02068-w",
+   "title": "Novel insights into PORCN mutations, associated phenotypes and pathophysiological aspects",
+   "year": "2022",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "23696273",
+   "doi": "10.1002/ajmg.a.35964",
+   "title": "Focal dermal hypoplasia (goltz–gorlin syndrome): A new case with a novel variant in the PORCN gene (c.1250T&gt;C:p.F417S) and unusual spinal anomaly",
+   "year": "2013",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "25464842",
+   "doi": "10.1016/j.celrep.2014.10.049",
+   "title": "A Rare Human Syndrome Provides Genetic Evidence that WNT Signaling Is Required for Reprogramming of Fibroblasts to Induced Pluripotent Stem Cells",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "17951029",
+   "doi": "10.1016/j.jdermsci.2007.09.004",
+   "title": "Focal dermal hypoplasia resulting from a new nonsense mutation, p.E300X, in the PORCN gene",
+   "year": "2007",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "23131169",
+   "doi": "10.1111/pde.12031",
+   "title": "Focal Dermal Hypoplasia Due to a Novel Mutation in a Boy with Klinefelter Syndrome",
+   "year": "2012",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "25640089",
+   "doi": "10.1111/bjd.13649",
+   "title": "Mosaic focal dermal hypoplasia caused by a novel somatic mutation inPORCNdetected in affected skin",
+   "year": "2015",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "21332693",
+   "doi": "10.1111/j.1440-0960.2010.00662.x",
+   "title": "A case of mosaic Goltz syndrome (focal dermal hypoplasia) in a male patient",
+   "year": "2010",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "20704476",
+   "doi": "10.3109/15513811003796912",
+   "title": "A NONSENSEPORCNMUTATION IN SEVERE FOCAL DERMAL HYPOPLASIA WITH NATAL TEETH",
+   "year": "2010",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "41039413",
+   "doi": "10.1186/s12887-025-06129-y",
+   "title": "Treatment of a case with short stature and Goltz syndrome with long-acting growth hormone: a case report and follow-up",
+   "year": "2025",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "40406350",
+   "doi": "10.1093/jbmrpl/ziaf048",
+   "title": "Porcupine inhibition enhances hypertrophic cartilage differentiation",
+   "year": "2025",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "41641168",
+   "doi": "10.1002/ccr3.71592",
+   "title": "Identification of a PORCN c. 1093C &gt;T (p. Arg365Trp ) Variant in a 12‐Year‐Old Girl With Goltz–Gorlin Syndrome",
+   "year": "2026",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "24527386",
+   "doi": "10.1016/j.stemcr.2013.12.012",
+   "title": "Wnt Secretion from Epithelial Cells and Subepithelial Myofibroblasts Is Not Required in the Mouse Intestinal Stem Cell Niche In Vivo",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "12034504",
+   "doi": "10.1016/s0378-1119(02)00467-5",
+   "title": "Molecular cloning and initial characterization of the MG61/PORC gene, the human homologue of the Drosophila segment polarity gene Porcupine",
+   "year": "2002",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "23760955",
+   "doi": "10.1242/dev.094458",
+   "title": "Porcn-dependent Wnt signaling is not required prior to mouse gastrulation",
+   "year": "2013",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "22046319",
+   "doi": "10.1371/journal.pone.0026636",
+   "title": "Differential Palmit(e)oylation of Wnt1 on C93 and S224 Residues Has Overlapping and Distinct Consequences",
+   "year": "2011",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "25451226",
+   "doi": "10.1016/j.febslet.2014.11.016",
+   "title": "Identification of the WNT1 residues required for palmitoylation by Porcupine",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "24387693",
+   "doi": "10.1111/pde.12267",
+   "title": "Focal Dermal Hypoplasia: Report of a Case with Myelomeningocele, Arnold–Chiari Malformation and Hydrocephalus with a Review of Neurologic Manifestations of Goltz Syndrome",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "30455901",
+   "doi": "10.1002/ccr3.1783",
+   "title": "Goltz syndrome in males: A clinical report of a male patient carrying a novel  PORCN  variant and a review of the literature",
+   "year": "2018",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "21133992",
+   "doi": "10.1111/j.1525-1470.2010.01209.x",
+   "title": "Survival of a Male Mosaic for PORCN Mutation with Mild Focal Dermal Hypoplasia Phenotype",
+   "year": "2010",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "24357603",
+   "doi": "10.1002/ajmg.a.36341",
+   "title": "Focal dermal hypoplasia without focal dermal hypoplasia",
+   "year": "2013",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "26470739",
+   "doi": "10.3109/15513815.2015.1095257",
+   "title": "Focal Dermal Hypoplasia Due toDe NovoMutation c.1061T&gt;C(p.Leu354Pro) in thePORCN Gene: Importance of Early Diagnosis and Multidisciplinary Follow-Up",
+   "year": "2015",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "18478042",
+   "doi": "10.1038/ejhg.2008.87",
+   "title": "An Xp11.23 deletion containing PORCN may also cause angioma serpiginosum, a cosmetic skin disease associated with extreme skewing of X-inactivation",
+   "year": "2008",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "20626533",
+   "doi": "10.1111/j.1468-3083.2010.03782.x",
+   "title": "Focal dermal hypoplasia in a male patient due to mosaicism for a novel PORCN single nucleotide deletion",
+   "year": "2010",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "36484635",
+   "doi": "10.1042/bst20220735",
+   "title": "Functional regulation of Wnt protein through post-translational modifications",
+   "year": "2022",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "34962003",
+   "doi": "10.1111/cga.12457",
+   "title": "Two new patients with focal dermal hypoplasia: A novelPORCNvariant and insights on the diagnostic considerations",
+   "year": "2021",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "28626639",
+   "doi": "10.1016/j.ymgmr.2017.06.002",
+   "title": "A non-mosaic PORCN mutation in a male with severe congenital anomalies overlapping focal dermal hypoplasia",
+   "year": "2017",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "22250236",
+   "doi": "10.1001/archdermatol.2011.343",
+   "title": "A Novel Mutation in the &lt;emph type=\"ital\"&gt;PORCN&lt;/emph&gt; Gene Underlying a Case of Almost Unilateral Focal Dermal Hypoplasia",
+   "year": "2012",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "25040319",
+   "doi": "10.1111/ijd.12605",
+   "title": "Goltz syndrome and PORCN mosaicism",
+   "year": "2014",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "27001925",
+   "doi": "10.1002/ajmg.c.31468",
+   "title": "Growth, nutritional, and gastrointestinal aspects of focal dermal hypoplasia (Goltz–Gorlin syndrome)",
+   "year": "2016",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "31789838",
+   "doi": "10.1097/dad.0000000000001579",
+   "title": "Fragmented Elastic Fibers in Focal Dermal Hypoplasia (Goltz–Gorlin Syndrome) Without Focal Dermal Hypoplasia: Report of a Male Case and Review of the Literature",
+   "year": "2019",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "38841326",
+   "doi": "10.1159/000535681",
+   "title": "A Long-Term Follow-Up of a Patient with a Novel &lt;i&gt;PORCN&lt;/i&gt; Variant and Additional Clinical Features",
+   "year": "2024",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "35141996",
+   "doi": "10.1111/dth.15371",
+   "title": "Novel uses of laser therapy in Goltz syndrome",
+   "year": "2022",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "40903390",
+   "doi": "10.1002/pd.6880",
+   "title": "A Prenatal Case of Focal Dermal Hypoplasia With Split Hand/Foot Malformation, Lack of Characteristic Skin Findings, Renal Agenesis, and Coloboma Due To a Novel PORCN Variant",
+   "year": "2025",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "41450356",
+   "doi": "10.7759/cureus.97595",
+   "title": "Case of a Male Patient With Focal Dermal Hypoplasia (Goltz Syndrome), Esophageal Polyps, Scoliosis, and Bicuspid Aortic Valve",
+   "year": "2025",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "26843121",
+   "doi": "10.1002/ajmg.c.31478",
+   "title": "Oral phenotype and variation in focal dermal hypoplasia",
+   "year": "2016",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "26603014",
+   "doi": "10.1111/cga.12146",
+   "title": "Novel PORCN mutation in a severe case of Focal Dermal Hypoplasia",
+   "year": "2015",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "40071146",
+   "doi": "10.1016/j.isci.2025.111972",
+   "title": "Fine-tuning of Wnt signaling by RNA surveillance factor Smg5 in the mouse craniofacial development",
+   "year": "2025",
+   "subcollection": "PORCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:05:20Z"
+  },
+  {
+   "pmid": "28677370",
+   "doi": "10.5114/fn.2017.68580",
+   "title": "Neuronal vacuolation and spinocerebellar degeneration associated with altered neurotransmission",
+   "year": "2017",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "41413608",
+   "doi": "10.1186/s40478-025-02204-8",
+   "title": "Biallelic null RAB3GAP1 variants impair cortical development and autophagy in Warburg Micro syndrome: evidence from fetal brain tissue and patient fibroblasts",
+   "year": "2025",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "39779760",
+   "doi": "10.1038/s41467-025-55828-8",
+   "title": "Biochemical and structural characterization of Rab3GAP reveals insights into Rab18 nucleotide exchange activity",
+   "year": "2025",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "26063829",
+   "doi": "10.1098/rsob.150047",
+   "title": "Warburg Micro syndrome is caused by RAB18 deficiency or dysregulation",
+   "year": "2015",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "30730599",
+   "doi": "10.1002/ajmg.a.61065",
+   "title": "Revealing the functions of novel mutations in RAB3GAP1 in Martsolf and Warburg micro syndromes",
+   "year": "2019",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "23176487",
+   "doi": "10.1042/bst20120169",
+   "title": "RAB3GAP1, RAB3GAP2 and RAB18: disease genes in Micro and Martsolf syndromes",
+   "year": "2012",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "33951304",
+   "doi": "10.1002/ajmg.a.62234",
+   "title": "From cataract to syndrome diagnosis: Revaluation of Warburg‐Micro syndrome Type 1 patients",
+   "year": "2021",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "28342870",
+   "doi": "10.1016/j.bbrc.2017.03.112",
+   "title": "The RAB GTPase RAB18 modulates macroautophagy and proteostasis",
+   "year": "2017",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "32740904",
+   "doi": "10.1111/cge.13825",
+   "title": "Micro and Martsolf syndromes in 34 new patients: Refining the phenotypic spectrum and further molecular insights",
+   "year": "2020",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "26879639",
+   "doi": "10.1186/s13041-016-0198-2",
+   "title": "RAB18, a protein associated with Warburg Micro syndrome, controls neuronal migration in the developing cerebral cortex",
+   "year": "2016",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "17351351",
+   "doi": "10.1097/mcd.0b013e328054c404",
+   "title": "Warburg Micro syndrome in a Turkish boy",
+   "year": "2007",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "25332050",
+   "doi": "10.1186/s13023-014-0113-9",
+   "title": "Large homozygous RAB3GAP1 gene microdeletion causes Warburg Micro Syndrome 1",
+   "year": "2014",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "25899426",
+   "doi": "10.1002/ajmg.a.36878",
+   "title": "Deletion 1q43‐44 in a patient with clinical diagnosis of Warburg–Micro syndrome",
+   "year": "2015",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "37186309",
+   "doi": "10.1002/jdn.10264",
+   "title": "Exome sequencing identifies a novel pathogenic variant in RAB3GAP1 causing Warburg Micro syndrome in a Pakistani family",
+   "year": "2023",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "26565612",
+   "doi": "10.1080/15548627.2015.1110668",
+   "title": "The integration of autophagy and cellular trafficking pathways via RAB GAPs",
+   "year": "2015",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "32248620",
+   "doi": "10.1111/febs.15313",
+   "title": "The Warburg Micro Syndrome‐associated Rab3GAP‐Rab18 module promotes autolysosome maturation through the Vps34 Complex I",
+   "year": "2020",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "37575647",
+   "doi": "10.1055/s-0043-1768693",
+   "title": "First Clinical Report of Two RAB3GAP1 Pathogenic Variant in Warburg Micro Syndrome",
+   "year": "2023",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "37385458",
+   "doi": "10.1016/j.nbd.2023.106215",
+   "title": "The Warburg micro syndrome protein RAB3GAP1 modulates neuronal morphogenesis and interacts with axon elongation end ER-Golgi trafficking factors",
+   "year": "2023",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "29367353",
+   "doi": "10.1083/jcb.201704184",
+   "title": "Rab18 promotes lipid droplet (LD) growth by tethering the ER to LDs through SNARE and NRZ interactions",
+   "year": "2018",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "21979947",
+   "doi": "10.1093/hmg/ddr460",
+   "title": "A genome-wide association study identifies a potential novel gene locus for keratoconus, one of the commonest causes for corneal transplantation in developed countries",
+   "year": "2011",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "34130600",
+   "doi": "10.1080/15548627.2021.1943177",
+   "title": "The spectrum of neurodevelopmental, neuromuscular and neurodegenerative disorders due to defective autophagy",
+   "year": "2021",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "30856165",
+   "doi": "10.1371/journal.pgen.1007605",
+   "title": "ITPase deficiency causes a Martsolf-like syndrome with a lethal infantile dilated cardiomyopathy",
+   "year": "2019",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "32162791",
+   "doi": "10.1002/ajmg.a.61543",
+   "title": "Martsolf syndrome with novel mutation in the TBC1D20 gene in a family from Iran",
+   "year": "2020",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "39953729",
+   "doi": "10.1016/j.bpj.2025.02.010",
+   "title": "Rab3gap1 palmitoylation cycling modulates cardiomyocyte exocytosis and atrial natriuretic peptide release",
+   "year": "2025",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "27081543",
+   "doi": "10.1038/hgv.2015.34",
+   "title": "Two novel homozygous RAB3GAP1 mutations cause Warburg micro syndrome",
+   "year": "2015",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "34702808",
+   "doi": "10.1038/s41439-021-00171-9",
+   "title": "Two novel Warburg micro syndrome 1 cases caused by pathogenic variants in RAB3GAP1",
+   "year": "2021",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "33466118",
+   "doi": "10.1097/md.0000000000022902",
+   "title": "A novel mutation in RAB3GAP1 gene in Chinese patient causing the Warburg micro syndrome",
+   "year": "2021",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "36876345",
+   "doi": "10.1097/mcd.0000000000000454",
+   "title": "Novel, homozygous RAB3GAP1 c.2606 + 1G&gt;A, p.Glu830ValfsTer9 variant and chromosome 3q29 duplication in a Turkish individual with Warburg micro syndrome",
+   "year": "2023",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "27246931",
+   "doi": "10.1247/csf.16008",
+   "title": "Multiple Types of Guanine Nucleotide Exchange Factors (GEFs) for Rab Small GTPases",
+   "year": "2016",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "28944914",
+   "doi": "10.3892/mmr.2017.7590",
+   "title": "Gene screening facilitates diagnosis of complicated symptoms: A case report",
+   "year": "2017",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "40644301",
+   "doi": "10.1016/j.celrep.2025.115993",
+   "title": "ER-endosome contacts generate a local environment promoting phagophore formation",
+   "year": "2025",
+   "subcollection": "RAB3GAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:08:58Z"
+  },
+  {
+   "pmid": "9240560",
+   "doi": "10.1387/ijdb.9240560",
+   "title": "Role of the retinoic acid receptor beta (RARbeta) during mouse development",
+   "year": "1997",
+   "subcollection": "RARB",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:10:49Z"
+  },
+  {
+   "pmid": "9244300",
+   "doi": "10.1016/s0092-8674(00)80334-7",
+   "title": "Cooperation of BMP7 and SHH in the Induction of Forebrain Ventral Midline Cells by Prechordal Mesoderm",
+   "year": "1997",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "41148821",
+   "doi": "10.3390/cells14201607",
+   "title": "Neuronal Primary Cilia Mediate Noggin Release to Enable Extracellular Signaling",
+   "year": "2025",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "12756179",
+   "doi": "10.1242/dev.00515",
+   "title": "Retinal ganglion cell-derived sonic hedgehog signaling is required for optic disc and stalk neuroepithelial cell development",
+   "year": "2003",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "18787065",
+   "doi": "10.1242/dev.027078",
+   "title": "Temporal progression of hypothalamic patterning by a dual action of BMP",
+   "year": "2008",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "23014696",
+   "doi": "10.1242/dev.082321",
+   "title": "Temporal deletion of Arl13b reveals that a mispatterned neural tube corrects cell fate over time",
+   "year": "2012",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "15938717",
+   "doi": "10.1111/j.1365-2443.2005.00861.x",
+   "title": "Angiogenesis within the developing mouse neural tube is dependent on sonic hedgehog signaling: possible roles of motor neurons",
+   "year": "2005",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "12141448",
+   "doi": "10.1387/ijdb.12141448",
+   "title": "Patterning of the vertebrate ventral spinal cord",
+   "year": "2002",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "12435628",
+   "doi": "10.1101/gad.1025702",
+   "title": "A direct requirement for Hedgehog signaling for normal specification of all ventral progenitor domains in the presumptive mammalian spinal cord",
+   "year": "2002",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "38651456",
+   "doi": "10.3390/jdb12020011",
+   "title": "A Residual N-Terminal Peptide Enhances Signaling of Depalmitoylated Hedgehog to the Patched Receptor",
+   "year": "2024",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "8787761",
+   "doi": "10.1242/dev.122.9.2885",
+   "title": "Antagonizing cAMP-dependent protein kinase A in the dorsal CNS activates a conserved Sonic hedgehog signaling pathway",
+   "year": "1996",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "12854656",
+   "doi": "10.1002/bdra.10045",
+   "title": "Neural and orofacial defects in Folbp1 knockout mice",
+   "year": "2003",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
+  {
+   "pmid": "38857279",
+   "doi": "10.1371/journal.pgen.1011326",
+   "title": "Myosin II mediates Shh signals to shape dental epithelia via control of cell adhesion and movement",
+   "year": "2024",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-14T08:14:53Z"
+  },
   {
    "pmid": "41963357",
    "doi": "10.1038/s41525-026-00566-z",
@@ -21712,16 +23392,6 @@
    "uploaded_at": "2026-03-16T08:08:15Z"
   },
   {
-   "pmid": "22888000",
-   "doi": "10.1074/jbc.m112.381970",
-   "title": "Precise Regulation of Porcupine Activity Is Required for Physiological Wnt Signaling",
-   "year": "2012",
-   "subcollection": "PORCN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T08:08:15Z"
-  },
-  {
    "pmid": "21768372",
    "doi": "10.1073/pnas.1006437108",
    "title": "Deletion of mouse Porcn blocks Wnt ligand secretion and reveals an ectodermal etiology of human focal dermal hypoplasia/Goltz syndrome",
@@ -21766,16 +23436,6 @@
    "doi": "10.1111/j.1399-0004.2008.00975.x",
    "title": "Three novel mutations in the PORCN gene underlying focal dermal hypoplasia",
    "year": "2008",
-   "subcollection": "PORCN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-16T08:08:15Z"
-  },
-  {
-   "pmid": "17951029",
-   "doi": "10.1016/j.jdermsci.2007.09.004",
-   "title": "Focal dermal hypoplasia resulting from a new nonsense mutation, p.E300X, in the PORCN gene",
-   "year": "2007",
    "subcollection": "PORCN",
    "category": "6 - Genes",
    "source": "source:citation",
