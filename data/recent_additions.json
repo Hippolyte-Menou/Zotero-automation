@@ -1,6 +1,486 @@
 {
- "generated_at": "2026-04-16T08:24:13Z",
+ "generated_at": "2026-04-17T08:18:18Z",
  "additions": [
+  {
+   "pmid": "41980014",
+   "doi": "10.12659/ajcr.951708",
+   "title": "Persistent Bilateral Optic Disc Swelling in Non-Syndromic Retinitis Pigmentosa: A Case Report",
+   "year": "2026",
+   "subcollection": "BBS2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:41:15Z"
+  },
+  {
+   "pmid": "41981307",
+   "doi": "10.1038/s41591-026-04317-6",
+   "title": "Intravitreal photoswitch therapy in advanced retinitis pigmentosa: a phase 1 open-label trial",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:41:32Z"
+  },
+  {
+   "pmid": "41930028",
+   "doi": "10.4103/ojo.ojo_101_24",
+   "title": "Spontaneously arrested primary congenital glaucoma",
+   "year": "2026",
+   "subcollection": "CYP1B1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:48:27Z"
+  },
+  {
+   "pmid": "1544908",
+   "doi": "10.1016/s0021-9258(18)42759-7",
+   "title": "Binding of the proteoglycan decorin to collagen type VI.",
+   "year": "1992",
+   "subcollection": "DCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:50:03Z"
+  },
+  {
+   "pmid": "33918979",
+   "doi": "10.3390/cells10040863",
+   "title": "Role of Decorin in Posterior Capsule Opacification and Eye Lens Development",
+   "year": "2021",
+   "subcollection": "DCN",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:50:03Z"
+  },
+  {
+   "pmid": "33077723",
+   "doi": "10.1038/s41467-020-18970-z",
+   "title": "Structural basis of heterotetrameric assembly and disease mutations in the human cis-prenyltransferase complex",
+   "year": "2020",
+   "subcollection": "DHDDS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:51:27Z"
+  },
+  {
+   "pmid": "21357751",
+   "doi": "10.1261/rna.2577511",
+   "title": "The splice is right: Guarantors of fidelity in pre-mRNA splicing: FIGURE 1.",
+   "year": "2011",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "24848011",
+   "doi": "10.1093/nar/gku431",
+   "title": "Remodeling of U2-U6 snRNA helix I during pre-mRNA splicing by Prp16 and the NineTeen Complex protein Cwc2",
+   "year": "2014",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "9436908",
+   "doi": "",
+   "title": "PRP16, a DEAH-box RNA helicase, is recruited to the spliceosome primarily via its nonconserved N-terminal domain.",
+   "year": "1998",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "1385854",
+   "doi": "10.1128/mcb.12.8.3540",
+   "title": "A dominant negative mutation in a spliceosomal ATPase affects ATP hydrolysis but not binding to the spliceosome.",
+   "year": "1992",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "9342317",
+   "doi": "10.1073/pnas.94.22.11798",
+   "title": "Prp43: An RNA helicase-like factor involved in spliceosome disassembly",
+   "year": "1997",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "17403782",
+   "doi": "10.1101/gad.1536107",
+   "title": "U2 toggles iteratively between the stem IIa and stem IIc conformations to promote pre-mRNA splicing",
+   "year": "2007",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "23166295",
+   "doi": "10.1128/mcb.01093-12",
+   "title": "Link of NTR-Mediated Spliceosome Disassembly with DEAH-Box ATPases Prp2, Prp16, and Prp22",
+   "year": "2012",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "19458033",
+   "doi": "10.1261/rna.1582609",
+   "title": "Evidence that U2/U6 helix I promotes both catalytic steps of pre-mRNA splicing and rearranges in between these steps",
+   "year": "2009",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "37858289",
+   "doi": "10.1093/nar/gkad861",
+   "title": "An ATP-independent role for Prp16 in promoting aberrant splicing",
+   "year": "2023",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "23685439",
+   "doi": "10.1261/rna.039024.113",
+   "title": "Molecular dissection of step 2 catalysis of yeast pre-mRNA splicing investigated in a purified system",
+   "year": "2013",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "33705709",
+   "doi": "10.1016/j.molcel.2021.02.021",
+   "title": "Structural basis for conformational equilibrium of the catalytic spliceosome",
+   "year": "2021",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "7664739",
+   "doi": "10.1002/j.1460-2075.1995.tb00071.x",
+   "title": "SLU7 and a novel activity, SSF1, act during the PRP16-dependent step of yeast pre-mRNA splicing.",
+   "year": "1995",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "11856747",
+   "doi": "10.1074/jbc.m112473200",
+   "title": "Characterization of Dominant-negative Mutants of the DEAH-box Splicing Factors Prp22 and Prp16",
+   "year": "2002",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "38876504",
+   "doi": "10.1261/rna.079886.123",
+   "title": "Characterization of Cwc2, U6 snRNA, and Prp8 interactions destabilized by Prp16 ATPase at the transition between the first and second steps of splicing",
+   "year": "2024",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "29301961",
+   "doi": "10.1126/science.aar6401",
+   "title": "Structure of a human catalytic step I spliceosome",
+   "year": "2018",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "33674615",
+   "doi": "10.1038/s41467-021-21745-9",
+   "title": "psiCLIP reveals dynamic RNA binding by DEAH-box helicases before and after exon ligation",
+   "year": "2021",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "22982196",
+   "doi": "10.1016/j.bbagrm.2012.08.014",
+   "title": "Plasmodium falciparum Prp16 homologue and its role in splicing",
+   "year": "2012",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "37548918",
+   "doi": "10.1107/s2053230x23005721",
+   "title": "Crystal structure of Prp16 in complex with ADP",
+   "year": "2023",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "29390077",
+   "doi": "10.1093/nar/gky052",
+   "title": "Cwc23 is a component of the NTR complex and functions to stabilize Ntr1 and facilitate disassembly of spliceosome intermediates",
+   "year": "2018",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "16700561",
+   "doi": "10.1021/bi052656g",
+   "title": "Mutations in PRP43 That Uncouple RNA-Dependent NTPase Activity and Pre-mRNA Splicing Function",
+   "year": "2006",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "8722761",
+   "doi": "10.1093/genetics/143.1.45",
+   "title": "Genetic Studies of the PRP17 Gene of Saccharomyces cerevisiae: A Domain Essential for Function Maps to a Nonconserved Region of the Protein",
+   "year": "1996",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "9830021",
+   "doi": "10.1074/jbc.273.49.32771",
+   "title": "Functional Conservation of the Human Homolog of the Yeast Pre-mRNA Splicing Factor Prp17p",
+   "year": "1998",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "9528778",
+   "doi": "10.1128/mcb.18.4.2055",
+   "title": "Synthetic Lethality of Yeast slt Mutations with U2 Small Nuclear RNA Mutations Suggests Functional Interactions between U2 and U5 snRNPs That Are Important for Both Steps of Pre-mRNA Splicing",
+   "year": "1998",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "39857604",
+   "doi": "10.3390/biomedicines13010020",
+   "title": "Knockout of dhx38 Causes Inner Ear Developmental Defects in Zebrafish",
+   "year": "2024",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "8088513",
+   "doi": "10.1093/genetics/137.3.677",
+   "title": "Genetic interactions between the yeast RNA helicase homolog Prp16 and spliceosomal snRNAs identify candidate ligands for the Prp16 RNA-dependent ATPase.",
+   "year": "1994",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "8722763",
+   "doi": "10.1093/genetics/143.1.67",
+   "title": "Identification of Novel Genes Required for Yeast Pre-mRNA Splicing by Means of Cold-Sensitive Mutations",
+   "year": "1996",
+   "subcollection": "DHX38",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:52:13Z"
+  },
+  {
+   "pmid": "38342437",
+   "doi": "10.1016/j.jlr.2024.100518",
+   "title": "Elovl4b knockout zebrafish as a model for ocular very-long-chain PUFA deficiency",
+   "year": "2024",
+   "subcollection": "ELOVL4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-04-17T07:54:18Z"
+  },
+  {
+   "pmid": "41984033",
+   "doi": "10.1152/ajpcell.00024.2026",
+   "title": "Defects in skeletal myotubes caused by STIM1 I115F that lead to tubular aggregate myopathy and Stormorken syndrome and their restoration at the cellular level",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41983956",
+   "doi": "10.1177/10556656261422847",
+   "title": "An RCT Evaluating the Efficacy of Using Platelet-Rich Fibrin (PRF) with Conventional Technique of Cleft Palate Repair",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41980717",
+   "doi": "10.1542/peds.2025-073105",
+   "title": "Unexpected Death in a Young Child With Cogan Syndrome",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41983409",
+   "doi": "10.1111/apt.70676",
+   "title": "Editorial: New Insights Into the Aetiopathogenesis of Post‐Infective Irritable Bowel Syndrome and Functional Dyspepsia: A Significant Step Forward but What Next? Authors' Reply",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41979990",
+   "doi": "10.1159/000551964",
+   "title": "GLP-1 Receptor Agonist Semaglutide and SGLT2 Inhibitors after Acute Coronary Syndrome in Patients with Diabetes: Real-World Comparative Outcomes from an Observational Registry",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41981474",
+   "doi": "10.1186/s12872-026-05835-4",
+   "title": "Cardiovascular–kidney–metabolic syndrome stages 0–3 and cognitive decline in Chinese adults: a longitudinal analysis from the China health and retirement longitudinal study",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T07:55:24Z"
+  },
+  {
+   "pmid": "41982147",
+   "doi": "10.1002/jimd.70186",
+   "title": "Differential Trafficking Phenotypes of NPC1 Mutant Proteins Reveal Distinct Cholesterol Accumulation Profiles",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41981533",
+   "doi": "10.1186/s12889-026-27299-z",
+   "title": "Spatiotemporal Modeling of Under-Five Pneumonia (U-5P) Risk in Ghana Using Integrated Nested Laplace Approximations, 2018–2022",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41984062",
+   "doi": "10.2106/jbjs.26.00115",
+   "title": "Periprosthetic Femoral Fractures in 2026: Reaffirming the Vancouver Classification While Confronting Its Limits",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41983263",
+   "doi": "10.1021/acschemneuro.5c00985",
+   "title": "Stimulus-Driven Remodeling of Microglial Endocannabinoid Metabolism Illuminates ABHD12 Function in Immunity",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41983432",
+   "doi": "10.1021/acs.langmuir.6c00958",
+   "title": "Carbon Mineralization in CO 2 –Seawater–Basalt Systems: Reactive Transport Dynamics and Vesicular Pore Architecture Controls",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41983533",
+   "doi": "10.1002/alr.70169",
+   "title": "Exploring Sleep Quality and Chronic Rhinosinusitis Risk Using Wearable Technology",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41983381",
+   "doi": "10.1021/acssensors.5c03461",
+   "title": "In Vitro Biological Neuronal Networks Achieve Low-Power Consumption and High-Speed Communication through Predictable Stimulation",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41981566",
+   "doi": "10.1186/s12910-026-01403-9",
+   "title": "Ethical AI in healthcare: insights from European policy discourses",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
+  {
+   "pmid": "41982087",
+   "doi": "10.1111/all.70341",
+   "title": "Urticaria and Angioedema: When East Meets West—and the Middle",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-04-17T08:08:31Z"
+  },
   {
    "pmid": "41976792",
    "doi": "10.3390/jcm15072491",
@@ -48982,26 +49462,6 @@
    "uploaded_at": "2026-03-03T07:07:39Z"
   },
   {
-   "pmid": "33705709",
-   "doi": "10.1016/j.molcel.2021.02.021",
-   "title": "Structural basis for conformational equilibrium of the catalytic spliceosome",
-   "year": "2021",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-03T07:15:17Z"
-  },
-  {
-   "pmid": "9528778",
-   "doi": "10.1128/mcb.18.4.2055",
-   "title": "Synthetic Lethality of Yeast <i>slt</i> Mutations with U2 Small Nuclear RNA Mutations Suggests Functional Interactions between U2 and U5 snRNPs That Are Important for Both Steps of Pre-mRNA Splicing",
-   "year": "1998",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-03T07:15:17Z"
-  },
-  {
    "pmid": "30395327",
    "doi": "10.1093/nar/gky1089",
    "title": "Dynamic protein–RNA interactions in mediating splicing catalysis",
@@ -49026,16 +49486,6 @@
    "doi": "10.1128/mcb.14.11.7611",
    "title": "Identification of a putative RNA helicase (HRH1), a human homolog of yeast Prp22.",
    "year": "1994",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-03T07:15:17Z"
-  },
-  {
-   "pmid": "9830021",
-   "doi": "10.1074/jbc.273.49.32771",
-   "title": "Functional Conservation of the Human Homolog of the Yeast Pre-mRNA Splicing Factor Prp17p",
-   "year": "1998",
    "subcollection": "DHX38",
    "category": "6 - Genes",
    "source": "source:citation",
