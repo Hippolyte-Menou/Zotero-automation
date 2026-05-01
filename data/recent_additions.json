@@ -1,6 +1,836 @@
 {
- "generated_at": "2026-04-30T09:06:38Z",
+ "generated_at": "2026-05-01T09:10:13Z",
  "additions": [
+  {
+   "pmid": "24265018",
+   "doi": "10.1167/iovs.13-12104",
+   "title": "A Longitudinal Study of Stargardt Disease: Quantitative Assessment of Fundus Autofluorescence, Progression, and Genotype Correlations",
+   "year": "2013",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "24743636",
+   "doi": "10.1097/iae.0000000000000136",
+   "title": "MULTIMODAL IMAGING AND MULTIFOCAL ELECTRORETINOGRAPHY DEMONSTRATE AUTOSOMAL RECESSIVE STARGARDT DISEASE MAY PRESENT LIKE OCCULT MACULAR DYSTROPHY",
+   "year": "2014",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "25342616",
+   "doi": "10.1167/iovs.14-14848",
+   "title": "Correlations Among Near-Infrared and Short-Wavelength Autofluorescence and Spectral-Domain Optical Coherence Tomography in Recessive Stargardt Disease",
+   "year": "2014",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "30834176",
+   "doi": "10.1167/tvst.8.2.1",
+   "title": "Cross-Sectional and Longitudinal Assessment of the Ellipsoid Zone in Childhood-Onset Stargardt Disease",
+   "year": "2019",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "23548623",
+   "doi": "10.1167/iovs.12-11490",
+   "title": "Quantitative Fundus Autofluorescence in Mice: Correlation With HPLC Quantitation of RPE Lipofuscin and Measurement of Retina Outer Nuclear Layer Thickness",
+   "year": "2013",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "16303925",
+   "doi": "10.1167/iovs.05-0820",
+   "title": "Reductions in Serum Vitamin A Arrest Accumulation of Toxic Retinal Fluorophores: A Potential Therapy for Treatment of Lipofuscin-Based Retinal Diseases",
+   "year": "2005",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "35348597",
+   "doi": "10.1167/tvst.11.3.33",
+   "title": "Assessing Variant Causality and Severity Using Retinal Pigment Epithelial Cells Derived from Stargardt Disease Patients",
+   "year": "2022",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "23620430",
+   "doi": "10.1167/iovs.13-11871",
+   "title": "Transduction of Photoreceptors With Equine Infectious Anemia Virus Lentiviral Vectors: Safety and Biodistribution of StarGen for Stargardt Disease",
+   "year": "2013",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "25414197",
+   "doi": "10.1167/iovs.14-15479",
+   "title": "Genetic Background and Light-Dependent Progression of Photoreceptor Cell Degeneration in Prominin-1 Knockout Mice",
+   "year": "2014",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "26934141",
+   "doi": "10.1167/iovs.15-18033",
+   "title": "Fluorescence Lifetime Imaging in Stargardt Disease: Potential Marker for Disease Progression",
+   "year": "2016",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "38408857",
+   "doi": "10.1136/bjo-2023-323592",
+   "title": "Automated identification of fleck lesions in Stargardt disease using deep learning enhances lesion detection sensitivity and enables morphometric analysis of flecks",
+   "year": "2024",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:21:06Z"
+  },
+  {
+   "pmid": "25053872",
+   "doi": "",
+   "title": "Mutation survey of candidate genes in 40 Chinese patients with congenital ectopia lentis.",
+   "year": "2014",
+   "subcollection": "ADAMTSL4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:25:11Z"
+  },
+  {
+   "pmid": "40025527",
+   "doi": "10.1186/s40246-025-00729-6",
+   "title": "Genetic landscape and ocular biometric correlations in microspherophakia: insights from a comprehensive patient cohort",
+   "year": "2025",
+   "subcollection": "ADAMTSL4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:25:11Z"
+  },
+  {
+   "pmid": "33851099",
+   "doi": "10.1016/j.isci.2021.102283",
+   "title": "Adhesion G protein-coupled receptor VLGR1/ADGRV1 regulates cell spreading and migration by mechanosensing at focal adhesions",
+   "year": "2021",
+   "subcollection": "ADGRV1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:26:31Z"
+  },
+  {
+   "pmid": "31046701",
+   "doi": "10.1186/s12881-019-0777-z",
+   "title": "Novel Usher syndrome pathogenic variants identified in cases with hearing and vision loss",
+   "year": "2019",
+   "subcollection": "ADGRV1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:26:31Z"
+  },
+  {
+   "pmid": "25211151",
+   "doi": "10.1371/journal.pone.0107326",
+   "title": "Molecular Genetics of the Usher Syndrome in Lebanon: Identification of 11 Novel Protein Truncating Mutations by Whole Exome Sequencing",
+   "year": "2014",
+   "subcollection": "ADGRV1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:26:31Z"
+  },
+  {
+   "pmid": "15979825",
+   "doi": "10.1016/j.gene.2005.05.015",
+   "title": "Analysis of the very large G-protein coupled receptor gene (Vlgr1/Mass1/USH2C) in zebrafish",
+   "year": "2005",
+   "subcollection": "ADGRV1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:26:31Z"
+  },
+  {
+   "pmid": "31204281",
+   "doi": "10.1016/j.cmet.2019.05.016",
+   "title": "Acylglycerol Kinase Maintains Metabolic State and Immune Responses of CD8+ T Cells",
+   "year": "2019",
+   "subcollection": "AGK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:27:32Z"
+  },
+  {
+   "pmid": "42047282",
+   "doi": "10.1042/bsr20253955",
+   "title": "Structural characterization of the human CC2D1A fragment associated with non-syndromic intellectual disability (NSID)",
+   "year": "2026",
+   "subcollection": "ARID1B",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:28:02Z"
+  },
+  {
+   "pmid": "42051037",
+   "doi": "10.1111/apha.70230",
+   "title": "The Recycling Endosomal (Na+, K+)/H+ Exchanger NHE6/SLC9A6 Facilitates Signal Transduction by Shuttling Cyclin-Dependent Kinase 5 to the Plasma Membrane.",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:37:22Z"
+  },
+  {
+   "pmid": "42050069",
+   "doi": "10.1007/s11325-026-03700-4",
+   "title": "A new clinical examination finding in obstructive sleep apnea; diagonal auricular fold (Frank sign).",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:37:22Z"
+  },
+  {
+   "pmid": "42053999",
+   "doi": "10.1002/vms3.70965",
+   "title": "Molecular Characterization of Eustrongylides sp. Infecting Channa punctata in Bangladesh.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "42050857",
+   "doi": "10.1002/brb3.71441",
+   "title": "Emotion Reactivity Moderates the Association Between Momentary Negative Affect and Suicidal Thinking.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "42049220",
+   "doi": "10.1098/rspb.2026.0157",
+   "title": "Asymmetries in human judgements of distance for approaching and receding sounds are predicted by a loudness model for time-varying sounds.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "42053130",
+   "doi": "10.1111/wrr.70160",
+   "title": "Long-Term Ex Vivo Human Skin Models for Burn Injury Research: A Scoping Review.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "42053838",
+   "doi": "10.1007/s10571-026-01714-w",
+   "title": "Integrative Analysis Identifies PANoptosis-Associated Molecular Patterns and Immune Alterations in Rat Cerebral Ischemic-Reperfusion Injury.",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "42049209",
+   "doi": "10.1098/rsob.250411",
+   "title": "Is the alpha-amylase paralogue Amyrel dispensable in Drosophila melanogaster?",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-01T08:51:19Z"
+  },
+  {
+   "pmid": "22342989",
+   "doi": "10.1016/j.mce.2012.02.001",
+   "title": "Separate regions of glucocorticoid receptor, coactivator TIF2, and comodulator STAMP modify different parameters of glucocorticoid-mediated gene induction",
+   "year": "2012",
+   "subcollection": "TTLL5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T08:59:04Z"
+  },
+  {
+   "pmid": "12028580",
+   "doi": "10.1034/j.1600-0749.2002.02012.x",
+   "title": "Molecular Anatomy of Tyrosinase and its Related Proteins: Beyond the Histidine‐Bound Metal Catalytic Center",
+   "year": "2002",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1900309",
+   "doi": "10.1172/jci115075",
+   "title": "A tyrosinase gene missense mutation in temperature-sensitive type I oculocutaneous albinism. A human homologue to the Siamese cat and the Himalayan mouse.",
+   "year": "1991",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1900307",
+   "doi": "10.1172/jci115064",
+   "title": "Temperature-sensitive tyrosinase associated with peripheral pigmentation in oculocutaneous albinism.",
+   "year": "1991",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "39457547",
+   "doi": "10.3390/biomedicines12102234",
+   "title": "Common Variants in the TYR Gene with Unclear Pathogenicity as the Cause of Oculocutaneous Albinism in a Cohort of Russian Patients",
+   "year": "2024",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "12190874",
+   "doi": "10.1046/j.1523-1747.2002.01824.x",
+   "title": "Coexpression of Wild-Type Tyrosinase Enhances Maturation of Temperature-Sensitive Tyrosinase Mutants",
+   "year": "2002",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "17355913",
+   "doi": "10.1016/j.preteyeres.2007.01.001",
+   "title": "Tyrosinase and ocular diseases: Some novel thoughts on the molecular basis of oculocutaneous albinism type 1",
+   "year": "2007",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "27551823",
+   "doi": "10.1371/journal.pone.0161697",
+   "title": "Large-Scale Recombinant Expression and Purification of Human Tyrosinase Suitable for Structural Studies",
+   "year": "2016",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1642278",
+   "doi": "10.1002/ajmg.1320430523",
+   "title": "Tyrosinase gene mutations in type I (tyrosinase‐deficient) oculocutaneous albinism define two clusters of missense substitutions",
+   "year": "1992",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "25216246",
+   "doi": "10.1371/journal.pone.0106656",
+   "title": "Two Novel Tyrosinase (TYR) Gene Mutations with Pathogenic Impact on Oculocutaneous Albinism Type 1 (OCA1)",
+   "year": "2014",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1903591",
+   "doi": "",
+   "title": "Tyrosinase gene mutations associated with type IB (\"yellow\") oculocutaneous albinism.",
+   "year": "1991",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "8128955",
+   "doi": "",
+   "title": "Mutations of the tyrosinase gene in patients with oculocutaneous albinism from various ethnic groups in Israel.",
+   "year": "1994",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "15760341",
+   "doi": "10.1111/j.1600-0749.2005.00213.x",
+   "title": "Degradation of tyrosinase induced by phenylthiourea occurs following Golgi maturation",
+   "year": "2005",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "38928147",
+   "doi": "10.3390/ijms25126442",
+   "title": "Genetic Linkage between CAPN5 and TYR Variants in the Context of Albinism and Autosomal Dominant Neovascular Inflammatory Vitreoretinopathy Absence: A Case Report",
+   "year": "2024",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "9259202",
+   "doi": "10.1002/(sici)1098-1004(1997)10:2<171::aid-humu11>3.0.co;2-x",
+   "title": "Novel mutations of the tyrosinase (TYR) gene in type I oculocutaneous albinism (OCA1)",
+   "year": "1997",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "8040609",
+   "doi": "10.1111/1523-1747.ep12392743",
+   "title": "High-Molecular-Weight Forms of Tyrosinase and the Tyrosinase-Related Proteins: Evidence for a Melanogenic Complex",
+   "year": "1994",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "10713140",
+   "doi": "10.1074/jbc.275.11.8169",
+   "title": "Mutations at Critical N-Glycosylation Sites Reduce Tyrosinase Activity by Altering Folding and Quality Control",
+   "year": "2000",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "15250942",
+   "doi": "10.1111/j.1600-0749.2004.00161.x",
+   "title": "25‐Hydroxycholesterol Acts in the Golgi Compartment to Induce Degradation of Tyrosinase",
+   "year": "2004",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "17218941",
+   "doi": "10.1038/sj.jid.5700683",
+   "title": "Approaches to Identify Inhibitors of Melanin Biosynthesis via the Quality Control of Tyrosinase",
+   "year": "2007",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "39218412",
+   "doi": "10.1016/j.gene.2024.148907",
+   "title": "The degradation of TYR variants derived from Chinese OCA families is mediated by the ERAD and ERLAD pathway",
+   "year": "2024",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "16199032",
+   "doi": "10.1016/j.exer.2005.08.013",
+   "title": "Heterologous expression of tyrosinase recapitulates the misprocessing and mistrafficking in oculocutaneous albinism type 2: Effects of altering intracellular pH and pink-eyed dilution gene expression",
+   "year": "2005",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "28629449",
+   "doi": "10.1186/s40001-017-0262-0",
+   "title": "Delineating the genetic heterogeneity of OCA in Hungarian patients",
+   "year": "2017",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "7902671",
+   "doi": "",
+   "title": "Mutations of the tyrosinase gene in Indo-Pakistani patients with type I (tyrosinase-deficient) oculocutaneous albinism (OCA).",
+   "year": "1993",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "2342539",
+   "doi": "10.1056/nejm199006143222407",
+   "title": "Detection of Mutations in the Tyrosinase Gene in a Patient with Type IA Oculocutaneous Albinism",
+   "year": "1990",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "30996339",
+   "doi": "10.1038/s41433-019-0436-9",
+   "title": "Tyrosinase (TYR) gene sequencing and literature review reveals recurrent mutations and multiple population founder gene mutations as causative of oculocutaneous albinism (OCA) in Pakistani families",
+   "year": "2019",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "32019134",
+   "doi": "10.3390/ijms21030895",
+   "title": "Human Tyrosinase: Temperature-Dependent Kinetics of Oxidase Activity",
+   "year": "2020",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "23324268",
+   "doi": "10.3760/cma.j.issn.0366-6999.20121104",
+   "title": "Genetic analyses of Chinese patients with digenic oculocutaneous albinism",
+   "year": "2013",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "7886000",
+   "doi": "10.1111/j.1600-0749.1994.tb00629.x",
+   "title": "Analysis of Tyrosinase Mutations Associated With Tyrosinase‐Related Oculocutaneous Albinism (OCAI)",
+   "year": "1994",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "15885985",
+   "doi": "10.1016/j.jdermsci.2005.03.004",
+   "title": "Establishment of tyrosinase sequence database in normally pigmented Indians and Japanese for rapid determination of novel mutations",
+   "year": "2005",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1903356",
+   "doi": "10.1016/0888-7543(91)90409-8",
+   "title": "Organization and nucleotide sequences of the human tyrosinase gene and a truncated tyrosinase-related segment",
+   "year": "1991",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "32115698",
+   "doi": "10.1111/ahg.12376",
+   "title": "Mapping the TYR gene reveals novel and previously reported variants in Eastern Indian patients highlighting preponderance of the same changes in multiple unrelated ethnicities",
+   "year": "2020",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "41279351",
+   "doi": "10.1101/2025.10.13.682036",
+   "title": "Ampyrone (4-Aminoantipyrine) is a Direct Agonist of Human Tyrosinase and Potential Therapeutic for Oculocutaneous Albinism and Disorders of Hypopigmentation",
+   "year": "2025",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "9880801",
+   "doi": "10.1093/oxfordjournals.jbchem.a022272",
+   "title": "Promotion of Tyrosinase Folding in Cos 7 Cells by Calnexin",
+   "year": "1999",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "1943686",
+   "doi": "",
+   "title": "Non-random distribution of missense mutations within the human tyrosinase gene in type I (tyrosinase-related) oculocutaneous albinism.",
+   "year": "1991",
+   "subcollection": "TYR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:00:30Z"
+  },
+  {
+   "pmid": "41967543",
+   "doi": "10.1016/j.ijbiomac.2026.151941",
+   "title": "Tyrp1 mutation drives color variation via melanin reduction and collagen deposition in Chinese soft-shelled turtles (Pelodiscus sinensis)",
+   "year": "2026",
+   "subcollection": "TYRP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:03:07Z"
+  },
+  {
+   "pmid": "31601211",
+   "doi": "10.1186/s12934-019-1215-9",
+   "title": "Construction of a novel MK-4 biosynthetic pathway in Pichia pastoris through heterologous expression of HsUBIAD1",
+   "year": "2019",
+   "subcollection": "UBIAD1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:04:08Z"
+  },
+  {
+   "pmid": "40141754",
+   "doi": "10.3390/life15030409",
+   "title": "Case Report of Schnyder Corneal Dystrophy—A Rare Lipid Metabolic Disorder of the Cornea",
+   "year": "2025",
+   "subcollection": "UBIAD1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:04:08Z"
+  },
+  {
+   "pmid": "23749482",
+   "doi": "10.1002/dvdy.23994",
+   "title": "Habenular commissure formation in zebrafish is regulated by the pineal gland–specific gene unc119c",
+   "year": "2013",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "9761287",
+   "doi": "",
+   "title": "Mammalian orthologs of C. elegans unc-119 highly expressed in photoreceptors.",
+   "year": "1998",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "20220094",
+   "doi": "10.4049/jimmunol.0903115",
+   "title": "Uncoordinated 119 Preferentially Induces Th2 Differentiation and Promotes the Development of Asthma",
+   "year": "2010",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "28471079",
+   "doi": "10.1002/anie.201701905",
+   "title": "Small‐Molecule Inhibition of the UNC119–Cargo Interaction",
+   "year": "2017",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "22729960",
+   "doi": "10.1007/s11882-012-0281-4",
+   "title": "Consequences of a Mutation in the UNC119 Gene for T Cell Function in Idiopathic CD4 Lymphopenia",
+   "year": "2012",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "31680402",
+   "doi": "10.1002/cbic.201900615",
+   "title": "Lipidated Stapled Peptides Targeting the Acyl Binding Protein UNC119",
+   "year": "2019",
+   "subcollection": "UNC119",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:05:00Z"
+  },
+  {
+   "pmid": "28944237",
+   "doi": "10.1002/mgg3.312",
+   "title": "Next-generation sequencing reveals the mutational landscape of clinically diagnosed Usher syndrome: copy number variations, phenocopies, a predominant target for translational read-through, andPEX26mutated in Heimler syndrome",
+   "year": "2017",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "19683999",
+   "doi": "10.1167/iovs.09-4085",
+   "title": "Microarray-Based Mutation Analysis of 183 Spanish Families with Usher Syndrome",
+   "year": "2010",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "26338283",
+   "doi": "10.1186/s13023-015-0329-3",
+   "title": "Comprehensive molecular diagnosis of 67 Chinese Usher syndrome probands: high rate of ethnicity specific mutations in Chinese USH patients",
+   "year": "2015",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "21151602",
+   "doi": "",
+   "title": "Mutation analysis of 272 Spanish families affected by autosomal recessive retinitis pigmentosa using a genotyping microarray.",
+   "year": "2010",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "22876132",
+   "doi": "",
+   "title": "Application of a high-throughput genotyping method for loci exclusion in non-consanguineous Australian pedigrees with autosomal recessive retinitis pigmentosa.",
+   "year": "2012",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "36185441",
+   "doi": "10.3389/fbioe.2022.939774",
+   "title": "Retinal organoids and microfluidic chip-based approaches to explore the retinitis pigmentosa with USH2A mutations",
+   "year": "2022",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "12544030",
+   "doi": "10.1097/00129492-200301000-00013",
+   "title": "Pure Tone Hearing Thresholds and Speech Recognition Scores in Dutch Patients Carrying Mutations in the USH2A Gene",
+   "year": "2003",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "28918053",
+   "doi": "10.1016/j.omtn.2017.08.003",
+   "title": "USH2A Gene Editing Using the CRISPR System",
+   "year": "2017",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "38219857",
+   "doi": "10.1016/j.oret.2024.01.012",
+   "title": "Spectrum of Genetic Variants in the Most Common Genes Causing Inherited Retinal Disease in a Large Molecularly Characterized United Kingdom Cohort",
+   "year": "2024",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "32093671",
+   "doi": "10.1186/s12886-020-01342-y",
+   "title": "Mutation screening of the USH2A gene reveals two novel pathogenic variants in Chinese patients causing simplex usher syndrome 2",
+   "year": "2020",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "25804404",
+   "doi": "10.1038/ejhg.2015.54",
+   "title": "Partial USH2A deletions contribute to Usher syndrome in Denmark",
+   "year": "2015",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "31904091",
+   "doi": "10.1042/bsr20193536",
+   "title": "Identification of 13 novel USH2A mutations in Chinese retinitis pigmentosa and Usher syndrome patients by targeted next-generation sequencing",
+   "year": "2020",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
+  {
+   "pmid": "27957503",
+   "doi": "10.1002/mgg3.228",
+   "title": "Usher syndrome in Denmark: mutation spectrum and some clinical observations",
+   "year": "2016",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-01T09:07:26Z"
+  },
   {
    "pmid": "42046446",
    "doi": "10.4097/kja.26375",
@@ -44360,3076 +45190,6 @@
    "category": "5 - Pathologies",
    "source": "source:citation",
    "uploaded_at": "2026-03-07T07:06:40Z"
-  },
-  {
-   "pmid": "41775632",
-   "doi": "10.1523/jneurosci.1924-25.2026",
-   "title": "RGR-mediated photopic visual cycle and oxidative stress: potential mechanisms for cone vision impairment and retinal degeneration in retinitis pigmentosa linked to D1080N-IRBP",
-   "year": "2026",
-   "subcollection": "ARR3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:47:02Z"
-  },
-  {
-   "pmid": "41776480",
-   "doi": "10.1186/s12886-026-04701-3",
-   "title": "Spontaneous resolution of cystoid macular edema with concurrent axial elongation in a pediatric patient with Usher syndrome type 1B: a case report",
-   "year": "2026",
-   "subcollection": "ARR3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:47:02Z"
-  },
-  {
-   "pmid": "41776196",
-   "doi": "10.1038/s41467-026-69979-9",
-   "title": "Pharmacological stabilization of hypoxia-inducible factor 1-α dampens the interferon response and promotes glycolysis in Aicardi-Goutières syndrome",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:53:37Z"
-  },
-  {
-   "pmid": "41776676",
-   "doi": "10.1186/s13075-026-03778-x",
-   "title": "Upadacitinib for refractory Behcet’s syndrome: a multi-centre, single-arm trial",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:53:37Z"
-  },
-  {
-   "pmid": "41775964",
-   "doi": "10.1038/s42003-026-09774-w",
-   "title": "G-protein activation of the dark-state conformation of the visual G protein-coupled receptor rhodopsin by releasing critical structural constraints",
-   "year": "2026",
-   "subcollection": "GPR179",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:55:17Z"
-  },
-  {
-   "pmid": "41602210",
-   "doi": "10.3389/fdgth.2025.1716501",
-   "title": "SLID: a slit-lamp image dataset for deep learning-based anterior eye anatomical segmentation and multi-lesion detection",
-   "year": "2026",
-   "subcollection": "KRT12",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T06:57:21Z"
-  },
-  {
-   "pmid": "31884596",
-   "doi": "10.1007/978-3-030-27378-1_17",
-   "title": "Advancing Gene Therapy for PDE6A Retinitis Pigmentosa",
-   "year": "2019",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "35533076",
-   "doi": "10.1167/iovs.63.5.9",
-   "title": "Central Visual Function and Genotype–Phenotype Correlations in PDE6A-Associated Retinitis Pigmentosa",
-   "year": "2022",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "28676737",
-   "doi": "10.3389/fnins.2017.00342",
-   "title": "Gene Therapy in a Large Animal Model of PDE6A-Retinitis Pigmentosa",
-   "year": "2017",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "33057649",
-   "doi": "10.1001/jamaophthalmol.2020.4206",
-   "title": "Clinical Phenotype and Course of PDE6A-Associated Retinitis Pigmentosa Disease, Characterized in Preparation for a Gene Supplementation Trial",
-   "year": "2020",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "39218074",
-   "doi": "10.1016/j.oret.2024.08.018",
-   "title": "PDE6A-Associated Retinitis Pigmentosa, Clinical Characteristics, Genetics, and Natural History",
-   "year": "2024",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "33611760",
-   "doi": "10.1007/s10633-021-09826-y",
-   "title": "A new PDE6A missense variant p.Arg544Gln in rod–cone dystrophy",
-   "year": "2021",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "39878701",
-   "doi": "10.1167/tvst.14.1.29",
-   "title": "Ocular Safety and Toxicology of Subretinal Gene Therapy With rAAV.hPDE6A in Nonhuman Primates",
-   "year": "2025",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "40825661",
-   "doi": "10.1136/bjo-2024-326480",
-   "title": "Safety and vision outcomes of subretinal gene supplementation therapy in PDE6A -associated retinitis pigmentosa: a non-randomised controlled trial",
-   "year": "2025",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "30998820",
-   "doi": "10.1001/jamaophthalmol.2018.6367",
-   "title": "Longitudinal Clinical Follow-up and Genetic Spectrum of Patients With Rod-Cone Dystrophy Associated With Mutations inPDE6AandPDE6B",
-   "year": "2019",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "26321862",
-   "doi": "",
-   "title": "Splice-site mutations identified in PDE6A responsible for retinitis pigmentosa in consanguineous Pakistani families.",
-   "year": "2015",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "29212391",
-   "doi": "10.1089/hum.2017.156",
-   "title": "Gene Therapy Successfully Delays Degeneration in a Mouse Model of PDE6A -Linked Retinitis Pigmentosa (RP43)",
-   "year": "2017",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "29118501",
-   "doi": "10.4103/ojo.ojo_213_2016",
-   "title": "Novel PDE6A mutation in an Emirati patient with retinitis pigmentosa",
-   "year": "2017",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "34095146",
-   "doi": "10.3389/fcell.2021.675517",
-   "title": "Loss of Pde6a Induces Rod Outer Segment Shrinkage and Visual Alterations in pde6aQ70X Mutant Zebrafish, a Relevant Model of Retinal Dystrophy",
-   "year": "2021",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "36584140",
-   "doi": "10.1371/journal.pone.0279437",
-   "title": "Elevated retinal cGMP is not associated with elevated circulating cGMP levels in a canine model of retinitis pigmentosa",
-   "year": "2022",
-   "subcollection": "PDE6A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:02:46Z"
-  },
-  {
-   "pmid": "17111372",
-   "doi": "10.1002/cne.21144",
-   "title": "Retinal organization in the retinal degeneration 10 (rd10) mutant mouse: A morphological and ERG study",
-   "year": "2006",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:03:59Z"
-  },
-  {
-   "pmid": "24367157",
-   "doi": "",
-   "title": "Review: the history and role of naturally occurring mouse models with Pde6b mutations.",
-   "year": "2013",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:03:59Z"
-  },
-  {
-   "pmid": "40607323",
-   "doi": "10.34133/research.0770",
-   "title": "Precise Correction of the Pde6b -L659P Mutation Causing Retinal Degeneration with Minimum Bystander Editing by Advanced Genome Editing Tools",
-   "year": "2025",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:03:59Z"
-  },
-  {
-   "pmid": "41776166",
-   "doi": "10.1038/s41419-026-08510-w",
-   "title": "Phagocytosis by retinal pigment epithelium and microglia does not affect vision restoration by P3HT nanoparticles in Retinitis pigmentosa",
-   "year": "2026",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:04:01Z"
-  },
-  {
-   "pmid": "25605338",
-   "doi": "10.3109/13816810.2014.991932",
-   "title": "Congenital Achromatopsia and Macular Atrophy Caused by a Novel RecessivePDE6CMutation (p.E591K)",
-   "year": "2015",
-   "subcollection": "PDE6C",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:04:35Z"
-  },
-  {
-   "pmid": "30667376",
-   "doi": "10.1172/jci123980",
-   "title": "A nonhuman primate model of inherited retinal disease",
-   "year": "2019",
-   "subcollection": "PDE6C",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:04:35Z"
-  },
-  {
-   "pmid": "29367545",
-   "doi": "10.3390/jcdd4040016",
-   "title": "Multiple Roles of Pitx2 in Cardiac Development and Disease",
-   "year": "2017",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16203745",
-   "doi": "10.1093/hmg/ddi365",
-   "title": "Expression of the homeobox gene Pitx2 in neural crest is required for optic stalk and ocular anterior segment development",
-   "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "28507987",
-   "doi": "10.3389/fcell.2017.00046",
-   "title": "Pitx2 in Embryonic and Adult Myogenesis",
-   "year": "2017",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18373856",
-   "doi": "10.1186/1471-2199-9-31",
-   "title": "Novel forms of Paired-like homeodomain transcription factor 2 (PITX2): Generation by alternative translation initiation and mRNA splicing",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "22125274",
-   "doi": "10.1167/iovs.11-8494",
-   "title": "A Zebrafish Model of Axenfeld-Rieger Syndrome Reveals That pitx2 Regulation by Retinoic Acid Is Essential for Ocular and Craniofacial Development",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23147109",
-   "doi": "10.1016/j.mcn.2012.11.007",
-   "title": "Pleiotropic and isoform-specific functions for Pitx2 in superior colliculus and hypothalamic neuronal development",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16556915",
-   "doi": "10.1242/dev.02309",
-   "title": "Tbx1 affects asymmetric cardiac morphogenesis by regulating Pitx2 in the secondary heart field",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12732450",
-   "doi": "10.1016/s1050-1738(03)00039-2",
-   "title": "The Role of Pitx2 during Cardiac Development Linking Left–Right Signaling and Congenital Heart Diseases",
-   "year": "2003",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17167399",
-   "doi": "",
-   "title": "Identification of four new PITX2 gene mutations in patients with Axenfeld-Rieger syndrome.",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16879162",
-   "doi": "10.1111/j.1365-2826.2006.01461.x",
-   "title": "Pituitary Transcription Factors: From Congenital Deficiencies to Gene Therapy",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16195330",
-   "doi": "10.1182/blood-2005-02-0529",
-   "title": "Expression of Pitx2 in stromal cells is required for normal hematopoiesis",
-   "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17959721",
-   "doi": "10.1242/dev.010249",
-   "title": "PITX2 controls asymmetric gonadal development in both sexes of the chick and can rescue the degeneration of the right ovary",
-   "year": "2007",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18678914",
-   "doi": "10.1073/pnas.0804904105",
-   "title": "Pitx2 regulates gonad morphogenesis",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "15761027",
-   "doi": "10.1210/me.2005-0052",
-   "title": "PITX Genes Are Required for Cell Survival and Lhx3 Activation",
-   "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11203696",
-   "doi": "10.1006/dbio.2000.9950",
-   "title": "The Pitx2 Homeobox Protein Is Required Early for Endoderm Formation and Nodal Signaling",
-   "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16638982",
-   "doi": "10.1167/iovs.05-1424",
-   "title": "Extraocular Muscle Morphogenesis and Gene Expression Are Regulated byPitx2Gene Dose",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11438212",
-   "doi": "10.1016/s0301-472x(01)00661-0",
-   "title": "The homeodomain gene Pitx2 is expressed in primitive hematopoietic stem/progenitor cells but not in their differentiated progeny",
-   "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20960542",
-   "doi": "10.1002/dvdy.22459",
-   "title": "Canonical Wnt/β‐catenin signaling is required for maintenance but not activation of Pitx2 expression in neural crest during eye development",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "29121437",
-   "doi": "10.1111/odi.12804",
-   "title": "A novel PITX2 mutation in non‐syndromic orodental anomalies",
-   "year": "2017",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "15466416",
-   "doi": "10.1074/jbc.m404802200",
-   "title": "Cell-specific Activation of the Atrial Natriuretic Factor Promoter by PITX2 and MEF2A",
-   "year": "2004",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "14630904",
-   "doi": "10.1177/154405910308201214",
-   "title": "Novel Identification of a Four-base-pair Deletion Mutation in PITX2 in a Rieger Syndrome Family",
-   "year": "2003",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11180966",
-   "doi": "10.1006/dbio.2000.0133",
-   "title": "Pitx2 Expression Defines a Left Cardiac Lineage of Cells: Evidence for Atrial and Ventricular Molecular Isomerism in the iv/iv Mice",
-   "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18206388",
-   "doi": "10.1016/j.mcn.2007.12.015",
-   "title": "Cre fate mapping reveals lineage specific defects in neuronal migration with loss of Pitx2 function in the developing mouse hypothalamus and subthalamic nucleus",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "19407022",
-   "doi": "10.1167/iovs.08-2950",
-   "title": "An Altered Phenotype in a Conditional Knockout of Pitx2 in Extraocular Muscle",
-   "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "34416880",
-   "doi": "10.1186/s12915-021-01095-0",
-   "title": "Pitx controls amphioxus asymmetric morphogenesis by promoting left-side development and repressing right-side formation",
-   "year": "2021",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12130547",
-   "doi": "10.1210/endo.143.8.8962",
-   "title": "Regulation of Prolactin, GH, and Pit-1 Gene Expression in Anterior Pituitary by Pitx2: An Approach Using Pitx2 Mutants",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12124729",
-   "doi": "10.1002/ajmg.10473",
-   "title": "Exclusion of PITX2 mutations as a major cause of CHARGE association",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "25124216",
-   "doi": "10.1002/jnr.23471",
-   "title": "Axial level‐specific regulation of neuronal development: Lessons from PITX2",
-   "year": "2014",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12858527",
-   "doi": "10.1101/sqb.2002.67.81",
-   "title": "Pitx Genes during Cardiovascular Development",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20978111",
-   "doi": "10.1677/jme-10-0063",
-   "title": "Truncation of PITX2 differentially affects its activity on physiological targets",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "25896281",
-   "doi": "10.1387/ijdb.140224fh",
-   "title": "Expression patterns and immunohistochemical localization of PITX2B transcription factor in the developing mouse heart",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21873665",
-   "doi": "10.1167/iovs.10-6967",
-   "title": "PITX2 Is Involved in Stress Response in Cultured Human Trabecular Meshwork Cells through Regulation of SLC13A3",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "10625557",
-   "doi": "10.1006/dbio.1999.9547",
-   "title": "Antagonistic Signals between BMP4 and FGF8 Define the Expression of Pitx1 and Pitx2 in Mouse Tooth-Forming Anlage",
-   "year": "2000",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11517269",
-   "doi": "10.1523/jneurosci.21-17-06810.2001",
-   "title": "Conserved Function ofCaenorhabditis elegansUNC-30 and Mouse Pitx2 in Controlling GABAergic Neuron Differentiation",
-   "year": "2001",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18723525",
-   "doi": "10.1093/hmg/ddn258",
-   "title": "Novel expression and transcriptional regulation of FoxJ1 during oro-facial morphogenesis",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "29952749",
-   "doi": "10.7554/elife.34880",
-   "title": "Pitx2c orchestrates embryonic axis extension via mesendodermal cell migration",
-   "year": "2018",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "38802693",
-   "doi": "10.1007/s10528-024-10836-z",
-   "title": "In Silico Characterization of Pathogenic Homeodomain Missense Mutations in the PITX2 Gene",
-   "year": "2024",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "29664915",
-   "doi": "10.1371/journal.pone.0195971",
-   "title": "Accurate prediction of functional, structural, and stability changes in PITX2 mutations using in silico bioinformatics algorithms",
-   "year": "2018",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "29367577",
-   "doi": "10.3390/jcdd3040034",
-   "title": "Current Perspectives in Cardiac Laterality",
-   "year": "2016",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "22819677",
-   "doi": "10.1016/j.ydbio.2012.07.008",
-   "title": "FGF9–Pitx2–FGF10 signaling controls cecal formation in mice",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "27009473",
-   "doi": "10.1111/aos.13030",
-   "title": "Novel PITX2 gene mutations in patients with Axenfeld‐Rieger syndrome",
-   "year": "2016",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12612071",
-   "doi": "10.1128/mcb.23.6.1968-1982.2003",
-   "title": "Dominant Negative Dimerization of a Mutant Homeodomain Protein in Axenfeld-Rieger Syndrome",
-   "year": "2003",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16823861",
-   "doi": "10.1002/dvg.20220",
-   "title": "Nestin-Cre mediated deletion ofPitx2 in the mouse",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23361844",
-   "doi": "10.1002/dvdy.23934",
-   "title": "Pitx2‐mediated cardiac outflow tract remodeling",
-   "year": "2013",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16836994",
-   "doi": "10.1016/j.ydbio.2006.06.009",
-   "title": "Pitx2 regulates cardiac left–right asymmetry by patterning second cardiac lineage-derived myocardium",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17675867",
-   "doi": "10.1159/000103187",
-   "title": "Left-right axis development: examples of similar and divergent strategies to generate asymmetric morphogenesis in chick and mouse embryos",
-   "year": "2007",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "32439755",
-   "doi": "10.1242/dev.186023",
-   "title": "Pitx2-Sox2-Lef1 interactions specify progenitor oral/dental epithelial cell signaling centers",
-   "year": "2020",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "19623614",
-   "doi": "10.1002/dvdy.22033",
-   "title": "Signaling “cross‐talk” is integrated by transcription factors in the development of the anterior segment in the eye",
-   "year": "2009",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17785445",
-   "doi": "10.1128/mcb.00315-07",
-   "title": "PITX2 and β-Catenin Interactions Regulate Lef-1 Isoform Expression",
-   "year": "2007",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21726547",
-   "doi": "10.1016/j.ydbio.2011.06.027",
-   "title": "Shroom3 and a Pitx2-N-cadherin pathway function cooperatively to generate asymmetric cell shape changes during gut morphogenesis",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21035439",
-   "doi": "10.1016/j.ydbio.2010.10.028",
-   "title": "Pitx2 is an upstream activator of extraocular myogenesis and survival",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23527636",
-   "doi": "10.1139/bcb-2012-0057",
-   "title": "The Xenopus homeobox gene pitx3 impinges upon somitogenesis and laterality",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "31201182",
-   "doi": "10.1242/dev.180398",
-   "title": "A cellular atlas of Pitx2-dependent cardiac development",
-   "year": "2019",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "15728254",
-   "doi": "10.1242/jcs.01706",
-   "title": "PITX2, β-catenin and LEF-1 interact to synergistically regulate theLEF-1promoter",
-   "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20978076",
-   "doi": "10.1242/dev.053421",
-   "title": "Pitx2 defines alternate pathways acting through MyoD during limb and somitic myogenesis",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "22123828",
-   "doi": "10.1074/jbc.m111.280974",
-   "title": "Fibroblast Growth Factor 9 (FGF9)-Pituitary Homeobox 2 (PITX2) Pathway Mediates Transforming Growth Factor β (TGFβ) Signaling to Regulate Cell Proliferation in Palatal Mesenchyme during Mouse Palatogenesis",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "25893250",
-   "doi": "10.1371/journal.pone.0124409",
-   "title": "PITX2 Loss-of-Function Mutation Contributes to Congenital Endocardial Cushion Defect and Axenfeld-Rieger Syndrome",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23975681",
-   "doi": "10.1093/hmg/ddt411",
-   "title": "A model for the molecular underpinnings of tooth defects in Axenfeld–Rieger syndrome",
-   "year": "2013",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21617755",
-   "doi": "",
-   "title": "Effect of PITX2 knockdown on transcriptome of primary human trabecular meshwork cell cultures.",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18045789",
-   "doi": "10.1093/nar/gkm1047",
-   "title": "Chromatin-associated HMG-17 is a major regulator of homeodomain transcription factor activity modulated by Wnt/ -catenin signaling",
-   "year": "2007",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "18292603",
-   "doi": "10.1161/circresaha.107.163188",
-   "title": "Myocardial Pitx2 Differentially Regulates the Left Atrial Identity and Ventricular Asymmetric Remodeling Programs",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "10521397",
-   "doi": "10.1101/gad.13.19.2527",
-   "title": "Conserved requirement for EGF-CFC genes in vertebrate left-right axis formation",
-   "year": "1999",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "19052653",
-   "doi": "",
-   "title": "A novel PITX2 mutation in a Chinese family with Axenfeld-Rieger syndrome.",
-   "year": "2008",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20457925",
-   "doi": "10.1073/pnas.0912585107",
-   "title": "Pitx2 prevents susceptibility to atrial arrhythmias by inhibiting left-sided pacemaker specification",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20122913",
-   "doi": "10.1016/j.ydbio.2010.01.027",
-   "title": "Retinoic acid signaling in perioptic mesenchyme represses Wnt signaling via induction of Pitx2 and Dkk2",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "20339518",
-   "doi": "10.1155/2010/621984",
-   "title": "Dental and Craniofacial Anomalies Associated with Axenfeld-Rieger Syndrome with PITX2 Mutation",
-   "year": "2010",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11003663",
-   "doi": "10.1128/mcb.20.20.7673-7684.2000",
-   "title": "Reprogrammable Recognition Codes in Bicoid Homeodomain-DNA Interaction",
-   "year": "2000",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23229549",
-   "doi": "10.1074/jbc.m112.402933",
-   "title": "The LIM Homeodomain Transcription Factor LHX6",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17404238",
-   "doi": "10.1073/pnas.0701509104",
-   "title": "Wnt signaling regulates pancreatic β cell proliferation",
-   "year": "2007",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "11959836",
-   "doi": "10.1242/dev.129.9.2293",
-   "title": "A complex syndrome of left-right axis, central nervous system and axial skeleton defects inZic3mutant mice",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21427120",
-   "doi": "10.1093/cvr/cvr078",
-   "title": "Modulation of conductive elements by Pitx2 and their impact on atrial arrhythmogenesis",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "22701438",
-   "doi": "10.3389/fphys.2012.00206",
-   "title": "Transgenic Insights Linking Pitx2 and Atrial Arrhythmias",
-   "year": "2012",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21898763",
-   "doi": "10.1002/dvg.20793",
-   "title": "A novel TaulacZ allele reveals a requirement for Pitx2 in formation of the mammillothalamic tract",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21511879",
-   "doi": "10.1161/circgenetics.110.958116",
-   "title": "PITX2 Insufficiency Leads to Atrial Electrical and Structural Remodeling Linked to Arrhythmogenesis",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "16281170",
-   "doi": "10.1387/ijdb.052008rt",
-   "title": "Xenopus nodal related-1 is indispensable only for left-right axis determination",
-   "year": "2005",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "25704760",
-   "doi": "10.1016/j.yexcr.2015.02.008",
-   "title": "Identification of the GTPase-activating protein DEP domain containing 1B (DEPDC1B) as a transcriptional target of Pitx2",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "31341655",
-   "doi": "10.1155/2019/5642126",
-   "title": "Novel PITX2 Mutations including a Mutation Causing an Unusual Ophthalmic Phenotype of Axenfeld-Rieger Syndrome",
-   "year": "2019",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "26783232",
-   "doi": "10.1161/circep.115.003197",
-   "title": "PANCR, the PITX2 Adjacent Noncoding RNA, Is Expressed in Human Left Atria and Regulates PITX2c Expression",
-   "year": "2016",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "26411685",
-   "doi": "10.1016/j.celrep.2015.08.075",
-   "title": "Chromatin Architecture of the Pitx2 Locus Requires CTCF- and Pitx2-Dependent Asymmetry that Mirrors Embryonic Gut Laterality",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "30286078",
-   "doi": "10.1371/journal.pgen.1007675",
-   "title": "FoxO6 regulates Hippo signaling and growth of the craniofacial complex",
-   "year": "2018",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "34716303",
-   "doi": "10.1038/s41419-021-04331-1",
-   "title": "A missense mutation in Pitx2 leads to early-onset glaucoma via NRF2-YAP1 axis",
-   "year": "2021",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "27520585",
-   "doi": "10.1016/j.gene.2016.08.019",
-   "title": "Expression of CXCL6 and BBS5 that may be glaucoma relevant genes is regulated by PITX2",
-   "year": "2016",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "35872015",
-   "doi": "10.1016/j.jbc.2022.102295",
-   "title": "HMGN2 represses gene transcription via interaction with transcription factors Lef-1 and Pitx2 during amelogenesis",
-   "year": "2022",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "25122764",
-   "doi": "10.1074/jbc.m114.575654",
-   "title": "A Pituitary Homeobox 2 (Pitx2):microRNA-200a-3p:β-catenin Pathway Converts Mesenchymal Cells to Amelogenin-expressing Dental Epithelial Cells",
-   "year": "2014",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "26351675",
-   "doi": "10.1073/pnas.1504529112",
-   "title": "Hyperglycemia impairs left–right axis formation and thereby disturbs heart morphogenesis in mouse embryos",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "21325833",
-   "doi": "10.1159/000325218",
-   "title": "Expression of PITX2 Homeodomain Transcription Factor during Rat Gonadal Development in a Sexually Dimorphic Manner",
-   "year": "2011",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "30414844",
-   "doi": "10.1016/j.ydbio.2018.11.001",
-   "title": "Requirement of Pitx2 for skeletal muscle homeostasis",
-   "year": "2018",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23515314",
-   "doi": "10.1074/jbc.m112.374561",
-   "title": "Protein Inhibitors of Activated STAT (Pias1 and Piasy) Differentially Regulate Pituitary Homeobox 2 (PITX2) Transcriptional Activity",
-   "year": "2013",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "30727926",
-   "doi": "10.2174/1871529x19666190206150349",
-   "title": "Genetics of Atrial Fibrilation: In Search of Novel Therapeutic Targets",
-   "year": "2019",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "29774977",
-   "doi": "10.1111/odi.12894",
-   "title": "A novel 4q25 microdeletion encompassing PITX2 associated with Rieger syndrome",
-   "year": "2018",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "27081499",
-   "doi": "10.1038/hgv.2014.5",
-   "title": "A novel PITX2 mutation causing iris hypoplasia",
-   "year": "2014",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "10809672",
-   "doi": "10.1101/gad.14.9.1146",
-   "title": "SPC4/PACE4 regulates a TGFβ signaling network during axis formation",
-   "year": "2000",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "23505501",
-   "doi": "10.1371/journal.pone.0058405",
-   "title": "The Role of Pitx2 in Maintaining the Phenotype of Myogenic Precursor Cells in the Extraocular Muscles",
-   "year": "2013",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "35874842",
-   "doi": "10.3389/fcell.2022.940622",
-   "title": "Pitx2 Differentially Regulates the Distinct Phases of Myogenic Program and Delineates Satellite Cell Lineages During Muscle Development",
-   "year": "2022",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "17065505",
-   "doi": "10.1167/iovs.06-0457",
-   "title": "Reduced Human and Murine Corneal Thickness in an Axenfeld-Rieger Syndrome Subtype",
-   "year": "2006",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "15385555",
-   "doi": "10.1074/jbc.m404587200",
-   "title": "Interaction, Cooperative Promoter Modulation, and Renal Colocalization of GCMa and Pitx2",
-   "year": "2004",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "26021153",
-   "doi": "10.1134/s1062359015020077",
-   "title": "Molecular-genetic mechanisms of cornea morphogenesis",
-   "year": "2015",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "36426596",
-   "doi": "10.1002/ar.25129",
-   "title": "Transpositions of the great arteries versus aortic dextropositions. A review of some embryogenetic and morphological aspects",
-   "year": "2022",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "41097045",
-   "doi": "10.3390/ijms26199780",
-   "title": "Single-Nucleotide Polymorphisms, PITX2 and Abnormal Electrical Activity in Atrial Fibrillation",
-   "year": "2025",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "12091312",
-   "doi": "10.1242/dev.129.14.3421",
-   "title": "BMP2 is a positive regulator of Nodal signaling during left-right axis formation in the chicken embryo",
-   "year": "2002",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "40838121",
-   "doi": "10.17912/micropub.biology.001570",
-   "title": "PITX2 is enriched in highly adipogenic brown preadipocytes",
-   "year": "2025",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "32717170",
-   "doi": "10.1161/circresaha.120.316574",
-   "title": "Epigenetic and Transcriptional Networks Underlying Atrial Fibrillation",
-   "year": "2020",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:08:02Z"
-  },
-  {
-   "pmid": "37139083",
-   "doi": "10.1155/2023/1397107",
-   "title": "Investigating the Clinical Characteristics and PITX3Mutations of a Large Chinese Family with Anterior Segment Mesenchymal Dysgenesis and Congenital Posterior Polar Cataract",
-   "year": "2023",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "36153513",
-   "doi": "10.1186/s12886-022-02573-x",
-   "title": "Unilateral buphthalmos, corneal staphyloma and corneal fistula caused by pathogenic variant in the PITX3 gene: a case report",
-   "year": "2022",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "15016072",
-   "doi": "10.1111/j.1460-9568.2004.03206.x",
-   "title": "Generation of embryonic stem cells and transgenic mice expressing green fluorescence protein in midbrain dopaminergic neurons",
-   "year": "2004",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "19144721",
-   "doi": "10.1242/dev.029769",
-   "title": "Pitx3 potentiates Nurr1 in dopamine neuron terminal differentiation through release of SMRT-mediated repression",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "17592014",
-   "doi": "10.1242/dev.02865",
-   "title": "Retinoic acid counteracts developmental defects in the substantia nigra caused by Pitx3 deficiency",
-   "year": "2007",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "16269007",
-   "doi": "10.1111/j.1471-4159.2005.03522.x",
-   "title": "Striatal neuroadaptation and rescue of locomotor deficit by l‐dopa in aphakia mice, a model of Parkinson's disease",
-   "year": "2005",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "17761882",
-   "doi": "10.1126/science.1140481",
-   "title": "A MicroRNA Feedback Circuit in Midbrain Dopamine Neurons",
-   "year": "2007",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23331067",
-   "doi": "10.1111/jnc.12160",
-   "title": "The transcription factor Pitx3 is expressed selectively in midbrain dopaminergic neurons susceptible to neurodegenerative stress",
-   "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18646205",
-   "doi": "10.1002/jnr.21774",
-   "title": "Pitx3‐transfected astrocytes secrete brain‐derived neurotrophic factor and glial cell line‐derived neurotrophic factor and protect dopamine neurons in mesencephalon cultures",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "26363812",
-   "doi": "10.1016/j.neurobiolaging.2015.08.012",
-   "title": "Pitx3 deficiency produces decreased dopamine signaling and induces motor deficits in Pitx3(−/−) mice",
-   "year": "2015",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "22826267",
-   "doi": "10.1002/dvdy.23836",
-   "title": "Microarray‐based identification of Pitx3 targets during Xenopus embryogenesis",
-   "year": "2012",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "37239960",
-   "doi": "10.3390/ijms24108614",
-   "title": "The Crucial Roles of Pitx3 in Midbrain Dopaminergic Neuron Development and Parkinson’s Disease-Associated Neurodegeneration",
-   "year": "2023",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "28598520",
-   "doi": "10.1002/dvdy.24532",
-   "title": "Xenopus pitx3 target genes lhx1 and xnr5 are identified using a novel three‐fluor flow cytometry–based analysis of promoter activation and repression",
-   "year": "2017",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "15728853",
-   "doi": "10.1523/jneurosci.3718-04.2005",
-   "title": "3,4-Dihydroxyphenylalanine Reverses the Motor Deficits in Pitx3-DeficientAphakiaMice: Behavioral Characterization of a Novel Genetic Model of Parkinson's Disease",
-   "year": "2005",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "19754401",
-   "doi": "",
-   "title": "The role of transcription factor Pitx3 in dopamine neuron development and Parkinson's disease.",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "19196042",
-   "doi": "10.1089/clo.2008.0059",
-   "title": "Nuclear Transfer Embryonic Stem Cells Provide an In Vitro Culture Model for Parkinson's Disease",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "25150543",
-   "doi": "10.1037/bne0000016",
-   "title": "L-dopa reverses behavioral deficits in the Pitx3 mouse fetus.",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18044702",
-   "doi": "10.1002/mds.21640",
-   "title": "Transcriptional regulation of mesencephalic dopaminergic neurons: The full circle of life and death",
-   "year": "2007",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18543300",
-   "doi": "10.1002/dvg.20399",
-   "title": "Pitx3‐CreER mice showing restricted Cre expression in developing ocular lens and skeletal muscles",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "17184956",
-   "doi": "10.1016/j.ijdevneu.2006.11.003",
-   "title": "Induction of tyrosine hydroxylase expression by the transcription factor Pitx3",
-   "year": "2006",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "26881122",
-   "doi": "10.1155/2016/6097107",
-   "title": "Neuroprotective Transcription Factors in Animal Models of Parkinson Disease",
-   "year": "2015",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "20376326",
-   "doi": "",
-   "title": "Absence of PITX3 mutation in a Tunisian family with congenital cataract and mental retardation.",
-   "year": "2010",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "16477036",
-   "doi": "10.1073/pnas.0511153103",
-   "title": "Cooperative transcription activation by Nurr1 and Pitx3 induces embryonic stem cell maturation to the midbrain dopamine neuron phenotype",
-   "year": "2006",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18388307",
-   "doi": "10.1634/stemcells.2007-0996",
-   "title": "Embryonic Stem Cell-Derived Pitx3-Enhanced Green Fluorescent Protein Midbrain Dopamine Neurons Survive Enrichment by Fluorescence-Activated Cell Sorting and Function in an Animal Model of Parkinson's Disease",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "20175877",
-   "doi": "10.1111/j.1471-4159.2010.06650.x",
-   "title": "FoxP1 promotes midbrain identity in embryonic stem cell‐derived dopamine neurons by regulating Pitx3",
-   "year": "2010",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "40169558",
-   "doi": "10.1038/s41419-025-07552-w",
-   "title": "The absence of Pitx3 results in postnatal loss of dopamine neurons and is associated with an increase in the pro-apoptotic Bcl2 factor Noxa and cleaved caspase 3",
-   "year": "2025",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18704092",
-   "doi": "10.1038/npp.2008.117",
-   "title": "Loss of Cocaine Locomotor Response in Pitx3-Deficient Mice Lacking a Nigrostriatal Pathway",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "27514757",
-   "doi": "10.1007/s12035-016-0040-y",
-   "title": "Specificity of Pitx3-Dependent Gene Regulatory Networks in Subsets of Midbrain Dopamine Neurons",
-   "year": "2016",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "20026251",
-   "doi": "10.1016/j.neuroscience.2009.12.033",
-   "title": "Pitx3-deficient aphakia mice display unique behavioral responses to psychostimulant and antipsychotic drugs",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23863478",
-   "doi": "10.1242/dev.094565",
-   "title": "Specification of dopaminergic subsets involves interplay of En1 and Pitx3",
-   "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "25501001",
-   "doi": "10.1371/journal.pgen.1004863",
-   "title": "Rgs6 is Required for Adult Maintenance of Dopaminergic Neurons in the Ventral Substantia Nigra",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18215235",
-   "doi": "10.1111/j.1460-9568.2008.06032.x",
-   "title": "Alterations in serotonin signalling are involved in the hyperactivity of Pitx3‐deficient mice",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "28800615",
-   "doi": "10.1371/journal.pone.0182421",
-   "title": "Pitx3 and En1 determine the size and molecular programming of the dopaminergic neuronal pool",
-   "year": "2017",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "28883785",
-   "doi": "10.3389/fnins.2017.00471",
-   "title": "Early Postnatal but Not Late Adult Neurogenesis Is Impaired in the Pitx3-Mutant Animal Model of Parkinson's Disease",
-   "year": "2017",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "16140547",
-   "doi": "10.1016/j.mcn.2005.07.018",
-   "title": "Molecular and cellular alterations in the Pitx3-deficient midbrain dopaminergic system",
-   "year": "2005",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "16837663",
-   "doi": "10.1152/jn.00333.2006",
-   "title": "Pitx3 Deficiency in Mice Affects Cholinergic Modulation of GABAergic Synapses in the Nucleus Accumbens",
-   "year": "2006",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18049867",
-   "doi": "10.1007/s11010-007-9655-7",
-   "title": "Pitx3 promoter directs Cre-recombinase specifically in a human neuroblastoma cell line",
-   "year": "2007",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23145024",
-   "doi": "10.1371/journal.pone.0048925",
-   "title": "Pgc-1α Overexpression Downregulates Pitx3 and Increases Susceptibility to MPTP Toxicity Associated with Decreased Bdnf",
-   "year": "2012",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "22037506",
-   "doi": "10.1016/j.neulet.2011.10.034",
-   "title": "PITX3 polymorphism is not associated with Parkinson's disease in a Chinese population",
-   "year": "2011",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "29483281",
-   "doi": "10.1523/jneurosci.3184-17.2018",
-   "title": "Differential Synaptic Remodeling by Dopamine in Direct and Indirect Striatal Projection Neurons in Pitx3−/−Mice, a Genetic Model of Parkinson's Disease",
-   "year": "2018",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18202103",
-   "doi": "10.1093/brain/awm340",
-   "title": "Induction of A9 dopaminergic neurons from neural stem cells improves motor function in an animal model of Parkinson's disease",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "25281315",
-   "doi": "10.1016/j.nbd.2014.09.010",
-   "title": "Nitric oxide synthase inhibition decreases l-DOPA-induced dyskinesia and the expression of striatal molecular markers in Pitx3−/− aphakia mice",
-   "year": "2014",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "22069189",
-   "doi": "10.1242/dev.071704",
-   "title": "Retinoic acid-dependent and -independent gene-regulatory pathways of Pitx3 in meso-diencephalic dopaminergic neurons",
-   "year": "2011",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "19795519",
-   "doi": "10.1002/dvdy.22094",
-   "title": "Delayed dopaminergic neuron differentiation in Lrp6 mutant mice",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "18951485",
-   "doi": "10.1002/jnr.21911",
-   "title": "Immunocytochemical expression of dopamine‐related transcription factors Pitx3 and Nurr1 in prenatally stressed adult rats",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "20570600",
-   "doi": "10.1016/j.pnpbp.2010.05.032",
-   "title": "Preliminary evidence that polymorphisms in dopamine-related transcription factors LMX1A, LMX1B and PITX3 are associated with schizophrenia",
-   "year": "2010",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23285158",
-   "doi": "10.1371/journal.pone.0052701",
-   "title": "Modulation by Cocaine of Dopamine Receptors through miRNA-133b in Zebrafish Embryos",
-   "year": "2012",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "31310388",
-   "doi": "10.1002/jcb.29109",
-   "title": "Complementation of dopaminergic signaling by Pitx3–GDNF synergy induces dopamine secretion by multipotent Ntera2 cells",
-   "year": "2019",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23489835",
-   "doi": "10.1111/ejn.12184",
-   "title": "Prenatal ontogeny of the dopamine‐dependent neurobehavioral phenotype in Pitx3‐deficient mice",
-   "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "41472677",
-   "doi": "10.21203/rs.3.rs-7401124/v1",
-   "title": "Developmental Dopamine Loss Rewires Striatal Circuits to Promote Locomotion",
-   "year": "2025",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "23694789",
-   "doi": "",
-   "title": "Analysis of PITX3 gene in patients with multisystem atrophy, progressive supranuclear palsy and corticobasal degeneration.",
-   "year": "2013",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "41698976",
-   "doi": "10.1038/s41598-026-37466-2",
-   "title": "MiniPromoters Ple384 (TH) and Ple388 (PITX3) for targeting midbrain dopaminergic neurons in mice and monkeys",
-   "year": "2026",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "28966651",
-   "doi": "10.4103/1673-5374.213557",
-   "title": "Impact of Pitx3 gene knockdown on glial cell line-derived neurotrophic factor transcriptional activity in dopaminergic neurons",
-   "year": "2017",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:23:08Z"
-  },
-  {
-   "pmid": "39568138",
-   "doi": "10.1080/13816810.2024.2430700",
-   "title": "A novel homozygous missense variant in POC1B causes cone dystrophy in a consanguineous Pakistani family",
-   "year": "2024",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "31390656",
-   "doi": "10.1167/iovs.19-26650",
-   "title": "Phenotypical Characteristics ofPOC1B-Associated Retinopathy in Japanese Cohort: Cone Dystrophy With Normal Funduscopic Appearance",
-   "year": "2019",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "33657974",
-   "doi": "10.1080/13816810.2021.1894460",
-   "title": "A homozygous POC1B variant causes recessive cone-rod dystrophy",
-   "year": "2021",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "37246743",
-   "doi": "10.1080/13816810.2023.2204361",
-   "title": "Phenotypic and genotypic features of POC1B -associated cone dystrophy",
-   "year": "2023",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "29220607",
-   "doi": "10.1080/13816810.2017.1408846",
-   "title": "Case of cone dystrophy with normal fundus appearance associated with biallelic POC1B variants",
-   "year": "2017",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "41293231",
-   "doi": "10.1016/j.ajoc.2025.102456",
-   "title": "POC1B-associated cone-rod dystrophy with bilateral optic disc swelling: A novel clinical observation",
-   "year": "2025",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "32110738",
-   "doi": "10.1126/sciadv.aaz4137",
-   "title": "A helical inner scaffold provides a structural basis for centriole cohesion",
-   "year": "2020",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "37934472",
-   "doi": "10.1083/jcb.202305009",
-   "title": "CCDC15 localizes to the centriole inner scaffold and controls centriole length and integrity",
-   "year": "2023",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "39543170",
-   "doi": "10.1038/s41467-024-54247-5",
-   "title": "An interaction network of inner centriole proteins organised by POC1A-POC1B heterodimer crosslinks ensures centriolar integrity",
-   "year": "2024",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "29377742",
-   "doi": "10.1080/13816810.2018.1430239",
-   "title": "Novel compound heterozygous mutation in the POC1B gene underlie peripheral cone dystrophy in a Chinese family",
-   "year": "2018",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "36094084",
-   "doi": "10.1080/13816810.2022.2121842",
-   "title": "Seroreactivity against retinal proteins in a case of POC1B gene associated cone dystrophy with normal funduscopic appearance: a systematic approach to diagnosis",
-   "year": "2022",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "38351906",
-   "doi": "10.17912/micropub.biology.001083",
-   "title": "CP110 and CEP135 Localize Near the Proximal Centriolar Remnants of Mice Spermatozoa",
-   "year": "2023",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "34065499",
-   "doi": "10.3390/ijms22105396",
-   "title": "Clinical Characteristics of POC1B-Associated Retinopathy and Assignment of Pathogenicity to Novel Deep Intronic and Non-Canonical Splice Site Variants",
-   "year": "2021",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "41325109",
-   "doi": "10.1093/cvr/cvaf265",
-   "title": "MCPPIR promotes cardiomyocyte proliferation and cardiac repair via o8G oxidation of POC1B mRNA",
-   "year": "2025",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "37227616",
-   "doi": "10.1007/s10633-023-09936-9",
-   "title": "A mild form of POC1B-associated retinal dystrophy with relatively preserved cone system function",
-   "year": "2023",
-   "subcollection": "POC1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:28:32Z"
-  },
-  {
-   "pmid": "41775653",
-   "doi": "10.1017/s000711452610676x",
-   "title": "Enhanced 2-arachidonoyl glycerol-dependent CB1 activation contributes to feeding dysregulation in KK-Ay mice",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:30:55Z"
-  },
-  {
-   "pmid": "41776469",
-   "doi": "10.1186/s12903-026-08007-0",
-   "title": "Assessment of tooth wear with intraoral scanned models in young adults",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:30:55Z"
-  },
-  {
-   "pmid": "41775959",
-   "doi": "10.1007/s10266-026-01347-x",
-   "title": "Radiomics features as imaging biomarkers in alveolar and craniofacial bone healing: a scoping review",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:30:55Z"
-  },
-  {
-   "pmid": "41776443",
-   "doi": "10.1186/s12887-026-06676-y",
-   "title": "Maternal food and nutrition literacy and its association with growth indicators in children and adolescents: a cross-sectional study in Türkiye",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:30:55Z"
-  },
-  {
-   "pmid": "41775721",
-   "doi": "10.1038/s41598-025-28627-w",
-   "title": "Spatial distribution of selected coastal Sabkhas along the Southern Red Sea Coast of Egypt",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-03-06T07:30:55Z"
-  },
-  {
-   "pmid": "40321348",
-   "doi": "10.1515/crpm-2024-0018",
-   "title": "Novel homozygous mutation in the human RAX homeobox gene in a patient with bilateral anophthalmia and severe endocrine dysfunction – a case report and literature review",
-   "year": "2024",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:31:26Z"
-  },
-  {
-   "pmid": "28831107",
-   "doi": "10.1038/s41598-017-09276-0",
-   "title": "Unraveling the genetic cause of a consanguineous family with unilateral coloboma and retinoschisis: expanding the phenotypic variability of RAX mutations",
-   "year": "2017",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:31:26Z"
-  },
-  {
-   "pmid": "29665410",
-   "doi": "10.1016/j.mod.2018.04.003",
-   "title": "The role of the Rx homeobox gene in retinal progenitor proliferation and cell fate specification",
-   "year": "2018",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:31:26Z"
-  },
-  {
-   "pmid": "32864847",
-   "doi": "10.1002/dvdy.246",
-   "title": "The rax homeobox gene is mutated in the eyeless axolotl, Ambystoma mexicanum",
-   "year": "2020",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:31:26Z"
-  },
-  {
-   "pmid": "18326732",
-   "doi": "10.1167/iovs.07-1207",
-   "title": "Retinol Dehydrogenases RDH11 and RDH12 in the Mouse Retina: Expression Levels during Development and Regulation by Oxidative Stress",
-   "year": "2008",
-   "subcollection": "RDH11",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:32:32Z"
-  },
-  {
-   "pmid": "31505163",
-   "doi": "10.1016/j.exer.2019.107793",
-   "title": "Retinol dehydrogenase 12 (RDH12): Role in vision, retinal disease and future perspectives",
-   "year": "2019",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "31884613",
-   "doi": "10.1007/978-3-030-27378-1_34",
-   "title": "Natural History and Genotype-Phenotype Correlations in RDH12-Associated Retinal Degeneration",
-   "year": "2019",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "40043730",
-   "doi": "10.1080/13816810.2025.2470199",
-   "title": "Genotype–phenotype relationship in RDH12 retinopathy: a perspective from a pediatric age group",
-   "year": "2025",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "39693083",
-   "doi": "10.1167/iovs.65.14.30",
-   "title": "Retinal Degeneration Associated With Biallelic RDH12 Variants: Longitudinal Evaluation of Retinal Structure and Visual Function in Pediatric Patients",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "38371258",
-   "doi": "10.18240/ijo.2024.02.13",
-   "title": "RDH12-associated retinal degeneration caused by a homozygous pathogenic variant of 146C&gt;T and literature review",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "35994252",
-   "doi": "10.1167/iovs.63.9.24",
-   "title": "Clinical and Genetic Analysis ofRDH12-Associated Retinopathy in 27 Chinese Families: A Hypomorphic Allele Leads to Cone-Rod Dystrophy",
-   "year": "2022",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "35006499",
-   "doi": "10.1007/s10548-021-00885-7",
-   "title": "Associations Between Fundus Types and Clinical Manifestations in Patients with RDH12 Gene Mutations",
-   "year": "2022",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "36690427",
-   "doi": "10.1136/jmg-2022-108918",
-   "title": "Pseudocoloboma-like maculopathy with biallelicRDH12missense mutations",
-   "year": "2023",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "20006610",
-   "doi": "10.1016/j.febslet.2009.12.009",
-   "title": "Disease‐associated variants of microsomal retinol dehydrogenase 12 (RDH12) are degraded at mutant‐specific rates",
-   "year": "2009",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "20736127",
-   "doi": "10.1016/j.jaapos.2010.04.010",
-   "title": "Novel RDH12 sequence variations in Leber congenital amaurosis",
-   "year": "2010",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "39120885",
-   "doi": "10.1167/tvst.13.8.17",
-   "title": "Report From the Second Global Scientific Conference on Clinical Trial Design and Outcome Measures for RDH12-Associated Inherited Retinal Degeneration",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "26848971",
-   "doi": "10.3109/13816810.2015.1059457",
-   "title": "Late-onset CORD in a patient with RDH12 mutations identified by whole exome sequencing",
-   "year": "2016",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "28513254",
-   "doi": "10.1080/13816810.2017.1323339",
-   "title": "Peripapillary sparing in RDH12-associated Leber congenital amaurosis",
-   "year": "2017",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "18396173",
-   "doi": "10.1016/j.bbadis.2008.03.004",
-   "title": "Effect of lipid peroxidation products on the activity of human retinol dehydrogenase 12 (RDH12) and retinoid metabolism",
-   "year": "2008",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "34031043",
-   "doi": "10.1136/bjophthalmol-2020-318034",
-   "title": "Novel disease-causing variant in RDH12 presenting with autosomal dominant retinitis pigmentosa",
-   "year": "2021",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "27809489",
-   "doi": "10.1021/acs.biochem.6b00907",
-   "title": "Structural Insights into the Drosophila melanogaster Retinol Dehydrogenase, a Member of the Short-Chain Dehydrogenase/Reductase Family",
-   "year": "2016",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "32790509",
-   "doi": "10.1080/13816810.2020.1802763",
-   "title": "Macula-predominant retinopathy associated with biallelic variants in RDH12",
-   "year": "2020",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "21232531",
-   "doi": "10.1016/j.cbi.2011.01.001",
-   "title": "Evidence that proteosome inhibitors and chemical chaperones can rescue the activity of retinol dehydrogenase 12 mutant T49M",
-   "year": "2011",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "41759220",
-   "doi": "10.1016/j.scr.2026.103933",
-   "title": "Establishment of an induced pluripotent stem cell line from a patient with Leber Congenital Amaurosis",
-   "year": "2026",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "34001834",
-   "doi": "10.1097/iae.0000000000003028",
-   "title": "ISOLATED MACULOPATHY AND MODERATE ROD–CONE DYSTROPHY REPRESENT THE MILDER END OF THE RDH12-RELATED RETINAL DYSTROPHY SPECTRUM",
-   "year": "2020",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "40365019",
-   "doi": "10.3389/fcell.2025.1511066",
-   "title": "Dominant RDH12-retinitis pigmentosa impairs photoreceptor development and implicates cone involvement in retinal organoids",
-   "year": "2025",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "34429587",
-   "doi": "10.2147/dddt.s305378",
-   "title": "Gene Therapy for Rdh12-Associated Retinal Diseases Helps to Delay Retinal Degeneration and Vision Loss",
-   "year": "2021",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "38466282",
-   "doi": "10.1167/iovs.65.3.9",
-   "title": "Adaptive Optics Retinal Imaging in RDH12-Associated Early Onset Severe Retinal Dystrophy",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "32172635",
-   "doi": "10.1080/13816810.2020.1737949",
-   "title": "Quasidominance in autosomal recessive RDH12-Leber congenital amaurosis",
-   "year": "2020",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "40446715",
-   "doi": "10.1016/j.scr.2025.103739",
-   "title": "Generation of two iPSC lines (UGENTi003 and UGENTi004) from patients with intermediate rod-cone dystrophy carrying the c.[-123C&gt;T;701G&gt;A];[806_810del] variants in the RDH12 gene",
-   "year": "2025",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "17512723",
-   "doi": "10.1016/j.jsbmb.2007.03.015",
-   "title": "RDH12, a retinol dehydrogenase causing Leber's congenital amaurosis, is also involved in steroid metabolism",
-   "year": "2007",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "37714431",
-   "doi": "10.1016/j.oret.2023.09.007",
-   "title": "Clinical and Genetic Characterization of RDH12-Retinal Dystrophy in a South American Cohort",
-   "year": "2023",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "18599039",
-   "doi": "10.1016/j.exer.2008.05.013",
-   "title": "Focus on molecules: Retinol dehydrogenase 12 (RDH12)",
-   "year": "2008",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "38552555",
-   "doi": "10.1016/j.bbrc.2024.149809",
-   "title": "Retinol dehydrogenase 12 (RDH12) knock out may cause hyperuricemia phenotype in mice",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "38981477",
-   "doi": "10.1016/j.cub.2024.06.031",
-   "title": "RDH12 allows cone photoreceptors to regenerate opsin visual pigments from a chromophore precursor to escape competition with rods",
-   "year": "2024",
-   "subcollection": "RDH12",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-06T07:33:18Z"
-  },
-  {
-   "pmid": "39971696",
-   "doi": "10.1016/j.trecan.2025.02.002",
-   "title": "Molecular insights into SMARCA2 degradation in SMARCA4-mutant lung cancers",
-   "year": "2025",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T23:13:39Z"
-  },
-  {
-   "pmid": "35283102",
-   "doi": "10.1016/j.ydbio.2022.02.008",
-   "title": "Arid1a regulates bladder urothelium formation and maintenance",
-   "year": "2022",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T23:13:39Z"
-  },
-  {
-   "pmid": "30858614",
-   "doi": "10.1038/s41588-019-0363-5",
-   "title": "The ATPase module of mammalian SWI/SNF family complexes mediates subcomplex identity and catalytic activity–independent genomic targeting",
-   "year": "2019",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T23:13:39Z"
-  },
-  {
-   "pmid": "9845365",
-   "doi": "10.1016/s0092-8674(00)81633-5",
-   "title": "Rapid and Phosphoinositol-Dependent Binding of the SWI/SNF-like BAF Complex to Chromatin after T Lymphocyte Receptor Signaling",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T23:13:39Z"
-  },
-  {
-   "pmid": "41390837",
-   "doi": "10.1038/s41467-025-67434-9",
-   "title": "Cell type-specific functions of the PBAF chromatin-remodeling complex in neuronal diversification",
-   "year": "2025",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T23:13:55Z"
-  },
-  {
-   "pmid": "40404167",
-   "doi": "10.1111/nph.70182",
-   "title": "<scp>BAF</scp> 60/ <scp>SWP</scp> 73 subunits define subclasses of <scp>SWI</scp> / <scp>SNF</scp> chromatin remodelling complexes in Arabidopsis",
-   "year": "2025",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T23:13:55Z"
-  },
-  {
-   "pmid": "6392017",
-   "doi": "10.1093/genetics/108.4.845",
-   "title": "GENES AFFECTING THE REGULATION OF <i>SUC2</i> GENE EXPRESSION BY GLUCOSE REPRESSION IN <i>SACCHAROMYCES CEREVISIAE</i>",
-   "year": "1984",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T23:13:55Z"
-  },
-  {
-   "pmid": "41685408",
-   "doi": "10.1002/epi4.70227",
-   "title": "Isolated absence epilepsy associated with a de novo <i>FBXW7</i> missense variant in the F‐box domain",
-   "year": "2026",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41768999",
-   "doi": "10.3389/fcell.2026.1756661",
-   "title": "The enigma of nuclear FMRP: facts and myths",
-   "year": "2026",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41765286",
-   "doi": "10.1016/j.mcpro.2026.101546",
-   "title": "Interactome Analysis of the CC2D1A Scaffold Reveals Novel Neuronal Interactions and a Postsynaptic Role",
-   "year": "2026",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41555927",
-   "doi": "10.3389/fgene.2025.1709083",
-   "title": "Expanding the mutational spectrum of congenital microcephaly in Pakistani families",
-   "year": "2026",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41465175",
-   "doi": "10.3390/genes16121502",
-   "title": "Functional Interpretation of a Novel Homozygous METTL5 Variant Associated with ADHD and Neurodevelopmental Abnormalities: A Case Report and Literature Review",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41352540",
-   "doi": "10.1016/j.nbd.2025.107217",
-   "title": "Shank3B pathophysiology: Early metformin treatment rescues behavioural deficits and normalises exacerbated mRNA translation",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41174994",
-   "doi": "10.1002/aur.70132",
-   "title": "<scp>ADNP</scp> Exhibits Methyltransferase Activity in Overexpression Systems and Modulates <scp>DNA</scp> and Histone Methylation",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41168328",
-   "doi": "10.1038/s41598-025-20958-y",
-   "title": "In-depth behavioral characterization of a rat model of Schaaf-Yang syndrome",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41370269",
-   "doi": "10.1016/j.nbd.2025.107156",
-   "title": "Axon initial segment damage and hyperexcitability in a mutant mouse with increased calpain-dependent cleavage of αII-Spectrin",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41153399",
-   "doi": "10.3390/genes16101182",
-   "title": "The p.Ile202Thr Substitution in TUBB2B Can Be Associated with Syndromic Presentation of Congenital Fibrosis of the Extraocular Muscles",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41068697",
-   "doi": "10.1186/s12887-025-06194-3",
-   "title": "A novel missense variant at the site of interaction between RLIM and E2 ubiquitin-conjugating enzymes causes Tønne-Kalscheuer syndrome",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41069227",
-   "doi": "10.1113/jp289770",
-   "title": "Special issue: The giant impact of synapses on brain function and disease",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40977432",
-   "doi": "10.1002/ajmg.a.64264",
-   "title": "The <i>De Novo</i> p.( <scp>Ser802Phe</scp> ) Variant Causes Helsmoortel‐Van der Aa/ <scp> <i>ADNP</i> </scp> Syndrome in a 24‐Year‐Old Woman and Is Predicted to Perturb <scp>ADNP</scp> ‐ <scp>DNA</scp> Affinity",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40847610",
-   "doi": "10.1111/febs.70230",
-   "title": "<scp>CDKL5</scp> regulates the initiation of retrograde axonal transport through <scp>CLIP170</scp> –dynactin complex formation",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40881361",
-   "doi": "10.3389/fpsyt.2025.1611101",
-   "title": "Redefining communication in mental healthcare: generative AI for neurodivergent equity and non-verbal autistic inclusion",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40806714",
-   "doi": "10.3390/ijms26157586",
-   "title": "ZNF496 as Candidate Gene for Neurodevelopmental Disorders: Identification of a Pathogenic De Novo Frameshift Variant",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40719069",
-   "doi": "10.1111/head.15017",
-   "title": "A novel de novo <i>AP2M1</i> variant in a patient with attention‐deficit/hyperactivity disorder, oppositional defiant disorder, and unexpected hemiplegic migraine",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40712661",
-   "doi": "10.1152/ajpcell.00749.2024",
-   "title": "Methyl-CpG-binding domain as a protein interaction partner in promoter regulation and neurodevelopment through evolutionary expanded entanglement",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40724730",
-   "doi": "10.3390/healthcare13141705",
-   "title": "Family Self-Care in the Context of Intellectual Disabilities: Insights from a Qualitative Study in Portugal",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40581118",
-   "doi": "10.1016/j.jbc.2025.110429",
-   "title": "Genetic variants linked to neurodevelopmental disorders within the β3-β4 loop of the TRIO PH2 domain release autoinhibition of GEF2 activity",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "41200582",
-   "doi": "10.2478/bjmg-2025-0007",
-   "title": "First Report of a Familiar <i>MYCBP2</i> Pathogenic Variant: Expanding the Knowledge of Neurodevelopmental Disorders",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40317680",
-   "doi": "10.1002/ajmg.a.64093",
-   "title": "Further Delineation of the AUTS2 HX Repeat Domain‐Related Phenotype",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40135540",
-   "doi": "10.1021/acs.jcim.4c01698",
-   "title": "Investigation of Electrostatic Effects on Enyzme Catalysis: Insights from Computational Simulations of Monoamine Oxidase A Pathological Variants Leading to the Brunner Syndrome",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40160374",
-   "doi": "10.3389/fnhum.2025.1557826",
-   "title": "Combined deep and reinforcement learning with gaming to promote healthcare in neurodevelopmental disorders: a new hypothesis",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "40317201",
-   "doi": "10.1515/hsz-2024-0162",
-   "title": "Pathogenic missense variants of CSNK2B associated with Poirier-Bienvenu neurodevelopmental disorder impact differently on CK2 holoenzyme formation",
-   "year": "2025",
-   "subcollection": "ARID2",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:19:48Z"
-  },
-  {
-   "pmid": "30123105",
-   "doi": "10.3389/fnmol.2018.00252",
-   "title": "Mutational Landscapes and Phenotypic Spectrum of SWI/SNF-Related Intellectual Disability Disorders",
-   "year": "2018",
-   "subcollection": "ARID1B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:20:59Z"
-  },
-  {
-   "pmid": "27804958",
-   "doi": "10.1038/ejhg.2016.133",
-   "title": "Dominant variants in the splicing factor PUF60 cause a recognizable syndrome with intellectual disability, heart defects and short stature",
-   "year": "2016",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:21:04Z"
-  },
-  {
-   "pmid": "41113311",
-   "doi": "10.1002/ccr3.71230",
-   "title": "A Prenatal Diagnosis of Verheij Syndrome in a Fetus Harboring a de novo <i>PUF60</i> Variant",
-   "year": "2025",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "41333426",
-   "doi": "10.21203/rs.3.rs-8077579/v1",
-   "title": "Vitamin B12 alleviates spliceosomopathy via phospholipid remodeling",
-   "year": "2025",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "40796658",
-   "doi": "10.1038/s41431-025-01916-8",
-   "title": "Non-isolated tetralogy of fallot (TOF+): exome sequencing efficacy and phenotypic expansions",
-   "year": "2025",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38396730",
-   "doi": "10.3390/ijms25042053",
-   "title": "Novel Genetic and Phenotypic Expansion in Ameliorated PUF60-Related Disorders",
-   "year": "2024",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38647383",
-   "doi": "10.1002/ajmg.a.63631",
-   "title": "Identification of a de novo <i>PUF60</i> variant associated with craniofacial microsomia",
-   "year": "2024",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38297485",
-   "doi": "10.1002/ajmg.a.63550",
-   "title": "<i>PUF60</i> loss‐of‐function with normal cognition should be considered in the differential diagnosis of Klippel–Feil syndrome",
-   "year": "2024",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38273166",
-   "doi": "10.1038/s41431-023-01527-1",
-   "title": "Novel PUF60 variant suggesting an interaction between Verheij and Cornelia de Lange syndrome: phenotype description and review of the literature",
-   "year": "2024",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "24140112",
-   "doi": "10.1016/j.ajhg.2013.09.010",
-   "title": "SCRIB and PUF60 Are Primary Drivers of the Multisystemic Phenotypes of the 8q24.3 Copy-Number Variant",
-   "year": "2013",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "32315467",
-   "doi": "10.1002/dvdy.183",
-   "title": "Spliceosomopathies and neurocristopathies: Two sides of the same coin?",
-   "year": "2020",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "28327570",
-   "doi": "10.1038/ejhg.2017.27",
-   "title": "PUF60 variants cause a syndrome of ID, short stature, microcephaly, coloboma, craniofacial, cardiac, renal and spinal features",
-   "year": "2017",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "28990276",
-   "doi": "10.1002/ajmg.b.32574",
-   "title": "Exome sequencing reveals <i>NAA15</i> and <i>PUF60</i> as candidate genes associated with intellectual disability",
-   "year": "2017",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "36367278",
-   "doi": "10.1002/ajmg.a.62950",
-   "title": "The diverse pleiotropic effects of spliceosomal protein <scp>PUF60</scp>: A case series of Verheij syndrome",
-   "year": "2022",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "30352594",
-   "doi": "10.1186/s12920-018-0421-3",
-   "title": "Role of PUF60 gene in Verheij syndrome: a case report of the first Chinese Han patient with a de novo pathogenic variant and review of the literature",
-   "year": "2018",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38110042",
-   "doi": "10.1016/j.gene.2023.148092",
-   "title": "Identification of a novel de novo PUF60 variant causing Verheij syndrome in a fetus",
-   "year": "2023",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "28471317",
-   "doi": "10.1080/13816810.2017.1318927",
-   "title": "A <i>de novo PUF60</i> mutation in a child with a syndromic form of coloboma and persistent fetal vasculature",
-   "year": "2017",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "30472487",
-   "doi": "10.1016/j.ejmg.2018.11.021",
-   "title": "PUF60-SCRIB fusion transcript in a patient with 8q24.3 microdeletion and atypical Verheij syndrome",
-   "year": "2018",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "33253191",
-   "doi": "10.1371/journal.pone.0242725",
-   "title": "Unraveling the mechanism of recognition of the 3’ splice site of the adenovirus major late promoter intron by the alternative splicing factor PUF60",
-   "year": "2020",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "35399315",
-   "doi": "10.21873/cdp.10029",
-   "title": "Identification of a New Variant of PUF60 Gene: Case Presentation and Literature Review",
-   "year": "2021",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "29788428",
-   "doi": "10.1093/nar/gky389",
-   "title": "PUF60-activated exons uncover altered 3′ splice-site selection by germline missense mutations in a single RRM",
-   "year": "2018",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "32851780",
-   "doi": "10.1002/ajmg.a.61816",
-   "title": "Protein elongation variant of <scp><i>PUF60</i></scp>: Milder phenotypic end of the Verheij syndrome",
-   "year": "2020",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "26437074",
-   "doi": "10.1002/ajmg.a.37411",
-   "title": "First fetal case of the 8q24.3 contiguous genes syndrome",
-   "year": "2015",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "36134573",
-   "doi": "10.1080/13816810.2022.2121968",
-   "title": "First report of tethered cord syndrome in a patient with Verheij syndrome",
-   "year": "2022",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "17579712",
-   "doi": "10.1371/journal.pone.0000538",
-   "title": "Control of Pre-mRNA Splicing by the General Splicing Factors PUF60 and U2AF65",
-   "year": "2007",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "32538777",
-   "doi": "10.7554/elife.57591",
-   "title": "Evolutionarily conserved regulation of immunity by the splicing factor RNP-6/PUF60",
-   "year": "2020",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "37303278",
-   "doi": "10.1002/ajmg.a.63313",
-   "title": "<i>PUF60</i>‐related developmental disorder: A case series and phenotypic analysis of 10 additional patients with monoallelic <i>PUF60</i> variants",
-   "year": "2023",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "28074499",
-   "doi": "10.1111/cge.12965",
-   "title": "Eye coloboma and complex cardiac malformations belong to the clinical spectrum of <i><scp>PUF60</scp></i> variants",
-   "year": "2017",
-   "subcollection": "PUF60",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-05T22:21:15Z"
-  },
-  {
-   "pmid": "38798311",
-   "doi": "10.3389/fped.2024.1367131",
-   "title": "Case Report: Identification of a novel PRR12 variant in a Chinese boy with developmental delay and short stature",
-   "year": "2024",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "38632549",
-   "doi": "10.1186/s11689-024-09530-3",
-   "title": "The Brain Gene Registry: a data snapshot",
-   "year": "2024",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "36247910",
-   "doi": "10.1002/mdc3.13528",
-   "title": "Acetazolamide Improves Episodic Ataxia in a Patient with Non‐Verbal Autism and Paroxysmal Dyskinesia Due To <i>PRRT2</i> Biallelic Variants",
-   "year": "2022",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "34680889",
-   "doi": "10.3390/genes12101494",
-   "title": "A Homozygous AKNA Frameshift Variant Is Associated with Microcephaly in a Pakistani Family",
-   "year": "2021",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "34041212",
-   "doi": "10.3389/fped.2021.676616",
-   "title": "The Genotype and Phenotype of Proline-Rich Transmembrane Protein 2 Associated Disorders in Chinese Children",
-   "year": "2021",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "30264509",
-   "doi": "10.1002/mgg3.474",
-   "title": "Clinical genetics and genomic medicine in Qatar",
-   "year": "2018",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "27763793",
-   "doi": "10.5858/arpa.2016-0429-ed",
-   "title": "The Origins and Emergence of Zika Virus, the Newest TORCH Infection: What's Old Is New Again",
-   "year": "2016",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "26163108",
-   "doi": "10.1007/s10048-015-0452-2",
-   "title": "A de novo t(10;19)(q22.3;q13.33) leads to ZMIZ1/PRR12 reciprocal fusion transcripts in a girl with intellectual disability and neuropsychiatric alterations",
-   "year": "2015",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "25249376",
-   "doi": "10.1177/1744629514552151",
-   "title": "Diagnoses, labels and stereotypes",
-   "year": "2014",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "24140398",
-   "doi": "10.1016/j.ymgme.2013.09.018",
-   "title": "Detection of a novel intragenic rearrangement in the creatine transporter gene by next generation sequencing",
-   "year": "2013",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
-  },
-  {
-   "pmid": "23551940",
-   "doi": "10.1111/jpc.12171",
-   "title": "Inequity in child health: The importance of early childhood development",
-   "year": "2013",
-   "subcollection": "PRR12",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-03-05T22:23:17Z"
   }
  ]
 }
