@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-26T05:28:38Z",
+  "generated_at": "2026-05-03T05:46:11Z",
   "threshold_k": 0,
-  "total_evaluated": 18817,
-  "total_flagged": 502,
+  "total_evaluated": 19419,
+  "total_flagged": 544,
   "total_dismissed": 0,
-  "total_unresolvable": 408,
+  "total_unresolvable": 407,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -119,6 +119,7 @@
       "MYOC",
       "MYRF",
       "NRL",
+      "NYX",
       "PAX6",
       "PCDH15",
       "PDE6B",
@@ -3044,6 +3045,56 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42050069",
+      "doi": "10.1007/s11325-026-03700-4",
+      "zotero_key": "2J674WRF",
+      "title": "A new clinical examination finding in obstructive sleep apnea; diagonal auricular fold (Frank sign).",
+      "authors": [
+        [
+          "Remzi",
+          "Doğan"
+        ],
+        [
+          "Yasin",
+          "Kulaksiz"
+        ],
+        [
+          "Alper",
+          "Yeni̇gun"
+        ],
+        [
+          "Ramazan Bahadır",
+          "Kucuk"
+        ],
+        [
+          "Ahmet Onur",
+          "Sutcu"
+        ],
+        [
+          "Selahattin",
+          "Tuğrul"
+        ],
+        [
+          "Fadlullah",
+          "Aksoy"
+        ],
+        [
+          "Orhan",
+          "Özturan"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Diagonal ear lobule fold (DELF)(Frank sign); It is a diagonal fold in the earlobe at an angle of about 45°, running diagonally from the tragus to the edge of the auricle at varying depths. In our study, the relationship between obstructive sleep apnea syndrome (OSAS) and DELF was examined. MATERIALS AND METHODS: A total of 132 patients, including 99 patients with sleep apnea complaints and 33 volunteers without complaints, were included in the study. Ear, nose and throat examination of the participants was performed and their ear lobules were examined. All participants underwent polysomnography. The patients were examined in four groups. Group 1 (AHI  30)(Severe OSAS, n = 33). Demographic information of all participants was recorded. RESULTS: There was no significant difference between the ages of the groups (43.48, 44.42, 48.69, 47.27, respectively) (p > 0.05). When evaluated in terms of BMI, group 1 was significantly lower than group 4 (p=0.002). There was no significant difference between the other groups (p > 0.05). There was no significant difference between the groups in terms of chronic diseases (CVO, CAD, HT, DM, COPD) (p > 0.05). DELF presence of groups; group 1: 0.59 ± 0.80, group 2: 0.57 ± 0.78. group 3: 0.80 ± 0.86, group 4: 1.10 ± 0.97. There was a significant increase in group 4 compared to group 1 and group 2 (p=0.004, p=0.006, respectively). There was no significant difference between the other groups (p > 0.05). CONCLUSION: The presence of DELF (Frank sign) in patients with severe OSASwas demonstrated for the first time in this study. According to the results we have reached, DELF can be used as a new examination finding in the diagnosis of OSAS. We also think that it can be used as a marker in the clinical course of the disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41613416",
       "doi": "10.17912/micropub.biology.001961",
       "zotero_key": "HAGCPVZT",
@@ -3466,6 +3517,32 @@
       "subcollection": "IFT172"
     },
     {
+      "pmid": "42045271",
+      "doi": "10.1038/s41598-026-49947-5",
+      "zotero_key": "BVH6CRGD",
+      "title": "AI-powered industrial quality assurance system for fancy yarn using computer vision and 3D visualization",
+      "authors": [
+        [
+          "Shaymaa E.",
+          "Sorour"
+        ],
+        [
+          "A. E.",
+          "Amin"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "One of the problematic issues in textile production is quality control in fancy yarn because of the complicated structure and aesthetic needs of these goods. This paper presents a novel integrated system that combines artificial intelligence and computer vision algorithms for quality assurance of fancy yarns. The proposed system has been designed, implemented as a laboratory prototype, and experimentally validated under controlled conditions. The implemented prototype demonstrates capabilities for defect detection, thickness measurement, pattern analysis, and 3D visualization using a combination of 2D image processing and laser profilometry data. Under controlled laboratory conditions (22 ± 2 °C, 65 ± 5% RH), the suggested system demonstrates a defect detection accuracy of 94.7% (95%, Confidence Interval (CI) [94.1%, 95.3%]), thickness uniformity precision of 96.2%, and pattern regularity reliability of 92.5% (95% CI [91.2%, 93.8%]). The system operates on the plane yarn images in 8 states that comprise image acquisition, pre-processing, feature extraction, thickness checking, defect detection, pattern checking, quality checking and reporting. In accordance with the outcomes of the experiment, the suggested system demonstrates the accuracy of 94.7% in the defect detection, the precision of 96.2% in the thickness uniformity and the reliability of 92.5% in the pattern regularity. The integration of 3D visualization provides manufacturers with enhanced spatial understanding of yarn properties, enabling proactive quality management and reducing non-conformance to quality standards. The complete MATLAB R2024b implementation, including network architectures, training protocols, and evaluation routines, is provided in Appendix A to ensure reproducibility.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "1537658",
       "doi": "10.1097/00004397-199203210-00015",
       "zotero_key": "QK4KJT9R",
@@ -3844,6 +3921,40 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42060355",
+      "doi": "10.4103/ijo.ijo_3149_25",
+      "zotero_key": "HS6KHMF8",
+      "title": "Anti-vascular endothelial growth factors in retinal and choroidal diseases - Present landscape.",
+      "authors": [
+        [
+          "Naresh B",
+          "Kannan"
+        ],
+        [
+          "Muthukrishnan",
+          "Vallinayagam"
+        ],
+        [
+          "Konduru",
+          "Rishitha"
+        ],
+        [
+          "Kim",
+          "Ramasamy"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Anti-vascular endothelial growth factors (anti-VEGFs) are agents that block the activity of specific bio-active molecules responsible for the growth of abnormal blood vessels. The advent of anti-VEGF therapy has revolutionized the treatment of retinal diseases. They are commonly indicated for diabetic macular edema, choroidal neovascular membrane, cystoid macular edema due to retinal vein occlusion, neovascular glaucoma, and retinopathy of prematurity. The commonly available anti-VEGF agents are bevacizumab, ranibizumab, aflibercept, brolucizumab, and faricimab. The currently practiced treatment regimens include fixed dosing, pro-re-nata, and treat-and-extend. Additionally, biosimilars represent a pivotal shift, offering cost-effective alternatives without compromising therapeutic value. Studies on sustained release anti-VEGF medications like port delivery systems and biodegradable depots are yielding promising outcomes. Ongoing studies analyze the long-term effects of anti-VEGF therapy, aiming to develop next-generation agents with greater durability, efficacy, and safety. This further reduces the treatment burden and offers an extra edge in optimizing long-term visual outcomes. This article provides a comprehensive overview of anti-VEGF therapies including their mechanism of action, efficacy and safety profiles, and landmark trials that have shaped their use in clinical practice. This was a narrative review of the literature that was conducted using PubMed, MEDLINE, Scopus Cochrane library databases, and Google Scholar databases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "42006102",
       "doi": "",
       "zotero_key": "XTN9AUW8",
@@ -4104,6 +4215,94 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42045881",
+      "doi": "10.1186/s12887-026-06927-y",
+      "zotero_key": "9ZNKQIWN",
+      "title": "Association of umbilical cord blood phthalate levels with neonatal growth parameters in term pregnancies",
+      "authors": [
+        [
+          "Mehmet",
+          "Çopuroğlu"
+        ],
+        [
+          "Mustafa Bertan",
+          "Demır"
+        ],
+        [
+          "Ilknur Col",
+          "Madendag"
+        ],
+        [
+          "Salih",
+          "Kolsuz"
+        ],
+        [
+          "Özge Baykan",
+          "Çopuroğlu"
+        ],
+        [
+          "Merve Topaktas",
+          "Ozbas"
+        ],
+        [
+          "Mehmet",
+          "Öztürk"
+        ]
+      ],
+      "journal": "BMC Pediatrics",
+      "year": "2026",
+      "abstract": "Prenatal exposure to endocrine-disrupting chemicals (EDCs), including di(2-ethylhexyl) phthalate (DEHP) and bisphenol A (BPA), has been associated with altered fetal growth. Umbilical cord blood provides a direct indicator of fetal exposure and may offer advantages over maternal urinary biomarkers. To examine the associations between cord blood concentrations of DEHP metabolites and BPA and neonatal anthropometric measures in term pregnancies. This cross-sectional study included 84 singleton term mother–infant pairs. Cord blood DEHP metabolites and BPA were quantified using liquid chromatography–tandem mass spectrometry (LC–MS/MS). Birth weight, length, and head circumference were measured at delivery and expressed as sex- and gestational age–adjusted z-scores. Multivariable linear regression models adjusted for maternal age, pre-pregnancy body mass index, parity, smoking status, infant sex, gestational age and maternal occupation were applied. Exposure–response patterns were further explored using quartile-based analyses and restricted cubic spline models. DEHP metabolites were detected in 92.0% and BPA in 90.4% of cord blood samples. Higher ΣDEHP concentrations were associated with lower birth weight (β = − 0.24 SD), birth length (β = − 0.15 SD), and head circumference (β = − 0.11 SD; all p < 0.05). BPA exhibited a non-linear, threshold-type association, as confirmed by restricted cubic spline analyses, with lower birth weight and length observed only at higher exposure levels. No significant sex-specific interactions were identified. Higher prenatal DEHP exposure, assessed using umbilical cord blood, was associated with modest yet consistent differences in neonatal growth parameters among term infants, whereas BPA demonstrated weaker and non-linear associations. These findings should be interpreted within an observational framework and do not imply causality. These findings underscore the relevance of prenatal exposure to common endocrine-disrupting chemicals for early human growth.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42049220",
+      "doi": "10.1098/rspb.2026.0157",
+      "zotero_key": "EH3QEQXR",
+      "title": "Asymmetries in human judgements of distance for approaching and receding sounds are predicted by a loudness model for time-varying sounds.",
+      "authors": [
+        [
+          "Andrew J.",
+          "Kolarik"
+        ],
+        [
+          "Anna",
+          "Koblitz"
+        ],
+        [
+          "Brian C J",
+          "Moore"
+        ],
+        [
+          "Ian van der",
+          "Linde"
+        ],
+        [
+          "William",
+          "Campbell"
+        ],
+        [
+          "Shahina",
+          "Pardhan"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Judging the distance of approaching threats is fundamental to an organism's survival. The adaptive looming bias theory posits that the auditory system evolved to produce a bias for approaching sounds, predicting: (1) judged start/end distances of approaching sounds will be smaller than the judged end/start distances of receding sounds moving over equivalent distances; (2) such asymmetries will be larger for closer than for farther distances; (3) asymmetries will be greater for tones than broadband noise; and (4) approaching sounds will be judged to travel a greater distance than receding sounds. Blindfolded participants judged starting and end distances for virtual anechoic approaching or receding tones and white noise, moving 11 m over three distance ranges (close, middle and far). Participants also judged static sound distances. The results were consistent with predictions (1) and (2), but not (3) and (4). The pattern of results was accurately predicted using a model of loudness for time-varying sounds, suggesting that when level is the primary distance cue, distance judgements for static and dynamic sounds are based on loudness; it is not necessary to invoke the adaptive perceptual bias theory to account for asymmetries in loudness and distance judgements between approaching and receding sounds.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41802866",
       "doi": "10.1523/jneurosci.1846-25.2026",
       "zotero_key": "3XTJ37Z6",
@@ -4152,6 +4351,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42043578",
+      "doi": "10.1007/s00381-026-07283-z",
+      "zotero_key": "I4GV9DCE",
+      "title": "Augmented reality-assisted hemispherotomy—technical note",
+      "authors": [
+        [
+          "Zhailganov A.",
+          "A."
+        ],
+        [
+          "Rabandiyarov M.",
+          "R."
+        ],
+        [
+          "G. N.",
+          "Kassenova"
+        ],
+        [
+          "Abdyhalyk B.",
+          "A."
+        ],
+        [
+          "Akchurina Ya.",
+          "E."
+        ],
+        [
+          "Almatov M.",
+          "S."
+        ],
+        [
+          "Aueskhanova D.",
+          "K."
+        ],
+        [
+          "Mabrouk",
+          "M."
+        ],
+        [
+          "Thomale U.",
+          "W."
+        ]
+      ],
+      "journal": "Child s Nervous System",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41629334",
@@ -4476,6 +4729,40 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42037137",
+      "doi": "10.1017/neu.2026.10082",
+      "zotero_key": "Z7R87VBK",
+      "title": "Bilateral DLPFC Transcranial Direct Current Stimulation for Mood and Motor Symptoms in Parkinson’s Disease: A Preliminary Study",
+      "authors": [
+        [
+          "Boram",
+          "Chae"
+        ],
+        [
+          "Jae-Ha",
+          "Song"
+        ],
+        [
+          "Do-Young",
+          "Kwon"
+        ],
+        [
+          "Ho-Kyoung",
+          "Yoon"
+        ]
+      ],
+      "journal": "Acta Neuropsychiatrica",
+      "year": "2026",
+      "abstract": "OBJECTIVES: Patients with Parkinson's disease (PD) suffer from interrelated motor and non-motor symptoms. While most research focuses on motor improvement, this study investigated whether targeting mood via sequential bilateral dorsolateral prefrontal cortex (DLPFC) tDCS could favorably affect motor function in patients maintaining a stable medication 'ON' state. Additionally, we employed wearable smart devices to objectively evaluate real-world changes in daily activity and sleep patterns, complementing traditional clinician-rated scales. METHODS: PD patients with mild-to-moderate depressive symptoms were enrolled. All participants completed a 7-day baseline monitoring period using a smart band. Participants received ten sessions of bilateral tDCS targeting the DLPFC (anode F3, cathode F4) at 2 mA for 30 minutes, three times a week. Clinical assessments and smart band monitoring were repeated during the final week of treatment. Pre-post changes and correlations were analyzed while controlling for potential confounders. RESULTS: Following tDCS, it was significant improvements in K-MADRS, STAI, AS, UPDRS part III, and PDQ-39. Smart device data showed a significant increase in daily step counts after treatment, while changes in physical activity time and sleep duration were not significant. Changes in step count were strongly correlated with improvements in apathy, and this relationship remained significant after confounding variables (rho = -0.76, p < 0.001). CONCLUSIONS: Bilateral DLPFC tDCS significantly improved mood and motor function in patients with PD. Smart band data further showed an increase in daily step counts after the intervention, with reductions in apathy. These findings suggest that tDCS may enhance goal-directed behavior by modulating mood-related pathways, highlighting apathy as an important therapeutic target in PD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41933121",
       "doi": "10.1038/s41598-026-46717-1",
       "zotero_key": "Z4BWNJQV",
@@ -4504,6 +4791,62 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42033105",
+      "doi": "10.1111/jdv.70394",
+      "zotero_key": "CF9TBDDN",
+      "title": "Biologics and the psoriatic march: Is it time to rethink early intervention?",
+      "authors": [
+        [
+          "Paolo",
+          "Gisondi"
+        ]
+      ],
+      "journal": "Journal of the European Academy of Dermatology and Venereology",
+      "year": "2026",
+      "abstract": "The study by Miao et al. provides an important contribution to the ongoing debate regarding whether biologic therapies for psoriasis may reduce the risk of developing psoriatic arthritis (PsA).1 Using a large US administrative claims database and a rigorous methodological approach, the authors report that patients with moderate-to-severe psoriasis who transitioned from phototherapy to biologic therapy experienced a significantly lower incidence of PsA than those who continued phototherapy alone. This finding supports the hypothesis that biologics may exert a protective effect on the evolution from cutaneous to musculoskeletal disease (Table 1).2-5 A major strength of the study lies in its thoughtful design, which addresses two key sources of bias that have affected previous analyses: protopathic bias and confounding-by-indication. By excluding PsA cases diagnosed within 1 year of biologic initiation, the authors reduce the likelihood that early, subclinical joint symptoms prompted the switch to biologics. Similarly, by restricting the baseline population to patients who had all received phototherapy—used here as a proxy for moderate-to-severe psoriasis—the study ensures a more comparable starting point between cohorts. This is a notable improvement over earlier claim-based studies that compared biologic users with patients treated only with topicals or mild systemic agents, inadvertently mixing populations with very different baseline risks. The results are compelling: The fully adjusted hazard ratio for PsA development among biologic users was 0.66, indicating a 34% relative risk reduction. This effect persisted across multiple sensitivity analyses, including age-, sex- and ethnicity-matched cohorts. Although observational data cannot establish causality, the consistency of the findings strengthens the argument that biologics may modify the natural history of psoriatic disease. Biologically, this hypothesis is plausible. Psoriasis and PsA share overlapping immunopathogenic pathways, particularly involving TNF-α, IL-17 and IL-23. Subclinical entheseal inflammation is well-documented in psoriasis patients, even in the absence of joint symptoms. Early suppression of these inflammatory pathways may theoretically prevent progression to clinical PsA. Indeed, imaging studies have shown that biologics can reduce enthesitis and synovitis detectable by ultrasound or MRI, even in patients without established PsA. However, several limitations warrant consideration. First, the use of phototherapy as a surrogate for disease severity, while pragmatic, is imperfect; treatment selection is influenced by patient preference, access and physician practice patterns. Second, claims databases lack granular clinical data such as PASI scores, body surface area, nail involvement or family history—factors known to influence PsA risk. Third, although PsA diagnoses were restricted to rheumatologists, misclassification remains possible. Finally, the study does not differentiate between biologic classes; whether IL-23 inhibitors, IL-17 inhibitors, or TNF inhibitors differ in their preventive potential remains debatable. Despite these limitations, the study adds weight to a growing body of evidence suggesting that early systemic intervention may alter the trajectory of psoriatic disease.1-5 If confirmed in prospective studies, this could have meaningful implications for clinical practice. Dermatologists may increasingly consider early biologic therapy not only to control skin inflammation but also to reduce the long-term burden of PsA, a condition associated with irreversible joint damage, disability and reduced quality of life. Future research should focus on prospective cohorts with standardized clinical assessments, imaging biomarkers and stratification by biologic class. Randomized controlled trials designed specifically to evaluate PsA prevention—although challenging—would provide the highest level of evidence. Until then, the findings by Miao et al. represent an important step towards understanding how timely intervention may reshape the natural history of psoriatic disease. Open access publishing facilitated by Università degli Studi di Verona, as part of the Wiley - CRUI-CARE agreement. Gisondi P. has received honoraria for service as consultant and/or speaker for AbbVie, Almirall, Bristol-Myers Squibb, Eli Lilly, LEO Pharma, Johnson & Johnson, Novartis, Pfizer, Takeda, and UCB. Data sharing not applicable to this article as no datasets were generated or analysed during the current study.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42046446",
+      "doi": "10.4097/kja.26375",
+      "zotero_key": "RT6BCTMK",
+      "title": "Blamed but not at fault: Anti-obesity medication adverse effects misidentified as perioperative complications — a comprehensive review and medicolegal warning for anesthesiologists",
+      "authors": [
+        [
+          "Hyun Jeong",
+          "Kwak"
+        ],
+        [
+          "Jung Ju",
+          "Choi"
+        ],
+        [
+          "Dongchul",
+          "Lee"
+        ],
+        [
+          "Youn Yi",
+          "Jo"
+        ]
+      ],
+      "journal": "Korean journal of anesthesiology",
+      "year": "2026",
+      "abstract": "The rapid proliferation of anti-obesity medications (AOMs), including glucagon-like peptide-1 receptor agonists (GLP-1 RAs), the dual glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 agonist tirzepatide, and non-incretin agents, including orlistat, phentermine, and bupropion/naltrexone, has created an underappreciated perioperative patient safety hazard. Existing guidelines have focused narrowly on GLP-1 RAs and aspiration risk, leaving some critical gaps unaddressed: (1) the misidentification trap, whereby drug-induced adverse effects, including acute pancreatitis, bowel obstruction, sudden visual loss, and neuropsychiatric dysfunction, are clinically and radiographically indistinguishable from surgical or anesthetic complications, exposing clinicians to unwarranted blame, and (2) the full perioperative risk profile of non-GLP-1 AOM classes. This narrative review synthesizes the current pharmacovigilance evidence, consensus guidelines, and clinical case data to address these gaps. Non-arteritic anterior ischemic optic neuropathy (NAION) from semaglutide (HR 7.64; World Health Organization safety alert 2025) may be attributed to anesthetic corneal injury, emotional lability may be misinterpreted as emergence delirium, drug-induced pancreatitis from GLP-1 RAs (adjusted HR 9.09 vs. comparator) may be misattributed to the operating surgeon, and bowel obstruction from premature postoperative GLP-1 RA resumption has prompted unnecessary re-laparotomy. Structured preoperative AOM documentation, explicit postoperative hold orders, and the inclusion of drug etiology in postoperative differentials constitute the defensible standard of care in the era of pharmacological obesity management.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
     },
     {
       "pmid": "41708580",
@@ -4658,6 +5001,28 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42029050",
+      "doi": "10.1097/gme.0000000000002775",
+      "zotero_key": "IB76BR27",
+      "title": "Cardiometabolic changes in the menopause transition",
+      "authors": [
+        [
+          "C L",
+          "Shufelt"
+        ]
+      ],
+      "journal": "Menopause The Journal of The North American Menopause Society",
+      "year": "2026",
+      "abstract": "Cardiovascular disease (CVD) remains the leading cause of death in women. Midlife cardiometabolic changes are a key contributor to this risk. Women experience an increase in cardiovascular (CV) risk beginning in the fifth decade of life, approximately 10 years later than men, which temporally aligns with the menopause transition. Many cardiometabolic alterations during perimenopause are not solely attributable to chronologic aging but are instead linked to ovarian aging. Recognizing menopause-related cardiometabolic changes provides clinicians with an opportunity to identify CV risk early and implement targeted prevention strategies. DOES THE TIMING AND TYPE OF MENOPAUSE AFFECT CARDIOVASCULAR DISEASE RISK? Natural menopause occurs at a mean age of 52 years; however, menopause occurring early (ages 40-45 y) or prematurely (before age 40 y) is consistently associated with higher rates of coronary heart disease, stroke, heart failure, and CV mortality. In a large, pooled analysis, there was a graded increase in CVD risk with earlier age at natural menopause compared with menopause at ages 50 to 51 years. Hazard ratios for incident CVD were 1.55 for premature (10 y since menopause), there may be an increase in CV risk. Since the results of the Women’s Health Initiative, two smaller randomized placebo-controlled trials (the Kronos Early Estrogen Prevention Study [KEEPS] and the Early versus Late Intervention Trial with Estradiol [ELITE]) evaluated whether HT compared with placebo could prevent CV disease by examining surrogate markers of coronary heart disease.9,10 Both studies found that HT initiated close to menopause (within 3-6 y) did not increase CV risk. KEEPS demonstrated neutral effects of low-dose estrogen on surrogate markers of coronary heart disease—carotid intima-media thickness (cIMT) and coronary artery calcium (CAC), whereas ELITE showed that estrogen initiated close to menopause significantly slowed cIMT progression without changes in CAC. These findings applied to normal arteries, which does not translate into clinically significant reductions in CV events and does not support the use of HT for CVD prevention. KEY SUMMARY POINTS The menopause transition represents a critical window for cardiometabolic risk identification and prevention. Cardiometabolic changes during the menopause transition contribute significantly to the rise in cardiovascular disease observed in midlife women. Early recognition and targeted intervention during this transition offer a unique opportunity to mitigate long-term cardiovascular risk and improve health outcomes for women. Lifestyle interventions remain foundational. CLINICAL RECOMMENDATIONS Incorporate menopause-specific factors into routine cardiovascular risk assessment, including age and type of menopause, blood pressure, lipid profile, glucose metabolism, body composition, and sleep quality. Consider menopause as a risk-enhancing factor when determining the intensity of preventive therapies. Use the American Heart Association’s Life’s Essential 8 to address lifestyle measures and modifiable risk factors (blood pressure, blood glucose, blood cholesterol, and sleep) that may improve long-term cardiovascular outcomes in women. Coming next in theStep-by-Stepseries: Jessica Caldwell, PhD, director of the Women’s Alzheimer’s Movement Prevention and Research Center at the Cleveland Clinic, reviews the physiologic basis for the cognitive complaints of menopausal women and offers strategies to share with patients to protect brain health.This article is part of the ongoing series Menopause Step-by-Step, a monthly Menopause education feature.11 The Editors of this series are Dr. Cynthia Stuenkel, Dr. Cheryl Cox Kinney, and Dr. Isaac Schiff.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41906871",
@@ -5020,6 +5385,40 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "41894554",
+      "doi": "10.1159/000551601",
+      "zotero_key": "D8VNDASW",
+      "title": "Clinical Improvements With Setmelanotide in a 2-Year-Old Patient With Hyperphagia and Obesity due to Leptin Receptor Deficiency: A Case Report",
+      "authors": [
+        [
+          "Mónica Ruiz",
+          "Pons"
+        ],
+        [
+          "Marina Gutiérrez",
+          "Vilar"
+        ],
+        [
+          "Alejandra Pérez",
+          "Rodriguez"
+        ],
+        [
+          "Javier Merino",
+          "Alonso"
+        ]
+      ],
+      "journal": "Obesity Facts",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Dysregulation of the melanocortin-4 receptor (MC4R) pathway can lead to severe hyperphagia and early-onset obesity. Symptoms may present before age 6 years, but there is limited clinical data on treatment outcomes in very young children. Setmelanotide, an MC4R agonist, is approved for patients age ≥2 years with rare MC4R pathway disease due to Bardet-Biedl syndrome, pro-opiomelanocortin or proprotein convertase subtilisin/kexin type 1 deficiency or leptin receptor (LEPR) deficiency. This case report describes the use of setmelanotide in a 2-year-old child with hyperphagia and obesity due to LEPR deficiency. CASE DESCRIPTION: The patient presented with early-onset hyperphagia, rapid weight gain, and obesity-associated delays in motor development. Following a medical assessment in May 2021 he was diagnosed with LEPR deficiency. Setmelanotide treatment via subcutaneous injection was initiated in March 2023 (patient age 2 years 4 months) at a dose of 0.5 mg/day, increased to 2.5 mg/day in 0.5 mg increments, and the patient was followed for 23 months. Following treatment initiation, significant clinical improvements were observed, including reductions in hyperphagia, food intake and cravings, and body mass index (BMI). Motor skill function also improved, with the child achieving milestones such as crawling and kneeling. Reported adverse events included skin rash and skin hyperpigmentation. CONCLUSION: Setmelanotide treatment started in a 2-year-old patient and continued for 23 months led to reductions in hyperphagia and food-seeking behavior, as well as improved motor skill function, BMI, and blood lipids. These findings support the use of setmelanotide in young children with hyperphagia and obesity due to LEPR deficiency.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "41862711",
@@ -5696,6 +6095,32 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42032095",
+      "doi": "10.1007/s00784-026-06845-4",
+      "zotero_key": "7N922USC",
+      "title": "Comparison of fracture resistance and microleakage of direct and indirect restorations in endodontically treated molars with extensive coronal loss",
+      "authors": [
+        [
+          "Esin",
+          "Akan"
+        ],
+        [
+          "Firdevs",
+          "Kahvecioğlu"
+        ]
+      ],
+      "journal": "Clinical Oral Investigations",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41838230",
       "doi": "10.1007/s10792-026-04025-7",
       "zotero_key": "INQ38WAA",
@@ -6188,6 +6613,48 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42019228",
+      "doi": "10.1016/j.clae.2026.102652",
+      "zotero_key": "7HM2JM5J",
+      "title": "Corrigendum to “Minor reduction in the back optical zone diameter of orthokeratology lenses delays axial elongation in children with myopia” [Cont. Lens Anterior Eye 49(3) (2026) 102632]",
+      "authors": [
+        [
+          "Yuehua",
+          "Chen"
+        ],
+        [
+          "Lili",
+          "Mei"
+        ],
+        [
+          "Yanting",
+          "Feng"
+        ],
+        [
+          "Siang",
+          "Zhang"
+        ],
+        [
+          "Heshun",
+          "Huang"
+        ],
+        [
+          "Jingjing",
+          "Xu"
+        ]
+      ],
+      "journal": "Contact Lens and Anterior Eye",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
+    },
+    {
       "pmid": "32533185",
       "doi": "10.1093/hmg/ddaa090",
       "zotero_key": "D57MUWDZ",
@@ -6276,6 +6743,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Peters Plus syndrome"
+    },
+    {
+      "pmid": "42031878",
+      "doi": "10.1038/s41598-026-49663-0",
+      "zotero_key": "ZAPPM5FZ",
+      "title": "CsRDR1b and CsRDR1c genes in Cucumis sativus are crucial for plant defense against virus and oomycete co-infection",
+      "authors": [
+        [
+          "Diana",
+          "Leibman"
+        ],
+        [
+          "Noa",
+          "Sela"
+        ],
+        [
+          "Gideon",
+          "Mordukhovich"
+        ],
+        [
+          "Omer",
+          "Frenkel"
+        ],
+        [
+          "Victor",
+          "Gaba"
+        ],
+        [
+          "Aviv",
+          "Dombrovsky"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Cucumber harbors RNA-dependent RNA polymerase 1 (RDR1) gene family of four genes (CsRDR1a, CsRDR1b, and CsRDR1c1/c2), which are induced upon virus infection. This study examined the roles of cucumber RDR1b and RDR1c1/c2 in defense against cucumber green mottle mosaic virus (CGMMV) during single and mixed infection with Pythium spp. Co-infection with CGMMV and the necrotrophic pathogen Pythium spinosum (P. spinosum) leads to the extensive synergetic collapse, which resulted in 45–50% mortality of csrdr1c mutants and 20–31% mortality of csrdr1b mutants by 11 dpi at 32 °C, compared to 100% survival of wild-type (WT) vs. Ilan cucumber plants; similar patterns were observed at 25 °C. At 17 dpi, the csrdr1c mutants reached 100% mortality compared to 100% survival of WT. In the experimental infection system in commercial greenhouses, when both pathogens can be preserved in soil from the previous growing cycle, the mortality rates reached 67–75% and 28–37% in csrdr1c and csrdr1b mutants, respectively, while WT plants remained unaffected 30 days post-planting. Leaf samples were subjected to high-throughput sequencing (HTS), followed by bioinformatics and KEGG pathway analysis demonstrated that the major differences in gene expression were associated with downregulation. Phenylpropanoid biosynthesis was the most significantly downregulated pathway with 15 downregulated genes in csrdr1c and csrdr1b mutants. Expression of key genes such as phenylalanine ammonia-lyase (PAL) and peroxidases was suppressed by 2- to 8-fold in non-infected CGMMV and P. spinosum csrdr1c and csrdr1b mutants, indicating a consequent reduction in phenylpropanoid biosynthesis. Following CGMMV infection and mixed infection of CGMMV with P. spinosum, KEGG analysis demonstrated no major differences in gene expression at the foliar parts. Our results demonstrate the interaction between CsRDR1, PAL, and peroxidase in plant pathogen defense, and the suppression of these enzymes was associated hypersensitivity of csrdr1 mutants to co-infection.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "3082161",
@@ -7188,6 +7697,36 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42060018",
+      "doi": "10.1007/s10384-026-01367-8",
+      "zotero_key": "VIFMVR5S",
+      "title": "Double-encircling continuous suture technique for complete cyclodialysis: a consecutive case series.",
+      "authors": [
+        [
+          "Takashi",
+          "Ueta"
+        ],
+        [
+          "Rei",
+          "Sakata"
+        ],
+        [
+          "Megumi",
+          "Honjo"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "PURPOSE: To evaluate the safety and efficacy of a novel double-encircling continuous suture technique for the surgical repair of complete (360°) cyclodialysis. STUDY DESIGN: Retrospective interventional case series. METHODS: Medical records of seven consecutive eyes from seven patients with complete cyclodialysis treated at the University of Tokyo Hospital between 2022 and 2025 were retrospectively reviewed. The extent of cyclodialysis and postoperative anatomical outcomes were assessed using anterior segment optical coherence tomography (OCT). Intraocular pressure (IOP) and best-corrected visual acuity (BCVA) were recorded both pre- and post-operatively. The surgical technique consisted of placing two laps of encircling continuous 10-0 polypropylene sutures at 3-4 mm and 2-3 mm posterior to the limbus. In phakic eyes, phacoemulsification with intraocular lens and capsular tension ring implantation were performed concurrently. RESULTS: Four men and three women with a mean age of 43.6 ± 25.4 years were included. Cyclodialysis resulted from blunt trauma (n = 3) or surgical complications (n = 4). Preoperative IOP ranged from 2 to 8 mmHg, and hypotonic maculopathy was observed in all cases. Postoperatively, anatomical reattachment of the ciliary body and resolution of hypotony were achieved in six of seven eyes (85.7%). All eyes demonstrated improved BCVA, though the improvement depended on comorbid conditions such as glaucoma, pathologic myopia, and bullous keratopathy. IOP transiently elevated postoperatively, and additional glaucoma surgery was necessary in two cases with a history of glaucoma. CONCLUSION: Reproducible safety and efficacy were confirmed for the double-encircling continuous suture technique in repairing complete cyclodialysis, yielding anatomical success and functional improvement.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "41800883",
       "doi": "",
       "zotero_key": "AQ6M9KSB",
@@ -8014,6 +8553,40 @@
       "subcollection": "Accommodation"
     },
     {
+      "pmid": "42050857",
+      "doi": "10.1002/brb3.71441",
+      "zotero_key": "VVS7DSQ2",
+      "title": "Emotion Reactivity Moderates the Association Between Momentary Negative Affect and Suicidal Thinking.",
+      "authors": [
+        [
+          "Ellen M.",
+          "Wittler"
+        ],
+        [
+          "Kate H",
+          "Bentley"
+        ],
+        [
+          "Matthew K",
+          "Nock"
+        ],
+        [
+          "Evan M.",
+          "Kleiman"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "BACKGROUND: Most theories suggest suicidal thinking results from negative affect, but surprisingly few studies have assessed factors that may modify the relationship between negative affect and suicidal intent. Emotion reactivity is an understudied element of affective experience that may affect this relationship. METHODS: This study examined ecological momentary assessment (EMA) data from two samples (n = 43 college students reporting suicidal ideation; n = 52 individuals with a history of suicide attempt recruited online) to investigate if trait emotion reactivity moderates the prediction of suicidal intent by negative affect. We hypothesized that increased trait emotion reactivity would strengthen the association between negative affect and next-timepoint suicidal intent. RESULTS: As hypothesized, across both samples, results indicated the association between momentary negative affect and next-timepoint suicidal intent was stronger among those with greater trait emotion reactivity. Different facets of emotion reactivity appeared to drive these associations between studies (intensity in Study 1, and persistence and sensitivity in Study 2). CONCLUSION: These findings highlight the importance of including emotion reactivity in models of suicide and suggests trait-level patterns of emotional responses are important to consider when modeling associations with momentary suicidal thoughts and behaviors. Between-sample inconsistencies regarding which facets drove this relationship may speak to differences in emotional processing, which could hold important treatment implications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "378894",
       "doi": "",
       "zotero_key": "SXXKDI8B",
@@ -8186,6 +8759,56 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42034830",
+      "doi": "10.1038/s42003-026-10110-5",
+      "zotero_key": "DSJ599ZW",
+      "title": "Enhancement of a nuclear factor of activated T cells (NFAT) reporter for the study of G protein-coupled receptors",
+      "authors": [
+        [
+          "Edward",
+          "Wills"
+        ],
+        [
+          "Anjana",
+          "Saji"
+        ],
+        [
+          "Jonathan",
+          "Sumner"
+        ],
+        [
+          "Aman",
+          "Khan"
+        ],
+        [
+          "Claudia",
+          "Sisk"
+        ],
+        [
+          "Mona",
+          "Shehata"
+        ],
+        [
+          "Benjamin",
+          "Taylor"
+        ],
+        [
+          "Graham",
+          "Ladds"
+        ]
+      ],
+      "journal": "Communications Biology",
+      "year": "2026",
+      "abstract": "Cell-based assays are fundamental to G protein-coupled receptor (GPCRs) drug discovery. As the field strives to increase the use of physiological cell types with endogenous receptor expression, enhancing the sensitivity of simple-to-use assays unlocks new screening modalities. Here, we enhanced the responsivity of a Nuclear Factor of Activated T cells response element (NFAT-RE) reporter, by concatenating the IL-2 promoter-derived triplicate-binding sites, to produce three nano-luciferase reporter constructs termed NFAT 2X, NFAT 3X and NFAT 4X. Our enhanced reporters demonstrate larger maximal Fold Induction (FI) when co-expressed with both primarily and secondarily Gαq/11-coupled GPCRs. This pattern was maintained when stimulating endogenous GPCRs in a panel of immortalised cell lines (HEK293, HeLa, A549, and HEK293T) and allowed us to observe Sphingosine-1-Phosphate (S1P)-mediated signalling in primary human CD8+ T cells via CRISPR/Cas9 knock-in. Our NFAT-reporter T cells demonstrate the reporters potential for use in bi-allelic expression systems and primary cell types.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41804935",
       "doi": "",
       "zotero_key": "DRTH9UNX",
@@ -8238,6 +8861,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42032059",
+      "doi": "10.1038/s42003-026-10105-2",
+      "zotero_key": "TVJTEVP7",
+      "title": "Environmental enrichment reverses ELS-induced visceral pain and depression through a prefrontal-limbic circuit involving CB1Rs",
+      "authors": [
+        [
+          "Siting",
+          "Huang"
+        ],
+        [
+          "Ning-Ning",
+          "Ji"
+        ],
+        [
+          "Ying",
+          "Wang"
+        ],
+        [
+          "Long",
+          "Huang"
+        ],
+        [
+          "Zi-Ming",
+          "Zhou"
+        ],
+        [
+          "Yiwen",
+          "Niu"
+        ],
+        [
+          "Jian-Hua",
+          "Xi"
+        ],
+        [
+          "Yong-Mei",
+          "Zhang"
+        ]
+      ],
+      "journal": "Communications Biology",
+      "year": "2026",
+      "abstract": "Neonatal colorectal distension (CRD), as a mechanical stress stimulus in early life to simulate irritable bowel syndrome (IBS), increases susceptibility to visceral pain and depression-like behaviors in adulthood. Enriched environment (EE) treatment effectively counteracts these effects, but the underlying neural circuit and molecular mechanisms remain poorly defined. Here, we investigate whether EE reverses visceral pain and depression by modulating cannabinoid type-1 receptors (CB1Rs) in the PrLGlu→avBNST pathway. A multidisciplinary combination of behaviors, chemogenetics, optogenetics, pharmacology, molecular and electrophysiological approaches is applied. In CRD rats, CB1Rs-expressing glutamatergic neurons in prelimbic cortex (PrL) projecting to the anteroventral bed nucleus of the stria terminalis (avBNST) promote visceral pain and depression. EE exerts analgesic and antidepressant effects by rescuing PrLGlu→avBNSTGABA pathway activity and reducing CB1Rs expression. EE also reverses the CRD-induced paraventricular nucleus (PVN) hyperactivity by reversing the dysfunction of this pathway. Together, EE alleviates chronic visceral pain and comorbid depression by restoring homeostasis in the CB1Rs-modulated PrLGlu→avBNSTGABA→PVN pathway. Combining EE and CB1Rs-targeted pharmacological modulation offers a promising therapeutic strategy for early-life developmental disorder-related pain-depression comorbidities.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "1122983",
@@ -10412,6 +11085,68 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41729106",
+      "doi": "10.1111/aos.70094",
+      "zotero_key": "HXPW3Q6P",
+      "title": "Identification and functional validation of a novel disease‐causing variant in the noncoding region of NYX",
+      "authors": [
+        [
+          "Filip",
+          "Spanic"
+        ],
+        [
+          "Christelle",
+          "Michiels"
+        ],
+        [
+          "Julien",
+          "Navarro"
+        ],
+        [
+          "Aline",
+          "Antonio"
+        ],
+        [
+          "Christel",
+          "Condroyer"
+        ],
+        [
+          "Camille",
+          "Andrieu"
+        ],
+        [
+          "Billy",
+          "Gipsy"
+        ],
+        [
+          "Sylvie",
+          "Berthémy‐Pellet"
+        ],
+        [
+          "Mathilde",
+          "Gallice"
+        ],
+        [
+          "Isabelle",
+          "Audo"
+        ],
+        [
+          "Christina",
+          "Zeitz"
+        ]
+      ],
+      "journal": "Acta Ophthalmologica",
+      "year": "2026",
+      "abstract": "PURPOSE: Inherited retinal diseases (IRDs) are a clinically and genetically heterogeneous group of disorders, with ~30% of cases remaining genetically unsolved. Complete congenital stationary night blindness (cCSNB) is a subtype of IRD, usually associated with reduced visual acuity, nystagmus and high myopia. Most cases are caused by variants in NYX, TRPM1, GRM6, GPR179 or LRIT3. This study aimed to identify the genetic defect in a subject with clinically diagnosed cCSNB lacking coding variants in known associated genes. METHODS: A male patient presented with an electroretinogram profile consistent with cCSNB in the absence of high myopia. Pathogenic variants were not detected using Sanger sequencing of the coding regions of all known CSNB-associated genes. Whole genome sequencing (WGS) and bioinformatic analysis using SpliceAI, Pangolin, REVEL, CADD v1.7, BayesDel and MetaRNN were performed to detect potential pathogenic variants. Functional impact of this variant has been analysed using LINSIGHT, ReMM and FunUV. A minigene assay was used to assess the splicing impact of the identified variant. RESULTS: WGS identified a novel c.-57G>A variant in the 5' untranslated region, within exon 1 of NYX coding for nyctalopin. In silico predictions suggested this variant to alter splicing, which was confirmed by a minigene assay showing abnormal expression of NYX. The defect was predicted to reduce nyctalopin production, potentially explaining the milder cCSNB phenotype. CONCLUSIONS: To our knowledge, this is the first report describing a noncoding variant in NYX causing CSNB but lacking high myopia. These results highlight the clinical importance of screening noncoding regions of known IRD genes in genetically unsolved cases. Whether the development of high myopia in cCSNB depends on the type and location of NYX variants remains to be elucidated.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NYX"
+    },
+    {
       "pmid": "41941006",
       "doi": "10.1007/s10123-026-00810-7",
       "zotero_key": "TVGWH8FR",
@@ -10425,6 +11160,52 @@
       "journal": "International Microbiology",
       "year": "2026",
       "abstract": "Streptococcus mutans plays a key role in the oral ecosystem through dental plaque formation and initiation of dental caries, the foremost oral health problem around the world. This study aimed to determine antimicrobial resistance patterns and to investigate the phylogenetic relationships of local multidrug-resistant (MDR) S. mutans isolated from dental caries in Kurdish patients in Sulaymaniyah city, Iraqi Kurdistan Region. Dental plaque samples were collected from 160 adult Kurdish patients diagnosed with dental caries who attended the dental clinic of the College of Dentistry, University of Sulaimani. Isolation and identification of S. mutans were carried out using conventional culture methods, Gram staining, and the automated biochemical testing, followed by molecular confirmation using conventional PCR. Antimicrobial susceptibility testing of the confirmed isolates was performed using VITEK® 2 system against seventeen antimicrobial agents. MDR isolates (resistant to ≥ 3 antimicrobial categories) were further subjected to partial sequencing of gtfD gene, and phylogenetic analysis (Neighbor-Joining method) was conducted by comparison with global reference strains. Out of the 160 samples analysed, 112 S. mutans isolates were identified, of which 13 (11.6%) were classified as MDR. Partial gtfD gene sequences of the MDR isolates were successfully obtained and submitted to the GenBank database. Phylogenetic analysis revealed the presence of multiple well-supported clusters, including a distinct in dependent clade as well as closely related clades showing genetic similarity to international reference strains. These findings suggest that the studied isolates represent both globally disseminated S. mutans lineages and region-specific genetic variants. This study demonstrates a considerably high prevalence of S. mutans among adult Kurdish patients with dental caries and highlights variable antimicrobial resistance patterns. The observed phylogenetic relatedness between local MDR isolates and strains from diverse geographical regions indicates overall genetic stability of S. mutans, with evidence of localized microevolutionary diversification. The coexistence of globally related strains and locally evolving lineages suggests ongoing international dissemination coupled with regional adaptation, underscoring the importance of continuous localized molecular surveillance and region-specific antimicrobial stewardship strategies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42046031",
+      "doi": "10.1186/s12864-026-12890-w",
+      "zotero_key": "GA6W34RH",
+      "title": "Identification and validation of stable reference genes via transcriptome analysis for studying sex differentiation in tung tree (Vernicia fordii)",
+      "authors": [
+        [
+          "Jie",
+          "Cao"
+        ],
+        [
+          "Wenying",
+          "Li"
+        ],
+        [
+          "Meilan",
+          "Liu"
+        ],
+        [
+          "Junjie",
+          "Chen"
+        ],
+        [
+          "Chong",
+          "Ge"
+        ],
+        [
+          "Lichuan",
+          "Xiao"
+        ],
+        [
+          "Lin",
+          "Zhang"
+        ]
+      ],
+      "journal": "BMC Genomics",
+      "year": "2026",
+      "abstract": "Tung oil, obtained from the seeds of the tung tree (Vernicia fordii), holds significant economic value. Nevertheless, the low proportion of female flowers in tung trees limits tung oil yield. Studying the expression of genes involved in sex differentiation provides a promising strategy for increasing the female flower ratio through molecular breeding. Accurate normalization is critical for stable gene expression quantification in qRT-PCR. This study identified stable reference genes for sex differentiation research in the tung tree. Using transcriptome data from diverse floral samples of tung tree, we identified 10 candidate genes and subsequently assessed their expression stability across various tissues using multiple algorithms. Among them, ERF3A and OLA1 exhibited the highest stability in floral tissues. Validation experiments demonstrated that using these stable genes for normalization yielded consistent expression patterns for target genes AP3 and SEP2-2, whereas unstable references led to significant misinterpretation. Thus, ERF3A and OLA1 are proposed for use as reference genes in qRT-PCR when investigating sex differentiation in the tung tree. This study lays a solid foundation for elucidating the molecular mechanisms of sex differentiation in the tung tree.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -10505,6 +11286,110 @@
       "journal": "Journal of Proteome Research",
       "year": "2026",
       "abstract": "Growth failure in infants born preterm is a significant issue, increasing the risk of poorer neurodevelopmental outcomes and metabolic syndrome later in life. The aim of this study was to characterize patterns associated with urinary metabolites in extremely preterm and very preterm infants and to explore relationships with growth over time. Untargeted hydrogen-1 nuclear magnetic resonance (1H NMR) spectroscopy was used to characterize changes in urinary metabolites over time and explore relationships with growth and nutritional intake. Partial least-squares regression models were constructed to identify metabolic variation associated with age, growth, and nutrition. Biochemical aging differed between very (mean 29.4 weeks ± 1.08 gestational age; n = 21) and extremely (≤28 weeks gestational age; n = 33) preterm infants, but these differences were not apparent when urinary metabolites were aligned to postmenstrual age. Citrate was the only metabolite significantly positively associated with weight-for-age Z-score. At weeks 1 and 2, citrate was positively associated with gestational age and a greater increase in WAZ from birth to discharge. Biochemical aging aligned to chronological age differed between very and extremely preterm infants, but this variation was lost when aligned to postmenstrual age. Urinary citrate excretion in the first two weeks of life was associated with weight gain and may be a future modifiable biomarker to improve growth outcomes.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42055787",
+      "doi": "10.1136/bjo-2025-329283",
+      "zotero_key": "9UT3PXKQ",
+      "title": "Impact of visit schedule on estimated success rates in glaucoma surgical studies.",
+      "authors": [
+        [
+          "Alessandro",
+          "Rabiolo"
+        ],
+        [
+          "Daniela",
+          "Khaliliyeh"
+        ],
+        [
+          "Sang Wook",
+          "Jin"
+        ],
+        [
+          "Esteban",
+          "Morales"
+        ],
+        [
+          "Luca",
+          "Rossetti"
+        ],
+        [
+          "Nitin",
+          "Anand"
+        ],
+        [
+          "Giovanni",
+          "Montesano"
+        ],
+        [
+          "Francesco",
+          "Oddone"
+        ],
+        [
+          "Joseph",
+          "Caprioli"
+        ],
+        [
+          "Stefano De",
+          "Cillà"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "AIMS: To evaluate how different methods of managing multiple visits within predefined time windows affect intraocular pressure (IOP)-based success rates in glaucoma surgery studies. METHODS: We applied literature-based high IOP failure criteria to two cohorts of 934 and 1760 eyes undergoing trabeculectomy and deep sclerectomy (DS) with median follow-up of 41.4 months and 45.4 months, respectively. Failure was defined by IOP thresholds, loss of light perception, hypotony requiring revision or additional IOP-lowering surgery. Visits were grouped into guideline-based windows and six visit-managing strategies were applied to all visits, mean, lowest, highest, median and closest IOP to the recommended time point. We calculated Kaplan-Meier success rates for each visit-managing strategy. Visual field (VF) analysis was conducted on patients in the trabeculectomy cohort with ≥4 VFs in ≥2 years post-surgery. RESULTS: For the 21 mm Hg threshold, 5-year success was highest with the lowest IOP (trabeculectomy: 54.8%; DS: 74.5%), followed by closest IOP (trabeculectomy: 46.7%; DS: 67.6%), the median (trabeculectomy: 46.9%; DS: 69.1%) and mean IOP (trabeculectomy: 46.3%; DS: 68.6%). Success rates were lower with peak IOP (trabeculectomy: 39.3%; DS: 60.4%) and all visits IOP (trabeculectomy: 38.8%; DS: 61.0%). In the VF subset, eyes classified as failures demonstrated significantly faster mean deviation (MD) progression than those classified as successes although substantial overlap in the distribution of MD rates persisted between groups under every strategy. CONCLUSIONS: Visit-managing strategies influence reported success rates. None of the evaluated approaches achieved a clear separation in VF progression rates, underscoring the inherent limitations of IOP-threshold-based classifications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
+      "pmid": "42035116",
+      "doi": "10.1186/s12909-026-09297-2",
+      "zotero_key": "86NJM6UG",
+      "title": "Improving delirium knowledge and recognition confidence in nursing homes through an e-learning program: a pre–post study",
+      "authors": [
+        [
+          "Vincent",
+          "Molitor"
+        ],
+        [
+          "Johanna Christina",
+          "Seiters"
+        ],
+        [
+          "Jonas",
+          "Hoch"
+        ],
+        [
+          "Petra",
+          "Thürmann"
+        ],
+        [
+          "Bernhard",
+          "Holle"
+        ],
+        [
+          "Horst Christian",
+          "Vollmar"
+        ],
+        [
+          "Rebecca",
+          "Palm"
+        ]
+      ],
+      "journal": "BMC Medical Education",
+      "year": "2026",
+      "abstract": "Delirium is a neuropsychiatric syndrome associated with serious complications. Residents of nursing homes are particularly vulnerable to developing delirium. Nurses play a key role in the prevention, detection, and management of delirium but often report a lack of specific knowledge and understanding. The aim of this study was to develop and evaluate a tailored e-learning programme on delirium for nurses working in German nursing homes. This pilot study employed a single-group pre-post design. Between January and March 2025, nurses from German nursing homes completed a delirium-specific e-learning program consisting of five modules on risk factors, causes, prevention, symptoms, diagnosis, and treatment. Participants completed a delirium knowledge questionnaire and rated their confidence in recognizing delirium before and after training. Evaluation questions assessed usability and relevance. A total of 80 nurses completed the e-learning program as well as the pre- and posttests. Delirium-specific knowledge improved from a median of 32 to 40 correct answers (interquartile range [IQR] = 9.25 vs. 7.5; p < 0.001). Subjective confidence in recognizing delirium increased from 5 to 7 (IQR = 2.25 vs. 1; p < 0.001) on a 10-point scale. Both improvements showed large effect sizes (knowledge: r = 0.86; subjective confidence: r = 0.92). Most nurses rated the training as highly relevant and usable. Residents of nursing homes are at increased risk of delirium, while nursing staff report a clear need for delirium-specific expertise. Findings from this pilot study suggest that the tailored e-learning program may enhance nurses’ knowledge and confidence in recognizing delirium. The program represents a promising foundation for structured delirium training in nursing homes and warrants further evaluation in larger and long-term studies.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -10606,6 +11491,52 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42044292",
+      "doi": "10.1249/mss.0000000000004010",
+      "zotero_key": "6WMIDPP3",
+      "title": "Increased Pre-Activation and Co-Contraction in ACL-Reconstructed Athletes: Insights from AI-based EMG Analysis",
+      "authors": [
+        [
+          "Marco",
+          "Ghislieri"
+        ],
+        [
+          "Federica",
+          "Russo"
+        ],
+        [
+          "Riccardo",
+          "Borzuola"
+        ],
+        [
+          "A.",
+          "Baldazzi"
+        ],
+        [
+          "Lorenzo",
+          "Rum"
+        ],
+        [
+          "Elena",
+          "Bergamini"
+        ],
+        [
+          "Valentina",
+          "Agostini"
+        ]
+      ],
+      "journal": "Medicine & Science in Sports & Exercise",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Anterior Cruciate Ligament (ACL) tears disrupt the neural structures within the ligament, impairing the neuromuscular control of knee-stabilizing muscles. Consequently, muscle activity patterns are a crucial area of research in return-to-sport evaluation after ACL Reconstruction (ACL-R). Artificial intelligence-based methods may help identify and extract meaningful parameters from these patterns. This study aims at accurately and reliably quantifying knee muscle pre-activation and timing-based co-contraction indexes in athletes with and without ACL-R during sports-specific landing tasks using an artificial intelligence approach. METHODS: Eleven athletes with ACL-R and 18 Control Athletes (CA) performed two landing tasks: single-leg hop and single-leg cross drop landing. EMG signals were recorded bilaterally from four knee-stabilizing muscles: Biceps Femoris (BF), SemiTendinosus (ST), Vastus Lateralis (VL), and Vastus Medialis (VM). Muscle pre-activation onsets prior to landing and timing-based co-contraction indexes were computed through a pre-trained deep learning-based muscle activity detector (LSTM-MAD). To ensure comparability with state-of-the-art approaches, amplitude-based EMG co-contraction indexes were also computed. RESULTS: LSTM-MAD estimated muscle pre-activation onset with an error under 23 ms compared to manual segmentations by three experts. During single-leg hops, ACL-R athletes exhibited significantly greater BF (ACL-R: -193±12 ms; CA: -152±5 ms; p=0.002) and ST (ACL-R: -189±11 ms; CA: -140±4 ms; p<0.001) pre-activations and longer co-contraction durations (ACL-R: 69±2%; CA: 54±2%; p<0.001) compared to CA. During single-leg cross drop landings, ACL-R athletes showed greater BF (ACL-R: -234±25 ms; CA: -150±11 ms; p=0.02) pre-activations and longer BF and ST co-contractions (ACL-R: 55±5%; CA: 35±2%; p=0.003) compared to CA. At return-to-sport, ACL-R athletes demonstrated greater BF and ST pre-activation and co-contraction during landing tasks. CONCLUSIONS: Integrating artificial intelligence-based methods to assess neuromuscular control could improve the effectiveness of rehabilitation protocols, facilitating safer return-to-sport decisions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41770812",
       "doi": "10.1182/blood.2025031593",
       "zotero_key": "WGUDFNUF",
@@ -10698,6 +11629,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42053838",
+      "doi": "10.1007/s10571-026-01714-w",
+      "zotero_key": "4ZD7ZGZ6",
+      "title": "Integrative Analysis Identifies PANoptosis-Associated Molecular Patterns and Immune Alterations in Rat Cerebral Ischemic-Reperfusion Injury.",
+      "authors": [
+        [
+          "Li",
+          "Li"
+        ],
+        [
+          "Yu",
+          "Wang"
+        ],
+        [
+          "Huili",
+          "Li"
+        ],
+        [
+          "Gao",
+          "Y"
+        ],
+        [
+          "Lan",
+          "Luo"
+        ],
+        [
+          "S P",
+          "Wang"
+        ],
+        [
+          "Mu",
+          "Jin"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Cerebral ischemia-reperfusion (I/R) injury triggers a cascade of neuroinflammatory responses and multiple forms of regulated cell death. PANoptosis, integrating pyroptosis, apoptosis, and necroptosis, has been implicated in inflammatory disorders, but its role in cerebral I/R remains unclear. This study explored the molecular profile and immune relevance of PANoptosis-related genes (PRGs) in rat I/R injury. A rat I/R model was established by transient middle cerebral artery occlusion (MCAO). Transcriptome sequencing identified differentially expressed genes (DEGs) using DESeq2, and PANoptosis-related DEGs (PR-DEGs) were obtained by intersecting with GeneCards-derived PRGs. Functional enrichment (GO, KEGG, Metascape, GSEA), weighted gene co-expression network analysis (WGCNA), and immune infiltration analyses were performed to uncover biological functions and immune features associated with PR-DEGs. Rats subjected to I/R injury showed significant infarction, neurological deficits, and increased TNF-α, IL-1β, and IL-10 expression, along with downregulated Bcl-2 and upregulated CD16 and iNOS, indicating strong inflammatory responses. A total of 51 PR-DEGs were identified, primarily enriched in inflammatory and immune signaling pathways such as TNF, NF-κB, and MAPK. WGCNA revealed the salmon module as most correlated with I/R injury, and hub genes including CASP8, STAT3 were identified. Correlation and immune infiltration analyses demonstrated strong associations between key PR-DEGs and pro-inflammatory immune cells, suggesting a close relationship between PANoptosis-associated gene expression patterns and immune dysregulation in I/R injury. Our findings suggest coordinated activation of PANoptosis-related signaling in cerebral I/R injury. CASP8 and STAT3 were identified as key PR-DEGs associated with I/R, providing a foundation for further mechanistic investigation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "23956131",
@@ -11540,6 +12517,32 @@
       "subcollection": "Vitreoretinopathies"
     },
     {
+      "pmid": "42038452",
+      "doi": "10.4274/tjo.galenos.2026.65259",
+      "zotero_key": "V79IETAW",
+      "title": "Letter to the Editor Re: Preferred Retinal Locus in Juvenile Macular Dystrophy",
+      "authors": [
+        [
+          "Shyam Sundar",
+          "Sah"
+        ],
+        [
+          "Abhishek",
+          "Kumbhalwar"
+        ]
+      ],
+      "journal": "Turkish Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "We read with great interest the study by Erbezci et al., 1 which examined the topographic and functional characteristics of preferred retinal loci (PRLs) in juvenile macular dystrophy using scanning laser ophthalmoscopy and microperimetry.The age-stratified analysis and fixation-tracking methodology provide meaningful contributions to the literature on eccentric fixation in inherited maculopathies.However, several aspects merit closer scrutiny to clarify the implications for low-vision rehabilitation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
+    },
+    {
       "pmid": "41832760",
       "doi": "10.1002/jpen.70078",
       "zotero_key": "CKQ7ICRC",
@@ -11912,6 +12915,36 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42053130",
+      "doi": "10.1111/wrr.70160",
+      "zotero_key": "A9SC3J7M",
+      "title": "Long-Term Ex Vivo Human Skin Models for Burn Injury Research: A Scoping Review.",
+      "authors": [
+        [
+          "Charlotte",
+          "Dermaux"
+        ],
+        [
+          "Nathalie",
+          "Roche"
+        ],
+        [
+          "Karel E Y",
+          "Claes"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Human burn wounds exhibit complex, depth-dependent healing processes that may extend beyond 21 days, underscoring the need for human-relevant long-term experimental models. Conventional in vitro systems, bio-engineered skin constructs and animal models fail to adequately reproduce the structural organization, depth-dependent injury patterns and temporal progression characteristic of human burn wounds. Ex vivo human skin explant models preserve native tissue architecture and therefore represent a promising translational alternative; however, their capacity to sustain long-term viability and regenerative responses remains insufficiently defined. This scoping review systematically mapped how thermally induced burn models using ex vivo human skin are designed, maintained and evaluated, with particular emphasis on factors enabling extended culture. The review was conducted in accordance with PRISMA-ScR guidelines. PubMed and Web of Science were searched for studies published between 2015 and 2025 describing thermally induced burns in ex vivo human skin explants. Eligible studies were descriptively charted focusing on burn induction methods, culture duration, tissue viability assessments, wound healing endpoints and model applications. Seven studies met the inclusion criteria, reporting culture durations ranging from 3 to 27 days. Sustained viability beyond 2 weeks was achieved using optimised strategies such as air-liquid interface culture and mechanical stabilisation. Burn depth emerged as the primary determinant of tissue survival and regenerative capacity, with re-epithelialization observed only in superficial or partial-thickness burns under extended culture conditions. These findings highlight both the translational potential and the need for methodological standardisation of long-term ex vivo human burn models.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41949715",
@@ -12478,6 +13511,56 @@
       "subcollection": "ACO2"
     },
     {
+      "pmid": "42032691",
+      "doi": "10.1186/s12967-026-08179-x",
+      "zotero_key": "ZIK5NFJI",
+      "title": "Mesenchymal stem cells for recurrent miscarriage",
+      "authors": [
+        [
+          "Famela S.",
+          "Ramos"
+        ],
+        [
+          "Jesus",
+          "Perez"
+        ],
+        [
+          "George K.",
+          "Ng"
+        ],
+        [
+          "James",
+          "Veltmeyer"
+        ],
+        [
+          "Michael P.",
+          "Koumjian"
+        ],
+        [
+          "Feng",
+          "Lin"
+        ],
+        [
+          "Dede",
+          "Byrne"
+        ],
+        [
+          "George",
+          "Delgado"
+        ]
+      ],
+      "journal": "Journal of Translational Medicine",
+      "year": "2026",
+      "abstract": "Recurrent pregnancy loss (RPL), affecting 1–5% of couples, is frequently driven by immunological dysregulation, including excessive natural killer (NK) cell cytotoxicity, reduced regulatory T cell (Treg) function, Th1/Th17 dominance, and inflammatory cytokine imbalance at the maternal-fetal interface. These abnormalities disrupt immune tolerance to the semi-allogeneic fetus, leading to implantation failure or early miscarriage. Current interventions (e.g. low-dose aspirin/heparin for antiphospholipid syndrome, intravenous immunoglobulin, or corticosteroids) show variable efficacy and limitations, particularly in unexplained cases. Mesenchymal stem cells (MSCs), with proven immunomodulatory, anti-inflammatory, and tissue-repair properties, have gained regulatory approval for severe immune dysregulation conditions like steroid-refractory graft-versus-host disease (GVHD), which shares pathophysiological parallels with immune-mediated RPL, including NK hyperactivity and deficient Treg tolerance. MSCs from sources such as bone marrow, adipose tissue, or umbilical cord exert context-dependent effects, secreting anti-inflammatory factors (e.g. IL-10, TGF-β), suppressing pro-inflammatory cytokines, inhibiting cytotoxic NK activity, and promoting Treg expansion and function to restore immune homeostasis. Preclinical studies in abortion-prone mouse models (e.g. CBA/J × DBA/2) demonstrate that MSCs reduce fetal resorption by attenuating inflammation, enhancing placental angiogenesis, and balancing decidual immune responses. Emerging human data support MSCs for uterine repair in conditions like thin endometrium or Asherman syndrome, improving endometrial thickness and pregnancy outcomes. Unlike broad immunosuppressants, MSCs offer targeted, responsive modulation with low immunogenicity, minimal tumorigenicity, and potential for autologous or allogeneic use via simple infusion routes. MSCs represent a promising, novel therapeutic strategy for immunologically mediated RPL by addressing core immune imbalances and supporting placental/tissue health, potentially outperforming existing options in unexplained cases. Building on FDA-approved MSC therapies for analogous immune pathologies and encouraging preclinical results, clinical investigation of MSC-based interventions is warranted to establish safety, efficacy, and optimal protocols for this challenging condition. Not applicable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "4641194",
       "doi": "",
       "zotero_key": "FPTEDBI4",
@@ -12536,6 +13619,68 @@
       ],
       "category": "6 - Genes",
       "subcollection": "LSS"
+    },
+    {
+      "pmid": "42053999",
+      "doi": "10.1002/vms3.70965",
+      "zotero_key": "GJN8DI9T",
+      "title": "Molecular Characterization of Eustrongylides sp. Infecting Channa punctata in Bangladesh.",
+      "authors": [
+        [
+          "Salman Shahriar",
+          "Nibir"
+        ],
+        [
+          "Anita Rani",
+          "Dey"
+        ],
+        [
+          "Tanvir",
+          "Rahman"
+        ],
+        [
+          "Julfat Tasnim",
+          "Suchona"
+        ],
+        [
+          "Siyam",
+          "Hossain"
+        ],
+        [
+          "Savayan Sadad",
+          "Bushra"
+        ],
+        [
+          "Jubaida Parveen",
+          "Juthy"
+        ],
+        [
+          "Sandhya",
+          "Paul"
+        ],
+        [
+          "Jarin Tasnim",
+          "Tanwi"
+        ],
+        [
+          "Tamanna",
+          "Tabassum"
+        ],
+        [
+          "MO",
+          "Faruk"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "BACKGROUND: Eustrongylides (nematode: Dioctophymatidae) are parasitic nematodes of freshwater fishes and fish-eating birds. It has zoonotic potential and poses a threat to human health, as infection can occur through the consumption of raw or undercooked fish. OBJECTIVES: The present study was designed to characterize Eustrongylides sp. isolated from Channa punctata using the Internal Transcribed Spacer 2 (ITS2) regions. METHODS: In this study, a total of 137 medium-sized C. punctata (17.5 ± 2.5 cm) were collected from different locations of Jamalpur and Netrokona district, Bangladesh and isolated 44 nematodes. DNA was extracted from the parasites, amplified in the ITS2 region and sequenced. RESULTS: All the nematodes were microscopically identified as belonging to the genus Eustrongylides based on morphological characteristics, including the presence of inner and outer circle labial papillae at the anterior end and the esophago-intestinal junction. Initially, the sequences were confirmed up to the lowest taxonomic level possible using Basic Local Alignment Search Tool (BLAST). For phylogenetic analysis, reference sequences of Eustrongylides sp. were aligned, and two single nucleotide polymorphisms (SNPs) were detected. The average sequence identity percentage (%) within the studied sequences ranged from 99.7% to 99.8%. A maximum-likelihood (ML) tree was constructed which showed that the studied sequences clustered within the Eustrongylides sp. lineage and grouped with reference sequences, supported by moderate bootstrap values (82%). CONCLUSIONS: Close genetic similarity was observed when compared with reference sequences of Eustrongylides sp. Further studies on the investigation of genetic pattern of Eustrongylides sp. throughout the country are essential to control this parasite.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41834484",
@@ -13338,6 +14483,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "USH2A"
+    },
+    {
+      "pmid": "42060295",
+      "doi": "10.1001/jamaophthalmol.2026.1022",
+      "zotero_key": "5H4ENTMV",
+      "title": "Nonuniform Association of Genetic Risk Scores for Intraocular Pressure.",
+      "authors": [
+        [
+          "Xi",
+          "He"
+        ],
+        [
+          "Y Q",
+          "Huang"
+        ],
+        [
+          "Denis",
+          "Plotnikov"
+        ],
+        [
+          "Louise",
+          "Terry"
+        ],
+        [
+          "Jeremy A",
+          "Guggenheim"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Importance: Elevated intraocular pressure (IOP) is a risk factor for primary open-angle glaucoma, and genetic risk scores hold promise as a tool for screening for ocular hypertension. However, genetic risk scores for IOP have a nonuniform association across the range of IOP, which reduces their accuracy. Objective: To test the hypothesis that nonuniform behavior of genetic risk scores for IOP is associated with a specific type of genetic interaction. Design, Setting, and Participants: Cross-sectional, post hoc genetic association studies were performed using linear and quantile regression in a sample of UK Biobank participants. Data were analyzed from January to September 2025. Exposures: Ninety-eight genetic variants associated with IOP. Main Outcomes and Measures: Tests were carried out for 98 genetic variants associated with IOP (P < 5.0 ×10-8) to examine (1) dominant or recessive genetic effects, (2) genotype × genotype interactions, (3) genotype × age interactions, and (4) genotype × sex interactions. Results: A total of 98 235 participants (mean [SD] age, 58.1 [7.9] years; 52 168 female [53.1%]) were included in this analysis. More variants exhibited genotype × age interactions than expected by chance (14 of the 98 variants associated with IOP had at least nominal evidence of an interaction with age; P = 3.76 ×10-4). For 12 of these 14 variants, age increased rather than decreased the magnitude of the IOP vs genotype association. However, integrating age interactions into the genetic risk score construction process did not yield improved accuracy (incremental noninteraction model, R2 = 4.05; 95% CI, 3.82-4.31 and interaction model, R2 = 4.04; 95% CI, 3.80-4.27). There was little support for other types of genetic interaction. Conclusions and Relevance: In the current work, findings show minimal evidence that nonadditive allelic effects, genotype × genotype interactions, and genotype × sex interactions contributed to the nonuniform association of genetic variants with IOP across quantiles of IOP. Although a genetic risk score for IOP was more accurate in older vs younger individuals, efforts to account for genotype × age interactions in genetic risk score construction did not improve accuracy. These findings suggest other factors, such as gene-environment interactions, contribute to the nonuniform relationship of genetic variants with IOP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "17230742",
@@ -14264,6 +15447,80 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "41901018",
+      "doi": "10.3390/life16030500",
+      "zotero_key": "RXR7V6AU",
+      "title": "Phenotype-Driven Next-Generation Sequencing and Structure-Based In Silico Analysis Reveal Disease-Specific Diagnostic Yield and Genotype–Phenotype Correlations in Inherited Kidney Diseases",
+      "authors": [
+        [
+          "Savas",
+          "Baris"
+        ],
+        [
+          "Kerem",
+          "Terali"
+        ],
+        [
+          "Serdar",
+          "Bozlak"
+        ],
+        [
+          "Neslihan",
+          "Yilmaz"
+        ],
+        [
+          "Halil Ibrahim",
+          "Yilmaz"
+        ],
+        [
+          "Cuneyd",
+          "Yavas"
+        ],
+        [
+          "Recep",
+          "Eröz"
+        ],
+        [
+          "Mürsel",
+          "HAZALOĞLU"
+        ],
+        [
+          "Kübra",
+          "Özen"
+        ],
+        [
+          "Alper",
+          "Gezdirici"
+        ],
+        [
+          "Mustafa",
+          "Dogan"
+        ],
+        [
+          "Huseyin",
+          "Kilic"
+        ],
+        [
+          "Şenol",
+          "Demir"
+        ],
+        [
+          "Ibrahim",
+          "Baris"
+        ]
+      ],
+      "journal": "Life",
+      "year": "2026",
+      "abstract": "BACKGROUND: Inherited kidney diseases represent a genetically and clinically heterogeneous group of disorders affecting both pediatric and adult populations. Advances in next-generation sequencing (NGS) have improved diagnostic precision; however, genotype-phenotype correlations and diagnostic yield vary substantially across disease entities. METHODS: We retrospectively evaluated 165 patients referred for genetic testing due to suspected inherited kidney disease. Patients were classified into three clinical groups: polycystic kidney disease, Alport syndrome, and other syndromic patients with inherited kidney diseases. Genetic analysis was performed using NGS with Human Phenotype Ontology-based gene filtering and included evaluation of both single-nucleotide variants and copy number variations. RESULTS: , while a substantial proportion of patients remained genetically negative, reflecting technical and biological complexity. The Other group exhibited pronounced genetic heterogeneity, with variants distributed across multiple genes involved in tubular, glomerular, metabolic, and ciliopathy-related pathways. Computational assessments demonstrated that several variants of uncertain significance (VUS) were located in functionally critical domains and were predicted to disrupt protein stability, intermolecular interactions, or conserved structural motifs, thereby supporting the biological plausibility of their potential pathogenic impact. CONCLUSIONS: Phenotype-driven NGS enables effective molecular diagnosis across diverse inherited kidney diseases while revealing disease-specific differences in diagnostic yield and genotype-phenotype correlations. Systematic inclusion of variants of uncertain significance and careful integration of genetic and clinical data are essential for accurate interpretation and long-term patient management. Collectively, this study enhances understanding of inherited kidney diseases and underscores the value of integrating comprehensive genomic and computational approaches into routine nephrogenetic practice.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
+    },
+    {
       "pmid": "10626006",
       "doi": "",
       "zotero_key": "FJD5R747",
@@ -14456,6 +15713,40 @@
       "subcollection": "Retinal dystrophies"
     },
     {
+      "pmid": "42034991",
+      "doi": "10.1186/s12872-026-05901-x",
+      "zotero_key": "GJEUGH29",
+      "title": "Predictive value of combined TyG-BMI and hsCRP for clinical outcomes in patients with chronic coronary syndrome undergoing PCI: a retrospective cohort study",
+      "authors": [
+        [
+          "Xiaodi",
+          "Ji"
+        ],
+        [
+          "Peipei",
+          "Lu"
+        ],
+        [
+          "Siyu",
+          "Yan"
+        ],
+        [
+          "L I H O N G",
+          "Ma"
+        ]
+      ],
+      "journal": "BMC Cardiovascular Disorders",
+      "year": "2026",
+      "abstract": "This retrospective cohort study investigated the joint prognostic value of the triglyceride glucose-body mass index (TyG-BMI) and high-sensitivity C-reactive protein (hsCRP) for post-PCI adverse outcomes in patients with chronic coronary syndromes (CCS) undergoing percutaneous coronary intervention (PCI). A total of 2274 patients were enrolled and categorized into TyG-BMI tertiles (T1-T3), and were further stratified by hsCRP levels (≤ 3 vs. > 3 mg/L). The primary endpoint was a composite of repeat revascularization or in-stent restenosis (ISR). Cox regression, restricted cubic spline, joint stratification, interaction, sensitivity, and time-specific analyses were performed, including an analysis censored at 12 months and a 1-year landmark analysis. Over a median follow-up of 60.5 months, 1054 patients (46.4%) experienced the primary endpoint. Each 100-unit increase in TyG-BMI was associated with a 30.8% higher risk of the composite endpoint (adjusted HR 1.308, 95% CI 1.106–1.546; P = 0.002), with a linear association observed across the TyG-BMI range. Compared with T1, patients in T3 had a significantly higher risk of the composite endpoint (adjusted HR 1.263, 95% CI 1.086–1.468; P = 0.002). In cross-stratified analyses, hsCRP > 3 mg/L was associated with a higher risk only in the T3 group (adjusted HR 1.325, 95% CI 1.082–1.623; P = 0.006). Compared with patients in TyG-BMI T1 and hsCRP ≤ 3 mg/L, those in TyG-BMI T3 and hsCRP > 3 mg/L had a 52.3% higher risk of the composite endpoint (adjusted HR 1.523, 95% CI 1.239–1.872; P < 0.001). No significant multiplicative or additive interaction between TyG-BMI and hsCRP was detected. In time-specific analyses, this combined high-risk subgroup showed a modest association with events within the first year after PCI, whereas in the 1-year landmark analysis it remained at the highest risk of the composite endpoint beyond 1 year (adjusted HR 1.569, 95% CI 1.218–2.021; P < 0.001). Concurrent elevation of TyG-BMI and hsCRP identifies a subgroup of CCS patients at particularly high risk of repeat revascularization or ISR after PCI. Combined assessment of these two markers may provide complementary prognostic information after PCI, particularly for identifying longer-term residual risk.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "40371404",
       "doi": "10.15386/mpr-2743",
       "zotero_key": "8KBUABHW",
@@ -14590,6 +15881,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, posterior polymorphous"
+    },
+    {
+      "pmid": "42045071",
+      "doi": "10.1523/jneurosci.0164-26.2026",
+      "zotero_key": "6V6SHIXA",
+      "title": "Protein Inhibitor of Retinal Membrane Guanylyl Cyclase Rescues Mouse Rod Photoreceptors from GUCY2D Retinal Dystrophy",
+      "authors": [
+        [
+          "Shinya",
+          "Sato"
+        ],
+        [
+          "Igor V.",
+          "Peshenko"
+        ],
+        [
+          "Elena V.",
+          "Olshevskaya"
+        ],
+        [
+          "Vladimir J.",
+          "Kefalov"
+        ],
+        [
+          "Alexander M.",
+          "Dizhoor"
+        ]
+      ],
+      "journal": "Journal of Neuroscience",
+      "year": "2026",
+      "abstract": "adCORD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
     },
     {
       "pmid": "41787648",
@@ -14906,6 +16235,40 @@
       "subcollection": "Congenital glaucoma"
     },
     {
+      "pmid": "42044501",
+      "doi": "10.2196/87847",
+      "zotero_key": "RNA8P43N",
+      "title": "Reciprocal Within-Person Dynamics Between Internet Gaming Disorder Symptoms, Physical Activity, and Loneliness Among Chinese Adolescent Gamers: Three-Wave Prospective Cohort Study",
+      "authors": [
+        [
+          "Chang",
+          "Hu"
+        ],
+        [
+          "Xuan",
+          "Meng"
+        ],
+        [
+          "Xi",
+          "Wang"
+        ],
+        [
+          "Jilin",
+          "Huang"
+        ]
+      ],
+      "journal": "JMIR Serious Games",
+      "year": "2026",
+      "abstract": "BACKGROUND: Problematic gaming and internet gaming disorder (IGD) symptoms are prevalent in adolescence, yet the longitudinal interplay between physical activity (PA), loneliness, and IGD symptoms, as well as potential sexual differences, remains unclear. OBJECTIVE: This study aimed to examine reciprocal within-person associations between PA, loneliness, and IGD symptoms among Chinese adolescent gamers and test sexual differences in these associations. METHODS: We conducted a three-wave prospective cohort study among 1332 Chinese adolescents selected using convenience sampling from five middle schools in central China who had engaged in online gaming during the previous year (n=441, 33.1%, females; mean age 3.64, SD 0.76, years). PA, loneliness, and IGD symptoms were assessed using the Physical Activity Rating Scale-3, the three-item short form of the University of California, Los Angeles Loneliness Scale, and the nine-item Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition IGD Checklist, respectively, at three 6-month intervals: wave 1 (baseline, T1), wave 2 (T2), and wave 3 (T3). A random intercept (RI) cross-lagged panel model (CLPM) and multigroup analyses were conducted. RESULTS: RI-CLPM indicated that at the within-person level, higher PA predicted decreased subsequent loneliness (T1→T2: β=-0.12, 95% CI -0.16 to -0.08; T2→T3: β=-0.13, 95% CI -0.17 to -0.08) and IGD symptoms (T1→T2: β=-0.10, 95% CI -0.16 to -0.04, P=.009; T2→T3: β=-0.10, 95% CI -0.16 to -0.04). Increased loneliness (β=-0.22, 95% CI -0.26 to -0.18) and increased IGD symptoms (β=-0.08, 95% CI -0.12 to -0.04) each predicted later reductions in PA, indicating a mutually reinforcing cycle. Increased loneliness also predicted an increase in subsequent IGD symptoms (T1→T2: β=0.14, 95% CI 0.11-0.17), and increased IGD symptoms, in turn, predicted greater loneliness in the next wave (T1→T2: β=0.18, 95% CI 0.14-0.22). Multigroup models indicated that the protective effect of PA on later loneliness and the prospective effect of loneliness on subsequent IGD symptoms were stronger among girls than boys. In males, PA significantly predicted loneliness (β=-0.08 to -0.09, 95% CI -0.15 to -0.01), and loneliness significantly predicted IGD symptoms (β=0.09, 95% CI 0.03-0.15). In females, the cross-lagged effects from PA to loneliness were significant but stronger (β=-0.17, 95% CI -0.23 to -0.11), and the paths from loneliness to later IGD symptoms were also significant (β=0.16, 95% CI 0.11-0.21). CONCLUSIONS: PA, loneliness, and IGD symptoms are reciprocally linked in adolescent gamers. By using RI-CLPM to distinguish within-person changes from stable between-person differences, this study extends prior research based mainly on cross-sectional designs or traditional CLPMs and provides a clearer understanding of the dynamic interplay among behavioral, emotional, and gaming-related factors. The findings highlight that interventions aiming to prevent IGD symptoms should simultaneously promote PA and reduce loneliness, with particular attention to sex-specific patterns, especially in girls.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "3340653",
       "doi": "10.1159/000138347",
       "zotero_key": "P3INE7ST",
@@ -14978,6 +16341,78 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42045276",
+      "doi": "10.1038/s41598-026-49883-4",
+      "zotero_key": "7W34CX6K",
+      "title": "Regional machine learning-based estimation of methane emissions from rice cultivation in South Korea",
+      "authors": [
+        [
+          "Hyoungseok",
+          "Lee"
+        ],
+        [
+          "Jongmun",
+          "Lee"
+        ],
+        [
+          "Sora",
+          "Lee"
+        ],
+        [
+          "Hyeran",
+          "Park"
+        ],
+        [
+          "Minji",
+          "Lee"
+        ],
+        [
+          "Youngjae",
+          "Jeong"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Machine learning approaches, XGBoost (XGB) and Random Forest (RF), were applied to estimate methane (CH₄) emissions from paddy fields in Gimje, South Korea, using three years of chamber-based observations. Both models achieved Nash–Sutcliffe efficiency (NSE) values above 0.5, indicating acceptatble predictive performance. XGB better captured extreme values and temporal variability, whereas RF reproduced mean emission trends more reliably, highlighting complementary strengths. Regional simulations produced mean emission factors of 2.64 and 2.35 kg CH₄ ha⁻1 d⁻1 for XGB and RF, respectively, comparable to or slightly higher than the Tier 2 country-specific factor (2.32 kg CH₄ ha⁻1 d⁻1) currently used in Korea’s national greenhouse gas inventory. Spatially, XGB identified high-emission hotspots with greater sensitivity, while RF yielded smoother patterns with lower uncertainty. Model-based regional estimates (6.68–7.51 Gg CH₄ yr⁻1) showed uncertainty ranges of ± 12–13%, substantially lower than the ± 50% default suggested by IPCC guidelines, underscoring the models’ robustness. These results demonstrate the feasibility of applying machine learning to CH₄ estimation at regional scales, thereby addressing the limitations of uniform Tier 2 emission factors. Incorporating region-specific, data-driven approaches can improve inventory accuracy and provide a stronger scientific basis for mitigation strategies. This study highlights the potential of machine learning models to complement existing methods and contribute to the advancement toward a Tier 3 inventory framework for agricultural greenhouse gas reporting.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42029754",
+      "doi": "10.1007/s11033-026-11848-1",
+      "zotero_key": "28B2UV7R",
+      "title": "Relationship between agr types, toxin genes, and antibiotic resistance in clinical Staphylococcus aureus isolates",
+      "authors": [
+        [
+          "YILMAZ",
+          "PULCU"
+        ],
+        [
+          "Doğanhan Kadir",
+          "Er"
+        ],
+        [
+          "Devrim",
+          "Dündar"
+        ]
+      ],
+      "journal": "Molecular Biology Reports",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "14944764",
@@ -15821,6 +17256,40 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42037267",
+      "doi": "10.4274/tjo.galenos.2026.56752",
+      "zotero_key": "AC3ZJ8QC",
+      "title": "Six-Month Outcomes of Combined Phacoemulsification and Kahook Dual Blade Excisional Goniotomy Surgery in Various Glaucoma Subtypes",
+      "authors": [
+        [
+          "Esra Biberoğlu",
+          "Çelik"
+        ],
+        [
+          "Hassan",
+          "Haidar"
+        ],
+        [
+          "Özlem",
+          "Şahin"
+        ],
+        [
+          "Muhsin",
+          "Eraslan"
+        ]
+      ],
+      "journal": "Turkish Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "Objectives: To evaluate the efficacy and safety of the Kahook Dual Blade (KDB) excisional goniotomy procedure combined with phacoemulsification in patients with primary open-angle glaucoma (POAG), pseudoexfoliation glaucoma (PEXG), and primary angle-closure glaucoma (PACG). Materials and Methods: This retrospective study included 25 eyes of 25 patients (13 males, 12 females) who underwent combined phacoemulsification and KDB excisional goniotomy for early- to moderate-stage glaucoma. Pre- and postoperative intraocular pressure (IOP), number of antiglaucoma medications, and best-corrected visual acuity (BCVA) were evaluated. Postoperative complications and surgical success rates were analyzed during a 6-month follow-up period. Surgical success was defined as a ≥20% reduction in IOP from baseline and IOP <18 mmHg, with or without medication. Results: The patients' mean age was 67.0±11.9 years; 36% had POAG, 36% PEXG, and 28% PACG. The mean preoperative IOP was 22.7±6.0 mmHg, which significantly decreased to 12.8±2.2 mmHg at 6 months (p<0.05). The median number of medications decreased from 2 preoperatively to 0 postoperatively (p<0.05). There were no significant differences in 6-month IOP values (p=0.96) or IOP reduction rates (p=0.61) among glaucoma subtypes. BCVA improved from 0.5±0.4 to 0.1±0.1 logarithm of the minimum angle of resolution (p=0.001). The most common complications were transient hyphema (12%) and corneal edema (20%), all of which resolved with conservative/topical treatment. One patient required trabeculectomy at month 3, and 3 patients demonstrated less than 20% IOP reduction. The surgical success rate at month 6 was 84%. Conclusion: The KDB procedure combined with cataract surgery provided significant reductions in both IOP and the need for IOP-lowering medications at 6 months of follow-up in patients with early and moderate POAG, PACG, and PEXG, while maintaining a very low rate of complications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
+    },
+    {
       "pmid": "3450700",
       "doi": "10.3109/17453058709150306",
       "zotero_key": "WR4XWC23",
@@ -15938,6 +17407,36 @@
       "journal": "Analytical Chemistry",
       "year": "2026",
       "abstract": "On-site rapid monitoring of the permanganate index (CODMn) is critical for assessing the distribution and transformation of dissolved organic matter (DOM) in surface water. Herein, we proposed a portable field test kit for rapid, visual, and cost-effective CODMn detection, complemented by an unmanned vessel for automated sampling. The method exploits the solid-phase fluorescence filter effect (SPFFE) between carbon dots (CDs) and iodine, enabling the quantification of residual KMnO4 (calculated as CODMn). A smartphone-based reader and a user-friendly fluorescence reference card were developed for quantitative analysis of CODMn and water quality classification. Under optimal conditions, a limit of detection (LOD) of 0.04 mg L-1 was obtained for CODMn with relative standard deviations (RSDs) better than 2.0%. In a field application, 33 water samples were collected and analyzed across a 133,300 m2 lake within 2 h. The results demonstrated a strong agreement with the standard method, exhibiting enhanced sensitivity, reproducibility, and portability. Spatial mapping further revealed that CODMn distribution patterns were influenced by local environmental features. This work establishes a mechanism-driven analytical strategy that couples a previously unexplored SPFFE modulation with field-deployable test kit design and autonomous sampling, advancing practical CODMn measurement for decentralized water quality monitoring and providing a scalable solution for real-time environmental surveillance.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42043641",
+      "doi": "10.1007/s10661-026-15390-2",
+      "zotero_key": "VH7WF5MI",
+      "title": "Spatial dominance of land use in Türkiye’s NUTS-2 regions: an integrated quantitative approach",
+      "authors": [
+        [
+          "Ebru",
+          "Ala"
+        ],
+        [
+          "Büşra",
+          "Kutlu"
+        ],
+        [
+          "Sarıyya",
+          "Arslan"
+        ]
+      ],
+      "journal": "Environmental Monitoring and Assessment",
+      "year": "2026",
+      "abstract": "",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -16281,6 +17780,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42047282",
+      "doi": "10.1042/bsr20253955",
+      "zotero_key": "JF3UZWXQ",
+      "title": "Structural characterization of the human CC2D1A fragment associated with non-syndromic intellectual disability (NSID)",
+      "authors": [
+        [
+          "Yi-Hung",
+          "Yeh"
+        ],
+        [
+          "Min-Guan",
+          "Lin"
+        ],
+        [
+          "X. F.",
+          "Sun"
+        ],
+        [
+          "Yo-You",
+          "Shen"
+        ],
+        [
+          "Pin",
+          "Ling"
+        ],
+        [
+          "Chwan-Deng",
+          "Hsiao"
+        ]
+      ],
+      "journal": "Bioscience Reports",
+      "year": "2026",
+      "abstract": "CC2D1A is a multidomain scaffold protein implicated in transcriptional regulation and autosomal recessive non-syndromic intellectual disability (NSID), yet its molecular mechanism is still poorly understood due to a lack of structural information. Here, we present the crystal structure of the human CC2D1A₄₉₁-₈₁₀ fragment, encompassing the fourth DM14 domain, a coiled-coil region, and a C-terminal C2 domain. These elements form a compact, integrated architecture, with the C2 domain mediating symmetric dimerization through conserved electrostatic interactions. In addition, a unique antiparallel β1-β10 sheet connects the coiled-coil and C2 domains stabilizing the tertiary structure. Fluorescence polarization assays reveal micromolar DNA-binding affinity, likely mediated by the basic surface of the DM14 domain. Comparison with the Drosophila homolog Lgd highlights conserved topology with added structural features, offering insights into CC2D1A's vertebrate-specific functions and NSID-related mutations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
     },
     {
       "pmid": "40384764",
@@ -16637,6 +18178,52 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42034566",
+      "doi": "10.3174/ajnr.a9365",
+      "zotero_key": "E4KU2PDE",
+      "title": "Tegmental Heterotopia in Phace Syndrome: A Previously Undescribed Feature",
+      "authors": [
+        [
+          "Sigolène",
+          "Girard"
+        ],
+        [
+          "Antoine",
+          "Fraissenon"
+        ],
+        [
+          "T.",
+          "Lefrançois"
+        ],
+        [
+          "H.",
+          "Aubert"
+        ],
+        [
+          "Claudine Le",
+          "Vaillant"
+        ],
+        [
+          "Sara",
+          "Cabet"
+        ],
+        [
+          "Laurent",
+          "Guibaud"
+        ]
+      ],
+      "journal": "American Journal of Neuroradiology",
+      "year": "2026",
+      "abstract": "PHACE syndrome is a rare pediatric disorder characterized by posterior fossa malformations, large segmental facial hemangiomas, arterial anomalies, cardiac defects, and eye abnormalities. Neuronal migration disorders, including supratentorial heterotopia, have been previously reported as minor criteria. We describe two novel cases of infratentorial neuroglial heterotopia involving the tectal plate, a feature not previously documented in PHACE syndrome. Case 1 involved a 6-week-old infant with a right facial segmental hemangioma and ventricular septal defect. Brain MRI revealed two 5-mm nodular lesions posterior to the tectal plate, isointense to brain parenchyma and non-enhancing, consistent with infratentorial neuroglial heterotopia. MR angiography showed right internal carotid artery dolichoectasia with absent communicating arteries. Case 2 involved a neonate with prenatal posterior fossa cyst and right cerebellar hypoplasia. MRI demonstrated a 7-mm tectal plate lesion with similar characteristics; no significant vascular anomalies were observed. These findings expand the neuroimaging spectrum of PHACE syndrome to include tectal plate heterotopia, which might result from hypothetical vascular-related neuronal migration mechanism. Recognition of this anomaly on standard axial MRI sequences, including prenatal imaging, may facilitate earlier diagnosis and better characterization of brainstem malformations in PHACE syndrome. This is particularly relevant because infantile hemangiomas are not yet clinically apparent in utero or immediately after birth. Further studies are warranted to determine prevalence, clinical relevance, and pathophysiologic mechanisms underlying this distinct anomaly.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41721608",
       "doi": "10.1111/ijlh.70066",
       "zotero_key": "D57UARGW",
@@ -16841,6 +18428,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42037461",
+      "doi": "10.1002/micr.70233",
+      "zotero_key": "3V7BJ9J6",
+      "title": "The Effect of Ulnar Nerve Motor Branch Transfer in Cubital Tunnel Syndrome Surgery: A Comparison With In Situ Decompression Alone",
+      "authors": [
+        [
+          "Mustafa Kemal",
+          "Yenidunya"
+        ],
+        [
+          "İbrahim Faruk",
+          "Adıgüzel"
+        ],
+        [
+          "Esra Sena Orbak",
+          "Yenidünya"
+        ]
+      ],
+      "journal": "Microsurgery",
+      "year": "2026",
+      "abstract": "BACKGROUND: Advanced cubital tunnel syndrome causes progressive sensory and motor dysfunction, leading to hand weakness, intrinsic muscle atrophy, and functional impairment. Although surgical decompression relieves mechanical compression, functional recovery in McGowan Stage 3 patients is often limited due to irreversible axonal degeneration and delayed reinnervation of distal muscles. Distal end-to-side anterior interosseous nerve transfer has therefore been proposed as an adjunct to decompression to enhance reinnervation. The aim of this study was to evaluate the effects of this distal nerve transfer on intrinsic muscle recovery, clinical function, and electrophysiological outcomes in patients with advanced cubital tunnel syndrome. PATIENTS AND METHODS: This retrospective study included 23 adult patients with McGowan Stage 3 ulnar neuropathy treated between February 2022 and June 2024. Patients were assigned to decompression alone (Group 1, n = 13) or decompression combined with distal end-to-side anterior interosseous nerve to ulnar motor branch transfer (Group 2, n = 10). Functional outcomes were evaluated using QuickDASH, British Medical Research Council (BMRC) grading, lateral pinch, and grip strength. Electrophysiological assessments included compound muscle action potential (CMAP) amplitude and motor conduction velocity (MCV) measured preoperatively and at 6 and 12 months postoperatively, with subgroup analyses based on preoperative fibrillation status. RESULTS: At 12 months, QuickDASH improved significantly in both groups (Group 1: 52.4 ± 5.6 to 36.5 ± 10.0, p = 0.001; Group 2: 55.1 ± 8.8 to 34.2 ± 9.8, p = 0.005). British Medical Research Council grades also increased in both groups (Group 1: 2.6 ± 0.8 to 2.9 ± 0.6, p = 0.005; Group 2: 2.1 ± 0.7 to 3.1 ± 0.7, p = 0.047). Lateral pinch improved significantly only in Group 2 (7.8 ± 1.8 kg to 9.4 ± 2.0 kg, p = 0.011), while grip strength showed no significant change (Group 1: 33.6 ± 6.9 kg to 36.1 ± 5.2 kg, p = 0.057; Group 2: 31.9 ± 5.7 kg to 35.0 ± 7.9 kg, p = 0.078). CMAP increased significantly at 12 months in both groups (Group 1: 5.28 ± 1.93 mV to 5.9 ± 1.7 mV, p = 0.017; Group 2: 6.4 ± 1.7 mV to 7.6 ± 2.4 mV, p = 0.036), and MCV also improved (Group 1: 37.9 ± 10.4 m/s to 43.6 ± 9.1 m/s, p = 0.039; Group 2: 42.0 ± 8.5 m/s to 58.1 ± 8.5 m/s, p = 0.008). Among patients with preoperative fibrillation, Group 2 demonstrated better postoperative lateral pinch (10.7 ± 1.2 vs. 8.0 ± 1.0 kg, p = 0.013), QuickDASH (27.5 ± 5.5 vs. 42.3 ± 6.8, p = 0.011), and BMRC grades (3.5 ± 0.6 vs. 3.1 ± 0.4, p = 0.037) compared with Group 1. CONCLUSION: Distal end-to-side anterior interosseous nerve to ulnar motor branch transfer combined with decompression is associated with improved intrinsic muscle recovery and functional outcomes compared with decompression alone in patients with advanced cubital tunnel syndrome, particularly in patients demonstrating active denervation on preoperative needle EMG, as indicated by the presence of fibrillation potentials.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "8493888",
@@ -17281,6 +18898,52 @@
       "subcollection": "USH2A"
     },
     {
+      "pmid": "42051037",
+      "doi": "10.1111/apha.70230",
+      "zotero_key": "XPZNK484",
+      "title": "The Recycling Endosomal (Na+, K+)/H+ Exchanger NHE6/SLC9A6 Facilitates Signal Transduction by Shuttling Cyclin-Dependent Kinase 5 to the Plasma Membrane.",
+      "authors": [
+        [
+          "Rebecca",
+          "Flessner"
+        ],
+        [
+          "Alina",
+          "Ilie"
+        ],
+        [
+          "Leo",
+          "Han"
+        ],
+        [
+          "Annie",
+          "Boucher"
+        ],
+        [
+          "R Anne",
+          "McKinney"
+        ],
+        [
+          "Reza",
+          "Sharif‐Naeini"
+        ],
+        [
+          "John",
+          "Orlowski"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "AIM: The alkali cation/proton exchanger NHE6/SLC9A6 regulates luminal pH homeostasis and trafficking of recycling endosomes in most tissues, especially neurons. Loss-of-function mutations in NHE6 cause Christianson Syndrome, an X-linked neurodevelopmental and neurodegenerative disorder; however, the underlying molecular and cellular mechanisms remain unclear. Here, we describe a new role for NHE6 as a scaffolding platform for recruiting and delivering signaling molecules to the plasma membrane. METHODS: The yeast two-hybrid system was used to screen a human brain cDNA library for proteins that bind to the cytoplasmic C-terminus of NHE6. RESULTS: Cyclin-dependent kinase 5 (CDK5) was identified as a putative interacting partner. CDK5 is widely expressed and phosphorylates diverse proteins involved in vital processes, including receptor signaling, cytoskeletal organization, endocytosis, exocytosis, and apoptosis. Formation of a NHE6/CDK5 complex was confirmed by biochemical assays and microscopy using Chinese hamster ovary AP-1 and human neuroblastoma SH-SY5Y cells. CDK5, in a complex with its activator subunit p35/CDK5R1, did not directly phosphorylate or regulate the membrane trafficking of NHE6. By contrast, NHE6 expression enhanced the localization of CDK5 and p35 to endosomal- and plasmalemmal-enriched membrane fractions and elevated cell surface accumulation of the CDK5-regulated transient receptor potential V1 (TRPV1) cation channel. CONCLUSIONS: These data indicate that NHE6, aside from its main pH-regulatory function, can act concomitantly as a scaffold for recruitment of CDK5/p35 to endosomes and the plasma membrane where the kinase is now primed to activate neighboring effectors important for cell function.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41774436",
       "doi": "10.1094/mpmi-02-26-0015-r",
       "zotero_key": "GJDNTNRQ",
@@ -17351,44 +19014,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
-    },
-    {
-      "pmid": "41935092",
-      "doi": "10.1038/s41598-026-42515-x",
-      "zotero_key": "S27PH3A6",
-      "title": "The role of applying radiological modifiers to the Letournel classification and its clinical implications",
-      "authors": [
-        [
-          "Mohammad Kamal",
-          "Abdelnasser"
-        ],
-        [
-          "Mostafa A.",
-          "Thabet"
-        ],
-        [
-          "Bahaaeldin",
-          "Ibrahim"
-        ],
-        [
-          "Ahmed E.",
-          "Hassan"
-        ],
-        [
-          "Osama Ahmed",
-          "Farouk"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "While the Letournel classification is the most widely used system for classifying acetabular fractures, it has some limitations, such as a limited inclusivity and a limited ability to guide surgical approaches. Introducing radiological modifiers to the Letournel classification could address those shortcomings. The main aim of this study is to identify these modifiers, determine their incidence relative to different acetabular fracture patterns, and explore their association with fractures that cannot be classified using the Letournel system. The secondary objective is to evaluate how these modifiers may improve their utility in guiding surgical approaches. The radiographs and CT scans of 236 acetabular fractures were retrospectively reviewed by 2 authors to classify the fracture and to detect the presence of the radiological modifiers, which are roof impaction, marginal impaction, head impaction, head fracture, intraarticular fragments, preoperative dislocation and its type, articular comminution, pelvic ring involvement, and quadrilateral plate involvement. Using the modifiers, the number of unclassified fractures was reduced by 90%. Some modifiers were more significantly common in the older age group. The presence of specific modifiers, such as roof impaction and intraarticular fragments, mandated the use of a different approach. We used surgical hip dislocation in 21(8.8%) cases based on specific modifiers, namely, femoral head fracture 11, roof impaction 6, and intraarticular fragment 2, pure impaction (unclassified) 1, and labral avulsion with posterior rim in 1. Infrapectineal plating was done in 14 cases (6 %) based on the presence of quadrilateral plate modifier. Identifying the characteristics of an acetabular fracture is essential for enhancing the value of its classification. Given the complex anatomy and varied injury patterns of the acetabulum, an accurate description that includes radiological modifiers-such as posterior wall involvement or quadrilateral plate displacement-provides a more comprehensive assessment. Integrating these modifiers into the Letournel classification improves its ability to predict prognosis and guides surgical planning more effectively.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "42003337",
@@ -17677,6 +19302,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SOX2"
+    },
+    {
+      "pmid": "42033119",
+      "doi": "10.1111/jdv.70405",
+      "zotero_key": "4JBTRJAW",
+      "title": "Translating 6‐year trial safety data of upadacitinib in atopic dermatitis into clinical practice",
+      "authors": [
+        [
+          "Lian F. van der",
+          "Gang"
+        ],
+        [
+          "Nicolaas P. A.",
+          "Zuithoff"
+        ],
+        [
+          "Marjolein S. de",
+          "Bruin‐Weller"
+        ]
+      ],
+      "journal": "Journal of the European Academy of Dermatology and Venereology",
+      "year": "2026",
+      "abstract": "We thank the editors for the opportunity to comment on the integrated safety analysis by Bunick et al., reporting safety data of up to 6 years from three phase 3 trials of upadacitinib in adolescents and adults with moderate-to-severe atopic dermatitis (AD).1 Long-term safety data are particularly relevant in a chronic disease such as AD, as many patients initiate treatment at a young age and may require sustained therapy over many years. Several findings of the study are of clinical interest. Higher rates of acne, oral herpes, herpes zoster, hepatic disorders, and laboratory abnormalities, including neutropenia and creatine phosphokinase elevations, were observed with 30 mg compared with 15 mg dosing. Notably, 49.3% of patients with a herpes zoster infection prior to treatment initiation experienced a recurrence during treatment, compared with 11.7% of those without prior infection. Furthermore, the higher rate of serious adverse events in adults aged ≥65 years treated with 30 mg, compared with 15 mg, reinforces the label-recommended lower dose in older patients. These observations are relevant for individualized dose selection in clinical practice. While the reported incidence rates of serious infections, malignancy, major adverse cardiovascular events and venous thromboembolism were generally low, their clinical interpretation warrants careful consideration. The authors provide exposure-adjusted incidence rates (EAIRs), defined as the number of patients with an event divided by the total time at risk. As also noted in a recent Letter to the Editor,2 such measures do not directly reflect the cumulative probability of experiencing an event over a defined period, and clinical interpretability is not straightforward. The authors conclude that there was no increase in adverse events over time and no evidence of cumulative increased risk. Indeed, cumulative event rates up to successive treatment durations (e.g. ≤2 years, ≤3 years) remained comparable across 6 years, suggesting that the annual hazard did not increase. However, the 6-month analyses presented by the authors in table S8 demonstrate that event rates may fluctuate across follow-up. For example, with 30 mg dosing, 7.4 herpes zoster events per 100 patient-years were observed between 12 and 18 months, compared with 4.2 events per 100 patient-years beyond 3 years. These interval-based analyses provide additional insight into how event rates vary over time. Beyond time-stratified analyses, the number of patients contributing data at later timepoints is important for clinical interpretability. As shown by the authors in table S1, 71%–76% of patients reached 2 years of treatment, whereas only 13.8% (15 mg) and 15.5% (30 mg) contributed data at 6 years. Consequently, long-term patient-years derive from a smaller subgroup of patients remaining on treatment. This pattern is also reflected in the higher rates of adverse events leading to treatment discontinuation in the first year compared with the overall 6-year average. Selection related to continued treatment is inherent to long-term extension analyses,3, 4 a key consideration is therefore not the presence of selection per se, but the clarity with which it can be evaluated. It remains unclear to what extent the decline in patient numbers reflects censoring (patients not yet having reached later timepoints), discontinuation due to adverse events or lack of effectiveness, or other reasons. More explicit reporting of the number of patients contributing data at each timepoint and reasons for discontinuation would allow readers to better contextualize the findings and their clinical relevance. In conclusion, the study by Bunick et al. provides important and generally reassuring long-term safety data for upadacitinib in AD. Complementary time-to-event analyses and more detailed reporting of discontinuation rates would further strengthen the clinical applicability of these findings. L.F. van der Gang is a speaker and/or consultant for AbbVie and Sanofi-Genzyme, all fees were paid to the institution, no personal fees were received. N.P.A. Zuithoff was involved in studies financed by Eli Lilly, no personal fees were received. M.S. de Bruin-Weller is a consultant, advisory board member and/or speaker for AbbVie, Almirall, Amgen, Eli Lilly, Galderma, LEO Pharma, Pfizer, Regeneron and Sanofi-Genzyme and she received grants from AbbVie, Almirall, Eli Lilly, LEO Pharma, Pfizer, Regeneron and Sanofi-Genzyme. All grants and speaker and/or consultancy fees were paid to the institution, no personal fees were received. Data sharing not applicable to this article as no datasets were generated or analysed during the current study.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42011991",
@@ -18325,6 +19980,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42033107",
+      "doi": "10.1111/jdv.70328",
+      "zotero_key": "2J93V6S9",
+      "title": "Unequal access, unequal outcomes: A perspective on dermatological healthcare worldwide",
+      "authors": [
+        [
+          "Mia‐Louise",
+          "Nielsen"
+        ],
+        [
+          "Farah",
+          "Novoa"
+        ],
+        [
+          "Johannes A.",
+          "Didaskalu"
+        ],
+        [
+          "Julia‐Tatjana",
+          "Maul"
+        ]
+      ],
+      "journal": "Journal of the European Academy of Dermatology and Venereology",
+      "year": "2026",
+      "abstract": "Julia-Tatjana Maul Johannes A. Didaskalu Farah Novoa Mia-Louise Nielsen While psoriasis and its impact have been extensively studied in high-income countries, most regions—especially low- and middle-income countries—lack reliable, standardized data on how psoriasis affects individuals, how it is managed and what outcomes patients experience. Currently, over 80% of the countries in the world have no comprehensive epidemiological or treatment data on psoriasis.1 This creates major gaps in understanding the true global burden of disease, including differences in prevalence, severity, comorbidities such as psoriatic arthritis and cardiometabolic disease, and impact on mental health.2, 3 While data collection in many countries provides country-specific insights, this fragmented approach lacks standardization in methodology, variables and definitions, limiting the generalizability of results and complicating the comparisons across populations. Consequently, it is challenging to make informed decisions about health policy, resource allocation and research priorities. Moreover, access to care varies dramatically across regions. In some countries, patients have access to a full range of therapies—including biologics and small-molecule treatments—while in others, modern treatments are scarce or unavailable. This inequality contributes to widespread undertreatment and poor disease control.4 These disparities and challenges are not confined to the management of psoriasis but represent a broader issue across many inflammatory skin conditions and in dermatology in general.5 This includes hidradenitis suppurativa where there is evidence for delayed diagnosis and higher disease burden in racial and ethnic minority groups in real-world clinical settings.6 Additionally, a reduced utilization of biologics is observed in the treatment of both psoriasis and atopic dermatitis among racial and ethnic minority groups, which has been attributed to differences in access, culture, language barriers and socio-economic factors.7 Also, the treatment guidelines of atopic dermatitis acknowledge the importance of considering diverse skin tones and health disparities in the management of atopic dermatitis and in related research, promoting equity and inclusiveness.8 In response to the World Health Organization's call in 2016 to close these evidence gaps and improve access to care, the Global Healthcare Study on Psoriasis (GHSP) was established and initiated data collection in 2020. Its purpose is to create a standardized, global evidence framework to harmonize the data collection across borders, facilitating a unified approach to dermatological research. This allows for better quantification of the true burden of psoriasis and associated comorbidities worldwide as well as documentation of variations in treatment access and quality of care. Finally, this provides policymakers, clinicians and researchers with actionable information to improve outcomes and reduce inequalities. By generating robust, comparable data across diverse health systems, the GHSP aspires to empower countries to improve care pathways and advocate for equitable access to effective treatments. The GHSP is an investigator-initiated academic project that was designed as a standardized, multilevel data collection platform integrating country-, centre- and patient-level information to ensure comprehensive representation. Its methodology includes a country level with annual collection of country-specific information on psoriasis on treatment availability, reimbursement policies, insurance situations, regulatory frameworks and prevalence of psoriasis as well as other major skin conditions and comorbidities. In addition, centre-level data collection contains details of participating study centres' characteristics, including catchment area, number of patients treated, specific treatments offered and available and other most common skin diseases treated. Furthermore, at patient level, data are a cross-sectional collection of standardized patient information at the point of care, including demographics, socio-economic background, disease characteristics, comorbidities, treatment history, disease severity, quality of life impairment and access to treatment, recorded at the time of the visit regardless of disease stage.9 This approach ensures that data from participating sites are comparable across regions and can be integrated with established registries such as the Swiss Dermatology Network for Targeted Therapies. Other efforts, such as the Global Psoriasis Atlas, are mapping the worldwide prevalence and epidemiological patterns of psoriasis, while the GHSP complements these data by providing detailed, patient-level information on clinical characteristics, management and real-world outcomes across diverse healthcare settings.10 By September 2025, the GHSP had collected data from more than 5000 patients across 100 centres in 24 countries spanning six continents (Figure 1). In January 2025, the GHSP had evolved into the Global Healthcare Registry of Skin Diseases, extending its scope to include atopic dermatitis and hidradenitis suppurativa. The registry is transitioning from cross-sectional snapshots to longitudinal follow-up, creating a real-world registry to track disease progression, treatment outcomes and drug survival globally. By systematically documenting disease characteristics, treatment patterns and health system contexts across the world, the GHSP aims to fill long-standing evidence gaps, inform clinical guidelines and advance global dermatology research to improve the lives of patients living with inflammatory skin diseases. No funding relevant to this manuscript. The Global Healthcare Study on Psoriasis is an investigator-initiated academic project that receives non-restrictive support from multiple pharmaceutical companies (bristol meyer squibb, Eli Lilly and Company, Union Chimique Belge, AbbVie, Johnson & Johnson, Almirall ApS, Amgen Inc. and Boehringer Ingelheim). These supporters have no role in the study design, data collection, data analysis, interpretation of results or manuscript preparation. With no relation to the present manuscript, Dr. Nielsen has received consultancy honoraria from LEO Pharma. Mr. Didaskalu has nothing to declare. With no relation to the present manuscript, Prof. Julia-Tatjana Maul has served as advisor and/or received speaking fees and/or participated in clinical trials sponsored by AbbVie, Almirall, Amgen, BMS, Celgene, Eli Lilly, LEO Pharma, Incyte, Janssen-Cilag, MSD, Novartis, Pfizer, Pierre Fabre, Roche, Sanofi and UCB. Dr. Farah Novoa has received honoraria from SunPharma, with no relation to the present manuscript. The study was approved by the local ethics committee (EK2020–00002) and was conducted in compliance with the Declaration of Helsinki and Good Clinical Practice rules.Swiss Ethics Committee of Zurich approval was obtained (BASEC, approval ID: 2020-00002). No identifiable patient information is available in the article. Patients have given informed consent to have their data collected and stored for the Global Healthcare Study on Psoriasis. Data sharing is not applicable to this article as no new data were created or analyzed in this study.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41980717",
