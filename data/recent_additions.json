@@ -1,6 +1,816 @@
 {
- "generated_at": "2026-05-14T09:56:55Z",
+ "generated_at": "2026-05-15T10:12:22Z",
  "additions": [
+  {
+   "pmid": "42120302",
+   "doi": "10.1002/mdc3.70643",
+   "title": "Phenotypic Exploration in Patients with Heterozygous Variant in  AFG3L2  Gene: A Case‐Series and Literature Review",
+   "year": "2026",
+   "subcollection": "ACO2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T08:58:32Z"
+  },
+  {
+   "pmid": "42119707",
+   "doi": "10.3341/kjo.2026.0057",
+   "title": "Vector Analysis of High-Astigmatism Correction in Small Incision Lenticule Extraction: A Comparative Study of VisuMax 500 and VisuMax 800",
+   "year": "2026",
+   "subcollection": "ARR3",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:09:35Z"
+  },
+  {
+   "pmid": "42129603",
+   "doi": "10.1515/jpem-2025-0660",
+   "title": "Digital biomarkers of pediatric metabolic health in children with obesity: insights from wearable-derived heart rate data",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:22:19Z"
+  },
+  {
+   "pmid": "42130390",
+   "doi": "10.1177/10538127261445501",
+   "title": "Adjunctive psychological approaches in randomized controlled trials of exercise interventions for pediatric chronic musculoskeletal diseases – A scoping review",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:22:19Z"
+  },
+  {
+   "pmid": "42127920",
+   "doi": "10.1016/s1474-4422(26)00160-2",
+   "title": "Concerns regarding the 2024 revisions of the McDonald criteria for diagnosis of multiple sclerosis",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:22:19Z"
+  },
+  {
+   "pmid": "42129680",
+   "doi": "10.1186/s12877-026-07617-1",
+   "title": "Development and validation of the Frailty Questionnaire-5 (FQ-5), a PRISMA-7–derived screening tool for frailty: a diagnostic accuracy study in primary care",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:22:19Z"
+  },
+  {
+   "pmid": "42129838",
+   "doi": "10.1186/s12986-026-01123-2",
+   "title": "Molecular and cellular mechanisms of muscle–adipose tissue crosstalk driving sarcopenic obesity: an integrative review of human, animal, and in vitro models",
+   "year": "2026",
+   "subcollection": "FBN1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:22:19Z"
+  },
+  {
+   "pmid": "42125430",
+   "doi": "10.2147/opth.s598840",
+   "title": "Corneal Biomechanics Before and After Descemet Membrane Endothelial Keratoplasty in Patients with Fuchs Endothelial Corneal Dystrophy",
+   "year": "2026",
+   "subcollection": "KRT3",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:30:30Z"
+  },
+  {
+   "pmid": "18854396",
+   "doi": "10.1210/jc.2008-1219",
+   "title": "OTX2 Loss of Function Mutation Causes Anophthalmia and Combined Pituitary Hormone Deficiency with a Small Anterior and Ectopic Posterior Pituitary",
+   "year": "2008",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "18628516",
+   "doi": "10.1210/jc.2008-0720",
+   "title": "OTX2 Mutation in a Patient with Anophthalmia, Short Stature, and Partial Growth Hormone Deficiency: Functional Studies Using the IRBP, HESX1, and POU1F1 Promoters",
+   "year": "2008",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "12562527",
+   "doi": "10.1046/j.1471-4159.2003.01583.x",
+   "title": "New Otx2 mRNA isoforms expressed in the mouse brain",
+   "year": "2003",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "25315894",
+   "doi": "10.1093/hmg/ddu506",
+   "title": "Deletion of OTX2 in neural ectoderm delays anterior pituitary development",
+   "year": "2014",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "20354145",
+   "doi": "10.1369/jhc.2010.955757",
+   "title": "Expression of the Homeobox Genes OTX2 and OTX1 in the Early Developing Human Brain",
+   "year": "2010",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "36649236",
+   "doi": "10.1371/journal.pbio.3001924",
+   "title": "The LHX2-OTX2 transcriptional regulatory module controls retinal pigmented epithelium differentiation and underlies genetic risk for age-related macular degeneration",
+   "year": "2023",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "15201223",
+   "doi": "10.1242/dev.01219",
+   "title": "Regulation ofOtx2expression and its functions in mouse epiblast and anterior neuroectoderm",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "16845372",
+   "doi": "10.1038/sj.embor.7400751",
+   "title": "Temporal and spatial delineation of mouse Otx2 functions by conditional self‐knockout",
+   "year": "2006",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "23990694",
+   "doi": "10.1297/cpe.22.15",
+   "title": "Molecular and Clinical Findings in Patients with &lt;i&gt;LHX4&lt;/i&gt; and &lt;i&gt;OTX2&lt;/i&gt; Mutations",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "17661397",
+   "doi": "10.1002/dvg.20318",
+   "title": "Dkk3‐Cre BAC transgenic mouse line: a tool for highly efficient gene deletion in retinal progenitor cells",
+   "year": "2007",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "23811236",
+   "doi": "10.1016/j.mce.2013.06.026",
+   "title": "Gene dosage of Otx2 is important for fertility in male mice",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "15759271",
+   "doi": "10.1002/dvdy.20287",
+   "title": "Alternative usage of Otx2 promoters during mouse development",
+   "year": "2005",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "8887325",
+   "doi": "10.1016/s0925-4773(96)00571-0",
+   "title": "OTX2 homeoprotein in the developing central nervous system and migratory cells of the olfactory area",
+   "year": "1996",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "12559959",
+   "doi": "10.1016/s0006-291x(02)02934-0",
+   "title": "OTX2 regulates expression of DOPAchrome tautomerase in human retinal pigment epithelium",
+   "year": "2003",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "19401468",
+   "doi": "10.1074/jbc.m109.002485",
+   "title": "Otx2 Induction of the Gonadotropin-releasing Hormone Promoter Is Modulated by Direct Interactions with Grg Co-repressors",
+   "year": "2009",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "32631829",
+   "doi": "10.1242/dev.187922",
+   "title": "Cell type- and stage-specific expression of Otx2 is regulated by multiple transcription factors and cis -regulatory modules in the retina",
+   "year": "2020",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "10891582",
+   "doi": "10.1016/s0169-328x(00)00060-7",
+   "title": "The subcellular localization of OTX2 is cell-type specific and developmentally regulated in the mouse retina",
+   "year": "2000",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "10477297",
+   "doi": "10.1242/dev.126.19.4295",
+   "title": "Cell autonomous and non-cell autonomous functions of Otx2 in patterning the rostral brain",
+   "year": "1999",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "21436260",
+   "doi": "10.1210/me.2010-0271",
+   "title": "Deletion of Otx2 in GnRH Neurons Results in a Mouse Model of Hypogonadotropic Hypogonadism",
+   "year": "2011",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "26160903",
+   "doi": "10.1242/dev.122465",
+   "title": "Otx2 is a target of N-myc and acts as a suppressor of sensory development in the mammalian cochlea",
+   "year": "2015",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "22645276",
+   "doi": "10.1093/hmg/dds197",
+   "title": "ATOH7 mutations cause autosomal recessive persistent hyperplasia of the primary vitreous",
+   "year": "2012",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "28620275",
+   "doi": "10.3389/fnins.2017.00307",
+   "title": "Genome-Wide Target Analyses of Otx2 Homeoprotein in Postnatal Cortex",
+   "year": "2017",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "20530484",
+   "doi": "10.1074/jbc.m110.130294",
+   "title": "SOX9, through Interaction with Microphthalmia-associated Transcription Factor (MITF) and OTX2, Regulates BEST1 Expression in the Retinal Pigment Epithelium",
+   "year": "2010",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "34475267",
+   "doi": "10.1523/eneuro.0229-21.2021",
+   "title": "Photoreceptor cKO of OTX2 Enhances OTX2 Intercellular Transfer in the Retina and Causes Photophobia",
+   "year": "2021",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "22259223",
+   "doi": "",
+   "title": "Regulation of the human tyrosinase gene in retinal pigment epithelium cells: the significance of transcription factor orthodenticle homeobox 2 and its polymorphic binding site.",
+   "year": "2012",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "34957897",
+   "doi": "10.1080/13816810.2021.2015791",
+   "title": "OTX2mutation associated with severe myopia in a Canadian family",
+   "year": "2021",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "40834858",
+   "doi": "10.1016/j.devcel.2025.07.020",
+   "title": "Enhancer remodeling by OTX2 directs specification and patterning of mammalian definitive endoderm",
+   "year": "2025",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "12183386",
+   "doi": "10.1242/dev.129.18.4347",
+   "title": "Genetic modifiers of otocephalic phenotypes inOtx2heterozygous mutant mice",
+   "year": "2002",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "23145006",
+   "doi": "10.1371/journal.pone.0048879",
+   "title": "Otx2 Is Involved in the Regional Specification of the Developing Retinal Pigment Epithelium by Preventing the Expression of Sox2 and Fgf8, Factors That Induce Neural Retina Differentiation",
+   "year": "2012",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "10623575",
+   "doi": "10.1006/bbrc.1999.1872",
+   "title": "OTX2 Directly Interacts with LIM1 and HNF-3β",
+   "year": "2000",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "30261489",
+   "doi": "10.1159/000494086",
+   "title": "Haploinsufficiency of Homeodomain Proteins Six3, Vax1, and Otx2 Causes Subfertility in Mice via Distinct Mechanisms",
+   "year": "2018",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "11504847",
+   "doi": "10.1093/oxfordjournals.molbev.a003955",
+   "title": "Structural Evolution of Otx Genes in Craniates",
+   "year": "2001",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "10069392",
+   "doi": "10.1016/s0014-5793(99)00113-1",
+   "title": "Binding properties of the human homeodomain protein OTX2 to a DNA target sequence",
+   "year": "1999",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "23566845",
+   "doi": "10.1016/j.gene.2013.03.114",
+   "title": "Specific expression pattern of a novel Otx2 splicing variant during neural differentiation",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "15201224",
+   "doi": "10.1242/dev.01220",
+   "title": "Regulation ofOtx2expression and its functions in mouse forebrain and midbrain",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "36368868",
+   "doi": "10.1136/jmg-2022-108678",
+   "title": "OTX2 duplications: a recurrent cause of oculo-auriculo-vertebral spectrum",
+   "year": "2022",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "10354480",
+   "doi": "10.1016/s0925-4773(98)00162-2",
+   "title": "OTX2 homeodomain protein binds a DNA element necessary for interphotoreceptor retinoid binding protein gene expression",
+   "year": "1999",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "32277752",
+   "doi": "10.1093/hmg/ddaa064",
+   "title": "Otx2b mutant zebrafish have pituitary, eye and mandible defects that model mammalian disease",
+   "year": "2020",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "20463321",
+   "doi": "10.1167/iovs.09-5015",
+   "title": "Ectopic Mitf in the Embryonic Chick Retina by Co-transfection of β-Catenin and Otx2",
+   "year": "2010",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "22414758",
+   "doi": "10.1159/000337661",
+   "title": "Identification and Analysis of Two Novel Sites of Rat GnRH Receptor Gene Promoter Activity: The Pineal Gland and Retina",
+   "year": "2012",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "24319691",
+   "doi": "10.1155/2013/848265",
+   "title": "Changes in Otx2 and Parvalbumin Immunoreactivity in the Superior Colliculus in the Platelet-Derived Growth Factor Receptor-βKnockout Mice",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "28988713",
+   "doi": "10.1016/j.ymthe.2017.09.007",
+   "title": "Otx2-Genetically Modified Retinal Pigment Epithelial Cells Rescue Photoreceptors after Transplantation",
+   "year": "2017",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "17406642",
+   "doi": "10.1038/sj.ejhg.5201826",
+   "title": "Inherited PAX6, NF1 and OTX2 mutations in a child with microphthalmia and aniridia",
+   "year": "2007",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "34791963",
+   "doi": "10.1080/13816810.2021.2002915",
+   "title": "Identification of a novel de novo variant in OTX2 in a patient with congenital microphthalmia using targeted next-generation sequencing followed by prenatal diagnosis",
+   "year": "2021",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "26985665",
+   "doi": "10.1371/journal.pone.0150758",
+   "title": "Identification of an Alternative Splicing Product of the Otx2 Gene Expressed in the Neural Retina and Retinal Pigmented Epithelial Cells",
+   "year": "2016",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "18692473",
+   "doi": "10.1016/j.cell.2008.05.054",
+   "title": "Experience-Dependent Transfer of Otx2 Homeoprotein into the Visual Cortex Activates Postnatal Plasticity",
+   "year": "2008",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "35417297",
+   "doi": "10.3928/23258160-20220311-01",
+   "title": "An OTX2 Gene Mutation Causing a More Severe Retinal Phenotype in a Female RPGR Mutation Carrier",
+   "year": "2022",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:40:14Z"
+  },
+  {
+   "pmid": "25564336",
+   "doi": "10.1097/ico.0000000000000307",
+   "title": "IC3D Classification of Corneal Dystrophies—Edition 2",
+   "year": "2015",
+   "subcollection": "OVOL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:44:28Z"
+  },
+  {
+   "pmid": "35682795",
+   "doi": "10.3390/ijms23116115",
+   "title": "Thirty Years’ History since the Discovery of Pax6: From Central Nervous System Development to Neurodevelopmental Disorders",
+   "year": "2022",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "9008636",
+   "doi": "",
+   "title": "The Pax-6 homeobox gene is expressed throughout the corneal and conjunctival epithelia.",
+   "year": "1997",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "9724757",
+   "doi": "10.1073/pnas.95.18.10643",
+   "title": "The Optx 2 homeobox gene is expressed in early precursors of the eye and activates retina-specific genes",
+   "year": "1998",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "11980846",
+   "doi": "",
+   "title": "Foxe3 haploinsufficiency in mice: a model for Peters' anomaly.",
+   "year": "2002",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "8900176",
+   "doi": "10.1074/jbc.271.43.26914",
+   "title": "Zebrafish Pax9 Encodes Two Proteins with Distinct C-terminal Transactivating Domains of Different Potency Negatively Regulated by Adjacent N-terminal Sequences",
+   "year": "1996",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "42117501",
+   "doi": "10.1242/dev.205143",
+   "title": "Roles of sonic hedgehog signaling in retinal patterning and neurogenesis during mammalian eye development",
+   "year": "2026",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:48:29Z"
+  },
+  {
+   "pmid": "30153077",
+   "doi": "10.1080/13816810.2018.1509354",
+   "title": "Structural disease progression in PDE6-associated autosomal recessive retinitis pigmentosa",
+   "year": "2018",
+   "subcollection": "PDE6A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:50:36Z"
+  },
+  {
+   "pmid": "35065964",
+   "doi": "10.1016/j.jbc.2022.101620",
+   "title": "Molecular insights into the maturation of phosphodiesterase 6 by the specialized chaperone complex of HSP90 with AIPL1",
+   "year": "2022",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "32306724",
+   "doi": "10.29252/ibj.24.4.257",
+   "title": "Novel Bi-allelic PDE6C Variant Leads to Congenital Achromatopsia",
+   "year": "2020",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "18077698",
+   "doi": "10.1523/jneurosci.3136-07.2007",
+   "title": "A Mutation in the Cone-Specific pde6 Gene Causes Rapid Cone Photoreceptor Degeneration in Zebrafish",
+   "year": "2007",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "36835061",
+   "doi": "10.3390/ijms24043655",
+   "title": "High-Efficiency CRISPR/Cas9-Mediated Correction of a Homozygous Mutation in Achromatopsia-Patient-Derived iPSCs",
+   "year": "2023",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "19801642",
+   "doi": "10.1074/jbc.m109.049916",
+   "title": "Characterization of Human Cone Phosphodiesterase-6 Ectopically Expressed in Xenopus laevis Rods",
+   "year": "2009",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "23776498",
+   "doi": "10.1371/journal.pone.0065546",
+   "title": "Exome Sequencing of 47 Chinese Families with Cone-Rod Dystrophy: Mutations in 25 Known Causative Genes",
+   "year": "2013",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "39739818",
+   "doi": "10.1073/pnas.2419732121",
+   "title": "Structural and functional dynamics of human cone cGMP-phosphodiesterase important for photopic vision",
+   "year": "2024",
+   "subcollection": "PDE6C",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:51:43Z"
+  },
+  {
+   "pmid": "18231602",
+   "doi": "10.1371/journal.pone.0001516",
+   "title": "Formation and Differentiation of Multiple Mesenchymal Lineages during Lung Development Is Regulated by β-catenin Signaling",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:54:53Z"
+  },
+  {
+   "pmid": "26208718",
+   "doi": "10.1186/s12861-015-0080-y",
+   "title": "The pattern of congenital heart defects arising from reduced Tbx5 expression is altered in a Down syndrome mouse model",
+   "year": "2015",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:54:53Z"
+  },
+  {
+   "pmid": "16628609",
+   "doi": "10.1002/dvdy.20800",
+   "title": "A mutation in the zebrafish Na,K‐ATPase subunit atp1a1a.1 provides genetic evidence that the sodium potassium pump contributes to left‐right asymmetry downstream or in parallel to nodal flow",
+   "year": "2006",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:54:53Z"
+  },
+  {
+   "pmid": "10903181",
+   "doi": "10.1242/dev.127.16.3567",
+   "title": "Multiple pathways in the midline regulate concordant brain, heart and gut left-right asymmetry",
+   "year": "2000",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-05-15T09:54:53Z"
+  },
+  {
+   "pmid": "42131901",
+   "doi": "10.1002/ajh.70362",
+   "title": "Accuracy of Diagnosis in Myeloproliferative Neoplasms With Splanchnic Vein Thrombosis ( MPN ‐ SVT )",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42129894",
+   "doi": "10.1186/s42238-026-00446-4",
+   "title": "Operationalizing ASSIST-based indicators to estimate the prevalence and correlates of problematic cannabis involvement among U.S. college students",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42127691",
+   "doi": "10.1016/j.actpsy.2026.107043",
+   "title": "Love, longing and obsession: Features, correlates, comorbidities, and real-time cognitive-affective dynamics of limerence",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42129670",
+   "doi": "10.1186/s12877-026-07645-x",
+   "title": "A mobile exercise management application based on exercise preferences in older adults with mild cognitive impairment: a development and usability study",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42127523",
+   "doi": "10.1016/j.jclinane.2026.112234",
+   "title": "Dynamic assessment of gastric emptying patterns after endoscopic bowel preparation using ultrasonography: A prospective observational study",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42129881",
+   "doi": "10.1186/s40662-026-00489-x",
+   "title": "Ultra-widefield optical coherence tomography angiography plus colour fundus photography in von Hippel‒Lindau disease: detection, classification, and correlations with findings on fluorescein angiography",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T09:58:43Z"
+  },
+  {
+   "pmid": "42127575",
+   "doi": "10.1016/j.smrv.2026.102307",
+   "title": "Sleep-wake problems and fatigue in retinitis pigmentosa: A scoping review",
+   "year": "2026",
+   "subcollection": "SAG",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-05-15T10:05:59Z"
+  },
   {
    "pmid": "42061597",
    "doi": "10.1016/j.exer.2026.111037",
@@ -35610,466 +36420,6 @@
    "category": "5 - Pathologies",
    "source": "source:citation",
    "uploaded_at": "2026-03-21T07:24:03Z"
-  },
-  {
-   "pmid": "14729846",
-   "doi": "10.1136/jmg.2003.010777",
-   "title": "Founder mutations of CYP1B1 gene in patients with congenital glaucoma from the United States and Brazil",
-   "year": "2004",
-   "subcollection": "CYP1B1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:07:35Z"
-  },
-  {
-   "pmid": "16982751",
-   "doi": "10.1158/0008-5472.can-06-1403",
-   "title": "MicroRNA Regulates the Expression of Human Cytochrome P450 1B1",
-   "year": "2006",
-   "subcollection": "CYP1B1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:07:35Z"
-  },
-  {
-   "pmid": "27693454",
-   "doi": "10.1016/j.matbio.2016.09.009",
-   "title": "Decorin interacting network: A comprehensive analysis of decorin-binding partners and their versatile functions",
-   "year": "2016",
-   "subcollection": "DCN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:08:44Z"
-  },
-  {
-   "pmid": "15623773",
-   "doi": "10.1167/iovs.04-0902",
-   "title": "Decorin Modulates Wound Healing in Experimental Glaucoma Filtration Surgery: A Pilot Study",
-   "year": "2004",
-   "subcollection": "DCN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:08:44Z"
-  },
-  {
-   "pmid": "41701388",
-   "doi": "10.1007/s11064-026-04686-x",
-   "title": "Decorin Attenuates Epileptogenesis and Modulates Hippocampal Synaptic Plasticity via the mTOR Signalling Pathway",
-   "year": "2026",
-   "subcollection": "DCN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:08:44Z"
-  },
-  {
-   "pmid": "1537333",
-   "doi": "10.1002/j.1460-2075.1992.tb05082.x",
-   "title": "A second tyrosinase-related protein, TRP-2, is a melanogenic enzyme termed DOPAchrome tautomerase.",
-   "year": "1992",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "1537334",
-   "doi": "10.1002/j.1460-2075.1992.tb05083.x",
-   "title": "A second tyrosinase-related protein, TRP-2, maps to and is mutated at the mouse slaty locus.",
-   "year": "1992",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "2169885",
-   "doi": "10.1016/0304-4165(90)90088-e",
-   "title": "Regulation of mammalian melanogenesis I: partial purification and characterization of a dopachrome converting factor: dopachrome tautomerase",
-   "year": "1990",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "11543611",
-   "doi": "10.1006/dbio.2001.0372",
-   "title": "Analysis of SOX10 Function in Neural Crest-Derived Melanocyte Development: SOX10-Dependent Transcriptional Control of Dopachrome Tautomerase",
-   "year": "2001",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "11004520",
-   "doi": "10.1016/s0167-4781(00)00125-1",
-   "title": "Identification of a composite enhancer of the human tyrosinase-related protein 2/DOPAchrome tautomerase gene",
-   "year": "2000",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "20123016",
-   "doi": "10.1016/j.freeradbiomed.2010.01.033",
-   "title": "Regulation of DHICA-mediated antioxidation by dopachrome tautomerase: Implication for skin photoprotection against UVA radiation",
-   "year": "2010",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "18983539",
-   "doi": "10.1111/j.1755-148x.2008.00518.x",
-   "title": "Gpnmb is a melanoblast‐expressed, MITF‐dependent gene",
-   "year": "2008",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "8305475",
-   "doi": "10.1016/0167-4838(94)90032-9",
-   "title": "Dopachrome tautomerase decreases the binding of indolic melanogenesis intermediates to proteins",
-   "year": "1994",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "12100497",
-   "doi": "10.1034/j.1600-0749.2002.02039.x",
-   "title": "Expression of Cre Recombinase in Pigment Cells",
-   "year": "2002",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "8601447",
-   "doi": "10.1016/0014-5793(96)00109-3",
-   "title": "Tyrosinase and related proteins in mammalian pigmentation",
-   "year": "1996",
-   "subcollection": "DCT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:09:50Z"
-  },
-  {
-   "pmid": "1464325",
-   "doi": "10.1002/j.1460-2075.1992.tb05610.x",
-   "title": "A conformational rearrangement in the spliceosome is dependent on PRP16 and ATP hydrolysis.",
-   "year": "1992",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "30810475",
-   "doi": "10.1080/15476286.2019.1585737",
-   "title": "Early splicing functions of fission yeast Prp16 and its unexpected requirement for gene Silencing is governed by intronic features",
-   "year": "2019",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "8324826",
-   "doi": "10.1016/0092-8674(93)90363-u",
-   "title": "A mechanism to enhance mRNA splicing fidelity: The RNA-dependent ATPase Prp16 governs usage of a discard pathway for aberrant lariat intermediates",
-   "year": "1993",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "41689426",
-   "doi": "10.1096/fj.202503744r",
-   "title": "DEAH ‐Box RNA Helicases in the Spliceosome: Advances in Structure and Function",
-   "year": "2026",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "40065603",
-   "doi": "10.1080/15476286.2025.2477844",
-   "title": "Prp16 enables efficient splicing of introns with diverse exonic consensus elements in the short-intron rich Cryptococcus neoformans transcriptome",
-   "year": "2025",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "9550699",
-   "doi": "10.1016/s0960-9822(98)70178-2",
-   "title": "The DEAH-box splicing factor Prp16 unwinds RNA duplexes in vitro",
-   "year": "1998",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "1825134",
-   "doi": "10.1038/349494a0",
-   "title": "PRP16 is an RNA-dependent ATPase that interacts transiently with the spliceosome",
-   "year": "1991",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "9524131",
-   "doi": "10.1093/emboj/17.7.2095",
-   "title": "Human homologs of yeast Prp16 and Prp17 reveal conservation of the mechanism for catalytic step II of pre-mRNA splicing",
-   "year": "1998",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "25428373",
-   "doi": "10.1093/nar/gku1238",
-   "title": "Brr2p carboxy-terminal Sec63 domain modulates Prp16 splicing RNA helicase",
-   "year": "2014",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "20705241",
-   "doi": "10.1016/j.molcel.2010.07.014",
-   "title": "The DEAH Box ATPases Prp16 and Prp43 Cooperate to Proofread 5′ Splice Site Cleavage during Pre-mRNA Splicing",
-   "year": "2010",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "16103217",
-   "doi": "10.1101/gad.1336305",
-   "title": "The Isy1p component of the NineTeen Complex interacts with the ATPase Prp16p to regulate the fidelity of pre-mRNA splicing",
-   "year": "2005",
-   "subcollection": "DHX38",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:01Z"
-  },
-  {
-   "pmid": "21584698",
-   "doi": "10.1007/s11033-011-0835-x",
-   "title": "The expression of damage-regulated autophagy modulator 2 (DRAM2) contributes to autophagy induction",
-   "year": "2011",
-   "subcollection": "DRAM2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:11:40Z"
-  },
-  {
-   "pmid": "28668330",
-   "doi": "10.1016/j.cbpb.2017.06.008",
-   "title": "Molecular and functional characterisation of two elovl4 elongases involved in the biosynthesis of very long-chain (&gt; C24) polyunsaturated fatty acids in black seabream Acanthopagrus schlegelii",
-   "year": "2017",
-   "subcollection": "ELOVL4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:12:37Z"
-  },
-  {
-   "pmid": "24705208",
-   "doi": "10.3390/genes4030334",
-   "title": "Roles of EphA2 in Development and Disease",
-   "year": "2013",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "37714253",
-   "doi": "10.1016/j.abb.2023.109756",
-   "title": "Upregulation of EphA2 is associated with apoptosis in response to H2O2 and UV radiation-induced cataracts",
-   "year": "2023",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "19573808",
-   "doi": "10.1016/j.ccr.2009.04.009",
-   "title": "EphA2 Mediates Ligand-Dependent Inhibition and Ligand-Independent Promotion of Cell Migration and Invasion via a Reciprocal Regulatory Loop with Akt",
-   "year": "2009",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "22247486",
-   "doi": "10.1167/iovs.11-8685",
-   "title": "EphA2/Ephrin-A1 Signaling Complexes Restrict Corneal Epithelial Cell Migration",
-   "year": "2012",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "34487720",
-   "doi": "10.1016/j.abb.2021.109024",
-   "title": "EphA2 inhibits SRA01/04 cells apoptosis by suppressing autophagy via activating PI3K/Akt/mTOR pathway",
-   "year": "2021",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "28602916",
-   "doi": "10.1016/j.bbapap.2017.06.003",
-   "title": "Structural investigation of a C-terminal EphA2 receptor mutant: Does mutation affect the structure and interaction properties of the Sam domain?",
-   "year": "2017",
-   "subcollection": "EPHA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:13:37Z"
-  },
-  {
-   "pmid": "9763424",
-   "doi": "10.1083/jcb.143.1.107",
-   "title": "Small Espin: A Third Actin-bundling Protein and Potential Forked Protein Ortholog in Brush Border Microvilli",
-   "year": "1998",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "10588661",
-   "doi": "10.1091/mbc.10.12.4327",
-   "title": "Espin Contains an Additional Actin-binding Site in Its N Terminus and Is a Major Actin-bundling Protein of the Sertoli Cell–Spermatid Ectoplasmic Specialization Junctional Plaque",
-   "year": "1999",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "15286153",
-   "doi": "10.1136/jmg.2004.018523",
-   "title": "Mutations of ESPN cause autosomal recessive deafness and vestibular dysfunction",
-   "year": "2004",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "16413524",
-   "doi": "10.1016/j.ydbio.2005.12.021",
-   "title": "Differential expression of espin isoforms during epithelial morphogenesis, stereociliogenesis and postnatal maturation in the developing inner ear",
-   "year": "2006",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "8799813",
-   "doi": "10.1242/jcs.109.6.1229",
-   "title": "Identification and characterization of espin, an actin-binding protein localized to the F-actin-rich junctional plaques of Sertoli cell ectoplasmic specializations",
-   "year": "1996",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "12598619",
-   "doi": "10.1523/jneurosci.23-04-01310.2003",
-   "title": "Novel Espin Actin-Bundling Proteins Are Localized to Purkinje Cell Dendritic Spines and Bind the Src Homology 3 Adapter Protein Insulin Receptor Substrate p53",
-   "year": "2003",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "17409466",
-   "doi": "10.2164/jandrol.107.002634",
-   "title": "Microvillar Size and Espin Expression in Principal Cells of the Adult Rat Epididymis Are Regulated by Androgens",
-   "year": "2007",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "22114352",
-   "doi": "10.1091/mbc.e11-09-0765",
-   "title": "A new role for the architecture of microvillar actin bundles in apical retention of membrane proteins",
-   "year": "2011",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "18973245",
-   "doi": "10.1002/ajmg.a.32525",
-   "title": "A novel mutation in the Espin gene causes autosomal recessive nonsyndromic hearing loss but no apparent vestibular dysfunction in a Moroccan family",
-   "year": "2008",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "28516904",
-   "doi": "10.1038/ncomms15079",
-   "title": "Lhx1/5 control dendritogenesis and spine morphogenesis of Purkinje cells via regulation of Espin",
-   "year": "2017",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "24214986",
-   "doi": "10.1074/jbc.m113.511014",
-   "title": "Myosin 3A Kinase Activity Is Regulated by Phosphorylation of the Kinase Domain Activation Loop",
-   "year": "2013",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
-  },
-  {
-   "pmid": "20366178",
-   "doi": "10.1103/physrevlett.103.238102",
-   "title": "Cooperativity and Frustration in Protein-Mediated Parallel Actin Bundles",
-   "year": "2009",
-   "subcollection": "ESPN",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-03-20T07:14:58Z"
   }
  ]
 }
