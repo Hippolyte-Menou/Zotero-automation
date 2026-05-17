@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-10T05:53:25Z",
+  "generated_at": "2026-05-17T06:04:26Z",
   "threshold_k": 0,
-  "total_evaluated": 19711,
-  "total_flagged": 564,
+  "total_evaluated": 20067,
+  "total_flagged": 621,
   "total_dismissed": 0,
   "total_unresolvable": 151,
   "hierarchy": {
@@ -41,7 +41,9 @@
       "Visual function"
     ],
     "5 - Pathologies": [
+      "Achromatopsia",
       "Albinism",
+      "Alstrom syndrome",
       "Aniridia",
       "Anomalies du developpement oculaire",
       "Bardet-Biedl syndrome",
@@ -87,6 +89,7 @@
       "X-linked retinoschisis"
     ],
     "6 - Genes": [
+      "ABCA4",
       "ACO2",
       "AGK",
       "ARID1B",
@@ -125,6 +128,7 @@
       "PDE6B",
       "PDE6C",
       "PLK4",
+      "PROM1",
       "PRPF3",
       "PRPH2",
       "PRR12",
@@ -134,6 +138,7 @@
       "RPGR",
       "RPGRIP1",
       "RPGRIP1L",
+      "RS1",
       "SAG",
       "SLC4A11",
       "SOX2",
@@ -346,6 +351,36 @@
       "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
     },
     {
+      "pmid": "",
+      "doi": "10.3760/cma.j.cn511374-20250411-00215",
+      "zotero_key": "8PXIW5HK",
+      "title": "[Clinical and genetic analysis of two children with Knobloch syndrome due to variants of COL18A1 gene].",
+      "authors": [
+        [
+          "X",
+          "Gao"
+        ],
+        [
+          "Y",
+          "Tang"
+        ],
+        [
+          "Z",
+          "Chi"
+        ]
+      ],
+      "journal": "Zhonghua yi xue yi chuan xue za zhi = Zhonghua yixue yichuanxue zazhi = Chinese journal of medical genetics",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Knobloch syndrome"
+    },
+    {
       "pmid": "29798271",
       "doi": "",
       "zotero_key": "MFZEZIPJ",
@@ -396,6 +431,64 @@
       "subcollection": "PAX6"
     },
     {
+      "pmid": "",
+      "doi": "10.3760/cma.j.cn112138-20220328-00215",
+      "zotero_key": "XUB4V9EF",
+      "title": "[Clinical and genetics characteristics of adult-onset cerebrotendinous xanthomatosis: analysis of a Chinese pedigree].",
+      "authors": [
+        [
+          "B",
+          "Zhao"
+        ],
+        [
+          "ZW",
+          "Wang"
+        ],
+        [
+          "YM",
+          "Zhang"
+        ],
+        [
+          "YX",
+          "Yu"
+        ],
+        [
+          "S",
+          "Yao"
+        ],
+        [
+          "JJ",
+          "Zhao"
+        ],
+        [
+          "H",
+          "Li"
+        ],
+        [
+          "L",
+          "Liang"
+        ],
+        [
+          "SY",
+          "Pan"
+        ],
+        [
+          "HR",
+          "Qian"
+        ]
+      ],
+      "journal": "Zhonghua nei ke za zhi",
+      "year": "2023",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Syndromic congenital cataract"
+    },
+    {
       "pmid": "40050103",
       "doi": "",
       "zotero_key": "FKN7KFXA",
@@ -428,6 +521,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CHD7"
+    },
+    {
+      "pmid": "",
+      "doi": "10.3760/cma.j.cn511374-20250217-00077",
+      "zotero_key": "7R96N77V",
+      "title": "[Clinical phenotype and genetic analysis of a fetus with a novel mutation of OTX2 gene].",
+      "authors": [
+        [
+          "Y",
+          "Zhou"
+        ],
+        [
+          "Y",
+          "Zhang"
+        ],
+        [
+          "L",
+          "Yan"
+        ],
+        [
+          "C",
+          "Chen"
+        ],
+        [
+          "H",
+          "Li"
+        ]
+      ],
+      "journal": "Zhonghua yi xue yi chuan xue za zhi = Zhonghua yixue yichuanxue zazhi = Chinese journal of medical genetics",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Syndromic ocular developmental anomalies"
     },
     {
       "pmid": "40328723",
@@ -599,6 +730,44 @@
     },
     {
       "pmid": "",
+      "doi": "10.3760/cma.j.cn511374-20230911-00124",
+      "zotero_key": "2HRP8CRH",
+      "title": "[Genetic analysis of a Chinese pedigree affected with Achromatopsia due to variants of CNGA3 gene and a literature review].",
+      "authors": [
+        [
+          "Y",
+          "Liu"
+        ],
+        [
+          "Y",
+          "Zhang"
+        ],
+        [
+          "L",
+          "Yan"
+        ],
+        [
+          "M",
+          "Xie"
+        ],
+        [
+          "H",
+          "Li"
+        ]
+      ],
+      "journal": "Zhonghua yi xue yi chuan xue za zhi = Zhonghua yixue yichuanxue zazhi = Chinese journal of medical genetics",
+      "year": "2024",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Achromatopsia"
+    },
+    {
+      "pmid": "",
       "doi": "10.1055/a-0583-6290",
       "zotero_key": "DC4P4V39",
       "title": "[Hereditary Optic Neuropathies].",
@@ -652,6 +821,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Syndromic congenital cataract"
+    },
+    {
+      "pmid": "",
+      "doi": "10.3760/cma.j.issn.1003-9406.2017.02.016",
+      "zotero_key": "DDEWDWH7",
+      "title": "[Identification of a novel GPR143 mutation in a Chinese family affected with X-linked ocular albinism].",
+      "authors": [
+        [
+          "Q",
+          "Zhao"
+        ],
+        [
+          "M",
+          "Guan"
+        ],
+        [
+          "L",
+          "Wang"
+        ],
+        [
+          "Y",
+          "Liao"
+        ],
+        [
+          "J",
+          "Li-Ling"
+        ],
+        [
+          "H",
+          "Wan"
+        ]
+      ],
+      "journal": "Zhonghua yi xue yi chuan xue za zhi = Zhonghua yixue yichuanxue zazhi = Chinese journal of medical genetics",
+      "year": "2017",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Albinism, ocular"
     },
     {
       "pmid": "",
@@ -762,6 +973,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PDE6C"
+    },
+    {
+      "pmid": "",
+      "doi": "10.3760/cma.j.cn112142-20220930-00468",
+      "zotero_key": "R75HICFR",
+      "title": "[Research progress of persistent hyperplastic primary vitreous with Peters anomaly].",
+      "authors": [
+        [
+          "L",
+          "Li"
+        ],
+        [
+          "H",
+          "Lu"
+        ]
+      ],
+      "journal": "[Zhonghua yan ke za zhi] Chinese journal of ophthalmology",
+      "year": "2022",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Peters anomaly"
     },
     {
       "pmid": "23986189",
@@ -1292,6 +1529,64 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42129670",
+      "doi": "10.1186/s12877-026-07645-x",
+      "zotero_key": "TEJ2ZHNX",
+      "title": "A mobile exercise management application based on exercise preferences in older adults with mild cognitive impairment: a development and usability study",
+      "authors": [
+        [
+          "Ji",
+          "Yan"
+        ],
+        [
+          "Tingxuan",
+          "Wang"
+        ],
+        [
+          "Yang",
+          "Yang"
+        ],
+        [
+          "Shiyu",
+          "Zhou"
+        ],
+        [
+          "Zhuoling",
+          "Li"
+        ],
+        [
+          "Zhifei",
+          "Chen"
+        ],
+        [
+          "Ziqi",
+          "Chen"
+        ],
+        [
+          "Hanyang",
+          "Sun"
+        ],
+        [
+          "Xia",
+          "Wan"
+        ],
+        [
+          "Mengyue",
+          "Zhang"
+        ]
+      ],
+      "journal": "BMC Geriatrics",
+      "year": "2026",
+      "abstract": "BACKGROUND: While physical activity (PA) has protective effects in mitigating dementia progression among individuals with mild cognitive impairment (MCI), suboptimal exercise adherence remains a critical barrier. Mobile health technology, when integrated with preference-based personalization strategies, may enhance adherence through tailored interventions. However, empirical evidence validating the feasibility of exercise preference-driven mobile solutions for populations with MCI remains limited. OBJECTIVE: To develop and evaluate a mobile exercise management application specifically designed for community-dwelling older adults with MCI that incorporates personalized preference-driven features. METHODS: A three-phase mixed-methods study was conducted: (1) Formative research: key design elements of the exercise application were identified based on evidence from existing interventions and users' exercise preferences (self-selected by participants). (2) Prototype design and development: an iterative methodology was employed to design, develop, and test the application's functionality. (3) Usability evaluation: A 4-week usability evaluation was conducted with community-dwelling older adults with MCI using the application. RESULTS: Twelve participants (age = 70.60 ± 3.21; MoCA = 21.67 ± 2.23) completed the 4-week usability evaluation. The application demonstrated good usability (SUS = 77.73 ± 6.73), with optimization targets identified in functional integration (item 5 converted score = 2.67 ± 0.49) and initial technical support needs (item 7 converted score = 2.33 ± 0.49). The median exercise adherence (exercise goal completion rate) among participants was 100.00% (87.48, 100.00), with 75% (9/12) of participants achieving or exceeding their weekly goals. The exercise preference agreement rates exhibited considerable variability: environment-100.00% (93.55, 100.00) and modality-97.83% (63.40, 100.00). While there was a strong positive correlation between the environment and modality preference agreement rates (Spearman rho = 0.817 [p = 0.001]), there was no association between preference agreement rates and adherence (p > 0.05). Users highly valued the application's real-time monitoring, motivational features, and intuitive interface, with most reporting no significant usability issues. CONCLUSIONS: This 4-week, single arm usability study demonstrates that preference-driven mobile exercise management is not only feasible but also holds promise for promoting exercise engagement in community-dwelling individuals with MCI. User feedback identified critical optimization needs in exercise type diversity and initial technical support. While synergistic relationships between exercise environment and modality preference agreement rates were evident, the absence of a correlation between preference agreement rates and exercise adherence underscores the need for longitudinal studies to explore dynamic preference-behavior interactions. Technology adoption barriers (e.g., self-efficacy, digital literacy) and memory-associated challenges necessitate multimodal objective monitoring. These findings highlight two implementation priorities: prioritizing accessibility in exercise environments and incorporating personalized adaptation strategies to address exercise pattern variability.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42050069",
       "doi": "10.1007/s11325-026-03700-4",
       "zotero_key": "2J674WRF",
@@ -1732,6 +2027,68 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42131901",
+      "doi": "10.1002/ajh.70362",
+      "zotero_key": "95U2GACN",
+      "title": "Accuracy of Diagnosis in Myeloproliferative Neoplasms With Splanchnic Vein Thrombosis ( MPN ‐ SVT )",
+      "authors": [
+        [
+          "Bharath Ram",
+          "Sreedhar"
+        ],
+        [
+          "Hosuk",
+          "Ryou"
+        ],
+        [
+          "Aoife",
+          "O'Riordan"
+        ],
+        [
+          "Rupen",
+          "Hargreaves"
+        ],
+        [
+          "Neil",
+          "Chauhan"
+        ],
+        [
+          "Delia",
+          "Alexe"
+        ],
+        [
+          "Samah",
+          "Alimam"
+        ],
+        [
+          "Jens",
+          "Rittscher"
+        ],
+        [
+          "Sabine",
+          "Pomplun"
+        ],
+        [
+          "Daniel",
+          "Royston"
+        ],
+        [
+          "Mallika",
+          "Sekhar"
+        ]
+      ],
+      "journal": "American Journal of Hematology",
+      "year": "2026",
+      "abstract": "The Philadelphia-negative myeloproliferative neoplasms (MPN), including polycythemia vera (PV), essential thrombocythemia (ET), and primary myelofibrosis (MF), are clonal hematopoietic stem cell disorders characterized by excessive proliferation of myeloid lineages. Splanchnic vein thrombosis (SVT) is a rare site of thrombosis frequently associated with MPNs (MPN-SVT) [1]. Sub-classification of MPN in this setting can be challenging because of significant phenotypic overlap, blood counts not meeting diagnostic thresholds, and atypical bone marrow (BM) features [2, 3], resulting in frequent designation as MPN-unclassifiable (MPN-U) [4, 5]. Histopathology remains core to the diagnosis of MPN; however, it is limited by interobserver variability [6-8]. Artificial intelligence (AI) approaches can augment pathological evaluation by objectively identifying and quantifying key diagnostic features such as megakaryocyte cytomorphology/topology and fibrosis severity. They have also shown potential to provide additional prognostic information [9-11]. We evaluated diagnostic concordance between clinical, conventional histology, and AI-powered BM evaluation in patients with MPN-SVT [9, 12]. Patients diagnosed with MPN-SVT attending the Royal Free Hospital NHS Trust between 2000 and 2015 were included, subject to the availability of clinical, laboratory data, and BM trephine biopsies. Data at the time of SVT, MPN diagnoses, and BM assessment were collected retrospectively. Clinical diagnosis was based on clinical features, peripheral blood parameters, and BM findings (WHO 2008 criteria). This was assigned around 3–6 months after MPN diagnosis, when clinical status and blood counts stabilized. At study inclusion, cases were also assigned a WHO 2016 diagnosis. Archived BM trephine biopsies were independently reviewed by an expert hematopathologist blinded to clinical and laboratory data (except age to help assess marrow cellularity), and a favored histological diagnosis was assigned [12]. Anonymized digitized images of BM slides were analyzed by AI, assessing megakaryocyte and fibrosis features. A favored AI diagnostic label using feature similarity to an external reference Oxford MPN cohort was proffered by manually combining the AI-based outputs of megakaryocyte and fibrosis algorithms (Figure S2) [9, 10]. To demonstrate the applicability in the local cohort, these algorithms were also applied to a separate validation cohort of 30 patients with MPN without SVT (Table S3). The study is descriptive, expressed as a range for continuous variables and as percentages for categorical variables. JAK2 allele frequency was compared using the two-tailed Mann–Whitney U test, with 𝑝 ≤ 0.05 considered significant. Thirty-four patients with MPN-SVT were included, with four patients undergoing two BM assessments. Two samples were unsuitable for analysis, yielding 36 cases (Tables S1 and S2). Median follow-up was 13.2 years (5.7–33.6 years). Median time to BM assessment was 3 months post-MPN diagnosis, with 58% and 70.9% performed within 6 months and 1 year, respectively. Seven patients were on cytoreductive treatment at the time of sampling. Clinical diagnosis was considered the benchmark as it determined treatment decisions. Clinically, cases were diagnosed as PV (15 cases), ET (8), MF (9), and JAK2V617F with normal counts (4). Using the WHO 2016 criteria, MPN-U was the predominant diagnosis (12 out of 36 cases). Blinded expert histopathology classified cases as PV (14 cases), ET (4), prefibrotic-MF (6), MF (6), MPN (4), reactive (1), and MDS/MPN (1). Clinical diagnosis had higher concordance with expert histology (50%) than with the original BM reports (35.3%). Based on the combined principal component analysis (PCA) distribution AI-analysis of megakaryocyte and fibrosis features (relative to the centroids of disease space), 12 samples clustered near the PV region, 16 near the prefibrotic-MF region, 5 near the MF region, and 3 near the reactive region, with none near the ET region (Figure 1). Concordance across all four modalities was low at 33.3% in MF and PV; none in ET and JAK2V617F with normal counts. Histology achieved 66.6% concordance with clinical PV and MF, but only 25% with clinical ET. The combined PCA-based AI feature cluster positions corresponded with clinical diagnoses in 46.6% for PV, 33.3% for MF, and none for ET. Overall, AI feature-space positioning agreed with histology in 41.6% (15 out of 36) of cases, approaching 50% in PV. Figure 2 reveals two patterns (especially in PV) wherein a subset of patients has a consistent diagnostic label, and another subset shows discordance across the four methodologies. ET: Clinical ET did not concord with AI analysis and histology categorization. Histology identified only 2 of 8 clinical cases as ET; the remaining 6 were reclassified as prefibrotic-MF (3), PV (2), and MPN (1). On AI analysis, again, none were positioned within the ET region; instead, they clustered closer to the prefibrotic-MF (5) and PV regions (3). Notably, AI assessment of megakaryocyte features was associated with non-ET characteristics, with significant overlap into prefibrotic-MF (Figure 1), suggesting a subtle difference in the histopathological process compared to conventional ET. This observation is significant, given that the AI findings showed 50% concordance in ET from our validation cohort (For analysis of the validation MPN cohort, refer to the Supporting Information file: Table S3 and Figure S1). It also raises the question about the nature of thrombocytosis in MPN-SVT. Inflammation and iron deficiency could contribute to relatively low hematocrit and high platelets. Prefibrotic-MF is also an important cause of thrombocytosis, which would be consistent with the AI interpretation. PV was the most frequent clinical diagnosis (15 of 36 cases, 42%), with concordance on histology in 10 cases. On AI analysis, seven cases of clinical PV showed concordant positioning in the combined AI-derived feature space; however, the remaining were labeled as prefibrotic-MF (5), MF (1), and reactive (2). This suggests that there is heterogeneity in clinically diagnosed PV cases on both histology and AI analysis. Prefibrotic-MF was the most prominent category by AI analysis (16 cases), corresponding to 5 cases each of clinical PV, ET, MF, and 1 case of JAK2V617F with normal counts. In comparison, histology identified only 6 cases as prefibrotic-MF, WHO 2016 diagnosis of 2 cases, and no cases in clinical diagnosis. MF comprised nine cases in clinical diagnosis. In the PCA analysis of AI-derived fibrosis features (Figure 1 and Figure S2), only three cases were positioned within the MF region, while five were positioned in the prefibrotic-MF region, suggesting a lower fibrosis severity. Eight of nine cases were positioned within the MF region based on megakaryocyte features, but composite analysis favored prefibrotic-MF in five cases. In contrast, the expert histology identified MF in six cases. The discordance between AI-based and histological categorizations in prefibrotic-MF likely arises from the difficulty in manually distinguishing between fibrosis grades 1/2 and identifying the subtle megakaryocyte features of prefibrotic-MF. Notably, samples positioned within the prefibrotic-MF and MF regions of AI feature space showed a higher median JAK2 VAF (35%) compared with the rest of the cohort (6%) (p = 0.02). These findings raise the possibility that prefibrotic-MF features in this cohort could indicate either a progression from PV/ET or represent a primary disease process. One mechanism underlying this could be the endothelial damage, which predisposes to both fibrosis and splanchnic thrombosis [13]. In a registry study of MPN-SVT, the survival was shortened due to hepatic disease and bleeding rather than the evolution of MPN [14], suggesting that fibrosis may represent a distinct process rather than advanced disease. MPN-U comprised 33% (12 cases) of the WHO 2016 diagnoses. AI-derived feature analysis showed heterogeneity, PV (5), prefibrotic-MF/MF (4), and reactive (3) (Figure 1). The diverse reassignment using AI-based assessment is noteworthy, though such cases were excluded in the validation of the original model [9]. These features hint at characteristics that may be intrinsic to this subset and might explain the better outcome reported in MPN-U [15]. For further analysis, refer to the Supporting Information. All four cases with JAK2V617F with normal counts had abnormal BM findings by histology and/or AI, indicating the presence of a latent phase MPN rather than JAK2 CHIP. Sequential BM assessments in four patients demonstrated the utility of AI analysis in evaluating disease progression, particularly worsening fibrosis, for example, cases 17 and 24, with progression of fibrosis in case 24 (Figure S3). Our study provides insights into the interpretation of BM histology in a well-characterized cohort of MPN-SVT. The AI model identifies distinct and subtle features that distinguish this cohort from classical MPNs. Among the diagnostic reassignments, the paucity of ET on expert histology review and its complete absence by AI assessment are striking. This is further supported by the identification of ET-like features within the validation cohort of annotated patients with ET. In contrast, prefibrotic-MF-like features are enriched in the MPN-SVT cohort. These features span patients classified clinically as MF, PV, and ET. Quantitative evaluation of megakaryocyte and fibrosis features has the potential to reduce inter-observer variability. AI-based feature analysis can visualize the spatial localization of fibrosis and temporal changes over time using heat maps, suggesting a complementary interpretive role for AI in follow-up. The limitations of the study include that AI models do not incorporate other MPN features, such as panmyelosis typical of PV or granulocytic proliferation of prefibrotic MF, retrospective design, small sample size, and variability in the timing of BM sampling. Nonetheless, this study demonstrates that AI-based analysis can complement histology, and larger prospective studies are warranted to validate these findings. The authors have nothing to report. This project was conducted as part of a departmental service improvement initiative, and all patient data were anonymized at the source in accordance with the United Kingdom Data Protection Act (1998). Declaration of interest for Daniel Royston: D.R. provides consulting services to Ground Truth Labs Ltd and Johnson and Johnson, and is co-founder of Ground Truth Labs Ltd. The data that support the findings of this study are available from the corresponding author upon reasonable request. Table S1: Clinical and laboratory characteristics of MPN-SVT patients. Table S2: Clinical diagnosis and molecular markers in the MPN-SVT cohort. Table S3: Clinical diagnosis and molecular markers in the MPN cohort. Figure S1: Summary of MPN (Validation cohort) diagnostic categories for each sample based upon clinical (C), histology only (H), WHO 2016 diagnosis (WHO 2016), AI consolidated (AI—consol), AI fibrosis, and AI megakaryocytes (AI—Megak) of MPN. Clinical diagnosis (C) refers to the pragmatic clinical diagnosis assigned within 6 months of MPN diagnosis by the treating clinician for patients. The WHO 2016 diagnosis was assigned retrospectively by an independent reviewer (BS) at the time of study inclusion, based on the original BM reports. Histopathology (H) comprises a review of the bone marrow trephine slides by an independent, blinded histopathologist. AI-fibrosis and AI-megakaryocyte denote the artificial intelligence interpretation of the fibrosis and megakaryocyte morphology on the trephine slides. AI-consolidated represents a pragmatic, manual integration of the AI-fibrosis and AI-megakaryocyte analyses, as outlined in the main text. Figure S2: Principal component analysis (PCA) representations of AI analysis of MPN-SVT samples. Top (a): Megakaryocyte feature analysis combining cytomorphological features and topological distribution. Bottom (b): Fibrosis feature analysis combining average tile continuous indexing of fibrosis (CIF) score, tile score distribution, and heterogeneity of CIF score. To simplify this output and provide a favored or estimated AI-based categorization for each case, the nearest Euclidean distance between the sample features and the center of each MPN subtype distribution in PCA space for both megakaryocyte and fibrosis features. Figure S3: Visual representation of paired bone marrow (BM) images of a patient (left) and principal component analysis (PCA) of AI fibrosis, AI megakaryocyte, and AI composite analysis (right), labeled case 17 (above) and case 24 (below). Cases 17 and 24 pertain to a patient who underwent marrow examination 6 years apart (in 2011 and 2017) with a diagnosis of CALR-mutated ET on clinical and histological criteria but labeled as prefibrotic-MF on AI. AI fibrosis shows progression in the intervening years. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41920290",
       "doi": "10.1007/s12098-026-06128-6",
       "zotero_key": "UBIXMRC7",
@@ -1856,6 +2213,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Megalocornea"
+    },
+    {
+      "pmid": "42130390",
+      "doi": "10.1177/10538127261445501",
+      "zotero_key": "NI3T9A9T",
+      "title": "Adjunctive psychological approaches in randomized controlled trials of exercise interventions for pediatric chronic musculoskeletal diseases – A scoping review",
+      "authors": [
+        [
+          "Sanja",
+          "Schreiber"
+        ],
+        [
+          "Libak",
+          "Abou"
+        ],
+        [
+          "Dominique",
+          "Kinnett-Hopkins"
+        ],
+        [
+          "Liz",
+          "Dennett"
+        ],
+        [
+          "Anna",
+          "Kratz"
+        ],
+        [
+          "Emily C.",
+          "Somers"
+        ]
+      ],
+      "journal": "Journal of Back and Musculoskeletal Rehabilitation",
+      "year": "2026",
+      "abstract": "ObjectiveTo map existing research on adjunctive psychological approaches in exercise-based randomized controlled trials (RCTs) involving children with chronic musculoskeletal diseases (CMD).Data SourcesWe conducted a scoping review, following Joanna Briggs Institute methodology and a prospectively registered protocol. Medline, Embase, PsycInfo, CINAHL, Cochrane CENTRAL and Scopus databases were searched in February 2024 and September 2025.MethodsRCTs involving children with CMD, exploring therapeutic exercises with psychological approaches, were included. Four independent reviewers screened the studies; data were extracted by one reviewer and verified by another using standardized previously piloted forms. Covidence was used for all review steps. PRISMA extension for Scoping Reviews recommendations was followed for synthesis and reporting.ResultsOf 6793 screened studies, 21 were assessed for full-text eligibility, and five RCTs (223 children, 80% female, mean age 14.2 years) were included from two countries (USA [n = 4], Sweden). Conditions included chronic musculoskeletal pain (n = 2), complex regional pain syndrome, patellofemoral pain syndrome, and juvenile fibromyalgia. Outcomes focused on pain, psychological, and clinical findings. Psychological approaches (motivational interviewing, behavior modification, pain psychoeducation) were delivered by psychologists and physiotherapists. Exercise interventions included neuromuscular exercises (n = 3), usual physiotherapy (n = 1), and tailored physiotherapy (n = 1).ConclusionsManaging children with CMD is complex requiring multidisciplinary care, with psychological approaches potentially enhancing exercise-based rehabilitation. Although this integration appears promising, progress is limited by the lack of standardized protocols, scarce long-term evidence, and barriers such as accessibility, caregiver engagement, and therapist training.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41999139",
@@ -2656,6 +3055,44 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42117523",
+      "doi": "10.1002/nau.70308",
+      "zotero_key": "JJBXPC2C",
+      "title": "Applications of Artificial Intelligence in Urodynamic Data Interpretation: A Narrative Review",
+      "authors": [
+        [
+          "Farzad",
+          "Pourghazi"
+        ],
+        [
+          "Pradeep Kumar",
+          "Chaudhary"
+        ],
+        [
+          "Brian J.",
+          "Linder"
+        ],
+        [
+          "Azra",
+          "Alizad"
+        ],
+        [
+          "Mostafa",
+          "Fatemi"
+        ]
+      ],
+      "journal": "Neurourology and Urodynamics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Interpretation of urodynamic studies (UDS) is central to diagnosing lower urinary tract dysfunction, but it is often complex, time-consuming, and subject to interobserver variability. Recent advances in artificial intelligence (AI), particularly machine learning (ML) and deep learning (DL), have enabled automated analysis of multichannel pressure-flow data and may improve objectivity and efficiency in UDS interpretation. OBJECTIVE: To critically review current applications of ML and DL for interpretation of multichannel UDS data and to evaluate their performance, clinical targets, and limitations. METHODS: A literature search of PubMed, Scopus, and Web of Science was performed through September 2, 2025, without language or date restrictions. A narrative review was conducted of peer-reviewed studies applying ML or DL techniques to invasive UDS signals, including vesical, abdominal, and detrusor pressures as well as urinary flow. Studies limited to uroflowmetry or non-UDS inputs were excluded. Model design, input features, validation strategies, and clinical outcomes were systematically assessed. RESULTS: A total of 12 studies met inclusion criteria. AI models were applied to a range of UDS tasks, including detection of detrusor overactivity, classification of bladder outlet obstruction and detrusor underactivity, multi-feature UDS pattern recognition, severity grading, and real-time event detection. Reported diagnostic performance was generally high, with many models achieving accuracies or AUCs between 80% and 95% for primary outcomes. However, study designs were heterogeneous, most datasets were retrospective and single-center, and external validation was limited. CONCLUSIONS: ML and DL approaches can extract clinically meaningful information from multichannel UDS recordings and demonstrate strong technical performance across several diagnostic tasks. However, variability in methodology, limited generalizability, and lack of prospective validation currently limit clinical adoption. AI-based UDS interpretation remains an emerging research area requiring standardized data, robust validation, and integration with clinical workflows.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42006102",
       "doi": "",
       "zotero_key": "XTN9AUW8",
@@ -2868,6 +3305,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42106630",
+      "doi": "10.1186/s12883-026-04957-8",
+      "zotero_key": "EXQN4AJS",
+      "title": "Association between Guillain–Barré syndrome and 7 autoimmune diseases: a mendelian randomization study",
+      "authors": [
+        [
+          "Jialei",
+          "Zhou"
+        ],
+        [
+          "Tong",
+          "Wang"
+        ],
+        [
+          "Gang",
+          "Chen"
+        ],
+        [
+          "Siyuan",
+          "Yang"
+        ],
+        [
+          "Tianyi",
+          "Wang"
+        ],
+        [
+          "Li",
+          "X"
+        ]
+      ],
+      "journal": "BMC Neurology",
+      "year": "2026",
+      "abstract": "BACKGROUND: The genetic and environmental factors influencing an individual's susceptibility to develop Guillain-Barré syndrome (GBS) remain largely unidentified. This study aims to evaluate the genetically predicted associations between GBS and candidate autoimmune diseases using a Mendelian randomization (MR) framework. METHODS: Genetic instruments for autoimmune diseases were extracted from large-scale genome-wide association study (GWAS) datasets. Following stringent quality control, seven autoimmune diseases were ultimately retained for the primary analysis. Summary statistics for GBS were obtained from the FinnGen consortium. We employed the inverse variance weighted (IVW) method as the primary approach, supplemented by sensitivity analyses to ensure robustness. Furthermore, a high-throughput two-step MR screening of 731 immune traits was integrated to explore potential biological mediators. RESULTS: Genetic liability to type 1 diabetes was suggestively associated with an increased risk of GBS [OR (95% CI) = 1.26 (1.04-1.52), p = 0.0176]. Conversely, genetic predisposition to psoriasis vulgaris showed a suggestive protective association [OR (95% CI) = 0.784 (0.623-0.986), p = 0.0375]. No significant or suggestive associations were observed for rheumatoid arthritis (p = 0.990), sarcoidosis (p = 0.993), systemic lupus erythematosus (p = 0.240), asthma (p = 0.906), or Graves' disease (p = 0.926). No circulating immune trait emerged as a significant mediator between these conditions. CONCLUSION: This study identifies suggestive genetically predicted associations between specific autoimmune diseases and GBS susceptibility, specifically a potential risk-increasing effect of type 1 diabetes and a protective effect of psoriasis vulgaris. The absence of significant peripheral immune mediators suggests that these neuro-immune interactions may be driven by more localized or complex tissue-resident mechanisms.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41914086",
@@ -3670,6 +4149,40 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42091926",
+      "doi": "10.1038/s41525-026-00576-x",
+      "zotero_key": "ZAIXSW6B",
+      "title": "Bridging the gap: an emerging link between tubulinopathies and ciliopathies",
+      "authors": [
+        [
+          "Sydney",
+          "Steiman"
+        ],
+        [
+          "Safia",
+          "Omer"
+        ],
+        [
+          "Stephen",
+          "Pastore"
+        ],
+        [
+          "Evgueni A.",
+          "Ivakine"
+        ]
+      ],
+      "journal": "npj Genomic Medicine",
+      "year": "2026",
+      "abstract": "Genetic neurodevelopmental disorders arise from variants in genes critical for brain development, including those causing ciliopathies and tubulinopathies. Both disorders are linked to brain malformations, intellectual disability, and motor impairments. Since cilia rely on microtubules for ciliogenesis, axoneme formation, and intraflagellar transport, defects in tubulin genes can directly disrupt ciliary function. This review highlights emerging evidence connecting these two disease groups and reveals how tubulin variants impact ciliopathy mechanisms.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "IFT172"
+    },
+    {
       "pmid": "41906871",
       "doi": "10.1080/08880018.2026.2628528",
       "zotero_key": "3V6MT8TI",
@@ -4078,6 +4591,68 @@
       "subcollection": "Glaucoma"
     },
     {
+      "pmid": "42118510",
+      "doi": "10.1186/s12284-026-00906-8",
+      "zotero_key": "ISF5H9RP",
+      "title": "Chromosome-Level Genome Assembly Identifies RIRE2 and CACTA Transposable Elements at the Sub1 Locus in Submergence-Tolerant Rice Varieties",
+      "authors": [
+        [
+          "Na-Hyun",
+          "Shin"
+        ],
+        [
+          "Ji-Hun",
+          "Hwang"
+        ],
+        [
+          "Moaïne El",
+          "Baidouri"
+        ],
+        [
+          "Jae-Hyuk",
+          "Han"
+        ],
+        [
+          "Yeisoo",
+          "Yu"
+        ],
+        [
+          "Gyoungju",
+          "Nah"
+        ],
+        [
+          "Keunpyo",
+          "Lee"
+        ],
+        [
+          "Jungnam",
+          "Cho"
+        ],
+        [
+          "Lae‐Hyeon",
+          "Cho"
+        ],
+        [
+          "Kyung Do",
+          "Kim"
+        ],
+        [
+          "Joong Hyoun",
+          "Chin"
+        ]
+      ],
+      "journal": "Rice",
+      "year": "2026",
+      "abstract": "Rice (Oryza sativa), despite being adapted to waterlogged conditions, is vulnerable to complete submergence, which represents one of the greatest threats to crop yield under climate change after drought. The Sub1A-1 allele within the Sub1 QTL on chromosome 9 confers submergence tolerance and has been successfully introduced into many elite varieties; however, a complete reference sequence of the Sub1 locus including its flanking regulatory regions has not been reported. Here we show that the Sub1 locus contains two previously uncharacterized transposable elements, an LTR-retrotransposon (RIRE2 family) and CACTA element, that are conserved across submergence-tolerant indica varieties and harbor candidate regulatory sequences that could modulate Sub1A activity. Using chromosome-level assemblies of IR64-Sub1 (98.6% completeness) and its background genotype IR64sj (98.3% completeness), we identified a RIRE2 positioned ~ 500 bp downstream of Sub1A in opposite orientation, which was inserted into the indica genome approximately 179,000 years ago, and a ~ 12 kb CACTA element containing two genes that exhibit expression patterns similar to Sub1A-1 under submergence. Motif analysis further revealed a strong enrichment of ERF-family binding motifs within the CACTA sequence, with most CACTA-associated ERF motifs concentrated in the ~ 2 kb promoter regions of the two embedded genes, whereas EIL-binding motifs were rare. Together, these findings provide the first complete reference sequence of the Sub1 QTL and nominate the TE-associated regulatory sequences as plausible contributors to submergence-responsive transcription, establishing a genomic foundation for the development of flood-resilient rice varieties.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41833959",
       "doi": "10.1097/paf.0000000000001129",
       "zotero_key": "SZFX3MZZ",
@@ -4310,6 +4885,48 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41996232",
+      "doi": "10.31348/2026/18",
+      "zotero_key": "9JX8PQ9V",
+      "title": "Clinical Features and Therapeutic Alternatives in Eyes with Secondary Vasoproliferative Tumors: A Single-Center Turkish Perspective",
+      "authors": [
+        [
+          "G.",
+          "Polat"
+        ],
+        [
+          "Omer",
+          "Kart"
+        ],
+        [
+          "Ziya",
+          "Ayhan"
+        ],
+        [
+          "Murat",
+          "Tunc"
+        ],
+        [
+          "Remzi",
+          "Avc"
+        ],
+        [
+          "Ali Osman",
+          "Saatci"
+        ]
+      ],
+      "journal": "Czech and Slovak Ophthalmology",
+      "year": "2026",
+      "abstract": "AIMS: To evaluate retrospectively the clinical characteristics and therapeutic outcomes in eyes with secondary vasoproliferative retinal tumors (VPRT) at a tertiary center in Turkey. MATERIAL AND METHODS: Patients diagnosed with secondary VPRT between 2005 and 2025 with a follow-up of 6 months or more were included. 24 eyes of 21 patients were evaluated. Their charts and multimodal imaging features were analyzed, and treatments noted. RESULTS: Mean age was 26.1 years (6-57). Mean follow-up was 61.1 months (6-151). Baseline BCVA was 0.77 LogMAR (0.00-2.30). VPRT was linked to non-infectious uveitis in 12 patients, retinitis pigmentosa in 5 patients, X-linked Juvenile Retinoschisis, Coats' disease, retinal dystrophy and retinopathy of prematurity in 1 patient each. The inferotemporal quadrant was the most common site (66.7%). Treatments included dexamethasone implant, transscleral cryotherapy, systemic immunosuppressive therapy, laser photocoagulation, CyberKnife, intravitreal anti-VEGF, vitreoretinal surgery, photodynamic therapy, intravitreal triamcinolone acetonide and enucleation. At baseline, 15 eyes had macular intraretinal fluid. At the final visit, dry macula was achieved in 9 of 15 eyes. Mean final BCVA was 1.01 LogMAR (0.00-3.00). Two eyes deteriorated to no light perception. One was enucleated. CONCLUSION: This largest cohort of patients from Turkey with secondary VPRT reflects the diverse underlying etiologic associations and heterogeneous clinical manifestations at a tertiary center. Various therapeutic techniques were required to cope with this difficult-to-treat, challenging disease entity.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RS1"
+    },
+    {
       "pmid": "41894554",
       "doi": "10.1159/000551601",
       "zotero_key": "D8VNDASW",
@@ -4500,6 +5117,48 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42115997",
+      "doi": "10.1186/s12886-026-04892-9",
+      "zotero_key": "I2EHSPFW",
+      "title": "Clot-induced pupillary block and postoperative reverse pupillary block in Uveitis–Glaucoma–Hyphema syndrome associated with late in-the-bag IOL dislocation",
+      "authors": [
+        [
+          "Biancamaria",
+          "Berardi"
+        ],
+        [
+          "Nicola",
+          "Valsecchi"
+        ],
+        [
+          "Alessandro",
+          "Finzi"
+        ],
+        [
+          "Antonio",
+          "Moramarco"
+        ],
+        [
+          "Luigi",
+          "Fontana"
+        ],
+        [
+          "Maurizio",
+          "Mete"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Uveitis Glaucoma Hyphema (UGH) syndrome results from chafing between an intraocular implant and anterior chamber structures, and it typically presents with anterior chamber inflammation, elevated intraocular pressure and recurrent microhyphema or hyphema. Herein, we report the case of a patient with atypical presentation: iridocorneal angle closure secondary to a clot-induced pupillary block. The same patient developed reverse pupillary block a few weeks after surgery. CASE PRESENTATION: A 77-year-old Caucasian woman presented with iridocorneal angle closure secondary to a clot induced pupillary block. The bleeding was caused by rubbing between a late in-the-bag dislocated intraocular lens and the iris in pseudoexfoliative syndrome. The diagnosis of UGH was initially delayed due to the unusual presentation. She underwent intraocular lens (IOL) exchange and secondary IOL scleral fixation, and subsequently developed reverse pupillary block. Both pupillary blocks were resolved by laser iridotomy. CONCLUSIONS: Uveitis Glaucoma Hyphema syndrome can rarely present with pupillary block, particularly in cases caused by late in-the-bag IOL dislocation in pseudoexfoliation syndrome. This case is unusual due to the occurrence of both pupillary block and subsequent reverse pupillary block in the same patient, highlighting the importance of recognizing these uncommon and atypical mechanisms.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "41807597",
       "doi": "10.1038/s41598-026-44011-8",
       "zotero_key": "68QK9RUC",
@@ -4582,48 +5241,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Knobloch syndrome"
-    },
-    {
-      "pmid": "41937212",
-      "doi": "10.1186/s12876-026-04734-4",
-      "zotero_key": "I2XIVW6K",
-      "title": "Colostomy in patients with anorectal malformation with rectoperineal fistula or rectovestibular fistula: a single-center experience",
-      "authors": [
-        [
-          "Xianming",
-          "Xiao"
-        ],
-        [
-          "Wei",
-          "Feng"
-        ],
-        [
-          "Zhili",
-          "Wang"
-        ],
-        [
-          "Pengfei",
-          "Chen"
-        ],
-        [
-          "Jinping",
-          "Hou"
-        ],
-        [
-          "Yi",
-          "Wang"
-        ]
-      ],
-      "journal": "BMC Gastroenterology",
-      "year": "2026",
-      "abstract": "This study summarizes the clinical characteristics of colostomy in children with anorectal malformation (ARM) with rectoperineal fistula (RPF) or rectovestibular fistula (RVF) to inform surgical decision-making. Medical records of children with RPF or RVF undergoing colostomy were retrospectively reviewed to analyze indications. Among 761 rectoperineal fistula and 295 rectovestibular fistula patients, 124 received colostomy: 16 (2.1%) with RPF and 108 (36.6%) with RVF. Indications for colostomy in sixteen RPF were: nonvisible fistula with high Pouch-Perineum (P-P) distance (n = 5), prior colostomy elsewhere (n = 4), penile or scrotal fistula with high P-P distance (n = 2), high P-P distance alone (n = 2), perineal body fistula in a female (n = 1), failed intraoperative pouch identification (n = 1), and necrotizing enterocolitis (n = 1). For rectovestibular fistula (n = 108), indications included: treatment pre-2018 (n = 49, 45.4%), poor general condition or severe anomalies (n = 14, 12.9%), small fistula with persistent distension despite dilation (n = 13, 12.0%), failed prior repair on colostomy (n = 9, 8.3%), neonatal abdominal distension or defecation difficulty (n = 4, 3.7%), fistula near posterior commissure (n = 4, 3.7%), and tethered cord syndrome, reduction of neonatal wound complications, nonvisible fistula with high P-P distance, staged repair choice, or secondary megacolon (each 2.8%, n = 3). For children with fistula at the penis or scrotum and high Pouch-Perineum distance, primary repair carries risks of rectal pouch misidentification and urethral injury. In rectoperineal fistula cases without a visible fistula and with a high Pouch-Perineum distance, colostomy is often unavoidable. A staged surgical procedure is recommended for patients with rectovestibular fistula in cases of poor general condition, severe concomitant congenital malformations, unresolved defecation difficulties following anal dilatation, or a fistula near the posterior commissure.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "40160374",
@@ -4922,6 +5539,84 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42126540",
+      "doi": "10.1007/s00586-026-09976-0",
+      "zotero_key": "IGBAUX2F",
+      "title": "Comparison of cervical sagittal alignment in normal subjects and adolescents and young adults with idiopathic scoliosis",
+      "authors": [
+        [
+          "Lucas",
+          "Chomienne"
+        ],
+        [
+          "Guillaume",
+          "Battesti"
+        ],
+        [
+          "T.",
+          "Goetsch"
+        ],
+        [
+          "Mikael",
+          "Finoco"
+        ],
+        [
+          "Emmanuelle",
+          "Ferrero"
+        ],
+        [
+          "Marc",
+          "Khalifé"
+        ],
+        [
+          "Thierry",
+          "Odent"
+        ],
+        [
+          "Edouard de",
+          "Charnace"
+        ],
+        [
+          "Sébastien",
+          "Pesenti"
+        ],
+        [
+          "Solène",
+          "Prost"
+        ],
+        [
+          "Benjamin",
+          "Blondel"
+        ],
+        [
+          "Federico",
+          "Solla"
+        ],
+        [
+          "Mourad",
+          "Ould-Slimane"
+        ],
+        [
+          "Brice",
+          "Ilharreborde"
+        ],
+        [
+          "Yann Philippe",
+          "Charles"
+        ]
+      ],
+      "journal": "European Spine Journal",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42032095",
       "doi": "10.1007/s00784-026-06845-4",
       "zotero_key": "7N922USC",
@@ -5136,6 +5831,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42127920",
+      "doi": "10.1016/s1474-4422(26)00160-2",
+      "zotero_key": "GH2U852R",
+      "title": "Concerns regarding the 2024 revisions of the McDonald criteria for diagnosis of multiple sclerosis",
+      "authors": [
+        [
+          "Darin T.",
+          "Okuda"
+        ],
+        [
+          "Orhun H.",
+          "Kantarci"
+        ],
+        [
+          "Aksel",
+          "Siva"
+        ],
+        [
+          "Daniel",
+          "Pelletier"
+        ],
+        [
+          "Christine",
+          "Lebrun-Frénay"
+        ]
+      ],
+      "journal": "The Lancet Neurology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41531001",
@@ -6096,6 +6829,32 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42129680",
+      "doi": "10.1186/s12877-026-07617-1",
+      "zotero_key": "D4ZCIP3J",
+      "title": "Development and validation of the Frailty Questionnaire-5 (FQ-5), a PRISMA-7–derived screening tool for frailty: a diagnostic accuracy study in primary care",
+      "authors": [
+        [
+          "Boonyapond",
+          "Damrongtawat"
+        ],
+        [
+          "Saran",
+          "Thanapluetiwong"
+        ]
+      ],
+      "journal": "BMC Geriatrics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Frailty is a common geriatric syndrome associated with falls, disability, hospitalization, and mortality. Primary care screening tools must be simple, time-efficient, and accurate. This study aimed to develop and validate the Frailty Questionnaire-5 (FQ-5), adapted from the PRISMA-7, for frailty screening in a primary care setting. METHODS: We conducted a cross-sectional study of 328 ambulatory, community-dwelling older adults (age 60-91 years; 84 males, 244 females) recruited via consecutive sampling in suburban Northeast Thailand. Following linguistic validation of PRISMA-7, the FQ-5 was developed by removing two low-performing items and adjusting the age threshold. Criterion validity and clinical association were assessed against the modified Thai Frailty Index (mTFI). Internal consistency and 7-14-day test-retest reliability (n = 33) were also evaluated. RESULTS: Frailty prevalence was 29.9% (n = 98) according to the mTFI and 24.1% (n = 79) based on the Thai PRISMA-7 (cutoff ≥ 3). For the FQ-5, prevalence varied by threshold: 53.7% (n = 176) at cutoff ≥ 1 and 24.7% (n = 81) at cutoff ≥ 2. The FQ-5 demonstrated good discrimination (AUC = 0.81; 95% CI: 0.76-0.86). A cutoff ≥ 2 achieved the highest overall classification accuracy (80.8%), with sensitivity 59.2% and specificity 90.0% (dOR = 13.05). Meanwhile, a cutoff ≥ 1 maximized sensitivity (84.7%) at the expense of specificity (59.6%). The FQ-5 was significantly associated with adverse outcomes, including ADL dependency and falls. Test-retest reliability was excellent (ICC = 0.86) and precision (SEM = 0.42, MDC = 1.17), with no significant systematic bias (mean difference = -0.12). CONCLUSION: The FQ-5 is a brief, reliable, and clinically relevant frailty screening tool for Thai primary care, with potential for adaptation in countries with similar healthcare and demographic profiles. In practice, FQ-5 ≥ 2 is suitable for rule-in screening in primary care, whereas ≥ 1 supports early case-finding to prompt full frailty assessment. TRIAL REGISTRATION: Thai Clinical Trials Registry (TCTR), TCTR20250818010; registered 18 August 2025 (retrospectively registered).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41954487",
       "doi": "10.1097/iae.0000000000004858",
       "zotero_key": "J73QVAAB",
@@ -6201,6 +6960,48 @@
     },
     {
       "pmid": "",
+      "doi": "10.16288/j.yczz.22-217",
+      "zotero_key": "HQS9XQ4T",
+      "title": "Diagnosis, treatment and genetic analysis of a case of Alstrom syndrome caused by compoud heterozygous mutation of ALMS1.",
+      "authors": [
+        [
+          "HJ",
+          "Yang"
+        ],
+        [
+          "D",
+          "Li"
+        ],
+        [
+          "HL",
+          "Bai"
+        ],
+        [
+          "M",
+          "Zhang"
+        ],
+        [
+          "J",
+          "Huang"
+        ],
+        [
+          "XQ",
+          "Yuan"
+        ]
+      ],
+      "journal": "Yi chuan = Hereditas",
+      "year": "2022",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Alstrom syndrome"
+    },
+    {
+      "pmid": "",
       "doi": "10.4274/jcrpe.galenos.2025.2025-1-18",
       "zotero_key": "96CGJ4K9",
       "title": "Diagnostic Utility of Next-Generation Sequencing-based CNV Analysis in Eleven Patients with Peters-Plus Syndrome: A Single-Center Experience.",
@@ -6264,6 +7065,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Peters Plus syndrome"
+    },
+    {
+      "pmid": "42112812",
+      "doi": "10.1097/j.jcrs.0000000000001976",
+      "zotero_key": "BAST47D5",
+      "title": "Diagonal haptic capture of an acrylic intraocular lens - Longterm safety and efficacy",
+      "authors": [
+        [
+          "Suphi",
+          "Taneri"
+        ],
+        [
+          "Anika",
+          "Förster"
+        ],
+        [
+          "Mira",
+          "Grigat"
+        ],
+        [
+          "H Burkhard",
+          "Dick"
+        ]
+      ],
+      "journal": "Journal of Cataract & Refractive Surgery",
+      "year": "2026",
+      "abstract": "PURPOSE: To evaluate the long-term safety, stability, and visual outcomes of diagonal haptic capture (DHC) of a 4-haptic hydrophilic acrylic intraocular lens (Akreos adapt, Bausch&Lomb) in eyes with posterior capsule deficiency and an intact anterior capsulorhexis. SETTING: Single tertiary referral center. DESIGN: Retrospective interventional case series. METHODS: Medical records were reviewed for patients who underwent cataract surgery complicated by posterior capsule rupture and in whom DHC was used for IOL fixation between 2015 and 2023. Twenty eyes of 20 patients were identified. Fellow eyes with uneventful in-the-bag implantation of the same IOL model served as controls. RESULTS: Median follow-up was 2 years (mean 2.6±2.1 years; range 0-6 years) based on data from referring ophthalmologists, and 8 years (mean 6.0±2.8 years; range 2-9 years) for patients examined at the study center. Mean postoperative corrected distance visual acuity did not differ significantly between DHC eyes and fellow eyes (p>0.4). Refractive predictability and intraocular pressure were comparable between groups. All IOLs remained well centered with normal tilt throughout follow-up. No cases of pigment dispersion glaucoma, uveitis-glaucoma-hyphema syndrome, pseudophacodonesis, or late IOL dislocation were observed. In a subset of eyes, anterior segment optical coherence tomography demonstrated adequate clearance between the IOL and posterior iris without evidence of iris chafing. CONCLUSIONS: Diagonal haptic capture of a 4-haptic hydrophilic acrylic IOL provided stable long-term fixation, satisfactory visual and refractive outcomes, and a low incidence of complications. However, these results may be IOL-specific.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "41761899",
@@ -6716,6 +7551,56 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42127523",
+      "doi": "10.1016/j.jclinane.2026.112234",
+      "zotero_key": "UAX3SPZA",
+      "title": "Dynamic assessment of gastric emptying patterns after endoscopic bowel preparation using ultrasonography: A prospective observational study",
+      "authors": [
+        [
+          "Jie",
+          "Tong"
+        ],
+        [
+          "H D",
+          "Chen"
+        ],
+        [
+          "Zhiyao",
+          "Wang"
+        ],
+        [
+          "Guoli",
+          "Wang"
+        ],
+        [
+          "Yi",
+          "Zhang"
+        ],
+        [
+          "Ming",
+          "Ding"
+        ],
+        [
+          "Chao",
+          "Liang"
+        ],
+        [
+          "Changhong",
+          "Miao"
+        ]
+      ],
+      "journal": "Journal of Clinical Anesthesia",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41736501",
       "doi": "",
       "zotero_key": "WC3G7ZUS",
@@ -7052,6 +7937,44 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "42118472",
+      "doi": "10.1007/s11255-026-05185-2",
+      "zotero_key": "CTR4SKKP",
+      "title": "Early-start vs. conventional-start peritoneal dialysis in AKI from cardiorenal syndrome type 1: a randomized controlled trial (STARRT-PD)",
+      "authors": [
+        [
+          "Watanyu",
+          "Parapiboon"
+        ],
+        [
+          "Suriyan",
+          "Yupaniad"
+        ],
+        [
+          "Pachara",
+          "Saengngammongkhol"
+        ],
+        [
+          "Piti",
+          "Niyomsirivanich"
+        ],
+        [
+          "Tanin",
+          "Simtharakaew"
+        ]
+      ],
+      "journal": "International Urology and Nephrology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "",
       "doi": "10.1111/j.1444-0938.2004.tb05053.x",
       "zotero_key": "VWZVSZTK",
@@ -7072,6 +7995,28 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42126173",
+      "doi": "10.1002/jmri.70358",
+      "zotero_key": "BRUUPR2G",
+      "title": "Editorial for “Relationship Between Dp140 Genotype and Cortical Similarity Network Phenotype in Duchenne Muscular Dystrophy: Preliminary T1 Weighted Study”",
+      "authors": [
+        [
+          "Sam",
+          "Geuens"
+        ]
+      ],
+      "journal": "Journal of Magnetic Resonance Imaging",
+      "year": "2026",
+      "abstract": "Duchenne muscular dystrophy (DMD) is a severe X-linked disorder affecting predominantly boys and caused by mutations in the dystrophin gene, leading to progressive muscle degeneration and reduced life expectancy. However, dystrophin is not confined to skeletal and cardiac muscle. Several isoforms, including the full-length Dp427 and shorter variants such as Dp140 and Dp71, are also expressed in the central nervous system, with distinct spatial and developmental expression patterns [1, 2]. The location of the underlying mutation determines which isoforms are affected. Increasing evidence indicates that mutations predicted to disrupt Dp140 are associated with more pronounced cognitive and behavioral difficulties, highlighting the heterogeneity of the neurodevelopmental phenotype in boys with DMD [2, 3]. The neurocognitive profile of boys with DMD extends well beyond reduced full-scale IQ [1]. On average, affected boys score approximately one standard deviation below the population mean on standardized intelligence measures, although substantial interindividual variability exists. Vulnerabilities in working memory, executive functioning, processing speed, and attentional regulation are frequently observed, accompanied by increased neurobehavioral problems such as attention-deficit/hyperactivity disorder and autism spectrum traits. These difficulties may substantially affect academic achievement, social participation, and adaptive functioning, often contributing to long-term challenges in independence and quality of life [4]. Working memory impairments appear particularly pronounced in boys lacking Dp140, further supporting the concept of isoform-specific cognitive vulnerability within the broader DMD phenotype. Neuroimaging studies in DMD have provided valuable but largely exploratory insights into brain involvement, often based on modest sample sizes and heterogeneous methodologies, including volumetric analyses, diffusion imaging, and functional MRI [5]. While alterations in frontal and parietal regions have been reported, a coherent framework linking dystrophin isoform deficiency to network-level cortical organization remains lacking. In particular, the mechanisms by which Dp140 deficiency influences brain development and large-scale network maturation are still poorly understood. This knowledge gap has become increasingly relevant in the era of emerging genetic and molecular therapies [1]. Many novel interventions primarily target skeletal muscle, yet their potential impact on brain development, whether direct, indirect, or negligible, remains uncertain. As therapeutic strategies evolve, there is a growing need for robust, developmentally informed neuroimaging biomarkers capable of capturing genotype-specific brain vulnerability and tracking neurocognitive outcomes over time. In this context, the current study [6] represents an important step forward. By stratifying boys with DMD according to predicted Dp140 expression and applying morphometric similarity network (MSN) analysis to T1-weighted MRI data, the authors move beyond regional volumetric descriptions toward an integrative perspective on cortical architecture [6]. Morphometric similarity networks quantify the degree to which cortical regions resemble one another across multiple structural features within individuals, providing an integrated measure of large-scale cortical organization [7]. The findings demonstrate reduced cortical similarity and altered network topology in boys lacking Dp140, particularly within the frontoparietal network, a system centrally implicated in working memory and executive control [8]. The authors further report that frontoparietal morphometric similarity may partially mediate the relationship between Dp140 status and working memory performance, thereby suggesting a potential framework that links genotype to cognition at the network level [6]. Notably, this association was attenuated after adjustment for broader intellectual functioning. This hypothesis is biologically plausible, as Dp140 is expressed during early cortical development, including periods critical for neuronal migration and circuit formation. Disruption of this isoform may therefore influence the maturation of distributed cortical systems. By integrating imaging findings with transcriptomic data, the study additionally implicates molecular pathways related to neuronal projection development and cytoskeleton-dependent transport as potential biological substrates of these alterations [9]. While these findings are compelling, several considerations underscore the need for continued investigation. The cross-sectional design limits insight into developmental trajectories, which are central to understanding how early dystrophin deficiency translates into later cognitive outcomes. A clearer delineation of the natural history of behavioral and brain development in DMD will be essential to determine whether morphometric similarity alterations precede, parallel, or follow cognitive divergence over time. In addition, treatment context warrants careful consideration. Corticosteroids remain standard of care in DMD, typically initiated in early childhood, often around 4 years of age, and continued into adolescence and adulthood. While their positive impact on motor outcomes and survival is well established, corticosteroid exposure was also considered in the present analyses. Nevertheless, corticosteroids are also known to influence brain structure and function, and their long-term interaction with genotype, cortical maturation, and neurodevelopmental effects remains incompletely understood [10]. The interaction between genotype, chronic treatment exposure, and cortical maturation therefore represents an important area for future research. Finally, longitudinal, multicenter, and cross-cultural studies will be necessary to assess the robustness, reproducibility, and clinical relevance of these network-based metrics across scanners, populations, and neuropsychological phenotypes. As the therapeutic landscape of DMD continues to evolve, understanding the brain consequences of isoform-specific dystrophin deficiency becomes increasingly important. The present study situates Dp140 within a biologically informed framework linking genotype to distributed cortical organization and working memory performance. Notably, the authors report findings in an exceptionally large DMD cohort for neuroimaging research, strengthening the robustness of their observations. At the same time, the marked phenotypic heterogeneity of DMD, together with developmental variability and treatment-related influences, underscores the need for even larger collaborative efforts across centers. Advancing the field will require coordinated longitudinal investigations that delineate developmental trajectories, integrate treatment exposure, and harmonize imaging and neuropsychological protocols across sites. Morphometric similarity networks may represent a promising step in that direction; their clinical value, however, will ultimately depend on reproducibility, scalability, and their ability to inform patient-centered outcomes within internationally diverse and representative populations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -8084,6 +9029,82 @@
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
     },
     {
+      "pmid": "42113203",
+      "doi": "10.1037/xlm0001596",
+      "zotero_key": "IX2GIFI2",
+      "title": "Estimation bias away from zero in mixed sequences: Mental representation, memory recall, and integration of negative numbers in mean estimates of number sequences.",
+      "authors": [
+        [
+          "Hannah",
+          "Seidler"
+        ],
+        [
+          "Benjamin",
+          "Scheibehenne"
+        ],
+        [
+          "Sebastian",
+          "Olschewski"
+        ]
+      ],
+      "journal": "Journal of Experimental Psychology Learning Memory and Cognition",
+      "year": "2026",
+      "abstract": "Processing numerical information, including negative numbers, is crucial for many everyday decisions. Recent debates question whether deviations from expected value maximization arise solely from subjective preferences or from regularities in number processing. Here, we examine how the mental representation, memory recall, and integration of sequentially experienced numbers affect mean estimates, with a focus on negative numbers. In three experiments, participants estimated the mean of number sequences containing negative, positive, or mixed types of numbers. Experiment 1 found an estimation bias toward zero for positive-only and negative-only sequences. This bias is consistent with a symmetrically compressed mental number line for positive and negative numbers and offers an alternative explanation for the reflection effect that is independent of subjective preferences. However, in mixed sequences with nonzero means, the pattern reversed, and participants showed an estimation bias away from zero. Experiments 2 and 3 demonstrate that this bias is not due to differences in number representation or memory recall between positive and negative numbers in pure and mixed settings. Instead, higher response times and estimation noise for mixed compared to pure sequences hint at qualitative differences in how numbers are integrated. In sum, our findings suggest that the processing of numeric information differs between contexts varying in number ranges. These findings emphasize the need to distinguish deviations from expected value maximization that reflect limitations in information processing and those that are shaped by subjective preferences toward risks and losses. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42120440",
+      "doi": "10.1038/s41598-026-48198-8",
+      "zotero_key": "7T4JAD8B",
+      "title": "Estimation of glaucomatous impairment in the visual field, excluding the effect of posterior capsule opacification",
+      "authors": [
+        [
+          "Ryo",
+          "Tomita"
+        ],
+        [
+          "Ryo",
+          "Asaoka"
+        ],
+        [
+          "Taiga",
+          "Inooka"
+        ],
+        [
+          "Tsuyoshi",
+          "Matsuno"
+        ],
+        [
+          "Hidekazu",
+          "Inami"
+        ],
+        [
+          "Koji M.",
+          "Nishiguchi"
+        ],
+        [
+          "Kenya",
+          "Yuki"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Posterior capsule opacification (PCO) significantly hinders the accurate assessment of glaucomatous visual field (VF) impairment. While pattern deviation (PD) is theoretically intended to correct for generalized sensitivity loss, its accuracy in eyes with PCO remains unverified. This study evaluated 52 eyes of 46 patients with open-angle glaucoma and PCO. Following laser capsulotomy, visual acuity significantly improved from 0.22 to 0.10 logarithm of the minimum angle of resolution (P < 0.01), and mean total deviation (mTD) improved from - 8.89 dB to -6.46 dB (P < 0.01). This post-capsulotomy mTD served as the reference for true impairment. A linear regression model incorporating pre-capsulotomy visual acuity and mTD was developed and validated using leave-one-out cross-validation. The absolute estimation error of this model was significantly smaller (median: 1.66 dB [interquartile range: 1.04-2.77 dB]) compared to that of PD (2.14 dB [1.10-3.99 dB], P < 0.01). Notably, PD-based errors were significantly influenced by both glaucoma severity and the degree of PCO-induced sensitivity loss, resulting in substantial underestimation in advanced cases. These findings indicate that PD is prone to inaccuracy in eyes with PCO, whereas the regression model offers a more precise estimation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "41934477",
       "doi": "10.1007/s00276-026-03870-6",
       "zotero_key": "KW7SRJS8",
@@ -8580,68 +9601,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
-    },
-    {
-      "pmid": "41983533",
-      "doi": "10.1002/alr.70169",
-      "zotero_key": "E6C8JCZ7",
-      "title": "Exploring Sleep Quality and Chronic Rhinosinusitis Risk Using Wearable Technology",
-      "authors": [
-        [
-          "Justina",
-          "Varghese"
-        ],
-        [
-          "Aakash",
-          "Agarwal"
-        ],
-        [
-          "Akshay R.",
-          "Prabhakar"
-        ],
-        [
-          "Heli",
-          "Majeethia"
-        ],
-        [
-          "Daniel",
-          "Gorelik"
-        ],
-        [
-          "Sebastian",
-          "Guadarrama‐Sistos‐Vazquez"
-        ],
-        [
-          "Renjie",
-          "Hu"
-        ],
-        [
-          "Michael T.",
-          "Yim"
-        ],
-        [
-          "Ron L.",
-          "Moses"
-        ],
-        [
-          "Masayoshi",
-          "Takashima"
-        ],
-        [
-          "Omar G.",
-          "Ahmed"
-        ]
-      ],
-      "journal": "International Forum of Allergy & Rhinology",
-      "year": "2026",
-      "abstract": "Chronic rhinosinusitis (CRS) is a prevalent sinonasal inflammatory disorder with substantial impacts on patient quality of life [1]. CRS pathogenesis involves interactions between immune responses, environmental factors, and behavioral interventions [1]. Sleep has emerged as a possible contributor, as it regulates mucosal immunity, epithelial barrier integrity, and inflammation [2]. Disrupted sleep can heighten cytokine production and weaken mucosal defenses, suggesting sleep disturbance may play a role in CRS onset [3]. An epidemiologic study linked insomnia symptoms to higher subsequent CRS risk, though it relied on subjective sleep measures [4]. This study leverages longitudinal, wearable-derived metrics to evaluate sleep as a potentially modifiable risk factor in CRS pathogenesis. We used Fitbit-derived sleep data from participants in the All of Us (AoU) Research Program. Sleep metrics included nightly sleep duration and stages (light, deep, REM). These stages are estimated by Fitbit's algorithms using heart rate and movement [5]. Three quality metrics were derived, including sleep irregularity (standard deviation of monthly average sleep duration), sleep efficiency (time asleep relative to time in bed) and REM-to-non-REM ratio (REM relative to light and deep sleep). Patient inclusion criteria are detailed in Figure 1. The outcome was an incident diagnosis of CRS using ICD-10 codes (J32.X) in the electronic health record (EHR). Participants with CRS diagnoses within the first 180 days were excluded to reduce reverse causation. Sleep patterns were aggregated monthly to capture habitual sleep behaviors. Monthly averages were then categorized into tertiles. Time-varying Cox hazard regression models estimated hazard ratios (HRs) and 95% confidence intervals (CIs) for incident CRS codes in the EHR by comparing sleep periods in the higher tertiles of each sleep metric with the lowest tertile. The model was adjusted for demographic, socioeconomic, and clinical covariates (Table 1), with missing data handled by predictive mean matching. Analyses were conducted in Python on the AoU Researcher Workbench. A final cohort of 9831 patients with 10,131,340 person-nights was included in our study (Figure 1). About 332 (3.20%) participants had a diagnosis of CRS at the beginning of the study period. Demographic and comorbidity variables associated with CRS were incorporated into the adjusted Cox regression model (Table 1). Sleep quality metrics indicated several significant findings. Greater sleep irregularity was associated with an increased risk of receiving a CRS diagnosis. Participants in the highest (1.5–7 h) and moderate (1–1.5 h) irregularity tertile had a significantly higher risk compared with those with  89.4%) and moderate (86.7%–89.4%) sleep efficiency had a lower risk compared with those < 86.7% (0.81, 0.78–0.84, and 0.97, 0.94–0.99, p = 0.03, respectively). Higher REM-to-non-REM ratios were associated with a reduced risk of CRS diagnosis. Participants with high (29%–85%) and intermediate (23%–29%) ratios had a lower risk compared with those with < 23% REM proportion (0.74, 0.72–0.77, and 0.78, 0.76–0.81, p < 0.005, respectively) (Table 1). This longitudinal population‑based study suggests that poor sleep quality, characterized by greater sleep irregularity, reduced sleep efficiency, and lower REM‑to–non‑REM proportions, may be associated with an increased risk of a diagnosis of CRS. Published literature links impaired sleep with chronic inflammatory conditions, for example, obesity, cardiovascular disease, and diabetes [6]. Although few studies have examined sleep disturbances and CRS incidence [4], inflammatory mechanisms associated with poor sleep are consistent with known CRS pathophysiology. We observed a graded increase in CRS risk across groups with higher sleep irregularity, lower efficiency, and reduced REM sleep. These findings align with evidence that circadian rhythm disruption promotes chronic inflammation [2]. Sleep irregularity alters circadian timing, and circadian dysregulation can influence pathways relevant to CRS [7]. Circadian‑regulated genes (e.g., NFIL3) modulate cytokine suppression, and disrupted nocturnal sleep may enhance Th2 activity [8]. Animal models demonstrate that circadian misalignment amplifies Th2 and Th17 responses in allergic airway disease, implicating a mechanistic link for CRS [3]. Clinical studies also report higher rates of inflammatory airway disorders among individuals with chronic sleep conditions [9]. Moreover, circadian regulation affects epithelial barriers, leukocyte trafficking, and cytokine expression [2, 3]; persistent disruption of these cues may shift acute inflammation toward the chronic, tissue‑remodeling phenotype characteristic of CRS. This study has limitations. To ensure sufficient sample size for analysis, given the limited number of CRS cases in the AoU database, we included individuals with a single ICD‑10-coded CRS diagnosis. Coding without imaging confirmation thus introduces potential misclassification. We adjusted for demographic and clinical confounders in the Cox model; however, utilization‑driven coding and diagnostic overlap cannot be excluded. The cohort, limited to individuals who use wearable devices, may not represent the broader population. Device‑related noise (e.g., motion artifact, placement, and fit) may affect sleep‑metric accuracy. Although we excluded participants diagnosed with CRS within the first 180 days of Fitbit monitoring, undiagnosed or subclinical disease may have influenced sleep patterns; thus, residual reverse causation cannot be ruled out. To our knowledge, this is the first study to examine the association between wearable‑derived sleep quality and CRS. Greater sleep irregularity, lower efficiency, and reduced REM proportion were associated with increased risk of CRS diagnosis. Basic science studies and prospective trials should clarify causal pathways, refine risk prediction, and evaluate sleep‑related interventions in CRS. The Houston Methodist Department of Otolaryngology Head and Neck Surgery expresses its sincere gratitude to Willis and Patricia Johnson for their generous private donation in support of research within the department. The authors have nothing to report. Michael T. Yim is a consultant for Aerin Medical and Chitogel. Masayoshi Takashima is a consultant for Neurent Medical, LivaNova and Medtronic ENT. Omar G. Ahmed is a consultant for Aerin Medical, LivaNova and Medtronic ENT. The other authors declare no conflicts of interest.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "41967261",
@@ -9262,6 +10221,40 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42126495",
+      "doi": "10.1007/s10266-026-01404-5",
+      "zotero_key": "IDPVKR7P",
+      "title": "Fracture resistance of structurally compromised maxillary premolars restored with different bulk-fill base materials and CAD/CAM milled and 3D printed hybrid composite overlays: an in vitro study",
+      "authors": [
+        [
+          "Aya Hesham Yousry",
+          "Abdelgawad"
+        ],
+        [
+          "Nahla Hamed Mohamed",
+          "Hamed"
+        ],
+        [
+          "Zainab",
+          "Soliman"
+        ],
+        [
+          "Mohamed",
+          "Kamel"
+        ]
+      ],
+      "journal": "Odontology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42011740",
       "doi": "10.1021/acs.analchem.5c06791",
       "zotero_key": "W62P9X2M",
@@ -9315,6 +10308,120 @@
       "journal": "Analytical Chemistry",
       "year": "2026",
       "abstract": "The fragmentation behavior of isomeric hydroxylated polybrominated diphenyl ethers (OH-PBDEs) remains poorly elucidated, although LC-MS/MS is essential for their analysis. This study systematically characterizes their fragmentation behavior by LC-ESI-MS2, elucidating relationships between product ions, structural features, and instrument detection limits. Results demonstrated congener-specific variability in the signal intensity of [M-H]-, particularly among isomers. Fragmentation behavior is highly dependent on the hydroxyl location on the diphenyl ether scaffold, as well as the bromine substituent pattern. Three distinct mechanisms are identified: (1) Br abstraction via free radical-mediated rearrangement cleavage in meta-hydroxylated PBDEs, (2) preferential formation of the [Br]- ion via γ-elimination in ortho-hydroxylated PBDEs, and (3) characteristic formation of bromobenzoquinone anions via multistep fragmentation mechanisms in para-hydroxylated PBDEs. Furthermore, the ortho-effect, particularly pronounced in 2'-OH substituted congeners, significantly alters the fragmentation pathways. While the elucidated fragmentation pathways provided structural insights, the inherent weak signals challenged detection. A sensitivity-enhancing precolumn derivatization protocol with dansulfonyl chloride was introduced to solve the problem. The MS2 fragmentation of these derivatives was conveniently dominated by the cleavage of the C-S bond within the dansyl group, yielding abundant diagnostic ions that greatly aided in structural confirmation. As predicted, the derivatization strategy achieved a remarkable up to 15-fold improvement in the sensitivity. This investigation advances the understanding of OH-PBDE fragmentation, establishes an identification framework using specific patterns and diagnostic ions, and demonstrates a practical derivatization approach for enhanced sensitivity, elucidating structure-fragmentation relationships in brominated aromatics and providing methodological guidance for future analysis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42113193",
+      "doi": "10.1037/pspp0000599",
+      "zotero_key": "ICAMMD27",
+      "title": "From charm to conflict: Simulating narcissistic interpersonal dynamics with agent-based modeling.",
+      "authors": [
+        [
+          "Lena",
+          "Herchenhahn"
+        ],
+        [
+          "Emanuel",
+          "Jauk"
+        ],
+        [
+          "Martin",
+          "Schoemann"
+        ],
+        [
+          "Stefan",
+          "Scherbaum"
+        ],
+        [
+          "Veronika",
+          "Lerche"
+        ]
+      ],
+      "journal": "Journal of Personality and Social Psychology",
+      "year": "2026",
+      "abstract": "Narcissism is a dynamic, normally distributed trait ranging from nonpathological to pathological expressions, with narcissistic personality disorder representing its extreme. Its complex interpersonal dynamics and paradoxical social outcomes underscore the need of uncovering its underlying mechanisms. However, experimental investigations face methodological constraints, making simulation-such as agent-based modeling (ABM)-a valuable alternative for controlled, theory-driven exploration. This study pursued three aims: (1) formalizing existing theories of narcissism into a computational framework for ABM, (2) evaluating its assumptions through an expert survey incorporating researchers and practitioners, and (3) implementing the framework as an agent-based model to simulate narcissistic dynamics over time. We developed the Framework of Interpersonal Narcissism Dynamics (FIND), which postulates five key processes: Status Assessment, Behavior Selection, External Feedback, Status Reassessment, and Movement. The expert survey supported FIND's conceptual validity, informed parameters, and facilitated implementation. Simulations produced empirical patterns: Agentic behavior occurred more frequently than antagonistic behavior, these behaviors were moderately positively correlated, and higher narcissism levels were associated with increased status instability. Beyond anticipated outcomes, simulations revealed novel insights, such as an association between higher narcissism levels and more steps without interaction partners and a nonlinear relationship between narcissism and outcome variables-for example, movement increased with rising narcissism levels, but only beyond a moderate threshold. Our findings provide proof of concept for FIND and highlight the potential of ABM in psychological research. ABM offers a valuable tool for exploring complex interpersonal dynamics that are challenging to examine empirically, thereby addressing key methodological constraints in that field. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42118432",
+      "doi": "10.1007/s10653-026-03230-8",
+      "zotero_key": "ZFJGR344",
+      "title": "From emission to impact: a 30-year grid-scale tracing of heavy metal risk from non-ferrous metal enterprises to agricultural soil",
+      "authors": [
+        [
+          "Guo",
+          "G"
+        ],
+        [
+          "Tienan",
+          "Ju"
+        ],
+        [
+          "Mei",
+          "Lei"
+        ]
+      ],
+      "journal": "Environmental Geochemistry and Health",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42117911",
+      "doi": "10.1111/jgs.70510",
+      "zotero_key": "TIKBQJAD",
+      "title": "From Measuring to Protecting “Days at Home”: Toward Frailty‐Informed Monitoring After Serious Health Events",
+      "authors": [
+        [
+          "Elena Giovanna",
+          "Bignami"
+        ],
+        [
+          "Mattia",
+          "Madeo"
+        ],
+        [
+          "Sara",
+          "Fedele"
+        ],
+        [
+          "Carmine",
+          "Siniscalchi"
+        ],
+        [
+          "Nicoletta",
+          "Cerundolo"
+        ],
+        [
+          "Valentina",
+          "Bellini"
+        ],
+        [
+          "Tiziana",
+          "Meschi"
+        ]
+      ],
+      "journal": "Journal of the American Geriatrics Society",
+      "year": "2026",
+      "abstract": "We read with great interest the recent article by Gill and colleagues describing “days at home” as a patient-centered outcome following serious health events among community-living older persons [1]. By integrating survival, institutionalization, and hospitalization into a single measure, the authors illuminate an outcome that closely reflects what older adults consistently value: remaining alive, independent, and within the familiarity of their own homes. In doing so, the study subtly reframes recovery after acute illness not merely as survival, but as the preservation of life within its social and functional context. Because the ability to remain at home reflects autonomy, social participation, and quality of life, “days at home” has emerged as a particularly meaningful outcome in geriatric research. Beyond its intuitive appeal, “days at home” (or “home time”) has been increasingly proposed as a candidate universal quality-of-life measure for older adults [2]. Recent consensus efforts have attempted to standardize its definition as time alive and spent outside healthcare institutions, integrating multiple dimensions of health status into a single, patient-centered metric [2]. However, important areas of uncertainty remain regarding which settings to include, how to weight different forms of healthcare utilization, and the optimal timeframe for measurement. These unresolved methodological questions underscore how difficult it is to operationalize a seemingly simple concept. The meaning and interpretation of “days at home” may vary substantially across clinical contexts, care systems, and patient trajectories, challenging the feasibility of a truly universal measure [3]. These limitations suggest that “days at home” should not be viewed solely as a retrospective summary measure, but rather as a dynamic and context-dependent outcome that may benefit from continuous observation and interpretation. Framed in this way, an important question emerges: should healthcare systems remain satisfied with measuring the loss of “days at home” retrospectively, or should we begin to actively safeguard those days? Following acute illness, or non-elective surgery, many older adults enter a state of frailty marked by reduced physiological reserve and heightened vulnerability to even minor stressors (e.g., infection, medication imbalance, sleep disruption or declining mobility) that can rapidly precipitate clinical deterioration [4]. Within this vulnerable phase, the trajectory toward loss of days at home often unfolds gradually, through subtle and initially reversible changes. Traditional follow up models, largely based on intermittent clinical encounters, provide only brief glimpses into this unstable recovery phase and rarely capture the subtle physiological and behavioral signals that precede decline. In this context, recent advances in wearable sensing technologies offer an opportunity to extend the observation of “days at home” beyond static measurement. Modern wearable devices can capture real-world physiological and behavioral signals (e.g., including activity levels, mobility patterns, sleep characteristics, and heart rate variability) within the patient's daily environment. Emerging evidence suggests that passive monitoring of these signals may detect early changes in functional status before overt clinical deterioration or hospital admission [5], positioning digital biomarkers as potential indicators of evolving health trajectories [5]. However, the large volume of continuous physiological and behavioral data generated by these systems requires analytical approaches capable of identifying meaningful patterns. When interpreted within a clinically grounded framework, these data may help characterize the evolving trajectories that precede the loss of days at home. Machine learning approaches, applied to multimodal physiological and behavioral datasets, may support the early identification of subtle deviations associated with functional decline or hospitalization [6]. In this sense, digital monitoring systems may enable a shift from reactive care to anticipatory strategies aimed at preserving stability and maintaining time spent at home. Importantly, the integration of artificial intelligence into clinical medicine must remain firmly grounded in human judgment, requiring careful balance between technological opportunity, methodological rigor, and clinical responsibility [7]. Within such a human-supervised framework, continuous monitoring technologies could function as early detection systems embedded within everyday care. Subtle signals of instability (e.g., declining mobility, fragmented sleep, reduced activity or altered physiological variability) might trigger timely reassessment and intervention, including medication review, telemedicine evaluation, reinforcement of rehabilitation programs or targeted home support [8], helping prevent avoidable hospitalizations and preserve functional independence. Seen through this lens, the concept of “days at home”, as highlighted by Gill and colleagues and further discussed in recent efforts to define “home time,” may evolve from a descriptive outcome measure into a guiding principle for post-acute geriatric care. Rather than waiting for deterioration to occur, healthcare systems could adopt a frailty-informed model focused on continuous observation and early stabilization. The aim would not simply be to rescue patients once they fall back into crisis, but to preserve them within their fragile equilibrium and, when possible, gradually restore resilience. One might therefore view the frail older adult as navigating an unstable recovery pathway, where continuous monitoring, supported by predictive analytics and guided by clinical oversight, functions as a “lighthouse,” identifying early deviations and enabling timely intervention (Figure 1). Gill and colleagues have shown how many days older adults lose outside their homes after serious illness. The next challenge for geriatric medicine may therefore be to move beyond measuring these days toward actively protecting them. Ultimately, the true measure of success may lie not in how effectively we rescue frail patients once deterioration occurs, but in how rarely they reach that point at all. E.G.B.: conceptualization, supervision, writing – review and editing. M.M., S.F.: writing – original draft, literature review. C.S., N.C., V.B.: Writing – review and editing, critical revision. T.M.: supervision, critical revision of content. All authors have read and approved the final manuscript. The corresponding author affirms that all individuals who contributed significantly to this work have been listed. The corresponding author also confirms that all coauthors have been notified of the manuscript submission to JAGS, all changes in revised versions, and the final editorial decision. The spelling of authors' names, order of authorship, and affiliations have been verified for accuracy. The authors have nothing to report. The authors declare no conflicts of interest. This publication is linked to a related reply article by Thomas M. Gill. To view this article, visit https://doi.org/10.1111/jgs.70511.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -9392,6 +10499,68 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARID1B"
+    },
+    {
+      "pmid": "42106822",
+      "doi": "10.1186/s12920-026-02385-8",
+      "zotero_key": "68HVMZNS",
+      "title": "Functional analysis of a novel splice site variant of RAB3GAP2 in a fetus with congenital cataracts",
+      "authors": [
+        [
+          "Xuemei",
+          "Tan"
+        ],
+        [
+          "Yuanyuan",
+          "Huang"
+        ],
+        [
+          "Xiaobao",
+          "Wei"
+        ],
+        [
+          "Qiurong",
+          "Lai"
+        ],
+        [
+          "Lang",
+          "Pang"
+        ],
+        [
+          "Jiquan",
+          "Lan"
+        ],
+        [
+          "Qingnan",
+          "Liu"
+        ],
+        [
+          "Jiangfeng",
+          "Qin"
+        ],
+        [
+          "Fangfang",
+          "Zeng"
+        ],
+        [
+          "Lizhu",
+          "Chen"
+        ],
+        [
+          "Dejian",
+          "Yuan"
+        ]
+      ],
+      "journal": "BMC Medical Genomics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Mutations in RAB3GAP2 are associated with Martsolf syndrome 1, characterized by postnatal microcephaly, congenital cataracts, and developmental delay. Two compound heterozygous variants of RAB3GAP2 were identified in a fetus with congenital cataract. This study aimed to assess the pathogenicity of the RAB3GAP2 variant c.304 + 5G > T. METHODS: Fetal lenses were evaluated using ultrasound. Whole exome sequencing (WES) was employed to identify splicing variants in RAB3GAP2, and Sanger sequencing confirmed the results. Pathogenicity was predicted using bioinformatics tools, including Mutation Taster, Combined Annotation Dependent Depletion, Splice AI, NetGene2, SpliceRover, and Alternative Splice Site Predictor. Reverse transcription PCR (RT-PCR) was conducted to detect RAB3GAP2 transcripts in peripheral blood leukocytes. A minigene assay was used to examine the variant's impact on splicing. RESULTS: Ultrasound examination revealed increased echogenicity in both fetal lenses, consistent with congenital cataracts. WES identified two compound heterozygous variants in RAB3GAP2: c.812-2 A > G (rs556159021) and c.304 + 5G > T. This study focused on the RAB3GAP2 variant c.304 + 5G > T. In silico analysis predicted that this variant disrupts the donor splice site in intron 3. RT-PCR analysis revealed an abnormal transcript with skipping of exon 3. The minigene assay showed that the RAB3GAP2 c.304 + 5G > T variant impaired mRNA splicing in HEK293T and HeLa cells. CONCLUSIONS: The RAB3GAP2 splicing variant (NM_012414.4:c.304 + 5G > T) is predicted to cause aberrant splicing and truncated proteins. These findings contribute valuable information for genetic counseling regarding congenital cataracts in future pregnancies within affected families.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41750745",
@@ -9670,6 +10839,114 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
+    },
+    {
+      "pmid": "42098404",
+      "doi": "10.1038/s42003-026-10109-y",
+      "zotero_key": "83JUDQ4Q",
+      "title": "Genetic analysis of the X-linked adrenoleukodystrophy gene ABCD1 in Drosophila uncovers a conserved phenotype",
+      "authors": [
+        [
+          "Joshua",
+          "Manor"
+        ],
+        [
+          "Sharayu",
+          "Jangam"
+        ],
+        [
+          "Hyung-Lok",
+          "Chung"
+        ],
+        [
+          "Pranjali",
+          "Bhagwat"
+        ],
+        [
+          "Jonathan C.",
+          "Andrews"
+        ],
+        [
+          "Hillary",
+          "Chester"
+        ],
+        [
+          "Shu",
+          "Kondo"
+        ],
+        [
+          "Saurabh",
+          "Srivastav"
+        ],
+        [
+          "Juan",
+          "Botas"
+        ],
+        [
+          "Ann B.",
+          "Moser"
+        ],
+        [
+          "Suzette M",
+          "Huguenin"
+        ],
+        [
+          "Michael F.",
+          "Wangler"
+        ]
+      ],
+      "journal": "Communications Biology",
+      "year": "2026",
+      "abstract": "X-linked adrenoleukodystrophy (X-ALD) is a progressive neurodegenerative disorder caused by a loss-of-function (LOF) mutation in the ATP-binding cassette subfamily D member 1 (ABCD1) gene, leading to the accumulation of very long-chain fatty acids (VLCFAs). This disorder exhibits striking heterogeneity; some male patients develop an early childhood neuroinflammatory demyelination disorder, while other patients, including adult males and most affected female carriers, experience a chronic progressive myelopathy. Adrenocortical failure is observed in almost all male patients, with the age of onset varying, sometimes being the first diagnostic finding. The gene underlying this spectrum of disease encodes an ATP-binding cassette (ABC) transporter that localizes to peroxisomes and facilitates VLCFA transport. X-ALD is considered a single peroxisomal component defect and does not play a direct role in peroxisome assembly. Drosophila models of other peroxisomal genes have provided mechanistic insight into some of the neurodegenerative mechanisms with reduced lifespan, retinal degeneration, and VLCFA accumulation. Here, we perform a genetic analysis of the fly ortholog Abcd1 (CG2316). Knockdown or knockout of Abcd1 leads to salivary gland defects, reduced peroxisomal abundance, and VLCFA accumulation. Our null model further highlights locomotor impairment and lifespan abnormalities. Flies overexpressing the human cDNA for ABCD1, but not the fly Abcd1, display a wing crumpling phenotype characteristic of the Pex2 loss-of-function. Taken together, our data establishes the loss-of-function phenotypes for Abcd1 in Drosophila, which resemble X-ALD pathology, and suggests that overexpression of human ABCD1 may act as an inhibitor of peroxisomal biogenesis in flies. This fly model provides valuable insight into disease mechanisms and offers a versatile platform to model cerebral ALD, functionally resolve ABCD1 variants by their capacity to mitigate the biogenesis defect, assess the restorative potential of candidate small molecules, and enable discovery for this important disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ABCA4"
+    },
+    {
+      "pmid": "42104388",
+      "doi": "10.1186/s12985-026-03191-5",
+      "zotero_key": "VAZ2TRDT",
+      "title": "Genetic insights into dabie bandavirus from a clinical case of severe fever with thrombocytopenia syndrome in Longyou County, China",
+      "authors": [
+        [
+          "Rui-jun",
+          "Yang"
+        ],
+        [
+          "Min",
+          "Wang"
+        ],
+        [
+          "Jia-Ling",
+          "You"
+        ],
+        [
+          "Lei",
+          "Lyu"
+        ],
+        [
+          "Shi-teng",
+          "Huang"
+        ],
+        [
+          "Bingdong",
+          "Zhan"
+        ]
+      ],
+      "journal": "Virology Journal",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To conduct an epidemiological investigation on a case of severe fever with thrombocytopenia syndrome (SFTS) reported in Longyou County, Zhejiang Province in April 2025, and to perform nucleic acid detection and genetic characterization of Dabie bandavirus (DBV) in the patient's serum sample, aiming to provide scientific evidence and technical support for local SFTS prevention and control. METHODS: An epidemiological investigation was conducted on the case. Serum samples from the confirmed case and close contacts, as well as related vector host specimens, were collected. DBV-specific nucleic acid was detected using real-time fluorescent quantitative PCR. The viral genome was amplified by RT-PCR and subjected to whole-genome sequencing. Professional computer software (SeqMan Ultra 17.2, Clustal X 2.1, BioEdit V7.2.6.1, and MEGA V7.0.26, etc.) was used for nucleotide and amino acid sequence alignment, phylogenetic tree construction, and calculation of genetic distances and homology percentages. RESULTS: The case had a history of tick bite and no history of travel outside the area. Fluorescence quantitative PCR detection showed that only the case's serum sample was positive for DBV nucleic acid, while serum samples from close contacts and related vector host specimens were all negative for DBV nucleic acid. After amplification and sequencing, the three fragments L, M, and S were successfully obtained. Genetic evolution analysis showed that they belonged to genotypes L (C), M (C), and S (A), respectively. Compared with the closest reference strain HZ2023-16 in the phylogenetic tree, the nucleotide homologies of the L, M, NS, and NP genes were 99.74%, 99.53%, 99.66%, and 99.19%, respectively, and the amino acid homologies were 100%, 99.72%, 99.66%, and 99.59%, respectively. Compared with the type C reference strain AHL/China/2011 (L(C)/M(C)/S(D)), the nucleotide homologies of the L, M, NS, and NP genes were 96.87%, 96%, 93.76%, and 95.66%, respectively, and the amino acid homologies were 99.42%, 98.51%, 98.29%, and 99.18%, respectively. Compared with the type A reference strain JX23XSH (L(A)/M(A)/S(A)), the nucleotide homologies of the L, M, NS, and NP genes were 96.24%, 95.97%, 95.35%, and 97.02%, respectively, and the amino acid homologies were 99.52%, 98.14%, 99.32%, and 99.18%, respectively. The average genetic distances of the L, M, and S genes compared with the HZ2023-16 reference strain were 0.003, 0.005, and 0.005, respectively; compared with the type C reference strain AHL/China/2011 (L(C)/M(C)/S(D)), they were 0.031, 0.04, and 0.053, respectively; compared with the type A reference strain JX23XSH (L(A)/M(A)/S(A)), they were 0.038, 0.04, and 0.038, respectively. Amino acid variation analysis showed that compared with the reference strains, this strain had 0-12 amino acid substitutions in the L protein (e.g., V68I, A140V), 3-20 substitutions in the M protein (e.g., D151E, G863S), 1-5 substitutions in the NS protein, and 1-2 substitutions in the NP protein. CONCLUSION: Combining the clinical manifestations, epidemiological history, and laboratory test results of the case, this outbreak can be determined as a local case of severe fever with thrombocytopenia syndrome. The strain is genetically closely related to human-derived reference strains and possesses specific genomic characteristics.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "",
@@ -10558,6 +11835,44 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42101632",
+      "doi": "10.1007/s00210-026-05399-2",
+      "zotero_key": "VMKJ9UF5",
+      "title": "Ibrutinib-induced Sweet syndrome",
+      "authors": [
+        [
+          "Noor",
+          "Almaani"
+        ],
+        [
+          "Zain Al",
+          "Ta’ani"
+        ],
+        [
+          "Maram",
+          "Abdaljaleel"
+        ],
+        [
+          "Faris",
+          "AlShammas"
+        ],
+        [
+          "Alaa",
+          "Alshorman"
+        ]
+      ],
+      "journal": "Naunyn-Schmiedeberg s Archives of Pharmacology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41729106",
       "doi": "10.1111/aos.70094",
       "zotero_key": "HXPW3Q6P",
@@ -10666,6 +11981,56 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42120561",
+      "doi": "10.1038/s41598-026-52634-0",
+      "zotero_key": "N3QVGW2H",
+      "title": "Identifying high-risk eyes for glaucoma surgery in cytomegalovirus anterior uveitis",
+      "authors": [
+        [
+          "Soo Ji",
+          "Jeon"
+        ],
+        [
+          "Myoung Hee",
+          "Park"
+        ],
+        [
+          "Ji Young",
+          "Lee"
+        ],
+        [
+          "Sung Eun",
+          "Kim"
+        ],
+        [
+          "Su Jin",
+          "Lim"
+        ],
+        [
+          "Yong Sun",
+          "Ahn"
+        ],
+        [
+          "Jin A",
+          "Choi"
+        ],
+        [
+          "Min Ho",
+          "Kim"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "was the only significant factor for predicting glaucoma surgery (Exp(B) = 3.960, p = 0.022). In conclusion, baseline corneal endothelial cell density can serve as a useful indicator for future requirement of glaucoma surgery in CMV-AU.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "42012371",
       "doi": "10.1097/iae.0000000000004864",
       "zotero_key": "WZR3NKRV",
@@ -10746,6 +12111,56 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42125776",
+      "doi": "10.1113/ep092812",
+      "zotero_key": "NKRSZPBE",
+      "title": "Impact of recurrent dehydration with mild periodic water restriction on blood pressure and renal function in male spontaneously hypertensive rats",
+      "authors": [
+        [
+          "Katrina M. Mirabito",
+          "Colafella"
+        ],
+        [
+          "Peter N. H.",
+          "Nguyen"
+        ],
+        [
+          "Zoe",
+          "McArdle"
+        ],
+        [
+          "Debra",
+          "Fong"
+        ],
+        [
+          "Edmund",
+          "Kwok"
+        ],
+        [
+          "Kate M.",
+          "Denton"
+        ],
+        [
+          "Antony",
+          "Vinh"
+        ],
+        [
+          "Lucinda M. Hilliard",
+          "Krause"
+        ]
+      ],
+      "journal": "Experimental Physiology",
+      "year": "2026",
+      "abstract": "The kidneys regulate fluid balance but are susceptible to adverse effects of inadequate hydration. Epidemiological studies have linked low water intake to renal dysfunction and chronic kidney disease. Previously we showed that restricting water intake to a single 2-h period daily for 4 weeks promotes hypertension as well as renal inflammation, fibrosis and dysfunction in male spontaneously hypertensive rats (SHR). Building on these findings, the aim of the present study was to determine whether a milder, more intermittent dehydration protocol (two 1-h periods of water access per weekday plus free access on weekends for 8 weeks) would affect renal function, renal fibrosis and inflammation, and blood pressure in the same rat model. We hypothesised that this protocol would maintain renal function, limit renal fibrosis and inflammation, and avoid further exacerbation of hypertension in male SHR. Our findings showed that the mild water restriction protocol resulted in cyclic changes in urine osmolarity, indicating periods of dehydration and rehydration. However, it did not exacerbate hypertension, accelerate renal dysfunction or increase proinflammatory processes in the kidneys. These results suggest that mild recurrent dehydration does not produce the same adverse effects observed under stricter water restriction and that the impact of recurrent dehydration on chronic kidney disease progression may depend on the severity and pattern of water restriction.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42055787",
       "doi": "10.1136/bjo-2025-329283",
       "zotero_key": "9UT3PXKQ",
@@ -10802,6 +12217,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Ocular developmental anomalies"
+    },
+    {
+      "pmid": "42092843",
+      "doi": "10.1186/s12886-026-04878-7",
+      "zotero_key": "VSEBNZ7I",
+      "title": "Implantable collamer lens combined with femtosecond laser-assisted arcuate keratotomy and toric implantable collamer lens for high myopia with moderate-to-low astigmatism corrections: a comparative study",
+      "authors": [
+        [
+          "Shun",
+          "An"
+        ],
+        [
+          "Honglin",
+          "Ye"
+        ],
+        [
+          "Jian",
+          "Ye"
+        ],
+        [
+          "Yan",
+          "Huo"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: To compare clinical outcomes of implantable collamer lens (ICL) combined with femtosecond laser-assisted arcuate keratotomy (FSAK) and toric implantable collamer lens (TICL) for high myopia with moderate-to-low astigmatism corrections. METHODS: In this single-center, non-randomized, parallel-group study, patients with high myopia and moderate-to-low astigmatism (0.75D ~ 2.00D) received either ICL+FSAK or TICL treatment and underwent a 3-month postoperative follow-up. We compared the efficacy, safety, predictability, and stability between the two groups, along with outcomes including vector analysis of astigmatism, intraocular pressure (IOP), corneal endothelial cell density (ECD), vault, modulation transfer function (MTF) cutoff, Strehl ratio (SR), and objective scatter index (OSI). RESULTS: At three months postoperatively, median manifest astigmatism in ICL+FSAK group was - 0.25 diopter (D), similar to that in TICL group was - 0.25D (P = 0.774). At all timepoints, two groups were comparable in terms of uncorrected distance visual acuity, corrected distance visual acuity, manifest spherical equivalent, manifest astigmatism, efficacy index, safety index. At 1 day, 1 month, and 3 months postoperatively, median surgically induced astigmatism in ICL+FSAK group were 0.74 D, 0.79 D, and 0.82 D, smaller than those in TICL group (0.86 D, 0.99 D, and 1.01 D) (P < 0.05). Similarly, median correction index postoperatively were 0.69 and 0.75 in ICL+FSAK group, smaller than those in TICL group (0.82 and 0.84) at 1 month and 3 months (P < 0.05). At all timepoints, no significant differences in difference vector or absolute value of angle error occurred between two groups.Similar results also occurred in IOP, ECD, vault, MTF cutoff, SR, and OSI. CONCLUSIONS: TICL resulted in higher SIA and CI compared to FSAK, but there was no significant difference in postoperative manifest astigmatism. Therefore, both methods are excellent choices for high myopia with moderate-to-low astigmatism. TRIAL REGISTRATION NUMBER: ChiCTR2400092267. The registration date is November 13, 2024. CLINICAL TRIAL REGISTRY: Chinese Clinical Trial Registry.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "42035116",
@@ -11246,6 +12695,110 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42120450",
+      "doi": "10.1038/s41598-026-52023-7",
+      "zotero_key": "HUBUB6N6",
+      "title": "Inflammatory molecules in tear fluid in retinitis pigmentosa: an exploratory case-control study",
+      "authors": [
+        [
+          "M.",
+          "Mateos-Olivares"
+        ],
+        [
+          "E. M.",
+          "Sobas"
+        ],
+        [
+          "N.",
+          "Galindo-Cabello"
+        ],
+        [
+          "M.",
+          "Blanco-Vázquez"
+        ],
+        [
+          "A.",
+          "Vázquez"
+        ],
+        [
+          "R.",
+          "Usategui-Martín"
+        ],
+        [
+          "S.",
+          "Pastor-Idoate"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "This observational case-control study aimed to compare tear-fluid inflammatory mediator profiles between patients with retinitis pigmentosa (RP) and healthy controls (HC), and to explore associations with RP severity, anxiety, daytime sleepiness, and sleep quality. A total of 78 adults with confirmed RP and 32 HC from a reference controlled-environment cohort were enrolled. RP participants completed anxiety, sleep quality, and sleepiness questionnaires. Tear samples were collected under standardized controlled-environment conditions, and biomarker analyses were conducted using one tear sample per participant. A customized multiplex panel was quantified using xMAP/Luminex technology, and substance P (SP) was measured by competitive ELISA. Between-group differences and within-RP associations were initially assessed using multivariable models adjusted for age and sex, with multiplicity controlled using the Benjamini-Hochberg false discovery rate (BH-FDR) in exploratory analyses. Given the age/sex imbalance between groups, additional sensitivity analyses were performed, including restriction to the overlapping age range, sex-stratified analyses, and inverse probability weighting based on age and sex and 1:1 age- and sex- ased matching. RP tear fluid showed a consistent pattern of lower mediator concentrations and reduced detectability compared with controls. In the main quantitative analyses, RP participants had significantly lower levels of EGF, GRO, IL-8, MCP-1, and IL-1RA, and these between-group patterns were directionally consistent across sensitivity analytes. For low-detection analytes, RP participants also showed reduced detectability relative to controls, although these results should be interpreted more cautiously. Within the RP cohort, tear biomarker profiles were broadly similar across clinical severity and anxiety, sleep quality, and sleepiness strata, with no associations remaining significant after BH-FDR correction. These findings suggest that tear-fluid immune mediators may provide complementary, non-invasive information on ocular surface neuroimmune alterations in RP; however, because the control cohort was not prospectively age- and sex-matched and tear-dilution normalization variables were not available, the between-group findings should be interpreted as exploratory and hypothesis-generating.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PROM1"
+    },
+    {
+      "pmid": "42108496",
+      "doi": "10.1097/cm9.0000000000004110",
+      "zotero_key": "E7E7K4BR",
+      "title": "Influence of local spontaneous activity and hippocampal volume on the relationship between APOE genotype, ATN biomarkers, and cognitive function across the Alzheimer’s disease spectrum",
+      "authors": [
+        [
+          "Y C",
+          "Zhu"
+        ],
+        [
+          "Anmo",
+          "Wang"
+        ],
+        [
+          "Yaling",
+          "Wu"
+        ],
+        [
+          "Lijia",
+          "Yang"
+        ],
+        [
+          "Yuanhui",
+          "Duan"
+        ],
+        [
+          "Y",
+          "ZHAO"
+        ],
+        [
+          "X",
+          "Zhao"
+        ],
+        [
+          "Wei",
+          "Hu"
+        ],
+        [
+          "Sen",
+          "Qun"
+        ],
+        [
+          "On behalf of Alzheimer’s disease Neuroimaging",
+          "Initiative"
+        ]
+      ],
+      "journal": "Chinese Medical Journal",
+      "year": "2026",
+      "abstract": "To the Editor: Alzheimer’s disease (AD) is a progressive neurodegenerative disorder involving complex interactions among genetics and structural and functional changes in the brain.[1] While the APOE ε4 allele is the strongest genetic risk factor for sporadic AD, its influence on cognition varies across the AD spectrum.[2–4] In this study, we investigated whether hippocampal volume and spontaneous local brain activity, measured by four-dimensional consistency of local neural activities (FOCA), moderate or mediate the relationship between the APOE genotype and cognitive performance. We analyzed multimodal neuroimaging and cerebrospinal fluid (CSF) data from 154 individuals across the AD spectrum (46 cognitively normal CN), 35 with subjective cognitive decline [SCD], 41 with mild cognitive impairment [MCI], and 32 with AD from the Alzheimer’s Disease Neuroimaging Initiative [ADNI]). Carriers of APOE ε4 (n = 75) were compared with non-carriers (n = 79). This study used de-identified public data from the ADNI database, with the core ethical approval granted by the Institutional Review Board (IRB) of the University of California, San Francisco (UCSF) (Approval No. 10-001117); the complete list of IRBs that approved the ADNI study for all participating institutions has been provided in the Supplementary Material, https://links.lww.com/CM9/C884. Cognitive function was assessed using a battery of neuropsychological tests. Mediation and moderation analyses were conducted using PROCESS macros with bootstrap confidence intervals (CIs). Additionally, we used a support vector machine (SVM) model incorporating APOE genotype and magnetic resonance imaging (MRI) biomarkers to distinguish individuals across the AD spectrum. Data on demographics, amyloid/tau/neurodegeneration (ATN) biomarkers, and neuropsychological parameters are listed in Table 1. The predominant effect of the APOE genotype on FOCA was observed in the frontal-temporal-occipital system, as illustrated in Supplementary Figure 1A–B, https://links.lww.com/CM9/C884. Compared with non-carriers of APOE ε4, APOE ε4 carriers exhibited significantly higher intrinsic FOCA in the left middle frontal gyrus (MFG.L), but lower FOCA in the right middle occipital gyrus (MOG.R) and right superior/middle temporal gyrus (STG.R/MTG.R). The major effect of the disease was seen in the frontal-temporal system, as shown in Supplementary Figure 1C–D, https://links.lww.com/CM9/C884. Notably, FOCA distribution indicated a disrupted pattern with dynamic changes (U-shape and inverted U-shape) throughout AD progression. The effects of the interaction between the APOE genotype and disease on FOCA were observed in the left frontal gyrus (FG.L), left inferior parietal lobe (IPL.L), right inferior frontal gyrus (IFG.R), and bilateral precuneus (PCUN.B), as illustrated in Supplementary Figure 2A, https://links.lww.com/CM9/C884. Compared with non-carriers of APOE ε4, APOE ε4 carriers exhibited opposite changes in FOCA trajectories during the progression of AD, particularly in the transitions from the CN to SCD stages and from the MCI to AD stages, as illustrated in Supplementary Figure 2B, https://links.lww.com/CM9/C884. Further details on these brain regions are provided in Supplementary Table 1, https://links.lww.com/CM9/C884. As shown in Supplementary Figure 3A–E, https://links.lww.com/CM9/C884, linear regression analyses revealed that the STG.R FOCA, hippocampal volume, and 18F-fluorodeoxyglucose (FDG, Siemens Healthineers, Erlangen, Germany) standardized uptake value ratio (SUVR) were inversely correlated with global cognitive scores (ADAS-Cog), whereas 18F-Florbetapir (AV45, Avid Radiopharmaceuticals, Philadelphia, PA, USA) SUVR and CSF Tau showed positive correlations with ADAS-Cog scores. Additionally, significant correlations were observed between FOCA, hippocampal volume, FDG SUVR, CSF Tau, and scores in other cognitive domains [Supplementary Figures 4–6, https://links.lww.com/CM9/C884]. Classification of the AD spectrum population using an SVM-trained model that integrated APOE genotype with MRI biomarkers, specifically, gray matter volume (GMV), hippocampal volume, and modified FOCA, showed that the model was highly effective in classifying the different stages of the disease. Supplementary Figure 7A, https://links.lww.com/CM9/C884 shows that all AUC values exceeded 0.70, indicating the robust predictive capacity of these combined variables in the differentiation of disease stages. The AUC values from the classification model, cross-validated through permutation testing, were statistically significant, as shown in Supplementary Figures 7B–G, https://links.lww.com/CM9/C884. Both FOCA and the hippocampal volume were found to moderate the relationship between the APOE genotype, ATN biomarkers, and cognition. The moderation analysis revealed that hippocampal volume significantly moderated the effects of APOE genotype and FDG SUVR on the ADAS-Cog scores across all groups [Supplementary Figure 8A–F, https://links.lww.com/CM9/C884]. The relationship between APOE genotype/FDG SUVR and ADAS-Cog scores was contingent upon the hippocampal volume. Initially, the APOE genotype exerted a significant positive predictive effect on cognitive performance (β = 33.52, 95% CI: 11.82–55.21, t = 3.05, P = 0.003, Supplementary Figure 8B, https://links.lww.com/CM9/C884). Notably, as indicated in Supplementary Figure 8C, https://links.lww.com/CM9/C884, the hippocampal volume showed a significant negative moderating effect on the impact of the APOE genotype on cognitive performance, suggesting that larger hippocampal volumes reduce the effect of the APOE genotype on cognitive function. This significant moderating effect was observed only when the hippocampal volume fell between 3.6 and 7.0. Supplementary Figure 8E, https://links.lww.com/CM9/C884 indicates that FDG SUVR significantly affected the ADAS-Cog scores (β = −19.43, 95% CI: −25.7 to −13.1, t = −6.27, P <0.001). To further explore the moderating effect of hippocampal volume, a simple slope analysis was conducted. The hippocampal volume was categorized into high and low levels based on the mean ± 1 standard deviation [Supplementary Figure 8F, https://links.lww.com/CM9/C884]. Using ADAS-Cog scores as the dependent variable and FDG SUVR as the independent variable, the analysis showed that FDG SUVR negatively predicted ADAS-Cog scores in both groups: the low hippocampal-volume group (simple slope = −10.95, 95% CI: −14.25 to −7.71, t = −8.42, P <0.001) and the high hippocampal-volume group (simple slope = −7.57, 95% CI: −10.11 to −5.02, t = −6.11, P <0.001). This implies that, for the same FDG SUVR, a larger hippocampal volume is associated with better cognitive function. The effect of FDG SUVR on cognitive function appears to be less pronounced among individuals with larger hippocampal volumes, as indicated by the increasing divergence between the two lines as the FDG SUVR values increased. Significantly, our findings indicated that neither hippocampal volume nor STG FOCA played a significant mediating role in the relationship between APOE genotype/FDG SUVR and cognitive performance, as illustrated in Supplementary Figure 9, https://links.lww.com/CM9/C884. Moreover, no moderation effect of STG FOCA on the relationship between APOE genotype/FDG SUVR and cognitive performance was observed [Supplementary Figure 9, https://links.lww.com/CM9/C884]. Finally, as shown in Supplementary Figure 8G–H, https://links.lww.com/CM9/C884, both hippocampal volume (indirect effect = 9.20, 95% CI: 4.40–14.49) and STG FOCA (indirect effect = 2.95, 95% CI: 0.84–5.74) significantly mediated the effect of AV45 SUVR on cognitive performance across all groups. The AV45 SUVR was found to have a positive influence on ADAS-Cog scores. However, we discovered that neither the hippocampal volume nor STG FOCA significantly moderated the relationship between AV45 SUVR and cognitive performance [Supplementary Figure 9, https://links.lww.com/CM9/C884]. Table 1 - Demographic information and neuropsychological performance of all participants. Variables CN (n = 46) SCD (n = 35) MCI (n = 41) AD (n = 32) Statistics P value Age (years) 74.18 ± 5.88 73.22 ± 5.96 71.49 ± 8.14 73.48 ± 7.11 1.42* 0.16 Education (years) 16.13 ± 2.56 16.71 ± 2.71 16.70 ± 2.70 15.75 ± 2.79 1.16* 0.32 Gender (Female/Male) 21/25 16/19 24/17 17/15 1.92† 0.59 APOE ε4 (+/-) 14/32 22/13 17/24 22/10 12.05† 0.002§ GMV (cm3) 589.05 ± 47.45 573.21 ± 47.57 562.71 ± 42.77 532.61 ± 67.29 8.76* <0.001‡ §|| ¶ ** Hippocampus volume (cm3) 7.62 ± 0.81 7.61 ± 0.92 7.03 ± 1.09 6.07 ± 1.19 9.14* <0.001‡ §|| ¶ ** PET AV45 SUVR 1.11 ± 0.17 1.14 ± 0.19 1.26 ± 0.24 1.44 ± 0.20 10.21* <0.001‡ §|| ¶ ** FDG SUVR 6.68 ± 0.46 6.58 ± 0.49 6.19 ± 0.61 5.24 ± 0.70 9.88* <0.001‡ §|| ¶ ** General mental status MMSE 28.80 ± 1.53 28.52 ± 1.96 27.66 ± 1.64 22.53 ± 2.42 11.34* <0.001‡ §|| ¶ ** ADAS-cog 9.28 ± 3.83 10.92 ± 5.56 16.93 ± 6.89 34.05 ± 9.14 10.05* <0.001‡ §|| ¶ ** Memory RAVLT-I 43.95 ± 9.99 43.57 ± 10.51 33.14 ± 7.49 21.93 ± 7.03 9.63* <0.001‡ §|| ¶ ** RAVLT-L 6 (4–8) 6 (4–7) 3 (2–5) 2 (0–3) 26.53†† <0.001‡ §|| ¶ ** RAVLT-sum 20 (10–30) 39 (20–58) 65 (45–85) 93 (85–102) 31.47†† <0.001‡ §|| ¶ ** Visuospatial function CDT 4.77 ± 0.55 4.67 ± 0.70 4.27 ± 1.03 3.19 ± 1.27 8.55* <0.001‡§||¶** Information processing speed TMT-A 33 (25–42) 36 (28–48) 48 (36–68) 80 (65–110) 25.63†† <0.001‡§||¶** Executive function TMT-B 71 (55–88) 85 (65–120) 135 (100–180) 230 (200–280) 29.85†† <0.001‡§||¶** Language BNT 27.89 ± 1.58 27.65 ± 1.74 23.17 ± 5.99 20.20 ± 5.63 8.92* <0.001‡§||¶** CSF biomarkers (pg/mL) Aβ1-42 191.41 ± 48.74 189.36 ± 53.26 169.44 ± 51.38 139.95 ± 38.51 10.45* <0.001§¶** t-tau 58 (38–90) 72 (48–98) 88 (52–130) 122 (78–185) 26.79†† <0.001‡§¶** p-tau181 32 (22–46) 39 (24–56) 43 (28–62) 54 (36–74) 15.32†† 0.003‡§¶ Data are shown as mean ± standard deviation (SD), n/n, or median (Q1–Q3). No significant differences were found in age, gender and education data. The source of significant differences is indicated by the following symbols: ‡CN vs. MCI; §CN vs. AD; ||SCD vs. MCI; ¶SCD vs. AD; **MCI vs. AD. Aβ: Amyloid-β; AD: Alzheimer’s disease; ADAS-cog: 13-item Alzheimer’s Disease Assessment Scale-cognitive subscale; BNT: Boston Naming Test; CDT: Clock Drawing Test; CN: Cognitive normal; CSF: Cerebrospinal fluid; FDG: Fludeoxyglucose; GMV: Gray matter volume; MCI: Mild cognitive impairment; MMSE: Mini-mental state examination; p-tau: Phosphorylated tau; PET: Positron emission tomography; RAVLT-I: Rey auditory verbal learning test-immediate; RAVLT-L: Rey auditory verbal learning test-learning; SCD: Subjective cognitive decline; SUVR: Standardized uptake values ratio; TMT-A/B: Trail Making Test A part/ B part; t-tau: Total tau.*F values; †χ2 values; ††H values. These findings enhance our understanding of the links between the APOE genotype, ATN biomarkers, brain structure, function, and cognition. The results also provide new insights into the identification of diagnostic biomarkers for categorizing the AD spectrum. However, the cross-sectional design precludes causal inference, and verification in larger, population-based, and ethnically diverse cohorts is warranted. This study had several limitations. First, with single-time-point data, it is not possible to rule out reverse causation or reciprocal effects. Longitudinal panel designs are required before translation of these pathways into clinical action. Nevertheless, examining these pathways with cross-sectional data could lead to skewed results. Future research would benefit from assessing mediation and moderation using longitudinal data, preferably employing panel models that enable the analysis of different causal pathways. Second, as limited tau positron emission tomography (PET) imaging was only performed in subjects in the ADNI3 stage, these results were not included in the analysis, and tau levels in the CSF were used instead. Third, self-reported race/ethnicity data from the ADNI database showed that our cohort was predominantly composed of White individuals (85.7%, 132/154), with non-White subgroups (Black/African American, Asian, Latino/Hispanic, Other/Not specified) accounting for only 14.3% of the total sample and all having small cell sizes in each diagnostic group (CN, SCD, MCI, AD; all n ≤2) [Supplementary Table 2, https://links.lww.com/CM9/C884]. Thus, interaction analyses stratified by race/ethnicity were not performed due to insufficient sample size of each subgroup, which limited the generalizability of our findings, and future validation in non-ADNI cohorts with diverse ethnic/racial compositions is warranted. Fourth, the study was limited by a restricted participant pool, comprising individuals with different stages of AD, APOE genotypes, and PET scans. A larger participant pool is needed to confirm the findings. Lastly, the SVM model incorporating the APOE genotype and MRI biomarkers demonstrated strong classification power for the AD spectrum. Despite cross-validation analysis, future research should be conducted on a fresh dataset to confirm the current findings. Funding This study was supported by grants from China Postdoctoral Science Foundation (No. 2024M753141), Research Funds of Centre for Leading Medicine and Advanced Technologies of IHM (No. 2023IHM02010), Natural Science Foundation of Anhui Province (Nos. 2208085QH254 and 2208085MH227), Key Research Projects of Natural Science in Colleges and Universities of Anhui Province (No. 2022AH051252), Opening Foundation of State Key Laboratory of Cognitive Intelligence, iFLYTEK (No. COGOS-2023001), National Key Research and Development Program of China (No. STI2030-Major Projects 2021ZD0203100), and the ADNI (National Institutes of Health GrantU01 AG024904). Conflicts of interest None.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42053838",
@@ -11764,6 +13317,94 @@
       "subcollection": "X-linked retinoschisis"
     },
     {
+      "pmid": "42104523",
+      "doi": "10.1186/s13578-026-01581-4",
+      "zotero_key": "CBM4HQHD",
+      "title": "Key role of transcription factors network in proliferative vitreoretinal diseases development",
+      "authors": [
+        [
+          "Clément",
+          "Duveau"
+        ],
+        [
+          "Yosra Raiss El",
+          "Harrak"
+        ],
+        [
+          "Azine",
+          "Datlibagi"
+        ],
+        [
+          "Jason",
+          "Perret"
+        ],
+        [
+          "François",
+          "Willermain"
+        ],
+        [
+          "Christine",
+          "Delporte"
+        ],
+        [
+          "Elie",
+          "Motulsky"
+        ]
+      ],
+      "journal": "Cell & Bioscience",
+      "year": "2026",
+      "abstract": "Proliferative vitreoretinal diseases (PVDs) encompass severe ocular disorders such as proliferative vitreoretinopathy (PVR), proliferative diabetic retinopathy (PDR), and epiretinal membranes (ERM), characterized by the formation of fibrovascular membranes that often lead to retinal detachment and vision loss. A central mechanism driving these conditions is the epithelial-to-mesenchymal transition (EMT) of retinal pigment epithelial (RPE) cells, orchestrated by a network of transcription factors (TFs). Among these, zinc finger E-box binding homeobox 1 (ZEB1) emerges as a pivotal regulator by repressing epithelial markers like E-cadherin and inducing mesenchymal markers such as N-cadherin and vimentin, thereby promoting cell migration and fibrotic membrane formation. nuclear factor of activated T cells 5 (NFAT5) contributes to this process by mediating osmotic stress responses and upregulating inflammatory cytokines, which further act upon EMT and fibrosis. activator protein 1 (AP-1) and hypoxia inducible factor 1 subunit alpha (HIF-1α) participate in driving inflammation, extracellular matrix (ECM) remodeling, and angiogenesis. While HIF-1α triggers vascular endothelial growth factor (VEGF) expression under hypoxic conditions, AP-1 modulates matrix metalloproteinases (MMPs) essential for ECM degradation and remodeling. Additional TFs, including Kruppel-like factor 4 (KLF4) and microphthalmia-associated transcription factor (MITF), are vital in maintaining RPE cell identity. Their downregulation under pathological conditions disrupts epithelial integrity and predisposes cells to undergo EMT. Moreover, β-catenin, through its role in the wingless-related integration site (Wnt) signaling pathway, reinforces EMT and ECM remodeling, further enhancing fibrotic progression. Adipocyte enhancer-binding protein 1 (AEBP1) and ZFP36 ring finger protein like 1 (ZFP36L1) also regulate inflammatory responses and ECM dynamics, providing novel post-transcriptional targets for therapeutic intervention. Overall, the synergistic interactions among these TFs create complex feedback loops that amplify pathological changes in PVDs. Targeting these molecular pathways offers promising avenues for developing multi-targeted therapies aimed at saving vision-threatening disease while reducing invasive surgical interventions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
+    },
+    {
+      "pmid": "42119528",
+      "doi": "10.1055/s-0046-1818604",
+      "zotero_key": "3ZKAKUK5",
+      "title": "Labyrinthine hemorrhage: practical lessons from a rare cause of acute vestibular syndrome.",
+      "authors": [
+        [
+          "César Minoru Toita",
+          "Koga"
+        ],
+        [
+          "Marcos Christiano",
+          "Lange"
+        ],
+        [
+          "Valéria Cristina",
+          "Scavasine"
+        ],
+        [
+          "Hélio Afonso Ghizoni",
+          "Teive"
+        ],
+        [
+          "Henry Koiti",
+          "Sato"
+        ],
+        [
+          "Caio César Diniz",
+          "Disserol"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "Abstract: Labyrinthine hemorrhage (LH) is a rare cause of sudden sensorineural hearing loss (SNHL) and acute vestibular syndrome (AVS), which may mimic both peripheral and central etiologies. We report a case of a 76-year-old male on edoxaban therapy presenting with sudden right-sided SNHL and vertigo. Brain magnetic resonance imaging (MRI) performed 2 weeks later showed T1 and fluid-attenuated inversion recovery (FLAIR) hyperintensity of the right inner ear, consistent with LH. Evaluation of AVS in the emergency setting remains challenging, as LH may present as a rare stroke mimic, often indistinguishable from isolated labyrinthine stroke or labyrinthitis. Proper application and interpretation of vestibular assessment protocols, such as HINTS-plus, are critical in such cases. When bedside vestibular testing suggests central-type findings, but initial neuroimaging is normal, high-resolution brain MRI focused on the inner ear might be essential to rule out LH. Awareness of this rare entity may help prevent misdiagnosis, inappropriate thrombolysis, and delayed recognition, although stroke management should still be prioritized when HINTS-plus suggests a central pattern. This case highlights the diagnostic complexity of AVS and its potential pitfalls in bedside and imaging assessment, raising awareness of LH as a rare but clinically relevant stroke mimic.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41714743",
       "doi": "10.1002/ijgo.70902",
       "zotero_key": "JAERISGQ",
@@ -12019,6 +13660,40 @@
     },
     {
       "pmid": "",
+      "doi": "10.7417/ct.2013.1520",
+      "zotero_key": "JI8XUEDV",
+      "title": "Lattice Corneal Dystrophy-Variant: a report of three new cases due to p.V631D mutation in the TGFBI gene.",
+      "authors": [
+        [
+          "A",
+          "Laborante"
+        ],
+        [
+          "C",
+          "Longo"
+        ],
+        [
+          "P",
+          "De Bonis"
+        ],
+        [
+          "L",
+          "Bisceglia"
+        ]
+      ],
+      "journal": "La Clinica terapeutica",
+      "year": "2013",
+      "abstract": "",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Corneal dystrophy, lattice"
+    },
+    {
+      "pmid": "",
       "doi": "10.5455/medarh.2025.79.241-248",
       "zotero_key": "RR2ISM7U",
       "title": "Leber's Hereditary Optic Neuropathy.",
@@ -12124,6 +13799,174 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42106548",
+      "doi": "10.1038/s41598-026-52139-w",
+      "zotero_key": "5SPS7EHS",
+      "title": "Leveraging AI and multi-source satellite imagery for multi-hazard monitoring and susceptibility mapping in urban areas",
+      "authors": [
+        [
+          "Raffaele",
+          "Lafortezza"
+        ],
+        [
+          "Francesco",
+          "Giordano"
+        ],
+        [
+          "Domenico",
+          "Capolongo"
+        ],
+        [
+          "Alberto",
+          "Refice"
+        ],
+        [
+          "Francesco P.",
+          "Lovergine"
+        ],
+        [
+          "Mario",
+          "Elia"
+        ],
+        [
+          "Davide",
+          "D'Alò"
+        ],
+        [
+          "Nicola",
+          "Amoroso"
+        ],
+        [
+          "Raffaele",
+          "Nutricato"
+        ],
+        [
+          "Marina",
+          "Zingaro"
+        ],
+        [
+          "Alessandro",
+          "Parisi"
+        ],
+        [
+          "Giacomo",
+          "Caporusso"
+        ],
+        [
+          "Floriana",
+          "Rizzo"
+        ],
+        [
+          "Alessandra",
+          "Costantino"
+        ],
+        [
+          "Alessandro",
+          "Ursi"
+        ],
+        [
+          "Patrizia",
+          "Sacco"
+        ],
+        [
+          "Maria",
+          "Virelli"
+        ],
+        [
+          "Deodato",
+          "Tapete"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "The increasing frequency and severity of natural hazards, such as floods, wildfires, land degradation, and ground displacement, pose significant challenges to the protection of urban areas worldwide. While traditional monitoring approaches based on a single-source satellite sensor have proved to be reliable, they often fail to provide a holistic representation of the complexity, scale, and rapid evolution of these phenomena. The recent advancement of artificial intelligence (AI), coupled with the unprecedented availability of multi-source satellite imagery, offers new perspectives for enhancing natural hazard monitoring and susceptibility mapping. In this study, we present a novel approach that leverages state-of-the-art Explainable AI (XAI) techniques, particularly SHAP (SHapley Additive exPlanations), to analyze multi-source satellite imagery for natural hazard monitoring and assessment in urban areas. The framework utilizes globally available, open-source satellite data (Sentinel-1/2, COSMO-SkyMed, SAOCOM) to ensure inherent scalability and transferability. XAI is chosen to move beyond black-box prediction, providing transparent attribution of susceptibility to underlying environmental and infrastructural parameters, which is essential for informed intervention. This interpretability is critical for building stakeholder trust and ensuring that automated predictions align with domain knowledge before deployment. Our approach was developed, applied, and validated in two distinct sites located in the Puglia region, southern Italy: the densely populated Bari Urban Region (BUR) and the diverse settlements and land uses within the Gargano Urban Region (GUR). We combined XAI-based models with optical imagery from Sentinel-2, SAR data from Sentinel-1, COSMO-SkyMed, and SAOCOM to extract the key features explaining the occurrence and magnitude of the following hazards: (1) sediment connectivity; (2) land displacement; (3) urban floods; and (4) urban wildfires. Our results demonstrate that the integration of multi-source satellite imagery through AI not only significantly enhances the accuracy and reliability of hazard detection (e.g., F1 scores consistently above 67.5% for three of the four hazards, and high Recall across all modules) but also enables the identification of subtle spatial patterns and crucial interrelationships.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42126803",
+      "doi": "10.1007/s11655-026-3850-4",
+      "zotero_key": "JDWJNIES",
+      "title": "Lianxia Xiaopi Granules for Treatment of Functional Dyspepsia: A Multicenter, Randomized, Double-Blind and Placebo-Controlled Trial",
+      "authors": [
+        [
+          "Yanrong",
+          "Yang"
+        ],
+        [
+          "Rui",
+          "Liu"
+        ],
+        [
+          "Qiang",
+          "Zhou"
+        ],
+        [
+          "Qing",
+          "Xia"
+        ],
+        [
+          "Gong",
+          "Yang"
+        ],
+        [
+          "Yu-feng",
+          "Li"
+        ],
+        [
+          "Xu",
+          "L"
+        ],
+        [
+          "Yan",
+          "Leng"
+        ],
+        [
+          "Bei-ping",
+          "Zhang"
+        ],
+        [
+          "Zheng-Hua",
+          "Zhou"
+        ],
+        [
+          "Su-fang",
+          "Zhou"
+        ],
+        [
+          "Tao",
+          "Zhang"
+        ],
+        [
+          "Liu",
+          "Shao-neng"
+        ],
+        [
+          "Yufei",
+          "Liu"
+        ],
+        [
+          "Pei-min",
+          "Feng"
+        ]
+      ],
+      "journal": "Chinese Journal of Integrative Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -12826,6 +14669,48 @@
       "subcollection": "RPGR"
     },
     {
+      "pmid": "42127691",
+      "doi": "10.1016/j.actpsy.2026.107043",
+      "zotero_key": "Q3FQMXK7",
+      "title": "Love, longing and obsession: Features, correlates, comorbidities, and real-time cognitive-affective dynamics of limerence",
+      "authors": [
+        [
+          "Chloe",
+          "Evans"
+        ],
+        [
+          "Sian O.",
+          "Panton"
+        ],
+        [
+          "Will",
+          "Strawson"
+        ],
+        [
+          "Eleanor",
+          "Floyd"
+        ],
+        [
+          "Stephen",
+          "Kellett"
+        ],
+        [
+          "Giulia L.",
+          "Poerio"
+        ]
+      ],
+      "journal": "Acta Psychologica",
+      "year": "2026",
+      "abstract": "Limerence is an intense, chronic, and involuntary state of unreciprocated obsessive relational longing for a specific individual (the limerent object, LO). Limerence exists on a continuum, but research on its pathological form ('impairing limerence') has been limited. This paper presents two studies that advance understanding of impairing limerence. Study 1 is the largest quantitative investigation of limerence to date (N = 1647) and charts core features, psychological correlates, and clinical comorbidities. Findings indicate that limerence starts during adolescence (18-years) and then frequently reoccurs across adulthood (∼5 episodes), with episodes involving a prolonged (2-year) obsessive fixation and preoccupation with a LO. Limerent individuals reported elevated adverse childhood experiences, insecure attachment, and obsessive-compulsive cognitive traits. The rate of psychiatric multi-morbidity for limerent individuals was 42% (i.e., simultaneously reaching caseness for anxiety, depression, dissociation, and maladaptive daydreaming). Study 2 is the first to use experience-sampling methodology to intensively capture and model the cognitive-affective dynamics of impairing limerent episodes in real time over 7-days (N = 51). This revealed the high frequency of LO cognitions (50% of waking thought), and these thoughts were intrusive and immersive, with strong links to negative affect. Intrusive-distracting fantasy emerged as the dominant thought pattern, particularly during states of sadness and loneliness. Taken together, limerence appears underpinned by trauma and relational insecurity and maintained by obsessive-compulsive traits and maladaptive daydreaming. Findings shed light on the need for formal diagnostic criteria, identifies treatment targets and highlights the need evaluate the effectiveness of psychotherapeutic interventions for limerence.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41930580",
       "doi": "10.3892/ijmm.2026.5823",
       "zotero_key": "D3XBE6X4",
@@ -13314,6 +15199,56 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Middle coat"
+    },
+    {
+      "pmid": "42106751",
+      "doi": "10.1186/s12889-026-27716-3",
+      "zotero_key": "4VEX8KXQ",
+      "title": "Mortality trends and epidemiological characteristics among people living with HIV in Huangshi, China: a time-series analysis (2004–2024)",
+      "authors": [
+        [
+          "Qingzhi",
+          "Wang"
+        ],
+        [
+          "Haozhen",
+          "Bai"
+        ],
+        [
+          "Li",
+          "Song"
+        ],
+        [
+          "Can",
+          "Wang"
+        ],
+        [
+          "Youyi",
+          "Xie"
+        ],
+        [
+          "Biao",
+          "Fu"
+        ],
+        [
+          "Jumin",
+          "Xie"
+        ],
+        [
+          "Luman",
+          "Li"
+        ]
+      ],
+      "journal": "BMC Public Health",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To analyze the epidemiological characteristics and dynamic trends of people living with HIV (PLWH) in Huangshi between 2004 and 2024, thereby providing a scientific basis for the optimization of regional HIV prevention and control strategies. METHODS: Surveillance data of PLWH from Huangshi during the period 2004-2024 were collected. Descriptive epidemiology methods were employed to examine the temporal distribution, demographic features (including age, sex, marital status), transmission routes, clinical manifestations, and mortality patterns. A Cochrane-Armitage trend test was utilized to assess changes in gender composition, while SPSS 27 was leveraged to establish a time-series model based on exponential smoothing techniques to forecast future mortality counts. RESULTS: The number of PLWH in Huangshi exhibited a marked increase post-2009, peaking in 2015, followed by a significant decline from 2020 onward. Key structural shifts were observed: (1) among reported cases, the 51-80 age group accounted for the highest proportion (representing the age composition within the infected population, rather than age-specific incidence in the general population). Male cases showed a pronounced upward trend, whereas female cases demonstrated a gradual decrease. (2) Sexual transmission constituted the predominant mode, accounting for 95.02% of cases, with heterosexual transmission highly concentrated among males aged 51-70 years. (3) The primary opportunistic infections were persistent fever and Pneumocystis pneumonia. Post-2013, mortality rates escalated significantly, yet over one-third of deaths were attributed to causes unrelated to HIV, with cardiovascular diseases and malignancies ranking as major contributors, reflecting a shift toward chronic comorbidity management. (4) Time-series modeling predicted a gradual decline in the estimated number of HIV-related deaths for the years 2025-2028. CONCLUSION: HIV transmission in Huangshi has evolved into a stage characterized by sexual transmission as the primary route, with a notable increase in the disease burden among older adults and males. The focus is now transitioning from HIV-related mortality to the management of chronic comorbidities. Future HIV prevention efforts in the city should adopt comprehensive strategies, including targeted interventions and enhanced surveillance for males-particularly older males-strengthened treatment and prevention measures, and integrated approaches to chronic disease management to address the evolving epidemiological landscape.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "23557583",
@@ -14046,6 +15981,32 @@
       "subcollection": "Nystagmus"
     },
     {
+      "pmid": "42102304",
+      "doi": "10.5014/ajot.2026.051516",
+      "zotero_key": "WU6IHTZ6",
+      "title": "Nonpharmacological Sleep Interventions for Children With Angelman Syndrome: A Scoping Review",
+      "authors": [
+        [
+          "Joseph",
+          "Barrett"
+        ],
+        [
+          "Shelly J.",
+          "Lane"
+        ]
+      ],
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2026",
+      "abstract": "IMPORTANCE: Sleep is a fundamental occupation that supports children's health and learning and family well-being. Children with Angelman syndrome (AS) experience some of the most severe and persistent sleep disturbances of any neurogenetic disorder, highlighting an underexplored need for nonpharmacological, occupation-centered interventions. OBJECTIVE: To identify and synthesize current knowledge on nonpharmacological sleep interventions for children with AS, describe intervention strategies and reported outcomes, and outline implications for occupational therapy practice. DATA SOURCES: We searched Web of Science, APA PsycINFO, PubMed, and CINAHL from inception through September 1, 2025, and reviewed AS foundation websites for gray literature. STUDY SELECTION AND DATA COLLECTION: We included studies of nonpharmacological sleep interventions with children with AS. The first author screened titles and abstracts; two reviewers independently screened full texts and charted data using Joanna Briggs Institute and Preferred Reporting Items for Systematic reviews and Meta-Analyses extension for Scoping Reviews guidance. FINDINGS: Three studies were synthesized: one randomized controlled trial, one single-case experimental design, and one case report. Interventions were primarily behavioral or caregiver mediated; one involved a short-term sedative adjunct in a behavioral program. Collectively, these studies demonstrated improvements in sleep initiation, duration, and continuity, and caregivers reported reduced stress and high satisfaction with feasibility. CONCLUSIONS AND RELEVANCE: Behavioral and caregiver-mediated sleep strategies consistently improved children's ability to fall asleep and remain asleep while supporting family functioning. Findings suggest that sleep is a modifiable occupation and highlight opportunities for occupational therapy practitioners to adapt and deliver family-centered interventions that establish healthy sleep routines and supportive environments. Plain-Language Summary: Angelman syndrome (AS) is a rare neurodevelopmental condition that often causes severe sleep difficulties among children. Our scoping review looked at strategies to improve sleep for children with AS without using medication and considered their relevance to occupational therapy practice. We identified three studies, and the results were encouraging. The most effective approaches involved establishing consistent bedtime routines, gradually adjusting sleep schedules, and coaching parents to manage sleep behaviors. When these strategies were used, children with AS fell asleep faster, slept longer through the night, and woke up less often. Parents reported less stress and greater confidence in managing their child's sleep. These nondrug methods are practical for families to use at home and align with occupational therapy's focus on daily routines, the environment, and family well-being. Occupational therapy practitioners can guide caregivers to create structured, calming bedtime routines that promote better sleep, participation, and overall quality of life. Positionality Statement: Joseph Barrett is a parent of a child with Angelman syndrome, which informed the motivation for this study but not its examination or interpretation. Shelly J. Lane is a professor in the Department of Occupational Therapy at Colorado State University. Throughout the review, we maintained reflexivity and transparency to support objectivity and methodological rigor. To minimize bias, we used predefined eligibility and data-charting templates, conducted calibration for full-text screening, and resolved discrepancies through consensus.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41751772",
       "doi": "10.3390/ijms27041636",
       "zotero_key": "GQHWNXU4",
@@ -14452,6 +16413,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Congenital cataracts"
+    },
+    {
+      "pmid": "42129894",
+      "doi": "10.1186/s42238-026-00446-4",
+      "zotero_key": "T89FXAXC",
+      "title": "Operationalizing ASSIST-based indicators to estimate the prevalence and correlates of problematic cannabis involvement among U.S. college students",
+      "authors": [
+        [
+          "Fares",
+          "Qeadan"
+        ],
+        [
+          "Ashlie",
+          "McCunn"
+        ],
+        [
+          "Anumitha",
+          "Aravindan"
+        ],
+        [
+          "Benjamin",
+          "Tingey"
+        ]
+      ],
+      "journal": "Journal of Cannabis Research",
+      "year": "2026",
+      "abstract": "BACKGROUND: Cannabis use and cannabis-related harms remain important public health concerns among college-age adults. However, nationally representative estimates that characterize the severity of problematic cannabis use in U.S. college students are limited. Using pooled American College Health Association-National College Health Assessment (ACHA-NCHA) III data, we developed a screening-based index of cannabis involvement severity and examined mental health and other correlates. METHODS: This cross-sectional study used pooled ACHA-NCHA III data from Fall 2019 to Spring 2024. Cannabis involvement severity was operationalized using cannabis-specific items from the Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) module embedded in the ACHA-NCHA III (e.g., use frequency, craving/urge, difficulty controlling use, role impairment, and cannabis-related problems). Indicator responses were summed and categorized as no/low involvement (0-1), mild (2-3), moderate (4-5), or severe/high involvement (≥ 6). We estimated prevalence overall and among students with lifetime cannabis use. Ordinal logistic regression identified correlates of greater involvement severity among those with lifetime cannabis use. Modified Poisson and log-linear models assessed associations between involvement severity and mental health indicators among students with cannabis use history. RESULTS: The prevalence of elevated problematic cannabis involvement (score ≥ 2) was 8.66% among all students and 20.77% among those with lifetime cannabis use; among students with cannabis use history, 7.32% had mild involvement, 6.88% moderate involvement, and 6.56% severe/high involvement. Greater involvement severity was more common among males, American Indian/Alaskan Native/Non-Hispanic (NH) Black/NH Other/NH multiracial students (compared with NH White), undergraduates (compared with Master's/PhD students), and those not living on campus, and was associated with greater co-occurring tobacco/other substance use and greater counts of chronic mental health conditions. Compared to students with no/low cannabis involvement, those with mild/moderate/severe involvement had higher prevalence of anxiety, depression, other mental health conditions, and mental health service receipt, as well as higher non-specific serious mental illness, loneliness, and suicide behavior scores. CONCLUSIONS: Problematic cannabis involvement is common among U.S. college students and shows a graded association with adverse mental health indicators. These findings support targeted screening and integrated behavioral health services for students reporting more severe patterns of cannabis involvement.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -15458,6 +17453,52 @@
       "subcollection": "Peters Plus syndrome"
     },
     {
+      "pmid": "42104169",
+      "doi": "10.1007/s13318-026-01007-z",
+      "zotero_key": "65K7JA73",
+      "title": "Pharmacokinetics, Safety, and Tolerability of Obeldesivir in Healthy Japanese and White Participants",
+      "authors": [
+        [
+          "Chi-Chi",
+          "Peng"
+        ],
+        [
+          "Eric",
+          "Salgado"
+        ],
+        [
+          "Jessica",
+          "Corpus"
+        ],
+        [
+          "Santosh",
+          "Davies"
+        ],
+        [
+          "Nancy",
+          "Qi"
+        ],
+        [
+          "Yiannis",
+          "Koullias"
+        ],
+        [
+          "Luzelena",
+          "Caro"
+        ]
+      ],
+      "journal": "European Journal of Drug Metabolism and Pharmacokinetics",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42060809",
       "doi": "10.4103/ijp.ijp_495_23",
       "zotero_key": "Q9JFCQWW",
@@ -16130,6 +18171,80 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, posterior polymorphous"
+    },
+    {
+      "pmid": "42098217",
+      "doi": "10.1038/s41598-026-51349-6",
+      "zotero_key": "2979VT28",
+      "title": "Prospective natural history and clinical biomarkers of EYS-associated retinopathy in the KEYS study",
+      "authors": [
+        [
+          "Marika",
+          "TANIGUCHI"
+        ],
+        [
+          "Yuki",
+          "Togashi"
+        ],
+        [
+          "Satoshi",
+          "Yokota"
+        ],
+        [
+          "Masakazu",
+          "Hiraoka"
+        ],
+        [
+          "Shohei",
+          "Kitahata"
+        ],
+        [
+          "Natsuko",
+          "Nakamura"
+        ],
+        [
+          "Midori",
+          "Yamamoto"
+        ],
+        [
+          "Michiko",
+          "Mandai"
+        ],
+        [
+          "Kiyoko",
+          "Gocho"
+        ],
+        [
+          "Masanao",
+          "Toshimori"
+        ],
+        [
+          "Yasuhiko",
+          "Hirami"
+        ],
+        [
+          "Fumi",
+          "Gomi"
+        ],
+        [
+          "Yasuo",
+          "Kurimoto"
+        ],
+        [
+          "Akiko",
+          "Maeda"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "EYS is one of the major causative genes of autosomal recessive retinitis pigmentosa, particularly in Asian, and is expected to be a key target for future therapies. However, reliable biomarkers have not established. This KEYS study aimed to evaluate whether structural and functional parameters could serve as potential biomarkers of disease progression in EYS-associated retinitis pigmentosa (EYS-RP). We prospectively observed 49 patients with EYS-RP at Kobe Eye Hospital over a 2-year period. Visual field testing was performed using the Humphrey Field Analyzer 10- 2 (HFA 10-2). The mean total deviation (TD) was divided into central and surrounding regions for analysis, and the mean deviation (MD) was also evaluated. Horizontal and vertical EZ widths were measured by OCT. Over 2 years, our study showed that visual field progressed in surrounding and central and horizontal EZ width decreased. In subgroup analysis, a decline in horizontal EZ width and correlations between visual field parameters and EZ width were observed only in the higher MD based on the mean baseline HFA-MD value. HFA and horizontal EZ width parameters may serve as useful biomarkers of disease progression in EYS-RP, although their effectiveness varies by disease severity.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SAG"
     },
     {
       "pmid": "42045071",
@@ -16954,6 +19069,76 @@
       "subcollection": "Congenital cataracts"
     },
     {
+      "pmid": "42100846",
+      "doi": "10.1097/j.jcrs.0000000000001971",
+      "zotero_key": "EFSTBCBD",
+      "title": "Reply to ‘Comment on: Efficacy of Intracameral Moxifloxacin in Prevention of Post-cataract Surgery Endophthalmitis: A Randomized Control Trial’",
+      "authors": [
+        [
+          "N",
+          "Sharma"
+        ],
+        [
+          "Alok",
+          "Sen"
+        ],
+        [
+          "Mohita",
+          "Sharma"
+        ],
+        [
+          "Aafreen",
+          "Bari"
+        ],
+        [
+          "Chetan",
+          "Shakkarwal"
+        ],
+        [
+          "Prafulla K.",
+          "Maharana"
+        ],
+        [
+          "Tushar",
+          "Agarwal"
+        ],
+        [
+          "Tanuj",
+          "Dada"
+        ],
+        [
+          "Sandhya",
+          "Gaur"
+        ],
+        [
+          "Rajesh",
+          "Joshi"
+        ],
+        [
+          "Sandhya A.",
+          "Das"
+        ],
+        [
+          "Ashish Dutt",
+          "Upadhyay"
+        ],
+        [
+          "J S",
+          "Titiyal"
+        ]
+      ],
+      "journal": "Journal of Cataract & Refractive Surgery",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
+    },
+    {
       "pmid": "41969187",
       "doi": "10.1002/mdc3.70619",
       "zotero_key": "6WII6Z32",
@@ -17139,6 +19324,86 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42115998",
+      "doi": "10.1186/s12886-026-04853-2",
+      "zotero_key": "HB65M22U",
+      "title": "Retinal and choroidal changes in young adults during near work and eye closure measured by wide-field OCTA",
+      "authors": [
+        [
+          "Fangyuan",
+          "Zhou"
+        ],
+        [
+          "Tsering",
+          "Lhamo"
+        ],
+        [
+          "Yilin",
+          "Yuan"
+        ],
+        [
+          "Tianshu",
+          "Yang"
+        ],
+        [
+          "Feiyang",
+          "Tan"
+        ],
+        [
+          "Tian",
+          "Lin"
+        ],
+        [
+          "Dihao",
+          "Hua"
+        ],
+        [
+          "C Z",
+          "Chen"
+        ],
+        [
+          "Yi",
+          "Xu"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Myopia is a major global public health concern, and near work has been identified as a key risk factor for its onset and progression. This study aimed to evaluate short-term retinal and choroidal vascular and structural responses to near work and subsequent eye-closure rest in young adults. METHODS: Thirty medical students (aged 18-24 years) underwent wide-field swept-source OCTA at baseline, after 20, 40, and 60 min of near work, and after 10, 20, and 30 min of eye-closure rest. Vascular parameters of the nerve fiber layer vascular plexus (NFLVP), superficial vascular complex (SVC), deep vascular complex (DVC), choriocapillaris, and choroid were analyzed. RESULTS: During near work, NFLVP vessel density (VD) and vessel diameter index increased in the temporal 1-3 mm and 6-9 mm sectors; the 6-9 mm temporal sector remained elevated above baseline throughout rest (all p < 0.05). SVC VD, small vessel density, and vessel length density in the superior 3-6 mm sector fell below baseline during rest (all p < 0.05). Choroidal perfusion area, thickness, and stromal volume declined significantly relative to pre-rest values at 20 min of rest (all p < 0.05). CONCLUSIONS: NFLVP perfusion in the temporal 6-9 mm sector increased during near work and remained elevated above baseline throughout the rest period; SVC perfusion in the same sector likewise remained above baseline during rest, while SVC perfusion in the superior 3-6 mm sector fell below baseline. These alterations may provide important insights into the vascular regulatory mechanisms underlying myopia development.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
+    },
+    {
+      "pmid": "",
+      "doi": "10.14670/hh-13.1037",
+      "zotero_key": "BPBCF2QQ",
+      "title": "Retinal and lenticular ultrastructure in the aestivating salamanderfish, Lepidogalaxias salamandroides (Galaxiidae, Teleostei) with special reference to a new type of photoreceptor mosaic.",
+      "authors": [
+        [
+          "SP",
+          "Collin"
+        ],
+        [
+          "HB",
+          "Collin"
+        ]
+      ],
+      "journal": "Histology and histopathology",
+      "year": "1998",
+      "abstract": "",
+      "cited_by_count": 11,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "1 - Anatomy",
+      "subcollection": "Comparative Anatomy"
     },
     {
       "pmid": "",
@@ -17361,6 +19626,28 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "41996228",
+      "doi": "10.31348/2026/14",
+      "zotero_key": "E79H4WSG",
+      "title": "Retinitis Pigmentosa Sine Pigmento Masquerading as Normal-Tension Glaucoma. A Case Report",
+      "authors": [
+        [
+          "Zuzana Šulavíková",
+          "Anwarzai"
+        ]
+      ],
+      "journal": "Czech and Slovak Ophthalmology",
+      "year": "2026",
+      "abstract": "AIM: The aim of this publication is to highlight the diagnostic pitfalls in differentiating retinitis pigmentosa sine pigmento (RPSP) from normal-tension glaucoma (NTG). CASE REPORT: A 71-year-old patient was treated for 10 years with topical dual antiglaucoma therapy for NTG, which had been diagnosed based on optic disc pallor, a cup-to-disc ratio of 0.6, normal intraocular pressure, and visual field defects. During the course of subsequent monitoring, the patient developed progressive nyctalopia, concentric visual field constriction, and a marked decline in visual acuity from 1.0 to 0.1. Multimodal imaging, including fundus autofluorescence (FAF), optical coherence tomography (OCT), and perimetry, demonstrated photoreceptor degeneration that did not correlate with glaucomatous optic neuropathy. Genetic testing identified two heterozygous variants in the USH2A gene: one known pathogenic variant (c.11864G&gt;A) and one novel variant (c.12544A&gt;G). Based on these findings and the absence of typical bone spicule pigmentation on fundus examination, a diagnosis of RPSP was determined. CONCLUSION: This case underscores the risk of misdiagnosing RPSP as NTG due to overlapping clinical features, and emphasizes the necessity of comprehensive multimodal evaluation, including FAF, OCT, electroretinography, perimetry, and genetic testing, in order to ensure accurate diagnosis and appropriate management.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "USH2A"
     },
     {
       "pmid": "42011969",
@@ -17857,6 +20144,68 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42106847",
+      "doi": "10.1186/s12958-026-01562-9",
+      "zotero_key": "IZUDIR4P",
+      "title": "Serum trace and heavy metal exposure and IVF/ICSI outcomes: modifying effects of maternal diet in a prospective cohort",
+      "authors": [
+        [
+          "Yali",
+          "Huang"
+        ],
+        [
+          "Jing",
+          "Li"
+        ],
+        [
+          "S Q",
+          "Lin"
+        ],
+        [
+          "Nidong",
+          "Li"
+        ],
+        [
+          "Yingxin",
+          "Zhu"
+        ],
+        [
+          "Linlin",
+          "Wang"
+        ],
+        [
+          "Wei",
+          "Guo"
+        ],
+        [
+          "Lixue",
+          "Chen"
+        ],
+        [
+          "Rong",
+          "Li"
+        ],
+        [
+          "Jie",
+          "Qiao"
+        ],
+        [
+          "Ying",
+          "Wang"
+        ]
+      ],
+      "journal": "Reproductive Biology and Endocrinology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Environmental exposure to trace and heavy metals may influence female fertility, yet their impact on assisted reproductive outcomes remains poorly defined. Maternal diet can potentially modulate metal-related toxicity by influencing metabolic pathways and oxidative stress. OBJECTIVES: To evaluate the associations between ten serum metal concentrations and IVF/ICSI outcomes, and to investigate whether maternal dietary patterns modify these relationships. METHODS: This prospective cohort study included 396 women undergoing their first IVF/ICSI cycle. Serum levels of calcium (Ca), magnesium (Mg), selenium (Se), iron (Fe), strontium (Sr), nickel (Ni), lead (Pb), cadmium (Cd), tin (Sn), and molybdenum (Mo) were quantified on menstrual cycle days 2-4. Dietary patterns were derived via principal component analysis from a food frequency questionnaire. Multivariable models were adjusted for demographic factors and clinical indicators, including anti-Müllerian hormone (AMH), basal FSH, and total gonadotropin (Gn) dose. Multiple testing was controlled using the False Discovery Rate (FDR) procedure, and restricted cubic splines (RCS) evaluated non-linear threshold effects. RESULTS: After FDR adjustment, several robust associations remained. Higher serum Mg (adjusted OR = 1.10, 95% CI: 1.04-1.15) and Ca (OR = 1.14, 95% CI: 1.05-1.22) were significantly associated with an increased good embryo rate (P-fdr < 0.05). Conversely, higher Pb levels were robustly linked to a reduced good embryo rate (OR = 0.88, 95% CI: 0.82-0.95), and Se was inversely associated with the total oocyte yield (RR = 0.91, 95% CI: 0.86-0.96; P-fdr < 0.05). RCS analysis identified a significant non-linear threshold effect for Ca (Pnon-linear = 0.005), with benefits on embryo quality plateauing at 136.05 ng/mL. Maternal dietary patterns significantly modified these associations, though these interactions were primarily nominal (P < 0.05). Notably, high adherence to a caffeinated-beverage pattern exacerbated the adverse associations of certain metals with embryo quality, whereas balanced eating patterns appeared to buffer these risks. Among high caffeine consumers, higher Mg levels were associated with a five-fold increase in the odds of achieving a high good embryo rate (OR = 5.10, P interaction < 0.001). CONCLUSIONS: Circulating metals are independently associated with stage-specific IVF outcomes after accounting for ovarian reserve and treatment intensity. Habitual diet functions as a critical modifier of environmental reproductive risks. Preconceptional dietary optimization may improve individual resilience against metal-related developmental toxicity during assisted reproduction.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1097/icb.0000000000001831",
       "zotero_key": "WTRC2Q2J",
@@ -18318,6 +20667,40 @@
       "journal": "GigaScience",
       "year": "2026",
       "abstract": "Current tools for spatial omics analysis often face challenges in performing integrated transcriptomics and metabolomics analysis, in-depth biological interpretation, and user-friendly operation. To address this, we developed SMIntegration, the first web-based graphical platform designed specifically for integrated spatial metabolomics and transcriptomics analysis. Built with R/Shiny and deployed using Docker containerization, the platform provides a complete integration workflow, starting from pre-processed spatial features through to functional annotation. Its core functions include: (1) automated and interactive spatial registration; (2) cross-modal spatial pattern recognition; (3) flexible differential analysis of genes and mass features based on clustering results, user-defined regions, or cell type annotations; and (4) group-specific gene-metabolite network construction and interactive visualization. Using adjacent mouse brain coronal sections (Stereo-seq transcriptomics and AFADESI-MS metabolomics) as an example, SMIntegration successfully identified both the periaqueductal gray and subcommissural organ, which were missed by single-modality clustering. Cell type analysis revealed an association between astrocyte-enriched GABA metabolism and Slc6a11, while a comparison between the cornu ammonis region and the midbrain periaqueductal gray dissected glutamatergic and endogenous cannabinoid signaling pathway modules. With a zero-code interface, SMIntegration enables a wide range of researchers to deeply explore gene-metabolite interaction mechanisms within microenvironments during development, homeostasis, and disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42106825",
+      "doi": "10.1186/s12909-026-09397-z",
+      "zotero_key": "UZ36DCGK",
+      "title": "Social network analysis as a technology-enhanced assessment tool for collaborative skills in medical PBL",
+      "authors": [
+        [
+          "Ahmad Hathim Ahmad",
+          "Azman"
+        ],
+        [
+          "Nee",
+          "Tiong"
+        ],
+        [
+          "Mohammad Arif",
+          "Kamarudin"
+        ],
+        [
+          "Zamira Hasanah",
+          "Zamzuri"
+        ]
+      ],
+      "journal": "BMC Medical Education",
+      "year": "2026",
+      "abstract": "PURPOSE: Collaborative communication and teamwork are core competencies in medical education, yet they remain difficult to assess objectively during Problem-Based Learning (PBL). This study evaluates Social Network Analysis (SNA) as a technology-enhanced assessment tool to quantify peer collaboration patterns and identify learners' engagement profiles. We examined how PBL interaction networks differ across cohorts and whether SNA-derived indicators align with academic achievement. METHODS: A comparative SNA was conducted across 17 PBL groups (N = 176; Year 1: 77, Year 2: 99). Directed, weighted ties were constructed by integrating ranked peer nominations with a validated five-item collaboration rubric to generate hybrid edge weights. Cohort-level network properties (density, path length, transitivity, reciprocity, modularity) and node-level centrality measures (in-degree, closeness, betweenness) were computed as indicators of collaborative competence. Between-cohort differences were analysed using non-parametric tests, and alignment between centrality and cumulative grade point average (CGPA) was examined to provide preliminary validity evidence. RESULTS: Year 2 demonstrated a more cohesive and integrated collaboration structure, reflected by higher density (0.313 vs. 0.277), greater transitivity (0.532 vs. 0.443), and shorter average path lengths (1.72 vs. 2.06). At the individual level, Year 2 students showed significantly higher closeness ([Formula: see text]) and lower betweenness (p = .027), indicating more efficient communication pathways. Across both cohorts, higher in-degree (representing peer-recognized collaborative competence) showed the strongest alignment with CGPA, whereas other centrality measures demonstrated smaller, cohort-dependent effects. CONCLUSION: SNA provides quantifiable, competency-linked indicators of collaboration and communication in PBL, functioning as a novel technology-enhanced assessment tool. Patterns of social prominence and integration were meaningfully associated with academic achievement, suggesting that SNA may support early identification of highly engaged learners and those at risk of marginalization. These findings highlight the potential of SNA to complement existing assessment methods and enhance feedback within competency-based medical education. Further research using longitudinal and multilevel designs is warranted to strengthen the tool's validity and inform its integration into routine educational assessment.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -19559,6 +21942,56 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42097133",
+      "doi": "10.4269/ajtmh.26-0076",
+      "zotero_key": "JZUEZJ5G",
+      "title": "The Diverse Spectrum of Presumed Ocular Tuberculosis Including Optic Neuropathy in a Tuberculosis-Endemic Region: A Case Series from India",
+      "authors": [
+        [
+          "Anita",
+          "Ambasta"
+        ],
+        [
+          "Rakhi",
+          "Kusumesh"
+        ],
+        [
+          "Rajnee",
+          "Sinha"
+        ],
+        [
+          "Manish",
+          "Karn"
+        ],
+        [
+          "Rashmi",
+          "Kumari"
+        ],
+        [
+          "Gyan",
+          "Bhaskar"
+        ],
+        [
+          "Abhishek",
+          "Ranjan"
+        ],
+        [
+          "Varuni",
+          "Pragya"
+        ]
+      ],
+      "journal": "American Journal of Tropical Medicine and Hygiene",
+      "year": "2026",
+      "abstract": "Ocular tuberculosis (TB) presents with diverse clinical manifestations and remains a diagnostic and therapeutic challenge, particularly in TB-endemic regions. In addition, antitubercular therapy (ATT), especially ethambutol and linezolid, may contribute to treatment-related optic neuropathy and visual morbidity. This case series aimed to describe the clinical manifestations of presumed ocular TB and to assess the burden of ATT-induced optic neuropathy during the study duration. Diagnosis was based on clinical features, tuberculin skin test (Mantoux test) or interferon-gamma release assay (e.g., QuantiFERON-TB Gold), systemic evaluation, neuroimaging where indicated, and response to ATT. Anterior and posterior segment findings included: granulomatous uveitis (n = 2), panuveitis (n = 3), phlyctenular conjunctivitis (n = 1), serpiginous-like choroiditis (n = 3), multifocal choroiditis (n = 4), choroidal granuloma (n = 5), choroidal tubercle (n = 3), and Eales disease (n = 4). TB-associated optic neuropathy was observed in 13 patients secondary to intracranial TB. In 26 patients, ATT-induced optic neuropathy was observed. Retrobulbar optic neuritis was more frequently observed than papillitis in these cases. Favorable outcomes were observed in inflammatory ocular TB, whereas visual recovery was limited in patients with optic nerve involvement, particularly in those with intracranial disease. Treatment modification in cases of ATT-induced optic neuropathy was associated with partial visual recovery. To conclude, ocular TB demonstrates varied clinical manifestations, with significant risk of vision loss due to both disease and treatment-related toxicity. Early diagnosis, prompt initiation of ATT, and routine ophthalmic monitoring during therapy are essential to reduce visual morbidity in TB-endemic settings.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
+    },
+    {
       "pmid": "",
       "doi": "10.3389/fnins.2023.1258393",
       "zotero_key": "BSFRK4QD",
@@ -20369,68 +22802,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
-    },
-    {
-      "pmid": "42080306",
-      "doi": "10.1002/jpn3.70449",
-      "zotero_key": "ZQJJ9ISH",
-      "title": "The rumination severity index: Development and evaluation of a scoring tool for rumination syndrome",
-      "authors": [
-        [
-          "Janice S.",
-          "Khoo"
-        ],
-        [
-          "Dennis",
-          "Yang"
-        ],
-        [
-          "Peter L.",
-          "Lu"
-        ],
-        [
-          "Guy",
-          "Brock"
-        ],
-        [
-          "Rejuan",
-          "Haque"
-        ],
-        [
-          "Julia",
-          "Sabella"
-        ],
-        [
-          "Neetu B.",
-          "Puri"
-        ],
-        [
-          "Karla",
-          "Vaz"
-        ],
-        [
-          "Desale",
-          "Yacob"
-        ],
-        [
-          "Carlo Di",
-          "Lorenzo"
-        ],
-        [
-          "Ashley M. Kroon Van",
-          "Diest"
-        ]
-      ],
-      "journal": "Journal of Pediatric Gastroenterology and Nutrition",
-      "year": "2026",
-      "abstract": "OBJECTIVES: Rumination syndrome (RS) is increasingly recognized in pediatrics; however, no tool exists to measure RS severity in children. Thus, the rumination severity index (RumSI) was developed and validated to measure rumination severity in children. METHODS: We developed a seven-item patient-reported questionnaire, the RumSI, to evaluate RS symptoms and impact on functioning based on clinical experience of pediatric gastroenterologists and psychologists who specialize in caring for children with RS. Patients with RS evaluated at our institution or their parents/caregivers were asked to complete the RumSI and the Pediatric Quality of Life Inventory (PedsQL) as part of clinical care. An overall RumSI score was calculated and analyzed for correlation with PedsQL. Intrarater and test-retest reliability were assessed in a validation cohort. RESULTS: Among 105 children with RS, 66 completed RumSI and PedsQL questionnaires (71% female, median age of 15 years, interquartile range 13-17) for a 63% completion rate. RumSI scores ranged from 0 to 26.5 (mean 10.6 ± 7.2) out of a total possible 28, with higher scores indicating worse rumination symptoms. RumSI and PedsQL scores were significantly negatively correlated (r = -0.45, p < 0.001), with every 1-point increase in RumSI score associated with a 1.3-point decrease in PedsQL total score. Test-retest reliability was strong (intraclass correlation coefficient = 0.84). CONCLUSIONS: The newly developed RumSI is the first validated tool designed to measure RS severity in children. RumSI scores negatively correlate well with a widely used pediatric quality of life measure and demonstrate strong test-retest reliability, supporting its use in both clinical care and research.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "42003337",
@@ -21412,6 +23783,52 @@
     },
     {
       "pmid": "",
+      "doi": "10.14670/hh-18-029",
+      "zotero_key": "KF3XZ97J",
+      "title": "Ultrastructure and 3D transmission electron tomography of collagen fibrils and proteoglycans of swollen human corneal stroma.",
+      "authors": [
+        [
+          "S",
+          "Akhtar"
+        ],
+        [
+          "G",
+          "Petrovski"
+        ],
+        [
+          "R",
+          "Albert"
+        ],
+        [
+          "A",
+          "Alkanaan"
+        ],
+        [
+          "O",
+          "Kirat"
+        ],
+        [
+          "AD",
+          "Khan"
+        ],
+        [
+          "T",
+          "Almubrad"
+        ]
+      ],
+      "journal": "Histology and histopathology",
+      "year": "2019",
+      "abstract": "",
+      "cited_by_count": 5,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "1 - Anatomy",
+      "subcollection": "Outer coat"
+    },
+    {
+      "pmid": "",
       "doi": "10.1006/exer.1994.1022",
       "zotero_key": "DMFTDNQP",
       "title": "Ultrastructure and glycoconjugate histochemistry of the lens capsule during lens regeneration from the iris in the Newt.",
@@ -21875,6 +24292,72 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42117450",
+      "doi": "10.1080/03079457.2026.2673115",
+      "zotero_key": "MK9GBUEX",
+      "title": "Use of computer vision to automatically identify behaviors of healthy and disease-challenged male broiler chickens",
+      "authors": [
+        [
+          "Patricia",
+          "Soster"
+        ],
+        [
+          "Thorsten",
+          "Cardoen"
+        ],
+        [
+          "Camila Lopes",
+          "Carvalho"
+        ],
+        [
+          "Imad",
+          "Khan"
+        ],
+        [
+          "Rutger",
+          "Smets"
+        ],
+        [
+          "Frank",
+          "Tuyttens"
+        ],
+        [
+          "Maarten De",
+          "Gussem"
+        ],
+        [
+          "Isaura",
+          "Christiaens"
+        ],
+        [
+          "Brecht",
+          "Maertens"
+        ],
+        [
+          "Sam",
+          "Leroux"
+        ],
+        [
+          "Pieter",
+          "Simoens"
+        ],
+        [
+          "Gunther",
+          "Antonissen"
+        ]
+      ],
+      "journal": "Avian Pathology",
+      "year": "2026",
+      "abstract": "), day 21 (IBV), and day 24 (APEC). A total of 12 behaviors were quantified from 10-min video recordings collected every 2 h between 07:00 and 21:00 from days 14 to 41, divided into four periods: Period 1 (d14-20), Period 2 (d21-27), Period 3 (d28-34), and Period 4 (d35-41). Behavior was primarily driven by age. In control birds, locomotion and exploratory/foraging decreased progressively, while sleeping increased; inactivity remained stable. Time-of-day analysis revealed diurnal patterns with higher afternoon/evening activity and lower sleeping in these periods compared with morning. Relative to controls, Eimeria-infected birds showed variable drinking and sustained increased locomotion and exploratory behavior (periods 1-4), representing a non-classical response to intestinal challenge. IBV+APEC-challenged birds exhibited modest changes: decreased inactivity (period 2) and increased panting (period 4), with largely unchanged activity patterns. Disease challenge altered diurnal patterns, with disease-specific effects on circadian-dependent behaviors. These findings highlight the importance of age-specific baselines and the potential of time-of-day-dependent behavioral analyses and circadian markers for detecting disease-related deviations and enabling early disease detection through automated behavioral monitoring.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41767322",
       "doi": "10.18240/ijo.2026.03.03",
       "zotero_key": "2JM3HNNR",
@@ -21933,6 +24416,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42119707",
+      "doi": "10.3341/kjo.2026.0057",
+      "zotero_key": "V9WZF52D",
+      "title": "Vector Analysis of High-Astigmatism Correction in Small Incision Lenticule Extraction: A Comparative Study of VisuMax 500 and VisuMax 800",
+      "authors": [
+        [
+          "Bu Ki",
+          "Kim"
+        ],
+        [
+          "Young Taek",
+          "Chung"
+        ]
+      ],
+      "journal": "Korean Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "Purpose: Small incision lenticule extraction (SMILE) performed with the VisuMax 500 femtosecond laser has demonstrated excellent efficacy and safety for myopia correction; however, astigmatism correction tends to be undercorrected. The VisuMax 800 femtosecond laser was developed to address these limitations, integrating centration assistance, automated cyclotorsion adjustment, and increased laser speed. This study compared astigmatic correction outcomes between SMILE performed with the VisuMax 500 and VisuMax 800 in eyes with high astigmatism. Methods: This retrospective comparative study included 155 right eyes of 155 patients with preoperative astigmatism ≥ 3.0 diopters (D) who underwent SMILE at a single center between August 2023 and February 2025. Ninety-one eyes were treated with the VisuMax 500 and 64 eyes with the VisuMax 800, with identical surgical parameters in both groups except for the upgraded systems in the VisuMax 800. Vector analysis using the Alpins method was performed at 3 months postoperatively. Results: Residual astigmatism was significantly lower in the VisuMax 800 group (-0.52 ± 0.27 D) than in the VisuMax 500 group (-0.63 ± 0.33 D, P = 0.038). Vector analysis demonstrated superior outcomes in the VisuMax 800 group, including surgically induced astigmatism (3.59 ± 0.63 D vs. 3.31 ± 0.67 D, P = 0.010), correction index (0.96 ± 0.11 vs. 0.90 ± 0.12, P = 0.004), flattening effect (P = 0.008), and flattening index (P = 0.002), difference vector (P = 0.013), angle of error (P = 0.049), index of success (P = 0.006), and magnitude of error (P = 0.012). Conclusion: SMILE performed with the VisuMax 800 provided superior astigmatic correction compared with the VisuMax 500 in highly astigmatic eyes, with lower residual astigmatism and improved vector parameters. These results suggest that integrated centration guidance, automated cyclotorsion adjustment, and enhanced laser speed in the VisuMax 800 contribute to greater refractive accuracy.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "41763573",
@@ -22227,6 +24736,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42104376",
+      "doi": "10.1186/s13041-026-01309-y",
+      "zotero_key": "7X6PQBIV",
+      "title": "VPS13B maintains lysosomal homeostasis through regulation of TFEB",
+      "authors": [
+        [
+          "Soo-Kyeong",
+          "Lee"
+        ],
+        [
+          "S. Y.",
+          "Park"
+        ],
+        [
+          "Min-Young",
+          "Yeom"
+        ],
+        [
+          "Jin‐A",
+          "Lee"
+        ]
+      ],
+      "journal": "Molecular Brain",
+      "year": "2026",
+      "abstract": "Cohen syndrome (CS) is a rare autosomal recessive neurodevelopmental disorder characterized by intellectual disability, microcephaly, retinal dystrophy, and neutropenia. We previously demonstrated that VPS13B mediates phosphatidylinositol 4-phosphate (PI4P) transport to promote mitochondrial fission. Here, we identify VPS13B as a regulator of lysosomal homeostasis. VPS13B knockout (KO) HeLa cells exhibited aberrant lysosomal distribution and reduction in LAMP1-positive lysosomes. Bulk RNA sequencing revealed coordinated downregulation of lysosome-related genes, including genes required for acidification and lysosome biogenesis, which was confirmed by quantitative RT-PCR. Consistent with these transcriptional changes, VPS13B KO significantly reduced the abundance of LysoTracker-positive acidic compartments. Induced neurons derived from CS patient iPSCs recapitulated the loss of acidic lysosomal compartments, supporting disease relevance. Mechanistically, VPS13B KO altered TFEB mRNA levels and modestly increased the basal nuclear-to-cytoplasmic (N/C) ratio of endogenous TFEB, but blunted its further increase upon Torin1 treatment. Together, these findings identify VPS13B as a regulator of lysosomal homeostasis and provide insight into how VPS13B deficiency may contribute to Cohen syndrome pathology.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "IFT172"
     },
     {
       "pmid": "",
