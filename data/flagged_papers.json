@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-17T06:04:26Z",
+  "generated_at": "2026-05-24T06:15:26Z",
   "threshold_k": 0,
-  "total_evaluated": 20067,
-  "total_flagged": 621,
+  "total_evaluated": 20612,
+  "total_flagged": 661,
   "total_dismissed": 0,
   "total_unresolvable": 151,
   "hierarchy": {
@@ -106,6 +106,7 @@
       "CEP290",
       "CHD7",
       "CHST6",
+      "CLRN1",
       "COL2A1",
       "CRX",
       "CRYGS",
@@ -1797,6 +1798,48 @@
       "subcollection": "Retinitis pigmentosa"
     },
     {
+      "pmid": "42079169",
+      "doi": "10.64898/2026.04.22.720214",
+      "zotero_key": "QICIXVVV",
+      "title": "A pcyt-1 Allelic Series Reveals In Vivo Consequences of Reduced Phosphatidylcholine Synthesis in C. elegans",
+      "authors": [
+        [
+          "August",
+          "Qvist"
+        ],
+        [
+          "Delaney",
+          "Kaper"
+        ],
+        [
+          "Marcus",
+          "Henricsson"
+        ],
+        [
+          "Albin",
+          "Stjernman"
+        ],
+        [
+          "Jan",
+          "Borén"
+        ],
+        [
+          "Marc",
+          "Pilon"
+        ]
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "year": "2026",
+      "abstract": "ABSTRACT Phosphatidylcholine (PC) is the most abundant phospholipid in eukaryotic membranes and is synthesized in part via the rate-limiting enzyme PCYT1A. In humans, hypomorphic PCYT1A variants cause diverse disorders, including retinal dystrophy, lipodystrophy with fatty liver, and spondylometaphyseal dysplasia. To define how graded reductions in PC synthesis affect organismal physiology, we generated and characterized a series of mutant alleles in the Caenorhabditis elegans homolog pcyt-1 , including variants corresponding to disease-causing human mutations, as well as an auxin-inducible degradation (AID) allele. We identify a clear allelic hierarchy. The V146M variant is embryonic lethal, whereas A97T is largely benign. P154A is temperature-sensitive, and C211Y causes growth delay, reduced brood size, sterility, and lengthened lifespan at standard temperature. Phenotypes of C211Y are rescued by choline, CDP-choline, or phosphatidylcholine supplementation, supporting reduced enzymatic function. Lipidomic profiling reveals that decreased PC synthesis consistently increases long-chain polyunsaturated fatty acids (LCPUFAs) in both PCs and PEs at the expense of shorter saturated species, without markedly altering the PC/PE ratio at 20°C. At elevated temperature, the P154A variant exhibits protein instability and a decreased PC/PE ratio. Despite significant lipid remodeling, canonical ER, mitochondrial, and metabolic stress GFP-based reporters are not activated; only the oxidative stress response is elevated, consistent with increased peroxidation-prone LCPUFAs in the pcyt-1 mutant. Acute auxin-induced degradation of PCYT-1 in larvae causes developmental arrest, while acute PCYT-1 degradation in adults disrupts oogenesis, demonstrating a continuous requirement for PC synthesis. Together, these findings establish a functional pcyt-1 allelic series and show that limiting PC synthesis drives compensatory remodeling toward LCPUFA-enriched membranes while rendering the germline particularly vulnerable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
+    },
+    {
       "pmid": "41865098",
       "doi": "10.1007/s00467-026-07268-9",
       "zotero_key": "DTJNW2CX",
@@ -1953,6 +1996,32 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Vascularization and innervation"
+    },
+    {
+      "pmid": "42154406",
+      "doi": "10.1007/s44402-026-00107-2",
+      "zotero_key": "EN4JPUKZ",
+      "title": "A Survey of Hospital Optometrists Performing Ophthalmic Laser Procedures in the United Kingdom",
+      "authors": [
+        [
+          "David Grant",
+          "Robinson"
+        ],
+        [
+          "Deacon",
+          "Harle"
+        ]
+      ],
+      "journal": "Ophthalmic and Physiological Optics",
+      "year": "2026",
+      "abstract": "INTRODUCTION: In the United Kingdom (UK), the role of optometry has advanced beyond sight testing to the delivery of clinical and medical treatment of the eye. Over the past decade, optometrists have become increasingly involved in ophthalmic laser treatments. To better understand the scope, autonomy and training requirements of optometrists involved in laser provision, this study sought to survey optometrists performing laser treatment in the hospital eye service. METHODS: This study was a descriptive, cross-sectional survey of hospital optometrists conducting laser procedures in the UK. During a 6-week period from May to June 2025, an electronic survey was disseminated to all hospital optometrists who had opted to be included on a centralised UK database and via established professional communication channels. The survey was divided into two sections. The first section collected demographic data while the second section explored application and training. RESULTS: Seventy-five hospital optometrists responded to the survey. The typical amount of time per week (mean ± standard deviation) performing laser procedures was 5 h (±2). Over 90% reported they work independently and autonomously when performing laser procedures. The most commonly performed procedures were Nd:YAG capsulotomy, selective laser trabeculoplasty and peripheral laser iridotomy. Ninety per cent of respondents had undertaken internal training. A significant association was found between the number of years qualified and duration of performing laser procedures (Fisher's exact test, p  0.05). CONCLUSION: This study strongly suggests that hospital optometrists perform ophthalmic laser procedures autonomously across the UK. Activity predominantly relates to cataract and glaucoma care. Within these areas, hospital optometrists readily conduct laser procedures such as Nd:YAG capsulotomy and selective laser trabeculoplasty. The results of this study suggest that, presently, national clinical guidelines do not reflect this autonomy and should be amended accordingly.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "41714159",
@@ -3261,6 +3330,76 @@
       "subcollection": "Specialized functional testing"
     },
     {
+      "pmid": "42154424",
+      "doi": "10.1007/s10067-026-08159-y",
+      "zotero_key": "3VG7ASSD",
+      "title": "Assessment of disease burden in 225 patients with SAPHO syndrome: a comprehensive study of clinical features and quality of life",
+      "authors": [
+        [
+          "Wenyuan",
+          "Gan"
+        ],
+        [
+          "Zhaowei",
+          "Li"
+        ],
+        [
+          "Benhong",
+          "Ren"
+        ],
+        [
+          "Qingping",
+          "Zhang"
+        ],
+        [
+          "Juan",
+          "Ye"
+        ],
+        [
+          "Bin",
+          "Guo"
+        ],
+        [
+          "Ying",
+          "Zhang"
+        ],
+        [
+          "Wei",
+          "Liu"
+        ],
+        [
+          "Peng",
+          "Su"
+        ],
+        [
+          "Xionghua",
+          "Xing"
+        ],
+        [
+          "Xiaoli",
+          "Zhang"
+        ],
+        [
+          "Yi",
+          "Wang"
+        ],
+        [
+          "Juan",
+          "Su"
+        ]
+      ],
+      "journal": "Clinical Rheumatology",
+      "year": "2026",
+      "abstract": "PURPOSE: The primary objectives of this study were: (1) to describe the clinical characteristics and disease burden in a cohort of patients with SAPHO syndrome; (2) to evaluate the impact of SAPHO syndrome on quality of life using DLQI and HAQ; and (3) to identify independent risk factors associated with impaired quality of life. METHODS: We retrospectively analyzed clinical data from 225 SAPHO patients at two tertiary hospitals using Dermatology Life Quality Index (DLQI) and Health Assessment Questionnaire (HAQ) scores. Correlation and regression analyses identified factors influencing QoL and physical function. RESULTS: There was no significant correlation between bone pain location and total HAQ scores (P = 0.264); skin lesion types showed a significant correlation with DLQI scores (P = 0.039), and PPP was the main factor leading to impaired skin-specific quality of life.Patients were predominantly female (65.3%; mean onset age 35 ± 13 years). Palmoplantar pustulosis (92.9%) and sternoclavicular joint involvement (59.6%) were predominant. There is a statistically significant association between treatment type and DLQI score (P = 0.028), with a significant correlation with HAQ score (P = 0.05).Median DLQI was 17 (78.5% moderate-severe) and HAQ 0.12. Alcohol and education correlated with DLQI (P < 0.05), with education as an independent factor (P = 0.002). Duration and alcohol correlated with HAQ (P < 0.05), with alcohol as an independent factor (P = 0.036). CONCLUSION: SAPHO significantly impacts patients' quality of life, worsened by modifiable factors like alcohol and education; targeted interventions may improve prognosis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41418239",
       "doi": "10.47391/jpma.25-21343",
       "zotero_key": "73ES3ZQ9",
@@ -4123,6 +4262,60 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42143217",
+      "doi": "10.1186/s10194-026-02393-0",
+      "zotero_key": "JJGGD7KV",
+      "title": "Brain structural MRI changes before and after 6 months of preventive treatment with erenumab and onabotulinumtoxinA in migraine",
+      "authors": [
+        [
+          "Joana",
+          "Rosell‐Mirmi"
+        ],
+        [
+          "Edoardo",
+          "Caronna"
+        ],
+        [
+          "Victor J.",
+          "Gallardo"
+        ],
+        [
+          "Deborah",
+          "Pareto"
+        ],
+        [
+          "Alicia",
+          "Alpuente"
+        ],
+        [
+          "Marta",
+          "Torres-Ferrús"
+        ],
+        [
+          "Eulalia",
+          "GINE-CIPRES"
+        ],
+        [
+          "Àlex",
+          "Rovira"
+        ],
+        [
+          "Patricia",
+          "Pozo-Rosich"
+        ]
+      ],
+      "journal": "The Journal of Headache and Pain",
+      "year": "2026",
+      "abstract": "BACKGROUND: Structural neuroimaging findings in migraine remain heterogeneous, and the impact of preventive treatments such as erenumab and onabotulinumtoxinA (OnabotA) on brain plasticity is poorly understood. We aimed to comprehensively characterize brain morphology, including less explored regions such as the cerebellum and corpus callosum (CC), compare people with migraine with healthy controls (HC), identify baseline predictors of treatment response, and evaluate longitudinal structural trajectories following preventive therapy. METHODS: This prospective study included participants with migraine with ≥ 8 headache days/month eligible for erenumab or OnabotA, together with HC. T1-weighted MRI was acquired on 3T MRI scanners at baseline (M0) in all participants and repeated at 6 months (M6) in eligible participants with migraine. Regions of interest (ROIs) were segmented, and cortical thickness (CTh), cortical surface area (SA) and brain volume values were extracted using FastSurfer. Data were analysed using generalized linear mixed models (GLMM). Response was defined as a ≥ 50% reduction in monthly headache days at M6. RESULTS: We included 189 participants with migraine and 63 HC; 87.9% were female (222/252), and age was similar between groups (adjusted-p = 0.627). Compared with HC, individuals with migraine showed larger volumes in the mid-posterior (adjusted-p = 0.001) and central CC segments (adjusted-p = 0.030). 2) At baseline, non-responders (NR) showed higher CTh in the left parahippocampal gyrus than responders (R) (adjusted-p = 0.008). In addition, a significant response-by-treatment interaction was observed in the bilateral caudate volume: post-hoc contrast showed higher caudate volumes in OnabotA responders than in OnabotA NR (adjusted-p = 0.041 for both hemispheres), whereas no such difference was obsvered with erenumab. Longitudinally, several time-by-treatment interactions indicated different structural trajectories between treatments. In most of these regions, post-hoc contrasts showed lower M6 values in the erenumab group, including SA in the left fusiform, left pericalcarine, left rostral anterior cingulate, and right lingual regions, and volume in the bilateral cerebellar cortex, right hippocampus, and left amygdala. The left choroid plexus showed an opposite pattern, with increased volume in the erenumab group. Comparable longitudinal changes were not observed in the OnabotA group. CONCLUSION: Our results identify CC alterations and baseline parahippocampal and caudate morphometry as potential markers of migraine and treatment response. Erenumab and OnabotA showed different longitudinal structural trajectories, with more evident changes observed in the erenumab group in regions related to in pain, limbic, memory, and cerebellar processing. TRIAL REGISTRATION INFORMATION: EudraCT: 2019-002224-32, Date: 2019-11-12. ID: 2020-003650-77 available at REEC, Date: 2021-02-09. ID: 2020-002639-31 available at REEC, Date: 2020-10-23.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42082199",
       "doi": "10.1542/peds.2025-075813",
       "zotero_key": "6EW3JKXJ",
@@ -4181,6 +4374,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "IFT172"
+    },
+    {
+      "pmid": "42159447",
+      "doi": "10.1097/paf.0000000000001141",
+      "zotero_key": "QZQHXIBC",
+      "title": "Case Report",
+      "authors": [
+        [
+          "Ana M.",
+          "Chang"
+        ],
+        [
+          "Nicole K.",
+          "Johnson"
+        ]
+      ],
+      "journal": "American Journal of Forensic Medicine & Pathology",
+      "year": "2026",
+      "abstract": "Postmortem taphonomic scavenging is the consumption or modification of remains by fauna and can impede forensic investigations. While scavenging by carnivores and some herbivores has been documented, characterization of equine scavenging of human remains in forensic literature is limited. We present a case of suspected perimortem and postmortem scavenging by domesticated horses while acknowledging important limitations in definitively attributing the observed injuries to horses. A 69-year-old male was found deceased in a barn stall with 2 horses. External examination revealed distinct injuries, including partial loss of distal phalanges, alongside arch-shaped abrasions on the extremities. The decedent has a history of hand-feeding his horse, and the injury patterns were consistent with equine nibbling and nipping behavior. The death was determined to be natural. Although no direct observation of feeding activity was documented, scene context and forensic evaluation did not support alternative causes for the injuries. This case aims to contribute to the limited literature on equine-related scavenging and to improve recognition of potentially misleading postmortem artifacts in medico-legal investigations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41906871",
@@ -4371,6 +4590,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42152096",
+      "doi": "10.1186/s12969-026-01217-4",
+      "zotero_key": "53S8AAVX",
+      "title": "Characteristics of JIA-associated uveitis at the age of transition",
+      "authors": [
+        [
+          "RAYMOND",
+          "Anna"
+        ],
+        [
+          "A.",
+          "Combier"
+        ],
+        [
+          "S.",
+          "Hecquet"
+        ],
+        [
+          "D.",
+          "Monnet"
+        ],
+        [
+          "F.",
+          "El-Fakih"
+        ],
+        [
+          "J.",
+          "Wipff"
+        ],
+        [
+          "G.",
+          "Touanga"
+        ],
+        [
+          "P.",
+          "Quartier"
+        ],
+        [
+          "Allanore",
+          "Yannick"
+        ],
+        [
+          "Thomas",
+          "Marion"
+        ]
+      ],
+      "journal": "Pediatric Rheumatology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Juvenile idiopathic arthritis (JIA) is the most common rheumatic disease in children. Uveitis is the most frequent extra-articular manifestation of JIA and a major cause of visual morbidity. Despite advances in immunomodulatory therapy, many patients reach adulthood with active ocular inflammation or vision-threatening complications. The transition from pediatric to adult care represents a vulnerable period. The primary objective of our study is to describe ophthalmologic and rheumatologic disease characteristics at the time of transition from pediatric to adult care. METHODS: We conducted a retrospective cohort study of patients with JIA and past or present uveitis who transitioned to adult rheumatology at Cochin Hospital between 2016 and 2024. Clinical, ophthalmologic, and therapeutic data were collected from electronic medical records. Descriptive statistics were performed. Comparative analyses were exploratory and intended to describe differences between subgroups rather than to test predefined hypotheses. RESULTS: A total of 46 patients were included. Median age at JIA diagnosis was 7.5 years [IQR 2.0-16.0] and median age at first uveitis was 6.0 years [IQR 3.0-12.2]. Median follow-up after transition was 2.44 years [IQR 1.17-3.94]. Most patients were female (80%, n = 37) and had oligoarticular JIA (59%, n = 27). Chronic uveitis predominated (83%, n = 38). Ocular complications occurred in 46% (n = 17), including cataract (24%, n = 11), glaucoma (20%, n = 9), and keratitis (7%, n = 3). Over half (57%, n = 13/23) experienced ≥ 5 flares since diagnosis. Biologic DMARDs were prescribed in 53% (n = 23/43), predominantly anti-TNF agents. CONCLUSION: This study highlights the substantial burden of JIA-associated uveitis at the time of transition to adult care, characterized by frequent complications, persistent disease activity, and a high need for biologic therapy. Our findings emphasize the necessity of structured and continuous ophthalmologic follow-up across all JIA subtypes, alongside close multidisciplinary collaboration, to prevent long-term ocular damage and preserve visual function.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "",
@@ -5077,6 +5354,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPF3"
+    },
+    {
+      "pmid": "42151845",
+      "doi": "10.1186/s12886-026-04925-3",
+      "zotero_key": "7HAZ6PQU",
+      "title": "Clinical real-world data evaluation: comparison of central macular thickness after anti-VEGF treatment in diabetic macular edema patients treated with or without topical anti-glaucoma agents",
+      "authors": [
+        [
+          "Hakan",
+          "Baybora"
+        ],
+        [
+          "Ece",
+          "Özal"
+        ],
+        [
+          "Sadık Altan",
+          "Özal"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "There are research findings suggesting that antiglaucoma agents may reduce aqueous humor outflow and decrease the elimination of intravitreally administered anti-vascular endothelial growth factor agents, prolonging their effect. The aim of this study was to evaluate central macular thickness (CMT) after repeated injections, using real-world data, to provide insight into how this phenomenon may affect clinical outcomes. One hundred forty-seven patients with diabetic macular edema (DME) were included in the study;66 patients received topical therapy due to pre-existing glaucoma, either primary open- angle or pseudoexfoliative glaucoma, and 81 patients without glaucoma. CMT values were evaluated before treatment, 1 month after the first three injections, 1 month after the subsequent four injections, and at the end of the first year. No significant differences were detected with respect to HbA1c levels, the presence of SRF, or prior photocoagulation (p = 0.085, p = 0.24, and p = 0.3, respectively). There was no difference between anti-glaucoma agent users and control group in CMT measurements 1 month after the first three injections (p = 0.6, p > 0.05). However, measurements taken 1 month after the subsequent four injections were significantly lower in patients using topical anti-glaucoma agents (p = 0.001, p  0.05). The presence of hyper reflective dots (HRD) was also greater in this group (p = 0.021, p  0.05). The presence of HRD and the combined presence of SRF and HRD had a significant effect on the changes in the measurements (F (4.412), p = 0.006, Eta2 = 0.103 and F (4.51), p = 0.001, Eta2 = 0.106, respectively). Although the use of topical anti-glaucoma therapy may have a partial effect on reduction of CMT in DME patients receiving anti-vascular endothelial growth factor (anti-VEGF) treatment.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "42017341",
@@ -6475,6 +6782,68 @@
       "subcollection": "Peters Plus syndrome"
     },
     {
+      "pmid": "42140622",
+      "doi": "10.1093/genetics/iyag121",
+      "zotero_key": "ACFI8BPP",
+      "title": "CRISPR screening identifies TRIM27 as a destabilizer of the Smith–Magenis syndrome protein RAI1",
+      "authors": [
+        [
+          "Yu Cheng",
+          "Lin"
+        ],
+        [
+          "Yu‐Ju",
+          "Lee"
+        ],
+        [
+          "Catherine Xinrui",
+          "Li"
+        ],
+        [
+          "Hao‐Cheng",
+          "Chang"
+        ],
+        [
+          "Max",
+          "Kowalczyk"
+        ],
+        [
+          "Minza",
+          "Haque"
+        ],
+        [
+          "Adrian",
+          "Dragoiescu"
+        ],
+        [
+          "Truc T.",
+          "Losier"
+        ],
+        [
+          "James A.",
+          "Taylor"
+        ],
+        [
+          "Maxime W C",
+          "Rousseaux"
+        ],
+        [
+          "Wei‐Hsiang",
+          "Huang"
+        ]
+      ],
+      "journal": "Genetics",
+      "year": "2026",
+      "abstract": "The nervous system is highly sensitive to alterations in the dosage of genes crucial for neurodevelopment, as exemplified by retinoic acid-induced 1 (RAI1). A 50% change in RAI1 gene copy number, resulting in either reduced or increased protein levels, leads to distinct neurodevelopmental disorders. RAI1 haploinsufficiency causes Smith-Magenis syndrome (SMS), whereas RAI1 duplication underlies Potocki-Lupski syndrome (PTLS). We recently demonstrated that restoring Rai1 levels can improve SMS-related disease phenotypes in mice. However, despite protein stability being a major determinant of protein abundance, there are currently no therapeutic approaches to modulate RAI1 protein stability. Here, we performed a forward CRISPR screen in human cells to identify post-translational regulators of RAI1 steady-state levels and identified tripartite motif containing 27 (TRIM27) as a destabilizer of RAI1. We show that RAI1 degradation occurs primarily through the ubiquitin proteasome system, with TRIM27 interacting with RAI1 and enabling TRIM27-dependent lysine(K)48- and K63-linked RAI1 ubiquitination. Finally, in SMS mouse primary neurons, we demonstrate that knocking down TRIM27 partially rescues SMS-associated morphological phenotypes. Our findings provide the first mechanistic insight into RAI1 proteostasis and highlight TRIM27 as a potential therapeutic target for SMS, highlighting the potential of manipulating ubiquitin-mediated proteostasis to restore gene dosage altered by copy number variations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42031878",
       "doi": "10.1038/s41598-026-49663-0",
       "zotero_key": "ZAPPM5FZ",
@@ -6649,6 +7018,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42159773",
+      "doi": "10.1007/s00384-026-05151-5",
+      "zotero_key": "KG8S4FSC",
+      "title": "Defining proficiency in THD-Anolift: a CUSUM analysis of the learning curve in 51 consecutive cases",
+      "authors": [
+        [
+          "Andrea Cesare",
+          "Galli"
+        ],
+        [
+          "Gianlorenzo",
+          "Dionigi"
+        ],
+        [
+          "Sara",
+          "Lauricella"
+        ],
+        [
+          "Sergio",
+          "Agradi"
+        ],
+        [
+          "Richard",
+          "Sassun"
+        ],
+        [
+          "Angelo Emanuele",
+          "Leone"
+        ],
+        [
+          "Roberto",
+          "Cirocchi"
+        ],
+        [
+          "Francesco",
+          "Brucchi"
+        ]
+      ],
+      "journal": "International Journal of Colorectal Disease",
+      "year": "2026",
+      "abstract": "BACKGROUND: Transanal hemorrhoidal dearterialization (THD) with Anolift mucopexy is a validated non-excisional procedure for hemorrhoidal disease. Although surgeon experience is acknowledged as a determinant of THD outcomes, no formal learning curve analysis exists. This study aimed to characterize the learning curve of a single surgeon adopting THD-Anolift. METHODS: Retrospective analysis of 60 consecutive THD-Anolift cases (May 2023-February 2026). Nine patients with incomplete outcome data were excluded, leaving 51 for analysis. Median follow-up was 12 months (range 3-33). Cumulative sum (CUSUM) charts were constructed for a composite failure endpoint (recurrence and/or any complication) and for operative time. The proficiency point was identified at the CUSUM inflection. Sensitivity analyses included CUSUM on recurrence alone, CUSUM restricted to recurrence and Clavien-Dindo ≥ II complications, best-case/worst-case imputation for excluded patients, and risk-adjusted CUSUM controlling for hemorrhoid grade and previous procedures. RESULTS: Median age was 53 years; 72.5% were male; 80.4% had grade III hemorrhoids. The overall composite failure rate was 37.3% (19/51) and the recurrence rate 15.7% (8/51). Mean operative time was 23.5 ± 7.4 min. The composite outcome CUSUM identified a proficiency point at case 23: the failure rate decreased from 52.2% in Phase 1 (cases 1-23) to 25.0% in Phase 2 (cases 24-51; p = 0.080, not statistically significant at the conventional threshold). Operative time decreased from 27.1 ± 7.4 to 20.4 ± 6.0 min (p < 0.001). On sensitivity analysis, both the recurrence-only CUSUM and the risk-adjusted CUSUM confirmed an identical proficiency point at case 23, and worst-case/best-case imputation for excluded patients moved the inflection only to cases 25 and 22 respectively, indicating that the finding was robust to endpoint definition and case-mix variation, as well as to plausible patterns of missing data. CONCLUSIONS: CUSUM analysis identified an inflection at approximately 23 cases, with a statistically significant reduction in operative time and a clinically relevant but underpowered reduction in composite failure that did not reach the conventional threshold for statistical significance. Rather than a fixed competency threshold, these findings provide an initial benchmark to help structure supervised adoption-suggesting that the 10 mentored cases conventionally proposed in industry-sponsored teaching may be insufficient- and to inform future multicenter validation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41773460",
@@ -7551,56 +7970,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "42127523",
-      "doi": "10.1016/j.jclinane.2026.112234",
-      "zotero_key": "UAX3SPZA",
-      "title": "Dynamic assessment of gastric emptying patterns after endoscopic bowel preparation using ultrasonography: A prospective observational study",
-      "authors": [
-        [
-          "Jie",
-          "Tong"
-        ],
-        [
-          "H D",
-          "Chen"
-        ],
-        [
-          "Zhiyao",
-          "Wang"
-        ],
-        [
-          "Guoli",
-          "Wang"
-        ],
-        [
-          "Yi",
-          "Zhang"
-        ],
-        [
-          "Ming",
-          "Ding"
-        ],
-        [
-          "Chao",
-          "Liang"
-        ],
-        [
-          "Changhong",
-          "Miao"
-        ]
-      ],
-      "journal": "Journal of Clinical Anesthesia",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "41736501",
       "doi": "",
       "zotero_key": "WC3G7ZUS",
@@ -7995,6 +8364,76 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42156997",
+      "doi": "10.1038/s41746-026-02772-6",
+      "zotero_key": "NSRDPV2I",
+      "title": "Economic evaluation of telemedicine-based integrated management of atrial fibrillation in rural China: a modeling analysis",
+      "authors": [
+        [
+          "Wen",
+          "Liu"
+        ],
+        [
+          "Mingfang",
+          "Li"
+        ],
+        [
+          "Yuxuan",
+          "Cai"
+        ],
+        [
+          "Ming",
+          "Chu"
+        ],
+        [
+          "Shimeng",
+          "Zhang"
+        ],
+        [
+          "Gang",
+          "Yang"
+        ],
+        [
+          "Zhihang",
+          "Peng"
+        ],
+        [
+          "Gregory Y. H.",
+          "Lip"
+        ],
+        [
+          "Minglong",
+          "Chen"
+        ],
+        [
+          "On behalf of the MIRACLE-AF",
+          "Investigators"
+        ],
+        [
+          "Yutao",
+          "Guo"
+        ],
+        [
+          "Xinfeng",
+          "Liu"
+        ],
+        [
+          "Shanshan",
+          "Lu"
+        ]
+      ],
+      "journal": "npj Digital Medicine",
+      "year": "2026",
+      "abstract": "Atrial fibrillation (AF) imposes a substantial disease and economic burden worldwide, particularly in rural areas with limited access to integrated care. The MIRACLE-AF trial demonstrated significant reductions in cardiovascular mortality, stroke, and heart failure or acute coronary syndrome hospitalizations with telemedicine-based, village doctor-led integrated management versus usual care. We conducted an economic evaluation of this management among patients aged ≥65 years in rural China. A Markov model was developed from the healthcare provider perspective to simulate a hypothetical cohort over a 15-year horizon. Outcomes included incremental cost-effectiveness ratios (ICERs) per cardiovascular death avoided and per stroke avoided, and incremental cost-utility ratios (ICURs) per quality-adjusted life-year (QALY) gained. Costs were expressed in 2024 US dollars ($1 = 7.1975 CNY), with a willingness-to-pay threshold of $35,718 (three times rural China's per-capita GDP in 2024). Compared with usual care, telemedicine-based integrated yielded ICERs of $60,692 per cardiovascular mortality and $4,880 per stroke avoided, and a favorable ICUR of $4,554 per QALY gained. Probabilistic sensitivity analysis indicated cost-effective in 97.60% of simulations, with results most sensitive to the number of patients managed per village doctor. These findings support telemedicine-based, village doctor-led integrated AF management as a potential cost-effective strategy in resource-limited rural settings.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42126173",
@@ -8523,6 +8962,68 @@
       "subcollection": "Accommodation"
     },
     {
+      "pmid": "42052834",
+      "doi": "10.31083/fbl49862",
+      "zotero_key": "M6X2DIMP",
+      "title": "Emodin Alleviates Lipid Accumulation and Renal Tubular Injury in Rats With DN via Inhibiting HIF-1α Expression",
+      "authors": [
+        [
+          "Y",
+          "Wang"
+        ],
+        [
+          "Xue",
+          "Deng"
+        ],
+        [
+          "Qian-Wen",
+          "Zhu"
+        ],
+        [
+          "J Y",
+          "Zhang"
+        ],
+        [
+          "Qian",
+          "Zhi-wei"
+        ],
+        [
+          "Fang",
+          "Gao"
+        ],
+        [
+          "Shu-Qin",
+          "Zhan"
+        ],
+        [
+          "Chao",
+          "Wu"
+        ],
+        [
+          "Lin",
+          "Wang"
+        ],
+        [
+          "Shu",
+          "Li"
+        ],
+        [
+          "Zebo",
+          "Hu"
+        ]
+      ],
+      "journal": "Frontiers in Bioscience-Landmark",
+      "year": "2026",
+      "abstract": "Background: Our previous study verified that lipid nephrotoxicity mediated by hypoxia-inducible factor-1 alpha (HIF-1α) activation aggravates diabetic tubular injury. This study investigated whether emodin, an inhibitor of HIF-1α, improves tubular injury by reducing lipid accumulation in diabetic tubules, and examined its underlying mechanism. Methods: Type 1 diabetic rats were administered 40 mg/kg emodin by gavage daily. For the in vitro study, HK-2 cells were pretreated with emodin for 6 h and then stimulated with HIF-1α activator cobalt chloride (CoCl2). Results: In vivo, emodin significantly downregulated HIF-1α protein expression in the kidneys of rats with diabetes. Emodin treatment substantially attenuated tubular pathological damage and reduced 24-h urinary total protein levels and the urinary albumin-to-creatinine ratio in rats with diabetes, accompanied by decreased expression of transforming growth factor-beta 1 (TGF-β1) and connective tissue growth factor (CTGF). Meanwhile, lipid accumulation and mitochondrial dysfunction in diabetic kidneys markedly improved after emodin treatment. Similarly, in vitro, emodin effectively reduced HIF-1α protein expression in CoCl2-treated HK-2 cells. Moreover, emodin ameliorated lipid accumulation, cellular injury, and mitochondrial homeostasis imbalance in these cells. Conclusion: These data demonstrate that emodin prevents lipid accumulation and cellular injury in diabetic tubular epithelial cells, possibly by inhibiting HIF-1α activation and exerting a protective effect on mitochondria.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TGFBI"
+    },
+    {
       "pmid": "42050857",
       "doi": "10.1002/brb3.71441",
       "zotero_key": "VVS7DSQ2",
@@ -8586,6 +9087,52 @@
       "centrality": 0,
       "source_tags": [
         "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42153529",
+      "doi": "10.1177/1358863x261432123",
+      "zotero_key": "DSZQM2CP",
+      "title": "Endovenous treatment via profunda femoral vein approach for iliofemoral venous obstruction with inadequate femoral vein inflow",
+      "authors": [
+        [
+          "Bo",
+          "Wu"
+        ],
+        [
+          "Haoyuan",
+          "Wang"
+        ],
+        [
+          "Yujia",
+          "Li"
+        ],
+        [
+          "Fuwen",
+          "Chen"
+        ],
+        [
+          "Jianming",
+          "Sun"
+        ],
+        [
+          "Haiyang",
+          "Wang"
+        ],
+        [
+          "Youhong",
+          "Liu"
+        ]
+      ],
+      "journal": "Vascular Medicine",
+      "year": "2026",
+      "abstract": "Introduction: This study aimed to evaluate the clinical efficacy of endovenous treatment (ET) via the profunda femoral vein (PFV) approach for iliofemoral venous obstruction with inadequate femoral vein (FV) inflow in patients with severe postthrombotic syndrome (PTS). Methods: A retrospective analysis included 32 patients who underwent this procedure between January 2021 and January 2023. Clinical symptoms were evaluated using the Villalta score and Venous Clinical Severity Score (VCSS) at baseline, 1 year, and 2 years. Patency rates were determined by duplex ultrasonography. Univariate logistic regression analysis was used to identify risk factors for in-stent restenosis (ISR). Results: The mean age of the patients was 65.5 ± 8.9 years, and 56.3% were men. Among 32 patients, technical success was achieved in all cases (100%). Postoperative in-stent thrombosis occurred in 18.8% (6/32) of patients. Kaplan–Meier analysis revealed primary patency rates of 100% ± 0%, 96.9% ± 3.1%, 93.8% ± 4.2%, 87.5% ± 5.9%, and 65.6% ± 8.4% at 1, 3, 6, 12, and 24 months, respectively. ISR developed in 11 patients, all of whom underwent reintervention, yielding a secondary patency rate of 87.5% ± 5.9% at 2 years. Baseline Villalta scores (17.4 ± 5.5) and VCSS (13.2 ± 2.5) significantly decreased to 6.5 ± 3.0 and 5.1 ± 1.8 at 2 years postoperatively (both p &lt; 0.05). Anticoagulation noncompliance and history of iliofemoral deep vein thrombosis (DVT) were independent predictors of ISR. Conclusion: ET via the PFV approach is a safe and effective option for iliofemoral venous obstruction with inadequate FV inflow in severe PTS, providing favorable patency rates and significant symptom relief. Anticoagulation noncompliance and history of iliofemoral DVT are key factors for ISR.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
@@ -9206,6 +9753,36 @@
       "journal": "International Journal of Dermatology",
       "year": "2026",
       "abstract": "BACKGROUND: The role of androgens in female pattern hair loss (FPHL) is disputed as patients usually have normal androgen levels. 3α-androstanediol glucuronide (3α-diol G) is a marker of peripheral hyperandrogenism, but has not been assessed in FPHL. We aimed to evaluate ovarian, adrenal, and peripheral (3α-diol G) androgens in Indian women with FPHL and correlate them with the clinical severity of FPHL. METHODS: A cross-sectional observational study was conducted at a tertiary care hospital in India, involving 44 women with trichoscopically confirmed FPHL and 30 age-matched healthy controls. Clinical severity was graded using the Ludwig and Sinclair scales. Serum total testosterone (tT), SHBG, free androgen index, AMH, DHEAS, LH, FSH, TSH, prolactin, and 3α-diol G were measured. RESULTS: FPHL patients presented with Ludwig grade 1 (70%, n = 31) and Ludwig grade 2 (29.5%, n = 13). Serum 3α-diol G levels were significantly higher in FPHL (mean: 8.43 ± 4.44 nmol/L, range: 3.2-20.74 nmol/L) compared to controls (mean: 4.23 ± 1.39 nmol/L, range: 1.81-7.29 nmol/L; p < 0.001). Levels of other androgens and pre-androgens were not significantly different between the groups. Abnormal tT levels (6.8%, n = 3) and DHEAS (4.5%, n = 2) were seen in a minority of cases. There was a positive correlation of 3α-diol G with FPHL severity (Ludwig scale, Spearman's ρ = 0.37, p = 0.013), with receiver operating characteristics (ROC) analysis revealing a high diagnostic accuracy (AUROC 0.85; cut-off ≥ 5.242 nmol/L; 82% sensitivity, 73% specificity) as compared to other hormonal parameters. CONCLUSION: Serum 3α-diol G is a promising biomarker of peripheral hyperandrogenism in FPHL and correlates with clinical severity and may help in monitoring antiandrogen therapy.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42149483",
+      "doi": "10.1037/com0000448",
+      "zotero_key": "EIFTQEDR",
+      "title": "Evidence of the conjunction fallacy in Rats (Rattus norvegicus) following two-lever choice training.",
+      "authors": [
+        [
+          "Kayley M.",
+          "Ozimac"
+        ],
+        [
+          "Valeria V.",
+          "González"
+        ],
+        [
+          "Aaron P.",
+          "Blaisdell"
+        ]
+      ],
+      "journal": "Journal of comparative psychology",
+      "year": "2026",
+      "abstract": "The conjunction fallacy, a well-known cognitive bias, occurs when individuals erroneously judge the conjunction of 2 events as more probable than either event occurring independently (Tversky & Kahneman, 1983). Although this fallacy has been extensively studied in humans, recent research from our lab shows that nonhuman animals, such as rats, also demonstrate this bias (González, Sadeghi, et al., 2023). In González et al.'s study, rats were trained in a feature-positive/feature-negative go/no-go discrimination (A-/AX+; B+/BY-, where A and B were auditory cues and X and Y were visual cues, and + and-indicate that lever pressing was reinforced or not). At test, cues A and B were presented on probe trials with cues X and Y either unoccluded and off or occluded by a metal shield. Responding was low to A and high to B when the light was visible (and off). When the light was occluded, however, this pattern reversed, with high responding to A and low responding to B. This indicated a bias toward expecting the occluded light to be present rather than absent, consistent with a conjunction fallacy. In a go/no-go procedure, however, some trial types are rewarded, whereas others are unrewarded. This reward asymmetry may bias attention to the different cue conditions. Thus, the current study replicated this conjunction bias using a 2-alternative choice procedure where reinforcement was available on all trial types, removing this potential bias. Our demonstration of a strong conjunction fallacy replicated our prior results, setting the stage for parallel studies in rats and humans. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -11027,6 +11604,48 @@
       "subcollection": "Foveal hypoplasia"
     },
     {
+      "pmid": "42074148",
+      "doi": "10.3390/ijms27083506",
+      "zotero_key": "PWCES7VI",
+      "title": "Genetic Risk Factors and Clinical Implications of Glaucoma in the Saudi Population: A Review",
+      "authors": [
+        [
+          "Abdullah Faisal",
+          "Alotaibi"
+        ],
+        [
+          "Lojain Mohammed A.",
+          "Maawadh"
+        ],
+        [
+          "Mohammed Naji Obaid",
+          "Almutairi"
+        ],
+        [
+          "Syed",
+          "Hameed"
+        ],
+        [
+          "Rizwan",
+          "Malik"
+        ],
+        [
+          "Khaled K.",
+          "Abu‐Amero"
+        ]
+      ],
+      "journal": "International Journal of Molecular Sciences",
+      "year": "2026",
+      "abstract": "Most glaucoma genetic data derive from European and East Asian cohorts, leaving high-consanguinity Middle Eastern populations under-characterized. This review synthesizes 33 Saudi-specific genetic studies (2014–2024, &gt;9000 participants) to define a population-level glaucoma genetic architecture that diverges substantially from global models and carries direct precision medicine implications. Three findings distinguish the Saudi landscape. First, CYP1B1 functions as the dominant causal gene across both primary congenital glaucoma (PCG) and juvenile-onset open-angle glaucoma (JOAG), accounting for 76–86% of cases, with two founder alleles, p.G61E (penetrance 87.7%) and p.R469W (penetrance 93%), driving severe, early-onset phenotypes. Critically, MYOC and LTBP2, the primary JOAG genes in other populations, carry no pathogenic variants in Saudi cohorts, rendering standard multi-ethnic gene panels inadequate for this population. Second, adult-onset glaucoma follows a distinct polygenic architecture where APOE ε2 confers a near five-fold risk for primary angle-closure glaucoma (OR = 4.82), an effect absent or inconsistent in global datasets, and NOS3 variants associate with primary open-angle glaucoma specifically in men, a sex-stratified signal unreported outside Saudi cohorts. The MTHFR T/T genotype, common in European and Asian POAG patients, is entirely absent locally, indicating population-specific allelic distributions that alter folate-metabolism-related optic nerve susceptibility. Third, ACVR1 rs12997 associates across POAG, PACG, and pseudoexfoliation glaucoma (PXG), positioning BMP/TGF-β signaling as a shared mechanistic pathway spanning multiple subtypes. These findings argue for Saudi-specific genetic panels, CYP1B1-centered cascade testing in consanguineous families, and polygenic risk models incorporating local allele frequencies rather than globally derived weights.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MYOC"
+    },
+    {
       "pmid": "42057589",
       "doi": "10.1002/mbo3.70304",
       "zotero_key": "A9VG5J7W",
@@ -11835,6 +12454,48 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42146598",
+      "doi": "10.64898/2026.05.01.722314",
+      "zotero_key": "X4R3GSGU",
+      "title": "Hydrocephalus caused by Katnip deletion is linked to increased ciliogenesis and reduced proliferation of neuroprogenitor cells",
+      "authors": [
+        [
+          "Ana",
+          "Limerick"
+        ],
+        [
+          "Cheuk Ying",
+          "Chu"
+        ],
+        [
+          "Jacob S.",
+          "Turner"
+        ],
+        [
+          "David L",
+          "Brautigan"
+        ],
+        [
+          "Wenhao",
+          "Xu"
+        ],
+        [
+          "Zheng",
+          "Fu"
+        ]
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "year": "2026",
+      "abstract": "Abstract Background KATNIP (Katanin-interacting protein), also known as KIAA0556 , is one of the human genes with pathogenic variants linked to Joubert syndrome, an archetypal neurodevelopmental ciliopathy. KATNIP is a scaffolding protein with a critical role in ciliogenesis. In this study, we characterized the ciliopathy phenotypes due to KATNIP gene deletion. Results We produced a Katnip null mouse model using CRISPR-Cas12a (Cpf1). The null heterozygotes appeared normal while the homozygotes died around postnatal day 9, showing severe hydrocephalus and deficiency in neuroprogenitor cell proliferation. Katnip-deficient cells in the brain have a higher rate of cilia formation and longer cilia than wild type cells. Conclusion KATNIP loss of function gives rise to hydrocephalus found in Joubert syndrome. The results indicate that KATNIP restricts ciliogenesis and cilia extension and supports proliferation of neuroprogenitor cells in the brain.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
+    },
+    {
       "pmid": "42101632",
       "doi": "10.1007/s00210-026-05399-2",
       "zotero_key": "VMKJ9UF5",
@@ -12341,6 +13002,32 @@
       "subcollection": "Retinal dystrophies"
     },
     {
+      "pmid": "42149492",
+      "doi": "10.1037/xhp0001430",
+      "zotero_key": "5UJNQP2C",
+      "title": "In search of precue benefits: Are people unmotivated to heighten control on demand?",
+      "authors": [
+        [
+          "Christopher O.",
+          "Nuño"
+        ],
+        [
+          "Julie M.",
+          "Bugg"
+        ]
+      ],
+      "journal": "Journal of Experimental Psychology Human Perception & Performance",
+      "year": "2026",
+      "abstract": "Congruency precues rarely produce benefits on incongruent trials in four-choice conflict tasks, raising questions about people's ability to heighten cognitive control on demand. The motivational hypothesis posits that benefits may be elusive because people are insufficiently motivated to engage effortful control in response to precues signaling an incongruent trial. We conducted three preregistered experiments using performance incentives to systematically test the motivational hypothesis in a condition where incongruent trial precue benefits previously were not found, namely, when preparation time was short. We observed precue benefits for reward and, surprisingly, no-reward trials in Experiment 1 (within-block incentive manipulation) and Experiment 2 (between-block incentive manipulation), suggesting a possible carryover effect of motivation. When incentives were manipulated between subjects (Experiment 3), a precue benefit was selective to the reward group. Although this pattern lends support to the motivational hypothesis, in all experiments, the difference in precue benefits between reward and no-reward conditions was nonsignificant. Collectively, the findings suggest that the effects of motivation on precue benefits are not robust, at least when preparation time is short. (PsycInfo Database Record (c) 2026 APA, all rights reserved).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41830639",
       "doi": "10.1021/acs.jpclett.6c00418",
       "zotero_key": "7JFVNNJG",
@@ -12743,6 +13430,44 @@
       "subcollection": "PROM1"
     },
     {
+      "pmid": "42141931",
+      "doi": "10.1111/jerd.70191",
+      "zotero_key": "BC2VTV62",
+      "title": "Influence of Different Multilayer Zirconia Materials on the In Vitro Load‐Bearing Capacity of Resin‐Bonded Fixed Partial Dentures in the Posterior Region",
+      "authors": [
+        [
+          "Moritz",
+          "Waldecker"
+        ],
+        [
+          "Maria Sophie",
+          "Heller"
+        ],
+        [
+          "Stefan",
+          "Rues"
+        ],
+        [
+          "Peter",
+          "Rammelsberg"
+        ],
+        [
+          "Wolfgang",
+          "Bömicke"
+        ]
+      ],
+      "journal": "Journal of Esthetic and Restorative Dentistry",
+      "year": "2026",
+      "abstract": "ABSTRACT Objective Comparison of the load‐bearing capacity and failure pattern of posterior resin‐bonded fixed partial dentures (RBFPDs) differing in retainer design, zirconia material, and vertical nesting position. Materials and Methods RBFPDs replacing a maxillary first molar were fabricated with 2 retainer designs (inlay‐retained, IR; wing‐retained, WR) and of 2 multilayer zirconia materials (3Y‐TZP and 5Y‐PSZ, 3Y/5Y; 5Y‐PSZ, 5Y). For 3Y/5Y blanks, 2 vertical nesting positions (center; top) were evaluated. For each group, 16 monolithic RBFPDs were fabricated. Half of the RBFPDs underwent artificial aging. Load‐bearing capacity (F u ) was tested under oblique loading. The data were statistically analyzed using Welch ANOVA and Dunnett‐T3 post hoc tests ( α = 0.05). Results No decementations or defects were observed after aging. Mean F u ranged between 684 and 1216 N for IR‐RBFPDs and 1025–1617 N for WR‐RBFPDs. There was a clear hierarchy between the subgroups, with the lowest F u recorded for restorations made of 5Y zirconia and the highest F u for restorations fabricated from a centric position in 3Y/5Y blanks. Aging had no influence ( p ≥ 0.526). Conclusions Posterior RBFPDs made of multilayer 3Y‐TZP/5Y‐PSZ zirconia can be recommended for clinical trials. Vertical positioning in the blank influences the safety margin of the load‐bearing capacity. The use of 5Y‐PSZ should be critically scrutinized for this indication. Clinical Significance Posterior resin‐bonded fixed partial dentures made of monolithic zirconia (3Y‐TZP) are a valuable treatment option. The opacity of the restorations limits their esthetics. Multilayer zirconia materials with color and/or material gradient can further improve the esthetics of monolithic zirconia restorations. Resin‐bonded fixed partial dentures made of multilayer zirconia materials differing in color and/or material gradient might be a viable alternative to restorations made of 3Y‐TZP zirconia in the posterior region.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42108496",
       "doi": "10.1097/cm9.0000000000004110",
       "zotero_key": "E7E7K4BR",
@@ -12799,6 +13524,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42135191",
+      "doi": "10.1523/jneurosci.0083-26.2026",
+      "zotero_key": "4RNXN4K8",
+      "title": "Inhibitory circuits can restore OFF-pathway responses in retinal prostheses",
+      "authors": [
+        [
+          "Maya",
+          "Carleton"
+        ],
+        [
+          "Nicholas W.",
+          "Oesch"
+        ]
+      ],
+      "journal": "Journal of Neuroscience",
+      "year": "2026",
+      "abstract": "One of the first steps in processing visual information is to split the light signal captured by photoreceptors into complementary ON and OFF pathways, which separately encode increases and decreases in luminance. In blind patients with retinal degeneration, optoelectronic prostheses can successfully activate the ON pathway and evoke bright percepts; however, patients do not perceive dark features. This indicates that the OFF pathway is not being activated by existing prosthetics. To quantify OFF pathway deficits, we stimulated retinal ganglion cells (RGCs) in a mouse model of retinitis pigmentosa of either sex with electrical stimulation mimicking retinal prosthetic activation and recorded their voltage responses using whole cell recording. We found that most OFF RGCs respond with incorrect ON responses, except for one specific subtype of RGC, the OFFα, which retained correct OFF-type responses following the termination of stimulation. We found that these preserved OFF responses were driven by post-inhibitory rebound excitation, mediated by hyperpolarization-activated cyclic nucleotide-gated channels. Using a combinatorial genetic approach to achieve chemogenetic control, we identified AII amacrine cells as the pre-synaptic source driving these electrically-evoked OFF responses. These insights into how the OFF pathway responds to artificial stimulation suggest new opportunities to improve prosthetic vision restoration through tuning of stimulation parameters. Significance Statement Retinal prostheses in blind patients have thus far been able to recreate the perception of bright objects, corresponding to the activation of the ON pathway in the retina. However, patients can not perceive dark features, signals that should be carried by the retinal OFF pathway. Complementary ON and OFF signaling is crucial for normal visual perception. This study identifies key retinal circuitry that, when stimulated with electrical pulses, can elicit proper OFF pathway responses in a key subtype of retinal ganglion cell. We identify the physiological and circuit mechanisms that underly these restored OFF responses. These findings will guide development of targeted stimulation of the OFF pathway in future therapies to improve restored vision in patients with retinal degenerated diseases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SAG"
     },
     {
       "pmid": "42053838",
@@ -14287,6 +15038,32 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42147844",
+      "doi": "10.3389/fneur.2026.1814475",
+      "zotero_key": "FR4AW9S8",
+      "title": "Local delivery of nerve growth factor in traumatic optic neuropathy: neuroprotective effects in a rat model",
+      "authors": [
+        [
+          "Yuanyuan",
+          "Chen"
+        ],
+        [
+          "Juan",
+          "Chen"
+        ]
+      ],
+      "journal": "Frontiers in Neurology",
+      "year": "2026",
+      "abstract": "Objective In the present study, we established a rat model of optic nerve injury to evaluate whether direct local delivery of neurotrophic agents following traumatic optic neuropathy (TON) enhances retinal ganglion cells (RGCs) survival and its potential effects on axonal regeneration. Methods Forty-eight rats were randomly assigned to treatment ( n = 24) and control ( n = 24) groups. A standardized optic nerve crush injury was induced, followed by optic nerve decompression. In the treatment group, a gelatin sponge soaked with 10-μL mouse NGF (mNGF) solution was applied directly to the injury site. In the control group, a gelatin sponge soaked with 10-μL normal saline was applied. Retinal structure and cellular changes were evaluated via hematoxylin–eosin (H&amp;amp;E) staining at postoperative days 1, 8, and 14. RGC survival was quantified via immunofluorescence staining. Axonal survival was assessed using cholera toxin B subunit–488 (CTB-488) anterograde tracing. Results Compared with the control group, H&amp;amp;E staining showed better preservation of retinal morphology in the mNGF-treated group. CTB-488 anterograde tracing showed no significant differences between groups in mean axonal fluorescence intensity at the injury site. Immunofluorescence analysis revealed significantly higher RGC survival in the treatment group at days 1 (1/2 retinal eccentricity), 8 (1/6 and 1/2 eccentricities), and 14 (1/6 eccentricity). Conclusion In this Sprague–Dawley rat model of optic nerve injury, direct local delivery of mNGF may enhance RGC survival with effects showing time-dependent and spatially heterogeneous patterns. However, this intervention does not significantly promote the survival or regeneration of optic nerve axons.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
+    },
+    {
       "pmid": "42053130",
       "doi": "10.1111/wrr.70160",
       "zotero_key": "A9SC3J7M",
@@ -14408,6 +15185,44 @@
       "journal": "Environmental Monitoring and Assessment",
       "year": "2026",
       "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42143180",
+      "doi": "10.1038/s44271-026-00469-w",
+      "zotero_key": "CZ6WX84Z",
+      "title": "Longitudinal profiles of parental self- and child-focused emotion regulation",
+      "authors": [
+        [
+          "Gesine",
+          "Jordan"
+        ],
+        [
+          "Kristina",
+          "Stockinger"
+        ],
+        [
+          "Christine",
+          "Schiltz"
+        ],
+        [
+          "Samuel",
+          "Greiff"
+        ],
+        [
+          "Ziwen",
+          "Teuber"
+        ]
+      ],
+      "journal": "Communications Psychology",
+      "year": "2026",
+      "abstract": "Abstract Parenting is an emotion-eliciting experience that requires parents to navigate the dual demands of regulating their own and their children’s emotions, drawing on regulatory strategies such as reappraisal and rumination. However, patterns of self- and child-focused reappraisal and rumination and their associations with parental exhaustion, children’s internalizing problems, children’s academic achievement, and parent–child relationships remain underexplored. Our preregistered three-wave online study targeted U.S. parents of sixth–ninth graders ( N = 1,046; 51.53% mothers; M age = 43.22). We employed latent profile analyses and latent transition analyses. Results revealed three profiles of parental self- and child-focused emotion regulation strategies, stable across a 4-month timeframe: Reappraisers (T 1 ≈ 9%, T 2 ≈ 7%) showed high use of self- and child-focused reappraisal, self-ruminators (T 1 ≈ 25%, T 2 ≈ 31%) reported high self-focused rumination and low use of other strategies, and average regulators (T 1 ≈ 66%, T 2 ≈ 61%) showed moderate use of all strategies. In addition, reappraisers reported the lowest levels of parental exhaustion and children’s internalizing problems and the highest parent–child relationship closeness. By contrast, self-ruminators reported the highest levels of parental exhaustion and children’s internalizing problems and the lowest parent–child relationship closeness. However, profile membership did not predict children’s academic achievement. The study provides important insights into distinct subgroups of parents on the basis of their combined use of self- and child-focused emotion regulation strategies, highlighting the differential relations of these strategies on parental well-being and child outcomes.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -14957,6 +15772,36 @@
       "subcollection": "LSS"
     },
     {
+      "pmid": "42149378",
+      "doi": "10.1007/s11033-026-11754-6",
+      "zotero_key": "46X2ZC6W",
+      "title": "Modulation of efflux pump gene expression in Enterococcus faecium by tungsten nanoparticles and multi-walled carbon nanotubes",
+      "authors": [
+        [
+          "Mahsa",
+          "Khosroparviz"
+        ],
+        [
+          "Akram Sadat Tabatabaee",
+          "Bafroee"
+        ],
+        [
+          "Kumars",
+          "Amini"
+        ]
+      ],
+      "journal": "Molecular Biology Reports",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42069683",
       "doi": "10.1186/s13071-026-07418-w",
       "zotero_key": "2IZIPVA3",
@@ -15071,6 +15916,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42150613",
+      "doi": "10.1016/j.jcjo.2026.04.026",
+      "zotero_key": "96QJTHH4",
+      "title": "Molecular diagnostic yield and barriers in inherited retinal diseases: a retrospective cohort study.",
+      "authors": [
+        [
+          "Angel",
+          "Gao"
+        ],
+        [
+          "Yi",
+          "Zhai"
+        ],
+        [
+          "Rita",
+          "Kodida"
+        ],
+        [
+          "Brian G.",
+          "Ballios"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To evaluate the diagnostic yield of panel-based genetic testing for inherited retinal diseases (IRDs) and identify barriers to molecular resolution. DESIGN: Retrospective cohort. PARTICIPANTS: A total of 404 patients with clinically confirmed IRDs who were evaluated at the Adult Inherited Retinal Dystrophy Service, Ontario, Canada (October 2021-September 2024). METHODS: Patients underwent targeted massive parallel sequencing panel testing. Diagnostic yield was calculated, and unresolved cases were reviewed. Associations between yield, phenotype, ethnicity, and sex were assessed using χ² analysis. RESULTS: Of 685 referrals, 570 had confirmed IRDs. After we excluded 140 pending results and 26 patients who declined testing, 404 patients were analyzed. At referral, 94 patients (23.2%) had a previous molecular diagnosis, and 138 (34.0%) were diagnosed through clinic-initiated testing, giving an overall yield of 57.4%. Yield varied significantly by phenotype (χ², P = 1.4 × 10⁻⁶), from 94.4% in vitelliform macular dystrophies to 25.0% in vitreoretinopathies, with no sex association (P = 1.0). Disease-causing variants were identified in 83 IRD-associated genes, most frequently ABCA4, USH2A, and BEST1. Of 172 unresolved cases, 62 (15.3%) had negative panels, and 110 (27.2%) were inconclusive, including 30 with unphased pathogenic variants in recessive genes and 10 with high-suspicion variants of uncertain significance. Key barriers included limited family availability for phasing, restricted access to functional assays, and lack of public coverage for whole-exome or whole-genome sequencing. CONCLUSIONS: Massive parallel sequencing-based panel testing achieved a 57% diagnostic yield in this IRD population. Success was strongly phenotype-dependent with substantial heterogeneity. Whole-exome sequencing, whole-genome sequencing, family segregation, and functional genomics could improve diagnostic outcomes and management.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "USH2A"
     },
     {
       "pmid": "41834484",
@@ -15417,6 +16296,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42122953",
+      "doi": "10.3390/jcm15093221",
+      "zotero_key": "6UA6HQT2",
+      "title": "Multidimensional Motor Phenotype Characterization in Children with Joubert Syndrome: A Cross-Sectional Cohort Study",
+      "authors": [
+        [
+          "Łukasz",
+          "Mański"
+        ],
+        [
+          "Aleksandra",
+          "Moluszys"
+        ],
+        [
+          "Anna",
+          "Góra"
+        ],
+        [
+          "Eliza",
+          "Wasilewska"
+        ],
+        [
+          "Agnieszka",
+          "Rosa"
+        ],
+        [
+          "Jan",
+          "Szumlicki"
+        ],
+        [
+          "Krzysztof",
+          "Szczałuba"
+        ],
+        [
+          "Karolina",
+          "Szymańska"
+        ],
+        [
+          "Jolanta",
+          "Wierzba"
+        ]
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "year": "2026",
+      "abstract": "Background: Joubert syndrome (JS) is a rare neurodevelopmental ciliopathy characterized by cerebellar and brainstem malformation and heterogeneous motor outcomes. Although global developmental delay is well described, integrated clinical characterization combining functional and structural domains remains limited. The aim of this exploratory study was to describe a multidimensional motor phenotype in children with JS and to explore associations between selected functional and structural parameters. Methods: A prospective cross-sectional cohort study was conducted in 25 children with MRI-confirmed JS (aged 2–16 years). Gross motor performance was assessed using the GMFM-88, and postural control was evaluated with the modified Brief Ataxia Rating Scale (mBARS). Measured musculoskeletal parameters included joint range of motion and sacral slope as an indicator of sagittal pelvic alignment. Thoracoabdominal configuration was assessed using angular and anthropometric measurements. Associations between predefined functional and structural variables were explored using Spearman’s rank correlation coefficients. Analyses were exploratory and hypothesis-generating and were not adjusted for multiple comparisons. Results: Marked inter-individual variability was observed across functional and structural domains. A moderate negative correlation was identified between GMFM-88 (Gross Motor Function Measure-88) and mBARS (modified Brief Ataxia Rating Scale) scores (ρ = −0.512, p-value = 0.007). Sacral slope demonstrated statistically significant associations with hip extension, ankle dorsiflexion, chest and abdominal circumference, and sternoclavicular alignment (all p-value &lt; 0.05). No significant correlations were detected between gross motor performance and isolated structural parameters. Intra-rater reliability of selected measurements was high (ICC range 0.939–0.999). Conclusions: This exploratory, hypothesis-generating study demonstrates multidimensional variability in motor organization encompassing functional, postural, and structural domains. Gross motor performance appears more closely related to postural control than to isolated peripheral structural measures within this exploratory framework. Structural parameters exhibit internal statistical co-variation but do not independently determine functional capacity. These findings support the value of integrated multidomain physiotherapy assessment in rare cerebellar neurodevelopmental disorders.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "41452621",
@@ -16415,6 +17348,424 @@
       "subcollection": "Congenital cataracts"
     },
     {
+      "pmid": "42159009",
+      "doi": "10.1161/circep.126.014850",
+      "zotero_key": "4TW3ZJP6",
+      "title": "One-Year Outcomes of the First 1000 Patients Implanted With the Medtronic Micra AV Leadless Pacing System in France: The AV-CESAR Cohort Study",
+      "authors": [
+        [
+          "Fawzi",
+          "Kerkouri"
+        ],
+        [
+          "N C",
+          "Clementy"
+        ],
+        [
+          "Pascal",
+          "Defaye"
+        ],
+        [
+          "Mina Ait",
+          "Saïd"
+        ],
+        [
+          "Antoine",
+          "Andorin"
+        ],
+        [
+          "F",
+          "Anselme"
+        ],
+        [
+          "Warda",
+          "Aoudjeghout"
+        ],
+        [
+          "Marc",
+          "Badoz"
+        ],
+        [
+          "N",
+          "Behar"
+        ],
+        [
+          "Nazih",
+          "Benhenda"
+        ],
+        [
+          "Mouna Ben",
+          "Kilani"
+        ],
+        [
+          "Alexandre",
+          "Bodin"
+        ],
+        [
+          "P",
+          "Bordachar"
+        ],
+        [
+          "Abdeslam",
+          "Bouzeman"
+        ],
+        [
+          "Olivier",
+          "Citerne"
+        ],
+        [
+          "J C",
+          "Deharo"
+        ],
+        [
+          "Carine",
+          "Dommerc"
+        ],
+        [
+          "Mathieu",
+          "Echivard"
+        ],
+        [
+          "Fabrice",
+          "Extramiana"
+        ],
+        [
+          "Laurent",
+          "Fauchier"
+        ],
+        [
+          "Rodrigue",
+          "Garcia"
+        ],
+        [
+          "Edouard",
+          "Gitenay"
+        ],
+        [
+          "Charles",
+          "Guenancia"
+        ],
+        [
+          "Benoît",
+          "Guy-Moyat"
+        ],
+        [
+          "Peggy",
+          "Jacon"
+        ],
+        [
+          "Laurence",
+          "Jesel"
+        ],
+        [
+          "Christophe",
+          "Juin"
+        ],
+        [
+          "Ziad",
+          "Khoueiry"
+        ],
+        [
+          "Maciej",
+          "Kubala"
+        ],
+        [
+          "C",
+          "Leclercq"
+        ],
+        [
+          "Vincent",
+          "Mansourati"
+        ],
+        [
+          "Christelle",
+          "Marquié"
+        ],
+        [
+          "Alexis",
+          "Mechulan"
+        ],
+        [
+          "Pierre",
+          "Mondoly"
+        ],
+        [
+          "Kumar",
+          "Narayanan"
+        ],
+        [
+          "Pierre",
+          "Ollitrault"
+        ],
+        [
+          "Jean-Luc",
+          "Pasquié"
+        ],
+        [
+          "Angélique",
+          "Perret"
+        ],
+        [
+          "Hervé",
+          "Poty"
+        ],
+        [
+          "F A",
+          "Sebag"
+        ],
+        [
+          "Olivier",
+          "Villejoubert"
+        ],
+        [
+          "Xavier",
+          "Waintraub"
+        ],
+        [
+          "Victor",
+          "Waldmann"
+        ],
+        [
+          "Serge",
+          "Boveda"
+        ],
+        [
+          "J",
+          "Mansourati"
+        ],
+        [
+          "E L O I",
+          "Marijon"
+        ],
+        [
+          "Jérôme",
+          "Hourdain"
+        ],
+        [
+          "Baptiste",
+          "Maille"
+        ],
+        [
+          "Sébastien",
+          "Prévôt"
+        ],
+        [
+          "Ahmed",
+          "Bouharaoua"
+        ],
+        [
+          "Clément",
+          "Bars"
+        ],
+        [
+          "Julien",
+          "Seitz"
+        ],
+        [
+          "Laure",
+          "Champ-Rigot"
+        ],
+        [
+          "Paul-Ursmar",
+          "Milliez"
+        ],
+        [
+          "Arnaud",
+          "Pellissier"
+        ],
+        [
+          "Alain",
+          "Lebon"
+        ],
+        [
+          "Sophie",
+          "Gomes"
+        ],
+        [
+          "Géraldine",
+          "Bertaux"
+        ],
+        [
+          "Gabriel",
+          "Laurent"
+        ],
+        [
+          "Audrey",
+          "Sagnard"
+        ],
+        [
+          "Marie",
+          "Fichot"
+        ],
+        [
+          "Baptiste",
+          "Favoulet"
+        ],
+        [
+          "Guillaume",
+          "Serzian"
+        ],
+        [
+          "Pénélope",
+          "Pujadas"
+        ],
+        [
+          "Philippe",
+          "Maury"
+        ],
+        [
+          "Guillaume",
+          "Domain"
+        ],
+        [
+          "Nicolas",
+          "Combes"
+        ],
+        [
+          "Stéphane",
+          "Combes"
+        ],
+        [
+          "Christèle",
+          "Cardin"
+        ],
+        [
+          "Jean-Paul",
+          "Albenque"
+        ],
+        [
+          "Olivier",
+          "Touboul"
+        ],
+        [
+          "Romain",
+          "Cassagneau"
+        ],
+        [
+          "Sylvain",
+          "Ploux"
+        ],
+        [
+          "Frédéric",
+          "Sacher"
+        ],
+        [
+          "Nicolas",
+          "Derval"
+        ],
+        [
+          "Marc",
+          "Strik"
+        ],
+        [
+          "F.",
+          "Cransac"
+        ],
+        [
+          "Jean Luc",
+          "Pasquié"
+        ],
+        [
+          "M",
+          "Garnier"
+        ],
+        [
+          "Raphael",
+          "Martins"
+        ],
+        [
+          "Dominique",
+          "Pavin"
+        ],
+        [
+          "Bertrand",
+          "Pierre"
+        ],
+        [
+          "Arnaud",
+          "Bisson"
+        ],
+        [
+          "Cyril",
+          "Zakine"
+        ],
+        [
+          "Christophe",
+          "Loose"
+        ],
+        [
+          "Akli",
+          "Otmani"
+        ],
+        [
+          "Adrien",
+          "Carabelli"
+        ],
+        [
+          "Sandrine",
+          "Venier"
+        ],
+        [
+          "Vincent",
+          "Probst"
+        ],
+        [
+          "JEAN BAPTISTE",
+          "GOURRAUD"
+        ],
+        [
+          "Marine",
+          "Arnaud"
+        ],
+        [
+          "Damien",
+          "Minois"
+        ],
+        [
+          "Sophie Le",
+          "Page"
+        ],
+        [
+          "J P",
+          "Chabert"
+        ],
+        [
+          "François",
+          "Lesaffre"
+        ],
+        [
+          "Madeline",
+          "Espinosa"
+        ],
+        [
+          "Nicolas",
+          "Luconi"
+        ],
+        [
+          "Nicolas",
+          "Sadoul"
+        ],
+        [
+          "Hugues",
+          "Blangy"
+        ],
+        [
+          "Christian De",
+          "Chillou"
+        ]
+      ],
+      "journal": "Circulation Arrhythmia and Electrophysiology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Evidence supporting the Micra AV leadless pacing system has largely derived from highly experienced centers, potentially limiting generalizability to routine clinical practice. METHODS: The AV-CESAR study is a nationwide retrospective cohort, including the first 1000 patients implanted with a Medtronic Micra AV leadless pacemaker in France (2020–2024). Mean follow-up was 13.4±10.6 months. Primary end points were early (in-hospital) and late (postdischarge) device-related major complications; pacemaker syndrome and need for implantation of a new pacing system were centrally adjudicated. RESULTS: Among 1003 patients, device implantation was successful in 1000 (99.7%). Mean age was 72.0±15 years; 62.8% were male, 44.0% had ≥2 comorbidities, and 62.4% were unsuitable for transvenous pacemakers. The primary indication was permanent complete atrioventricular block with preserved sinus rhythm (78.0%). Early major complications occurred in 2.4%, including pericardial effusion (0.8%; 3 requiring surgery), access-site complications (0.8%), and thromboembolism (0.3%). Late major complications included pacemaker syndrome (2.5%), pacing-induced cardiomyopathy (1.2%), high thresholds (&gt;4 V/0.24ms, 0.3%), and premature battery depletion (0.2%). No device infections or dislodgements were observed. Overall, 2.5% of patients required implantation of a new pacing system (pacing-induced cardiomyopathy n=11; pacemaker syndrome n=7; high threshold n=3; battery/software failure n=3; tricuspid regurgitation n=1) and 12.7% were permanently reprogrammed to VVI mode. In pacing-dependent patients with ambulatory Holter monitoring (&gt;3.4 million paced cycles), mean atrioventricular synchrony was 67.6±17.3% and correlated with device-reported AM-VP (74.8±17.1%; R 2 =0.92; P &lt;0.001). Atrioventricular synchrony declined at heart rates &gt;90 beats per minute (5.6% of monitored time). All-cause mortality was 13.8%, with 0.2% directly device-related; 41.7% of deaths were cardiovascular. CONCLUSIONS: The Micra AV system is primarily used as an alternative when dual-chamber conventional pacemakers are not feasible. It demonstrated acceptable safety and clinical performance in a high-risk population. The marked reduction in atrioventricular synchrony at higher heart rates may suggest limited clinical benefit in patients with higher exertional heart rates. REGISTRATION: URL: https://www.clinicaltrials.gov ; Unique identifier: NCT05953558.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42129894",
       "doi": "10.1186/s42238-026-00446-4",
       "zotero_key": "T89FXAXC",
@@ -16815,6 +18166,56 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42151386",
+      "doi": "10.1038/s42003-026-10289-7",
+      "zotero_key": "79C6W6PG",
+      "title": "Overlapping expression and co-operative function of the zebrafish pcdh15 paralogs",
+      "authors": [
+        [
+          "Paul",
+          "Chrystal"
+        ],
+        [
+          "Lisa",
+          "Kuzmanova"
+        ],
+        [
+          "Jingpin",
+          "Liu"
+        ],
+        [
+          "Alexa",
+          "Izvorean"
+        ],
+        [
+          "Ishmael",
+          "Majeed"
+        ],
+        [
+          "Jefferson F.",
+          "Tjoenardi"
+        ],
+        [
+          "Qian",
+          "Lin"
+        ],
+        [
+          "Vincent",
+          "Tropepe"
+        ]
+      ],
+      "journal": "Communications Biology",
+      "year": "2026",
+      "abstract": "With orthologs for >70% of human genes, zebrafish represent a popular model for investigating development and disease, particularly when murine models are unsuitable. One caveat of zebrafish genetic models is the prevalence of paralogs, where compensation and transcriptional adaptation can complicate our understanding. Usher syndrome type 1 F (USH1F), caused by PCDH15 mutations, exemplifies the need for alternatives models; the primary site of injury, calyceal processes (CP), are uniquely lacking from photoreceptors of nocturnal rodents. Here we demonstrate that contrary to previous reports, zebrafish pcdh15a/b paralogs are not absolutely restricted to ear and eye tissues respectively. Instead, both paralogs are expressed and required in the mechanosensitive hair cells and retinal photoreceptors. Double mutants present the most severe phenotypes: loss of kinocilial and stereocilial links in the ear, and disorganization of CPs, inner/outer segment detachment, and photoreceptor cell death. We also demonstrate that ear and eye-specific phenotypes may be isolated via isoform-specific knockout. These data highlight the strengths of zebrafish to study pathomechanism in vivo. They should also caution researchers from defining paralogs as discrete, absolutely restricted functional units without exceptional evidence. When possible, double mutants may be preferable for studying gene function, and modelling diseases where humans have a single ortholog.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CLRN1"
+    },
+    {
       "pmid": "42069580",
       "doi": "10.1186/s12888-026-08125-7",
       "zotero_key": "KWUPVTI7",
@@ -16893,56 +18294,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "41975252",
-      "doi": "10.1186/s12245-026-01215-z",
-      "zotero_key": "M9BR4JIG",
-      "title": "Pediatric syncope in the emergency department: a risk-stratified diagnostic and disposition pathway",
-      "authors": [
-        [
-          "Khaled",
-          "Abouelmagd"
-        ],
-        [
-          "Mariam",
-          "Mousa"
-        ],
-        [
-          "Sohaila Mohamed Mohamed",
-          "Abdelbar"
-        ],
-        [
-          "Gabriela",
-          "Berger"
-        ],
-        [
-          "Sara",
-          "Nalli"
-        ],
-        [
-          "Alaa Mahmoud",
-          "Zawrah"
-        ],
-        [
-          "Kisa",
-          "Fatima"
-        ],
-        [
-          "Mohammed",
-          "Alsabri"
-        ]
-      ],
-      "journal": "International Journal of Emergency Medicine",
-      "year": "2026",
-      "abstract": "Pediatric syncope accounts for 1–3% of emergency department (ED) visits. Although most cases are benign, 4% are caused by cardiac disease and 3% by seizures, which carry a risk of sudden death or neurologic injury if missed. Vasovagal syncope accounts for 52–74% of cases and postural orthostatic tachycardia syndrome (POTS) for approximately 13%. To provide an emergency-department risk-stratified diagnostic and disposition framework for pediatric syncope. A universal 12-lead electrocardiogram (ECG) identifies nearly all life-threatening cardiac causes of syncope. When combined with structured red-flag screening and clinical risk stratification, patients can be reliably divided into low-, intermediate-, and high-risk groups, allowing safe discharge of benign cases and rapid admission of dangerous ones. A standardized ED syncope pathway based on risk tiers and ECG-first evaluation improves patient safety while reducing unnecessary admissions and testing. Not applicable.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "42071051",
@@ -17499,6 +18850,64 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42143320",
+      "doi": "10.1186/s13024-026-00950-4",
+      "zotero_key": "8T9QGVD5",
+      "title": "Pharmacological restoration of impaired autophagy in retinal ganglion cells prevents abnormal mitochondrial accumulation and glaucomatous neurodegeneration",
+      "authors": [
+        [
+          "Prabhavathi",
+          "Maddineni"
+        ],
+        [
+          "Balasankara Reddy",
+          "Kaipa"
+        ],
+        [
+          "Bindu",
+          "Kodati"
+        ],
+        [
+          "Karthikeyan",
+          "Kesavan"
+        ],
+        [
+          "Linya",
+          "Li"
+        ],
+        [
+          "J Cameron",
+          "Millar"
+        ],
+        [
+          "Sam",
+          "Yacoub"
+        ],
+        [
+          "Ramesh B.",
+          "Kasetti"
+        ],
+        [
+          "Abbot F.",
+          "Clark"
+        ],
+        [
+          "Gulab S.",
+          "Zode"
+        ]
+      ],
+      "journal": "Molecular Neurodegeneration",
+      "year": "2026",
+      "abstract": "Abstract Background Progressive loss of retinal ganglion cells (RGCs) and degeneration of optic nerve (ON) axons are the key pathological hallmarks of glaucoma, the leading cause of irreversible blindness. Elevated intraocular pressure (IOP), primarily due to dysfunction of the trabecular meshwork (TM), remains the most significant and only known modifiable risk factor. However, vision loss persists in some patients despite effective IOP control, highlighting the critical need to elucidate the mechanisms driving glaucomatous neurodegeneration. Emerging evidence links mitochondrial dysfunction to glaucomatous neurodegeneration, yet the precise mechanisms remain poorly defined. Here, we investigate whether defective autophagy/mitophagy, which removes damaged mitochondria, contributes to mitochondrial accumulation, oxidative stress, and neurodegeneration in glaucoma. We further explore the therapeutic potential of enhancing autophagy to improve mitochondrial turnover, mitigate RGC loss, and preserve visual function. Methods Glucocorticoid (GC)-induced and myocilin (MYOC)-associated glaucoma mouse models were used to assess the expression of mitochondrial markers (TOM20/COX IV), oxidative DNA damage (8-OHdG), and mitophagy/autophagy-related proteins (p62, LC3, Phospho-ubiquitin (Ser65), and LAMP1) in retinal tissues. Transmission electron microscopy (TEM) was employed to analyze mitochondrial accumulation in glaucomatous ON. Mitophagy flux was assessed at early and late stages of neurodegeneration using mitophagy reporter Mt-Keima mice. The effect of RGC-specific autophagy deficiency on mitochondrial accumulation and neurodegeneration was further investigated using Atg5 flox/flox mice, in which Atg5 deletion was induced by AAV2-Cre delivery. Additionally, the therapeutic effect of enhancing autophagy with Torin 2 to restore mitochondrial turnover and prevent glaucomatous neurodegeneration was evaluated in both GC-induced and myocilin-associated glaucoma models, as well as in ex vivo human retinal explants. Results Chronic IOP elevation led to increased mitochondrial accumulation, oxidative DNA damage, and impaired mitophagy/autophagy in glaucomatous retina. TEM analysis further confirmed the accumulation of structurally abnormal mitochondria in glaucomatous ON. In Mt-Keima mice, chronic IOP elevation significantly reduced mitophagy flux prior to RGC loss, indicating that mitophagy impairment precedes neurodegeneration. RGC-specific Atg5 deletion induced the accumulation of damaged mitochondria, leading to neurodegeneration in Atg5 flox/flox mice. Notably, pharmacological restoration of impaired autophagy with Torin 2 prevented mitochondrial accumulation and preserved the structural and functional integrity of RGCs and their axons in glaucoma mouse models and ex vivo human retinal explant cultures. Conclusion Our study indicates impaired autophagy contributes to damaged mitochondrial accumulation and oxidative stress, leading to glaucomatous neurodegeneration. Enhancing autophagy in RGCs represents a promising therapeutic strategy to prevent glaucomatous neurodegeneration. Graphical Abstract",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MYOC"
+    },
+    {
       "pmid": "42060809",
       "doi": "10.4103/ijp.ijp_495_23",
       "zotero_key": "Q9JFCQWW",
@@ -17609,6 +19018,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CEP290"
+    },
+    {
+      "pmid": "42148468",
+      "doi": "10.1002/acr.80090",
+      "zotero_key": "37WRDNJM",
+      "title": "Phenotypes of Chronic Overlapping Pain Multimorbidity in Rheumatology: A Population‐Based Claims Study",
+      "authors": [
+        [
+          "D",
+          "Lu"
+        ],
+        [
+          "Kristen",
+          "Cunanan"
+        ],
+        [
+          "James",
+          "Cragun"
+        ],
+        [
+          "Lauren",
+          "Vuong"
+        ],
+        [
+          "Matthew",
+          "Baker"
+        ],
+        [
+          "Titilola",
+          "Falasinnu"
+        ]
+      ],
+      "journal": "Arthritis Care & Research",
+      "year": "2026",
+      "abstract": "OBJECTIVE: This study aims to characterize the burden and distinct patterns of chronic overlapping pain conditions (COPCs) multimorbidity in adults with autoimmune rheumatic diseases (ARDs). METHODS: We analyzed 2008-2021 data from the Merative MarketScan Commercial Claims and Encounters Database, identifying 149,742 patients with ARD (ankylosing spondylitis, psoriatic arthritis, rheumatoid arthritis, Sjögren's disease, systemic lupus erythematosus, systemic sclerosis) using ICD-9/10-CM codes. We assessed COPC (e.g., fibromyalgia, chronic low back pain, migraine, irritable bowel syndrome, chronic fatigue syndrome, temporomandibular disorders, and pelvic pain conditions) prevalence, multimorbidity patterns, and pairwise co-occurrence frequencies, calculating observed/expected ratios and odds ratios. RESULTS: Of 149,742 ARD patients, 57.5% had ≥1 COPC, with 22.7% experiencing multiple conditions. Chronic low back pain (41.4%) and fibromyalgia (21.1%) were most prevalent. Women and individuals aged 31-50 showed the highest COPC prevalence. Many COPC pairs co-occurred more frequently than expected by chance (e.g., fibromyalgia and chronic low back pain: observed/expected ratio 1.35; migraine and chronic low back pain: 1.42). Strongly associated dyads included urologic chronic pelvic pain and vulvodynia (OR 10.46). CONCLUSION: A substantial burden and distinct multimorbidity patterns of COPCs exist among ARD patients, suggesting shared pathophysiological mechanisms. Routine COPC screening and targeted non-opioid multimodal interventions, especially for common dyads, are crucial for improved pain management and reducing opioid-related risks in this population.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42083895",
@@ -17857,6 +19308,36 @@
       "subcollection": "Retinal dystrophies"
     },
     {
+      "pmid": "42166174",
+      "doi": "10.1001/jamaophthalmol.2026.1477",
+      "zotero_key": "BNX8KZAB",
+      "title": "Postoperative Fungal Endophthalmitis Associated With Trypan Blue Use During Cataract Surgery",
+      "authors": [
+        [
+          "Charles",
+          "Zhang"
+        ],
+        [
+          "Darlene",
+          "Miller"
+        ],
+        [
+          "Harry W.",
+          "Flynn"
+        ]
+      ],
+      "journal": "JAMA Ophthalmology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
+    },
+    {
       "pmid": "42069693",
       "doi": "10.1186/s40168-026-02418-5",
       "zotero_key": "HAUKRVAD",
@@ -17932,6 +19413,72 @@
       "journal": "BMC Cardiovascular Disorders",
       "year": "2026",
       "abstract": "This retrospective cohort study investigated the joint prognostic value of the triglyceride glucose-body mass index (TyG-BMI) and high-sensitivity C-reactive protein (hsCRP) for post-PCI adverse outcomes in patients with chronic coronary syndromes (CCS) undergoing percutaneous coronary intervention (PCI). A total of 2274 patients were enrolled and categorized into TyG-BMI tertiles (T1-T3), and were further stratified by hsCRP levels (≤ 3 vs. > 3 mg/L). The primary endpoint was a composite of repeat revascularization or in-stent restenosis (ISR). Cox regression, restricted cubic spline, joint stratification, interaction, sensitivity, and time-specific analyses were performed, including an analysis censored at 12 months and a 1-year landmark analysis. Over a median follow-up of 60.5 months, 1054 patients (46.4%) experienced the primary endpoint. Each 100-unit increase in TyG-BMI was associated with a 30.8% higher risk of the composite endpoint (adjusted HR 1.308, 95% CI 1.106–1.546; P = 0.002), with a linear association observed across the TyG-BMI range. Compared with T1, patients in T3 had a significantly higher risk of the composite endpoint (adjusted HR 1.263, 95% CI 1.086–1.468; P = 0.002). In cross-stratified analyses, hsCRP > 3 mg/L was associated with a higher risk only in the T3 group (adjusted HR 1.325, 95% CI 1.082–1.623; P = 0.006). Compared with patients in TyG-BMI T1 and hsCRP ≤ 3 mg/L, those in TyG-BMI T3 and hsCRP > 3 mg/L had a 52.3% higher risk of the composite endpoint (adjusted HR 1.523, 95% CI 1.239–1.872; P < 0.001). No significant multiplicative or additive interaction between TyG-BMI and hsCRP was detected. In time-specific analyses, this combined high-risk subgroup showed a modest association with events within the first year after PCI, whereas in the 1-year landmark analysis it remained at the highest risk of the composite endpoint beyond 1 year (adjusted HR 1.569, 95% CI 1.218–2.021; P < 0.001). Concurrent elevation of TyG-BMI and hsCRP identifies a subgroup of CCS patients at particularly high risk of repeat revascularization or ISR after PCI. Combined assessment of these two markers may provide complementary prognostic information after PCI, particularly for identifying longer-term residual risk.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42154411",
+      "doi": "10.1007/s43390-026-01403-0",
+      "zotero_key": "SW749PED",
+      "title": "Predictors for postoperative gastrointestinal complications in pediatric non-idiopathic scoliosis patients",
+      "authors": [
+        [
+          "Vishal",
+          "Sarwahi"
+        ],
+        [
+          "Anabelle",
+          "Cohen"
+        ],
+        [
+          "Alexander",
+          "Morledge"
+        ],
+        [
+          "Katherine",
+          "Eigo"
+        ],
+        [
+          "Effat",
+          "Rahman"
+        ],
+        [
+          "Sayyida",
+          "Hasan"
+        ],
+        [
+          "Peter",
+          "Dzaugis"
+        ],
+        [
+          "Victor",
+          "Koltenyuk"
+        ],
+        [
+          "Jonathan",
+          "Sonstein"
+        ],
+        [
+          "Yungtai",
+          "Lo"
+        ],
+        [
+          "Terry",
+          "Amaral"
+        ],
+        [
+          "Marina",
+          "Moguilevitch"
+        ]
+      ],
+      "journal": "Spine Deformity",
+      "year": "2026",
+      "abstract": "",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -18035,44 +19582,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
-    },
-    {
-      "pmid": "40371404",
-      "doi": "10.15386/mpr-2743",
-      "zotero_key": "8KBUABHW",
-      "title": "Primary ciliary dyskinesia: a case report of double DNAH11 mutant alleles",
-      "authors": [
-        [
-          "Lorin-Manuel",
-          "Pîrlog"
-        ],
-        [
-          "Andrada-Adelaida",
-          "Pătrășcanu"
-        ],
-        [
-          "Enikő",
-          "Kutasi"
-        ],
-        [
-          "Irina",
-          "Iordănescu"
-        ],
-        [
-          "Mariela",
-          "Militaru"
-        ]
-      ],
-      "journal": "Medicine and Pharmacy Reports",
-      "year": "2024",
-      "abstract": "Primary ciliary dyskinesia (PCD), a rare disorder, is genetically varied. Mutations in proteins involved in the structure, function, or assembly of cilia are known to determine situs inversus, male infertility, and chronic destructive airway disease. PCD is inherited by an autosomal recessive pattern of inheritance in most cases. Nonetheless, patterns of autosomal dominant and X-linked inheritance have been mentioned. A history of recurrent upper and lower respiratory tract infections raised clinical suspicion of primary ciliary dyskinesia in a 10-year-old patient. Genetic tests were performed using next-generation sequencing technology (Illumina NextGen) with the multiplex ligation-dependent probe amplification technique for primary ciliopathies and syndromes subject to differential diagnosis. Genetic testing identified two pathogenic variants, not previously associated with a case report in the literature, c.7727A&gt;G (p.Asp2576Gly) and c.8578G&gt;A (p.Gly2860Ser), within the DNAH11 gene, which is associated with autosomal recessive PCD. The result also reported mutations in other genes involved in autosomal recessive PCD (DNAH8, DNAH9 and ZMYND10), which were classified as variants with uncertain clinical significance. Transmission electron microscopy of respiratory cilia and nasal nitric oxide measurement cannot be used to diagnose PCD in patients with DNAH11 mutations because the structure of cilia is normal, and the levels of NO are not constantly low. High-speed video microscopy analysis can be helpful because DNAH11 mutations cause a distinct phenotype of PCD. Nevertheless, the mutation analysis of various PCD-causing genes remains the easiest to conduct and with good results. Genetic research on PCD has identified a number of significant ciliary genes in recent years, offering fresh perspectives on the molecular processes underlying cilia assembly and function. This facilitates the development of new methods for the diagnosis, prevention, and treatment of PCD. However, because it is a highly complex and heterogeneous disease, the field of gene diagnosis and therapy in PCD is still in its infancy.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARSG"
     },
     {
       "pmid": "41579043",
@@ -18843,42 +20352,66 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "40588277",
-      "doi": "10.1542/pir.2024-006386",
-      "zotero_key": "KPDNQVRK",
-      "title": "Renal Dysfunction in a 13-Year-Old Girl With Trisomy 21",
+      "pmid": "42143272",
+      "doi": "10.1186/s12882-026-04974-2",
+      "zotero_key": "M7C6T66T",
+      "title": "Renal AA amyloidosis associated with inflammatory bowel disease",
       "authors": [
         [
-          "Anuj",
-          "Gupta"
+          "Najla",
+          "Zran"
         ],
         [
-          "Hannah",
-          "Myles"
+          "Soumaya",
+          "Chargui"
         ],
         [
-          "Farzana",
-          "Nuruzzaman"
+          "A.",
+          "Azzabi"
         ],
         [
-          "Katarina",
-          "Supe‐Markovina"
+          "S.",
+          "Agrebi"
         ],
         [
-          "Maribeth",
-          "Chitkara"
+          "Yosra",
+          "Guedri"
+        ],
+        [
+          "Nada",
+          "Sellami"
+        ],
+        [
+          "Sanda",
+          "Mrabet"
+        ],
+        [
+          "Hayet",
+          "Kaaroud"
+        ],
+        [
+          "Meriam",
+          "Hajji"
+        ],
+        [
+          "D.",
+          "Zellama"
+        ],
+        [
+          "Ezzedine",
+          "Abderrahim"
         ]
       ],
-      "journal": "Pediatrics in Review",
-      "year": "2025",
-      "abstract": "A 13-year-old girl with trisomy 21 presents with 2 weeks of decreased oral intake and abdominal pain. During the past week, she experienced 2 episodes of nonbloody, nonbilious emesis; nonbloody diarrhea; and tactile fevers. Her mother also reports that the patient has appeared paler and more fatigued than usual. She denies any history of constipation, urinary frequency, dysuria, abnormal uterine bleeding, or history of pallor during menstrual periods.She initially presented to an outside hospital where she was found to have elevated levels of blood urea nitrogen (BUN) of 26 mg/dL (9.29 mmol/L), creatinine of 4.1 mg/dL (362.4 μmol/L), and hemoglobin of 8.2 g/dL (82 g/L) and was, therefore, transferred to our institution for further management and admission to the pediatric hospital medicine service. On admission, her temperature is 99.1 °F (37.3 °C), blood pressure is 96/68 mm Hg, heart rate is 78 beats/min, respiratory rate is 19 breaths/min, room air oxygen saturation is 94%, and weight is 59.50 kg (89th percentile on the trisomy 21 growth chart). Urine output is within normal limits. Physical examination reveals bilateral conjunctival injection, more pronounced in the left eye, and facial features consistent with trisomy 21. Her cardiopulmonary examination findings are normal, and she has no appreciable edema on examination. There is mild tenderness to palpation of the right upper and lower abdomen without distention or organomegaly. The right costovertebral angle is tender to percussion. Otherwise, her physical examination findings are normal.Initial laboratory findings reveal a normocytic, hypochromic anemia, with a hemoglobin level of 7.6 g/dL (76 g/L) and a hematocrit value of 23.5%, along with a slightly elevated platelet count of 382 × 103/μL (382 × 109/L). Her complete metabolic panel indicates elevated BUN and creatinine levels of 23 mg/dL (8.21 mmol/L) and 4.41 mg/dL (389.9 μmol/L), respectively. Serum sodium, potassium, and bicarbonate levels are all within normal limits, but her phosphorus level is elevated at 5.6 mg/dL (1.81 mmol/L). In addition, serum cystatin C and parathyroid hormone levels are elevated to 3.0 mg/L (reference range, 0.5-1.2 mg/L) and 82.8 pg/mL (82.8 ng/L) (reference range, 15.0–65.0 pg/mL [15.0-65.0 ng/L]), respectively. Serum 25-hydroxyvitamin D levels are low at 10 ng/mL (25 nmol/L) (reference range, 30-80 ng/mL [75-200 nmol/L]). Her liver function panel is normal, except for a low serum albumin level of 2.8 g/dL (28 g/L). Urinalysis shows 30 mg/dL of protein, trace leukocyte esterase, large blood, 17 red blood cells per high-power field, 8 white blood cells per high-power field, a few bacteria, hyaline casts, and squamous epithelial cells. A polymerase chain reaction gastrointestinal (GI) pathogen panel reveals positivity for enteropathogenic Escherichia coli. Renal ultrasonography reveals a renal length discrepancy, with the left kidney measuring 4.3 × 5.4 × 8.1 cm3 and the right kidney measuring 4.0 × 5.3 × 9.9 cm3, fullness of the right renal pelvis without hydronephrosis, and diffusely increased echogenicity of bilateral renal parenchyma.Abdominal pain as a presenting symptom can be diagnostically challenging due to the myriad of potential causes. As part of her initial evaluation, a GI pathogen panel revealed enteropathogenic E coli, which could explain her diarrhea, emesis, and abdominal pain.1 In addition, her history of fevers and her urinalysis indicative of infection make pyelonephritis another possibility. However, the initial evaluation revealed significant renal dysfunction, making renal etiologies for the patient’s abdominal pain a diagnostic priority.Based on the available information, it is unclear whether her illness is acute or chronic in nature. Acutely, one must consider prerenal, intrinsic, and postrenal etiologies.2 Because she presents with decreased oral intake, diarrhea, and emesis, one prerenal cause of acute kidney injury that should be considered is dehydration. Due to the ultrasonography findings of renal length discrepancy and fullness of the right renal pelvis, obstruction, a cause of postrenal acute kidney injury, is another possibility. However, she has a low BUN/creatinine ratio of 5.22:1 (reference range, 10:1-20:1), which, in combination with proteinuria and microscopic hematuria, strongly suggests intrinsic kidney disease. The potential acuity of her presentation raises suspicion for rapidly progressive glomerulonephritis, with possible etiologies including Goodpasture syndrome, lupus nephritis, IgA nephropathy, antineutrophil cytoplasmic antibody (ANCA)–associated vasculitis (AAV), and infectious and idiopathic causes.2,3On the other hand, her parathyroid hormone level is significantly elevated, indicating a mineral and bone disorder, which could be a consequence of chronic kidney disease (CKD).4,5 Furthermore, CKD may also explain her anemia, as it is known to impair erythropoiesis.4–7 There are a variety of conditions that can lead to CKD in children, including congenital anomalies of the kidneys and urinary tracts, chronic glomerulonephritis, steroid-resistant nephrotic syndrome, and renal ciliopathies.4,5Given the initial laboratory findings, additional evaluation was pursued. Renal function testing revealed elevated urine protein/creatinine and microalbumin/creatinine ratios of 1160 mg/g (131.1 mg/mmol) (reference range, <150 mg/g [<15 mg/mmol]) and 592.4 mg/g (66.94 mg/mmol) (reference range, 0-30 mg/g [0-3.39 mg/mmol]), respectively. Because there was fullness of the renal pelvis on ultrasonography, a voiding cystourethrogram was performed, which did not show evidence of vesicoureteral reflux.Concurrent evaluation for her anemia was also conducted. Stool occult blood testing was negative, making GI bleeding as a source of the anemia less likely. Blood work showed an elevated ferritin level of 366.6 ng/mL (366.6 μg/L), a low transferrin level of 121 mg/dL (14.88 μmol/L), a low total iron-binding capacity of 151 μg/dL (27.0 μmol/L), and a low iron level of 15 μg/dL (2.7 μmol/L), aligning with a diagnosis of anemia of chronic disease. These findings heightened suspicions of CKD.Inflammatory markers were also elevated, with a C-reactive protein level of 19.2 mg/dL (192 mg/L) and an erythrocyte sedimentation rate of 111 mm/h. A panel of autoimmune markers revealed negativity for antinuclear antibodies. However, it showed an elevated antimyeloperoxidase (anti-MPO) IgG antibody avidity index greater than 8.0 (reference range, <1.0) and an elevated ANCA IgG immunofluorescence assay titer greater than 1:1280 (reference range, <1:20), with an immunofluorescence assay pattern of p-ANCA. A renal biopsy was performed, and pathology was notable for diffuse, obliterative ANCA-associated pauci-immune glomerulonephritis, affecting almost all glomeruli, and neutrophil-rich tubulointerstitial nephritis with acute tubular necrosis. Almost two-thirds of glomeruli showed glomerulosclerosis with 20% to 30% tubular atrophy.Given these findings, this patient was diagnosed as having CKD due to p-ANCA/MPO+ microscopic polyangiitis (MPA) complicated by glomerulonephritis with sclerosis. A chest radiograph, performed to investigate the extent of systemic involvement of disease, was normal.MPA is an AAV affecting the small- to medium-sized vessels of the kidneys and lungs, with few or no immune deposits.8 The annual incidence of AAV in the pediatric population varies between 0.45 and 6.39 cases per million but has steadily increased during the past 40 years.8 MPA has an average onset age of 9 to 12 years and occurs more often in females.9–11In MPA, IgG autoantibodies target MPO, a specific enzyme found in neutrophils.12 These autoantibodies activate neutrophils and monocytes, leading to endothelial adhesion, tissue damage, and characteristic vascular inflammation associated with the disease.12 MPA can induce microvascular damage across various organ systems, with the kidneys and lungs being the most common targets, leading to necrotizing glomerulonephritis and pulmonary capillaritis.13–15 Studies have shown that neutrophils induce alternative complement protein pathway activation in these organs.16,17 In glomeruli, the interplay of complement-mediated endothelial cytotoxicity and neutrophilic oxidative burst injury results in necrotizing vasculitis and subsequent glomerulonephritis.17Although case reports describing AAV in individuals with trisomy 21 exist, the rarity of these comorbid conditions poses a challenge for comprehensive studies.18–20 Nevertheless, research suggests that individuals with trisomy 21 exhibit low levels of autoimmune regulator protein and regulatory T cells, which can contribute to the formation of autoantibodies.20–23 In turn, this can lead to the development of p-ANCA glomerulonephritis.24MPA often presents insidiously with a variety of nonspecific symptoms.14 However, literature has shown that fever, anemia, hematuria, and proteinuria are strongly associated with the disease.25,26 MPA can also be differentiated from other types of vasculitis based on signs and symptoms. Saddle-nose deformity, recurrent sinus infections, epistaxis, oral ulcers, dyspnea, and dysphonia are associated with granulomatosis with polyangiitis/c-ANCA vasculitis.8 A history of asthma or eosinophilia is characteristic of eosinophilic granulomatosis with polyangiitis.27 In MPA, clinical presentations of dyspnea, cough, and hemoptysis can indicate lung involvement.14,15 Other manifestations include peripheral neuropathy, purpura, arthritis, and abdominal pain.9,14 Regarding renal involvement, patients with MPA may progress to CKD and ultimately end-stage renal disease (ESRD).8 Features of CKD in children can include growth impairment, anemia, hypertension, cardiovascular disease, and mineral and bone disorder, as evidenced by hyperparathyroidism and renal osteodystrophy with bone lesions.5Initial suspicions of MPA can be confirmed via serologic testing for anti-MPO antibodies and immunofluorescence staining for p-ANCA.13,28 Kidney biopsy is helpful in patients with renal involvement to distinguish between necrotizing crescentic glomerulonephritis, suggestive of active disease, and glomerular scarring, as seen in ESRD.16,25 Whereas other disorders, such as lupus nephritis, feature immune complex deposition in glomeruli, renal biopsy in MPA typically reveals an absence of immune complex deposition and is termed “pauci-immune” glomerulonephritis.16 Patients presenting with lower respiratory tract symptoms should undergo chest imaging and, if applicable, biopsy of the lungs to determine the extent of disease involvement.13,17Due to the relative scarcity of clinical trials in the pediatric population, current guidelines for management of AAV in children rely on data gathered from adults with AAV.29 The goal of management in patients with severe p-ANCA glomerulonephritis is to induce and maintain remission by decreasing active inflammation to prevent further glomerular or pulmonary necrosis.29–31 Induction therapy includes either pulse-dose intravenous glucocorticoids or high-dose oral glucocorticoids combined with rituximab or cyclophosphamide, with rituximab being preferred due to a more favorable adverse effect profile.30–34 The specific agent and duration of maintenance therapy depends on the patient’s risk factors for relapse, with poor prognostic factors, including significant renal disease, massive pulmonary hemorrhage, cardiomyopathy, and central nervous system or GI involvement.34–36Some patients may see recovery of damaged glomeruli with the aforementioned therapies. However, many patients with severe glomerular sclerosis will eventually require renal replacement therapy and renal transplant.15,37On the diagnosis of CKD, our patient was started on epoetin alfa along with periodic iron infusions to manage her anemia. Treatment with vitamin D, calcium carbonate, and sodium bicarbonate supplementation was also initiated, and she was placed on a low sodium/phosphate/potassium renal diet. Empirical broad-spectrum antibiotics were initiated to treat a presumed concomitant pyelonephritis. Once the diagnosis of MPA was established, she received pulse-dose methylprednisolone as well as rituximab, and she was discharged on oral steroids. Despite these interventions, she developed worsening metabolic abnormalities after discharge and was subsequently diagnosed as having ESRD, requiring renal replacement therapy.Recognizing the clinical features of microscopic polyangiitis (MPA) can be difficult due to variable presentations. Health-care providers should, therefore, be vigilant when patients present with unexplained symptoms and should perform comprehensive clinical, laboratory, and imaging tests. Renal dysfunction of unclear etiology should raise suspicion for MPA.Early identification of renal ANCA-associated vasculitis is essential because delays can result in progression to chronic kidney disease and end-stage renal disease, which can have effects on multiple organ systems. This is especially important in children with developmental disabilities, who face challenges in verbalizing symptoms and, therefore, may experience delays in receiving care.Individuals with trisomy 21 can have certain immunologic deficiencies, which may heighten their risk of developing certain autoimmune disorders.Management of children with MPA requires a collaborative, interdisciplinary approach. Primary care physicians, nephrologists, rheumatologists, pulmonologists, and social workers may all be involved. Regular monitoring of patients by all teams is crucial for successful long-term outcomes.",
+      "journal": "BMC Nephrology",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Renal AA amyloidosis is a rare but severe complication of inflammatory bowel disease (IBD), associated with significant renal morbidity and poor prognosis. Data remain limited, particularly in underrepresented regions such as North Africa. This study aimed to describe its clinical features, management, and renal outcomes in a multicenter cohort. METHODS: We conducted a retrospective multicenter study including patients with IBD-associated renal AA amyloidosis from two tertiary nephrology centers in Tunisia between 1990 and 2022. Continuous variables are expressed as median, interquartile range (IQR) and range. RESULTS: Seventeen patients were included (14 Crohn's disease, 3 ulcerative colitis). The median age was 37 years [IQR: 29.5-47; range: 19-68], with a male predominance. The median interval between IBD diagnosis and renal involvement was 3 years. All patients had heavy proteinuria, with nephrotic syndrome in 15 cases. Median serum albumin was 20.1 g/L [IQR: 9.4-23.4], and impaired renal function was observed in eight patients. Diagnosis was established by minor salivary gland biopsy (n = 10) or renal biopsy (n = 7). Treatment strategies were heterogeneous: nine patients continued prior IBD therapy, while others received colchicine (n = 5), corticosteroids (n = 2), or anti-TNF-α therapy (n = 1). Renal outcomes were poor: one patient required dialysis at baseline, and eight progressed to end-stage kidney disease over a median of 19 months [IQR: 7-37]. CONCLUSION: Renal AA amyloidosis is a severe complication of IBD with poor renal prognosis. Early detection and effective control of chronic inflammation are essential to improve outcomes.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:search"
+        "source:recent"
       ],
       "category": "6 - Genes",
-      "subcollection": "ARSG"
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42069983",
@@ -19802,6 +21335,66 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42140924",
+      "doi": "10.1038/s41467-026-73246-2",
+      "zotero_key": "EA5548TF",
+      "title": "Robust intensification of projected regional precipitation extremes over Africa",
+      "authors": [
+        [
+          "Akintomide A.",
+          "Akinsanola"
+        ],
+        [
+          "Thierry N.",
+          "Taguela"
+        ],
+        [
+          "Vishal",
+          "Bobde"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "Extreme rainfall is increasing under climate warming, but its future patterns across Africa remain highly uncertain. Using Coupled Model Intercomparison Project Phase 6 (CMIP6) simulations, we assess projected changes in annual maximum one-day precipitation (Rx1day) and rare precipitation extremes across African subregions under both SSP2-4.5 and SSP5-8.5 scenarios. Our results show robust intensification of Rx1day by the late twenty-first century, with increases of ~5-10 mm day⁻¹ (15-23 mm day⁻¹) under SSP2-4.5 (SSP5-8.5), largest in convectively dominated equatorial regions such as West, Central, and Northeast Africa. Rare events that historically occurred once every 50 (100) years are projected to recur every ~5-10 ( ~ 6-14) years, with recurrence intervals as short as 2-3 years in equatorial regions under SSP5-8.5. This intensification is driven primarily by thermodynamic moistening associated with radiation-induced warming, while diabatic heating-driven dynamic changes modulate regional responses and account for much of the intermodel spread. A hierarchical emergent-constraint framework based on observed historical global mean surface temperature trends moderates mean Rx1day intensification by ~11-35% without altering its sign. Constrained and unconstrained projections indicate substantial continent-wide increases in population and gross domestic product exposure.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42152247",
+      "doi": "10.4103/aam.aam_168_26",
+      "zotero_key": "X3A4EUGD",
+      "title": "Role of High-resolution Ultrasonography in the Evaluation of Ulnar Nerve Involvement in Patients with Leprosy",
+      "authors": [
+        [
+          "Kadavergula",
+          "Nikhil"
+        ],
+        [
+          "Shivanand",
+          "Patil"
+        ],
+        [
+          "Ajit B.",
+          "Janagond"
+        ]
+      ],
+      "journal": "Annals of African Medicine",
+      "year": "2026",
+      "abstract": "Abstract Background: Leprosy remains an important cause of peripheral neuropathy in endemic regions, with nerve involvement being the major determinant of long-term disability. The ulnar nerve is commonly affected. Conventional clinical assessment has limited ability to objectively quantify nerve damage. High-resolution ultrasonography (HRUS) enables structural evaluation of peripheral nerves in a non-invasive manner. Objective: The objective of the study was to assess ulnar nerve involvement using HRUS in patients with leprosy and to compare ultrasonographic findings with clinical examination. Materials and Methods: This prospective observational study was conducted at a tertiary care center from March 2024 to August 2025 and included 49 clinically diagnosed leprosy patients. All patients underwent clinical examination and HRUS of the ulnar nerve using a 12–18 MHz linear transducer. Cross-sectional area (CSA), fascicular pattern, echogenicity, and intraneural vascularity on power Doppler were evaluated. Results: The mean age was 43.86 ± 15.20 years, with male predominance (65.3%). Borderline tuberculoid (30.6%) and borderline lepromatous (26.5%) types were most frequent. HRUS detected ulnar nerve thickening in 89.8% of patients compared with 77.6% by clinical examination. Mean CSA was 11.90 ± 4.58 mm 2 . Loss of fascicular pattern was seen in 63.3%, altered echogenicity in 87.8%, and increased intraneural vascularity in 57.1%. HRUS showed sensitivity 93.6%, specificity 50.0%, positive predictive value 97.8%, negative predictive value 25.0%, and overall accuracy 91.8% for detecting ulnar nerve involvement. Conclusion: HRUS is a useful, noninvasive adjunct for objective detection and characterization of ulnar nerve involvement in leprosy and complements clinical assessment.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/b978-0-12-405210-9.00006-0",
       "zotero_key": "S4ZJP2TJ",
@@ -19952,6 +21545,120 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Schnyder corneal dystrophy"
+    },
+    {
+      "pmid": "42158990",
+      "doi": "10.1161/circep.125.014433",
+      "zotero_key": "9HF5NZRT",
+      "title": "Scope and Outcome of Early Repolarization Syndrome in Unexplained Cardiac Arrest: Insights From the National HiRO Registry",
+      "authors": [
+        [
+          "Bhupesh",
+          "Jassal"
+        ],
+        [
+          "Benjamin M.",
+          "Moore"
+        ],
+        [
+          "Brianna",
+          "Davies"
+        ],
+        [
+          "Rafik",
+          "Tadros"
+        ],
+        [
+          "Julia",
+          "Cadrin-Tourigny"
+        ],
+        [
+          "Christian",
+          "Steinberg"
+        ],
+        [
+          "Simon",
+          "Hansom"
+        ],
+        [
+          "Jason D.",
+          "Roberts"
+        ],
+        [
+          "Paul",
+          "Angaran"
+        ],
+        [
+          "Martin S.",
+          "Green"
+        ],
+        [
+          "J S",
+          "Healey"
+        ],
+        [
+          "Laura",
+          "Arbour"
+        ],
+        [
+          "Ciorsti",
+          "MacIntyre"
+        ],
+        [
+          "David",
+          "Lee"
+        ],
+        [
+          "Christopher S.",
+          "Simpson"
+        ],
+        [
+          "Shubhayan",
+          "Sanatani"
+        ],
+        [
+          "Colette",
+          "Seifer"
+        ],
+        [
+          "Erkan",
+          "Ilhan"
+        ],
+        [
+          "Alexios",
+          "Hadjis"
+        ],
+        [
+          "Jacqueline",
+          "Joza"
+        ],
+        [
+          "Anne",
+          "Fournier"
+        ],
+        [
+          "Zachary W.M.",
+          "Laksman"
+        ],
+        [
+          "Habib",
+          "Khan"
+        ],
+        [
+          "Dr Andrew",
+          "Krahn"
+        ]
+      ],
+      "journal": "Circulation Arrhythmia and Electrophysiology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Early repolarization syndrome (ERS) is diagnosed in survivors of unexplained cardiac arrest (UCA) who exhibit a distinct ECG pattern of early repolarization (ER), defined as J-point elevation ≥0.1 mV in ≥2 contiguous inferolateral leads. UCA survivors without ER or another identifiable cause are classified as idiopathic ventricular fibrillation (IVF). This study evaluated long-term outcomes in ERS compared with IVF. METHODS: This retrospective cohort study analyzed patients from the CASPER (Cardiac Arrest Survivors with Preserved Ejection Fraction Registry) who survived UCA and had structurally normal hearts with an Implantable Cardioverter Defibrillator. Of 709 patients, 186 with explanatory diagnoses and no ER pattern were excluded. The remaining 523 were categorized as ERS (n=48), IVF (n=463), or UCA with ER plus an additional diagnosis (Dx+ER, n=12). Patients were followed for the primary outcome of appropriate Implantable Cardioverter Defibrillator therapy, and logistic regression identified predictors of arrhythmia recurrence. RESULTS: Corrected QT interval intervals were significantly shorter in ERS than in IVF (412±25 ms versus 431±41 ms; P &lt;0.01). Over a median follow-up of 5.6 years, appropriate Implantable Cardioverter Defibrillator interventions occurred in 23% of ERS and 13% of IVF patients ( P =0.09), with incidence rates of 3.0 and 1.5 per 100 person-years, respectively. Four deaths occurred (0.8%), with no significant difference between groups ( P =0.39). In Dx+ER, appropriate Implantable Cardioverter Defibrillator therapies occurred in 42% of patients (IR, 4.5 per 100 person-years). Arrhythmia-free survival was lower in ERS than in IVF ( P =0.03). After adjusting for age, sex, and ethnicity, ER was an independent predictor of arrhythmia recurrence (odds ratio, 2.59 [95% CI, 1.33–4.85]; P =0.004). CONCLUSIONS: ERS is associated with shorter corrected QT interval intervals and reduced arrhythmia-free survival compared with IVF, with an incidence rate of 3.0 per 100 person-years. These findings underscore the importance of careful ECG review in patients with apparent UCA, to detect ER and undertake individualized risk assessment in affected individuals.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41832525",
@@ -20942,6 +22649,36 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42149259",
+      "doi": "10.1007/s10661-026-15462-3",
+      "zotero_key": "SK58WG6G",
+      "title": "Spatiotemporal mapping and monitoring of wetland transformations and algal bloom patterns in Sambhar Lake, India",
+      "authors": [
+        [
+          "K.",
+          "Devananda"
+        ],
+        [
+          "Rajashree",
+          "Naik"
+        ],
+        [
+          "C Govardhana",
+          "Reddy"
+        ]
+      ],
+      "journal": "Environmental Monitoring and Assessment",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41981533",
       "doi": "10.1186/s12889-026-27299-z",
       "zotero_key": "J3W44EVJ",
@@ -21160,6 +22897,44 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42154064",
+      "doi": "10.1007/s11259-026-11271-8",
+      "zotero_key": "FAPTUI6A",
+      "title": "Streptococcus suis in Asia: epidemiology, transmission and zoonotic risk at the animal–human interface",
+      "authors": [
+        [
+          "Chew Yee",
+          "Tan"
+        ],
+        [
+          "Peck Toung",
+          "Ooi"
+        ],
+        [
+          "Michelle Wai Cheng",
+          "Fong"
+        ],
+        [
+          "Chee Yien",
+          "Lee"
+        ],
+        [
+          "Jia Wei",
+          "Lee"
+        ]
+      ],
+      "journal": "Veterinary Research Communications",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42047282",
       "doi": "10.1042/bsr20253955",
       "zotero_key": "JF3UZWXQ",
@@ -21254,6 +23029,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "KRT3"
+    },
+    {
+      "pmid": "42144865",
+      "doi": "10.4103/aam.aam_771_25",
+      "zotero_key": "88JGW7UC",
+      "title": "Study of Association of Sleep Disturbances with Maternal and Perinatal Outcomes",
+      "authors": [
+        [
+          "Kaustav",
+          "Saha"
+        ],
+        [
+          "Mayoukh Kumar",
+          "Chakraborty"
+        ],
+        [
+          "Hiralal",
+          "Konar"
+        ]
+      ],
+      "journal": "Annals of African Medicine",
+      "year": "2026",
+      "abstract": "Abstract Background: Pregnant women commonly experience sleep disturbances, which have been linked to hypertensive disorders, gestational diabetes, and adverse neonatal outcomes. However, evidence from Indian antenatal populations remains limited. This retrospective, hospital-based cross-sectional study assessed the association between sleep disturbances and maternal/perinatal outcomes among pregnant women attending an outpatient clinic. Materials and Methods: The study was conducted at the Department of Obstetrics and Gynecology, over 18 months (January 2023–June 2024). One hundred consecutive antenatal women were recruited based on the predefined criteria. Sleep-related exposures included total sleep duration, perceived sleep quality, difficulty initiating sleep, nighttime awakenings, habitual snoring, self-reported sleep apnea, and restless legs syndrome (RLS). Maternal variables included gravidity, previous abortions, high-risk status, antepartum events, premature rupture of membranes, mode of delivery, and liquor volume. Neonatal outcomes assessed were need for resuscitation, complications, neonatal intensive care unit (NICU) stay &gt;24 h, and APGAR scores at 1 and 5 min. Data were analyzed using the descriptive statistics and Chi-square, t -test/Mann–Whitney U , or Kruskal–Wallis tests (SPSS v20), with P &lt; 0.05 considered statistically significant. Results: Most participants were aged 21–30 years (61%) and primigravid (51%). Poor sleep quality (43%), snoring (49%), self-reported apnea (17%), and RLS (29%) were common. Poor sleep quality, short sleep duration, snoring, and nocturnal awakenings were significantly associated with high-risk maternal status and NICU stay &gt;24 h. Lower APGAR scores were noted among women reporting short sleep, snoring, or apnea. Conclusion: Multiple dimensions of disturbed sleep were significantly associated with adverse maternal characteristics and early neonatal compromise. Incorporating brief sleep screening into routine antenatal visits may help identify at-risk mothers for timely intervention.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "40384764",
@@ -21720,6 +23525,48 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42141811",
+      "doi": "10.1111/nph.71277",
+      "zotero_key": "VQSCF6B7",
+      "title": "Temperate tree species show cross‐tolerance to heat, drought, and late spring‐frost stress",
+      "authors": [
+        [
+          "Norbert",
+          "Kunert"
+        ],
+        [
+          "Jonathan",
+          "Ehrmann"
+        ],
+        [
+          "Svenja",
+          "Gebhard"
+        ],
+        [
+          "Sophie",
+          "Hofmann"
+        ],
+        [
+          "Georg",
+          "Zimmermann"
+        ],
+        [
+          "Peter",
+          "Hajek"
+        ]
+      ],
+      "journal": "New Phytologist",
+      "year": "2026",
+      "abstract": "Significant cross-tolerance of leaf traits to heat, drought and late spring-frost were found. (a) Turgor loss point vs lethal spring-frost temperature. (b) Heat thermal threshold temperature vs lethal spring-frost temperature. (c) Heat thermal threshold temperature vs turgor loss point. Climate change has triggered advances in spring phenology, here referred to as the trend of trees exhibiting earlier leaf unfolding, combined with a persisting risk of late spring-frost events (Augspurger, 2009; Bigler & Bugmann, 2018; Lamichhane, 2021). Over the past six decades, the progressively earlier onset of warm spring temperatures has led to shifts in phenological timing (Zohner et al., 2020; Kunert & Gebhard, 2026) (Supporting Information Fig. S1). Along with an earlier leaf unfolding, the frequency of spring-frost events has intensified by 35% over the same period in Europe and Asia (Zohner et al., 2020) increasing the risk of late spring-frost damage to the young foliage (Inouye, 2000; Lamichhane, 2021). Late spring-frost damage can substantially reduce annual productivity (Dittmar et al., 2006; Sangüesa-Barreda et al., 2019; Vitasse et al., 2019), forcing trees to access carbon reserves to maintain metabolic activity and support leaf re-flushing after such events (D'Andrea et al., 2019). A reduction in carbon reserves in turn will reduce a tree's capacity to deal with other stressors. Whereas extensive work is currently being conducted to understand tree responses to tolerate or acclimate to multiple stressors, particularly the combined stress induced by drought and heatwaves (e.g. Hammond et al., 2022), less attention has been given to the effects of late spring-frost as third stressor. Given the high relevance of the accelerating frequency of forest die-off events, the identification of general adaptive trait syndromes to tolerate multiple stressors has high importance in predicting responses to ever-emerging climate change (Niinemets, 2010). Promising physiological traits describing tree species' adaptation to excessive temperatures are measured via Chl fluorescence by assessing photochemical efficiency (Fv/Fm) and reflect the reaction of the most thermal sensitive components of the Photosystem II (PSII) to increasing heat exposure (Tiwari et al., 2021; Slot et al., 2021). A threshold for irreversible damage to the photochemistry is the temperature at which the quantum efficiency declines by 50% (T50) (Tiwari et al., 2021; Krause et al., 2010). T50 has been found to correlate with drought resistance traits, such as the turgor loss point (πtlp) in temperate tree species (Münchinger et al., 2023), woody vegetation across temperate biomes (Mitchell et al., 2025), and shrubs from semi-arid climates (Guo et al., 2025). Explanations for this convergence in heat and drought resistance traits in woody species might be of an ecological and evolutionary nature as dry regions are characterized by higher temperatures (Hauck et al., 2025). In contrast to the rapidly emerging knowledge on how trees deal with drought and heat, quantitative measures on late spring-frost resistance are rare and mostly come from observation during natural frost events (Augspurger, 2009, 2013). Whereas general trends of late spring-frost resistance can be taken from those observations, such observational studies do not give any quantitative measure of how intense the frost event needs to be to cause significant damage. To reliably predict possible damage due to persisting late spring-frost risk, critical threshold temperatures are urgently needed. Traits representing the late spring-frost resistance during leaf out can be assessed analogously to the trait assessment of heat tolerance described above (Kunert & Gebhard, 2026). In a broader setting, the method has been used to quantify the freezing tolerance of plant species in alpine (Taschler & Neuner, 2004; Neuner & Pramsohler, 2006; Neuner et al., 2013; Bucher et al., 2019) and boreal ecosystems (Lamontagne et al., 2000), but also recently to test late spring-frost resistance of temperate trees (Kunert & Gebhard, 2026). The last-mentioned study provided empirical evidence that the in vitro assessment of the late spring-frost tolerance reflects the actual frost damage caused by a natural late spring-frost event (Kunert & Gebhard, 2026). It remains uncovered how these late spring-frost resistance traits relate to other traits, in particular traits with explanatory power for responses of tree species to climate change. Although the importance of heat and drought resistance traits in woody species is increasingly recognized, the relationship between these traits and other key characteristics, such as late frost resistance, is not well understood. In particular, the interaction between late frost resistance traits and other adaptive traits influencing tree species' responses to climate change is unclear. A better understanding of these relationships could provide crucial insights into how trees cope with multiple climate-induced stresses. Here we aim to determine whether leaf thermal tolerance and drought resistance traits expressed during the mid-summer growth phase are associated with, or contrast with, the late frost tolerance of newly emerging spring leaves. We quantified the sensitivity of photosystem II (PSII) to temperature extremes by determining the temperature at which its maximum quantum yield decreased by 50% (T50 for heat and LT50 for cold) in 19 temperate broadleaf tree species that are native to Central Europe or that are projected to expand into the region under future climate scenarios. Additionally, we evaluated leaf-level drought tolerance during the peak growing season by determining the leaf turgor loss point (πtlp). Our overarching goal was to provide an integrated assessment of potential cross-tolerance among heat, drought and late frost stresses. Specifically, we tested the prevailing expectation that adaptation to warmer and drier climates comes at the cost of reduced frost tolerance. Species from warmer climates are expected to have lower chemical resistance and unsuitable physiological structure preventing the establishment of those species in new regions (e.g. Wen et al., 2018). From our measured frost, drought and heat tolerance thresholds (Table S1), we found consistent positive relationships among all three tolerance traits (Fig. 1), providing clear evidence against a trade-off between heat, drought and late-frost resistance (Fig. S2). A cross-tolerance in drought resistance and frost hardiness (Fig. 1a) has so far only been connected in conifers during winter months (e.g. Blödner et al., 2005; Kreyling et al., 2012) but has not yet been described in broad-leaved tree species, during late frost events in spring. The phenomena of cross-tolerance in evergreen conifers have some logical explanation. During warm weather conditions in winter, stomata are opening and water starts to move through the trees. However, the trees are unable to replace the water lost through the leaves and stems as the soil water remains frozen. This winter thawing causes drought stress, and the accumulation of solutes in the leaves makes plants more resistant to winter dehydration (Bigras et al., 2001; Thalheimer et al., 2024). On the other hand, a high concentration of cytoplastic solutes avoids ice formation (Bigras et al., 2001; Thalheimer et al., 2024). Morin et al. (2010) show that more cold-resistant shoot segments of oaks maintain higher carbohydrate concentrations from the beginning of dormancy until bud burst. Therefore, we assume that in our study species characterized by higher late-frost tolerance are also characterized by a higher cytoplasmic solute concentration. Rapid osmotic adjustment in young leaves (Kunert, 2025) and higher freezing resistance in early flushing species (Vitra et al., 2017) support the idea that solute accumulation may link frost and drought tolerance via shared osmotic regulation mechanisms. The observed cross-tolerance in heat and frost tolerance (Fig. 1b) finds its explanation on a cellular level as well. Both stressors, heat, and freezing, induce similar reactions in the plant cell such as oxidative stress, signaling responses, protein denaturation, and membrane damage (Hossain et al., 2018). Such cross-tolerances between heat and frost tolerance have been described as mainly induced by the priming effect of one stressor increasing the tolerance to the other stressor after being exposed to the first stressor (Walter et al., 2013; Antoniou et al., 2016). We are not aware of any priming event causing the trait correlation, however, we cannot rule out any priming capacities among species or environmental events in the recent past. Hence, we speculate that there might be common adaptive mechanisms of leaves that prevent the negative effects of temperature stress of both extremely low and high temperatures. At least for cross-tolerance between drought and heat tolerance (Fig. 1c), we know that this cross-tolerance is also expressed in leaf structural traits. For example, Münchinger et al. (2023) show that drought and heat tolerance were in the level xeromorphy of leaves, with thicker and tougher leaves showing less sensitivity. Interestingly, the slope of the relationship between T50 and πtlp described by Münchinger et al. (2023) was like our study (slope Münchinger et al. (2023): −5.1; slope this study: −5.3; compare Fig. 1c), what points into the direction of a strong general relationship between these two traits even across different temperate biomes (Mitchell et al., 2025). Together, these findings challenge the common assumption that species adapted to warmer and drier climates necessarily sacrifice frost tolerance. Instead, our results indicate that tolerance to climatic extremes is coordinated across stress axes, suggesting the existence of an integrated stress-resistance syndrome in temperate broadleaf trees. Our results reveal an additional, previously neglected dimension of low-temperature stress. One-third of the investigated tree species exhibited significant declines in PSII efficiency at temperatures above 0°C, indicating chilling injury rather than freezing damage. Physiological impairments caused by low, nonfreezing temperatures are referred to as chilling injury, in contrast to freezing below 0°C (Guo et al., 2018; Liu et al., 2018). Physiological impairment due to chilling temperatures has been described for a large variety of crop species (for an overview, see Kratsch & Wise, 2000 and Lukatkin et al., 2012) but has not yet been observed to affect temperate trees. However, physiological impairment caused by small temperature drops might not always be visible but can reduce productivity during the subsequent growing season (Korovin, 1968 as cited in Lukatkin et al., 2012). Chilling temperatures can impair multiple physiological processes, including photosynthesis, even when ice formation does not occur (Lukatkin et al., 2012). The significant injury usually arises at temperatures below 15°C (Raison & Lyons, 1986). In temperate regions those temperatures are common and might even occur during the peak growing season (Bramlage & Meir, 1990). Thus, plants evolved in a temperate environment should tolerate such temperature ranges. However, Bramlage & Meir (1990) also state that tolerating chilling temperatures does not mean to be immune to injury but to have a certain level of resistance to lower temperatures. In our study, the exposure to temperatures below 1.7°C inhibited a significant decline in photosynthetic quantum use efficiency and thus chilling injury. The photosystem in the chloroplast is commonly the most sensitive component of the plants showing the earliest ultrastructural changes after a chilling event (Kimball & Salisbury, 1973). The two most sensitive species were oriental beech and oriental hornbeam (LT50: 1.68°C and 1.19°C, respectively). Both species have their natural distribution in areas with lower late frost risk than in our study area. Their natural range is also characterized by higher temperatures and drier summer conditions during the summer months than our study area but did not show higher tolerance to heat and drought in their trait expression. We assume that despite the existence of hereditary the expression of those traits is more influenced by acclimation to the new site than by adaptation to the original site when species are relocated to other areas (Konôpková et al., 2018; Kurjak et al., 2019). It is noticeable that the most cross-tolerant species tend to have the broadest natural distributions, such as pedunculate oak and European hornbeam, whereas the most sensitive species are restricted to comparatively narrow ranges in the Caucasian region. This pattern suggests that distribution range, rather than origin from climatically extreme regions per se, may favor the evolution of coordinated stress tolerances. Botanical material for this study was collected from trees growing on the campus and the Ecological Botanical Garden of the University of Bayreuth, Northern Bavaria in Germany (49.9261188° N, 11.5841229° E). The climate at Bayreuth is a marine west coast, warm summer climate. The mean annual precipitation rate is 960 mm and the mean annual temperature of 8.9°C at an elevation of 340 m above sea level (Kunert et al., 2024). There is a significant spring warming trend over the last 65 yr; however, spring late-frost events do occur on a regular basis (see Fig. S1). For this study, we chose 19 tree species that cover wide environmental ranges, from the temperate and Atlantic regions of Western and Central Europe to the sub-Mediterranean and continental areas of Southeastern Europe and Anatolia (Table S1). For all these 19 species, at least three individuals are growing on campus or the Ecological Botanical Garden. For all measurements, we collected one sun-exposed branch from three tree individuals per species. After cutting the branches, they were placed in opaque plastic bags that contained moist tissue to avoid dehydration. The plastic bags were brought to the laboratory immediately after collecting the branches and further processed. In the laboratory, branches were recut under water to remove the embolized cut end of the branch. Branches were placed in buckets with water and covered with opaque plastic bags. After an overnight rehydration period, leaves were sampled from the rehydrated branches for further processing. Botanical material for assessing heat tolerance was collected on 7 August 2023 and prepared as described above. We used an overall 40 leaves per species to establish a thermal vulnerability curve. Therefore, per branch 13–14 leaves were selected. We punched leaf discs out of the leaves with 3 cm in diameter. All leaf discs were dark-acclimated for 30 min, and the initial maximum photosynthetic efficiency (Fv/Fm) was measured with a Chl fluorometer (MINI-PAM, Walz, Effeltrich, Germany). This ensured that we used only healthy leaves with an Fv/Fm between 0.83 to 0.75. The leaf discs were randomly assigned to one of eight temperature treatments between 25°C and 60°C (Kunert & Hajek, 2022). We placed the leaf discs on stiff plastic sheets, and we fixed the leaf discs with perforated medical tape (Transpore™, 3M™ GmbH, Austria) on the plastic sheets. The leaf discs were then covered with moist tissue to avoid dehydration. The plastic sheets were placed in water-tight ziplock bags and submerged in a water bath for 30 min. Water baths were maintained with sous vide precision cookers at stable temperatures. After the temperature treatment, the leaf discs were incubated under controlled conditions (c. 20°C, c. 20 μmol m−2 s−1 light) for c. 24 h. The recovery of Fv/Fm was measured after a 30-min dark adaptation period. Botanical material for the late spring-frost tolerance was sampled from the same three trees per species as for the heat tolerance on 17 April 2024 (Kunert & Gebhard, 2026). Unfortunately, Italian maple and Norway maple were not measured during this campaign due to logistics constraints. We followed the same sampling protocol and sample preparation protocol as described above. Briefly, one sun-exposed branch per individual was collected, recut under water, and prepared for overnight rehydration. On the next day, discs were punched out of the leaves. Where leaves were not fully unfolded, we used scissors to cut round shapes out of the leaf to induce the same injury in all leaf samples. All leaf discs were tested for healthiness with the Chl fluorometer and attached to stiff plastic sheets with perforated medical tape. The plastic sheets were covered with moist tissue. We added two drops of ‘Snomax’ solution (Snomax LLC, Englewood, CO, USA) to the tissue as an extrinsic nucleator. Snomx induces uniform ice nucleation c. −2°C and thus avoids treatment artifacts due to supercooling (Mittelstädt & Rudolph, 1998; Wisniewski et al., 2014). To treat the leaf discs with different freezing temperatures we used commercial freezers. The freezers were equipped with a heating system that allowed precise control of the temperature in each drawer. Therefore, each drawer was equipped with a ventilated heater (ventilated car heater 150 W, Shenzhen Caiqi Digital Technology, Shenzhen, China). Temperature was regulated with a microcontroller unit (Arduino Mega, Arduino, Ivrea, Italy) in combination with a thermostat. With the microcontroller, we simulated naturally occurring cooling rates of 2°C h−1 (Neuner et al., 2013) and kept the temperature in the drawer at a given target temperature for 4 h. We treated the leaf discs at eight different target temperatures at −16, −8, −4, −2, 0, +2, +4, and +10°C. After these 4 h, we warmed up the drawer with a thawing rate of 2°C h−1. After the treatment leaf discs were incubated under controlled conditions (15°C, c. 20 μmol m−2 s−1 light) for 24 h and the recovery of Fv/Fm was measured after a 30-min dark adaptation period with a Chl fluorometer (Kunert & Gebhard, 2026). Pearson's product–moment correlation coefficient was utilized to measure the bivariate relationships between T50, πtlp and LT50. The assumptions of normality and homogeneity of variance were tested using Shapiro–Wilk and Levene's test, respectively. To evaluate multivariate relationships between the three physiological tolerance traits (T50, πtlp, and LT50), a PCA was performed. Before analysis, data were centered and scaled to ensure equal weighting of all variables. Italian maple and Norway maple were removed from the analysis, since their LT50 value could not have been measured as mentioned above, resulting in 17 species for the multivariate analysis (n = 17). The PCA was conducted using the prcomp function in R Core Team (2024). Results were then visualized as a distance biplot using the factoextra package (Kassambara & Mundt, 2020). We want to thank Burkhard Stumpf for technical support. Open Access funding enabled and organized by Projekt DEAL. None declared. NK, JE and PH designed the study. NK, SG, SH and GZ collected the data. NK and JE performed the statistical analysis. NK wrote the first version of the manuscript. All authors contributed to drafting the final version of the manuscript. The data are available at Fig. in spring temperatures by the first warm of the and the last since until Fig. PCA of the three investigated physiological tolerance traits (T50, πtlp and of the measured traits for the 19 tree species. is not for the or of any Information by the than should be to the Central The is not for the or of any by the than should be to the for the The remains with to in and in any",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41721608",
       "doi": "10.1111/ijlh.70066",
       "zotero_key": "D57UARGW",
@@ -21758,26 +23605,144 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "41866965",
-      "doi": "10.1177/15209156261435242",
-      "zotero_key": "BMJPBNDM",
-      "title": "Temporal Discontinuity in Continuous Glucose Monitoring: How Midnight Segmentation Generates Systematic Measurement Artifact",
+      "pmid": "42157174",
+      "doi": "10.1186/s12889-026-27781-8",
+      "zotero_key": "EV5VD7VQ",
+      "title": "Ten-year cardiometabolic progression and health-related quality of life in individuals with isolated abdominal obesity",
       "authors": [
         [
-          "Mark E.",
-          "Paull"
+          "Lazzat",
+          "Nazarova"
+        ],
+        [
+          "Gulnaz",
+          "Nuskabayeva"
+        ],
+        [
+          "Galiya",
+          "Аssanova"
+        ],
+        [
+          "Magzhan",
+          "Tilemissov"
+        ],
+        [
+          "Gulmira",
+          "Izzatullayeva"
+        ],
+        [
+          "Dilbar",
+          "Aidarbekova"
+        ],
+        [
+          "Karlygash",
+          "Sadykova"
+        ],
+        [
+          "Yerbolat",
+          "Saruarov"
         ]
       ],
-      "journal": "Diabetes Technology & Therapeutics",
+      "journal": "BMC Public Health",
       "year": "2026",
-      "abstract": "Continuous glucose monitoring (CGM) generates dense physiological time-series data sampled every 5 min across 24-h periods. Standard analytical approaches impose calendar-based temporal boundaries-treating midnight as a natural segmentation point-despite glucose homeostasis operating through continuous circadian oscillators that recognize no such delimiter. This structural misalignment introduces a systematic measurement artifact: biologically continuous overnight patterns are bisected at 00:00, artificially inflating glycemic variability estimates and obscuring individual circadian phase relationships. We analyzed approximately 60 days of CGM data, comparing three binning strategies: (1) 24 linear hour-bins (conventional), (2) 36 linear 40-min bins (resolution control), and (3) 36 angular 10° bins (circular topology). Shannon entropy with variance-weighted probabilities quantified information content. Bootstrap resampling (1000 iterations) and null topology permutation (random within-day time-permutation, 1000 iterations) distinguished genuine temporal structure from mathematical artifact. Circular representation demonstrated 12.1% higher information entropy compared to linear binning at matched resolution (3.56 vs. 3.18 bits, P r = 0.31 vs. r = 0.87, P P < 0.001), with 1.97-fold variance differential between evening (21:20-00:00) and midday (11:20-14:00) zones. Midnight segmentation introduces quantifiable information loss through temporal discontinuity. Circular time representation-mapping 24-h cycles onto angular coordinates using established directional statistics-eliminates this artifact while preserving temporal information. Current glycemic variability metrics (coefficient of variation, time-in-range) calculated within midnight-bounded periods inherit discontinuity artifacts, potentially misclassifying normal circadian oscillations as pathological variability. Adoption of circular frameworks would align CGM analytics with chronobiological principles and enable individual circadian phenotyping without data manipulation. This represents methodological infrastructure requiring prospective validation for clinical utility.",
+      "abstract": "Increasing evidence suggests that abdominal fat distribution is a greater predictor of metabolic risk (MetS) than BMI. This study aimed to evaluate the 10-year cardiometabolic consequences of isolated abdominal obesity (IAO) and its association with MetS and health-related quality of life (HRQoL). This longitudinal cohort study included 552 adults from the Turkestan region of Kazakhstan who underwent baseline assessment in 2014 and follow-up examination in 2024. Anthropometric, clinical, and laboratory parameters were measured, and the HRQoL was assessed by the SF-36 questionnaire. At baseline, 403 participants (73%) had IAO, and 149 (27%) did not. Participants with IAO were older (45 vs. 37 years, p < 0.001) and more frequently female (79%). They had higher body weight, waist circumference, BMI, blood pressure, and unfavorable metabolic parameters, including higher cholesterol, triglyceride, and glucose levels (all p < 0.05). Metabolic syndrome was more prevalent in the IAO group (30% vs. 1%, p < 0.001). After 10 years, IAO was observed in 472 participants: 97% of those with IAO at baseline remained obese, compared with 54% of those without baseline obesity who developed it (p < 0.001). Baseline IAO independently predicted incident metabolic syndrome (ORadj = 1.34; p = 0.041). Participants with persistent IAO had lower HRQoL scores in physical functioning, general health, and mental health than individuals without IAO (p < 0.05). Persistent isolated abdominal obesity was associated with lower health-related quality of life and independently predicted metabolic syndrome over the 10-year follow-up period. These results highlight the importance of assessing abdominal adiposity in clinical practice.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:recent"
       ],
       "category": "6 - Genes",
-      "subcollection": "PRPH2"
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "41587732",
+      "doi": "10.1016/j.ejphar.2026.178597",
+      "zotero_key": "63QMMQDU",
+      "title": "TGR5 rescues renal ischemia-reperfusion injury by suppressing ferroptosis and cAMP/PKA/Nrf2 axis",
+      "authors": [
+        [
+          "Suhan",
+          "Zhou"
+        ],
+        [
+          "H.",
+          "Wang"
+        ],
+        [
+          "Huanhuan",
+          "Zhu"
+        ],
+        [
+          "Shilong",
+          "Xiang"
+        ],
+        [
+          "Minjing",
+          "Zhang"
+        ],
+        [
+          "Meifang",
+          "Wang"
+        ],
+        [
+          "Weilian",
+          "Feng"
+        ],
+        [
+          "Guizhen",
+          "Yu"
+        ],
+        [
+          "Bingjue",
+          "Li"
+        ],
+        [
+          "Fanghao",
+          "Cai"
+        ],
+        [
+          "Jingyi",
+          "Zhou"
+        ],
+        [
+          "Zheng",
+          "Li"
+        ],
+        [
+          "Runzhi",
+          "Zhu"
+        ],
+        [
+          "Xiang",
+          "Yan"
+        ],
+        [
+          "Jianghua",
+          "Chen"
+        ],
+        [
+          "En Yin",
+          "Lai"
+        ],
+        [
+          "Gensheng",
+          "Zhang"
+        ],
+        [
+          "Fei",
+          "Han"
+        ]
+      ],
+      "journal": "European Journal of Pharmacology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SLC4A11"
     },
     {
       "pmid": "24821103",
@@ -23632,6 +25597,48 @@
       "subcollection": "Congenital cataracts"
     },
     {
+      "pmid": "42142160",
+      "doi": "10.1007/s00192-026-06687-4",
+      "zotero_key": "C3UHBVRN",
+      "title": "Two-Year Real-World Outcomes in Women with Genitourinary Syndrome of Menopause Following Fractional CO2 Laser Treatment",
+      "authors": [
+        [
+          "Telal",
+          "Doğruel"
+        ],
+        [
+          "Pinar",
+          "Kadirogullari"
+        ],
+        [
+          "Hikmet Can",
+          "Dogruel"
+        ],
+        [
+          "Ümran Karabulut",
+          "Doğan"
+        ],
+        [
+          "Erhan Hüseyin",
+          "CÖMERT"
+        ],
+        [
+          "Ozan",
+          "Doğan"
+        ]
+      ],
+      "journal": "International Urogynecology Journal",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41948861",
       "doi": "10.1002/adma.72975",
       "zotero_key": "76IB98V7",
@@ -23726,6 +25733,40 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Binocular vision, Vision binoculaire"
+    },
+    {
+      "pmid": "42153448",
+      "doi": "10.1002/pmrj.70146",
+      "zotero_key": "XFXM57EH",
+      "title": "Ultrasound‐guided release versus surgical release for treatment of carpal tunnel syndrome",
+      "authors": [
+        [
+          "Erek",
+          "Latzka"
+        ],
+        [
+          "Kyle",
+          "Eberlin"
+        ],
+        [
+          "Justin C.",
+          "McCarty"
+        ],
+        [
+          "Walter",
+          "Sussman"
+        ]
+      ],
+      "journal": "PM&R",
+      "year": "2026",
+      "abstract": "A 40-year-old right-handed woman with no significant past medical history presents to clinic with 1 year of progressively worsening right wrist pain and hand numbness. She denies any inciting event or trauma. She works as an administrative assistant and she has three children (ages: 1, 3, and 6 years). She reports nocturnal pain, frequent hand numbness, and difficulty gripping objects. It has significantly affected her ability to do her job as well as take care of her children. Physical exam shows mild–moderate thenar atrophy. On strength testing her abductor pollicis brevis (APB) is a 4/5. She has diminished sensation in the median nerve distribution. She has a positive Tinel's at the wrist and Phalen's within 5 s. Recent electrodiagnostic testing shows moderate to severe sensorimotor median nerve compression with a compound muscle action potential amplitude of 3 mV. Electromyography (EMG) of the APB showed 1+ positive sharp waves. She has tried night splints for 6 months with minimal relief. She has been to occupational therapy and tried median nerve glides and ergonomic evaluation with minimal relief. She has undergone two steroid injections that gave her 2 months of moderate relief, but the pain always returns. She is interested in definitive solution for her symptoms and wants to know what the best option is. Drs Erek Latzka and Walter Sussman will argue for ultrasound- guided carpal tunnel release. Drs Kyle Eberlin and Justin McCarty will argue for surgical carpal tunnel release. Carpal tunnel syndrome (CTS) is the most prevalent entrapment neuropathy, affecting roughly 5% of the adult population.1 Although open carpal tunnel release (OCTR), mini-OCTR (mOCTR), and endoscopic carpal tunnel release (ECTR) have long been the accepted standard of care, less invasive options have emerged. Ultrasound-guided carpal tunnel release (USGCTR) offers similar efficacy and a faster recovery than conventional open or mOCTR procedures. This discussion evaluates these image-guided approaches, emphasizing the growing data on clinical outcomes, return to work (RTW), safety, and cost. USGCTR has been performed since 1997 with various tools, including but not limited to hook knives, needles, scalpels, metallic thread, and the Sonex Health UltraGuideCTR device2-7. Despite the differing tools, they all share a common goal: the safe and complete transection of the transverse carpal ligament, without the need for sutures. To accomplish this goal, the transection must occur within an anatomically safe zone, bordered by the median nerve, the ulnar artery, and its superficial palmar arch6, 8, 9. The safe zone can vary significantly among individuals. Real-time mapping with diagnostic ultrasound is essential for delineating the zone and identifying critical neurovascular structures, including the thenar motor branch, third common palmar digital nerve, palmar cutaneous branch, and anatomic variants, such as a persistent median artery or Berrettini anastomosis.7 In this case, the patient is not just seeking symptom relief, but a prompt functional recovery that allows her to return to full caregiving and professional duties. Multiple randomized controlled trials (RCTs) have found that USGCTR offers long-term symptom resolution and functional outcomes consistent with or better than those of mOCTR and OCTR. In the TUTOR (Trial of Ultrasound Guided Carpal Tunnel Release Versus Traditional Open Release) multicenter RCT, Eberlin et al. showed that USGCTR (n = 94) led to equivalent improvements in pain and function at 1 year on the Boston Carpal Tunnel Questionnaire and EuroQol-5 Dimension-5 Level quality-of-life index when compared to the mOCTR procedure. In an intraparticipant RCT among patients with bilateral CTS, USGCTR demonstrated greater improvement in pain (visual analog scale) and function (Boston Carpal Tunnel Questionnaire) at 1 week when compared to mOCTR on the contralateral side.10 Although there was no meaningful difference observed beyond 1 week, all except one patient expressed a preference for the USGCTR procedure, citing faster recovery and less pain.10 There are data to support the sustained benefit of USGCTR from 1 to 6 years after the procedure. In a multicenter registry study, Aguila et al. reported sustained improvements at 1 year following 341 USGCTRs, with no differences in outcomes based on patient age, body mass index, or whether the procedure was unilateral or bilateral.11 In addition, Kim et al. presented 168 patients with severe CTS that underwent USGCTR and reported sustained improvements >2 years after the procedure.12 Finally, Cano et al.2 followed 102 patients (162 hands) for 2–6 years (mean 46 months) and reported sustained improvements in pain and function, with a 91% satisfaction rate, and no patients required a revision surgery2. Postprocedure radiologic findings also validate the clinical success of USGCTR. Magnetic resonance imaging studies have confirmed complete transverse carpal ligament transection and reduced nerve edema and flattening after USGCTR.13 Additionally, studies evaluating postoperative sonographic findings have documented significant reductions in median nerve cross-sectional area within 2–4 weeks of USGCTR, correlating with clinical recovery.14 For this mother, delays in recovery are not a minor inconvenience—they affect her ability to work, care for her children, and function independently. Fortunately, recovery time favors USGCTR. In the TUTOR RCT, USGCTR patients had an average RTW time of 8.7 days – half that of the mOCTR (17.4 days).15 Multiple other RCTs have supported the faster recovery and RTW after USGCTR (range: 4.4 to 12 days) when compared to the mOCTR (range: 25.5 to 33 days).16-18 Real-world data reinforce these outcomes. The prospective multicenter ROBUST (Multicenter Prospective Trial of Office-Based Carpal Tunnel Release With Ultrasound Guidance) trial found that in 149 participants (226 hands), many of them manual laborers, the median RTW time was 4 days after USGCTR, with 77% of patients back to work by day 5.19 Furthermore, over half of the patients in the ROBUST trial underwent simultaneous bilateral USGCTR, with functional and RTW outcomes similar to unilateral procedures, reinforcing the immediate utility of the hands post procedure. In another registry of 544 patients across 24 centers, the reported median RTW time was 3 days overall and 4 days among 126 heavy manual laborers, with 74.6% of patients back to work by day 5.20 In contrast, traditional surgical techniques have an average RTW of 31.4 days (OCTR), 21.1 days (mOCTR), and 17.6 days (ECTR) based on a recently published meta-analysis of 48 studies (7386 patients).21 This patient, with her three young children and high physical caregiving demands, cannot afford a protracted or complicated postoperative course. Therefore, educating her on the potential adverse events and complications is essential. USGCTR demonstrates low complication rates (range 0%–2.1%) across a broad spectrum of studies including systematic reviews, RCTs, prospective multicenter trials, real-world registries, and large case series.3, 4, 10, 11, 15, 19, 22 These rates appear to be comparable or less than traditional surgical complication rates. In a Cochrane systematic review of 19 RCTs comparing OCTR versus ECTR, Vasiliadis et al. reported complication rates of 8.7% for OCTR versus 5.6% for ECTR. Importantly, major complications were rare (<1%) and equivalent between groups. However, ECTR was associated with reduced minor and total complications compared to open release and had a faster RTW by an average of 8.1 days.23 These findings are echoed in more recent analyses of USGCTR. In a 2023 systematic review of 1772 USGCTR cases, there was an overall complication rate of just 1.4%, with no permanent neurovascular injuries.3 The prospective, multicenter ROBUST trial, which included 149 participants (226 hands), reported a single transient nerve contusion (0.4%) thought to be caused by an elevator, no infections, no revisions for persistent/recurrent symptoms, and no significant lasting complications during the 6-month follow-up period.19 Over half of patients in the ROBUST trial underwent simultaneous bilateral USGCTR with no increase in adverse events—underscoring the immediate postprocedural hand functionality and safety profile relevant to this case. The TUTOR RCT found no significant difference in complication rates between USGCTR (2.1%) and mOCTR (3.6%), and neither group required revision surgery. Most notably, one USGCTR patient experienced a partial third common digital nerve injury (treated with reexploration and a nerve wrap) and one mOCTR patient experienced wound dehiscence (treated with additional sutures). However, USGCTR patients had significantly smaller incisions (6 vs. 22 mm) and less scar-related discomfort at 3 months (31% vs. 84%) and 12 months (5% vs. 26%).4, 15 Several additional studies reinforce the safety profile of USGCTR. Like the TUTOR RCT, Akhoondinasab et al.'s16 RCT reported lower pain and improved scar cosmesis in the USGCTR group. In an intraparticipant RCT of bilateral USGCTR, Meaike et al.10 reported no complications. Aguila et al.'s multicenter registry of 341 hands found only two revisions for incomplete release, one infection, and one tendon injury – rates comparable to traditional techniques. Finally, North et al. reported 300 consecutive thread USGCTR procedures with no neurovascular injury. Taken together, these findings demonstrate that USGCTR not only meets the safety standard of existing techniques but also offers significant advantages with respect to recovery. For this patient, the ability to return to full, bimanual caregiving duties immediately and without risk of wound-related issues makes USGCTR the optimal choice. USGCTR delivers compelling value for both payers and society. Ekhtiari et al. performed a cost-utility analysis comparing OCTR, ECTR, and USGCTR and found that USGCTR was superior. USGCTR provided the lowest total cost ($3871), highest quality-adjusted life years (QALY) gain (0.43), and fastest RTW (3 days vs. 21.1 days for OCTR and 17.6 days for ECTR). USGCTR produced an estimated societal cost savings of $4800 and $4700 compared to OCTR and ECTR, respectively. Although less invasive than OCTR, the endoscopic approach does not offer the same cost savings as USGCTR. Zhang et al.'s review of 16 million patient records found that ECTR incurs higher costs (~1.6× the cost of OCTR, p < .0001) without commensurate benefit (Zhang et al., 2016).24 The superior cost savings of USGCTR was due to avoidance of operating room and anesthesia costs, and faster RTW with little need for rehabilitation.19, 25 Although office-based USGCTR is not currently covered by many insurance carriers, patients have expressed a willingness to pay out of pocket for a faster recovery and smaller incisions. In a survey of 122 individuals, 73% and 86% were willing to pay for a procedure that reduced RTW time by 3 and 14 days, respectively; 88% would pay to reduce the incision size by 2 cm (Alokozai et al., 2021; Asserson et al., 2022).26, 27 In conclusion, USGCTR is a safe procedure with few reported complications and clinical outcomes equal to or better than traditional surgical techniques. In light of the existing data, USGCTR is not only the better choice for our patient but should be considered the preferred standard of care for recalcitrant carpal tunnel syndrome. The patient's presentation—a 40-year-old with a year of progressive symptoms, thenar eminence atrophy, weakness of the APB, objective sensory loss, and electrodiagnostic evidence of moderate-to-severe median neuropathy—signals advanced CTS that should warrant prompt surgical decompression. Additionally, in such a patient, an earlier surgical referral steroid injections would be The of and the of both that patients with severe CTS or those to after 3 to 6 months of therapy should be surgical 2 muscle is a of median nerve compression and the need for in definitive risk median nerve of motor in this patient, including thenar and the is of injury. with such patients all strength or surgical is in with progressive motor Carpal tunnel performed in patients with thenar hand strength by in and in strength at 6 months However, is the potential for be OCTR also for a not in this case, be considered in with and weakness to palmar OCTR or mOCTR the standard for advanced Traditional surgical OCTR or mOCTR a incision allows of the transverse carpal ligament, median nerve, and any structures, a complete and safe decompression. data for open in severe CTS are with published long-term release of the transverse carpal ligament on the nerve and function in the of rates for OCTR in the in severe CTS, and most patients a significant in pain and with functional 5 long-term are well the revision rate for symptoms after OCTR is only over long-term ECTR is performed a incision to the wrist similar in size to that for the USGCTR, and a with a to the transverse carpal ligament from the of the ECTR similar efficacy over the long to open the same size incision as In this patient's case, would improvement and recovery of thenar muscle and strength following open release. USGCTR is a invasive that can CTS, or moderate CTS without motor In USGCTR symptom and functional comparable to open with low complication rates and the of a smaller incision and faster The TUTOR randomized controlled trial by Eberlin et al. showed equivalent improvements in CTS symptom of on the Boston with USGCTR versus at 1 also less scar discomfort and pain with the smaller wrist incision in USGCTR compared to a palmar incision in an open release. This benefit from USGCTR, with similar to other less invasive techniques. in the TUTOR study, which is the only RCT comparing the there is no significant difference in of time to an in studies there is Additionally, comparing pain and incision there is no difference between ECTR and USGCTR techniques. USGCTR is an option for patients with minimal and a high satisfaction rates are reported after USGCTR in long-term studies of and the of USGCTR, with its potential as an procedure, but this to be with long-term follow-up and a of the associated with this compared to an open USGCTR as the approach for a young patient with such advanced Ultrasound-guided release has a and is best for with and as well as a of and In less experienced a to higher rates of incomplete release or nerve injury. similar invasive to a higher risk of nerve injury compared to open due to the of and to such as a branch, median nerve or persistent median artery, which is relevant in or severe USGCTR to this by sonographic but and to of USGCTR that all procedures are by experienced hand that outcomes not be to in There have been reports of complications such as incomplete ligament release, tendon or transient after In a case of 14 patients surgical revision of release, 5 patients had such as nerve or these would be considered a major complication and not occur following open In the TUTOR trial, of required revision of the underwent These findings that USGCTR has the potential to be safe and the for is the limited carpal tunnel at a the patient with persistent symptoms and will surgery. With an incomplete release, the can be than not undergone a as the ligament can greater on the must these when on a for this young In our the approach with the highest of a for this case is a surgical or performed of open or to the differences in invasive techniques have been associated with less postoperative pain in the recovery in the months compared to standard open However, studies have that by 6 to 12 months after the of persistent pain is the same of the The of or endoscopic in pain as most pain after the few months of the long-term is the most critical goal, the most should be a surgical for is to the approach for tunnel In both cases, the is to the patient's and of nerve For tunnel a patient with or moderate compression a ulnar an in decompression. In more severe tunnel syndrome or when the nerve has an is performed as the most definitive surgical as patients with tunnel syndrome only an in nerve techniques vs. ECTR vs. ultrasound should be based on and This that surgical for nerve compression is not but should be to outcomes for In with surgical for this patient with CTS and motor Carpal tunnel is the most accepted for advanced CTS, and offers superior outcomes compared to Although release is an for of CTS, do not that is the optimal choice in a young patient with thenar and significant nerve Open surgical has a of safety and success in such cases, with of nerve compression and a low of complications or with this patient's of symptom resolution and functional recovery would be Drs Eberlin and McCarty for Several of are at the that patients with advanced with thenar atrophy, motor or prompt surgical decompression. also that in patients warrant an with muscle and without motor of the an open release the more that the recovery advantages of less invasive techniques to with at 1 outcomes of OCTR, ECTR, and USGCTR are Finally, share that USGCTR and to anatomic is in the of the evidence and its for the patient in a of three with severe CTS caregiving and recovery essential. that USGCTR is best for to moderate The does not support this and registry data demonstrate in severe Kim et al. followed patients with severe CTS after USGCTR and reported sustained improvements with no adverse events in hands followed for 2 Cano et al. reported sustained improvements in pain and function to 6 years after the procedure, including in severe cases, with 91% patient satisfaction and no Although our Cano et as to the Cano was from the same patient outcomes were by et al. In that earlier the median nerve cross-sectional area was a value consistent with at moderate to severe of hands were as as and as from et al. hands in of which demonstrated moderate to severe CTS on electrodiagnostic testing and a similar cross-sectional area of This also showed significant improvement 1 year after USGCTR. Taken together, these data that techniques are across the spectrum of including in severe Open release does not a based on The the TUTOR trial to no difference in Although the median RTW was similar between (3 days) and release the RTW USGCTR days vs. data with more a recovery in the surgical compared to the USGCTR group et al. Importantly, this with two RCTs et al., et al., comparing and OCTR techniques. et al. and et al. demonstrated significantly faster return to after USGCTR compared with In those this return to included of work and of participants were The an average of days earlier than the groups. These consistent findings across randomized studies the that there is no difference in functional recovery. It is to USGCTR as a On the ultrasound of all neurovascular relevant to et al., et al. this but is not limited to the median nerve, motor branch, ulnar artery, superficial palmar and common anatomic such as median nerve, persistent median artery, and OCTR this of performed by is a not a that allows for to that safety is in any and that complications is a have been reported with all and of and is essential. Recent this et al. complications across all techniques and that both open and endoscopic of incomplete release, nerve and scar et al. reported a case of reexploration after OCTR. These findings that no approach is to the case by et al. 14 revisions after USGCTR. in one case the superficial palmar was This event is mapping and of a to the and the superficial palmar Fortunately, across randomized and prospective studies of USGCTRs, there is no evidence that complication rates those of open or endoscopic et al., Kim et al., Cano et al., et al., with any procedure, and to are essential for The for the of revision rates from incomplete evidence does not support this In the multicenter TUTOR trial, the single in the USGCTR group was for a not for incomplete release or symptoms et al., the patients and revisions for persistent or CTS after USGCTR are rare et al., Kim et al., Cano et al., Aguila et al., The systematic review by et al. found no confirmed incomplete among 1772 large analyses of open and ECTR demonstrate rates of and within 2 years et al., these data support that does not risk of For this patient, the long-term of techniques is less relevant than the functional She both hands to work and to care for her children The evidence demonstrates that USGCTR is safe and a faster smaller incisions with less scar and outcomes equal to those of OCTR at 1 year and For patients in recovery is release not only a safe but the preferred of hand all of in including OCTR, ECTR, and USGCTR, with our that ultrasound has our options for the of is the case a young patient with severe CTS with thenar and APB and electrodiagnostic evidence of This to OCTR, as has the lowest risk of revision release. the of USGCTR, ECTR data, the of incision is to that for USGCTR, can to differences in recovery for to data from ECTR can be to USGCTR for This is supported by RCT data comparing OCTR to ECTR, which showed a 5% revision rate for ECTR, and was associated with reduced long-term patient et al. from the a analysis to the approach to transient nerve or patient costs as of OCTR is preferred over ECTR, ECTR is preferred when risk or earlier improvement in of these data can be to a between OCTR versus USGCTR. with the patient, them that the shows potential for an earlier RTW and less pain to be by the higher risk of a revision procedure. that when presented with moderate-to-severe CTS, one should the most definitive the among OCTR, ECTR, and USGCTR are also to from a societal OCTR is in the of the to be by ECTR and USGCTR for most is essential to be in the of the studies are et al. found ECTR only more than open a ECTR to be more for minimal in an operating room ECTR costs more case than OCTR, in an ECTR was only However, including societal of earlier ECTR cost or cost in Ekhtiari et al. the to USGCTR, total costs of (OCTR), and With higher 6-month for USGCTR, USGCTR was less than OCTR additional This on USGCTR. The procedure was to occur in with a and no or anesthesia were to occur in or in the included for open and ECTR but not for USGCTR. These and lower the cost of USGCTR. In both open and USGCTR can be anesthesia in an USGCTR is performed in an operating would additional and Therefore, the cost of USGCTR in analysis is due to that open and endoscopic The published data, when that USGCTR can be cost but only that not be USGCTR is a in experienced hands for patients with CTS a incision and a office-based recovery. For the young patient with severe CTS and motor with an OCTR or with care and the with the of complete safety, and long-term Erek or for Ultrasound for Kyle for and to Justin with nerve course. Walter or for or not to this as no were or during the",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41919336",
@@ -23856,6 +25897,56 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42160061",
+      "doi": "10.1002/smll.73846",
+      "zotero_key": "I48P3CSE",
+      "title": "Ultra‐stable Flexible Thermal Sensing Operating from 20 to 1273 K Enabled by the Directly Grown Mo 2 C Patterns on Flexible Substrates",
+      "authors": [
+        [
+          "Hailang",
+          "Wu"
+        ],
+        [
+          "Lingyan",
+          "Kong"
+        ],
+        [
+          "Weiwei",
+          "Li"
+        ],
+        [
+          "Manzhang",
+          "Xu"
+        ],
+        [
+          "Yingzhe",
+          "Li"
+        ],
+        [
+          "Li",
+          "Li"
+        ],
+        [
+          "Lu",
+          "Zheng"
+        ],
+        [
+          "XM.",
+          "Wang"
+        ]
+      ],
+      "journal": "Small",
+      "year": "2026",
+      "abstract": "ABSTRACT Transition metal carbides (TMCs) are promising candidates for applications in flexible sensing electronics due to their high intrinsic conductivity, excellent mechanical strength, and mechanical flexibility. However, it remains a critical challenge to synthesize patterned TMCs films on flexible substrates for direct fabricating flexible sensors with superior mechanical and thermal stability under high‐temperature environments. Herein, we report an inkjet printing and hydrogen‐assisted thermal reduction approach that enables in situ growth of Mo 2 C patterns on flexible mica at 750°C. Thickness of the Mo 2 C films can be modulated from 10 to 70 nm, while the electrical resistance ranges from 2 to 0.1 kΩ by tailoring inkjet printing cycles. Owing to the large cohesive energy and high bonding strength between the Mo 2 C layer and the substrate, the resultant flexible temperature sensors show remarkable sensing performance from 20 to 1273 K, a high temperature coefficient of resistance of 1.7%/K (in the temperature regime over 1200 K), a low response time of about 26 ms, and a thermal stability at 873 K for 4 h. The proposed approach endows a promising platform to design thermally robust flexible sensors for applications in high‐temperature environments.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41840823",
@@ -24666,6 +26757,44 @@
       "subcollection": "MAB21L2"
     },
     {
+      "pmid": "42146963",
+      "doi": "10.22336/rjo.2026.07",
+      "zotero_key": "UMUSN8F4",
+      "title": "Visual Improvement and Optical Quality Changes After Keratoplasty in Macular Corneal Dystrophy in Romania",
+      "authors": [
+        [
+          "Ana Maria",
+          "Arghirescu"
+        ],
+        [
+          "Alina Gabriela",
+          "Gheorghe"
+        ],
+        [
+          "Maria Cristina",
+          "Marinescu"
+        ],
+        [
+          "Liliana Mary",
+          "Voinea"
+        ],
+        [
+          "Radu",
+          "Ciuluvică"
+        ]
+      ],
+      "journal": "Romanian Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "Objective: To evaluate visual and optical outcomes after penetrating keratoplasty in eyes with macular corneal dystrophy in Romania. Methods: This observational study included 11 eyes from 6 patients with macular corneal dystrophy who underwent penetrating keratoplasty. Preoperative and 6-month postoperative assessments included best-corrected visual acuity, central corneal thickness, and anterior segment optical coherence tomography parameters obtained with the CSO MS-39, including higher-order aberrations at 3 mm, mean pupil power, cylinder, and point spread function expressed as the Strehl ratio. Continuous variables were summarized as mean ± standard deviation. Preoperative and postoperative values were compared using the Wilcoxon signed-rank test. Associations between preoperative central corneal thickness and other baseline variables were assessed using Spearman correlation. Results: Mean best-corrected visual acuity improved from 0.123 ± 0.090 preoperatively to 0.755 ± 0.082 at 6 months (p = 0.0010), corresponding approximately to an improvement from 0.91 to 0.12 logMAR. High-order aberrations at 3 mm increased from 0.269 ± 0.106 to 0.777 ± 0.523 (p = 0.0010), and cylinder magnitude increased from -1.42 ± 0.44 diopters to -8.15 ± 4.10 diopters (p = 0.0010). The Strehl ratio decreased from 0.214 ± 0.039 to 0.080 ± 0.024 (p = 0.0010). Mean pupil power increased from 42.60 ± 0.88 to 44.58 ± 2.55 without statistical significance (p = 0.0537). Preoperative central corneal thickness was positively correlated with age (rho = 0.699, p = 0.0167). Discussion: Our study underscores that even if visual quality metrics, such as higher-order aberrations and the point spread function, have decreased after keratoplasty, alongside a significant increase in astigmatism, penetrating keratoplasty still plays a very important role in restoring visual independence in patients with advanced macular dystrophy. Conclusions: Penetrating keratoplasty in macular corneal dystrophy was associated with substantial improvement in visual acuity at 6 months, despite worsening in several optical quality metrics derived from anterior segment optical coherence tomography. These findings suggest that functional visual gain after keratoplasty may occur even when postoperative optical regularity does not improve.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "KRT3"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/0040-8166(78)90028-9",
       "zotero_key": "BJTC8BKR",
@@ -24942,6 +27071,72 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42156752",
+      "doi": "10.1038/s41525-026-00580-1",
+      "zotero_key": "VHGEMFUI",
+      "title": "Whole-genome sequencing uncovers diverse genetic causes and phenotypic signatures in infantile nystagmus and albinism",
+      "authors": [
+        [
+          "Mahmoud R.",
+          "Fassad"
+        ],
+        [
+          "Pradeep",
+          "Vasudevan"
+        ],
+        [
+          "Julian",
+          "Barwell"
+        ],
+        [
+          "Gail DE",
+          "Maconachie"
+        ],
+        [
+          "Savita",
+          "Madhusudhan"
+        ],
+        [
+          "David",
+          "Hunt"
+        ],
+        [
+          "Irène",
+          "Gottlob"
+        ],
+        [
+          "Mariya",
+          "Moosajee"
+        ],
+        [
+          "Omar A.",
+          "Mahroo"
+        ],
+        [
+          "Andrew R.",
+          "Webster"
+        ],
+        [
+          "Michel",
+          "Michaelides"
+        ],
+        [
+          "Mervyn G.",
+          "Thomas"
+        ]
+      ],
+      "journal": "npj Genomic Medicine",
+      "year": "2026",
+      "abstract": "We combined deep phenotype data and whole-genome sequencing results from the UK 100,000 Genomes Project (100KGP) to characterize the genetic spectrum of infantile nystagmus and albinism, and to explore genotype-phenotype correlations in this cohort. Participants were enrolled in the study based on the clinical codes for albinism or infantile nystagmus. Whole genome sequencing data was retrieved and variants in known nystagmus/albinism genes (PanelApp R39 panel) were analysed alongside genome-wide findings. We ascertained 473 affected individuals (388 families). Positive genetic findings were obtained in 218 participants (46%), including 176 (37%) with definitive diagnoses. Pathogenic variants were found in 16 of 38 panel genes, most commonly in TYR (56 families) and OCA2 (21 families). Recurrent variants (24% of 103 different variants) were identified in six genes. An additional 36 off-panel genes accounted for diagnoses in 45 families, including four dual genetic diagnoses in three families. Phenotypically, refractive errors and foveal hypoplasia-related diagnoses were significantly enriched (odds ratio ~2.8 for refractive disorders). Strabismus and neurodevelopmental features were also over-represented in the cohort. We show that whole-genome sequencing provided a high diagnostic yield in infantile nystagmus/albinism and uncovered a broad allelic spectrum. Integrating comprehensive phenotype data identified distinct genotype-phenotype relationships.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TYR"
     },
     {
       "pmid": "",
@@ -25270,6 +27465,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Norrie disease"
+    },
+    {
+      "pmid": "42143027",
+      "doi": "10.1038/s41467-026-73329-0",
+      "zotero_key": "2CMB4KRU",
+      "title": "Xyloglucan xylosyltransferase stem region mediates heterodimer formation",
+      "authors": [
+        [
+          "Jordan D.",
+          "Julian"
+        ],
+        [
+          "Ning Zhang",
+          "Zhang"
+        ],
+        [
+          "Reyna J.",
+          "Winders"
+        ],
+        [
+          "Charles",
+          "Stewart"
+        ],
+        [
+          "Alan T.",
+          "Culbertson"
+        ],
+        [
+          "Olga A.",
+          "Zabotina"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "Xyloglucans are plant cell wall hemicelluloses composed of a glucan backbone substituted with xylosyl residues with diverse branching patterns. Xyloglucan xylosyltransferases (XXT) 2 and XXT5 are both required to fully xylosylate the glucan backbone and physically interact, yet the mechanism of this interaction has remained undefined. Here, we present crystal structures of the XXT2-XXT5 heterodimer, organized as an obligatory heterodimer and bound to both substrates. These structures confirm the presence of a secondary binding pocket in XXT5 that likely accommodates a pre-xylosylated glucan chain. A previously uncharacterized interaction is also revealed between XXT2's stem region and XXT5, which is absent in the XXT1 homodimer structure. Truncated and chimeric protein experiments support that this stem polypeptide controls oligomerization, a mechanism likely shared by other glycosyltransferase complexes. Together, these findings provide the structural basis for understanding how XXTs coordinate xyloglucan xylosylation and offer insight into the mechanism of their dimerization.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42000710",
