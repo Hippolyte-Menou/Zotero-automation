@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-07T06:39:20Z",
+  "generated_at": "2026-06-14T06:55:15Z",
   "threshold_k": 0,
-  "total_evaluated": 21409,
-  "total_flagged": 730,
+  "total_evaluated": 21766,
+  "total_flagged": 759,
   "total_dismissed": 0,
   "total_unresolvable": 151,
   "hierarchy": {
@@ -1645,44 +1645,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "41961990",
-      "doi": "10.1021/acs.bioconjchem.6c00041",
-      "zotero_key": "6VUXICQ8",
-      "title": "A Long-Acting Glucagon-like Peptide 2 Protracted by Coomassie Brilliant Blue to Enhance Intestinal Growth in Mice",
-      "authors": [
-        [
-          "Lei",
-          "Peng"
-        ],
-        [
-          "Sining",
-          "Wang"
-        ],
-        [
-          "Xiaoyu",
-          "Sun"
-        ],
-        [
-          "Xia",
-          "Yao"
-        ],
-        [
-          "Wanyi",
-          "Tai"
-        ]
-      ],
-      "journal": "Bioconjugate Chemistry",
-      "year": "2026",
-      "abstract": "Glucagon-like peptide 2 (GLP-2) has therapeutic potential in the treatment of intestinal diseases. Its analogue, teduglutide, is clinically used for the treatment of short bowel syndrome (SBS). Despite the benefit of reduced parenteral support and a consistent safety profile in patients with SBS, teduglutide requires subcutaneous injection once daily. Long-acting GLP-2 analogues and the associated lower injection-frequency compliance are an unmet medical need in drug development. Here, we conjugated the pan-protein binder Coomassie brilliant blue (CBB) to the Lys30 residue of teduglutide to obtain a long-acting analogue 8c that retains potency and selectivity comparable to teduglutide. In the rat subcutaneous pharmacokinetic study, the CBB protracted peptide 8c displays a greatly extended half-life (T1/2: 7.97 vs 0.56 h) in the circulation and a measured release (Tmax: 4 vs 0.33 h) from the subcutaneous depot, which is in line with its enhanced affinity to albumin and special protracting mechanism. The unique pharmacokinetic profile can translate into a significantly enhanced intestinal growth in mice, measured as the 1.25-fold greater weight of the small intestine, 1.75-fold higher villus of jejunum, and 1.1-fold deeper crypt compared to the vehicle control. Its prolonged kinetics and intestinotrophic action would be beneficial for a reduced dosing frequency and better treatment outcome in SBS.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "42084833",
       "doi": "10.1007/s13312-026-00345-0",
       "zotero_key": "RR9A3MG9",
@@ -2689,6 +2651,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Best vitelliform macular dystrophy"
+    },
+    {
+      "pmid": "42258116",
+      "doi": "10.1007/s10278-026-01967-3",
+      "zotero_key": "6MPJZZKX",
+      "title": "Advanced Monte Carlo Modeling of Automatic Exposure Control Vulnerabilities: Patient Positioning and Metallic Artifact Effects on Emergency CAP CT Dose Distribution",
+      "authors": [
+        [
+          "Mounir",
+          "Lahlali"
+        ],
+        [
+          "Morad El",
+          "Kafhali"
+        ],
+        [
+          "Rajaa",
+          "Sebihi"
+        ],
+        [
+          "Aziz",
+          "Elkhatib"
+        ]
+      ],
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "24661331",
@@ -4401,6 +4397,60 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42261580",
+      "doi": "10.1021/acsami.6c03044",
+      "zotero_key": "JG72BD3R",
+      "title": "Bidirectional Phase Transition of Silk Fibroin for Robust Ternary Information Processing",
+      "authors": [
+        [
+          "Zishun",
+          "Li"
+        ],
+        [
+          "Yì",
+          "Wáng"
+        ],
+        [
+          "Yunxiu",
+          "Zhao"
+        ],
+        [
+          "Junlu",
+          "Gong"
+        ],
+        [
+          "Zili",
+          "Zheng"
+        ],
+        [
+          "Xiao",
+          "You"
+        ],
+        [
+          "Chengchen",
+          "Guo"
+        ],
+        [
+          "Li",
+          "Wang"
+        ],
+        [
+          "Xiaorui",
+          "Zheng"
+        ]
+      ],
+      "journal": "ACS Applied Materials & Interfaces",
+      "year": "2026",
+      "abstract": "Ternary information processing offers higher data density and improved efficiency compared with binary systems. However, its practical implementation remains limited by the difficulty of defining stable, well-separated states and achieving scalable fabrication. Here, we report a high-density ternary storage platform by developing bidirectional patterning of silk fibroin-derived films using thermal scanning probe lithography (t-SPL). Unlike conventional subtractive t-SPL, the distinctive thermochemical response of silk fibroin enables bidirectional direct writing of both concave and convex nanostructures, forming a discrete three-state encoding medium with an areal storage density of up to 600 bit/μm 2 . Reliable data storage and readout across diverse formats, including digital images, audio files and intrinsically ternary data sets, have been demonstrated on this bidirectional material platform. In addition to data storage, bidirectional patterns enable dual-channel encryption and phase-transition-based anticounterfeiting. Finally, the structural stability of our bidirectional platform has been evaluated under harsh environmental conditions, demonstrating long-term reliability for practical applications. Overall, this work establishes a versatile, robust, and biocompatible ternary storage platform with strong potential for efficient and large-scale ternary data applications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42037137",
       "doi": "10.1017/neu.2026.10082",
       "zotero_key": "Z7R87VBK",
@@ -4889,6 +4939,76 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42260358",
+      "doi": "10.1186/s12245-026-01254-6",
+      "zotero_key": "PN73HPRK",
+      "title": "Case report: Successful rescue of an adult patient with diquat poisoning complicated by rhabdomyolysis and compartment syndrome",
+      "authors": [
+        [
+          "Yonghui",
+          "Zhang"
+        ],
+        [
+          "Zheng",
+          "Xisheng"
+        ],
+        [
+          "Zhang",
+          "Tai’an"
+        ],
+        [
+          "Feng",
+          "Yongli"
+        ],
+        [
+          "Zhang",
+          "Chaoyuan"
+        ],
+        [
+          "Sun",
+          "Xiuqin"
+        ],
+        [
+          "Jia",
+          "Mingya"
+        ],
+        [
+          "Li",
+          "Changli"
+        ],
+        [
+          "Jing",
+          "Xiao"
+        ],
+        [
+          "Ma",
+          "Jing"
+        ],
+        [
+          "Zhou",
+          "Xiaochao"
+        ],
+        [
+          "Wei",
+          "Chao"
+        ],
+        [
+          "Bai",
+          "Bin"
+        ]
+      ],
+      "journal": "International Journal of Emergency Medicine",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To summarize the clinical experience of successfully treating a patient with diquat poisoning complicated by rhabdomyolysis and compartment syndrome at Nanyang Central Hospital, and to provide references for the diagnosis, treatment, and early identification of complications of such severe poisoning. METHODS: The clinical data of 1 patient with diquat poisoning combined with multiple complications were retrospectively analyzed. After the patient took diquat voluntarily, he first received basic treatments such as gastric lavage and catharsis at a local hospital, and was transferred to our hospital due to critical condition. Relevant examinations were completed after admission, and the patient was diagnosed with diquat poisoning, acute kidney injury, and rhabdomyolysis; compartment syndrome was identified in a timely manner subsequently. The treatment included hemoperfusion combined with hemofiltration, decompressive fasciotomy, and symptomatic supportive treatment throughout the course. RESULTS: After comprehensive treatment, the patient's poisoning symptoms were controlled, the indicators related to acute kidney injury and rhabdomyolysis returned to normal, compartment syndrome was effectively relieved, limb function was preserved, and the patient was finally cured and discharged without serious sequelae. CONCLUSION: Cases of diquat poisoning complicated by rhabdomyolysis and compartment syndrome are rare and life-threatening. Early definite diagnosis, timely application of blood purification therapy to remove toxins, and vigilance and early intervention of complications (such as decompressive fasciotomy for compartment syndrome) are the keys to improving the success rate of treatment and achieving limb salvage. Clinicians should attach great importance to the comprehensive treatment and complication monitoring of such severe poisoning.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41906871",
       "doi": "10.1080/08880018.2026.2628528",
       "zotero_key": "3V6MT8TI",
@@ -5191,6 +5311,40 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42271295",
+      "doi": "10.1186/s12884-026-09420-7",
+      "zotero_key": "3XWR55AG",
+      "title": "Characterization of pro-inflammatory, regulatory, and anti-inflammatory interleukins in placentas affected by acute fetal distress across gestational ages: a pilot study",
+      "authors": [
+        [
+          "Elizabete",
+          "Brikune"
+        ],
+        [
+          "Anna",
+          "Junga"
+        ],
+        [
+          "Jana",
+          "Brikune"
+        ],
+        [
+          "Māra",
+          "Pilmane"
+        ]
+      ],
+      "journal": "BMC Pregnancy and Childbirth",
+      "year": "2026",
+      "abstract": "BACKGROUND: Pregnancy requires finely regulated immunological adaptation, in which interleukins play central roles in mediating maternal-fetal communication and maintaining immune equilibrium. Acute fetal distress (distress acuta) is associated with inflammatory processes that may compromise placental function and pregnancy outcomes. The present study aimed to investigate the expression patterns and distribution of selected interleukins-IL-1α, IL-2, IL-4, IL-6, IL-7, IL-8, and IL-10-in placental tissues across three gestational stages (28, 31, and 40 weeks). METHODS: A retrospective exploratory study was conducted on placental tissues obtained from 15 participants with acute fetal distress (n = 5 per group) and 5 control samples at 40 weeks of gestation. Immunohistochemical analysis with semi-quantitative assessment and nonparametric statistical methods was applied. RESULTS: Distressed placentas demonstrated increased expression of pro-inflammatory interleukins, particularly IL-1α, IL-2, and IL-8, compared to controls. IL-2 expression appeared to decrease toward term, while IL-7 and IL-8 showed relatively consistent activity across gestational stages. Anti-inflammatory interleukins IL-4 and IL-10 demonstrated reduced expression in distressed placentas, whereas control samples showed comparatively higher levels. In contrast, IL-6 expression remained relatively stable across gestational stages in both groups. Correlation analysis indicated coordinated interleukin expression patterns across placental compartments. CONCLUSIONS: These findings may suggest an altered interleukin profile in placental distress acuta, characterized by a shift toward a pro-inflammatory environment. However, given the exploratory design and limited sample size, the results should be interpreted with caution, and further studies are required to confirm these observations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41945416",
       "doi": "10.1002/epi.70125",
       "zotero_key": "C6P5DD7R",
@@ -5415,6 +5569,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42195041",
+      "doi": "10.3390/genes17050584",
+      "zotero_key": "8R3H8JBZ",
+      "title": "Ciliopathies in Complex Congenital Heart Disease: Molecular Genetics, Embryologic Mechanisms and Clinical Implications",
+      "authors": [
+        [
+          "Maria Felicia",
+          "Gagliardi"
+        ],
+        [
+          "Emanuele",
+          "Micaglio"
+        ],
+        [
+          "Angelo",
+          "Micheletti"
+        ],
+        [
+          "Sara",
+          "Benedetti"
+        ],
+        [
+          "Andrea",
+          "Giordano"
+        ],
+        [
+          "Baldassare Maria",
+          "Alonzo"
+        ],
+        [
+          "Giulia",
+          "Guglielmi"
+        ],
+        [
+          "Diana Gabriela",
+          "Negura"
+        ],
+        [
+          "Alessandro",
+          "Giamberti"
+        ],
+        [
+          "Massimo",
+          "Chessa"
+        ]
+      ],
+      "journal": "Genes",
+      "year": "2026",
+      "abstract": "Background/Objectives: Congenital heart malformations (CHDs) are not rare diseases, and, in many cases, their pathogenic mechanisms are well established. Several conotruncal defects are associated with genetic syndromes such as DiGeorge syndrome and RASopathies, reflecting shared developmental pathways affecting cardiac outflow tract formation. However, even common CHDs may occur within complex syndromic contexts, making early diagnosis essential for optimal management. This review aims to provide a unifying framework linking ciliary dysfunction to CHD phenotypes. Methods: We performed an integrative narrative review of genetic, experimental, and developmental studies focusing on the role of primary and motile cilia in cardiac morphogenesis. Particular attention was given to signaling pathways regulated by cilia and their contribution to disease phenotypes. Results: Emerging evidence indicates that primary and motile cilia act as central regulators of cardiac development, integrating morphogen gradients and mechanical cues into transcriptional programs. Dysfunctions in ciliary structure or signaling are increasingly recognized as important contributors to selected complex CHD phenotypes, particularly in syndromic forms and laterality-associated defects. This cilia-centered model may help explain part of the phenotypic heterogeneity observed in CHD and highlights shared mechanisms across distinct clinical entities. Conclusions: Understanding cilia-dependent mechanisms provides a unifying conceptual framework linking genetic defects to disrupted morphogenesis. This perspective may refine disease interpretation and support future development of precision diagnostics and pathway-informed therapeutic strategies in CHD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "41833959",
@@ -6589,6 +6801,48 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "42271301",
+      "doi": "10.1186/s12886-026-05022-1",
+      "zotero_key": "9I5EZ568",
+      "title": "Comparison of topical nepafenac 0.1% and 0.3% for the treatment of pseudophakic cystoid macular edema following cataract surgery",
+      "authors": [
+        [
+          "Semih",
+          "Çakmak"
+        ],
+        [
+          "Miray",
+          "Söylemez"
+        ],
+        [
+          "Zafer",
+          "Cebeci"
+        ],
+        [
+          "Gürkan",
+          "Erdoğan"
+        ],
+        [
+          "Emre",
+          "Altınkurt"
+        ],
+        [
+          "Şerife",
+          "Bayraktar"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "PURPOSE: To compare the effectiveness of topical nepafenac 0.1% and 0.3% in the management of pseudophakic cystoid macular edema (PCME) following cataract surgery. METHODS: In this retrospective comparative study, patients with PCME after cataract surgery and a follow-up of at least three months were included. Patients were assigned to two groups according to the topical nepafenac treatment initiated after PCME diagnosis: 0.1% (Group-1) or 0.3% nepafenac (Group-2). Best-corrected visual acuity (BCVA), macular and choroidal parameters assessed by optical coherence tomography (OCT) were evaluated at diagnosis and during follow-up and were compared between the groups. RESULTS: The study included 97 eyes from 78 patients, with a mean age of 71.3 ± 7.1 years. Baseline demographic characteristics and surgical parameters were comparable between the groups. BCVA, macular and choroidal parameters improved in both groups during follow-up. At the third month, Group-1 showed significantly better mean BCVA (0.056 ± 0.082 vs. 0.122 ± 0.135, p = 0.028). At the first month, mean central foveal subfield thickness was significantly thinner in Group-1 (348.0 ± 96.5 vs. 387.9 ± 130.7, p = 0.047). Mean choroidal vascular index (CVI) increased during follow-up in both groups, with a greater increase observed in Group-2 at the first month (0.5 ± 2.7 vs. 2.1 ± 3.7, p = 0.024). Complete anatomical response at the first month was observed more often in Group-1 (60.0% vs. 38.1%, p = 0.033). CONCLUSION: Topical nepafenac 0.1% and 0.3% were both associated with improvement in PCME. Group-1 showed better early anatomical and later visual outcomes, whereas Group-2 showed a greater early CVI increase. However, these findings do not establish the superiority of either regimen.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
+    },
+    {
       "pmid": "",
       "doi": "10.3928/23258160-20200129-03",
       "zotero_key": "6NVTQ6G5",
@@ -6685,6 +6939,72 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42251274",
+      "doi": "10.1186/s12889-026-27890-4",
+      "zotero_key": "GJDRXXZS",
+      "title": "Comprehensive epidemiological analyses of urinary stone diseases in eastern China: a regional population-based study",
+      "authors": [
+        [
+          "Dawei",
+          "Wang"
+        ],
+        [
+          "Yongle",
+          "Zhan"
+        ],
+        [
+          "Ning",
+          "Zhang"
+        ],
+        [
+          "Da",
+          "Huang"
+        ],
+        [
+          "Jingyi",
+          "Huang"
+        ],
+        [
+          "J Y",
+          "Huang"
+        ],
+        [
+          "Yu",
+          "Zhu"
+        ],
+        [
+          "Brian Sze‐Ho",
+          "Ho"
+        ],
+        [
+          "Ada Tsui‐Lin",
+          "Ng"
+        ],
+        [
+          "James Hok‐Leung",
+          "Tsu"
+        ],
+        [
+          "Xiaohao",
+          "Ruan"
+        ],
+        [
+          "Rong",
+          "Na"
+        ]
+      ],
+      "journal": "BMC Public Health",
+      "year": "2026",
+      "abstract": "BACKGROUNDS: Urinary stone disease (USD, or urolithiasis) is common and poses a substantial healthcare and economic burden on the working-age population. This study aimed to provide epidemiological insights into the prevalence, incidence, trends, and risk factors of USD among the Chinese population. METHODS: We conducted a prospective cohort study involving 966,481 participants from the CHinese Electronic health Records Research during 2009-2022 in Yinzhou, China (CHERRY). Temporal trends were estimated using annual percentage changes (APC) via Joinpoint regression analyses. Stratified Cox proportional hazards regression and propensity score analyses were employed to evaluate potential risk factors, population attribution factor (PAF) and number needed to prevent (NNTP). RESULTS: From 2014/2015 to 2021, there was an annualized increase in USD incidence by 5.3-6.8% (P < 0.05). Identified risk factors for USD included tobacco smoking, alcohol drinking, high body mass index, diabetes, hyperlipidemia, hypertension, and cardiovasculardisease while regular exercising served as a protective factor of USD. The PAF ranged from 1.3% for non-drinking behavior to 22.5% for regular exercising (weekly). Correspondingly, the NNTP ranged from 182 for non-smoking behavior to 21 for weekly exercising. CONCLUSIONS: USD is a common disease affecting approximately 1 in 10 Chinese, with the incidence rate increasing by 5-6% annually over the past 6-7 years. Lifestyle factors and metabolic syndromes are potential risk factors for the development of USD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42127920",
@@ -7363,6 +7683,40 @@
       "subcollection": "Peters Plus syndrome"
     },
     {
+      "pmid": "42274960",
+      "doi": "10.1186/s13021-026-00467-9",
+      "zotero_key": "XPX8FCT6",
+      "title": "County-level land use carbon budget dynamics and heterogeneous driving mechanisms in Chengdu plain, China: integrating FLUS and GTWR model",
+      "authors": [
+        [
+          "Qiang",
+          "Huang"
+        ],
+        [
+          "Guangjie",
+          "Wang"
+        ],
+        [
+          "Lei",
+          "Hu"
+        ],
+        [
+          "Jiahui",
+          "Xie"
+        ]
+      ],
+      "journal": "Carbon Balance and Management",
+      "year": "2026",
+      "abstract": "BACKGROUND: Against the backdrop of global warming, land use change critically shapes regional carbon budgets by altering both emission sources and carbon sinks. Existing studies predominantly focus on macro-scales, overlooking county-level heterogeneity and future trajectories, thus limiting precise carbon balance management. The Chengdu Plain, as a key economic agglomeration and upper Yangtze ecological barrier, faces severe carbon imbalance challenges due to rapid urbanization. This study contributes three novel insights: (i) integrating county-scale analysis with future land use simulation to project carbon budget dynamics; (ii) applying GTWR to reveal spatiotemporally heterogeneous driving mechanisms that macro-scale studies mask; and (iii) developing a county typology-based carbon management framework. RESULTS: (1) From 2000 to 2030, construction land expanded significantly while cropland, forest, and grassland continuously contracted; (2) The net carbon budget (net emissions) followed a trajectory of initial increase and subsequent decline, peaking at 6673.122 × 10⁴ t in 2020 before declining to a projected 6409.177 × 10⁴ t by 2030. Construction land was the dominant carbon source, while forests served as the primary carbon sink, together accounting for over 95% of the gross budget; (3) County-level net carbon budgets exhibited strong positive spatial autocorrelation, dominated by High-High and Low-Low agglomeration patterns; (4) GTWR results indicated that consumption level (mean coefficient: 0.466), urbanization level (0.392), population size (0.388), and industrial structure (0.196) positively drove net carbon emissions, while investment level (-0.048) exhibited an inhibiting effect not captured in average macro-scale models. Spatiotemporal heterogeneity was notable. CONCLUSION: Achieving a managed regional carbon balance requires differentiated county-level strategies: For urban core counties, low-carbon community transformation and optimized urban layout; for industrial counties, carbon intensity thresholds and green industrial land policies; for underdeveloped southwest counties, green consumption promotion; and cross-regional carbon compensation mechanisms to strengthen sink protection. This county-scale, mechanism-based framework provides a scientific toolkit for precise carbon balance management in ecologically and economically vital regions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42140622",
       "doi": "10.1093/genetics/iyag121",
       "zotero_key": "ACFI8BPP",
@@ -7958,36 +8312,6 @@
       "centrality": 0,
       "source_tags": [
         "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "42090062",
-      "doi": "10.1007/s11121-026-01923-1",
-      "zotero_key": "NCQIUE3U",
-      "title": "Detecting Patterns of Intimate Partner Violence Using Qualitative Analyses and Machine Learning Algorithms",
-      "authors": [
-        [
-          "Ying",
-          "Zhang"
-        ],
-        [
-          "Jun",
-          "Fang"
-        ],
-        [
-          "Ambika",
-          "Krishnakumar"
-        ]
-      ],
-      "journal": "Prevention Science",
-      "year": "2026",
-      "abstract": "Intimate partner violence (IPV) survivors increasingly use social media platforms to share their experiences and to seek help and support for their IPV-related concerns. IPV evidence extracted from social media platforms can provide valuable information and complement data obtained from conventional data sources (e.g., self-reports and interviews) thereby enhancing our understanding of IPV victimization. This study addressed three research questions: (1) What range of IPV behaviors emerge through qualitative coding? (2) To what extent do machine learning (ML) based text classifications yield results comparable to qualitative coding of IPV behaviors? and (3) Do the conceptualizations that emerge from unsupervised ML capture additional behaviors or contextual information not identified through qualitative analyses? We analyzed 400 posts from women on IPV-related online forums using qualitative content analysis and two ML approaches: supervised text classification and unsupervised topic modeling (Latent Dirichlet Allocation). Supervised learning approaches, notably Random Forest and Neural Networks, proved effective in classifying IPV violence subtypes with high accuracy (F1 scores .62 - .85). A comparison of findings from the qualitative and topic modeling approaches supported the presence of distinct characteristics of IPV: physical and sexual violence, psychological/emotional abuse, and coercive control. The ML model revealed vocabulary patterns consistent with relational and child-related contexts, temporal and frequency indicators of violence, references to legal system engagement, and spatial contexts, elements that were less captured through thematic qualitative coding alone. The consistency of findings across qualitative and ML approaches points to the potential of leveraging ML techniques when analyzing qualitative data, thus enabling the development of timely and effective IPV interventions.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
@@ -9571,44 +9895,6 @@
       "subcollection": "Nystagmus"
     },
     {
-      "pmid": "42015407",
-      "doi": "10.1111/apt.70692",
-      "zotero_key": "4ATPKGNT",
-      "title": "Editorial: Gene Silencing Therapy for a New Era of Pancreatitis Prevention. Authors' Reply",
-      "authors": [
-        [
-          "Rohit",
-          "Loomba"
-        ],
-        [
-          "E",
-          "de-Madaria"
-        ],
-        [
-          "Elham",
-          "Afghani"
-        ],
-        [
-          "Vikesh K.",
-          "Singh"
-        ],
-        [
-          "Nicholas J.",
-          "Leeper"
-        ]
-      ],
-      "journal": "Alimentary Pharmacology & Therapeutics",
-      "year": "2026",
-      "abstract": "We commend Dr Petrov for a thoughtful and forward-looking editorial that reframes pancreatitis prevention as a longitudinal, mechanistically informed discipline rather than a purely episodic, hospital-based endeavour [1]. The rising global burden of acute pancreatitis (AP) [2], together with its increasingly recognised long-term sequelae, underscores the urgency of advancing prevention strategies beyond their historically narrow scope. As highlighted in the editorial, recurrent AP remains understudied. The emerging evidence that recurrent AP confers long-term risk [3-5] substantially elevates its clinical importance and strengthens the case for earlier, proactive intervention. We agree that targeting hypertriglyceridaemia (HTG) represents a biologically compelling and clinically actionable approach to primary prevention in selected populations. Apolipoprotein C-III (APOC3) occupies a central regulatory position in triglyceride (TG) metabolism through inhibition of both lipoprotein lipase-dependent and lipoprotein lipase-independent lipolysis and clearance of triglyceride-rich lipoproteins (TRL) [6]. Genetic [7], mechanistic [6] and clinical data [8-11] collectively support APOC3 as a rational therapeutic target in conditions characterised by severe or refractory HTG. The study with plozasiran, an siRNA therapeutic now approved as Redemplo in the United States, Canada and China as an adjunct to diet to reduce TGs in adults with familial chylomicronaemia syndrome (FCS), represents an important conceptual and clinical advance [12]. Despite its modest sample size—inevitable in rare disease research—the magnitude and rapidity of TG lowering, coupled with the known associated reduction in pancreatitis risk, provide a strong rationale for broader investigation. The inclusion of patients without genetically confirmed familial chylomicronaemia syndrome (FCS) further strengthens the evidence of the therapeutic implications extending beyond monogenic disease. At the same time, the field would benefit from thoughtful delineation of the populations most likely to derive benefit from triglyceride-lowering interventions aimed at pancreatitis prevention. While very severe HTG is a well-established risk factor for pancreatitis, the TG thresholds, trajectories and modifiers that meaningfully influence the risk of its recurrence in more heterogeneous clinical settings remain incompletely defined. Future trials will therefore need to balance mechanistic ambition with pragmatic design, incorporating appropriate baseline risk stratification and clinically relevant endpoints. Of interest, studies with plozasiran that are powered for pancreatitis-related endpoints—not solely lipid parameters—are in process and will be essential to establishing clinical utility. In this context, the editorial serves as a timely and constructive call to action, and successful integration into clinical practice will depend on rigorous clinical investigation, careful patient selection and sustained collaboration across gastroenterology, lipidology, cardiology and endocrinology. Rohit Loomba: conceptualization, writing – original draft, writing – review and editing. Enrique de-Madaria: writing – review and editing. Elham Afghani: writing – review and editing. Vikesh K. Singh: writing – review and editing. Nicholas J. Leeper: conceptualization, writing – original draft, writing – review and editing. The authors' declarations of personal and financial interests are unchanged from those in the original article [12]. This work was supported by Arrowhead Pharmaceuticals. The authors declare no conflicts of interest. This article is linked to Loomba et al. papers. To view these articles, visit https://doi.org/10.1111/apt.70662 and https://doi.org/10.1111/apt.70623. The data that support the findings of this study are available from the corresponding author upon reasonable request.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41983409",
       "doi": "10.1111/apt.70676",
       "zotero_key": "CR8U6NFK",
@@ -9771,6 +10057,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42271514",
+      "doi": "10.1186/s13063-026-09534-5",
+      "zotero_key": "GWF2ZGME",
+      "title": "Efficacy and safety of SarogLItazar as an add-on medication to Metformin and lifestyle intervention in women with PolyCystic Ovary Syndrome (SLIM-PCOS trial): study protocol for a randomized, open-label, parallel group clinical trial",
+      "authors": [
+        [
+          "Niti",
+          "Mittal"
+        ],
+        [
+          "Savita",
+          "Singhal"
+        ],
+        [
+          "Rakesh",
+          "Mittal"
+        ]
+      ],
+      "journal": "Trials",
+      "year": "2026",
+      "abstract": "BACKGROUND: Emerging concepts on the role of insulin resistance (IR) in the pathogenesis of polycystic ovary syndrome (PCOS) have driven a shift in the therapeutic approach towards interventions targeting IR. SarogLItazar as an add-on to Metformin in PolyCystic Ovary Syndrome (SLIM-PCOS) trial aims to test the efficacy and safety of saroglitazar, a dual peroxisome proliferator-activated receptor (PPAR α/γ) agonist belonging to \"glitazar\" class of drugs, on top of metformin and lifestyle intervention in PCOS. METHODS: SLIM-PCOS is an investigator-initiated, randomized, open label, parallel group, superiority, clinical trial. Around 140 PCOS patients will be randomized in 1:1 ratio to either of the two study groups: Group A: tablet saroglitazar (4 mg daily) + tablet metformin (500 mg twice daily) + lifestyle intervention; and Group B: tablet metformin + lifestyle intervention. Lifestyle intervention will comprise of dietary intervention and physical activity. Treatment will be given for 24 weeks and post-treatment follow up done at 36 weeks. The primary outcome is to compare the change in serum sex hormone binding globulin (SHBG) levels at 24 weeks from baseline between the two groups. Secondary efficacy outcomes include clinical (anthropometry, hirsutism, menstrual cycles); metabolic and gonadal parameters (lipid profile, IR, ovarian hormones and androgens, metabolic syndrome); hepatic steatosis on transabdominal scan and quality of life. Safety outcomes include patient reported adverse events, hematological and biochemical safety parameters. Data will be analysed as per intention to treat (ITT) principle using validated statistical software. Two-tailed P-value < 0.05 will be considered statistically significant. DISCUSSION: SLIM-PCOS trial will provide evidence on the potential therapeutic application of saroglitazar in PCOS. Based on the study outcomes and the drug's mechanism of action, future studies may be planned to investigate into the role of this novel glitazar in PCOS patients having diabetes, dyslipidemia, non-alcoholic fatty liver disease and other associated co-morbidities. TRIAL REGISTRATION: Prospectively registered with the Clinical Trials Registry of India (Trial ID: CTRI/2025/09/094653); registered September 12, 2025. https://ctri.nic.in/Clinicaltrials/rmaindet.php?trialid=142027&EncHid=25944.27666&modid=1&compid=19.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42011735",
@@ -10020,6 +10336,68 @@
       "journal": "The Journal of Chemical Physics",
       "year": "2026",
       "abstract": "Mixed-Reference Spin-Flip Time-Dependent Density Functional Theory (MRSF-TDDFT) has emerged as a promising linear-response framework capable of addressing multireference electronic structure, conical intersections, and doubly excited configurations while maintaining spin purity. Extending this framework to unrestricted Kohn-Sham (UKS) orbitals introduces desirable variational flexibility but also leads to spin-asymmetric orbital instabilities that degrade numerical stability and distort excitation energies. In this study, we identify the origin of these instabilities in the residual mismatch between the α and β spatial orbitals of UKS references and introduce a selective Jacobi-rotation procedure that systematically maximizes α-β orbital overlap without altering the UKS reference energy or mixing occupied and virtual spaces. Numerical tests on thymine and s-trans-butadiene demonstrate that the Jacobi-rotated orbitals eliminate anomalous orbital-overlap patterns, suppress geometry-dependent fluctuations of UMRSF-TDDFT energies, and recover smooth and physically consistent potential energy surfaces. Benchmarking against Thiel's TBE-2 set further confirms that UMRSF-TDDFT preserves the accuracy of the original MRSF-TDDFT while benefiting from improved orbital flexibility. The resulting approach restores numerical stability to the unrestricted formulation and broadens the applicability of MRSF-TDDFT to systems requiring enhanced spin polarization or exhibiting strong multiconfigurational character.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42257548",
+      "doi": "10.1021/acs.est.5c17941",
+      "zotero_key": "9XSJ6N4E",
+      "title": "Embodied Transboundary Greenhouse Gas Emissions and Mitigation Opportunities of over 700 Belt and Road Initiative Projects",
+      "authors": [
+        [
+          "Lingli",
+          "Hou"
+        ],
+        [
+          "Tomer",
+          "Fishman"
+        ],
+        [
+          "Stefano",
+          "Merciai"
+        ],
+        [
+          "Takuma",
+          "Watari"
+        ],
+        [
+          "Yanan",
+          "Liang"
+        ],
+        [
+          "Ester van der",
+          "Voet"
+        ],
+        [
+          "Asaf",
+          "Tzachor"
+        ],
+        [
+          "Heming",
+          "Wang"
+        ],
+        [
+          "Peng",
+          "Wang"
+        ],
+        [
+          "Jun",
+          "Bi"
+        ],
+        [
+          "R L",
+          "Wang"
+        ]
+      ],
+      "journal": "Environmental Science & Technology",
+      "year": "2026",
+      "abstract": "The Belt and Road Initiative (BRI), the world’s largest ongoing infrastructure endeavor, tackles urgent development needs in underserved regions. However, its construction phase, especially material extraction and processing, may have far-reaching climate implications that remain poorly known. Here, we present the first global, project-level assessment of greenhouse gas (GHG) emissions embodied in the construction of over 700 individual BRI projects (2008–2024) across 105 countries. By integrating a detailed project data set with a physically grounded global supply chain model that captures material-specific sourcing patterns, we estimate 134 Mt of CO 2 equiv emissions, around half of which occur outside the project host countries. This reveals the previously unquantified global supply chain reach of the BRI. Depending on operational performance, BRI renewable energy projects may achieve emission reductions comparable in scale to the construction-phase emissions within 2 years. Our results underscore the need and opportunity to embed cleaner material sourcing and sustainability assessment into BRI and other transnational infrastructure efforts.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -10647,6 +11025,84 @@
       "subcollection": "Lacrimal system, Systeme lacrymal"
     },
     {
+      "pmid": "42260362",
+      "doi": "10.1186/s12879-026-13788-4",
+      "zotero_key": "IWSXZ9VN",
+      "title": "Epidemiological investigation of Chandipura virus disease outbreak, Gujarat, India, July 2024: a matched case-control study",
+      "authors": [
+        [
+          "Amit Pritam",
+          "Swain"
+        ],
+        [
+          "Betsy",
+          "Varghese"
+        ],
+        [
+          "Sowntappan",
+          "Balasubramanian"
+        ],
+        [
+          "Ngangom",
+          "Kanchan"
+        ],
+        [
+          "Aathira V.",
+          "Dev"
+        ],
+        [
+          "Kamlesh",
+          "Mandriya"
+        ],
+        [
+          "Jariwala Devang",
+          "Ashvinkumar"
+        ],
+        [
+          "Jayesh. M",
+          "Katira"
+        ],
+        [
+          "Harshad P.",
+          "Prajapati"
+        ],
+        [
+          "Jayesh",
+          "Solanki"
+        ],
+        [
+          "Nilam",
+          "Patel"
+        ],
+        [
+          "Ramesh",
+          "Chandra"
+        ],
+        [
+          "Himanshu",
+          "Chauhan"
+        ],
+        [
+          "Atul",
+          "Goel"
+        ],
+        [
+          "Tanzin",
+          "Dikid"
+        ]
+      ],
+      "journal": "BMC Infectious Diseases",
+      "year": "2026",
+      "abstract": "Chandipura virus disease (CHPVD), caused by the sandfly-transmitted Chandipura virus, is a major public health concern due to its reported explosive outbreaks of Acute Encephalitis Syndrome (AES) and high mortality in children. We aimed to describe the clinico-epidemiological characteristics of the cases and identify risk factors, following laboratory confirmation of CHPVD in Gujarat, India, in July 2024. We defined case as laboratory-confirmed CHPVD in clinical presentation of AES in a child aged under 15 years from Gujarat in July 2024. We identified cases through enhanced passive surveillance and compared them to age and place-matched controls. We randomly selected two controls (same and neighbouring village) with no fever and seizures or altered sensorium in previous month and aged +/-two years from case-age. We collected data using structured questionnaire. Severe underweight was weight-for-age z-score < -3 Standard deviation. We calculated geometric-mean (GM) for laboratory investigations, adjusted OR (aOR) using conditional logistic regression with Firth penalization. We conducted an entomological survey for sandflies in and around case household. We identified 54 cases with median age of 4 years [Interquartile-range (IQR) = 2–7] and 59% males in 20/33 districts. Case fatality rate was 50%. Rural cases were 81%, 72% had domestic animals, and 34.8% were severely underweight. Clinical manifestations were fever (87%), convulsion (74%), vomiting (70.4%), altered sensorium (57.4%), and loose stools (48%). Median duration between symptom onset and hospital admission was 1 day (IQR:0–2), and from hospital admission to death was 3 days (IQR:2-5.75). WBC count (GM = 15295/mm 3 ), SGOT (GM = 121.7U/L), APTT (GM = 48.9 s) and Lactate dehydrogenase (GM=657U/L.) were elevated. CSF showed lymphocytic predominance, and protein was 63 mg/dL. Underweight status in child (aOR = 4, 95%CI = 1.4–14.3) and poor housing structures and conditions (aOR = 2.66, 95%CI = 1.71–4.93) were significant risk factors. We collected sandflies (Sergentomyia species) from dwelling units while insecticidal control measures were underway. This investigation highlights widespread nature and high mortality from CHPVD outbreak among children in Gujarat. Clinical findings were consistent with acute encephalopathy and disseminated systemic infection. Being underweight and poor housing conditions were risk factors. We recommended physician sensitization in case management, health communication to address nutrition, housing conditions and protection against the sandfly bites. Not applicable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41924369",
       "doi": "10.18240/ijo.2026.04.03",
       "zotero_key": "R89TBPU4",
@@ -10700,6 +11156,23 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42267775",
+      "doi": "10.1167/tvst.15.6.15",
+      "zotero_key": "KR6B8BZB",
+      "title": "Erratum in: Targeting Circadian Rhythm Disruption in Glaucoma: PTGDS Mediates Trabecular Meshwork Fibrosis and Is Therapeutically Targeted by Aprepitant",
+      "authors": [],
+      "journal": "Translational Vision Science & Technology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "42066357",
@@ -10914,6 +11387,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42250580",
+      "doi": "10.1016/j.jcjo.2026.05.009",
+      "zotero_key": "2X6B3VDB",
+      "title": "Evaluation of a virtual reality-based perimetry device (RVF100) for visual field testing: a comparison with the Humphrey visual field analyzer.",
+      "authors": [
+        [
+          "Khaldon",
+          "Abbas"
+        ],
+        [
+          "Michael",
+          "Sibulo"
+        ],
+        [
+          "Abdullah",
+          "Al-Ani"
+        ],
+        [
+          "Kyle Edzel D",
+          "Advincula"
+        ],
+        [
+          "Justine William T",
+          "Duran"
+        ],
+        [
+          "Julian Rafaello C",
+          "Malabanan"
+        ],
+        [
+          "Edward Ryan A",
+          "Collantes"
+        ],
+        [
+          "Jose Ma",
+          "Martinez"
+        ],
+        [
+          "Hannah de",
+          "Guzman"
+        ],
+        [
+          "Andrew",
+          "Crichton"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "PURPOSE: Visual field testing is essential for monitoring field defects, but traditional devices are bulky and resource intensive. This study evaluated the agreement and usability of the RetinaLogik RVF100 virtual reality perimetry device compared with the Humphrey visual field analyzer (HVF) among Filipino adults. DESIGN: A comparative cross-sectional study. PARTICIPANTS: Participants were Filipino adults presenting to 2 major eye centres in the Philippines from January to October 2024. A total of 46 participants (76 eyes) were included. METHODS: Participants were categorized as normal, glaucoma, or other diagnoses (e.g., optic neuritis, ocular hypertension). Both devices tested visual fields using the 30-2 grid, measuring mean deviation (MD), pattern standard deviation (PSD), fixation losses (FL), false positives (FP), false negatives, and test duration. Agreement was assessed using Bland-Altman analysis and Pearson correlation. Pointwise analyses with heatmap visualizations were also used. Usability was evaluated using a postexamination Likert-scale questionnaire. RESULTS: RVF100 demonstrated strong agreement with HVF (MD: r = 0.979, PSD: r = 0.837; p < .0001). The Bland-Altman analysis showed a mean difference in sensitivity of -1.06 decibels (dB) (95% CI: -4.2 to 2 dB). RVF100 had shorter test durations (5.41 vs 6.96 min; p < 0.001), fewer FL (1.79% vs 5.59%; p < 0.001), and slightly higher FP rates (3.44% vs 1.92%; p < 0.001). Usability results showed 90% preferred RVF100 over HVF for comfort (86.4%) and engagement (95.3%). CONCLUSIONS: RVF100 is a comparable alternative to HVF, offering comparable accuracy with improved patient comfort. Further research is warranted to assess its efficacy in detecting early and advanced disease stages and in broader populations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41934477",
@@ -12086,6 +12617,80 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42274255",
+      "doi": "10.1227/neu.0000000000004103",
+      "zotero_key": "CUHHZPPD",
+      "title": "Flow Redistribution in Circle of Willis Branches After Flow Diversion: Impetus for Vascular Remodeling?",
+      "authors": [
+        [
+          "S",
+          "Robertson"
+        ],
+        [
+          "Felipe",
+          "Ramirez‐Velandia"
+        ],
+        [
+          "Emmanuel O.",
+          "Mensah"
+        ],
+        [
+          "Jesse C.",
+          "Wells"
+        ],
+        [
+          "Wyatt E.",
+          "Clark"
+        ],
+        [
+          "Steven A.",
+          "Schwartz"
+        ],
+        [
+          "K",
+          "Lewis"
+        ],
+        [
+          "H",
+          "Berns"
+        ],
+        [
+          "K",
+          "Hakes"
+        ],
+        [
+          "C",
+          "Rapoport"
+        ],
+        [
+          "M",
+          "Alnajrani"
+        ],
+        [
+          "Justin H.",
+          "Granstein"
+        ],
+        [
+          "T",
+          "Becker"
+        ],
+        [
+          "Christopher S.",
+          "Ogilvy"
+        ]
+      ],
+      "journal": "Neurosurgery",
+      "year": "2026",
+      "abstract": "BACKGROUND AND OBJECTIVES: Flow diverters (FDs) can induce vascular remodeling in nontarget branches of the circle of Willis (CW), yet the hemodynamic drivers of these changes remain unclear. Using in vitro CW models, flow rate alterations were quantified across both target and contralateral CW branches after FD deployment. METHODS: Four 3-dimensional-printed CW models were created (standard and hypoplastic variants) and integrated into a physiological pulsatile flow loop. Flow rates and pressures were recorded in all major branches before and after sequential deployment of 3 concentric FDs. Eight experiments were performed across the 4 models to capture anatomy-dependent hemodynamic responses. RESULTS: Across all 4 FD configurations, deployment produced significant flow redistribution both in the covered branch and in remote CW vessels. Covered vessels showed progressive flow reductions of up to 14% after 3 FDs, particularly in hypoplastic anatomies. Importantly, contralateral and collateral pathways also demonstrated measurable redistribution: contralateral anterior cerebral artery flow decreased by up to 4.7%, middle cerebral artery flow increased by 2% to 5%, and posterior cerebral artery flow shifted by 3% to 8% depending on the FD location. Several of these compensatory changes reached statistical significance despite occurring in branches not directly covered by the device, underscoring the CW's sensitivity to localized resistance changes. CONCLUSION: FD placement produced significant, anatomy-dependent changes in branch flow rate and pressures. Hypoplastic models exhibited more pronounced redistribution patterns than standard CW anatomy, highlighting the role of baseline vessel diameter. These findings support a mechanistic explanation for clinically reported post-treatment vascular remodeling.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1002/neu.480200503",
       "zotero_key": "S7XMV7NT",
@@ -12512,6 +13117,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
+    },
+    {
+      "pmid": "42274298",
+      "doi": "10.1530/erc-25-0516",
+      "zotero_key": "X6XAIX5U",
+      "title": "Functional Imaging in Hereditary Endocrine Neoplasms: Evolving Modalities and Clinical Implications",
+      "authors": [
+        [
+          "Stephen",
+          "Ludgate"
+        ],
+        [
+          "Sarah C.",
+          "Brennan"
+        ],
+        [
+          "James",
+          "McNeil"
+        ],
+        [
+          "Venessa HM",
+          "Tsang"
+        ],
+        [
+          "Bruce G.",
+          "Robinson"
+        ],
+        [
+          "Lyndal",
+          "Tacon"
+        ],
+        [
+          "Roderick",
+          "Clifton‐Bligh"
+        ],
+        [
+          "Matti L",
+          "Gild"
+        ]
+      ],
+      "journal": "Endocrine Related Cancer",
+      "year": "2026",
+      "abstract": "Hereditary endocrine neoplastic syndromes require structured, lifelong surveillance owing to their multisystem involvement, variable penetrance, and high risk of multifocal and metastatic disease. Functional imaging (FI) is now integral to their management, providing molecular characterisation that complements conventional anatomical modalities and frequently enables earlier or more specific lesion detection. This review summarises current FI approaches across major hereditary syndromes, including Multiple Endocrine Neoplasia types 1-4, von Hippel-Lindau disease and hereditary phaeochromocytoma-paraganglioma syndromes with emphasis on radiotracer selection, genotype-phenotype correlations and implications for clinical practice. The performance and biological rationale for established radiotracers including 18F-FDG, 68Ga-DOTATATE, 18F-DOPA and choline-based PET agents and emerging probes is described. Increasing evidence supports genotype-directed imaging algorithms, particularly in HPPS, where molecular subtype predicts tracer avidity and guides theranostic strategies. The expanding theranostic framework, anchored in somatostatin receptors and norepinephrine transporter-directed radiopharmaceuticals has reshaped treatment pathways for advanced and metastatic disease. Implementation challenges persist, including variable global access, high costs, workforce limitations and concerns regarding cumulative radiation exposure during decades of surveillance. Technical constraints related to spatial resolution, partial-volume effects, and motion artefact continue to limit the sensitivity of small-lesion detection. Emerging approaches incorporating radiomics and artificial intelligence offer opportunities to enhance lesion characterisation, infer genetic subtype, and improve prognostication. Advancing FI in hereditary endocrine neoplasia will require genetically informed surveillance protocols, harmonised imaging standards, and equitable access to specialised modalities. Collectively, these developments have the potential to refine risk stratification, improve treatment selection, and optimise long-term outcomes for individuals with hereditary endocrine malignancies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "",
@@ -14258,6 +14913,48 @@
       "subcollection": "ACO2"
     },
     {
+      "pmid": "42249845",
+      "doi": "10.1021/acs.analchem.6c01388",
+      "zotero_key": "3NFHEIBJ",
+      "title": "IMFrag: A Tool to Recognize In-Source Fragmentation in Ion Mobility-Enabled Data-Independent Acquisition Workflows",
+      "authors": [
+        [
+          "Ryan",
+          "Nguyen"
+        ],
+        [
+          "Anvitaa",
+          "Anandkumar"
+        ],
+        [
+          "Griffin",
+          "Rangel"
+        ],
+        [
+          "Jennifer",
+          "Liem"
+        ],
+        [
+          "Yvonne S.",
+          "Lin"
+        ],
+        [
+          "Libin",
+          "Xu"
+        ]
+      ],
+      "journal": "Analytical Chemistry",
+      "year": "2026",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide High-resolution mass spectrometry is a powerful tool for untargeted analysis. However, in-source fragmentation (ISF) could lead to the misidentification of compounds in untargeted metabolomics or exposomics studies. To prevent misidentification and to strengthen compound identification through MS/MS spectral library matching, we developed IMFrag, a Jupyter notebook-based tool that utilizes structural information gained from ion mobility-mass spectrometry (IM-MS) as an orthogonal technique to differentiate independent precursor ions from fragments formed via ISF. We first examined l -tryptophan, which is an essential amino acid that undergoes extensive fragmentation during electrospray ionization (ESI). IM-enabled data-independent acquisition (IM-DIA) analysis revealed distinct mobility signatures for identical fragment ions formed at different instrument sites, enabling discrimination between ISFs generated prior to the IM drift tube and fragments produced via postmobility collision-induced dissociation. Similar patterns were observed for a structurally diverse collection of small molecules. Additional structural information could also be inferred from the IM-DIA workflow, such as unique dimers, protonation sites, and distinct ion types that were not apparent from LC–MS alone. These insights were shown to be useful when applied to healthy human plasma samples, which served as a more complex and biologically relevant matrix that contained ambiguities, such as coeluting, isobaric candidate structures. Thus, IMFrag was developed as an accessible framework for interrogating MS 1 and post-IM MS 2 chemical features in untargeted data sets and can be integrated into untargeted analysis pipelines or used to support the development of ISF-derived MS/MS spectral libraries.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42012371",
       "doi": "10.1097/iae.0000000000004864",
       "zotero_key": "WZR3NKRV",
@@ -14478,6 +15175,68 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42257492",
+      "doi": "10.1227/neu.0000000000004116",
+      "zotero_key": "EPIZ9TBA",
+      "title": "In Reply: Trends in the Academic Neurosurgical Workforce: A Longitudinal Analysis of Gender and Race/Ethnic Representation in the United States From 2012 to 2021",
+      "authors": [
+        [
+          "Timi",
+          "Akinwunmi-Williams"
+        ],
+        [
+          "Jarius",
+          "Garner"
+        ],
+        [
+          "Dejauwne",
+          "Young"
+        ],
+        [
+          "Dana",
+          "Allison"
+        ],
+        [
+          "Canada T.",
+          "Montgomery"
+        ],
+        [
+          "Tianwen",
+          "Ma"
+        ],
+        [
+          "Owoicho",
+          "Adogwa"
+        ],
+        [
+          "William W.",
+          "Ashley"
+        ],
+        [
+          "Sonia V.",
+          "Eden"
+        ],
+        [
+          "Nnenna",
+          "Mbabuike"
+        ],
+        [
+          "Edjah K.",
+          "Nduom"
+        ]
+      ],
+      "journal": "Neurosurgery",
+      "year": "2026",
+      "abstract": "To the Editor: We thank the authors for their interest1 in our article, “Trends in the Academic Neurosurgical Workforce: A Longitudinal Analysis of Gender and Race/Ethnic Representation in the United States From 2012 to 2021”.2 We agree that both absolute and proportional growth of female faculty representation are important for characterizing progress toward workforce diversity. On revisiting our analysis, we identified an error in the originally reported annual growth rate for female neurosurgery faculty. We have corrected this error and reconducted linear regression modeling to ensure accurate assessment of gender-based trends in academic neurosurgery. Our corrected linear regression analysis demonstrates that the annual growth rate for female neurosurgery faculty is 23.0 per year (95% CI: 17.9-28.1; P < .001), while the annual growth rate for male faculty is 40.2 per year (95% CI: 35.1-45.4; P < .001). The interaction term shows a statistically significant difference of −17.2 (95% CI: −24.5 to −10.0; P < .001), confirming that female faculty are being added to the academic neurosurgery workforce at a slower rate than their male counterparts. Although the authors suggested presenting proportional changes between time points, regression modeling incorporates year-to-year variation across the study period and allows direct comparison of growth rates. These analyses demonstrate that although absolute numbers of female faculty have increased, the pace of growth remains slower than that observed among male faculty. To further evaluate whether increases in female faculty translated into representation at senior ranks, we stratified our analysis by academic position. For senior positions (associate and full professor), male faculty increased annually by 20.4 (95% CI: 17.5-23.4; P < .001), whereas female faculty increased by 11.8 (95% CI: 8.9-14.8; P < .001). For assistant professor positions, male faculty increased annually by 19.8 (95% CI: 16.8-22.8; P < .001), whereas female faculty increased by 11.2 (95% CI: 8.2-14.2; P < .001). These findings indicate that at both senior and nonsenior levels, male faculty were added at approximately twice the rate of female faculty. However, approximately half of the growth for both male and female faculty occurred at senior ranks, suggesting comparable advancement patterns once individuals enter academic neurosurgery. These findings indicate that disparities seem to be driven primarily by differential entry into the academic pipelines rather than promotion rates. Regarding commentary on attrition across earlier stages of the academic pipeline, our study was designed to evaluate longitudinal demographic trends within the academic neurosurgical workforce, primarily at the resident and faculty levels. Evaluation of medical student-level data was therefore outside the intended scope of this workforce-focused analysis. Nevertheless, we referenced physician-led initiatives targeting earlier pipeline stages to contextualize ongoing efforts to improve workforce diversity. Our findings at the resident and faculty levels complement rather than replace, investigations examining earlier points of attrition. We also acknowledge the authors' reference to Maqsood et al, whose findings regarding persistent gender disparities parallel trends observed in our analysis.3 In our study, the proportion of female neurosurgery residents increased from 15.1% to 20.5% between 2011 and 2020. We presented these trends alongside longitudinal changes in the male representation to evaluate whether patterns observed during training persist in the academic workforce. In addition, we discussed initiatives such as Women in Neurosurgery that aim to address disparities identified in prior studies. Our findings, together with those of Persad-Paisley et al and Maqsood et al, contribute to the ongoing discussion regarding workforce disparities across stages of neurosurgical training and practice.3,4 We agree with the authors regarding the importance of an intersectional lens when evaluating workforce diversity. Our study relied on aggregated national Data sets from the Association of American Medical Colleges and the Accreditation Council for Graduate Medical Education, which do not permit individual-level linkage of race and gender. As such, intersectional stratification was beyond the scope of the Data set and represents a limitation. Similarly, institution variables such as departmental diversity initiatives and policy-level factors are not consistently captured in the national workforce databases. Future studies examining departmental policies and their relationship to workforce diversity would provide valuable insight. We also agree that qualitative factors such as mentorship, inclusion, and departmental culture are important components of workforce equity. Our analysis focused on longitudinal demographic trends derived from national Data sets that do not include measures of mentorship quality or workplace climate. Although numerical representation alone does not fully capture equity within academic neurosurgery, our findings demonstrate continued disparities in representation, particularly among underrepresented racial and ethnic groups. These observations suggest that structural and cultural factors beyond pipeline expansion may influence recruitment and retention. Future investigations incorporating qualitative methodologies, such as surveys and institutional assessments may further clarify the role of mentorship structures and departmental culture in shaping workforce diversity.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41985865",
@@ -16134,6 +16893,56 @@
       "subcollection": "Corneal dystrophy, lattice"
     },
     {
+      "pmid": "42257756",
+      "doi": "10.1007/s00590-026-04803-0",
+      "zotero_key": "5VICERTG",
+      "title": "Learning curve in image-based robotic assisted total knee arthroplasty: a MAKO-robot experience",
+      "authors": [
+        [
+          "Ferdinando",
+          "Granata"
+        ],
+        [
+          "Francesco",
+          "Bosco"
+        ],
+        [
+          "Claudio Domenico",
+          "Cobisi"
+        ],
+        [
+          "Federico",
+          "Nasca"
+        ],
+        [
+          "Riccardo Giai",
+          "Via"
+        ],
+        [
+          "M.S.",
+          "Carlino"
+        ],
+        [
+          "Jonathan M.",
+          "Vigdorchik"
+        ],
+        [
+          "Carmelo",
+          "Burgio"
+        ]
+      ],
+      "journal": "European Journal of Orthopaedic Surgery & Traumatology",
+      "year": "2026",
+      "abstract": "PURPOSE: Robotic-assisted total knee arthroplasty (RA-TKA) is increasingly used to improve implant positioning, soft-tissue balance, and procedural reproducibility. Yet, little is known about how different components of the operation independently contribute to the overall learning curve. This study aimed to characterize the learning curve of MAKO-assisted TKA by separately evaluating these components and assessing their differential impact on operative workflow. METHODS: A retrospective observational study included 92 consecutive patients who underwent image-based RA-TKA (MAKO, Stryker) for primary knee osteoarthritis. All procedures were performed by a single experienced arthroplasty surgeon with no prior robotic or computer-assisted surgery background. Cumulative sum (CUSUM) analysis with piecewise linear regression was applied to total surgical time, pin placement time, and composite robotic workflow time to identify inflection points and define learning curve phases. RESULTS: Piecewise regression of the CUSUM plot for total surgical time revealed two breakpoints at cases 11 and 51, defining three phases of the learning curve: (1) initial learning (cases 1-11), (2) competence (cases 12-51), and (3) optimized performance (cases 52-90). Mean surgical time was 68.9 ± 20.1 min, stabilizing around 65 min after 50 cases. Along with total surgical time, the initial learning phase ended around cases 10-11 for both robotic workflow and pin placement. However, subsequent performance patterns differed: pin placement reached optimized performance by case 52 (mean 8.4 ± 4.3 min), whereas robotic workflow time improved more gradually, without clear stabilization until the end of the series (mean 37.8 ± 10.8 min). CONCLUSIONS: RA-TKA with the MAKO system follows a structured learning curve with early achievement of proficiency after 11 cases. Total surgical time and pin placement reached optimized performance by mid-series, whereas robotic workflow tasks required a longer consolidation period, likely influenced by patient-specific anatomical variability. These findings support RA-TKA as a safe and effective tool, offering rapid surgeon adaptation. LEVEL OF EVIDENCE: IV.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.5455/medarh.2025.79.241-248",
       "zotero_key": "RR2ISM7U",
@@ -17724,6 +18533,44 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42262675",
+      "doi": "10.1186/s12284-026-00926-4",
+      "zotero_key": "UN7UVUGT",
+      "title": "Morphological Characteristics and Significance of Bulliform Phytoliths in Haploid Rice",
+      "authors": [
+        [
+          "Xiangan",
+          "Tang"
+        ],
+        [
+          "Jue",
+          "Yu"
+        ],
+        [
+          "Fangming",
+          "Mao"
+        ],
+        [
+          "Song",
+          "Yan"
+        ],
+        [
+          "Houyuan",
+          "Lu"
+        ]
+      ],
+      "journal": "Rice",
+      "year": "2026",
+      "abstract": "The morphology of bulliform phytoliths serves as a key proxy for tracing the origin and evolution of ancient rice cultivation in archaeobotanical research; however, the correlation between these morphological traits and the genetic background of rice is unclear. To the best of our knowledge, for the first time, this study demonstrates that chromosome ploidy level is a key genetic factor influencing rice phytolith morphology, based on a comparative analysis of fan-shaped bulliform phytoliths from haploid and diploid rice. Compared with diploid rice, we found that the bulliform phytoliths in haploid rice exhibited two significant differences: (1) an overall reduction in morphological dimensions (fan width HL = 34.8 μm, fan length VL = 37.6 μm), with dimensions reduced by ~ 18%, a decrease in the number of fish-scale facets (~ 6.7), and an extremely low proportion of bulliform phytoliths with ≥ 9 fish-scale facets (~ 7.0%); and (2) a 46.8% decrease in the ratio of fan face length to stalk length (B/A) of phytoliths (~ 0.58), with very few short-stalk types (accounting for 0.0%-1.5%) and a predominance of long-stalk types (accounting for ~ 86.6%). These results revealed the regulatory mechanism governing chromosome ploidy on plant cell silicification patterns, manifesting as both quantitative (reduced size and fewer facets) and qualitative (possible absence of certain morphotypes) changes. This study provides important empirical evidence and a theoretical foundation to bridge modern rice genetics and archaeobotany.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1017/s0952523800174115",
       "zotero_key": "FFVURTHA",
@@ -18042,6 +18889,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42271300",
+      "doi": "10.1186/s12886-026-05006-1",
+      "zotero_key": "U8M4SBSZ",
+      "title": "Multimodal imaging and intravitreal faricimab for polypoidal choroidal vasculopathy associated with a choroidal nevus in genetically confirmed Usher syndrome type 2: a case report",
+      "authors": [
+        [
+          "Jiyong",
+          "Kim"
+        ],
+        [
+          "Jaehwan",
+          "Choi"
+        ],
+        [
+          "Kiyoung",
+          "Kim"
+        ],
+        [
+          "Seung-Young",
+          "Yu"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Usher syndrome is an autosomal recessive disorder characterized by retinitis pigmentosa (RP), sensorineural hearing loss, and vestibular dysfunction. Polypoidal choroidal vasculopathy (PCV) is characterized by branching neovascular networks and polypoidal lesions. While typically classified within the pachychoroid spectrum, PCV can also manifest in eyes without choroidal thickening. Conversely, RP is usually associated with choroidal thinning, which may lead to underdiagnosis of PCV. To the best of our knowledge, PCV has not previously been reported in patients with Usher syndrome. Here, we present the first genetically confirmed case of Usher syndrome type 2 complicated by PCV that was successfully managed with intravitreal faricimab. CASE PRESENTATION: A 63-year-old man presented with night blindness. The diagnosis of Usher syndrome type 2 was confirmed based on bilateral RP features, moderate sensorineural hearing loss, and two pathogenic USH2A variants. Six years after the initial diagnosis, the patient developed visual disturbance in the left eye, with the best-corrected visual acuity (BCVA) declining to 20/80. Multimodal imaging, including spectral-domain optical coherence tomography, fluorescein angiography, indocyanine green angiography, and swept-source optical coherence tomography angiography, confirmed the diagnosis of PCV. An amelanotic choroidal nevus was also identified on SD-OCT. After five intravitreal faricimab injections, the BCVA improved to 20/30, with a 75% reduction in pigment epithelial detachment height and complete subretinal fluid resolution without adverse effects. CONCLUSIONS: To our knowledge, this is the first reported case of PCV associated with a choroidal nevus in a patient with genetically confirmed Usher syndrome type 2. PCV should not be excluded in patients with RP despite characteristic choroidal thinning. Intravitreal faricimab was effective and well-tolerated, suggesting its therapeutic potential in such cases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS2"
     },
     {
       "pmid": "41452621",
@@ -18456,6 +19337,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Cone-rod dystrophy"
+    },
+    {
+      "pmid": "42274419",
+      "doi": "10.1227/neu.0000000000004104",
+      "zotero_key": "8JAZFAG6",
+      "title": "Neurotrauma in Naval Special Warfare Combat Crewmen and Fast Boat Operators",
+      "authors": [
+        [
+          "Joseph C.",
+          "Maroon"
+        ],
+        [
+          "Samuel H.",
+          "Wakelin"
+        ],
+        [
+          "Nitin",
+          "Agarwal"
+        ],
+        [
+          "Robert M.",
+          "Friedlander"
+        ],
+        [
+          "Michael Anthony",
+          "Smith"
+        ]
+      ],
+      "journal": "Neurosurgery",
+      "year": "2026",
+      "abstract": "BACKGROUND AND OBJECTIVES: Fast boat operators (FBOs) are exposed to thousands of high-G impacts while traveling up to 50 to 60 mph over 1- to 6-foot waves for hours at a time. This represents a potential risk factor for repetitive head impacts and traumatic brain injury (TBI). This study evaluates the burden of neurocognitive symptoms among FBOs and their association with a formal TBI diagnosis. METHODS: Two hundred forty-five FBOs were surveyed. The number of months served as an FBO on boat deployments, and the number of respondents diagnosed with TBI during their service were collected. Comparison of exposure and neurocognitive symptom burden between patients with and without TBI was performed through two-sided T-tests and χ2 analyses using Python. RESULTS: One hundred ninety-eight operators (80.8%) responded. Average age was 51.0 ± 10.1. Average years served as an FBO was 12.1 ± 6.4. Average months deployed on fast boats was 91.6 ± 62.9. Ninety operators (45.5%) were medically diagnosed with TBI. TBI diagnosis correlated with the number of years as an FBO (P = .001), months on fast-boat deployments (P = .004), diagnosis of post traumatic stress disorder (P < .001), and diagnosis of cervical spinal stenosis (P = .016). Multiple linear regression analyzing factors associated with neurobehavioral symptom inventory cognitive domain scores showed that TBI was the only factor associated with increased scores (Beta: 1.08, 95% CI: [0.19-1.97], P = .02). CONCLUSION: Our results indicate a significant neurocognitive burden among Special Warfare Combat Crewmen operators; however, compared with the level of symptom burden, relatively few respondents received a formal TBI diagnosis. Physicians caring for FBOs should remain vigilant to ensure that subtle signs of postconcussion syndrome are recognized, return to duty protocols are enforced, and safety measures are adopted to protect FBOs from TBI.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41790986",
@@ -19656,6 +20575,32 @@
       "subcollection": "Ocular imaging"
     },
     {
+      "pmid": "42269532",
+      "doi": "10.1016/j.jenvman.2026.130196",
+      "zotero_key": "M8B86ZCS",
+      "title": "Optimizing anthropogenic management practices can effectively enhance the vegetation carbon sequestration in China",
+      "authors": [
+        [
+          "Zilong",
+          "Qin"
+        ],
+        [
+          "Zongyao",
+          "Sha"
+        ]
+      ],
+      "journal": "Journal of Environmental Management",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42001061",
       "doi": "10.1186/s12909-026-09230-7",
       "zotero_key": "2C78NC9B",
@@ -19906,6 +20851,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42274937",
+      "doi": "10.1186/s12348-026-00608-8",
+      "zotero_key": "4AWSX9Z3",
+      "title": "Outcomes of Patients with Acute Retinal Necrosis (ARN) presenting to a Canadian tertiary care centre: a 5-year retrospective cohort study",
+      "authors": [
+        [
+          "Cody",
+          "Lo"
+        ],
+        [
+          "Jeffrey M.",
+          "Mah"
+        ],
+        [
+          "Carol",
+          "Tadrous"
+        ],
+        [
+          "Peter",
+          "Greenstreet"
+        ],
+        [
+          "Hong‐An",
+          "Nguyen"
+        ],
+        [
+          "Chloe C.",
+          "Gottlieb"
+        ]
+      ],
+      "journal": "Journal of Ophthalmic Inflammation and Infection",
+      "year": "2026",
+      "abstract": "PURPOSE: To describe the contemporary management and outcomes of patients with acute retinal necrosis (ARN) at a tertiary Canadian hospital over a 5-year period. METHODS: This was a retrospective cohort study of patients who presented to The Ottawa Hospital (Ottawa, Canada) and were newly diagnosed with ARN between January 2019 and July 2024. Data regarding demographics, clinical presentation, investigations, treatment, and outcomes were collected. The primary outcome was retinal detachment. Secondary outcomes were severe vision loss and other complications associated with ARN. Statistical analyses were performed to identify factors associated with develop of the primary and secondary outcomes. RESULTS: A total of 16 eyes amongst 14 patients met inclusion criteria. The mean age at presentation was 56 years old, with 57% male. 5 patients (36%) had a known history of previous systemic herpetic infection. The most common exam findings on presentation were anterior chamber cell (94%), keratitic precipitates (88%), vitritis (94%), and arteritis (75%). Aqueous humor serology was positive for 96% of eyes (56% for VZV and 40% for HSV). Eyes received an average of 5.8 injections (range 1 to 17) of intravitreal antiviral therapy. Corticosteroids were administered in 13 patients (81%). Prophylactic laser retinopexy was used in 1 eye (6%) and pars plana vitrectomy was done for vitreous opacities in 1 eye (6%). During a mean follow-up of 424 days, 44% of eyes developed retinal detachment. The average time from symptom onset to diagnosis of retinal detachment was 105 days (range 14 to 180). Half of eyes had a final visual acuity worse than 20/200. The most common complications were cataract (38%) and recurrent anterior uveitis (31%). Initial BCVA of worse than 20/400 was significantly associated with an outcome of severe vision loss. No associations were found for development of retinal detachment. CONCLUSION: Our cohort demonstrates the range of presentations and outcomes in the management of ARN. While early recognition and systemic antivirals remain essential, our centre uses a larger number of intravitreal antiviral injections with less prophylactic laser or vitrectomy to achieve similar outcomes as other cohorts. This study highlights the value of standardized protocols for recognition and treatment of ARN.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "41964718",
@@ -20584,6 +21571,52 @@
       "subcollection": "Congenital cataract"
     },
     {
+      "pmid": "42251332",
+      "doi": "10.1186/s12886-026-04947-x",
+      "zotero_key": "GNPEUKRD",
+      "title": "Personalized orbital decompression surgery for thyroid-associated orbitopathy: a comprehensive retrospective analysis of efficacy, safety, and surgical strategy",
+      "authors": [
+        [
+          "Pei",
+          "Wang"
+        ],
+        [
+          "Zijian",
+          "Han"
+        ],
+        [
+          "Li",
+          "X"
+        ],
+        [
+          "Ru",
+          "Lin"
+        ],
+        [
+          "Yan",
+          "Xun"
+        ],
+        [
+          "Zexi",
+          "Sang"
+        ],
+        [
+          "Hongfeng",
+          "Yuan"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "OBJECTIVE: This study aimed to comprehensively evaluate the efficacy and safety of personalized multimodal orbital decompression for thyroid-associated orbitopathy (TAO) via large-scale retrospective analysis, and to optimize surgical strategies accordingly. METHODS: A retrospective cohort study included 199 TAO patients (263 eyes) who underwent orbital decompression between September 2021 and June 2025. Patients were stratified into four groups by surgical modality: transconjunctival fat decompression, endoscopic transnasal medial wall decompression, combined transconjunctival medial-lateral wall decompression, and combined endoscopic transnasal medial-lateral wall decompression. Primary outcomes were changes in LogMAR best-corrected visual acuity (BCVA), proptosis, and intraocular pressure (IOP); secondary outcomes included ocular motility, diplopia, and postoperative complication rates. RESULTS: All surgical strategies resulted in significant clinical improvements. Overall mean proptosis was reduced from 21.16 ± 2.75 mm to 15.01 ± 1.86 mm (p < 0.0001). Mean BCVA improved from 0.67 ± 0.68 LogMAR to 0.34 ± 0.42 LogMAR (p < 0.0001), with the most significant improvement seen in patients with preoperative Dysthyroid Optic Neuropathy (DON). DON was present in 46.4% of eyes, with the highest prevalence in Groups 2 (76.6%) and 4 (62.2%). Combined bony wall decompression (Groups 3 & 4) yielded the greatest proptosis reduction (7.67 mm and 7.29 mm, respectively), significantly more than single-modality decompression (p < 0.0001). The overall complication rate was 9.1%, with new-onset or worsening diplopia being the most common, but often transient or successfully managed with subsequent strabismus surgery. Endoscopic medial wall decompression (Group 2) was associated with the lowest complication rate (4.3%). CONCLUSION: In this large single-centre retrospective cohort, individualized orbital decompression was associated with significant improvements in proptosis, visual function, IOP, ocular motility, and diplopia-related outcomes in patients with TAO. Combined medial-lateral wall decompression achieved greater proptosis reduction, whereas procedures involving medial wall decompression were associated with visual improvement in eyes with DON. These findings support an indication-driven approach to surgical selection, while the retrospective design, baseline differences among groups, and eye-level analysis should be considered when interpreting comparative results.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
+    },
+    {
       "pmid": "",
       "doi": "10.1002/ajmg.1320470129",
       "zotero_key": "W8U77D94",
@@ -21142,6 +22175,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Congenital cataracts"
+    },
+    {
+      "pmid": "42251069",
+      "doi": "10.1038/s41598-026-54451-x",
+      "zotero_key": "EWG9EKSU",
+      "title": "Postpartum-specific anxiety among working mothers in relation to maternity leave perceptions: a cross-sectional study from Turkey",
+      "authors": [
+        [
+          "Melike PÜNDÜK",
+          "YILMAZ"
+        ],
+        [
+          "İclal İlknur",
+          "Özdemir"
+        ],
+        [
+          "Gunay",
+          "Cukurlu"
+        ],
+        [
+          "Selma",
+          "Dağcı"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Postpartum anxiety is common among working mothers, and statutory maternity-leave provisions may not align with maternal recovery needs. This study examined whether working mothers’ subjective perceptions of maternity-leave adequacy were associated with their postpartum-specific anxiety levels, beyond what would be expected from objective leave duration and demographic factors alone. A descriptive, cross-sectional study was conducted with 287 employed mothers in the postpartum period (defined as up to 12 months after delivery) in Turkey between March and July 2024. Data were collected through an online questionnaire that included sociodemographic and obstetric characteristics, maternity-leave perceptions, and the 47-item Turkish version of the Postpartum-Specific Anxiety Scale (PSAS), which is treated as a unidimensional measure with scores ranging from 47 to 188. Statistical analyses included chi-square tests, the Mann–Whitney U test, the Kruskal–Wallis H test, and Spearman’s rank-order correlation, with categorical anxiety classified as low (≤ 73), moderate (74–100), and high (≥ 101). The mean PSAS score was 92.10 ( SD = 23.86), and 81.2% of respondents fell into the moderate or high anxiety category. Three-quarters of participants (75.3%) rated the 16-week maternity leave as insufficient, and 69.7% indicated that it was inadequate for postpartum recovery. Perceiving maternity leave as insufficient was significantly associated with higher anxiety category, χ 2 (4) = 10.92, p = .028, and the clearest categorical association emerged between the intention to extend leave and anxiety, χ 2 (4) = 21.37, p < .001. On the continuous PSAS score, sociodemographic and obstetric characteristics were largely non-significant, with the exception of gestational health problems, Mann–Whitney U = 3819.5, p = .038. The distribution of anxiety categories differed according to maternity-leave perceptions; however, the pattern was not strictly monotonic, and effect sizes (Cramer’s V) for the leave-perception items ranged from trivial to small. The clearest categorical association was observed for the intention to extend maternity leave, and findings should therefore be interpreted as suggestive of a meaningful, but bivariate and modest, link between subjective leave appraisal and postpartum anxiety. The gap between statutory provisions and lived maternal experience supports further investigation of policy and workplace measures that may extend beyond minimum leave durations, including phased return-to-work models, paid lactation breaks, and routine screening for postpartum anxiety in occupational and primary care settings.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42163746",
@@ -21802,6 +22869,40 @@
       "subcollection": "CEP290"
     },
     {
+      "pmid": "42184221",
+      "doi": "10.3791/70099",
+      "zotero_key": "BDZ6SG3M",
+      "title": "Protocol for Studying Honokiol Regulation of Transforming Growth Factor Beta 1/Smad Signaling in Ultraviolet A&amp;#8211;induced Skin Photoaging Models",
+      "authors": [
+        [
+          "Guanyi",
+          "Ma"
+        ],
+        [
+          "Zonghui",
+          "Liu"
+        ],
+        [
+          "Yanan",
+          "Li"
+        ],
+        [
+          "Yu",
+          "Tao"
+        ]
+      ],
+      "journal": "Journal of Visualized Experiments",
+      "year": "2026",
+      "abstract": "Honokiol (HNK), a key component derived from Magnolia officinalis, has the potential to treat skin diseases. At present, the impact and mechanism of action of HNK on Ultraviolet A (UVA)-induced photodamage in the skin are unclear. A photo-aging damage model of HDF cells and hairless mouse skin was constructed by UVA induction. The impact of HNK on the viability of normal HDF cells and UVA-induced HDF cells was examined through the Cell viability assay. SOD, GSH, CAT, and MDA levels in HDF cells were measured using different kits, and ROS levels were measured using DCFH-DA and Dihydroethidium. SA-β-galactosidase and TUNEL staining detected senescence and apoptosis in HDF cells, and flow cytometry assessed cell cycle progression. Histopathological damage to the skin was evaluated through pathological staining. In addition, immunofluorescence and Western blot were used to assess Ki67, collagen, matrix metalloproteinase (MMP), and TGF-β1/Smad pathway-associated protein levels. HNK (2.5-10 µM) treatment had no adverse impact on normal HDF cell viability but attenuated UVA-induced HDF cell damage, reducing oxidative stress and apoptosis. UVA induced senescence of HDF cells, induced S-phase arrest, downregulated Ki67, decreased collagen content, and increased MMP expression, while HNK effectively attenuated these UVA-induced abnormalities. In addition, UVA caused deeper wrinkles, decreased water content and collagen content, and increased epithelial thickness in mouse skin, whereas subcutaneous injection of HNK attenuated pathological damage to skin tissue and increased water and collagen content. Furthermore, HNK activated the TGF-β1/Smad pathway, and the TGF-β1 inhibitor SB431542 impaired the protective effect of HNK against photo-aging damage in HDF cells. In conclusion, HNK has the potential to be a drug for ameliorating photo-aging damage by reducing MMP expression through activation of the TGF-β1/Smad pathway, thereby inhibiting UVA-induced photo-aging in HDF cells and mouse skin.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TGFBI"
+    },
+    {
       "pmid": "41787648",
       "doi": "10.15283/ijsc25127",
       "zotero_key": "TFQV44QJ",
@@ -22202,6 +23303,44 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42215905",
+      "doi": "10.1186/s12886-026-04921-7",
+      "zotero_key": "PD4XQX8C",
+      "title": "Ray-tracing guided versus topography-guided FS-LASIK for myopia: a comparative study of relative peripheral refraction and visual quality",
+      "authors": [
+        [
+          "Dihua",
+          "Ao"
+        ],
+        [
+          "Jiawei",
+          "Wu"
+        ],
+        [
+          "Bo",
+          "Zhang"
+        ],
+        [
+          "Lu",
+          "Xiong"
+        ],
+        [
+          "Zheng",
+          "Wang"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "PURPOSE: To compare the distribution of relative peripheral refraction (RPR) and higher-order aberrations (HOAs) following ray-tracing-guided (RG) and topography-guided (TG) femtosecond laser-assisted in situ keratomileusis (FS-LASIK), and to investigate their associations with postoperative visual symptoms. METHODS: This study compared the clinical outcomes of RG FS-LASIK and TG FS-LASIK, with 50 eyes from 50 patients prospectively enrolled in each group. Evaluations preoperatively and 3 months postoperatively included visual acuity, manifest refraction, HOAs, RPR, and the quality of vision questionnaire. RPR was assessed via wide-field peripheral refraction and analyzed across eccentricities (5°, 12.5°, 25°, and >25°) within the superior, inferior, nasal, and temporal quadrants. RESULTS: The RG and TG groups showed comparable visual outcomes, with no significant differences in efficacy index (1.16 ± 0.22 vs. 1.14 ± 0.21, p = 0.755) and safety index (1.21 ± 0.22 vs. 1.24 ± 0.21, p = 0.816). Both platforms induced changes in HOAs and coma, whereas reduced spherical aberration was found in the RG group. Both procedures led to a reduction in RPR, a trend that became increasingly prominent in the peripheral region. However, the TG group showed relatively uniform RPR changes across the visual field, whereas the RG group exhibited a significant increase in superior-inferior RPR asymmetry after FS-LASIK. RPR was regionally associated with HOAs, with >25° RPR mainly correlated with spherical aberration (r = -0.458, p < 0.001) and HOAs (r = -0.265, p = 0.008), and superior-inferior asymmetry was negatively correlated with spherical aberration (r = -0.357, p = 0.001). Regression analysis indicated that superior RPR (coef = -0.601, p = 0.001) and superior-inferior (S - I) symmetry (coef = 0.652, p = 0.004) were significantly associated with glare, and a negative shift in spherical aberration (coef = 0.917, p = 0.007) was associated with fewer starburst symptoms. CONCLUSION: Both RG and TG FS-LASIK provide comparable central visual correction, but they exert distinct effects on RPR profiles and HOAs. Postoperative glare was associated with RPR asymmetry, whereas the negative spherical aberration appeared to alleviate starburst symptoms. TRIAL REGISTRATION: Chinese Clinical Trial Registry (ChiCTR2500106477), retrospectively registered on July 24, 2025.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
+    },
+    {
       "pmid": "42176255",
       "doi": "10.1111/jgs.70507",
       "zotero_key": "ZSTPGWZ5",
@@ -22301,6 +23440,40 @@
       "journal": "JMIR Serious Games",
       "year": "2026",
       "abstract": "BACKGROUND: Problematic gaming and internet gaming disorder (IGD) symptoms are prevalent in adolescence, yet the longitudinal interplay between physical activity (PA), loneliness, and IGD symptoms, as well as potential sexual differences, remains unclear. OBJECTIVE: This study aimed to examine reciprocal within-person associations between PA, loneliness, and IGD symptoms among Chinese adolescent gamers and test sexual differences in these associations. METHODS: We conducted a three-wave prospective cohort study among 1332 Chinese adolescents selected using convenience sampling from five middle schools in central China who had engaged in online gaming during the previous year (n=441, 33.1%, females; mean age 3.64, SD 0.76, years). PA, loneliness, and IGD symptoms were assessed using the Physical Activity Rating Scale-3, the three-item short form of the University of California, Los Angeles Loneliness Scale, and the nine-item Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition IGD Checklist, respectively, at three 6-month intervals: wave 1 (baseline, T1), wave 2 (T2), and wave 3 (T3). A random intercept (RI) cross-lagged panel model (CLPM) and multigroup analyses were conducted. RESULTS: RI-CLPM indicated that at the within-person level, higher PA predicted decreased subsequent loneliness (T1→T2: β=-0.12, 95% CI -0.16 to -0.08; T2→T3: β=-0.13, 95% CI -0.17 to -0.08) and IGD symptoms (T1→T2: β=-0.10, 95% CI -0.16 to -0.04, P=.009; T2→T3: β=-0.10, 95% CI -0.16 to -0.04). Increased loneliness (β=-0.22, 95% CI -0.26 to -0.18) and increased IGD symptoms (β=-0.08, 95% CI -0.12 to -0.04) each predicted later reductions in PA, indicating a mutually reinforcing cycle. Increased loneliness also predicted an increase in subsequent IGD symptoms (T1→T2: β=0.14, 95% CI 0.11-0.17), and increased IGD symptoms, in turn, predicted greater loneliness in the next wave (T1→T2: β=0.18, 95% CI 0.14-0.22). Multigroup models indicated that the protective effect of PA on later loneliness and the prospective effect of loneliness on subsequent IGD symptoms were stronger among girls than boys. In males, PA significantly predicted loneliness (β=-0.08 to -0.09, 95% CI -0.15 to -0.01), and loneliness significantly predicted IGD symptoms (β=0.09, 95% CI 0.03-0.15). In females, the cross-lagged effects from PA to loneliness were significant but stronger (β=-0.17, 95% CI -0.23 to -0.11), and the paths from loneliness to later IGD symptoms were also significant (β=0.16, 95% CI 0.11-0.21). CONCLUSIONS: PA, loneliness, and IGD symptoms are reciprocally linked in adolescent gamers. By using RI-CLPM to distinguish within-person changes from stable between-person differences, this study extends prior research based mainly on cross-sectional designs or traditional CLPMs and provides a clearer understanding of the dynamic interplay among behavioral, emotional, and gaming-related factors. The findings highlight that interventions aiming to prevent IGD symptoms should simultaneously promote PA and reduce loneliness, with particular attention to sex-specific patterns, especially in girls.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42260613",
+      "doi": "10.1186/s12912-026-04854-y",
+      "zotero_key": "K7REPKVA",
+      "title": "Reconstructing a typology of approaches to navigating diversity: a comparative qualitative study of German nursing teams",
+      "authors": [
+        [
+          "Lisa",
+          "Peppler"
+        ],
+        [
+          "Martin",
+          "Feißt"
+        ],
+        [
+          "Maja",
+          "Apelt"
+        ],
+        [
+          "Liane",
+          "Schenk"
+        ]
+      ],
+      "journal": "BMC Nursing",
+      "year": "2026",
+      "abstract": "BACKGROUND: Germany faces a severe nursing shortage, increasingly addressed by international recruitment. This shift results in growing socio-cultural and educational diversity within nursing teams. While the experiences of migrant nurses are well-documented, how receiving teams manage this diversity in daily practice remains under-researched. This study investigates team-level patterns of navigating diversity and identifies factors influencing successful integration. METHODS: A qualitative, comparative case study design was employed across six nursing teams (four hospitals, two nursing homes) in Germany. Teams were selected through purposive sampling based on high levels of socio-cultural and educational diversity. Data collection (March 2022-August 2023) included 203 h of participant observation, 25 semi-structured interviews, and 8 focus groups with both nursing management and non-managerial nursing staff focusing on daily cooperation, professional and socio-cultural differences, and team integration processes. Inductive analysis followed the documentary method to reconstruct implicit orientation patterns. Social Identity Theory (SIT) served as the theoretical framework for describing the different team dynamics. RESULTS: Three distinct team-level approaches to diversity were identified: (1) Routine-based Teams normalise diversity within a stable framework, valuing individual competencies as a natural asset and seamlessly integrating differences into everyday practices. (2) Transition-based Teams actively engage with shifting team configurations through supportive structures but experience operational ambivalence as newly developing learning processes occasionally collide with ingrained routines. (3) Friction-based Teams exhibit a defensive, problem-oriented stance toward diversity, characterised by rigid boundary maintenance, perceived competence conflicts, and a tendency toward social fragmentation under structural strain. Key influencing factors include the facility's location and patienthood and the role of nursing management. CONCLUSIONS: Successful team collaboration depends on fostering a shared professional framework that recognises and utilises diverse individual competencies. Nursing management must provide stable resources for reciprocal knowledge transfer and actively address structural barriers regarding the valuation of international qualifications. To ensure high-quality care and sustainable staff retention, managerial interventions should implement targeted support measures tailored to the specific dynamics of a team type. CLINICAL TRIAL NUMBER: Not applicable.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -24323,36 +25496,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "41968979",
-      "doi": "10.1111/bju.70288",
-      "zotero_key": "VWDQGBPJ",
-      "title": "Simulation‐based assessment in laparoscopic urology: Model design and validation challenges",
-      "authors": [
-        [
-          "Arianna",
-          "Pischetola"
-        ],
-        [
-          "Willem M.",
-          "Brinkman"
-        ],
-        [
-          "Juan Gómez",
-          "Rivas"
-        ]
-      ],
-      "journal": "British Journal of Urology",
-      "year": "2026",
-      "abstract": "Simulation-based training has become a central component of urological education, driven by patient safety imperatives, reduced operative exposure, surgeon burnout, and the transition from time-based to competency-based training models [1]. In Europe, this shift has been operationalised through structured initiatives such as the European Basic Laparoscopic Urological Skills (E-BLUS) programme and subsequent standardisation efforts led by the European School of Urology (ESU), which emphasise objective assessment and portability across training locations [2, 3]. As simulation increasingly informs progression and credentialing decisions, attention has moved beyond simulator availability towards the validity and interpretability of simulator-derived assessment scores. Contemporary validity frameworks emphasise that assessment scores must be supported by coherent evidence for their intended use, including content relevance, internal structure and reliability, and relationships to external measures. Within surgical simulation, this re-frames validation away from demonstrating realism alone and towards determining whether observed performance metrics can meaningfully discriminate levels of expertise and inform educational decisions. However, in practice assessment approaches remain heterogeneous, particularly beyond basic skills training, with substantial variability in model design, outcome metrics, and reporting standards as task complexity increases across training levels. Effective simulation-based assessment requires models capable of accurate and reliable measurement. Across contemporary laparoscopic simulators, functional fidelity, that is, features that directly task execution, appears to be more influential than surface realism. Design elements such as realistic tissue–instrument interaction, visual cues for bleeding or leakage, and stable camera perspectives are consistently associated with improved discrimination of technical performance. Model geometry and materials are most effective when informed by task analysis of critical procedural steps and common errors, allowing graded progression, reuse, and feasibility within constrained training environments [4, 5]. Measurement strategies underpin assessment credibility. Most simulation-based assessments combine process metrics, such as completion time or motion efficiency, with variable inclusion of product-based outcomes that better reflect clinical priorities, including haemostasis, repair integrity, and precision of closure. While automated capture through virtual platforms or video-based tracking can enhance reproducibility, automation alone does not compensate for poorly defined metrics or inconsistent scoring frameworks. Standardised tools, including task-specific checklists and anchored global rating scales, remain essential for converting observation into reliable scores. Importantly, rater reliability should be treated as a design requirement rather than a post hoc statistic, particularly when assessment outcomes inform progression. To ground these methodological considerations in empirical observation, we examined prospectively collected performance data from two intermediate laparoscopic simulation modules, partial nephrectomy and major vessel injury, delivered during ESU hands-on training courses as part of the Laparoscopic Urological Skills Level 2 (LUSs2) curriculum. These modules were selected to explore how commonly used assessment metrics behave at an intermediate procedural level and whether they discriminate between expert and trainee performance in practice. A total of 27 participants completed partial nephrectomy (4 experts, 23 residents) and 41 completed major vessel injury (29 experts, 12 residents). Experts were fully trained urologists with substantial laparoscopic experience, whereas residents were urologists in formal training. Pre-defined metrics included procedure completion time and domain-based qualitative indicators (tissue handling, haemostasis, closure integrity, procedural completeness). Completion times were compared using the Mann–Whitney U test, whereas qualitative variables were recorded categorically and summarised descriptively. Across both modules, experts completed tasks notably faster than residents (median [interquartile range] time for partial nephrectomy of 21:36 [17:49–26:21] min for experts vs 42:00 [36:35–43:26] min residents; and for major vessel injury: 5:24 [4:57–8:04] min for experts vs 16:48 [11:12–27:15] min for residents) and demonstrated consistently superior tissue handling, haemostasis, and closure quality. These findings align with prior reports from basic laparoscopic skills programmes, confirming that time- and error-based metrics retain discriminatory value as task complexity increases. Importantly, exploratory post hoc analysis suggested that completion time alone was insufficient to characterise performance quality at this level. Domain-based scoring incorporating qualitative measures, such as tissue handling, haemostatic control, and procedural completeness, more closely reflected expert performance patterns than speed alone. These observations informed the development of candidate domain-based scoring frameworks with provisional competency thresholds, intended to guide future validation studies rather than define definitive certification standards. As such, the data extend existing findings by illustrating how assessment metrics behave when applied to whole-task, intermediate laparoscopic simulations. Preliminary observational feedback from the advanced step of the ESU Laparoscopic Urological Skills curriculum (LUSs3) provides convergent support for a stepwise approach to simulation design and assessment. In multicentre cadaveric training settings, participants consistently reported high perceived realism and educational relevance of the model for advanced laparoscopic tasks, with stable evaluations across course editions. These observations suggest that, at higher levels of procedural complexity, anatomical fidelity and contextual realism may become increasingly important complements to performance-based metrics, extending the principles observed at intermediate level without implying definitive validation. The transferability of simulator-derived performance to the operating room remains a critical consideration. Evidence from basic laparoscopic tasks suggests that structured error counts and motion economy correlate with intraoperative efficiency and fewer technical errors. However, associations weaken for complex procedures, where anatomical variability, cognitive load, and team dynamics limit direct transfer. These observations reinforce the need for prospective studies linking simulator performance to intraoperative and patient-centred outcomes, using standardised task definitions and blinded, centralised scoring to reduce inter-site variability. Many limitations in the simulation literature are methodological rather than conceptual. Over-reliance on time-to-completion risks reward speed at the expense of safety and technical quality [6]. Heterogeneous error definitions, locally derived scoring rubrics, and single-rater designs undermine comparability and obscure reliability, particularly when assessment outcomes inform progression decisions [7]. Inconsistent reporting of inter-rater agreement, internal structure, and test–retest stability further limit interpretability and portability across centres. Collectively, these observations highlight the need for standardised, purpose-designed assessment frameworks that prioritise functional fidelity, multi-domain performance metrics, and transparent reporting of reliability [8]. Proficiency-based progression, in which advancement is contingent on demonstrated competence rather than exposure time, appears better aligned with both educational efficiency and patient safety. Emerging advances in automation, phase recognition, and skill classification offer the potential to support more objective and scalable assessment, particularly when combined with shared task frameworks and open benchmark datasets. In summary, simulation-based assessment offers a scalable pathway towards objective evaluation of laparoscopic competence, but its educational impact depends on methodological consistency and psychometric rigour. Preliminary observational data from intermediate and advanced laparoscopic modules suggest that domain-based assessment may better capture performance quality than time alone, supporting ongoing efforts to refine validation strategies. These findings add incremental evidence to the evolving simulation literature and may inform the design of future validation studies within competency-based urological training. Arianna Pischetola: literature search, writing – original draft; Willem M. Brinkman: literature search, writing – review and editing; Juan Gómez Rivas: supervision, writing – editing. The authors declare no conflicts of interest.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "41796736",
@@ -26515,6 +27658,40 @@
       "subcollection": "Neurophysiologie oculaire"
     },
     {
+      "pmid": "42257691",
+      "doi": "10.1044/2026_jslhr-25-01032",
+      "zotero_key": "V86Q6XR2",
+      "title": "The Effect of Phonotrauma Severity on the Discriminative Power of Different Ambulatory Voice Measures",
+      "authors": [
+        [
+          "Hamzeh",
+          "Ghasemzadeh"
+        ],
+        [
+          "Daryush D.",
+          "Mehta"
+        ],
+        [
+          "Jarrad H. Van",
+          "Stan"
+        ],
+        [
+          "Robert E.",
+          "Hillman"
+        ]
+      ],
+      "journal": "Journal of Speech Language and Hearing Research",
+      "year": "2026",
+      "abstract": "Objective: Phonotraumatic vocal hyperfunction (PVH) involves a “vicious cycle” where individuals compensate for pathology to sustain functional voice, but those compensations can exacerbate the phonotrauma. Within this framework, compensation increases with severity. We used a cross-sectional design to quantify severity effects on ambulatory voice measures such that severity-linked patterns have the potential to distinguish etiology from compensation in daily voice use. Method: Three laryngologists rated phonotrauma severity from still videostroboscopic images of 142 females with PVH (66 mild, 64 moderate, 12 severe). Daily vocal function and behavior were monitored for approximately 1 week in all patients and in 136 vocally healthy matched controls. Machine learning quantified the discriminative power of six ambulatory voice measures (difference between the magnitude of the first two harmonic magnitudes [H1-H2], sound pressure level [SPL], fundamental frequency [ f o ], cepstral peak prominence [CPP], voicing duration, and resting duration) across severity groups using logistic regression, nested 10-fold cross-validation, and wrapper-forward feature selection. Experiment 1 evaluated each measure separately for distinguishing mild from controls and moderate–severe from controls. Experiment 2 combined the significant measures from Experiment 1 to generate a composite classifier optimized for each severity level. Results: In the mild group, only H1-H2, SPL, and resting duration differentiated patients from controls. In the moderate–severe group, all measures except CPP were discriminative. H1-H2 showed the strongest severity dependence, with substantially higher discriminative power in the moderate–severe group, whereas SPL and resting duration performed similarly across severities. Composite models achieved average accuracies of 75.1% (mild), 79.9% (moderate), and 91.5% (severe). Conclusions: More severe phonotrauma was associated with increasingly atypical H1-H2 profiles reflecting more abrupt vocal fold closure, consistent with stronger compensatory patterns. In contrast, louder phonation and shorter vocal rests differentiated patients from controls regardless of severity, suggesting etiological contributions. These findings support treatment approaches that target both components: addressing loudness and rest patterns to modify etiologic tendencies, while simultaneously reducing abrupt vocal fold closure to address compensation. This dual focus may enhance prevention, intervention, and long-term outcomes for individuals with PVH.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42037461",
       "doi": "10.1002/micr.70233",
       "zotero_key": "3V7BJ9J6",
@@ -27253,6 +28430,32 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "42262575",
+      "doi": "10.1007/s00381-026-07260-6",
+      "zotero_key": "C8UV9ZI6",
+      "title": "The skin as the mirror of the soul: familial multiple cavernous malformation syndrome in an infant with a ruptured intracranial cavernoma and multiple skin lesions",
+      "authors": [
+        [
+          "Rui",
+          "Soares"
+        ],
+        [
+          "Ramón",
+          "Navarro"
+        ]
+      ],
+      "journal": "Child s Nervous System",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42003337",
       "doi": "10.1017/jme.2026.10256",
       "zotero_key": "QP88MBJ5",
@@ -27763,6 +28966,48 @@
       "subcollection": "SOX2"
     },
     {
+      "pmid": "42260350",
+      "doi": "10.1186/s12866-026-05272-5",
+      "zotero_key": "5HRIZSP9",
+      "title": "Transcriptomic profiling of TSST-1–induced cytotoxicity and inflammatory responses in human vaginal epithelial cells",
+      "authors": [
+        [
+          "XUELING",
+          "LUO"
+        ],
+        [
+          "Yue",
+          "Yuan"
+        ],
+        [
+          "Ke",
+          "Chen"
+        ],
+        [
+          "Changfeng",
+          "Sun"
+        ],
+        [
+          "Hong",
+          "Yu"
+        ],
+        [
+          "Suvash Chandra",
+          "Ojha"
+        ]
+      ],
+      "journal": "BMC Microbiology",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Toxic shock syndrome toxin-1 (TSST-1) is a critical superantigen produced by certain staphylococcal strains, closely associated with menstrual toxic shock syndrome and mucosal inflammation. While the systemic superantigenic function of TSST-1 is well-established, its early cytotoxic and inflammatory effects on human vaginal epithelial cells (HVEC) remain poorly characterized. This study, therefore, sought to investigate the initial temporal dynamics of TSST-1-induced changes in cell viability, inflammatory cytokine responses, epithelial stress-related responses, and barrier-associated transcriptional changes in a human vaginal epithelial cell model, along with transcriptomic analysis. METHODS: We evaluated the impact of recombinant TSST-1 on HVEC at different doses and treatment durations. Subsequent exposure assessments included cell viability, apoptosis, and cell cycle distribution via flow cytometry, alongside inflammatory gene expression and transcriptomic profiling. RESULTS: TSST-1 reduced cell viability and proliferation in a dose-and time-dependent manner due to increased apoptosis and G1-phase accumulation. Notably, early exposure did not result in a uniform upregulation of all inflammatory mediators; rather, multiple cytokines exhibited dose-dependent segmented response patterns instead of a linear increase. RNA sequencing analysis of samples treated with 125 or 1000 ng/mL TSST-1 for 48 h revealed dose-associated transcriptional changes involving chemokine signaling, cytokine-receptor interactions, epithelial stress-related pathways, and glycolysis-related pathways. Notably the moderate-dose group showed a higher number of statistically defined differentially expressed genes than the high-dose group, suggesting a non-linear dose-associated transcriptional pattern. CONCLUSION: These findings demonstrate that TSST-1 can trigger cytotoxicity, apoptosis, cell cycle disruption, and a graded inflammatory response in vaginal epithelial cells, providing a systematic transcriptomic framework for understanding the early mucosal responses induced by TSST-1.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42231199",
       "doi": "10.1186/s12876-026-04965-5",
       "zotero_key": "JNVJZADB",
@@ -28201,6 +29446,72 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42252293",
+      "doi": "10.1038/s41598-026-56837-3",
+      "zotero_key": "CAACXNV9",
+      "title": "Two-year prospective natural history study of EYS-associated retinitis pigmentosa using adaptive optics: the KEYS study",
+      "authors": [
+        [
+          "Hiraoka",
+          "Masakazu"
+        ],
+        [
+          "Maeda",
+          "Akiko"
+        ],
+        [
+          "Yamamoto",
+          "Midori"
+        ],
+        [
+          "Gofas-Salas",
+          "Elena"
+        ],
+        [
+          "Kitahata",
+          "Shohei"
+        ],
+        [
+          "Yokota",
+          "Satoshi"
+        ],
+        [
+          "Togashi",
+          "Yuki"
+        ],
+        [
+          "Toshimori",
+          "Masanao"
+        ],
+        [
+          "Kimura",
+          "Shuhei"
+        ],
+        [
+          "Hirami",
+          "Yasuhiko"
+        ],
+        [
+          "Kurimoto",
+          "Yasuo"
+        ],
+        [
+          "Gocho",
+          "Kiyoko"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "This study was conducted to evaluate the longitudinal morphological changes in cone density (CD) in patients with the eyes shut homolog (EYS)-associated retinitis pigmentosa (RP) using adaptive optics (AO) fundus imaging and to assess its potential as a biomarker for disease progression. As a sub-analysis of the KEYS study, this prospective observational study was conducted at the Kobe Eye Center, involving 50 patients with EYS-RP; 27 eyes from 27 patients who were eligible for adaptive optics fundus imaging were included in this analysis. Ellipsoid zone (EZ) length was assessed using optical coherence tomography, and mean deviation (MD) values were obtained from Humphrey visual field testing. CD showed a significant reduction in all regions of interest as early as 6 months from baseline. In contrast, a significant decrease in EZ length was observed only at 24 months, while MD values did not exhibit significant changes throughout the observation period. AO fundus imaging demonstrated high sensitivity in detecting early structural changes in EYS-RP. These findings contribute to a deeper understanding of the natural history of the disease, and suggest that CD measurement may serve as a supplementary indicator for assessing disease progression.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SAG"
     },
     {
       "pmid": "42142160",
@@ -29041,6 +30352,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
+    },
+    {
+      "pmid": "42260674",
+      "doi": "10.1186/s40359-026-04971-y",
+      "zotero_key": "TWUHVZQ4",
+      "title": "Validation of the Spanish Sexual Risk Behaviour Scale among adolescents, youth, and future health and educational professionals",
+      "authors": [
+        [
+          "Laura Alonso",
+          "Martínez"
+        ],
+        [
+          "María Consuelo Sáiz",
+          "Manzanares"
+        ],
+        [
+          "Isadora Gabriella Silva",
+          "Palmieri"
+        ],
+        [
+          "Gabriela Tavares",
+          "Magnabosco"
+        ],
+        [
+          "Emanuele",
+          "Fino"
+        ],
+        [
+          "Jesús Puente",
+          "Alcaraz"
+        ]
+      ],
+      "journal": "BMC Psychology",
+      "year": "2026",
+      "abstract": "BACKGROUND: This study seeks to adapt and validate the Sexual Risk Behaviour Scale (SRBS) for Spanish-speaking adolescents, young adults and future health and educational professionals. The research sought to assess the scale's psychometric properties. To establish known-groups validity, differences across age, professional, and sociodemographic groups were analysed. METHODS: The SRBS, a 6-item scale with 5 response options, was validated by psychologists and healthcare professionals in collaboration with educational institutions, targeting secondary school and university students in health and education fields. A total of 478 students aged 13 to 48 aged (M = 19.26, SD = 6.13) participated. Of the participants, 327 identified as women, 148 as men, 20 as gay, 392 as heterosexual, 54 as bisexual, 9 as asexual, and 3 indicated another gender and sexual orientation. Among the adults, 275 were single, 11 married, 2 divorced and 1 widowed. Evidence based on internal structure was gathered through exploratory and confirmatory factor analyses of the scale scores. Sociodemographic factors, including gender, age, education level, marital status, and use of dating apps, along with six standardized sexuality scales, were examined to assess the known-groups validity of the Spanish SRBS scores. RESULTS: The scores of the Spanish SRBS yielded evidence of acceptable reliability (α = 0.78) and an average score of 10.08 (SD = 4.52, Min = 6, Max = 24). Factor analyses confirmed its unifactorial structure. The findings of the Spanish SRBS scores revealed significant patterns of risky behaviours influenced by developmental and social factors, such as gender, age, education, and attitudes toward safe practices. Furthermore, sexual risk behaviours (SRBS) were linked to social media (ARS), pornography consumption (PPC-6) and attitudes supportive of rape (RAPE). CONCLUSION: The Spanish SRBS is a reliable and valid tool for assessing sexual risk behaviours among adolescents and young adults. The findings offer valuable insights for clinicians, educators, and researchers working to evaluate safer sexual practices addressing public health challenges.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41910550",
