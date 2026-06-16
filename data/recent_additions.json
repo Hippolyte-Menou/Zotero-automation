@@ -1,6 +1,586 @@
 {
- "generated_at": "2026-06-15T14:49:41Z",
+ "generated_at": "2026-06-16T12:06:46Z",
  "additions": [
+  {
+   "pmid": "42275002",
+   "doi": "10.1021/acschembio.6c00224",
+   "title": "Stability-Based Proteomic Methods Add Value to Activity-Based Protein Profiling Studies",
+   "year": "2026",
+   "subcollection": "ALDH1A3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:17:09Z"
+  },
+  {
+   "pmid": "41493779",
+   "doi": "10.1080/02713683.2025.2606332",
+   "title": "LncRNA H19 Promotes H 2 O 2 -Induced Human Trabecular Meshwork Cell Injury and Extracellular Matrix Production by Regulating the miR-20a-5p/Smad4 Axis",
+   "year": "2026",
+   "subcollection": "LTBP2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-06-16T11:38:40Z"
+  },
+  {
+   "pmid": "42282242",
+   "doi": "10.1159/000551949",
+   "title": "Early-Onset Retinal Dystrophy in Alpha-Mannosidosis: A Case Report",
+   "year": "2026",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-06-16T11:51:08Z"
+  },
+  {
+   "pmid": "42239206",
+   "doi": "10.64898/2026.05.21.726777",
+   "title": "Fast pairwise coalescence enables gene-resolution scans for recent selection in diverse human populations",
+   "year": "2026",
+   "subcollection": "SLC24A5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:52:56Z"
+  },
+  {
+   "pmid": "15284220",
+   "doi": "10.1096/fj.03-1466com",
+   "title": "Biological characterization of angiopoietin‐3 and angiopoietin‐4",
+   "year": "2004",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "18570117",
+   "doi": "10.1080/14767050802046069",
+   "title": "Preeclampsia and small-for-gestational age are associated with decreased concentrations of a factor involved in angiogenesis: Soluble Tie-2",
+   "year": "2008",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "10498691",
+   "doi": "10.1242/dev.126.20.4569",
+   "title": "Interaction of the TEK and TIE receptor tyrosine kinases during cardiovascular development",
+   "year": "1999",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "21045210",
+   "doi": "10.1242/dmm.005033",
+   "title": "Zebrafish Tie-2 shares a redundant role with Tie-1 in heart development and regulates vessel integrity",
+   "year": "2010",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "17341311",
+   "doi": "10.1186/1471-2121-8-10",
+   "title": "Differential response of lymphatic, venous and arterial endothelial cells to angiopoietin-1 and angiopoietin-2",
+   "year": "2007",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "9096345",
+   "doi": "10.1073/pnas.94.7.3058",
+   "title": "Uniform vascular-endothelial-cell-specific gene expression in both embryonic and adult transgenic mice",
+   "year": "1997",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12163646",
+   "doi": "10.1073/pnas.172161899",
+   "title": "Angiopoietin-2 displays VEGF-dependent modulation of capillary structure and endothelial cell survival in vivo",
+   "year": "2002",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12958144",
+   "doi": "10.1161/01.res.0000093984.48643.d7",
+   "title": "Hypoxia-Inducible Factor-1 Mediates Activation of Cultured Vascular Endothelial Cells by Inducing Multiple Angiogenic Factors",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "15705793",
+   "doi": "10.1182/blood-2004-08-3382",
+   "title": "Angiopoietin-1 promotes LYVE-1-positive lymphatic vessel formation",
+   "year": "2005",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "18436850",
+   "doi": "10.1167/iovs.07-1206",
+   "title": "The Angiopoietin/Tie-2 System Regulates Pericyte Survival and Recruitment in Diabetic Retinopathy",
+   "year": "2008",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "10440243",
+   "doi": "",
+   "title": "Expressions of angiopoietins and Tie2 in human choroidal neovascular membranes.",
+   "year": "1999",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12665569",
+   "doi": "10.1128/mcb.23.8.2658-2668.2003",
+   "title": "A Unique Autophosphorylation Site on Tie2/Tek Mediates Dok-R Phosphotyrosine Binding Domain Binding and Function",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "11191051",
+   "doi": "10.1023/a:1026555121511",
+   "title": "Tek/Tie2 Signaling: New and Old Partners",
+   "year": "2000",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "10995770",
+   "doi": "10.1074/jbc.m007189200",
+   "title": "Evidence for Heterotypic Interaction between the Receptor Tyrosine Kinases TIE-1 and TIE-2",
+   "year": "2000",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "22103492",
+   "doi": "10.1042/bst20110699",
+   "title": "Molecular control of angiopoietin signalling",
+   "year": "2011",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "38449088",
+   "doi": "10.1177/10760296241238010",
+   "title": "Role of Angiopoietin/Tie2 System in Sepsis: A Potential Therapeutic Target",
+   "year": "2024",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "16714355",
+   "doi": "10.1152/ajpheart.01318.2005",
+   "title": "Signaling and regulation of endothelial cell survival by angiopoietin-2",
+   "year": "2006",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "8395828",
+   "doi": "10.1006/bbrc.1993.2045",
+   "title": "Molecular Cloning and Characterization of Mouse TIE and TEK Receptor Tyrosine Kinase Genes and Their Expression in Hematopoietic Stem Cells",
+   "year": "1993",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "10698685",
+   "doi": "10.1042/bj3460603",
+   "title": "Hepatic expression, synthesis and secretion of a novel fibrinogen/angiopoietin-related protein that prevents endothelial-cell apoptosis",
+   "year": "2000",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "11806244",
+   "doi": "10.1023/a:1012226627813",
+   "title": "Identification of a soluble form of the angiopoietin receptor TIE-2 released from endothelial cells and present in human blood",
+   "year": "2001",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "28453727",
+   "doi": "10.1093/cvr/cvx023",
+   "title": "Endothelial glycocalyx breakdown is mediated by angiopoietin-2",
+   "year": "2017",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12692304",
+   "doi": "10.1073/pnas.0831159100",
+   "title": "Inhibition of rat corneal angiogenesis by a nuclease-resistant RNA aptamer specific for angiopoietin-2",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "15899871",
+   "doi": "10.1128/mcb.25.11.4693-4702.2005",
+   "title": "Selective Role of a Distinct Tyrosine Residue on Tie2 in Heart Development and Early Hematopoiesis",
+   "year": "2005",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "20363251",
+   "doi": "10.1016/j.dci.2010.03.010",
+   "title": "SpTie1/2 is expressed in coelomocytes, axial organ and embryos of the sea urchin Strongylocentrotus purpuratus, and is an orthologue of vertebrate Tie1 and Tie2",
+   "year": "2010",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "15743796",
+   "doi": "10.1016/s0002-9440(10)62305-x",
+   "title": "A Cyclosporine-Sensitive Psoriasis-Like Disease Produced in Tie2 Transgenic Mice",
+   "year": "2005",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "16061664",
+   "doi": "10.1158/0008-5472.can-05-0522",
+   "title": "Angiopoietin 1 Is Mitogenic for Cultured Endothelial Cells",
+   "year": "2005",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "27454431",
+   "doi": "10.1371/journal.pone.0158908",
+   "title": "Tubular Overexpression of Angiopoietin-1 Attenuates Renal Fibrosis",
+   "year": "2016",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "9893350",
+   "doi": "10.1007/978-3-642-59953-8_8",
+   "title": "Functions of Tie1 and Tie2 Receptor Tyrosine Kinases in Vascular Development",
+   "year": "1999",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "32466219",
+   "doi": "10.3390/ijms21103713",
+   "title": "Role of the Ang2–Tie2 Axis in Vascular Damage Driven by High Glucose or Nucleoside Diphosphate Kinase B Deficiency",
+   "year": "2020",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "34402454",
+   "doi": "10.1097/bor.0000000000000830",
+   "title": "New mechanism-based approaches to treating and evaluating the vasculopathy of scleroderma",
+   "year": "2021",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "32928907",
+   "doi": "10.1242/dev.193029",
+   "title": "Tek (Tie2) is not required for cardiovascular development in zebrafish",
+   "year": "2020",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "17941874",
+   "doi": "10.1111/j.1463-1326.2007.00795.x",
+   "title": "Importance of pericytes and mechanisms of pericyte loss during diabetic retinopathy",
+   "year": "2007",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "15260986",
+   "doi": "10.1016/j.cell.2004.07.004",
+   "title": "Tie2/Angiopoietin-1 Signaling Regulates Hematopoietic Stem Cell Quiescence in the Bone Marrow Niche",
+   "year": "2004",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "9926914",
+   "doi": "10.1038/sj.onc.1202288",
+   "title": "Endothelial receptor tyrosine kinases activate the STAT signaling pathway: mutant Tie-2 causing venous malformations signals a distinct STAT activation response",
+   "year": "1999",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12183511",
+   "doi": "10.1152/japplphysiol.00318.2002",
+   "title": "Angiopoietin-2 and rat brain capillary remodeling during adaptation and deadaptation to prolonged mild hypoxia",
+   "year": "2002",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12711329",
+   "doi": "10.1016/s0006-291x(03)00592-8",
+   "title": "Shear stress activates Tie2 receptor tyrosine kinase in human endothelial cells",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "19888299",
+   "doi": "10.1038/ejhg.2009.193",
+   "title": "Hereditary cutaneomucosal venous malformations are caused by TIE2 mutations with widely variable hyper-phosphorylating effects",
+   "year": "2009",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "11289054",
+   "doi": "10.2337/diabetes.50.4.867",
+   "title": "Angiotensin II Induces Expression of the Tie2 Receptor Ligand, Angiopoietin-2, in Bovine Retinal Endothelial Cells",
+   "year": "2001",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "15210451",
+   "doi": "10.1152/ajpheart.01058.2003",
+   "title": "Dual functional roles of Tie-2/angiopoietin in TNF-α-mediated angiogenesis",
+   "year": "2004",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12686170",
+   "doi": "10.1016/s0026-2862(02)00035-3",
+   "title": "Hypoxia and vascular endothelial growth factor acutely up-regulate angiopoietin-1 and Tie2 mRNA in bovine retinal pericytes",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "11375937",
+   "doi": "10.1093/embo-reports/kve093",
+   "title": "Rescue of the early vascular defects in Tek/Tie2 null mice reveals an essential survival function",
+   "year": "2001",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "27030594",
+   "doi": "10.1126/scitranslmed.aaf1164",
+   "title": "Somatic PIK3CA mutations as a driver of sporadic venous malformations",
+   "year": "2016",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "23149415",
+   "doi": "10.1016/j.bbrc.2012.11.002",
+   "title": "Enhanced Angpt1/Tie2 signaling affects the differentiation and long-term repopulation ability of hematopoietic stem cells",
+   "year": "2012",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "24386570",
+   "doi": "10.1155/2013/784789",
+   "title": "Lack ofTEKGene Mutation in Patients with Cutaneomucosal Venous Malformations from the North-Western Region of Algeria",
+   "year": "2013",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "17984290",
+   "doi": "10.1189/jlb.0107056",
+   "title": "Angiopoietin-mediated endothelial P-selectin translocation: cell signaling mechanisms",
+   "year": "2007",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "12737621",
+   "doi": "10.1042/cs20030025",
+   "title": "Increased expression of angiopoietin-2 and Tie2 receptor in a rat model of myocardial ischaemia/reperfusion",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "20547659",
+   "doi": "10.1093/rheumatology/keq163",
+   "title": "Regulation of the Angiopoietin-Tie ligand-receptor system with a novel splice variant of Tie1 reduces the severity of murine arthritis",
+   "year": "2010",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "11504684",
+   "doi": "10.1152/ajplung.2001.281.3.l582",
+   "title": "Differential expression of Tie-2 receptors and angiopoietins in response to in vivo hypoxia in rats",
+   "year": "2001",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "27236199",
+   "doi": "10.1186/s13104-015-1817-1",
+   "title": "Vasculotide, an Angiopoietin-1 mimetic, ameliorates several features of experimental atopic dermatitis-like disease",
+   "year": "2016",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "14615417",
+   "doi": "10.1097/01.lab.0000097189.79233.d8",
+   "title": "Angiopoietin/Tek Interactions Regulate MMP-9 Expression and Retinal Neovascularization",
+   "year": "2003",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "33564135",
+   "doi": "10.1038/s41433-020-01377-x",
+   "title": "Angiopoietin/Tie2 signalling and its role in retinal and choroidal vascular diseases: a review of preclinical data",
+   "year": "2021",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "20969813",
+   "doi": "10.1017/s1431927610094006",
+   "title": "Characterization of the Expression of Ang1, Ang2, and Tie2 in the Corpus Cavernosum of the Rat during Aging",
+   "year": "2010",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "42112684",
+   "doi": "10.1167/iovs.67.5.18",
+   "title": "Pigment Epithelium-Derived Factor From Müller Cells Is Involved in Angiopoietin-Mediated Survival Control of Retinal Neurons",
+   "year": "2026",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
+  {
+   "pmid": "8386827",
+   "doi": "",
+   "title": "The endothelial-specific receptor tyrosine kinase, tek, is a member of a new subfamily of receptors.",
+   "year": "1993",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-06-16T11:59:11Z"
+  },
   {
    "pmid": "42240816",
    "doi": "10.1007/s40123-026-01407-z",
@@ -34190,76 +34770,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-04-22T08:06:51Z"
-  },
-  {
-   "pmid": "42000037",
-   "doi": "10.1016/j.oftale.2026.502549",
-   "title": "Melatonin and Glaucoma: Current Insights and Clinical Prospectives",
-   "year": "2026",
-   "subcollection": "ACO2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-04-21T07:40:38Z"
-  },
-  {
-   "pmid": "41999785",
-   "doi": "10.1016/j.ejps.2026.107532",
-   "title": "Engineered small extracellular vesicles provide low-dose salidroside delivery to attenuate retinal ganglion cell degeneration",
-   "year": "2026",
-   "subcollection": "ACO2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-04-21T07:40:38Z"
-  },
-  {
-   "pmid": "41954843",
-   "doi": "10.1007/s10633-026-10100-2",
-   "title": "Autosomal dominant Riggs-type congenital stationary night blindness with fundus sheen and retinal atrophy due to a novel GNAT1 p.Gln200Arg variant",
-   "year": "2026",
-   "subcollection": "GNAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-04-21T07:52:51Z"
-  },
-  {
-   "pmid": "17960122",
-   "doi": "",
-   "title": "Identification of two novel mutations in families with X-linked ocular albinism.",
-   "year": "2007",
-   "subcollection": "GPR143",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-04-21T07:54:28Z"
-  },
-  {
-   "pmid": "41890106",
-   "doi": "10.64898/2026.03.10.710694",
-   "title": "KMT2C and KMT2D amplify GRHL2-driven enhancer activation",
-   "year": "2026",
-   "subcollection": "GRHL2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-04-21T07:55:38Z"
-  },
-  {
-   "pmid": "24665375",
-   "doi": "10.4161/tisb.23495",
-   "title": "Role of grainyhead-like 2 in the formation of functional tight junctions",
-   "year": "2013",
-   "subcollection": "GRHL2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-04-21T07:55:38Z"
-  },
-  {
-   "pmid": "8288585",
-   "doi": "10.1016/s0021-9258(17)42247-2",
-   "title": "Molecular characterization of a new metabotropic glutamate receptor mGluR7 coupled to inhibitory cyclic AMP signal transduction.",
-   "year": "1994",
-   "subcollection": "GRM6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-04-21T07:57:38Z"
   }
  ]
 }
