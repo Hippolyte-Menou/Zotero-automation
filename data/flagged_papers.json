@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T06:55:15Z",
+  "generated_at": "2026-06-21T07:05:25Z",
   "threshold_k": 0,
-  "total_evaluated": 21766,
-  "total_flagged": 759,
+  "total_evaluated": 22015,
+  "total_flagged": 781,
   "total_dismissed": 0,
-  "total_unresolvable": 151,
+  "total_unresolvable": 140,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -130,7 +130,6 @@
       "PDE6C",
       "PLK4",
       "PROM1",
-      "PRPF3",
       "PRPH2",
       "PRR12",
       "RBP3",
@@ -3547,6 +3546,28 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42298075",
+      "doi": "10.1038/s41598-026-58080-2",
+      "zotero_key": "I4JADUHP",
+      "title": "Area-adjusted influence of built-up pattern on urban land surface temperature in an arid landscape",
+      "authors": [
+        [
+          "Ali",
+          "Asgarian"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Urban heat intensification threatens environmental quality and human health, particularly in arid urban areas where cooling resources are scarce. While impervious surface area is a well-established driver of urban land surface temperature (LST), the influence of built-up spatial patterns beyond their total area remains poorly understood. This study aimed to disentangle the effect of built-up pattern after accounting for built-up area on LST using a dual-scale analysis in an arid urban-barren mosaic. The spatial pattern of Sentinel-2 10 m-derived built-up areas, measured as Area, Mean Patch Size (MPS), Shape Index (SHI), Nearest Neighbor Distance (ENN), and Number of Patches (NP), was extracted within each 100 m Landsat thermal pixel, creating a dataset of 8,130 observations. Landsat-derived summer LST served as the dependent variable in a set of flexible regression models designed to evaluate both the total extent of built-up land and the spatial structure of urban patches. Results showed that adding configuration metrics to Area-only models improves LST prediction accuracy (R² = 0.589 to 0.693) and reduces RMSE (2.792 °C to 2.409 °C). Additional models examined how different spatial metrics interact, allowing the influence of built-up patterns to be evaluated independently of total built-up area. Unsupervised clustering (average silhouette width = 0.295) revealed that, when controlling for area, Compact configurations, low NP with high MPS, SHI, and ENN, were on average 2.7 °C warmer than Fragmented or Balanced types. These findings demonstrate that, after adjusting for built-up extent, built-up pattern exerts a measurable and spatially distinct influence on LST, underscoring its importance for climate-responsive urban design in arid regions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.24272/j.issn.2095-8137.2025.103",
       "zotero_key": "ZFI34FSN",
@@ -4747,6 +4768,44 @@
       "subcollection": "ACO2"
     },
     {
+      "pmid": "42301614",
+      "doi": "10.1007/s40262-026-01652-2",
+      "zotero_key": "3MNKBRF7",
+      "title": "Blood Never Lies: The PopPK-Based Lie Detector",
+      "authors": [
+        [
+          "Sahira",
+          "Chaiben"
+        ],
+        [
+          "Peggy",
+          "Gandia"
+        ],
+        [
+          "Béatrice",
+          "Bouhanick"
+        ],
+        [
+          "Lauriane",
+          "Goldwirt"
+        ],
+        [
+          "Didier",
+          "Concordet"
+        ]
+      ],
+      "journal": "Clinical Pharmacokinetics",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1159/000310727",
       "zotero_key": "X69CZPRG",
@@ -4794,6 +4853,40 @@
       "centrality": 0,
       "source_tags": [
         "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42307135",
+      "doi": "10.1080/21678421.2026.2688249",
+      "zotero_key": "85R34UT5",
+      "title": "Brain activity in an end-stage ALS patient suggests the presence of an unresponsive wakefulness syndrome",
+      "authors": [
+        [
+          "Sandra",
+          "Frycz"
+        ],
+        [
+          "Wiktor",
+          "Więcławski"
+        ],
+        [
+          "Marcin",
+          "Skotniczny"
+        ],
+        [
+          "Marek",
+          "Binder"
+        ]
+      ],
+      "journal": "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease primarily affecting motor neurons. It is widely assumed that cortical structures beyond motor neurons are relatively preserved, and patients in the end-stage ALS are regarded as being in complete locked-in syndrome (cLIS). However, emerging evidence suggests substantial heterogeneity in cognitive functioning among ALS patients, indicating possible extra-motor cortical involvement and impaired levels of consciousness. We report a case study assessing electrophysiological markers and auditory system integrity to evaluate the presence of covert consciousness in end-stage ALS. METHODS: The patient was a 42-year-old woman with bulbar-onset, end-stage ALS, a six-year disease duration, and no means of communication. She underwent several EEG-based protocols, including resting-state EEG (RS-EEG), a passive auditory oddball paradigm, and 40 Hz auditory steady-state responses (ASSR). Audiological evaluation comprised transient-evoked and distortion-product otoacoustic emissions, as well as auditory brainstem responses (ABR). RESULTS: RS-EEG was dominated by prefrontal 1-3 Hz activity resembling frontal intermittent rhythmic delta activity. Power spectra were poorly differentiated and consistent with a 1/f profile. No event-related potentials were observed in the oddball paradigm, and no ASSR responses were detected. Audiological testing revealed absent otoacoustic emissions and ABR indicating severe to profound hearing loss. CONCLUSIONS: Our findings indicate severe cortical dysfunction and provide no electrophysiological evidence of covert consciousness. The electrophysiological profile closely resembles that observed in unresponsive wakefulness syndrome. This case supports the hypothesis that advanced ALS following cLIS onset may be more appropriately conceptualized as a disorder of consciousness rather than persistent cLIS.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
@@ -5009,6 +5102,48 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42286475",
+      "doi": "10.1186/s10194-026-02422-y",
+      "zotero_key": "47SJU2RW",
+      "title": "CD4+T cells mediate systemic and local immune changes and pain symptoms in the rat model of temporomandibular disorders related pain",
+      "authors": [
+        [
+          "Jianquan",
+          "He"
+        ],
+        [
+          "Yuzhuo",
+          "Hei"
+        ],
+        [
+          "Lin",
+          "Li"
+        ],
+        [
+          "Xiaojun",
+          "Xia"
+        ],
+        [
+          "Zhihui",
+          "Mai"
+        ],
+        [
+          "Xiayun",
+          "Chen"
+        ]
+      ],
+      "journal": "The Journal of Headache and Pain",
+      "year": "2026",
+      "abstract": "Immune cells involved in pain has received increasing attention, but the available literature on the role of T cells in temporomandibular disorders (TMD) related pain is limited. Our previous study has showed that elevated expression of HLA DR + CD4 + T cell may increase the risk of TMD-related pain. In the present study, we aimed to investigate CD4 + T cell-mediated systemic and local immune changes in the rat model of TMD-related pain via CD4 + T cell depletion, and clarify the immunological contribution of CD4 + T cell on TMD-related pain. A rat model of occlusal interference was established to induce TMD-related pain. Animals were divided into three Groups: control (Group1), occlusal interference (Group2), and occlusal interference with CD4⁺ T cell depletion (Group3). Systemic CD4⁺ T cell proportions were verified by flow cytometry at day3, 6, 14. Pain-related behavior was assessed by von Frey testing daily, and the circulating levels of cortisol, TNF-α, IL-6, IL-17 A, and IFN-γ levels quantified by ELISA at day 3, 10, 15. In the end, local inflammatory cytokine expression patterns in condylar tissues were examined by immunofluorescence staining. Occlusal interference model successfully mimicked significant TMD-related pain with a sharply increase reaching its peak at day 6 followed by a gradual decline, but at lower level of pain in Group3. The circulating level of IL-17 A rapidly rise at the initial phase, then stabilized and declined eventually despite of CD4⁺ T cell depletion or not. Levels of cortisol and TNF-α were significantly decreased at the end of the study in Group 3. Immunofluorescence analysis of condylar tissues revealed substantial up-regulation of TNF-α, IL-6 and IFN-γ in Group 2, which was significantly alleviated in Group 3. This study demonstrated IL-17 A increased with pain independent of CD4 + T cells at the early stage. But consistently lower pain sensitivity, reduced systemic and local inflammatory cytokines in the later were identified after CD4 + T cell depletion. So we suggest that CD4⁺ T cells are important to maintain TMD-related pain and central to the late-phase immunological cascade in this model. More underlying mechanism of CD4⁺ T cells involved in TMD-related pain warrant further investigations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41906871",
       "doi": "10.1080/08880018.2026.2628528",
       "zotero_key": "3V6MT8TI",
@@ -5199,6 +5334,56 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42304214",
+      "doi": "10.1186/s12870-026-08990-0",
+      "zotero_key": "7RH25CQD",
+      "title": "Characterisation and expression profiles of the NPF gene family in Cannabis sativa L. under low nitrogen",
+      "authors": [
+        [
+          "Yuanzhang",
+          "Zhao"
+        ],
+        [
+          "Huiquan",
+          "Wang"
+        ],
+        [
+          "Chu",
+          "Peiyu"
+        ],
+        [
+          "Sarahani",
+          "Harun"
+        ],
+        [
+          "Wang",
+          "Xiaonan"
+        ],
+        [
+          "Jei",
+          "Vincent"
+        ],
+        [
+          "Xu",
+          "Lei"
+        ],
+        [
+          "Zeti-Azura",
+          "Mohamed-Hussein"
+        ]
+      ],
+      "journal": "BMC Plant Biology",
+      "year": "2026",
+      "abstract": "BACKGROUND: The Nitrate transporter1/peptide transporter family (NPF) affects nitrate use efficiency (NUE) by regulating plant nitrate absorption and distribution. Many NPF-related genes identified across various crops have been shown to improve NUE. However, the characteristics of NPF in cannabis sativa L. and their functions remain unclear. RESULTS: In this study, 66 NPF genes of hemp (Cannabis sativa L.) were identified from the pink pepper genome. The phylogenetic analysis showed that these genes could be divided into eight subfamilies. The NPF genes of Cannabis sativa were renamed according to their chromosomal locations and characterised through bioinformatic analysis. Transcriptome analysis of roots from two hemp varieties with distinct NUE under two nitrogen concentrations (2-hour treatment) showed varied expression patterns across all NPF genes. Among those with higher expression levels, quantitative reverse transcription polymerase chain reaction (qRT-PCR) analysis successfully screened out two candidate genes, CsNPF4.3 and CsNPF5.14, as potentially involved in NUE regulation. CONCLUSIONS: This work deepens our understanding of the gene structure and expression of NPF genes in hemp, and their roles in nitrate response, paving the way for improving hemp nitrogen efficiency through molecular breeding. Altogether, these findings suggest that the expansion of these gene families in hemp could provide valuable genetic variability for identifying NUE-related candidate genes in future breeding programs in the context of low-impact, sustainable agriculture.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42152096",
       "doi": "10.1186/s12969-026-01217-4",
       "zotero_key": "53S8AAVX",
@@ -5343,6 +5528,68 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42301295",
+      "doi": "10.1177/15353141261460684",
+      "zotero_key": "XVV75D7C",
+      "title": "Characterization of Virulence Factors, Biofilm Production, and Antimicrobial Resistance in Mastitis-Associated Staphylococcus aureus Strains by Phenotypic and Genotypic Methods",
+      "authors": [
+        [
+          "Richa",
+          "Sarkar"
+        ],
+        [
+          "Ravi Kant",
+          "Agrawal"
+        ],
+        [
+          "Kajal",
+          "Bankoti"
+        ],
+        [
+          "JB",
+          "Singh"
+        ],
+        [
+          "Keshav",
+          "Kumar"
+        ],
+        [
+          "Mrinalini",
+          "Saini"
+        ],
+        [
+          "D.",
+          "Roy"
+        ],
+        [
+          "Gaurav Kumar",
+          "Sharma"
+        ],
+        [
+          "Vidya",
+          "Singh"
+        ],
+        [
+          "M",
+          "Chandra"
+        ],
+        [
+          "Bhoj Raj",
+          "Singh"
+        ]
+      ],
+      "journal": "Foodborne Pathogens and Disease",
+      "year": "2026",
+      "abstract": "Staphylococcus aureus , a common cause of bovine mastitis, relies on several virulence factors, with biofilm formation being a key contributor to its pathogenicity. The present study investigated the occurrence of S. aureus as etiological agents in bovine mastitis with a focus on the existence of various virulence factors and antibiotic resistance status. Among 120 milk samples collected from West Bengal and Uttar Pradesh, 36 (30%) S. aureus strains were confirmed by conventional methods and PCR. Phenotypic analysis revealed hemolysin (55.55%) and coagulase production (36.11%), while molecular analysis revealed the presence of leukotoxin ( luks F, 19.44%), hemolysin ( hlb , 58.33%), coagulase ( coa , 63.88%), and toxic shock syndrome toxin ( tsst -1, 30.55%) genes. Biofilm production ability was detected in 97.22% (crystal violet assay) and 86.11% (Congo red agar assay) strains. Biofilm-associated genes, namely, icaA (80.55%, 29/36), icaB (75%, 27/36), icaC (69.44%, 25/36), icaD (86.11%, 31/36), and MSCRAMMs genes, namely, clfA (58.33%, 21/36), clfB (75%, 27/36), fnbA (75%, 27/36), fnbB (55.55%, 20/36), bap (38.88%, 14/36), bbp (83.33%, 30/36), ebps (69.44%, 25/36), eno (66.66%, 24/36), fib (41.66%, 15/36), and cna (8.33%, 3/36), were also detected. Antimicrobial resistance was observed in 88.88% isolates, with 72.22% exhibiting multidrug resistance (MDR). Among the isolates, 83.33% were methicillin-resistant S. aureus (MRSA), and mecA , femA , and femB genes were present either singly or in combination in 76.66% of the isolates. Efflux pump protein genes, namely, norA , norB , norC , mdeA , mepA , and sepA , were detected either singly or in combination in S. aureus isolates. 61.53% of MDR-MRSA isolates harbored all six efflux pump genes. According to this study, S. aureus of mastitis origin harbors various virulence, antibiotic resistance, biofilm-forming, and efflux pump genes. Bovine mastitis-derived MDR S. aureus isolates can pose a significant public health risk and need urgent attention to formulate strategies for their control and preventing transfer to the human food chain.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "41945416",
@@ -6019,40 +6266,6 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Examen segment posterieur, Posterior segment examination"
-    },
-    {
-      "pmid": "29535473",
-      "doi": "10.4103/0019-5545.224478",
-      "zotero_key": "XEVS25PV",
-      "title": "Clinical Practice Guidelines for management of sexual disorders in elderly",
-      "authors": [
-        [
-          "TS Sathyanarayana",
-          "Rao"
-        ],
-        [
-          "Abhinav",
-          "Tandon"
-        ],
-        [
-          "Shivananda",
-          "Manohar"
-        ],
-        [
-          "Supriya",
-          "Mathur"
-        ]
-      ],
-      "journal": "Indian Journal of Psychiatry",
-      "year": "2018",
-      "abstract": "INTRODUCTION Sexuality is an important component of emotional and physical intimacy that most men and women desire to experience throughout their lives. Although it is a fundamental driving force, human sexuality is frequently misunderstood. Even among clinicians who acknowledge the relevance of addressing sexual issues in their patients, there is a general lack of understanding of the optimal approach for sexual problem identification and evaluation. In line with the worldwide trend the number of older adults is notable and is growing in India. The latest data by the Ministry of Statistics and programme implementation in 2016 shows that India has a total of 103.6 million elderly and their population has risen from 5.6% to 8.6% in the last 5 decades, thus this topic which is frequently neglected in the elderly takes on particular importance. Sexual life continues to be important in later life and the elder often view sexuality as an expression of passion, affection, admiration and loyalty. Sexual activity is a means for elder to affirm physical functioning, to maintain a strong sense of identity and establish self-confidence. Studies show that sexual desire does not change with older age and it is important for both men and women. Even in elderly women after menopause, the sexual ability does not completely disappear but it is affected by sexual dysfunction, either in oneself or in the partner. Sexual functioning is a complex combination of bio-psycho-social process which is coordinated by neurological, vascular and endocrine systems and any approach to the study of human sexuality that stresses only in one dimension is counter-productive. Recent studies suggest sexual functioning are influenced by factors representing three domains: biologic (the drive), psychological (the will), social context (the wish), and interactions between them. Sexual function and activity are closely linked with physical health, hence understanding sexual function in the later life course is important from a medical standpoint. Poor sexual function can be due to an underlying serious health condition. For example, it has been found that erectile dysfunction in men may be a marker for asymptomatic coronary artery disease. Diabetes mellitus, which has vascular effects on blood vessels, is one of the most frequent systemic disorders associated with low sexual desire and other sexual problems in aging men whereas diabetic neuropathy can cause impaired sexual desire in women. Understanding the sexual behaviour may uncover protective health effects. Laumann and colleagues discovered an association between sexual well-being and happiness. Numerous prescription drugs have adverse effects on sexual functioning including antidepressants especially SSRI's (causing anorgasmia, erectile dysfunction, decreased libido) and antihypertensives (Diuretics, calcium channel blockers). Moreover adverse drug effects are reported much more frequently in the aging population than in the general population. The use of prescribed medications and the rate of adverse effects of drug therapy are consistently higher in female than male elderly populations and they influence sexual responses including desire by non-specific effects on general well-being, energy levels and mood. Psychological factors (the will) are major determinants of intensity of sexual desire. Psychological factors are independently related to sexual functioning. In addition emotional and interpersonal motivation mediates the effect of sexual drive which is characterized by willingness of person to behave sexually with a given partner and can compensate for diminished physiologic desire of sexual activity (eg as result of declining testosterone levels). Psychological condition such as depression is a risk factor for sexual dysfunction along with the medications associated with treating it. Social context (the wish) also plays a crucial role in sexual function- a role that has been neglected in medical literature. For e.g availability of a partner, intimate communication, relationship duration, characteristics of an individual's sexual partner and cultural experiences. Furthermore, Laumann et al. discovered in their analyses of the Global Study of Sexual Attitudes and Behaviours that association among subjective sexual wellbeing and physical health, mental health, sexual practices, and relationship context were consistent in a broad variety of countries from each major world region. In addition, the authors found that men reported higher levels of subjective sexual well-being regardless of sociocultural context. They also established an overall correlation between subjective sexual well-being and happiness in men and women. Despite the importance of sexual function sexual problems are highly prevalent yet frequently under-recognized and under diagnosed in clinical practice. Adequate attention to these aspects during the history taking will educate the patients regarding the complex nature of sexuality, and prepare them in understanding treatment and outcome realities. The rational selection of therapy by patients is only possible following appropriate education, including information about sexuality and all treatment options for sexual dysfunction. Although not always possible on the first visit, every effort should be made to involve the patient's sexual partner early in the therapeutic process. There are many myths (Table 1) prevailing in the society and the treating physician and collaborating specialist should possess broad knowledge about human sexuality.Table 1: Myths associated with Elderly Sexuality11Psychosocial factors affecting sexuality in Elderly Marriage; For woman availability of a sexually willing, capable and socially sanctioned sexual partner appears to be the most important factor, but problems arise as women usually outlive men. Marital status appears to be less important in men regarding sexual activity. As society is moving from double standards for men and woman these differences are narrowing. More and more older people cohabit to avoid social insecurity; therefore one should not assume older unmarried people are sexually inactive. Extramarital issues should also be kept in mind. Families; Many traditional and joint families, particularly in rural areas fail to provide privacy to the elderly, young newly married occupying the private space. Families who do not accept the sexual needs of divorced or widowed elderly contribute to the negative feelings of the elderly about themselves. Medical and nursing staffs tendency to be judgmental about sexual needs of the elderly patients, gives the impression that this is abnormal. Total care of elderly should encompass addressing sexual feeling and the need for privacy. Remarriage; Remarriage in late life may be even more satisfying than first marriage. Remarriage is often threatening for grown up children who throw storm of protest. Remarriage should be encouraged as loneliness may lead to despair. Sexuality, Education & Awareness; Education usually removes sexual inhibition and unnecessary anxiety, and enhances communication. Only education can give the right attitude regarding sexuality in elderly who are widowed, divorced or cohabiting. Disparity in desire Disparity in desire among couples may increase over years; difficulties arise when one is content with holding hands and the other partner has strong sexual urges. Sexual interest Individuals who enjoyed sex in younger years continue sexual interest when they grow older and remain sexually active in later years. Couples tend to become less inhibited and feel free to explore varying type of sexual stimulation as age advances. Regular sexual expression Regular sexual expression is important, especially for women. Lack of regular sexual expression and privacy correlates with a decrease interest in coitus. Family climacteric; Faulty attitude to “change in life” may affect the couples response if they consider that it implies a change of status and the level of attractiveness, and the sexual activity is inappropriate. Women may suffer from empty nest syndrome or boredom, and have little status of their own. They may have difficulty in re-entering the profession of their own, or picking up the threads of their own lives once their children have left home. Women may link sexual capacity to maternal capacity, and loss of reproductive capacity may be difficult for some to accept, depending on what fertility has meant, and whether they have had as many, too many or too few children compared to what they wanted. Problems faced during pregnancy, infertility and contraception also have an impact. A small number of men over 60 years also experience a syndrome called male climacteric. This is characterized by four or more of the following symptoms; listlessness, weight loss, poor appetite, depressed libido, loss of erectile potency, impaired ability to concentrate, weakness, easy fatigability and irritability. The differentiating and deciding factor is level of testosterone. HORMONES Decrease in testosterone concentrations (normal 270-1100 ng/dl) are noted from the age of 50 years, at the rate of 100 ng/dl per decade and the sensitivity of androgen receptors decreases in men with age; however healthy aging men never become hypogonadal. Testosterone levels in saliva of heterosexual adolescent men correlate positively with the number of times they initiated sexual contact (although whether sexual contact led to the increase in androgens needs to be confirmed). In both men and women, orgasm (induced by masturbation) increases sympathetic activation leading to an increase in heart rate, blood pressure and plasma noradrenaline levels (transiently) an increase in plasma prolactin level for 30 min in men and 60 min in women. In women, sexual arousal increases plasma luteinizing hormone and testosterone levels. The neurohormone oxytocin is also released during orgasm and reinforces pleasure.ILL HEALTHEFFECTS OF AGEING ON SEXUAL RESPONSE CYCLE The capacity to respond to sexual stimulation is effectively retained, although the intensity of physical reaction is slowly reduced in all phases of sexual response cycle. Table 2 mentions the changes in sexual response seen with aging.Table 2: Changes in sexual response with agingSexual Problems: Classification and Epidemiology The ‘Sexual Response Cycle’ was described first by Masters and Johnson in 1966 as the EPOR Model (Excitement, Plateau, Orgasmic and Resolution phases) and later modified by Kaplan in 1974 into the DEOR model (Desire, Excitement, Orgasmic and Resolution phases), which became the accepted model universally. Classically, sexual inadequacy refers to some specific disruption of the ‘Sexual Response Cycle’ (as described by Masters and Johnson in 1970). The clinicians initially faced the difficulty of ascertaining the threshold for sexual disorders. This difficulty was overcome by adopting a patient centered approach. Accordingly, a sexual problem is said to be present when an individual comes with difficulty in particular area of sexual functioning which may or may not be associated with behavioral, mood or cognitive symptoms. As per the DEOR model “Sexual dysfunction is referred to aproblem during any phase of the sexual response cycle that prevents the individual or couple from experiencing satisfaction from the sexual activity”. Gender identity disorders and paraphilias should be differentiated from sexual inadequacies. ‘Sex’ is most commonly referred to as what an individual is biologically, whereas ‘gender’ is what one becomes in the social context. DSM-5 (Diagnostic and Statistical Manual of Mental Disorders 5th Edition) released in May 2013 defines Sexual Dysfunctions as “a heterogeneous group of disorders that are typically characterized by a clinically significant ‘disturbance in a person's ability to respond sexually or to sexual pleasure” Subtypes can be classified as Lifelong vs acquired and generalized vs situational. Other factors which may influence the symptom presentation include i) Partner's and individual vulnerability factors ii) Relationship issues iii) Psychiatric comorbidity iv) Cultural and v) General medical factors. Common Sexual Problems and Dysfunctions Classification in psychiatry has been a topic of debate and complex area of research. Some are of the opinion that classificatory system creates artificial boundaries between different category of problems; one the best examples for the same is merging of female sexual desire disorders and arousal disorders in DSM-5. Due to its eclectic approach the International classification of mental disorders (ICD-10) has been clinically acceptable in India. The DSM classificatory system by the American Psychiatric Society has been acceptable in academic institutions due to its pointwise approach. DSM 5 highlights the fact that clinical judgement needs to be applied to ascertain whether the sexual dysfunction is due to inadequate stimulation. DSM-5 subtypes include, lifelong which denotes that the problem has been present from the very beginning; acquired denotes that the problem started after a period of normal sexual functioning. Generalized (vs Situational) denotes that the sexual problem is present with all types of stimulation, all situations and partners. Other factors which need to be considered include: 1)Partner factors (sexual problems in the partner),2) Relationship factors, 3) Individual vulnerability factors (poor body image), 4) Cultural or religious factors, 5) Medical factors. As per DSM 5, if the sexual problem is due to a non -sexual mental other medical condition or relationship a sexual dysfunction is not gives a of sexual in DSM 5 and Classification of Mental and Disorders Classification of Table gives a of sexual in DSM of of & DSM-5 of sexual of sexual in DSM Epidemiology The of and for sexual problems due to a number of factors availability of sexual health care about the problem and the social and cultural factors. sexuality only of the total and very few from the sexuality specific for and sexuality related in elderly, to low on Studies both the in the age group more than 50 years, of sexual dysfunction to be Studies in the age group of years, of sexual dysfunction to be Sexual sexual response is a complex and is influenced by interpersonal and factors. sexual are in As DSM-5 highlights the that a sexual dysfunction is not made if the problem is by a mental use or a general medical condition. Table 5 highlights the of sexual whereas Table and the drugs most commonly associated with sexual dysfunction in the elderly male and of sexual Common associated with male sexual dysfunction and drugs OF SEXUAL As in all one needs to in an with a Sexual history needs to be more areas of for the patient should be and early sexual need to be The sexual life sexual practices, relationship sexual and to partner should be married and reproductive history should be physical and the effect of children on sexual life should be Changes in sexual functioning and and of sexual interactions with age should be The to the present life factors, history including history of should be The patient's as a sexual and and people who to patient's sexual education and identity needs to be history of group and should be considered and Sexual of the any risk sexual behaviour and sexual history should be kept in mind. of sexual each phase of the sexual response cycle to both heterosexual and and and of treatment are highlights the to be considered for taking a sexual whereas the of sexual functioning in and a Sexual of sexual functioning in and history taking should be by a physical in all the after and privacy. and a of any general medical studies include blood and function blood Other and related to general medical if any or only when and are the other in some and on what is is to relationship difficulties among the whether partner is sympathetic or not sympathetic the their and motivation for between and sexual dysfunction need to be established the active as in between and sexual therapy as it is referred to is a modified of the therapy (as by Masters and Johnson in and a problem and approach. on of early of sexual to the and of the problem was the The sex therapy on of and as a between the and are only if the do not symptom As by Masters and Johnson in sex therapy sex of both the partners. and of sexual function are in and are that there is use partner or and sex is a between at a highly intimate level and social the and are to the include to the individual to any pressure of or The and treatment need to be depending and most important of the type of the problem in the different may be SEXUAL drugs of blood into the and drug in this was on the by 5 is the first treatment for erectile dysfunction and was by and in for prescription is after and has to be one sexual activity which is the for plasma concentrations to be and the effect may last for The should be on four to the and a sexual is not the should be to the higher Studies have that there is a with and the best are a of has been as a therapy for erectile dysfunction at a of but the of effects and increase studies have reported that does not the of patients with heart increases the to of in patients with heart a does not cause coronary or For patients who experience an and who have in the last of should be The American of and the American have for the use of in patients with should be with in on effects with are Common adverse effects are and changes in the of or The adverse effects are usually and a few to a few after drug is in patients on This is it the of such drugs its effects on should be with in with of the and in patients at risk for with effect reported is Recent studies have reported that and in the effect of in treating have been compared in A should be considered for elderly men who frequently have sexual in the after up and patients who frequent sexual has clinical of both and of it is not in OF and are as in erectile dysfunction. effects are the system and has decreases sympathetic stimulation and are in of for or is an for to erectile function in studies and is to be on in A and with or is in and applied are for female sexual arousal is a 2 and increases sympathetic is in has been as a traditional for in an by and also by and are in erectile disorders. of use of and Testosterone is only in of can increase the desire but has effect on erectile functioning. low sex drive and can be under with in of women as particularly is by them. is by of drugs Other an can the inhibition of sexual are in sexual functioning in both and enhances sexual desire in men. a which in low areas throughout India is considered to be the to and enhances female sexual functioning. Some of the traditional in have been to be in by research. include commonly as of and and of has been to sexual function and in with sexual dysfunction. on 100 for has been to erectile dysfunction. in India by the by is a by for the treatment of women with sexual desire In some when behaviour and drugs fail or seen to be not very and are found to be the of sex therapy on a of factors. from to more than a in Sexual respond to treatment compared to disorders and which are very to More than of the of erectile dysfunction and all the of respond to combination of Gender Gender Although much has been on of has always been on younger have to the problems of the aging patient the relationship between and treatment has been As more older patients there will be for and treatment is especially crucial life stresses may lead some to clinically present as Sexual and Disorders Sexual are very in all age and elderly are The refers to the of a and the takes In sexuality such as from to to and to and to has to be considered as a of sexual activity than one may issues related to them in the context in the elderly and there is need to to them with The denotes a sexual interest other than sexual interest in stimulation with and human partners. may include the person's or considered sexually and other than by between and a from the cultural sexual relationship implies which are acceptable and to both the the or to either of them. to the many are does not involve and remain DSM 5 and from disorders. A is a to the individual with or risk of to or interest in or A is a but not the only condition for a elderly they may some other cause and mood disorders and disorders is a often the associated with and A is The treatment behaviour and and sex therapy of socially acceptable sexual function and of erectile and of typically some of change in and for sexual from yet data that an of people in late life sex if not more than in their is important to that older people are at risk of that can sexual expression and functioning. Although some of these be education, can their understanding of the sexual changes that may give patients and on is important that older men and women do not into the of to the and of sexual response of their it is as important that they not to the negative to which decreased physical intimacy is an of the of of healthy may be the best approach to the of erectile and other sexual on the health and of Sexual Sexual human that are in human and other and they include the of all free of and to the of sexual health, including to sexual and reproductive health care for by implies approach to sexuality, and and to understanding of sexuality, and and and to the The following gives the treatment of sexual disorders in",
-      "cited_by_count": 17,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPF3"
     },
     {
       "pmid": "42151845",
@@ -6887,6 +7100,72 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Posterior segment examination"
+    },
+    {
+      "pmid": "42307265",
+      "doi": "10.1097/pcc.0000000000003990",
+      "zotero_key": "54E8Z3AR",
+      "title": "Complex Chronic Conditions in the PICU: Single-Center Retrospective Study in Central-Southern China, 2020–2025",
+      "authors": [
+        [
+          "Xun",
+          "Li"
+        ],
+        [
+          "Haipeng",
+          "Yan"
+        ],
+        [
+          "Xiao",
+          "Li"
+        ],
+        [
+          "Xi",
+          "Zhang"
+        ],
+        [
+          "Jiaotian",
+          "Huang"
+        ],
+        [
+          "Jiaan",
+          "Gan"
+        ],
+        [
+          "Ting",
+          "Luo"
+        ],
+        [
+          "Xiangyu",
+          "Wang"
+        ],
+        [
+          "Longlong",
+          "Xie"
+        ],
+        [
+          "Yufan",
+          "Yang"
+        ],
+        [
+          "Haohao",
+          "Zou"
+        ],
+        [
+          "Zhenghui",
+          "Xiao"
+        ]
+      ],
+      "journal": "Pediatric Critical Care Medicine",
+      "year": "2026",
+      "abstract": "OBJECTIVES: Complex chronic conditions (CCCs) are increasingly prevalent in the PICU. Identifying high-risk patterns of CCC and comorbidities is essential for patient risk stratification and targeted management. In this study, we aimed to describe the distribution and patterns of CCCs among children admitted to our tertiary PICU in China and to identify the types and combinations of conditions associated with a higher risk of adverse outcomes. DESIGN: Retrospective cohort study, January 2020 to February 2025. SETTING: Single center, at a tertiary referral PICU in Central-Southern China. PATIENTS: Children older than 28 days, up to 18 years old. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: CCCs were defined according to the Pediatric Complex Chronic Conditions Classification System Version 2. Of 9589 PICU admissions, 49% had one or more CCCs. Admissions with CCCs accounted for 69.8% of the adverse outcomes, 70.8% of in-hospital deaths, 58% of multiple organ dysfunction cases, and 57.6% of total patient days. Admissions with multiple CCC diagnoses were associated with higher odds of adverse outcomes compared with admissions with a single CCC diagnosis (p < 0.0001). Transplantation and metabolic CCCs were associated with greater odds of adverse outcomes (odds ratios [OR], 6.06 and 5.27, respectively; p < 0.05). The most common co-occurring CCC categories were malignancy and hematologic/immunologic disorders. Among the most frequent combinations, the co-occurrence of metabolic and malignancy CCC was associated with greater odds of adverse outcomes (OR, 8.54 [95% CI, 4.48-16.29]). Admission with CCC was associated with pneumonia and sepsis (p < 0.05). CONCLUSIONS: In our 2020-2025 experience, admission of patients with CCCs accounted for most of the adverse PICU outcomes. The odds of adverse outcomes varied across CCC types and combinations. Hence, incorporating CCCs into a stratified management approach across our healthcare system may support more effective planning and delivery of care.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -9243,6 +9522,40 @@
       "subcollection": "Ocular developmental anomalies"
     },
     {
+      "pmid": "42278214",
+      "doi": "10.3390/ijms27114683",
+      "zotero_key": "XAZVIMZJ",
+      "title": "Downregulating Nrl Expression and Rod Photoreceptor Protection",
+      "authors": [
+        [
+          "Y",
+          "Li"
+        ],
+        [
+          "Shuliang",
+          "Jiao"
+        ],
+        [
+          "Weng",
+          "Tao"
+        ],
+        [
+          "Rong",
+          "Wen"
+        ]
+      ],
+      "journal": "International Journal of Molecular Sciences",
+      "year": "2026",
+      "abstract": "Retinitis pigmentosa (RP) is a genetically heterogeneous group of inherited retinal degenerations with primary degeneration of rod photoreceptors followed by secondary cone loss. We investigated whether downregulating Nrl (neural retina leucine zipper), a key transcription factor specifying rod fate, can reprogram rods into a more resilient state. In a transgenic NrlN/N mouse in which Nrl was markedly downregulated, the rod phenotype became more like a rod precursor, particularly in the inferior retina. Crossing NrlN/N mice with two rod degeneration models, rd1 (Pde6brd1/rd1) and rhodopsin P23H knock-in (RhoP23H/P23H) mice, showed significantly improved photoreceptor survival in double-mutant mice. In addition, AAV-mediated delivery of shRNA targeting Nrl mRNA substantially enhanced photoreceptor survival in rd10 (Pde6brd10/rd10) mice. These findings demonstrate that downregulation of Nrl reprograms rods and confers broad resistance to degeneration across multiple RP models. AAV-mediated Nrl knockdown represents a promising mutation-independent therapeutic strategy for autosomal recessive and dominant forms of RP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NRL"
+    },
+    {
       "pmid": "42177986",
       "doi": "10.1016/j.oftale.2026.502537",
       "zotero_key": "C65K3EMA",
@@ -10057,6 +10370,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42302209",
+      "doi": "10.1097/j.jcrs.0000000000001996",
+      "zotero_key": "NBR2GG58",
+      "title": "Efficacy and safety of aselective laser device to create centred capsulotomies in white intumescent cataracts: international multicentre study (LC-WIC study)",
+      "authors": [
+        [
+          "Sathish",
+          "Srinivasan"
+        ],
+        [
+          "Jai",
+          "Kelkar"
+        ],
+        [
+          "Aditya",
+          "Kelkar"
+        ],
+        [
+          "Hassan",
+          "Khaled"
+        ],
+        [
+          "Christina",
+          "Grupcheva"
+        ],
+        [
+          "A.",
+          "Topov"
+        ],
+        [
+          "Silvia",
+          "Stoyanova"
+        ],
+        [
+          "Alexander",
+          "Mordaunt"
+        ],
+        [
+          "Richard",
+          "Packard"
+        ]
+      ],
+      "journal": "Journal of Cataract & Refractive Surgery",
+      "year": "2026",
+      "abstract": "PURPOSE: To evaluate the efficacy and safety of a selective laser device (CAPSULaser, EXCEL- LENS, CA, USA) to create centred and circular anterior capsulotomies in eyes with white intumescent cataracts. SETTING: International, multicentre, study across five clinical sites in the United Kingdom, Bulgaria, India and Saudi Arabia. DESIGN: Prospective, multicentre interventional cohort study. METHOD: A total of 93 eyes of 91 subjects with white intumescent cataracts were recruited after anterior segment OCT (AS-OCT) established the presence of intralenticular fluid pockets indicative of raised intralenticular pressure. In all cases, prior to phacoemulsification, selective laser capsulotomy (SLC) was performed by staining the anterior capsule with a customised 0.4 % trypan blue solution. Capsulotomies were created with a diameter of 5.5 mm. Subjects were followed up at one day, one week, one and three months postoperatively. RESULTS: In all cases, the capsulotomy was successfully created. No intraoperative complications were observed. At 3 months postoperatively the mean capsulotomy diameter measured 5.3 mm (range: 5.2 to 5.5 mm). No cases of capsular phimosis were observed during the three months follow-up. In all cases, visual acuity improved from preoperative light perception to mean postoperative uncorrected distance visual acuity (UDVA) of 0.28 LogMAR (range: 0.0 to 1.0). CONCLUSION: The use of SLC in this series of eyes with intumescent cataracts achieved consistently sized and well-centred capsular openings. There were no complications. These results highlight the precision and safety of using selective laser capsulotomy for creating anterior capsulotomies in white intumescent cataracts.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "42271514",
@@ -12459,6 +12826,52 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42284978",
+      "doi": "10.1016/j.marpolbul.2026.119940",
+      "zotero_key": "9BTM9UKP",
+      "title": "Field-based assessment of selected pharmaceuticals, pesticides and sediment metals using macrofauna and nematode communities in False Bay, South Africa",
+      "authors": [
+        [
+          "Buyani",
+          "Mazeka"
+        ],
+        [
+          "Bomikazi",
+          "Tshingana-Bali"
+        ],
+        [
+          "Olivia",
+          "Murgatroyd"
+        ],
+        [
+          "Justin",
+          "Moser"
+        ],
+        [
+          "Cecilia Y.",
+          "Ojemaye"
+        ],
+        [
+          "Leslie F.",
+          "Petrik"
+        ],
+        [
+          "Natasha",
+          "Karenyi"
+        ]
+      ],
+      "journal": "Marine Pollution Bulletin",
+      "year": "2026",
+      "abstract": "False Bay supports high biodiversity but is increasingly subjected to anthropogenic pressures, including urbanisation and harbour activities. This study aimed to (1) quantify selected pharmaceuticals (e.g., acetaminophen, carbamazepine, diclofenac), herbicides (atrazine and metolachlor) and metals (Cu, Fe, Mn, Pb and Zn), (2) examine their spatial distribution, and (3) assess their potential effects on benthic assemblages. Sampling was conducted between 18 April and 14 June 2021 across 19 stations. Pharmaceuticals and herbicides were widely detected in seawater (LDL - 1.1 ng/L) and sediments (LDL - 54.6 ng/g), with higher concentrations in sediments, indicating their role as long-term contaminant reservoirs. Spatial patterns revealed localised enrichment near wastewater discharge zones and urbanised areas. Metal concentrations (1.6-7732 μg/g) were similarly elevated in anthropogenically influenced areas. However, risk quotient (RQ) remained <0.1 and metal concentrations were below ERL thresholds, suggesting a low potential of acute biological effects. Benthic assemblages were diverse and typical of coastal sandy environments, with no significant relationships detected between contaminant concentrations and community metrics. Nematode indices (MI and ITD) indicated good to high ecological quality. The single sampling design and family-level taxonomic resolution may have limited the detection of sub-lethal, chronic or species-specific responses. While contaminants are widespread and accumulate in sediments, their current concentrations are unlikely to cause acute ecological impacts benthos. However, chronic effects and the presence of unmonitored contaminants cannot be excluded. Long-term monitoring and higher taxonomic resolution are recommended to better understand and access cumulative ecological risks.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41761643",
       "doi": "",
       "zotero_key": "8KVKZP5V",
@@ -13203,6 +13616,52 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42307979",
+      "doi": "10.1091/mbc.e25-12-0598",
+      "zotero_key": "DAJVAJ6B",
+      "title": "Functions and trafficking mechanisms of RIC-8 in C. elegans and mammalian cilia",
+      "authors": [
+        [
+          "Christina",
+          "Campagna"
+        ],
+        [
+          "Abigail E.",
+          "Descoteaux"
+        ],
+        [
+          "Abigail",
+          "Poole"
+        ],
+        [
+          "Eric",
+          "Peet"
+        ],
+        [
+          "Nawaphat",
+          "Malaiwong"
+        ],
+        [
+          "Michael P.",
+          "O’Donnell"
+        ],
+        [
+          "Inna",
+          "Nechipurenko"
+        ]
+      ],
+      "journal": "Molecular Biology of the Cell",
+      "year": "2026",
+      "abstract": "Primary cilia exhibit conserved organization and contain structural and functional domains of unique molecular composition. The inversin compartment (InvC), which is found in the proximal ciliary segment of a subset of vertebrate and invertebrate cell types, concentrates different classes of signaling molecules. Mutations in genes encoding resident proteins of the InvC manifest in ciliopathies, highlighting the importance of the InvC in cilia biology. We previously showed that a chaperone of Gα proteins RIC-8 localizes to the InvC of C. elegans channel cilia; however, the mechanisms that regulate RIC-8 targeting to this ciliary sub-domain or RIC-8 function in the InvC remain unknown. Here, we build on our prior work to demonstrate that RIC-8 becomes restricted to the InvC during larval development and show that, while the RVxP motif and intact transition zone are required for its proper intraciliary distribution, RIC-8 localization to the cilium depends on intraflagellar transport. Using the ASH neuron as a model, we establish that RIC-8 modulates chemosensory responses mediated by channel cilia. Finally, we show that human RIC8A and RIC8B proteins are required for ciliogenesis in RPE-1 cells. Collectively, our results define ciliary trafficking mechanisms and novel functions for a highly conserved signaling protein.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
+    },
+    {
       "pmid": "41943570",
       "doi": "10.4103/aam.aam_793_25",
       "zotero_key": "B84HQP4M",
@@ -13411,6 +13870,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
+    },
+    {
+      "pmid": "42286728",
+      "doi": "10.1186/s42238-026-00452-6",
+      "zotero_key": "RF3JKFRK",
+      "title": "Gender identity and cannabis use in Canada and the United States: cross-sectional analysis of the International Cannabis Policy Study",
+      "authors": [
+        [
+          "A.",
+          "Marquette"
+        ],
+        [
+          "Lorraine",
+          "Greaves"
+        ],
+        [
+          "Maryam",
+          "Iraniparast"
+        ],
+        [
+          "Samantha",
+          "Rundle"
+        ],
+        [
+          "Ava",
+          "Kucera"
+        ],
+        [
+          "David",
+          "Hammond"
+        ]
+      ],
+      "journal": "Journal of Cannabis Research",
+      "year": "2026",
+      "abstract": "BACKGROUND: Gender identity influences patterns of substance use; however, few population-level studies have included transgender and gender-diverse identities when examining patterns of cannabis use by gender identity. METHODS: Data are from the International Cannabis Policy Study's national, repeat cross-sectional surveys conducted annually between 2018-2023 in Canada and the United States. Weighted logistic and linear regression models examined differences by gender identity among 281 533 respondents aged 16-65 (including 2 445 transgender respondents and 783 with gender-diverse identities) for three primary outcomes: patterns of cannabis use, personal effects from cannabis, and comfort consuming cannabis across social settings. RESULTS: Daily consumption was reported by approximately 14% of cisgender men, transgender men, and people with gender-diverse identities, with less cisgender women (12%, OR = 0.74, CI95 = 0.72,0.77; p < .001) and transgender women (12%, OR = 0.76, CI95 = 0.59,1.00; p = .047) reporting daily consumption. Approximately 12% of cisgender men, transgender men, and transgender women reported being 'very addicted' to cannabis. Transgender women (6%, OR = 0.57, CI95 = 0.53,0.62; p < .001) and people with gender-diverse identities (6%, OR = 0.47, CI95 = 0.24,0.91; p = .025) were less likely to report being 'very addicted' compared to cisgender men. People with gender-diverse identities reported greater positive personal effects from cannabis compared to cisgender men (β=0.53, CI95 = 0.21,0.86, p = .001), with no differences between cisgender men, cisgender women, transgender men, and transgender women. Comfort consuming cannabis across social settings was lower among cisgender women than cisgender men (β=-0.21, CI95 = -0.23,-0.19; p < .001), with no differences between cisgender men, transgender men, and transgender women. CONCLUSIONS: Frequent and problematic patterns of cannabis use were more common among cisgender men, transgender men, and transgender women. These disparities warrant further consideration in both research and policy settings.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42098404",
@@ -13715,6 +14216,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NYX"
+    },
+    {
+      "pmid": "42270684",
+      "doi": "10.1038/s41598-026-54481-5",
+      "zotero_key": "N9T5DXMS",
+      "title": "genotype–phenotype correlation in lattice corneal dystrophy: added diagnostic value of high-resolution OCT",
+      "authors": [
+        [
+          "Katarzyna",
+          "Walasz"
+        ],
+        [
+          "Ewa",
+          "Wróblewska-Czajka"
+        ],
+        [
+          "Adam",
+          "Wylęgała"
+        ],
+        [
+          "Bartłomiej",
+          "Bolek"
+        ],
+        [
+          "Bogdan",
+          "Dugiełło"
+        ],
+        [
+          "Magdalena",
+          "Kijonka"
+        ],
+        [
+          "Anna",
+          "Nowińska"
+        ],
+        [
+          "Edward",
+          "Wylęgała"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Lattice corneal dystrophy (LCD) is a progressive genetic disorder involving stromal amyloid accumulation. While molecular genetics is the diagnostic gold standard, its accessibility is often limited. This study evaluates high-resolution anterior segment optical coherence tomography (HR-OCT) for LCD characterization and surgical planning. e analysed 30 patients with confirmed TGFBI mutations (R124C, H626R) using slit-lamp biomicroscopy, in vivo confocal microscopy (IVCM) (Heidelberg Engineering GmbH, Heidelberg, Germany), and 3 μm resolution REVO HR-OCT (Optopol Technology, Zawiercie Poland). RESULTS: IVCM visualized \"felt-like\" amyloid filaments at the cellular level. HR-OCT provided precise mapping of deposit depth, epithelial mapping and identified Bowman's layer disruption, explaining clinical recurrent erosions. In post-keratoplasty cases, HR-OCT demonstrated high sensitivity in detecting early recurrence within donor tissue, often before changes became visible during slit-lamp examination. CONCLUSIONS: HR-OCT provides enhanced tool for LCD phenotypic characterization, serving as a \"pre-operative roadmap\" to differentiate candidates for phototherapeutic keratectomy versus keratoplasty. While IVCM offers cellular details, the wide-field imaging of HR-OCT is highly useful and significant for longitudinal monitoring and comprehensive management of LCD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "KRT3"
     },
     {
       "pmid": "42084285",
@@ -15869,6 +16420,52 @@
       "subcollection": "SAG"
     },
     {
+      "pmid": "42286579",
+      "doi": "10.1186/s12933-026-03248-3",
+      "zotero_key": "AUR2SXRN",
+      "title": "Integrating inflammation, insulin resistance, and visceral adiposity: the C-reactive protein–triglyceride–glucose-Chinese visceral adiposity (CTI–CVAI) index is associated with cardiovascular disease risk across CKM stages 0–3 in a nationwide prospective cohort",
+      "authors": [
+        [
+          "Qian Wang",
+          "(32718)"
+        ],
+        [
+          "Jia Li",
+          "(160557)"
+        ],
+        [
+          "Hao",
+          "Qiao"
+        ],
+        [
+          "Yuelang",
+          "Zhang"
+        ],
+        [
+          "Ying Xu",
+          "(9172)"
+        ],
+        [
+          "Shuqun",
+          "Zhang"
+        ],
+        [
+          "Guihua",
+          "Zhuang"
+        ]
+      ],
+      "journal": "Cardiovascular Diabetology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Early-stage (0-3) cardiovascular-kidney-metabolic (CKM) syndrome populations require urgent cardiovascular disease (CVD) prevention. Chronic inflammation, insulin resistance, and visceral adiposity are three core interactive CVD pathogenic pathways, while current biomarkers fail to integrate all three. This study aimed to explore the association of the novel three-dimensional composite index CTI-CVAI with incident CVD and its predictive value in Chinese adults with CKM stages 0-3. METHODS: This nationwide prospective cohort study used data from the China Health and Retirement Longitudinal Study (CHARLS, 2011-2020), including 6728 participants aged ≥ 45 years with CKM stages 0-3. CTI-CVAI was calculated by combining the C-reactive protein-triglyceride-glucose index (CTI) and Chinese visceral adiposity index (CVAI). Cox regression, restricted cubic spline, survival analysis, ROC curves, and reclassification analysis were used to evaluate its value. Subgroup and multiple sensitivity analyses, including competing-risks models, were conducted to assess the robustness of the results. RESULTS: During a median follow-up of 9 years, the overall CVD incidence was 23.83%. CTI-CVAI elevation showed a linear, dose-dependent correlation with increased CVD risk (P  0.05). CTI-CVAI demonstrated improved risk reclassification (NRI = 0.0566, P < 0.001) compared with single biomarkers. The association was stable across most subgroups. All sensitivity analyses yielded reliable, robust results. CONCLUSIONS: CTI-CVAI is independently and linearly associated with incident CVD risk in Chinese adults with CKM stage 0-3. As a low-cost, accessible biomarker integrating three key pathological pathways, it optimizes early CVD risk stratification and reclassification, providing a promising tool for targeted CVD prevention in CKM high-risk populations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42053838",
       "doi": "10.1007/s10571-026-01714-w",
       "zotero_key": "4ZD7ZGZ6",
@@ -15971,6 +16568,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NRL"
+    },
+    {
+      "pmid": "42285928",
+      "doi": "10.1038/s41420-026-03183-y",
+      "zotero_key": "7BB43FN3",
+      "title": "Interplay of telomerase non-canonical functions in NK cell resistance to iCasp9-mediated apoptosis",
+      "authors": [
+        [
+          "Anastasia I.",
+          "Palamarchuk"
+        ],
+        [
+          "Maria O.",
+          "Ustiuzhanina"
+        ],
+        [
+          "R. A.",
+          "Velichinskii"
+        ],
+        [
+          "Julia D.",
+          "Vavilova"
+        ],
+        [
+          "М. В.",
+          "Гречихина"
+        ],
+        [
+          "Elena I.",
+          "Kovalenko"
+        ],
+        [
+          "Maria A.",
+          "Streltsova"
+        ]
+      ],
+      "journal": "Cell Death Discovery",
+      "year": "2026",
+      "abstract": "NK cells are promising candidates for adoptive cell therapy; however, their proliferative capacity and functional persistence may be limited. Genetic modification with hTERT enhances their proliferative potential, while co-expression of the iCASP9 suicide gene provides a safety mechanism based on late-stage apoptosis induction by chemical dimerizer (CID). Whether hTERT overexpression interferes with iCasp9-mediated cell death remains unclear, and the non-canonical functions of telomerase in this context are poorly understood. This study served a dual purpose: to assess the efficacy of the iCasp9 \"suicide switch\" in NK cells, and to investigate a non-canonical role of telomerase in NK cell-mediated evasion from cell death. Here, we demonstrate that hTERT-modified NK cells exhibit significant resistance to CID-induced apoptosis, an effect independent of telomerase catalytic activity, as confirmed using a dominant-negative hTERT (DN-hTERT) mutant. Transcriptomic profiling revealed that both CID-resistant iCasp9-NK cells and hTERT-iCasp9-NK cells share common gene expression signatures: upregulation of cell cycle-associated genes and downregulation of splicing-related factors, including HNRNPH1 and SNRPD3, accompanied by shared patterns of alternative splicing. Among apoptosis-related transcripts, BIRC3, which encodes c-IAP-2, a direct inhibitor of caspase 9, was consistently elevated in both \"resistant\" and \"survived\" NK cells. However, shRNA-mediated knockdown of BIRC3 failed to restore sensitivity to CID, indicating that BIRC3 upregulation is not the unique determinant of resistance and suggesting involvement of additional compensatory pathways. Overall, our findings define specific transcriptional signatures associated with evasion of NK cells from iCasp9-mediated apoptosis, implying the contribution of cell cycle progression, enhanced anti-apoptotic signaling, and alterations in splicing regulation, and highlighting the complex role of non-canonical hTERT functions in these adaptations. In the rational design of next-generation gene-modified NK cell therapies with improved safety and persistence, the uncovered insights should be considered.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42068507",
@@ -16269,6 +16912,40 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Specialized functional testing"
+    },
+    {
+      "pmid": "42283752",
+      "doi": "10.1007/s00256-026-05280-6",
+      "zotero_key": "SRNE288S",
+      "title": "Isolated Goutallier Grade 4 supraspinatus atrophy: a rare case without rotator cuff tear or nerve compression",
+      "authors": [
+        [
+          "Trisha",
+          "Mukherjee"
+        ],
+        [
+          "Arash D.",
+          "Tehranzadeh"
+        ],
+        [
+          "John M.",
+          "Itamura"
+        ],
+        [
+          "Brian K.",
+          "Lee"
+        ]
+      ],
+      "journal": "Skeletal Radiology",
+      "year": "2026",
+      "abstract": "The supraspinatus muscle is susceptible to atrophy, with fatty infiltration most commonly attributed to chronic full-thickness tendon tears. Chronic denervation due to suprascapular nerve entrapment may also be responsible for supraspinatus atrophy. However, such cases typically show concurrent supraspinatus and infraspinatus involvement due to the muscles' shared innervation by the suprascapular nerve. We report a rare case of isolated supraspinatus atrophy in a 66-year-old male with intact rotator cuff tendons, preserved infraspinatus morphology, and no evidence of tendon tear or nerve compression lesion. The patient presented with gradually worsening anterior shoulder pain that began following a workout injury, without accompanying weakness or neurological symptoms. Magnetic resonance imaging revealed Goutallier Grade 4 fatty atrophy of the supraspinatus muscle and advanced acromioclavicular joint arthritis. Given the absence of typical structural etiologies, a chronic subclinical denervation pattern was considered. Two plausible mechanisms were explored: (1) selective injury of an early-branching motor division of the suprascapular nerve supplying the supraspinatus, and (2) an atypical manifestation of Parsonage-Turner syndrome, both of which can lead to isolated supraspinatus denervation without overt clinical deficits. To the best of our knowledge, this represents only the second documented case of isolated supraspinatus atrophy without rotator cuff disruption, nerve compression, or infraspinatus involvement. The case reinforces the diagnostic value of magnetic resonance imaging and highlights the importance of considering neural etiologies in cases where imaging findings deviate from classic rotator cuff pathology.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "",
@@ -17483,6 +18160,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ACO2"
+    },
+    {
+      "pmid": "42304054",
+      "doi": "10.1038/s41598-026-58191-w",
+      "zotero_key": "59MNWFIV",
+      "title": "Long-term burden of heart failure: a population-based cohort study on mortality and rehospitalizations",
+      "authors": [
+        [
+          "Loreto",
+          "Lancia"
+        ],
+        [
+          "Angelo",
+          "Dante"
+        ],
+        [
+          "Valeria",
+          "Caponnetto"
+        ],
+        [
+          "Cristina",
+          "Petrucci"
+        ],
+        [
+          "Vittorio",
+          "Masotta"
+        ],
+        [
+          "Ilaria",
+          "Paoli"
+        ],
+        [
+          "Gianluca",
+          "Azzellino"
+        ],
+        [
+          "L",
+          "Mammarella"
+        ],
+        [
+          "Silvio",
+          "Romano"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Heart failure (HF) is a prevalent, progressive syndrome, and a leading cause of hospitalization, mortality, and healthcare expenditure worldwide, especially among older adults. This study aimed to assess the long-term burden of mortality, rehospitalizations and their composite among HF patients and to identify independent predictors of these outcomes. A population-based retrospective cohort study was conducted across all hospitals in the province of L'Aquila, Italy, including all residents discharged alive after an index HF hospitalization between 1 January 2014 and 31 December 2022, with follow-up through 31 December 2023. Kaplan-Meier analysis estimated event rates at 30 days, 90 days, 1 year, 5 years and 9 years. Predictors of the 5-year composite outcome (death or rehospitalization) and rehospitalization frequency were analyzed using multivariable Cox regression and negative binomial models. A total of 5,883 patients were included. By 5 years, 69.4% had experienced the composite outcome, increasing to 85.4% by 9 years. Nearly half of the rehospitalizations occurred in the first year. Older age, male sex, longer initial hospital stay, and earlier discharge year were associated with poorer outcomes. HF poses a long-term burden, highlighting the need for ongoing care, in which nurses are central to improve outcomes and care quality.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42053130",
@@ -18889,6 +19620,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42304267",
+      "doi": "10.1186/s12887-026-07166-x",
+      "zotero_key": "2NDE3GBC",
+      "title": "Multifactorial analysis of allergen-specific IgE sensitization in children with allergic diseases in Suzhou, China",
+      "authors": [
+        [
+          "Hongyan",
+          "Zhang"
+        ],
+        [
+          "Lijun",
+          "Zhou"
+        ],
+        [
+          "Boyi",
+          "Chen"
+        ],
+        [
+          "Wenna",
+          "Qiu"
+        ],
+        [
+          "Yuanyuan",
+          "Zhang"
+        ],
+        [
+          "Hong",
+          "Zhu"
+        ],
+        [
+          "Hongying",
+          "Wang"
+        ],
+        [
+          "Yuan",
+          "Zhang"
+        ],
+        [
+          "Yuan",
+          "Zhang"
+        ],
+        [
+          "Yuan",
+          "Zhang"
+        ]
+      ],
+      "journal": "BMC Pediatrics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Allergic diseases represent a major public health challenge among children. Allergen sensitization patterns may be influenced by factors such as age, gender, season, and disease phenotype. This study aimed to systematically evaluate the associations of these factors with allergen sensitization patterns in children. METHODS: We studied 2,434 symptomatic children who underwent allergen testing at a district-level hospital in Suzhou, China, using the ImmunoCAP Phadia 250 system. Seventeen common airborne allergens (AAs) and food allergens (FAs) were assessed. The primary definition of sensitization was sIgE ≥ 0.35 IU/mL, whereas robustness analyses were additionally performed at thresholds of ≥ 0.70 and ≥ 3.50 IU/mL. Multivariable logistic regression models were used to evaluate associations with age, gender, and season, with false-discovery rate correction using the Benjamini-Hochberg method. RESULTS: Positivity rates varied systematically according to the sIgE threshold. As thresholds increased from grade ≥ 1 to ≥ 2 and ≥ 3, absolute positivity rates decreased as expected, whereas the direction of age-, gender-, and season-related patterns remained consistent. AA sensitization was more common than FA sensitization, with Dermatophagoides pteronyssinus and Dermatophagoides farinae representing the predominant sensitizers, whereas milk and egg were the leading food allergens. With increasing age, AA sensitization increased whereas FA sensitization declined; these patterns persisted after multivariable adjustment and at higher positivity thresholds. Males showed higher odds of sensitization, particularly for mite allergens. Seasonal variation was most evident for mite allergens, with higher positivity during summer-autumn than winter, broadly paralleling local humidity patterns. Across disease phenotypes, AA sensitization was more common in asthma and rhinitis, whereas FA sensitization was relatively more common in atopic dermatitis and the food-allergy group; mixed diseases showed a higher overall sensitization burden. CONCLUSIONS: In this single-center referred cohort, the findings describe allergen test positivity among clinically tested children rather than population-level prevalence. Age, gender, season, and disease phenotype were associated with distinct sensitization patterns, supporting greater attention to mite-focused assessment and environmental control from school age onward, particularly during humid seasons, as well as milk and egg evaluation during early childhood. The overall findings remained consistent at stricter sIgE positivity thresholds.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42271300",
@@ -20575,6 +21364,64 @@
       "subcollection": "Ocular imaging"
     },
     {
+      "pmid": "42299078",
+      "doi": "10.1002/adma.73683",
+      "zotero_key": "V5N39JFK",
+      "title": "Optically Programmable GST Metasurface for Coded Terahertz Wavefront Control",
+      "authors": [
+        [
+          "Guanxuan",
+          "Guo"
+        ],
+        [
+          "Yisheng",
+          "Dong"
+        ],
+        [
+          "Y R",
+          "Li"
+        ],
+        [
+          "Mengshu",
+          "Liu"
+        ],
+        [
+          "Fangzhou",
+          "Shu"
+        ],
+        [
+          "Xieyu",
+          "Chen"
+        ],
+        [
+          "Quan",
+          "Xu"
+        ],
+        [
+          "Xueqian",
+          "Zhang"
+        ],
+        [
+          "Zhen",
+          "Tian"
+        ],
+        [
+          "Jiaguang",
+          "Han"
+        ]
+      ],
+      "journal": "Advanced Materials",
+      "year": "2026",
+      "abstract": "ABSTRACT Compact and programmable wavefront control is a central task for advancing terahertz (THz) wave spectroscopy, imaging, and wireless communications. Although electrically programmable metasurfaces have exhibited remarkable versatility and significantly promoted THz dynamic device development, realizing two‐dimensional (2D), nonvolatile, broadband, and high‐resolution wavefront control remains a critical objective. Here, we present an optically programmable metasurface method that potentially overcomes these difficulties by leveraging the reversible phase change of the chalcogenide material Ge 2 Sb 2 Te 5 (GST). The core innovation lies in the use of selective optical excitation to locally address and induce phase changes in constituent GST patches, enabling reconfigurable and nonvolatile reversal of the meta‐atom symmetry. This unique mechanism yields a robust and broadband 0/π phase‐switching capability at the meta‐atom level, operating with subwavelength resolution and without the need for complex integrated electrodes. By employing spatially patterned optical pumping with predesigned masks as examples, we experimentally demonstrate two distinct 2D coded functionalities: controllable beam steering and tunable beam focusing. Our method establishes a new paradigm for programmable THz metasurfaces, offering a promising pathway for active and flexible THz wavefront engineering critical for systems requiring long‐term, stable functionalities.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42269532",
       "doi": "10.1016/j.jenvman.2026.130196",
       "zotero_key": "M8B86ZCS",
@@ -21409,6 +22256,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RPGRIP1L"
+    },
+    {
+      "pmid": "42285170",
+      "doi": "10.1097/ijg.0000000000002746",
+      "zotero_key": "K9A48DAQ",
+      "title": "Peripapillary Optical Coherence Tomography Artifacts in Pathologic Myopia: Prevalence and Impact on Glaucoma Diagnosis",
+      "authors": [
+        [
+          "Yuzhou",
+          "Xiang"
+        ],
+        [
+          "Nan",
+          "Luo"
+        ],
+        [
+          "Litong",
+          "Ye"
+        ],
+        [
+          "Jing",
+          "Huang"
+        ],
+        [
+          "Lu",
+          "Cheng"
+        ],
+        [
+          "Y",
+          "Yan"
+        ],
+        [
+          "",
+          "赵明慧"
+        ],
+        [
+          "Ying",
+          "Han"
+        ],
+        [
+          "Huang",
+          "J"
+        ]
+      ],
+      "journal": "Journal of Glaucoma",
+      "year": "2026",
+      "abstract": "PRCIS: Peripapillary retinal nerve fiber layer thickness (pRNFLT) artifacts were more prevalent than Bruch's membrane opening-minimum rim width (BMO-MRW) artifacts in pathologic myopia. Considering artifacts, the diagnostic performance of pRNFLT and BMO-MRW was comparable. PURPOSE: To investigate the prevalence of peripapillary retinal nerve fiber layer thickness (pRNFLT) and Bruch's membrane opening-minimum rim width (BMO-MRW) artifacts in pathologic myopia (PM) and the impact of artifacts on the diagnostic ability for open-angle glaucoma (OAG). METHODS: This cross-sectional study was conducted at Zhongshan Ophthalmic Center. PM eyes were divided into two groups based on OAG diagnosis. Artifacts of pRNFLT and BMO-MRW were classified and their prevalences were compared. The diagnostic ability of pRNFLT and BMO-MRW for OAG was compared before and after the inclusion of eyes with artifacts. RESULTS: A total of 136 participants with PM were included from July 2023 to January 2025, with a median (interquartile range) age of 49 (16) years and mean (standard deviation) axial length of 28.03 (2.01) mm. Seventy-four (54.4%) eyes were diagnosed as OAG. Seven and three types of pRNFLT and BMO-MRW artifacts were observed, respectively. Presence of pRNFLT artifacts was identified in 74.2% of eyes in the PM group and 63.5% of eyes in the PM with OAG (PMG) group, which was more prevalent than BMO-MRW artifacts (27.4% in the PM group and 4.1% in the PMG group, both P<0.001). Before and after including eyes with artifacts, the AUC of global RNFLT decreased from 0.927 to 0.869, and the AUC of global BMO-MRW slightly decreased from 0.884 to 0.882. CONCLUSION: Artifacts of pRNFLT were more complex and prevalent than those of BMO-MRW. In PM, the diagnostic ability of pRNFLT and BMO-MRW were comparable when artifacts were considered.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Retinal dystrophies"
     },
     {
       "pmid": "41984062",
@@ -22294,6 +23195,40 @@
       "journal": "PubMed",
       "year": "2026",
       "abstract": "BACKGROUND: Gut metabolites and symbionts are indispensable for host health, yet the precise identification of keystone metabolites and construction of synthetic microbial communities (SynComs) to enhance disease resistance remains limited. RESULTS: Using Litopenaeus vannamei as a model, we identified pyruvic acid and DL-glutamine (1:2) as keystone metabolites by borrowing the microbial ecology principles of bio-indicators and driver taxa. Dietary supplementation with these metabolites sufficiently protected shrimp from white feces syndrome (WFS). Multi-omics analyses demonstrated that keystone metabolites exerted positive effects by enriching beneficial Ruegeria lacuscaerulensis, Bacillus subtilis and Nioella nitratireducens, strengthening the gut network stability, and enhancing shrimp immunity, which collectively potentiated WFS resistance. The recruited three strains were consumers and producers of the two keystone metabolites, and discriminative strains between healthy and diseased shrimp across global datasets. A SynCom constructed from the three strains (4:3:2) replicated the efficacy of keystone metabolites. Both keystone metabolites and SynCom elevated shrimp gut and hepatopancreas lipoxin A4 (LXA4) levels, which suppressed the pro-inflammatory transcription factor AP-1, as validated by in vivo inhibition assay. CONCLUSIONS: Our findings demonstrate that precisely designed keystone metabolites enhance shrimp disease resistance through the recruitment of key symbionts-LXA4-AP-1 axis. The rationally designed keystone metabolites and SynCom are compelling biocontrol solutions in improving host disease resistance. Video Abstract.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42298341",
+      "doi": "10.1097/inf.0000000000005312",
+      "zotero_key": "NKH293MW",
+      "title": "Precocious Puberty and Subsequent Primary Ovarian Insufficiency in an Adolescent With Latent Tuberculosis",
+      "authors": [
+        [
+          "Diana",
+          "Toro"
+        ],
+        [
+          "Joshua E.",
+          "McOmber"
+        ],
+        [
+          "Nicholas M.",
+          "Stansbury"
+        ],
+        [
+          "Randal D.",
+          "Robinson"
+        ]
+      ],
+      "journal": "The Pediatric Infectious Disease Journal",
+      "year": "2026",
+      "abstract": "To the Editors: Primary ovarian insufficiency (POI) affects approximately 1% of women under age 40, with even fewer cases occurring in adolescence. POI is characterized by amenorrhea, hypergonadotropic hypogonadism and low estrogen levels. Common etiologies include genetic disorders (eg, Turner syndrome, Fragile X premutation), autoimmune diseases, iatrogenic causes and, less commonly, infectious etiologies such as tuberculosis (TB). In regions where TB is endemic, genital TB is a well-known cause of infertility, yet its relationship with POI, particularly in high-income countries, is underrecognized. We present an unusual case of a patient with early precocious puberty followed by POI in the setting of prior latent TB infection. A 17-year-old G0P0 female with a history of hypermobility syndrome and latent TB presented for evaluation of secondary amenorrhea and abnormal menstrual cycles. She was adopted from Russia at age 3.5 with no known family history. At that time, she had a strongly positive purified protein derivative at 20 mm, which was placed and read by her primary care provider. A chest radiograph was negative, and a QuantiFERON test obtained later was also negative. After discussion between her primary physician and pediatric ID consultants, a consensus was reached that the patient should be treated for latent TB. She subsequently completed a 9-month course of isoniazid by June 2012 with no evidence of reactivation on follow-up. At age 8.5, she exhibited signs of precocious puberty and was found to have a bone age of 12 years. She was started on Depot Lupron with a goal of suppression of the hypothalamic-pituitary-gonadal axis and remained on therapy until age 11.5. After cessation, she progressed through puberty, with menarche occurring at age 12 suggesting reversible axis suppression. However, her menses were irregular and ceased entirely by age 14. Initial work-up at that time revealed elevated gonadotropins (follicle-stimulating hormone 151 mIU/mL; ref <10, leutinizing hormone 85.5 mIU/mL; ref <10), estradiol <15 pg/mL, anti-Mullerian hormone 0.1 ng/mL, inhibin B <10 pg/mL and 17-hydroxyprogesterone 14 ng/dL. Adrenal antibodies were negative. Karyotype was 46,XX, and expanded genetic testing was negative for Fragile X premutation, cystic fibrosis transmembrane conductance regulator, spinal muscular atrophy and hemoglobinopathies. Thyroid function was normal except for mildly elevated thyroid peroxidase antibodies. Pelvic ultrasound showed a normal uterus with small ovarian volumes (0.43 and 0.5 mL; normative mean ~2–4 mL for this age group). Magnetic resonance imaging of the brain (T1/T2 sequences, nonenhancing) showed a 1 × 3 mm pars intermedia lesion, favored Rathke cleft cyst or microadenoma, without mass effect. Bone age at 16 years 11 months was 15 years, consistent with delayed maturation before hormone therapy initiation. She was started on estradiol and cyclic progesterone therapy, which resumed regular withdrawal bleeding. She denied vasomotor symptoms or other signs of hypoestrogenism. Family history was unavailable due to adoption, though her maternal half-sister (also adopted) reportedly had normal menses and no signs of pubertal abnormality. This case illustrates an unusual sequence of idiopathic precocious puberty followed by early POI. The most common causes of POI in adolescents include chromosomal abnormalities, Fragile X premutation and autoimmune disorders, all of which were ruled out in this case. Infectious causes, including mumps and TB, are less frequently considered.1 TB, particularly genital TB, is a known cause of infertility and tubal factor damage.2 Ovarian involvement is less common but documented. While genital TB is typically a postpubertal disease, latent TB in early childhood may result in subclinical damage to the hypothalamic-pituitary-ovarian axis or direct ovarian impairment. Her early exposure to TB and lack of other explanations raise the possibility of a postinfectious etiology for her ovarian failure.3 Although genital TB was never diagnosed, the early latency and lack of alternative explanation warrant consideration. It is also possible that TB infection may have contributed to dysregulation of pubertal timing, leading first to premature activation and later to depletion of follicular reserve. A growing body of literature suggests TB, including latent and extrapulmonary forms, can contribute to reproductive dysfunction. Chu et al1 found associations between latent TB and impacted ovarian reserve. Additionally, a case reported by Roy et al2 described a rare presentation of primary ovarian TB. Tripathy et al3 found that congenital TB had a detrimental impact on fertility. The intersection of precocious puberty and POI is rare and may suggest accelerated depletion of ovarian follicles, especially in the absence of structural or genetic anomalies. The presence of hypermobility syndrome in this case does not currently have a known link to POI. This case highlights the importance of considering infectious etiologies, including remote latent TB, in adolescents with unexplained POI, particularly when classic causes have been ruled out. Early life TB exposure may contribute to atypical reproductive trajectories, and greater awareness is warranted among pediatric and adolescent gynecologists. ACKNOWLEDGMENTS We thank the patient and her guardian for granting permission to share this case.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -23371,6 +24306,36 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42281430",
+      "doi": "10.1111/ipd.70103",
+      "zotero_key": "ZF7HW7UX",
+      "title": "Re: Effects of Preoperative Immersive and Non‐Immersive Virtual Reality Exposure on Dental Anxiety in Children: A Randomised Controlled Trial",
+      "authors": [
+        [
+          "A",
+          "Lowenstein"
+        ],
+        [
+          "Rodrigo dos Santos",
+          "Pereira"
+        ],
+        [
+          "Carlos Fernando",
+          "Mourão"
+        ]
+      ],
+      "journal": "International Journal of Paediatric Dentistry",
+      "year": "2026",
+      "abstract": "We read with interest the randomised controlled trial by Selvaraj and colleagues examining the effectiveness of immersive and non-immersive virtual reality exposure in reducing dental anxiety in children [1]. The finding that both immersive and non-immersive VR modalities significantly reduced dental anxiety compared to control groups, with no significant difference between these two approaches, suggests that resource-limited settings can achieve similar anxiolytic benefits without investing in high-cost interactive technology. In this respect, the more accessible non-immersive format may represent a particularly practical option for routine paediatric care. The absence of reported cybersickness and high acceptability further supports feasibility for integration into clinical practice. Interpretation should nonetheless remain cautious, because the reduction in self-reported anxiety was not matched by a clear physiological effect: the between-group difference in pulse rate did not reach significance (p = 0.052; Cohen's d = 0.09), and the postoperative correlation between self-reported anxiety and pulse rate remained weak (r = 0.285, p = 0.022) [1]. Recent literature suggests this dissociation may be more common than previously recognised; Main and colleagues found that salivary cortisol and alpha-amylase levels were not consistently correlated with psychological measures in children undergoing dental procedures [2]. This pattern suggests that preoperative VR may act primarily through cognitive reappraisal rather than autonomic nervous system regulation. Future studies examining salivary cortisol alongside self-report measures could clarify whether this represents an incomplete therapeutic response or a distinct beneficial pathway. Generalisability is similarly limited. The study's restriction to children aged 9–12 years and an ethnically homogeneous sample (93.8% Malay) limits generalisability [1]. The findings may not extend to younger children, adolescents or more culturally diverse populations, in whom attention, cognitive processing and parental acceptance of behaviour guidance may differ [3]. Moreover, because the trial captured only the immediate preoperative effect, it remains unclear whether VR-facilitated anxiety reduction persists across multiple dental visits. Broader and longer term evaluation, across the full paediatric age range, diverse clinical settings and successive appointments, would strengthen the evidence base and clarify VR's role in establishing positive dental experiences. Selvaraj and colleagues have advanced our understanding of VR's potential in paediatric dentistry, and their findings support the more accessible non-immersive format as a practical adjunct for behaviour guidance. Confirming whether this subjective benefit translates into consistent physiological change, and testing the approach across broader populations and repeated visits, will be essential to define VR's role in paediatric dentistry.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41872723",
       "doi": "10.1097/j.jcrs.0000000000001918",
       "zotero_key": "9DF7EHVM",
@@ -23413,40 +24378,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Nystagmus"
-    },
-    {
-      "pmid": "42044501",
-      "doi": "10.2196/87847",
-      "zotero_key": "RNA8P43N",
-      "title": "Reciprocal Within-Person Dynamics Between Internet Gaming Disorder Symptoms, Physical Activity, and Loneliness Among Chinese Adolescent Gamers: Three-Wave Prospective Cohort Study",
-      "authors": [
-        [
-          "Chang",
-          "Hu"
-        ],
-        [
-          "Xuan",
-          "Meng"
-        ],
-        [
-          "Xi",
-          "Wang"
-        ],
-        [
-          "Jilin",
-          "Huang"
-        ]
-      ],
-      "journal": "JMIR Serious Games",
-      "year": "2026",
-      "abstract": "BACKGROUND: Problematic gaming and internet gaming disorder (IGD) symptoms are prevalent in adolescence, yet the longitudinal interplay between physical activity (PA), loneliness, and IGD symptoms, as well as potential sexual differences, remains unclear. OBJECTIVE: This study aimed to examine reciprocal within-person associations between PA, loneliness, and IGD symptoms among Chinese adolescent gamers and test sexual differences in these associations. METHODS: We conducted a three-wave prospective cohort study among 1332 Chinese adolescents selected using convenience sampling from five middle schools in central China who had engaged in online gaming during the previous year (n=441, 33.1%, females; mean age 3.64, SD 0.76, years). PA, loneliness, and IGD symptoms were assessed using the Physical Activity Rating Scale-3, the three-item short form of the University of California, Los Angeles Loneliness Scale, and the nine-item Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition IGD Checklist, respectively, at three 6-month intervals: wave 1 (baseline, T1), wave 2 (T2), and wave 3 (T3). A random intercept (RI) cross-lagged panel model (CLPM) and multigroup analyses were conducted. RESULTS: RI-CLPM indicated that at the within-person level, higher PA predicted decreased subsequent loneliness (T1→T2: β=-0.12, 95% CI -0.16 to -0.08; T2→T3: β=-0.13, 95% CI -0.17 to -0.08) and IGD symptoms (T1→T2: β=-0.10, 95% CI -0.16 to -0.04, P=.009; T2→T3: β=-0.10, 95% CI -0.16 to -0.04). Increased loneliness (β=-0.22, 95% CI -0.26 to -0.18) and increased IGD symptoms (β=-0.08, 95% CI -0.12 to -0.04) each predicted later reductions in PA, indicating a mutually reinforcing cycle. Increased loneliness also predicted an increase in subsequent IGD symptoms (T1→T2: β=0.14, 95% CI 0.11-0.17), and increased IGD symptoms, in turn, predicted greater loneliness in the next wave (T1→T2: β=0.18, 95% CI 0.14-0.22). Multigroup models indicated that the protective effect of PA on later loneliness and the prospective effect of loneliness on subsequent IGD symptoms were stronger among girls than boys. In males, PA significantly predicted loneliness (β=-0.08 to -0.09, 95% CI -0.15 to -0.01), and loneliness significantly predicted IGD symptoms (β=0.09, 95% CI 0.03-0.15). In females, the cross-lagged effects from PA to loneliness were significant but stronger (β=-0.17, 95% CI -0.23 to -0.11), and the paths from loneliness to later IGD symptoms were also significant (β=0.16, 95% CI 0.11-0.21). CONCLUSIONS: PA, loneliness, and IGD symptoms are reciprocally linked in adolescent gamers. By using RI-CLPM to distinguish within-person changes from stable between-person differences, this study extends prior research based mainly on cross-sectional designs or traditional CLPMs and provides a clearer understanding of the dynamic interplay among behavioral, emotional, and gaming-related factors. The findings highlight that interventions aiming to prevent IGD symptoms should simultaneously promote PA and reduce loneliness, with particular attention to sex-specific patterns, especially in girls.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "42260613",
@@ -26362,6 +27293,96 @@
       "subcollection": "ZEB1"
     },
     {
+      "pmid": "42284100",
+      "doi": "10.2215/cjn.0000001104",
+      "zotero_key": "PPRXSTAW",
+      "title": "Stage-Specific Progression of Cardiovascular-Kidney-Metabolic Health and Mortality in a Nationwide Cohort of East Asian Adults",
+      "authors": [
+        [
+          "Sehoon",
+          "Park"
+        ],
+        [
+          "Min Woo",
+          "Kang"
+        ],
+        [
+          "J.Y.",
+          "Lee"
+        ],
+        [
+          "J.",
+          "Oh"
+        ],
+        [
+          "Minsang",
+          "Kim"
+        ],
+        [
+          "Jung Hun",
+          "Koh"
+        ],
+        [
+          "Jin Kyung",
+          "Kwon"
+        ],
+        [
+          "Jeong Min",
+          "Cho"
+        ],
+        [
+          "Seong Geun",
+          "Kim"
+        ],
+        [
+          "Hyuk",
+          "Huh"
+        ],
+        [
+          "Sehyun",
+          "Jung"
+        ],
+        [
+          "Semin",
+          "Cho"
+        ],
+        [
+          "Soojin",
+          "Lee"
+        ],
+        [
+          "Eunjeong",
+          "Kang"
+        ],
+        [
+          "Yaerim",
+          "Kim"
+        ],
+        [
+          "Kwon Wook",
+          "Joo"
+        ],
+        [
+          "Kyungdo",
+          "Han"
+        ],
+        [
+          "Dong Ki",
+          "Kim"
+        ]
+      ],
+      "journal": "Clinical Journal of the American Society of Nephrology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Cardiovascular-Kidney-Metabolic (CKM) syndrome represents the progressive interplay among metabolic dysfunction, kidney impairment, and cardiovascular disease (CVD), ultimately contributing to higher mortality. We investigated how changes across CKM stages correlate with subsequent all-cause mortality in a nationwide population-based cohort. METHODS: We analyzed data from 2,812,170 adults aged ≥20 years who underwent two general health screenings four years apart through the Korean National Health Insurance Service, with CKM stages classified according to clinical criteria reflecting progressive metabolic, kidney, and cardiovascular risk. Stage-specific CKM stage change (improve, sustain, or progress) and its association with all-cause mortality were evaluated using multivariable Cox regression analysis, adjusted for clinicodemographic variables. RESULTS: During the four-year exposure assessment period, 674,465 adults (24%) experienced CKM stage progress, 1,802,489 (64%) sustained their CKM stage, and 335,216 (12%) improved. Over a subsequent 6.4-year follow-up, CKM stage progress was significantly associated with an higher risk of all-cause mortality [adjusted HR 1.38 (1.36-1.41)], whereas CKM stage improvement was associated with a lower risk [adjusted HR 0.93 (0.90-0.95)]. Notably, even early-stage progression (from stage 0 to stage 1) was linked to a higher mortality risk [adjusted HR 1.08 (1.01-1.15)], with a stepwise higher risk observed with progression to more advanced follow-up CKM stages. The association between CKM stage progress and mortality was more pronounced in older adults. CONCLUSION: Worsening of CKM stage is associated with higher all-cause mortality from early to advanced stages, whereas CKM stage improvement is associated with lower mortality risk. These findings provide epidemiologic real-world evidence supporting the importance of monitoring and intervening on CKM progression across its full spectrum to lower long-term mortality risk.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/s0896-1549(03)00005-1",
       "zotero_key": "N6HJ2E3D",
@@ -27002,6 +28023,40 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42306958",
+      "doi": "10.1021/acssensors.6c00609",
+      "zotero_key": "DRZ645DT",
+      "title": "Synaptic Sensors for Development of Potentiometric NO 2 Sensors by Using WSe 2 /PPy Composite Nanoarchitectonics",
+      "authors": [
+        [
+          "Utkarsh",
+          "Kumar"
+        ],
+        [
+          "Ching-Lan",
+          "Chuang"
+        ],
+        [
+          "Zu-Yin",
+          "Deng"
+        ],
+        [
+          "Chiu‐Hsien",
+          "Wu"
+        ]
+      ],
+      "journal": "ACS Sensors",
+      "year": "2026",
+      "abstract": "High Resolution Image Download MS PowerPoint Slide In this study, we report the design of a bioinspired synaptic potentiometric NO 2 sensor based on a WSe 2 /polypyrrole (PPy) nanocomposite, synthesized via a facile liquid-phase exfoliation coupled with an in situ oxidation polymerization process. The resulting core−shell heterostructure exhibits dynamic charge transfer and plasticity behavior, mimicking biological synaptic functions such as potentiation and depression under repetitive gas stimuli. The optimized WSe 2 /PPy (1:1) device displayed an excellent synaptic sensing response of 7.33 at 100 ppb NO 2, with ultrafast response (19 s), recovery (249 s), and an ultralow detection limit of 8.74 ppb at room temperature achieved without any post-annealing treatment. The synergistic interaction between defect-rich WSe 2 and nitrogen-active PPy sites enhanced selective NO 2 adsorption, while DFT analysis confirmed substantial interfacial charge redistribution and band modulation. Moreover, neural network-assisted learning accurately reproduced and predicted synaptic response patterns ( R 2 > 0.99), validating the sensor’s adaptive recognition behavior. This work demonstrates a hybrid material platform bridging neuromorphic sensing and gas detection, opening pathways toward self-learning, low-power synaptic gas sensors for next-generation environmental and health-monitoring systems. The synergistic effects lead to improved sensitivity and rapid response, highlighting its potential for advanced gas sensing applications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41917724",
@@ -29514,48 +30569,6 @@
       "subcollection": "SAG"
     },
     {
-      "pmid": "42142160",
-      "doi": "10.1007/s00192-026-06687-4",
-      "zotero_key": "C3UHBVRN",
-      "title": "Two-Year Real-World Outcomes in Women with Genitourinary Syndrome of Menopause Following Fractional CO2 Laser Treatment",
-      "authors": [
-        [
-          "Telal",
-          "Doğruel"
-        ],
-        [
-          "Pinar",
-          "Kadirogullari"
-        ],
-        [
-          "Hikmet Can",
-          "Dogruel"
-        ],
-        [
-          "Ümran Karabulut",
-          "Doğan"
-        ],
-        [
-          "Erhan Hüseyin",
-          "CÖMERT"
-        ],
-        [
-          "Ozan",
-          "Doğan"
-        ]
-      ],
-      "journal": "International Urogynecology Journal",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41948861",
       "doi": "10.1002/adma.72975",
       "zotero_key": "76IB98V7",
@@ -29652,58 +30665,46 @@
       "subcollection": "Binocular vision, Vision binoculaire"
     },
     {
-      "pmid": "41919336",
-      "doi": "10.1021/acs.nanolett.6c00344",
-      "zotero_key": "9B5H5JI9",
-      "title": "Ultrastable, Omnidirectionally Stretchable, and Transparent Electrodes Based on Ag@Au Core–Sheath Nanowires with Noncoplanar Patterns for Wearable Electronics",
+      "pmid": "42302205",
+      "doi": "10.1097/j.jcrs.0000000000001990",
+      "zotero_key": "UDMX6HUA",
+      "title": "Ultrasound phacoemulsification: Physical mechanisms, cavitation, and thermal effects",
       "authors": [
         [
-          "Liancong",
-          "Yue"
+          "Thomas",
+          "Graf"
         ],
         [
-          "Jiajia",
-          "Wang"
+          "Thomas",
+          "Gisler"
         ],
         [
-          "Youyou",
-          "Liu"
+          "Silvio",
+          "Emmenegger"
         ],
         [
-          "Xiangyi",
-          "Kong"
+          "Samuel",
+          "Tanner"
         ],
         [
-          "Min",
-          "Gong"
+          "Rupert",
+          "Menapace"
         ],
         [
-          "Xiang",
-          "Lin"
-        ],
-        [
-          "Fei",
-          "Gao"
-        ],
-        [
-          "Liang",
-          "Zhang"
-        ],
-        [
-          "Dongrui",
-          "Wang"
+          "Silvio Di",
+          "Nardo"
         ]
       ],
-      "journal": "Nano Letters",
+      "journal": "Journal of Cataract & Refractive Surgery",
       "year": "2026",
-      "abstract": "On-skin electrophysiological devices require stretchable transparent electrodes offering omnidirectional compliance, stable conductivity, environmental resilience, and high transparency. Herein, we present hierarchical, environmentally robust omnidirectionally stretchable transparent electrodes (OSTEs) using Ag@Au core-sheath nanowires (Ag@Au NWs). Fabrication employs reusable hydrophobic masks to pattern 2D geometries on prestrained substrates; strain release self-assembles 3D wrinkled architectures. Combined with salt-assisted NW cold-welding, this enables exceptional multidirectional stretchability and strain-tolerant conductivity. The optimized OSTE achieves 9.24 Ω/sq at 75.0% transmittance, withstands >10,000 cycles of 30% uniaxial strain (resistance increase 2O2). Ag@Au NW OSTEs deliver high-fidelity EMG/ECG signals with significant motion-artifact suppression during skin deformation and perspiration, outperforming commercial Ag/AgCl gel electrodes. This scalable materials-structure integration approach accelerates precise wearable biosensors for dynamic health monitoring.",
+      "abstract": "PURPOSE: To perform a comprehensive technical and biomedical analysis of ultrasound-induced effects during phacoemulsification cataract surgery (PCS) and assess the potential risks associated with ultrasound emulsification. SETTING: Lucerne University of Applied Sciences and Arts, Horw, Switzerland. DESIGN: Computational modeling and laboratory bench testing. METHODS: Ultrasound wave propagation and intensity were simulated using the finite element method (FEM). The onset of cavitation was experimentally validated in a pressure chamber and observed using a high-speed camera. The thermal effects of ultrasound energy were estimated using established physical and thermal models and confirmed in a cuvette setup using thermistor probes. RESULTS: At the distal end of the PCS tip, the ultrasound wave intensity reached 0.2 W/mm2, resulting in ocular tissue displacements in the anterior chamber below 2 µm. The temperature rise in the anterior chamber was less than 0.2 °C/s. Both observations indicate negligible mechanical and thermal risks to ocular tissues. High-speed imaging confirmed that cavitation was confined to the PCS tip region. The efficiency of emulsification was maintained even under conditions that suppressed cavitation, including elevated ambient pressures and cavitation-inhibiting fluids. The results indicate that mechanical fragmentation by tip oscillation (\"jackhammer effect\") is the only relevant emulsification mechanism, whereas cavitation plays a negligible role. Acoustic streaming was observed during the ultrasound excitation without a phaco sleeve. During phacoemulsification, the sleeve suppresses acoustic streaming into the anterior chamber. CONCLUSIONS: These findings validate the safety of ultrasound-based PCS and confirm that lens fragmentation is primarily driven by the direct action of the oscillating tip.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:recent"
       ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "",
@@ -29958,6 +30959,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42288932",
+      "doi": "10.1186/s40942-026-00869-4",
+      "zotero_key": "2BE6BST5",
+      "title": "Understanding the effect of educational attainment on the risk of retinal detachment: a Mendelian randomization mediation analysis",
+      "authors": [
+        [
+          "Andreas",
+          "Katsimpris"
+        ],
+        [
+          "Sebastian‐Edgar",
+          "Baumeister"
+        ],
+        [
+          "Hansjörg",
+          "Baurecht"
+        ],
+        [
+          "Andrew",
+          "Blaikie"
+        ],
+        [
+          "Colin",
+          "Goudie"
+        ],
+        [
+          "Andrew J.",
+          "Tatham"
+        ],
+        [
+          "Michael",
+          "Nolde"
+        ]
+      ],
+      "journal": "International Journal of Retina and Vitreous",
+      "year": "2026",
+      "abstract": "PURPOSE: Higher educational attainment is generally associated with better health outcomes, but paradoxically, some evidence suggests an increased risk of rhegmatogenous retinal detachment (RD) among individuals with higher education, potentially due to myopia. This study aimed to investigate whether the association between education and RD is causal and to what extent it is mediated by refractive error and other modifiable lifestyle factors. METHODS: We conducted univariable and multivariable Mendelian randomization (MR) analyses using publicly available genome-wide association study summary statistics from up to 3 million individuals of European ancestry. Genetically predicted educational attainment was examined for its effect on RD risk. MR mediation analysis was employed to estimate the contribution of refractive error, smoking, alcohol consumption, and body mass index (BMI) to the observed association. RESULTS: Each one standard deviation increase in genetically predicted educational attainment was associated with a 1.50-fold higher risk of RD (95% confidence interval [CI]: 1.02-2.21; p = 0.04). MR mediation analysis suggested that the effect of education on RD was largely mediated by refractive error. Adjustments for smoking, alcohol use, and BMI showed limited impact on the association, reinforcing myopia as the principal mediator. CONCLUSIONS: Our findings provide evidence consistent with a possible causal effect between higher educational attainment and increased RD risk, driven predominantly by myopia. These results highlight the potential importance of refractive error as a pathway linking educational attainment and RD, which may be relevant for future prevention strategies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "42033107",
