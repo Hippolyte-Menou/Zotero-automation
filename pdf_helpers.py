@@ -14,14 +14,15 @@ from pathlib import Path
 import requests
 from pyzotero import zotero
 
+from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
+from bio_toolkit.util.cache import literature_dir
+
 logger = logging.getLogger(__name__)
 
-# API key file (shared with zotero-tools scripts)
-_SCRIPT_DIR = Path(__file__).resolve().parent
-_API_KEY_FILE = _SCRIPT_DIR.parent / "zotero-tools" / ".zotero-api-key"
-
-ZOTERO_GROUP_ID = "6432168"
-PDF_SAVE_DIR = _SCRIPT_DIR.parent.parent / "pdfs" / "articles"
+# Shared PDF corpus = the Zotero Linked Attachment Base Directory
+# (Genetics/literature/). Resolved via the toolkit so every project agrees on
+# the location; OneDrive-synced, never git-tracked.
+PDF_SAVE_DIR = literature_dir()
 UNPAYWALL_EMAIL = "h.menou@ucl.ac.uk"
 
 # Polite headers for API requests
@@ -31,23 +32,14 @@ API_HEADERS = {
 
 
 def load_api_key() -> str:
-    """Load Zotero API key from file, falling back to env var.
+    """Return the Zotero API key.
 
-    Raises RuntimeError if no key is found.
+    Thin wrapper over bio_toolkit.config.zotero_api_key() kept so existing call
+    sites keep working. The key now comes from the ZOTERO_API_KEY env var or the
+    toolkit's gitignored secret file; the old per-bot `.zotero-api-key` path is
+    gone (it broke on relocation out of the vault tree).
     """
-    if _API_KEY_FILE.exists():
-        key = _API_KEY_FILE.read_text().strip()
-        if key:
-            logger.debug(f"API key loaded from {_API_KEY_FILE}")
-            return key
-    key = os.environ.get("ZOTERO_API_KEY", "")
-    if key:
-        logger.debug("API key loaded from ZOTERO_API_KEY env var")
-        return key
-    raise RuntimeError(
-        f"No API key found. Place it in {_API_KEY_FILE} "
-        "or set ZOTERO_API_KEY env var."
-    )
+    return zotero_api_key()
 
 
 # ---------------------------------------------------------------------------

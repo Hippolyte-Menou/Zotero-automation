@@ -45,7 +45,7 @@ class RejectionLog:
         scores: dict | None = None,
     ) -> None:
         """Record a rejection from a raw OpenAlex work dict."""
-        from genebot.openalex import OpenAlexClient, _invert_abstract
+        from bio_toolkit.clients.openalex import OpenAlexClient, _invert_abstract
 
         pmid = OpenAlexClient.extract_pmid(work) or ""
         ids = work.get("ids", {})

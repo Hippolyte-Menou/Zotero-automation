@@ -31,7 +31,7 @@ import logging
 import datetime
 from collections import defaultdict
 
-from genebot.openalex import OpenAlexClient
+from bio_toolkit.clients.openalex import OpenAlexClient
 from genebot.zotero_client import ZoteroGroupClient
 
 logger = logging.getLogger("inverse_bot")

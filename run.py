@@ -24,8 +24,8 @@ import logging
 import datetime
 import yaml
 
-from genebot.hgnc import get_gene_aliases
-from genebot.openalex import OpenAlexClient
+from bio_toolkit.clients.hgnc import get_gene_aliases
+from bio_toolkit.clients.openalex import OpenAlexClient
 from genebot.zotero_client import ZoteroGroupClient
 from genebot.rejection_log import RejectionLog
 
