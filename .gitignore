@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .env
+.zotero-api-key
 logs/
 venv/
 .venv/
@@ -9,3 +10,6 @@ site/data/
 site/Zotero-automation-gh-pages.zip
 audit_data/
 docs/superpowers/plans/2026-03-16-dashboard-performance.md
+dedup_report.json
+.claude/settings.local.json
+/pdf_strategies
