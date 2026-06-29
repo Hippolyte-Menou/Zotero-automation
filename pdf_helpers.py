@@ -15,14 +15,15 @@ import requests
 from pyzotero import zotero
 
 from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
-from bio_toolkit.util.cache import literature_dir
+from bio_toolkit.util.cache import pdf_corpus_dir
 
 logger = logging.getLogger(__name__)
 
-# Shared PDF corpus = the Zotero Linked Attachment Base Directory
-# (Genetics/literature/). Resolved via the toolkit so every project agrees on
-# the location; OneDrive-synced, never git-tracked.
-PDF_SAVE_DIR = literature_dir()
+# Shared PDF corpus = literature/pdfs/ (under the Zotero Linked Attachment Base
+# Directory, where ZotMoov parks the citekey-named PDFs). Resolved via the
+# toolkit so every project agrees on the location; OneDrive-synced, never
+# git-tracked.
+PDF_SAVE_DIR = pdf_corpus_dir()
 UNPAYWALL_EMAIL = "h.menou@ucl.ac.uk"
 
 # Polite headers for API requests
