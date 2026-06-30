@@ -312,3 +312,22 @@ def cmd_prepare(args) -> None:
         max_items=args.max_items, batch_size=args.batch_size)
     print(f"prepared {len(manifest['fp_batches'])} FP + "
           f"{len(manifest['fn_batches'])} FN batches in {args.work_dir}")
+
+
+def collect_adjudication(work_dir: str, batch_size: int = 20) -> dict:
+    """Read screen verdicts + batches, write adj_* batches for the flagged subset."""
+    fp, fn = load_batch_items(work_dir)
+    screen = load_verdicts(work_dir, "screen_")
+    needs = select_for_adjudication(fp, fn, screen)
+    bdir = os.path.join(work_dir, "batches")
+    names = _write_kind(bdir, "adj", needs, batch_size)
+    manifest = {"adj_batches": names}
+    with open(os.path.join(work_dir, "adj_manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=1)
+    logger.info("collect: %d items need adjudication", len(needs))
+    return manifest
+
+
+def cmd_collect(args) -> None:
+    manifest = collect_adjudication(args.work_dir, batch_size=args.batch_size)
+    print(f"collected {len(manifest['adj_batches'])} adjudication batch(es)")

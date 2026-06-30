@@ -207,6 +207,26 @@ class TestBatchIO(unittest.TestCase):
         self.assertEqual([c["id"] for c in out], ["pmid:1", "pmid:3", "pmid:5"])
 
 
+class TestCmdCollect(unittest.TestCase):
+    def test_builds_adjudication_batches_from_screen_verdicts(self):
+        fp = [{"id": "pmid:1", "key": "K1"}, {"id": "pmid:2", "key": "K2"}]
+        fn = [{"id": "pmid:5"}]
+        with tempfile.TemporaryDirectory() as d:
+            audit_bot.write_batches(d, fp, fn, batch_size=20)
+            vdir = os.path.join(d, "verdicts")
+            os.makedirs(vdir)
+            with open(os.path.join(vdir, "screen_fp_000.json"), "w", encoding="utf-8") as f:
+                json.dump([{"id": "pmid:1", "verdict": "off_topic"},
+                           {"id": "pmid:2", "verdict": "on_topic"}], f)
+            with open(os.path.join(vdir, "screen_fn_000.json"), "w", encoding="utf-8") as f:
+                json.dump([{"id": "pmid:5", "verdict": "relevant"}], f)
+            manifest = audit_bot.collect_adjudication(d, batch_size=20)
+            self.assertEqual(manifest["adj_batches"], ["adj_000"])
+            with open(os.path.join(d, "batches", "adj_000.json"), encoding="utf-8") as f:
+                ids = [c["id"] for c in json.load(f)["items"]]
+            self.assertEqual(sorted(ids), ["pmid:1", "pmid:5"])
+
+
 class TestPreparePools(unittest.TestCase):
     def test_builds_both_pools_and_writes_batches(self):
         library = [{"pmid": "1", "zotero_key": "K1", "title": "t",
