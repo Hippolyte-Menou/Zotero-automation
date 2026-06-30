@@ -300,7 +300,7 @@ class TestSelectFpCandidates(unittest.TestCase):
         out = audit_bot.select_fp_candidates(self._lib(), set(), 1)
         self.assertEqual(out[0], {
             "id": "pmid:2", "key": "KB", "pmid": "2", "doi": "",
-            "title": "new", "abstract": "b",
+            "title": "new", "abstract": "b", "kind": "fp",
             "gene_or_topic": "FBN1", "category": "6 - Genes",
         })
 
@@ -337,6 +337,7 @@ def select_fp_candidates(library_items: list, audited: set, max_items: int) -> l
             "abstract": it.get("abstract", ""),
             "gene_or_topic": it.get("subcollection", ""),
             "category": it.get("category", ""),
+            "kind": "fp",
         })
     return out
 ```
@@ -412,7 +413,7 @@ class TestSelectFnCandidates(unittest.TestCase):
             "id": "pmid:10", "pmid": "10", "doi": "", "title": "close",
             "abstract": "x", "gene_or_topic": "CRB1", "category": "6 - Genes",
             "reason": "score_below_threshold", "effective_score": 3,
-            "threshold": 4, "search_keywords": ["CRB1"],
+            "threshold": 4, "search_keywords": ["CRB1"], "kind": "fn",
         })
 ```
 
@@ -466,6 +467,7 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
             "effective_score": nm.get("effective_score"),
             "threshold": nm.get("threshold"),
             "search_keywords": nm.get("search_keywords", []),
+            "kind": "fn",
         })
     return out
 ```
@@ -1396,16 +1398,17 @@ ONLY if you AND the screener both say off-topic, so a wrong "off_topic" here
 deletes a paper; for FN items your `relevant` triggers a re-add.
 
 You will be given the path to ONE adjudication batch JSON file with mixed
-`fp`/`fn` items (each item keeps its original fields, including `id`,
-`gene_or_topic`, `title`, `abstract`, and for FN `reason`/`search_keywords`).
-Read it. For each item, reach an independent judgment. If the abstract is thin or
-the gene link is ambiguous, you MAY use the PubMed or bioRxiv connector tools to
-check the paper's actual subject before deciding. Prefer caution on FP items:
-if a real connection to `gene_or_topic` is plausible, do NOT call it off-topic.
+`fp`/`fn` items. Each item carries a `kind` field (`"fp"` or `"fn"`) and keeps
+its original fields, including `id`, `gene_or_topic`, `title`, `abstract`, and
+for FN `reason`/`search_keywords`. Read it. Branch on each item's `kind` and
+reach an independent judgment. If the abstract is thin or the gene link is
+ambiguous, you MAY use the PubMed or bioRxiv connector tools to check the paper's
+actual subject before deciding. Prefer caution on `fp` items: if a real
+connection to `gene_or_topic` is plausible, do NOT call it off-topic.
 
 Verdicts:
-- FP item -> `off_topic` | `on_topic`
-- FN item -> `relevant` | `correctly_rejected`
+- `kind == "fp"` -> `off_topic` | `on_topic`
+- `kind == "fn"` -> `relevant` | `correctly_rejected`
 
 Write `verdicts/adj_<batchname>.json` as a JSON list of
 `{"id", "verdict", "confidence", "reason"}`, then return a one-line summary.
