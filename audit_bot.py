@@ -118,6 +118,82 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
     return out
 
 
+def chunk(items: list, size: int) -> list:
+    return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def _write_kind(bdir: str, prefix: str, candidates: list, batch_size: int) -> list:
+    names = []
+    for i, ch in enumerate(chunk(candidates, batch_size)):
+        name = f"{prefix}_{i:03d}"
+        with open(os.path.join(bdir, name + ".json"), "w", encoding="utf-8") as f:
+            json.dump({"kind": prefix, "items": ch}, f, indent=1)
+        names.append(name)
+    return names
+
+
+def write_batches(work_dir: str, fp_candidates: list, fn_candidates: list,
+                  batch_size: int = 20) -> dict:
+    """Write fp_*/fn_* batch files + manifest.json; return the manifest."""
+    bdir = os.path.join(work_dir, "batches")
+    os.makedirs(bdir, exist_ok=True)
+    manifest = {
+        "fp_batches": _write_kind(bdir, "fp", fp_candidates, batch_size),
+        "fn_batches": _write_kind(bdir, "fn", fn_candidates, batch_size),
+    }
+    with open(os.path.join(work_dir, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=1)
+    return manifest
+
+
+def load_batch_items(work_dir: str) -> tuple:
+    """Reconstruct (fp_candidates, fn_candidates) from the batch files."""
+    bdir = os.path.join(work_dir, "batches")
+    fp, fn = [], []
+    for fname in sorted(os.listdir(bdir)):
+        if not fname.endswith(".json"):
+            continue
+        with open(os.path.join(bdir, fname), encoding="utf-8") as f:
+            items = json.load(f).get("items", [])
+        if fname.startswith("fp_"):
+            fp.extend(items)
+        elif fname.startswith("fn_"):
+            fn.extend(items)
+    return fp, fn
+
+
+def load_verdicts(work_dir: str, prefix: str) -> dict:
+    """Merge verdicts/{prefix}*.json into {id: verdict}; tolerate bad files."""
+    vdir = os.path.join(work_dir, "verdicts")
+    out = {}
+    if not os.path.isdir(vdir):
+        return out
+    for fname in sorted(os.listdir(vdir)):
+        if not (fname.startswith(prefix) and fname.endswith(".json")):
+            continue
+        try:
+            with open(os.path.join(vdir, fname), encoding="utf-8") as f:
+                for row in json.load(f):
+                    if "id" in row and "verdict" in row:
+                        out[row["id"]] = row["verdict"]
+        except (json.JSONDecodeError, OSError, TypeError):
+            continue
+    return out
+
+
+def select_for_adjudication(fp_candidates: list, fn_candidates: list,
+                            screen_verdicts: dict) -> list:
+    """Candidates whose screen verdict requires a Sonnet second pass."""
+    needs = []
+    for c in fp_candidates:
+        if screen_verdicts.get(c["id"]) in ("off_topic", "uncertain"):
+            needs.append(c)
+    for c in fn_candidates:
+        if screen_verdicts.get(c["id"]) in ("relevant", "uncertain"):
+            needs.append(c)
+    return needs
+
+
 def build_rescue_entries(fn_to_rescue: list) -> list:
     """Map confirmed FN candidates to run.process_rescue_queue() entry dicts."""
     return [{

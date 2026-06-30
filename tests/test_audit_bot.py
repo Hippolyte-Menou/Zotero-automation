@@ -172,6 +172,41 @@ class TestBuildRescueEntries(unittest.TestCase):
         }])
 
 
+class TestBatchIO(unittest.TestCase):
+    def test_chunk(self):
+        self.assertEqual(audit_bot.chunk([1, 2, 3, 4, 5], 2), [[1, 2], [3, 4], [5]])
+
+    def test_write_then_load_batches_roundtrip(self):
+        fp = [{"id": "pmid:1", "key": "K1"}, {"id": "pmid:2", "key": "K2"}]
+        fn = [{"id": "pmid:5"}]
+        with tempfile.TemporaryDirectory() as d:
+            manifest = audit_bot.write_batches(d, fp, fn, batch_size=1)
+            self.assertEqual(manifest["fp_batches"], ["fp_000", "fp_001"])
+            self.assertEqual(manifest["fn_batches"], ["fn_000"])
+            lfp, lfn = audit_bot.load_batch_items(d)
+            self.assertEqual([c["id"] for c in lfp], ["pmid:1", "pmid:2"])
+            self.assertEqual([c["id"] for c in lfn], ["pmid:5"])
+
+    def test_load_verdicts_merges_files(self):
+        with tempfile.TemporaryDirectory() as d:
+            vdir = os.path.join(d, "verdicts")
+            os.makedirs(vdir)
+            with open(os.path.join(vdir, "screen_fp_000.json"), "w", encoding="utf-8") as f:
+                json.dump([{"id": "pmid:1", "verdict": "off_topic", "confidence": 0.9}], f)
+            with open(os.path.join(vdir, "screen_fn_000.json"), "w", encoding="utf-8") as f:
+                json.dump([{"id": "pmid:5", "verdict": "relevant"}], f)
+            v = audit_bot.load_verdicts(d, "screen_")
+            self.assertEqual(v, {"pmid:1": "off_topic", "pmid:5": "relevant"})
+
+    def test_select_for_adjudication(self):
+        fp = [{"id": "pmid:1"}, {"id": "pmid:2"}, {"id": "pmid:3"}]
+        fn = [{"id": "pmid:5"}, {"id": "pmid:6"}]
+        screen = {"pmid:1": "off_topic", "pmid:2": "on_topic", "pmid:3": "uncertain",
+                  "pmid:5": "relevant", "pmid:6": "correctly_rejected"}
+        out = audit_bot.select_for_adjudication(fp, fn, screen)
+        self.assertEqual([c["id"] for c in out], ["pmid:1", "pmid:3", "pmid:5"])
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}
