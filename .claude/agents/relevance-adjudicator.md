@@ -16,11 +16,14 @@ for FN `reason`/`search_keywords`. Read it. Branch on each item's `kind` and
 reach an independent judgment. If the abstract is thin or the gene link is
 ambiguous, you MAY use the PubMed or bioRxiv connector tools to check the paper's
 actual subject before deciding. Prefer caution on `fp` items: if a real
-connection to `gene_or_topic` is plausible, do NOT call it off-topic.
+connection to `gene_or_topic` is plausible, do NOT call it off-topic. The gene
+may appear under an alias or protein name rather than the symbol verbatim; weigh
+its known aliases before judging a paper unrelated.
 
 Verdicts:
 - `kind == "fp"` -> `off_topic` | `on_topic`
 - `kind == "fn"` -> `relevant` | `correctly_rejected`
 
-Write `verdicts/adj_<batchname>.json` as a JSON list of
+Write `verdicts/<batchname>.json` (the input file's stem, e.g.
+`batches/adj_000.json` -> `verdicts/adj_000.json`) as a JSON list of
 `{"id", "verdict", "confidence", "reason"}`, then return a one-line summary.

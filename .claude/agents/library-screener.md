@@ -23,6 +23,9 @@ and (for FN) `search_keywords`/`reason`.
 
 Judge each item ONLY against its own `gene_or_topic`, not general ophthalmology
 relevance. A paper can be solid science yet off-topic for the gene it is under.
+The gene/topic may appear under an alias, alternative symbol, or protein name
+rather than `gene_or_topic` verbatim — recall its known aliases before deciding a
+paper is unrelated.
 
 Write your answer to `verdicts/screen_<batchname>.json` (same basename as the
 input, e.g. input `batches/fp_003.json` -> `verdicts/screen_fp_003.json`) as a
