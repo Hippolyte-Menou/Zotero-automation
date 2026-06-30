@@ -42,6 +42,42 @@ class TestLedger(unittest.TestCase):
             self.assertEqual(audit_bot.load_ledger(p), set())
 
 
+class TestSelectFpCandidates(unittest.TestCase):
+    def _lib(self):
+        return [
+            {"pmid": "1", "doi": "", "zotero_key": "KA", "title": "old",
+             "abstract": "a", "subcollection": "ACO2", "category": "6 - Genes",
+             "date_added": "2026-01-01T00:00:00Z"},
+            {"pmid": "2", "doi": "", "zotero_key": "KB", "title": "new",
+             "abstract": "b", "subcollection": "FBN1", "category": "6 - Genes",
+             "date_added": "2026-06-01T00:00:00Z"},
+        ]
+
+    def test_excludes_audited(self):
+        out = audit_bot.select_fp_candidates(self._lib(), {"pmid:2"}, 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:1"])
+
+    def test_orders_newest_first(self):
+        out = audit_bot.select_fp_candidates(self._lib(), set(), 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:2", "pmid:1"])
+
+    def test_max_items_truncates_after_ordering(self):
+        out = audit_bot.select_fp_candidates(self._lib(), set(), 1)
+        self.assertEqual([c["id"] for c in out], ["pmid:2"])
+
+    def test_candidate_shape(self):
+        out = audit_bot.select_fp_candidates(self._lib(), set(), 1)
+        self.assertEqual(out[0], {
+            "id": "pmid:2", "key": "KB", "pmid": "2", "doi": "",
+            "title": "new", "abstract": "b",
+            "gene_or_topic": "FBN1", "category": "6 - Genes",
+        })
+
+    def test_skips_items_without_identifier(self):
+        lib = [{"pmid": "", "doi": "", "zotero_key": "", "title": "x"}]
+        self.assertEqual(audit_bot.select_fp_candidates(lib, set(), 10), [])
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}

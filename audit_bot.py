@@ -48,6 +48,30 @@ def save_ledger(path: str, audited_ids: set, *, now: str = None) -> None:
         json.dump(payload, f, indent=1)
 
 
+def select_fp_candidates(library_items: list, audited: set, max_items: int) -> list:
+    """Active library items not yet audited, newest-first, capped at max_items."""
+    pool = []
+    for it in library_items:
+        sid = stable_id(it)
+        if not sid or sid in audited:
+            continue
+        pool.append(it)
+    pool.sort(key=lambda it: it.get("date_added", ""), reverse=True)
+    out = []
+    for it in pool[:max_items]:
+        out.append({
+            "id": stable_id(it),
+            "key": it.get("zotero_key", ""),
+            "pmid": it.get("pmid", ""),
+            "doi": it.get("doi", ""),
+            "title": it.get("title", ""),
+            "abstract": it.get("abstract", ""),
+            "gene_or_topic": it.get("subcollection", ""),
+            "category": it.get("category", ""),
+        })
+    return out
+
+
 def stable_id(rec: dict) -> str:
     """Stable ledger key for a record: pmid, else lowercased doi, else zotero key."""
     pmid = (rec.get("pmid") or "").strip()
