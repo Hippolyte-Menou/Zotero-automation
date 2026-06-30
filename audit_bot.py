@@ -331,3 +331,115 @@ def collect_adjudication(work_dir: str, batch_size: int = 20) -> dict:
 def cmd_collect(args) -> None:
     manifest = collect_adjudication(args.work_dir, batch_size=args.batch_size)
     print(f"collected {len(manifest['adj_batches'])} adjudication batch(es)")
+
+
+def load_json_list(path: str) -> list:
+    data = _read_json(path, [])
+    return data if isinstance(data, list) else []
+
+
+def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *,
+                  zot, rescue_fn, ledger_path, log_path, apply, now=None) -> dict:
+    """Execute the gate's decisions, update the ledger, append the audit log.
+
+    `zot.trash_items(keys, apply=...)` and `rescue_fn(entries) -> (count, failed)`
+    are injected so this is testable without network. In dry-run (apply=False)
+    nothing is trashed/rescued, but judged ids are still ledgered so the sweep
+    advances on the next live run.
+    """
+    plan = compute_apply(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts)
+    ts = now or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    trash_result = zot.trash_items(plan["to_trash_keys"], apply=apply)
+
+    rescued = 0
+    if apply and plan["to_rescue"]:
+        rescued, _failed = rescue_fn(build_rescue_entries(plan["to_rescue"]))
+
+    # Audit log: one record per acted item.
+    fp_by_id = {c["id"]: c for c in fp_candidates}
+    log = load_json_list(log_path)
+    key_to_id = {c["key"]: c["id"] for c in fp_candidates if c.get("key")}
+    for key in plan["to_trash_keys"]:
+        cid = key_to_id.get(key, "")
+        log.append({"ts": ts, "direction": "fp", "action": "trash", "id": cid,
+                    "key": key, "gene_or_topic": fp_by_id.get(cid, {}).get("gene_or_topic", ""),
+                    "screener_verdict": screen_verdicts.get(cid),
+                    "adjudicator_verdict": adj_verdicts.get(cid),
+                    "applied": apply, "models": {"screener": "haiku", "adjudicator": "sonnet"}})
+    for c in plan["to_rescue"]:
+        log.append({"ts": ts, "direction": "fn", "action": "rescue", "id": c["id"],
+                    "pmid": c.get("pmid", ""), "gene_or_topic": c.get("gene_or_topic", ""),
+                    "screener_verdict": screen_verdicts.get(c["id"]),
+                    "adjudicator_verdict": adj_verdicts.get(c["id"]),
+                    "applied": apply, "models": {"screener": "haiku", "adjudicator": "sonnet"}})
+    os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=1)
+
+    # Ledger: every judged id (any outcome), so the sweep never re-screens it.
+    audited = load_ledger(ledger_path) | plan["judged_ids"]
+    save_ledger(ledger_path, audited, now=ts)
+
+    return {"trashed": trash_result["trashed"], "would_trash": len(plan["to_trash_keys"]),
+            "rescued": rescued, "kept": len(plan["judged_ids"]) - len(plan["to_trash_keys"]) - rescued,
+            "judged": len(plan["judged_ids"])}
+
+
+def cmd_apply(args) -> None:
+    import run
+    from genebot.zotero_client import ZoteroGroupClient
+    from bio_toolkit.clients.openalex import OpenAlexClient
+    from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
+
+    fp, fn = load_batch_items(args.work_dir)
+    screen = load_verdicts(args.work_dir, "screen_")
+    adj = load_verdicts(args.work_dir, "adj_")
+
+    zot = ZoteroGroupClient(str(ZOTERO_GROUP_ID), zotero_api_key())
+    openalex = OpenAlexClient()
+
+    # Build the dedup context process_rescue_queue needs (get_existing_items raises on failure).
+    pmid_to_key = zot.get_existing_items()
+    existing_pmids = set(pmid_to_key)
+    existing_dois = {d.lower() for d in zot.get_existing_dois()}
+    genes_parent_key = zot.get_or_create_collection(args.genes_parent)
+
+    def rescue_fn(entries):
+        return run.process_rescue_queue(
+            entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
+            genes_parent_key, additions_tracker=[])
+
+    summary = apply_actions(
+        fp, fn, screen, adj, zot=zot, rescue_fn=rescue_fn,
+        ledger_path=args.ledger, log_path=args.log, apply=(not args.dry_run))
+    print(f"apply: trashed={summary['trashed']} would_trash={summary['would_trash']} "
+          f"rescued={summary['rescued']} kept={summary['kept']} judged={summary['judged']}")
+
+
+def main() -> None:
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    p = argparse.ArgumentParser(description="Library audit bot")
+    p.add_argument("--data-dir", default="site/data")
+    p.add_argument("--work-dir", default="audit_work")
+    p.add_argument("--ledger", default="data/audit_state.json")
+    p.add_argument("--log", default="data/audit_log.json")
+    p.add_argument("--max-items", type=int, default=400)
+    p.add_argument("--batch-size", type=int, default=20)
+    p.add_argument("--genes-parent", default="6 - Genes")
+    p.add_argument("--dry-run", action="store_true")
+    mode = p.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--prepare", action="store_true")
+    mode.add_argument("--collect", action="store_true")
+    mode.add_argument("--apply", action="store_true")
+    args = p.parse_args()
+    if args.prepare:
+        cmd_prepare(args)
+    elif args.collect:
+        cmd_collect(args)
+    elif args.apply:
+        cmd_apply(args)
+
+
+if __name__ == "__main__":
+    main()

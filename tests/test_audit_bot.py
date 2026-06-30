@@ -207,6 +207,65 @@ class TestBatchIO(unittest.TestCase):
         self.assertEqual([c["id"] for c in out], ["pmid:1", "pmid:3", "pmid:5"])
 
 
+class FakeZotForApply:
+    def __init__(self):
+        self.trashed = []
+
+    def trash_items(self, keys, *, apply):
+        if apply:
+            self.trashed.extend(keys)
+        return {"would_trash": list(keys), "trashed": len(keys) if apply else 0,
+                "failed": 0}
+
+
+class TestApplyActions(unittest.TestCase):
+    def test_trashes_rescues_and_ledgers(self):
+        fp = [{"id": "pmid:1", "key": "K1"}, {"id": "pmid:2", "key": "K2"}]
+        fn = [{"id": "pmid:5", "pmid": "5", "gene_or_topic": "CRB1",
+               "category": "6 - Genes", "title": "T", "doi": ""}]
+        screen = {"pmid:1": "off_topic", "pmid:2": "on_topic", "pmid:5": "relevant"}
+        adj = {"pmid:1": "off_topic", "pmid:5": "relevant"}
+        fake = FakeZotForApply()
+        rescued = []
+
+        def fake_rescue(entries):
+            rescued.extend(entries)
+            return (len(entries), [])
+
+        with tempfile.TemporaryDirectory() as d:
+            ledger_path = os.path.join(d, "audit_state.json")
+            log_path = os.path.join(d, "audit_log.json")
+            summary = audit_bot.apply_actions(
+                fp, fn, screen, adj, zot=fake, rescue_fn=fake_rescue,
+                ledger_path=ledger_path, log_path=log_path,
+                apply=True, now="2026-06-30T00:00:00Z")
+
+            self.assertEqual(fake.trashed, ["K1"])
+            self.assertEqual([e["pmid"] for e in rescued], ["5"])
+            self.assertEqual(summary["trashed"], 1)
+            self.assertEqual(summary["rescued"], 1)
+            self.assertEqual(audit_bot.load_ledger(ledger_path),
+                             {"pmid:1", "pmid:2", "pmid:5"})
+            log = audit_bot.load_json_list(log_path)
+            self.assertEqual(len(log), 2)  # one trash + one rescue record
+
+    def test_dry_run_acts_on_nothing_but_reports(self):
+        fp = [{"id": "pmid:1", "key": "K1"}]
+        screen = {"pmid:1": "off_topic"}
+        adj = {"pmid:1": "off_topic"}
+        fake = FakeZotForApply()
+        with tempfile.TemporaryDirectory() as d:
+            summary = audit_bot.apply_actions(
+                fp, [], screen, adj, zot=fake, rescue_fn=lambda e: (0, []),
+                ledger_path=os.path.join(d, "s.json"),
+                log_path=os.path.join(d, "l.json"),
+                apply=False, now="2026-06-30T00:00:00Z")
+            self.assertEqual(fake.trashed, [])
+            self.assertEqual(summary["would_trash"], 1)
+            # dry-run still records the ledger so the sweep advances
+            self.assertEqual(audit_bot.load_ledger(os.path.join(d, "s.json")), {"pmid:1"})
+
+
 class TestCmdCollect(unittest.TestCase):
     def test_builds_adjudication_batches_from_screen_verdicts(self):
         fp = [{"id": "pmid:1", "key": "K1"}, {"id": "pmid:2", "key": "K2"}]
