@@ -72,6 +72,52 @@ def select_fp_candidates(library_items: list, audited: set, max_items: int) -> l
     return out
 
 
+def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
+                         existing_dois: set, trashed_pmids: set, trashed_dois: set,
+                         max_items: int) -> list:
+    """Genuine near-misses (score/mention reasons) eligible for rescue.
+
+    Excludes text/MeSH exclusions (rejected for cause), items already in the
+    library, deliberately-trashed items, and already-audited items. Ordered by
+    closeness to threshold (effective_score / threshold) descending.
+    """
+    def ratio(nm):
+        thr = nm.get("threshold") or 0
+        return (nm.get("effective_score") or 0) / thr if thr else 0.0
+
+    pool = []
+    for nm in near_misses:
+        if nm.get("reason") not in REASON_RESCUE_ELIGIBLE:
+            continue
+        pmid = (nm.get("pmid") or "").strip()
+        doi = (nm.get("doi") or "").strip().lower()
+        if pmid and (pmid in existing_pmids or pmid in trashed_pmids):
+            continue
+        if doi and (doi in existing_dois or doi in trashed_dois):
+            continue
+        sid = stable_id(nm)
+        if not sid or sid in audited:
+            continue
+        pool.append(nm)
+    pool.sort(key=ratio, reverse=True)
+    out = []
+    for nm in pool[:max_items]:
+        out.append({
+            "id": stable_id(nm),
+            "pmid": nm.get("pmid", ""),
+            "doi": nm.get("doi", ""),
+            "title": nm.get("title", ""),
+            "abstract": nm.get("abstract", ""),
+            "gene_or_topic": nm.get("subcollection", ""),
+            "category": nm.get("category", ""),
+            "reason": nm.get("reason", ""),
+            "effective_score": nm.get("effective_score"),
+            "threshold": nm.get("threshold"),
+            "search_keywords": nm.get("search_keywords", []),
+        })
+    return out
+
+
 def stable_id(rec: dict) -> str:
     """Stable ledger key for a record: pmid, else lowercased doi, else zotero key."""
     pmid = (rec.get("pmid") or "").strip()

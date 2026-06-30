@@ -78,6 +78,53 @@ class TestSelectFpCandidates(unittest.TestCase):
         self.assertEqual(audit_bot.select_fp_candidates(lib, set(), 10), [])
 
 
+class TestSelectFnCandidates(unittest.TestCase):
+    def _nm(self):
+        return [
+            {"pmid": "10", "doi": "", "title": "close", "abstract": "x",
+             "subcollection": "CRB1", "category": "6 - Genes",
+             "reason": "score_below_threshold", "effective_score": 3,
+             "threshold": 4, "search_keywords": ["CRB1"]},
+            {"pmid": "11", "doi": "", "title": "far", "abstract": "y",
+             "subcollection": "RHO", "category": "6 - Genes",
+             "reason": "mention_filter", "effective_score": 1,
+             "threshold": 4, "search_keywords": ["RHO"]},
+            {"pmid": "12", "doi": "", "title": "cancer", "abstract": "z",
+             "subcollection": "RHO", "category": "6 - Genes",
+             "reason": "text_exclusion", "effective_score": 5,
+             "threshold": 4, "search_keywords": ["RHO"]},
+        ]
+
+    def test_excludes_text_and_mesh_exclusions(self):
+        out = audit_bot.select_fn_candidates(self._nm(), set(), set(), set(), set(), set(), 10)
+        self.assertNotIn("pmid:12", [c["id"] for c in out])
+
+    def test_orders_closest_to_threshold_first(self):
+        out = audit_bot.select_fn_candidates(self._nm(), set(), set(), set(), set(), set(), 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:10", "pmid:11"])
+
+    def test_excludes_already_in_library(self):
+        out = audit_bot.select_fn_candidates(self._nm(), set(), {"10"}, set(), set(), set(), 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:11"])
+
+    def test_excludes_trashed(self):
+        out = audit_bot.select_fn_candidates(self._nm(), set(), set(), set(), {"10"}, set(), 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:11"])
+
+    def test_excludes_audited(self):
+        out = audit_bot.select_fn_candidates(self._nm(), {"pmid:10"}, set(), set(), set(), set(), 10)
+        self.assertEqual([c["id"] for c in out], ["pmid:11"])
+
+    def test_candidate_shape_carries_context(self):
+        out = audit_bot.select_fn_candidates(self._nm()[:1], set(), set(), set(), set(), set(), 1)
+        self.assertEqual(out[0], {
+            "id": "pmid:10", "pmid": "10", "doi": "", "title": "close",
+            "abstract": "x", "gene_or_topic": "CRB1", "category": "6 - Genes",
+            "reason": "score_below_threshold", "effective_score": 3,
+            "threshold": 4, "search_keywords": ["CRB1"],
+        })
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}
