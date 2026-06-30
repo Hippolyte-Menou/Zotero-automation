@@ -118,6 +118,17 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
     return out
 
 
+def build_rescue_entries(fn_to_rescue: list) -> list:
+    """Map confirmed FN candidates to run.process_rescue_queue() entry dicts."""
+    return [{
+        "pmid": c.get("pmid", ""),
+        "doi": c.get("doi", ""),
+        "subcollection": c.get("gene_or_topic", ""),
+        "category": c.get("category", ""),
+        "title": c.get("title", ""),
+    } for c in fn_to_rescue]
+
+
 def compute_apply(fp_candidates: list, fn_candidates: list,
                   screen_verdicts: dict, adj_verdicts: dict) -> dict:
     """Apply the asymmetric two-tier gate.

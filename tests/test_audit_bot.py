@@ -161,6 +161,17 @@ class TestComputeApply(unittest.TestCase):
         self.assertEqual(out["judged_ids"], set())
 
 
+class TestBuildRescueEntries(unittest.TestCase):
+    def test_maps_to_rescue_queue_shape(self):
+        fn = [{"id": "pmid:5", "pmid": "5", "doi": "10.1/x", "title": "T",
+               "gene_or_topic": "CRB1, RHO", "category": "6 - Genes",
+               "abstract": "a", "reason": "mention_filter"}]
+        self.assertEqual(audit_bot.build_rescue_entries(fn), [{
+            "pmid": "5", "doi": "10.1/x", "subcollection": "CRB1, RHO",
+            "category": "6 - Genes", "title": "T",
+        }])
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}
