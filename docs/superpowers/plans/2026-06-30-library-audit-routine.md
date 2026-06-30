@@ -1468,11 +1468,14 @@ NOT judge relevance yourself — delegate every judgment to subagents.
 4. Run `python audit_bot.py --collect`. For each batch in
    `audit_work/adj_manifest.json`, dispatch a **relevance-adjudicator** subagent
    with its batch path. Run them in parallel.
-5. Run `python audit_bot.py --apply`. (For the FIRST run only, use
-   `python audit_bot.py --apply --dry-run` and stop after step 6 to inspect.)
-6. Persist state back to gh-pages (mirror how `gene_pipeline.yml` deploys
-   `data/` files): commit `data/audit_state.json` and `data/audit_log.json` to
-   the `gh-pages` branch and push.
+5. Run `python audit_bot.py --apply`. (For the FIRST run only, run
+   `python audit_bot.py --apply --dry-run` instead and STOP — skip step 6. A
+   dry-run trashes/rescues nothing and leaves the ledger untouched; inspect the
+   intended actions in `data/audit_log.json` (records marked `"applied": false`),
+   then re-run live once satisfied.)
+6. (Live runs only.) Persist state back to gh-pages (mirror how
+   `gene_pipeline.yml` deploys `data/` files): commit `data/audit_state.json` and
+   `data/audit_log.json` to the `gh-pages` branch and push.
 7. Print a summary: counts trashed / rescued / kept, with one example line each.
 
 If any `audit_bot.py` step exits non-zero, STOP and report — do not act on
