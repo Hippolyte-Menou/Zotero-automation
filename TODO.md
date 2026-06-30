@@ -34,7 +34,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [x] **Category aliases in topics.yml** -- Move hardcoded `--topics anatomy` aliases from run.py into topics.yml as an `alias` field. Self-documenting and user-extensible.
 
-- [x] **Mention filter: log dropped candidates as near-misses** -- Citation candidates removed by the mention filter are currently invisible. Log them with reason `mention_filter` so the dashboard surfaces them. *(Already implemented in openalex.py expand_citations.)*
+- [x] **Mention filter: log dropped candidates as near-misses** -- Citation candidates removed by the mention filter are currently invisible. Log them with reason `mention_filter` so the dashboard surfaces them. *(Already implemented in bio_toolkit OpenAlexClient.expand_citations.)*
 
 ## Low priority
 
@@ -44,7 +44,7 @@ Items marked [DESIGN] need a dedicated brainstorming/planning session before imp
 
 - [ ] **PubMed as supplementary source for topics** -- Add Entrez API search as secondary source for topic pipeline. Cross-dedup with OpenAlex results.
 
-- [ ] **Auto-regenerate genes.yml in CI** -- GitHub Action pre-step (or vault push trigger) runs `build_genes_yml.py` so the bot always uses the latest gene list without manual rebuild.
+- [ ] **Auto-regenerate genes.yml in CI** -- GitHub Action pre-step (or vault push trigger) runs the vault-side `build_genes_yml.py` (in `Ophtalmogenetics/_assets/code/gene-generation/`) so the bot always uses the latest gene list without manual rebuild. Note: this needs vault access from CI, which the bot's workflows don't currently have.
 
 - [x] **MeSH terms as Zotero tags** -- Write top MeSH descriptors from OpenAlex as Zotero tags on uploaded papers. Enriches library browsing.
 

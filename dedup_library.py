@@ -18,7 +18,6 @@ import argparse
 import copy
 import json
 import logging
-import os
 import re
 import sys
 import time
@@ -210,10 +209,15 @@ def _merge_metadata(canonical: dict, duplicates: list[dict]) -> list[str]:
                 data["url"] = dup_url
                 changes.append(f"URL backfilled from {dup_key}")
 
-        # -- Abstract (keep longest) --------------------------------
-        if len(dd.get("abstractNote", "")) > len(data.get("abstractNote", "")):
-            data["abstractNote"] = dd["abstractNote"]
-            changes.append(f"Abstract replaced (longer version from {dup_key})")
+        # -- Abstract: fill if missing, or upgrade only a stub -------
+        # Never overwrite a substantial existing abstract -- a longer string
+        # from a duplicate can be boilerplate/junk ("no abstract available...")
+        # and the duplicate is about to be deleted, so the swap is irreversible.
+        canon_abs = data.get("abstractNote", "") or ""
+        dup_abs = dd.get("abstractNote", "") or ""
+        if len(dup_abs) > len(canon_abs) and len(canon_abs) < 200:
+            data["abstractNote"] = dup_abs
+            changes.append(f"Abstract filled/upgraded from {dup_key}")
 
         # -- Simple field backfill ----------------------------------
         for field in _BACKFILL_FIELDS:
@@ -251,17 +255,23 @@ def _merge_metadata(canonical: dict, duplicates: list[dict]) -> list[str]:
         if added_colls:
             changes.append(f"Collections added from {dup_key}: {', '.join(added_colls)}")
 
-        # -- Relations union ----------------------------------------
-        existing_rels = data.get("relations", {}).get("dc:relation", [])
-        if isinstance(existing_rels, str):
-            existing_rels = [existing_rels]
-        dup_rels = dd.get("relations", {}).get("dc:relation", [])
-        if isinstance(dup_rels, str):
-            dup_rels = [dup_rels]
-        merged = list(set(existing_rels) | set(dup_rels))
-        if len(merged) > len(existing_rels):
-            data.setdefault("relations", {})["dc:relation"] = merged
-            changes.append(f"Relations merged from {dup_key} (+{len(merged) - len(existing_rels)})")
+        # -- Relations union (all predicates, not just dc:relation) --
+        # The duplicate is about to be trashed, so carry over every relation
+        # predicate (owl:sameAs, dc:replaces, ...), not only dc:relation.
+        dup_rels_all = dd.get("relations", {}) or {}
+        added_rel = 0
+        for pred, dvals in dup_rels_all.items():
+            if isinstance(dvals, str):
+                dvals = [dvals]
+            existing = data.get("relations", {}).get(pred, [])
+            if isinstance(existing, str):
+                existing = [existing]
+            union = list(set(existing) | set(dvals))
+            if len(union) > len(existing):
+                data.setdefault("relations", {})[pred] = union
+                added_rel += len(union) - len(existing)
+        if added_rel:
+            changes.append(f"Relations merged from {dup_key} (+{added_rel})")
 
     # Ensure PubMed URL if we have PMID but no URL
     if canon_pmid and not data.get("url", "").strip():
@@ -341,6 +351,9 @@ def _retry_api(fn, label: str, retries: int = 3):
                 time.sleep(wait)
             else:
                 raise
+    # Unreachable (the loop always returns or raises), but keep the contract
+    # explicit so a future edit to the loop cannot silently return None.
+    raise RuntimeError(f"{label}: exhausted {retries} retries")
 
 
 # ---------------------------------------------------------------
@@ -481,6 +494,15 @@ def run_dedup(
 
         if apply:
             try:
+                # Re-fetch the canonical at its CURRENT version. The bulk fetch
+                # at the top of run_dedup can be stale (the daily pipeline or a
+                # desktop sync may have touched the library), and a stale
+                # version makes update/delete fail with HTTP 412.
+                canonical = _retry_api(
+                    lambda: client.zot.item(canon_key),
+                    f"Cluster {idx}: refetch canonical {canon_key}",
+                )
+
                 # -- Merge metadata into canonical ----------------------
                 changes = _merge_metadata(canonical, duplicates)
                 cluster_report["changes"] = changes
@@ -497,21 +519,39 @@ def run_dedup(
                     )
                     time.sleep(client.delay)
 
-                # -- Reparent child items (PDFs, notes) -----------------
+                # -- Reparent children, then delete each duplicate ------
+                # Trashing a parent in Zotero also trashes its child
+                # attachments/notes. So a duplicate is deleted ONLY after its
+                # children are confirmed fetched AND all reparented onto the
+                # canonical. A children-fetch failure or any reparent failure
+                # blocks the delete (the duplicate is left for manual review),
+                # so attachments are never silently lost.
                 for dup in duplicates:
                     dup_key = dup["data"]["key"]
                     try:
                         children = client.zot.children(dup_key)
                     except Exception as e:
-                        logger.warning(f"  Could not fetch children of {dup_key}: {e}")
-                        children = []
+                        logger.error(
+                            f"  Could not fetch children of {dup_key}: {e}. "
+                            f"NOT deleting this duplicate (its attachments would "
+                            f"be trashed with it)."
+                        )
+                        stats["errors"] += 1
+                        continue
 
+                    reparent_ok = True
                     for child in children:
                         child_key = child["data"].get("key", "?")
-                        child["data"]["parentItem"] = canon_key
                         try:
+                            # Re-fetch the child for its current version before
+                            # repointing it at the canonical.
+                            fresh_child = _retry_api(
+                                lambda ck=child_key: client.zot.item(ck),
+                                f"Refetch child {child_key}",
+                            )
+                            fresh_child["data"]["parentItem"] = canon_key
                             _retry_api(
-                                lambda c=child: client.zot.update_item(c),
+                                lambda c=fresh_child: client.zot.update_item(c),
                                 f"Reparent {child_key} -> {canon_key}",
                             )
                             stats["reparented"] += 1
@@ -519,14 +559,26 @@ def run_dedup(
                         except Exception as e:
                             logger.error(f"  Failed to reparent {child_key}: {e}")
                             stats["errors"] += 1
+                            reparent_ok = False
                         time.sleep(client.delay)
 
-                # -- Delete duplicates (goes to Zotero trash) -----------
-                for dup in duplicates:
-                    dup_key = dup["data"]["key"]
+                    if not reparent_ok:
+                        logger.warning(
+                            f"  NOT deleting {dup_key}: one or more children "
+                            f"could not be reparented (they would be trashed "
+                            f"with the parent)."
+                        )
+                        stats["errors"] += 1
+                        continue
+
+                    # -- Delete the duplicate (goes to Zotero trash) ----
                     try:
+                        fresh_dup = _retry_api(
+                            lambda dk=dup_key: client.zot.item(dk),
+                            f"Refetch duplicate {dup_key}",
+                        )
                         _retry_api(
-                            lambda d=dup: client.zot.delete_item(d),
+                            lambda d=fresh_dup: client.zot.delete_item(d),
                             f"Delete {dup_key}",
                         )
                         stats["trashed"] += 1
@@ -618,16 +670,21 @@ def main():
         format="%(asctime)s %(levelname)s %(message)s",
     )
 
-    group_id = "6432168"
-    key_file = os.path.join(os.path.dirname(__file__), ".zotero-api-key")
+    # Credentials come from the shared toolkit: the group id lives in
+    # bio_toolkit.config and the key from ZOTERO_API_KEY (or the toolkit's
+    # gitignored secret). This matches run.py / pdf_helpers and replaces the
+    # old per-script ./.zotero-api-key file + hardcoded group id.
     try:
-        with open(key_file) as f:
-            api_key = f.read().strip()
-    except FileNotFoundError:
-        print(f"Error: {key_file} not found", file=sys.stderr)
+        from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
+        group_id = str(ZOTERO_GROUP_ID)
+        api_key = zotero_api_key()
+    except Exception as e:
+        print(f"Error resolving Zotero credentials from bio_toolkit.config: {e}",
+              file=sys.stderr)
         sys.exit(1)
     if not api_key:
-        print(f"Error: {key_file} is empty", file=sys.stderr)
+        print("Error: no Zotero API key (set ZOTERO_API_KEY or the toolkit secret)",
+              file=sys.stderr)
         sys.exit(1)
 
     client = ZoteroGroupClient(group_id, api_key)

@@ -37,65 +37,6 @@ class RejectionLog:
         self._category = category
         self._search_keywords = list(search_keywords) if search_keywords else []
 
-    def add_from_work(
-        self,
-        work: dict,
-        reason: str,
-        matched_term: str | None = None,
-        scores: dict | None = None,
-    ) -> None:
-        """Record a rejection from a raw OpenAlex work dict."""
-        from bio_toolkit.clients.openalex import OpenAlexClient, _invert_abstract
-
-        pmid = OpenAlexClient.extract_pmid(work) or ""
-        ids = work.get("ids", {})
-        raw_doi = ids.get("doi", "")
-        doi = raw_doi.replace("https://doi.org/", "") if raw_doi else ""
-
-        authors = []
-        for authorship in work.get("authorships", []):
-            author = authorship.get("author", {})
-            display = author.get("display_name", "") or ""
-            raw = authorship.get("raw_author_name", "") or ""
-            if "," in raw:
-                last, _, first = raw.partition(",")
-                authors.append([first.strip(), last.strip()])
-            elif display:
-                parts = display.rsplit(" ", 1)
-                if len(parts) == 2:
-                    authors.append([parts[0], parts[1]])
-                else:
-                    authors.append(["", display])
-
-        loc = work.get("primary_location") or {}
-        source = loc.get("source") or {}
-
-        entry = {
-            "pmid": pmid,
-            "doi": doi,
-            "title": work.get("title", "") or "",
-            "authors": authors,
-            "journal": source.get("display_name", ""),
-            "year": str(work.get("publication_year", "")),
-            "abstract": _invert_abstract(work.get("abstract_inverted_index")),
-            "cited_by_count": work.get("cited_by_count", 0),
-            "reason": reason,
-            "subcollection": self._subcollection,
-            "category": self._category,
-            "matched_term": matched_term,
-            "search_keywords": list(self._search_keywords),
-        }
-        if scores:
-            entry.update({
-                "co_citations": scores.get("co_citations"),
-                "bib_coupling": scores.get("bib_coupling"),
-                "recency_bonus": scores.get("recency_bonus"),
-                "effective_score": scores.get("effective_score"),
-                "threshold": scores.get("threshold"),
-                "direction": scores.get("direction"),
-            })
-        self.entries.append(entry)
-
     def add_from_record(
         self,
         record: dict,
@@ -156,12 +97,6 @@ class RejectionLog:
             "by_reason": by_reason,
             "by_category": by_category,
         }
-
-    def build_hierarchy(self) -> dict[str, list[str]]:
-        return self._build_hierarchy(self.entries)
-
-    def build_stats(self) -> dict:
-        return self._build_stats(self.entries)
 
     def _dedup_key(self, entry: dict) -> str | None:
         """Return a dedup key for an entry: PMID first, DOI fallback, or None."""

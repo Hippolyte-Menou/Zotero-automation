@@ -1,3 +1,5 @@
-pyzotero>=1.5
-requests>=2.31
-pyyaml>=6.0
+# Pinned for reproducible CI (a poisoned new release of any of these would
+# otherwise run in a job that holds the Zotero write key). Bump deliberately.
+pyzotero==1.10.0
+requests==2.34.2
+pyyaml==6.0.3

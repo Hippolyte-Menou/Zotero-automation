@@ -254,7 +254,13 @@ def resolve_library_to_openalex(
                 "cited_by_count": cited_by,
                 "fetched_at": datetime.date.today().isoformat(),
             }
-            lookup_key = pmid if pmid else f"doi:{norm_doi}"
+            # Key DOI-only library items by DOI (not the OpenAlex PMID) so
+            # build_flagged_articles can map the centrality result back to the
+            # Zotero item, which has no PMID of its own. The work's PMID is
+            # still cached above for reuse; keying by PMID here would (a) drop
+            # the item from the flagged output and (b) risk colliding with a
+            # separate PMID-keyed item that shares the PMID.
+            lookup_key = f"doi:{norm_doi}"
             work_map[lookup_key] = {
                 "oa_id": oa_id,
                 "refs": refs,

@@ -204,7 +204,7 @@ Three separate workflows spread across the week:
 | Saturday | Topic Pipeline | `topic_pipeline.yml` - 06:00 UTC |
 | Sunday | Inverse Bot | `inverse_bot.yml` - 02:00 UTC |
 
-- **Gene pipeline** (Mon-Fri): each day, 1/5 of all genes get full citation expansion (least recently expanded), while the remaining 4/5 skip citation expansion entirely (re-search check + recent papers only). All 189 genes are fully expanded once per week. Manual trigger: Actions tab > Gene Pipeline > Run workflow (`genes`: space-separated symbols, `force_full_expansion`: override rotation)
+- **Gene pipeline** (Mon-Fri): each day, 1/5 of all genes get full citation expansion (least recently expanded), while the remaining 4/5 skip citation expansion entirely (re-search check + recent papers only). All 189 genes are fully expanded once per week. Manual trigger: Actions tab > Gene Pipeline > Run workflow (`genes`: space-separated symbols). A targeted run on specific symbols always forces full citation expansion for those genes.
 - **Topic pipeline** (Sat): all 5 topic categories in a single run. Manual trigger: Actions tab > Topic Pipeline > Run workflow (`categories`: e.g., `1 - Anatomy`)
 - **Orphan detection** (Sun): flags isolated library papers. Manual trigger: Actions tab > Inverse Bot
 

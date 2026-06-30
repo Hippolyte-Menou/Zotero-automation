@@ -136,17 +136,6 @@ class ZoteroGroupClient:
         else:
             raise RuntimeError(f"Failed to create collection '{name}': {resp}")
 
-    def ensure_collection_path(self, *names: str) -> str:
-        """
-        Ensure a chain of nested collections exists and return the leaf key.
-        Example: ensure_collection_path("6 - Genes", "CRB1")
-          -> creates "6 - Genes" if needed, then "CRB1" under it.
-        """
-        parent_key: str | None = None
-        for name in names:
-            parent_key = self.get_or_create_collection(name, parent_key=parent_key)
-        return parent_key  # type: ignore[return-value]
-
     # ------------------------------------------------------------------
     # Items
     # ------------------------------------------------------------------
@@ -210,7 +199,7 @@ class ZoteroGroupClient:
         if not raw:
             extra = data.get("extra", "")
             if extra:
-                m = re.search(r"(?:doi|DOI)\s*:?\s*(10\.\S+)", extra)
+                m = re.search(r"doi\s*:?\s*(10\.\S+)", extra, re.IGNORECASE)
                 if m:
                     raw = m.group(1)
         if raw:
@@ -234,7 +223,12 @@ class ZoteroGroupClient:
             self.zot.items, "library items", itemType="-attachment"
         )
         if items is None:
-            return pmid_to_key
+            raise RuntimeError(
+                "Failed to fetch existing library items for deduplication "
+                "after retries. Refusing to continue with an empty dedup "
+                "baseline, which would re-upload the entire library as "
+                "duplicates."
+            )
 
         for item in items:
             data = item.get("data", {})
@@ -257,10 +251,6 @@ class ZoteroGroupClient:
     def get_existing_dois(self) -> dict[str, str]:
         """Return {doi: zotero_item_key} collected by the last get_existing_items() call."""
         return getattr(self, "_doi_to_key", {})
-
-    def get_existing_pmids(self) -> set[str]:
-        """Return the set of PMIDs already in the library. Wraps get_existing_items()."""
-        return set(self.get_existing_items().keys())
 
     def get_trashed_pmids(self) -> set[str]:
         """Return PMIDs of all items currently in the group library trash.
@@ -321,8 +311,6 @@ class ZoteroGroupClient:
         Items without both pmid and doi are skipped (cannot be matched on
         OpenAlex for centrality computation).
         """
-        import re as _re
-
         logger.info("Fetching full library metadata for inverse bot analysis...")
 
         # Build collection key -> name map and parent map
@@ -374,7 +362,7 @@ class ZoteroGroupClient:
             year = ""
             date_str = data.get("date", "")
             if date_str:
-                m = _re.search(r"\d{4}", date_str)
+                m = re.search(r"\d{4}", date_str)
                 if m:
                     year = m.group(0)
 
@@ -456,11 +444,18 @@ class ZoteroGroupClient:
           - any extra_tags passed in (disease groups etc.)
           - source_tag for provenance tracking
         """
-        stats: dict = {"added": 0, "failed": 0, "skipped_no_data": 0, "pmid_to_key": {}}
+        stats: dict = {
+            "added": 0,
+            "failed": 0,
+            "skipped_no_data": 0,
+            "pmid_to_key": {},
+            "added_indices": set(),
+        }
 
         items_to_create = []
         ordered_pmids: list[str] = []  # parallel to items_to_create for key mapping
-        for r in records:
+        ordered_orig_idx: list[int] = []  # original index in `records` per item
+        for orig_i, r in enumerate(records):
             if not r.get("title"):
                 stats["skipped_no_data"] += 1
                 continue
@@ -536,6 +531,7 @@ class ZoteroGroupClient:
 
             items_to_create.append(item)
             ordered_pmids.append(r.get("pmid") or "")
+            ordered_orig_idx.append(orig_i)
 
         # Push in batches of 50 (Zotero API limit)
         batch_size = 50
@@ -551,34 +547,53 @@ class ZoteroGroupClient:
                     stats["added"] += n_success
                     stats["failed"] += n_failed
 
-                    # Capture {pmid: zotero_key} for successfully created items
+                    # Capture successfully created items: {pmid: key} plus the
+                    # set of original-record indices that actually uploaded
+                    # (covers DOI-only records that have no pmid).
                     for idx_str, item_data in resp.get("successful", {}).items():
                         zot_key = item_data.get("data", {}).get("key", "")
-                        pmid = ordered_pmids[i + int(idx_str)]
+                        batch_pos = i + int(idx_str)
+                        pmid = ordered_pmids[batch_pos]
                         if zot_key and pmid:
                             stats["pmid_to_key"][pmid] = zot_key
+                        stats["added_indices"].add(ordered_orig_idx[batch_pos])
 
                     if n_failed > 0:
                         for idx, err in resp["failed"].items():
                             logger.warning(f"  Failed item {idx}: {err}")
                     break
 
-                except (httpx.TimeoutException, httpx.ReadTimeout) as e:
-                    if attempt == 0:
-                        wait = 5
+                except httpx.ConnectTimeout as e:
+                    # Connection never established -> the request did not reach
+                    # the server, so re-sending cannot create duplicates.
+                    if attempt < 2:
+                        wait = 5 * (attempt + 1)
                         logger.warning(
-                            f"Batch upload timeout (attempt 1/3): {e}. "
+                            f"Batch upload connect timeout (attempt {attempt + 1}/3): {e}. "
                             f"Retrying in {wait}s..."
                         )
                         time.sleep(wait)
                     else:
-                        logger.warning(
-                            f"Batch upload timeout on retry (attempt {attempt + 1}/3): {e}. "
-                            f"Skipping further retries to avoid duplicates. "
-                            f"{len(batch)} items may need manual verification."
+                        logger.error(
+                            f"Batch upload failed after connect-timeout retries: "
+                            f"{len(batch)} item(s) not uploaded this run."
                         )
                         stats["failed"] += len(batch)
                         break
+
+                except (httpx.ReadTimeout, httpx.TimeoutException) as e:
+                    # Timed out after the request was sent: Zotero may have
+                    # created the items server-side, so retrying risks
+                    # duplicates. Do not retry -- defer to the next run, whose
+                    # dedup baseline picks up any that landed; verify_upload
+                    # reports the gap.
+                    logger.warning(
+                        f"Batch upload timed out after sending (attempt {attempt + 1}): {e}. "
+                        f"Not retrying to avoid duplicates; {len(batch)} item(s) "
+                        f"deferred to the next run."
+                    )
+                    stats["failed"] += len(batch)
+                    break
 
                 except Exception as e:
                     stats["failed"] += len(batch)
@@ -630,34 +645,42 @@ class ZoteroGroupClient:
     # Relations
     # ------------------------------------------------------------------
 
-    def add_relations(self, item_key: str, related_keys: list[str]) -> None:
-        """Add dc:relation links between item_key and each key in related_keys.
+    def add_relations_batch(self, edges: dict[str, set[str]]) -> None:
+        """Add bidirectional dc:relation links for many items at once.
 
-        Relations are set bidirectionally: item_key -> related_keys and each
-        related_key -> item_key. Existing relations are preserved (set merge).
-        Skips patching if nothing new to add.
+        ``edges`` maps an item key to the set of related item keys. Links are
+        made symmetric, then each affected item is fetched and patched at most
+        once (existing relations preserved), throttled by ``self.delay``. This
+        replaces the old per-edge add_relations, which re-fetched the same
+        items repeatedly and applied no rate limiting.
         """
         base_uri = f"http://zotero.org/groups/{self.zot.library_id}/items"
 
-        def _patch(key: str, add_uris: list[str]) -> None:
+        # Symmetric adjacency: if A links B, B also links A.
+        adj: dict[str, set[str]] = {}
+        for key, related in edges.items():
+            adj.setdefault(key, set()).update(related)
+            for rk in related:
+                adj.setdefault(rk, set()).add(key)
+
+        for key, related in adj.items():
+            add_uris = {f"{base_uri}/{k}" for k in related if k != key}
+            if not add_uris:
+                continue
             try:
                 item = self.zot.item(key)
             except Exception as e:
-                logger.warning(f"add_relations: could not fetch item {key}: {e}")
-                return
+                logger.warning(f"add_relations_batch: could not fetch item {key}: {e}")
+                continue
             existing = item["data"].get("relations", {}).get("dc:relation", [])
             if isinstance(existing, str):
                 existing = [existing]
-            merged = list(set(existing) | set(add_uris))
-            if set(merged) == set(existing):
-                return  # nothing new
-            item["data"].setdefault("relations", {})["dc:relation"] = merged
+            merged = set(existing) | add_uris
+            if merged == set(existing):
+                continue  # nothing new
+            item["data"].setdefault("relations", {})["dc:relation"] = sorted(merged)
             try:
                 self.zot.update_item(item)
             except Exception as e:
-                logger.warning(f"add_relations: could not patch item {key}: {e}")
-
-        source_uri = f"{base_uri}/{item_key}"
-        _patch(item_key, [f"{base_uri}/{k}" for k in related_keys])
-        for rk in related_keys:
-            _patch(rk, [source_uri])
+                logger.warning(f"add_relations_batch: could not patch item {key}: {e}")
+            time.sleep(self.delay)

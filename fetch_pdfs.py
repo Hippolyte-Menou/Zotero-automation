@@ -48,6 +48,7 @@ from pdf_helpers import (
     link_pdf_to_item,
 )
 from pdf_strategies import PdfStrategy, BROWSER_STRATEGIES
+from pdf_strategies.browser_session import BrowserSession
 from pdf_strategies.unpaywall import UnpaywallStrategy
 from pdf_strategies.pmc import PmcStrategy
 
@@ -81,56 +82,62 @@ def fetch_pdfs(
 
     try:
         for i, item in enumerate(items, 1):
-            key = item["data"]["key"]
-            title = format_title(item)
-            doi = extract_doi(item)
-            pmcid = extract_pmcid(item)
+            try:
+                key = item["data"]["key"]
+                title = format_title(item)
+                doi = extract_doi(item)
+                pmcid = extract_pmcid(item)
 
-            logger.info(f"[{i}/{len(items)}] {title}")
+                logger.info(f"[{i}/{len(items)}] {title}")
 
-            if not doi and not pmcid:
-                logger.warning(f"  No DOI or PMCID -- skipping")
-                stats["no_doi"] += 1
-                continue
+                if not doi and not pmcid:
+                    logger.warning(f"  No DOI or PMCID -- skipping")
+                    stats["no_doi"] += 1
+                    continue
 
-            filename = safe_filename(item)
-            dest_path = Path(save_dir) / filename
+                filename = safe_filename(item)
+                dest_path = Path(save_dir) / filename
 
-            if dest_path.exists():
-                logger.info(f"  Already on disk: {filename}")
-                if zot and link_pdf_to_item(zot, key, str(dest_path)):
-                    logger.info(f"  Linked successfully")
-                stats["skipped"] += 1
-                time.sleep(0.5)
-                continue
+                if dest_path.exists():
+                    logger.info(f"  Already on disk: {filename}")
+                    if zot and link_pdf_to_item(zot, key, str(dest_path)):
+                        logger.info(f"  Linked successfully")
+                    stats["skipped"] += 1
+                    time.sleep(0.5)
+                    continue
 
-            filepath = None
-            source = None
-            for strategy in strategies:
-                filepath = strategy.try_fetch(item, session, save_dir)
-                if filepath:
-                    source = strategy.name
-                    break
+                filepath = None
+                source = None
+                for strategy in strategies:
+                    filepath = strategy.try_fetch(item, session, save_dir)
+                    if filepath:
+                        source = strategy.name
+                        break
 
-            if not filepath:
-                logger.warning(f"  No PDF found")
-                stats["failed"] += 1
-                time.sleep(0.5)
-                continue
-
-            logger.info(f"  Saved via {source}: {filename}")
-
-            if zot:
-                if link_pdf_to_item(zot, key, filepath):
-                    logger.info(f"  Linked successfully")
-                    stats[source] += 1
-                else:
-                    logger.warning(f"  Zotero link failed (file kept on disk)")
+                if not filepath:
+                    logger.warning(f"  No PDF found")
                     stats["failed"] += 1
-            else:
-                stats[source] += 1
+                    time.sleep(0.5)
+                    continue
 
-            time.sleep(rate_limit)
+                logger.info(f"  Saved via {source}: {filename}")
+
+                if zot:
+                    if link_pdf_to_item(zot, key, filepath):
+                        logger.info(f"  Linked successfully")
+                        stats[source] += 1
+                    else:
+                        logger.warning(f"  Zotero link failed (file kept on disk)")
+                        stats["failed"] += 1
+                else:
+                    stats[source] += 1
+
+                time.sleep(rate_limit)
+
+            except Exception as e:
+                logger.warning(f"  Item failed unexpectedly: {e}")
+                stats["failed"] += 1
+                continue
 
     finally:
         for strategy in strategies:
@@ -217,22 +224,35 @@ def main():
             print(f"       DOI: {doi}{pmc_str}")
         return
 
-    session = requests.Session()
-    session.headers.update(API_HEADERS)
+    browser_session: BrowserSession | None = None
+    try:
+        with requests.Session() as session:
+            session.headers.update(API_HEADERS)
 
-    strategies: list[PdfStrategy] = [UnpaywallStrategy(), PmcStrategy()]
-    if not args.no_browser:
-        strategies.extend(cls() for cls in BROWSER_STRATEGIES)
+            strategies: list[PdfStrategy] = [UnpaywallStrategy(), PmcStrategy()]
+            if not args.no_browser:
+                browser_session = BrowserSession()
+                if browser_session.connect():
+                    strategies.extend(cls(browser_session) for cls in BROWSER_STRATEGIES)
+                else:
+                    logger.warning(
+                        "Browser session failed to connect -- "
+                        "continuing with HTTP strategies only (Unpaywall + PMC)"
+                    )
+                    browser_session = None
 
-    stats = fetch_pdfs(
-        items=missing,
-        strategies=strategies,
-        session=session,
-        save_dir=str(PDF_SAVE_DIR),
-        zot=zot,
-    )
+            stats = fetch_pdfs(
+                items=missing,
+                strategies=strategies,
+                session=session,
+                save_dir=str(PDF_SAVE_DIR),
+                zot=zot,
+            )
 
-    _print_summary(stats, strategies)
+            _print_summary(stats, strategies)
+    finally:
+        if browser_session is not None:
+            browser_session.close()
 
 
 if __name__ == "__main__":

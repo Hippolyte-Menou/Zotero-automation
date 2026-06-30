@@ -9,6 +9,7 @@ Outputs:
     site/data/run_history.json       -- per-run metrics (History panel)
     site/data/recent_additions.json  -- recently uploaded papers (Recent panel)
     site/data/rescue_queue.json      -- articles queued for rescue
+    site/data/flagged_papers.json    -- orphan papers for the Review tab
 """
 
 import json

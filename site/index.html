@@ -1647,6 +1647,7 @@ html.dark .score-high { background: #157347; }
     reviewCategory = cat;
     reviewSubcollection = sub;
     renderReviewArticles();
+    document.querySelector(".sidebar")?.classList.remove("open");
   };
 
   window.__selectReviewShared = function() {
@@ -1656,9 +1657,12 @@ html.dark .score-high { background: #157347; }
   };
 
   window.__azFilterReview = function(letter) {
+    document.querySelectorAll(".az-btn").forEach(function(b) {
+      b.classList.toggle("active", b.textContent === letter || (!letter && b.textContent === "All"));
+    });
     var items = document.querySelectorAll(".tree-item[data-sub]");
     items.forEach(function(el) {
-      if (!letter || (el.dataset.sub || "")[0].toUpperCase() === letter) {
+      if (!letter || ((el.dataset.sub || "")[0] || "").toUpperCase() === letter) {
         el.style.display = "";
       } else {
         el.style.display = "none";
@@ -1945,6 +1949,7 @@ html.dark .score-high { background: #157347; }
     renderArticles();
     renderScopedPanels();
     renderMetaBar();
+    document.querySelector(".sidebar")?.classList.remove("open");
   };
 
   window.__selectShared = function() {
@@ -2151,11 +2156,12 @@ html.dark .score-high { background: #157347; }
 
     for (const a of page) {
       const pmid = a.pmid || "";
-      const checked = selectedPmids.has(pmid) ? " checked" : "";
+      const aid = articleId(a);
+      const checked = selectedPmids.has(aid) ? " checked" : "";
       const pubmedUrl = pmid ? "https://pubmed.ncbi.nlm.nih.gov/" + pmid : "#";
       const authors = formatAuthors(a.authors);
       const hasAbstract = a.abstract && a.abstract.length > 0;
-      const abstractId = "abs-" + pmid;
+      const abstractId = "abs-" + aid;
       const articleRescued = isRescued(a);
 
       var isTextExcl = a.reason === "text_exclusion" && a.matched_term;
@@ -2174,7 +2180,7 @@ html.dark .score-high { background: #157347; }
       }
 
       html += '<tr' + (articleRescued ? ' class="rescued"' : '') + '>';
-      html += '<td class="col-check"><input type="checkbox" data-pmid="' + escapeAttr(pmid) + '"' + checked + ' onchange="window.__toggleSelect(this)"></td>';
+      html += '<td class="col-check"><input type="checkbox" data-pmid="' + escapeAttr(aid) + '"' + checked + ' onchange="window.__toggleSelect(this)"></td>';
       html += "<td>";
       html += '<div class="article-title"><a href="' + escapeAttr(pubmedUrl) + '" target="_blank" rel="noopener">' + titleHtml + '</a></div>';
       html += '<div class="article-meta">' + escapeHtml(authors) + " &mdash; " + escapeHtml(a.journal || "") + "</div>";
@@ -2196,7 +2202,7 @@ html.dark .score-high { background: #157347; }
       html += '<td class="col-reason">';
       html += reasonBadge(a.reason);
       if ((a.seen_count || 1) > 1) {
-        html += '<span class="badge badge-recurring" title="Seen in ' + a.seen_count + ' pipeline runs">x' + a.seen_count + '</span>';
+        html += '<span class="badge badge-recurring" title="Seen in ' + (Number(a.seen_count)||1) + ' pipeline runs">x' + (Number(a.seen_count)||1) + '</span>';
       }
       if (a.matched_term && isMeshExcl) {
         html += '<div><span class="mesh-trigger-tag">' + escapeHtml(a.matched_term) + '</span></div>';
@@ -2332,7 +2338,7 @@ html.dark .score-high { background: #157347; }
     if (!filteredArticles.length) { cb.checked = false; return; }
     const start = (currentPage - 1) * PAGE_SIZE;
     const pageArticles = filteredArticles.slice(start, start + PAGE_SIZE);
-    const allSelected = pageArticles.length > 0 && pageArticles.every(a => selectedPmids.has(a.pmid));
+    const allSelected = pageArticles.length > 0 && pageArticles.every(a => selectedPmids.has(articleId(a)));
     cb.checked = allSelected;
   }
 
@@ -2341,9 +2347,9 @@ html.dark .score-high { background: #157347; }
     const pageArticles = filteredArticles.slice(start, start + PAGE_SIZE);
     for (const a of pageArticles) {
       if (this.checked) {
-        selectedPmids.add(a.pmid);
+        selectedPmids.add(articleId(a));
       } else {
-        selectedPmids.delete(a.pmid);
+        selectedPmids.delete(articleId(a));
       }
     }
     updateSelectedCount();
@@ -2352,7 +2358,7 @@ html.dark .score-high { background: #157347; }
 
   document.getElementById("exportBtn").addEventListener("click", function() {
     if (selectedPmids.size === 0) return;
-    const articles = data.articles.filter(a => selectedPmids.has(a.pmid));
+    const articles = data.articles.filter(a => selectedPmids.has(articleId(a)));
     const bibtex = articles.map(toBibtex).join("\n\n");
     const blob = new Blob([bibtex], { type: "text/plain;charset=utf-8" });
     const url = URL.createObjectURL(blob);
@@ -2483,7 +2489,7 @@ html.dark .score-high { background: #157347; }
     var themeLabel = document.documentElement.classList.contains("dark") ? "Light" : "Dark";
     var scopeChip = "";
     if (currentSubcollection && currentSubcollection !== "__shared__") {
-      scopeChip = '<span class="scope-chip">Viewing: ' + escapeHtml(currentSubcollection) + ' <span class="scope-chip-close" onclick="window.__resetScope()" role="button" tabindex="0" aria-label="Clear scope filter">x</span></span>';
+      scopeChip = '<span class="scope-chip">Viewing: ' + escapeHtml(currentSubcollection) + ' <span class="scope-chip-close" onclick="window.__resetScope()" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();this.click();}" role="button" tabindex="0" aria-label="Clear scope filter">x</span></span>';
     }
     el.innerHTML = escapeHtml(text) + scopeChip + '<button class="stats-toggle" id="statsToggle" onclick="window.__toggleStats()" aria-label="Toggle statistics panel">Stats</button>' + '<button class="history-toggle" id="historyToggle" onclick="window.__toggleHistory()" aria-label="Toggle run history panel">History</button>' + '<button class="recent-toggle" id="recentToggle" onclick="window.__toggleRecent()" aria-label="Toggle recent additions panel">Recent</button>' + '<button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">' + themeLabel + '</button>';
     renderStatsPanel(currentCategory, currentSubcollection);
@@ -2852,8 +2858,10 @@ html.dark .score-high { background: #157347; }
 
   function stripHtmlTags(s) {
     if (!s) return "";
-    return s.replace(/<[^>]*>/g, "");
+    let prev; do { prev = s; s = s.replace(/<[^>]*>/g, ""); } while (s !== prev); return s;
   }
+
+  function articleId(a){ return a && a.pmid ? a.pmid : (a && a.doi ? "doi:" + String(a.doi).replace(/[^A-Za-z0-9]/g,"") : ""); }
 
   function escapeHtml(s) {
     if (!s) return "";

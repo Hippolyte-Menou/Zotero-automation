@@ -87,11 +87,22 @@ def _register_new_records(
     existing_pmids: set[str],
     existing_dois: set[str],
     new_pmids: set[str],
+    added_indices: set[int] | None = None,
 ) -> None:
-    """Track newly uploaded records in the dedup sets."""
-    for r in records:
-        existing_pmids.add(r["pmid"])
-        new_pmids.add(r["pmid"])
+    """Track newly uploaded records in the dedup sets.
+
+    If added_indices is provided, only records at those positions (the ones
+    Zotero actually created -- see ZoteroGroupClient.add_papers) are
+    registered, so records that failed to upload are not marked as
+    already-in-library and remain eligible for retry.
+    """
+    for i, r in enumerate(records):
+        if added_indices is not None and i not in added_indices:
+            continue
+        pmid = r.get("pmid", "")
+        if pmid:
+            existing_pmids.add(pmid)
+            new_pmids.add(pmid)
         if r.get("doi"):
             existing_dois.add(r["doi"].lower())
 
@@ -294,23 +305,26 @@ def _link_relations(
     oa_id_to_pmid = openalex.resolve_openalex_ids_to_pmids(list(all_oa_ids))
 
     linked = 0
+    edges: dict[str, set[str]] = {}
     for pmid in new_pmids:
         if pmid not in pmid_to_key:
             continue
         oa_refs = pmid_to_oa_refs.get(pmid, [])
-        related_keys = [
+        related_keys = {
             pmid_to_key[oa_id_to_pmid[oa_id]]
             for oa_id in oa_refs
             if oa_id in oa_id_to_pmid
             and oa_id_to_pmid[oa_id] in pmid_to_key
             and oa_id_to_pmid[oa_id] != pmid
-        ]
+        }
         if related_keys:
-            logger.info(
-                f"{gene_symbol}: {pmid} -> {len(related_keys)} related items"
-            )
-            zot.add_relations(pmid_to_key[pmid], related_keys)
+            edges[pmid_to_key[pmid]] = related_keys
             linked += 1
+
+    # One fetch+patch per affected item (symmetric edges merged), throttled --
+    # avoids the previous O(items x refs) re-fetching with no rate limiting.
+    if edges:
+        zot.add_relations_batch(edges)
 
     logger.info(f"{gene_symbol}: linked relations for {linked} newly uploaded papers")
 
@@ -640,18 +654,18 @@ def _track_additions(
     category: str,
     source_tag: str,
     tracker: list[dict] | None,
-    added_pmids: set[str] | None = None,
+    added_indices: set[int] | None = None,
 ) -> None:
     """Append uploaded records to the additions tracker.
 
-    If added_pmids is provided, only records whose PMID appears in the set
-    are tracked (filters out records that failed to upload).
+    If added_indices is provided, only records at those positions (the ones
+    Zotero actually created) are tracked, filtering out failed uploads.
     """
     if tracker is None:
         return
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    for r in records:
-        if added_pmids is not None and r.get("pmid", "") not in added_pmids:
+    for i, r in enumerate(records):
+        if added_indices is not None and i not in added_indices:
             continue
         tracker.append({
             "pmid": r.get("pmid", ""),
@@ -785,8 +799,8 @@ def process_gene(
                         source_tag="source:search",
                     )
                     pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-                    _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-                    _register_new_records(re_search_records, existing_pmids, existing_dois, new_pmids)
+                    _track_additions(re_search_records, symbol, "6 - Genes", "source:search", additions_tracker, added_indices=search_stats.get("added_indices"))
+                    _register_new_records(re_search_records, existing_pmids, existing_dois, new_pmids, added_indices=search_stats.get("added_indices"))
                     new_records = re_search_records
                     library_size += len(re_search_records)
             _record_search_date(symbol, citation_cache)
@@ -842,8 +856,8 @@ def process_gene(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-            _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids)
+            _track_additions(new_records, symbol, "6 - Genes", "source:search", additions_tracker, added_indices=search_stats.get("added_indices"))
+            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids, added_indices=search_stats.get("added_indices"))
 
         library_size = len(collection_pmids) + len(new_records)
         _record_search_date(symbol, citation_cache)
@@ -859,9 +873,9 @@ def process_gene(
         logger.info(f"{symbol}: skipping citation expansion (not in rotation)")
         candidates = []
     else:
-        # force_full_expansion: pass None cache so _expand_one_hop does full
-        # forward expansion (no skip-gate, no since_date filter)
-        effective_cache = None if force_full_expansion else citation_cache
+        # Rotation gene: run a full forward expansion. Pass citation_cache=None
+        # so _expand_one_hop does NOT apply the incremental skip-gate / since_date
+        # filter (those only make sense for incremental, non-rotation runs).
         candidates = openalex.expand_citations(
             seed_works=seed_works,
             existing_pmids=existing_pmids,
@@ -874,14 +888,15 @@ def process_gene(
             hop2_top_n=hop2_top_n,
             exclude_mesh=mesh_excl or None,
             rejection_log=rejection_log,
-            citation_cache=effective_cache,
+            citation_cache=None,
         )
 
-        # Update gene rotation date in the real cache
+        # Update gene rotation date in the real cache (merge into the gene's
+        # entry -- do NOT replace it, or last_search_date is wiped and periodic
+        # re-search tracking silently resets every time the gene rotates).
         if citation_cache is not None:
-            citation_cache.setdefault("genes", {})[symbol] = {
-                "last_full_expanded": datetime.date.today().isoformat()
-            }
+            gene_entry = citation_cache.setdefault("genes", {}).setdefault(symbol, {})
+            gene_entry["last_full_expanded"] = datetime.date.today().isoformat()
 
     cit_added = 0
     if candidates:
@@ -915,8 +930,8 @@ def process_gene(
             )
             cit_added = cit_stats["added"]
             pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
-            _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
-            _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids)
+            _track_additions(candidate_records, symbol, "6 - Genes", "source:citation", additions_tracker, added_indices=cit_stats.get("added_indices"))
+            _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids, added_indices=cit_stats.get("added_indices"))
 
     # 5. Recent papers pass -- bypass citation threshold for current-year papers
     recent_works = openalex.search_gene_recent(
@@ -966,8 +981,8 @@ def process_gene(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
-            _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
-            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids)
+            _track_additions(recent_records, symbol, "6 - Genes", "source:recent", additions_tracker, added_indices=rec_stats.get("added_indices"))
+            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids, added_indices=rec_stats.get("added_indices"))
 
     # Link relations for all newly uploaded papers
     if new_pmids:
@@ -1145,8 +1160,8 @@ def process_topic_subtopic(
                 source_tag="source:search",
             )
             pmid_to_key.update(search_stats.get("pmid_to_key", {}))
-            _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_pmids=set(search_stats.get("pmid_to_key", {}).keys()))
-            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids)
+            _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_indices=search_stats.get("added_indices"))
+            _register_new_records(new_records, existing_pmids, existing_dois, new_pmids, added_indices=search_stats.get("added_indices"))
 
         library_size = len(all_records)
 
@@ -1199,8 +1214,8 @@ def process_topic_subtopic(
                 )
                 cit_added = cit_stats["added"]
                 pmid_to_key.update(cit_stats.get("pmid_to_key", {}))
-                _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker, added_pmids=set(cit_stats.get("pmid_to_key", {}).keys()))
-                _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids)
+                _track_additions(candidate_records, sub_name, category_name, "source:citation", additions_tracker, added_indices=cit_stats.get("added_indices"))
+                _register_new_records(candidate_records, existing_pmids, existing_dois, new_pmids, added_indices=cit_stats.get("added_indices"))
 
     # 4. Recent papers pass
     recent_added = 0
@@ -1246,8 +1261,8 @@ def process_topic_subtopic(
             )
             recent_added = rec_stats["added"]
             pmid_to_key.update(rec_stats.get("pmid_to_key", {}))
-            _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker, added_pmids=set(rec_stats.get("pmid_to_key", {}).keys()))
-            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids)
+            _track_additions(recent_records, sub_name, category_name, "source:recent", additions_tracker, added_indices=rec_stats.get("added_indices"))
+            _register_new_records(recent_records, existing_pmids, existing_dois, new_pmids, added_indices=rec_stats.get("added_indices"))
 
     # 5. Link relations
     if new_pmids:
@@ -1390,7 +1405,14 @@ def main():
         api_key=zotero_api_key,
         delay=1.0,
     )
-    pmid_to_key: dict[str, str] = zot.get_existing_items()
+    try:
+        pmid_to_key: dict[str, str] = zot.get_existing_items()
+    except RuntimeError as e:
+        # The dedup baseline could not be fetched. Proceeding with an empty
+        # baseline would treat every found paper as new and re-upload the whole
+        # library, so abort the run instead.
+        logger.error(f"Aborting run to avoid duplicate uploads: {e}")
+        sys.exit(1)
     existing_pmids: set[str] = set(pmid_to_key.keys())
     existing_dois: set[str] = set(zot.get_existing_dois().keys())
 
