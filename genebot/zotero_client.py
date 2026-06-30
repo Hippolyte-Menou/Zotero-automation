@@ -396,10 +396,32 @@ class ZoteroGroupClient:
                 "source_tags": source_tags,
                 "category": category,
                 "subcollection": subcollection,
+                "date_added": data.get("dateAdded", ""),
             })
 
         logger.info(f"Retrieved {len(result)} library items with identifiers")
         return result
+
+    def trash_items(self, keys: list, *, apply: bool = False) -> dict:
+        """Move group-library items to the (recoverable) trash by key.
+
+        Reuses pyzotero's delete_item, which moves items to the Zotero trash;
+        they can be restored from the trash in the Zotero client. Dry-run by
+        default (apply=False) so destructive use must be explicit.
+
+        Returns {"would_trash": [...], "trashed": int, "failed": int}.
+        """
+        if not apply:
+            return {"would_trash": list(keys), "trashed": 0, "failed": 0}
+        trashed = failed = 0
+        for key in keys:
+            try:
+                self.zot.delete_item(self.zot.item(key))
+                trashed += 1
+            except Exception as e:
+                logger.warning(f"trash_items: failed for {key}: {e}")
+                failed += 1
+        return {"would_trash": [], "trashed": trashed, "failed": failed}
 
     def get_collection_pmids(self, collection_key: str) -> list[str]:
         """Return all PMIDs for items in a specific collection.
