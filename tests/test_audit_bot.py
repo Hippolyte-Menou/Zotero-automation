@@ -68,7 +68,7 @@ class TestSelectFpCandidates(unittest.TestCase):
     def test_candidate_shape(self):
         out = audit_bot.select_fp_candidates(self._lib(), set(), 1)
         self.assertEqual(out[0], {
-            "id": "pmid:2", "key": "KB", "pmid": "2", "doi": "",
+            "id": "pmid:2", "kind": "fp", "key": "KB", "pmid": "2", "doi": "",
             "title": "new", "abstract": "b",
             "gene_or_topic": "FBN1", "category": "6 - Genes",
         })
@@ -118,7 +118,7 @@ class TestSelectFnCandidates(unittest.TestCase):
     def test_candidate_shape_carries_context(self):
         out = audit_bot.select_fn_candidates(self._nm()[:1], set(), set(), set(), set(), set(), 1)
         self.assertEqual(out[0], {
-            "id": "pmid:10", "pmid": "10", "doi": "", "title": "close",
+            "id": "pmid:10", "kind": "fn", "pmid": "10", "doi": "", "title": "close",
             "abstract": "x", "gene_or_topic": "CRB1", "category": "6 - Genes",
             "reason": "score_below_threshold", "effective_score": 3,
             "threshold": 4, "search_keywords": ["CRB1"],

@@ -24,6 +24,18 @@ logger = logging.getLogger("audit_bot")
 REASON_RESCUE_ELIGIBLE = {"score_below_threshold", "mention_filter"}
 
 
+def stable_id(rec: dict) -> str:
+    """Stable ledger key for a record: pmid, else lowercased doi, else zotero key."""
+    pmid = (rec.get("pmid") or "").strip()
+    if pmid:
+        return f"pmid:{pmid}"
+    doi = (rec.get("doi") or "").strip().lower()
+    if doi:
+        return f"doi:{doi}"
+    key = (rec.get("zotero_key") or rec.get("key") or "").strip()
+    return f"key:{key}" if key else ""
+
+
 def load_ledger(path: str) -> set:
     """Return the set of audited ids; empty set if missing or unreadable."""
     if not os.path.isfile(path):
@@ -55,12 +67,13 @@ def select_fp_candidates(library_items: list, audited: set, max_items: int) -> l
         sid = stable_id(it)
         if not sid or sid in audited:
             continue
-        pool.append(it)
-    pool.sort(key=lambda it: it.get("date_added", ""), reverse=True)
+        pool.append((sid, it))
+    pool.sort(key=lambda pair: pair[1].get("date_added", ""), reverse=True)
     out = []
-    for it in pool[:max_items]:
+    for sid, it in pool[:max_items]:
         out.append({
-            "id": stable_id(it),
+            "id": sid,
+            "kind": "fp",
             "key": it.get("zotero_key", ""),
             "pmid": it.get("pmid", ""),
             "doi": it.get("doi", ""),
@@ -98,12 +111,13 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
         sid = stable_id(nm)
         if not sid or sid in audited:
             continue
-        pool.append(nm)
-    pool.sort(key=ratio, reverse=True)
+        pool.append((sid, nm))
+    pool.sort(key=lambda pair: ratio(pair[1]), reverse=True)
     out = []
-    for nm in pool[:max_items]:
+    for sid, nm in pool[:max_items]:
         out.append({
-            "id": stable_id(nm),
+            "id": sid,
+            "kind": "fn",
             "pmid": nm.get("pmid", ""),
             "doi": nm.get("doi", ""),
             "title": nm.get("title", ""),
@@ -119,6 +133,9 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
 
 
 def chunk(items: list, size: int) -> list:
+    """Split items into sublists of at most `size` elements."""
+    if size <= 0:
+        raise ValueError("chunk size must be positive")
     return [items[i:i + size] for i in range(0, len(items), size)]
 
 
@@ -153,8 +170,12 @@ def load_batch_items(work_dir: str) -> tuple:
     for fname in sorted(os.listdir(bdir)):
         if not fname.endswith(".json"):
             continue
-        with open(os.path.join(bdir, fname), encoding="utf-8") as f:
-            items = json.load(f).get("items", [])
+        try:
+            with open(os.path.join(bdir, fname), encoding="utf-8") as f:
+                items = json.load(f).get("items", [])
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning("load_batch_items: skipping unreadable %s: %s", fname, e)
+            continue
         if fname.startswith("fp_"):
             fp.extend(items)
         elif fname.startswith("fn_"):
@@ -245,15 +266,3 @@ def compute_apply(fp_candidates: list, fn_candidates: list,
             to_rescue.append(c)
 
     return {"to_trash_keys": to_trash_keys, "to_rescue": to_rescue, "judged_ids": judged}
-
-
-def stable_id(rec: dict) -> str:
-    """Stable ledger key for a record: pmid, else lowercased doi, else zotero key."""
-    pmid = (rec.get("pmid") or "").strip()
-    if pmid:
-        return f"pmid:{pmid}"
-    doi = (rec.get("doi") or "").strip().lower()
-    if doi:
-        return f"doi:{doi}"
-    key = (rec.get("zotero_key") or rec.get("key") or "").strip()
-    return f"key:{key}" if key else ""
