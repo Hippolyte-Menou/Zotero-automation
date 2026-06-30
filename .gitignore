@@ -14,3 +14,8 @@ dedup_*.json
 refetch_needed.txt
 .claude/settings.local.json
 /pdf_strategies
+
+# Library audit bot (generated state + scratch)
+data/audit_state.json
+data/audit_log.json
+audit_work/
