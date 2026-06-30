@@ -249,7 +249,7 @@ class TestApplyActions(unittest.TestCase):
             log = audit_bot.load_json_list(log_path)
             self.assertEqual(len(log), 2)  # one trash + one rescue record
 
-    def test_dry_run_acts_on_nothing_but_reports(self):
+    def test_dry_run_acts_on_nothing_and_leaves_ledger_untouched(self):
         fp = [{"id": "pmid:1", "key": "K1"}]
         screen = {"pmid:1": "off_topic"}
         adj = {"pmid:1": "off_topic"}
@@ -262,8 +262,35 @@ class TestApplyActions(unittest.TestCase):
                 apply=False, now="2026-06-30T00:00:00Z")
             self.assertEqual(fake.trashed, [])
             self.assertEqual(summary["would_trash"], 1)
-            # dry-run still records the ledger so the sweep advances
-            self.assertEqual(audit_bot.load_ledger(os.path.join(d, "s.json")), {"pmid:1"})
+            # dry-run must NOT advance the ledger, else the following live run
+            # would skip these very items and never act on them.
+            self.assertEqual(audit_bot.load_ledger(os.path.join(d, "s.json")), set())
+
+    def test_failed_rescue_is_not_ledgered(self):
+        fn = [{"id": "pmid:5", "pmid": "5", "gene_or_topic": "CRB1",
+               "category": "6 - Genes", "title": "T5", "doi": ""},
+              {"id": "pmid:6", "pmid": "6", "gene_or_topic": "RHO",
+               "category": "6 - Genes", "title": "T6", "doi": ""}]
+        screen = {"pmid:5": "relevant", "pmid:6": "relevant"}
+        adj = {"pmid:5": "relevant", "pmid:6": "relevant"}
+        fake = FakeZotForApply()
+
+        def fake_rescue(entries):
+            # pmid 6 transiently fails -> its original entry is returned for retry.
+            failed = [e for e in entries if e["pmid"] == "6"]
+            return (len(entries) - len(failed), failed)
+
+        with tempfile.TemporaryDirectory() as d:
+            ledger_path = os.path.join(d, "audit_state.json")
+            summary = audit_bot.apply_actions(
+                [], fn, screen, adj, zot=fake, rescue_fn=fake_rescue,
+                ledger_path=ledger_path, log_path=os.path.join(d, "l.json"),
+                apply=True, now="2026-06-30T00:00:00Z")
+            # The failed rescue must be retried next run, so its id stays out of
+            # the ledger; the successful one is recorded.
+            self.assertEqual(audit_bot.load_ledger(ledger_path), {"pmid:5"})
+            self.assertEqual(summary["rescued"], 1)
+            self.assertEqual(summary["failed_rescue"], 1)
 
 
 class TestCmdCollect(unittest.TestCase):

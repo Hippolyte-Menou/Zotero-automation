@@ -176,6 +176,9 @@ def load_batch_items(work_dir: str) -> tuple:
         except (json.JSONDecodeError, OSError) as e:
             logger.warning("load_batch_items: skipping unreadable %s: %s", fname, e)
             continue
+        # adj_* batch files also live in batches/ but are intentionally skipped
+        # here: they are consumed via load_verdicts(work_dir, "adj_"), not
+        # reconstructed into a candidate pool.
         if fname.startswith("fp_"):
             fp.extend(items)
         elif fname.startswith("fn_"):
@@ -297,6 +300,9 @@ def cmd_prepare(args) -> None:
     zot = ZoteroGroupClient(str(ZOTERO_GROUP_ID), zotero_api_key())
     library = zot.get_all_items_full()
     existing_pmids = set(zot.get_existing_items())          # raises on failure (safety)
+    # Ordering matters: get_existing_dois() returns the dict that the preceding
+    # get_existing_items() populated; same for get_trashed_dois() after
+    # get_trashed_pmids(). Reordering these silently yields empty DOI sets.
     existing_dois = {d.lower() for d in zot.get_existing_dois()}
     trashed_pmids = zot.get_trashed_pmids()
     trashed_dois = {d.lower() for d in zot.get_trashed_dois()}
@@ -344,8 +350,11 @@ def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *
 
     `zot.trash_items(keys, apply=...)` and `rescue_fn(entries) -> (count, failed)`
     are injected so this is testable without network. In dry-run (apply=False)
-    nothing is trashed/rescued, but judged ids are still ledgered so the sweep
-    advances on the next live run.
+    nothing is trashed/rescued and the ledger is left untouched, so a later live
+    run still acts on the same items (the audit log is still written, with
+    "applied": False, so a dry-run remains inspectable). In a live run, judged
+    ids are ledgered EXCEPT ids whose rescue transiently failed, which stay out
+    of the ledger so they are retried on the next run.
     """
     plan = compute_apply(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts)
     ts = now or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -353,8 +362,18 @@ def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *
     trash_result = zot.trash_items(plan["to_trash_keys"], apply=apply)
 
     rescued = 0
+    failed_rescue_ids = set()
     if apply and plan["to_rescue"]:
-        rescued, _failed = rescue_fn(build_rescue_entries(plan["to_rescue"]))
+        rescued, failed_entries = rescue_fn(build_rescue_entries(plan["to_rescue"]))
+        # Map failed rescue entries back to their candidate ids (on pmid +
+        # lowercased doi) so transiently-failed rescues are NOT ledgered and get
+        # retried on the next run.
+        failed_keys = {((e.get("pmid") or "").strip(),
+                        (e.get("doi") or "").strip().lower()) for e in failed_entries}
+        for c in plan["to_rescue"]:
+            ckey = ((c.get("pmid") or "").strip(), (c.get("doi") or "").strip().lower())
+            if ckey in failed_keys:
+                failed_rescue_ids.add(c["id"])
 
     # Audit log: one record per acted item.
     fp_by_id = {c["id"]: c for c in fp_candidates}
@@ -377,12 +396,16 @@ def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *
     with open(log_path, "w", encoding="utf-8") as f:
         json.dump(log, f, indent=1)
 
-    # Ledger: every judged id (any outcome), so the sweep never re-screens it.
-    audited = load_ledger(ledger_path) | plan["judged_ids"]
-    save_ledger(ledger_path, audited, now=ts)
+    # Ledger: only on a live run (a dry-run must not advance the sweep). Every
+    # judged id is recorded EXCEPT ids whose rescue failed -- those are retried.
+    if apply:
+        audited = load_ledger(ledger_path) | (plan["judged_ids"] - failed_rescue_ids)
+        save_ledger(ledger_path, audited, now=ts)
 
     return {"trashed": trash_result["trashed"], "would_trash": len(plan["to_trash_keys"]),
-            "rescued": rescued, "kept": len(plan["judged_ids"]) - len(plan["to_trash_keys"]) - rescued,
+            "rescued": rescued, "failed_trash": trash_result["failed"],
+            "failed_rescue": len(failed_rescue_ids),
+            "kept": len(plan["judged_ids"]) - trash_result["trashed"] - rescued,
             "judged": len(plan["judged_ids"])}
 
 
@@ -402,6 +425,8 @@ def cmd_apply(args) -> None:
     # Build the dedup context process_rescue_queue needs (get_existing_items raises on failure).
     pmid_to_key = zot.get_existing_items()
     existing_pmids = set(pmid_to_key)
+    # Ordering matters: get_existing_dois() returns the dict that the preceding
+    # get_existing_items() populated; calling it first would yield an empty set.
     existing_dois = {d.lower() for d in zot.get_existing_dois()}
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
@@ -414,7 +439,8 @@ def cmd_apply(args) -> None:
         fp, fn, screen, adj, zot=zot, rescue_fn=rescue_fn,
         ledger_path=args.ledger, log_path=args.log, apply=(not args.dry_run))
     print(f"apply: trashed={summary['trashed']} would_trash={summary['would_trash']} "
-          f"rescued={summary['rescued']} kept={summary['kept']} judged={summary['judged']}")
+          f"rescued={summary['rescued']} kept={summary['kept']} judged={summary['judged']} "
+          f"failed_trash={summary['failed_trash']} failed_rescue={summary['failed_rescue']}")
 
 
 def main() -> None:
