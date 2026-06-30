@@ -34,6 +34,7 @@ class TestTrashItems(unittest.TestCase):
         result = self._client(fake).trash_items(["K1", "K2"], apply=True)
         self.assertEqual(fake.deleted, ["K1", "K2"])
         self.assertEqual(result["trashed"], 2)
+        self.assertEqual(result["failed"], 0)
 
     def test_apply_counts_failures_without_raising(self):
         fake = FakeZot()

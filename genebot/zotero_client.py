@@ -402,12 +402,16 @@ class ZoteroGroupClient:
         logger.info(f"Retrieved {len(result)} library items with identifiers")
         return result
 
-    def trash_items(self, keys: list, *, apply: bool = False) -> dict:
+    def trash_items(self, keys: list[str], *, apply: bool = False) -> dict:
         """Move group-library items to the (recoverable) trash by key.
 
         Reuses pyzotero's delete_item, which moves items to the Zotero trash;
         they can be restored from the trash in the Zotero client. Dry-run by
         default (apply=False) so destructive use must be explicit.
+
+        Network errors on individual items are not retried; a failed item is
+        logged and counted in ``failed``, so callers should re-run for
+        transient failures.
 
         Returns {"would_trash": [...], "trashed": int, "failed": int}.
         """
