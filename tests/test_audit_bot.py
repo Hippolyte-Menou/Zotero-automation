@@ -207,6 +207,26 @@ class TestBatchIO(unittest.TestCase):
         self.assertEqual([c["id"] for c in out], ["pmid:1", "pmid:3", "pmid:5"])
 
 
+class TestPreparePools(unittest.TestCase):
+    def test_builds_both_pools_and_writes_batches(self):
+        library = [{"pmid": "1", "zotero_key": "K1", "title": "t",
+                    "subcollection": "ACO2", "category": "6 - Genes",
+                    "date_added": "2026-06-01T00:00:00Z"}]
+        near = [{"pmid": "5", "title": "n", "subcollection": "CRB1",
+                 "category": "6 - Genes", "reason": "score_below_threshold",
+                 "effective_score": 3, "threshold": 4, "search_keywords": []}]
+        with tempfile.TemporaryDirectory() as d:
+            manifest = audit_bot.prepare_pools(
+                work_dir=d, library_items=library, near_misses=near,
+                audited=set(), existing_pmids=set(), existing_dois=set(),
+                trashed_pmids=set(), trashed_dois=set(), max_items=400, batch_size=20)
+            self.assertEqual(manifest["fp_batches"], ["fp_000"])
+            self.assertEqual(manifest["fn_batches"], ["fn_000"])
+            fp, fn = audit_bot.load_batch_items(d)
+            self.assertEqual([c["id"] for c in fp], ["pmid:1"])
+            self.assertEqual([c["id"] for c in fn], ["pmid:5"])
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}

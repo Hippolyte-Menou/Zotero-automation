@@ -266,3 +266,49 @@ def compute_apply(fp_candidates: list, fn_candidates: list,
             to_rescue.append(c)
 
     return {"to_trash_keys": to_trash_keys, "to_rescue": to_rescue, "judged_ids": judged}
+
+
+def prepare_pools(*, work_dir, library_items, near_misses, audited,
+                  existing_pmids, existing_dois, trashed_pmids, trashed_dois,
+                  max_items, batch_size=20) -> dict:
+    """Pure assembler: build FP/FN candidate pools and write batch files."""
+    fp = select_fp_candidates(library_items, audited, max_items)
+    fn = select_fn_candidates(near_misses, audited, existing_pmids, existing_dois,
+                              trashed_pmids, trashed_dois, max_items)
+    manifest = write_batches(work_dir, fp, fn, batch_size=batch_size)
+    logger.info("prepare: %d FP candidates, %d FN candidates", len(fp), len(fn))
+    return manifest
+
+
+def _read_json(path: str, default):
+    if not os.path.isfile(path):
+        return default
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return default
+
+
+def cmd_prepare(args) -> None:
+    from genebot.zotero_client import ZoteroGroupClient
+    from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
+
+    zot = ZoteroGroupClient(str(ZOTERO_GROUP_ID), zotero_api_key())
+    library = zot.get_all_items_full()
+    existing_pmids = set(zot.get_existing_items())          # raises on failure (safety)
+    existing_dois = {d.lower() for d in zot.get_existing_dois()}
+    trashed_pmids = zot.get_trashed_pmids()
+    trashed_dois = {d.lower() for d in zot.get_trashed_dois()}
+
+    near = _read_json(os.path.join(args.data_dir, "near_misses.json"), {})
+    near_misses = near.get("articles", []) if isinstance(near, dict) else near
+    audited = load_ledger(args.ledger)
+
+    manifest = prepare_pools(
+        work_dir=args.work_dir, library_items=library, near_misses=near_misses,
+        audited=audited, existing_pmids=existing_pmids, existing_dois=existing_dois,
+        trashed_pmids=trashed_pmids, trashed_dois=trashed_dois,
+        max_items=args.max_items, batch_size=args.batch_size)
+    print(f"prepared {len(manifest['fp_batches'])} FP + "
+          f"{len(manifest['fn_batches'])} FN batches in {args.work_dir}")
