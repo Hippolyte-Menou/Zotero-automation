@@ -118,6 +118,48 @@ def select_fn_candidates(near_misses: list, audited: set, existing_pmids: set,
     return out
 
 
+def compute_apply(fp_candidates: list, fn_candidates: list,
+                  screen_verdicts: dict, adj_verdicts: dict) -> dict:
+    """Apply the asymmetric two-tier gate.
+
+    FP -> trash iff screener==off_topic AND adjudicator==off_topic.
+    FN -> rescue iff adjudicator==relevant.
+    Only items that reach a terminal decision are added to judged_ids; items
+    missing a needed verdict are left for the next run (fail-safe = no action).
+    """
+    to_trash_keys, to_rescue, judged = [], [], set()
+
+    for c in fp_candidates:
+        sv = screen_verdicts.get(c["id"])
+        if sv is None:
+            continue
+        if sv == "on_topic":
+            judged.add(c["id"])
+            continue
+        av = adj_verdicts.get(c["id"])  # off_topic / uncertain -> needs adjudication
+        if av is None:
+            continue
+        judged.add(c["id"])
+        if sv == "off_topic" and av == "off_topic" and c.get("key"):
+            to_trash_keys.append(c["key"])
+
+    for c in fn_candidates:
+        sv = screen_verdicts.get(c["id"])
+        if sv is None:
+            continue
+        if sv == "correctly_rejected":
+            judged.add(c["id"])
+            continue
+        av = adj_verdicts.get(c["id"])  # relevant / uncertain -> needs adjudication
+        if av is None:
+            continue
+        judged.add(c["id"])
+        if av == "relevant":
+            to_rescue.append(c)
+
+    return {"to_trash_keys": to_trash_keys, "to_rescue": to_rescue, "judged_ids": judged}
+
+
 def stable_id(rec: dict) -> str:
     """Stable ledger key for a record: pmid, else lowercased doi, else zotero key."""
     pmid = (rec.get("pmid") or "").strip()

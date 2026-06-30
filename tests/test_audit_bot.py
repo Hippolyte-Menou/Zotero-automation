@@ -125,6 +125,42 @@ class TestSelectFnCandidates(unittest.TestCase):
         })
 
 
+class TestComputeApply(unittest.TestCase):
+    def setUp(self):
+        self.fp = [{"id": "pmid:1", "key": "K1"}, {"id": "pmid:2", "key": "K2"},
+                   {"id": "pmid:3", "key": "K3"}, {"id": "pmid:4", "key": "K4"}]
+        self.fn = [{"id": "pmid:5", "pmid": "5"}, {"id": "pmid:6", "pmid": "6"},
+                   {"id": "pmid:7", "pmid": "7"}]
+
+    def test_trash_requires_both_off_topic(self):
+        screen = {"pmid:1": "off_topic", "pmid:2": "off_topic",
+                  "pmid:3": "uncertain", "pmid:4": "on_topic"}
+        adj = {"pmid:1": "off_topic", "pmid:2": "on_topic", "pmid:3": "off_topic"}
+        out = audit_bot.compute_apply(self.fp, [], screen, adj)
+        # pmid:1 concurs -> trash; pmid:2 Sonnet rescued it -> keep;
+        # pmid:3 screener only "uncertain" (one vote) -> keep; pmid:4 on_topic -> keep
+        self.assertEqual(out["to_trash_keys"], ["K1"])
+        self.assertEqual(out["judged_ids"], {"pmid:1", "pmid:2", "pmid:3", "pmid:4"})
+
+    def test_rescue_on_single_sonnet_relevant(self):
+        screen = {"pmid:5": "relevant", "pmid:6": "uncertain", "pmid:7": "correctly_rejected"}
+        adj = {"pmid:5": "relevant", "pmid:6": "correctly_rejected"}
+        out = audit_bot.compute_apply([], self.fn, screen, adj)
+        self.assertEqual([c["id"] for c in out["to_rescue"]], ["pmid:5"])
+        self.assertEqual(out["judged_ids"], {"pmid:5", "pmid:6", "pmid:7"})
+
+    def test_missing_screen_verdict_is_not_judged(self):
+        out = audit_bot.compute_apply(self.fp[:1], [], {}, {})
+        self.assertEqual(out["to_trash_keys"], [])
+        self.assertEqual(out["judged_ids"], set())
+
+    def test_missing_adjudication_is_not_judged(self):
+        # screener flagged off_topic but no adjudicator verdict -> retry next run
+        out = audit_bot.compute_apply(self.fp[:1], [], {"pmid:1": "off_topic"}, {})
+        self.assertEqual(out["to_trash_keys"], [])
+        self.assertEqual(out["judged_ids"], set())
+
+
 class TestStableId(unittest.TestCase):
     def test_prefers_pmid(self):
         rec = {"pmid": "123", "doi": "10.1/AbC", "zotero_key": "K"}
