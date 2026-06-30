@@ -1,3 +1,6 @@
+import json
+import os
+import tempfile
 import unittest
 
 import audit_bot
@@ -9,6 +12,34 @@ class TestModuleImports(unittest.TestCase):
             audit_bot.REASON_RESCUE_ELIGIBLE,
             {"score_below_threshold", "mention_filter"},
         )
+
+
+class TestLedger(unittest.TestCase):
+    def test_load_missing_returns_empty_set(self):
+        with tempfile.TemporaryDirectory() as d:
+            self.assertEqual(audit_bot.load_ledger(os.path.join(d, "x.json")), set())
+
+    def test_save_then_load_roundtrip(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "data", "audit_state.json")
+            audit_bot.save_ledger(p, {"pmid:1", "pmid:2"}, now="2026-06-30T00:00:00Z")
+            self.assertEqual(audit_bot.load_ledger(p), {"pmid:1", "pmid:2"})
+
+    def test_save_writes_sorted_ids_and_timestamp(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "audit_state.json")
+            audit_bot.save_ledger(p, {"pmid:2", "pmid:1"}, now="2026-06-30T00:00:00Z")
+            with open(p, encoding="utf-8") as f:
+                payload = json.load(f)
+            self.assertEqual(payload["audited_ids"], ["pmid:1", "pmid:2"])
+            self.assertEqual(payload["updated_at"], "2026-06-30T00:00:00Z")
+
+    def test_load_corrupt_returns_empty_set(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "audit_state.json")
+            with open(p, "w", encoding="utf-8") as f:
+                f.write("{not json")
+            self.assertEqual(audit_bot.load_ledger(p), set())
 
 
 class TestStableId(unittest.TestCase):
