@@ -142,10 +142,13 @@ class TestComputeApply(unittest.TestCase):
         self.assertEqual(out["to_trash_keys"], ["K1"])
         self.assertEqual(out["judged_ids"], {"pmid:1", "pmid:2", "pmid:3", "pmid:4"})
 
-    def test_rescue_on_single_sonnet_relevant(self):
+    def test_rescue_requires_both_relevant(self):
+        # Symmetric gate: rescue only when screener AND adjudicator concur.
         screen = {"pmid:5": "relevant", "pmid:6": "uncertain", "pmid:7": "correctly_rejected"}
-        adj = {"pmid:5": "relevant", "pmid:6": "correctly_rejected"}
+        adj = {"pmid:5": "relevant", "pmid:6": "relevant"}
         out = audit_bot.compute_apply([], self.fn, screen, adj)
+        # pmid:5 concurs -> rescue; pmid:6 screener only "uncertain" (one vote,
+        # even though Sonnet said relevant) -> keep; pmid:7 correctly_rejected -> keep
         self.assertEqual([c["id"] for c in out["to_rescue"]], ["pmid:5"])
         self.assertEqual(out["judged_ids"], {"pmid:5", "pmid:6", "pmid:7"})
 
@@ -197,6 +200,38 @@ class TestBatchIO(unittest.TestCase):
                 json.dump([{"id": "pmid:5", "verdict": "relevant"}], f)
             v = audit_bot.load_verdicts(d, "screen_")
             self.assertEqual(v, {"pmid:1": "off_topic", "pmid:5": "relevant"})
+
+    def test_load_verdicts_falls_back_to_cwd_verdicts(self):
+        # A subagent that ignores verdict_out and writes ./verdicts is still read.
+        with tempfile.TemporaryDirectory() as d:
+            work = os.path.join(d, "audit_work")
+            os.makedirs(work)
+            cwd_v = os.path.join(d, "verdicts")
+            os.makedirs(cwd_v)
+            with open(os.path.join(cwd_v, "screen_fp_000.json"), "w", encoding="utf-8") as f:
+                json.dump([{"id": "pmid:9", "verdict": "off_topic"}], f)
+            old = os.getcwd()
+            try:
+                os.chdir(d)
+                v = audit_bot.load_verdicts(work, "screen_")
+            finally:
+                os.chdir(old)
+            self.assertEqual(v, {"pmid:9": "off_topic"})
+
+    def test_batches_embed_absolute_verdict_out(self):
+        fp = [{"id": "pmid:1", "key": "K1"}]
+        fn = [{"id": "pmid:5"}]
+        with tempfile.TemporaryDirectory() as d:
+            audit_bot.write_batches(d, fp, fn, batch_size=1)
+            with open(os.path.join(d, "batches", "fp_000.json"), encoding="utf-8") as f:
+                batch = json.load(f)
+            vout = batch["verdict_out"]
+            self.assertTrue(os.path.isabs(vout))
+            self.assertEqual(os.path.basename(vout), "screen_fp_000.json")
+            self.assertEqual(os.path.dirname(vout),
+                             os.path.abspath(os.path.join(d, "verdicts")))
+            # verdicts dir is pre-created so subagents can write into it
+            self.assertTrue(os.path.isdir(os.path.join(d, "verdicts")))
 
     def test_select_for_adjudication(self):
         fp = [{"id": "pmid:1"}, {"id": "pmid:2"}, {"id": "pmid:3"}]
@@ -250,21 +285,40 @@ class TestApplyActions(unittest.TestCase):
             self.assertEqual(len(log), 2)  # one trash + one rescue record
 
     def test_dry_run_acts_on_nothing_and_leaves_ledger_untouched(self):
-        fp = [{"id": "pmid:1", "key": "K1"}]
+        fp = [{"id": "pmid:1", "key": "K1", "gene_or_topic": "TGFBI"}]
         screen = {"pmid:1": "off_topic"}
         adj = {"pmid:1": "off_topic"}
         fake = FakeZotForApply()
         with tempfile.TemporaryDirectory() as d:
+            fbpath = os.path.join(d, "fb.json")
             summary = audit_bot.apply_actions(
                 fp, [], screen, adj, zot=fake, rescue_fn=lambda e: (0, []),
                 ledger_path=os.path.join(d, "s.json"),
                 log_path=os.path.join(d, "l.json"),
-                apply=False, now="2026-06-30T00:00:00Z")
+                apply=False, now="2026-06-30T00:00:00Z", feedback_path=fbpath)
             self.assertEqual(fake.trashed, [])
             self.assertEqual(summary["would_trash"], 1)
             # dry-run must NOT advance the ledger, else the following live run
             # would skip these very items and never act on them.
             self.assertEqual(audit_bot.load_ledger(os.path.join(d, "s.json")), set())
+            # ...nor skew the per-gene feedback signal.
+            self.assertFalse(os.path.exists(fbpath))
+
+    def test_live_run_writes_feedback(self):
+        fp = [{"id": "pmid:1", "key": "K1", "gene_or_topic": "TGFBI"}]
+        screen = {"pmid:1": "off_topic"}
+        adj = {"pmid:1": "off_topic"}
+        fake = FakeZotForApply()
+        with tempfile.TemporaryDirectory() as d:
+            fbpath = os.path.join(d, "fb.json")
+            audit_bot.apply_actions(
+                fp, [], screen, adj, zot=fake, rescue_fn=lambda e: (0, []),
+                ledger_path=os.path.join(d, "s.json"),
+                log_path=os.path.join(d, "l.json"),
+                apply=True, now="2026-06-30T00:00:00Z", feedback_path=fbpath)
+            with open(fbpath, encoding="utf-8") as f:
+                fb = json.load(f)
+            self.assertEqual(fb["genes"]["TGFBI"]["trashed"], 1)
 
     def test_failed_rescue_is_not_ledgered(self):
         fn = [{"id": "pmid:5", "pmid": "5", "gene_or_topic": "CRB1",
@@ -299,8 +353,8 @@ class TestCmdCollect(unittest.TestCase):
         fn = [{"id": "pmid:5"}]
         with tempfile.TemporaryDirectory() as d:
             audit_bot.write_batches(d, fp, fn, batch_size=20)
-            vdir = os.path.join(d, "verdicts")
-            os.makedirs(vdir)
+            vdir = os.path.join(d, "verdicts")  # write_batches pre-creates this
+            os.makedirs(vdir, exist_ok=True)
             with open(os.path.join(vdir, "screen_fp_000.json"), "w", encoding="utf-8") as f:
                 json.dump([{"id": "pmid:1", "verdict": "off_topic"},
                            {"id": "pmid:2", "verdict": "on_topic"}], f)
@@ -309,8 +363,11 @@ class TestCmdCollect(unittest.TestCase):
             manifest = audit_bot.collect_adjudication(d, batch_size=20)
             self.assertEqual(manifest["adj_batches"], ["adj_000"])
             with open(os.path.join(d, "batches", "adj_000.json"), encoding="utf-8") as f:
-                ids = [c["id"] for c in json.load(f)["items"]]
+                adj_batch = json.load(f)
+            ids = [c["id"] for c in adj_batch["items"]]
             self.assertEqual(sorted(ids), ["pmid:1", "pmid:5"])
+            # adjudication verdicts go to verdicts/adj_000.json (no screen_ prefix)
+            self.assertEqual(os.path.basename(adj_batch["verdict_out"]), "adj_000.json")
 
 
 class TestPreparePools(unittest.TestCase):
@@ -331,6 +388,51 @@ class TestPreparePools(unittest.TestCase):
             fp, fn = audit_bot.load_batch_items(d)
             self.assertEqual([c["id"] for c in fp], ["pmid:1"])
             self.assertEqual([c["id"] for c in fn], ["pmid:5"])
+
+
+class TestDeriveDedup(unittest.TestCase):
+    def test_builds_sets_and_map_from_full_items(self):
+        lib = [
+            {"pmid": "1", "doi": "10.1/A", "zotero_key": "K1"},
+            {"pmid": "", "doi": "10.2/b", "zotero_key": "K2"},
+            {"pmid": "3", "doi": "", "zotero_key": ""},  # no key -> not in map
+        ]
+        pmids, dois, p2k = audit_bot.derive_dedup(lib)
+        self.assertEqual(pmids, {"1", "3"})
+        self.assertEqual(dois, {"10.1/a", "10.2/b"})  # lowercased
+        self.assertEqual(p2k, {"1": "K1"})
+
+
+class TestDedupBaseline(unittest.TestCase):
+    def test_roundtrip(self):
+        with tempfile.TemporaryDirectory() as d:
+            audit_bot.save_dedup_baseline(d, {"1": "K1"}, {"10.1/a"})
+            pmids, dois, p2k = audit_bot.load_dedup_baseline(d)
+            self.assertEqual(pmids, {"1"})
+            self.assertEqual(dois, {"10.1/a"})
+            self.assertEqual(p2k, {"1": "K1"})
+
+    def test_missing_returns_none(self):
+        with tempfile.TemporaryDirectory() as d:
+            self.assertIsNone(audit_bot.load_dedup_baseline(d))
+
+
+class TestUpdateFeedback(unittest.TestCase):
+    def test_cumulative_per_gene_tally(self):
+        fp = [{"id": "pmid:1", "key": "K1", "gene_or_topic": "TGFBI"}]
+        plan = {"to_trash_keys": ["K1"],
+                "to_rescue": [{"id": "pmid:5", "gene_or_topic": "CRB1, RHO"}],
+                "judged_ids": {"pmid:1", "pmid:5"}}
+        with tempfile.TemporaryDirectory() as d:
+            fpath = os.path.join(d, "data", "audit_feedback.json")
+            audit_bot.update_feedback(fpath, plan, fp, now="2026-07-01T00:00:00Z")
+            audit_bot.update_feedback(fpath, plan, fp, now="2026-07-02T00:00:00Z")
+            with open(fpath, encoding="utf-8") as f:
+                fb = json.load(f)
+        self.assertEqual(fb["genes"]["TGFBI"], {"trashed": 2, "rescued": 0})
+        self.assertEqual(fb["genes"]["CRB1"], {"trashed": 0, "rescued": 2})
+        self.assertEqual(fb["genes"]["RHO"], {"trashed": 0, "rescued": 2})
+        self.assertEqual(fb["updated_at"], "2026-07-02T00:00:00Z")
 
 
 class TestStableId(unittest.TestCase):

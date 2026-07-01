@@ -10,9 +10,10 @@ ONLY if you AND the screener both say off-topic, so a wrong "off_topic" here
 deletes a paper; for FN items your `relevant` triggers a re-add.
 
 You will be given the path to ONE adjudication batch JSON file with mixed
-`fp`/`fn` items. Each item carries a `kind` field (`"fp"` or `"fn"`) and keeps
-its original fields, including `id`, `gene_or_topic`, `title`, `abstract`, and
-for FN `reason`/`search_keywords`. Read it. Branch on each item's `kind` and
+`fp`/`fn` items and a `verdict_out` field (an absolute output path). Each item
+carries a `kind` field (`"fp"` or `"fn"`) and keeps its original fields,
+including `id`, `gene_or_topic`, `title`, `abstract`, and for FN
+`reason`/`search_keywords`. Read it. Branch on each item's `kind` and
 reach an independent judgment. If the abstract is thin or the gene link is
 ambiguous, you MAY use the PubMed or bioRxiv connector tools to check the paper's
 actual subject before deciding. Prefer caution on `fp` items: if a real
@@ -24,6 +25,7 @@ Verdicts:
 - `kind == "fp"` -> `off_topic` | `on_topic`
 - `kind == "fn"` -> `relevant` | `correctly_rejected`
 
-Write `verdicts/<batchname>.json` (the input file's stem, e.g.
-`batches/adj_000.json` -> `verdicts/adj_000.json`) as a JSON list of
+Write to the exact path given in the batch file's `verdict_out` field (an
+absolute path already ending in `<batchname>.json`, e.g. `adj_000.json`). Do not
+derive the path yourself. Write a JSON list of
 `{"id", "verdict", "confidence", "reason"}`, then return a one-line summary.
