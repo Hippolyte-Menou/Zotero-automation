@@ -32,14 +32,13 @@ import datetime
 from collections import defaultdict
 
 from bio_toolkit.clients.openalex import OpenAlexClient
-from genebot.zotero_client import ZoteroGroupClient
+from genebot import runtime, jsonstore
 
 logger = logging.getLogger("inverse_bot")
 
 FLAGGED_PAPERS_PATH = "site/data/flagged_papers.json"
 WHITELIST_PATH = "data/inverse_bot_whitelist.json"
 CACHE_PATH = "data/citation_cache.json"
-LOGS_DIR = "logs"
 DEFAULT_THRESHOLD_K = 0  # flag papers with centrality <= this value
 
 
@@ -48,18 +47,8 @@ DEFAULT_THRESHOLD_K = 0  # flag papers with centrality <= this value
 # ------------------------------------------------------------------
 
 def setup_logging() -> None:
-    os.makedirs(LOGS_DIR, exist_ok=True)
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = os.path.join(LOGS_DIR, f"inverse_bot_{timestamp}.log")
-    fmt = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
-    logging.basicConfig(
-        level=logging.INFO,
-        format=fmt,
-        handlers=[
-            logging.StreamHandler(),
-            logging.FileHandler(log_file, encoding="utf-8"),
-        ],
-    )
+    """Configure logging via the shared bootstrap (dated logs/inverse_bot_*.log)."""
+    runtime.configure_logging("inverse_bot")
 
 
 # ------------------------------------------------------------------
@@ -71,19 +60,17 @@ def load_whitelist(path: str) -> set[str]:
     if not os.path.isfile(path):
         logger.info("No whitelist file found -- no papers will be skipped")
         return set()
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        dismissed = {
-            entry["pmid"]
-            for entry in data.get("dismissed", [])
-            if entry.get("pmid")
-        }
-        logger.info(f"Loaded {len(dismissed)} dismissed PMIDs from whitelist")
-        return dismissed
-    except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"Could not load whitelist: {e}")
+    data = jsonstore.read_json(path, None)
+    if not isinstance(data, dict):
+        logger.warning(f"Could not load whitelist (missing or corrupt): {path}")
         return set()
+    dismissed = {
+        entry["pmid"]
+        for entry in data.get("dismissed", [])
+        if entry.get("pmid")
+    }
+    logger.info(f"Loaded {len(dismissed)} dismissed PMIDs from whitelist")
+    return dismissed
 
 
 # ------------------------------------------------------------------
@@ -92,23 +79,22 @@ def load_whitelist(path: str) -> set[str]:
 
 def load_cache(path: str) -> dict:
     """Load citation cache. Returns empty dict if missing or unreadable."""
-    if not os.path.isfile(path):
+    cache = jsonstore.read_json(path, None)
+    if cache is None:
+        # Distinguish "missing" (silent, expected on first run) from "present
+        # but unreadable" (warn -- otherwise a corrupt cache silently forces a
+        # full OpenAlex re-fetch with no explanation).
+        if os.path.isfile(path):
+            logger.warning(f"Could not load citation cache (corrupt?): {path}")
         return {}
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"Could not load citation cache: {e}")
-        return {}
+    return cache
 
 
 def save_cache(cache: dict, path: str) -> None:
     """Persist updated citation cache."""
     cache["last_run_date"] = datetime.date.today().isoformat()
     cache.setdefault("version", 1)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False)
+    jsonstore.write_json(path, cache)
     inv_count = len(cache.get("inverse_bot", {}))
     logger.info(
         f"Saved citation cache ({inv_count} inverse_bot entries) -> {path}"
@@ -386,8 +372,6 @@ def save_flagged_papers(
     path: str,
 ) -> None:
     """Write site/data/flagged_papers.json."""
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-
     # Build hierarchy dict from flagged articles (same format as near_misses.json)
     hierarchy: dict[str, set] = {}
     for a in flagged:
@@ -407,8 +391,7 @@ def save_flagged_papers(
         "hierarchy": hierarchy_sorted,
         "articles": flagged,
     }
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    jsonstore.write_json(path, output, indent=2)
     logger.info(f"Saved {len(flagged)} flagged papers -> {path}")
 
 
@@ -453,13 +436,11 @@ def main() -> None:
     setup_logging()
     logger.info("=== Inverse Bot starting ===")
 
-    # --- Credentials ---
-    api_key = os.environ.get("ZOTERO_API_KEY", "")
-    group_id = os.environ.get("ZOTERO_GROUP_ID", "")
-    oa_key = os.environ.get("OPENALEX_API_KEY")
-
-    if not api_key or not group_id:
-        logger.error("ZOTERO_API_KEY and ZOTERO_GROUP_ID must be set")
+    # --- Clients via shared bootstrap ---
+    try:
+        zotero = runtime.make_zotero_client()
+    except RuntimeError as e:
+        logger.error(f"Missing Zotero credentials: {e}")
         sys.exit(1)
 
     threshold_k = DEFAULT_THRESHOLD_K
@@ -468,7 +449,6 @@ def main() -> None:
     whitelist_pmids = load_whitelist(WHITELIST_PATH)
 
     # --- Fetch Zotero library ---
-    zotero = ZoteroGroupClient(group_id, api_key)
     all_items = zotero.get_all_items_full()
     logger.info(f"Retrieved {len(all_items)} library items with identifiers")
 
@@ -485,7 +465,7 @@ def main() -> None:
     cache = load_cache(CACHE_PATH)
 
     # --- Resolve OpenAlex IDs and reference lists ---
-    openalex = OpenAlexClient(api_key=oa_key)
+    openalex = runtime.make_openalex_client()
     work_map, n_cached, n_fetched, n_unresolvable = resolve_library_to_openalex(
         items, openalex, cache
     )

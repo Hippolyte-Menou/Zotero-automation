@@ -26,6 +26,7 @@ import yaml
 
 from bio_toolkit.clients.hgnc import get_gene_aliases
 from bio_toolkit.clients.openalex import OpenAlexClient
+from genebot import runtime, jsonstore
 from genebot.zotero_client import ZoteroGroupClient
 from genebot.rejection_log import RejectionLog
 
@@ -107,6 +108,46 @@ def _register_new_records(
             existing_dois.add(r["doi"].lower())
 
 
+def screen_works(
+    works: list[dict],
+    *,
+    text_excl: list[str],
+    existing_pmids: set[str],
+    existing_dois: set[str],
+    rejection_log,
+    refs_out: dict,
+) -> list[dict]:
+    """Screen already-fetched OpenAlex works into new, uploadable records.
+
+    This is the discovery-pass screening step shared by every source (search,
+    re-search, citation candidates, recent) in both the gene and topic
+    pipelines. It:
+
+      1. preserves each work's ``referenced_works`` into ``refs_out`` (keyed by
+         PMID) for later relation-linking,
+      2. converts works to Zotero records,
+      3. applies the text-exclusion filter (``text_excl=[]`` = no-op, for
+         sources the OpenAlex query already excluded), and
+      4. drops records already represented in the library (dedup).
+
+    MeSH exclusion is intentionally *not* done here: callers apply it on the raw
+    works beforehand because the MeSH-filtered list is sometimes reused as the
+    citation-expansion seed set. Returns the records that are new and should be
+    uploaded.
+    """
+    for w in works:
+        pmid = OpenAlexClient.extract_pmid(w)
+        if pmid:
+            refs_out.setdefault(pmid, w.get("referenced_works", []))
+    records = [OpenAlexClient.work_to_record(w) for w in works]
+    records = filter_records_by_text(records, text_excl, rejection_log)
+    return [
+        r
+        for r in records
+        if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
+    ]
+
+
 
 def _is_re_search_due(
     symbol: str, interval_weeks: int, citation_cache: dict | None
@@ -180,9 +221,7 @@ def save_citation_cache(cache: dict, path: str = "data/citation_cache.json") -> 
     """Save citation cache for next run."""
     cache["last_run_date"] = datetime.date.today().isoformat()
     cache.setdefault("version", 1)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False)
+    jsonstore.write_json(path, cache)
     seed_count = len(cache.get("seeds", {}))
     logger.info(f"Saved citation cache: {seed_count} seeds -> {path}")
 
@@ -220,9 +259,7 @@ def load_checkpoint(path: str = CHECKPOINT_PATH) -> dict | None:
 
 def save_checkpoint(checkpoint: dict, path: str = CHECKPOINT_PATH) -> None:
     """Write checkpoint to disk."""
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(checkpoint, f, ensure_ascii=False, indent=1)
+    jsonstore.write_json(path, checkpoint, indent=1)
 
 
 def clear_checkpoint(path: str = CHECKPOINT_PATH) -> None:
@@ -373,19 +410,14 @@ def build_run_record(
 
 def save_run_history(record: dict, path: str = RUN_HISTORY_PATH) -> None:
     """Append a run record to the cumulative run history file."""
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    history = {"runs": []}
-    if os.path.isfile(path):
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                history = json.load(f)
-        except (json.JSONDecodeError, OSError) as e:
-            logger.warning(f"Could not load run history, starting fresh: {e}")
-            history = {"runs": []}
+    history = jsonstore.read_json(path, None)
+    if not isinstance(history, dict) or "runs" not in history:
+        if os.path.isfile(path):
+            logger.warning("Could not load run history, starting fresh")
+        history = {"runs": []}
 
     history["runs"].append(record)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(history, f, ensure_ascii=False, indent=2)
+    jsonstore.write_json(path, history, indent=2)
     logger.info(f"Saved run history ({len(history['runs'])} runs) -> {path}")
 
 
@@ -464,18 +496,15 @@ def write_github_summary(record: dict) -> None:
 
 def load_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> list[dict]:
     """Load rescue queue from JSON file. Returns empty list if not found."""
-    if not os.path.isfile(path):
+    entries = jsonstore.read_json(path, None)
+    if entries is None:
+        if os.path.isfile(path):
+            logger.warning(f"Could not load rescue queue from {path}")
         return []
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            entries = json.load(f)
-        if isinstance(entries, list):
-            return entries
-        logger.warning(f"Rescue queue at {path} is not a list, ignoring")
-        return []
-    except (json.JSONDecodeError, OSError) as e:
-        logger.warning(f"Could not load rescue queue from {path}: {e}")
-        return []
+    if isinstance(entries, list):
+        return entries
+    logger.warning(f"Rescue queue at {path} is not a list, ignoring")
+    return []
 
 
 def process_rescue_queue(
@@ -608,17 +637,9 @@ def save_recent_additions(
 
     Keeps entries from the last 8 weeks (2 run cycles).
     """
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-
     # Load existing
-    existing: list[dict] = []
-    if os.path.isfile(path):
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                prev = json.load(f)
-            existing = prev.get("additions", [])
-        except (json.JSONDecodeError, OSError):
-            existing = []
+    prev = jsonstore.read_json(path, {})
+    existing = prev.get("additions", []) if isinstance(prev, dict) else []
 
     # Merge: append new, dedup by PMID
     seen_keys: set[str] = set()
@@ -643,8 +664,7 @@ def save_recent_additions(
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "additions": merged,
     }
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
+    jsonstore.write_json(path, data, indent=1)
     logger.info(f"Saved recent additions: {len(merged)} entries -> {path}")
 
 
@@ -753,7 +773,6 @@ def process_gene(
             f"using as citation seeds"
         )
         seed_works = openalex.fetch_works_by_pmids(collection_pmids)
-        all_records = seed_works
         new_records = []
         library_size = len(collection_pmids)
 
@@ -774,18 +793,15 @@ def process_gene(
                     re_search_works = openalex.filter_by_mesh(
                         re_search_works, mesh_excl, rejection_log=rejection_log
                     )
-                for w in re_search_works:
-                    pmid = OpenAlexClient.extract_pmid(w)
-                    if pmid:
-                        pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
-                re_search_records = [
-                    OpenAlexClient.work_to_record(w) for w in re_search_works
-                ]
-                re_search_records = [
-                    r for r in re_search_records
-                    if r.get("pmid")
-                    and not _is_duplicate(r, existing_pmids, existing_dois)
-                ]
+                # text_excl=[]: search_gene already applied exclude_terms.
+                re_search_records = screen_works(
+                    re_search_works,
+                    text_excl=[],
+                    existing_pmids=existing_pmids,
+                    existing_dois=existing_dois,
+                    rejection_log=rejection_log,
+                    refs_out=pmid_to_oa_refs,
+                )
                 logger.info(
                     f"{symbol}: re-search found {len(re_search_works)} works, "
                     f"{len(re_search_records)} new after dedup"
@@ -825,26 +841,24 @@ def process_gene(
                 "cit_candidates": 0, "cit_added": 0, "recent_added": 0
             }
 
-        # Apply MeSH exclusion on raw works before converting to records
+        # Apply MeSH exclusion on raw works before screening (kept here because
+        # the MeSH-filtered seed set is reused for citation expansion below).
         if mesh_excl:
             seed_works = openalex.filter_by_mesh(
                 seed_works, mesh_excl, rejection_log=rejection_log
             )
-
-        # Preserve referenced_works before flattening
-        for w in seed_works:
-            pmid = OpenAlexClient.extract_pmid(w)
-            if pmid:
-                pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
-
-        all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
-        new_records = [
-            r for r in all_records
-            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-        ]
+        # text_excl=[]: search_gene already excluded these terms at the API level.
+        new_records = screen_works(
+            seed_works,
+            text_excl=[],
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            rejection_log=rejection_log,
+            refs_out=pmid_to_oa_refs,
+        )
         logger.info(
-            f"{symbol}: {len(all_records)} from OpenAlex search, "
-            f"{len(new_records)} new ({len(all_records) - len(new_records)} already in library)"
+            f"{symbol}: {len(seed_works)} from OpenAlex search, "
+            f"{len(new_records)} new ({len(seed_works) - len(new_records)} already in library)"
         )
 
         if new_records:
@@ -902,23 +916,16 @@ def process_gene(
     if candidates:
         # Candidates already have full metadata attached (key 'work')
         # Preserve referenced_works before flattening
-        for c in candidates:
-            w = c.get("work", {})
-            pmid = OpenAlexClient.extract_pmid(w)
-            if pmid:
-                pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
-
-        candidate_records = [
-            OpenAlexClient.work_to_record(c["work"]) for c in candidates
-        ]
-
-        # Text filter + dedup
-        candidate_records = filter_records_by_text(candidate_records, text_excl, rejection_log)
-
-        candidate_records = [
-            r for r in candidate_records
-            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-        ]
+        # Candidates carry full metadata under 'work'; MeSH was already applied
+        # inside expand_citations, so screening only text-filters + dedups here.
+        candidate_records = screen_works(
+            [c["work"] for c in candidates],
+            text_excl=text_excl,
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            rejection_log=rejection_log,
+            refs_out=pmid_to_oa_refs,
+        )
 
         if candidate_records:
             cit_stats = zot.add_papers(
@@ -941,31 +948,19 @@ def process_gene(
     )
     recent_added = 0
     if recent_works:
-        # MeSH exclusion on raw works before converting to records
+        # MeSH exclusion on raw works, then the shared screening step.
         if mesh_excl:
             recent_works = openalex.filter_by_mesh(
                 recent_works, mesh_excl, rejection_log=rejection_log
             )
-
-        # Preserve referenced_works before flattening
-        for w in recent_works:
-            pmid = OpenAlexClient.extract_pmid(w)
-            if pmid:
-                pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
-
-        recent_records = [
-            OpenAlexClient.work_to_record(w) for w in recent_works
-        ]
-
-        # Text filter
-        recent_records = filter_records_by_text(recent_records, text_excl, rejection_log)
-
-        # Dedup
-        recent_records = [
-            r for r in recent_records
-            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-        ]
-
+        recent_records = screen_works(
+            recent_works,
+            text_excl=text_excl,
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            rejection_log=rejection_log,
+            refs_out=pmid_to_oa_refs,
+        )
         logger.info(
             f"{symbol}: recent-papers pass: {len(recent_works)} found, "
             f"{len(recent_records)} new after dedup"
@@ -1007,7 +1002,7 @@ def process_gene(
 
     return {
         "symbol": symbol,
-        "found": len(all_records),
+        "found": len(seed_works),
         "new": len(new_records),
         **search_stats,
         "cit_candidates": len(candidates),
@@ -1108,7 +1103,6 @@ def process_topic_subtopic(
             f"using as citation seeds"
         )
         seed_works = openalex.fetch_works_by_pmids(collection_pmids)
-        all_records = seed_works
         library_size = len(collection_pmids)
     else:
         # Empty collection -- run OpenAlex search
@@ -1133,20 +1127,19 @@ def process_topic_subtopic(
                 "cit_candidates": 0, "cit_added": 0, "recent_added": 0,
             }
 
-        # Preserve referenced_works
-        for w in seed_works:
-            pmid = OpenAlexClient.extract_pmid(w)
-            if pmid:
-                pmid_to_oa_refs[pmid] = w.get("referenced_works", [])
-
-        all_records = [OpenAlexClient.work_to_record(w) for w in seed_works]
-        new_records = [
-            r for r in all_records
-            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-        ]
+        # No MeSH filter here (search_topic already scopes results); the query
+        # also applied text exclusions, so text_excl=[].
+        new_records = screen_works(
+            seed_works,
+            text_excl=[],
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            rejection_log=rejection_log,
+            refs_out=pmid_to_oa_refs,
+        )
 
         logger.info(
-            f"{sub_name}: {len(all_records)} from OpenAlex, "
+            f"{sub_name}: {len(seed_works)} from OpenAlex, "
             f"{len(new_records)} new"
         )
 
@@ -1163,7 +1156,7 @@ def process_topic_subtopic(
             _track_additions(new_records, sub_name, category_name, "source:search", additions_tracker, added_indices=search_stats.get("added_indices"))
             _register_new_records(new_records, existing_pmids, existing_dois, new_pmids, added_indices=search_stats.get("added_indices"))
 
-        library_size = len(all_records)
+        library_size = len(seed_works)
 
     # 3. Citation expansion (if enabled)
     candidates: list[dict] = []
@@ -1185,23 +1178,15 @@ def process_topic_subtopic(
         )
 
         if candidates:
-            for c in candidates:
-                w = c.get("work", {})
-                pmid = OpenAlexClient.extract_pmid(w)
-                if pmid:
-                    pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
-
-            candidate_records = [
-                OpenAlexClient.work_to_record(c["work"]) for c in candidates
-            ]
-
-            # Text filter
-            candidate_records = filter_records_by_text(candidate_records, text_excl, rejection_log)
-
-            candidate_records = [
-                r for r in candidate_records
-                if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-            ]
+            # MeSH already applied in expand_citations; screen text + dedup.
+            candidate_records = screen_works(
+                [c["work"] for c in candidates],
+                text_excl=text_excl,
+                existing_pmids=existing_pmids,
+                existing_dois=existing_dois,
+                rejection_log=rejection_log,
+                refs_out=pmid_to_oa_refs,
+            )
 
             if candidate_records:
                 extra_tags = [category_name, sub_name]
@@ -1231,20 +1216,14 @@ def process_topic_subtopic(
             recent_works = openalex.filter_by_mesh(
                 recent_works, mesh_excl, rejection_log=rejection_log
             )
-        for w in recent_works:
-            pmid = OpenAlexClient.extract_pmid(w)
-            if pmid:
-                pmid_to_oa_refs.setdefault(pmid, w.get("referenced_works", []))
-
-        recent_records = [OpenAlexClient.work_to_record(w) for w in recent_works]
-
-        recent_records = filter_records_by_text(recent_records, text_excl, rejection_log)
-
-        recent_records = [
-            r for r in recent_records
-            if r.get("pmid") and not _is_duplicate(r, existing_pmids, existing_dois)
-        ]
-
+        recent_records = screen_works(
+            recent_works,
+            text_excl=text_excl,
+            existing_pmids=existing_pmids,
+            existing_dois=existing_dois,
+            rejection_log=rejection_log,
+            refs_out=pmid_to_oa_refs,
+        )
         logger.info(
             f"{sub_name}: recent-papers pass: {len(recent_works)} found, "
             f"{len(recent_records)} new after dedup"
@@ -1290,7 +1269,7 @@ def process_topic_subtopic(
 
     return {
         "name": f"{category_name}/{sub_name}",
-        "found": len(all_records),
+        "found": len(seed_works),
         "new": len(new_records),
         "added": search_stats["added"],
         "failed": search_stats["failed"],
@@ -1324,15 +1303,7 @@ def _flush_incremental_state(
 
 
 def main():
-    os.makedirs("logs", exist_ok=True)
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        handlers=[
-            logging.StreamHandler(sys.stdout),
-            logging.FileHandler(f"logs/run_{datetime.date.today()}.log"),
-        ],
-    )
+    runtime.configure_logging("run")
 
     import argparse
 
@@ -1380,50 +1351,30 @@ def main():
             elif env_categories:
                 topic_category_filter = env_categories
 
-    # Credentials from env
-    zotero_api_key = os.environ.get("ZOTERO_API_KEY")
-    zotero_group_id = os.environ.get("ZOTERO_GROUP_ID")
-
-    if not zotero_api_key or not zotero_group_id:
-        logger.error(
-            "Missing required env vars. Set: ZOTERO_API_KEY, ZOTERO_GROUP_ID"
-        )
-        sys.exit(1)
-
-    # OpenAlex client
-    openalex_key = os.environ.get("OPENALEX_API_KEY") or None
-    openalex = OpenAlexClient(api_key=openalex_key)
-    if openalex_key:
-        logger.info("OpenAlex client initialized (with API key)")
-    else:
-        logger.info("OpenAlex client initialized (no API key -- lower rate limit)")
-
-    # Init Zotero client and fetch existing items once (pmid -> zotero_key)
-    # Shared between gene and topic pipelines for cross-deduplication.
-    zot = ZoteroGroupClient(
-        group_id=zotero_group_id,
-        api_key=zotero_api_key,
-        delay=1.0,
-    )
+    # OpenAlex + Zotero clients via the shared bootstrap (one seam for
+    # credential resolution, client construction, and logging across all bots).
+    openalex = runtime.make_openalex_client()
     try:
-        pmid_to_key: dict[str, str] = zot.get_existing_items()
+        zot = runtime.make_zotero_client(delay=1.0)
+    except RuntimeError as e:
+        logger.error(f"Missing Zotero credentials: {e}")
+        sys.exit(1)
+    try:
+        baseline = zot.get_dedup_baseline()
     except RuntimeError as e:
         # The dedup baseline could not be fetched. Proceeding with an empty
         # baseline would treat every found paper as new and re-upload the whole
         # library, so abort the run instead.
         logger.error(f"Aborting run to avoid duplicate uploads: {e}")
         sys.exit(1)
-    existing_pmids: set[str] = set(pmid_to_key.keys())
-    existing_dois: set[str] = set(zot.get_existing_dois().keys())
-
-    trashed_pmids = zot.get_trashed_pmids()
-    if trashed_pmids:
-        logger.info(f"Blocking {len(trashed_pmids)} trashed PMIDs from re-upload")
-        existing_pmids.update(trashed_pmids)
-    trashed_dois = zot.get_trashed_dois()
-    if trashed_dois:
-        logger.info(f"Blocking {len(trashed_dois)} trashed DOIs from re-upload")
-        existing_dois.update(trashed_dois)
+    pmid_to_key: dict[str, str] = baseline.pmid_to_key
+    if baseline.trashed_pmids:
+        logger.info(f"Blocking {len(baseline.trashed_pmids)} trashed PMIDs from re-upload")
+    if baseline.trashed_dois:
+        logger.info(f"Blocking {len(baseline.trashed_dois)} trashed DOIs from re-upload")
+    # existing_pmids / existing_dois bundle active + trashed for the dedup gate.
+    existing_pmids: set[str] = baseline.existing_pmids
+    existing_dois: set[str] = baseline.existing_dois
 
     rejection_log = RejectionLog()
     additions_tracker: list[dict] = []
@@ -1697,9 +1648,7 @@ def main():
         )
         if failed_entries:
             # Write back failed entries for retry on next run
-            os.makedirs(os.path.dirname(RESCUE_QUEUE_PATH), exist_ok=True)
-            with open(RESCUE_QUEUE_PATH, "w", encoding="utf-8") as f:
-                json.dump(failed_entries, f, ensure_ascii=False, indent=2)
+            jsonstore.write_json(RESCUE_QUEUE_PATH, failed_entries, indent=2)
             logger.warning(
                 f"Rescue queue: {len(failed_entries)} entries kept for retry"
             )

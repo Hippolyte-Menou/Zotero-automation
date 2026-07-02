@@ -3,11 +3,47 @@
 import re
 import time
 import logging
+from dataclasses import dataclass
 import httpx
 from pyzotero import zotero
 from pyzotero import errors as zotero_exceptions
 
+from genebot import identifiers
+
 logger = logging.getLogger(__name__)
+
+
+@dataclass(frozen=True)
+class DedupBaseline:
+    """The identifiers already represented in the library -- the single object a
+    run consults to decide whether a freshly discovered paper is new.
+
+    - ``pmid_to_key`` / ``doi_to_key`` map *active* (non-trashed) identifiers to
+      their Zotero item keys.
+    - ``trashed_pmids`` / ``trashed_dois`` are deliberately deleted identifiers,
+      blocked from re-upload.
+
+    ``existing_pmids`` / ``existing_dois`` bundle active + trashed for the dedup
+    gate. Callers ask this one object instead of coordinating four ordered method
+    calls (the old ``get_existing_items`` -> ``get_existing_dois`` -> trash dance,
+    where a wrong order silently yielded an empty half and risked mass duplicate
+    uploads).
+    """
+
+    pmid_to_key: dict
+    doi_to_key: dict
+    trashed_pmids: frozenset = frozenset()
+    trashed_dois: frozenset = frozenset()
+
+    @property
+    def existing_pmids(self) -> set:
+        """Active + trashed PMIDs -- the set a new paper must miss to be uploaded."""
+        return set(self.pmid_to_key) | set(self.trashed_pmids)
+
+    @property
+    def existing_dois(self) -> set:
+        """Active + trashed DOIs -- the set a new paper must miss to be uploaded."""
+        return set(self.doi_to_key) | set(self.trashed_dois)
 
 
 def _is_retryable(exc: Exception) -> bool:
@@ -140,71 +176,18 @@ class ZoteroGroupClient:
     # Items
     # ------------------------------------------------------------------
 
-    # Regex patterns for PMID extraction (compiled once at class level)
-    # Matches: "PMID: 123", "PMID:123", "pmid 123", "PubMed ID: 123"
-    _RE_PMID_PREFIX = re.compile(
-        r"(?:pmid|pubmed\s*id)\s*:?\s*(\d+)", re.IGNORECASE
-    )
-    # Matches current PubMed URLs: pubmed.ncbi.nlm.nih.gov/12345
-    _RE_PUBMED_NEW = re.compile(
-        r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)"
-    )
-    # Matches old-style PubMed URLs: ncbi.nlm.nih.gov/pubmed/12345
-    _RE_PUBMED_OLD = re.compile(
-        r"ncbi\.nlm\.nih\.gov/pubmed/(\d+)"
-    )
-
+    # Identifier extraction lives in genebot.identifiers (one canonical home,
+    # shared with dedup_library / pdf_helpers / audit_bot). These thin static
+    # methods are kept as the class-scoped entry points internal call sites use.
     @staticmethod
     def _extract_pmid_from_data(data: dict) -> str:
-        """Extract PMID from a Zotero item's data dict.
-
-        Checks (in order):
-        1. Extra field for PMID prefix variants (PMID:, pmid, PubMed ID:, etc.)
-        2. URL field for PubMed URLs (current and old-style domains)
-        3. Extra field for embedded PubMed URLs
-        """
-        cls = ZoteroGroupClient
-
-        extra = data.get("extra", "")
-        if extra:
-            m = cls._RE_PMID_PREFIX.search(extra)
-            if m:
-                return m.group(1)
-
-        # Check url field for both PubMed URL formats
-        url = data.get("url", "")
-        if url:
-            for pattern in (cls._RE_PUBMED_NEW, cls._RE_PUBMED_OLD):
-                m = pattern.search(url)
-                if m:
-                    return m.group(1)
-
-        # Check extra field for embedded PubMed URLs (some translators dump URLs there)
-        if extra:
-            for pattern in (cls._RE_PUBMED_NEW, cls._RE_PUBMED_OLD):
-                m = pattern.search(extra)
-                if m:
-                    return m.group(1)
-
-        return ""
+        """Extract a bare PMID from a Zotero item's data dict (see identifiers.extract_pmid)."""
+        return identifiers.extract_pmid(data)
 
     @staticmethod
     def _extract_doi_from_data(data: dict) -> str:
-        """Extract and normalise DOI from a Zotero item's data dict.
-
-        Checks the native DOI field first, then falls back to the extra field.
-        Returns a bare DOI (no URL prefix) in lowercase, or empty string.
-        """
-        raw = data.get("DOI", "")
-        if not raw:
-            extra = data.get("extra", "")
-            if extra:
-                m = re.search(r"doi\s*:?\s*(10\.\S+)", extra, re.IGNORECASE)
-                if m:
-                    raw = m.group(1)
-        if raw:
-            return raw.replace("https://doi.org/", "").strip().lower()
-        return ""
+        """Extract a normalised DOI from a Zotero item's data dict (see identifiers.extract_doi)."""
+        return identifiers.extract_doi(data)
 
     def get_existing_items(self) -> dict[str, str]:
         """
@@ -282,6 +265,32 @@ class ZoteroGroupClient:
     def get_trashed_dois(self) -> set[str]:
         """Return DOIs collected by the last get_trashed_pmids() call."""
         return getattr(self, "_trashed_dois", set())
+
+    def get_dedup_baseline(self, *, include_trashed: bool = True) -> DedupBaseline:
+        """Fetch the full dedup baseline in one call, returned as a DedupBaseline.
+
+        Encapsulates the fetch ordering that used to leak to callers
+        (``get_existing_items`` had to precede ``get_existing_dois``; likewise
+        for trash). Propagates the ``RuntimeError`` from ``get_existing_items``
+        when the active-item fetch fails after retries -- an empty baseline would
+        re-upload the whole library as duplicates, so callers must abort.
+
+        ``include_trashed=False`` yields an active-only baseline (matching the
+        cached baseline the audit bot builds from a single full-library fetch).
+        """
+        pmid_to_key = self.get_existing_items()
+        doi_to_key = dict(self.get_existing_dois())
+        trashed_pmids: set[str] = set()
+        trashed_dois: set[str] = set()
+        if include_trashed:
+            trashed_pmids = self.get_trashed_pmids()
+            trashed_dois = {d.lower() for d in self.get_trashed_dois()}
+        return DedupBaseline(
+            pmid_to_key=pmid_to_key,
+            doi_to_key=doi_to_key,
+            trashed_pmids=frozenset(trashed_pmids),
+            trashed_dois=frozenset(trashed_dois),
+        )
 
     @staticmethod
     def _get_top_level_ancestor(key: str, parent_map: dict) -> str:

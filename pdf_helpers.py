@@ -8,7 +8,6 @@ linking, download, and validation.
 import copy
 import logging
 import os
-import re
 from pathlib import Path
 
 import requests
@@ -16,6 +15,7 @@ from pyzotero import zotero
 
 from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
 from bio_toolkit.util.cache import pdf_corpus_dir
+from genebot import identifiers
 
 logger = logging.getLogger(__name__)
 
@@ -114,21 +114,13 @@ def iter_items_missing_pdfs(
 # ---------------------------------------------------------------------------
 
 def extract_doi(item: dict) -> str | None:
-    """Extract DOI from a Zotero item."""
-    doi = item["data"].get("DOI", "").strip()
-    if doi:
-        doi = re.sub(r"^https?://doi\.org/", "", doi)
-        return doi
-    url = item["data"].get("url", "")
-    m = re.search(r"doi\.org/(10\.\S+)", url)
-    return m.group(1) if m else None
+    """Extract DOI from a Zotero item (canonical logic in genebot.identifiers)."""
+    return identifiers.extract_doi(item["data"]) or None
 
 
 def extract_pmcid(item: dict) -> str | None:
-    """Extract PMCID from a Zotero item's extra field."""
-    extra = item["data"].get("extra", "")
-    m = re.search(r"PMCID:\s*(PMC\d+)", extra)
-    return m.group(1) if m else None
+    """Extract PMCID from a Zotero item's extra field (see genebot.identifiers)."""
+    return identifiers.extract_pmcid(item["data"]) or None
 
 
 def format_title(item: dict, max_len: int = 60) -> str:

@@ -20,6 +20,8 @@ import json
 import logging
 import os
 
+from genebot import runtime, jsonstore
+
 logger = logging.getLogger("audit_bot")
 
 # Anchor default paths to the repo (this file's dir) so the tool is
@@ -44,26 +46,18 @@ def stable_id(rec: dict) -> str:
 
 def load_ledger(path: str) -> set:
     """Return the set of audited ids; empty set if missing or unreadable."""
-    if not os.path.isfile(path):
-        return set()
-    try:
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-        return set(data.get("audited_ids", []))
-    except (json.JSONDecodeError, OSError):
-        return set()
+    data = jsonstore.read_json(path, {})
+    return set(data.get("audited_ids", [])) if isinstance(data, dict) else set()
 
 
 def save_ledger(path: str, audited_ids: set, *, now: str = None) -> None:
     """Write the ledger (sorted ids + updated_at). `now` injectable for tests."""
-    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     payload = {
         "audited_ids": sorted(audited_ids),
         "updated_at": now or datetime.datetime.now(datetime.timezone.utc)
         .strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=1)
+    jsonstore.write_json(path, payload, indent=1)
 
 
 def select_fp_candidates(library_items: list, audited: set, max_items: int) -> list:
@@ -161,10 +155,11 @@ def derive_dedup(library_items: list) -> tuple:
 
 def save_dedup_baseline(work_dir: str, pmid_to_key: dict, existing_dois: set) -> None:
     """Cache the dedup baseline so --apply need not re-fetch the whole library."""
-    os.makedirs(work_dir, exist_ok=True)
-    with open(os.path.join(work_dir, "dedup_baseline.json"), "w", encoding="utf-8") as f:
-        json.dump({"pmid_to_key": pmid_to_key,
-                   "existing_dois": sorted(existing_dois)}, f, indent=1)
+    jsonstore.write_json(
+        os.path.join(work_dir, "dedup_baseline.json"),
+        {"pmid_to_key": pmid_to_key, "existing_dois": sorted(existing_dois)},
+        indent=1,
+    )
 
 
 def load_dedup_baseline(work_dir: str):
@@ -364,20 +359,11 @@ def prepare_pools(*, work_dir, library_items, near_misses, audited,
 
 
 def _read_json(path: str, default):
-    if not os.path.isfile(path):
-        return default
-    try:
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, OSError):
-        return default
+    return jsonstore.read_json(path, default)
 
 
 def cmd_prepare(args) -> None:
-    from genebot.zotero_client import ZoteroGroupClient
-    from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
-
-    zot = ZoteroGroupClient(str(ZOTERO_GROUP_ID), zotero_api_key())
+    zot = runtime.make_zotero_client()
     # ONE full-library fetch serves both FP selection and the dedup baseline
     # (previously two separate ~20k-item traversals). get_all_items_full()
     # already carries pmid/doi/zotero_key and skips only items lacking both, so
@@ -537,16 +523,12 @@ def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *
 
 def cmd_apply(args) -> None:
     import run
-    from genebot.zotero_client import ZoteroGroupClient
-    from bio_toolkit.clients.openalex import OpenAlexClient
-    from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
-
     fp, fn = load_batch_items(args.work_dir)
     screen = load_verdicts(args.work_dir, "screen_")
     adj = load_verdicts(args.work_dir, "adj_")
 
-    zot = ZoteroGroupClient(str(ZOTERO_GROUP_ID), zotero_api_key())
-    openalex = OpenAlexClient()
+    zot = runtime.make_zotero_client()
+    openalex = runtime.make_openalex_client()
 
     # Reuse the dedup baseline cached by --prepare (avoids a third full-library
     # fetch this sweep); fall back to a live fetch if the cache is missing.
@@ -554,11 +536,12 @@ def cmd_apply(args) -> None:
     if baseline is not None:
         existing_pmids, existing_dois, pmid_to_key = baseline
     else:
-        pmid_to_key = zot.get_existing_items()   # raises on failure (safety)
-        existing_pmids = set(pmid_to_key)
-        # Ordering matters: get_existing_dois() returns the dict the preceding
-        # get_existing_items() populated; calling it first yields an empty set.
-        existing_dois = {d.lower() for d in zot.get_existing_dois()}
+        # Active-only baseline (matches the cached one built from a single
+        # full-library fetch in --prepare). One call, no fetch-ordering footgun.
+        live = zot.get_dedup_baseline(include_trashed=False)  # raises on failure (safety)
+        pmid_to_key = live.pmid_to_key
+        existing_pmids = live.existing_pmids
+        existing_dois = live.existing_dois
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
     def rescue_fn(entries):
@@ -576,7 +559,7 @@ def cmd_apply(args) -> None:
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+    runtime.configure_logging()
     p = argparse.ArgumentParser(description="Library audit bot")
     p.add_argument("--data-dir", default=os.path.join(_HERE, "site", "data"))
     p.add_argument("--work-dir", default=os.path.join(_HERE, "audit_work"))
@@ -596,12 +579,19 @@ def main() -> None:
     mode.add_argument("--collect", action="store_true")
     mode.add_argument("--apply", action="store_true")
     args = p.parse_args()
-    if args.prepare:
-        cmd_prepare(args)
-    elif args.collect:
-        cmd_collect(args)
-    elif args.apply:
-        cmd_apply(args)
+    # Fail cleanly (matching run/inverse_bot/dedup) instead of dumping a
+    # traceback -- covers missing credentials from runtime.make_zotero_client
+    # and the empty-library guard in cmd_prepare.
+    try:
+        if args.prepare:
+            cmd_prepare(args)
+        elif args.collect:
+            cmd_collect(args)
+        elif args.apply:
+            cmd_apply(args)
+    except RuntimeError as e:
+        logger.error("audit_bot: %s", e)
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

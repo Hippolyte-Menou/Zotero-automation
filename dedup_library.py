@@ -27,6 +27,7 @@ import httpx
 from pyzotero import errors as zotero_exceptions
 
 from genebot.zotero_client import ZoteroGroupClient
+from genebot import identifiers, runtime
 
 logger = logging.getLogger(__name__)
 
@@ -94,8 +95,8 @@ def _cluster_items(items: list[dict]) -> dict[str, list[dict]]:
         key_to_item[key] = item
         uf.find(key)
 
-        doi = ZoteroGroupClient._extract_doi_from_data(data)
-        pmid = ZoteroGroupClient._extract_pmid_from_data(data)
+        doi = identifiers.extract_doi(data)
+        pmid = identifiers.extract_pmid(data)
 
         if _is_valid_doi(doi):
             doi_map[doi].append(key)
@@ -125,9 +126,9 @@ def _score(item: dict) -> int:
     """Higher = more complete metadata (better canonical candidate)."""
     d = item.get("data", {})
     s = 0
-    if ZoteroGroupClient._extract_doi_from_data(d):
+    if identifiers.extract_doi(d):
         s += 10
-    if ZoteroGroupClient._extract_pmid_from_data(d):
+    if identifiers.extract_pmid(d):
         s += 10
     if d.get("abstractNote", "").strip():
         s += 5
@@ -176,8 +177,8 @@ def _merge_metadata(canonical: dict, duplicates: list[dict]) -> list[str]:
     data = canonical["data"]
     changes: list[str] = []
 
-    canon_doi = ZoteroGroupClient._extract_doi_from_data(data)
-    canon_pmid = ZoteroGroupClient._extract_pmid_from_data(data)
+    canon_doi = identifiers.extract_doi(data)
+    canon_pmid = identifiers.extract_pmid(data)
 
     for dup in duplicates:
         dd = dup["data"]
@@ -185,7 +186,7 @@ def _merge_metadata(canonical: dict, duplicates: list[dict]) -> list[str]:
 
         # -- DOI backfill -------------------------------------------
         if not canon_doi:
-            dup_doi = ZoteroGroupClient._extract_doi_from_data(dd)
+            dup_doi = identifiers.extract_doi(dd)
             if dup_doi:
                 data["DOI"] = dup_doi
                 canon_doi = dup_doi
@@ -193,7 +194,7 @@ def _merge_metadata(canonical: dict, duplicates: list[dict]) -> list[str]:
 
         # -- PMID backfill ------------------------------------------
         if not canon_pmid:
-            dup_pmid = ZoteroGroupClient._extract_pmid_from_data(dd)
+            dup_pmid = identifiers.extract_pmid(dd)
             if dup_pmid:
                 extra = data.get("extra", "")
                 data["extra"] = (
@@ -292,8 +293,8 @@ def _cluster_match_reasons(cluster: list[dict]) -> list[str]:
     pmids: dict[str, int] = defaultdict(int)
     for item in cluster:
         d = item["data"]
-        doi = ZoteroGroupClient._extract_doi_from_data(d)
-        pmid = ZoteroGroupClient._extract_pmid_from_data(d)
+        doi = identifiers.extract_doi(d)
+        pmid = identifiers.extract_pmid(d)
         if doi:
             dois[doi] += 1
         if pmid:
@@ -312,8 +313,8 @@ def _cluster_match_reasons(cluster: list[dict]) -> list[str]:
 def _cluster_warnings(cluster: list[dict]) -> list[str]:
     """Flag potential data-quality issues in a cluster."""
     warnings = []
-    dois = {ZoteroGroupClient._extract_doi_from_data(i["data"]) for i in cluster} - {""}
-    pmids = {ZoteroGroupClient._extract_pmid_from_data(i["data"]) for i in cluster} - {""}
+    dois = {identifiers.extract_doi(i["data"]) for i in cluster} - {""}
+    pmids = {identifiers.extract_pmid(i["data"]) for i in cluster} - {""}
     if len(dois) > 1:
         warnings.append(f"Conflicting DOIs: {', '.join(sorted(dois))}")
     if len(pmids) > 1:
@@ -367,8 +368,8 @@ def _item_summary(item: dict) -> dict:
     return {
         "key": d.get("key", ""),
         "title": (d.get("title", "") or "")[:120],
-        "doi": ZoteroGroupClient._extract_doi_from_data(d),
-        "pmid": ZoteroGroupClient._extract_pmid_from_data(d),
+        "doi": identifiers.extract_doi(d),
+        "pmid": identifiers.extract_pmid(d),
         "collections": d.get("collections", []),
         "tags_count": len(d.get("tags", [])),
         "score": _score(item),
@@ -401,8 +402,8 @@ def run_dedup(
     n_doi = n_pmid = n_both = n_neither = 0
     for item in items:
         d = item["data"]
-        has_doi = bool(ZoteroGroupClient._extract_doi_from_data(d))
-        has_pmid = bool(ZoteroGroupClient._extract_pmid_from_data(d))
+        has_doi = bool(identifiers.extract_doi(d))
+        has_pmid = bool(identifiers.extract_pmid(d))
         if has_doi and has_pmid:
             n_both += 1
         elif has_doi:
@@ -665,29 +666,17 @@ def main():
     )
     args = parser.parse_args()
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s %(levelname)s %(message)s",
-    )
+    runtime.configure_logging()
 
-    # Credentials come from the shared toolkit: the group id lives in
-    # bio_toolkit.config and the key from ZOTERO_API_KEY (or the toolkit's
-    # gitignored secret). This matches run.py / pdf_helpers and replaces the
-    # old per-script ./.zotero-api-key file + hardcoded group id.
+    # Credentials + client via the shared bootstrap (group id from
+    # ZOTERO_GROUP_ID env or the toolkit constant; key from ZOTERO_API_KEY or
+    # the toolkit's gitignored secret). One seam shared with run / inverse / audit.
     try:
-        from bio_toolkit.config import ZOTERO_GROUP_ID, zotero_api_key
-        group_id = str(ZOTERO_GROUP_ID)
-        api_key = zotero_api_key()
-    except Exception as e:
-        print(f"Error resolving Zotero credentials from bio_toolkit.config: {e}",
-              file=sys.stderr)
-        sys.exit(1)
-    if not api_key:
-        print("Error: no Zotero API key (set ZOTERO_API_KEY or the toolkit secret)",
-              file=sys.stderr)
+        client = runtime.make_zotero_client()
+    except RuntimeError as e:
+        print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
 
-    client = ZoteroGroupClient(group_id, api_key)
     run_dedup(
         client,
         apply=args.apply,
