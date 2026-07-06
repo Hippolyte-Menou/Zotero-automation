@@ -1,5 +1,6 @@
 """Pure-logic helpers in run.py (text filter, re-search dates, dedup registration)."""
 
+import json
 import unittest
 
 import run
@@ -62,6 +63,42 @@ class TestRegisterNewRecords(unittest.TestCase):
         recs = [{"pmid": "1", "doi": ""}, {"pmid": "2", "doi": ""}]
         run._register_new_records(recs, existing_p, existing_d, new_p)
         self.assertEqual(new_p, {"1", "2"})
+
+
+class TestGenePassSummary(unittest.TestCase):
+    def test_summary_is_json_serializable(self):
+        # Regression: process_gene must NOT spread **search_stats into its
+        # return. add_papers() returns added_indices (a set) and pmid_to_key
+        # (a dict); spreading them leaks into checkpoint["gene_summary"] and
+        # crashes save_checkpoint with
+        # "TypeError: Object of type set is not JSON serializable".
+        search_stats = {
+            "added": 2, "failed": 0, "skipped_no_data": 1,
+            "pmid_to_key": {"123": "ABC"},
+            "added_indices": {0, 1},
+        }
+        summary = run._gene_pass_summary(
+            "CRB1", found=5, new=2, search_stats=search_stats,
+            cit_candidates=3, cit_added=1, recent_added=0,
+        )
+        # Must serialize cleanly -- this is exactly what save_checkpoint does.
+        json.dumps(summary)
+        # And must not leak the non-scalar internals of add_papers().
+        self.assertNotIn("added_indices", summary)
+        self.assertNotIn("pmid_to_key", summary)
+        self.assertNotIn("skipped_no_data", summary)
+
+    def test_scalar_fields(self):
+        summary = run._gene_pass_summary(
+            "RHO", found=10, new=4,
+            search_stats={"added": 4, "failed": 1},
+            cit_candidates=7, cit_added=2, recent_added=3,
+        )
+        self.assertEqual(summary, {
+            "symbol": "RHO", "found": 10, "new": 4,
+            "added": 4, "failed": 1,
+            "cit_candidates": 7, "cit_added": 2, "recent_added": 3,
+        })
 
 
 if __name__ == "__main__":

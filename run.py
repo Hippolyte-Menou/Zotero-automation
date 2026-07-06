@@ -699,6 +699,35 @@ def _track_additions(
         })
 
 
+def _gene_pass_summary(
+    symbol: str,
+    *,
+    found: int,
+    new: int,
+    search_stats: dict,
+    cit_candidates: int,
+    cit_added: int,
+    recent_added: int,
+) -> dict:
+    """Build the per-gene summary row for gene_summary/checkpoint.
+
+    Picks only JSON-serializable scalar fields out of ``search_stats``. It must
+    NOT spread ``**search_stats`` wholesale: add_papers() returns
+    ``added_indices`` (a set) and ``pmid_to_key`` (a dict), which would leak
+    into ``checkpoint["gene_summary"]`` and break json.dump on save_checkpoint.
+    """
+    return {
+        "symbol": symbol,
+        "found": found,
+        "new": new,
+        "added": search_stats["added"],
+        "failed": search_stats["failed"],
+        "cit_candidates": cit_candidates,
+        "cit_added": cit_added,
+        "recent_added": recent_added,
+    }
+
+
 def process_gene(
     gene_cfg: dict,
     default_excl_text: list[str],
@@ -1000,15 +1029,15 @@ def process_gene(
         f"recent_added={recent_added}"
     )
 
-    return {
-        "symbol": symbol,
-        "found": len(seed_works),
-        "new": len(new_records),
-        **search_stats,
-        "cit_candidates": len(candidates),
-        "cit_added": cit_added,
-        "recent_added": recent_added,
-    }
+    return _gene_pass_summary(
+        symbol,
+        found=len(seed_works),
+        new=len(new_records),
+        search_stats=search_stats,
+        cit_candidates=len(candidates),
+        cit_added=cit_added,
+        recent_added=recent_added,
+    )
 
 
 def process_topic_subtopic(
