@@ -1,6 +1,826 @@
 {
- "generated_at": "2026-07-13T10:09:43Z",
+ "generated_at": "2026-07-14T09:26:26Z",
  "additions": [
+  {
+   "pmid": "41984830",
+   "doi": "10.1073/pnas.2504764123",
+   "title": "Uncovering mitochondrial defects in photoreceptors opens therapeutic opportunities for Stargardt disease",
+   "year": "2026",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:13:40Z"
+  },
+  {
+   "pmid": "42423409",
+   "doi": "10.1167/iovs.67.8.29",
+   "title": "Deep Proteomic Analysis With Machine Learning Identifies Aqueous Humor Biomarkers of ADAMTSL4 -associated Congenital Ectopia Lentis",
+   "year": "2026",
+   "subcollection": "ADAMTSL4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:16:57Z"
+  },
+  {
+   "pmid": "28257490",
+   "doi": "10.1371/journal.pone.0173455",
+   "title": "Dendritic stratification differs among retinal OFF bipolar cell types in the absence of rod photoreceptors",
+   "year": "2017",
+   "subcollection": "NRL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:43:42Z"
+  },
+  {
+   "pmid": "11171621",
+   "doi": "10.1152/ajpgi.2001.280.3.g389",
+   "title": "Rat colon ornithine and arginine metabolism: coordinated effects after proliferative stimuli",
+   "year": "2001",
+   "subcollection": "OAT",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:46:01Z"
+  },
+  {
+   "pmid": "17680699",
+   "doi": "10.1002/prot.21567",
+   "title": "Structure of biosynthetic N‐acetylornithine aminotransferase from Salmonella typhimurium: Studies on substrate specificity and inhibitor binding",
+   "year": "2007",
+   "subcollection": "OAT",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:46:01Z"
+  },
+  {
+   "pmid": "42429780",
+   "doi": "10.1021/jacs.6c08456",
+   "title": "Mechanism-Based Inactivation of Human Ornithine Aminotransferase by Ethynyl- and Nitrile-Substituted Cyclopentene Analogues of γ-Aminobutyric Acids",
+   "year": "2026",
+   "subcollection": "OAT",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:46:01Z"
+  },
+  {
+   "pmid": "26198179",
+   "doi": "10.1111/mec.13327",
+   "title": "Evolutionary history inferred from the de novo assembly of a nonmodel organism, the blue‐eyed black lemur",
+   "year": "2015",
+   "subcollection": "OCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:47:58Z"
+  },
+  {
+   "pmid": "15201224",
+   "doi": "10.1242/dev.01220",
+   "title": "Regulation ofOtx2expression and its functions in mouse forebrain and midbrain",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "20354145",
+   "doi": "10.1369/jhc.2010.955757",
+   "title": "Expression of the Homeobox Genes OTX2 and OTX1 in the Early Developing Human Brain",
+   "year": "2010",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "15201223",
+   "doi": "10.1242/dev.01219",
+   "title": "Regulation ofOtx2expression and its functions in mouse epiblast and anterior neuroectoderm",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "8887325",
+   "doi": "10.1016/s0925-4773(96)00571-0",
+   "title": "OTX2 homeoprotein in the developing central nervous system and migratory cells of the olfactory area",
+   "year": "1996",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "10477297",
+   "doi": "10.1242/dev.126.19.4295",
+   "title": "Cell autonomous and non-cell autonomous functions of Otx2 in patterning the rostral brain",
+   "year": "1999",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "21436260",
+   "doi": "10.1210/me.2010-0271",
+   "title": "Deletion of Otx2 in GnRH Neurons Results in a Mouse Model of Hypogonadotropic Hypogonadism",
+   "year": "2011",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "11923198",
+   "doi": "10.1242/dev.129.7.1609",
+   "title": "The homeoproteinXiro1is required for midbrain-hindbrain boundary formation",
+   "year": "2002",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "17060451",
+   "doi": "10.1128/mcb.00811-06",
+   "title": "Gbx2 and Otx2 Interact with the WD40 Domain of Groucho/Tle Corepressors",
+   "year": "2006",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "11231064",
+   "doi": "10.1016/s0925-4773(00)00567-0",
+   "title": "Neuroepithelial co-expression of Gbx2 and Otx2 precedes Fgf8 expression in the isthmic organizer",
+   "year": "2001",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "15790971",
+   "doi": "10.1242/dev.01727",
+   "title": "New regulatory interactions and cellular responses in the isthmic organizer region revealed by alteringGbx2expression",
+   "year": "2005",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "15829521",
+   "doi": "10.1242/dev.01804",
+   "title": "Gbx2is required for the morphogenesis of the mouse inner ear: a downstream candidate of hindbrain signaling",
+   "year": "2005",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "15906236",
+   "doi": "10.1387/ijdb.041964hn",
+   "title": "Isthmus organizer and regionalization of the mesencephalon and metencephalon",
+   "year": "2005",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "19401468",
+   "doi": "10.1074/jbc.m109.002485",
+   "title": "Otx2 Induction of the Gonadotropin-releasing Hormone Promoter Is Modulated by Direct Interactions with Grg Co-repressors",
+   "year": "2009",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "17166916",
+   "doi": "10.1242/dev.02745",
+   "title": "Lmx1bis essential forFgf8andWnt1expression in the isthmic organizer during tectum and cerebellum development in mice",
+   "year": "2006",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "15294862",
+   "doi": "10.1242/dev.01281",
+   "title": "The Fgf8 signal causes cerebellar differentiation by activating the Ras-ERK signaling pathway",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "10445503",
+   "doi": "10.1046/j.1440-169x.1999.00401.x",
+   "title": "Role of Pax‐5 in the regulation of a mid‐hindbrain organizer’s activity",
+   "year": "1999",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "40834858",
+   "doi": "10.1016/j.devcel.2025.07.020",
+   "title": "Enhancer remodeling by OTX2 directs specification and patterning of mammalian definitive endoderm",
+   "year": "2025",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "23811236",
+   "doi": "10.1016/j.mce.2013.06.026",
+   "title": "Gene dosage of Otx2 is important for fertility in male mice",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "9600941",
+   "doi": "10.1073/pnas.95.11.6198",
+   "title": "Expression of the mouse cerberus -related gene, Cerr1 , suggests a role in anterior neural induction and somitogenesis",
+   "year": "1998",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "14602678",
+   "doi": "10.1242/dev.00845",
+   "title": "FGF17b and FGF18 have different midbrain regulatory properties from FGF8b or activated FGF receptors",
+   "year": "2003",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "14660549",
+   "doi": "10.1242/dev.00899",
+   "title": "Isthmus-to-midbrain transformation in the absence of midbrain-hindbrain organizer activity",
+   "year": "2003",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "16571633",
+   "doi": "10.1242/dev.02326",
+   "title": "Sp8controls the anteroposterior patterning at the midbrain-hindbrain border",
+   "year": "2006",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "22566684",
+   "doi": "10.1128/mcb.00083-12",
+   "title": "Gbx2 Directly Restricts Otx2 Expression to Forebrain and Midbrain, Competing with Class III POU Factors",
+   "year": "2012",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "11291861",
+   "doi": "",
+   "title": "Role of the anterior visceral endoderm in restricting posterior signals in the mouse embryo.",
+   "year": "2001",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "26160903",
+   "doi": "10.1242/dev.122465",
+   "title": "Otx2 is a target of N-myc and acts as a suppressor of sensory development in the mammalian cochlea",
+   "year": "2015",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "24183937",
+   "doi": "10.1016/j.ydbio.2013.10.026",
+   "title": "Cerebellar development in the absence of Gbx function in zebrafish",
+   "year": "2013",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "14745958",
+   "doi": "10.1002/dvdy.10435",
+   "title": "Isolation and expression of the homeobox gene Gbx1 during mouse development",
+   "year": "2004",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "19603509",
+   "doi": "10.1002/dvg.20546",
+   "title": "Misexpression of Gbx2 throughout the mesencephalon by a conditional gain‐of‐function transgene leads to deletion of the midbrain and cerebellum in mice",
+   "year": "2009",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "16339193",
+   "doi": "10.1242/dev.02181",
+   "title": "A Wnt1-regulated genetic network controls the identity and fate of midbrain-dopaminergic progenitors in vivo",
+   "year": "2005",
+   "subcollection": "OTX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:51:18Z"
+  },
+  {
+   "pmid": "29394105",
+   "doi": "10.1096/fj.201701131rr",
+   "title": "Down‐regulation of transcription factor OVOL2 contributes to epithelial–mesenchymal transition in a noninvasive type of trophoblast implantation to the maternal endometrium",
+   "year": "2018",
+   "subcollection": "OVOL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:55:22Z"
+  },
+  {
+   "pmid": "10207149",
+   "doi": "10.1242/dev.126.10.2253",
+   "title": "Direct regulatory interaction of the eyeless protein with an eye-specific enhancer in the sine oculis gene during eye induction in Drosophila",
+   "year": "1999",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:59:42Z"
+  },
+  {
+   "pmid": "1516825",
+   "doi": "10.1101/gad.6.9.1589",
+   "title": "Pax-5 encodes the transcription factor BSAP and is expressed in B lymphocytes, the developing CNS, and adult testis.",
+   "year": "1992",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:59:42Z"
+  },
+  {
+   "pmid": "9825218",
+   "doi": "10.1177/10454411980090040101",
+   "title": "Dynamic Interactions and the Evolutionary Genetics of Dental Patterning",
+   "year": "1998",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:59:42Z"
+  },
+  {
+   "pmid": "18701439",
+   "doi": "10.1093/cercor/bhn123",
+   "title": "Differential Regulation of Telencephalic Pallial–Subpallial Boundary Patterning by Pax6 and Gsh2",
+   "year": "2008",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T08:59:42Z"
+  },
+  {
+   "pmid": "35602554",
+   "doi": "10.3389/fncel.2022.889663",
+   "title": "Correlated Activity in the Degenerate Retina Inhibits Focal Response to Electrical Stimulation",
+   "year": "2022",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "21389300",
+   "doi": "10.1152/jn.00704.2010",
+   "title": "Developmental time course distinguishes changes in spontaneous and light-evoked retinal ganglion cell activity in rd1 and rd10 mice",
+   "year": "2011",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "22359480",
+   "doi": "10.4196/kjpp.2011.15.6.415",
+   "title": "Spontaneous Oscillatory Rhythm in Retinal Activities of Two Retinal Degeneration (rd1andrd10) Mice",
+   "year": "2011",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "26793063",
+   "doi": "10.3389/fncel.2015.00512",
+   "title": "Spontaneous Oscillatory Rhythms in the Degenerating Mouse Retina Modulate Retinal Ganglion Cell Responses to Electrical Stimulation",
+   "year": "2016",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "23776400",
+   "doi": "10.4196/kjpp.2013.17.3.229",
+   "title": "Electrophysiological and Histologic Evaluation of the Time Course of Retinal Degeneration in therd10Mouse Model of Retinitis Pigmentosa",
+   "year": "2013",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "17520694",
+   "doi": "10.1002/jcp.21152",
+   "title": "Antioxidants slow photoreceptor cell death in mouse models of retinitis pigmentosa",
+   "year": "2007",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "42429887",
+   "doi": "10.1007/s12035-026-06038-w",
+   "title": "Photoreceptor preservation by FAAH inhibition in a murine model of retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "18216234",
+   "doi": "10.1152/jn.00144.2007",
+   "title": "Emergence of Sustained Spontaneous Hyperactivity and Temporary Preservation of off Responses in Ganglion Cells of the Retinal Degeneration (rd1) Mouse",
+   "year": "2008",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "42081293",
+   "doi": "10.1093/stmcls/sxag023",
+   "title": "Transplantation of human stem cell-derived cone photoreceptors partially restores vision in aged rd1 mice with advanced retinal degeneration",
+   "year": "2026",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "15372100",
+   "doi": "10.1172/jci21686",
+   "title": "Rescue of retinal degeneration by intravitreally injected adult bone marrow–derived lineage-negative hematopoietic stem cells",
+   "year": "2004",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "16123450",
+   "doi": "10.1167/iovs.05-0254",
+   "title": "Genotype–Phenotype Correlation of MousePde6bMutations",
+   "year": "2005",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "26521764",
+   "doi": "10.1016/j.exer.2015.10.019",
+   "title": "Using the rd1 mouse to understand functional and anatomical retinal remodelling and treatment implications in retinitis pigmentosa: A review",
+   "year": "2015",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "19350664",
+   "doi": "10.1002/cne.22029",
+   "title": "Functional remodeling of glutamate receptors by inner retinal neurons occurs from an early stage of retinal degeneration",
+   "year": "2009",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "21307264",
+   "doi": "10.1523/jneurosci.4238-10.2011",
+   "title": "Network Oscillations in Rod-Degenerated Mouse Retinas",
+   "year": "2011",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "21451038",
+   "doi": "10.1523/jneurosci.5800-10.2011",
+   "title": "An Intrinsic Neural Oscillator in the Degenerating Mouse Retina",
+   "year": "2011",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "22393249",
+   "doi": "10.1113/jphysiol.2011.225060",
+   "title": "Intrinsic oscillatory activity arising within the electrically coupled AII amacrine–ON cone bipolar cell network is driven by voltage‐gated Na+ channels",
+   "year": "2012",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:03:04Z"
+  },
+  {
+   "pmid": "15084459",
+   "doi": "10.1242/dev.01070",
+   "title": "The Cerberus/Dan-family protein Charon is a negative regulator of Nodal signaling during left-right patterning in zebrafish",
+   "year": "2004",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "20487527",
+   "doi": "10.1186/1471-213x-10-54",
+   "title": "Analysis of the asymmetrically expressed Ablim1 locus reveals existence of a lateral plate Nodal-independent left sided signal and an early, left-right independent role for nodal flow",
+   "year": "2010",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "42229772",
+   "doi": "10.1016/j.ygeno.2026.111271",
+   "title": "Identifying key drivers of tentacle specialization in Cipangopaludina chinensis through transcriptomic analysis",
+   "year": "2026",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "16838294",
+   "doi": "10.1002/jez.b.21121",
+   "title": "A conserved role for the nodal signaling pathway in the establishment of dorso‐ventral and left–right axes in deuterostomes",
+   "year": "2006",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "11044394",
+   "doi": "10.1242/dev.127.22.4787",
+   "title": "Zic3 is involved in the left-right specification of the Xenopus embryo",
+   "year": "2000",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "18697220",
+   "doi": "10.1002/dvdy.21663",
+   "title": "Man1, an inner nuclear membrane protein, regulates left–right axis formation by controlling nodal signaling in a node‐independent manner",
+   "year": "2008",
+   "subcollection": "PITX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:07:50Z"
+  },
+  {
+   "pmid": "18420308",
+   "doi": "10.1016/j.neurobiolaging.2008.03.008",
+   "title": "PITX3 polymorphism is associated with early onset Parkinson's disease",
+   "year": "2008",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "19394114",
+   "doi": "10.1016/j.neurobiolaging.2009.03.015",
+   "title": "Transcription factor PITX3 gene in Parkinson's disease",
+   "year": "2009",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "17017509",
+   "doi": "10.1007/978-3-211-45295-0_10",
+   "title": "The role of Pitx3 in survival of midbrain dopaminergic neurons",
+   "year": "2006",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "24394914",
+   "doi": "10.1016/j.neulet.2013.12.054",
+   "title": "Association between PITX3 promoter polymorphism and risk of Parkinson's disease: The impact of ethnicity and onset age",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "24525476",
+   "doi": "10.1159/000353981",
+   "title": "&lt;b&gt;&lt;i&gt;PITX3&lt;/i&gt;&lt;/b&gt; and Risk for Parkinson's Disease: A Systematic Review and Meta-Analysis",
+   "year": "2013",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "26477573",
+   "doi": "10.1007/s10519-015-9753-3",
+   "title": "Neurobehavioral Anomalies in the Pitx3/ak Murine Model of Parkinson’s Disease and MPTP",
+   "year": "2015",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "26755703",
+   "doi": "10.1242/dev.126748",
+   "title": "Differences in the spatiotemporal expression and epistatic gene regulation of the mesodiencephalic dopaminergic precursor markerPITX3during chicken and mouse development",
+   "year": "2016",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "21865882",
+   "doi": "10.1097/nen.0b013e31822830e5",
+   "title": "Signaling of Glial Cell Line-Derived Neurotrophic Factor and Its Receptor GFRα1 Induce Nurr1 and Pitx3 to Promote Survival of Grafted Midbrain-Derived Neural Stem Cells in a Rat Model of Parkinson Disease",
+   "year": "2011",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "24749075",
+   "doi": "10.1016/j.stemcr.2014.03.001",
+   "title": "Detailed Analysis of the Genetic and Epigenetic Signatures of iPSC-Derived Mesodiencephalic Dopaminergic Neurons",
+   "year": "2014",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "21469209",
+   "doi": "10.1002/mds.23693",
+   "title": "Systematic genetic analysis of the PITX3 gene in patients with Parkinson disease",
+   "year": "2011",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "16190884",
+   "doi": "10.1111/j.1460-9568.2005.04327.x",
+   "title": "Differential expression of the homeobox gene Pitx3 in midbrain dopaminergic neurons",
+   "year": "2005",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "28685157",
+   "doi": "10.1038/s41531-017-0022-4",
+   "title": "Embryonic development of selectively vulnerable neurons in Parkinson’s disease",
+   "year": "2017",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "22037506",
+   "doi": "10.1016/j.neulet.2011.10.034",
+   "title": "PITX3 polymorphism is not associated with Parkinson's disease in a Chinese population",
+   "year": "2011",
+   "subcollection": "PITX3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-07-14T09:10:15Z"
+  },
+  {
+   "pmid": "42439438",
+   "doi": "10.1111/cdoe.70095",
+   "title": "The Best of Times at the Worst of Times: How Adults Respond to a Brief Intervention ( RETURN ) to Increase Planned Dental Visiting",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
+  {
+   "pmid": "42440332",
+   "doi": "10.1080/02699931.2026.2699827",
+   "title": "A smile or frown put in context: the evaluative implications of empathic and counter-empathic emotions",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
+  {
+   "pmid": "42439878",
+   "doi": "10.1002/ksa.70505",
+   "title": "The New Munich Elbow Soft Tissue (MEST) classification is a reliable MRI‐based injury severity grading system for acute simple elbow dislocations",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
+  {
+   "pmid": "42439960",
+   "doi": "10.1007/s11686-026-01336-8",
+   "title": "First Molecular Characterization of Aelurostrongylus abstrusus in a Naturally Infected Domestic Cat in Belgrade, Serbia: In-Depth Clinical, Radiological and Parasitological Findings",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
+  {
+   "pmid": "42439167",
+   "doi": "10.1001/jamaneurol.2026.2305",
+   "title": "Trends in Dementia Prevalence Across Latin America and the Caribbean",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
+  {
+   "pmid": "42438928",
+   "doi": "10.1080/15592324.2026.2700903",
+   "title": "Partial root-zone drying enhances antioxidant signaling and physiological resilience in psyllium ( Plantago ovata ) under arid conditions",
+   "year": "2026",
+   "subcollection": "PRPH2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-07-14T09:13:37Z"
+  },
   {
    "pmid": "42433200",
    "doi": "10.1111/ceo.70142",
@@ -7162,16 +7982,6 @@
    "uploaded_at": "2026-06-25T09:39:36Z"
   },
   {
-   "pmid": "26198179",
-   "doi": "10.1111/mec.13327",
-   "title": "Evolutionary history inferred from the de novo assembly of a nonmodel organism, the blue‐eyed black lemur",
-   "year": "2015",
-   "subcollection": "OCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:39:36Z"
-  },
-  {
    "pmid": "23848512",
    "doi": "10.1186/1471-2148-13-150",
    "title": "Exploring signatures of positive selection in pigmentation candidate genes in populations of East Asian ancestry",
@@ -7252,66 +8062,6 @@
    "uploaded_at": "2026-06-25T09:41:53Z"
   },
   {
-   "pmid": "17060451",
-   "doi": "10.1128/mcb.00811-06",
-   "title": "Gbx2 and Otx2 Interact with the WD40 Domain of Groucho/Tle Corepressors",
-   "year": "2006",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "17166916",
-   "doi": "10.1242/dev.02745",
-   "title": "Lmx1bis essential forFgf8andWnt1expression in the isthmic organizer during tectum and cerebellum development in mice",
-   "year": "2006",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "11923198",
-   "doi": "10.1242/dev.129.7.1609",
-   "title": "The homeoproteinXiro1is required for midbrain-hindbrain boundary formation",
-   "year": "2002",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "15790971",
-   "doi": "10.1242/dev.01727",
-   "title": "New regulatory interactions and cellular responses in the isthmic organizer region revealed by alteringGbx2expression",
-   "year": "2005",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "22566684",
-   "doi": "10.1128/mcb.00083-12",
-   "title": "Gbx2 Directly Restricts Otx2 Expression to Forebrain and Midbrain, Competing with Class III POU Factors",
-   "year": "2012",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "15906236",
-   "doi": "10.1387/ijdb.041964hn",
-   "title": "Isthmus organizer and regionalization of the mesencephalon and metencephalon",
-   "year": "2005",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
    "pmid": "39083515",
    "doi": "10.1371/journal.pone.0293852",
    "title": "Zbtb11 interacts with Otx2 and patterns the anterior neuroectoderm in Xenopus",
@@ -7322,70 +8072,10 @@
    "uploaded_at": "2026-06-25T09:41:53Z"
   },
   {
-   "pmid": "15294862",
-   "doi": "10.1242/dev.01281",
-   "title": "The Fgf8 signal causes cerebellar differentiation by activating the Ras-ERK signaling pathway",
-   "year": "2004",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "11231064",
-   "doi": "10.1016/s0925-4773(00)00567-0",
-   "title": "Neuroepithelial co-expression of Gbx2 and Otx2 precedes Fgf8 expression in the isthmic organizer",
-   "year": "2001",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "16571633",
-   "doi": "10.1242/dev.02326",
-   "title": "Sp8controls the anteroposterior patterning at the midbrain-hindbrain border",
-   "year": "2006",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
    "pmid": "12764108",
    "doi": "10.1523/jneurosci.23-10-04199.2003",
    "title": "Location and Size of Dopaminergic and Serotonergic Cell Populations Are Controlled by the Position of the Midbrain–Hindbrain Organizer",
    "year": "2003",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "11291861",
-   "doi": "",
-   "title": "Role of the anterior visceral endoderm in restricting posterior signals in the mouse embryo.",
-   "year": "2001",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "15829521",
-   "doi": "10.1242/dev.01804",
-   "title": "Gbx2is required for the morphogenesis of the mouse inner ear: a downstream candidate of hindbrain signaling",
-   "year": "2005",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "9600941",
-   "doi": "10.1073/pnas.95.11.6198",
-   "title": "Expression of the mouse cerberus -related gene, Cerr1 , suggests a role in anterior neural induction and somitogenesis",
-   "year": "1998",
    "subcollection": "OTX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -7422,26 +8112,6 @@
    "uploaded_at": "2026-06-25T09:41:53Z"
   },
   {
-   "pmid": "14602678",
-   "doi": "10.1242/dev.00845",
-   "title": "FGF17b and FGF18 have different midbrain regulatory properties from FGF8b or activated FGF receptors",
-   "year": "2003",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "14660549",
-   "doi": "10.1242/dev.00899",
-   "title": "Isthmus-to-midbrain transformation in the absence of midbrain-hindbrain organizer activity",
-   "year": "2003",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
    "pmid": "24335253",
    "doi": "10.1242/dev.102954",
    "title": "Otx2 cell-autonomously determines dorsal mesencephalon versus cerebellum fate independently of isthmic organizing activity",
@@ -7456,26 +8126,6 @@
    "doi": "10.1242/dev.01685",
    "title": "Positioning of the midbrain-hindbrain boundary organizer through global posteriorization of the neuroectoderm mediated by Wnt8 signaling",
    "year": "2005",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "24183937",
-   "doi": "10.1016/j.ydbio.2013.10.026",
-   "title": "Cerebellar development in the absence of Gbx function in zebrafish",
-   "year": "2013",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
-   "pmid": "10445503",
-   "doi": "10.1046/j.1440-169x.1999.00401.x",
-   "title": "Role of Pax‐5 in the regulation of a mid‐hindbrain organizer’s activity",
-   "year": "1999",
    "subcollection": "OTX2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -7532,30 +8182,10 @@
    "uploaded_at": "2026-06-25T09:41:53Z"
   },
   {
-   "pmid": "19603509",
-   "doi": "10.1002/dvg.20546",
-   "title": "Misexpression of Gbx2 throughout the mesencephalon by a conditional gain‐of‐function transgene leads to deletion of the midbrain and cerebellum in mice",
-   "year": "2009",
-   "subcollection": "OTX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:41:53Z"
-  },
-  {
    "pmid": "28059165",
    "doi": "10.1038/srep40056",
    "title": "Conserved role of Ovo in germline development in mouse and Drosophila",
    "year": "2017",
-   "subcollection": "OVOL2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:45:09Z"
-  },
-  {
-   "pmid": "29394105",
-   "doi": "10.1096/fj.201701131rr",
-   "title": "Down‐regulation of transcription factor OVOL2 contributes to epithelial–mesenchymal transition in a noninvasive type of trophoblast implantation to the maternal endometrium",
-   "year": "2018",
    "subcollection": "OVOL2",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -7582,16 +8212,6 @@
    "uploaded_at": "2026-06-25T09:47:55Z"
   },
   {
-   "pmid": "18701439",
-   "doi": "10.1093/cercor/bhn123",
-   "title": "Differential Regulation of Telencephalic Pallial–Subpallial Boundary Patterning by Pax6 and Gsh2",
-   "year": "2008",
-   "subcollection": "PAX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:47:55Z"
-  },
-  {
    "pmid": "24339724",
    "doi": "",
    "title": "Homozygosity mapping in autosomal recessive retinitis pigmentosa families detects novel mutations.",
@@ -7600,36 +8220,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-06-25T09:49:36Z"
-  },
-  {
-   "pmid": "18420308",
-   "doi": "10.1016/j.neurobiolaging.2008.03.008",
-   "title": "PITX3 polymorphism is associated with early onset Parkinson's disease",
-   "year": "2008",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:53:26Z"
-  },
-  {
-   "pmid": "17017509",
-   "doi": "10.1007/978-3-211-45295-0_10",
-   "title": "The role of Pitx3 in survival of midbrain dopaminergic neurons",
-   "year": "2006",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:53:26Z"
-  },
-  {
-   "pmid": "19394114",
-   "doi": "10.1016/j.neurobiolaging.2009.03.015",
-   "title": "Transcription factor PITX3 gene in Parkinson's disease",
-   "year": "2009",
-   "subcollection": "PITX3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-25T09:53:26Z"
   },
   {
    "pmid": "42337613",
@@ -12060,16 +12650,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-06-12T11:02:36Z"
-  },
-  {
-   "pmid": "42229772",
-   "doi": "10.1016/j.ygeno.2026.111271",
-   "title": "Identifying key drivers of tentacle specialization in Cipangopaludina chinensis through transcriptomic analysis",
-   "year": "2026",
-   "subcollection": "PITX2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-12T11:27:57Z"
   },
   {
    "pmid": "27821532",
@@ -19822,16 +20402,6 @@
    "uploaded_at": "2026-05-28T10:58:12Z"
   },
   {
-   "pmid": "17680699",
-   "doi": "10.1002/prot.21567",
-   "title": "Structure of biosynthetic N‐acetylornithine aminotransferase from Salmonella typhimurium: Studies on substrate specificity and inhibitor binding",
-   "year": "2007",
-   "subcollection": "OAT",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-28T10:58:12Z"
-  },
-  {
    "pmid": "2411732",
    "doi": "10.1016/s0021-9258(17)39172-x",
    "title": "Levels of ornithine aminotransferase messenger RNA under conditions of cyclic AMP induction in cultured hepatocytes.",
@@ -24112,46 +24682,6 @@
    "uploaded_at": "2026-05-20T10:10:49Z"
   },
   {
-   "pmid": "42147844",
-   "doi": "10.3389/fneur.2026.1814475",
-   "title": "Local delivery of nerve growth factor in traumatic optic neuropathy: neuroprotective effects in a rat model",
-   "year": "2026",
-   "subcollection": "ACO2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-19T09:18:15Z"
-  },
-  {
-   "pmid": "42144713",
-   "doi": "10.1097/icl.0000000000001282",
-   "title": "Premyopia Management in China: From Biometrics to Clinical Management",
-   "year": "2026",
-   "subcollection": "ARR3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-19T09:21:00Z"
-  },
-  {
-   "pmid": "42144932",
-   "doi": "10.1017/thg.2026.10067",
-   "title": "Multi-Ancestry, Multitrait Polygenic Risk Scores for Myopia: Improved Accuracy and Clinical Potential",
-   "year": "2026",
-   "subcollection": "ARR3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-19T09:21:00Z"
-  },
-  {
-   "pmid": "42146598",
-   "doi": "10.64898/2026.05.01.722314",
-   "title": "Hydrocephalus caused by Katnip deletion is linked to increased ciliogenesis and reduced proliferation of neuroprogenitor cells",
-   "year": "2026",
-   "subcollection": "BBS1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-19T09:21:51Z"
-  },
-  {
    "pmid": "42149303",
    "doi": "10.1007/s11239-026-03269-5",
    "title": "Edoxaban for atrial fibrillation in patients with atherosclerotic disease in daily clinical practice",
@@ -25390,2226 +25920,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-05-19T10:15:39Z"
-  },
-  {
-   "pmid": "26209645",
-   "doi": "10.1242/dev.123539",
-   "title": "Fat1 interacts with Fat4 to regulate neural tube closure, neural progenitor proliferation and apical constriction during mouse brain development",
-   "year": "2015",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "11893338",
-   "doi": "10.1016/s0092-8674(02)00658-x",
-   "title": "Regulation of Frizzled by Fat-like Cadherins during Planar Polarity Signaling in the Drosophila Compound Eye",
-   "year": "2002",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "15923647",
-   "doi": "10.1242/jcs.02398",
-   "title": "New insights into Fat cadherins",
-   "year": "2005",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "16682528",
-   "doi": "10.1083/jcb.200508121",
-   "title": "The Fat1 cadherin integrates vascular smooth muscle cell growth and migration signals",
-   "year": "2006",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "25615407",
-   "doi": "10.1002/humu.22760",
-   "title": "Identification of Variants in the 4q35 GeneFAT1in Patients with a Facioscapulohumeral Dystrophy-Like Phenotype",
-   "year": "2015",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "26104008",
-   "doi": "10.1007/s00018-015-1955-6",
-   "title": "FAT1 cadherin acts upstream of Hippo signalling through TAZ to regulate neuronal differentiation",
-   "year": "2015",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "35108541",
-   "doi": "10.1016/j.celrep.2022.110307",
-   "title": "Fat3 acts through independent cytoskeletal effectors to coordinate asymmetric cell behaviors during polarized circuit assembly",
-   "year": "2022",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "28603077",
-   "doi": "10.1016/j.semcdb.2017.06.001",
-   "title": "Configuring a robust nervous system with Fat cadherins",
-   "year": "2017",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "12123577",
-   "doi": "10.1016/s0960-9822(02)00893-x",
-   "title": "The Cadherins Fat and Dachsous Regulate Dorsal/Ventral Signaling in the Drosophila Eye",
-   "year": "2002",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "40301264",
-   "doi": "10.1007/978-3-031-82990-1_15",
-   "title": "Interacting Fat1 and Dchs Planar Cell Polarity Proteins Supported by Fjx1 Serve as Heterodimeric Intercellular Bridges Crucial to Support Spermatogenesis",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "16687445",
-   "doi": "10.1242/dev.02401",
-   "title": "Separating the adhesive and signaling functions of the Fat and Dachsous protocadherins",
-   "year": "2006",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "26905694",
-   "doi": "10.1038/ncomms10822",
-   "title": "FAT1 mutations cause a glomerulotubular nephropathy",
-   "year": "2016",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "28551508",
-   "doi": "10.1016/j.ceb.2017.04.003",
-   "title": "Fat-like cadherins in cell migration—leading from both the front and the back",
-   "year": "2017",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "19131340",
-   "doi": "10.1074/jbc.m809333200",
-   "title": "Atrophin Proteins Interact with the Fat1 Cadherin and Regulate Migration and Orientation in Vascular Smooth Muscle Cells",
-   "year": "2009",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "26018399",
-   "doi": "10.1002/ana.24446",
-   "title": "Correlation between low FAT1 expression and early affected muscle in facioscapulohumeral muscular dystrophy",
-   "year": "2015",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "41862271",
-   "doi": "10.1016/j.job.2026.100766",
-   "title": "Spatiotemporal profiling of Fat family genes highlights Fat2 as a novel marker of outer enamel epithelium and stratum intermedium",
-   "year": "2026",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "19506035",
-   "doi": "10.1083/jcb.200811030",
-   "title": "Mammalian Fat and Dachsous cadherins regulate apical membrane organization in the embryonic cerebral cortex",
-   "year": "2009",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "19679459",
-   "doi": "10.1016/j.ceb.2009.07.001",
-   "title": "The skinny on Fat: an enormous cadherin that regulates cell adhesion, tissue growth, and planar cell polarity",
-   "year": "2009",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "22399682",
-   "doi": "10.1242/dev.070367",
-   "title": "Separating planar cell polarity and Hippo pathway activities of the protocadherins Fat and Dachsous",
-   "year": "2012",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "21919123",
-   "doi": "10.1002/dvdy.22736",
-   "title": "The roles of the cadherins Fat and Dachsous in planar polarity specification in Drosophila",
-   "year": "2011",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "31739265",
-   "doi": "10.1016/j.ceb.2019.10.006",
-   "title": "Fat/Dachsous family cadherins in cell and tissue organisation",
-   "year": "2019",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "23318637",
-   "doi": "10.1242/dev.088534",
-   "title": "Signal transduction by the Fat cytoplasmic domain",
-   "year": "2013",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "27122175",
-   "doi": "10.1242/dev.133678",
-   "title": "Fat3 and Ena/VASP proteins influence the emergence of asymmetric cell morphology in the developing retina",
-   "year": "2016",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "32727892",
-   "doi": "10.1073/pnas.1917570117",
-   "title": "Ancestral roles of atypical cadherins in planar cell polarity",
-   "year": "2020",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "16014031",
-   "doi": "10.1111/j.1523-1755.2005.00432.x",
-   "title": "Role of Fat1 in cell-cell contact formation of podocytes in puromycin aminonucleoside nephrosis and neonatal kidney",
-   "year": "2005",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "17500054",
-   "doi": "10.1074/jbc.m701758200",
-   "title": "Differentially Spliced Isoforms of FAT1 Are Asymmetrically Distributed within Migrating Cells",
-   "year": "2007",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "29768404",
-   "doi": "10.1371/journal.pbio.2004734",
-   "title": "Tissue-specific activities of the Fat1 cadherin cooperate to control neuromuscular morphogenesis",
-   "year": "2018",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "27828948",
-   "doi": "10.1038/nature20170",
-   "title": "Control of mitochondrial function and cell growth by the atypical cadherin Fat1",
-   "year": "2016",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "41572945",
-   "doi": "10.1002/bies.70103",
-   "title": "Fat and Dachsous Signaling—Controlling Growth Requires Both Competition and Cooperation",
-   "year": "2026",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "3417051",
-   "doi": "10.1016/0012-1606(88)90399-5",
-   "title": "Mutations at the fat locus interfere with cell proliferation control and epithelial morphogenesis in Drosophila",
-   "year": "1988",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "20434337",
-   "doi": "10.1016/j.cub.2010.03.056",
-   "title": "Four-Jointed Modulates Growth and Planar Polarity by Reducing the Affinity of Dachsous for Fat",
-   "year": "2010",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "20434335",
-   "doi": "10.1016/j.cub.2010.04.016",
-   "title": "Modulation of Fat:Dachsous Binding by the Cadherin Domain Kinase Four-Jointed",
-   "year": "2010",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "16059920",
-   "doi": "10.1002/dvdy.20515",
-   "title": "Expression of mouse dchs1, fjx1, and fat‐j suggests conservation of the planar cell polarity pathway identified in drosophila",
-   "year": "2005",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "19710173",
-   "doi": "10.1242/dev.036152",
-   "title": "Drosophila lowfat, a novel modulator of Fat signaling",
-   "year": "2009",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "33561385",
-   "doi": "10.1098/rsob.200356",
-   "title": "How do the Fat–Dachsous and core planar polarity pathways act together and independently to coordinate polarized cell behaviours?",
-   "year": "2021",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "11231355",
-   "doi": "10.1046/j.1523-1755.2001.0590031003.x",
-   "title": "FAT is a component of glomerular slit diaphragms",
-   "year": "2001",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "16402135",
-   "doi": "10.1038/sj.mp.4001784",
-   "title": "Positional cloning, association analysis and expression studies provide convergent evidence that the cadherin gene FAT contains a bipolar disorder susceptibility allele",
-   "year": "2006",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "29436205",
-   "doi": "10.3349/ymj.2018.59.2.337",
-   "title": "FAT1 Gene Alteration in Facioscapulohumeral Muscular Dystrophy Type 1",
-   "year": "2018",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "40892467",
-   "doi": "10.1681/asn.0000000881",
-   "title": "Emerging Role of FAT Atypical Cadherin 1 in Kidney Function and Disease",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "41368354",
-   "doi": "10.3389/fneph.2025.1678502",
-   "title": "Genetic and environmental factors associated with alteration of filtration slit proteins and their functions: a scoping review",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "41279007",
-   "doi": "10.1101/2025.10.11.681805",
-   "title": "Large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "34013115",
-   "doi": "10.1016/j.ekir.2021.01.023",
-   "title": "Expanding the Spectrum of FAT1 Nephropathies by Novel Mutations That Affect Hippo Signaling",
-   "year": "2021",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "39574152",
-   "doi": "10.1186/s40246-024-00659-9",
-   "title": "Genetic heterogeneity in familial forms of genetic generalized epilepsy: from mono- to oligogenism",
-   "year": "2024",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "34166683",
-   "doi": "10.1016/j.exer.2021.108681",
-   "title": "Distribution of planar cell polarity proteins in the developing avian retina",
-   "year": "2021",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "17045801",
-   "doi": "10.1016/j.cub.2006.09.045",
-   "title": "Fat Cadherin Modulates Organ Size in Drosophila via the Salvador/Warts/Hippo Signaling Pathway",
-   "year": "2006",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "22503504",
-   "doi": "10.1016/j.cub.2012.03.053",
-   "title": "Planar Polarity Specification through Asymmetric Subcellular Localization of Fat and Dachsous",
-   "year": "2012",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "7601355",
-   "doi": "10.1101/gad.9.12.1530",
-   "title": "Dachsous encodes a member of the cadherin superfamily that controls imaginal disc morphogenesis in Drosophila.",
-   "year": "1995",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "39994229",
-   "doi": "10.1038/s41467-025-57164-3",
-   "title": "The deubiquitylating enzyme Fat facets promotes Fat signalling and restricts tissue growth",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "40377178",
-   "doi": "10.1242/dev.204694",
-   "title": "Regulation of Hippo signaling and planar cell polarity via distinct regions of the Fat intracellular domain",
-   "year": "2025",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:13:22Z"
-  },
-  {
-   "pmid": "42142160",
-   "doi": "10.1007/s00192-026-06687-4",
-   "title": "Two-Year Real-World Outcomes in Women with Genitourinary Syndrome of Menopause Following Fractional CO2 Laser Treatment",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:16:53Z"
-  },
-  {
-   "pmid": "42143272",
-   "doi": "10.1186/s12882-026-04974-2",
-   "title": "Renal AA amyloidosis associated with inflammatory bowel disease",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:16:53Z"
-  },
-  {
-   "pmid": "42141811",
-   "doi": "10.1111/nph.71277",
-   "title": "Temperate tree species show cross‐tolerance to heat, drought, and late spring‐frost stress",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:16:53Z"
-  },
-  {
-   "pmid": "42141939",
-   "doi": "10.1111/ocr.70141",
-   "title": "Mandibular Response in Class II Division 1 Growing Subjects: Clear Aligners vs. Rapid Maxillary Expansion Therapy. A Controlled Pilot Study",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:16:53Z"
-  },
-  {
-   "pmid": "42140622",
-   "doi": "10.1093/genetics/iyag121",
-   "title": "CRISPR screening identifies TRIM27 as a destabilizer of the Smith–Magenis syndrome protein RAI1",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:16:53Z"
-  },
-  {
-   "pmid": "20664696",
-   "doi": "",
-   "title": "Homozygous FOXE3 mutations cause non-syndromic, bilateral, total sclerocornea, aphakia, microphthalmia and optic disc coloboma.",
-   "year": "2010",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "29878917",
-   "doi": "10.1097/ico.0000000000001655",
-   "title": "Sclerocornea–Microphthalmia–Aphakia Complex: Description of Two Additional Cases Associated With Novel FOXE3 Mutations and Review of the Literature",
-   "year": "2018",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "16199865",
-   "doi": "10.1128/mcb.25.20.8854-8863.2005",
-   "title": "Severe Defects in Proliferation and Differentiation of Lens Cells in Foxe3 Null Mice",
-   "year": "2005",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "27669367",
-   "doi": "10.1080/13816810.2016.1217549",
-   "title": "Exome sequencing reveals novel homozygous FOXE3 mutation in microphthalmos with staphylomatous malformation",
-   "year": "2016",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "40850233",
-   "doi": "10.1016/j.scr.2025.103816",
-   "title": "Generation of the induced pluripotent stem cell line IOCVi002-A from a patient with the FOXE3-related sclerocornea-aphakia malformation",
-   "year": "2025",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "26854927",
-   "doi": "10.1172/jci83778",
-   "title": "FOXE3 mutations predispose to thoracic aortic aneurysms and dissections",
-   "year": "2016",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "22002806",
-   "doi": "10.1007/s00335-011-9358-y",
-   "title": "A deletion in a cis element of Foxe3 causes cataracts and microphthalmia in rct mice",
-   "year": "2011",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "32976546",
-   "doi": "10.1371/journal.pone.0239748",
-   "title": "Pathogenic variants of AIPL1, MERTK, GUCY2D, and FOXE3 in Pakistani families with clinically heterogeneous eye diseases",
-   "year": "2020",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "35595447",
-   "doi": "10.1016/j.tjog.2022.03.019",
-   "title": "Novel prenatally diagnosed compound heterozygous PXDN variants in fetal congenital primary aphakia and blepharophimosis",
-   "year": "2022",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "37628625",
-   "doi": "10.3390/genes14081573",
-   "title": "Combined Single Gene Testing and Genome Sequencing as an Effective Diagnostic Approach for Anophthalmia and Microphthalmia Patients",
-   "year": "2023",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "28805541",
-   "doi": "10.1080/13816810.2017.1350722",
-   "title": "Lack of FOXE3 coding mutation in a case of congenital aphakia",
-   "year": "2017",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "24689660",
-   "doi": "10.3109/13816810.2014.903983",
-   "title": "Mutational Screening ofFOXE3, GDF3, ATOH7, andALDH1A3in Congenital Ocular Malformations. Possible Contribution of the FOXE3 p.VAL201MET Variant to the Risk of Severe Eye Malformations",
-   "year": "2014",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "40330260",
-   "doi": "10.1002/ccr3.70286",
-   "title": "Congenital Aphakia Associated With a  GJA8  Pathogenic Variant: A Case Report",
-   "year": "2025",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "18327772",
-   "doi": "10.1002/dvg.20380",
-   "title": "Regulation and function of foxe3 during early zebrafish development",
-   "year": "2008",
-   "subcollection": "FOXE3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:17:45Z"
-  },
-  {
-   "pmid": "36907439",
-   "doi": "10.1016/j.jbc.2023.104604",
-   "title": "Rab8 and TNPO1 are ciliary transport adaptors for GTPase Arl13b by interacting with its RVEP motif containing ciliary targeting sequence",
-   "year": "2023",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "33465374",
-   "doi": "10.1016/j.jbc.2021.100303",
-   "title": "Mapping membrane lipids in the developing and adult mouse retina under physiological and pathological conditions using mass spectrometry",
-   "year": "2021",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "27588452",
-   "doi": "10.1016/j.ajhg.2016.07.010",
-   "title": "Bi-allelic Truncating Mutations in CEP78 , Encoding Centrosomal Protein 78, Cause Cone-Rod Degeneration with Sensorineural Hearing Loss",
-   "year": "2016",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "23246290",
-   "doi": "10.1016/j.ajhg.2012.10.022",
-   "title": "Mutations in SNRPE, which Encodes a Core Protein of the Spliceosome, Cause Autosomal-Dominant Hypotrichosis Simplex",
-   "year": "2012",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "22818856",
-   "doi": "10.1016/j.ajhg.2012.06.012",
-   "title": "Dominant Mutation of CCDC78 in a Unique Congenital Myopathy with Prominent Internal Nuclei and Atypical Cores",
-   "year": "2012",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "21835308",
-   "doi": "10.1016/j.ajhg.2011.07.012",
-   "title": "Exome Sequencing Reveals a Homozygous SYT14 Mutation in Adult-Onset, Autosomal-Recessive Spinocerebellar Ataxia with Psychomotor Retardation",
-   "year": "2011",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "21549338",
-   "doi": "10.1016/j.ajhg.2011.04.008",
-   "title": "A Missense Mutation in PRPF6 Causes Impairment of pre-mRNA Splicing and Autosomal-Dominant Retinitis Pigmentosa",
-   "year": "2011",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20797688",
-   "doi": "10.1016/j.ajhg.2010.08.003",
-   "title": "A Mutation in ZNF513, a Putative Regulator of Photoreceptor Development, Causes Autosomal-Recessive Retinitis Pigmentosa",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20705278",
-   "doi": "10.1016/j.ajhg.2010.07.018",
-   "title": "Nonsense Mutations in FAM161A Cause RP28-Associated Recessive Retinitis Pigmentosa",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20493458",
-   "doi": "10.1016/j.ajhg.2010.04.012",
-   "title": "Cranioectodermal Dysplasia, Sensenbrenner Syndrome, Is a Ciliopathy Caused by Mutations in the IFT122 Gene",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20451172",
-   "doi": "10.1016/j.ajhg.2010.04.001",
-   "title": "A Splice-Site Mutation in a Retina-Specific Exon of BBS8 Causes Nonsyndromic Retinitis Pigmentosa",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20398884",
-   "doi": "10.1016/j.ajhg.2010.03.016",
-   "title": "Mutations in C2ORF71 Cause Autosomal-Recessive Retinitis Pigmentosa",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "20200501",
-   "doi": "10.1038/ki.2010.27",
-   "title": "The retinitis pigmentosa GTPase regulator interacting protein 1 (RPGRIP1) links RPGR to the nephronophthisis protein network",
-   "year": "2010",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "17924349",
-   "doi": "10.1086/521953",
-   "title": "Mutations in TOPORS Cause Autosomal Dominant Retinitis Pigmentosa with Perivascular Retinal Pigment Epithelium Atrophy",
-   "year": "2007",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "16565502",
-   "doi": "10.2353/ajpath.2006.050941",
-   "title": "ADP-Ribosylation Factor-Like 3 Is Involved in Kidney and Photoreceptor Development",
-   "year": "2006",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "15701632",
-   "doi": "10.1074/jbc.m414643200",
-   "title": "Crystal Structure of Dynein Light Chain TcTex-1",
-   "year": "2005",
-   "subcollection": "KIF3B",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T10:23:54Z"
-  },
-  {
-   "pmid": "42143320",
-   "doi": "10.1186/s13024-026-00950-4",
-   "title": "Pharmacological restoration of impaired autophagy in retinal ganglion cells prevents abnormal mitochondrial accumulation and glaucomatous neurodegeneration",
-   "year": "2026",
-   "subcollection": "MYOC",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:28:26Z"
-  },
-  {
-   "pmid": "42074148",
-   "doi": "10.3390/ijms27083506",
-   "title": "Genetic Risk Factors and Clinical Implications of Glaucoma in the Saudi Population: A Review",
-   "year": "2026",
-   "subcollection": "MYOC",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:28:26Z"
-  },
-  {
-   "pmid": "42127191",
-   "doi": "10.1126/sciadv.aed0154",
-   "title": "Synergistic antioxidant and gene supplementation for high-efficacy retinitis pigmentosa therapy",
-   "year": "2026",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:32:48Z"
-  },
-  {
-   "pmid": "42140924",
-   "doi": "10.1038/s41467-026-73246-2",
-   "title": "Robust intensification of projected regional precipitation extremes over Africa",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "42142120",
-   "doi": "10.1007/s00431-026-07059-2",
-   "title": "Excessive sedentary behaviour during hospitalisations among children and adolescents: a prospective observational study",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "42143180",
-   "doi": "10.1038/s44271-026-00469-w",
-   "title": "Longitudinal profiles of parental self- and child-focused emotion regulation",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "42141931",
-   "doi": "10.1111/jerd.70191",
-   "title": "Influence of Different Multilayer Zirconia Materials on the In Vitro Load‐Bearing Capacity of Resin‐Bonded Fixed Partial Dentures in the Posterior Region",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "42143217",
-   "doi": "10.1186/s10194-026-02393-0",
-   "title": "Brain structural MRI changes before and after 6 months of preventive treatment with erenumab and onabotulinumtoxinA in migraine",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "42143027",
-   "doi": "10.1038/s41467-026-73329-0",
-   "title": "Xyloglucan xylosyltransferase stem region mediates heterodimer formation",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:35:38Z"
-  },
-  {
-   "pmid": "41917313",
-   "doi": "10.1038/s41422-026-01241-9",
-   "title": "Increased PRSS56 expression is a causal factor and therapeutic target for human axial high myopia",
-   "year": "2026",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "41648467",
-   "doi": "10.64898/2026.01.11.697334",
-   "title": "PRSS56 acts as an intrinsic retinal signal driving postnatal ocular axial growth and myopia susceptibility",
-   "year": "2026",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "42015194",
-   "doi": "10.1186/s12920-026-02376-9",
-   "title": "Whole-exome sequencing identifies PRSS56 variants in Chinese patients with microphthalmia",
-   "year": "2026",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "23468642",
-   "doi": "10.1371/journal.pgen.1003299",
-   "title": "Genome-Wide Analysis Points to Roles for Extracellular Matrix Remodeling, the Visual Cycle, and Neuronal Development in Myopia",
-   "year": "2013",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "32152063",
-   "doi": "10.1242/dmm.042853",
-   "title": "Loss of PRSS56 function leads to ocular angle defects and increased susceptibility to high intraocular pressure",
-   "year": "2020",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "35383051",
-   "doi": "10.1136/bjophthalmol-2021-320909",
-   "title": "Heterozygous variants c.781G&gt;A and c.1066dup ofserine protease 56cause familial nanophthalmos by impairing serine-type endopeptidase activity",
-   "year": "2022",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "41975103",
-   "doi": "10.1038/s41422-026-01250-8",
-   "title": "A clearer view of PRSS56 in eyes with myopia",
-   "year": "2026",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "40973198",
-   "doi": "10.1136/jmg-2025-110905",
-   "title": "Comprehensive genetic landscapes and clinical heterogeneity in nanophthalmos: new insights from a large Chinese cohort",
-   "year": "2025",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "26701169",
-   "doi": "10.1007/s00429-015-1171-z",
-   "title": "Prss56, a novel marker of adult neurogenesis in the mouse brain",
-   "year": "2015",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "23820083",
-   "doi": "10.1016/j.gene.2013.06.045",
-   "title": "Posterior microphthalmia and nanophthalmia in Tunisia caused by a founder c.1059_1066insC mutation of the PRSS56 gene",
-   "year": "2013",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "27440996",
-   "doi": "",
-   "title": "Variation in PTCHD2, CRISP3, NAP1L4, FSCB, and AP3B2 associated with spherical equivalent.",
-   "year": "2016",
-   "subcollection": "PRSS56",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:36:14Z"
-  },
-  {
-   "pmid": "39607444",
-   "doi": "10.1007/s10048-024-00789-1",
-   "title": "Three Iranian patients with rare subtypes of hereditary spastic paraplegia (HSP): SPG76, SPG56, and SPG69",
-   "year": "2024",
-   "subcollection": "RAB3GAP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:37:53Z"
-  },
-  {
-   "pmid": "20967465",
-   "doi": "10.1007/s00439-010-0896-2",
-   "title": "A homozygous RAB3GAP2 mutation causes Warburg Micro syndrome",
-   "year": "2010",
-   "subcollection": "RAB3GAP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:37:53Z"
-  },
-  {
-   "pmid": "35274444",
-   "doi": "10.1002/ajmg.a.62723",
-   "title": "A new missense variant in RAB3GAP2 in a family with muscular dystrophy–short stature and defective autophagy: An expansion of the micro/Martsolf spectrum or a new phenotype?",
-   "year": "2022",
-   "subcollection": "RAB3GAP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:37:53Z"
-  },
-  {
-   "pmid": "32376645",
-   "doi": "10.1101/mcs.a005033",
-   "title": "Hypogonadotropic hypogonadism due to variants in RAB3GAP2: expanding the phenotypic and genotypic spectrum of Martsolf syndrome",
-   "year": "2020",
-   "subcollection": "RAB3GAP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:37:53Z"
-  },
-  {
-   "pmid": "22736936",
-   "doi": "",
-   "title": "RAX and anophthalmia in humans: evidence of brain anomalies.",
-   "year": "2012",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "19158959",
-   "doi": "",
-   "title": "Sequence alterations in RX in patients with microphthalmia, anophthalmia, and coloboma.",
-   "year": "2009",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "24801179",
-   "doi": "10.1002/dvdy.24145",
-   "title": "Characterization of the Rx1‐dependent transcriptome during early retinal development",
-   "year": "2014",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "24699247",
-   "doi": "10.1371/journal.pone.0090381",
-   "title": "Rax-CreERT2 Knock-In Mice: A Tool for Selective and Conditional Gene Deletion in Progenitor Cells and Radial Glia of the Retina and Hypothalamus",
-   "year": "2014",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "16445903",
-   "doi": "10.1016/j.ydbio.2005.12.029",
-   "title": "Nucleosome regulator Xhmgb3 is required for cell proliferation of the eye and brain as a downstream target of Xenopus rax/Rx1",
-   "year": "2006",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "25266257",
-   "doi": "10.1186/1471-2164-15-825",
-   "title": "Genes and signaling networks regulated during zebrafish optic vesicle morphogenesis",
-   "year": "2014",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "35700309",
-   "doi": "10.1111/dgd.12796",
-   "title": "The Rx transcription factor is required for determination of the retinal lineage and regulates the timing of neuronal differentiation",
-   "year": "2022",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "24038725",
-   "doi": "10.1002/stem.1530",
-   "title": "Brief Report: Rx1 Defines Retinal Precursor Identity by Repressing Alternative Fates Through the Activation of TLE2 and Hes4",
-   "year": "2013",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "21525287",
-   "doi": "10.1523/jneurosci.5385-10.2011",
-   "title": "Development, Maturation, and Necessity of Transcription Factors in the Mouse Suprachiasmatic Nucleus",
-   "year": "2011",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "20849646",
-   "doi": "10.1186/2041-9139-1-3",
-   "title": "A conserved cluster of three PRD-class homeobox genes (homeobrain, rx and orthopedia) in the Cnidaria and Protostomia",
-   "year": "2010",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "42071822",
-   "doi": "10.1097/md.0000000000048361",
-   "title": "A novel mutation in the human RAX gene in patients with microphthalmia and coloboma: A case report and literature review",
-   "year": "2026",
-   "subcollection": "RAX",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:39:03Z"
-  },
-  {
-   "pmid": "38417553",
-   "doi": "10.1016/j.jlr.2024.100525",
-   "title": "Mining cholesterol genes from thousands of mouse livers identifies aldolase C as a regulator of cholesterol biosynthesis",
-   "year": "2024",
-   "subcollection": "RDH11",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:41:34Z"
-  },
-  {
-   "pmid": "16737970",
-   "doi": "10.1074/jbc.m602664200",
-   "title": "Autosomal Recessive Retinitis Pigmentosa and E150K Mutation in the Opsin Gene",
-   "year": "2006",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "15082521",
-   "doi": "10.1210/er.2003-0002",
-   "title": "Gonadotropin-Releasing Hormone Receptors",
-   "year": "2004",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "20004206",
-   "doi": "10.1016/j.jmb.2009.12.003",
-   "title": "Light Activation of Rhodopsin: Insights from Molecular Dynamics Simulations Guided by Solid-State NMR Distance Restraints",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "11891118",
-   "doi": "10.1016/s0955-0674(02)00306-x",
-   "title": "Structure of rhodopsin and the superfamily of seven-helical receptors: the same and not the same",
-   "year": "2002",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "10736696",
-   "doi": "10.1016/s0076-6879(00)15837-9",
-   "title": "[7] Preparation and analysis of two-dimensional crystals of rhodopsin",
-   "year": "2000",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "20370713",
-   "doi": "10.2174/156802610791164210",
-   "title": "Understanding Functional Residues of the Cannabinoid CB1 Receptor for Drug Discovery",
-   "year": "2010",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "17660064",
-   "doi": "10.1016/s1047-8477(07)00166-9",
-   "title": "Reprint of “Crystal packing analysis of Rhodopsin crystals” [J. Struct. Biol. 158 (2007) 455–462]☆",
-   "year": "2007",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "41958018",
-   "doi": "10.1016/j.bpj.2026.04.005",
-   "title": "Comprehensive and quantitative molecular docking analysis of rhodopsin-retinal interactions",
-   "year": "2026",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "11375997",
-   "doi": "10.1074/jbc.m103747200",
-   "title": "Activation of the β2-Adrenergic Receptor Involves Disruption of an Ionic Lock between the Cytoplasmic Ends of Transmembrane Segments 3 and 6",
-   "year": "2001",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "18997017",
-   "doi": "10.1073/pnas.0804541105",
-   "title": "Two protonation switches control rhodopsin activation in membranes",
-   "year": "2008",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "19912230",
-   "doi": "10.1111/j.1476-5381.2009.00476.x",
-   "title": "The impact of GPCR structures on pharmacology and structure‐based drug design",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "8823182",
-   "doi": "10.1021/bi960849l",
-   "title": "Structural Features and Light-Dependent Changes in the Cytoplasmic Interhelical E−F Loop Region of Rhodopsin:  A Site-Directed Spin-Labeling Study",
-   "year": "1996",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "9660746",
-   "doi": "10.1074/jbc.273.29.17979",
-   "title": "G Protein-coupled Receptors",
-   "year": "1998",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "18077356",
-   "doi": "10.1073/pnas.0710393104",
-   "title": "Sequence of late molecular events in the activation of rhodopsin",
-   "year": "2007",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "15326594",
-   "doi": "10.1002/prot.20195",
-   "title": "PREDICT modeling and in‐silico screening for G‐protein coupled receptors",
-   "year": "2004",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "19497849",
-   "doi": "10.1074/jbc.m109.016212",
-   "title": "The Magnitude of the Light-induced Conformational Change in Different Rhodopsins Correlates with Their Ability to Activate G Proteins",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "26098991",
-   "doi": "10.1021/bi501377b",
-   "title": "Comparative Mutagenesis Studies of Retinal Release in Light-Activated Zebrafish Rhodopsin Using Fluorescence Spectroscopy",
-   "year": "2015",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "22280374",
-   "doi": "10.1021/ja2108382",
-   "title": "Molecular Dynamics Simulations Reveal Specific Interactions of Post-translational Palmitoyl Modifications with Rhodopsin in Membranes",
-   "year": "2012",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "1698782",
-   "doi": "10.1016/s0021-9258(18)38249-8",
-   "title": "Opsin of Calliphora peripheral photoreceptors R1-6. Homology with Drosophila Rh1 and posttranslational processing.",
-   "year": "1990",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "15081816",
-   "doi": "10.1016/j.jmb.2004.03.006",
-   "title": "Rhodopsin Photoproducts in 2D Crystals",
-   "year": "2004",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "36909961",
-   "doi": "10.1007/s12551-022-01003-y",
-   "title": "Interdisciplinary biophysical studies of membrane proteins bacteriorhodopsin and rhodopsin",
-   "year": "2022",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "7929034",
-   "doi": "10.1016/s0021-9258(19)51020-1",
-   "title": "A conserved carboxylic acid group mediates light-dependent proton uptake and signaling by rhodopsin.",
-   "year": "1994",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "12722110",
-   "doi": "10.1002/bip.10407",
-   "title": "Fourier transform IR spectroscopy study for new insights into molecular properties and activation mechanisms of visual pigment rhodopsin",
-   "year": "2003",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "10864869",
-   "doi": "10.1126/science.288.5474.2209",
-   "title": "Movement of Retinal Along the Visual Transduction Path",
-   "year": "2000",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "17962520",
-   "doi": "10.1126/science.1150577",
-   "title": "High-Resolution Crystal Structure of an Engineered Human β 2 -Adrenergic G Protein–Coupled Receptor",
-   "year": "2007",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "22300046",
-   "doi": "10.2174/092986712799320556",
-   "title": "Action of Molecular Switches in GPCRs - Theoretical and Experimental Studies",
-   "year": "2012",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "19258456",
-   "doi": "10.1073/pnas.0811065106",
-   "title": "Identification of two distinct inactive conformations of the β 2 -adrenergic receptor reconciles structural and biochemical observations",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "19627087",
-   "doi": "10.1021/jm9005252",
-   "title": "Modern Homology Modeling of G-Protein Coupled Receptors: Which Structural Template to Use?",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "14521403",
-   "doi": "10.1021/jm030085p",
-   "title": "Molecular Modeling of the Three-Dimensional Structure of Dopamine 3 (D3) Subtype Receptor:  Discovery of Novel and Potent D3Ligands through a Hybrid Pharmacophore- and Structure-Based Database Searching Approach",
-   "year": "2003",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "16567806",
-   "doi": "10.1074/jbc.m512510200",
-   "title": "Metal Ion Site Engineering Indicates a Global Toggle Switch Model for Seven-transmembrane Receptor Activation",
-   "year": "2006",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "18821775",
-   "doi": "10.1021/bi800891r",
-   "title": "Structural Basis for Ligand Binding and Specificity in Adrenergic Receptors: Implications for GPCR-Targeted Drug Discovery",
-   "year": "2008",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "17089205",
-   "doi": "10.1007/s10822-006-9053-3",
-   "title": "Dynamic models of G-protein coupled receptor dimers: indications of asymmetry in the rhodopsin dimer from molecular dynamics simulations in a POPC bilayer",
-   "year": "2006",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "20028320",
-   "doi": "10.2174/138161209789824786",
-   "title": "Customizing G Protein-Coupled Receptor Models for Structure-Based Virtual Screening",
-   "year": "2009",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "23883288",
-   "doi": "10.1021/ja405133k",
-   "title": "Precision vs Flexibility in GPCR signaling",
-   "year": "2013",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "24724832",
-   "doi": "10.1021/bi401534y",
-   "title": "Rhodopsin TM6 Can Interact with Two Separate and Distinct Sites on Arrestin: Evidence for Structural Plasticity and Multiple Docking Modes in Arrestin–Rhodopsin Binding",
-   "year": "2014",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "10358054",
-   "doi": "10.1074/jbc.274.24.17033",
-   "title": "Similar Structures and Shared Switch Mechanisms of the β2-Adrenoceptor and the Parathyroid Hormone Receptor",
-   "year": "1999",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "9892660",
-   "doi": "10.1073/pnas.96.2.487",
-   "title": "Magic angle spinning NMR of the protonated retinylidene Schiff base nitrogen in rhodopsin: Expression of 15 N-lysine- and 13 C-glycine-labeled opsin in a stable cell line",
-   "year": "1999",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "16837211",
-   "doi": "10.1016/j.jsb.2006.05.003",
-   "title": "Improvements in G protein-coupled receptor purification yield light stable rhodopsin crystals",
-   "year": "2006",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "26641690",
-   "doi": "10.1021/ct0500850",
-   "title": "QM/MM Study of the NMR Spectroscopy of the Retinyl Chromophore in Visual Rhodopsin",
-   "year": "2005",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "20370656",
-   "doi": "10.2174/156802610791293145",
-   "title": "Adenosine Receptor Modeling: What Does the A2A Crystal Structure Tell Us?",
-   "year": "2010",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "34997336",
-   "doi": "10.1007/s00018-021-04086-0",
-   "title": "New insights into the molecular mechanism of rhodopsin retinitis pigmentosa from the biochemical and functional characterization of G90V, Y102H and I307N mutations",
-   "year": "2022",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "18721811",
-   "doi": "10.1016/j.jmb.2008.08.007",
-   "title": "Three-Layer ONIOM Studies of the Dark State of Rhodopsin: The Protonation State of Glu181",
-   "year": "2008",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "18620390",
-   "doi": "10.1021/ja0765520",
-   "title": "Atomistic Insights into Rhodopsin Activation from a Dynamic Model",
-   "year": "2008",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "15170495",
-   "doi": "10.1039/b315661c",
-   "title": "A concept for G protein activation by G protein-coupled receptor dimers: the transducin/rhodopsin interface",
-   "year": "2004",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "8356093",
-   "doi": "10.1073/pnas.90.16.7849",
-   "title": "Two different forms of metarhodopsin II: Schiff base deprotonation precedes proton uptake and signaling state.",
-   "year": "1993",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "15851682",
-   "doi": "10.1073/pnas.0500378102",
-   "title": "A rhodopsin exhibiting binding ability to agonist all-trans-retinal",
-   "year": "2005",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "21659526",
-   "doi": "10.1074/jbc.m111.233312",
-   "title": "Thermal Properties of Rhodopsin",
-   "year": "2011",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "21921035",
-   "doi": "10.1074/jbc.m111.280602",
-   "title": "Chemical Kinetic Analysis of Thermal Decay of Rhodopsin Reveals Unusual Energetics of Thermal Isomerization and Hydrolysis of Schiff Base",
-   "year": "2011",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "12409194",
-   "doi": "10.1016/s0005-2736(02)00568-0",
-   "title": "Structural studies on rhodopsin",
-   "year": "2002",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "7737995",
-   "doi": "10.1074/jbc.270.18.10580",
-   "title": "Characterization of Rhodopsin Mutants That Bind Transducin but Fail to Induce GTP Nucleotide Uptake",
-   "year": "1995",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "10614046",
-   "doi": "10.1002/9780470515693.ch5",
-   "title": "Structure of Rhodopsin",
-   "year": "2007",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "21389983",
-   "doi": "10.1038/nature09795",
-   "title": "The structural basis of agonist-induced activation in constitutively active rhodopsin",
-   "year": "2011",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "16169009",
-   "doi": "10.1016/j.jmb.2005.08.039",
-   "title": "The Role of Glu181 in the Photoactivation of Rhodopsin",
-   "year": "2005",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "12130792",
-   "doi": "10.2108/zsj.19.651",
-   "title": "Anti-Bovine Rhodopsin Monoclonal Antibody Recognizing Light-Dependent Structural Change",
-   "year": "2002",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "3675552",
-   "doi": "10.1042/bj2460131",
-   "title": "On the disulphide bonds of rhodopsins",
-   "year": "1987",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "3366250",
-   "doi": "10.1016/0014-5793(88)80388-0",
-   "title": "Octopus rhodopsin Amino acid sequence deduced from cDNA",
-   "year": "1988",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "14997522",
-   "doi": "10.1002/cbic.200300668",
-   "title": "Structural Models of the Photointermediates in the Rhodopsin Photocascade, Lumirhodopsin, Metarhodopsin I, and Metarhodopsin II",
-   "year": "2004",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "12893535",
-   "doi": "10.1080/10606820308261",
-   "title": "Scanning Mutagenesis Studies of the M 1 Muscarinic Acetylcholine Receptor",
-   "year": "2003",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "12408104",
-   "doi": "10.3109/10606820212138",
-   "title": "Activating Mutations of the Lutropin Choriogonadotropin Receptor in Precocious Puberty",
-   "year": "2002",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "10988291",
-   "doi": "10.1074/jbc.m005642200",
-   "title": "Functionally Discrete Mimics of Light-activated Rhodopsin Identified through Expression of Soluble Cytoplasmic Domains",
-   "year": "2000",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "1939072",
-   "doi": "10.1016/s0021-9258(18)54898-5",
-   "title": "Depalmitylation with hydroxylamine alters the functional properties of rhodopsin.",
-   "year": "1991",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "8428633",
-   "doi": "10.1016/0014-5793(93)81480-n",
-   "title": "Cloning and nucleotide sequence of cDNA for rhodopsin of the squid Todarodes pacificus",
-   "year": "1993",
-   "subcollection": "RHO",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:47:45Z"
-  },
-  {
-   "pmid": "11553636",
-   "doi": "10.1074/jbc.m107511200",
-   "title": "Folding and Subunit Assembly of Photoreceptor Peripherin/rds Is Mediated by Determinants within the Extracellular/Intradiskal EC2 Domain",
-   "year": "2001",
-   "subcollection": "ROM1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:56:24Z"
-  },
-  {
-   "pmid": "42119983",
-   "doi": "10.1016/j.jbc.2026.113136",
-   "title": "Photoreceptor outer segment disk rim curvature relies on a tetraspanin interaction web",
-   "year": "2026",
-   "subcollection": "ROM1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:56:24Z"
-  },
-  {
-   "pmid": "10747861",
-   "doi": "10.1074/jbc.c900853199",
-   "title": "Peripherin/rds Influences Membrane Vesicle Morphology",
-   "year": "2000",
-   "subcollection": "ROM1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T10:56:24Z"
-  },
-  {
-   "pmid": "42064015",
-   "doi": "10.1016/j.xops.2026.101180",
-   "title": "Patterns of X-Linked Retinitis Pigmentosa Genetic Testing in England and Implications for Service Provision",
-   "year": "2026",
-   "subcollection": "RPGR",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:58:03Z"
-  },
-  {
-   "pmid": "42135191",
-   "doi": "10.1523/jneurosci.0083-26.2026",
-   "title": "Inhibitory circuits can restore OFF-pathway responses in retinal prostheses",
-   "year": "2026",
-   "subcollection": "SAG",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:58:47Z"
-  },
-  {
-   "pmid": "41587732",
-   "doi": "10.1016/j.ejphar.2026.178597",
-   "title": "TGR5 rescues renal ischemia-reperfusion injury by suppressing ferroptosis and cAMP/PKA/Nrf2 axis",
-   "year": "2026",
-   "subcollection": "SLC4A11",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T10:59:45Z"
-  },
-  {
-   "pmid": "17713580",
-   "doi": "10.1139/o07-059",
-   "title": "How many remodelers does it take to make a brain? Diverse and cooperative roles of ATP-dependent chromatin-remodeling complexes in developmentThis paper is one of a selection of papers published in this Special Issue, entitled 28th International West Coast Chromatin and Chromosome Conference, and has undergone the Journal's usual peer review process.",
-   "year": "2007",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "10330133",
-   "doi": "10.1128/mcb.19.6.3931",
-   "title": "The Activity of Mammalian brm/SNF2α Is Dependent on a High-Mobility-Group Protein I/Y-Like DNA Binding Domain",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9234740",
-   "doi": "10.1128/mcb.17.8.4842",
-   "title": "Molecular Analysis of the SNF2/SWI2 Protein Family Member MOT1, an ATP-Driven Enzyme That Dissociates TATA-Binding Protein from DNA",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9118215",
-   "doi": "10.1016/s0092-8674(00)81918-2",
-   "title": "SWI2/SNF2 and Related Proteins: ATP-Driven Motors That Disrupt-Protein–DNA Interactions?",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9895321",
-   "doi": "10.1242/dev.126.4.733",
-   "title": "The trithorax group gene osa encodes an ARID-domain protein that genetically interacts with the Brahma chromatin-remodeling factor to regulate transcription",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9819566",
-   "doi": "10.1002/(sici)1521-1878(199809)20:9<771::aid-bies10>3.0.co;2-v",
-   "title": "Chromatin remodeling: a marriage between two families?",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "10713074",
-   "doi": "10.1074/jbc.275.11.7648",
-   "title": "A Eukaryotic SWI2/SNF2 Domain, an Exquisite Detector of Double-stranded to Single-stranded DNA Transition Elements",
-   "year": "2000",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "22442726",
-   "doi": "10.1371/journal.pone.0033834",
-   "title": "SS18 Together with Animal-Specific Factors Defines Human BAF-Type SWI/SNF Complexes",
-   "year": "2012",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "11865042",
-   "doi": "10.1128/mcb.22.6.1615-1625.2002",
-   "title": "Transcription Activator Interactions with Multiple SWI/SNF Subunits",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9891079",
-   "doi": "10.1128/mcb.19.2.1460",
-   "title": "Cyclin E Associates with BAF155 and BRG1, Components of the Mammalian SWI-SNF Complex, and Alters the Ability of BRG1 To Induce Growth Arrest",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "15284901",
-   "doi": "10.1139/o04-044",
-   "title": "Functional diversity of ISWI complexes",
-   "year": "2004",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "11262242",
-   "doi": "10.1242/dev.128.8.1429",
-   "title": "The domino gene of Drosophila encodes novel members of the SWI2/SNF2 family of DNA-dependent ATPases, which contribute to the silencing of homeotic genes",
-   "year": "2001",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "12356740",
-   "doi": "10.1093/emboj/cdf517",
-   "title": "The Drosophila BRM complex facilitates global transcription by RNA polymerase II",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "8460153",
-   "doi": "10.1073/pnas.90.6.2414",
-   "title": "A mammalian DNA-binding protein that contains a chromodomain and an SNF2/SWI2-like helicase domain.",
-   "year": "1993",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "10415348",
-   "doi": "10.1016/s0925-4773(99)00090-8",
-   "title": "Skeletal dysplasias, growth retardation, reduced postnatal survival, and impaired fertility in mice lacking the SNF2/SWI2 family member ETL1",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9603422",
-   "doi": "10.1002/(sici)1097-0177(199805)212:1<38::aid-aja4>3.0.co;2-3",
-   "title": "Differential preimplantation regulation of two mouse homologues of the yeast SWI2 protein",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "15806108",
-   "doi": "10.1038/nsmb919",
-   "title": "Structure of the SWI2/SNF2 chromatin-remodeling domain of eukaryotic Rad54",
-   "year": "2005",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "8709224",
-   "doi": "10.1128/jvi.70.9.6020-6028.1996",
-   "title": "Epstein-Barr virus nuclear protein 2 (EBNA2) binds to a component of the human SNF-SWI complex, hSNF5/Ini1",
-   "year": "1996",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "37511016",
-   "doi": "10.3390/ijms241411256",
-   "title": "Differential Contributions of mSWI/SNF Chromatin Remodeler Sub-Families to Myoblast Differentiation",
-   "year": "2023",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "18786404",
-   "doi": "10.1016/j.str.2008.06.012",
-   "title": "Structure of RapA, a Swi2/Snf2 Protein that Recycles RNA Polymerase During Transcription",
-   "year": "2008",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "21658482",
-   "doi": "10.1016/j.bbagrm.2011.05.012",
-   "title": "One small step for Mot1; one giant leap for other Swi2/Snf2 enzymes?",
-   "year": "2011",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "23429299",
-   "doi": "10.1242/bio.20122949",
-   "title": "The chromatin remodeling factor Chd1l is required in the preimplantation embryo",
-   "year": "2012",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "34289068",
-   "doi": "10.1093/nar/gkab617",
-   "title": "The Bromodomains of the mammalian SWI/SNF (mSWI/SNF) ATPases Brahma (BRM) and Brahma Related Gene 1 (BRG1) promote chromatin interaction and are critical for skeletal muscle differentiation",
-   "year": "2021",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "15060132",
-   "doi": "10.1128/mcb.24.8.3077-3088.2004",
-   "title": "Differential Targeting of Two Distinct SWI/SNF-Related Drosophila Chromatin-Remodeling Complexes",
-   "year": "2004",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9427756",
-   "doi": "10.1093/emboj/17.1.223",
-   "title": "ras transformation is associated with decreased expression of the brm/SNF2alpha ATPase from the mammalian SWI-SNF complex",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "9858565",
-   "doi": "10.1128/mcb.19.1.412",
-   "title": "Testing for DNA Tracking by MOT1, a SNF2/SWI2 Protein Family Member",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "8969173",
-   "doi": "10.1074/jbc.271.52.33181",
-   "title": "Direct Association between the Yeast Rad51 and Rad54 Recombination Proteins",
-   "year": "1996",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "15944353",
-   "doi": "10.1534/genetics.105.041327",
-   "title": "Genetic Screens for Enhancers of brahma Reveal Functional Interactions Between the BRM Chromatin-Remodeling Complex and the Delta-Notch Signal Transduction Pathway in Drosophila",
-   "year": "2005",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "15454538",
-   "doi": "10.1534/genetics.104.029439",
-   "title": "SNR1 (INI1/SNF5) Mediates Important Cell Growth Functions of the Drosophila Brahma (SWI/SNF) Chromatin Remodeling Complex",
-   "year": "2004",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-05-18T11:04:00Z"
-  },
-  {
-   "pmid": "42052834",
-   "doi": "10.31083/fbl49862",
-   "title": "Emodin Alleviates Lipid Accumulation and Renal Tubular Injury in Rats With DN via Inhibiting HIF-1α Expression",
-   "year": "2026",
-   "subcollection": "TGFBI",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T11:07:27Z"
-  },
-  {
-   "pmid": "42025934",
-   "doi": "10.1016/j.bbadis.2026.168272",
-   "title": "Prophylactic systemic low-dose pirfenidone attenuates intrauterine adhesion by inhibiting the TGF-β1/Smad3 pathway",
-   "year": "2026",
-   "subcollection": "TGFBI",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T11:07:27Z"
-  },
-  {
-   "pmid": "42022126",
-   "doi": "10.3389/fmicb.2026.1812620",
-   "title": "Correction: Comprehensive analysis of gut microbiota and fecal metabolites in patients with autism spectrum disorder",
-   "year": "2026",
-   "subcollection": "TGFBI",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T11:07:27Z"
-  },
-  {
-   "pmid": "37625588",
-   "doi": "10.1016/j.jbc.2023.105191",
-   "title": "Characterization of Rab32- and Rab38-positive lysosome-related organelles in osteoclasts and macrophages",
-   "year": "2023",
-   "subcollection": "TMEM98",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-05-18T11:07:39Z"
-  },
-  {
-   "pmid": "42083716",
-   "doi": "10.7759/cureus.106375",
-   "title": "Mild Oculocutaneous Albinism Type 1B With Subtle Cutaneous Findings: A Dermatology-Oriented Case Report",
-   "year": "2026",
-   "subcollection": "TYR",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-05-18T11:08:53Z"
   }
  ]
 }
