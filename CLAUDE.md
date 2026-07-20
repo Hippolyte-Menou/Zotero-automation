@@ -102,6 +102,7 @@ Separate log artifacts: `run-logs-genes-*` and `run-logs-topics-*`.
 - Static site deployed to gh-pages after each run (only if data prep succeeds)
 - Features: sidebar navigation, search, reason filter, sortable columns, BibTeX export (with LaTeX escaping)
 - Cumulative mode: merges new rejections with existing data, tracks `first_seen` / `last_seen` / `seen_count`; `to_json()` does not mutate instance state
+- Size-bounded: `to_json()` calls `_prune()` on the merged set so the written `near_misses.json` stays under GitHub's 100 MB per-blob limit (the gh-pages deploy push is rejected above it). Ranks entries by rescue usefulness (most recent `last_seen`, then `seen_count`, then `cited_by_count`) and drops the tail once `MAX_BYTES` (default 85 MB) or `MAX_ARTICLES` (default 50000) is hit; overlong abstracts trimmed to `MAX_ABSTRACT_CHARS`. Both caps overridable via `NEAR_MISS_MAX_BYTES` / `NEAR_MISS_MAX_ARTICLES` env vars. Self-healing: the next run re-prunes the fetched gh-pages file below budget
 - Cross-subcollection view: shared near-misses appearing in 2+ genes/topics
 - Summary statistics panel: collapsible bar with total rejections, breakdown by reason (horizontal bars), top 5 subcollections
 - Score progress bars: visual `effective_score / threshold` ratio with red/amber/green gradient for score-below-threshold articles
