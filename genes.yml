@@ -969,6 +969,14 @@ genes:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  exclude_text:
+  - Microphthalmia-Associated Transcription Factor
+  - melanogenesis
+  - melanocyte
+  - skin pigmentation
+  - nanoplastics
+  - spaceflight
+  - livestock
 - symbol: MAF
   collection: MAF
   tags:
@@ -1611,3 +1619,7 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - vitreoretinopathy
+- symbol: BMP7
+  collection: BMP7
+  tags:
+  - structural-eye-disease
