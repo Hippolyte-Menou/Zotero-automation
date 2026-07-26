@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-19T05:39:30Z",
+  "generated_at": "2026-07-26T05:47:33Z",
   "threshold_k": 0,
-  "total_evaluated": 23389,
-  "total_flagged": 415,
+  "total_evaluated": 24128,
+  "total_flagged": 426,
   "total_dismissed": 0,
   "total_unresolvable": 140,
   "hierarchy": {
@@ -36,8 +36,7 @@
       "Neuro-ophthalmologic examinations",
       "Ocular imaging",
       "Posterior segment examination",
-      "Specialized functional testing",
-      "Visual function"
+      "Specialized functional testing"
     ],
     "5 - Pathologies": [
       "Achromatopsia",
@@ -50,7 +49,6 @@
       "Cataract",
       "Coloboma",
       "Cone dystrophy",
-      "Cone-rod dystrophy",
       "Congenital cataract",
       "Congenital hereditary stromal dystrophy",
       "Congenital stationary night blindness",
@@ -99,6 +97,7 @@
       "BBS2",
       "BEST1",
       "CAPN15",
+      "CC2D2A",
       "CDHR1",
       "CEP290",
       "CHD7",
@@ -109,6 +108,7 @@
       "CRYGS",
       "DCN",
       "DCT",
+      "EYS",
       "FBN1",
       "FRAS1",
       "GPR143",
@@ -117,6 +117,7 @@
       "KRT3",
       "LSS",
       "MAB21L2",
+      "MAC assess-genes",
       "MFRP",
       "MYO7A",
       "MYOC",
@@ -127,6 +128,7 @@
       "PCDH15",
       "PDE6B",
       "PDE6C",
+      "PLK4",
       "PROM1",
       "PRPH2",
       "PRR12",
@@ -149,6 +151,52 @@
     ]
   },
   "articles": [
+    {
+      "pmid": "42477786",
+      "doi": "10.1186/s13062-026-00907-z",
+      "zotero_key": "XSRWE3NV",
+      "title": "4-phenylbutyric acid-loaded mesoporous silica nanoparticles alleviate endoplasmic reticulum stress and reduce intraocular pressure in glaucoma model",
+      "authors": [
+        [
+          "Xuejing",
+          "Yan"
+        ],
+        [
+          "Wu",
+          "Qin"
+        ],
+        [
+          "Xiaoming",
+          "Gan"
+        ],
+        [
+          "Yingyan",
+          "Mao"
+        ],
+        [
+          "Shen",
+          "Wu"
+        ],
+        [
+          "Shipeng",
+          "Wen"
+        ],
+        [
+          "Jingxue",
+          "Zhang"
+        ]
+      ],
+      "journal": "Biology Direct",
+      "year": "2026",
+      "abstract": "To develop a mesoporous silica nanoparticle-based delivery system for 4-phenylbutyric acid (4-PBA) and evaluate its potential to alleviate endoplasmic reticulum (ER) stress and improve mutant myocilin (MYOC)-associated glaucoma. We synthesized hollow/snowflake-like mesoporous silica nanoparticles loaded with 4-PBA (mSiO₂-PBA) for drug loading and release. Cellular uptake and cytotoxicity were evaluated in human corneal epithelial cells (HCECs) and human trabecular meshwork cells (HTMCs). The effects of mSiO₂-PBA on mutant MYOC secretion and ER stress-associated proteins were assessed by Western blot analysis. In Tg-MYOC N450Y mice, ocular distribution of mSiO₂-PBA was examined by fluorescence imaging and high performance liquid chromatography tandem mass spectrometry (HPLC-MS/MS). Therapeutic efficacy was evaluated by intraocular pressure (IOP) measurements, immunofluorescence analysis of MYOC accumulation and ER stress-associated markers in trabecular meshwork tissue, and transmission electron microscopy (TEM). mSiO₂-PBA exhibited efficient cellular uptake and favorable biocompatibility in vitro. Treatment with mSiO₂-PBA enhanced mutant MYOC secretion and reduced ER stress-associated KDEL-positive proteins in HTMCs. Following topical administration, mSiO₂-PBA achieved ocular penetration and exposure in trabecular meshwork tissue. In Tg-MYOC N450Y mice, mSiO₂-PBA significantly reduced IOP, decreased mutant MYOC accumulation, and improved ER ultrastructural abnormalities in trabecular meshwork cells. mSiO₂-PBA represents a promising nanoparticle-based delivery platform for 4-PBA in MYOC-associated glaucoma. By promoting mutant MYOC secretion and alleviating ER stress, mSiO₂-PBA demonstrated therapeutic efficacy in vitro and in vivo, supporting its potential as a nanotherapeutic strategy for MYOC-associated glaucoma.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MYOC"
+    },
     {
       "pmid": "40372228",
       "doi": "",
@@ -672,6 +720,28 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Glaucoma"
+    },
+    {
+      "pmid": "14552188",
+      "doi": "",
+      "zotero_key": "VBWGHFWN",
+      "title": "[Formation of congenital defects during ocular development. II. Genetic background of oculogenesis and developmental birth defects].",
+      "authors": [
+        [
+          "M",
+          "Krawczyński"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2003",
+      "abstract": "The course of oculogenesis is genetically controlled by genes, that are selectively expressed in the developing eye. Many of them, first recognized in studies on model animals, such as fruit fly (Drosophila melanogaster) proved, that they play similar roles in humans. The crucial role in cascade of genetic control of oculogenesis plays a system of genes PAX6-EYA1/SIX3-DACH1. In this work there are described also other genes, that form a network of interactions and regulations, such as: BMP4, BMP7, OPTX2, SOX1, PAX2, PITX2, PAX3, CHX10 and other genes. Describing function of each gene, author presented simultaneously all known congenital defects and syndromes, that are caused by mutations of above mentioned genes, such as: aniridia, anophthalmia, Peters anomaly and others.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:assess-genes"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MAC assess-genes"
     },
     {
       "pmid": "",
@@ -1524,52 +1594,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "42423539",
-      "doi": "10.1093/cid/ciag374",
-      "zotero_key": "QI2TK9U7",
-      "title": "A Nonsporulating Sinonasal Culprit",
-      "authors": [
-        [
-          "Sandeep Rao",
-          "Kordcal"
-        ],
-        [
-          "Bhuvaneshwari",
-          "Sakthivel"
-        ],
-        [
-          "Angitha K",
-          "P"
-        ],
-        [
-          "Prem Thilak",
-          "Palani"
-        ],
-        [
-          "Heet",
-          "Manvar"
-        ],
-        [
-          "Gagandeep",
-          "Singh"
-        ],
-        [
-          "Immaculata",
-          "Xess"
-        ]
-      ],
-      "journal": "Clinical Infectious Diseases",
-      "year": "2026",
-      "abstract": "A 59-year-old stockbroker presented with recurrent episodes of supraorbital throbbing headache for the past 1 month. He had experienced 4 prior episodes of optic neuritis in the last 4 years, each demonstrating significant improvement with high-dose intravenous corticosteroid treatment. In between the episodes, he was on tapering doses of oral corticosteroids and mycophenolate mofetil for a working diagnosis of chronic relapsing inflammatory optic neuropathy. His past history was notable for bronchial asthma and a previous right frontal craniotomy for colloid cyst removal. During his current admission, he was diagnosed with diabetes mellitus with an HbA1c of 6.81%. Noncontrast computed tomography of the brain and paranasal sinuses demonstrated expansile spheno-ethmoidal lesions (Figures 1 and 2). Visualization of the nasal cavity during functional endoscopic sinus surgery (FESS) revealed abundant thick mucus. Lactophenol cotton blue mount (Figure 3) and direct fluorescent potassium hydroxide examination (Figure 4) demonstrated septate fungal hyphae with clamp connections and spicules. Fungal culture grew a white fluffy mold on Sabouraud dextrose agar, without sporulation. Histopathology showed eosinophil-rich mucin with scattered septate fungal hyphae without tissue invasion. Sequencing of the internal transcribed spacer region established the fungal identity. The patient improved after surgical debridement and intranasal corticosteroids.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ACO2"
-    },
-    {
       "pmid": "41613416",
       "doi": "10.17912/micropub.biology.001961",
       "zotero_key": "HAGCPVZT",
@@ -2050,6 +2074,70 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Best vitelliform macular dystrophy"
+    },
+    {
+      "pmid": "42414629",
+      "doi": "10.1038/s41433-026-04721-9",
+      "zotero_key": "EE8DZBK7",
+      "title": "Advanced glaucoma without cupping in the setting of large optic disc drusen and high myopia",
+      "authors": [
+        [
+          "Prisha",
+          "Jonnalagadda"
+        ],
+        [
+          "Neloy R.",
+          "Shome"
+        ],
+        [
+          "Karanjit",
+          "Kooner"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2026",
+      "abstract": "Fig. 1: Advanced glaucoma without cupping in the setting of large optic disc drusen and high myopia. Full size image A Fundus photograph of a 75-year-old male who presented with advanced glaucoma (dense inferior arcs, MD −18.6 dB), high myopia (−16 D), large disc area (2.04 mm 2 ), yellowish optic disc drusen (black asterisks), and prominent peripapillary atrophy (black arrows), OS. The intraocular pressure was 13 mmHg on latanoprost 0.005% qhs, OU. The patient also had prior selective laser trabeculoplasty, OU. B , C The autofluorescence imaging of the optic disc shows large hyper-autofluorescent deposits (≥500 μm) within the optic nerve (orange arrows) and hypo-reflective cores on SD-OCT (green asterisks). D The SD-OCTA scan shows marked circumpapillary capillary dropout (dark blue areas, white asterisks) with an average vessel density of 21% (normal of 46%). The average nerve fibre layer was 49 µm (normal of ≥95 µm). Thus, our case demonstrates a dual-mechanism (elevated IOP and large disc drusen) glaucomatous optic neuropathy. All images are taken from the left eye.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
+    },
+    {
+      "pmid": "24661331",
+      "doi": "10.1016/j.urology.2014.02.004",
+      "zotero_key": "27NMAFSZ",
+      "title": "Advances in Renal Neoplasia",
+      "authors": [
+        [
+          "Brett",
+          "Delahunt"
+        ],
+        [
+          "John R.",
+          "Srigley"
+        ],
+        [
+          "Rodolfo",
+          "Montironi"
+        ],
+        [
+          "Lars",
+          "Egevad"
+        ]
+      ],
+      "journal": "Urology",
+      "year": "2014",
+      "abstract": "",
+      "cited_by_count": 77,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PLK4"
     },
     {
       "pmid": "41480687",
@@ -3038,6 +3126,74 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42474711",
+      "doi": "10.1007/s00248-026-02842-y",
+      "zotero_key": "SSB4D5SK",
+      "title": "Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks",
+      "authors": [
+        [
+          "Francisco J.",
+          "Márquez"
+        ],
+        [
+          "Yordanis",
+          "Pérez‐Llano"
+        ],
+        [
+          "S. A.",
+          "Sánchez-Carrión"
+        ],
+        [
+          "Manuel de",
+          "Rojas"
+        ],
+        [
+          "Antonio",
+          "Carúz"
+        ]
+      ],
+      "journal": "Microbial Ecology",
+      "year": "2026",
+      "abstract": "Ticks are obligate hematophagous arthropods and major vectors of diverse bacterial, parasitic, and viral pathogens. They host complex microbial communities that critically influence their biology, fitness, and interactions with pathogens. Using 16 S rRNA gene amplicon sequencing at the amplicon sequence variant (ASV) resolution combined with co-occurrence network analysis, we characterized the bacterial communities of questing adult ticks collected in the Cazorla, Segura y Las Villas Natural Park (Jaén, Spain). A total of 83 adult ticks (27 males and 56 females) representing six sympatric species, Dermacentor marginatus (n = 39), Haemaphysalis punctata (n = 9), H. sulcata (n = 15), Hyalomma lusitanicum (n = 7), Ixodes ricinus s. l. (n = 2), and Rhipicephalus bursa (n = 11), were analyzed. After stringent quality filtering, 3.77 million high-quality reads were recovered and resolved into 407 ASVs. Due to the inherent resolution limits of the V3-V4 region for species-level discrimination, taxonomic assignments were conservatively consolidated at the genus level (101 bacterial genera). Across all tick species, the bacteriome was heavily dominated by Pseudomonadota (98.6%), with species-specific differences primarily driven by variation in obligate symbionts. Coxiella-associated ASVs predominated in multiple tick species, whereas H. lusitanicum exhibited strong dominance by Francisella and secondary representation of Candidatus Midichloria. Alpha and beta diversity analyses revealed distinct compositional patterns shaped by host identity, with lower dispersion observed in D. marginatus and R. bursa, and greater variability among Hyalomma and Haemaphysalis individuals. Spearman-based co-occurrence network analysis indicated a highly cooperative and modular structure (> 98% positive correlations) across tick species. Notably, dominant endosymbionts (Coxiella, Rickettsia, and Francisella) occupied peripheral or weakly connected positions within the networks. In contrast, ecological connectivity was governed by a distinct set of low-abundance taxa, including Roseomonas, Friedmanniella, Methylobacterium, Sphingomonas, Aureimonas, Conexibacter, Marmoricola, Mycobacterium, and Nocardioides, which acted as central hubs bridging network modules, a topology robustly validated by an independent, composition-aware (SparCC) reanalysis within the D. marginatus cohort. These comparative findings demonstrate a functional decoupling between abundance and connectivity in tick microbiomes, highlighting how the \"rare microbiome\" can drive the topological organization and potential stability of microbial communities across sympatric host species.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42410159",
+      "doi": "10.1038/s41433-026-04723-7",
+      "zotero_key": "B8GHUVUC",
+      "title": "Bilateral persistent pupillary membrane causing secondary angle closure glaucoma with high myopia",
+      "authors": [
+        [
+          "Rajendrababu",
+          "Sharmila"
+        ],
+        [
+          "Faiza",
+          "Ibrahim"
+        ],
+        [
+          "N.",
+          "Balakrishnan"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Retinal dystrophies"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/j.jtos.2014.04.003",
       "zotero_key": "NU23HFMS",
@@ -3810,6 +3966,44 @@
       "subcollection": "Knobloch syndrome"
     },
     {
+      "pmid": "42474922",
+      "doi": "10.1007/s10266-026-01501-5",
+      "zotero_key": "HHAUDCF8",
+      "title": "Colour change and fracture resistance of endodontically treated teeth after staining and walking bleach: role of filling strategy",
+      "authors": [
+        [
+          "Hayrunnisa",
+          "Başaran"
+        ],
+        [
+          "Zeynep Buket",
+          "Dağ"
+        ],
+        [
+          "Gülmelis",
+          "Erdeve"
+        ],
+        [
+          "Sıla Nur",
+          "Usta"
+        ],
+        [
+          "Emel Uzunoğlu",
+          "Özyürek"
+        ]
+      ],
+      "journal": "Odontology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "40160374",
       "doi": "10.3389/fnhum.2025.1557826",
       "zotero_key": "RTJ5ZXMS",
@@ -3970,70 +4164,6 @@
       "year": "1956",
       "abstract": "",
       "cited_by_count": 101,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "",
-      "doi": "10.3390/ani12101324",
-      "zotero_key": "5PX9QMQ3",
-      "title": "Comparative Histology of C Thyrocytes in Four Domestic Animal Species: Dog, Pig, Horse, and Cattle.",
-      "authors": [
-        [
-          "J",
-          "Sokołowska"
-        ],
-        [
-          "A",
-          "Cywińska"
-        ],
-        [
-          "M",
-          "Puchalska"
-        ]
-      ],
-      "journal": "Animals : an open access journal from MDPI",
-      "year": "2022",
-      "abstract": "",
-      "cited_by_count": 3,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1016/j.peptides.2003.07.022",
-      "zotero_key": "45BEAXJQ",
-      "title": "Comparative immunohistochemistry and cellular distribution of farnesoic acid O-methyltransferase in the shrimp and the crayfish.",
-      "authors": [
-        [
-          "YI",
-          "Silva Gunawardene"
-        ],
-        [
-          "WG",
-          "Bendena"
-        ],
-        [
-          "SS",
-          "Tobe"
-        ],
-        [
-          "SM",
-          "Chan"
-        ]
-      ],
-      "journal": "Peptides",
-      "year": "2003",
-      "abstract": "",
-      "cited_by_count": 19,
       "centrality": 0,
       "source_tags": [
         "source:deep-search"
@@ -4218,6 +4348,36 @@
       "subcollection": "Myopia"
     },
     {
+      "pmid": "42083041",
+      "doi": "10.1186/s13256-026-06070-3",
+      "zotero_key": "MI5HF5WX",
+      "title": "Compound heterozygous mutations in CC2D2A cause Meckel–Gruber syndrome: a case report and review of the literature",
+      "authors": [
+        [
+          "Lixin",
+          "Liu"
+        ],
+        [
+          "Yan",
+          "Lv"
+        ],
+        [
+          "X Y",
+          "Zhou"
+        ]
+      ],
+      "journal": "Journal of Medical Case Reports",
+      "year": "2026",
+      "abstract": "BACKGROUND: Meckel-Gruber syndrome is a rare autosomal recessive ciliopathy characterized by the triad of occipital encephalocele, polycystic kidney dysplasia, and postaxial polydactyly, with an estimated incidence of 1:13,250 to 1:140,000 live births. Pathogenic variants in CC2D2A, encoding a ciliary transition zone protein, account for 5-15% of MGS cases. This report highlights the diagnostic utility of whole-exome sequencing (WES) in delineating molecular etiologies of MGS and reviews genotype-phenotype correlations associated with CC2D2A mutations. CASE PRESENTATION: A 30-year-old Chinese primigravida (G1P0) from Shandong Province was referred at 23 week gestation following prenatal ultrasound detection of fetal anomalies. Key findings included bilateral enlarged hyperechoic kidneys (renal transverse diameter: 35 mm, > 95th percentile), occipital meningoencephalocele (29 × 25 × 12 mm) and bilateral postaxial hexadactyly. Prenatal counseling confirmed the fetal prognosis, and the parents chose to terminate the pregnancy. Postmortem WES revealed compound heterozygous CC2D2A variants. CONCLUSIONS: This case highlights that prenatal ultrasonography remains critical for early detection of MGS hallmarks, especially in resource-limited Settings. Second, WES-based molecular autopsy is crucial for definitive diagnosis and genetic counseling.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:citation"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CC2D2A"
+    },
+    {
       "pmid": "41531001",
       "doi": "10.1111/ddg.15973",
       "zotero_key": "RT9R8FX4",
@@ -4284,6 +4444,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Congenital hereditary stromal dystrophy"
+    },
+    {
+      "pmid": "42447353",
+      "doi": "10.1097/icb.0000000000001955",
+      "zotero_key": "J658UI6E",
+      "title": "Congenital stationary night blindness with a fundus albipunctatus-like yellow-dotted retina associated with compound heterozygous RPE65 variants: A case report",
+      "authors": [
+        [
+          "Adriana P. Pérez",
+          "Negron"
+        ],
+        [
+          "Tamara",
+          "Juvier-Riesgo"
+        ],
+        [
+          "Henar",
+          "Albertos-Arranz"
+        ],
+        [
+          "Audina",
+          "Berrocal"
+        ],
+        [
+          "Carlos E.",
+          "Mendoza-Santiesteban"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2026",
+      "abstract": "PURPOSE: This case describes congenital stationary night blindness (CSNB) with a fundus albipunctatus-like phenotype linked to compound heterozygous RPE65 variants, highlighting the diagnostic value of multimodal imaging and evidence-based variant interpretation. METHODS: A retrospective case review including best-corrected visual acuity (BCVA), color vision testing, fundus photography, spectral-domain optical coherence tomography (SD-OCT), full-field electroretinography (ERG), and next-generation sequencing with parental segregation analysis. Variant pathogenicity was assessed using in-silico prediction models (PolyPhen-2 HumDiv and HumVar), and findings were integrated with clinical and imaging data. RESULTS: A sixteen-year-old male reported lifelong nyctalopia and stable difficulty seeing in dim. ENVIRONMENTS: BCVA was 20/30 OD and 20/25 OS with normal color vision. Fundus examination revealed multiple white-yellow flecks along the arcades and mid-periphery with macular sparing. SD-OCT demonstrated preserved outer retinal architecture and an intact ellipsoid zone, and full-field ERG showed preserved rod and cone responses. Genetic testing identified two RPE65 missense variants: c.433G>A (p.Ala145Thr), likely pathogenic, and c.946A>G (p.Asn316Asp), reported as a VUS. PolyPhen-2 analysis classified p.Asn316Asp as damaging (HumDiv/HumVar score 1.000), and parental segregation demonstrated the variants in trans. Integration of genotype and phenotype supports p.Asn316Asp as likely pathogenic. CONCLUSION: Compound heterozygosity for hypomorphic RPE65 variants can produce a stationary fundus albipunctatus-like phenotype rather than progressive retinal degeneration. Careful integration of multimodal phenotyping and variant interpretation was essential for confirming disease causality.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SAG"
     },
     {
       "pmid": "",
@@ -4378,6 +4576,40 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Specialized microanatomy"
+    },
+    {
+      "pmid": "42474262",
+      "doi": "10.1021/acs.orglett.6c02795",
+      "zotero_key": "HV9HM64F",
+      "title": "Construction of a Chasmanine Skeleton Enabled by Hg(OAc) 2 -Promoted Vinylogous Mannich Reaction",
+      "authors": [
+        [
+          "Hibiki",
+          "Asai"
+        ],
+        [
+          "Shu",
+          "Nakamura"
+        ],
+        [
+          "Koichi",
+          "Hagiwara"
+        ],
+        [
+          "Masayuki",
+          "Inoue"
+        ]
+      ],
+      "journal": "Organic Letters",
+      "year": "2026",
+      "abstract": "Chasmanine and puberuline C share a hexacyclic ABCDEF-ring but differ in the fusion pattern of their 5- and 6-membered F-rings. Here, we present a novel strategy for constructing the chasmanine skeleton, starting from a key intermediate employed in our total synthesis of puberuline C. Following optimization of a radical cyclization to build the ABCE-ring system, Hg(OAc) 2 -promoted vinylogous Mannich and Mukaiyama aldol reactions formed the F- and D-rings, respectively, thereby completing the assembly of the hexacycle.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -4681,6 +4913,36 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Peters Plus syndrome"
+    },
+    {
+      "pmid": "41731125",
+      "doi": "10.1007/s00428-026-04465-7",
+      "zotero_key": "SJIB2VKH",
+      "title": "Cyclin D1 demonstrates superior sensitivity and consistent nuclear expression compared with MiTF in cellular neurothekeoma",
+      "authors": [
+        [
+          "Jeffrey A.",
+          "Sanford"
+        ],
+        [
+          "Damien",
+          "Abreu"
+        ],
+        [
+          "Jaroslaw",
+          "Jedrych"
+        ]
+      ],
+      "journal": "Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SOX2"
     },
     {
       "pmid": "",
@@ -5627,6 +5889,196 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42463897",
+      "doi": "10.1038/s43856-026-01664-w",
+      "zotero_key": "5DI7RKPT",
+      "title": "Early vitrectomy and intravitreal antibiotics for post-operative exogenous endophthalmitis (EVIAN): a randomised control trial of feasibility",
+      "authors": [
+        [
+          "Mahiul MK",
+          "Muqit"
+        ],
+        [
+          "Carlos",
+          "Pavesio"
+        ],
+        [
+          "Yanzhong",
+          "Wang"
+        ],
+        [
+          "Stephen",
+          "Cobb"
+        ],
+        [
+          "Christopher",
+          "Spink"
+        ],
+        [
+          "Elena",
+          "Pizzo"
+        ],
+        [
+          "Gerry",
+          "Clare"
+        ],
+        [
+          "Gordon",
+          "Hay"
+        ],
+        [
+          "Hatem A",
+          "Wafa"
+        ],
+        [
+          "Yi-Xiang",
+          "Wang"
+        ],
+        [
+          "Hayley",
+          "Boston"
+        ],
+        [
+          "Keerththika",
+          "Sriharan"
+        ],
+        [
+          "Intravitreal Antibiotics for Endophthalmitis (EVIAN) Study Group",
+          "Early Vitrectomy"
+        ],
+        [
+          "David",
+          "Steel"
+        ],
+        [
+          "Tariq",
+          "Aslam"
+        ],
+        [
+          "Irene",
+          "Stratton"
+        ],
+        [
+          "Angie",
+          "Fletcher"
+        ],
+        [
+          "Patient Advisory",
+          "Group"
+        ],
+        [
+          "Sir Stephen",
+          "Cobb"
+        ],
+        [
+          "Christopher",
+          "Spink"
+        ],
+        [
+          "Study",
+          "Group"
+        ],
+        [
+          "Felipe",
+          "Dhawahir-Scala"
+        ],
+        [
+          "Jonathan",
+          "Smith"
+        ],
+        [
+          "Richard",
+          "Haynes"
+        ],
+        [
+          "Teresa",
+          "Sandinha"
+        ],
+        [
+          "Yi",
+          "Luo"
+        ],
+        [
+          "Sonali",
+          "Tarafdar"
+        ],
+        [
+          "Kam",
+          "Balaggan"
+        ],
+        [
+          "Mark",
+          "Costen"
+        ],
+        [
+          "Benjamin",
+          "Clarke"
+        ],
+        [
+          "Tim",
+          "Jackson"
+        ],
+        [
+          "Harry",
+          "Bennett"
+        ],
+        [
+          "Bhaskar",
+          "Gupta"
+        ],
+        [
+          "Roxane",
+          "Hillier"
+        ],
+        [
+          "Daniela",
+          "Vaideanu-Collins"
+        ],
+        [
+          "Ahmed",
+          "Saad"
+        ],
+        [
+          "Stephen",
+          "Winder"
+        ],
+        [
+          "Sher",
+          "Aslam"
+        ],
+        [
+          "Mandeep",
+          "Bhindra"
+        ],
+        [
+          "Guy",
+          "Negretti"
+        ],
+        [
+          "Philip",
+          "Banerjee"
+        ],
+        [
+          "Bataung",
+          "Mokete"
+        ],
+        [
+          "James",
+          "Bainbridge"
+        ]
+      ],
+      "journal": "Communications Medicine",
+      "year": "2026",
+      "abstract": "BACKGROUND: Endophthalmitis is a blinding complication following any invasive ocular procedure, and historical treatment guidelines do exist but only for cataract surgery cases. To the best of our knowledge, no randomised controlled trial evidence exists to answer the question of early vitrectomy surgery for the treatment of endophthalmitis following any eye surgery. METHODS: We conducted a multicentre, national prospective randomized controlled clinical (RCT) trial aimed to assess the feasibility of randomizing patients to an early vitrectomy (Arm-A) intervention within 48-96 hours compared to current standard patient care of repeated, immediate intravitreal antibiotic injection (Arm-B) and delayed vitrectomy. There was no blinding or masking conducted in the trial. The key inclusion criteria were: over 18 years of age; confirmed diagnosis of POE at any time-point following an ocular surgery, procedure, or injection; symptomatic visual loss attributable to POE; best corrected visual acuity (VA) worse than 35 ETDRS letters, including counting fingers, hand motions and perception of light vision. The key exclusion criteria were: known adverse reaction to intravitreal antibiotics (amikacin/vancomyin/cephalosporins); optic atrophy in study eye; corneal oedema or haze that would prevent visualisation of fundus to perform vitrectomy surgery. The primary outcome measure was, the feasibility and acceptability of carrying out a RCT of early surgical treatment compared to standard treatment for POE. CLINICALTRIALS: gov NCT04522661 (13/08/2020). RESULTS: Here we show that the study is feasible and meets the primary endpoint whereby 63 participants are randomized at 79% recruitment rate. Median change in VA (IQR) as per-protocol from baseline-to-week 24 was 40 (28-70) letters in Arm-A (n = 24) versus 13 (0-66) letters in Arm-B (n = 25); corresponding to a between-group difference of 24 letters, adjusted for baseline, in favour of early vitrectomy (p = 0.139). Higher rate of non-serious adverse events observed in Arm-B (68%) compared to Arm-A (47%), with higher incidence of retinal detachment 8 cases (24%) in Arm-B versus 2 cases in Arm-A (6.7%). CONCLUSIONS: The EVIAN trial meets the primary endpoint demonstrating feasibility in conducting a trial to randomize the target population at multiple eye centres. Although not statistically significant, the effect on VA change indicates a potential meaningful benefit of vitrectomy compared to standard of care treatment, which can now be tested in a definitive phase 3 clinical trial.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ACO2"
+    },
+    {
       "pmid": "41920593",
       "doi": "10.1097/icb.0000000000001907",
       "zotero_key": "GVEESWJ5",
@@ -5989,6 +6441,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42472739",
+      "doi": "10.1007/s00380-026-02733-9",
+      "zotero_key": "M52Z9UNE",
+      "title": "Elucidating physiologic influences of sleep-related breathing and architectural disruption in Takotsubo syndrome",
+      "authors": [
+        [
+          "Sepideh",
+          "Khazaie"
+        ],
+        [
+          "Michael",
+          "Faulx"
+        ],
+        [
+          "James F.",
+          "Bena"
+        ],
+        [
+          "Shannon L.",
+          "Morrison"
+        ],
+        [
+          "A",
+          "Milinovich"
+        ],
+        [
+          "Megan",
+          "Sheehan"
+        ],
+        [
+          "L",
+          "Wang"
+        ],
+        [
+          "R",
+          "Mehra"
+        ]
+      ],
+      "journal": "Heart and Vessels",
+      "year": "2026",
+      "abstract": "Abstract Background: Takotsubo syndrome (TS), an acute stress-induced cardiomyopathy driven by catecholamine excess, shares pathophysiological features with sleep disordered breathing (SDB), yet this relationship remains unexplored. We hypothesize that SDB and sleep disruption influences TS risk and severity. Methods: We leveraged data from the Cleveland Clinic sleep cohort (1999–2021) including patients with proven TS and matched controls (1:5 ratio by age, sex, body mass index (BMI), and study year). Logistic regression models were used to assess odds of TS associated with SDB biomarkers, i.e., apnea-hypopnea index (AHI; evaluated at thresholds ≥ 5, ≥15, and ≥ 30), hypoxia (percentage of sleep time with SaO 2 &lt;90%) and the arousal index, while adjusting for age, sex, BMI, comorbidities (hypertension, diabetes, and hyperlipidemia), and overall cardiovascular medication use. Spearman correlations were used to examine relationships between sleep measures and left ventricular ejection fraction (LVEF) in TS patients. Results: S cases ( n = 84; mean age 64.1 ± 11.4 years, 86.9% female, BMI 30.9 ± 7.7 kg/m 2 ) had higher comorbidity (e.g., 45.2% vs. 10.1% coronary artery disease, p &lt; 0.001) and lower PAP use (17.9% vs. 43.0%, p &lt; 0.001) compared to matched controls ( n = 414). Mild OSA (AHI 5–&lt;15) was associated with reduced odds of TS in unadjusted models (OR = 0.49, 95% CI 0.25–0.94, p = 0.032) and remained significant after adjustment for age, sex, BMI, comorbidities, and overall cardiovascular medication use (OR = 0.48, 95% CI 0.24–0.96, p = 0.037). In the subgroup analysis of patients with pre-TS sleep studies ( n = 36), a stronger association was observed for overall OSA (AHI ≥ 5) (OR = 0.34, 95% CI 0.13–0.91, p = 0.031). Arousal index correlated with lower LVEF in pre-TS cases (rho = − 0.40, p = 0.024). Moderate/severe OSA and hypoxia showed no significant association with TS. Conclusions: Mild OSA may be protective in TS, possibly via hypoxic preconditioning, while sleep fragmentation is associated with greater cardiac dysfunction. This first study of SDB in TS highlights a novel sleep-cardiac interplay, warranting further investigation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "33229638",
@@ -6406,6 +6908,56 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "42477790",
+      "doi": "10.1186/s13023-026-04501-4",
+      "zotero_key": "DBKUI4J3",
+      "title": "Estimation of the genetic susceptibility prevalence of primary ciliary dyskinesia via the gnomAD v4.1.0 database",
+      "authors": [
+        [
+          "Rutao",
+          "Dai"
+        ],
+        [
+          "Ya",
+          "Dao"
+        ],
+        [
+          "Xi",
+          "Zhang"
+        ],
+        [
+          "Yongyu",
+          "Ma"
+        ],
+        [
+          "Xian",
+          "Zhu"
+        ],
+        [
+          "Yunshan",
+          "Gao"
+        ],
+        [
+          "Jianmin",
+          "Wu"
+        ],
+        [
+          "Liu",
+          "Sun"
+        ]
+      ],
+      "journal": "Orphanet Journal of Rare Diseases",
+      "year": "2026",
+      "abstract": "BACKGROUND: Primary ciliary dyskinesia (PCD) is a rare genetic disorder that is predominantly inherited in an autosomal recessive pattern and is caused by structural or functional ciliary abnormalities. Previous studies on the genetic susceptibility prevalence of PCD have been largely based on limited populations, and there is a lack of global estimates derived from large-scale population genetic databases. This study estimates the carrier frequency and genetic susceptibility prevalence of PCD via the latest data from the gnomAD v4.1.0 database and compares the results with those of previous studies. METHODS: We selected genes related to PCD with \"Definitive\" or \"Strong\" associations as determined by the ClinGen Motile Ciliopathy Gene Curation Expert Panel. According to ACMG/AMP guidelines, variables were classified for pathogenicity, including loss-of-function variants (pLOFs) and pathogenic/likely pathogenic missense variants. Using the allele frequency (AF) of these variants from the Genome Aggregation Database (gnomAD) v4.1.0 (containing data from 807,162 individuals) and applying the Hardy‒Weinberg equilibrium principle, we calculated the global and population-specific genetic susceptibility prevalence and carrier frequency of PCD. RESULTS: Among the 31 PCD-associated genes, 5252 eligible variants were included, comprising 5156 pLOF and 96 P/LP variants. The estimated global genetic susceptibility prevalence of PCD is approximately 1 in 20,103, with a corresponding overall carrier frequency of approximately 1 in 25. The Middle East region has the highest prevalence rate of 1 in 4,744, as well as the highest carrier frequency. CONCLUSION: The estimated global genetic susceptibility prevalence of primary ciliary dyskinesia is approximately 1 in 20,103, with an overall carrier frequency of 1 in 25, indicating significant heterogeneity among ethnic populations. The global genetic susceptibility prevalence estimate is lower than the previous estimate of 1/7,554.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CLRN1"
+    },
+    {
       "pmid": "",
       "doi": "10.1017/s0952523823000020",
       "zotero_key": "6SCNN69I",
@@ -6536,6 +7088,52 @@
       "subcollection": "PROM1"
     },
     {
+      "pmid": "42472798",
+      "doi": "10.1186/s12903-026-09345-9",
+      "zotero_key": "C5FH9RGB",
+      "title": "Exploring the use of large language models for self-learning in preventive dentistry and their associations with academic performance: a cross-sectional pilot study among dental students",
+      "authors": [
+        [
+          "Jie",
+          "Yang"
+        ],
+        [
+          "M Y",
+          "Li"
+        ],
+        [
+          "Shuhua",
+          "Wang"
+        ],
+        [
+          "Zhuojin",
+          "Shi"
+        ],
+        [
+          "Jinhua",
+          "Fang"
+        ],
+        [
+          "Pei",
+          "Zheng"
+        ],
+        [
+          "Zhiwu",
+          "Wu"
+        ]
+      ],
+      "journal": "BMC Oral Health",
+      "year": "2026",
+      "abstract": "Large language models (LLMs) are being gradually integrated into dental education, but more attention was paid in perspective of educators rather than students. Evidence regarding how students employ them for self-learning in Preventive Dentistry, and whether specific usage patterns are related to academic performance, remains scarce. This study examined dental students’ self-perceived LLM knowledge, attitudes, and behaviors; evaluated perceived usefulness across Preventive Dentistry modules; and explored associations between LLM usage (frequency, type, motivation) and academic performance. This cross-sectional pilot study recruited all third-year dental undergraduates enrolled in a Preventive Dentistry course at a university in eastern China. A total of 117 students provided valid responses and completed final examination. Academic performance was assessed using final examination scores as a continuous outcome variable. Linear regression analysis was performed to examine associations between LLM usage and examination scores. The data were analyzed using SPSS 22.0, and the level of significance was set at 0.05. LLM use was reported by all participants, with eighty-four students (71.8%) considering themselves as proficient users. For self-learning in Preventive Dentistry, 49.6% of participants reported using LLMs one to three times per month and DeepSeek (99.1%) was most popular. Students perceived LLMs as more helpful for theoretical learning than for practical skill acquisition ( p < 0.001). The most frequently reported motivation for LLM use was to broaden knowledge and facilitate comprehension (76.1%), compared with other motivations. Importantly, the linear regression model (adjusted R 2 = 0.274) showed that an association was observed between the motivation “to broaden knowledge and facilitate comprehension” and academic performance (B = 5.321 (95%CI: 1.669 to 8.973), β = 0.233, p = 0.005), indicating a small-to-moderate positive effect size. In this pilot sample, LLMs were widely reported to be used and were perceived by these students as more helpful for learning theoretical rather than for practical knowledge during self-learning in Preventive Dentistry. Using LLMs to broaden knowledge and facilitate comprehension was the most frequently reported motivation and showed a modest positive association with academic performance, although causality cannot be inferred due to the cross-sectional design. These findings provide preliminary insights into students’ use of LLMs and may help inform future research on their role in dental education.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.2174/0929866523666160413140131",
       "zotero_key": "VX37BF6F",
@@ -6572,32 +7170,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1128/cmr.18.4.657-686.2005",
-      "zotero_key": "E55PKCDT",
-      "title": "Extended-spectrum beta-lactamases: a clinical update.",
-      "authors": [
-        [
-          "DL",
-          "Paterson"
-        ],
-        [
-          "RA",
-          "Bonomo"
-        ]
-      ],
-      "journal": "Clinical microbiology reviews",
-      "year": "2005",
-      "abstract": "",
-      "cited_by_count": 3384,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "X-linked retinoschisis"
     },
     {
       "pmid": "41709746",
@@ -8426,56 +8998,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
-    },
-    {
-      "pmid": "41830639",
-      "doi": "10.1021/acs.jpclett.6c00418",
-      "zotero_key": "7JFVNNJG",
-      "title": "In Situ Light-Triggered Synthesis of NIR-II Nanoprobes for Deep-Tissue Optical Imaging and Hepatic Photodistribution Mapping",
-      "authors": [
-        [
-          "Zhiming",
-          "Deng"
-        ],
-        [
-          "Quan",
-          "Shen"
-        ],
-        [
-          "Yao",
-          "Huang"
-        ],
-        [
-          "Lei",
-          "Li"
-        ],
-        [
-          "Lei",
-          "Zheng"
-        ],
-        [
-          "Jiansheng",
-          "Dong"
-        ],
-        [
-          "Jiayou",
-          "Tao"
-        ],
-        [
-          "Xingwang",
-          "Wen"
-        ]
-      ],
-      "journal": "The Journal of Physical Chemistry Letters",
-      "year": "2026",
-      "abstract": "Accurate assessment of light distribution within the body, particularly in deep tissues, is essential for early disease diagnosis and the advancement of light-based therapeutic strategies. The liver, as a central organ governing metabolism, detoxification, immunity, and coagulation, plays a vital role in maintaining physiological homeostasis. However, noninvasive visualization of light distribution in the liver remains a significant challenge. Herein, we report a strategy for imaging spatial light distribution in liver tissues using second-near-infrared (NIR-II) fluorescence imaging, enabled by specially designed photosensitive AgBr nanocrystals. Upon illumination with smartphone-emitted light, these nanocrystals undergo decomposition, generating Ag2S quantum dots that emit in the NIR-II window. Following surface modification with PLGA, the AgBr nanocrystals were administered in vivo, allowing for the real-time visualization of light distribution within hepatic tissue and successful mapping of illumination patterns. This light-activated in situ synthesis of NIR-II-emitting nanoprobes offers a promising approach for the precise diagnosis of deep-tissue pathologies, therapeutic monitoring, and image-guided surgery.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -10896,36 +11418,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "",
-      "doi": "10.1016/j.neuro.2019.05.001",
-      "zotero_key": "5SGHS8UC",
-      "title": "Neuroprotective offerings by agmatine.",
-      "authors": [
-        [
-          "NR",
-          "Kotagale"
-        ],
-        [
-          "BG",
-          "Taksande"
-        ],
-        [
-          "NN",
-          "Inamdar"
-        ]
-      ],
-      "journal": "Neurotoxicology",
-      "year": "2019",
-      "abstract": "",
-      "cited_by_count": 5,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Cone-rod dystrophy"
-    },
-    {
       "pmid": "41790986",
       "doi": "",
       "zotero_key": "EXCDPGZJ",
@@ -11334,6 +11826,56 @@
       "subcollection": "Neurophysiologie oculaire, Ocular neurophysiology"
     },
     {
+      "pmid": "41721777",
+      "doi": "10.1021/acs.est.5c12923",
+      "zotero_key": "G68IIE7E",
+      "title": "Occurrence, Transformation, and Toxicity of Tire-Derived Chemicals 6PPD and 6PPD-q in the Environment",
+      "authors": [
+        [
+          "Shuang",
+          "Wang"
+        ],
+        [
+          "Shuhan",
+          "Xu"
+        ],
+        [
+          "Junhe",
+          "Lu"
+        ],
+        [
+          "Yongshan",
+          "Wan"
+        ],
+        [
+          "Zhenyu",
+          "Kang"
+        ],
+        [
+          "Hao",
+          "Chen"
+        ],
+        [
+          "Shahidul",
+          "Islam"
+        ],
+        [
+          "Bin",
+          "Gao"
+        ]
+      ],
+      "journal": "Environmental Science & Technology",
+      "year": "2026",
+      "abstract": "6PPD (N<sup>1</sup>-(4-methylpentan-2-yl)-N<sup>4</sup>-phenylbenzene-1,4-diamine), a widely used rubber antioxidant in tire manufacturing, has garnered increasing global attention, following the discovery that its ozone-oxidation product, 6PPD-q, is the primary toxicant responsible for urban runoff mortality syndrome (URMS) in salmon. This work provides a comprehensive review of 6PPD and 6PPD-q in the environment, focusing on four key aspects: source, occurrence, transformation, and toxicity. Key findings include the following: (1) Tire wear particles are the main source of 6PPD and 6PPD-q in the environment, with their release directly linked to traffic density. (2) Ozone levels, temperature, climate conditions (e.g., snowmelt and rainy seasons), and environmental settings (e.g., roadways, tunnels, and parking lots) can greatly affect exposure levels. (3) In addition to atmospheric ozonation, oxidation in the atmosphere, free radical oxidation, and photocatalytic oxidation also play key roles in transforming 6PPD to 6PPD-q within aquatic systems and soils. (4) URMS is caused by 6PPD-q attacking the organs of fish, leading to blood-brain barrier and vascular dysfunction, with observed interspecies differences in sensitivity; these differences may be linked to variations in metabolic capacity. (5) Both 6PPD and 6PPD-q can enter the human body through the food chain, but their metabolic mechanisms and pathological changes are still unclear. Given the significant research gaps, this review concludes with proposed future research directions to deepen understanding of 6PPD's and 6PPD-q's environmental impacts.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "42191754",
       "doi": "10.1038/s41598-026-53687-x",
       "zotero_key": "CR8QWD9A",
@@ -11654,56 +12196,6 @@
       "subcollection": "CEP290"
     },
     {
-      "pmid": "41832457",
-      "doi": "10.1186/s12904-026-02065-5",
-      "zotero_key": "ABSHR9QI",
-      "title": "Patient, family, and healthcare provider experiences in advance care planning: a qualitative study",
-      "authors": [
-        [
-          "Apiradee",
-          "Pimsen"
-        ],
-        [
-          "Nedruetai",
-          "Punaglom"
-        ],
-        [
-          "Anuwat",
-          "Taweesuwanakrai"
-        ],
-        [
-          "Wanida",
-          "Winyoohatthakit"
-        ],
-        [
-          "Siriluk",
-          "Winitchayothin"
-        ],
-        [
-          "Supinda",
-          "Ruangjiratain"
-        ],
-        [
-          "Virapun",
-          "Wirojratana"
-        ],
-        [
-          "Ahmad",
-          "Rifai"
-        ]
-      ],
-      "journal": "BMC Palliative Care",
-      "year": "2026",
-      "abstract": "Advance care planning (ACP) aligns care with patients’ values and improves end-of-life outcomes. Yet uptake remains limited and frequently crisis-triggered, particularly in collectivist contexts where family interdependence and emotional tolerance shape participation. Empirical understanding of how ACP is experienced across patients, families, and healthcare providers in non-Western settings remains limited. To explore how patients, family caregivers, and healthcare providers experience and negotiate participation in ACP within a Thai palliative care context. Qualitative study using reflexive thematic analysis. A university hospital in Bangkok, Thailand. Thirty participants: 10 patients with life-limiting illness, 10 family caregivers, and 10 healthcare providers. Semi-structured interviews were conducted at a palliative care center between January and October 2025. Interviews were transcribed verbatim, translated using meaning-based equivalence, and analyzed inductively using reflexive thematic analysis. Four themes (10 subthemes) conceptualized ACP as a relationally negotiated, culturally embedded practice. (1) Timing and pathways: emotional, familial, and structural readiness shaped when ACP became possible, most often during clinical crises. (2) Values and visions of a good death: comfort, peace, and minimizing burden guided preferences, while caregiving and resource constraints limited feasibility. (3) Communication as relational positioning in ACP: gentle honesty and paced disclosure fostered engagement; decisions were negotiated within family circles; physicians typically initiated ACP, while nurses sustained relational continuity. (4) Structural conditions shaping the possibility of ACP: hierarchy, workload, limited training, and constrained community support restricted proactive implementation, reinforcing reactive patterns. ACP in this context functions as a relationally negotiated practice contingent upon alignment across emotional, familial, and structural readiness. Crisis initiation reflects misalignment across these domains rather than cultural resistance alone. Strengthening culturally attuned communication, family-centered engagement, interdisciplinary role clarity, and structural support may enable earlier and sustained ACP dialogue. In collectivist healthcare systems, ACP depends on alignment across emotional, familial, and structural readiness. Without coordinated relational and institutional support, conversations remain crisis-triggered despite shared endorsement of dignified, non-burdensome care.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "42318730",
       "doi": "",
       "zotero_key": "74NZDGPJ",
@@ -11748,6 +12240,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42474113",
+      "doi": "10.1002/advs.76723",
+      "zotero_key": "7GQTET5V",
+      "title": "Pattern‐Aware Intelligence Enables Nondestructive, Rapid Quantification of High‐Aspect‐Ratio Silicon Etching",
+      "authors": [
+        [
+          "Shuyan",
+          "He"
+        ],
+        [
+          "Lang",
+          "Chen"
+        ],
+        [
+          "Bo",
+          "Wen"
+        ],
+        [
+          "Jin",
+          "Yy"
+        ],
+        [
+          "W",
+          "Wang"
+        ]
+      ],
+      "journal": "Advanced Science",
+      "year": "2026",
+      "abstract": "ABSTRACT High‐aspect‐ratio (HAR) structures are widely used in microelectromechanical systems (MEMS), electronic devices, and advanced packaging. Accurate characterization of post‐etch microstructural morphology is essential for process control and device reliability. However, existing metrology techniques rely on destructive methods and cannot capture the complete three‐dimensional profile. This study proposes a pattern‐aware intelligent model that transforms pattern‐dependent etching behavior into a physical prior, enabling rapid and minimally destructive reconstruction of HAR structures across pattern scales. A YOLO‐Pose‐based model is developed to automatically extract subpixel geometric features from scanning electron microscopy images, achieving a quantification accuracy of 95.11% with R 2 &gt;0.98 for key dimensions. By incorporating the pattern‐dependent effect in HAR silicon etching as a physical prior, the model creates a topography network that captures etch behavior across feature sizes under identical process conditions. With minimal destructive observations of shallow regions of the wafer, the framework achieves a 93.96% prediction accuracy in the nondestructive retrieval of critical parameters, including etch depth, sidewall angle, and scallop texture, while demonstrating robust cross‐scale generalization across varying layout densities. This approach reduces the data acquisition time to 1 min, enabling near‐real‐time process feedback. It provides a highly interpretable, cost‐effective, and intelligent solution for intelligent manufacturing applications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41052222",
@@ -12392,6 +12922,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42474571",
+      "doi": "10.1007/s11701-026-03655-4",
+      "zotero_key": "GS43U8MT",
+      "title": "Preoperative gap phenotypes in functionally aligned robotic total knee arthroplasty: derivation and internal coherence of a driver-based classification",
+      "authors": [
+        [
+          "Eduardo Frois",
+          "Temponi"
+        ],
+        [
+          "Jared Philip",
+          "Sachs"
+        ],
+        [
+          "Lucas Braga Jacques",
+          "Gonçalves"
+        ],
+        [
+          "Luiz Fernando Machado",
+          "Soares"
+        ],
+        [
+          "Lúcio Honório de",
+          "Carvalho"
+        ]
+      ],
+      "journal": "Journal of Robotic Surgery",
+      "year": "2026",
+      "abstract": "Robotic total knee arthroplasty (TKA) enables repeated intraoperative quantification of preoperative alignment, flexion deformity, and medial and lateral compartment gaps in extension and at 90° flexion before component positioning, but the preoperative patterns guiding functional-alignment planning remain incompletely characterized. This study aimed to derive a pragmatic driver-based classification from preoperative robotic data and evaluate its internal coherence across the surgical workflow. We analyzed 68 consecutive primary functionally aligned robotic TKAs performed by a single surgeon using a CT-based robotic-arm platform. Preoperative variables included hip-knee-ankle angle (HKA), flexion deformity, and independent medial and lateral gaps in extension and at 90° flexion. A 10-case formative series informed concept generation; the finalized hierarchy was then applied to all cases using preoperative variables only. Four phenotypes were derived: bone-driven, ligament-driven, flexion-dominant, and mixed/complex (defined as the co-occurrence of two or more severe deformity drivers). Internal coherence was assessed through release escalation, corrected-state behavior, plan-to-final HKA fidelity, and mechanical and functional-alignment balance. Inter-observer reliability was tested by having five independent surgeons classify all cases blinded, with agreement quantified by Fleiss' and Cohen's kappa. All knees were classified: bone-driven, 40/68 (58.8%); ligament-driven, 6/68 (8.8%); flexion-dominant, 10/68 (14.7%); and mixed/complex, 12/68 (17.6%). Release escalation occurred in 1/68 (1.5%), with no posterior capsulotomy. Overall, 58/63 (92.1%) finished within ± 2° of planned HKA; strict mechanical balance was achieved in 58/62 (93.5%) and functional-alignment balance in 61/62 (98.4%). Flexion-dominant knees showed lower coronal fidelity but complete final balance, suggesting a coronal-sagittal trade-off during functional planning. Inter-observer agreement among the five surgeons was almost perfect (Fleiss' kappa 0.88, 95% CI 0.81-0.93; 92.4% overall agreement). Preoperative HKA, sagittal deformity, and medial-lateral gap asymmetry revealed recurring patterns organized into a four-phenotype driver framework. This classification is best interpreted as an internally coherent derivation framework that showed almost perfect inter-observer reliability (Fleiss' kappa 0.88) but still requires external, multicenter validation and threshold-sensitivity analysis before its clinical utility can be established.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "42231307",
@@ -13363,6 +13931,40 @@
       "subcollection": "USH2A"
     },
     {
+      "pmid": "42457905",
+      "doi": "10.1038/s41598-026-62351-3",
+      "zotero_key": "6AMB3Q22",
+      "title": "Retinoic acid- and TGF-β1-preconditioned hBM-MSCs show distinct reparative profiles after transplantation in Busulfan-induced testicular injury",
+      "authors": [
+        [
+          "Hossein Karamzadeh",
+          "Omrani"
+        ],
+        [
+          "Farkhondeh",
+          "Nemati"
+        ],
+        [
+          "Maryam Gholami Tabar",
+          "Tabari"
+        ],
+        [
+          "Rohualla",
+          "Abdullahpour"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Non-obstructive azoospermia (NOA) is a severe male-infertility phenotype characterized by intrinsic testicular failure and impaired spermatogenesis. This study compared retinoic acid (RA)- and transforming growth factor-beta 1 (TGF-β1)-preconditioned human bone marrow-derived mesenchymal stem cells (hBM-MSCs) in a busulfan-induced mouse model of testicular injury. hBM-MSCs were characterized by plastic adherence, spindle-shaped morphology, immunophenotyping, and adipogenic/osteogenic differentiation, then preconditioned with RA (2, 5, or 10 µM) or TGF-β1 (5, 10, or 20 ng/mL) for 21 days. Busulfan-treated BALB/c mice were assigned to eight groups (n = 5/group), and preconditioned cells were transplanted four weeks after injury. Histology, modified Johnsen score, spermatogenic indices, seminiferous morphometry, testicular cell counts, epididymal sperm parameters, human-specific Alu-qPCR, and C-Kit, DAZL, OCT4, Tex18, Piwil2, and Mvh transcript expression were evaluated eight weeks after transplantation. Busulfan induced tubular atrophy, germ-cell depletion, impaired sperm-related endpoints, and downregulation of spermatogenesis-associated transcripts. Both preconditioned hBM-MSC products partially attenuated these abnormalities compared with busulfan-only injury. RA-preconditioned hBM-MSCs, particularly at 10 µM, showed the strongest pro-spermatogenic profile, whereas TGF-β1-preconditioned hBM-MSCs showed a comparatively niche-oriented epithelial and luminal recovery pattern. Human Alu-qPCR indicated donor-derived DNA persistence within testes but not viable donor-cell integration or donor-derived spermatogenesis. Because a naïve, non-preconditioned hBM-MSC group was not included, whether unprimed hBM-MSCs would produce similar, lesser, or different effects remains unknown. These findings define distinct reparative profiles, not validated molecular pathways or proven fertility restoration.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TGFBI"
+    },
+    {
       "pmid": "40840457",
       "doi": "10.1055/a-2635-2506",
       "zotero_key": "MIM5XX5E",
@@ -13619,52 +14221,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Schnyder corneal dystrophy"
-    },
-    {
-      "pmid": "41832525",
-      "doi": "10.1186/s13102-026-01648-2",
-      "zotero_key": "KSFGDKX5",
-      "title": "Scoring patterns and player roles in the International Baskin Tournament: a statistical analysis",
-      "authors": [
-        [
-          "Živan",
-          "Milošević"
-        ],
-        [
-          "Tijana",
-          "Šćepanović"
-        ],
-        [
-          "Boris",
-          "Karasek"
-        ],
-        [
-          "Bojan",
-          "Jorgić"
-        ],
-        [
-          "İsmail",
-          "İlbak"
-        ],
-        [
-          "Ladislav",
-          "Čepička"
-        ],
-        [
-          "Vera",
-          "Knappova"
-        ]
-      ],
-      "journal": "BMC Sports Science Medicine and Rehabilitation",
-      "year": "2026",
-      "abstract": "Baskin is an inclusive team sport that allows individuals with and without disabilities to play together, with roles and scoring systems adapted to functional abilities. Despite its innovative design, Baskin remains little studied at the international level, particularly in relation to the technical and tactical factors that influence competitive outcomes. The present study analyzed scoring distributions and point production patterns at the International Baskin Tournament held in Tortona, Italy, in September 2024, within the framework of the Eurohoop for All 2.0 project. A total of 527 points from eight games were examined according to basket type (traditional or side), shooting position, and player role, in line with official Baskin rules. Results showed that higher-ranked teams scored a greater proportion of their total points on the traditional basket, while points from the side sector of the side basket were also more frequent among these teams. Role 5 players contributed the majority of points, underlining their decisive impact, whereas role 2 and role 3 players provided important contributions through side-basket play. By contrast, the numerical value of the points (1, 2, or 3) did not differentiate between winning and losing teams. These findings suggest that success in Baskin is shaped not by point values themselves but by the functional integration of different roles and the tactical exploitation of multiple scoring opportunities, underscoring both the competitive and inclusive dimensions of the sport.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "42309414",
@@ -14195,32 +14751,6 @@
       "subcollection": "Severe early-onset retinal dystrophy"
     },
     {
-      "pmid": "41832232",
-      "doi": "10.1038/s41598-026-44230-z",
-      "zotero_key": "4B44CNTK",
-      "title": "Spatiotemporal evolution and spatial differentiation of carbon emission intensity in the Chinese transport sector",
-      "authors": [
-        [
-          "Y. M.",
-          "Tang"
-        ],
-        [
-          "Huiyuan",
-          "Jiang"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Accurately identifying the spatiotemporal evolution and spatial differentiation of carbon emission intensity in the transport sector is essential for formulating region-specific carbon reduction policies. This study develops an analytical framework that integrates both static and dynamic perspectives to examine spatial disparities in transport sector carbon emission intensity. From a static perspective, the Dagum Gini coefficient is employed to quantify spatial differences and their sources of transport carbon emission intensity. From a dynamic perspective, kernel density estimation is applied to depict the evolution trajectories of transport carbon emission intensity. Furthermore, the traditional Markov chain model is refined to construct a spatial Markov chain model that accounts for spatial adjacency, enabling identification of persistence and spatial spillover effects. The empirical results indicate that (1) The carbon emission intensity of the transport sector in China presents an overall declining trend with significant spatial heterogeneity among provinces. Regional disparities have expanded, with the largest gap between the eastern and western regions, where inter-regional differences contribute an average of 47.374% to total disparity, representing the main source of variation. (2) The carbon emission intensity in the national, eastern, and central regions tends to converge gradually, while the western region shows a pattern of initial convergence followed by renewed divergence. Within each region, several provinces maintain carbon emission intensity levels significantly higher than the average, forming a clear spatial gradient structure. (3) The traditional Markov chain analysis reveals evident persistence and club convergence in transport carbon emission intensity. The spatial Markov chain analysis further shows that neighboring regions strongly influence local transition probabilities, demonstrating spatial spillover and path dependence effects. Hypothesis testing confirms the necessity of incorporating spatial dependence into the analysis. Based on these findings, this study proposes that carbon reduction strategies in the transport sector should be tailored to regional disparities and spatial interdependencies, aiming to enhance overall mitigation efficiency and foster coordinated governance.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "41069227",
       "doi": "10.1113/jp289770",
       "zotero_key": "ZSZ9H8WJ",
@@ -14313,28 +14843,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ZEB1"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1016/s0896-1549(03)00005-1",
-      "zotero_key": "N6HJ2E3D",
-      "title": "Standard perimetry.",
-      "authors": [
-        [
-          "DR",
-          "Anderson"
-        ]
-      ],
-      "journal": "Ophthalmology clinics of North America",
-      "year": "2003",
-      "abstract": "",
-      "cited_by_count": 12,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "4 - Examinations",
-      "subcollection": "Visual function"
     },
     {
       "pmid": "42208684",
@@ -14453,6 +14961,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42477626",
+      "doi": "10.1186/s12886-026-05133-9",
+      "zotero_key": "9VZX6873",
+      "title": "Stromal mechanical anisotropy of the SMILE lenticule shows no detectable association with postoperative refractive error",
+      "authors": [
+        [
+          "Pengfei",
+          "Han"
+        ],
+        [
+          "Peng",
+          "Chen"
+        ],
+        [
+          "Li",
+          "Zhang"
+        ],
+        [
+          "Yanli",
+          "Su"
+        ],
+        [
+          "Weiyi",
+          "Chen"
+        ],
+        [
+          "X X",
+          "Li"
+        ],
+        [
+          "Hongwei",
+          "Qin"
+        ],
+        [
+          "Qizhi",
+          "Zhou"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "Small-incision lenticule extraction (SMILE) removes an intrastromal lenticule whose stiffness differs between corneal meridians, producing measurable stromal mechanical anisotropy. Whether this meridional anisotropy biases postoperative refractive or astigmatic outcomes—and could therefore guide individualized treatment—remains unestablished. We tested whether lenticule mechanical anisotropy is associated with axis-specific astigmatic error, using an orthogonal negative control to guard against spurious correlation. In this prospective consecutive cohort, 282 patients undergoing SMILE for the correction of myopia or myopic astigmatism were enrolled, and 279 right eyes with complete 3-month follow-up were analyzed. Excised lenticules underwent orientation-registered biaxial mechanical testing to derive the meridional anisotropy index A_mech = ( E SI − E NT )/( E SI + E NT ) and the mean tangent modulus Ē. The pre-specified primary outcome was the association between A_mech and the on-axis astigmatic power-vector error (Δ J 0 ); the association between A_mech and the orthogonal oblique error (Δ J 45 )—onto which a true meridional effect should not project—served as a pre-specified negative control. The mean modulus was related to spherical-equivalent error (ΔM). Associations were assessed by Spearman correlation and refractive predictability by attempted-versus-achieved analysis. Refractive outcomes were excellent (spherical-equivalent error + 0.29 ± 0.39 D; 99.3% within ± 1.00 D; attempted-versus-achieved R ² = 0.918). The primary association between A_mech and Δ J 0 was null ( ρ = +0.054, P = 0.365), and the orthogonal negative control was likewise null (A_mech–Δ J 45 ρ = +0.033, P = 0.587), indicating the absence—rather than masking—of an axis-specific signal. The mean modulus showed only a borderline relation to ΔM ( ρ = +0.117, P = 0.050), and the residual astigmatic vector was centred near the origin (Δ J 0 +0.03 ± 0.15 D, Δ J 45 −0.02 ± 0.11 D). Although SMILE lenticules exhibit reproducible meridional mechanical anisotropy, this property did not translate into detectable axis-specific or magnitude-related refractive error in this cohort. The concordant null finding in the orthogonal negative control supports the interpretation that no measurable axis-specific signal was present, rather than a meridian-independent analytical artifact. Lenticule-derived biomechanical metrics therefore appear unlikely, by themselves, to meaningfully refine refractive accuracy through individualized treatment planning in this setting. These conclusions are limited to the ex vivo lenticule-derived metrics evaluated here and should not be generalized to all corneal biomechanical measurements or to their established role in ectasia risk assessment.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "42047282",
@@ -15223,6 +15781,88 @@
       "subcollection": "CEP290"
     },
     {
+      "pmid": "27558071",
+      "doi": "10.2174/1566524016666160824150729",
+      "zotero_key": "AZSIPW4D",
+      "title": "The Male Abnormal Gene Family 21 (Mab21) Members Regulate Eye Development",
+      "authors": [
+        [
+          "Z.-X.",
+          "Huang"
+        ],
+        [
+          "J.-W.",
+          "Xiang"
+        ],
+        [
+          "Liang",
+          "Zhou"
+        ],
+        [
+          "Q.",
+          "Nie"
+        ],
+        [
+          "L.",
+          "Wang"
+        ],
+        [
+          "Z.-G.",
+          "Chen"
+        ],
+        [
+          "Xiao",
+          "Hu"
+        ],
+        [
+          "Ye",
+          "Xiao"
+        ],
+        [
+          "Wenjie",
+          "Qing"
+        ],
+        [
+          "Y.-F.",
+          "Liu"
+        ],
+        [
+          "Qiang",
+          "Sun"
+        ],
+        [
+          "Xuexi",
+          "Tang"
+        ],
+        [
+          "F.-Y.",
+          "Liu"
+        ],
+        [
+          "Zhumeng",
+          "Luo"
+        ],
+        [
+          "Wei",
+          "Liu"
+        ],
+        [
+          "Dongping",
+          "Li"
+        ]
+      ],
+      "journal": "Current Molecular Medicine",
+      "year": "2016",
+      "abstract": "The male abnormal gene family contains 3 members, named mab21l1, mab21l2 and mab21l3. Since their first discovery in C. elegans, homologues of mab21l1 and mab21l2 have been found in Drosophila, Zebrafish, Xenopus, chicken, mouse and human. A number of studies have revealed that mab21 gene family members, mab21l1 and mab21l2, play important roles in regulating eye development. Here, we review the functions of the mab genes in regulating ocular development.",
+      "cited_by_count": 8,
+      "centrality": 0,
+      "source_tags": [
+        "source:assess-genes"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MAC assess-genes"
+    },
+    {
       "pmid": "",
       "doi": "10.22336/rjo.2023.29",
       "zotero_key": "IPF9DE82",
@@ -15556,56 +16196,6 @@
     },
     {
       "pmid": "",
-      "doi": "10.1177/15266028211025026",
-      "zotero_key": "KT3MMIGW",
-      "title": "Three-Dimensional Holographic Guidance, Navigation, and Control (3D-GNC) for Endograft Positioning in Porcine Aorta: Feasibility Comparison With 2-Dimensional X-Ray Fluoroscopy.",
-      "authors": [
-        [
-          "K",
-          "West"
-        ],
-        [
-          "S",
-          "Al-Nimer"
-        ],
-        [
-          "VR",
-          "Goel"
-        ],
-        [
-          "JH",
-          "Yanof"
-        ],
-        [
-          "AT",
-          "Hanlon"
-        ],
-        [
-          "CJ",
-          "Weunski"
-        ],
-        [
-          "J",
-          "Kattar"
-        ],
-        [
-          "BS",
-          "Farivar"
-        ]
-      ],
-      "journal": "Journal of endovascular therapy : an official journal of the International Society of Endovascular Specialists",
-      "year": "2021",
-      "abstract": "",
-      "cited_by_count": 25,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "",
       "doi": "10.1097/icu.0000000000000093",
       "zotero_key": "53GHZB9U",
       "title": "Tips and tricks for successful electroretinography in children.",
@@ -15753,6 +16343,72 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42463452",
+      "doi": "10.1523/jneurosci.0052-26.2026",
+      "zotero_key": "NENPQX7F",
+      "title": "Transcription co-repressors Panky and Panky-like modulate ganglioside levels and are essential for retinal cone photoreceptor structure and survival",
+      "authors": [
+        [
+          "Hung‐Ya",
+          "Tu"
+        ],
+        [
+          "Daichi",
+          "Gyoten"
+        ],
+        [
+          "Hitoshi",
+          "Sumihiro"
+        ],
+        [
+          "Kayoko",
+          "Michikawa"
+        ],
+        [
+          "Yuki",
+          "Miyanohara"
+        ],
+        [
+          "Shangyuan",
+          "Huang"
+        ],
+        [
+          "Shinya",
+          "Abe"
+        ],
+        [
+          "Kazuki",
+          "Fujieda"
+        ],
+        [
+          "Naoko",
+          "Kajimura"
+        ],
+        [
+          "Taro",
+          "Chaya"
+        ],
+        [
+          "Kazutaka",
+          "Ikeda"
+        ],
+        [
+          "Takahisa",
+          "Furukawa"
+        ]
+      ],
+      "journal": "Journal of Neuroscience",
+      "year": "2026",
+      "abstract": "The biological functions and mechanisms of many cell-type-specific transcriptional cofactors remain unclear. We previously identified Panky ( Ankrd33 ) as a repressive transcriptional co-factor that suppresses Crx-mediated transactivation of photoreceptor genes; however, the biological function of Panky remains unclarified. Here, we investigated the functions of Panky and its paralog, Panky-like ( Ankrd33b ), in mice of either sex. Single knockout (KO) mouse retinas of Panky or Panky-like did not show significant alterations at both histological and functional levels compared to those of control mice. We then established and examined Panky and Panky-like double knockout ( PPL DKO) mice. PPL DKO mice exhibited decreased light-evoked activities detected by electroretinogram (ERG), impaired cone photoreceptor morphology revealed by immunohistochemistry, and structural deformity of cone outer segments and synaptic terminals indicated by transmission electron microscopy (TEM), followed by cone death at a later stage. Lipidomics analysis revealed elevated ganglioside levels in PPL DKO retinas, consistent with the increased immunoreactivity of GT1b and GD3 in the outer segment layer. RNA-seq analysis was conducted in a cone-enriched context resulting from Nrl deficiency and showed that the Cerkl gene, whose mutations in humans cause retinitis pigmentosa (RP26), was upregulated in Panky/Panky-like/Nrl triple KO mice. Transcriptional assays showed that PPL suppressed Crx-mediated transactivation of Cerkl . In addition, AAV-mediated Cerkl overexpression in the mouse retina induced significant photoreceptor cell death. Taken together, these findings suggest that the repressive Panky and Panky-like co-factors, which modulate Crx transcriptional activities and thus ganglioside levels in the mouse retina, are essential for cone photoreceptor structure and maintenance. Significance statement The retina is a light-sensing neural tissue in the eye. Photoreceptor cells (PRs) in the retina receive light stimuli. Rod PRs mediate dim-light vision, whereas cone PRs are responsible for bright and color vision. The present study identified that Panky and Panky-like genes are predominantly expressed in PRs in the mouse retina. Panky and Panky-like double-knockout mice exhibit impaired cone cell morphology, cone cell death, and visual dysfunction. In addition, gangliosides, which are chemically bonded lipids and sugars essential for cell membrane stability and function, accumulate in the photoreceptor layer. This study showed that Panky and Panky-like genes regulate ganglioside levels in the retina and play essential roles in the structure and maintenance of cone photoreceptor cells.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "EYS"
     },
     {
       "pmid": "39936623",
@@ -16465,30 +17121,50 @@
       "subcollection": "KRT3"
     },
     {
-      "pmid": "",
-      "doi": "10.1016/0040-8166(78)90028-9",
-      "zotero_key": "BJTC8BKR",
-      "title": "Visualization of layers lining the lung of the South American lungfish (Lepidosiren paradoxa) and a comparison with the frog and rat.",
+      "pmid": "42468902",
+      "doi": "10.1016/j.jcjo.2026.06.010",
+      "zotero_key": "2SU6EVHT",
+      "title": "Vitreoretinal procedures in inherited retinal diseases: a large retrospective cohort study.",
       "authors": [
         [
-          "GM",
-          "Hughes"
+          "Lucie Y.",
+          "Guo"
         ],
         [
-          "ER",
-          "Weibel"
+          "Karen M",
+          "Wai"
+        ],
+        [
+          "Ahmad",
+          "Al-Moujahed"
+        ],
+        [
+          "Vinit B.",
+          "Mahajan"
+        ],
+        [
+          "Loh-Shan",
+          "Leung"
+        ],
+        [
+          "Prithvi",
+          "Mruthyunjaya"
+        ],
+        [
+          "Ehsan",
+          "Rahimy"
         ]
       ],
-      "journal": "Tissue & cell",
-      "year": "1978",
-      "abstract": "",
-      "cited_by_count": 39,
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "OBJECTIVE: Management of inherited retinal diseases (IRDs) traditionally has been viewed as nonsurgical, but there are known complications of IRDs that may warrant surgical intervention. Patterns of procedural interventions among patients with IRDs remain poorly characterized, given their relatively small representation among individual institutions. The objective of this study is to characterize patterns of surgical diagnoses and procedures in patients with IRD compared with a control cohort. DESIGN: This retrospective cohort study used deidentified aggregated electronic health records from January 1, 2003, through March 30, 2024, from TriNetX, a network with data from more than 119 million patients across 85 health care organizations in 4 countries. METHODS: Patients with IRDs and a control group with other posterior segment pathologies were identified and propensity score matched for age, sex, and ethnicity and race. International Statistical Classification of Diseases and Related Health Problems, Tenth Revision, diagnosis codes for inherited retinal diseases (hereditary retinal dystrophy, hereditary choroidal dystrophy, congenital night blindness, achromatopsia, or other colour blindness) or posterior segment pathologies (disorders of choroid and retina, disorders of vitreous body and globe, glaucoma, visual disturbances and blindness, disorders of optic nerve and visual pathways, other disorders of eye and adnexa) were searched. Rates of surgical diagnoses and subsequent procedures in the IRD group were compared with the control group. RESULTS: Each cohort resulted in 69 235 patients after propensity-score matching. Among patients with IRDs, there was an increased rate of age-related cataracts (risk ratio [RR] 1.39, P < 0.001), other cataracts (RR 1.52, P < 0.001), macular edema (RR 2.98, P < 0.001), epiretinal membrane (RR 1.68, P < 0.001), macular hole/cyst/pseudohole (RR 1.93, P < 0.001), and slightly lower rates of rhegmatogenous retinal detachment (RR 0.87, P = 0.003). There was a greater rate of in-office vitreoretinal procedures, such as intravitreal injections (RR 2.22, P < 0.001), laser (RR 1.32, P < 0.001), and cataract surgery (RR 1.28, P < 0.001). However, there were lower rates of membrane peel (RR 0.74, P = 0.017) and retinal detachment repair (RR 0.60, P < 0.001) and no difference in the rate of macular hole repair (RR 1.09, P = 0.331). CONCLUSIONS: The discordance observed between the prevalence of potential surgical pathologies and the rates of subsequent intervention highlights the complexities in surgical decision-making for patients with IRDs.",
+      "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:deep-search"
+        "source:recent"
       ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "",
