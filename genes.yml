@@ -1623,3 +1623,30 @@ genes:
   collection: BMP7
   tags:
   - structural-eye-disease
+- symbol: APC
+  collection: APC
+  tags:
+  - structural-eye-disease
+  exclude_text:
+  - colorectal cancer
+  - familial adenomatous polyposis
+  - polyposis
+  - hepatoblastoma
+  - anaphase promoting complex
+  - astrocyte precursor
+  - activated protein C
+  - colon cancer
+  - melanogenesis
+- symbol: AXIN1
+  collection: AXIN1
+  tags:
+  - structural-eye-disease
+  exclude_text:
+  - cryptorchidism
+  - osteoporosis
+  - cardiomyopathy
+  - cardiac hypertrophy
+  - Parkinson
+  - colitis
+  - osteosclerosis
+  - myopia
