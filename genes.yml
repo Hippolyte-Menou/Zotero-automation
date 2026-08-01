@@ -308,6 +308,15 @@ genes:
   - retinitis-pigmentosa
   - vitelliform
   - vitreoretinopathy
+  exclude_text:
+  - melanogenesis
+  - B16F10
+  - skin whitening
+  - tyrosinase
+  - Lactiplantibacillus
+  - skin lightening
+  - antimelanogenic
+  - melasma
 - symbol: BFSP1
   collection: BFSP1
   tags:
