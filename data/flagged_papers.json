@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T05:47:33Z",
+  "generated_at": "2026-08-02T05:45:07Z",
   "threshold_k": 0,
-  "total_evaluated": 24128,
-  "total_flagged": 426,
+  "total_evaluated": 24876,
+  "total_flagged": 421,
   "total_dismissed": 0,
   "total_unresolvable": 140,
   "hierarchy": {
@@ -53,7 +53,6 @@
       "Congenital hereditary stromal dystrophy",
       "Congenital stationary night blindness",
       "Corneal dystrophy",
-      "Ectopia lentis",
       "Familial exudative vitreoretinopathy",
       "Foveal hypoplasia",
       "Gillespie syndrome",
@@ -107,13 +106,14 @@
       "CRX",
       "CRYGS",
       "DCN",
-      "DCT",
       "EYS",
       "FBN1",
       "FRAS1",
       "GPR143",
       "GPR179",
+      "HK1",
       "IFT172",
+      "KRT12",
       "KRT3",
       "LSS",
       "MAB21L2",
@@ -144,6 +144,7 @@
       "SAG",
       "SLC4A11",
       "SOX2",
+      "SPATA7",
       "TGFBI",
       "TYR",
       "USH2A",
@@ -336,32 +337,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Bardet-Biedl syndrome"
-    },
-    {
-      "pmid": "10965538",
-      "doi": "",
-      "zotero_key": "2TPE3IG4",
-      "title": "[Cellular and molecular features of mammalian pigmentation--tyrosinase and TRP].",
-      "authors": [
-        [
-          "Agnès",
-          "Camacho‐Hübner"
-        ],
-        [
-          "Friedrich",
-          "Beermann"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2000",
-      "abstract": "Melanin pigments are found in all biological kingdoms. At the cellular level, correct pigmentation depends not only on correct migration of pigment cells (melanocytes) and their precursors (melanoblasts), but also on specialized cytoplasmic organelles, melanosomes. Three pigment cell-specific enzymes inside melanosomes are involved in melanogenesis: tyrosinase, TRP-1 and TRP-2/DOPA-chrome tautomerase. A point mutation of tyrosinase is sufficient to give rise to a nonfunctional enzyme, leading to albinism and associated decreased visual acuity. Several regulatory elements have been identified within the promoters of the genes encoding these three enzymes. These promoter fragments have been used to target the expression of heterogeneous genes in pigment cells of transgenic mice.",
-      "cited_by_count": 13,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "DCT"
     },
     {
       "pmid": "20204230",
@@ -2780,6 +2755,68 @@
       "subcollection": "BBS1"
     },
     {
+      "pmid": "42506901",
+      "doi": "10.1097/iae.0000000000004935",
+      "zotero_key": "BNUA5KXW",
+      "title": "Association between Pre-diagnostic Macular Thickness With Risk of Age-related Macular Degeneration",
+      "authors": [
+        [
+          "Jianqi",
+          "Chen"
+        ],
+        [
+          "Yangjiani",
+          "Li"
+        ],
+        [
+          "Y H",
+          "Xiao"
+        ],
+        [
+          "Danna",
+          "Chen"
+        ],
+        [
+          "Wenzhi",
+          "Huang"
+        ],
+        [
+          "Ningfeng",
+          "Li"
+        ],
+        [
+          "Jingying",
+          "Liang"
+        ],
+        [
+          "Jinan",
+          "Zhan"
+        ],
+        [
+          "Ya",
+          "Zhuo"
+        ],
+        [
+          "Yunxia",
+          "Leng"
+        ],
+        [
+          "Yingting",
+          "Zhu"
+        ]
+      ],
+      "journal": "Retina",
+      "year": "2026",
+      "abstract": "PURPOSE: To determine whether specific pre-diagnostic macular thickness are associated with an increased risk of age-related macular degeneration (AMD). METHODS: A total of 40,078 UK Biobank participants without baseline AMD who underwent optical coherence tomography (OCT) imaging were included. Macular thickness measurements were obtained via OCT across nine subfields of the Early Treatment Diabetic Retinopathy Study. Latent Profile Analysis (LPA) was employed to classify distinct pre-diagnostic macular thickness profiles, while cox proportional hazards models were utilized to estimate hazard ratios (HRs) between the identified profiles. RESULTS: Two distinct pre-diagnostic macular thickness profiles were identified. Compared to profile 1 (n = 31,942), profile 2 (n = 8,136) was characterized by thinner inner and outer superior subfields, alongside thicker central and other outer subfields. Profile 2 was associated with significantly increased AMD risk compared to profile 1 (HR, 1.59; 95% confidence interval [CI], 1.32-1.90; P < 0.001). After adjustment for all covariates, the observed association persisted (HR, 1.39; 95% CI, 1.16-1.67; P < 0.001). CONCLUSION: Distinct pre-diagnostic macular thickness patterns are associated with elevated AMD risk. These findings provide novel insights into potential early macular structural changes prior to AMD diagnosis, and may serve as novel biomarkers for early identification of AMD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41802866",
       "doi": "10.1523/jneurosci.1846-25.2026",
       "zotero_key": "3XTJ37Z6",
@@ -3296,6 +3333,64 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42482214",
+      "doi": "10.1186/s12920-026-02435-1",
+      "zotero_key": "ZRGRQ3SR",
+      "title": "Breakpoint-level characterization of a novel CEP290 tandem duplication in trans with a pathogenic splice-site variant in a patient with Leber congenital amaurosis",
+      "authors": [
+        [
+          "Shumei",
+          "Xu"
+        ],
+        [
+          "Jia",
+          "Geng"
+        ],
+        [
+          "Wenyu",
+          "Xiong"
+        ],
+        [
+          "Man",
+          "Liu"
+        ],
+        [
+          "C",
+          "Wang"
+        ],
+        [
+          "Xiaolu",
+          "Wang"
+        ],
+        [
+          "Ting",
+          "Tang"
+        ],
+        [
+          "Qian",
+          "Zhang"
+        ],
+        [
+          "Huijun",
+          "Yuan"
+        ],
+        [
+          "Yu",
+          "Lu"
+        ]
+      ],
+      "journal": "BMC Medical Genomics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Inherited retinal degenerations are a group of genetically heterogeneous disorders characterized by progressive photoreceptor degeneration. Despite the widespread use of targeted gene panels and exome sequencing, many cases remain genetically unresolved because structural and other complex variants may be missed. CEP290 is a major cause of early-onset retinal degeneration, and although most pathogenic variants are sequence-level changes, structural rearrangements have increasingly been recognized through genome-wide sequencing approaches. This study aimed to identify the genetic cause in a child with early-onset retinal degeneration and to characterize the molecular mechanism of the underlying variant. METHODS: A 4-year-old boy with presumed rod-cone dystrophy underwent comprehensive clinical evaluation and trio whole-genome sequencing. Compound heterozygous CEP290 variants, consisting of a maternally inherited splice-site variant and a paternally inherited large intragenic duplication, were identified and evaluated. The duplication breakpoint was subsequently characterized by structural variant analysis, gap-PCR, and Sanger sequencing, followed by analysis of breakpoint-associated microhomology, GC content, and repeat elements. Variants were interpreted according to ACMG/AMP and ClinGen recommendations, as appropriate. RESULTS: Trio-WGS detected compound heterozygous CEP290 variants: a maternal splice-site variant c.6012-2 A > G and a paternal exons 31-53 tandem duplication (chr12:88050034-88089159dup). Gap-PCR and Sanger sequencing validated this rearrangement and defined a 7-bp junction microhomology (AAATTCT). Breakpoint analysis showed low GC and abundant repeats, supporting FoSTeS/MMBIR as the causal replicative mechanism. This duplication is predicted to alter CEP290 transcripts, triggering frameshift, premature termination and C-terminal domain loss. CONCLUSIONS: To our knowledge, this study represents the first breakpoint-resolved characterization of a pathogenic CEP290 tandem duplication encompassing exons 31-53 identified in compound heterozygosity with a pathogenic splice-site variant in a patient with early-onset retinal degeneration. The duplication is predicted to disrupt the CEP290 coding sequence, resulting in a frameshift, premature termination codon, and loss of the C-terminal functional domain. These findings expand the spectrum of pathogenic structural variants in CEP290 and underscore the value of whole-genome sequencing and breakpoint-level analysis for resolving genetically unexplained inherited retinal disorders.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SPATA7"
+    },
+    {
       "pmid": "42091926",
       "doi": "10.1038/s41525-026-00576-x",
       "zotero_key": "ZAIXSW6B",
@@ -3516,6 +3611,88 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42497670",
+      "doi": "10.1016/j.vaccine.2026.128917",
+      "zotero_key": "M89TEVHV",
+      "title": "Characterization of vaccine viremia, attenuation reversion, and safety: Combined results from the TAK-003 dengue vaccine clinical development program",
+      "authors": [
+        [
+          "Vianney",
+          "Tricou"
+        ],
+        [
+          "Xavier",
+          "Sáez‐Llorens"
+        ],
+        [
+          "Pope",
+          "Kosalaraksa"
+        ],
+        [
+          "Humberto",
+          "Reynales"
+        ],
+        [
+          "Chukiat",
+          "Sirivichayakul"
+        ],
+        [
+          "Charissa",
+          "Borja-Tabora"
+        ],
+        [
+          "Jenny G.",
+          "Low"
+        ],
+        [
+          "William B. Messer",
+          "(180472)"
+        ],
+        [
+          "Kelley J.",
+          "Moss"
+        ],
+        [
+          "Sanja",
+          "Mandarić"
+        ],
+        [
+          "Nicholas",
+          "Roubinis"
+        ],
+        [
+          "Mayuri",
+          "Sharma"
+        ],
+        [
+          "Jill",
+          "Livengood"
+        ],
+        [
+          "Hang",
+          "Pang"
+        ],
+        [
+          "Martina",
+          "Rauscher"
+        ],
+        [
+          "Shibadas",
+          "Biswal"
+        ]
+      ],
+      "journal": "Vaccine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "",
       "doi": "10.1136/bjo-2023-324165",
       "zotero_key": "4TBDAUNN",
@@ -3656,6 +3833,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARID1B"
+    },
+    {
+      "pmid": "42519923",
+      "doi": "10.4103/aam.aam_523_26",
+      "zotero_key": "6VGM266T",
+      "title": "Clinical and Diagnostic Challenges of a Sporadic Adult-onset Vitelliform Macular Dystrophy",
+      "authors": [
+        [
+          "Siddhartha",
+          "Gollamudi"
+        ],
+        [
+          "Renu",
+          "Magdum"
+        ],
+        [
+          "Pallavi",
+          "Bajpayee"
+        ],
+        [
+          "Nilesh",
+          "Giri"
+        ],
+        [
+          "Ahan",
+          "Gupta"
+        ],
+        [
+          "Dattatraya",
+          "Lende"
+        ]
+      ],
+      "journal": "Annals of African Medicine",
+      "year": "2026",
+      "abstract": "ABSTRACT: Adult-onset vitelliform macular dystrophy (AVMD) is a relatively uncommon macular pattern dystrophy characterized by bilateral, symmetric, yellowish subretinal foveal lesions presenting in the fourth to sixth decades of life. It is frequently misdiagnosed as age-related macular degeneration or Best vitelliform macular dystrophy, making accurate diagnosis through multimodal imaging essential. We report a case of a 51-year-old male laundry worker who presented with bilateral gradual visual impairment and difficulty with near vision for 1 month. Best-corrected visual acuity was 6/6 in the right eye, whereas in the left eye, it was 6/36p-NI with appropriate correction. Anterior segment examination revealed bilateral posterior subcapsular cataracts and seborrheic blepharitis. Dilated fundus examination demonstrated multiple discrete yellowish subretinal deposits at the fovea in the right eye and a single, elevated, circular vitelliform lesion at the center of the macula in the left eye, with absent foveal reflex bilaterally. Fundus autofluorescence imaging confirmed focal hyperautofluorescence corresponding to the vitelliform deposits bilaterally. Structural optical coherence tomography (OCT) revealed dome-shaped subretinal hyperreflective material between the retinal pigment epithelium and photoreceptor layer in both eyes, consistent with Stage II vitelliform disease in the left eye and an earlier stage in the right eye. OCT angiography excluded choroidal neovascularization in both eyes. Karyotype report and Sanger sequencing show no chromosomal abnormality. A diagnosis of AVMD was established based on clinical and multimodal imaging findings. This case underscores the diagnostic value of multimodal imaging in establishing an accurate diagnosis of AVMD, a condition that carries a generally favorable prognosis when identified early and monitored appropriately. Clinician awareness of AVMD and its distinguishing imaging characteristics is critical to avoid misdiagnosis and ensure timely patient counseling and surveillance.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "",
@@ -6169,36 +6388,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "",
-      "doi": "10.3389/fcimb.2024.1532762",
-      "zotero_key": "JJWJHWVP",
-      "title": "Editorial: Applications of next generation sequencing (NGS) technologies to decipher the oral microbiome in systemic health and disease, volume II.",
-      "authors": [
-        [
-          "T",
-          "Do"
-        ],
-        [
-          "D",
-          "Deng"
-        ],
-        [
-          "N",
-          "Dame-Teixeira"
-        ]
-      ],
-      "journal": "Frontiers in cellular and infection microbiology",
-      "year": "2024",
-      "abstract": "",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
-    },
-    {
       "pmid": "41567223",
       "doi": "10.3389/fimmu.2025.1768955",
       "zotero_key": "UAIEJZDK",
@@ -6227,88 +6416,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "TGFBI"
-    },
-    {
-      "pmid": "",
-      "doi": "10.3389/fgene.2023.1260940",
-      "zotero_key": "S4BP2HWP",
-      "title": "Editorial: Deep learning for disease prediction in next-generation sequencing and biomedical imaging data.",
-      "authors": [
-        [
-          "S",
-          "Mallik"
-        ],
-        [
-          "J",
-          "Iwata"
-        ],
-        [
-          "R",
-          "Hu"
-        ],
-        [
-          "T",
-          "Si"
-        ]
-      ],
-      "journal": "Frontiers in genetics",
-      "year": "2023",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
-    },
-    {
-      "pmid": "",
-      "doi": "10.3389/fmicb.2018.00363",
-      "zotero_key": "GP7FK9PC",
-      "title": "Editorial: Game Changer - Next Generation Sequencing and Its Impact on Food Microbiology.",
-      "authors": [
-        [
-          "J",
-          "Ronholm"
-        ]
-      ],
-      "journal": "Frontiers in microbiology",
-      "year": "2018",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
-    },
-    {
-      "pmid": "",
-      "doi": "10.3389/fgene.2025.1675753",
-      "zotero_key": "MJDA44J2",
-      "title": "Editorial: Next generation sequencing and cancer: new steps towards personalized medicine.",
-      "authors": [
-        [
-          "E",
-          "Bandini"
-        ],
-        [
-          "C",
-          "Rosset"
-        ]
-      ],
-      "journal": "Frontiers in genetics",
-      "year": "2025",
-      "abstract": "",
-      "cited_by_count": 1,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
     },
     {
       "pmid": "41800620",
@@ -6441,6 +6548,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42518111",
+      "doi": "10.1007/s11655-026-4162-4",
+      "zotero_key": "82NZPWI9",
+      "title": "Efficacy and Safety of Zizhu Ointment for Wagner Grade 2 Diabetic Foot Ulcers: A Single-Center, Randomized, Double-Blind, Placebo-Controlled Trial",
+      "authors": [
+        [
+          "Xiao-yu",
+          "Li"
+        ],
+        [
+          "Guobin",
+          "Liu"
+        ],
+        [
+          "Yang",
+          "You"
+        ],
+        [
+          "Wei-jing",
+          "Fan"
+        ]
+      ],
+      "journal": "Chinese Journal of Integrative Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
     },
     {
       "pmid": "42472739",
@@ -7644,40 +7785,6 @@
       "subcollection": "SAG"
     },
     {
-      "pmid": "",
-      "doi": "10.1002/ar.23966",
-      "zotero_key": "SQTD2CD6",
-      "title": "Functionally Driven Modulation of Sarcomeric Structure and Membrane Systems in the Fast Muscles of a Copepod (Gaussia princeps).",
-      "authors": [
-        [
-          "N",
-          "Glaser"
-        ],
-        [
-          "R",
-          "Iyer"
-        ],
-        [
-          "W",
-          "Gilly"
-        ],
-        [
-          "C",
-          "Franzini-Armstrong"
-        ]
-      ],
-      "journal": "Anatomical record (Hoboken, N.J. : 2007)",
-      "year": "2018",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
       "pmid": "42307979",
       "doi": "10.1091/mbc.e25-12-0598",
       "zotero_key": "DAJVAJ6B",
@@ -8290,6 +8397,52 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42507518",
+      "doi": "10.4103/ijo.ijo_3349_25",
+      "zotero_key": "6DGNE7ZZ",
+      "title": "Gonioscopy-assisted transluminal trabeculotomy with phacoemulsification in high myopia versus non-high myopia with open-angle glaucoma—A comparative study",
+      "authors": [
+        [
+          "Devendra",
+          "Maheshwari"
+        ],
+        [
+          "Nimrita Gyanchand",
+          "Nagdev"
+        ],
+        [
+          "Madhavi Ramanatha",
+          "Pillai"
+        ],
+        [
+          "Ramarghya",
+          "Chakraborty"
+        ],
+        [
+          "Mohammed Sithiq",
+          "Uduman"
+        ],
+        [
+          "Syril",
+          "Dorairaj"
+        ],
+        [
+          "Ramakrishnan",
+          "Rengappa"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "PURPOSE: To compare the safety and efficacy of gonioscopy-assisted transluminal trabeculotomy (GATT) combined with phacoemulsification in eyes with high myopia versus non-high myopia with open-angle glaucoma. METHODS: This retrospective comparative study included 76 eyes with open-angle glaucoma. Eyes were stratified into high myopia (Group 1; axial length ≥26.5 mm, n = 36) and non-high myopia (Group 2; axial length <26.5 mm, n = 40). Baseline parameters including intraocular pressure (IOP), best-corrected visual acuity, and number of anti-glaucoma medications (AGMs) were compared at 2 weeks, 1 month, and 3, 6, and 12 months. Surgical success was defined as IOP ≤21, ≤18, or ≤15 mmHg with a ≥20%, ≥25%, or ≥30% reduction from baseline, respectively. Postoperative complications, secondary interventions, and surgical risk factors were analyzed. RESULTS: The mean (SD) IOP (mmHg) decreased from 20.56 ± 4.71 to 13.32 ± 5.02 in Group 1 and 19.33 ± 4.15 to 12.94 ± 3.48 in Group 2 at 12 months, with no significant difference between groups ( P = 0.92). AGM reduced from 2.11 ± 0.89 to 0.36 ± 0.95 in Group 1 and 1.98 ± 0.89 to 0.06 ± 0.24 in Group 2 at 12 months ( P = 0.07). There was no significant difference in success rate between groups by all criteria at the end of 12 months ( P = 0.77, 0.54, 0.14). Transient hyphema and IOP spikes were common complications. Five eyes required anterior chamber wash (3 in Group 1, 2 in Group 2). CONCLUSION: GATT with phacoemulsification is a safe and effective procedure in high myopia with open-angle glaucoma, with comparable outcomes to non-high myopia eyes at 12 months.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/s0275-5408(96)00073-7",
       "zotero_key": "FF2S3JAQ",
@@ -8619,36 +8772,6 @@
     },
     {
       "pmid": "",
-      "doi": "10.5604/01.3001.0010.3840",
-      "zotero_key": "SCDPKMCU",
-      "title": "Heterogeneity of human WT1 gene.",
-      "authors": [
-        [
-          "E",
-          "Bielińska"
-        ],
-        [
-          "K",
-          "Matiakowska"
-        ],
-        [
-          "O",
-          "Haus"
-        ]
-      ],
-      "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
-      "year": "2017",
-      "abstract": "",
-      "cited_by_count": 14,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Aniridia"
-    },
-    {
-      "pmid": "",
       "doi": "10.1016/s0161-6420(97)30219-x",
       "zotero_key": "NTDQFWDX",
       "title": "High resolution magnetic resonance imaging of neurovascular orbital anatomy.",
@@ -8731,6 +8854,52 @@
       "journal": "Light Science & Applications",
       "year": "2026",
       "abstract": "The direct photopatterning technique provides a straightforward approach for high-resolution quantum dot (QD) patterns for next-generation displays. However, the extensively deteriorated QD optical properties deriving from the changes of the QD surface states and/or surroundings set substantial limitations in obtaining high-quality QD patterns and efficient electroluminescent devices. Here, we propose an ingenious and effective approach by utilizing the photoisomeric transformation from spiropyran to merocyanine for highly emissive QD patterns. We reveal the suppression of non-radiative energy transfer between QDs and the dissociative merocyanine for fast luminescence recovery. We achieve small-sized (0.8 μm), high-resolution (15,800 pixels per inch, PPI), high-fidelity (~100%), multicolor, and elaborated QD pixels, and showcase their good compatibility for CdSe/ZnS and perovskite QD pixel fabrication, as well as on both rigid and flexible substrates. These merits promote highly performing pixelated devices with a large luminance of 35,534 cd m-2 and a record efficiency of 24.5% at 6350 PPI among the direct photopatterning devices. Furthermore, we verify the wide applicability of the proposed strategy for high-performance pixelated perovskite devices with an efficiency of 13.8% at 1760 PPI. The above results confirm the great value of the proposed approach for high-quality QD patterns and high-performance pixelated devices.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42500810",
+      "doi": "10.1002/rcm.70142",
+      "zotero_key": "W8U42PBQ",
+      "title": "High‐Resolution LC–MS/MS Characterization of Budmunchiamine‐Type Alkaloids in Albizia niopoides",
+      "authors": [
+        [
+          "Maria L. A.",
+          "Majevski"
+        ],
+        [
+          "Lienne D’Auria",
+          "Lima"
+        ],
+        [
+          "Adriana C. C.",
+          "Reis"
+        ],
+        [
+          "Leonan I. C. R.",
+          "Santos"
+        ],
+        [
+          "Brenno F. S.",
+          "Vargas"
+        ],
+        [
+          "Markus",
+          "Kohlhoff"
+        ],
+        [
+          "Geraldo Célio",
+          "Brandão"
+        ]
+      ],
+      "journal": "Rapid Communications in Mass Spectrometry",
+      "year": "2026",
+      "abstract": "RATIONALE: Budmunchiamines are macrocyclic spermine alkaloids that constitute a distinctive class of polyamine natural products predominantly found in species of the genus Albizia. Comprehensive characterization of these compounds remains challenging because of their structural diversity and the limited availability of reference standards. This study aimed to profile the budmunchiamine alkaloids present in the trunk bark of Albizia niopoides using high-resolution tandem mass spectrometry. METHODS: Alkaloids were extracted from the trunk bark of A. niopoides and analyzed by ultrahigh-performance liquid chromatography coupled with electrospray ionization quadrupole time-of-flight mass spectrometry (UHPLC-ESI-QTOF-MS) operated in positive ionization mode. Compound annotation was based on accurate mass measurements (≤ 5 ppm), chromatographic retention behavior, isotopic patterns, and diagnostic MS/MS fragmentation, supported by comparison with published data. RESULTS: Twenty-six macrocyclic spermine alkaloids were detected and annotated. The MS/MS spectra consistently exhibited characteristic budmunchiamine fragment ions at m/z 214, 171, 169, and 129, together with diagnostic neutral losses, confirming assignment to this structural class. Six compounds were identified as the known budmunchiamines L1, L4, L5, and L6, whereas two corresponded to previously synthesized analogues (Compounds 2 and 21). The remaining 20 compounds displayed distinct precursor ions but closely related fragmentation pathways, indicating previously unreported budmunchiamine-type analogues. CONCLUSIONS: UHPLC-ESI-QTOF-MS/MS proved to be an effective strategy for the dereplication and structural annotation of macrocyclic spermine alkaloids from A. niopoides. The results substantially expand the known chemical diversity of budmunchiamines in this species and demonstrate the value of high-resolution tandem mass spectrometry for the characterization of structurally complex natural products.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -9328,40 +9497,6 @@
       "subcollection": "ACO2"
     },
     {
-      "pmid": "42337109",
-      "doi": "10.1038/s41433-026-04666-z",
-      "zotero_key": "MJI94WJA",
-      "title": "Infographic: optic nerve decompression surgery for NAION (IONDT Trial)",
-      "authors": [
-        [
-          "Shreyas",
-          "Bhat"
-        ],
-        [
-          "Michael",
-          "Lowe"
-        ],
-        [
-          "Susan P.",
-          "Mollan"
-        ],
-        [
-          "Gabriele",
-          "Berman"
-        ]
-      ],
-      "journal": "Eye",
-      "year": "2026",
-      "abstract": "Fig. 1 Full size image Optic nerve sheath fenestration surgery was first suggested as a treatment for non-arteritic anterior ischaemic optic neuropathy (NAION) in 1989, and involves creating fenestrations in the optic nerve sheath to reduce CSF pressure around the nerve [ 1 , 2 ]. In the IONDT using a medial approach surgeons fenestrated the optic nerve sheath using either at least two fenestrations or cutting one window in the optic nerve sheath [ 1 , 2 ]. This infographic summarises the design and results of the multicentre randomised controlled trial, which evaluated the efficacy and safety of optic nerve sheath fenestration surgery in patients with NAION compared to observation [ 3 ]. In the optic nerve sheath fenestration arm there was a larger proportion of patients who had worse visual acuity at 6 months (decline of 3 or more lines). There was higher rate of adverse outcomes in the optic nerve sheath fenestration arm compared to observation [ 3 ]. It was observed that 43% of patients (vision worse than 20/64 and better than NLP) experienced a spontaneous improvement of at least 3 lines of visual acuity at 6 months.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ACO2"
-    },
-    {
       "pmid": "42135191",
       "doi": "10.1523/jneurosci.0083-26.2026",
       "zotero_key": "4RNXN4K8",
@@ -9692,32 +9827,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1056/nejmicm1615424",
-      "zotero_key": "PTI3JH8S",
-      "title": "Iridodonesis.",
-      "authors": [
-        [
-          "D",
-          "Desai"
-        ],
-        [
-          "AJ",
-          "Tajik"
-        ]
-      ],
-      "journal": "The New England journal of medicine",
-      "year": "2017",
-      "abstract": "",
-      "cited_by_count": 3,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Ectopia lentis"
     },
     {
       "pmid": "",
@@ -10350,36 +10459,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "",
-      "doi": "10.1016/j.jfo.2024.104245",
-      "zotero_key": "4WWDAEZ9",
-      "title": "Lisch epithelial corneal dystrophy: A misdiagnosed clinical entity?",
-      "authors": [
-        [
-          "GC",
-          "Martin"
-        ],
-        [
-          "D",
-          "Guindolet"
-        ],
-        [
-          "E",
-          "Gabison"
-        ]
-      ],
-      "journal": "Journal francais d'ophtalmologie",
-      "year": "2024",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Corneal dystrophy, Meesmann"
-    },
-    {
       "pmid": "41761912",
       "doi": "",
       "zotero_key": "SBR3ZAE9",
@@ -10844,6 +10923,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "LSS"
+    },
+    {
+      "pmid": "42512851",
+      "doi": "10.3390/medicina62071309",
+      "zotero_key": "5XD73VTS",
+      "title": "Modern Diagnostic Modalities for Fuchs’ Endothelial Corneal Dystrophy: A Comparative Analysis Using Scheimpflug Tomography",
+      "authors": [
+        [
+          "Vladislava",
+          "Yotsova"
+        ],
+        [
+          "Mladena",
+          "Radeva"
+        ],
+        [
+          "Valeri",
+          "Sheherov"
+        ],
+        [
+          "Zornitsa",
+          "Zlatarovа"
+        ]
+      ],
+      "journal": "Medicina",
+      "year": "2026",
+      "abstract": "Background and Objectives: Fuchs’ endothelial corneal dystrophy (FECD) is a progressive disorder characterized by endothelial cell loss, corneal edema, and reduced transparency. Scheimpflug tomography enables objective evaluation of the corneal structure, including densitometry as a marker of optical quality. This study aimed to assess topographic and microstructural corneal parameters in FECD patients using Pentacam tomography and to evaluate their diagnostic utility. Materials and Methods: A total of 89 subjects (178 eyes) were included: 47 patients with FECD (94 eyes) and 42 healthy controls (84 eyes). Participants were stratified by age and sex. All underwent comprehensive ophthalmic examination and corneal imaging with Pentacam HR. Corneal densitometry was analyzed in four concentric zones (0–2, 2–6, 6–10, and 10–12 mm) and three layers (anterior, central, posterior). Statistical analysis was performed using SPSS v.19, with p &lt; 0.05 considered significant. Results: Densitometry values increased with age in both groups, with significantly higher values in FECD patients, particularly in peripheral zones (6–12 mm). The highest backscatter was consistently observed in the anterior corneal layer. Significant differences between FECD and controls were found in specific age subgroups and corneal regions. A progressive increase in backscatter from Descemet’s membrane was observed, corresponding to a transition in densitogram patterns from a “high-backed chair” to a “hammock” configuration. Disease progression appeared more pronounced in male patients. Conclusions: Corneal densitometry obtained by Scheimpflug tomography provides reliable quantitative and qualitative indicators of FECD progression. Its combined use with topographic parameters enhances early diagnosis and disease monitoring.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "KRT12"
     },
     {
       "pmid": "42150613",
@@ -11418,6 +11531,224 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42494826",
+      "doi": "10.1016/j.bpsgos.2026.100750",
+      "zotero_key": "32VQJDQ7",
+      "title": "Neurophysiological Correlates of Neuroanatomical Dimensions in Major Depressive Disorder: Electroencephalographic Markers of Brain Function and Treatment Outcome.",
+      "authors": [
+        [
+          "Wenyi",
+          "Xiao"
+        ],
+        [
+          "Rachel D.",
+          "Woodham"
+        ],
+        [
+          "Mathilde",
+          "Antoniades"
+        ],
+        [
+          "Srinivasan",
+          "Dp"
+        ],
+        [
+          "Yong",
+          "Fan"
+        ],
+        [
+          "Guray",
+          "Erus"
+        ],
+        [
+          "José",
+          "García"
+        ],
+        [
+          "Stephen R.",
+          "Arnott"
+        ],
+        [
+          "T Donna",
+          "Chen"
+        ],
+        [
+          "Ki Sueng",
+          "Choi"
+        ],
+        [
+          "Cherise R Chin",
+          "Fatt"
+        ],
+        [
+          "Benicio N",
+          "Frey"
+        ],
+        [
+          "Faranak",
+          "Farzan"
+        ],
+        [
+          "Vibe G",
+          "Frøkjær"
+        ],
+        [
+          "Melanie",
+          "Ganz"
+        ],
+        [
+          "Beata R.",
+          "Godlewska"
+        ],
+        [
+          "Stefanie",
+          "Hassel"
+        ],
+        [
+          "Keith",
+          "Ho"
+        ],
+        [
+          "Andrew M.",
+          "McIntosh"
+        ],
+        [
+          "K",
+          "Qin"
+        ],
+        [
+          "Susan",
+          "Rotzinger"
+        ],
+        [
+          "Matthew D",
+          "Sacchet"
+        ],
+        [
+          "Jonathan",
+          "Savitz"
+        ],
+        [
+          "Haochang",
+          "Shou"
+        ],
+        [
+          "Ashish",
+          "Singh"
+        ],
+        [
+          "Aleks",
+          "Stolicyn"
+        ],
+        [
+          "Irina",
+          "Strigo"
+        ],
+        [
+          "Stephen C.",
+          "Strother"
+        ],
+        [
+          "Duygu",
+          "Tosun"
+        ],
+        [
+          "Dongtao",
+          "Wei"
+        ],
+        [
+          "Roland",
+          "Zahn"
+        ],
+        [
+          "Ian M",
+          "Anderson"
+        ],
+        [
+          "W Edward",
+          "Craighead"
+        ],
+        [
+          "J F William",
+          "Deakin"
+        ],
+        [
+          "Boadie W",
+          "Dunlop"
+        ],
+        [
+          "Rebecca",
+          "Elliott"
+        ],
+        [
+          "Q H",
+          "Gong"
+        ],
+        [
+          "Ian H",
+          "Gotlib"
+        ],
+        [
+          "C Gerald",
+          "Harmer"
+        ],
+        [
+          "Sidney H.",
+          "Kennedy"
+        ],
+        [
+          "Gitte M",
+          "Knudsen"
+        ],
+        [
+          "Helen S",
+          "Mayberg"
+        ],
+        [
+          "Paulus",
+          "Mw"
+        ],
+        [
+          "Jiang",
+          "Qiu"
+        ],
+        [
+          "Madhukar H",
+          "Trivedi"
+        ],
+        [
+          "Heather C",
+          "Whalley"
+        ],
+        [
+          "Chao gan",
+          "Yan"
+        ],
+        [
+          "Young",
+          "AH"
+        ],
+        [
+          "Christos",
+          "Davatzikos"
+        ],
+        [
+          "Cynthia H Y",
+          "Fu"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41790986",
       "doi": "",
       "zotero_key": "EXCDPGZJ",
@@ -11496,62 +11827,6 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Mouvements oculaires"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1080/17474124.2021.1896967",
-      "zotero_key": "JZ7PUE6G",
-      "title": "Next generation sequencing for biliary tract cancers.",
-      "authors": [
-        [
-          "TP",
-          "DiPeri"
-        ],
-        [
-          "MM",
-          "Javle"
-        ],
-        [
-          "F",
-          "Meric-Bernstam"
-        ]
-      ],
-      "journal": "Expert review of gastroenterology & hepatology",
-      "year": "2021",
-      "abstract": "",
-      "cited_by_count": 19,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
-    },
-    {
-      "pmid": "",
-      "doi": "10.2217/fvl-2016-0099",
-      "zotero_key": "C3QI4M2V",
-      "title": "Next-generation sequencing and norovirus.",
-      "authors": [
-        [
-          "M",
-          "Cotten"
-        ],
-        [
-          "M",
-          "Koopmans"
-        ]
-      ],
-      "journal": "Future virology",
-      "year": "2016",
-      "abstract": "",
-      "cited_by_count": 10,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
     },
     {
       "pmid": "41751772",
@@ -11942,6 +12217,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, lattice"
+    },
+    {
+      "pmid": "42491679",
+      "doi": "10.2147/opth.s620562",
+      "zotero_key": "G9NIHNEV",
+      "title": "Ophthalmologists’ Perceptions of the Impact of Patient Mental Status on Clinical Decision-Making: A Cross-Sectional Survey",
+      "authors": [
+        [
+          "Kenji",
+          "Kashiwagi"
+        ],
+        [
+          "Hiroshi",
+          "Kasai"
+        ],
+        [
+          "Yoshiko",
+          "Fukuda"
+        ],
+        [
+          "Shuhei",
+          "Hosoda"
+        ],
+        [
+          "Naohiko",
+          "Tanabe"
+        ]
+      ],
+      "journal": "Clinical ophthalmology",
+      "year": "2026",
+      "abstract": "Purpose: To investigate ophthalmologists' perceptions of how patients' mental status influences ophthalmic clinical practice and to identify ocular diseases perceived by ophthalmologists as having the greatest psychological impact. Subjects and Methods: This exploratory cross-sectional questionnaire survey included 61 ophthalmologists from a regional ophthalmologists' association in Japan (41 men and 20 women; mean clinical experience, 26 ± 14 years). Participants rated the extent to which they considered patients' mental status during treatment selection using a 10-point scale (1 = not considered at all; 10 = maximal consideration). The survey assessed perceived treatment-related changes in patient mental status, clinical domains perceived to be influenced by mental status, experiences of perceived clinical impact due to insufficient psychological consideration, and ocular diseases perceived to impose the greatest psychological burden. Multivariable logistic regression was used to identify factors associated with reporting perceived clinical impact. Results: The mean mental health attention score was 7.0 ± 1.8 (range, 2-10). Fifty-five physicians (90.2%) reported experiencing treatment-related changes in patients' mental status. The clinical domains most frequently selected as being influenced by patient mental status were disease explanation, healthcare-seeking behavior, surgical decision-making, and medication management. Thirty-two physicians (52.5%) reported that insufficient attention to patient mental health had affected clinical care. Higher mental health attention scores were independently associated with reporting perceived clinical impact (odds ratio, 1.45 per 1-point increase; 95% confidence interval, 1.05-2.01; p = 0.02). Glaucoma was most frequently ranked as the ocular diseases perceived by ophthalmologists as being associated with the greatest psychological burden, followed by retinitis pigmentosa. Conclusion: Ophthalmologists in this sample perceived patient mental status as relevant to clinical practice, particularly in chronic progressive diseases such as glaucoma and inherited retinal disorders. Because this survey assessed physician perceptions rather than patient-reported mental health or objective clinical outcomes, future studies incorporating validated mental health instruments, patient-reported outcomes, and objective clinical endpoints are needed.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "HK1"
     },
     {
       "pmid": "",
@@ -13295,104 +13608,6 @@
     },
     {
       "pmid": "",
-      "doi": "10.1158/1078-0432.ccr-24-3347",
-      "zotero_key": "IQERJGKK",
-      "title": "Quantitative Protein Expression of Antibody-Drug Conjugate Targets in EGFR Mutated and Wild-type Non-Small Cell Lung Cancer.",
-      "authors": [
-        [
-          "IP",
-          "Trontzas"
-        ],
-        [
-          "M",
-          "He"
-        ],
-        [
-          "A",
-          "Wurtz"
-        ],
-        [
-          "CJ",
-          "Robbins"
-        ],
-        [
-          "N",
-          "Robinson"
-        ],
-        [
-          "K",
-          "Bates"
-        ],
-        [
-          "M",
-          "Liu"
-        ],
-        [
-          "TN",
-          "Aung"
-        ],
-        [
-          "L",
-          "Scott"
-        ],
-        [
-          "N",
-          "Chan"
-        ],
-        [
-          "S",
-          "Burela"
-        ],
-        [
-          "J",
-          "Schillo"
-        ],
-        [
-          "DC",
-          "Liebler"
-        ],
-        [
-          "S",
-          "Hill"
-        ],
-        [
-          "RD",
-          "Morrison"
-        ],
-        [
-          "I",
-          "Vathiotis"
-        ],
-        [
-          "KN",
-          "Syrigos"
-        ],
-        [
-          "SB",
-          "Goldberg"
-        ],
-        [
-          "K",
-          "Politi"
-        ],
-        [
-          "DL",
-          "Rimm"
-        ]
-      ],
-      "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
-      "year": "2025",
-      "abstract": "",
-      "cited_by_count": 3,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Corneal dystrophy, gelatinous drop-like"
-    },
-    {
-      "pmid": "",
       "doi": "10.1017/s0952523816000183",
       "zotero_key": "SCAT99AG",
       "title": "Random spatial patterning of cone bipolar cell mosaics in the mouse retina.",
@@ -14133,36 +14348,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1007/978-1-0716-3605-3_6",
-      "zotero_key": "DV89V2J2",
-      "title": "Sanger and Next-Generation Sequencing of AAT.",
-      "authors": [
-        [
-          "V",
-          "Barzon"
-        ],
-        [
-          "I",
-          "Ferrarotti"
-        ],
-        [
-          "S",
-          "Ottaviani"
-        ]
-      ],
-      "journal": "Methods in molecular biology (Clifton, N.J.)",
-      "year": "2024",
-      "abstract": "",
-      "cited_by_count": 7,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Nystagmus"
     },
     {
       "pmid": "",
@@ -16489,28 +16674,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "GPR143"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1097/01376517-199106000-00007",
-      "zotero_key": "TAXXIU78",
-      "title": "Tremor.",
-      "authors": [
-        [
-          "MM",
-          "Gillespie"
-        ]
-      ],
-      "journal": "The Journal of neuroscience nursing : journal of the American Association of Neuroscience Nurses",
-      "year": "1991",
-      "abstract": "",
-      "cited_by_count": 15,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Gillespie syndrome"
     },
     {
       "pmid": "41803047",
