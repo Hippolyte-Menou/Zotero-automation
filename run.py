@@ -507,6 +507,28 @@ def load_rescue_queue(path: str = RESCUE_QUEUE_PATH) -> list[dict]:
     return []
 
 
+def _first_context_pair(category: str, subcollection: str) -> tuple[str, str]:
+    """Return the first (category, subcollection) pair of a rescue entry.
+
+    Both fields are comma-separated parallel lists written by the near-miss
+    log: the Nth category is the parent of the Nth subcollection. A length
+    mismatch means the pairing is unrecoverable (legacy data written before
+    the pair-aware merge); rather than guess, return no target so the article
+    is rescued into the library root instead of into a fabricated collection.
+    """
+    cats = [c.strip() for c in (category or "").split(",") if c.strip()]
+    subs = [s.strip() for s in (subcollection or "").split(",") if s.strip()]
+    if not cats or not subs:
+        return "", ""
+    if len(cats) != len(subs):
+        logger.warning(
+            f"Rescue entry has desynchronised category/subcollection "
+            f"({category!r} vs {subcollection!r}); uploading without a collection"
+        )
+        return "", ""
+    return cats[0], subs[0]
+
+
 def process_rescue_queue(
     rescue_entries: list[dict],
     zot: ZoteroGroupClient,
@@ -571,10 +593,11 @@ def process_rescue_queue(
             logger.warning(f"Rescue: no title for {pmid or doi}, skipping")
             continue
 
-        # Determine target collection
-        # Use first subcollection if comma-separated
-        target_sub = subcollection.split(",")[0].strip() if subcollection else ""
-        target_cat = category.split(",")[0].strip() if category else ""
+        # Determine target collection. The two fields are parallel lists (Nth
+        # category is the parent of the Nth subcollection), so they must be
+        # read as a pair -- taking [0] from each independently can pair a gene
+        # symbol with a topic category and create e.g. ABCA4 under 1 - Anatomie.
+        target_cat, target_sub = _first_context_pair(category, subcollection)
         collection_key = None
 
         if target_sub and target_cat:

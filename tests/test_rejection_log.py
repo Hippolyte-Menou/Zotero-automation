@@ -50,6 +50,62 @@ class TestCumulativeMerge(unittest.TestCase):
             self.assertEqual(art2["seen_count"], 2)
             self.assertEqual(art2["first_seen"], first_seen)  # preserved
             self.assertEqual(art2["subcollection"], "CRB1, RHO")  # union, sorted
+            self.assertEqual(art2["category"], "6 - Genes, 6 - Genes")
+
+    def test_merge_preserves_category_subcollection_pairing(self):
+        # An article near-missed under a gene and then under a topic must keep
+        # each subcollection paired with its own category. Sorting the two
+        # fields independently used to yield category "1 - Anatomy, 6 - Genes"
+        # against subcollection "ABCA4, Outer coat" -- i.e. ABCA4 under
+        # 1 - Anatomy, which the rescue queue then created for real in Zotero.
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "nm.json")
+
+            log = RejectionLog()
+            log.entries.append(_entry("1", "ABCA4", "6 - Genes"))
+            log.to_json(p)
+
+            log2 = RejectionLog()
+            log2.entries.append(_entry("1", "Outer coat", "1 - Anatomy"))
+            log2.to_json(p, previous_path=p)
+
+            data = _read(p)
+            art = {a["pmid"]: a for a in data["articles"]}["1"]
+            cats = [c.strip() for c in art["category"].split(",")]
+            subs = [s.strip() for s in art["subcollection"].split(",")]
+            self.assertEqual(
+                dict(zip(cats, subs)),
+                {"6 - Genes": "ABCA4", "1 - Anatomy": "Outer coat"},
+            )
+            self.assertEqual(
+                data["hierarchy"],
+                {"1 - Anatomy": ["Outer coat"], "6 - Genes": ["ABCA4"]},
+            )
+
+    def test_carried_forward_entry_keeps_pairing(self):
+        # Entries not seen in a run are normalised on the way through; that
+        # normalisation must not re-sort the two fields independently.
+        with tempfile.TemporaryDirectory() as d:
+            p = os.path.join(d, "nm.json")
+
+            log = RejectionLog()
+            e = _entry("1", "Outer coat", "1 - Anatomy")
+            e["subcollection"] = "Outer coat, ABCA4"
+            e["category"] = "1 - Anatomy, 6 - Genes"
+            log.entries.append(e)
+            log.to_json(p)
+
+            log2 = RejectionLog()
+            log2.entries.append(_entry("2", "RHO", "6 - Genes"))
+            log2.to_json(p, previous_path=p)
+
+            art = {a["pmid"]: a for a in _read(p)["articles"]}["1"]
+            cats = [c.strip() for c in art["category"].split(",")]
+            subs = [s.strip() for s in art["subcollection"].split(",")]
+            self.assertEqual(
+                dict(zip(cats, subs)),
+                {"1 - Anatomy": "Outer coat", "6 - Genes": "ABCA4"},
+            )
 
     def test_carry_forward_unseen(self):
         with tempfile.TemporaryDirectory() as d:

@@ -153,12 +153,7 @@ class RejectionLog:
         """
         hierarchy: dict[str, set[str]] = {}
         for e in entries:
-            cats = [c.strip() for c in e.get("category", "").split(",") if c.strip()]
-            subs = [s.strip() for s in e.get("subcollection", "").split(",") if s.strip()]
-            # Categories and subcollections are positionally paired (Nth cat
-            # matches Nth sub).  Use zip to preserve the pairing instead of a
-            # cross-product, which would leak genes into topic categories.
-            for cat, sub in zip(cats, subs):
+            for cat, sub in RejectionLog._context_pairs(e):
                 hierarchy.setdefault(cat, set()).add(sub)
         return {cat: sorted(subs) for cat, subs in sorted(hierarchy.items())}
 
@@ -234,15 +229,37 @@ class RejectionLog:
             return f"doi:{doi}"
         return None
 
-    def _merge_csv_field(self, existing: str, new: str) -> str:
-        """Merge comma-separated field values, deduplicating and sorting."""
-        if not existing:
-            return new
-        if not new or new == existing:
-            return existing
-        parts = {s.strip() for s in existing.split(",") if s.strip()}
-        parts.update(s.strip() for s in new.split(",") if s.strip())
-        return ", ".join(sorted(parts))
+    @staticmethod
+    def _context_pairs(entry: dict) -> list[tuple[str, str]]:
+        """Return an entry's (category, subcollection) pairs.
+
+        The two fields are parallel comma-separated lists: the Nth category is
+        the parent of the Nth subcollection. Any unpaired tail (only possible in
+        data written before the pair-aware merge landed) is dropped rather than
+        guessed at -- a wrong pairing creates real gene collections under topic
+        categories via the rescue queue.
+        """
+        cats = [c.strip() for c in (entry.get("category") or "").split(",") if c.strip()]
+        subs = [s.strip() for s in (entry.get("subcollection") or "").split(",") if s.strip()]
+        return list(zip(cats, subs))
+
+    @staticmethod
+    def _write_context_pairs(entry: dict, pairs) -> None:
+        """Write (category, subcollection) pairs back as two aligned CSV fields."""
+        ordered = sorted(dict.fromkeys(pairs))
+        entry["category"] = ", ".join(cat for cat, _ in ordered)
+        entry["subcollection"] = ", ".join(sub for _, sub in ordered)
+
+    def _merge_context(self, entry: dict, previous: dict) -> None:
+        """Merge the collection context of ``previous`` into ``entry``.
+
+        Merging must happen on (category, subcollection) *pairs*: deduplicating
+        and sorting the two fields independently desynchronises them, so a
+        near-miss shared by a gene and a topic ends up claiming e.g. subcollection
+        ABCA4 under category '1 - Anatomie'.
+        """
+        pairs = self._context_pairs(previous) + self._context_pairs(entry)
+        self._write_context_pairs(entry, pairs)
 
     def _merge_search_keywords(
         self, existing: list | None, new: list | None
@@ -315,15 +332,8 @@ class RejectionLog:
                 entry["first_seen"] = existing.get("first_seen", now)
                 entry["last_seen"] = now
                 entry["seen_count"] = existing.get("seen_count", 1) + 1
-                # Merge subcollection/category if they differ
-                entry["subcollection"] = self._merge_csv_field(
-                    existing.get("subcollection", ""),
-                    entry.get("subcollection", ""),
-                )
-                entry["category"] = self._merge_csv_field(
-                    existing.get("category", ""),
-                    entry.get("category", ""),
-                )
+                # Merge subcollection/category as pairs if they differ
+                self._merge_context(entry, existing)
                 entry["search_keywords"] = self._merge_search_keywords(
                     existing.get("search_keywords"),
                     entry.get("search_keywords"),
@@ -338,14 +348,7 @@ class RejectionLog:
             if key in merged_index:
                 prev_count = merged_index[key].get("seen_count", 1)
                 if entry["seen_count"] >= prev_count:
-                    entry["subcollection"] = self._merge_csv_field(
-                        merged_index[key].get("subcollection", ""),
-                        entry.get("subcollection", ""),
-                    )
-                    entry["category"] = self._merge_csv_field(
-                        merged_index[key].get("category", ""),
-                        entry.get("category", ""),
-                    )
+                    self._merge_context(entry, merged_index[key])
                     entry["search_keywords"] = self._merge_search_keywords(
                         merged_index[key].get("search_keywords"),
                         entry.get("search_keywords"),
@@ -361,12 +364,10 @@ class RejectionLog:
                 article.setdefault("first_seen", now)
                 article.setdefault("last_seen", article["first_seen"])
                 article.setdefault("seen_count", 1)
-                # Deduplicate subcollection/category values corrupted by prior bug
-                for field in ("subcollection", "category"):
-                    val = article.get(field, "")
-                    if val:
-                        deduped = ", ".join(sorted({s.strip() for s in val.split(",") if s.strip()}))
-                        article[field] = deduped
+                # Normalise the collection context as pairs (dedup + stable order).
+                # Must not sort the two fields independently -- that is exactly
+                # what desynchronised them in the first place.
+                self._write_context_pairs(article, self._context_pairs(article))
                 if key not in merged_index:
                     merged_index[key] = article
 

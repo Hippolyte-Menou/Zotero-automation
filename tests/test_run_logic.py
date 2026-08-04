@@ -103,3 +103,27 @@ class TestGenePassSummary(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestFirstContextPair(unittest.TestCase):
+    def test_pairs_positionally(self):
+        self.assertEqual(
+            run._first_context_pair("6 - Genes, 1 - Anatomy", "ABCA4, Outer coat"),
+            ("6 - Genes", "ABCA4"),
+        )
+        self.assertEqual(
+            run._first_context_pair("1 - Anatomy, 6 - Genes", "Outer coat, ABCA4"),
+            ("1 - Anatomy", "Outer coat"),
+        )
+
+    def test_desynchronised_lengths_yield_no_target(self):
+        # Legacy corrupted entry: pairing is unrecoverable, so no collection is
+        # invented (which is how gene collections landed under topic categories).
+        self.assertEqual(
+            run._first_context_pair("1 - Anatomy, 6 - Genes", "ABCA4"),
+            ("", ""),
+        )
+
+    def test_empty_fields(self):
+        self.assertEqual(run._first_context_pair("", ""), ("", ""))
+        self.assertEqual(run._first_context_pair("6 - Genes", ""), ("", ""))
