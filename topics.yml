@@ -477,6 +477,19 @@ categories:
     - patient
     - diagnosis
     - prognosis
+    - planarian regeneration
+    - blastema
+    - taxonomic
+    - new species
+    - phylogenetic analysis
+    - fossil record
+    - parasite
+    - microbiome
+    - neocortex
+    - hypothalamus
+    - salivary gland
+    - foraging
+    - mimicry
     exclusions_mesh:
     - Ophthalmologic Surgical Procedures
     - Drug Therapy
@@ -1190,7 +1203,7 @@ categories:
     - name: Foveal hypoplasia
       en_keywords: [foveal hypoplasia]
     - name: Nystagmus
-      en_keywords: [Nystagmus]
+      en_keywords: [infantile nystagmus syndrome, idiopathic infantile nystagmus, hereditary nystagmus]
     - name: Oculocutaneous albinism
       en_keywords: [oculocutaneous albinism]
     - name: Syndromic albinism
@@ -1213,7 +1226,7 @@ categories:
     - name: Ectopia lentis
       en_keywords: [ectopia lentis]
     - name: Glaucoma
-      en_keywords: [Glaucoma]
+      en_keywords: [developmental glaucoma, juvenile open-angle glaucoma, hereditary glaucoma]
     - name: Megalocornea
       en_keywords: [megalocornea]
     - name: Coloboma
@@ -1232,17 +1245,21 @@ categories:
       en_keywords: [Gillespie syndrome, aniridia cerebellar ataxia]
     - name: Syndromic ocular developmental anomalies
       en_keywords: [CHARGE syndrome eye, syndromic anterior segment dysgenesis, syndromic ocular malformation]
+    exclusions_text: [glaucoma surgery, trabeculectomy, glaucoma drainage device, trabeculoplasty,
+      primary open-angle glaucoma, angle recession, ocular hypertensive, cataract surgery]
     mesh_terms: [Aniridia, Congenital glaucoma]
   - name: Congenital cataracts
     collection: Congenital cataracts
     max_results: 25
     diseases:
     - name: Cataract
-      en_keywords: [Cataract]
+      en_keywords: [inherited cataract, familial cataract, isolated congenital cataract]
     - name: Congenital cataract
       en_keywords: [congenital cataract, hereditary cataract, pediatric cataract]
     - name: Syndromic congenital cataract
       en_keywords: [syndromic congenital cataract, galactosemia cataract, Lowe syndrome cataract, cerebrooculofacioskeletal syndrome]
+    exclusions_text: [cataract surgery, phacoemulsification, intraocular lens, endophthalmitis,
+      capsulotomy, pseudophakic, age-related cataract, cystoid macular edema]
     mesh_terms: [Congenital cataract]
   - name: Corneal dystrophies
     collection: Corneal dystrophies
@@ -1304,7 +1321,7 @@ categories:
     - name: Leber congenital amaurosis
       en_keywords: [Leber congenital amaurosis]
     - name: Myopia
-      en_keywords: [Myopia]
+      en_keywords: [hereditary myopia, familial myopia, syndromic myopia]
     - name: Night blindness, congenital stationary
       en_keywords: [congenital stationary night blindness]
     - name: Oguchi disease
@@ -1327,6 +1344,7 @@ categories:
       en_keywords: [Riggs type night blindness, complete congenital stationary night blindness]
     - name: Congenital stationary night blindness, Schubert-Bornstein type
       en_keywords: [Schubert-Bornstein night blindness, incomplete congenital stationary night blindness]
+    exclusions_text: [orthokeratology, myopia control, atropine, refractive surgery, lenticule extraction]
     mesh_terms: [Retinitis pigmentosa, Cone-rod dystrophy, Stargardt disease, Vitelliform macular dystrophy, Leber congenital
         amaurosis, Choroideremia, Retinoschisis, Age-related macular degeneration, High myopia, Hereditary optic neuropathy]
   - name: Vitreoretinopathies

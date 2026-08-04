@@ -104,6 +104,8 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - stargardt-disease
+  blocked_aliases:
+  - ATP binding cassette subfamily A member 4
 - symbol: ACO2
   collection: ACO2
   tags:
@@ -118,16 +120,28 @@ genes:
   - telemedicine
   - methanol
   - cytomegalovirus
+  - nonarteritic
+  - ischemic optic neuropathy
+  - optic neuritis
+  - papilledema
+  - thyroid eye disease
+  - orbital decompression
+  blocked_aliases:
+  - aconitase 2
 - symbol: ACTB
   collection: ACTB
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - actin beta
 - symbol: ACTG1
   collection: ACTG1
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - actin gamma 1
 - symbol: ADAM9
   collection: ADAM9
   tags:
@@ -142,6 +156,8 @@ genes:
   - substance P
   - encephalomyocarditis
   - innate immunity
+  blocked_aliases:
+  - ADAM metallopeptidase domain 9
 - symbol: ADAMTSL4
   collection: ADAMTSL4
   tags:
@@ -149,6 +165,8 @@ genes:
   - ectopia-lentis-et-pupillae
   - lens-luxation
   - zonular-dystrophy
+  blocked_aliases:
+  - ADAMTS like 4
 - symbol: ADGRV1
   collection: ADGRV1
   tags:
@@ -163,6 +181,8 @@ genes:
   - cochlear
   - auditory
   - hair cell
+  blocked_aliases:
+  - adhesion G protein-coupled receptor V1
 - symbol: AGK
   collection: AGK
   tags:
@@ -173,17 +193,23 @@ genes:
   - T cell
   - thrombosis
   - mitochondrial protein transport
+  blocked_aliases:
+  - acylglycerol kinase
 - symbol: AIPL1
   collection: AIPL1
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - AIP like 1 HSP90 co-chaperone
 - symbol: ALDH1A3
   collection: ALDH1A3
   tags:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - aldehyde dehydrogenase 1 family member A3
 - symbol: ALMS1
   collection: ALMS1
   tags:
@@ -198,11 +224,20 @@ genes:
   - Meckel
   - nephronophthisis
   - oral-facial-digital
+  blocked_aliases:
+  - ALMS1 centrosome and basal body associated protein
 - symbol: ARID1B
   collection: ARID1B
   tags:
   - intellectual-disability
   - structural-eye-disease
+  exclude_text:
+  - quality of life
+  - parental stress
+  - autism spectrum disorder
+  - epilepsy
+  blocked_aliases:
+  - AT-rich interaction domain 1B
 - symbol: ARID2
   collection: ARID2
   tags:
@@ -213,6 +248,7 @@ genes:
   - cancer drug resistance
   blocked_aliases:
   - BAF200
+  - AT-rich interaction domain 2
 - symbol: ARL3
   collection: ARL3
   tags:
@@ -220,6 +256,8 @@ genes:
   - joubert-syndrome
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - ARF like GTPase 3
 - symbol: ARL6
   collection: ARL6
   tags:
@@ -227,15 +265,30 @@ genes:
   - ciliopathy
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - ARF like GTPase 6
 - symbol: ARR3
   collection: ARR3
   tags:
   - myopia
+  exclude_text:
+  - orthokeratology
+  - myopia control
+  - LASIK
+  - lenticule extraction
+  - photorefractive keratectomy
+  - atropine
+  - spectacle lens
+  - contact lens
+  blocked_aliases:
+  - arrestin 3
 - symbol: ARSG
   collection: ARSG
   tags:
   - ciliopathy
   - usher-syndrome
+  blocked_aliases:
+  - arylsulfatase G
 - symbol: ATF6
   collection: ATF6
   tags:
@@ -258,6 +311,8 @@ genes:
   - cardiac
   - heart failure
   - pituitary
+  blocked_aliases:
+  - activating transcription factor 6
 - symbol: B3GLCT
   collection: B3GLCT
   tags:
@@ -266,21 +321,29 @@ genes:
   - congenital-glaucoma
   - corneal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - beta 3-glucosyltransferase
 - symbol: BBS1
   collection: BBS1
   tags:
   - bardet-biedl
   - ciliopathy
+  blocked_aliases:
+  - Bardet-Biedl syndrome 1
 - symbol: BBS10
   collection: BBS10
   tags:
   - bardet-biedl
   - ciliopathy
+  blocked_aliases:
+  - Bardet-Biedl syndrome 10
 - symbol: BBS12
   collection: BBS12
   tags:
   - bardet-biedl
   - ciliopathy
+  blocked_aliases:
+  - Bardet-Biedl syndrome 12
 - symbol: BBS2
   collection: BBS2
   tags:
@@ -288,6 +351,8 @@ genes:
   - ciliopathy
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - Bardet-Biedl syndrome 2
 - symbol: BCOR
   collection: BCOR
   tags:
@@ -299,6 +364,8 @@ genes:
   - mesenchymal stem
   - periodontal
   - extraembryonic
+  blocked_aliases:
+  - BCL6 corepressor
 - symbol: BEST1
   collection: BEST1
   tags:
@@ -317,14 +384,20 @@ genes:
   - skin lightening
   - antimelanogenic
   - melasma
+  blocked_aliases:
+  - bestrophin 1
 - symbol: BFSP1
   collection: BFSP1
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - beaded filament structural protein 1
 - symbol: BFSP2
   collection: BFSP2
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - beaded filament structural protein 2
 - symbol: BMP4
   collection: BMP4
   tags:
@@ -332,11 +405,15 @@ genes:
   - microphthalmia
   - stickler-syndrome
   - structural-eye-disease
+  blocked_aliases:
+  - bone morphogenetic protein 4
 - symbol: C12ORF57
   collection: C12ORF57
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - chromosome 12 open reading frame 57
 - symbol: C16ORF62
   collection: C16ORF62
   tags:
@@ -348,6 +425,8 @@ genes:
   tags:
   - cone-rod-synaptic-disorder
   - retinal-dystrophy
+  blocked_aliases:
+  - calcium binding protein 4
 - symbol: CACNA1F
   collection: CACNA1F
   tags:
@@ -355,11 +434,15 @@ genes:
   - cone-rod-dystrophy
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - calcium voltage-gated channel subunit alpha1 F
 - symbol: CAPN15
   collection: CAPN15
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - calpain 15
 - symbol: CC2D2A
   collection: CC2D2A
   tags:
@@ -368,6 +451,8 @@ genes:
   - meckel-syndrome
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - coiled-coil and C2 domain containing 2A
 - symbol: CDH23
   collection: CDH23
   tags:
@@ -381,11 +466,15 @@ genes:
   - vestibular
   - hair cell
   - pituitary adenoma
+  blocked_aliases:
+  - cadherin related 23
 - symbol: CDHR1
   collection: CDHR1
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - cadherin related family member 1
 - symbol: CEP290
   collection: CEP290
   tags:
@@ -396,26 +485,36 @@ genes:
   - meckel-syndrome
   - retinal-dystrophy
   - senior-loken
+  blocked_aliases:
+  - centrosomal protein 290
 - symbol: CERKL
   collection: CERKL
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - CERK like autophagy regulator
 - symbol: CHD7
   collection: CHD7
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - chromodomain helicase DNA binding protein 7
 - symbol: CHM
   collection: CHM
   tags:
   - choroideremia
   - retinal-dystrophy
+  blocked_aliases:
+  - CHM Rab escort protein
 - symbol: CHST6
   collection: CHST6
   tags:
   - corneal-dystrophy
-  - macular
+  - macular-corneal-dystrophy
+  blocked_aliases:
+  - carbohydrate sulfotransferase 6
 - symbol: CIB2
   collection: CIB2
   tags:
@@ -427,6 +526,8 @@ genes:
   - hair cell
   - mechanotransduction
   - HIV
+  blocked_aliases:
+  - calcium and integrin binding family member 2
 - symbol: CLRN1
   collection: CLRN1
   tags:
@@ -434,22 +535,30 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - usher-syndrome
+  blocked_aliases:
+  - clarin 1
 - symbol: CNGA1
   collection: CNGA1
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - cyclic nucleotide gated channel subunit alpha 1
 - symbol: CNGA3
   collection: CNGA3
   tags:
   - achromatopsia
   - retinal-dystrophy
+  blocked_aliases:
+  - cyclic nucleotide gated channel subunit alpha 3
 - symbol: CNGB3
   collection: CNGB3
   tags:
   - achromatopsia
   - retinal-dystrophy
   - stargardt-disease
+  blocked_aliases:
+  - cyclic nucleotide gated channel subunit beta 3
 - symbol: COL11A1
   collection: COL11A1
   tags:
@@ -462,10 +571,14 @@ genes:
   - malocclusion
   - chondrocyte
   - bone mineralization
+  blocked_aliases:
+  - collagen type XI alpha 1 chain
 - symbol: COL18A1
   collection: COL18A1
   tags:
   - glaucoma
+  blocked_aliases:
+  - collagen type XVIII alpha 1 chain
 - symbol: COL2A1
   collection: COL2A1
   tags:
@@ -484,6 +597,8 @@ genes:
   - cartilage
   - skeletal dysplasia
   - hip dysplasia
+  blocked_aliases:
+  - collagen type II alpha 1 chain
 - symbol: COL4A1
   collection: COL4A1
   tags:
@@ -497,11 +612,15 @@ genes:
   - intracranial hemorrhage
   - stroke
   - cerebral small vessel
+  blocked_aliases:
+  - collagen type IV alpha 1 chain
 - symbol: COL8A2
   collection: COL8A2
   tags:
   - corneal-dystrophy
   - fuchs
+  blocked_aliases:
+  - collagen type VIII alpha 2 chain
 - symbol: COL9A1
   collection: COL9A1
   tags:
@@ -514,6 +633,8 @@ genes:
   - clubfoot
   - epiphyseal dysplasia
   - cartilage
+  blocked_aliases:
+  - collagen type IX alpha 1 chain
 - symbol: CRB1
   collection: CRB1
   tags:
@@ -521,6 +642,8 @@ genes:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - crumbs cell polarity complex component 1
 - symbol: CRX
   collection: CRX
   tags:
@@ -528,60 +651,86 @@ genes:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - cone-rod homeobox
 - symbol: CRYAA
   collection: CRYAA
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin alpha A
 - symbol: CRYAB
   collection: CRYAB
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin alpha B
 - symbol: CRYBA1
   collection: CRYBA1
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin beta A1
 - symbol: CRYBA4
   collection: CRYBA4
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin beta A4
 - symbol: CRYBB1
   collection: CRYBB1
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin beta B1
 - symbol: CRYBB2
   collection: CRYBB2
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin beta B2
 - symbol: CRYBB3
   collection: CRYBB3
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin beta B3
 - symbol: CRYGB
   collection: CRYGB
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin gamma B
 - symbol: CRYGC
   collection: CRYGC
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin gamma C
 - symbol: CRYGD
   collection: CRYGD
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin gamma D
 - symbol: CRYGS
   collection: CRYGS
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - crystallin gamma S
 - symbol: CYP1B1
   collection: CYP1B1
   tags:
   - anterior-segment-dysgenesis
   - glaucoma
+  blocked_aliases:
+  - cytochrome P450 family 1 subfamily B member 1
 - symbol: DCN
   collection: DCN
   tags:
+  - congenital-stromal-corneal-dystrophy
   - corneal-dystrophy
-  - stromal
   exclude_text:
   - osteoblast
   - osteoclast
@@ -621,16 +770,22 @@ genes:
   - DOPAchrome
   - skin pigment
   - melanin synthesis
+  blocked_aliases:
+  - dopachrome tautomerase
 - symbol: DHDDS
   collection: DHDDS
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - dehydrodolichyl diphosphate synthase subunit
 - symbol: DHX38
   collection: DHX38
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - DEAH-box helicase 38
 - symbol: DRAM2
   collection: DRAM2
   tags:
@@ -640,16 +795,22 @@ genes:
   - tuberculosis
   - mycobacterium
   - traumatic brain
+  blocked_aliases:
+  - DNA damage regulated autophagy modulator 2
 - symbol: ELOVL4
   collection: ELOVL4
   tags:
   - retinal-dystrophy
   - stargardt-disease
+  blocked_aliases:
+  - ELOVL fatty acid elongase 4
 - symbol: ELP4
   collection: ELP4
   tags:
   - aniridia
   - anterior-segment-dysgenesis
+  blocked_aliases:
+  - elongator acetyltransferase complex subunit 4
 - symbol: EPHA2
   collection: EPHA2
   tags:
@@ -659,6 +820,8 @@ genes:
   - receptor clustering
   - SAM domain
   - integrin
+  blocked_aliases:
+  - EPH receptor A2
 - symbol: ESPN
   collection: ESPN
   tags:
@@ -676,22 +839,41 @@ genes:
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - EGF-like photoreceptor maintenance factor
 - symbol: FAM161A
   collection: FAM161A
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - FAM161 centrosomal protein A
 - symbol: FAT1
   collection: FAT1
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - FAT
+  - FAT atypical cadherin 1
 - symbol: FBN1
   collection: FBN1
   tags:
   - ectopia-lentis
   - marfan-syndrome
-  - syndromic
+  blocked_aliases:
+  - FBN
+  - MASS
+  - OCTD
+  - SGS
+  - WMS
+  - fibrillin 1
+  exclude_text:
+  - aortic
+  - aneurysm
+  - mitral valve
+  - scoliosis
+  - cardiovascular
 - symbol: FOXC1
   collection: FOXC1
   tags:
@@ -703,48 +885,68 @@ genes:
   - somitogenesis
   - vascular smooth muscle
   - diaphragm
+  blocked_aliases:
+  - forkhead box C1
 - symbol: FOXE3
   collection: FOXE3
   tags:
   - anterior-segment-dysgenesis
   - congenital-cataract
+  blocked_aliases:
+  - forkhead box E3
 - symbol: FRAS1
   collection: FRAS1
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - Fraser extracellular matrix complex subunit 1
 - symbol: FREM1
   collection: FREM1
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - FRAS1 related extracellular matrix 1
 - symbol: FREM2
   collection: FREM2
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - FRAS1 related extracellular matrix 2
 - symbol: FRMD7
   collection: FRMD7
   tags:
   - nystagmus
+  blocked_aliases:
+  - FERM domain containing 7
 - symbol: FSCN2
   collection: FSCN2
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - fascin actin-bundling protein 2, retinal
 - symbol: FYCO1
   collection: FYCO1
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - FYVE and coiled-coil domain autophagy adaptor 1
 - symbol: FZD4
   collection: FZD4
   tags:
   - vitreoretinopathy
+  blocked_aliases:
+  - frizzled class receptor 4
 - symbol: FZD5
   collection: FZD5
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - frizzled class receptor 5
 - symbol: GDF6
   collection: GDF6
   tags:
@@ -752,24 +954,34 @@ genes:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - growth differentiation factor 6
 - symbol: GJA3
   collection: GJA3
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - gap junction protein alpha 3
 - symbol: GJA8
   collection: GJA8
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - gap junction protein alpha 8
 - symbol: GNAT1
   collection: GNAT1
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - G protein subunit alpha transducin 1
 - symbol: GNAT2
   collection: GNAT2
   tags:
   - achromatopsia
   - retinal-dystrophy
+  blocked_aliases:
+  - G protein subunit alpha transducin 2
 - symbol: GNB3
   collection: GNB3
   tags:
@@ -783,16 +995,22 @@ genes:
   - erectile
   - nicotine dependence
   - mood disorder
+  blocked_aliases:
+  - G protein subunit beta 3
 - symbol: GPR143
   collection: GPR143
   tags:
   - albinism
   - nystagmus
+  blocked_aliases:
+  - G protein-coupled receptor 143
 - symbol: GPR179
   collection: GPR179
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - G protein-coupled receptor 179
 - symbol: GRHL2
   collection: GRHL2
   tags:
@@ -807,32 +1025,44 @@ genes:
   - salivary gland
   - neural tube
   - pituitary
+  blocked_aliases:
+  - grainyhead like transcription factor 2
 - symbol: GRIP1
   collection: GRIP1
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - glutamate receptor interacting protein 1
 - symbol: GRK1
   collection: GRK1
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - G protein-coupled receptor kinase 1
 - symbol: GRM6
   collection: GRM6
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - glutamate metabotropic receptor 6
 - symbol: GUCA1A
   collection: GUCA1A
   tags:
   - cone-dystrophy
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - guanylate cyclase activator 1A
 - symbol: GUCA1B
   collection: GUCA1B
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - guanylate cyclase activator 1B
 - symbol: GUCY2D
   collection: GUCY2D
   tags:
@@ -841,10 +1071,14 @@ genes:
   - congenital-stationary-night-blindness
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - guanylate cyclase 2D, retinal
 - symbol: GZF1
   collection: GZF1
   tags:
   - myopia
+  blocked_aliases:
+  - GDNF inducible zinc finger protein 1
 - symbol: HCCS
   collection: HCCS
   tags:
@@ -852,11 +1086,15 @@ genes:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - holocytochrome c synthase
 - symbol: HK1
   collection: HK1
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - hexokinase 1
 - symbol: HMX1
   collection: HMX1
   tags:
@@ -865,6 +1103,8 @@ genes:
   - corneal-dystrophy
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - H6 family homeobox 1
 - symbol: HSF4
   collection: HSF4
   tags:
@@ -873,16 +1113,22 @@ genes:
   - heat shock response
   - Hsf2
   - HIF-1
+  blocked_aliases:
+  - heat shock transcription factor 4
 - symbol: IDH3A
   collection: IDH3A
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - isocitrate dehydrogenase (NAD(+)) 3 catalytic subunit alpha
 - symbol: IFT140
   collection: IFT140
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - intraflagellar transport 140
 - symbol: IFT172
   collection: IFT172
   tags:
@@ -890,12 +1136,16 @@ genes:
   - ciliopathy
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - intraflagellar transport 172
 - symbol: IMPDH1
   collection: IMPDH1
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - inosine monophosphate dehydrogenase 1
 - symbol: IMPG1
   collection: IMPG1
   tags:
@@ -903,6 +1153,8 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - vitelliform
+  blocked_aliases:
+  - interphotoreceptor matrix proteoglycan 1
 - symbol: IQCB1
   collection: IQCB1
   tags:
@@ -910,68 +1162,96 @@ genes:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - senior-loken
+  blocked_aliases:
+  - IQ motif containing B1
 - symbol: KCNJ13
   collection: KCNJ13
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - potassium inwardly rectifying channel subfamily J member 13
 - symbol: KIF3B
   collection: KIF3B
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - kinesin family member 3B
 - symbol: KMT2D
   collection: KMT2D
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - lysine methyltransferase 2D
 - symbol: KRT12
   collection: KRT12
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - keratin 12
 - symbol: KRT3
   collection: KRT3
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - keratin 3
 - symbol: LCA5
   collection: LCA5
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - lebercilin LCA5
 - symbol: LOXL3
   collection: LOXL3
   tags:
   - myopia
+  blocked_aliases:
+  - lysyl oxidase like 3
 - symbol: LRAT
   collection: LRAT
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - lecithin retinol acyltransferase
 - symbol: LRIT3
   collection: LRIT3
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - leucine rich repeat, Ig-like and transmembrane domains 3
 - symbol: LRMDA
   collection: LRMDA
   tags:
   - albinism
+  blocked_aliases:
+  - leucine rich melanocyte differentiation associated
 - symbol: LRP2
   collection: LRP2
   tags:
   - coloboma
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - LDL receptor related protein 2
 - symbol: LSS
   collection: LSS
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - lanosterol synthase
 - symbol: LTBP2
   collection: LTBP2
   tags:
   - corneal-disease
   - glaucoma
   - megalocornea
+  blocked_aliases:
+  - latent transforming growth factor beta binding protein 2
 - symbol: MAB21L2
   collection: MAB21L2
   tags:
@@ -986,40 +1266,71 @@ genes:
   - nanoplastics
   - spaceflight
   - livestock
+  blocked_aliases:
+  - mab-21 like 2
 - symbol: MAF
   collection: MAF
   tags:
   - congenital-cataract
+  exclude_text:
+  - Nrf1
+  - Nrf2
+  - Bach1
+  - heme oxygenase
+  - antioxidant response element
+  - erythroid
+  - MafK
+  - MafG
+  - chondrocyte differentiation
+  blocked_aliases:
+  - MAF bZIP transcription factor
 - symbol: MAK
   collection: MAK
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - male germ cell associated kinase
 - symbol: MERTK
   collection: MERTK
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - MER proto-oncogene, tyrosine kinase
 - symbol: MFRP
   collection: MFRP
   tags:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - membrane frizzled-related protein
 - symbol: MIP
   collection: MIP
   tags:
   - congenital-cataract
+  exclude_text:
+  - glycerol transport
+  - aquaglyceroporin
+  - plant aquaporin
+  blocked_aliases:
+  - LIM1
+  - major intrinsic protein of lens fiber
 - symbol: MKKS
   collection: MKKS
   tags:
   - bardet-biedl
   - ciliopathy
+  blocked_aliases:
+  - MKKS centrosomal shuttling protein
 - symbol: MYO7A
   collection: MYO7A
   tags:
   - ciliopathy
   - usher-syndrome
+  blocked_aliases:
+  - myosin VIIA
 - symbol: MYOC
   collection: MYOC
   tags:
@@ -1029,37 +1340,54 @@ genes:
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - MRF
+  - myelin regulatory factor
 - symbol: NAA10
   collection: NAA10
   tags: null
+  blocked_aliases:
+  - N-alpha-acetyltransferase 10, NatA catalytic subunit
 - symbol: NAA15
   collection: NAA15
   tags: null
+  blocked_aliases:
+  - N-alpha-acetyltransferase 15, NatA auxiliary subunit
 - symbol: NDP
   collection: NDP
   tags:
   - norrie-disease
   - vitreoretinopathy
+  blocked_aliases:
+  - norrin cystine knot growth factor NDP
 - symbol: NHS
   collection: NHS
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - NHS actin remodeling regulator
 - symbol: NMNAT1
   collection: NMNAT1
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - nicotinamide nucleotide adenylyltransferase 1
 - symbol: NR2E3
   collection: NR2E3
   tags:
   - enhanced-s-cone-syndrome
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - nuclear receptor subfamily 2 group E member 3
 - symbol: NRL
   collection: NRL
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - neural retina leucine zipper
 - symbol: NYX
   collection: NYX
   tags:
@@ -1070,15 +1398,21 @@ genes:
   tags:
   - gyrate-atrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - ornithine aminotransferase
 - symbol: OCA2
   collection: OCA2
   tags:
   - albinism
+  blocked_aliases:
+  - OCA2 melanosomal transmembrane protein
 - symbol: OPN1LW
   collection: OPN1LW
   tags:
   - blue-cone-monochromacy
   - color-vision-deficiency
+  blocked_aliases:
+  - opsin 1, long wave sensitive
 - symbol: OPN1MW
   collection: OPN1MW
   tags:
@@ -1086,16 +1420,29 @@ genes:
   - color-vision-deficiency
   - cone-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - opsin 1, medium wave sensitive
 - symbol: OTX2
   collection: OTX2
   tags:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  exclude_text:
+  - midbrain-hindbrain
+  - isthmic organizer
+  - cerebellum
+  - Gbx2
+  - gonadotropin-releasing hormone
+  - epiblast
+  blocked_aliases:
+  - orthodenticle homeobox 2
 - symbol: OVOL2
   collection: OVOL2
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - ovo like zinc finger 2
 - symbol: PAX2
   collection: PAX2
   tags:
@@ -1103,6 +1450,16 @@ genes:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  exclude_text:
+  - inner ear
+  - otic placode
+  - midbrain-hindbrain
+  - cerebellum
+  - thyroid follicle
+  - spinal interneuron
+  - mesonephros
+  blocked_aliases:
+  - paired box 2
 - symbol: PAX6
   collection: PAX6
   tags:
@@ -1116,42 +1473,58 @@ genes:
   - optic-nerve-hypoplasia
   - optic-neuropathy
   - structural-eye-disease
+  blocked_aliases:
+  - paired box 6
 - symbol: PCDH15
   collection: PCDH15
   tags:
   - ciliopathy
   - usher-syndrome
+  blocked_aliases:
+  - protocadherin related 15
 - symbol: PDE6A
   collection: PDE6A
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - phosphodiesterase 6A
 - symbol: PDE6B
   collection: PDE6B
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - phosphodiesterase 6B
 - symbol: PDE6C
   collection: PDE6C
   tags:
   - achromatopsia
   - cone-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - phosphodiesterase 6C
 - symbol: PDE6H
   collection: PDE6H
   tags:
   - achromatopsia
   - retinal-dystrophy
+  blocked_aliases:
+  - phosphodiesterase 6H
 - symbol: PIKFYVE
   collection: PIKFYVE
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - phosphoinositide kinase, FYVE-type zinc finger containing
 - symbol: PITPNM3
   collection: PITPNM3
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - PITPNM family member 3
 - symbol: PITX2
   collection: PITX2
   tags:
@@ -1173,6 +1546,10 @@ genes:
   - hematopoietic
   - myoblast
   - skeletal muscle
+  blocked_aliases:
+  - RGS
+  - RS
+  - paired like homeodomain 2
 - symbol: PITX3
   collection: PITX3
   tags:
@@ -1184,27 +1561,45 @@ genes:
   - locomotor
   - psychostimulant
   - dyskinesia
+  - Parkinson
+  - substantia nigra
+  - midbrain dopaminergic
+  blocked_aliases:
+  - paired like homeodomain 3
 - symbol: PLK4
   collection: PLK4
   tags:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  exclude_text:
+  - melanocyte
+  - melanogenesis
+  - osteoclast
+  - renal cyst
+  blocked_aliases:
+  - polo like kinase 4
 - symbol: POC1B
   collection: POC1B
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - POC1 centriolar protein B
 - symbol: PORCN
   collection: PORCN
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - porcupine O-acyltransferase
 - symbol: PRCD
   collection: PRCD
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - photoreceptor disc component
 - symbol: PROM1
   collection: PROM1
   tags:
@@ -1213,35 +1608,49 @@ genes:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - stargardt-disease
+  blocked_aliases:
+  - prominin 1
 - symbol: PRPF3
   collection: PRPF3
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - pre-mRNA processing factor 3
 - symbol: PRPH2
   collection: PRPH2
   tags:
   - choroidal-dystrophy
   - macular-dystrophy
-  - patterned
+  - pattern-dystrophy
   - retinal-dystrophy
   - retinitis-pigmentosa
   - vitelliform
+  blocked_aliases:
+  - RDS
+  - peripherin 2
+  - rd2
 - symbol: PRR12
   collection: PRR12
   tags:
   - intellectual-disability
   - structural-eye-disease
+  blocked_aliases:
+  - proline rich 12
 - symbol: PRSS56
   collection: PRSS56
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - serine protease 56
 - symbol: PUF60
   collection: PUF60
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - poly(U) binding splicing factor 60
 - symbol: RAB18
   collection: RAB18
   tags:
@@ -1249,11 +1658,15 @@ genes:
   - corneal-dystrophy
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - RAB18, member RAS oncogene family
 - symbol: RAB28
   collection: RAB28
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - RAB28, member RAS oncogene family
 - symbol: RAB3GAP1
   collection: RAB3GAP1
   tags:
@@ -1261,6 +1674,8 @@ genes:
   - corneal-dystrophy
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - RAB3 GTPase activating protein catalytic subunit 1
 - symbol: RAB3GAP2
   collection: RAB3GAP2
   tags:
@@ -1268,17 +1683,23 @@ genes:
   - corneal-dystrophy
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - RAB3 GTPase activating non-catalytic protein subunit 2
 - symbol: RARB
   collection: RARB
   tags:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - retinoic acid receptor beta
 - symbol: RAX
   collection: RAX
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - retina and anterior neural fold homeobox
 - symbol: RAX2
   collection: RAX2
   tags:
@@ -1287,31 +1708,43 @@ genes:
   - retinal-degeneration
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retina and anterior neural fold homeobox 2
 - symbol: RBP3
   collection: RBP3
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinol binding protein 3
 - symbol: RD3
   collection: RD3
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - RD3 regulator of GUCY2D
 - symbol: RDH11
   collection: RDH11
   tags:
   - retinal-dystrophy
+  blocked_aliases:
+  - retinol dehydrogenase 11
 - symbol: RDH12
   collection: RDH12
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinol dehydrogenase 12
 - symbol: RGR
   collection: RGR
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinal G protein coupled receptor
 - symbol: RHO
   collection: RHO
   tags:
@@ -1322,43 +1755,64 @@ genes:
   - Rho GTPase
   - RhoA
   - actin cytoskeleton
+  - adrenergic receptor
+  - muscarinic
+  - adenosine receptor
+  - virtual screening
+  - homology modeling
 - symbol: RLBP1
   collection: RLBP1
   tags:
   - retinal-dystrophy
   - rod-cone-dystrophy
+  blocked_aliases:
+  - retinaldehyde binding protein 1
 - symbol: RNU2-2
   collection: RNU2-2
   tags: null
+  blocked_aliases:
+  - RNA, U2 small nuclear 2
 - symbol: RNU4ATAC
   collection: RNU4ATAC
   tags: null
+  blocked_aliases:
+  - RNA, U4atac small nuclear
 - symbol: ROM1
   collection: ROM1
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinal outer segment membrane protein 1
 - symbol: RP1
   collection: RP1
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - RP1 axonemal microtubule associated
 - symbol: RP2
   collection: RP2
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - RP2 activator of ARL3 GTPase
 - symbol: RP9
   collection: RP9
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - RP9 pre-mRNA splicing factor
 - symbol: RPE65
   collection: RPE65
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinoid isomerohydrolase RPE65
 - symbol: RPGR
   collection: RPGR
   tags:
@@ -1367,12 +1821,16 @@ genes:
   - retinal-degeneration
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - retinitis pigmentosa GTPase regulator
 - symbol: RPGRIP1
   collection: RPGRIP1
   tags:
   - cone-rod-dystrophy
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - RPGR interacting protein 1
 - symbol: RPGRIP1L
   collection: RPGRIP1L
   tags:
@@ -1380,38 +1838,53 @@ genes:
   - coloboma
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - RPGRIP1 like
 - symbol: RS1
   collection: RS1
   tags:
   - retinal-dystrophy
   - retinoschisis
+  blocked_aliases:
+  - retinoschisin 1
 - symbol: SAG
   collection: SAG
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - ARRESTIN
+  - S-antigen visual arrestin
 - symbol: SEMA4A
   collection: SEMA4A
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - semaphorin 4A
 - symbol: SHH
   collection: SHH
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - sonic hedgehog signaling molecule
 - symbol: SIX6
   collection: SIX6
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - SIX homeobox 6
 - symbol: SLC24A1
   collection: SLC24A1
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - solute carrier family 24 member 1
 - symbol: SLC24A5
   collection: SLC24A5
   tags:
@@ -1421,10 +1894,14 @@ genes:
   - skin color
   - skin colour
   - population genetics
+  blocked_aliases:
+  - solute carrier family 24 member 5
 - symbol: SLC38A8
   collection: SLC38A8
   tags:
   - foveal-hypoplasia
+  blocked_aliases:
+  - solute carrier family 38 member 8
 - symbol: SLC45A2
   collection: SLC45A2
   tags:
@@ -1434,109 +1911,179 @@ genes:
   - skin color
   - skin colour
   - population genetics
+  blocked_aliases:
+  - solute carrier family 45 member 2
 - symbol: SLC4A11
   collection: SLC4A11
   tags:
   - corneal-dystrophy
-  - endothelial
+  - endothelial-corneal-dystrophy
   - fuchs
+  blocked_aliases:
+  - solute carrier family 4 member 11
 - symbol: SMARCA2
   collection: SMARCA2
   tags: null
+  tags:
+  - intellectual-disability
+  - structural-eye-disease
+  blocked_aliases:
+  - BAF190
+  - BRM
+  - SNF2
+  - SNF2L2
+  - SNF2LA
+  - SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2
+  - SWI2
+  - Sth1p
+  - hBRM
+  - hSNF2a
 - symbol: SMO
   collection: SMO
   tags:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - smoothened, frizzled class receptor
 - symbol: SMOC1
   collection: SMOC1
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - SPARC related modular calcium binding 1
 - symbol: SNRNP200
   collection: SNRNP200
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - small nuclear ribonucleoprotein U5 subunit 200
 - symbol: SOX2
   collection: SOX2
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - SRY-box transcription factor 2
 - symbol: SPATA7
   collection: SPATA7
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - spermatogenesis associated 7
 - symbol: STRA6
   collection: STRA6
   tags:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - signaling receptor and transporter of retinol STRA6
 - symbol: TACSTD2
   collection: TACSTD2
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - tumor associated calcium signal transducer 2
 - symbol: TBC1D20
   collection: TBC1D20
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - TBC1 domain family member 20
 - symbol: TDRD7
   collection: TDRD7
   tags:
   - congenital-cataract
+  blocked_aliases:
+  - tudor domain containing 7
 - symbol: TEK
   collection: TEK
   tags:
   - glaucoma
+  exclude_text:
+  - sepsis
+  - psoriasis
+  - hematopoietic stem cell
+  - atopic dermatitis
+  - arthritis
+  - renal fibrosis
+  - scleroderma
+  - myocardial ischaemia
+  blocked_aliases:
+  - TEK receptor tyrosine kinase
 - symbol: TENM3
   collection: TENM3
   tags:
   - coloboma
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - teneurin transmembrane protein 3
 - symbol: TGFBI
   collection: TGFBI
   tags:
   - corneal-dystrophy
-  - epithelial
-  - lattice
+  - epithelial-basement-membrane-dystrophy
+  - lattice-corneal-dystrophy
+  exclude_text:
+  - renal fibrosis
+  - diabetic nephropathy
+  - asthma
+  - epithelial-mesenchymal transition
+  - Smad
+  - intrauterine adhesion
+  blocked_aliases:
+  - transforming growth factor beta induced
 - symbol: TMEM98
   collection: TMEM98
   tags:
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - transmembrane protein 98
 - symbol: TRIM44
   collection: TRIM44
   tags:
   - aniridia
   - anterior-segment-dysgenesis
+  blocked_aliases:
+  - tripartite motif containing 44
 - symbol: TRPM1
   collection: TRPM1
   tags:
   - congenital-stationary-night-blindness
   - retinal-dystrophy
+  blocked_aliases:
+  - transient receptor potential cation channel subfamily M member 1
 - symbol: TTLL5
   collection: TTLL5
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - tubulin tyrosine ligase like 5
 - symbol: TUBGCP4
   collection: TUBGCP4
   tags:
   - microphthalmia
   - retinal-dystrophy
   - structural-eye-disease
+  blocked_aliases:
+  - tubulin gamma complex component 4
 - symbol: TULP1
   collection: TULP1
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
   - retinitis-pigmentosa
+  blocked_aliases:
+  - TUB like protein 1
 - symbol: TYR
   collection: TYR
   tags:
@@ -1545,25 +2092,35 @@ genes:
   collection: TYRP1
   tags:
   - albinism
+  blocked_aliases:
+  - tyrosinase related protein 1
 - symbol: UBIAD1
   collection: UBIAD1
   tags:
   - corneal-dystrophy
+  blocked_aliases:
+  - UbiA prenyltransferase domain containing 1
 - symbol: UNC119
   collection: UNC119
   tags:
   - cone-rod-dystrophy
   - retinal-dystrophy
+  blocked_aliases:
+  - unc-119 lipid binding chaperone
 - symbol: USH1C
   collection: USH1C
   tags:
   - ciliopathy
   - usher-syndrome
+  blocked_aliases:
+  - USH1 protein network component harmonin
 - symbol: USH1G
   collection: USH1G
   tags:
   - ciliopathy
   - usher-syndrome
+  blocked_aliases:
+  - USH1 protein network component sans
 - symbol: USH2A
   collection: USH2A
   tags:
@@ -1576,21 +2133,36 @@ genes:
   tags:
   - leber-congenital-amaurosis
   - retinal-dystrophy
+  blocked_aliases:
+  - ubiquitin specific peptidase 45
 - symbol: VCAN
   collection: VCAN
   tags:
   - vitreoretinopathy
+  exclude_text:
+  - brevican
+  - neurocan
+  - aggrecan
+  - atherosclerotic
+  - smooth muscle cell
+  - limb bud
+  - synovial joint
+  - tenascin
 - symbol: VSX2
   collection: VSX2
   tags:
   - congenital-cataract
   - microphthalmia
   - structural-eye-disease
+  blocked_aliases:
+  - visual system homeobox 2
 - symbol: WDPCP
   collection: WDPCP
   tags:
   - bardet-biedl
   - ciliopathy
+  blocked_aliases:
+  - WD repeat containing planar cell polarity effector
 - symbol: WHRN
   collection: WHRN
   tags:
@@ -1608,6 +2180,8 @@ genes:
   tags:
   - coloboma
   - structural-eye-disease
+  blocked_aliases:
+  - Yes1 associated transcriptional regulator
 - symbol: ZEB1
   collection: ZEB1
   tags:
@@ -1622,16 +2196,22 @@ genes:
   - immunoglobulin
   - myogenesis
   - palate
+  blocked_aliases:
+  - zinc finger E-box binding homeobox 1
 - symbol: ZNF408
   collection: ZNF408
   tags:
   - retinal-dystrophy
   - retinitis-pigmentosa
   - vitreoretinopathy
+  blocked_aliases:
+  - zinc finger protein 408
 - symbol: BMP7
   collection: BMP7
   tags:
   - structural-eye-disease
+  blocked_aliases:
+  - bone morphogenetic protein 7
 - symbol: APC
   collection: APC
   tags:
@@ -1645,6 +2225,8 @@ genes:
   - astrocyte precursor
   - activated protein C
   - colon cancer
+  blocked_aliases:
+  - APC regulator of Wnt signaling pathway
 - symbol: AXIN1
   collection: AXIN1
   tags:
@@ -1657,3 +2239,5 @@ genes:
   - Parkinson
   - colitis
   - osteosclerosis
+  blocked_aliases:
+  - axin 1
