@@ -443,6 +443,8 @@ genes:
   - structural-eye-disease
   blocked_aliases:
   - calpain 15
+  exclude_text:
+  - lncRNA CAPN15
 - symbol: CC2D2A
   collection: CC2D2A
   tags:
@@ -1923,7 +1925,6 @@ genes:
   - solute carrier family 4 member 11
 - symbol: SMARCA2
   collection: SMARCA2
-  tags: null
   tags:
   - intellectual-disability
   - structural-eye-disease
