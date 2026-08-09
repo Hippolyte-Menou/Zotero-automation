@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-02T05:45:07Z",
+  "generated_at": "2026-08-09T03:57:47Z",
   "threshold_k": 0,
-  "total_evaluated": 24876,
-  "total_flagged": 421,
+  "total_evaluated": 25833,
+  "total_flagged": 481,
   "total_dismissed": 0,
   "total_unresolvable": 140,
   "hierarchy": {
@@ -86,7 +86,9 @@
     "6 - Genes": [
       "ABCA4",
       "ACO2",
+      "ADAMTSL4",
       "AGK",
+      "AIPL1",
       "ARID1B",
       "ARID2",
       "ARR3",
@@ -102,28 +104,42 @@
       "CHD7",
       "CHST6",
       "CLRN1",
+      "COL18A1",
       "COL2A1",
+      "COL8A2",
+      "CRB1",
       "CRX",
       "CRYGS",
+      "CYP1B1",
       "DCN",
       "EYS",
       "FBN1",
       "FRAS1",
       "GPR143",
       "GPR179",
+      "GUCY2D",
       "HK1",
       "IFT172",
+      "IMPG1",
+      "KCNJ13",
       "KRT12",
       "KRT3",
       "LSS",
       "MAB21L2",
       "MAC assess-genes",
+      "MERTK",
       "MFRP",
       "MYO7A",
       "MYOC",
       "MYRF",
+      "NAA10",
+      "NAA15",
+      "NDP",
       "NRL",
       "NYX",
+      "OAT",
+      "OPN1MW",
+      "PAX2",
       "PAX6",
       "PCDH15",
       "PDE6B",
@@ -137,6 +153,9 @@
       "RDH11",
       "RDH12",
       "RHO",
+      "RNU2-2",
+      "RNU4ATAC",
+      "RP2",
       "RPGR",
       "RPGRIP1",
       "RPGRIP1L",
@@ -145,7 +164,9 @@
       "SLC4A11",
       "SOX2",
       "SPATA7",
+      "TEK",
       "TGFBI",
+      "TULP1",
       "TYR",
       "USH2A",
       "ZEB1"
@@ -909,52 +930,6 @@
       "subcollection": "Albinism, ocular"
     },
     {
-      "pmid": "",
-      "doi": "10.1016/j.jfo.2022.01.005",
-      "zotero_key": "RTC8WSCG",
-      "title": "[National protocol for diagnosis and care of congenital aniridia: Summary for the attending physician].",
-      "authors": [
-        [
-          "D",
-          "Bremond-Gignac"
-        ],
-        [
-          "M",
-          "Robert"
-        ],
-        [
-          "A",
-          "Daruich"
-        ],
-        [
-          "V",
-          "Borderie"
-        ],
-        [
-          "F",
-          "Chiambaretta"
-        ],
-        [
-          "S",
-          "Valleix"
-        ],
-        [
-          "Aniridie",
-          "Groupe Rédacteur Relecteur PNDS"
-        ]
-      ],
-      "journal": "Journal francais d'ophtalmologie",
-      "year": "2022",
-      "abstract": "",
-      "cited_by_count": 3,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Gillespie syndrome"
-    },
-    {
       "pmid": "36740439",
       "doi": "",
       "zotero_key": "US243MP6",
@@ -1603,6 +1578,40 @@
       "subcollection": "ARSG"
     },
     {
+      "pmid": "41767327",
+      "doi": "10.18240/ijo.2026.03.25",
+      "zotero_key": "KJFM3FDR",
+      "title": "A novel CRB1 variant presenting as Leber congenital amaurosis-8 with angle-closure glaucoma in a Chinese family",
+      "authors": [
+        [
+          "Gong",
+          "Chen"
+        ],
+        [
+          "Cong",
+          "Zhao"
+        ],
+        [
+          "Hui-Hui",
+          "Chen"
+        ],
+        [
+          "Jingming",
+          "Shi"
+        ]
+      ],
+      "journal": "International Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CRB1"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/j.mgene.2016.05.004",
       "zotero_key": "SUW75B98",
@@ -2025,6 +2034,166 @@
       "subcollection": "Megalocornea"
     },
     {
+      "pmid": "41915433",
+      "doi": "10.1152/physiol.00043.2025",
+      "zotero_key": "WTXH67KQ",
+      "title": "ADAMTS and ADAMTSL mutations in connective tissue disorders",
+      "authors": [
+        [
+          "Ana D.",
+          "Alcocer"
+        ],
+        [
+          "E.",
+          "Rush"
+        ],
+        [
+          "Timothy J.",
+          "Mead"
+        ]
+      ],
+      "journal": "Physiology",
+      "year": "2026",
+      "abstract": "The ADAMTS family are extracellular matrix (ECM) proteins and enzymes involved in regulating tissue structure and function. The ECM is a network of proteins and polysaccharides surrounding the cells that provide support and maintain cellular function. Mutations to proteins in the ECM lead to systemic connective tissue disorders by disrupting the structural integrity and maintenance of the ECM, resulting in ocular, musculoskeletal, skin, and cardiovascular abnormalities. Mutations that arise from the ADAMTS family lead to specific connective tissue disorders with distinct clinical characteristics. Here, we detail these distinct clinical features of major connective tissue disorders that arise from mutations in the ADAMTS family proteins. These include Ehlers Danlos syndrome arising from mutation in ADAMTS2, Geleophysic Dysplasia from ADAMTSL2, Weill-Marchesani Syndrome from ADAMTS10 and ADAMTS17, Ectopia lentis from ADAMTSL4, thoracic aortic aneurysms and dissection from ADAMTSL6, valvular disease in ADAMTS19, and a further connective tissue disorder from mutations in ADAMTS6. This review details the mechanisms in which mutations to these ADAMTS genes impair the structure of the ECM, leading to the variety of phenotypic outcomes seen in connective tissue disorders.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ADAMTSL4"
+    },
+    {
+      "pmid": "42263388",
+      "doi": "10.1016/j.knee.2026.104508",
+      "zotero_key": "F55QFJXF",
+      "title": "Adequate canal-filling ratio and extension stem length reduce radiographic loosening in revision total knee arthroplasty using hybrid fixation with grit-blasted, fluted stems",
+      "authors": [
+        [
+          "Po-Wei",
+          "Shao"
+        ],
+        [
+          "Yu-Chih",
+          "Lin"
+        ],
+        [
+          "Chun‐Ting",
+          "Chu"
+        ],
+        [
+          "Chih-Hsiang",
+          "Chang"
+        ],
+        [
+          "Chih-Chien",
+          "Hu"
+        ],
+        [
+          "Tung‐Wu",
+          "Lu"
+        ],
+        [
+          "Sheng-Hsun",
+          "Lee"
+        ]
+      ],
+      "journal": "The Knee",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
+      "pmid": "42482128",
+      "doi": "10.1186/s40942-026-00903-5",
+      "zotero_key": "JEST9EA9",
+      "title": "Adjunctive dexamethasone implant during vitrectomy with silicone oil for diabetic tractional retinal detachment: a systematic review and exploratory meta-analysis",
+      "authors": [
+        [
+          "Ahmar Jan",
+          "Qureshi"
+        ],
+        [
+          "Ali Shan",
+          "Hafeez"
+        ],
+        [
+          "Hamna Hassan",
+          "Siddiqui"
+        ],
+        [
+          "Ahsab",
+          "Zaka"
+        ],
+        [
+          "Muhammad Riyyan Tariq",
+          "Tagga"
+        ],
+        [
+          "Tooba",
+          "Munir"
+        ],
+        [
+          "Eashel",
+          "Farooq"
+        ],
+        [
+          "Muhammad",
+          "Bilal"
+        ],
+        [
+          "Atiqullah",
+          "Sadaqat"
+        ]
+      ],
+      "journal": "International Journal of Retina and Vitreous",
+      "year": "2026",
+      "abstract": "BACKGROUND: Diabetic tractional retinal detachment (TRD) secondary to proliferative diabetic retinopathy is a vision-threatening complication that may require pars plana vitrectomy in selected cases, particularly when the macula is threatened or detached. Silicone oil tamponade is commonly used in complex cases, although tamponade choice varies according to surgical findings and surgeon preference. OBJECTIVES: To evaluate surgical outcomes associated with adjunctive dexamethasone implant during pars plana vitrectomy with silicone oil or heavy silicone oil tamponade for diabetic tractional retinal detachment. METHODS: A comprehensive literature search of PubMed, Scopus, Web of Science, and ClinicalTrials.gov was performed from inception through 2025. Randomized and non-randomized comparative studies assessing PPV with silicone oil with or without adjunctive dexamethasone implant were considered. Definitions of postoperative PVR and retinal redetachment were accepted as reported by the original studies; no individual-level imaging or independent photographic regrading was available. The anatomical outcome was an exploratory composite of study-reported postoperative proliferative vitreoretinopathy (PVR) and/or retinal redetachment outcomes. Because definitions and follow-up time points differed across studies, this outcome was not treated as a uniformly graded PVR endpoint. Randomized and non-randomized comparative studies were identified; randomized trials were prioritized for the main analysis, while the non-randomized study was considered separately because of serious risk of bias. Secondary outcomes included best-corrected visual acuity (BCVA), central subfield thickness (CST), ocular hypertension, and postoperative complications. The protocol was prospectively registered in the International Prospective Register of Systematic Reviews (PROSPERO: CRD420261283105) prior to the commencement of the review. RESULTS: Four studies involving 305 eyes were included. In the main randomized-trial analysis, two studies comprising 123 eyes contributed to the exploratory study-reported postoperative proliferative/redetachment composite. The pooled estimate was highly imprecise (RR 0.20, 95% CI 0.00 to 16.06; I² = 0%) and did not provide conclusive evidence of benefit. In an exploratory sensitivity analysis including the non-randomized study, the estimate favored dexamethasone implant, but this analysis was subject to serious risk of bias. BCVA and CST findings were limited by small sample sizes, heterogeneity, and inconsistent reporting. Intraocular-pressure outcomes were not pooled because definitions and assessment time points differed across studies. CONCLUSION: Current evidence is insufficient to support routine adjunctive dexamethasone implant use during vitrectomy with silicone oil for diabetic tractional retinal detachment. The available studies provide only a hypothesis-generating signal of fewer study-reported postoperative proliferative or redetachment events. Use should remain selective and individualized until adequately powered randomized trials with standardized anatomical outcomes are available. CLINICAL TRIALS NUMBER: Not applicable.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
+    },
+    {
+      "pmid": "42469711",
+      "doi": "10.1186/s12886-026-05142-8",
+      "zotero_key": "T28735CT",
+      "title": "Adjuvant mitomycin C during vitrectomy in young adults with primary nontraumatic rhegmatogenous retinal detachment and grade C proliferative vitreoretinopathy",
+      "authors": [
+        [
+          "Erkan",
+          "Duman"
+        ],
+        [
+          "Aydın",
+          "Maçin"
+        ],
+        [
+          "Ayşe",
+          "Ergin"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Proliferative vitreoretinopathy (PVR) complicates 5-10% of rhegmatogenous retinal detachments (RRD) and remains a major cause of surgical failure. Intraoperative mitomycin C (MMC), a potent antiproliferative agent, may suppress postoperative PVR formation. This study evaluated the anatomical, functional, and safety outcomes of intraoperative MMC in young adults with primary RRD complicated by grade C PVR. METHODS: This retrospective cohort study included 126 eyes of patients aged 18-45 years with primary nontraumatic RRD and grade C PVR. All eyes underwent 25-gauge pars plana vitrectomy with silicone oil tamponade. Intraoperative MMC was administered in 61 eyes, while 65 eyes served as controls. The primary outcome was single-surgery anatomical success at 6 months. Secondary outcomes included final retinal reattachment, PVR progression, best-corrected visual acuity (BCVA), intraocular pressure (IOP) changes, silicone oil removal, and MMC-related adverse events. RESULTS: MMC-treated eyes showed significantly lower rates of postoperative PVR progression and reoperation than controls (P < 0.05). Primary and final reattachment rates and BCVA improvement were higher in the MMC group, although differences did not reach statistical significance. No clinically detectable retinal or optic nerve toxicity attributable to MMC was observed. Rates of elevated IOP, hypotony, cystoid macular edema, and intraocular inflammation were comparable between groups. CONCLUSIONS: Intraoperative adjuvant MMC was associated with reduced postoperative PVR progression and reoperation rates in young adults with primary RRD and grade C PVR. A favorable trend was also observed in anatomical and visual outcomes, suggesting that MMC may represent a promising adjunctive treatment strategy in selected high-risk patients.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
+    },
+    {
       "pmid": "",
       "doi": "10.1038/eye.1990.28",
       "zotero_key": "NXKVGBM6",
@@ -2329,58 +2498,34 @@
       "subcollection": "Ocular malformations"
     },
     {
-      "pmid": "41794829",
-      "doi": "10.1038/s41598-026-38633-1",
-      "zotero_key": "MPUWSESX",
-      "title": "Allergy-associated acute coronary syndrome without anaphylaxis in a prospective observational study",
+      "pmid": "42523721",
+      "doi": "10.18240/ijo.2026.08.24",
+      "zotero_key": "VTAFNFXC",
+      "title": "An HK1 pathogenic variant associated with an atypical retinal dystrophy phenotype: a case report and insights from literature",
       "authors": [
         [
-          "Mari",
-          "Amino"
+          "Yongyue",
+          "Su"
         ],
         [
-          "Shie",
-          "Takizawa"
+          "Feng",
+          "Wen"
         ],
         [
-          "Seiji",
-          "Morita"
-        ],
-        [
-          "Kanae",
-          "Kitatani"
-        ],
-        [
-          "Ayumi",
-          "Sasaki"
-        ],
-        [
-          "Atsuhiko",
-          "Yagishita"
-        ],
-        [
-          "Yoshihide",
-          "Nakagawa"
-        ],
-        [
-          "Yuji",
-          "Ikari"
-        ],
-        [
-          "Mari",
-          "Amino"
+          "Zhou",
+          "Xiao-lai"
         ]
       ],
-      "journal": "Scientific Reports",
+      "journal": "International Journal of Ophthalmology",
       "year": "2026",
-      "abstract": "Kounis syndrome is an acute coronary syndrome (ACS) triggered by allergic reactions via mast cell activation, classically accompanied by anaphylaxis. However, ACS associated with mild or subclinical allergic reactions may be underrecognized. We investigated immune markers and autonomic nervous system activity in patients with ACS and characterized allergy-associated ACS without anaphylactic symptoms. Among 375 patients treated for ACS (April 2022 to March 2024), 49 were prospectively enrolled. Patients were classified into non-allergy-associated ACS (ACS-NA, n = 32) and allergy-associated ACS (ACS-AL, n = 17) groups. ACS-AL was subdivided into the non-anaphylactic (ACS-AL(nonA), n = 11) and anaphylactic (ACS-AL(withA), n = 6) groups. Allergic status was comprehensively assessed. Serum IgE and plasma histamine were measured at ACS onset. Heart rate variability (HRV) parameters were analyzed using 24-h ambulatory monitoring within 1 week after percutaneous coronary intervention. The ACS-AL(nonA) and ACS-AL(withA) groups showed significantly higher IgE and histamine levels than the ACS-NA group (P < 0.05), with overlapping distributions. HRV analysis revealed elevated LF/HF ratios and reduced daytime HF in both groups, indicating sympathetic predominance. ACS-AL, even without anaphylaxis, involves immune activation and autonomic imbalance. Combined assessment of IgE, histamine, and HRV may improve the identification of this phenotype.",
+      "abstract": "",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:recent"
       ],
       "category": "6 - Genes",
-      "subcollection": "FBN1"
+      "subcollection": "HK1"
     },
     {
       "pmid": "39215425",
@@ -2551,6 +2696,64 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Gillespie syndrome"
+    },
+    {
+      "pmid": "42532136",
+      "doi": "10.1016/j.expneurol.2026.115950",
+      "zotero_key": "I5HEAS9F",
+      "title": "Arid1b haploinsufficiency in excitatory neurons alters neocortical circuits but not social behavior or seizure phenotypes",
+      "authors": [
+        [
+          "Alec H.",
+          "Marshall"
+        ],
+        [
+          "Meretta A.",
+          "Hanson"
+        ],
+        [
+          "Danielle J.",
+          "Boyle"
+        ],
+        [
+          "Devipriyanka",
+          "Nagarajan"
+        ],
+        [
+          "Noor",
+          "Bibi"
+        ],
+        [
+          "Julie",
+          "Fitzgerald"
+        ],
+        [
+          "Emilee",
+          "Gaitten"
+        ],
+        [
+          "Olga N.",
+          "Kokiko-Cochran"
+        ],
+        [
+          "Bin",
+          "Gu"
+        ],
+        [
+          "Jason C.",
+          "Wester"
+        ]
+      ],
+      "journal": "Experimental Neurology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
     },
     {
       "pmid": "",
@@ -2755,6 +2958,40 @@
       "subcollection": "BBS1"
     },
     {
+      "pmid": "42521237",
+      "doi": "10.6133/apjcn.202608_35(4).0017",
+      "zotero_key": "GNDXVU56",
+      "title": "Association between factor analysis-derived dietary patterns at 24 months of age and allergic diseases in toddlers.",
+      "authors": [
+        [
+          "Hyoyeon",
+          "Son"
+        ],
+        [
+          "Weiqi",
+          "Hong"
+        ],
+        [
+          "Won",
+          "Jang"
+        ],
+        [
+          "Hyesook",
+          "Kim"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "BACKGROUND AND OBJECTIVES: Early-life diet may influence immune development and the risk of allergic diseases. This study investigated associations between dietary patterns at 24 months of age and allergic diseases in Korean toddlers. METHODS AND STUDY DESIGN: In this cross-sectional study, 433 toddlers from the Korean Mothers and Children's Environmental Health (MOCEH) cohort were included. Dietary intake was assessed using two non-consecutive 24-hour recalls. Factor analysis of 26 food groups identified dietary patterns, and individual pattern scores were categorized into tertiles based on ascending distribution. Allergic diseases were determined by caregiver questionnaires. Multivariable logistic regression was used to assess associations, adjusting for confounders. RESULTS: Three dietary patterns were identified: Pattern 1 (white rice, kimchi, and non-salt-preserved vegetables), Pattern 2 (seasoning, butter, and meat), and Pattern 3 (milk and dairy products). Compared with the lowest tertile, the highest tertile of Pattern 2 was associated with higher odds of other allergic diseases (OR: 7.55; 95% CI: 1.62-35.23), and any allergic disease (OR: 2.03; 95% CI: 1.10-3.73). Pattern 3 was inversely associated with atopic dermatitis (OR: 0.51; 95% CI: 0.27-0.98), while Pattern 1 showed no significant association. CONCLUSIONS: Early childhood dietary patterns may influence the development of allergic disease. A pattern characterized by seasoning, butter, and meat was associated with an increased risk of allergic disease, whereas a dairy-based pattern was inversely associated with atopic dermatitis in Korean toddlers.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "42506901",
       "doi": "10.1097/iae.0000000000004935",
       "zotero_key": "BNUA5KXW",
@@ -2865,6 +3102,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42166140",
+      "doi": "10.1001/jamaophthalmol.2026.1462",
+      "zotero_key": "7SSKURC8",
+      "title": "Atypical Fundus in X-Linked Ocular Albinism With GPR143 Variant",
+      "authors": [
+        [
+          "Mo-Ying",
+          "Wang"
+        ],
+        [
+          "Feng-Juan",
+          "Gao"
+        ]
+      ],
+      "journal": "JAMA Ophthalmology",
+      "year": "2026",
+      "abstract": "This case report describes the phenotypic variability seen in GPR143 -associated ocular albinism.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "GPR143"
     },
     {
       "pmid": "41629334",
@@ -3199,6 +3462,76 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42447870",
+      "doi": "10.1016/j.ajhg.2026.07.003",
+      "zotero_key": "FWWNG49J",
+      "title": "Bi-allelic variants in the non-protein-coding minor spliceosome components RNU6ATAC and RNU4ATAC cause syndromic monogenic autoimmune diabetes",
+      "authors": [
+        [
+          "Matthew B.",
+          "Johnson"
+        ],
+        [
+          "James",
+          "Russ-Silsby"
+        ],
+        [
+          "Paul A.",
+          "Blair"
+        ],
+        [
+          "Molly",
+          "Govier"
+        ],
+        [
+          "Georgia",
+          "Bonfield"
+        ],
+        [
+          "Clara",
+          "Domingo-Vila"
+        ],
+        [
+          "Matthew N.",
+          "Wakeling"
+        ],
+        [
+          "Richard A.",
+          "Oram"
+        ],
+        [
+          "Sarah E.",
+          "Flanagan"
+        ],
+        [
+          "Timothy I.M.",
+          "Tree"
+        ],
+        [
+          "Kashyap A.",
+          "Patel"
+        ],
+        [
+          "Andrew T.",
+          "Hattersley"
+        ],
+        [
+          "Elisa De",
+          "Franco"
+        ]
+      ],
+      "journal": "The American Journal of Human Genetics",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU4ATAC"
     },
     {
       "pmid": "42410159",
@@ -3557,6 +3890,32 @@
       "subcollection": "Myopia"
     },
     {
+      "pmid": "42362912",
+      "doi": "10.1038/s41443-026-01311-x",
+      "zotero_key": "G653XGJG",
+      "title": "Challenging the paradigm: what is vasculogenic erectile dysfunction?",
+      "authors": [
+        [
+          "Stefan",
+          "Buntrock"
+        ],
+        [
+          "Nicolas",
+          "Diehm"
+        ]
+      ],
+      "journal": "International Journal of Impotence Research",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "",
       "doi": "10.1016/j.cbpb.2009.08.006",
       "zotero_key": "SKVG4C2M",
@@ -3877,6 +4236,64 @@
       "subcollection": "BEST1"
     },
     {
+      "pmid": "42271513",
+      "doi": "10.1186/s40246-026-01002-0",
+      "zotero_key": "95AD4BF2",
+      "title": "Clinical and functional characterization of a novel homozygous non-canonical splice mutation (c.1910-15_1910-11delinsTTACA) in CEP290 causing Joubert syndrome",
+      "authors": [
+        [
+          "Valeriia A.",
+          "Kovalskaia"
+        ],
+        [
+          "Dmitriy N.",
+          "Maslennikov"
+        ],
+        [
+          "Ksenia A.",
+          "Svirepova"
+        ],
+        [
+          "Vyacheslav Y.",
+          "Tabakov"
+        ],
+        [
+          "Polina N.",
+          "Tsabai"
+        ],
+        [
+          "Evgenii V.",
+          "Shchoka"
+        ],
+        [
+          "Nikita S.",
+          "Beskorovainiy"
+        ],
+        [
+          "Jekaterina",
+          "Shubina"
+        ],
+        [
+          "Dmitry Y.",
+          "Trofimov"
+        ],
+        [
+          "Oxana P.",
+          "Ryzhkova"
+        ]
+      ],
+      "journal": "Human Genomics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Joubert syndrome (JS) is a rare, predominantly autosomal recessive neurodevelopmental disorder characterized by hypotonia, motor delay, intellectual disability, oculomotor apraxia, and the hallmark \"molar tooth sign\" on axial view of MRI. JS is genetically heterogeneous, with pathogenic variants identified in more than 40 genes involved in primary cilia function. Among these, CEP290 is one of the most frequently mutated genes. RESULTS: In this study, we investigated two children-an 11-year-old boy (the proband) and his 5-year-old sister-both presenting with a similar phenotype consistent with JS. The parents, who self-identified as Chechen, reported distant consanguinity. The family also included a healthy 13-year-old daughter. The proband had previously been evaluated by a neurologist and underwent whole-genome sequencing (WGS); however, no causative variants were identified initially. After phenotype reassessment by a clinical geneticist, we performed a reanalysis of the raw WGS data and identified a novel homozygous intronic variant of uncertain significance (VUS), c.1910-15_1910-11delinsTTACA in CEP290 (NM_025114.4). Sanger sequencing confirmed that both the proband and his affected sister were homozygous for this variant, which they inherited from their heterozygous parents. Their healthy sister did not carry the variant. mRNA-sequencing and targeted cDNA sequencing (read depth ~ 100,000x) demonstrated that this intronic variant causes completely aberrant splicing of CEP290 pre-mRNA. Predominantly this variant causes the skipping of exon 20 in the main CEP290 transcript. Alternatively, the variant results in partial inclusion of intron 19 into the mRNA, elongation of exon 20 by 58 nucleotides, and a homozygous substitution chr12:88114573 (ACTGTGTA> TTACAGTA). No canonical mRNA isoform was detected when the variant was homozygous. Both the predicted severe truncation and the likely degradation of aberrant transcripts through nonsense-mediated decay (NMD) would correspond to complete loss of CEP290 function. Following the reclassification of this VUS to likely pathogenic, the family was able to pursue in vitro fertilization (IVF) with preimplantation genetic testing for monogenic disorders (PGT-M). CONCLUSION: Our study highlights the critical importance of proper phenotyping prior to referral for WES/WGS as well as of combining NGS with functional mRNA studies to achieve a molecular diagnosis for patients with predicted splice-site mutations in JS-associated genes. It also emphasizes the need for functional reassessment of VUS when genomic data are expected to guide reproductive decision-making within affected families.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
+    },
+    {
       "pmid": "",
       "doi": "10.1515/jpem-2012-0019",
       "zotero_key": "G9QCVMB3",
@@ -4065,6 +4482,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RS1"
+    },
+    {
+      "pmid": "42542292",
+      "doi": "10.1053/j.jfas.2026.07.025",
+      "zotero_key": "C4KQXQSU",
+      "title": "Clinical Outcomes Following Staged Management of Bimalleolar and Trimalleolar Ankle Fractures",
+      "authors": [
+        [
+          "Samuel",
+          "Jin"
+        ],
+        [
+          "Sebastian",
+          "Quiana"
+        ],
+        [
+          "Dev",
+          "Patel"
+        ],
+        [
+          "Jamal",
+          "Revolus"
+        ],
+        [
+          "Raj",
+          "Patel"
+        ],
+        [
+          "Rakesh",
+          "Mashru"
+        ],
+        [
+          "Henry",
+          "Dolch"
+        ],
+        [
+          "John E.",
+          "Dibato"
+        ],
+        [
+          "Pietro",
+          "Gentile"
+        ],
+        [
+          "Kenneth",
+          "Graf"
+        ]
+      ],
+      "journal": "The Journal of Foot & Ankle Surgery",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "41089136",
@@ -5002,6 +5477,56 @@
       "subcollection": "Anterior segment examination"
     },
     {
+      "pmid": "42211217",
+      "doi": "10.18240/ijo.2026.06.08",
+      "zotero_key": "IAW53H96",
+      "title": "Correlation between pathogenic CYP1B1 variants and trabeculodysgenesis under ultrasound biomicroscopy in primary congenital glaucoma",
+      "authors": [
+        [
+          "Yan",
+          "Gao"
+        ],
+        [
+          "Tao",
+          "Zhou"
+        ],
+        [
+          "Lin-Hui",
+          "He"
+        ],
+        [
+          "Ke-Xin",
+          "Zhao"
+        ],
+        [
+          "Xiao-Wei",
+          "Yu"
+        ],
+        [
+          "Lin",
+          "Deng"
+        ],
+        [
+          "Zhi-Gang",
+          "Fan"
+        ],
+        [
+          "SHI",
+          "Yan"
+        ]
+      ],
+      "journal": "International Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "AIM: To explore the genetic variants of trabeculodysgenesis under ultrasound biomicroscopy (UBM) and its association with surgical outcomes in patients with primary congenital glaucoma (PCG). METHODS: In this prospective case series, consecutive patients with PCG underwent microcatheter-assisted trabeculotomy (MAT) and followed for at least 24-month after surgery. All participants underwent UBM and whole-exome sequencing prior to MAT and were classified into two groups with severe trabeculodysgenesis or mild trabeculodysgenesis under UBM. Surgical success was defined as a postoperative IOP of ≤21 mm Hg with at least a 20% reduction from preoperative IOP without additional medical or surgical therapy. RESULTS: Severe trabeculodysgenesis was observed in 23 (40%) eyes of 14 patients (median age: 57mo, range: 3–169mo; 11 males) with 8 carrying causative CYP1B1 variants, while mild trabeculodysgenesis occurred in 34 eyes (60%) of 18 patients (median age: 23.5mo, range: 3–110mo; 12 males) without any causative variants. The success rate of MAT was 0 in patients with causative CYP1B1 gene variants and 75.0% in those without (P&lt;0.001). Cox regression survival analysis showed that carrying CYP1B1 gene variants [ORCYP1B1=0.356 (95%CI: 0.132, 0.962), P=0.042] and having severe trabeculodysgenesis [ORType=0.116 (95%CI: 0.034, 0.403), P=0.001] were associated with a higher risk of surgical failure. CONCLUSION: PCG patients with severe trabeculodysgenesis under UBM are prone to harbor causative CYP1B1 gene variants, which could serve as a valuable predictor of potential Schlemm’s canal dysgenesis and MAT prognosis. Genetic screening in patients with severe trabeculodysgenesis under UBM is beneficial for genetic counseling and may help reduce the incidence of complex cases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CYP1B1"
+    },
+    {
       "pmid": "41632744",
       "doi": "10.1159/000550474",
       "zotero_key": "4ESEJJ8R",
@@ -5806,6 +6331,32 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "41711526",
+      "doi": "10.1097/iop.0000000000003200",
+      "zotero_key": "93RSGHVP",
+      "title": "Double Lacrimal Puncta in a Case of Coffin-Siris Syndrome",
+      "authors": [
+        [
+          "Vivek",
+          "Singh"
+        ],
+        [
+          "Md. Shahid",
+          "Alam"
+        ]
+      ],
+      "journal": "Ophthalmic Plastic and Reconstructive Surgery",
+      "year": "2026",
+      "abstract": "A 5-year-old female presented with a complaint of watering in her left eye without any discharge. She presented with a known diagnosis of Coffin-Siris syndrome with heterozygous nonsense variation in exon 20 of the ARID1B gene (chromosome 6). General examination showed moderate hypotonia, developmental delays, intellectual disability, coarse facial features (Panel A), and myopia. On ophthalmic examination, there was double lacrimal puncta in the left lower eyelid (Panel B), while the remaining puncta were normal. Fluorescein dye disappearance test was grade 2 in the left eye, and the lacrimal sac irrigation was patent. The congenital double puncta were most likely impairing the lacrimal pump, thereby causing tearing. The patient was reassured and was advised to be under regular follow-up. Coffin-Siris syndrome is a rare autosomal dominant genetic disorder (most commonly affecteing ARID1B gene) characterized by developmental delays, intellectual disability, physical anomalies, and potential heart and kidney defects. The reported ophthalmic associations include ptosis, strabismus, myopia, nystagmus, cataracts, microcornea, glaucoma, anisomyopia, and macular dysplasia. To the best of the authors’ knowledge, this is the first reported case of congenital double puncta in a case of Coffin-Siris syndrome.FIG.:",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
+    },
+    {
       "pmid": "41738116",
       "doi": "",
       "zotero_key": "54J4RAR3",
@@ -5904,6 +6455,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NRL"
+    },
+    {
+      "pmid": "41803549",
+      "doi": "10.1038/s41433-026-04387-3",
+      "zotero_key": "GQ3RUUZN",
+      "title": "Dragging the macula: a comet‑like falciform retinal fold in NDP‑related familial exudative vitreoretinopathy in a child",
+      "authors": [
+        [
+          "Nilton Viegas",
+          "Mestre"
+        ],
+        [
+          "Catarina",
+          "Paiva"
+        ],
+        [
+          "João Pedro",
+          "Marques"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NDP"
     },
     {
       "pmid": "42177986",
@@ -7099,6 +7680,44 @@
       "subcollection": "CLRN1"
     },
     {
+      "pmid": "42146989",
+      "doi": "10.5005/jp-journals-10071-25143",
+      "zotero_key": "AKZT4SHX",
+      "title": "Evaluation of the Potential Efficacy of Bacteriophage Therapy for the Management of Pressure Ulcers and Its Comparison to Conventional Therapy: A Randomized Controlled Trial",
+      "authors": [
+        [
+          "Kavita",
+          "Meena"
+        ],
+        [
+          "Dr Rajesh Kumar",
+          "Meena"
+        ],
+        [
+          "Sarita",
+          "Kumari"
+        ],
+        [
+          "Premkumar",
+          "Thambidurai"
+        ],
+        [
+          "Gopal",
+          "Nath"
+        ]
+      ],
+      "journal": "Indian Journal of Critical Care Medicine",
+      "year": "2026",
+      "abstract": "Background and aims: Pressure ulcers (PUs) are common in physical trauma patients who require prolonged stays in the intensive care unit (ICU). Despite standard preventive and therapeutic measures, healing is often a slow process. Conventional systemic antibiotics offer limited therapeutic benefits due to inadequate tissue penetration and the associated risk of driving antimicrobial resistance. Bacteriophage therapy, with its ability to target resistant and biofilm-associated bacteria, offers a potential \"alternative.\" We aimed to evaluate the efficacy and safety of topical bacteriophage therapy for the management of PUs in critically ill ICU patients and its comparison to conventional therapy. Patients and methods: This prospective, randomized, double-blind controlled trial was conducted in the ICU of a tertiary care center between April 2024 and May 2025. Seventy-six adult patients with grade II-IV PUs were screened, and 68 were enrolled (34 in each group). Group C received conventional therapy, while group B received conventional plus customized topical bacteriophage therapy. Healing was assessed using the Pressure Ulcer Scale for Healing (PUSH) tool; tissue type, exudate amount, and ulcer dimensions were assessed at baseline and on days 5, 7, 14, 21, and 28. The primary objective was to evaluate the efficacy of bacteriophage therapy for the management of PUs. The secondary objective was to observe the safety profile of bacteriophage therapy. Results: < 0.05). Group B also showed faster epithelialization, an earlier decrease in exudate, and more closed ulcers. These differences became statistically significant from day 7 onward. No adverse events were reported. Conclusion: Topical bacteriophage therapy is a safe and effective adjunct to conventional care in the management of PUs among ICU patients. How to cite this article: Meena K, Meena RK, Kumari S, Thambidurai P, Nath G. Evaluation of the Potential Efficacy of Bacteriophage Therapy for the Management of Pressure Ulcers and Its Comparison to Conventional Therapy: A Randomized Controlled Trial. Indian J Crit Care Med 2026;30(3):196-203.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "",
       "doi": "10.1017/s0952523823000020",
       "zotero_key": "6SCNN69I",
@@ -7227,6 +7846,424 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PROM1"
+    },
+    {
+      "pmid": "42322192",
+      "doi": "10.1016/j.gim.2026.102632",
+      "zotero_key": "MCDAUSP7",
+      "title": "Expanding the clinical spectrum of RNU4ATAC-opathies: More frequent and diverse than assumed",
+      "authors": [
+        [
+          "Silvestre",
+          "Cuinat"
+        ],
+        [
+          "Valérie",
+          "Cormier‐Daire"
+        ],
+        [
+          "Jérémie",
+          "Rosain"
+        ],
+        [
+          "Céline",
+          "Huber"
+        ],
+        [
+          "Elsa",
+          "Ferrière"
+        ],
+        [
+          "Benjamin",
+          "Fournier"
+        ],
+        [
+          "Morgane",
+          "Cheminant"
+        ],
+        [
+          "Martin",
+          "Castelle"
+        ],
+        [
+          "Paul",
+          "Bastard"
+        ],
+        [
+          "Nicolas",
+          "Noël"
+        ],
+        [
+          "Katia",
+          "Bourdic"
+        ],
+        [
+          "Capucine",
+          "Pïcard"
+        ],
+        [
+          "Despina",
+          "Moshous"
+        ],
+        [
+          "Virginie",
+          "Courteille"
+        ],
+        [
+          "Nizar",
+          "Mahlaoui"
+        ],
+        [
+          "Jacinta",
+          "Bustamante"
+        ],
+        [
+          "Gislène",
+          "Collobert"
+        ],
+        [
+          "Cyril",
+          "Mignot"
+        ],
+        [
+          "Boris",
+          "Keren"
+        ],
+        [
+          "Séverine",
+          "Drunat"
+        ],
+        [
+          "Sophie",
+          "Rondeau"
+        ],
+        [
+          "Alexia",
+          "Rabec"
+        ],
+        [
+          "Alicia",
+          "Besson"
+        ],
+        [
+          "Nicolas",
+          "Chatron"
+        ],
+        [
+          "Gaëtan",
+          "Lesca"
+        ],
+        [
+          "Audrey",
+          "Laurent"
+        ],
+        [
+          "Jérémie",
+          "Mortreux"
+        ],
+        [
+          "Marine",
+          "Dancer"
+        ],
+        [
+          "Gabriel",
+          "Dejeans"
+        ],
+        [
+          "CLAIRE",
+          "POGGI"
+        ],
+        [
+          "Radka",
+          "Stoeva"
+        ],
+        [
+          "Alissandre",
+          "Lecordier"
+        ],
+        [
+          "Céline",
+          "Poirsier"
+        ],
+        [
+          "Anne",
+          "Dieux"
+        ],
+        [
+          "F.",
+          "Sarrot-Reynauld"
+        ],
+        [
+          "Béatrice",
+          "Laudier"
+        ],
+        [
+          "M. Le",
+          "Besnerais"
+        ],
+        [
+          "Anne-Marie",
+          "Guerrot"
+        ],
+        [
+          "Mathilde",
+          "Nizon"
+        ],
+        [
+          "Benjamin",
+          "Cogné"
+        ],
+        [
+          "Bertrand",
+          "Isidor"
+        ],
+        [
+          "Sophie",
+          "Julia"
+        ],
+        [
+          "Sarra",
+          "Bouri"
+        ],
+        [
+          "Mathieu",
+          "Fusaro"
+        ],
+        [
+          "Marjolaine",
+          "Willems"
+        ],
+        [
+          "Narcisse",
+          "Elenga"
+        ],
+        [
+          "Succes",
+          "Dobian"
+        ],
+        [
+          "Mody",
+          "Diop"
+        ],
+        [
+          "Salomé",
+          "Pacaud"
+        ],
+        [
+          "Claire",
+          "Dichamp"
+        ],
+        [
+          "Elisabeth",
+          "Sarrazin"
+        ],
+        [
+          "Amaia",
+          "Lasa‐Aranzasti"
+        ],
+        [
+          "Eduardo F.",
+          "Tizzano"
+        ],
+        [
+          "Ivon Cusco",
+          "Marti"
+        ],
+        [
+          "Andrea",
+          "Martín-Nalda"
+        ],
+        [
+          "Ana",
+          "Felipe-Rucian"
+        ],
+        [
+          "David",
+          "Gómez-Andrés"
+        ],
+        [
+          "Dr Marta",
+          "Codina-Solà"
+        ],
+        [
+          "Paula",
+          "Fernandez"
+        ],
+        [
+          "Jacques Gabriel",
+          "Riviere"
+        ],
+        [
+          "Pere",
+          "Soler-Palacín"
+        ],
+        [
+          "Alberto",
+          "Fernández‐Jaén"
+        ],
+        [
+          "Teresa",
+          "Carrión-Mera"
+        ],
+        [
+          "Insa",
+          "Borgmann"
+        ],
+        [
+          "Christin",
+          "Johnsen"
+        ],
+        [
+          "Lars",
+          "Schlotawa"
+        ],
+        [
+          "Matthias",
+          "Kettwig"
+        ],
+        [
+          "Jessica",
+          "Hoffmann"
+        ],
+        [
+          "Christiane",
+          "Lex"
+        ],
+        [
+          "Carsten",
+          "Speckmann"
+        ],
+        [
+          "Sandra von",
+          "Hardenberg"
+        ],
+        [
+          "Martin",
+          "Wetzke"
+        ],
+        [
+          "Victoria G.",
+          "Paul"
+        ],
+        [
+          "Matthias",
+          "Vockel"
+        ],
+        [
+          "Judit",
+          "Horvath"
+        ],
+        [
+          "Andreas",
+          "Busche"
+        ],
+        [
+          "Niklas",
+          "Hirschberger"
+        ],
+        [
+          "Moneef",
+          "Shoukier"
+        ],
+        [
+          "Isabel",
+          "Filges"
+        ],
+        [
+          "Julie De",
+          "Geyter"
+        ],
+        [
+          "Tahsin Stefan",
+          "Barakat"
+        ],
+        [
+          "Isabella",
+          "Borg"
+        ],
+        [
+          "Anna",
+          "Kłosowska"
+        ],
+        [
+          "Lena",
+          "Gluszkiewicz"
+        ],
+        [
+          "Stephanie",
+          "Allen"
+        ],
+        [
+          "Deirdre",
+          "Cilliers"
+        ],
+        [
+          "Patricia Ann",
+          "Foley"
+        ],
+        [
+          "Sally Ann",
+          "Lynch"
+        ],
+        [
+          "Ciara",
+          "McDonnell"
+        ],
+        [
+          "Ivona",
+          "Sansović"
+        ],
+        [
+          "Ljubica",
+          "Odak"
+        ],
+        [
+          "Katarina",
+          "Vulin"
+        ],
+        [
+          "Janni Majgaard",
+          "Jensen"
+        ],
+        [
+          "Inge Søkilde",
+          "Pedersen"
+        ],
+        [
+          "Anja",
+          "Ernst"
+        ],
+        [
+          "Elifcan",
+          "Taşdelen"
+        ],
+        [
+          "Mustafa",
+          "Kılıç"
+        ],
+        [
+          "Esra",
+          "Kılıç"
+        ],
+        [
+          "Umut",
+          "Altunoğlu"
+        ],
+        [
+          "Burak",
+          "Tatlı"
+        ]
+      ],
+      "journal": "Genetics in Medicine",
+      "year": "2026",
+      "abstract": "PURPOSE: Biallelic variants in the minor spliceosomal gene RNU4ATAC were successively identified in Taybi-Linder/Microcephalic osteodysplastic primordial dwarfism type I, Roifman, and Lowry-Wood syndromes, which are characterized by variable microcephaly, short stature, neurodevelopmental impairment, skeletal dysplasia, and immunodeficiency. Two-thirds of the reported individuals present with Taybi-Linder syndrome, the first-described and most severe form. METHODS: We collected clinical and molecular data from individuals with biallelic RNU4ATAC variants through various French and European networks and clinics to refine the phenotypic spectrum of RNU4ATAC-opathies. RESULTS: We enrolled 69 participants and identified 18 new pathogenic variants. We report a significant proportion of attenuated or atypical presentations, novel rare symptoms, and, unexpectedly, a broad spectrum of autoimmune or inflammatory manifestations, affecting nearly half of the participants. Integrating our data with the 109 published cases, we propose a novel classification based on the main manifestations, immunodeficiency, and microcephalic primordial dwarfism. Using computer-assisted facial analysis, we also demonstrated the existence of a specific dysmorphic pattern in RNU4ATAC-opathies that is distinct among some sub-syndromes. CONCLUSION: We present a large cohort of individuals with RNU4ATAC-opathies and expand the phenotypic spectrum to paucisymptomatic forms, indicating that these diseases are likely to remain underdiagnosed.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU4ATAC"
     },
     {
       "pmid": "42472798",
@@ -7399,6 +8436,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "39567705",
+      "doi": "10.1038/s41433-024-03481-8",
+      "zotero_key": "9RKKEW8X",
+      "title": "Eyes on Google’s NotebookLM: using generative AI to create ophthalmology podcasts with a single click",
+      "authors": [
+        [
+          "Qais A.",
+          "Dihan"
+        ],
+        [
+          "Bharti R.",
+          "Nihalani"
+        ],
+        [
+          "Andrea A.",
+          "Tooley"
+        ],
+        [
+          "Abdelrahman M.",
+          "Elhusseiny"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2024",
+      "abstract": "",
+      "cited_by_count": 18,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL18A1"
     },
     {
       "pmid": "41817565",
@@ -7925,6 +8996,62 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, gelatinous drop-like"
+    },
+    {
+      "pmid": "39986733",
+      "doi": "10.1016/s0140-6736(25)00339-3",
+      "zotero_key": "CJHCIVTZ",
+      "title": "Gene therapy for the eyes and ears: hopes and challenges",
+      "authors": [
+        [
+          "The",
+          "Lancet"
+        ]
+      ],
+      "journal": "The Lancet",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "AIPL1"
+    },
+    {
+      "pmid": "42325762",
+      "doi": "10.62347/nrid7644",
+      "zotero_key": "C8VEUSKR",
+      "title": "Genetic analysis of TGFBI variants in the Taiwanese population: from granular corneal dystrophy type 1 to a broader phenotypic spectrum",
+      "authors": [
+        [
+          "Yueh-Shan",
+          "Han"
+        ],
+        [
+          "Yung-Fu",
+          "Wu"
+        ],
+        [
+          "Yen-Lin",
+          "Chen"
+        ],
+        [
+          "Denis Kuo-Sheng",
+          "Hung"
+        ]
+      ],
+      "journal": "American Journal of Translational Research",
+      "year": "2026",
+      "abstract": "OBJECTIVES: Granular corneal dystrophy type 1 (GCD1) is an autosomal dominant hereditary corneal disorder caused by pathogenic variants in the TGFBI gene. However, the population distribution of TGFBI (Transforming Growth Factor Beta Induced) variants in Taiwan remains incompletely characterized. This study aimed to investigate the spectrum and population frequency of coding variants in TGFBI within the Taiwanese population using genomic data from the Taiwan Biobank. METHODS: Whole genome sequencing (WGS) data from Taiwan Biobank participants were analyzed to identify exonic single-nucleotide polymorphisms (SNPs) causing coding sequence alterations in the TGFBI gene. Allele frequencies were estimated and compared against probe-based SNP array data and East Asian population reference data from the 1000 Genomes Project. Phenotypic information was obtained from self-reported questionnaire data available within the Taiwan Biobank. RESULTS: A total of 22 exonic SNPs causing coding sequence alterations were identified in TGFBI. One variant, rs121909212 (p.P501T) was observed at a notably higher allele frequency (0.003) compared to other identified variants. The estimated allele frequency of rs121909212 in the Taiwanese population was approximately 0.003, which is comparable to the frequency reported in the Japanese population. Furthermore, WGS-based allele frequency estimates showed greater consistency with reference population data than SNP array-based genotyping. CONCLUSIONS: Our findings provide a population-level overview of TGFBI coding variation in the Taiwanese population and identify rs121909212 as a rare variant prevalent in East Asian populations. The study also highlights the utility of WGS for accurately characterizing rare pathogenic variants in population-scale genomic datasets.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TGFBI"
     },
     {
       "pmid": "42098404",
@@ -8469,6 +9596,60 @@
       "subcollection": "Transparent media"
     },
     {
+      "pmid": "42260140",
+      "doi": "10.1038/s41598-026-57150-9",
+      "zotero_key": "EHZ9V76F",
+      "title": "GPATCH11 ortholog Sap34 regulates pre-mRNA splicing by interacting with early spliceosomal complexes in Schizosaccharomyces pombe",
+      "authors": [
+        [
+          "Ingrid",
+          "Čipáková"
+        ],
+        [
+          "Laura Olivia",
+          "Karika"
+        ],
+        [
+          "Lucia",
+          "HronskÃ¡"
+        ],
+        [
+          "Tomas",
+          "Selicky"
+        ],
+        [
+          "Bogdan",
+          "Iaparov"
+        ],
+        [
+          "Miloslav",
+          "Karhánek"
+        ],
+        [
+          "Lenka",
+          "Kohútová"
+        ],
+        [
+          "Péter",
+          "Baráth"
+        ],
+        [
+          "Lubos",
+          "Cipak"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Pre-mRNA splicing is an essential step in gene expression regulation. It is mediated by the spliceosome, a large ribonucleoprotein complex that undergoes dynamic structural and compositional rearrangements during each splicing cycle. Although the mechanisms of splicing and the roles of main spliceosomal components are well defined, the identities and functions of transiently associated spliceosomal proteins remain incompletely understood. Here, we investigated the molecular function of the poorly characterized G-patch domain-containing protein SPAC6F6.19 (herein Sap34, for spliceosome-associated protein of 34 kDa) in Schizosaccharomyces pombe, an ortholog of human GPATCH11. Using affinity purification and a yeast two-hybrid assay, we analyzed its interactome and identified its interaction partners. In addition, long-read sequencing was employed to assess Sap34-dependent changes in splicing efficiency. We found that Sap34 forms a complex with components of the U2 small nuclear ribonucleoprotein (snRNP) and the U4/U6 × U5 tri-snRNP, which are required for early spliceosome assembly and activation. Furthermore, we defined the interaction specificity of Sap34 with splicing proteins, demonstrating the importance of its C-terminal region for binding to Sap61 and Ini1, and of its G-patch domain for interaction with ATP-dependent RNA helicase Prp43, suggesting that G-patch domain of Sap34 may contribute to the regulation of Prp43 activity in early spliceosomes. Notably, we showed that deletion of sap34 leads to a global reduction in splicing efficiency, predominantly associated with increased intron retention. Together, these findings identify Sap34 as a previously unrecognized and important G-patch domain-containing protein regulating the early steps of pre-mRNA splicing in fission yeast.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "41770471",
       "doi": "10.1007/s40820-026-02117-8",
       "zotero_key": "NBV8WBMA",
@@ -8687,6 +9868,72 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42384866",
+      "doi": "10.1097/ijg.0000000000002748",
+      "zotero_key": "ESEUUIVQ",
+      "title": "Haploinsufficiency of PITX2 in Four Chinese Families with Axenfeld-Rieger Syndrome",
+      "authors": [
+        [
+          "Chumou",
+          "Liu"
+        ],
+        [
+          "Zhou",
+          "Zhou"
+        ],
+        [
+          "Li",
+          "Xu"
+        ],
+        [
+          "Guo",
+          "Liu"
+        ],
+        [
+          "Nanxin",
+          "Liu"
+        ],
+        [
+          "Li",
+          "Hu"
+        ],
+        [
+          "Junkai",
+          "Tan"
+        ],
+        [
+          "Zijie",
+          "Chen"
+        ],
+        [
+          "Mahri",
+          "Hommodova"
+        ],
+        [
+          "Ning",
+          "Fan"
+        ],
+        [
+          "Jiaoyue",
+          "Hu"
+        ],
+        [
+          "Xuyang",
+          "Liu"
+        ]
+      ],
+      "journal": "Journal of Glaucoma",
+      "year": "2026",
+      "abstract": "PRCIS: Axenfeld-Rieger syndrome (ARS) is a rare genetic disorder characterized by anterior segment dysgenesis and secondary glaucoma, often accompanied by systemic defects. This study investigated the clinical and genetic features in four Chinese families with ARS. PURPOSE: To characterize the clinical phenotypes and identify the causative genetic mutations in four unrelated Chinese families with ARS. METHODS: Affected individuals from four Han Chinese families underwent comprehensive clinical and ophthalmological examinations. Genetic analysis was performed using whole-exome sequencing (WES) and validated by copy number variation sequencing (CNV-seq) and qPCR. RESULTS: All affected individuals exhibited anterior segment dysgenesis. Secondary glaucoma was present in seven of them. Systemic manifestations, including dental and umbilical abnormalities, were observed in all affected individuals. Genetic analysis identified novel heterozygous PITX2 mutations in all four families: three distinct microdeletions (ranging from 206 bp to 449.97 kb) and one nonsense mutation (p.Phe140*) , with all predicted to cause haploinsufficiency. CONCLUSIONS: Four novel PITX2 mutations, including microdeletions, were identified in Chinese ARS families. The 206-bp genomic DNA deletion appeared to be an essential region (chr4: 111543411-111543616) for PITX2 function in ocular and systemic development, underscoring the necessity of full gene dosage.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "41915029",
@@ -8969,6 +10216,70 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42302431",
+      "doi": "10.1016/j.socscimed.2026.119510",
+      "zotero_key": "XM9J2MNH",
+      "title": "HIV, public health, and the “unwilling or unable” person living with HIV",
+      "authors": [
+        [
+          "Eric",
+          "Mykhalovskiy"
+        ],
+        [
+          "Colin",
+          "Hastings"
+        ]
+      ],
+      "journal": "Social Science & Medicine",
+      "year": "2026",
+      "abstract": "This paper responds to recent calls from advocates for research on the public health governance of HIV. Drawing on a critical social science with public health approach and theoretical insights from Dorothy Smith and Michel Foucault, we offer a study of key texts that guide public health efforts to prevent HIV transmission in Canada. We explore how the texts lay out case management as an objectified course of action linking risk assessment and public health intervention in ways coordinated by the concept of the \"unwilling or unable\" person living with HIV or \"U2\" individual. Our analysis emphasizes how the \"U2\" concept: (1) establishes a kind of person as a problem that requires public health intervention and management; (2) is implicated in forms of risk assessment and intervention that amplify risk and create discursive conditions that can encourage public health overreach; and (3) propels calls for cross-sector collaboration that can lead to the over-surveillance of people living with HIV, while underestimating the harms of introducing criminal legal system actors into HIV case management. Our hope is that highlighting these concerns can support dialogue among public health authorities, people living with HIV, advocates, and others to improve public health guidance on reducing HIV transmission.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
+      "pmid": "42541874",
+      "doi": "10.1016/j.jenvman.2026.130511",
+      "zotero_key": "NCFQ7JGS",
+      "title": "How far back should we look? Long-term grassland changes to inform habitat restoration planning",
+      "authors": [
+        [
+          "Marianna",
+          "Biró"
+        ],
+        [
+          "Melinda",
+          "Halassy"
+        ],
+        [
+          "János",
+          "Bölöni"
+        ],
+        [
+          "László",
+          "Demeter"
+        ],
+        [
+          "Zsolt",
+          "Molnár"
+        ]
+      ],
+      "journal": "Journal of Environmental Management",
+      "year": "2026",
+      "abstract": "Long-term time-series analyses are essential to avoid underestimating ecosystem loss and degradation and to prevent the shifting baseline syndrome when assessing habitat decline and setting restoration targets. Our aims were to (1) quantify historical area changes of semi-natural and transitional (degraded, regenerating, or intensive) grasslands in Hungary; (2) assess grassland continuity; and (3) evaluate grassland habitat loss across different historical reference points. For the analysis, we updated and supplemented the Habitat Trend Database of Hungary (5000 sample localities) with new field data collected in 2024, representing the past ten years of changes. The analysed database contains habitat data estimated for eight time points over the past 240 years. Our results show that grassland cover declined from 37.6% in the 18th century to 9.2% today, reaching its minimum extent (8.4%) in the 1980s. It is now increasing due to the expansion of transitional grasslands regenerating after the peak of cultivated area in the 1960s. Over the 240-year study period, the total loss of semi-natural grasslands accounted for 86.3%. 67% of Hungary's current semi-natural grasslands have remained continuous since the 18th century, while only 8.7% of the 18th-century semi-natural grasslands persist continuously to the present day. The average area of the studied Natura 2000 grassland habitats decreased by 38% since the 1980s, by 61% since the 1960s, and by 70% since the 1940s. We argue that if the original extent of habitat loss is not clearly documented and communicated, both the scientific community and society may gradually lose awareness of past ecosystem conditions.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41729106",
       "doi": "10.1111/aos.70094",
       "zotero_key": "HXPW3Q6P",
@@ -9167,6 +10478,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42239615",
+      "doi": "10.1159/000551709",
+      "zotero_key": "8EBE7PFQ",
+      "title": "IMPG1 Variant Causing Adult-Onset Foveomacular Vitelliform Dystrophy in Chinese: A Case Report",
+      "authors": [
+        [
+          "Juexue",
+          "Wang"
+        ],
+        [
+          "Qian",
+          "Wang"
+        ]
+      ],
+      "journal": "Case Reports in Ophthalmology",
+      "year": "2026",
+      "abstract": "Introduction: mutation and was misdiagnosed with age-related macular degeneration (AMD). Case Presentation: A 59-year-old man complaining of vision loss was misdiagnosed with AMD and treated with intravitreal injections of anti-vascular endothelial growth factor, but with no improvement. Visual acuity was 20/50 in the right eye and 20/40 in the left eye. Fundus examinations revealed a bilateral symmetrical vitelliform \"egg yolk\" lesion. Spectral-domain optical coherence tomography revealed dome-shaped subretinal hyperreflective materials and cuticular drusen at the retinal pigment epithelium-Bruch's membrane complex in both eyes. No clear neovascularization was observed. Electrooculography revealed a decreased Arden ratio. Based on multimodal imaging analysis and genetic testing, the patient was diagnosed with AOFVD. No therapeutic intervention was administered. One month after the patient's visit, vitelliform \"egg yolk\" lesion was absorbed in the right eye, and the patient's visual acuity decreased to 20/100 in the right eye. Conclusion: AOFVD is rare and underdiagnosed. It can disguise as AMD or other similar macular diseases. Clinicians should be alert to this condition, pay attention to its identification, and avoid unnecessary treatments.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "IMPG1"
     },
     {
       "pmid": "",
@@ -9523,6 +10860,64 @@
       "subcollection": "SAG"
     },
     {
+      "pmid": "42343637",
+      "doi": "10.1631/jzus.b2500747",
+      "zotero_key": "2KSK8WDK",
+      "title": "Integrative analytical and statistical framework for optimization of multiplex qPCR detection of TGFBI mutations in refractive surgery candidates",
+      "authors": [
+        [
+          "Yunfeng",
+          "Gu"
+        ],
+        [
+          "Liping",
+          "Mao"
+        ],
+        [
+          "Xiaoling",
+          "Li"
+        ],
+        [
+          "Kangxuan",
+          "Sun"
+        ],
+        [
+          "Qiuruo",
+          "Jiang"
+        ],
+        [
+          "Wenhui",
+          "Wu"
+        ],
+        [
+          "Yangyang",
+          "Shen"
+        ],
+        [
+          "S",
+          "Chen"
+        ],
+        [
+          "Meiqin",
+          "Zheng"
+        ],
+        [
+          "Yi",
+          "Xu"
+        ]
+      ],
+      "journal": "Journal of Zhejiang University SCIENCE B",
+      "year": "2026",
+      "abstract": "Refractive surgery can unmask or accelerate transforming growth factor-β-induced ( TGFBI )-related corneal dystrophies that are undetectable by routine slit-lamp examination, creating a clear need for a rapid, standardized, preoperative genetic screening. We developed a multiplex, allele-specific real-time quantitative polymerase chain reaction (qPCR) panel targeting five high-frequency TGFBI hotspots (R124C/L/H, R555W/Q) and built a statistics-driven analytical framework to optimize assay decisions. Receiver operating characteristic (ROC) analysis defined locus-specific cycle threshold ( C T ) cut-offs that were harmonized to a single decision threshold ( C T =36) to simplify deployment. Analytical sensitivity was established by Probit modeling of serial two-fold dilutions, and confirmed by ⩾20 replicates per level. In a 158-sample validation set (38 mutation-positive; 120 negative), qPCR agreed perfectly with Sanger sequencing (Cohen’s kappa coefficient ( κ )=1.0). Probit analysis yielded locus-specific limit of detection (LoD) values ranging from 0.035 to 0.200 ng/µL; at 0.200 ng/µL, the detection rate was over 95%. Repeatability and intermediate precision were high ( C T coefficient of variation (CV) 0.34%–1.21%). No cross-reactivity was observed against non-target TGFBI variants or other ophthalmic genes, and interference from blood, oral flora/rinse, or toothpaste produced small, bounded shifts (approximately −7.8% to +2.8%). Calibration with serial dilutions demonstrated linear C T −log(copy) relationships suitable for routine quality control. Prospective screening of 10 055 refractive surgery candidates identified six TGFBI carriers (0.06%) harboring R124H (including one homozygote), R124L, R124C, or R555W mutation, all confirmed by Sanger sequencing. This study established a clinically applicable, statistically optimized multiplex qPCR platform that integrated ROC-derived cut-offs and Probit-defined LoD with rigorous evaluations of precision, specificity, and robustness, enabling large-scale population implementation. Positive screening results guide clinical decision-making through a standardized post-screening workflow, and the targeted hotspot screening strategy serves as a cost-effective first-tier high-throughput approach for preoperative risk assessment. The framework provides a transparent, reproducible path to standardize preoperative TGFBI screening and reduce iatrogenic risk in refractive surgery candidates.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TGFBI"
+    },
+    {
       "pmid": "23956131",
       "doi": "",
       "zotero_key": "PXHFF3RQ",
@@ -9579,6 +10974,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NRL"
+    },
+    {
+      "pmid": "42321202",
+      "doi": "10.1038/s41419-026-08997-3",
+      "zotero_key": "35PMIDKD",
+      "title": "Interdependent roles of PKM2 in photoreceptors and RPE: implications for retinal degeneration",
+      "authors": [
+        [
+          "Ammaji",
+          "Rajala"
+        ],
+        [
+          "Rahul",
+          "Rajala"
+        ],
+        [
+          "Rahul",
+          "Rajala"
+        ],
+        [
+          "Larissa J",
+          "Trevino"
+        ],
+        [
+          "Tabitha",
+          "Black"
+        ],
+        [
+          "Gennadiy",
+          "Moiseyev"
+        ],
+        [
+          "Michael",
+          "Kinter"
+        ],
+        [
+          "Raju V. S.",
+          "Rajala"
+        ],
+        [
+          "Raju V. S.",
+          "Rajala"
+        ]
+      ],
+      "journal": "Cell Death and Disease",
+      "year": "2026",
+      "abstract": "Pyruvate kinase M2 (PKM2) functions as both a glycolytic enzyme and a transcriptional co-activator that coordinates metabolism and cell survival. Here, we define the developmental timing, cellular distribution, and physiological role of PKM isoforms in the mouse retina. PKM2 expression begins at postnatal day 2, preceding PKM1, and is highly enriched in photoreceptors, whereas PKM1 predominates in retinal ganglion cells. Conditional deletion of PKM2 in the retina, rods, or retinal pigment epithelium (RPE) demonstrated that PKM2 is essential for maintaining retinal structure and function. Loss of PKM2 impaired glycolytic activity, decreased ATP generation, and disrupted metabolic balance, leading to cellular disorganization and degeneration in both photoreceptors and the RPE. In the RPE, PKM2 deficiency decreased RPE65 protein levels and impaired the regeneration of 11-cis-retinal, disrupting the visual cycle. PKM2 deletion disrupted the normal cone opsin gradient, indicating that PKM2-dependent metabolic and transcriptional functions are essential for maintaining proper cone organization in the retina. Moreover, rod-specific deletion of PKM2 in Abca4 mutant mice showed early signs of retinal degeneration. The studies described in this manuscript highlight the interdependence of photoreceptor and RPE metabolism and show that PKM2 plays an important role in retinal energy homeostasis and neuronal survival, providing insight into the mechanisms underlying photoreceptor and RPE degeneration in age-related macular degeneration.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ABCA4"
     },
     {
       "pmid": "42334989",
@@ -9827,6 +11276,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42508613",
+      "doi": "10.1016/j.kint.2026.07.006",
+      "zotero_key": "W2EW4BEX",
+      "title": "Iris Coloboma in PAX2-Related Disorder",
+      "authors": [
+        [
+          "Jawad Iqbal",
+          "Rather"
+        ],
+        [
+          "Rayees Ahmad",
+          "Sofi"
+        ]
+      ],
+      "journal": "Kidney International",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PAX2"
     },
     {
       "pmid": "",
@@ -11023,6 +12498,36 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42230209",
+      "doi": "10.1016/j.bja.2026.04.053",
+      "zotero_key": "EMDDVEA5",
+      "title": "Morphine and hydromorphone pharmacodynamics in human volunteers: sensitivity to benefit–harm thresholds. Comment on Br J Anaesth 2026; 136: 1459-71",
+      "authors": [
+        [
+          "Yiran",
+          "Feng"
+        ],
+        [
+          "Boyi",
+          "Zhang"
+        ],
+        [
+          "Jiale",
+          "Chen"
+        ]
+      ],
+      "journal": "British Journal of Anaesthesia",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "",
       "doi": "10.1017/s0952523800174115",
       "zotero_key": "FFVURTHA",
@@ -11103,6 +12608,124 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CHST6"
+    },
+    {
+      "pmid": "40831340",
+      "doi": "10.1002/jmri.70057",
+      "zotero_key": "J3IJVBDB",
+      "title": "MR Electrical Properties Tomography Acquisitions: A Guideline From the ISMRM Electro‐Magnetic Tissue Properties Study Group",
+      "authors": [
+        [
+          "Stefano",
+          "Mandija"
+        ],
+        [
+          "Cornelis A. T. van den",
+          "Berg"
+        ],
+        [
+          "Ilias I.",
+          "Giannakopoulos"
+        ],
+        [
+          "Zhongzheng",
+          "He"
+        ],
+        [
+          "Y.Z.",
+          "Ider"
+        ],
+        [
+          "Kyu‐Jin",
+          "Jung"
+        ],
+        [
+          "Nitish",
+          "Katoch"
+        ],
+        [
+          "Dong‐Hyun",
+          "Kim"
+        ],
+        [
+          "Riccardo",
+          "Lattanzi"
+        ],
+        [
+          "Paul",
+          "Soullié"
+        ],
+        [
+          "Ulrich",
+          "Katscher"
+        ]
+      ],
+      "journal": "Journal of Magnetic Resonance Imaging",
+      "year": "2025",
+      "abstract": "The electrical properties of human tissue (i.e., electrical conductivity σ and permittivity ε) can be measured quantitatively in vivo with standard MR sequences and standard MR systems using a technique called Electrical Properties Tomography (EPT) [1, 2]. The full implementation of EPT involves first measuring the complex RF transmit field component B1+ (i.e., its magnitude |B1+| and phase ϕ+) as modulated by the tissue electrical properties, and then reconstructing σ and ε from the modulated B1+. The reconstructed electrical properties correspond to the Larmor frequency of the applied main field strength B0. This article is meant as a short guideline for measuring complex B1+ for EPT. A comprehensive review on how to perform the subsequent reconstruction of σ and ε from the measured complex B1+ was reported earlier [3]. Software packages performing such reconstructions are available publicly [4-6], and so are EPT example datasets [7, 8]. This guideline will be complemented by two further EPT-related guidelines, that is on standardization and phantom building, provided in separate articles. Together, these three guidelines are thought to parallel corresponding guidelines on mapping magnetic properties of tissue [9]. Although sequences with simultaneous measurements of |B1+| and ϕ+ are possible [10], current practice is to use separate measurements for |B1+| and ϕ+, as described in the following. Numerous B1-mapping techniques for measuring |B1+| have been published, independent of EPT (e.g., Actual Flip angle Imaging (AFI) [11], Bloch-Siegert mapping [12], and Dual Refocusing Echo Acquisition Mode (DREAM) [13]). A comparison of B1-mapping techniques on the determination of ε primarily highlighted the need for high SNR [14]. On the other hand, reviews of B1-mapping techniques without reference to EPT were published [15]. Although relative units of |B1+| are sufficient for the majority of EPT approaches, such as differential equation-based methods, absolute scaling of |B1+| (e.g., in μT) is required for other EPT approaches, like some integral equation-based methods, as these rely on accurate field magnitudes to compute the necessary integrals. A standard MR system does not allow ϕ+ to be measured. Consequently, most EPT studies make use of the so-called transceive phase ϕ±, which is the superposition of the B1-phases from RF transmission and RF reception, assuming ϕ+~ϕ±/2 (so-called “Transceive Phase Assumption”, TPA). Thus, this subsection describes the measurement of ϕ±. In principle, the phase image of any clinical sequence can be taken as ϕ±; however, it must be free of components unrelated to RF penetration. Unwanted phase contributions originate mainly from three sources: (A) B0-inhomogeneities, (B) gradient-induced eddy currents, (C) patient/tissue motion. (A) Phase due to B0-inhomogeneities can be avoided by using spin-echo-based sequences, gradient-echo-based sequences with balanced gradients, or sequences with ultrashort/zero TE [16]. Gradient-echo-based sequences without gradient balancing can be used to estimate ϕ± if multiple echoes with different TEs are acquired and the observed phase for each voxel is extrapolated back to TE = 0 [17]. In the presence of chemical shift effects (e.g., due to fat), one might not be able to resolve the additional phase component. (B) Unwanted phase due to eddy currents typically appears as artificially increased conductivity along one side of the field-of-view (FOV) and artificially decreased conductivity along the other side of the FOV. This too can be eliminated by using gradient-echo-based sequences with balanced gradients or by repeating spin-echo sequences with inverted gradient polarization and averaging the results [18]. (C) As motion affects all types of sequences, standard motion correction schemes should be applied to minimize motion-induced phase contributions. Due to the applied numerical derivatives, reconstructed maps are typically more corrupted by motion than the original scan's magnitude/phase image itself. The optimal field strength B0 for conductivity mapping involves a trade-off between sufficient SNR (i.e., high B0) and the validity of the TPA, which is increasingly violated with increasing B0 and object size. For brain applications (and with today's reported EPT techniques), B0 = 3T appears to provide a good trade-off [18]. B0 = 1.5T might be a better choice for other in vivo applications, and B0 > 3T for imaging small animals. For permittivity, TPA plays a minor role, and the quest for optimal B0 is dominated by SNR, with accuracy increasing at least up to B0 = 7T [18]. Future studies for the upcoming systems with B0 > 7T might reveal an upper bound for optimal permittivity imaging. The optimal voxel size for EPT is chosen by trading-off sufficient SNR (i.e., large voxels) against the need for a sufficient number of voxels per spatial direction (i.e., small voxels) for stable numerical calculations of the Laplacian operator [19], which requires a minimum of N = 3 voxels per spatial direction within a tissue compartment. Although N = 3 is sufficient for an ideal noise-free case, in realistic measurements including noise, N > 10 is frequently recommended. This aspect should be taken into account while defining the applied sequence's voxel size, as anatomic compartments smaller than N voxels cannot be reconstructed reliably. For conductivity studies, this consideration applies mainly to measuring ϕ±, as |B1+| acts here mainly as a spatially smooth correction term. A volumetric image (i.e., a 3D or multi-slice 2D scan) is required for the full version of EPT. 3D scans may be preferred as they avoid through-plane inconsistencies when measuring ϕ±. Alternatively, the EPT reconstructions can be restricted to 2D in-plane, thus eliminating through-plane inconsistencies and introducing the additional model assumption of constant B1+ in the through-plane direction. If an RF receive coil array is used, care should be taken when combining the different array elements due to the possibility of violating the TPA [20]. RF transmission is based on quadrature (body or head) coils in the majority of EPT studies published yet. Acceleration techniques are compatible with EPT, at least using moderate acceleration factors [21]. To support brain conductivity imaging, |B1+| can be acquired using low-resolution B1-mapping (e.g., voxel-size = 4 (RO) × 8 (PE) × 8 (PE) mm3), followed by interpolation to the higher resolution of the ϕ± map (see below). For permittivity imaging, a higher resolution of B1-mapping is needed (e.g., voxel-size = 2 × 2 × 2 mm3). If available, low-resolution B1-mapping might be acquired using dual TR sequences (e.g., AFI with TR1/TR2 = 50/200 ms, TE = 2.3 ms, scan-time = 2.3 min) [11], and high-resolution B1-mapping using dual TE sequences (e.g., DREAM with TR = 7 ms, TE1/TE2 = 2.5/3.4 ms, 2 averages, scan-time = 2.2 min) [13]. Other vendor-specific sequences may also be available. However, the specific choice of the B1-mapping sequence does not seem to be of utmost importance, as long as the main demand for high SNR is fulfilled [14]. To image ϕ±, we recommend a 3D acquisition (e.g., 3D balanced Fast Field Echo (bFFE)/balanced Steady State Free Precession (bSSFP), voxel-size = 1 × 1 × 1 mm3, TR = 3 ms, TE = 1.5 ms, dynamics = 2, scan-time = 3.5 min). We recommend the acquisition of multiple, separate dynamics rather than signal averages to better resolve artifacts arising for example from flow, and allow co-registration to reduce motion effects. Potential banding artifacts might be reduced via phase cycling or acquisitions with different TR. A 2D acquisition may be used if fast temporal changes in conductivity are to be examined. The authors thank the ISMRM-EMTP study group for reviewing both the original and the revised version of the guideline. In addition to the authors, the following members of the ISMRM-EMTP Study Group explicitly recommend this guideline: A. Arduino, T. Cuhna, R. Dadarwal, X. Li, C. Rae, K. Shmueli, K.K. Tha, L. Zilberti. SM received funding from NWO-VENI 18078 for the coordination of this work and acknowledges funding from the 24DIT01 APULEIO project. The project 24DIT01 APULEIO has received funding from the European Partnership on Metrology, co-financed from the European Union's Horizon Europe Research and Innovation Programme and by the Participating States. IIG acknowledges funding from NIH K99 EB035163.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
+    },
+    {
+      "pmid": "42541508",
+      "doi": "10.1016/j.mayocp.2026.01.022",
+      "zotero_key": "43RGZXZC",
+      "title": "MRI-Negative Posterior Reversible Encephalopathy Syndrome",
+      "authors": [
+        [
+          "M.C.",
+          "Bates"
+        ],
+        [
+          "Jennifer E.",
+          "Fugate"
+        ],
+        [
+          "Jay",
+          "Mandrekar"
+        ],
+        [
+          "Alejandro A.",
+          "Rabinstein"
+        ]
+      ],
+      "journal": "Mayo Clinic Proceedings",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42017674",
+      "doi": "10.1128/msphere.00907-25",
+      "zotero_key": "XSZKKAJ4",
+      "title": "mSphere of Influence: Host-pathogen interactions—the fascinating world of molecular interplay",
+      "authors": [
+        [
+          "Dilip",
+          "Kumar"
+        ]
+      ],
+      "journal": "mSphere",
+      "year": "2026",
+      "abstract": "Dilip Kumar is a structural biologist, working on developing novel antiviral strategies against pathogenic RNA viruses by using an integrated structural biology approach. In this mSphere of Influence article, he emphasizes how two remarkable research articles on host-pathogen interactions, \"Inhibition of IRGM establishes a robust antiviral immune state to restrict pathogenic viruses\" by P. Nath, N. R. Chauhan, K. K. Jena, A. Datey, et al. (EMBO Rep 22:EMBR202152948, 2021, https://doi.org/10.15252/embr.202152948), and \"Cotranslational prolyl hydroxylation is essential for flavivirus biogenesis\" by R. Aviner, K. H. Li, J. Frydman, and R. Andino (Nature, 596:558-564, 2021, https://doi.org/10.1038/s41586-021-03851-2), sparked his interest in pursuing host-pathogen interactions to develop a broad range of antiviral therapeutics.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "41825899",
@@ -11267,6 +12890,84 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
+    },
+    {
+      "pmid": "42156711",
+      "doi": "10.1038/s41398-026-04090-7",
+      "zotero_key": "3MWUHK2T",
+      "title": "Multimodal imaging reveals resilient memory networks in carriers of pathogenic ARID1B variants",
+      "authors": [
+        [
+          "Aurélie",
+          "Fabre"
+        ],
+        [
+          "Khawla",
+          "Aljabali"
+        ],
+        [
+          "Jennifer",
+          "Boisgontier"
+        ],
+        [
+          "Ludovic",
+          "Fillon"
+        ],
+        [
+          "Lelio",
+          "Guida"
+        ],
+        [
+          "Ana",
+          "Saitovitch"
+        ],
+        [
+          "Marlène",
+          "Rio"
+        ],
+        [
+          "Jeanne",
+          "Amiel"
+        ],
+        [
+          "Caroline",
+          "Michot"
+        ],
+        [
+          "Volodia",
+          "Dangouloff-Ros"
+        ],
+        [
+          "Sara",
+          "Cabet"
+        ],
+        [
+          "Valérie",
+          "Cormier-Daire"
+        ],
+        [
+          "Arnold",
+          "Munnich"
+        ],
+        [
+          "Monica",
+          "Zilbovicius"
+        ],
+        [
+          "Nathalie",
+          "Boddaert"
+        ]
+      ],
+      "journal": "Translational Psychiatry",
+      "year": "2026",
+      "abstract": "The phenotypic spectrum associated with pathogenic ARID1B variants is remarkably broad, ranging from classic Coffin-Siris syndrome to non-syndromic intellectual disability and autism spectrum disorders. While speech delay, motor impairments and learning difficulties are well documented, brain imaging investigations remain scarce in this population. We combined multimodal neuroimaging and neuropsychological assessments in 12 patients carrying pathogenic ARID1B variants (age = 13.8 ± 4.7 years) and 34 age-matched healthy controls. Whole-brain voxel-wise analyses included arterial spin labelling to measure cerebral blood flow (CBF) at rest and voxel-based morphometry to assess grey matter density. To investigate white matter abnormalities, we performed fixel-based analysis in a subgroup of 7 patients and 17 age-matched controls. While patients showed pronounced language, motor and social impairments, their memory performance ( + 5 SD) largely exceeded other cognitive and motor skills. Whole-brain voxel-wise analyses showed a significant bilateral increase of CBF at rest in several limbic structures, including hippocampi and visual areas. They also showed significant decrease in grey matter density and fibre density in the same limbic structures, language, motor and social circuits. This paradoxical coexistence of hyperperfusion and structural deficits within memory networks suggests functional resilience or compensatory mechanisms. These preserved visual and memory functions strongly contrasted with their impaired language, motor, and social abilities. Patients appeared to rely on visual cues and memory to compensate for deficits in verbal communication. These findings support the development of individualized and innovative interventions that build on preserved visual and memory abilities in children with pathogenic ARID1B variants.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
     },
     {
       "pmid": "41773462",
@@ -11495,6 +13196,150 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "High myopia"
+    },
+    {
+      "pmid": "42365006",
+      "doi": "10.1038/s41467-026-74400-6",
+      "zotero_key": "CRKVWPZQ",
+      "title": "NAD+ modulates mitochondrial vulnerability in MERTK-associated models of retinitis pigmentosa",
+      "authors": [
+        [
+          "Lujia",
+          "Feng"
+        ],
+        [
+          "Yuwen",
+          "Wen"
+        ],
+        [
+          "Ting",
+          "Zhang"
+        ],
+        [
+          "Xiaohua",
+          "Zhuo"
+        ],
+        [
+          "Yantao",
+          "Wei"
+        ],
+        [
+          "Lixian",
+          "Liu"
+        ],
+        [
+          "Zhaohao",
+          "Huang"
+        ],
+        [
+          "Guoming",
+          "Zhang"
+        ],
+        [
+          "Lu",
+          "Chen"
+        ],
+        [
+          "Du",
+          "Y"
+        ],
+        [
+          "Dong",
+          "Fang"
+        ],
+        [
+          "Wangting",
+          "Li"
+        ],
+        [
+          "Linbin",
+          "Zhou"
+        ],
+        [
+          "Ling",
+          "Zhao"
+        ],
+        [
+          "Yingting",
+          "Zhu"
+        ],
+        [
+          "Jia",
+          "Liang"
+        ],
+        [
+          "Zhiquan",
+          "Li"
+        ],
+        [
+          "Xiaojing",
+          "Song"
+        ],
+        [
+          "C L",
+          "Deng"
+        ],
+        [
+          "Xingxing",
+          "Mao"
+        ],
+        [
+          "Xiaofeng",
+          "Hou"
+        ],
+        [
+          "Wenru",
+          "Su"
+        ],
+        [
+          "Wei",
+          "Chi"
+        ],
+        [
+          "Yehong",
+          "Zhuo"
+        ],
+        [
+          "Shaochong",
+          "Zhang"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "Retinitis pigmentosa (RP) is the most common inherited retinal degenerative disease leading to blindness. RP is characterized by progressive loss of photoreceptors and retinal pigment epithelium (RPE), leading to retinal degeneration. The mechanisms that initiate RP and drive retinal vulnerability are poorly understood, and new strategies for preventing and treating RP are urgently needed. Although mitochondrial dysfunction initiates many neurodegenerative diseases, the contribution of mitochondrial dysfunction to RP is unclear. Single-cell RNA sequencing, transmission electron microscopy, and enzyme-linked immunosorbent assays revealed that photoreceptor and RPE cells have abnormal mitochondria in rats with RP. Nicotinamide adenine dinucleotide (NAD+) metabolism decreased in rats with RP, increasing the vulnerability to disease-related insults. Similar experimental results were observed in a Mer tyrosine kinase receptor (MERTK)-associated RP primary human RPE cell model. Electroretinography, immunofluorescence, and fundus photography revealed that oral administration of the NAD+ precursor nicotinamide mononucleotide (NMN) protected rats with RP from retinal degeneration. Single-cell RNA sequencing, siRNA targeting, and Adeno-associated virus applications demonstrated that NMN elicits therapeutic effects via the glyceraldehyde-phosphate dehydrogenase-mitochondria pathway. These results indicate that mitochondrial abnormalities may be drivers of RP, and NMN elicits therapeutic effects on RP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MERTK"
+    },
+    {
+      "pmid": "41823914",
+      "doi": "10.1016/j.ophtha.2026.02.019",
+      "zotero_key": "IFQTUGT6",
+      "title": "Nebular Cortical Cataract in Stickler Syndrome",
+      "authors": [
+        [
+          "Ella J.",
+          "Gehrke"
+        ],
+        [
+          "Ian C.",
+          "Han"
+        ]
+      ],
+      "journal": "Ophthalmology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL2A1"
     },
     {
       "pmid": "",
@@ -11829,6 +13674,60 @@
       "subcollection": "Mouvements oculaires"
     },
     {
+      "pmid": "42065837",
+      "doi": "10.1007/s10633-026-10106-w",
+      "zotero_key": "3X6SA5TU",
+      "title": "New genetic feature associated with fundus albipunctatus: case series of two Spanish children with LRAT gene mutation",
+      "authors": [
+        [
+          "Anna",
+          "Baldaquí-Baeza"
+        ],
+        [
+          "Jesús",
+          "Díaz‐Cascajosa"
+        ],
+        [
+          "Delia",
+          "Yubero-Siles"
+        ],
+        [
+          "Gema",
+          "Escribano-Serrano"
+        ],
+        [
+          "Diana",
+          "Salinas-Chaparro"
+        ],
+        [
+          "Cinthia",
+          "Aguilera"
+        ],
+        [
+          "Anna",
+          "Esteve-Garcia"
+        ],
+        [
+          "Itziar",
+          "Alonso-Colmenero"
+        ],
+        [
+          "Jaume",
+          "Català-Mora"
+        ]
+      ],
+      "journal": "Documenta Ophthalmologica",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "GUCY2D"
+    },
+    {
       "pmid": "41751772",
       "doi": "10.3390/ijms27041636",
       "zotero_key": "GQHWNXU4",
@@ -12039,6 +13938,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARSG"
+    },
+    {
+      "pmid": "42541497",
+      "doi": "10.1016/j.jneb.2026.06.219",
+      "zotero_key": "D94G8PUA",
+      "title": "Nutrition Messaging in Food Documentaries: Assessment of Social Cognitive Theory Constructs and Information Quality",
+      "authors": [
+        [
+          "Enid A.",
+          "Keseko"
+        ],
+        [
+          "Minji",
+          "Kim"
+        ],
+        [
+          "Leila M.",
+          "Larson"
+        ],
+        [
+          "Amanda J.",
+          "Fairchild"
+        ],
+        [
+          "Alexis",
+          "Bell"
+        ],
+        [
+          "Gabrielle",
+          "Turner‐McGrievy"
+        ]
+      ],
+      "journal": "Journal of Nutrition Education and Behavior",
+      "year": "2026",
+      "abstract": "OBJECTIVE: To examine how food documentaries reflect Social Cognitive Theory (SCT) in relation to dietary behavior and assess the quality of dietary information they present. DESIGN: A content analysis of food documentaries on video streaming platforms, released between January 2020 and December 2024. Eligible documentaries exceeded 30 minutes and included content consistent with dietary patterns recommended by the Dietary Guidelines for Americans 2020-2025. ANALYSIS: Transcripts from 7 documentaries were obtained through subtitles and independently coded by 2 researchers using qualitative data analysis software. Content reflecting SCT constructs, including self-efficacy, observational learning, reciprocal determinism, outcome expectations, and reinforcement, was coded and analyzed. Information quality was assessed through scoring of reliability, clarity, and evidence base of health-related information. RESULTS: All documentaries included SCT constructs. Across 195 SCT-coded instances, self-efficacy was most prevalent and included practical tips to build confidence (13.3% of the codes) and encouragement for positive change (8.7%). Observational learning codes included expert demonstrations (9.2%) and success stories as models (11.8%). Information quality assessment scores ranged from 58 to 69, indicating moderate to high information quality. CONCLUSIONS AND IMPLICATIONS: Food documentaries in this sample provided SCT-aligned dietary behavior messaging and moderate to high-quality nutrition information, highlighting their potential for health promotion.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -12409,6 +14350,48 @@
       "subcollection": "COL2A1"
     },
     {
+      "pmid": "42056551",
+      "doi": "10.1038/s41586-026-10370-5",
+      "zotero_key": "CKKWJWA4",
+      "title": "Overestimating outsourced biodiversity loss may misguide policy",
+      "authors": [
+        [
+          "Dominic A.",
+          "Martin"
+        ],
+        [
+          "R Ntsiva N",
+          "Andriatsitohaina"
+        ],
+        [
+          "O Sarobidy",
+          "Rakotonarivo"
+        ],
+        [
+          "Estelle",
+          "Raveloaritiana"
+        ],
+        [
+          "Annemarie",
+          "Wurz"
+        ],
+        [
+          "Julie G.",
+          "Zaehringer"
+        ]
+      ],
+      "journal": "Nature",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "42151386",
       "doi": "10.1038/s42003-026-10289-7",
       "zotero_key": "79C6W6PG",
@@ -12593,6 +14576,32 @@
       "subcollection": "PRPH2"
     },
     {
+      "pmid": "42327881",
+      "doi": "10.47895/amp.vi0.13093",
+      "zotero_key": "KKMEHJGX",
+      "title": "Pediatric WAGR Patient with Aniridia-associated Glaucoma: A Case Report",
+      "authors": [
+        [
+          "MD",
+          "Patricia Abigail Lim-Tanjutco"
+        ],
+        [
+          "MD",
+          "Maria Imelda R. Yap-Veloso"
+        ]
+      ],
+      "journal": "Acta Medica Philippina",
+      "year": "2026",
+      "abstract": "WAGR syndrome is a rare congenital disorder, occurring in approximately 1 in 500,000 to 1,000,000 individuals, often presenting with ocular malformations such as aniridia. Glaucoma frequently develops when the iris and angle structures are affected, posing a significant risk of vision loss. We report a one-year and seven-month-old patient who presented with corneal opacity of the left eye. Examination revealed corneal opacity, aniridia, and markedly elevated intraocular pressure of 65 mmHg, while the fellow eye, also with aniridia, was normotensive. The patient underwent immediate combined trabeculectomy-trabeculotomy. Postoperative follow-up and timely management of complications allowed acceptable pressure control over one year, though visual prognosis remained guarded. This case highlights the challenges of managing glaucoma in WAGR syndrome, particularly in resource-limited settings. Medical therapy alone is often insufficient, making surgical intervention essential. Combined trabeculectomy-trabeculotomy proved effective in maintaining pressure control when glaucoma drainage devices were not feasible. Multiple interventions and close monitoring are frequently required due to the risk of scarring and postoperative complications. Our experience emphasizes the need for a multidisciplinary ophthalmology approach to optimize outcomes. Despite pressure control, visual outcomes often remain poor due to structural anomalies and the challenges inherent to pediatric patients with this rare syndrome.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PAX6"
+    },
+    {
       "pmid": "41052222",
       "doi": "10.1097/iae.0000000000004690",
       "zotero_key": "B6CPZNV3",
@@ -12701,6 +14710,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RPGRIP1L"
+    },
+    {
+      "pmid": "41980014",
+      "doi": "10.12659/ajcr.951708",
+      "zotero_key": "VS69MUA8",
+      "title": "Persistent Bilateral Optic Disc Swelling in Non-Syndromic Retinitis Pigmentosa: A Case Report",
+      "authors": [
+        [
+          "Maram",
+          "Alenazi"
+        ],
+        [
+          "Moustafa S.",
+          "Magliyah"
+        ],
+        [
+          "Wael A.",
+          "Alsakran"
+        ]
+      ],
+      "journal": "American Journal of Case Reports",
+      "year": "2026",
+      "abstract": "BACKGROUND In retinitis pigmentosa (RP), the optic nerve head typically exhibits a pale, waxy appearance and may demonstrates pseudo-swelling due to optic nerve drusen. However, true optic disc edema is rare and remains poorly understood. We present a case with unusual findings of bilateral disc swelling in non-syndromic RP caused by TULP1 mutation. CASE REPORT An 8-year-old boy initially presented to the vitreoretinal division at King Khaled Eye Specialist Hospital with nyctalopia and constricted visual fields in both eyes. Fundoscopic examination revealed widespread retinal pigment epithelial mottling, attenuated retinal blood vessels, and bilateral hyperemic optic nerve swelling. Multimodal imaging, including fundus autofluorescence, fluorescein angiography, optical coherence tomography, and ocular ultrasonography, confirmed true optic disc edema. Magnetic resonance imaging and arteriography/venography showed bilateral optic nerve head swelling without enhancement or radiographic signs of intracranial hypertension. Lumbar puncture revealed normal opening pressure and unremarkable cerebrospinal fluid analysis. The patient was diagnosed with RP, which was confirmed using electroretinography. Whole-exome sequencing revealed a homozygous c.1256G>A p.(Arg419GIn) variant in the tubby-line protein 1 gene (TULP1). The patient was followed for 2 years, during which visual function and optic disc appearance remained stable without treatment. CONCLUSIONS This case highlights a rare presentation of persistent bilateral true disc swelling in a patient with non-syndromic RP due to TULP1 mutation. Unlike previously reported cases, our patient showed persistent disc swelling that remained stable for over 2 years without treatment. This observation expands the phenotypic spectrum of RP and suggests that a non-progressive disc swelling may be part of the disease presentation in certain genetic subtypes such as TULP1.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TULP1"
     },
     {
       "pmid": "",
@@ -13095,6 +15134,44 @@
       "subcollection": "RS1"
     },
     {
+      "pmid": "38109588",
+      "doi": "10.1167/jov.23.15.60",
+      "zotero_key": "3PHEAK64",
+      "title": "Poster Session II: Non-degenerating double cone opsin knockout mouse model of blue cone monochromacy",
+      "authors": [
+        [
+          "Mikayla L.",
+          "Puska"
+        ],
+        [
+          "Michelle M.",
+          "Giarmarco"
+        ],
+        [
+          "Jay",
+          "Neitz"
+        ],
+        [
+          "Maureen",
+          "Neitz"
+        ],
+        [
+          "James A.",
+          "Kuchenbecker"
+        ]
+      ],
+      "journal": "Journal of Vision",
+      "year": "2023",
+      "abstract": "Ma et al. (2022) performed opsin gene therapy in a mouse model of blue cone monochromacy (BCM). Treatment was only effective for young animals because the retina degenerated, with a significant reduction in the number viable cones by 3 months. Their mouse was created by mating an Opn1mw knockout with a gene trap inserted in intron 2 of the Opn1mw gene, to an Opn1sw knockout with the neomycin resistance gene inserted in intron 3 of the Opn1sw gene. The Opn1mw knockout was reported as having \"greatly reduced\" M opsin expression, while the Opn1sw knockout was a severely hypomorphic allele. Their double opsin gene knockout (DKO) mouse is not a good model of BCM, which is typically a stationary disorder with no cone degeneration. We evaluated Opn1mw Opn1sw DKO mice for cone degeneration; these mice were created by Regeneron by deleting both genes using genome editing. Eyes of 1 year old DKO animals were processed for cryosections. Sections were immunostained using antibodies against a variety of cone proteins (S and M opsins, arrestin) and markers for retinal degeneration, then confocal imaged. Despite the absence of both cone opsins, cones remain viable and morphologically normal, and the retina shows no signs of degeneration at 1 year. This DKO mouse model will be a valuable tool for developing gene therapies targeting cone opsins, and also for understanding color vision circuitry in the retina.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OPN1MW"
+    },
+    {
       "pmid": "41606966",
       "doi": "10.12659/ajcr.950985",
       "zotero_key": "GWEABMM4",
@@ -13169,6 +15246,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42362630",
+      "doi": "10.1038/s41598-026-56664-6",
+      "zotero_key": "66WTWDME",
+      "title": "Ppcd1 corneal dystrophy phenotypes are rescued by Ovol2 disruption and modified by genetic background in a mouse model",
+      "authors": [
+        [
+          "Anna L.",
+          "Shen"
+        ],
+        [
+          "Alex",
+          "Veith"
+        ],
+        [
+          "C Dustin",
+          "Rubinstein"
+        ],
+        [
+          "Kathy J.",
+          "Krentz"
+        ],
+        [
+          "Edward",
+          "Glover"
+        ],
+        [
+          "Susan A.",
+          "Moran"
+        ],
+        [
+          "Christopher A.",
+          "Bradfield"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "Posterior polymorphous corneal dystrophy (PPCD) is a rare ocular disorder characterized by both genetic (PPCD1-4) and phenotypic heterogeneity. Genetic mapping and in vitro experiments provide evidence that OVOL2 promoter mutations are associated with human PPCD1, possibly through OVOL2 overexpression. A recent effort to engineer point mutations orthologous to those that induce human disease reported limited phenotypic effects, suggesting that current murine models may be of limited use in developing therapeutic approaches. Here, we provide evidence that, by manipulating the genetic background, a murine model can serve as a robust platform for studying gene-editing therapies for this disease. To support our idea, we employed a mouse model that exhibits PPCD-like phenotypes resulting from a chromosomal rearrangement in a region syntenic to the human PPCD1 locus. Observing that disease presentation is dependent upon a sensitive murine genetic background (DBA/2J), we then demonstrated that genetic disruption of Ovol2 rescues PPCD phenotypes, including corneal endothelial metaplasia, iridocorneal angle occlusion, elevated intraocular pressure, and retinal degeneration. These results support the model that Ovol2 upregulation drives PPCD1 in both humans and the mouse model. Moreover, studies on the genetic background provide opportunities to test novel therapeutic intervention strategies and provide evidence to support investigations into modifiers of human disease and their treatment.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL8A2"
     },
     {
       "pmid": "42154411",
@@ -13479,6 +15602,80 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "42098217",
+      "doi": "10.1038/s41598-026-51349-6",
+      "zotero_key": "KMD9F88S",
+      "title": "Prospective natural history and clinical biomarkers of EYS-associated retinopathy in the KEYS study",
+      "authors": [
+        [
+          "Marika",
+          "TANIGUCHI"
+        ],
+        [
+          "Yuki",
+          "Togashi"
+        ],
+        [
+          "Satoshi",
+          "Yokota"
+        ],
+        [
+          "Masakazu",
+          "Hiraoka"
+        ],
+        [
+          "Shohei",
+          "Kitahata"
+        ],
+        [
+          "Natsuko",
+          "Nakamura"
+        ],
+        [
+          "Midori",
+          "Yamamoto"
+        ],
+        [
+          "Michiko",
+          "Mandai"
+        ],
+        [
+          "Kiyoko",
+          "Gocho"
+        ],
+        [
+          "Masanao",
+          "Toshimori"
+        ],
+        [
+          "Yasuhiko",
+          "Hirami"
+        ],
+        [
+          "Fumi",
+          "Gomi"
+        ],
+        [
+          "Yasuo",
+          "Kurimoto"
+        ],
+        [
+          "Akiko",
+          "Maeda"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "EYS is one of the major causative genes of autosomal recessive retinitis pigmentosa, particularly in Asian, and is expected to be a key target for future therapies. However, reliable biomarkers have not established. This KEYS study aimed to evaluate whether structural and functional parameters could serve as potential biomarkers of disease progression in EYS-associated retinitis pigmentosa (EYS-RP). We prospectively observed 49 patients with EYS-RP at Kobe Eye Hospital over a 2-year period. Visual field testing was performed using the Humphrey Field Analyzer 10- 2 (HFA 10-2). The mean total deviation (TD) was divided into central and surrounding regions for analysis, and the mean deviation (MD) was also evaluated. Horizontal and vertical EZ widths were measured by OCT. Over 2 years, our study showed that visual field progressed in surrounding and central and horizontal EZ width decreased. In subgroup analysis, a decline in horizontal EZ width and correlations between visual field parameters and EZ width were observed only in the higher MD based on the mean baseline HFA-MD value. HFA and horizontal EZ width parameters may serve as useful biomarkers of disease progression in EYS-RP, although their effectiveness varies by disease severity.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "EYS"
+    },
+    {
       "pmid": "42045071",
       "doi": "10.1523/jneurosci.0164-26.2026",
       "zotero_key": "6V6SHIXA",
@@ -13643,6 +15840,44 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42501937",
+      "doi": "10.1016/j.jaapos.2026.104909",
+      "zotero_key": "6CNQZHGH",
+      "title": "Rapid improvement of cystoid macular edema in a patient with gyrate atrophy",
+      "authors": [
+        [
+          "Brandon A.",
+          "Bates"
+        ],
+        [
+          "Savannah",
+          "Bilberry"
+        ],
+        [
+          "James",
+          "Gibson"
+        ],
+        [
+          "Lan",
+          "Hoang"
+        ],
+        [
+          "Clio Armitage",
+          "Harper"
+        ]
+      ],
+      "journal": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OAT"
     },
     {
       "pmid": "",
@@ -14094,6 +16329,40 @@
       "subcollection": "Vieillissement oculaire"
     },
     {
+      "pmid": "17955848",
+      "doi": "10.3928/15428877-20070901-10",
+      "zotero_key": "PA5W7F35",
+      "title": "Retinal Redetachment Involving a Macular Hole Resulting From Hypotony After Trabeculectomy in a Highly Myopic Eye",
+      "authors": [
+        [
+          "Tomomi",
+          "Higashide"
+        ],
+        [
+          "Akira",
+          "Nishimura"
+        ],
+        [
+          "Makoto",
+          "Torisaki"
+        ],
+        [
+          "Kazuhisa",
+          "Sugiyama"
+        ]
+      ],
+      "journal": "Ophthalmic surgery, lasers & imaging retina",
+      "year": "2007",
+      "abstract": "&lt;P&gt;A 57-year-old woman with high myopia underwent trabeculectomy 21 months after a successful vitrectomy with peeling of the internal limiting membrane to treat a bullous retinal detachment associated with a macular hole. A shallow retinal detachment involving the macular hole developed on the sixth postoperative day after a 3-day period of hypotony. This case was unique because recurrence of the retinal detachment involving a macular hole in a highly myopic eye occurred in association with hypotony after glaucoma filtering surgery, with the retinal detachment resolving spontaneously following normalization of intraocular pressure even though the macular hole remained open. [&lt;CITE&gt;Ophthalmic Surg Lasers Imaging&lt;/CITE&gt; 2007;38:406-409.]&lt;/P&gt; &lt;H4&gt;AUTHORS&lt;/H4&gt; &lt;P&gt;From the Department of Ophthalmology (TH, AN, KS), Kanazawa University Graduate School of Medical Science, Kanazawa, Japan; and the Department of Ophthalmology (MT), Toyama City Hospital, Toyama, Japan.&lt;/P&gt; &lt;P&gt;Accepted for publication March 31, 2007.&lt;/P&gt; &lt;P&gt;Address correspondence to Tomomi Higashide, MD, Department of Ophthalmology, Kanazawa University Graduate School of Medical Science, 13-1 Takara-machi, Kanazawa, Ishikawa 9208641 Japan.&lt;/P&gt;",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL18A1"
+    },
+    {
       "pmid": "12824633",
       "doi": "10.1385/1-59259-393-3:205",
       "zotero_key": "8A8U5TA5",
@@ -14276,6 +16545,300 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42322193",
+      "doi": "10.1016/j.gim.2026.102633",
+      "zotero_key": "5IHQA4WZ",
+      "title": "RNU4ATAC-opathy: Clinical, molecular, and transcriptomic insights from a large cohort",
+      "authors": [
+        [
+          "Dena R.",
+          "Matalon"
+        ],
+        [
+          "Angela L.",
+          "Duker"
+        ],
+        [
+          "Taylor M.",
+          "Arriaga"
+        ],
+        [
+          "Kathryn",
+          "Russell"
+        ],
+        [
+          "Hector Rodrigo",
+          "Mendez"
+        ],
+        [
+          "Devon",
+          "Bonner"
+        ],
+        [
+          "Margaret E",
+          "Harley"
+        ],
+        [
+          "Moriel",
+          "Singer-Berk"
+        ],
+        [
+          "Monica H.",
+          "Wojcik"
+        ],
+        [
+          "Lynn",
+          "Pais"
+        ],
+        [
+          "Stephanie",
+          "DiTroia"
+        ],
+        [
+          "Melanie",
+          "O’Leary"
+        ],
+        [
+          "T homas A.",
+          "Cassini"
+        ],
+        [
+          "Kimberly",
+          "Ezell"
+        ],
+        [
+          "Anne D.",
+          "Niehaus"
+        ],
+        [
+          "Julie",
+          "Kaplan"
+        ],
+        [
+          "David S.",
+          "Wargowski"
+        ],
+        [
+          "Cory J.",
+          "Smid"
+        ],
+        [
+          "Emily D.",
+          "Longenecker"
+        ],
+        [
+          "Ana Maria Rodriguez",
+          "Barreto"
+        ],
+        [
+          "Danny E.",
+          "Miller"
+        ],
+        [
+          "Alexandra",
+          "Keefe"
+        ],
+        [
+          "Laurel",
+          "Calderwood"
+        ],
+        [
+          "Gregory M.",
+          "Enns"
+        ],
+        [
+          "Mustafa",
+          "Tekin"
+        ],
+        [
+          "Stephanie A.",
+          "Bivona"
+        ],
+        [
+          "Neeta L.",
+          "Vora"
+        ],
+        [
+          "Kelly L.",
+          "Gilmore"
+        ],
+        [
+          "Tahir N.",
+          "Khan"
+        ],
+        [
+          "Erica E.",
+          "Davis"
+        ],
+        [
+          "Amber W.",
+          "Wang"
+        ],
+        [
+          "Sameena",
+          "Khan"
+        ],
+        [
+          "Sateesh",
+          "Maddirevula"
+        ],
+        [
+          "Lama",
+          "Alabdi"
+        ],
+        [
+          "Omar",
+          "Abuyousef"
+        ],
+        [
+          "Hanan E.",
+          "Shamseldin"
+        ],
+        [
+          "Salwa",
+          "Alkhalifi"
+        ],
+        [
+          "Firdous",
+          "Abdulwahab"
+        ],
+        [
+          "Mashael",
+          "Alqahtani"
+        ],
+        [
+          "Zainab A.",
+          "Alhumaidi"
+        ],
+        [
+          "Seba",
+          "Nadeef"
+        ],
+        [
+          "Amal M. Al",
+          "Hashem"
+        ],
+        [
+          "Khadijah",
+          "Bakur"
+        ],
+        [
+          "Eissa",
+          "Faqeih"
+        ],
+        [
+          "Ebtesam",
+          "Abdalla"
+        ],
+        [
+          "Angus",
+          "Clarke"
+        ],
+        [
+          "Elaine",
+          "Fletcher"
+        ],
+        [
+          "Wee Teik",
+          "Keng"
+        ],
+        [
+          "Lilian Bomme",
+          "Ousager"
+        ],
+        [
+          "Deepthi De",
+          "Silva"
+        ],
+        [
+          "Muzhirah",
+          "Haniffa"
+        ],
+        [
+          "Francesca",
+          "Mari"
+        ],
+        [
+          "Wayne",
+          "Lam"
+        ],
+        [
+          "Jennifer",
+          "Campbell"
+        ],
+        [
+          "Tessa",
+          "Homfray"
+        ],
+        [
+          "Sheela",
+          "Nampoothiri"
+        ],
+        [
+          "Chumei",
+          "Li"
+        ],
+        [
+          "Bimal P.",
+          "Chaudhari"
+        ],
+        [
+          "Kristen",
+          "Truxal"
+        ],
+        [
+          "Jonathan A.",
+          "Bernstein"
+        ],
+        [
+          "Stephen B.",
+          "Montgomery"
+        ],
+        [
+          "Matthew T.",
+          "Wheeler"
+        ],
+        [
+          "Fowzan S.",
+          "Alkuraya"
+        ],
+        [
+          "Anne",
+          "O'donnell-Luria"
+        ],
+        [
+          "Andrew P.",
+          "Jackson"
+        ],
+        [
+          "Ian M",
+          "Campbell"
+        ],
+        [
+          "Vijay S",
+          "Ganesh"
+        ],
+        [
+          "Nic",
+          "Robertson"
+        ],
+        [
+          "Gabrielle",
+          "Lemire"
+        ]
+      ],
+      "journal": "Genetics in Medicine",
+      "year": "2026",
+      "abstract": "PURPOSE: We aim to better define the genotype and phenotype spectrum of RNU4ATAC-opathy, demonstrate the utility of RNA sequencing (RNA-seq) for variant classification, and highlight the challenges in detecting variants in this noncoding gene. METHODS: Sixty individuals with molecularly confirmed RNU4ATAC-opathy were recruited from multiple clinical and research centers internationally. RNA-seq was available for 7 affected individuals. RESULTS: We report the clinical and molecular findings of 60 individuals, including 42 not previously described, and 33 distinct RNU4ATAC variants, 13 of which are novel. Core features in this cohort-present in most individuals assessed and varying in severity-include microcephaly, short stature, skeletal anomalies, developmental delay, cerebral anomalies, skin conditions, and immune deficiency. Additional findings, such as diabetes, holoprosencephaly, and the absence of various core features in some individuals, highlight the broad phenotypic spectrum. All individuals who underwent RNA-seq showed a consistent pattern of minor intron retention. In 6 individuals, RNA-seq enabled the reclassification of variants of uncertain significance as likely pathogenic. Although RNU4ATAC variants are generally covered by clinical exomes, they are often overlooked in analysis because of their noncoding nature. CONCLUSION: This study highlights the variability of phenotypes and genotypes associated with RNU4ATAC-opathy. Laboratories should ensure RNU4ATAC and other noncoding genes are appropriately assessed by their analysis pipelines.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU4ATAC"
     },
     {
       "pmid": "",
@@ -14588,6 +17151,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42081051",
+      "doi": "10.1186/s12348-026-00590-1",
+      "zotero_key": "Q33KHR63",
+      "title": "Secondary punctate inner choroidopathy in an RP2 associated retinopathy female carrier",
+      "authors": [
+        [
+          "Gonzalo",
+          "Roig-Ferreruela"
+        ],
+        [
+          "Sofía",
+          "Uncetabarrenechea-Larrucea"
+        ],
+        [
+          "María",
+          "Aramberri-Araiz"
+        ],
+        [
+          "Sonia",
+          "Valsero-Franco"
+        ],
+        [
+          "Joseba",
+          "Artaraz"
+        ],
+        [
+          "Ester",
+          "Carreño"
+        ],
+        [
+          "Alex",
+          "Fonollosa"
+        ]
+      ],
+      "journal": "Journal of Ophthalmic Inflammation and Infection",
+      "year": "2026",
+      "abstract": "PURPOSE: To describe a case of punctate inner choroidopathy (PIC) occurring in a RP2 associated Retinopathy female carrier, highlighting the diagnostic contribution of multimodal imaging and the therapeutic course. METHODS: Observational case report with multimodal retinal imaging, electrophysiology, and genetic testing. RESULTS: A 46-year-old woman with high myopia (- 8 diopters in both eyes) and a right Adie's pupil presented with a shadow-like visual disturbance in the right eye (RE). Family history was notable for X-linked retinitis pigmentosa: her brother was hemizygous for the pathogenic RP2 variant c.1 A > G (p.Met1?), and her mother was a heterozygous carrier with light perception vision in both eyes. At presentation, best-corrected visual acuity (BCVA) was 20/32 in the RE and 20/20 in the left eye (LE). Fundus examination revealed diffuse chorioretinal atrophy and multiple punched-out lesions, predominantly nasal, with some macular involvement suggestive of inactive PIC. Subtle peripheral bone spicules were also observed. Fundus autofluorescence (FAF) demonstrated hypoautofluorescent lesions corresponding to the punched-out scars and radial hyperautofluorescent streaks around the posterior pole, a characteristic pattern of X-linked RP carriers. Flash electroretinography revealed bilateral rod and cone dysfunction, more pronounced in the LE. Genetic testing confirmed the heterozygous RP2 c.1 A > G variant, establishing the patient as an X-linked RP carrier. Two years later, the patient developed a new greyish inflammatory lesion in the papillomacular bundle of the RE. OCT demonstrated hyperreflective subretinal material disrupting the RPE with posterior hypertransmission, consistent with an acute PIC lesion. She was treated with systemic corticosteroids and methotrexate. Subsequent flares required treatment escalation, including mycophenolate mofetil and later a combination of methotrexate and adalimumab due to intolerance. One year after initiating biologic therapy, the patient remains in remission with stable visual acuity (20/32 RE, 20/25 LE). CONCLUSIONS: Secondary PIC may occur in carriers of X-linked RP. Multimodal imaging and genetic testing are essential for accurate characterization, and immunosuppressive therapy can achieve sustained disease control.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RP2"
     },
     {
       "pmid": "",
@@ -14996,6 +17605,40 @@
       "subcollection": "ACO2"
     },
     {
+      "pmid": "42231409",
+      "doi": "10.1186/s12920-026-02402-w",
+      "zotero_key": "6WU8UTDV",
+      "title": "Sporadic cone-rod dystrophy caused by a heterozygous RAB28 p.Ser23Phe pathogenic variant and a de novo 4p16.1p15.33 deletion",
+      "authors": [
+        [
+          "Joonhong",
+          "Park"
+        ],
+        [
+          "Woori",
+          "Jang"
+        ],
+        [
+          "Yoojung",
+          "Ahn"
+        ],
+        [
+          "Haeng‐Jin",
+          "Lee"
+        ]
+      ],
+      "journal": "BMC Medical Genomics",
+      "year": "2026",
+      "abstract": "BACKGROUND: Cone-rod dystrophy (CRD) is an inherited retinal dystrophy characterized by decreased visual acuity, color vision defects, and progressive loss of peripheral vision. RAB28-associated CRD is genetically homogeneous and results from pathogenic variants in the RAB28 gene, which is essential for photoreceptor function. CASE PRESENTATION: Fundus examinations, optical coherence tomography, color vision tests, and full-field electroretinography (ERG) were performed in the proband. Genetic analysis, including clinical exome sequencing (CES), Sanger sequencing and chromosomal microarray (CMA), was conducted to determine the genetic cause in the proband. The patient exhibited significantly reduced visual acuity, severe color vision impairment, macular atrophy, and thinning of the photoreceptor layers. Full-field ERG revealed severely diminished cone responses, while rod responses were mildly reduced. Genetic analysis identified that the heterozygous RAB28 c.68 C > T/p.(Ser23Phe) pathogenic variant was inherited exclusively from the father. Additionally, a 3.4 Mb deletion on chromosome 4p16.1p15.33 was detected only in the proband. Four genes associated with Mendelian diseases, including CLNK (OMIM *611434), HS3ST1 (*603244), NKX3-2 (*602183), and RAB28 (*612994), are located within this deletion region. CONCLUSIONS: This case illustrates a rare combination of a heterozygous RAB28 c.68 C > T/p.(Ser23Phe) pathogenic variant and a de novo 4p16.1p15.33 deletion, which is associated with AR CRD. Although extremely rare, bi-allelic RAB28 pathogenic variants can result from one inherited allele and a de novo deletion in the other.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CRX"
+    },
+    {
       "pmid": "19502803",
       "doi": "10.4161/cc.8.13.8883",
       "zotero_key": "X6J6JPCQ",
@@ -15028,6 +17671,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ZEB1"
+    },
+    {
+      "pmid": "42525609",
+      "doi": "10.1159/oph/aeeag006",
+      "zotero_key": "AZBUCJZA",
+      "title": "Stage of Epiretinal Membrane and Central Bouquet Abnormalities: Key Predictors of Visual Acuity After Vitrectomy.",
+      "authors": [
+        [
+          "Shady",
+          "Suffo"
+        ],
+        [
+          "Alina",
+          "Bronnikova"
+        ],
+        [
+          "Monzer",
+          "Qassem"
+        ],
+        [
+          "Cristian",
+          "Munteanu"
+        ],
+        [
+          "Berthold",
+          "Seitz"
+        ],
+        [
+          "Alaa Din",
+          "Abdin"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "PURPOSE: To investigate the long-term visual outcome after vitrectomy for idiopathic epiretinal membrane (ERM) according to the preoperative stage of the disease, focusing on central bouquet abnormalities (CBA). METHODS: Our retrospective study included 280 eyes of 241 patients with idiopathic ERM who underwent pars-plana-vitrectomy (PPV) with membrane peeling (MP) and internal limiting membrane (ILM) peeling between 2016 and 2021. The best corrected visual acuity (BCVA) in logMAR, the central bouquet abnormalities (CBA), and the thickness of the ectopic inner foveal layer (EIFL) were documented using spectral-domain optical coherence tomography (SD-OCT) one day before surgery, 6 weeks, 6 months, and at the last available follow-up after surgery. RESULTS: Mean BCVA improved significantly at each postoperative follow-up compared to baseline (p<0.001). Patients with stage 2 ERM showed the greatest improvement in BCVA compared to other patients (p<0.001). The postoperative visual outcome has been negatively affected by higher ERM stage (p<0.001), preoperative presence of subfoveal detachment (SFD) (p=0.033), preoperative presence of vitelliform lesions (VL) (p=0.021), and the presence (p<0.001) and thickness (p<0.001) of EIFL. CONCLUSION: The earlier surgical treatment of ERM at stage 2 may result in better visual outcomes and a greater increase in vision. The preoperative presence of central bouquet abnormalities and thick ectopic inner foveal layer is associated with worse postoperative visual results.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "42208684",
@@ -15240,6 +17925,64 @@
       "subcollection": "ARID1B"
     },
     {
+      "pmid": "42327941",
+      "doi": "10.1021/acsnanoscienceau.5c00188",
+      "zotero_key": "GXD5GX75",
+      "title": "StructuralComplexity from Consecutive PostsyntheticTransformations: The Site-Specificity of Sequential Tellurium Anionand Cadmium Cation Exchange on Roxbyite Copper Sulfide Nanoparticles",
+      "authors": [
+        [
+          "Cat Tuong Nguyen",
+          "Dinh"
+        ],
+        [
+          "Clarisse",
+          "Doligon"
+        ],
+        [
+          "Noah",
+          "Ehrenberg"
+        ],
+        [
+          "Eli",
+          "Rudman"
+        ],
+        [
+          "Holden",
+          "Brown"
+        ],
+        [
+          "Alaina",
+          "Konicki"
+        ],
+        [
+          "Chul-Hyun",
+          "Jeong"
+        ],
+        [
+          "Qi",
+          "Luo"
+        ],
+        [
+          "Raymond E.",
+          "Schaak"
+        ],
+        [
+          "Katherine E.",
+          "Plass"
+        ]
+      ],
+      "journal": "ACS Nanoscience Au",
+      "year": "2026",
+      "abstract": "Abstract A crucial tool in the design of multicomponent nanoheterostructures is the ability to carry out reactions with site-specificity. Here, we examine the interplay of two site-specific postsynthetic transformations─tellurium anion exchange followed by cadmium cation exchange on Cu2-xS nanorods─to reveal how, together, they create numerous new nanoheterostructures with various interfaces and chemical components. By varying the temperature of the initial exchange, we obtained Cu2-xS/Cu2-xTe structures with varying numbers of Cu2-x Scores and thicknesses of Cu2-xTe shells. We then subjected these Cu2-xS/Cu2-xTe nanoheterostructures to either low- or high-temperature cadmium exchange. While many different factors dictating the position of cation exchange have been identified, here we find that differences in the ease of ion diffusion through Cu2-xS and Cu2-xTe direct the incoming Cd2+ toward reaction with Cu2-xS. This straightforward site preference for cation exchange, coupled with the ability to modulate the extent of tellurium and cadmium exchange, is used to create several distinctive nanostructure patterns. In particular, we demonstrate that the regioselectivity of Te2– anion exchange on Cu2-xS nanorods can be leveraged to produce distinct templates for cation exchange, resulting in a library of nontrivial nanoheterostructures. The demonstration of such a variety of different copper/cadmium chalcogenide structures shows that consecutive anion and cation exchanges offer new routes to novel materials.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
+    },
+    {
       "pmid": "42069863",
       "doi": "10.1038/s41598-026-51576-x",
       "zotero_key": "9HZZHT2T",
@@ -15442,6 +18185,88 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42157932",
+      "doi": "10.7150/ijbs.132743",
+      "zotero_key": "T7JAG33N",
+      "title": "Synonymous editing alters ion channel function, favoring prime editing for retinal disease correction",
+      "authors": [
+        [
+          "Meha",
+          "Kabra"
+        ],
+        [
+          "Mariya",
+          "Moosajee"
+        ],
+        [
+          "Ana",
+          "Navarrete"
+        ],
+        [
+          "Gregory A.",
+          "Newby"
+        ],
+        [
+          "Piper",
+          "Rawding"
+        ],
+        [
+          "Ruosen",
+          "Xie"
+        ],
+        [
+          "Hadas",
+          "Mechoulam"
+        ],
+        [
+          "Antonio",
+          "Rivera"
+        ],
+        [
+          "Alan",
+          "Hung"
+        ],
+        [
+          "Smriti",
+          "Tiwari"
+        ],
+        [
+          "Adam J.",
+          "Waxman"
+        ],
+        [
+          "Kaivalya",
+          "Molugu"
+        ],
+        [
+          "Krishanu",
+          "Saha"
+        ],
+        [
+          "Shaoqin",
+          "Gong"
+        ],
+        [
+          "David R.",
+          "Liu"
+        ],
+        [
+          "Bikash R.",
+          "Pattnaik"
+        ]
+      ],
+      "journal": "International Journal of Biological Sciences",
+      "year": "2026",
+      "abstract": "Point mutations in the KCNJ13 gene cause autosomal recessive childhood blindness, Leber congenital amaurosis (LCA16), by disrupting Kir7.1 channel function.We describe the etiology of the LCA16 retinopathy phenotype in three patients from two unrelated families harboring a homozygous KCNJ13 missense mutation (c.431T>C, p.Leu144Pro).Our in silico prediction and in vitro validation using a human iPSC-derived retinal pigmented epithelium (RPE) model created via lipid nanoparticle-mediated delivery of the adenine base editor (ABE8e) demonstrated that the L144P mutation impairs Kir7.1 channel function and confirmed that non-viral biologic delivery is clinically translatable.We used two cytosine base editors (CBEs, BE4max-WTCas9 and evoCDA-SpCas9-NG) to correct this mutation in an L144P HEK293 stable cell model, achieving high on-target editing efficiency.However, our electrophysiological measurements showed minimal functional rescue of the channel in CBE-edited cells due to bystander nucleotide editing.Editing with evoCDA introduced a bystander missense mutation (L143F), whereas BE4max primarily generated silent mutations.Extended characterization of BE4max-edited cells revealed a distorted mRNA structure, altered half-life, and reduced abundance of cognate tRNA, all associated with these silent changes.In contrast, prime editing successfully restored channel function.Prime editors targeting the L144P locus achieved approximately 20% on-target editing without introducing bystander nucleotide editing or synonymous changes.Functional assessment demonstrated a strong genotype-phenotype correlation, with restored Kir7.1 channel activity observed in 28% of edited cells (12/43).Overall, these results highlight the importance of comprehensive functional validation of genome editing outcomes and emphasize the need for rigorous preclinical studies to translate therapeutic genome editing into first-in-human trials for genetically diverse diseases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "KCNJ13"
+    },
+    {
       "pmid": "42237540",
       "doi": "10.1016/j.ymthe.2026.05.033",
       "zotero_key": "Z8IW7K9R",
@@ -15572,6 +18397,48 @@
       "subcollection": "Retinal dystrophies"
     },
     {
+      "pmid": "42058367",
+      "doi": "10.1515/nipt-2026-0006",
+      "zotero_key": "6PSWGCZE",
+      "title": "The 30 th Scientific Conference of the Society on NeuroImmune Pharmacology in Annapolis, Maryland, May 3 rd – 6 th , 2026",
+      "authors": [
+        [
+          "Linda Dongxia",
+          "Chang"
+        ],
+        [
+          "Susmita",
+          "Sil"
+        ],
+        [
+          "Jerel Adam",
+          "Fields"
+        ],
+        [
+          "Allison M.",
+          "Andrews"
+        ],
+        [
+          "Servio H.",
+          "Ramirez"
+        ],
+        [
+          "R J",
+          "Noel"
+        ]
+      ],
+      "journal": "NeuroImmune Pharmacology and Therapeutics",
+      "year": "2026",
+      "abstract": "Abstract The 30 th Annual Society on Neuroimmune Pharmacology (SNIP) conference will be held on May 3-6 th at the Graduate Hotel by Hilton in Annapolis, Maryland. This 4-day conference will present preclinical, translational, and clinical research in the intersecting fields of neuro-HIV and substance use disorders, as well as related neurodegenerative conditions. The speakers and poster presenters will share cutting-edge research funded by the National Institutes of Health. On the first day, we will have two concurrent preconference symposia. The first is “Single Cell HIV and SUD Effects on the Brain: SCORCH Consortium Progress”, with an overview and 7 presentations by investigators, highlighting the outstanding work in the Single Cell Opioid Response in the Context of HIV (SCORCH). The second concurrent symposium is “Catalyzing Interdisciplinary Research on HIV-Associated Co-occurring Conditions.” In the evening, we will have our first Poster Session with 52 abstracts by early-stage-career investigators (ECIs), including those that received the ECI travel awards. On days 2-4, in addition to a plenary talk and two memorial lectures, we will have 11 symposia, with 62 speakers (including 12 who are early-stage career investigator travel awardees), and 65 additional poster presentations. In total, the 30 th SNIP conference received 185 abstracts for the 70 oral presentations and 115 posters. Topics covered by these symposia and poster presentations include mechanistic and observational studies that evaluate neuronal injury and neuroinflammation associated with HIV brain infection, and how drugs of abuse, including stimulants, opioids, and cannabis, may exacerbate or mitigate neuropathogenesis. In addition, with the aging population of people with HIV and many with substance use disorders, recent work also evaluated how aging and various neurodegenerative disorders could further impact brain health. At the plenary lecture, Dr. Nora Volkow will highlight the priorities of HIV research at the National Institute on Drug Abuse (NIDA), while our banquet speaker, Dr. Avindra Nath will elucidate how viruses, particularly retroviruses, may invade the brain, infect brain cells, and adapt to the local environment for decades or mutate and possibly lead to neurodegenerative disorders. This will be an exciting conference that will continue SNIP’s emphasis on the career development of early-stage investigators.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "16340503",
       "doi": "10.1097/01.wno.0000189060.97681.20",
       "zotero_key": "E23FGVMJ",
@@ -15694,6 +18561,36 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Neurophysiologie oculaire"
+    },
+    {
+      "pmid": "42322135",
+      "doi": "10.1177/15578585261461974",
+      "zotero_key": "7NRM6TZ4",
+      "title": "The Effect of a Series of Lower Limb Pressotherapy Treatments on the Range of Motion of the Lower Limb Joints, Lower Limb Circumferences, and Body Composition in Young, Healthy Women",
+      "authors": [
+        [
+          "Bartłomiej",
+          "Ptaszek"
+        ],
+        [
+          "Oliwia",
+          "Kurek"
+        ],
+        [
+          "Szymon",
+          "Podsiadło"
+        ]
+      ],
+      "journal": "Lymphatic Research and Biology",
+      "year": "2026",
+      "abstract": "Purpose: In times when health and physical activity are gaining in value, the search for effective methods to support fitness and improve quality of life is becoming a priority. One of the therapies that is gaining increasing popularity is pressotherapy, which supports the regeneration of the body on many levels. Methods: The study was conducted on a group of 15 healthy, young women. The participants underwent 10 pneumatic compression therapy treatments using the CarePump Expert8 device. The participants were examined 4 times: a week before the first treatment, immediately before the first treatment, after the 10th treatment and a week after the 10th treatment. Results: Statistical analysis of mean changes in the range of motion values showed significant decrease in: right ( p &lt; 0.05) and left ( p &lt; 0.05) hip joint extension; right ( p &lt; 0.05) hip joint horizontal abduction; horizontal adduction of the right ( p &lt; 0.05) and left ( p &lt; 0.05) hip joint; dorsiflexion of the right ( p &lt; 0.05) and left ( p &lt; 0.05) ankle joint, and also an increase in: right ( p &lt; 0.05) and left ( p &lt; 0.05) hip external rotation. Statistical analysis of changes in mean values of circumferences showed significant decrease at all tested levels: P1 right ( p &lt; 0.05) and left ( p &lt; 0.05); U1 right ( p &lt; 0.05) and left ( p &lt; 0.05); U2 right ( p &lt; 0.05) and left ( p &lt; 0.05); K right ( p &lt; 0.05) and left ( p &lt; 0.05); G1 right ( p &lt; 0.05); and left ( p &lt; 0.05); G2 right ( p &lt; 0.05) and left ( p &lt; 0.05). Conclusions: A series of pressotherapy sessions did not improve lower limb range of motion or body composition indices; however, it did reduce circumferences at all levels of the lower limbs. Long-term use of pressotherapy can help maintain healthy fluid levels, improve circulation, and improve overall physical fitness.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "",
@@ -15878,6 +18775,112 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Vitreoretinopathies"
+    },
+    {
+      "pmid": "42231488",
+      "doi": "10.1186/s13023-026-04419-x",
+      "zotero_key": "AVGJ7E8J",
+      "title": "The impact of vision impairment on living with congenital aniridia: a pan-European survey study",
+      "authors": [
+        [
+          "Renáta",
+          "Schoffer"
+        ],
+        [
+          "Christina",
+          "Grupcheva"
+        ],
+        [
+          "Ivana",
+          "Kildsgaard"
+        ],
+        [
+          "Barbara",
+          "Poli"
+        ],
+        [
+          "Barbara",
+          "Käsmann-Kellner"
+        ],
+        [
+          "Nóra",
+          "Szentmáry"
+        ],
+        [
+          "Erika",
+          "Maka"
+        ],
+        [
+          "Mária",
+          "Csidey"
+        ],
+        [
+          "Annamária",
+          "Náray"
+        ],
+        [
+          "Fabian N.",
+          "Fries"
+        ],
+        [
+          "Zamira",
+          "Hoxha"
+        ],
+        [
+          "Tanja",
+          "Stachon"
+        ],
+        [
+          "Francisco",
+          "Figueiredo"
+        ],
+        [
+          "Jesper",
+          "Hjortdal"
+        ],
+        [
+          "Vito",
+          "Romano"
+        ],
+        [
+          "Claus",
+          "Cursiefen"
+        ],
+        [
+          "Galina",
+          "Genning"
+        ],
+        [
+          "Berthold",
+          "Seitz"
+        ],
+        [
+          "A.",
+          "Daruich"
+        ],
+        [
+          "D",
+          "Bremond-Gignac"
+        ],
+        [
+          "Rosa Sánchez de",
+          "Vega"
+        ],
+        [
+          "Neil",
+          "Lagali"
+        ]
+      ],
+      "journal": "Orphanet Journal of Rare Diseases",
+      "year": "2026",
+      "abstract": "BACKGROUND: Congenital aniridia is a rare but severe eye disease stemming from genetic variants in PAX6 or related genes and affecting all eye structures, causing lifelong disability. Awareness of the disease is poor even among ophthalmology professionals, and how the ocular pathology impacts quality of life for patients is largely unknown. To improve healthcare for this group, a patient perspective is needed. It was therefore the aim of this study to survey subjects with congenital aniridia from across Europe to determine the impact of vision impairment on their daily lives. METHODS: A purpose-developed survey instrument was created and validated by multiple stakeholders and subsequently distributed to individuals and families with congenital aniridia across 15 European countries through European and national aniridia patient associations and the treating ophthalmologists. Survey responses were collected using an online application available in 13 languages or from printed copies. Responses were translated into English and compiled for descriptive and quantitative statistical comparisons. RESULTS: Of 295 survey respondents (age range 0-79, 58.3% female), photophobia was the most prevalent symptom experienced daily by 83%, followed by 42% experiencing daily dryness, 34% reporting unstable vision daily and 20% experiencing daily ocular pain. 51% of those aged 19 years or younger experienced ocular pain once or more per week, increasing to 61% in adults aged 20 years or older. 93% used a smartphone, of which 55% did not require specialized assistive technology for its use. Most respondents had difficulty recognizing faces, could not read facial expressions, experienced difficulties at school or in the workplace and in social settings, reporting bullying, misunderstandings, social exclusion and isolation. 59% required help at home and 64% outside the home to accomplish daily living tasks, with children requiring help more frequently than adults. CONCLUSIONS: Congenital aniridia is characterized by multiple ocular symptoms experienced frequently, affecting daily living in all age groups. Areas to be addressed include provision of adequate symptom relief and improving inclusion, independence, and quality of life for this rare patient group, particularly for children.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PAX6"
     },
     {
       "pmid": "42336880",
@@ -16080,6 +19083,76 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Anterior segment examination"
+    },
+    {
+      "pmid": "42463491",
+      "doi": "10.1038/s41467-026-75539-y",
+      "zotero_key": "UWKEGVW9",
+      "title": "The minor spliceosome component U4atac regulates JAK/STAT signaling to modulate hematopoiesis and immune responses in Drosophila melanogaster",
+      "authors": [
+        [
+          "Dania",
+          "Shikara"
+        ],
+        [
+          "Eden",
+          "Bishop"
+        ],
+        [
+          "Nathan",
+          "Barton"
+        ],
+        [
+          "Stephanie",
+          "Makdissi"
+        ],
+        [
+          "Senthilkumar",
+          "Kailasam"
+        ],
+        [
+          "Attila",
+          "György"
+        ],
+        [
+          "Daria E.",
+          "Siekhaus"
+        ],
+        [
+          "Maria Carla",
+          "Borroto"
+        ],
+        [
+          "Philippe M.",
+          "Campeau"
+        ],
+        [
+          "Linda",
+          "Vong"
+        ],
+        [
+          "Chaim M.",
+          "Roifman"
+        ],
+        [
+          "Brendon D.",
+          "Parsons"
+        ],
+        [
+          "Francesca Di",
+          "Cara"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "The small nuclear RNA U4atac is a core component of the minor spliceosome. In humans, homozygous or compound heterozygous point mutations in U4atac cause rare developmental disorders, such as Roifman syndrome, characterized by growth restriction, brain anomalies, and immune deficiency. To better define the pathophysiological role of U4atac mutations, we here establish a model of minor spliceosome dysfunction by generating a Drosophila melanogaster CRISPR/Cas9-induced U4atac mutant in the highly conserved stem II region. U4atac homozygous mutants exhibit growth and neurodevelopmental defects, immunodeficiency, and gastrointestinal symptoms. Using bulk RNA-sequencing and functional assays, we reveal that mutations in U4atac affect the splicing of a large set of transcripts involved in innate immunity, hematopoiesis, and intestinal cell functions, including the Drosophila Janus kinase (JAK) homolog hopscotch (hop). Importantly, U4atac deficiency reduces Hop expression and causes Hop-related hematopoietic defects at the embryonic and larval stages. Notably, we also observe reduced expression of Jak1 and attenuated activation of downstream signaling in patients with Roifman syndrome. Thus, our work identifies alterations of Jak signaling as part of the pathogenesis of RNU4atac-opathy. The minor spliceosome is responsible for splicing 0.5% of all introns. However, the critical function is underscored by several pathologies linked to deficiencies in core minor spliceosome components. Here, the authors generate a CRISPR-Cas9 Drosophila mutant of the minor spliceosome component U4atac and show that mutations in U4atac affect the splicing and expression levels of Jak homolog hopscotch, resulting in reduced JAK/STAT signaling activation and defective blood cell development and immune responses.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU4ATAC"
     },
     {
       "pmid": "",
@@ -16332,6 +19405,44 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Ocular imaging, Imagerie oculaire"
+    },
+    {
+      "pmid": "42521208",
+      "doi": "10.3341/kjo.2026.0024",
+      "zotero_key": "2C5VSVT6",
+      "title": "Thirteen-Year Trends in Retinopathy of Prematurity Among High-Risk Preterm Infants Treated in a Neonatal Intensive Care Unit in South Korea",
+      "authors": [
+        [
+          "Seok Jae",
+          "Lee"
+        ],
+        [
+          "Seung Han",
+          "Shin"
+        ],
+        [
+          "Ee-Kyung",
+          "Kim"
+        ],
+        [
+          "Han-Suk",
+          "Kim"
+        ],
+        [
+          "Jeong Hun",
+          "Kim"
+        ]
+      ],
+      "journal": "Korean Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "Purpose: This study aimed to examine trends in the incidence, risk factors, and clinical features of retinopathy of prematurity (ROP) among high-risk preterm infants in a South Korean neonatal intensive care unit over 13 years. Methods: A retrospective study included 1114 high-risk preterm infants with gestational age (GA) < 32 weeks or birthweight (BW) < 1500 g, admitted to Seoul National University Children's Hospital from January 2009 to December 2021. Follow-up eye examinations were conducted at 3 years postnatal age. Trends in ROP incidence, risk factors, and ophthalmic complications were analyzed. Results: The overall ROP incidence was 37.1% (413/1114), and 17.9% (199/1114) required treatment. Over the study period, GA and BW significantly increased (p<0.05), but no trends were observed for ROP incidence or laser treatment rates. Lower GA, lower BW, and moderate to severe bronchopulmonary dysplasia (BPD) were significant risk factors for treated ROP (p<0.001). Infants treated with laser therapy showed a higher incidence of myopia, astigmatism, anisometropia, strabismus, and cataract at 3 years compared to those with mild or no ROP. Conclusions: Although mean GA and BW increased over the 13-year period, the incidence of ROP and the proportion requiring treatment did not show a statistically significant temporal decline and exhibited substantial year-to-year variation. Lower GA, lower BW, and moderate to severe BPD were key risk factors for severe ROP. Laser-treated infants experienced more ophthalmic complications, emphasizing the need for long-term ophthalmic monitoring of high-risk preterm infants.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARR3"
     },
     {
       "pmid": "",
@@ -16808,6 +19919,72 @@
       "subcollection": "IFT172"
     },
     {
+      "pmid": "42252293",
+      "doi": "10.1038/s41598-026-56837-3",
+      "zotero_key": "N64677BM",
+      "title": "Two-year prospective natural history study of EYS-associated retinitis pigmentosa using adaptive optics: the KEYS study",
+      "authors": [
+        [
+          "Hiraoka",
+          "Masakazu"
+        ],
+        [
+          "Maeda",
+          "Akiko"
+        ],
+        [
+          "Yamamoto",
+          "Midori"
+        ],
+        [
+          "Gofas-Salas",
+          "Elena"
+        ],
+        [
+          "Kitahata",
+          "Shohei"
+        ],
+        [
+          "Yokota",
+          "Satoshi"
+        ],
+        [
+          "Togashi",
+          "Yuki"
+        ],
+        [
+          "Toshimori",
+          "Masanao"
+        ],
+        [
+          "Kimura",
+          "Shuhei"
+        ],
+        [
+          "Hirami",
+          "Yasuhiko"
+        ],
+        [
+          "Kurimoto",
+          "Yasuo"
+        ],
+        [
+          "Gocho",
+          "Kiyoko"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2026",
+      "abstract": "This study was conducted to evaluate the longitudinal morphological changes in cone density (CD) in patients with the eyes shut homolog (EYS)-associated retinitis pigmentosa (RP) using adaptive optics (AO) fundus imaging and to assess its potential as a biomarker for disease progression. As a sub-analysis of the KEYS study, this prospective observational study was conducted at the Kobe Eye Center, involving 50 patients with EYS-RP; 27 eyes from 27 patients who were eligible for adaptive optics fundus imaging were included in this analysis. Ellipsoid zone (EZ) length was assessed using optical coherence tomography, and mean deviation (MD) values were obtained from Humphrey visual field testing. CD showed a significant reduction in all regions of interest as early as 6 months from baseline. In contrast, a significant decrease in EZ length was observed only at 24 months, while MD values did not exhibit significant changes throughout the observation period. AO fundus imaging demonstrated high sensitivity in detecting early structural changes in EYS-RP. These findings contribute to a deeper understanding of the natural history of the disease, and suggest that CD measurement may serve as a supplementary indicator for assessing disease progression.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "EYS"
+    },
+    {
       "pmid": "8227939",
       "doi": "",
       "zotero_key": "2XVTVP57",
@@ -16964,6 +20141,56 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42541639",
+      "doi": "10.1007/s12020-026-04716-2",
+      "zotero_key": "PH888PCU",
+      "title": "Under-recognition of autoimmune polyendocrine syndromes in T1DM: results from an extended screening workup",
+      "authors": [
+        [
+          "Valerio",
+          "Velardi"
+        ],
+        [
+          "Lidiana",
+          "Sanson"
+        ],
+        [
+          "Barbara",
+          "Toffoli"
+        ],
+        [
+          "Federico",
+          "Favaro"
+        ],
+        [
+          "Fabio",
+          "Fischetti"
+        ],
+        [
+          "Bruno",
+          "Fabris"
+        ],
+        [
+          "Riccardo",
+          "Candido"
+        ],
+        [
+          "Stella",
+          "Bernardi"
+        ]
+      ],
+      "journal": "Endocrine",
+      "year": "2026",
+      "abstract": "AIMS: Type 1 diabetes mellitus (T1DM) is frequently associated with other autoimmune disorders, particularly autoimmune thyroid disease (AITD) and celiac disease. Guidelines recommend screening for thyroid and celiac disease in T1DM patients. Nevertheless, in case of their positivity, indicating the presence of an autoimmune polyendocrine syndrome (APS), there is a lack of guidance on how to proceed. Should we screen these patients for other autoimmune diseases? This study's aim was to evaluate the prevalence of additional autoimmune conditions in a cohort of T1DM patients with AITD and/or celiac disease. METHODS: This cross-sectional study includes adult T1DM patients identified through electronic medical records. Patients with concomitant AITD or celiac disease were invited to undergo an extended screening workup for autoimmune disorders. RESULTS: 639 T1DM patients were identified, and 198 (31%) met the clinical criteria for APS (T1DM plus AITD and/or celiac disease), but only 17 (8.6%) had a formal APS diagnosis in their records. After the extended screening in 139/198 patients, 39% exhibited previously unknown autoantibody positivity, and 11.5% had new autoimmune diseases. Overall, among the patients who underwent the extended screening, 32% (44/139) were diagnosed with at least three autoimmune diseases. CONCLUSIONS: Our study shows that APS is often under-recognized and rarely formally documented in patients with T1DM. In addition, 32% of T1DM patients with AITD or celiac disease have at least a third autoimmune disease. These findings highlight that the identification of AITD or celiac disease in T1DM marks only one stage of the diagnostic journey. APS recognition should lead to a formal diagnosis and ensure heightened clinical vigilance with tailored evaluation of further autoimmune comorbidities during lifelong patient follow-up.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41763544",
       "doi": "10.1542/pir.2025-006814",
       "zotero_key": "2W42V7TS",
@@ -17066,6 +20293,80 @@
       "subcollection": "Syndromic ocular developmental anomalies"
     },
     {
+      "pmid": "42542940",
+      "doi": "10.4103/singaporemedj.smj-2025-211",
+      "zotero_key": "FQE96BT3",
+      "title": "Unmet needs in autoimmune liver disease: epidemiology and clinical outcomes from a Southeast Asian cohort",
+      "authors": [
+        [
+          "Shwetha",
+          "Thiyagarajan"
+        ],
+        [
+          "Jarell Jie-Rae",
+          "Tan"
+        ],
+        [
+          "Rahul",
+          "Kumar"
+        ],
+        [
+          "Jessica",
+          "Tan"
+        ],
+        [
+          "Kenneth W.",
+          "Lin"
+        ],
+        [
+          "Nicholas Chin Hock",
+          "Tee"
+        ],
+        [
+          "Chin Kimg",
+          "Tan"
+        ],
+        [
+          "Andrew Xia Huang",
+          "Tan"
+        ],
+        [
+          "Daphne Shih Wen",
+          "Ang"
+        ],
+        [
+          "Jeannie Peng Lan",
+          "Ong"
+        ],
+        [
+          "Tiing Leong",
+          "Ang"
+        ],
+        [
+          "Andrew",
+          "Kwek"
+        ],
+        [
+          "Kwong Ming",
+          "Fock"
+        ],
+        [
+          "Yu Jun",
+          "Wong"
+        ]
+      ],
+      "journal": "Singapore Medical Journal",
+      "year": "2026",
+      "abstract": "INTRODUCTION: The burden of autoimmune liver disease (AILD) is rising globally, yet data on its epidemiology and outcomes in Singapore remain limited. We aimed to characterise disease phenotype, treatment response and clinical outcomes among patients with autoimmune hepatitis (AIH), primary biliary cholangitis (PBC) and primary sclerosing cholangitis (PSC). METHODS: We retrospectively analysed patients diagnosed with AILD between 1995 and 2025 at a tertiary centre. Diagnoses and treatment responses for AILD were defined according to international guidelines. Clinical outcomes between AIH and PBC were compared using logistic regression, adjusted for baseline Model for End-stage Liver Disease score. RESULTS: Among 260 patients included, 71.2% had PBC, 22.0% had AIH, 3.8% had AIH/PBC overlap syndrome and 3.1% had PSC. The prevalence of AIH and PBC was 8.0 and 26.1 per 100,000 persons, respectively. Autoimmune hepatitis was independently associated with a higher risk of de novo steatotic liver disease (SLD) (adjusted odds ratio [OR] 5.90, 95% confidence interval [CI] 2.39-14.58). Compared with PBC, patients with AIH had a higher treatment response rate at 1 year (57.4% vs. 34.6%, P < 0.01) and a lower risk of overall mortality (OR 0.28, 95% CI 0.11-0.69). In patients with PBC, achieving a treatment response by the Toronto criteria was associated with improved transplant-free survival. CONCLUSION: The prevalence of AIH and PBC in our cohort mirrors that of East Asian populations. Despite a superior biochemical response, AIH was associated with a higher risk of hepatic steatosis. Underutilisation of second-line treatment in PBC represents an important gap for future improvement.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
       "pmid": "41651789",
       "doi": "10.1002/ajmga.70078",
       "zotero_key": "2TD44CXH",
@@ -17090,6 +20391,70 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
+    },
+    {
+      "pmid": "42538424",
+      "doi": "10.1007/s00210-026-05762-3",
+      "zotero_key": "35V2ARQ5",
+      "title": "Unveiling the pharmacological landscape of geniposidic acid: mechanisms of action, therapeutic benefits, and scientific challenges",
+      "authors": [
+        [
+          "Lakshmi Narayana",
+          "Ellutla"
+        ],
+        [
+          "Ashutosh",
+          "Rajput"
+        ],
+        [
+          "Bidya Dhar",
+          "Sahu"
+        ]
+      ],
+      "journal": "Naunyn-Schmiedeberg s Archives of Pharmacology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FBN1"
+    },
+    {
+      "pmid": "42188723",
+      "doi": "10.1097/icb.0000000000001828",
+      "zotero_key": "9HA3UC5J",
+      "title": "Utilization of Intracameral Viscoelastic Injection for the Management of Concurrent Choroidal and Retinal Detachment in a Glaucoma Patient",
+      "authors": [
+        [
+          "Rachel",
+          "Rothman"
+        ],
+        [
+          "Jonathan",
+          "Rho"
+        ],
+        [
+          "Charles R.",
+          "Blake"
+        ],
+        [
+          "Jonathan",
+          "Hu"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2026",
+      "abstract": "PURPOSE: The purpose of this report is to document a technique involving anterior chamber viscoelastic injections to address a serous choroidal detachment in the setting of a concurrent rhegmatogenous retinal detachment to improve surgical conditions. METHODS: A thorough chart review was performed on the patient in addition to a comprehensive literature review utilizing PubMed to gather current data on the treatment of combined choroidal and retinal detachments. RESULTS: A 72-year-old male presented with advanced glaucoma and high intraocular pressure (IOP). The patient's elevated IOP was refractory to maximum topical medical management; consequently, he underwent non-valved glaucoma drainage device (GDD) surgery. His recovery was complicated by chronic hypotony which led to the development of a combined choroidal and retinal detachment. Our team injected sodium chondroitin and sodium hyaluronate in the anterior chamber of the eye, which successfully alleviated the serous choroidal detachment prior to pars plana vitrectomy (PPV). The patient did not require any further retinal interventions for the 2 years of follow-up. His IOP has remained normal in the high single digits on three glaucoma agents with the tube still tied off permanently with 6-0 nylon. His visual acuity returned to baseline (20/200) after 6 weeks. CONCLUSION: This case demonstrates that intracameral viscoelastic injections prior to PPV can be utilized as rescue therapy to treat serous choroidal detachment in the setting of a rhegmatogenous retinal detachment in patients with GDD surgery to improve surgical conditions prior to retinal detachment repair.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TEK"
     },
     {
       "pmid": "41767322",
