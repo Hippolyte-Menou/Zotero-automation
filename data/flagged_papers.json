@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09T03:57:47Z",
+  "generated_at": "2026-08-16T03:16:40Z",
   "threshold_k": 0,
-  "total_evaluated": 25833,
-  "total_flagged": 481,
+  "total_evaluated": 26449,
+  "total_flagged": 486,
   "total_dismissed": 0,
   "total_unresolvable": 140,
   "hierarchy": {
@@ -98,7 +98,6 @@
       "BBS2",
       "BEST1",
       "CAPN15",
-      "CC2D2A",
       "CDHR1",
       "CEP290",
       "CHD7",
@@ -132,7 +131,6 @@
       "MYO7A",
       "MYOC",
       "MYRF",
-      "NAA10",
       "NAA15",
       "NDP",
       "NRL",
@@ -168,8 +166,12 @@
       "TGFBI",
       "TULP1",
       "TYR",
+      "TYRP1",
+      "UBIAD1",
+      "USH1C",
       "USH2A",
-      "ZEB1"
+      "ZEB1",
+      "ZNF408"
     ]
   },
   "articles": [
@@ -218,6 +220,82 @@
       ],
       "category": "6 - Genes",
       "subcollection": "MYOC"
+    },
+    {
+      "pmid": "32842192",
+      "doi": "10.13201/j.issn.2096-7993.2020.06.019",
+      "zotero_key": "WRGC2MUP",
+      "title": "[A case report of congenital sensorineural deafness caused by novel mutation in Usher1C and related literature analysis].",
+      "authors": [
+        [
+          "Min",
+          "Guo"
+        ],
+        [
+          "Weiwei",
+          "Han"
+        ],
+        [
+          "Shuling",
+          "Li"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2020",
+      "abstract": "To study the clinical features and causes of congenital Usher hearing loss in one child. Clinical examination, audiological tests, visual acuity examination were conducted in the proband and its family members, and second-generation sequencing technology for deafness gene detection was employed. The proband exhibited profound sensorineural deafness（hearing threshold>90 dB nHL）. There was no visual loss after follow-up. Other family members had no history of hearing loss. The gene test indicated that the proband had a frameshift mutation for the thymine（T） deletion at the 1527 site of the Usher1C gene. The mutation was a homozygous mutation, and was from the father and the mother, respectively, which caused the truncation of the encoded protein. Normal function, Usher syndrome or non-syndromic deafness DFNB18 can occur. This is the first case in China demonstrating congenital deafness due to homozygous mutation of Usher1C gene c. 1527delT. This study enriches the gene spectrum of deafness in China.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "USH1C"
+    },
+    {
+      "pmid": "29652990",
+      "doi": "10.3760/cma.j.issn.1003-9406.2018.02.010",
+      "zotero_key": "XECI3EV2",
+      "title": "[Analysis of pathological mutation in a Chinese pedigree affected with familial exudative vitreoretinopathy].",
+      "authors": [
+        [
+          "Ning",
+          "Su"
+        ],
+        [
+          "Litao",
+          "Qin"
+        ],
+        [
+          "Hongdan",
+          "Wang"
+        ],
+        [
+          "Haijun",
+          "Xiao"
+        ],
+        [
+          "Qiannan",
+          "Guo"
+        ],
+        [
+          "Tao",
+          "Li"
+        ],
+        [
+          "Shixiu",
+          "Liao"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2018",
+      "abstract": "OBJECTIVE: To detect potential mutation in a Chinese pedigree affected with familial exudative vitreoretinopathy (FEVR). METHODS: Clinical data of the pedigree was collected. Coding regions of candidate genes were amplified by PCR and subjected to next generation sequencing (NGS). Suspected mutations were verified by Sanger sequencing and segregation analysis. RESULTS: Two novel heterozygous mutations (c.1695dupC and c.552-563del) were respectively detected in the LRP5 and ZNF408 genes in the proband. Both mutations were inherited from the affected mother. By Sanger sequencing, the c.552-563del mutation was also detected among unaffected members, while the c.1695dupC mutation was only detected in affected members from the pedigree and was not recorded by the HGMD, NCBI, or 1000 genome database. Upon prenatal diagnosis, the fetus was found to carry the same mutations. CONCLUSION: Combined NGS and Sanger sequencing not only can reduce the time required for diagnosis but also enable accurate prenatal diagnosis for FEVR.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ZNF408"
     },
     {
       "pmid": "40372228",
@@ -392,6 +470,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
+    },
+    {
+      "pmid": "40623937",
+      "doi": "10.3760/cma.j.cn511374-20241108-00580",
+      "zotero_key": "KC552DU8",
+      "title": "[Clinical and genetic analysis of a patient with unilateral Pigmented paravenous retinochoroidal atrophy and Retinitis pigmentosa in the contralateral eye related to CRB1 gene variant].",
+      "authors": [
+        [
+          "Yongping",
+          "Tang"
+        ],
+        [
+          "Hanshi",
+          "Huang"
+        ],
+        [
+          "Xiaoyan",
+          "Lin"
+        ],
+        [
+          "Zai‐Long",
+          "Chi"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2025",
+      "abstract": "OBJECTIVE: To explore the clinical phenotype, genotype and genetic characteristics for a patient with unilateral Pigmented paravenous retinochoroidal atrophy (PPRCA) and Retinitis pigmentosa (RP) in the contralateral eye. METHODS: A PPRCA pedigree which had presented at the Department of Medical Genetics of the Eye Hospital of Wenzhou Medical University in August 2021 was selected as the study subject. Clinical data of the family members were collected. The proband underwent wide-field fundus photography, wide-field autofluorescence, full-field electroretinogram (ff-ERG), visual field testing, optical coherence tomography (OCT), and fundus angiography (FFA and ICGA). Blood samples were collected from the proband and family members (parents and two sisters), and buccal mucosal cells were collected from the proband's daughter, and genomic DNA was extracted for each family member. Whole exome sequencing (WES) was performed on the proband. Candidate variants were verified using Sanger sequencing and pathogenicity analysis. This study was approved by the Medical Ethics Committee of the Eye Hospital of Wenzhou Medical University (Ethics No. 2019-134). RESULTS: Wide-angle fundus photography and autofluorescence showed that the right eye was consistent with PPRCA and the left eye with RP. OCT showed that the outer layer of the fovea was intact in the right eye, while disorganized outer segment was found in the fovea of the left eye, and outer segment atrophies outside the fovea were found in both eyes. The amplitudes of ff-ERG decreased significantly in both eyes, and the amplitudes in right eye were slightly higher than those of the left eye. Visual field showed a paracentral arcuate scotoma in the right eye and severe centripetal contraction in the left eye. FFA showed hyperfluorescence in the retinal vein distribution area caused by atrophy of retinal pigment epithelium of the right eye and hypofluorescence related to bone spicule pigmentation, in addition with mottled hypofluorescence of choroid in the left eye. ICGA showed mild paravenous retinochroidal atrophy of the right eye and diffuse choroid capillaries atrophy in the middle and peripheral area of the left eye. WES revealed that the proband had a heterozygous c.2234C>T (p.Thr745Met) variant of the CRB1 gene. Sanger sequencing confirmed that the proband and family members except the father of the proband carried the same CRB1 gene variant. Based on the criteria and guidelines for the classification of genetic variation and related consensus from the American College of Medical Genetics and Genomics (ACMG), this variant was classified as pathogenic (PM3_VeryStrong+PM1+PM2_Supporting +PP3). CONCLUSION: The heterozygous c.2234C>T (p.Thr745Met) variant of the CRB1 gene may underlay the unilateral PPRCA with contralateral eye RP in this proband. Above findings have enriched the mutational spectrum of the CRB1 gene.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CRB1"
     },
     {
       "pmid": "",
@@ -888,6 +1000,52 @@
       "subcollection": "Syndromic congenital cataract"
     },
     {
+      "pmid": "40623933",
+      "doi": "10.3760/cma.j.cn511374-20250401-00193",
+      "zotero_key": "E5JXQKP8",
+      "title": "[Identification of a novel deep intronic variant associated with Joubert syndrome through combined whole-genome sequencing and RNA sequencing].",
+      "authors": [
+        [
+          "Fang",
+          "Liu"
+        ],
+        [
+          "Yan",
+          "Jiang"
+        ],
+        [
+          "Xin",
+          "Gui"
+        ],
+        [
+          "Yan",
+          "Xiao"
+        ],
+        [
+          "Xiaohang",
+          "Zhang"
+        ],
+        [
+          "Xuemei",
+          "Zhang"
+        ],
+        [
+          "Yali",
+          "Gao"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2025",
+      "abstract": "OBJECTIVE: To explore the genetic etiology of a Chinese pedigree with recurrent Joubert syndrome with negative results by whole-exome sequencing in the prior proband. METHODS: Chinese pedigree which opted elective abortion at the Women and Children's Hospital Affiliated to Chongqing Medical University in December 2024 was selected as the study subject. Whole-genome sequencing was carried out on fetal tissue after termination of pregnancy. Candidate variants were validated by Sanger sequencing and interpreted, while non-coding variant was analyzed using in silico prediction tools. RNA sequencing and cDNA sequencing were conducted on fetal brain tissue. This study was approved by the Medical Ethics Committee of the Hospital (Ethics No.2024YL045-02). RESULTS: Both the fetus and the affected child were found to harbor compound heterozygous variants of the CEP290 gene, namely c.7341dup (p.Leu2448fs*8) (pathogenic, maternally inherited) and c.1523-408G>A (likely pathogenic, paternally inherited). Both in silico analysis and fetal brain RNA sequencing confirmed aberrant RNA splicing caused by the intronic variant. CONCLUSION: This case has highlighted the value of combining whole-genome sequencing with RNA functional validation. Above results not only enriched the spectrum of CEP290 gene mutations but also underscored its diagnostic value in resolving complex prenatal cases, providing critical clues for the prenatal diagnosis and recurrence risk assessment in genetic counseling.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
+    },
+    {
       "pmid": "",
       "doi": "10.3760/cma.j.issn.1003-9406.2017.02.016",
       "zotero_key": "DDEWDWH7",
@@ -1172,6 +1330,48 @@
       ],
       "category": "6 - Genes",
       "subcollection": "MYO7A"
+    },
+    {
+      "pmid": "40910928",
+      "doi": "10.4274/jcrpe.galenos.2025.2025-5-2",
+      "zotero_key": "KHQUW29W",
+      "title": "A Case of CHARGE Syndrome with a Novel Intronic Variant in the CHD7 Gene",
+      "authors": [
+        [
+          "Eda",
+          "Kaya"
+        ],
+        [
+          "Emine",
+          "Çamtosun"
+        ],
+        [
+          "İsmail",
+          "Dündar"
+        ],
+        [
+          "Zeynep",
+          "Yılmaz"
+        ],
+        [
+          "Hatice",
+          "Saraç"
+        ],
+        [
+          "İbrahim",
+          "Tekedereli"
+        ]
+      ],
+      "journal": "Journal of Clinical Research in Pediatric Endocrinology",
+      "year": "2025",
+      "abstract": "CHARGE syndrome is an autosomal dominant disorder caused by variations in the CHD7 gene. The characteristic findings of the syndrome include coloboma (C), heart anomalies (H), choanal atresia (A), growth and developmental delay (R), genitourinary system anomalies (G), and ear anomalies and/or hearing loss (E). A 7.7-years-old male patient was initially referred after a partial empty sella appearance was noted on brain imaging during evaluation for developmental delay at 10 months of age. He had undergone surgery for choanal atresia and congenital heart disease. The patient exhibited severe postnatal growth retardation, hypertelorism, epicanthal folds, cleft palate, a thin upper lip, bilateral ear anomalies, preaxial polydactyly, and bilateral undescended testes. He had motor and mental developmental delay. Ophthalmologic examination showed retinal atrophy and coloboma. Genetic analysis identified a novel heterozygous c.5050+2T>C variant in intron 22 of the CHD7 gene, confirming the diagnosis of CHARGE syndrome. Furthermore, the patient had undergone bilateral orchiopexy at two years of age, and growth hormone therapy was initiated after a diagnosis of complete growth hormone deficiency at 19 months of age. A novel heterozygous variant in the CHD7 gene was identified in a patient, who presented with classical signs of CHARGE sydrome. Early recognition and diagnosis is important to enable initiation of timely treatment of potential complications associated with the disorder.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CHD7"
     },
     {
       "pmid": "41767075",
@@ -2062,52 +2262,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ADAMTSL4"
-    },
-    {
-      "pmid": "42263388",
-      "doi": "10.1016/j.knee.2026.104508",
-      "zotero_key": "F55QFJXF",
-      "title": "Adequate canal-filling ratio and extension stem length reduce radiographic loosening in revision total knee arthroplasty using hybrid fixation with grit-blasted, fluted stems",
-      "authors": [
-        [
-          "Po-Wei",
-          "Shao"
-        ],
-        [
-          "Yu-Chih",
-          "Lin"
-        ],
-        [
-          "Chun‐Ting",
-          "Chu"
-        ],
-        [
-          "Chih-Hsiang",
-          "Chang"
-        ],
-        [
-          "Chih-Chien",
-          "Hu"
-        ],
-        [
-          "Tung‐Wu",
-          "Lu"
-        ],
-        [
-          "Sheng-Hsun",
-          "Lee"
-        ]
-      ],
-      "journal": "The Knee",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RNU2-2"
     },
     {
       "pmid": "42482128",
@@ -3784,6 +3938,32 @@
       "subcollection": "RS1"
     },
     {
+      "pmid": "36727565",
+      "doi": "10.1111/pcmr.13082",
+      "zotero_key": "7ZKCUQPB",
+      "title": "Celebrating the life of James J. Nordlund, MD, a larger‐than‐life scholar, mentor, and friend",
+      "authors": [
+        [
+          "Raymond E.",
+          "Boissy"
+        ],
+        [
+          "Zalfa",
+          "Abdel‐Malek"
+        ]
+      ],
+      "journal": "Pigment Cell & Melanoma Research",
+      "year": "2023",
+      "abstract": "On July 24, 2022, the Pigment Cell Research and Dermatological communities lost one of their pillars, Professor James J. Nordlund, MD, at the age of 82. Dr. Nordlund was an expert clinician-scientist in pigmentary disorders, particularly vitiligo. He obtained his medical degree from the University of Minnesota, and did his residency in Internal Medicine at Duke University, followed by residency in Internal Medicine and Dermatology at Yale University, where he was mentored by, and collaborated with, the late Dr Aaron B. Lerner. Dr. Nordlund was an attending Dermatologist at Yale University for 14 years prior to taking the position of Chairman of the Department of Dermatology at the University of Cincinnati in 1983. One of his main missions as Chairman was to establish a basic science research division in Dermatology, focused on investigating the regulation of human pigmentation and pigmentary disorders. Under his leadership, the Department of Dermatology became recognized nationally and internationally as a center of excellence in pigment cell research. He recruited outstanding researchers to the faculty, including the late Estella Medrano, PhD, as well as outstanding clinicians. He was a great believer in collaboration and in multidisciplinary approach to research. He authored over 350 articles and was the editor of several books and monographs, the best known of which to the pigment cell community is The Pigmentary System, which he co-edited with Vincent Hearing, PhD, Richard King, MD, and Raymond Boissy, PhD. One of Jim's major contributions to the pigment cell research community was his role in establishing the PanAmerican Society for Pigment Cell Research and serving as its first President. This is in addition to his distinguished role as a major figure in the International Federation of Pigment Cell Societies. Under his tutelage, major discoveries emerged from the research division that he established, guided, and supported, including signaling pathways that regulate melanocyte function and proliferation, mechanisms of melanocyte senescence, function of TYRP-1 as a melanogenic enzyme, and TYRP1 gene in oculocutaneous albinism, and response of melanocytes to ultraviolet radiation. He was the first to introduce the concept of crosstalk between skin cells, and paracrine regulation of melanocytes, and pioneered the cutaneous immunosuppressive and anti-inflammatory role of α-MSH. Dr. Nordlund was the quintessential mentor and teacher, and was passionate about integrating the clinical and basic sciences. He implemented weekly basic science lectures and monthly journal clubs as part of the Dermatology residency training curriculum. He held weekly research meetings with the research faculty and staff, where he always provided guidance and innovative ideas. He encouraged thinking outside the box, and inspired courage in challenging existing dogma. Under his leadership, the Department of Dermatology at UC became the center for training of many scholars and visiting scientists from various countries, including Japan, Korea, Thailand, China, India, South Africa, Brazil, and Hungary. In Cincinnati, he established interdisciplinary collaborations with academic researchers and clinicians in Pediatrics, Surgery, Biochemistry, and Engineering, and with industry researchers, under the umbrella of the virtual Skin Institute. He also co-developed the MD/PhD physician scientist program in the College of Medicine at the University of Cincinnati. Jim's passion for pigment cell disorders led him to take a year of sabbatical in Moshe, Tanzania, in 1998 at the Regional Dermatology Training Center, where he trained physicians and treated patients. Despite the challenges of rudimentary clinics, and shortage in basic essentials for patient care, Jim considered this to be one of his best life experiences. Shortly after that, Jim joined Group Health Associates where he practiced as senior Dermatologist until his retirement in 2014. In addition to his scholarly activities, Jim is best remembered for his passion, care for, and kindness to all of those who worked with him. He was approachable, had an open-door policy, and was a good listener. He was positive, fair and modest. He gave credit to others whenever credit was due. He was a facilitator, who opened doors of opportunities to others. He celebrated the success of his faculty and residents and encouraged them to persevere when they failed. He created a friendly and pleasant work atmosphere in the department. Jim was a well-rounded individual. He enjoyed life to the fullest, embracing the arts and nature. He loved Opera theater and folk music, and was a docent at the Cincinnati Art Museum, and a member of the Literary Club of Cincinnati. His hobbies included hiking, photography, scuba diving, guitar playing and fishing. He encouraged others to take time off their busy work schedule to relax and enjoy family and other aspects of life. We, the ones who worked closely with him for many years, and got to know him first as a mentor, then as a close friend, are grateful for his guidance, encouragement, and belief in us. He was and remains an inspiration to us, and a role model that we aspire to walk in his giant footsteps.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TYRP1"
+    },
+    {
       "pmid": "",
       "doi": "10.2170/jjphysiol.41.351",
       "zotero_key": "CTWA572B",
@@ -3892,7 +4072,7 @@
     {
       "pmid": "42362912",
       "doi": "10.1038/s41443-026-01311-x",
-      "zotero_key": "G653XGJG",
+      "zotero_key": "IFDSGPX2",
       "title": "Challenging the paradigm: what is vasculogenic erectile dysfunction?",
       "authors": [
         [
@@ -5040,36 +5220,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Myopia"
-    },
-    {
-      "pmid": "42083041",
-      "doi": "10.1186/s13256-026-06070-3",
-      "zotero_key": "MI5HF5WX",
-      "title": "Compound heterozygous mutations in CC2D2A cause Meckel–Gruber syndrome: a case report and review of the literature",
-      "authors": [
-        [
-          "Lixin",
-          "Liu"
-        ],
-        [
-          "Yan",
-          "Lv"
-        ],
-        [
-          "X Y",
-          "Zhou"
-        ]
-      ],
-      "journal": "Journal of Medical Case Reports",
-      "year": "2026",
-      "abstract": "BACKGROUND: Meckel-Gruber syndrome is a rare autosomal recessive ciliopathy characterized by the triad of occipital encephalocele, polycystic kidney dysplasia, and postaxial polydactyly, with an estimated incidence of 1:13,250 to 1:140,000 live births. Pathogenic variants in CC2D2A, encoding a ciliary transition zone protein, account for 5-15% of MGS cases. This report highlights the diagnostic utility of whole-exome sequencing (WES) in delineating molecular etiologies of MGS and reviews genotype-phenotype correlations associated with CC2D2A mutations. CASE PRESENTATION: A 30-year-old Chinese primigravida (G1P0) from Shandong Province was referred at 23 week gestation following prenatal ultrasound detection of fetal anomalies. Key findings included bilateral enlarged hyperechoic kidneys (renal transverse diameter: 35 mm, > 95th percentile), occipital meningoencephalocele (29 × 25 × 12 mm) and bilateral postaxial hexadactyly. Prenatal counseling confirmed the fetal prognosis, and the parents chose to terminate the pregnancy. Postmortem WES revealed compound heterozygous CC2D2A variants. CONCLUSIONS: This case highlights that prenatal ultrasonography remains critical for early detection of MGS hallmarks, especially in resource-limited Settings. Second, WES-based molecular autopsy is crucial for definitive diagnosis and genetic counseling.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:citation"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CC2D2A"
     },
     {
       "pmid": "41531001",
@@ -6969,36 +7119,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41567223",
-      "doi": "10.3389/fimmu.2025.1768955",
-      "zotero_key": "UAIEJZDK",
-      "title": "Editorial: Autoimmune diseases: from molecular mechanisms to therapy development",
-      "authors": [
-        [
-          "Patrizia",
-          "Leone"
-        ],
-        [
-          "Nicola",
-          "Susca"
-        ],
-        [
-          "Vito",
-          "Racanelli"
-        ]
-      ],
-      "journal": "Frontiers in Immunology",
-      "year": "2026",
-      "abstract": "Autoimmune diseases comprise a heterogeneous group of disorders characterized by the immune system's failure to distinguish between self and non-self, leading to aberrant immune responses that target the body's own cells and tissues. This dysregulation manifests as chronic inflammation, tissue damage, and systemic dysfunction, with clinical presentations ranging from severe organ failure to subtle biochemical abnormalities. The pathogenesis of autoimmune diseases is shaped by complex interactions among genetic predisposition, environmental triggers, and epigenetic modifications, which together undermine immune self-tolerance.Given their wide-ranging effects on multiple organ systems and the overlap in clinical manifestations, diagnosing autoimmune disorders is inherently challenging. Proper diagnosis requires the identification of disease-specific biomarkers and the performance of tests to rule out other conditions. This research collection delves into the latest advances in understanding the molecular and cellular mechanisms underlying autoimmunity and current therapeutic approaches. These range from broadly used anti-inflammatory drugs to recent molecular-targeted therapies, such as Janus kinase (JAK) inhibitors, monoclonal antibodies, and emerging cellular therapies, including chimeric antigen receptor (CAR) T cell therapy and regulatory T cell (Treg) adoptive transfer or induction (1).At the core of autoimmune diseases lies the breakdown of immune self-tolerance, a process that drives the activation of autoreactive immune cells, especially T cells and B cells (2). In these diseases, an imbalance arises between effector T cells and Tregs, both locally at the site of tissue damage and systemically. The depletion or functional alteration of Tregs allows autoreactive cytotoxic CD8 + T cells to operate freely. They can migrate into affected tissues and directly interact with and destroy target cells. Additionally, CD4 + T cells exacerbate tissue damage by releasing large amounts of pro-inflammatory cytokines or activating B cells. These inflammatory signals draw many myeloid immune cells to the site of tissue injury. This initiates a localized immune response. Activated B cells mature into plasma cells, producing significant quantities of antibodies against selfantigens. These autoantibodies can activate the complement system, mediate cell destruction through antibody-dependent cell-mediated cytotoxicity (ADCC), or form immune complexes with various nucleic acids and related proteins. Immune complexes can deposit and trigger a strong inflammatory response, damaging organs and tissues. For example, in rheumatoid arthritis (RA), they contribute to osteocyte death and osteoarticular damage (2). In systemic lupus erythematosus (SLE), these complexes target the kidneys, leading to immune-mediated glomerulonephritis (3). Furthermore, the inflammatory response in autoimmune diseases is self-sustaining, driven by the release of pro-inflammatory cytokines and other signaling molecules (2). Notably, the Janus kinasesignal transducer and activator of transcription (JAK/STAT) pathway plays a pivotal role in sustaining this inflammatory cascade by regulating the expression of key pro-inflammatory genes.Dysregulation of the JAK/STAT pathway may promote the immune-mediated destruction of pancreatic beta-cells in type 1 diabetes (T1D) (4) and the intestinal epithelial cell death, along with intestinal barrier problems in inflammatory bowel disease (IBDs) in both humans and mice (5).The interplay between the innate and specific arms of immunity is complex and multifaceted, as illustrated by the case presented by Smertinaite et al. (6), in which an inflammatory stimulus, such as ectopic pregnancy, drives the relapse of myelin oligodendrocyte glycoprotein antibody-associated disease (MOGAD). The authors demonstrate that the relapse was associated with increased IL-1 and that a potent B-cell-depleting therapy can hamper this process. Chronic overactivation of plasmacytoid dendritic cells through Toll-like receptors 7 and 9 and the cGAS-STING signaling pathway leads to sustained type I interferon production during inflammatory responses, which can serve as biomarkers of SLE progression and may contribute to disease propagation (7). The cGAS-STING pathway also plays a role in other autoimmune diseases, such as RA (8) and Sjögren syndrome (9).In response to chronic inflammation, the host attempts to limit tissue damage by producing antiinflammatory cytokines, such as interleukin (IL)-37 and IL-38. These cytokines have been extensively studied in conditions such as osteoarthritis and RA (10), where they play a key role in mitigating the inflammatory environment (11). Specifically, IL-37 acts early by inhibiting proinflammatory pathways like STAT1, STAT3, p38 MAPK, ERK1/2, and NF-κB, and by influencing macrophage polarization, particularly the balance between pro-inflammatory (M1) and antiinflammatory (M2) subsets. Conversely, IL-38 limits T helper 17 (Th17)-mediated response.Elevated levels of IL-37 and IL-38 have been found both systemically and locally in individuals with RA, and are linked to the Disease Activity Score (DAS28) and histological changes. As patients enter remission, the levels of IL-37 and IL-38 decline, suggesting their potential as biomarkers for disease progression and therapeutic response, as well as a guide for personalized therapy (11).Liang et al. review how histone deacetylase 6 (HDAC6) modulates, at least in part, immune system functions and inflammatory responses in RA, SLE, and psoriasis (12).The bidirectional dialogue between the immune system and the microbial world continues to recalibrate our understanding of autoimmune diseases. Beyond its classical role in maintaining barrier integrity and hemostatic balance, the host-microbe interface has emerged as a potent modulator of systemic immunity. Microbial products can subvert tolerance through molecular mimicry, reshape lymphocyte repertoires, and activate pattern-recognition pathways that imprint long-lasting inflammatory tone. In this context, Wang et al. proposed gut-derived metabolites as discriminative biomarkers of immune status in RA. Through fecal metabolite profiling the authors distinguished between naïve and remission RA patients (13), implicating gut-derived bioactive compounds in systemic inflammatory modulation.Converging evidence also underscores the importance of infectious triggers in autoinflammatory conditions such as synovitis, acne, pustulosis, hyperostosis and osteitis (SAPHO) syndrome (14).The intersection of immune activation, hemostatic regulation, and inflammatory signaling represents an increasingly recognized axis in the pathobiology of autoimmune and autoinflammatory disorders.Sometimes immune and clotting responses can become simultaneously overly active, especially in diseases such as SLE, RA, and IBDs. Matsushita et al. (15) reported a rare case of retroperitoneal fibrosis with IgG4-expressing plasma cell infiltration. The patient experienced recurrent lifethreatening bleeding due to autoimmune coagulation factor XIII deficiency, which was successfully controlled through plasma exchange therapy. Mechanistic analysis revealed pathogenic autoantibodies targeting a structural component of the clotting factor, thereby impairing its function.This case underscores how immune dysregulation can directly undermine coagulation homeostasis, producing a dual burden of autoimmunity and hemorrhagic risk.Despite being classically immune-mediated, a subset of patients remains unresponsive to immunosuppressive therapies. In this context, the report by Sau et al. ( 16) is notable: the authors describe a case in which a thrombopoietin receptor agonist successfully restored platelet counts in a patient with immune thrombocytopenia resistant to multiple immunomodulatory regimens.The accelerating shift toward precision medicine in immunology is grounded in the rapid expansion of molecular diagnostics capable of guiding individualized therapeutic decisions. By integrating genetic, serologic, and transcriptional data, clinicians are increasingly able not only to predict disease risk but also to tailor interventions that improve efficacy, minimize toxicity, and optimize healthcare resources. Autoantibodies remain among the most informative biomarkers in autoimmune and immune-mediated disorders. Liu et al. (17) have illustrated this principle through an unusual anti-PL7-mediated syndrome in which a discrete serologic signature presaged unexpected pulmonary manifestations, with important therapeutic implications in the cure of early-stage disease. Similarly, the cases described by Qin and Yan (18) have shown how convergent autoantibody profiles may unify multiple disparate neurological autoimmune conditions, underscoring the diagnostic and pathogenic value of humoral signatures.Beyond serology, high-resolution transcriptional profiling is emerging as a powerful means of monitoring immune perturbations and therapeutic response. Royo et al. (19) provide a compelling example in SLE, delineating the miRNA and mRNA alterations induced by belimumab treatment.Their findings support the potential of miRNAs, such as miR-146a, as novel biomarkers capable of capturing both disease activity and response to therapy. Moreover, Xu et al. (20) show that even therapeutics may be revitalized through biomarker-based stratification. They demonstrated that rituximab, despite its established role across multiple autoimmune diseases, can achieve improved cost-effectiveness and sustained clinical benefit when guided by individualized biomarker thresholds.Over the past two decades, immunology has witnessed a decisive shift from broad immunosuppression toward precision manipulation of pathogenic pathways. Molecular-targeted agents, including JAK inhibitors and anticytokine monoclonal antibodies (mAbs), have redefined the standard of care in multiple autoimmune and inflammatory diseases by selectively extinguishing the signals that sustain chronic immune activation. The clinical success of TNF-α and IL-17 blockade in RA and psoriasis remains emblematic of this paradigm, demonstrating how interrupting a single cytokine axis can arrest the propagation phase of inflammation and induce durable remission. Indeed, the profound efficacy of TNF-α inhibition across RA and psoriatic arthritis underscores its role as a non-redundant driver of these disorders (21,22).Parallel advances in B-cell-targeted therapies have expanded the therapeutic armamentarium for antibody-mediated diseases. Deng et al. (23) have highlighted the potential of ofatumumab, a novel fully human monoclonal antibody that selectively eliminates B lymphocytes, in anti-N-Methyl-Daspartate receptors (NMDAR) encephalitis. They reported how next-generation mAbs may offer advantages in potency, tissue penetration, or safety relative to conventional B-cell-depleting agents.Similarly, the landscape of Graves' ophthalmopathy is rapidly evolving, with Wang and Chen (24) providing a panoramic view of emerging targeted therapies (such as mAbs targeting CD20, IL-6 R, and insulin-like growth factor-1 receptor) aimed at interrupting fibroblast activation and orbital tissue As computational power and multi-omic datasets continue to expand, in silico modeling is emerging as an indispensable counterpart to classical in vivo systems. Wei et al. (28) have highlighted the utility of bioinformatic approaches in identifying shared pathogenic pathways across coexisting autoimmune diseases within the same individual. Importantly, their findings illustrated that integrative computational analyses can yield clinically actionable insights, enabling more precise and individualized therapeutic strategies.Growing evidence suggests that nutraceuticals may confer therapeutic or preventive benefits across a variety of chronic conditions, including immune-mediated disorders. For instance, Ganoderma lucidum, a fungal product, component of traditional Chinese medicine, has garnered particular interest for its antioxidant and anti-inflammatory activities, and for the absence of reported toxicity (29)",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "TGFBI"
-    },
-    {
       "pmid": "41800620",
       "doi": "10.1002/ohn.70198",
       "zotero_key": "XU4UD9DF",
@@ -7682,7 +7802,7 @@
     {
       "pmid": "42146989",
       "doi": "10.5005/jp-journals-10071-25143",
-      "zotero_key": "AKZT4SHX",
+      "zotero_key": "23KQ7DBU",
       "title": "Evaluation of the Potential Efficacy of Bacteriophage Therapy for the Management of Pressure Ulcers and Its Comparison to Conventional Therapy: A Randomized Controlled Trial",
       "authors": [
         [
@@ -8690,76 +8810,6 @@
       "subcollection": "RS1"
     },
     {
-      "pmid": "41920472",
-      "doi": "10.1007/s11136-026-04223-x",
-      "zotero_key": "B87E5HHG",
-      "title": "From QI-disability to QID-12: creating a brief proxy-report measure of quality of life for children with intellectual disability",
-      "authors": [
-        [
-          "Melissa K.",
-          "Licari"
-        ],
-        [
-          "Andrew JO",
-          "Whitehouse"
-        ],
-        [
-          "Natasha N.",
-          "Ludwig"
-        ],
-        [
-          "Mary",
-          "Wojnaroski"
-        ],
-        [
-          "Rebecca",
-          "Hommer"
-        ],
-        [
-          "Gabrielle",
-          "Conecker"
-        ],
-        [
-          "JayEtta",
-          "Hecker"
-        ],
-        [
-          "Kelly",
-          "Muzyczka"
-        ],
-        [
-          "H. M.",
-          "Leonard"
-        ],
-        [
-          "Katrina",
-          "Williams"
-        ],
-        [
-          "Dinah",
-          "Reddihough"
-        ],
-        [
-          "J.",
-          "Downs"
-        ],
-        [
-          "P.",
-          "Jacoby"
-        ]
-      ],
-      "journal": "Quality of Life Research",
-      "year": "2026",
-      "abstract": "PURPOSE: Quality of Life Disability (QI-Disability) is a 32-item parent-report measure assessing quality of life (QOL) in children with intellectual disability across domains of physical health, positive emotions, negative emotions, social interactions, leisure and outdoors, and independence. This study aimed to develop and validate a short form for use in clinical and research settings. METHODS: Caregivers of 1,699 children with intellectual disability aged 3–18 years and representing mild to profound functional impairments, completed the QI-Disability measure as part of different studies. A Genetic Algorithm (GA) was applied to select a reduced item set. The short form was evaluated against the original scale using correlational, reliability, and Rasch analyses. RESULTS: The GA-derived 12-item set (QID-12) represented each of the six QOL domains. Correlation between QID-12 and QI-Disability total scores was high (r = 0.97). Internal consistency of QID-12 was acceptable (α = 0.85). Rasch analysis demonstrated good fit of all items to the partial credit model, person separation reliability was 0.84, and there was no evidence of multidimensionality (p > 0.99). Item targeting was appropriate across the ability spectrum. Disordered category thresholds were observed for three items, but overall psychometric performance remained satisfactory. CONCLUSION: QID-12 provides a valid and reliable short form of the QI-Disability. It retains coverage of the key domains of child QOL while substantially reducing respondent burden, supporting its use in both clinical practice and population research.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARID1B"
-    },
-    {
       "pmid": "42106822",
       "doi": "10.1186/s12920-026-02385-8",
       "zotero_key": "4PRIZIIX",
@@ -9238,6 +9288,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "MYOC"
+    },
+    {
+      "pmid": "34897530",
+      "doi": "",
+      "zotero_key": "3RUW5UPR",
+      "title": "Genetic Variability in Slovenian Cohort of Patients with Oculocutaneous Albinism.",
+      "authors": [
+        [
+          "Tinka",
+          "Hovnik"
+        ],
+        [
+          "Maruša",
+          "Debeljak"
+        ],
+        [
+          "Manca Tekavčič",
+          "Pompe"
+        ],
+        [
+          "Sara",
+          "Bertok"
+        ],
+        [
+          "Tadej",
+          "Battelino"
+        ],
+        [
+          "Branka Stirn",
+          "Kranjc"
+        ],
+        [
+          "Katarina Trebušak",
+          "Podkrajšek"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2021",
+      "abstract": "Oculocutaneous albinism (OCA) is an inherited disorder affecting the visual system and skin pigmentation. Our aim was to evaluate genetic and clinical heterogeneity in a cohort of Slovenian paediatric patients with clinically suspected OCA using advanced molecular-genetics approach. In as much as 20 out of 25 patients, genetic variants explaining their clinical phenotype were identified. The great majority of patients (15/25) had genetic variants in TYR gene associated with OCA type 1, followed by variants in TYRP1, SLC45A2 and HPS1 genes causative for OCA3, OCA4 and Hermansky-Pudlak syndrome type 1, respectively. We concluded that OCA phenotype could not predict genotype and vice versa. Nevertheless, the diagnostic yield after targeted next generation sequencing (NGS) was 80% and proved to be affective in our paediatric cohort of patients with various degree of OCA. Even in 16 patients with normal complexion the diagnostic yield was 62,5%. Interestingly, we have identified a patient of white European ancestry with OCA3, which is an extremely rare report, and one patient with OCA due to the Hermansky-Pudlak syndrome type 1.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TYRP1"
     },
     {
       "pmid": "42211199",
@@ -10214,32 +10310,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "42302431",
-      "doi": "10.1016/j.socscimed.2026.119510",
-      "zotero_key": "XM9J2MNH",
-      "title": "HIV, public health, and the “unwilling or unable” person living with HIV",
-      "authors": [
-        [
-          "Eric",
-          "Mykhalovskiy"
-        ],
-        [
-          "Colin",
-          "Hastings"
-        ]
-      ],
-      "journal": "Social Science & Medicine",
-      "year": "2026",
-      "abstract": "This paper responds to recent calls from advocates for research on the public health governance of HIV. Drawing on a critical social science with public health approach and theoretical insights from Dorothy Smith and Michel Foucault, we offer a study of key texts that guide public health efforts to prevent HIV transmission in Canada. We explore how the texts lay out case management as an objectified course of action linking risk assessment and public health intervention in ways coordinated by the concept of the \"unwilling or unable\" person living with HIV or \"U2\" individual. Our analysis emphasizes how the \"U2\" concept: (1) establishes a kind of person as a problem that requires public health intervention and management; (2) is implicated in forms of risk assessment and intervention that amplify risk and create discursive conditions that can encourage public health overreach; and (3) propels calls for cross-sector collaboration that can lead to the over-surveillance of people living with HIV, while underestimating the harms of introducing criminal legal system actors into HIV case management. Our hope is that highlighting these concerns can support dialogue among public health authorities, people living with HIV, advocates, and others to improve public health guidance on reducing HIV transmission.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RNU2-2"
     },
     {
       "pmid": "42541874",
@@ -11900,40 +11970,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41723537",
-      "doi": "10.1186/s13048-026-02034-9",
-      "zotero_key": "5XS38R3R",
-      "title": "Lifestyle factors for polycystic ovary syndrome: a case-control study",
-      "authors": [
-        [
-          "Xiaona",
-          "Huo"
-        ],
-        [
-          "Han",
-          "Liu"
-        ],
-        [
-          "Min",
-          "Nian"
-        ],
-        [
-          "George",
-          "Zhang"
-        ]
-      ],
-      "journal": "Journal of Ovarian Research",
-      "year": "2026",
-      "abstract": "Lifestyle interventions have been proposed to be the first-line treatment for polycystic ovarian syndrome (PCOS), but our knowledge of PCOS-related lifestyle factors is still limited. This study aimed to explore PCOS-related lifestyle factors in reproductive-age women in China. A case-control study was carried out in Shandong, China, from June to October 2014. 350 PCOS-related infertile women were recruited as cases, while 308 women who were seeking the treatment of fallopian tube obstruction or assisted reproduction due to male infertility were recruited as controls. Several specific lifestyle and behavioral factors associated with EDC exposure were examined. Multivariate logistic regression analysis was used to estimate the odds ratios (ORs) and 95% confidence intervals (CI). There were no differences in socio-demographic characteristics, smoking, and alcohol consumption between the cases and controls. PCOS women had significantly more obesity than the controls (P < 0.01). After controlling for potential confounders, using foam or plastic cups at home (daily vs. never: adjusted odds ratio [aOR] 2.6, 95% confidence interval [CI] 1.4–4.5), using foam or plastic tableware at home (occasionally vs. never: aOR 1.7, 95% CI 1.2–2.5), eating melons and fruits without pericarp (for occasionally vs. always/often: aOR 1.6, 95% CI 1.0–2.5), drinking tap water vs. spring water/bottled water (aOR 1.5, 95% CI 1.1–2.2), cooking (daily vs. ≤ 1 time/week: aOR 1.8, 95% CI 1.2–2.8), contacting liquid detergent (1.5 to 3 h/week vs. < 1.5 h/week, aOR 2.5, 95% CI 1.3–4.9), and contacting soap or shampoo (3–6 vs. < 3 h/week, aOR 2.1, 95% CI 1.2–3.8) were significantly associated with PCOS. The association between mild cooking oil fumes and PCOS risk was attenuated after adjustment, but it remained borderline significant (aOR 1.4, 95% CI 0.97–1.9). Our study suggests that PCOS may be associated with certain lifestyle factors. Future prospective studies are needed to confirm our findings.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41761912",
       "doi": "",
       "zotero_key": "SBR3ZAE9",
@@ -12060,6 +12096,64 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Ocular developmental anomalies"
+    },
+    {
+      "pmid": "42581602",
+      "doi": "10.1093/stmcls/sxag045",
+      "zotero_key": "PRFK5DQF",
+      "title": "Loss of ABCA4 from photoreceptor discs is associated with glial transcriptomic changes in retinal organoids",
+      "authors": [
+        [
+          "Rossella",
+          "Valenzano"
+        ],
+        [
+          "Andrew",
+          "McDonald"
+        ],
+        [
+          "Carmen",
+          "Gallego"
+        ],
+        [
+          "Charlotte A.",
+          "Andriessen"
+        ],
+        [
+          "Ioannis",
+          "Moustakas"
+        ],
+        [
+          "Aat A.",
+          "Mulder"
+        ],
+        [
+          "Harald M M",
+          "Mikkers"
+        ],
+        [
+          "Roman I.",
+          "Koning"
+        ],
+        [
+          "Hailiang",
+          "Mei"
+        ],
+        [
+          "Jan",
+          "Wijnholds"
+        ]
+      ],
+      "journal": "Stem Cells",
+      "year": "2026",
+      "abstract": "Loss-of-function mutations in the ABCA4 gene cause Stargardt disease (STGD1), the most common inherited macular dystrophy leading to progressive central vision loss. Here, we generated hiPSC-derived retinal organoids harboring a premature stop codon in exon-24 of ABCA4 to evaluate the impact of this mutation on mRNA and protein levels in a human model. Immunofluorescence analysis revealed the absence of ABCA4 protein in the mutant photoreceptor outer segment discs, while single-cell RNA sequencing detected no major transcriptional alterations in rods and cones. Unexpectedly, differential gene expression and pathway enrichment analyses of Müller glial cells (MGCs) and astrocytes highlighted disruption of neuronal development, microenvironment of glial cells, intercellular communication, and programmed cell death pathways. These findings suggest that ABCA4 deficiency in photoreceptor discs may trigger early stress-associated transcriptomic responses in retinal glial cells prior to overt photoreceptor degeneration, potentially contributing to Stargardt disease pathogenesis. Human induced pluripotent stem cells (hiPSCs) were engineered to generate ABCA4-mutant cell lines, later differentiated into retinal organoids as a model of Stargardt disease. The organoids showed loss of ABCA4 from the outer segment discs of rod and cone photoreceptors, while the mutant Müller glial cells and astrocytes exhibited transcriptional changes in pathways involved in neuronal development, microenvironment, and programmed cell death. Created in https://BioRender.com.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ABCA4"
     },
     {
       "pmid": "41904678",
@@ -12370,6 +12464,28 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41542204",
+      "doi": "10.4103/joacp.joacp_140_25",
+      "zotero_key": "UIZFAVWM",
+      "title": "Methodological limitations in acceleromyographic monitoring: A comment on the study by Dhar et al.",
+      "authors": [
+        [
+          "Mustafa",
+          "Büyükcavlak"
+        ]
+      ],
+      "journal": "Journal of Anaesthesiology Clinical Pharmacology",
+      "year": "2025",
+      "abstract": "Dear Editor, I read with interest the study by Dhar et al.[1] comparing the effect of lignocaine and fentanyl on neuromuscular recovery in pediatric anesthesia. While the study addresses an important clinical question, the lack of train-of-four (TOF) ratio normalization in acceleromyography (AMG) measurements raises methodological concerns. AMG is prone to “inverse fade,” where baseline TOF ratios often exceed 1.0. Without normalization, TOF ratios may falsely indicate recovery. Recent work by Wedemeyer et al.[2] demonstrated that 42% of non-normalized AMG readings exceed 1.1, masking residual neuromuscular block. Similarly, Brull and Fuchs-Buder[3] highlighted AMG’s high variability and urged normalization for accuracy. In this study, a reported TOF of 0.9 might correspond to a normalized ratio 1.0—would enhance methodological rigor.[3] The authors’ contribution to pediatric anesthesia is commendable. However, TOF normalization is critical for accurate neuromuscular monitoring. Addressing this limitation would improve the study’s clinical relevance and align it with contemporary standards. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ZEB1"
+    },
+    {
       "pmid": "19947808",
       "doi": "10.1592/phco.29.12.1491",
       "zotero_key": "CCV6U59J",
@@ -12468,6 +12584,80 @@
       "subcollection": "USH2A"
     },
     {
+      "pmid": "42044428",
+      "doi": "10.5152/turkarchpediatr.2025.25326",
+      "zotero_key": "BX8PQJK2",
+      "title": "Molecular Spectrum and Deep Phenotyping of a Turkish Joubert Syndrome Cohort, Including a Potential Candidate Gene, NPHP4",
+      "authors": [
+        [
+          "S.",
+          "Türk"
+        ],
+        [
+          "Nilay",
+          "Güneş"
+        ],
+        [
+          "Anıl",
+          "Gök"
+        ],
+        [
+          "Esma",
+          "Şengenç"
+        ],
+        [
+          "Veysi",
+          "Demirbilek"
+        ],
+        [
+          "Büşra",
+          "Kasap"
+        ],
+        [
+          "Serdar",
+          "Arslan"
+        ],
+        [
+          "Dilek Uludağ",
+          "Alkaya"
+        ],
+        [
+          "Kutlay",
+          "Gür"
+        ],
+        [
+          "Civan",
+          "Işlak"
+        ],
+        [
+          "Sema",
+          "Saltık"
+        ],
+        [
+          "Bülent",
+          "Kara"
+        ],
+        [
+          "Cengiz",
+          "Yalçınkaya"
+        ],
+        [
+          "Beyhan",
+          "Tüysüz"
+        ]
+      ],
+      "journal": "Turkish Archives of Pediatrics",
+      "year": "2025",
+      "abstract": "OBJECTIVE: Joubert syndrome (JS) is a rare neurodevelopmental ciliopathy defined by the molar tooth sign (MTS) on brain magnetic resonance imaging accompanied by hypotonia, oculomotor apraxia (OMA), developmental delay, and multisystem involvement. With over 40 genes implicated, JS displays genetic and phenotypic heterogeneity. This study aimed to define the clinical and molecular spectrum of JS in a Turkish cohort. MATERIALS AND METHODS: This study included 31 JS patients from 28 unrelated families, followed for 7.4 years. Genetic variants were identified using whole exome sequencing and confirmed by Sanger sequencing. RESULTS: Genetic diagnosis was established in 23 families in 13 JS-related genes, with AHI1 (17.9%) and CEP290 (14.3%) most frequently affected. Thirteen novel variants were identified, including a variant of uncertain significance in NPHP4 in a patient with OMA, retinal involvement, MTS, and grade-III vesicoureteral reflux (VUR). The MTS was absent in 2 AHI1 and atypical in 1 TMEM107 patient; others exhibited typical MTS. Ptosis occurred in all MKS1 and TCTN2 patients. Retinopathy and vision impairment were most common in AHI1 and CEP290. Cognitive outcomes varied; normal cognitive function was seen in 1 AHI1 and 1 CEP290 case. Renal/hepatic involvement was generally mild; kidney hypoplasia occurred in 1 AHI1, VUR in 1 NPHP4, and transient transaminase elevation in 1 TCTN2 patient. One patient without a genetic diagnosis had situs inversus totalis. Intra-familial variability occurred among siblings carrying an AHI1 variant. CONCLUSION: This study highlights the genotypic and phenotypic diversity of JS, identifying 13 novel variants and suggesting NPHP4 as a potential JS-associated gene.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CEP290"
+    },
+    {
       "pmid": "41768827",
       "doi": "",
       "zotero_key": "M7WWUKCB",
@@ -12496,36 +12686,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "42230209",
-      "doi": "10.1016/j.bja.2026.04.053",
-      "zotero_key": "EMDDVEA5",
-      "title": "Morphine and hydromorphone pharmacodynamics in human volunteers: sensitivity to benefit–harm thresholds. Comment on Br J Anaesth 2026; 136: 1459-71",
-      "authors": [
-        [
-          "Yiran",
-          "Feng"
-        ],
-        [
-          "Boyi",
-          "Zhang"
-        ],
-        [
-          "Jiale",
-          "Chen"
-        ]
-      ],
-      "journal": "British Journal of Anaesthesia",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RNU2-2"
     },
     {
       "pmid": "",
@@ -12610,68 +12770,6 @@
       "subcollection": "CHST6"
     },
     {
-      "pmid": "40831340",
-      "doi": "10.1002/jmri.70057",
-      "zotero_key": "J3IJVBDB",
-      "title": "MR Electrical Properties Tomography Acquisitions: A Guideline From the ISMRM Electro‐Magnetic Tissue Properties Study Group",
-      "authors": [
-        [
-          "Stefano",
-          "Mandija"
-        ],
-        [
-          "Cornelis A. T. van den",
-          "Berg"
-        ],
-        [
-          "Ilias I.",
-          "Giannakopoulos"
-        ],
-        [
-          "Zhongzheng",
-          "He"
-        ],
-        [
-          "Y.Z.",
-          "Ider"
-        ],
-        [
-          "Kyu‐Jin",
-          "Jung"
-        ],
-        [
-          "Nitish",
-          "Katoch"
-        ],
-        [
-          "Dong‐Hyun",
-          "Kim"
-        ],
-        [
-          "Riccardo",
-          "Lattanzi"
-        ],
-        [
-          "Paul",
-          "Soullié"
-        ],
-        [
-          "Ulrich",
-          "Katscher"
-        ]
-      ],
-      "journal": "Journal of Magnetic Resonance Imaging",
-      "year": "2025",
-      "abstract": "The electrical properties of human tissue (i.e., electrical conductivity σ and permittivity ε) can be measured quantitatively in vivo with standard MR sequences and standard MR systems using a technique called Electrical Properties Tomography (EPT) [1, 2]. The full implementation of EPT involves first measuring the complex RF transmit field component B1+ (i.e., its magnitude |B1+| and phase ϕ+) as modulated by the tissue electrical properties, and then reconstructing σ and ε from the modulated B1+. The reconstructed electrical properties correspond to the Larmor frequency of the applied main field strength B0. This article is meant as a short guideline for measuring complex B1+ for EPT. A comprehensive review on how to perform the subsequent reconstruction of σ and ε from the measured complex B1+ was reported earlier [3]. Software packages performing such reconstructions are available publicly [4-6], and so are EPT example datasets [7, 8]. This guideline will be complemented by two further EPT-related guidelines, that is on standardization and phantom building, provided in separate articles. Together, these three guidelines are thought to parallel corresponding guidelines on mapping magnetic properties of tissue [9]. Although sequences with simultaneous measurements of |B1+| and ϕ+ are possible [10], current practice is to use separate measurements for |B1+| and ϕ+, as described in the following. Numerous B1-mapping techniques for measuring |B1+| have been published, independent of EPT (e.g., Actual Flip angle Imaging (AFI) [11], Bloch-Siegert mapping [12], and Dual Refocusing Echo Acquisition Mode (DREAM) [13]). A comparison of B1-mapping techniques on the determination of ε primarily highlighted the need for high SNR [14]. On the other hand, reviews of B1-mapping techniques without reference to EPT were published [15]. Although relative units of |B1+| are sufficient for the majority of EPT approaches, such as differential equation-based methods, absolute scaling of |B1+| (e.g., in μT) is required for other EPT approaches, like some integral equation-based methods, as these rely on accurate field magnitudes to compute the necessary integrals. A standard MR system does not allow ϕ+ to be measured. Consequently, most EPT studies make use of the so-called transceive phase ϕ±, which is the superposition of the B1-phases from RF transmission and RF reception, assuming ϕ+~ϕ±/2 (so-called “Transceive Phase Assumption”, TPA). Thus, this subsection describes the measurement of ϕ±. In principle, the phase image of any clinical sequence can be taken as ϕ±; however, it must be free of components unrelated to RF penetration. Unwanted phase contributions originate mainly from three sources: (A) B0-inhomogeneities, (B) gradient-induced eddy currents, (C) patient/tissue motion. (A) Phase due to B0-inhomogeneities can be avoided by using spin-echo-based sequences, gradient-echo-based sequences with balanced gradients, or sequences with ultrashort/zero TE [16]. Gradient-echo-based sequences without gradient balancing can be used to estimate ϕ± if multiple echoes with different TEs are acquired and the observed phase for each voxel is extrapolated back to TE = 0 [17]. In the presence of chemical shift effects (e.g., due to fat), one might not be able to resolve the additional phase component. (B) Unwanted phase due to eddy currents typically appears as artificially increased conductivity along one side of the field-of-view (FOV) and artificially decreased conductivity along the other side of the FOV. This too can be eliminated by using gradient-echo-based sequences with balanced gradients or by repeating spin-echo sequences with inverted gradient polarization and averaging the results [18]. (C) As motion affects all types of sequences, standard motion correction schemes should be applied to minimize motion-induced phase contributions. Due to the applied numerical derivatives, reconstructed maps are typically more corrupted by motion than the original scan's magnitude/phase image itself. The optimal field strength B0 for conductivity mapping involves a trade-off between sufficient SNR (i.e., high B0) and the validity of the TPA, which is increasingly violated with increasing B0 and object size. For brain applications (and with today's reported EPT techniques), B0 = 3T appears to provide a good trade-off [18]. B0 = 1.5T might be a better choice for other in vivo applications, and B0 > 3T for imaging small animals. For permittivity, TPA plays a minor role, and the quest for optimal B0 is dominated by SNR, with accuracy increasing at least up to B0 = 7T [18]. Future studies for the upcoming systems with B0 > 7T might reveal an upper bound for optimal permittivity imaging. The optimal voxel size for EPT is chosen by trading-off sufficient SNR (i.e., large voxels) against the need for a sufficient number of voxels per spatial direction (i.e., small voxels) for stable numerical calculations of the Laplacian operator [19], which requires a minimum of N = 3 voxels per spatial direction within a tissue compartment. Although N = 3 is sufficient for an ideal noise-free case, in realistic measurements including noise, N > 10 is frequently recommended. This aspect should be taken into account while defining the applied sequence's voxel size, as anatomic compartments smaller than N voxels cannot be reconstructed reliably. For conductivity studies, this consideration applies mainly to measuring ϕ±, as |B1+| acts here mainly as a spatially smooth correction term. A volumetric image (i.e., a 3D or multi-slice 2D scan) is required for the full version of EPT. 3D scans may be preferred as they avoid through-plane inconsistencies when measuring ϕ±. Alternatively, the EPT reconstructions can be restricted to 2D in-plane, thus eliminating through-plane inconsistencies and introducing the additional model assumption of constant B1+ in the through-plane direction. If an RF receive coil array is used, care should be taken when combining the different array elements due to the possibility of violating the TPA [20]. RF transmission is based on quadrature (body or head) coils in the majority of EPT studies published yet. Acceleration techniques are compatible with EPT, at least using moderate acceleration factors [21]. To support brain conductivity imaging, |B1+| can be acquired using low-resolution B1-mapping (e.g., voxel-size = 4 (RO) × 8 (PE) × 8 (PE) mm3), followed by interpolation to the higher resolution of the ϕ± map (see below). For permittivity imaging, a higher resolution of B1-mapping is needed (e.g., voxel-size = 2 × 2 × 2 mm3). If available, low-resolution B1-mapping might be acquired using dual TR sequences (e.g., AFI with TR1/TR2 = 50/200 ms, TE = 2.3 ms, scan-time = 2.3 min) [11], and high-resolution B1-mapping using dual TE sequences (e.g., DREAM with TR = 7 ms, TE1/TE2 = 2.5/3.4 ms, 2 averages, scan-time = 2.2 min) [13]. Other vendor-specific sequences may also be available. However, the specific choice of the B1-mapping sequence does not seem to be of utmost importance, as long as the main demand for high SNR is fulfilled [14]. To image ϕ±, we recommend a 3D acquisition (e.g., 3D balanced Fast Field Echo (bFFE)/balanced Steady State Free Precession (bSSFP), voxel-size = 1 × 1 × 1 mm3, TR = 3 ms, TE = 1.5 ms, dynamics = 2, scan-time = 3.5 min). We recommend the acquisition of multiple, separate dynamics rather than signal averages to better resolve artifacts arising for example from flow, and allow co-registration to reduce motion effects. Potential banding artifacts might be reduced via phase cycling or acquisitions with different TR. A 2D acquisition may be used if fast temporal changes in conductivity are to be examined. The authors thank the ISMRM-EMTP study group for reviewing both the original and the revised version of the guideline. In addition to the authors, the following members of the ISMRM-EMTP Study Group explicitly recommend this guideline: A. Arduino, T. Cuhna, R. Dadarwal, X. Li, C. Rae, K. Shmueli, K.K. Tha, L. Zilberti. SM received funding from NWO-VENI 18078 for the coordination of this work and acknowledges funding from the 24DIT01 APULEIO project. The project 24DIT01 APULEIO has received funding from the European Partnership on Metrology, co-financed from the European Union's Horizon Europe Research and Innovation Programme and by the Participating States. IIG acknowledges funding from NIH K99 EB035163.",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "NAA10"
-    },
-    {
       "pmid": "42541508",
       "doi": "10.1016/j.mayocp.2026.01.022",
       "zotero_key": "43RGZXZC",
@@ -12708,7 +12806,7 @@
     {
       "pmid": "42017674",
       "doi": "10.1128/msphere.00907-25",
-      "zotero_key": "XSZKKAJ4",
+      "zotero_key": "NNFGGKMG",
       "title": "mSphere of Influence: Host-pathogen interactions—the fascinating world of molecular interplay",
       "authors": [
         [
@@ -14352,7 +14450,7 @@
     {
       "pmid": "42056551",
       "doi": "10.1038/s41586-026-10370-5",
-      "zotero_key": "CKKWJWA4",
+      "zotero_key": "JZUHU6PE",
       "title": "Overestimating outsourced biodiversity loss may misguide policy",
       "authors": [
         [
@@ -14440,6 +14538,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CLRN1"
+    },
+    {
+      "pmid": "40249948",
+      "doi": "10.1097/icb.0000000000001762",
+      "zotero_key": "38SA3VBR",
+      "title": "Pars Plana Vitrectomy with Foveal Cyst Aspiration as a Treatment Option for Macular Retinoschisis in a Coat-Like Retinitis Pigmentosa Case",
+      "authors": [
+        [
+          "Şengül",
+          "Özdek"
+        ],
+        [
+          "Emrah",
+          "Öztürk"
+        ],
+        [
+          "Tuğçe",
+          "Küçükbalcı"
+        ],
+        [
+          "Gülsüm",
+          "Kayhan"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2025",
+      "abstract": "PURPOSE: To present a patient with macular retinoschisis in coat-like retinitis pigmentosa (RP) who underwent pars plana vitrectomy with foveal cyst aspiration. METHODS: Case report involving clinical examination, fundus photography, fluorescein angiography, optical coherence tomography, B-scan ultrasonography, and surgical video. RESULTS: A 45-year-old female with CRB1 mutation related RP was referred for vitreoretinal surgery due to macular detachment. The patient was diagnosed with bilateral bullous macular retinoschisis secondary to Coats-like RP. The patient received a total of six anti-VEGF injections and laser ablation of telangiectatic vessels twice in both eyes without any response. Both eyes underwent pars plana vitrectomy, cyst aspiration with 39G needle, endolaser to telangiectatic vessels, and sulfur hexafluoride tamponade one month apart. The surgical treatment resulted in anatomical and functional improvement. CONCLUSION: Surgical microaspiration of macular cyst may be an option for patients with severe cystic macular retinoschisis in Coats-like RP.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CRB1"
     },
     {
       "pmid": "42351339",
@@ -14710,6 +14842,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RPGRIP1L"
+    },
+    {
+      "pmid": "37865907",
+      "doi": "10.1016/j.ophtha.2023.09.024",
+      "zotero_key": "U44R6KTI",
+      "title": "Peripheral Center Sparing Presentation of Schnyder Corneal Dystrophy",
+      "authors": [
+        [
+          "Massimo",
+          "Busin"
+        ],
+        [
+          "Massimo",
+          "Santoro"
+        ],
+        [
+          "Jayne S.",
+          "Weiss"
+        ]
+      ],
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "UBIAD1"
     },
     {
       "pmid": "41980014",
@@ -15748,40 +15910,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "41772523",
-      "doi": "10.1186/s12891-026-09687-z",
-      "zotero_key": "BQNJN5AR",
-      "title": "Psychosocial correlates of central sensitization and kinesiophobia: the role of Type D personality in fibromyalgia — a cross-sectional study",
-      "authors": [
-        [
-          "Hatice Betigul",
-          "Meral"
-        ],
-        [
-          "Tehran",
-          "ALİYEVA"
-        ],
-        [
-          "Zeynep Meral",
-          "Obholzer"
-        ],
-        [
-          "Erkan",
-          "Kolak"
-        ]
-      ],
-      "journal": "BMC Musculoskeletal Disorders",
-      "year": "2026",
-      "abstract": "Fibromyalgia (FM) is a multifactorial syndrome involving central sensitization and psychosocial factors such as fear of movement and emotional distress. Type D personality (TDP) may exacerbate these factors, but its role in FM remains unclear. This study aimed to investigate the associations between TDP and central sensitization, kinesiophobia, disease severity, and psychological distress in patients with FM. A total of 120 women (60 with FM, 60 healthy controls) aged 18–60 years were included in this cross-sectional study. Participants were assessed using the Type D Scale-14 (DS-14), Central Sensitization Inventory (CSI), Tampa Scale for Kinesiophobia (TSK), Fibromyalgia Impact Questionnaire (FIQ), Beck Depression Inventory (BDI), Beck Anxiety Inventory (BAI), Visual Analog Scale (VAS), and Short Form-36 (SF-36). Multiple linear regression analyses with backward elimination based on the Akaike Information Criterion were conducted to identify independent predictors of CSI and FIQ scores. TDP was present in 61.7% of patients and 30% of controls (p < 0.001). Patients with TDP had significantly higher CSI scores (61 ± 9 vs. 34 ± 10, p < 0.001), TSK scores (42 ± 4 vs. 29 ± 6, p < 0.001), and FIQ scores (68.7 ± 11.1 vs. 45.9 ± 9.7, p < 0.001) compared to non-Type D patients. Pain intensity (VAS: 8 ± 1 vs. 6 ± 2, p = 0.004) and pain duration (104 ± 92 vs. 59 ± 53 months, p = 0.046) were significantly higher in patients with TDP. Furthermore, strong positive correlations were found between DS-14 subscale scores and clinical parameters in FM patients, including CSI (r = 0.84), TSK (r = 0.75), and FIQ (r = 0.76) (all p < 0.001). Among the DS-14 subscales, negative affectivity independently predicted both central sensitization symptoms (CSI; β = 0.27, p = 0.018) and disease severity (FIQ; β = 0.49, p = 0.004) in multivariable analyses. TDP is highly prevalent among patients with FM, and patients with Type D traits demonstrated higher central sensitization, greater fear of movement, more severe clinical symptoms, and lower quality of life compared to those without these traits. These findings underscore the importance of incorporating personality traits into routine clinical assessment and support the adoption of more individualized, psychologically informed treatment approaches.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "",
       "doi": "10.4103/ijo.ijo_3375_22",
       "zotero_key": "TAAMGHJ9",
@@ -15952,6 +16080,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARID2"
+    },
+    {
+      "pmid": "42446836",
+      "doi": "10.1186/s40510-026-00638-x",
+      "zotero_key": "7DWFMJZH",
+      "title": "Relationship between root formation progress of adjacent teeth and external root resorption associated with impacted maxillary canines: a retrospective cross-sectional CBCT study",
+      "authors": [
+        [
+          "Yukari",
+          "Mizoguchi"
+        ],
+        [
+          "Yuji",
+          "Ishida"
+        ],
+        [
+          "Aiko",
+          "Ishizaki-Terauchi"
+        ],
+        [
+          "Chiyo",
+          "Shimizu-Tomoda"
+        ],
+        [
+          "Takashi",
+          "Ono"
+        ]
+      ],
+      "journal": "Progress in Orthodontics",
+      "year": "2026",
+      "abstract": "BACKGROUND: This study aimed to clarify the involvement of the root formation stage and apical foramen diameter (AFD) of adjacent teeth in the occurrence of external root resorption (ERR) associated with impacted maxillary canines (IMCs), and to identify novel risk indicators for more accurate clinical prediction. METHODS: Forty patients with IMCs (58 canines) who underwent cone-beam computed tomography (CBCT) between May 2017 and October 2022 were retrospectively analyzed. The developmental status was assessed using the root formation stage and AFD of the central incisor (U1), lateral incisor (U2), and first premolar (U4). Additionally, spatial factors, including inter-root distance and the 3D position of the IMC, were evaluated in relation to ERR. RESULTS: ERR was detected in 72.5% of patients, affecting 37.1% of all examined adjacent teeth. Among the affected teeth, U2 showed the highest incidence (65.3%), followed by U1 (28.6%) and U4 (6.1%). In exploratory tooth-level comparisons, AFD was smaller in the ERR group for U1 and U4. In the supplementary affected-side-level mixed-effects analysis, no statistically significant independent association was demonstrated between maximum AFD and side-level ERR occurrence. CONCLUSIONS: Developmental indicators, including AFD, may provide clinically relevant information when assessing ERR associated with IMCs. These indicators should be interpreted as potential modifying factors in conjunction with established spatial relationships rather than as independent predictive markers.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "",
@@ -17605,6 +17771,40 @@
       "subcollection": "ACO2"
     },
     {
+      "pmid": "39132102",
+      "doi": "10.4103/ojo.ojo_164_23",
+      "zotero_key": "FA6R7IHI",
+      "title": "Spontaneous Amsler’s sign",
+      "authors": [
+        [
+          "Shishir",
+          "Narain"
+        ],
+        [
+          "Zalak",
+          "Shah"
+        ],
+        [
+          "S.",
+          "Ray"
+        ],
+        [
+          "Ramanjit",
+          "Sihota"
+        ]
+      ],
+      "journal": "Oman Journal of Ophthalmology",
+      "year": "2024",
+      "abstract": "We report an interesting case of a 39-year-old male patient with anterior uveitis who had recently been diagnosed with Fuchs’ heterochromic cyclitis (FHC) in our outpatient department (OPD) 2 months back. He subsequently presented to the OPD in an emergency, having noticed severe blurring of vision in his right eye on waking up. His best-corrected visual acuity was 6/6, N6 in both eyes. A slit-lamp examination of the right eye revealed a mild anterior chamber reaction, with a few keratic precipitates on the endothelium. The intraocular pressure was 28 mmHg in the right eye and 13 mmHg in the left eye. Such blurring is usually related to high intraocular pressure in these cases of hypertensive iridocyclitis. However, in our case, there was a streak of hyphema at 9 o’clock, suggestive of spontaneous Amsler’s sign [Figure 1]. We also demonstrate the use of infrared photography of the anterior segment to highlight the subtle iris changes in FHC seen in our case, which is classically called the moth-eaten appearance of the iris [Figure 2].Figure 1: Spontaneous hemorrhage (arrow) at 9 o’clock position in the right eye in Fuchs’ heterochromic cyclitis (Amsler’s sign)Figure 2: Iris near-infrared autofluorescence: Note the altered pattern with petaloid moderate autofluorescence pattern in the pupillary zone, minimal autofluorescence in the deep radial troughs, and reticular pattern in the ciliary zone in the right eye (a), and normal pattern in the left eye (b)Amsler’s sign is classically described as a streak of hyphema occurring diametrically opposite to the site of paracentesis in cases of FHC classically noted during initial anterior chamber entry during cataract surgery.[1] A case of spontaneous hyphema in FHC, very similar to our case, has earlier been reported.[2] Six cases of spontaneous Amsler’s sign in patients with Fuchs’ uveitis syndrome without any intervention have also been reported earlier.[3] We report yet another unique case of spontaneous Amsler’s sign in FHC with high intraocular pressure. Iris near-infrared autofluorescence (NIR-AF) is a noninvasive imaging technique that uses near-infrared light to detect autofluorescent molecules in the iris. In FHC, iris NIR-AF imaging has shown a decrease in the iris autofluorescence signal in the affected eye compared to the unaffected eye. This decrease is thought to be due to the loss of iris pigmentation, which is a hallmark feature of FHC. In addition, the distribution of iris NIR-AF is altered in FHC, with increased heterogeneity and decreased regularity. One of the advantages of iris NIR-AF imaging is that it allows for the detection of subtle changes in iris pigmentation that may not be visible on clinical examination. In addition, this technique is noninvasive, is rapid, and can be easily performed in an outpatient setting. Overall, iris NIR-AF imaging is a promising tool for studying the changes in iris pigmentation and autofluorescence in FHC. The rise in intraocular pressure in FHC is believed to be due to trabeculitis. A rarer cause is subtle angle neovascularization leading to decreased aqueous outflow. However, in our case, angle neovascularization was not present on gonioscopy [Figure 3]. Out of the six cases of spontaneous Amsler’s sign reported earlier, two of them were seen only through gonioscopy.[3] Another case of rubeosis of the anterior chamber angle in FHC has also been reported.[4]Figure 3: No neovascularization of angle was noted at 9 o’clock position in the right eye as evidenced by visualizing the angle at 3 o’clock position through indirect gonioscopyOur case highlights a very unusual presentation of FHC. It also elegantly demonstrates the use of near-infrared photography of the anterior segment for documentation of subtle iris pathologies in FHC. This imaging is a promising objective and noninvasive technique to document the iris changes and/or help distinguish FHC from other uveitis entities that might require more aggressive treatment. It may help clarify a confounding clinical picture and reduce the often years-long delay in diagnosis of FHC. This emphasizes the use of an emerging technique of anterior segment multimodal imaging in uveitis documentation.[5] However, further studies are needed to determine its clinical utility and its correlation with other clinical features of FHC. Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form, the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ZEB1"
+    },
+    {
       "pmid": "42231409",
       "doi": "10.1186/s12920-026-02402-w",
       "zotero_key": "6WU8UTDV",
@@ -17925,118 +18125,6 @@
       "subcollection": "ARID1B"
     },
     {
-      "pmid": "42327941",
-      "doi": "10.1021/acsnanoscienceau.5c00188",
-      "zotero_key": "GXD5GX75",
-      "title": "StructuralComplexity from Consecutive PostsyntheticTransformations: The Site-Specificity of Sequential Tellurium Anionand Cadmium Cation Exchange on Roxbyite Copper Sulfide Nanoparticles",
-      "authors": [
-        [
-          "Cat Tuong Nguyen",
-          "Dinh"
-        ],
-        [
-          "Clarisse",
-          "Doligon"
-        ],
-        [
-          "Noah",
-          "Ehrenberg"
-        ],
-        [
-          "Eli",
-          "Rudman"
-        ],
-        [
-          "Holden",
-          "Brown"
-        ],
-        [
-          "Alaina",
-          "Konicki"
-        ],
-        [
-          "Chul-Hyun",
-          "Jeong"
-        ],
-        [
-          "Qi",
-          "Luo"
-        ],
-        [
-          "Raymond E.",
-          "Schaak"
-        ],
-        [
-          "Katherine E.",
-          "Plass"
-        ]
-      ],
-      "journal": "ACS Nanoscience Au",
-      "year": "2026",
-      "abstract": "Abstract A crucial tool in the design of multicomponent nanoheterostructures is the ability to carry out reactions with site-specificity. Here, we examine the interplay of two site-specific postsynthetic transformations─tellurium anion exchange followed by cadmium cation exchange on Cu2-xS nanorods─to reveal how, together, they create numerous new nanoheterostructures with various interfaces and chemical components. By varying the temperature of the initial exchange, we obtained Cu2-xS/Cu2-xTe structures with varying numbers of Cu2-x Scores and thicknesses of Cu2-xTe shells. We then subjected these Cu2-xS/Cu2-xTe nanoheterostructures to either low- or high-temperature cadmium exchange. While many different factors dictating the position of cation exchange have been identified, here we find that differences in the ease of ion diffusion through Cu2-xS and Cu2-xTe direct the incoming Cd2+ toward reaction with Cu2-xS. This straightforward site preference for cation exchange, coupled with the ability to modulate the extent of tellurium and cadmium exchange, is used to create several distinctive nanostructure patterns. In particular, we demonstrate that the regioselectivity of Te2– anion exchange on Cu2-xS nanorods can be leveraged to produce distinct templates for cation exchange, resulting in a library of nontrivial nanoheterostructures. The demonstration of such a variety of different copper/cadmium chalcogenide structures shows that consecutive anion and cation exchanges offer new routes to novel materials.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "NAA10"
-    },
-    {
-      "pmid": "42069863",
-      "doi": "10.1038/s41598-026-51576-x",
-      "zotero_key": "9HZZHT2T",
-      "title": "Structure-based virtual screening identifies VX-809 as a candidate dual-pathway modulator in fuchs endothelial corneal dystrophy",
-      "authors": [
-        [
-          "Shunsuke",
-          "Noda"
-        ],
-        [
-          "Kota",
-          "Imai"
-        ],
-        [
-          "Taisei",
-          "Okino"
-        ],
-        [
-          "Taisuke",
-          "Numao"
-        ],
-        [
-          "Theofilos",
-          "Tourtas"
-        ],
-        [
-          "Ursula",
-          "Schlötzer-Schrehardt"
-        ],
-        [
-          "Friedrich",
-          "Kruse"
-        ],
-        [
-          "Noriko",
-          "Koizumi"
-        ],
-        [
-          "Naoki",
-          "Okumura"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Fuchs endothelial corneal dystrophy (FECD) is a progressive degenerative disease of the corneal endothelium and remains a leading indication for corneal transplantation worldwide. FECD is characterized by excessive extracellular matrix (ECM) deposition, disruption of proteostasis with endoplasmic reticulum (ER) stress, and progressive endothelial cell loss; however, no pharmacological therapy is currently available. Given that FECD involves multiple interacting pathogenic pathways, we asked whether a structure-based polypharmacology approach could identify a single small molecule capable of modulating distinct disease-relevant targets. We performed virtual screening of 1,178 FDA-approved compounds against transforming growth factor-β receptor type II (TGF-βR2) and p38 mitogen-activated protein kinase (p38 MAPK), which contribute to ECM dysregulation and stress-induced apoptosis. VX-809 was the only compound predicted to bind both targets, with docking scores of - 8.5 kcal/mol for TGF-βR2 and - 10.7 kcal/mol for p38 MAPK; molecular dynamics simulations further supported stable protein-ligand interactions. In patient-derived FECD corneal endothelial cells, VX-809 attenuated TGF-β2-induced apoptosis, suppressed activation of Smad2/3 and p38 MAPK signaling, and reduced ECM overproduction and global protein synthesis. VX-809 also decreased aggresome formation and dampened activation of the PERK, IRE1α, and ATF6 arms of the unfolded protein response, consistent with improved protein homeostasis under stress conditions. Together, these findings show that structure-based screening can reveal previously unrecognized multi-target activities in existing drugs and identify candidate modulators of converging pathogenic pathways in FECD. This study provides proof of concept for docking-based polypharmacology strategies to accelerate early-stage discovery for multifactorial ocular diseases.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "KRT3"
-    },
-    {
       "pmid": "40384764",
       "doi": "",
       "zotero_key": "F4DC5334",
@@ -18267,6 +18355,36 @@
       "subcollection": "KCNJ13"
     },
     {
+      "pmid": "42570006",
+      "doi": "10.1016/j.oret.2026.07.008",
+      "zotero_key": "Q6HR7PWC",
+      "title": "Tapetal Fundus Reflex in a Patient with X-linked Retinoschisis Related to a Novel RS1 Variant",
+      "authors": [
+        [
+          "Arijit",
+          "Lodha"
+        ],
+        [
+          "Narin",
+          "Sheri"
+        ],
+        [
+          "Matthew D.",
+          "Benson"
+        ]
+      ],
+      "journal": "Ophthalmology Retina",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RS1"
+    },
+    {
       "pmid": "42237540",
       "doi": "10.1016/j.ymthe.2026.05.033",
       "zotero_key": "Z8IW7K9R",
@@ -18397,48 +18515,6 @@
       "subcollection": "Retinal dystrophies"
     },
     {
-      "pmid": "42058367",
-      "doi": "10.1515/nipt-2026-0006",
-      "zotero_key": "6PSWGCZE",
-      "title": "The 30 th Scientific Conference of the Society on NeuroImmune Pharmacology in Annapolis, Maryland, May 3 rd – 6 th , 2026",
-      "authors": [
-        [
-          "Linda Dongxia",
-          "Chang"
-        ],
-        [
-          "Susmita",
-          "Sil"
-        ],
-        [
-          "Jerel Adam",
-          "Fields"
-        ],
-        [
-          "Allison M.",
-          "Andrews"
-        ],
-        [
-          "Servio H.",
-          "Ramirez"
-        ],
-        [
-          "R J",
-          "Noel"
-        ]
-      ],
-      "journal": "NeuroImmune Pharmacology and Therapeutics",
-      "year": "2026",
-      "abstract": "Abstract The 30 th Annual Society on Neuroimmune Pharmacology (SNIP) conference will be held on May 3-6 th at the Graduate Hotel by Hilton in Annapolis, Maryland. This 4-day conference will present preclinical, translational, and clinical research in the intersecting fields of neuro-HIV and substance use disorders, as well as related neurodegenerative conditions. The speakers and poster presenters will share cutting-edge research funded by the National Institutes of Health. On the first day, we will have two concurrent preconference symposia. The first is “Single Cell HIV and SUD Effects on the Brain: SCORCH Consortium Progress”, with an overview and 7 presentations by investigators, highlighting the outstanding work in the Single Cell Opioid Response in the Context of HIV (SCORCH). The second concurrent symposium is “Catalyzing Interdisciplinary Research on HIV-Associated Co-occurring Conditions.” In the evening, we will have our first Poster Session with 52 abstracts by early-stage-career investigators (ECIs), including those that received the ECI travel awards. On days 2-4, in addition to a plenary talk and two memorial lectures, we will have 11 symposia, with 62 speakers (including 12 who are early-stage career investigator travel awardees), and 65 additional poster presentations. In total, the 30 th SNIP conference received 185 abstracts for the 70 oral presentations and 115 posters. Topics covered by these symposia and poster presentations include mechanistic and observational studies that evaluate neuronal injury and neuroinflammation associated with HIV brain infection, and how drugs of abuse, including stimulants, opioids, and cannabis, may exacerbate or mitigate neuropathogenesis. In addition, with the aging population of people with HIV and many with substance use disorders, recent work also evaluated how aging and various neurodegenerative disorders could further impact brain health. At the plenary lecture, Dr. Nora Volkow will highlight the priorities of HIV research at the National Institute on Drug Abuse (NIDA), while our banquet speaker, Dr. Avindra Nath will elucidate how viruses, particularly retroviruses, may invade the brain, infect brain cells, and adapt to the local environment for decades or mutate and possibly lead to neurodegenerative disorders. This will be an exciting conference that will continue SNIP’s emphasis on the career development of early-stage investigators.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "NAA15"
-    },
-    {
       "pmid": "16340503",
       "doi": "10.1097/01.wno.0000189060.97681.20",
       "zotero_key": "E23FGVMJ",
@@ -18493,6 +18569,180 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42568187",
+      "doi": "10.1016/j.xhgg.2026.100659",
+      "zotero_key": "5T3T7HWE",
+      "title": "The AP5B1 p.(Leu785Pro) variant is a frequent cause of late-onset macular dystrophy with variable extraocular manifestations",
+      "authors": [
+        [
+          "Petra",
+          "Lišková"
+        ],
+        [
+          "Ľubica",
+          "Ďuďáková"
+        ],
+        [
+          "Karolina",
+          "Kamińska"
+        ],
+        [
+          "Laura",
+          "Kühlewein"
+        ],
+        [
+          "Stefanida",
+          "Shliaga"
+        ],
+        [
+          "Rina",
+          "Leibu"
+        ],
+        [
+          "Miriam",
+          "Ehrenberg"
+        ],
+        [
+          "Dinah",
+          "Zur"
+        ],
+        [
+          "Jana",
+          "Zernant"
+        ],
+        [
+          "Miriam",
+          "Bauwens"
+        ],
+        [
+          "Gavin",
+          "Arno"
+        ],
+        [
+          "Isabelle",
+          "Müller"
+        ],
+        [
+          "Focke",
+          "Ziemssen"
+        ],
+        [
+          "Viktoria",
+          "Bothe"
+        ],
+        [
+          "Francesca",
+          "Cancellieri"
+        ],
+        [
+          "Julie De",
+          "Zaeytijd"
+        ],
+        [
+          "Pascale",
+          "Mazzola"
+        ],
+        [
+          "Winston",
+          "Lee"
+        ],
+        [
+          "Bohdan",
+          "Kousal"
+        ],
+        [
+          "Marie",
+          "Vajter"
+        ],
+        [
+          "L. Ingeborgh van den",
+          "Born"
+        ],
+        [
+          "Anton",
+          "Sonntag"
+        ],
+        [
+          "Yoeri van",
+          "Leeuwen"
+        ],
+        [
+          "Dzenita",
+          "Smailhodzic"
+        ],
+        [
+          "Caroline C. W.",
+          "Klaver"
+        ],
+        [
+          "T.",
+          "Haack"
+        ],
+        [
+          "Bernd",
+          "Wissinger"
+        ],
+        [
+          "Andrew R.",
+          "Webster"
+        ],
+        [
+          "Lonneke",
+          "Haer‐Wigman"
+        ],
+        [
+          "Siying",
+          "Lin"
+        ],
+        [
+          "Moreno",
+          "Menghini"
+        ],
+        [
+          "Konrad",
+          "Platzer"
+        ],
+        [
+          "Elfride De",
+          "Baere"
+        ],
+        [
+          "R",
+          "Allikmets"
+        ],
+        [
+          "Carlo",
+          "Rivolta"
+        ],
+        [
+          "Susanne",
+          "Roosing"
+        ],
+        [
+          "Susanne",
+          "Kohl"
+        ],
+        [
+          "Tamar",
+          "Ben‐Yosef"
+        ],
+        [
+          "Mathieu",
+          "Quinodoz"
+        ]
+      ],
+      "journal": "Human Genetics and Genomics Advances",
+      "year": "2026",
+      "abstract": "Inherited retinal diseases (IRDs) represent a large group of genetically heterogeneous disorders that often cause progressive visual loss. The fifth adaptor protein (AP-5) complex, which contributes to endolysosomal trafficking and lysosomal homeostasis, has previously been implicated in neurodegenerative syndromes, and more recently biallelic variants in three of its subunits were found in families with macular dystrophy including four with variants in AP5B1. Here, we describe 22 affected individuals from 20 families with AP5B1-associated IRD, all carrying the recurrent missense variant NM_138368.5:c.2354T>C p.(Leu785Pro), either in the homozygous state (16 families) or in trans with another rare heterozygous AP5B1 missense or loss-of-function variant. Five families were of Ashkenazi Jewish ancestry and 15 families of European ancestry. Clinically, affected individuals presented with a predominantly late-onset macular dystrophy that frequently progressed to cone-rod degeneration. Characteristic retinal findings included foveal sparing, early peripapillary involvement, and a reticular pattern best observed by fundus autofluorescence imaging in the mid- or peripheral retina. The typical presenting symptom was decreased visual acuity. Age at onset ranged from 27 to 74 years, with most individuals becoming symptomatic after the fifth decade of life. Some individuals also presented with extraocular manifestations, most notably hearing loss, which was reported in 8 cases. These findings further support AP5B1 as a cause of macular dystrophy, identify p.(Leu785Pro) as a relatively frequent pathogenic allele in individuals of European and Ashkenazi Jewish ancestry, and expand the associated phenotypic spectrum to include both isolated macular dystrophy and possible syndromic presentations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "42432032",
@@ -18565,7 +18815,7 @@
     {
       "pmid": "42322135",
       "doi": "10.1177/15578585261461974",
-      "zotero_key": "7NRM6TZ4",
+      "zotero_key": "K2JGFZ7J",
       "title": "The Effect of a Series of Lower Limb Pressotherapy Treatments on the Range of Motion of the Lower Limb Joints, Lower Limb Circumferences, and Body Composition in Young, Healthy Women",
       "authors": [
         [
@@ -18587,7 +18837,7 @@
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:search"
+        "source:recent"
       ],
       "category": "6 - Genes",
       "subcollection": "RNU2-2"
@@ -20425,7 +20675,7 @@
     {
       "pmid": "42188723",
       "doi": "10.1097/icb.0000000000001828",
-      "zotero_key": "9HA3UC5J",
+      "zotero_key": "R56TD35J",
       "title": "Utilization of Intracameral Viscoelastic Injection for the Management of Concurrent Choroidal and Retinal Detachment in a Glaucoma Patient",
       "authors": [
         [
@@ -20839,6 +21089,28 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "37088422",
+      "doi": "10.1016/j.cmi.2023.04.018",
+      "zotero_key": "HD8J262P",
+      "title": "Which trial do we need? Comparison of 7 versus 14 days of antibiotic therapy for ventilator-associated pneumonia due to highly resistant gram-negative bacteria",
+      "authors": [
+        [
+          "Imad M.",
+          "Tleyjeh"
+        ]
+      ],
+      "journal": "Clinical Microbiology and Infection",
+      "year": "2023",
+      "abstract": "",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TYRP1"
     },
     {
       "pmid": "42156752",
