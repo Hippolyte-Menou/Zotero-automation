@@ -1,6 +1,936 @@
 {
- "generated_at": "2026-08-19T08:31:59Z",
+ "generated_at": "2026-08-20T08:33:14Z",
  "additions": [
+  {
+   "pmid": "38249506",
+   "doi": "10.4103/tjo.tjo-d-23-00167",
+   "title": "Advancing therapies for anterior segment developmental anomalies",
+   "year": "2023",
+   "subcollection": "B3GLCT",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T06:52:56Z"
+  },
+  {
+   "pmid": "42603669",
+   "doi": "10.1016/j.exer.2026.111203",
+   "title": "Prophylactic fingolimod administration prevents the development of proliferative vitreoretinopathy in an experimental rat model",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T06:54:43Z"
+  },
+  {
+   "pmid": "42593959",
+   "doi": "10.1111/aos.70220",
+   "title": "Clinical and molecular features of PRCD ‐associated retinopathy",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T06:54:43Z"
+  },
+  {
+   "pmid": "10894154",
+   "doi": "10.1210/mend.14.7.0479",
+   "title": "Requirement of Bmp8b for the Generation of Primordial Germ Cells in the Mouse",
+   "year": "2000",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T06:58:39Z"
+  },
+  {
+   "pmid": "12857787",
+   "doi": "10.1242/jcs.00650",
+   "title": "Developmental expression of BMP4/ALK3/SMAD5 signaling pathway in the mouse testis: a potential role of BMP4 in spermatogonia differentiation",
+   "year": "2003",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T06:58:39Z"
+  },
+  {
+   "pmid": "19680541",
+   "doi": "10.1371/journal.pgen.1000607",
+   "title": "CLRN1 Is Nonessential in the Mouse Retina but Is Required for Cochlear Hair Cell Development",
+   "year": "2009",
+   "subcollection": "CLRN1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:12:46Z"
+  },
+  {
+   "pmid": "31625146",
+   "doi": "10.1002/path.5360",
+   "title": "Clarin‐1 expression in adult mouse and human retina highlights a role of Müller glia in Usher syndrome",
+   "year": "2019",
+   "subcollection": "CLRN1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:12:46Z"
+  },
+  {
+   "pmid": "7769945",
+   "doi": "10.1288/00005537-199506000-00010",
+   "title": "Usher's syndrome type 3 in Finland",
+   "year": "1995",
+   "subcollection": "CLRN1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:12:46Z"
+  },
+  {
+   "pmid": "28469144",
+   "doi": "10.1038/s41598-017-01577-8",
+   "title": "A deep intronic CLRN1 (USH3A) founder mutation generates an aberrant exon and underlies severe Usher syndrome on the Arabian Peninsula",
+   "year": "2017",
+   "subcollection": "CLRN1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:12:46Z"
+  },
+  {
+   "pmid": "12145752",
+   "doi": "10.1086/342098",
+   "title": "Usher Syndrome Type III: Revised Genomic Structure of the USH3 Gene and Identification of Novel Mutations",
+   "year": "2002",
+   "subcollection": "CLRN1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:12:46Z"
+  },
+  {
+   "pmid": "19132361",
+   "doi": "10.1007/s00249-008-0396-7",
+   "title": "Movements of native C505 during channel gating in CNGA1 channels",
+   "year": "2009",
+   "subcollection": "CNGA1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:15:17Z"
+  },
+  {
+   "pmid": "42608916",
+   "doi": "10.17116/oftalma20261420415",
+   "title": "Optical coherence tomography in the diagnosis of Fuchs endothelial corneal dystrophy",
+   "year": "2026",
+   "subcollection": "COL8A2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T07:23:25Z"
+  },
+  {
+   "pmid": "37886604",
+   "doi": "10.1016/j.omtm.2023.101128",
+   "title": "Characterization and AAV-mediated CRB gene augmentation in human-derived CRB1KO and CRB1KOCRB2+/− retinal organoids",
+   "year": "2023",
+   "subcollection": "CRB1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:25:49Z"
+  },
+  {
+   "pmid": "40250722",
+   "doi": "10.1016/j.abb.2025.110424",
+   "title": "The p.K90N mutation in human HSPB5 highlights the critical role of lysine 90 in chaperone function and structural integrity",
+   "year": "2025",
+   "subcollection": "CRYAB",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-20T07:31:16Z"
+  },
+  {
+   "pmid": "38873112",
+   "doi": "10.3389/fgene.2024.1364769",
+   "title": "Effect of clinical whole exome sequencing in aetiological investigation and reproductive risk prediction for a couple with monogenic inherited diseases",
+   "year": "2024",
+   "subcollection": "CRYBB3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:32:21Z"
+  },
+  {
+   "pmid": "40326030",
+   "doi": "10.2174/0109298673365255250418092319",
+   "title": "Genetic Studies on Multiple Consanguineous Families Segregating Diverse Phenotypes of Microphthalmia Identified Novel and Recurrent Mutations",
+   "year": "2025",
+   "subcollection": "FOXE3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:37:10Z"
+  },
+  {
+   "pmid": "40520996",
+   "doi": "10.1016/j.gendis.2025.101523",
+   "title": "Gene jigsaw: Decrypting the CPAMD8 puzzle in Chinese patients with anterior segment dysgenesis",
+   "year": "2025",
+   "subcollection": "FOXE3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:37:10Z"
+  },
+  {
+   "pmid": "31546519",
+   "doi": "10.4103/ijo.ijo_725_19",
+   "title": "A rare case of type 1 unilateral 'peripheral' Peters' anomaly",
+   "year": "2019",
+   "subcollection": "FOXE3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:37:10Z"
+  },
+  {
+   "pmid": "40692799",
+   "doi": "10.3389/fped.2025.1609624",
+   "title": "Molecular mechanism, diagnosis, and treatment of VACTERL association",
+   "year": "2025",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "39265888",
+   "doi": "10.1016/j.jare.2024.08.041",
+   "title": "Haploinsufficiency of intraflagellar transport protein 172 causes autism-like behavioral phenotypes in mice through BDNF",
+   "year": "2024",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "38413974",
+   "doi": "10.1186/s12915-024-01845-w",
+   "title": "Primary cilia promote the differentiation of human neurons through the WNT signaling pathway",
+   "year": "2024",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "38062428",
+   "doi": "10.1186/s12920-023-01753-y",
+   "title": "Clinical features and genetic analysis of a case series of skeletal ciliopathies in a prenatal setting",
+   "year": "2023",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "37471416",
+   "doi": "10.1371/journal.pone.0288907",
+   "title": "Exome sequencing reveals IFT172 variants in patients with non-syndromic cholestatic liver disease",
+   "year": "2023",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "33507597",
+   "doi": "10.1002/mrd.23451",
+   "title": "Some thoughts about intraflagellar transport in reproduction",
+   "year": "2021",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "33393400",
+   "doi": "10.1080/13816810.2020.1867755",
+   "title": "Multimodal imaging of retinitis pigmentosa associated with Mainzer-Saldino syndrome",
+   "year": "2021",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "32451492",
+   "doi": "10.1038/s10038-020-0778-y",
+   "title": "Bardet–Biedl syndrome and related disorders in Japan",
+   "year": "2020",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "31958312",
+   "doi": "10.1530/rep-17-0789",
+   "title": "Murine germ cell-specific disruption of Ift172 causes defects in spermiogenesis and male fertility",
+   "year": "2020",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "31850339",
+   "doi": "10.3389/fcell.2019.00287",
+   "title": "Roles for IFT172 and Primary Cilia in Cell Migration, Cell Division, and Neocortex Development",
+   "year": "2019",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "30761183",
+   "doi": "10.3389/fgene.2019.00021",
+   "title": "Identification and Characterization of Known Biallelic Mutations in the IFT27 (BBS19) Gene in a Novel Family With Bardet-Biedl Syndrome",
+   "year": "2019",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "29588463",
+   "doi": "10.1038/s41598-018-23520-1",
+   "title": "Combining targeted panel-based resequencing and copy-number variation analysis for the diagnosis of inherited syndromic retinopathies and associated ciliopathies",
+   "year": "2018",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "29568513",
+   "doi": "10.1186/s13630-018-0056-1",
+   "title": "Assaying sensory ciliopathies using calcium biosensor expression in zebrafish ciliated olfactory neurons",
+   "year": "2018",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "29378827",
+   "doi": "10.1128/mcb.00612-17",
+   "title": "Cilium Length and Intraflagellar Transport Regulation by Kinases PKG-1 and GCK-2 in Caenorhabditis elegans Sensory Neurons",
+   "year": "2018",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "28624958",
+   "doi": "10.1007/s11427-017-9085-7",
+   "title": "Whole-exome sequencing identified compound heterozygous variants in MMKS in a Chinese pedigree with Bardet-Biedl syndrome",
+   "year": "2017",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "28291807",
+   "doi": "10.1371/journal.pone.0173399",
+   "title": "The Meckel syndrome- associated protein MKS1 functionally interacts with components of the BBSome and IFT complexes to mediate ciliary trafficking and hedgehog signaling",
+   "year": "2017",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "26863025",
+   "doi": "10.1371/journal.pgen.1005841",
+   "title": "A Screen for Modifiers of Cilia Phenotypes Reveals Novel MKS Alleles and Uncovers a Specific Genetic Interaction between osm-3 and nphp-4",
+   "year": "2016",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "26763875",
+   "doi": "10.1038/jhg.2015.162",
+   "title": "Identification of a novel mutation confirms the implication of IFT172 (BBS20) in Bardet–Biedl syndrome",
+   "year": "2016",
+   "subcollection": "IFT172",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:43:54Z"
+  },
+  {
+   "pmid": "40643847",
+   "doi": "10.1007/s12033-025-01474-w",
+   "title": "Rationally-Stabilized Inhibited State of IMPDH Proposes a Novel Targeting Approach Involving Its Cross-Domain and Assembly Suppression",
+   "year": "2025",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "38565512",
+   "doi": "10.3760/cma.j.cn511374-20230316-00138",
+   "title": "[Analysis of a patient with Retinitis pigmentosa due to a novel variant of IMPDH1 gene].",
+   "year": "2024",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "32795431",
+   "doi": "10.1016/j.ajo.2020.08.004",
+   "title": "Sector Retinitis Pigmentosa: Extending the Molecular Genetics Basis and Elucidating the Natural History",
+   "year": "2020",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "26321861",
+   "doi": "",
+   "title": "New COL6A6 variant detected by whole-exome sequencing is linked to break points in intron 4 and 3'-UTR, deleting exon 5 of RHO, and causing adRP.",
+   "year": "2015",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "23534816",
+   "doi": "10.1111/cge.12151",
+   "title": "Detection of novel genetic variation in autosomal dominant retinitis pigmentosa",
+   "year": "2013",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "23559859",
+   "doi": "",
+   "title": "Detection of novel mutations that cause autosomal dominant retinitis pigmentosa in candidate genes by long-range PCR amplification and next-generation sequencing.",
+   "year": "2013",
+   "subcollection": "IMPDH1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:45:43Z"
+  },
+  {
+   "pmid": "26849151",
+   "doi": "10.3109/13816810.2015.1059456",
+   "title": "Evaluation of the association of single nucleotide polymorphisms in the PRPH2 gene with adult-onset foveomacular vitelliform dystrophy",
+   "year": "2016",
+   "subcollection": "IMPG1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:46:46Z"
+  },
+  {
+   "pmid": "25681578",
+   "doi": "10.1016/j.preteyeres.2015.02.001",
+   "title": "Adult-onset foveomacular vitelliform dystrophy: A fresh perspective",
+   "year": "2015",
+   "subcollection": "IMPG1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:46:46Z"
+  },
+  {
+   "pmid": "16354621",
+   "doi": "10.1080/02713680500351039",
+   "title": "Molecular Genetic Analysis of Two Functional Candidate Genes in the Autosomal Recessive Retinitis Pigmentosa, RP25, Locus",
+   "year": "2005",
+   "subcollection": "IMPG1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:46:46Z"
+  },
+  {
+   "pmid": "41316455",
+   "doi": "10.1186/s13256-025-05655-8",
+   "title": "Senior–Løken syndrome with IQCB1/NPHP5 mutation in an adult: a case report",
+   "year": "2025",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "37324592",
+   "doi": "10.1002/ped4.12385",
+   "title": "A novel pathogenic variant of CEP164 in an infant with Senior‐Loken syndrome",
+   "year": "2023",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "36990420",
+   "doi": "10.1016/j.ajo.2023.03.025",
+   "title": "Pathogenic Variants in CEP290 or IQCB1 Cause Earlier-Onset Retinopathy in Senior-Loken Syndrome Compared to Those in INVS, NPHP3, or NPHP4",
+   "year": "2023",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "35610621",
+   "doi": "10.1186/s12887-021-02992-7",
+   "title": "Genetic analysis assists diagnosis of clinical systemic disease in children with excessive hyperopia",
+   "year": "2022",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "33535056",
+   "doi": "10.1016/j.jcjo.2021.01.010",
+   "title": "Senior-Loken syndrome secondary to IQCB1 mutation in association with retinitis pigmentosa",
+   "year": "2021",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "31911653",
+   "doi": "10.1038/s41433-019-0754-y",
+   "title": "Analysis of retinal function and structure in autosomal recessive retinal-renal ciliopathy",
+   "year": "2020",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "30087219",
+   "doi": "",
+   "title": "Molecular Study of Nephronophthisis in 7 Unrelated Pakistani Families.",
+   "year": "2018",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "30309488",
+   "doi": "10.1016/j.kjms.2018.03.010",
+   "title": "Senior‐Løken syndrome with IQCB1 mutation in Taiwan",
+   "year": "2018",
+   "subcollection": "IQCB1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:47:30Z"
+  },
+  {
+   "pmid": "32386558",
+   "doi": "10.1016/j.ajhg.2020.04.005",
+   "title": "Mutations in the Kinesin-2 Motor KIF3B Cause an Autosomal-Dominant Ciliopathy",
+   "year": "2020",
+   "subcollection": "KIF3B",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:48:29Z"
+  },
+  {
+   "pmid": "29217044",
+   "doi": "10.1016/j.jcjo.2017.05.009",
+   "title": "Meesmann epithelial corneal dystrophy: recurrence following photorefractive keratectomy",
+   "year": "2017",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "26788030",
+   "doi": "",
+   "title": "Identification of presumed pathogenic KRT3 and KRT12 gene mutations associated with Meesmann corneal dystrophy.",
+   "year": "2015",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "23063470",
+   "doi": "10.1016/j.exer.2012.09.013",
+   "title": "Retinal Progenitor Cells contingents in the adult human eye with retinal injury: A specific differentiation potential according to the localization?",
+   "year": "2012",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "20577595",
+   "doi": "",
+   "title": "Identification of a novel mutation in the cornea specific keratin 12 gene causing Meesmann's corneal dystrophy in a German family.",
+   "year": "2010",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "18806880",
+   "doi": "",
+   "title": "Genetics of Meesmann corneal dystrophy: a novel mutation in the keratin 3 gene in an asymptomatic family suggests genotype-phenotype correlation.",
+   "year": "2008",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "18661274",
+   "doi": "10.1007/s10384-007-0518-2",
+   "title": "A novel mutation in the cornea-specific keratin 12 gene in Meesmann corneal dystrophy",
+   "year": "2008",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "18201524",
+   "doi": "",
+   "title": "[Analysis of mutation in KRT12 gene in a Chinese family with Meesmann's corneal dystrophy].",
+   "year": "2007",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "17653038",
+   "doi": "",
+   "title": "A novel mutation of the Keratin 12 gene responsible for a severe phenotype of Meesmann's corneal dystrophy.",
+   "year": "2007",
+   "subcollection": "KRT12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:12Z"
+  },
+  {
+   "pmid": "26788027",
+   "doi": "",
+   "title": "Optimization of immunostaining on flat-mounted human corneas.",
+   "year": "2015",
+   "subcollection": "KRT3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:47Z"
+  },
+  {
+   "pmid": "21300800",
+   "doi": "10.1074/jbc.m111.222901",
+   "title": "Destruction of Amyloid Fibrils of Keratoepithelin Peptides by Laser Irradiation Coupled with Amyloid-specific Thioflavin T",
+   "year": "2011",
+   "subcollection": "KRT3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:47Z"
+  },
+  {
+   "pmid": "19410960",
+   "doi": "10.1016/j.ophtha.2009.01.047",
+   "title": "Corneal Dystrophy Classification",
+   "year": "2009",
+   "subcollection": "KRT3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:49:47Z"
+  },
+  {
+   "pmid": "33957996",
+   "doi": "10.1186/s40662-021-00243-5",
+   "title": "Clinical exome sequencing facilitates the understanding of genetic heterogeneity in Leber congenital amaurosis patients with variable phenotype in southern India",
+   "year": "2021",
+   "subcollection": "LCA5",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:50:07Z"
+  },
+  {
+   "pmid": "29400301",
+   "doi": "10.1684/ejd.2018.3221",
+   "title": "A Chinese family with autosomal recessive congenital ichthyosis and Leber congenital amaurosis due to mutations in PNPLA1 and LCA5",
+   "year": "2018",
+   "subcollection": "LCA5",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:50:07Z"
+  },
+  {
+   "pmid": "24123322",
+   "doi": "10.1002/humu.22458",
+   "title": "Comprehensive Registration of DNA Sequence Variants Associated with Inherited Retinal Diseases in Leiden Open Variation Databases",
+   "year": "2013",
+   "subcollection": "LCA5",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:50:07Z"
+  },
+  {
+   "pmid": "41052910",
+   "doi": "10.1111/cge.70087",
+   "title": "Three New Cases of Autosomal Recessive Stickler Syndrome due to Biallelic Variants in the  LOXL3  Gene",
+   "year": "2025",
+   "subcollection": "LOXL3",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:50:36Z"
+  },
+  {
+   "pmid": "32001820",
+   "doi": "10.1038/s41433-020-0777-4",
+   "title": "A retinitis punctata albescens family with biallelic mutations in retinaldehyde-binding Protein 1",
+   "year": "2020",
+   "subcollection": "LRAT",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:01Z"
+  },
+  {
+   "pmid": "24625443",
+   "doi": "10.1038/gim.2014.24",
+   "title": "Identity-by-descent–guided mutation analysis and exome sequencing in consanguineous families reveals unusual clinical and molecular findings in retinal dystrophy",
+   "year": "2014",
+   "subcollection": "LRAT",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:01Z"
+  },
+  {
+   "pmid": "22559933",
+   "doi": "10.1016/j.ophtha.2012.02.037",
+   "title": "A Homozygous Frameshift Mutation in LRAT Causes Retinitis Punctata Albescens",
+   "year": "2012",
+   "subcollection": "LRAT",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:01Z"
+  },
+  {
+   "pmid": "33504991",
+   "doi": "10.1038/s41431-021-00809-w",
+   "title": "Clinical utility gene card for oculocutaneous (OCA) and ocular albinism (OA)—an update",
+   "year": "2021",
+   "subcollection": "LRMDA",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:48Z"
+  },
+  {
+   "pmid": "28507374",
+   "doi": "",
+   "title": "Ophthalmo-genetic analysis of Pakistani patients with nonsyndromic oculocutaneous albinism through whole exome sequencing.",
+   "year": "2017",
+   "subcollection": "LRMDA",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:48Z"
+  },
+  {
+   "pmid": "26818737",
+   "doi": "10.1038/jhg.2015.167",
+   "title": "Homozygosity mapping in albinism patients using a novel panel of 13 STR markers inside the nonsyndromic OCA genes: introducing 5 novel mutations",
+   "year": "2016",
+   "subcollection": "LRMDA",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:48Z"
+  },
+  {
+   "pmid": "24518832",
+   "doi": "10.1038/ejhg.2013.307",
+   "title": "Clinical utility gene card for: Oculocutaneous albinism",
+   "year": "2014",
+   "subcollection": "LRMDA",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:51:48Z"
+  },
+  {
+   "pmid": "38146977",
+   "doi": "10.4103/ijo.ijo_1456_23",
+   "title": "In vivo identification of angle dysgenesis and its relation to genetic markers associated with glaucoma using artificial intelligence",
+   "year": "2023",
+   "subcollection": "LTBP2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:52:55Z"
+  },
+  {
+   "pmid": "37499110",
+   "doi": "10.1111/age.13346",
+   "title": "Exclusion of previously described variant in LTBP2 for primary glaucoma in Australian Burmese cats",
+   "year": "2023",
+   "subcollection": "LTBP2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:52:55Z"
+  },
+  {
+   "pmid": "37339127",
+   "doi": "10.1111/vop.13123",
+   "title": "Comparison of theTONOVETPlus®, TonoVet®, and Tono‐Pen Vet™ tonometers in normal cats and cats with glaucoma",
+   "year": "2023",
+   "subcollection": "LTBP2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:52:55Z"
+  },
+  {
+   "pmid": "18703362",
+   "doi": "10.1016/j.tvjl.2008.06.006",
+   "title": "Scanning 17 candidate genes for association with primary cataracts in the wire-haired Dachshund",
+   "year": "2008",
+   "subcollection": "MAF",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:53:48Z"
+  },
+  {
+   "pmid": "40138547",
+   "doi": "10.1097/iae.0000000000004471",
+   "title": "CHANGES OF CYTOKINES IN AQUEOUS HUMOR OF RETINOBLASTOMA WITH INTRAVITREAL MELPHALAN",
+   "year": "2025",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "36734406",
+   "doi": "10.1002/ajmg.a.63133",
+   "title": "First implication of MIP in bilateral microphthalmia with persistent fetal vasculature",
+   "year": "2023",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "36360224",
+   "doi": "10.3390/genes13111987",
+   "title": "Anterior Umbilication of Lens in a Family with Congenital Cataracts Associated with a Missense Mutation of MIP Gene",
+   "year": "2022",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "32920712",
+   "doi": "10.1007/s10792-020-01583-2",
+   "title": "The relationship between major intrinsic protein genes and cataract",
+   "year": "2020",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "32370768",
+   "doi": "10.1186/s12886-020-01421-0",
+   "title": "Aqueous humour cytokines profiles in eyes with Coats disease and the association with the severity of the disease",
+   "year": "2020",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "26968721",
+   "doi": "10.1007/s00417-016-3313-2",
+   "title": "Intraocular cytokines imbalance in congenital cataract and its impact on posterior capsule opacification",
+   "year": "2016",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:55:08Z"
+  },
+  {
+   "pmid": "40241930",
+   "doi": "10.1159/000542415",
+   "title": "Bilateral Vasoproliferative Tumors in Usher Syndrome",
+   "year": "2025",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:56:40Z"
+  },
+  {
+   "pmid": "40452331",
+   "doi": "10.1080/02713683.2025.2512622",
+   "title": "Therapeutic Effects and Molecular Mechanisms of KD025 in Intraocular Pressure Regulation",
+   "year": "2025",
+   "subcollection": "MYOC",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:57:32Z"
+  },
+  {
+   "pmid": "42590749",
+   "doi": "10.3390/s26154974",
+   "title": "Inscription of Quasi-Sinusoidal Surface Relief Optical Gratings in ZEONOR™ Cyclic Olefin Polymer by a 10.5 MeV N4+ Ion Microbeam at Low Implanted Fluences",
+   "year": "2026",
+   "subcollection": "NAA15",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T07:58:29Z"
+  },
+  {
+   "pmid": "42596207",
+   "doi": "10.1364/oe.604922",
+   "title": "Quasi-Bragg geometric-phase lens for high-numerical-aperture focusing",
+   "year": "2026",
+   "subcollection": "NAA15",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T07:58:29Z"
+  },
+  {
+   "pmid": "40555534",
+   "doi": "10.1136/bcr-2025-266104",
+   "title": "Exon 2 mutation of NDP gene presenting as extensive peripheral retinal ischaemia: a manifestation of Norrie disease",
+   "year": "2025",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:58:57Z"
+  },
+  {
+   "pmid": "39197492",
+   "doi": "10.1016/j.oret.2024.08.013",
+   "title": "Angiographic Characteristics in Mild Familial Exudative Vitreoretinopathy with Genetically Confirmed Autosomal Dominant Inheritance",
+   "year": "2024",
+   "subcollection": "NDP",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-20T07:58:57Z"
+  },
+  {
+   "pmid": "42608640",
+   "doi": "10.1007/s10278-026-02195-5",
+   "title": "Deep Learning–Based Classification of Facial Profile Convexity from Profile Photographs in Orthodontics: An Artificial Intelligence Study",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-20T08:17:57Z"
+  },
   {
    "pmid": "15081406",
    "doi": "10.1016/j.bbrc.2004.03.108",
@@ -50,16 +980,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-08-19T06:48:33Z"
-  },
-  {
-   "pmid": "42603669",
-   "doi": "10.1016/j.exer.2026.111203",
-   "title": "Prophylactic Fingolimod Administration Prevents the Development of Proliferative Vitreoretinopathy in an Experimental Rat Model",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-19T07:00:58Z"
   },
   {
    "pmid": "11689709",
@@ -3362,16 +4282,6 @@
    "uploaded_at": "2026-08-17T07:00:12Z"
   },
   {
-   "pmid": "42593959",
-   "doi": "10.1111/aos.70220",
-   "title": "Clinical and molecular features of PRCD ‐associated retinopathy",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-17T07:00:36Z"
-  },
-  {
    "pmid": "42582263",
    "doi": "10.3389/fped.2026.1912905",
    "title": "Case Report: Expanding the LRP5-phenotypic spectrum of the novel c.4462A &gt; G (p.Ser1488Gly) variant with isolated retinal involvement",
@@ -3802,16 +4712,6 @@
    "uploaded_at": "2026-08-17T07:31:17Z"
   },
   {
-   "pmid": "32920712",
-   "doi": "10.1007/s10792-020-01583-2",
-   "title": "The relationship between major intrinsic protein genes and cataract",
-   "year": "2020",
-   "subcollection": "HMX1",
-   "category": "6 - Genes",
-   "source": "source:search",
-   "uploaded_at": "2026-08-17T07:31:59Z"
-  },
-  {
    "pmid": "29140751",
    "doi": "10.1080/13816810.2017.1401089",
    "title": "Further delineation of the oculoauricular syndrome phenotype: A new family with a novel truncating HMX1 mutation",
@@ -3920,26 +4820,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-08-17T07:42:47Z"
-  },
-  {
-   "pmid": "42590749",
-   "doi": "10.3390/s26154974",
-   "title": "Inscription of Quasi-Sinusoidal Surface Relief Optical Gratings in ZEONOR™ Cyclic Olefin Polymer by a 10.5 MeV N4+ Ion Microbeam at Low Implanted Fluences",
-   "year": "2026",
-   "subcollection": "NAA15",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-17T07:43:02Z"
-  },
-  {
-   "pmid": "42596207",
-   "doi": "10.1364/oe.604922",
-   "title": "Quasi-Bragg geometric-phase lens for high-numerical-aperture focusing",
-   "year": "2026",
-   "subcollection": "NAA15",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-17T07:43:02Z"
   },
   {
    "pmid": "41102447",
@@ -29610,456 +30490,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-06-25T09:55:13Z"
-  },
-  {
-   "pmid": "42323420",
-   "doi": "10.1038/s41433-026-04647-2",
-   "title": "Optical coherence tomography angiography imaging characteristics and clinical significance of the foveal vertical hyperreflective line in patients with macular neovascularisation",
-   "year": "2026",
-   "subcollection": "ARR3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:16:27Z"
-  },
-  {
-   "pmid": "15914629",
-   "doi": "10.1167/iovs.04-1481",
-   "title": "Mutations in βB3-Crystallin Associated with Autosomal Recessive Cataract in Two Pakistani Families",
-   "year": "2005",
-   "subcollection": "CRYBB3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:23:53Z"
-  },
-  {
-   "pmid": "14757640",
-   "doi": "10.1242/dev.00996",
-   "title": "Cleavage and secretion is not required for Four-jointed function in Drosophila patterning",
-   "year": "2004",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "25845311",
-   "doi": "10.1002/bies.201400196",
-   "title": "Polarized trafficking provides spatial cues for planar cell polarization within a tissue",
-   "year": "2015",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "36170824",
-   "doi": "10.1016/j.celrep.2022.111419",
-   "title": "Distinct mechanisms of planar polarization by the core and Fat-Dachsous planar polarity pathways in the Drosophila wing",
-   "year": "2022",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "21238930",
-   "doi": "10.1016/j.devcel.2010.11.007",
-   "title": "Antagonistic Growth Regulation by Dpp and Fat Drives Uniform Cell Proliferation",
-   "year": "2011",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "24393048",
-   "doi": "10.1021/bi401236c",
-   "title": "Drosophila Myosin-XX Functions as an Actin-Binding Protein To Facilitate the Interaction between Zyx102 and Actin",
-   "year": "2014",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "18930066",
-   "doi": "10.1016/j.jtbi.2008.08.029",
-   "title": "Is anisotropic propagation of polarized molecular distribution the common mechanism of swirling patterns of planar cell polarization?",
-   "year": "2008",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "17406009",
-   "doi": "10.1126/stke.3802007pe12",
-   "title": "Fat Flies Expanded the Hippo Pathway: A Matter of Size Control",
-   "year": "2007",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "30606799",
-   "doi": "10.1073/pnas.1811891116",
-   "title": "Fat-regulated adaptor protein Dlish binds the growth suppressor Expanded and controls its stability and ubiquitination",
-   "year": "2019",
-   "subcollection": "FAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:27:51Z"
-  },
-  {
-   "pmid": "42329486",
-   "doi": "10.1007/s11259-026-11359-1",
-   "title": "A newly developed multiplex RT-PCR enables detection of blood-associated viral nucleic acids in cats",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42329518",
-   "doi": "10.1007/s10620-026-10067-9",
-   "title": "Screening of Avoidance/Restrictive Food Intake Disorder (ARFID) in Patients with Quiescent Inflammatory Bowel Disease and Irritable Bowel Syndrome-Like Symptoms",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324248",
-   "doi": "10.1152/jn.00115.2026",
-   "title": "The cortical electrophysiological changes evoked by natural vestibular stimulation in healthy and bilateral vestibulopathy",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324738",
-   "doi": "10.1111/nbu.70060",
-   "title": "Diurnal Variation and Impairment of Postprandial Glucose‐Insulin Responses and Lipid Rhythms in Simulated Shift Work",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324581",
-   "doi": "10.1186/s12933-026-03266-1",
-   "title": "Optimizing early triage for subclinical cardiovascular-kidney-metabolic syndrome: longitudinal associations, incremental value, and clinical utility of nine insulin resistance surrogates",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324630",
-   "doi": "10.1111/dme.70405",
-   "title": "Wolfram syndrome and diabetes mellitus in Aotearoa, New Zealand: Phenotype and response to GLP ‐1 receptor agonist therapy",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324650",
-   "doi": "10.1002/jpen.70117",
-   "title": "Refeeding syndrome in at‐risk hospitalized children: A descriptive study",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "42324356",
-   "doi": "10.1007/s00535-026-02467-5",
-   "title": "Methods to build and maintain effective clinician–patient relationships for adults with disorders of gut–brain interaction (DGBI): a systematic review",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:28:57Z"
-  },
-  {
-   "pmid": "11875049",
-   "doi": "10.1093/hmg/11.5.547",
-   "title": "Identification of an IMPDH1 mutation in autosomal dominant retinitis pigmentosa (RP10) revealed following comparative microarray analysis of transcripts derived from retinas of wild-type and Rho-/- mice",
-   "year": "2002",
-   "subcollection": "IMPDH1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:35:41Z"
-  },
-  {
-   "pmid": "10995555",
-   "doi": "10.1006/exer.2000.0888",
-   "title": "SPACR in the Interphotoreceptor Matrix of the Mouse Retina: Molecular, Biochemical and Immunohistochemical Characterization",
-   "year": "2000",
-   "subcollection": "IMPG1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:36:18Z"
-  },
-  {
-   "pmid": "21245082",
-   "doi": "10.1093/hmg/ddr022",
-   "title": "Cone photoreceptors are the main targets for gene therapy of NPHP5 (IQCB1) or NPHP6 (CEP290) blindness: generation of an all-cone Nphp6 hypomorph mouse that mimics the human retinal ciliopathy",
-   "year": "2011",
-   "subcollection": "IQCB1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:36:57Z"
-  },
-  {
-   "pmid": "38800572",
-   "doi": "10.3389/fnins.2024.1301865",
-   "title": "Clinical and genetic analyses of APMR4 syndrome caused by novel biallelic LSS variants",
-   "year": "2024",
-   "subcollection": "LSS",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:41:57Z"
-  },
-  {
-   "pmid": "36272497",
-   "doi": "10.1016/j.jsbmb.2022.106200",
-   "title": "Expression of oxysterols in human lenses: Implications of the sterol pathway in age-related cataracts",
-   "year": "2022",
-   "subcollection": "LSS",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:41:57Z"
-  },
-  {
-   "pmid": "10848613",
-   "doi": "10.1128/mcb.20.13.4879-4887.2000",
-   "title": "Developmental Expression of Latent Transforming Growth Factor β Binding Protein 2 and Its Requirement Early in Mouse Development",
-   "year": "2000",
-   "subcollection": "LTBP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:42:47Z"
-  },
-  {
-   "pmid": "27293371",
-   "doi": "",
-   "title": "Screening of the LTBP2 gene in 214 Chinese sporadic CYP1B1-negative patients with primary congenital glaucoma.",
-   "year": "2016",
-   "subcollection": "LTBP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:42:47Z"
-  },
-  {
-   "pmid": "29908281",
-   "doi": "10.1016/j.gene.2018.06.038",
-   "title": "LTBP2 knockdown and oxidative stress affect glaucoma features including TGFβ pathways, ECM genes expression and apoptosis in trabecular meshwork cells",
-   "year": "2018",
-   "subcollection": "LTBP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:42:47Z"
-  },
-  {
-   "pmid": "18201722",
-   "doi": "10.1016/j.jmb.2007.11.074",
-   "title": "Small Maf Proteins in Mammalian Gene Control: Mere Dimerization Partners or Dynamic Transcriptional Regulators?",
-   "year": "2007",
-   "subcollection": "MAF",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:45:34Z"
-  },
-  {
-   "pmid": "11179227",
-   "doi": "10.1093/emboj/20.4.828",
-   "title": "DNA sequence‐dependent folding determines the divergence in binding specificities between Maf and other bZIP proteins",
-   "year": "2001",
-   "subcollection": "MAF",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:45:34Z"
-  },
-  {
-   "pmid": "12081646",
-   "doi": "10.1046/j.1365-2443.2002.00548.x",
-   "title": "Characterization of the chicken L‐Maf, MafB and c‐Maf in crystallin gene regulation and lens differentiation",
-   "year": "2002",
-   "subcollection": "MAF",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:45:34Z"
-  },
-  {
-   "pmid": "8630002",
-   "doi": "10.1006/bbrc.1996.0637",
-   "title": "The Heme-Responsive Element of the Mouse Heme Oxygenase-1 Gene Is an Extended AP-1 Binding Site That Resembles the Recognition Sequences for MAF and NF-E2 Transcription Factors",
-   "year": "1996",
-   "subcollection": "MAF",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:45:34Z"
-  },
-  {
-   "pmid": "16319884",
-   "doi": "10.1038/nature04321",
-   "title": "Lipid–protein interactions in double-layered two-dimensional AQP0 crystals",
-   "year": "2005",
-   "subcollection": "MIP",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:48:39Z"
-  },
-  {
-   "pmid": "12466270",
-   "doi": "10.1074/jbc.m210489200",
-   "title": "Characterization of the Motor Activity of Mammalian Myosin VIIA",
-   "year": "2003",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:50:23Z"
-  },
-  {
-   "pmid": "25125189",
-   "doi": "10.1002/ar.22976",
-   "title": "Myosin VIIA is a Marker for the Cone Accessory Outer Segment in Zebrafish",
-   "year": "2014",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:50:23Z"
-  },
-  {
-   "pmid": "1478677",
-   "doi": "10.1016/s0888-7543(05)80121-1",
-   "title": "Linkage of usher syndrome type I gene (USH1B) to the long arm of chromosome 11",
-   "year": "1992",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:50:23Z"
-  },
-  {
-   "pmid": "15579689",
-   "doi": "10.1534/genetics.104.026369",
-   "title": "Drosophila crinkled, Mutations of Which Disrupt Morphogenesis and Cause Lethality, Encodes Fly Myosin VIIA",
-   "year": "2004",
-   "subcollection": "MYO7A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:50:23Z"
-  },
-  {
-   "pmid": "11095916",
-   "doi": "10.1006/exer.2000.0920",
-   "title": "TIGR/Myocilin in Human Aqueous Humor",
-   "year": "2000",
-   "subcollection": "MYOC",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:52:24Z"
-  },
-  {
-   "pmid": "42327851",
-   "doi": "10.1029/2025gh001367",
-   "title": "Residential Greenspace and Domestic Gardens, Genetic Predisposition, and Incident Glaucoma: A Prospective Cohort Study",
-   "year": "2026",
-   "subcollection": "MYOC",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T09:52:26Z"
-  },
-  {
-   "pmid": "37830616",
-   "doi": "10.3390/cells12192402",
-   "title": "Disheveled-1 Interacts with Claudin-5 and Contributes to Norrin-Induced Endothelial Barrier Restoration",
-   "year": "2023",
-   "subcollection": "NDP",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:54:40Z"
-  },
-  {
-   "pmid": "35029917",
-   "doi": "10.1097/md.0000000000028523",
-   "title": "A novel frameshift c.22_25dupGCAT mutation of the NDP gene in a Chinese infant with Norrie disease",
-   "year": "2022",
-   "subcollection": "NDP",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-24T09:54:40Z"
-  },
-  {
-   "pmid": "42329351",
-   "doi": "10.1007/s13312-026-00383-8",
-   "title": "Finger Dexterity and Pencil Grasp Patterns as Correlates of Handwriting Proficiency: A School-Based Cross-Sectional Analytical Study",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
-  },
-  {
-   "pmid": "42328728",
-   "doi": "10.1097/corr.0000000000004036",
-   "title": "Clinical Presentation Patterns and Outcomes of Decompression for Suprascapular Neuropathy: A Retrospective Surgical Series",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
-  },
-  {
-   "pmid": "42328882",
-   "doi": "10.1128/msphere.00081-26",
-   "title": "TRP120-dependent activation of noncanonical Wnt/NFAT signaling drives monocyte chemokine production in Ehrlichia chaffeensis infection",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
-  },
-  {
-   "pmid": "42329229",
-   "doi": "10.1021/acs.est.6c02533",
-   "title": "Acidification Dominates over Hypoxia in Controlling Estuarine Nitrogen Removal Dynamics under Coupled Stressors",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
-  },
-  {
-   "pmid": "42324072",
-   "doi": "10.1302/2046-3758.156.bjr-2025-0293.r1",
-   "title": "Ontogenetic changes in femoral morphology and joint loads in children",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
-  },
-  {
-   "pmid": "42329498",
-   "doi": "10.1186/s40635-026-00910-8",
-   "title": "Noradrenaline-trajectory phenotypes in septic shock: derivation and external validation in two independent cohorts",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-06-24T10:00:34Z"
   }
  ]
 }
