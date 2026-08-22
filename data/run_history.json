@@ -293454,6 +293454,469 @@
         "per_topic": []
       },
       "openalex_failed_requests": 0
+    },
+    {
+      "timestamp": "2026-08-22T07:20:24Z",
+      "pipelines": {
+        "genes": false,
+        "topics": true
+      },
+      "genes": {
+        "totals": {
+          "found": 0,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 0
+        },
+        "per_gene": []
+      },
+      "topics": {
+        "totals": {
+          "found": 1347,
+          "new": 0,
+          "added": 0,
+          "failed": 0,
+          "cit_candidates": 0,
+          "cit_added": 0,
+          "recent_added": 8
+        },
+        "per_topic": [
+          {
+            "name": "1 - Anatomy/Outer coat",
+            "found": 32,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Middle coat",
+            "found": 55,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Inner coat",
+            "found": 50,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Transparent media",
+            "found": 30,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Adnexal structures",
+            "found": 18,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Vascularization and innervation",
+            "found": 36,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Orbit",
+            "found": 13,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Specialized microanatomy",
+            "found": 6,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "1 - Anatomy/Comparative anatomy",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Developmental timeline",
+            "found": 50,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Developmental genetics",
+            "found": 24,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Optic vesicle",
+            "found": 67,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Coat differentiation",
+            "found": 111,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Derived structures",
+            "found": 100,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Adnexal development",
+            "found": 70,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "2 - Embryology/Ocular malformations",
+            "found": 65,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Visual physiology",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Transparent media physiology",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Accommodation",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Pupillary physiology",
+            "found": 46,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Ocular motility",
+            "found": 7,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Lacrimal system",
+            "found": 3,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Intraocular pressure",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Ocular vascular physiology",
+            "found": 9,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Ocular neurophysiology",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Ocular aging",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "3 - Physiology/Ocular chronobiology",
+            "found": 0,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Visual function",
+            "found": 46,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Anterior segment examination",
+            "found": 28,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Posterior segment examination",
+            "found": 17,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Ocular imaging",
+            "found": 39,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Neuro-ophthalmologic examinations",
+            "found": 47,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Ocular surface examinations",
+            "found": 29,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Binocular vision",
+            "found": 6,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Genetic testing",
+            "found": 10,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Specialized functional testing",
+            "found": 27,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "4 - Examinations/Emerging technologies",
+            "found": 23,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "5 - Pathologies/Albinism",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "5 - Pathologies/Ocular developmental anomalies",
+            "found": 57,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 3
+          },
+          {
+            "name": "5 - Pathologies/Congenital cataracts",
+            "found": 8,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "5 - Pathologies/Corneal dystrophies",
+            "found": 4,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          },
+          {
+            "name": "5 - Pathologies/Retinal dystrophies",
+            "found": 40,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 5
+          },
+          {
+            "name": "5 - Pathologies/Vitreoretinopathies",
+            "found": 37,
+            "new": 0,
+            "added": 0,
+            "failed": 0,
+            "cit_candidates": 0,
+            "cit_added": 0,
+            "recent_added": 0
+          }
+        ]
+      },
+      "openalex_failed_requests": 0
     }
   ]
 }
