@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T03:16:40Z",
+  "generated_at": "2026-08-23T03:20:22Z",
   "threshold_k": 0,
-  "total_evaluated": 26449,
-  "total_flagged": 486,
+  "total_evaluated": 27340,
+  "total_flagged": 499,
   "total_dismissed": 0,
   "total_unresolvable": 140,
   "hierarchy": {
@@ -94,6 +94,7 @@
       "ARR3",
       "ARSG",
       "ATAD3A",
+      "B3GLCT",
       "BBS1",
       "BBS2",
       "BEST1",
@@ -113,13 +114,18 @@
       "DCN",
       "EYS",
       "FBN1",
+      "FOXE3",
       "FRAS1",
+      "FREM2",
+      "GJA8",
       "GPR143",
       "GPR179",
       "GUCY2D",
       "HK1",
       "IFT172",
+      "IMPDH1",
       "IMPG1",
+      "IQCB1",
       "KCNJ13",
       "KRT12",
       "KRT3",
@@ -133,16 +139,20 @@
       "MYRF",
       "NAA15",
       "NDP",
+      "NR2E3",
       "NRL",
       "NYX",
       "OAT",
+      "OCA2",
       "OPN1MW",
+      "OTX2",
       "PAX2",
       "PAX6",
       "PCDH15",
       "PDE6B",
       "PDE6C",
       "PLK4",
+      "PRCD",
       "PROM1",
       "PRPH2",
       "PRR12",
@@ -250,6 +260,86 @@
       ],
       "category": "6 - Genes",
       "subcollection": "USH1C"
+    },
+    {
+      "pmid": "38565512",
+      "doi": "10.3760/cma.j.cn511374-20230316-00138",
+      "zotero_key": "ZD5QB7JN",
+      "title": "[Analysis of a patient with Retinitis pigmentosa due to a novel variant of IMPDH1 gene].",
+      "authors": [
+        [
+          "Ruiqiong",
+          "Yang"
+        ],
+        [
+          "Ling",
+          "Hui"
+        ],
+        [
+          "Chuan",
+          "Zhang"
+        ],
+        [
+          "Qinghua",
+          "Zhang"
+        ],
+        [
+          "Yupei",
+          "Wang"
+        ],
+        [
+          "Shengju",
+          "Hao"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2024",
+      "abstract": "OBJECTIVE: To explore the genetic basis for a patient with autosomal dominant retinitis pigmentosa (RP). METHODS: A male patient with RP treated at Gansu Provincial Maternal and Child Health Care Hospital in September 2019 was selected as the study subject. Clinical data was collected. Peripheral blood samples of the patient and his parents were subjected to whole exome sequencing (WES). Candidate variant was validated by Sanger sequencing and bioinformatic analysis. RESULTS: The patient, a 29-year-old male, developed night blindness, amblyopia, visual field defects and optic disc abnormalities since childhood. Gene sequencing revealed that he has harbored a heterozygous c.942G>C (p.Lys314Asn) variant of the IMPDH1 gene, which was inherited from his mother, whilst his father was of the wild type. Based on the guidelines from the American College of Medical Genetics and Genomics, the c.942G>C variant was predicted as likely pathogenic (PM1+PM2_Supporting+PP3+PP1). CONCLUSION: The c.942G>C (p.Lys314Asn) variant in the IMPDH1 gene probably underlay the RP in this patient.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "IMPDH1"
+    },
+    {
+      "pmid": "36317215",
+      "doi": "10.3760/cma.j.cn511374-20211218-01005",
+      "zotero_key": "RASHQ6XC",
+      "title": "[Analysis of novel compound heterozygous variants of the GJA8 gene in a child with congenital cataract].",
+      "authors": [
+        [
+          "Ruirui",
+          "Li"
+        ],
+        [
+          "Peiwen",
+          "Xu"
+        ],
+        [
+          "Zou",
+          "Yang"
+        ],
+        [
+          "Jie",
+          "Li"
+        ],
+        [
+          "Yuan",
+          "Gao"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2022",
+      "abstract": "OBJECTIVE: To explore the genetic basis for child with congenital cataract. METHODS: The child was subjected to next-generation sequencing. Candidate variant was verified by Sanger sequencing of his family members. RESULTS: The proband was found to harbor novel heterozygous variants of c.855del and c.872dup of the GJA8 gene, which were inherited from his father and mother, respectively. Neither of these two variants has been reported. Based on the American College of Medical Genetics and Genomics (ACMG) guidelines, the c.855del and c.872dup variants were classified as likely pathogenic (PVS1_S+PM2+PP4) and pathogenic (PVS1_S+PM2+PM3+PP4), respectively. CONCLUSION: The c.855del and c.872dup variants of the GJA8 gene probably underlay the congenital cataract in this patient.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "GJA8"
     },
     {
       "pmid": "29652990",
@@ -1310,6 +1400,52 @@
       "subcollection": "Congenital hereditary stromal dystrophy"
     },
     {
+      "pmid": "33423259",
+      "doi": "10.3760/cma.j.cn511374-20190829-00438",
+      "zotero_key": "EP5ZSUM9",
+      "title": "[Whole exome sequencing analysis and prenatal diagnosis for a Chinese pedigree affected with microphthalmia].",
+      "authors": [
+        [
+          "Qin",
+          "Zhang"
+        ],
+        [
+          "Jingjing",
+          "Xiang"
+        ],
+        [
+          "Fei",
+          "Yang"
+        ],
+        [
+          "Wei",
+          "Zhang"
+        ],
+        [
+          "Jun",
+          "Mao"
+        ],
+        [
+          "Yinghua",
+          "Liu"
+        ],
+        [
+          "Hong",
+          "Li"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2021",
+      "abstract": "OBJECTIVE: To analyze clinical features and genetic cause for a Chinese pedigree affected with microphthalmia. METHODS: The proband and his parents were subjected to whole exome sequencing (WES) to identify potential pathogenic variants. Sanger sequencing was carried out to confirm the result of WES in available members from the pedigree. Prenatal diagnosis was provided to the proband's mother by genetic testing of amnionic DNA. RESULTS: A heterozygous nonsense mutation c.289C>T (p.R97*) was identified in the OTX2 gene among three patients from the pedigree by WES. The result was confirmed by Sanger sequencing. The proband's mother has carried the same mutation but did not have microphthalmia. The proband's father, aunt and the mother's fetus did not carry the mutation. CONCLUSION: The c.289C>T (p.R97*) mutation probably underlies the microphthalmia in this pedigree. Above result has facilitated genetic counseling and prenatal diagnosis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OTX2"
+    },
+    {
       "pmid": "40007671",
       "doi": "10.14744/bej.2024.90235",
       "zotero_key": "PUTV5S29",
@@ -1372,6 +1508,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CHD7"
+    },
+    {
+      "pmid": "40986784",
+      "doi": "10.1097/icb.0000000000001812",
+      "zotero_key": "H24BD9Z9",
+      "title": "A case of choroidal neovascular membrane in Enhanced S-Cone Syndrome treated with Aflibercept",
+      "authors": [
+        [
+          "Maxwell J.",
+          "Gelkopf"
+        ],
+        [
+          "Tom",
+          "Sheidow"
+        ],
+        [
+          "Verena R.",
+          "Juncal"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2025",
+      "abstract": "PURPOSE: Enhanced S-Cone Syndrome (ESCS) is a rare genetic disorder caused by a mutation in the NR2E3 genet that presents with night blindness, cystoid macular edema, subretinal fibrosis characteristic electroretinogram changes, and in a subset of patients choroidal neovascular membranes. METHODS: A retrospective chart review was conducted of a single case presentation. RESULTS: An 18-year-old male presented with a 6 day decline in left eye vision. Ancillary testing revealed foveomacular schisis in the right eye and an active CNV in the left eye. Further testing confirmed a diagnosis of ESCS. Treatment with intravitreal aflibercept injections resulted in regression of CNV and improvement in visual acuity. CONCLUSION: Intravitreal aflibercept demonstrates to be a successful therapy in patients presenting with CNV secondary to ESCS.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NR2E3"
     },
     {
       "pmid": "41767075",
@@ -2474,6 +2640,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "IFT172"
+    },
+    {
+      "pmid": "38249506",
+      "doi": "10.4103/tjo.tjo-d-23-00167",
+      "zotero_key": "ICGDGSZB",
+      "title": "Advancing therapies for anterior segment developmental anomalies",
+      "authors": [
+        [
+          "Muralidhar",
+          "Ramappa"
+        ],
+        [
+          "Ken K.",
+          "Nischal"
+        ]
+      ],
+      "journal": "Taiwan Journal of Ophthalmology",
+      "year": "2023",
+      "abstract": "“In the pursuit of understanding and treating these complex disorders of the anterior segment, we envision a world where everyone can enjoy the beauty of clear vision.” The development of the anterior segment of the eye is a highly intricate process that relies on sequential interactions between developing tissues and a multitude of genetic factors. Any disruptions in this process result in a spectrum of congenital anomalies, giving rise to anterior segment developmental anomalies (ASDA), including aniridia, Axenfeld–Rieger anomaly, congenital corneal opacities (CCO) (namely, primary and secondary CCO), and primary congenital glaucoma. Significant progress has been made in identifying the genetic factors responsible for ASDA, with a diagnostic success rate of about 50%. The success rate of specific phenotypes such as classical aniridia (PAX6) or classic Peters Plus syndrome (B3GALTL mutation) exceeds 90%. ASDA can be caused by pathogenic variants in genes with diverse functions, such as transcription factors, enzymes, structural proteins, extracellular matrix or cell adhesion proteins, signaling and membrane transport molecules, and genes with unknown functions. The involvement of numerous genes in overlapping phenotypes suggests their participation in a network of interconnected biological pathways crucial for anterior segment development. In this theme-based issue, we will discuss the typical clinical presentations of various ASDA forms, the latest genetic data related to known factors and promising new candidate genes that might be involved in these phenotypes, and current and emerging treatments for these complex conditions. Further exploration of the affected genes and pathways in animal and cell culture models will facilitate the discovery of novel factors and empower the development of innovative therapeutic approaches by focusing on the most critical processes. Among these pioneering approaches, we highlight less invasive surgical interventions, such as optical iridectomy, rotational autokeratoplasty, selective endothelialectomy in Peters anomaly or selective endothelial removal, gene editing, and bioengineered corneas. The path to conquering ASDA involves collaboration among clinicians, geneticists, researchers, and the ophthalmological community. This issue serves as a platform for disseminating knowledge and facilitating idea exchange, contributing to our shared vision of a world where clear vision is accessible to all, irrespective of genetic predisposition or developmental challenges. While challenges remain, the promise of a brighter future for individuals affected by developmental corneal abnormalities is evident. Ophthalmologists and researchers must collectively push the boundaries of knowledge and technology to deliver the precious gift of sight to those who entrust us with their vision. Indeed, it is our great honor and privilege to serve as guest editors for the December 2023 issue of the Taiwan Journal of Ophthalmology, focusing on the theme of “Developmental Abnormalities of the Anterior Segment.” We believe that the review articles we have meticulously curated for this issue align with your scholarly interests and will provide a rewarding reading experience. Data availability statement Data sharing not applicable to this article as no datasets were generated or analyzed during the current study. Author contribution Equally contributed: concept, design, & final revision as well.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "B3GLCT"
     },
     {
       "pmid": "",
@@ -3936,32 +4128,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RS1"
-    },
-    {
-      "pmid": "36727565",
-      "doi": "10.1111/pcmr.13082",
-      "zotero_key": "7ZKCUQPB",
-      "title": "Celebrating the life of James J. Nordlund, MD, a larger‐than‐life scholar, mentor, and friend",
-      "authors": [
-        [
-          "Raymond E.",
-          "Boissy"
-        ],
-        [
-          "Zalfa",
-          "Abdel‐Malek"
-        ]
-      ],
-      "journal": "Pigment Cell & Melanoma Research",
-      "year": "2023",
-      "abstract": "On July 24, 2022, the Pigment Cell Research and Dermatological communities lost one of their pillars, Professor James J. Nordlund, MD, at the age of 82. Dr. Nordlund was an expert clinician-scientist in pigmentary disorders, particularly vitiligo. He obtained his medical degree from the University of Minnesota, and did his residency in Internal Medicine at Duke University, followed by residency in Internal Medicine and Dermatology at Yale University, where he was mentored by, and collaborated with, the late Dr Aaron B. Lerner. Dr. Nordlund was an attending Dermatologist at Yale University for 14 years prior to taking the position of Chairman of the Department of Dermatology at the University of Cincinnati in 1983. One of his main missions as Chairman was to establish a basic science research division in Dermatology, focused on investigating the regulation of human pigmentation and pigmentary disorders. Under his leadership, the Department of Dermatology became recognized nationally and internationally as a center of excellence in pigment cell research. He recruited outstanding researchers to the faculty, including the late Estella Medrano, PhD, as well as outstanding clinicians. He was a great believer in collaboration and in multidisciplinary approach to research. He authored over 350 articles and was the editor of several books and monographs, the best known of which to the pigment cell community is The Pigmentary System, which he co-edited with Vincent Hearing, PhD, Richard King, MD, and Raymond Boissy, PhD. One of Jim's major contributions to the pigment cell research community was his role in establishing the PanAmerican Society for Pigment Cell Research and serving as its first President. This is in addition to his distinguished role as a major figure in the International Federation of Pigment Cell Societies. Under his tutelage, major discoveries emerged from the research division that he established, guided, and supported, including signaling pathways that regulate melanocyte function and proliferation, mechanisms of melanocyte senescence, function of TYRP-1 as a melanogenic enzyme, and TYRP1 gene in oculocutaneous albinism, and response of melanocytes to ultraviolet radiation. He was the first to introduce the concept of crosstalk between skin cells, and paracrine regulation of melanocytes, and pioneered the cutaneous immunosuppressive and anti-inflammatory role of α-MSH. Dr. Nordlund was the quintessential mentor and teacher, and was passionate about integrating the clinical and basic sciences. He implemented weekly basic science lectures and monthly journal clubs as part of the Dermatology residency training curriculum. He held weekly research meetings with the research faculty and staff, where he always provided guidance and innovative ideas. He encouraged thinking outside the box, and inspired courage in challenging existing dogma. Under his leadership, the Department of Dermatology at UC became the center for training of many scholars and visiting scientists from various countries, including Japan, Korea, Thailand, China, India, South Africa, Brazil, and Hungary. In Cincinnati, he established interdisciplinary collaborations with academic researchers and clinicians in Pediatrics, Surgery, Biochemistry, and Engineering, and with industry researchers, under the umbrella of the virtual Skin Institute. He also co-developed the MD/PhD physician scientist program in the College of Medicine at the University of Cincinnati. Jim's passion for pigment cell disorders led him to take a year of sabbatical in Moshe, Tanzania, in 1998 at the Regional Dermatology Training Center, where he trained physicians and treated patients. Despite the challenges of rudimentary clinics, and shortage in basic essentials for patient care, Jim considered this to be one of his best life experiences. Shortly after that, Jim joined Group Health Associates where he practiced as senior Dermatologist until his retirement in 2014. In addition to his scholarly activities, Jim is best remembered for his passion, care for, and kindness to all of those who worked with him. He was approachable, had an open-door policy, and was a good listener. He was positive, fair and modest. He gave credit to others whenever credit was due. He was a facilitator, who opened doors of opportunities to others. He celebrated the success of his faculty and residents and encouraged them to persevere when they failed. He created a friendly and pleasant work atmosphere in the department. Jim was a well-rounded individual. He enjoyed life to the fullest, embracing the arts and nature. He loved Opera theater and folk music, and was a docent at the Cincinnati Art Museum, and a member of the Literary Club of Cincinnati. His hobbies included hiking, photography, scuba diving, guitar playing and fishing. He encouraged others to take time off their busy work schedule to relax and enjoy family and other aspects of life. We, the ones who worked closely with him for many years, and got to know him first as a mentor, then as a close friend, are grateful for his guidance, encouragement, and belief in us. He was and remains an inspiration to us, and a role model that we aspire to walk in his giant footsteps.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "TYRP1"
     },
     {
       "pmid": "",
@@ -5478,6 +5644,48 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "38109567",
+      "doi": "10.1167/jov.23.15.81",
+      "zotero_key": "7F5ZE22J",
+      "title": "Contributed Session III: AAV-mediated gene therapy for PDE6C achromatopsia: Progress and challenges",
+      "authors": [
+        [
+          "Ala",
+          "Moshiri"
+        ],
+        [
+          "Tawfik",
+          "Issa"
+        ],
+        [
+          "Jeffrey",
+          "Rogers"
+        ],
+        [
+          "Rui",
+          "Chen"
+        ],
+        [
+          "Sara M.",
+          "Thomasy"
+        ],
+        [
+          "Tim",
+          "Stout"
+        ]
+      ],
+      "journal": "Journal of Vision",
+      "year": "2023",
+      "abstract": "PURPOSE: To determine the clinical circumstances under which viral mediated gene therapy can rescue cone function in a nonhuman primate model of PDE6C achromatopsia. METHODS: Infant rhesus macaques homozygous for the PDE6C R565Q mutation were generated through a breeding program at the California National Primate Research Center. Homozygotes were treated in the right eye with adeno-associated virus (AAV5) carrying rhesus PDE6C under the control of the PR1.7 cone-specific promoter. The left eye was used as a control. Animals were tested by full-field and multifocal electroretinography. A total of 7 animals have been treated. RESULTS: The virus was found to be safe, but with variable inflammatory response. There were no obvious alterations in retinal lamination in treated eyes. The virus was expressed specifically in cone photoreceptors. Pre- and post-treatment systemic steroids led to minimal to moderate inflammatory response. In general, the gene therapy partially restored the cone responses on ERG within one month of injection in infants, but not in the older animals. If restored, the rescued cone responses were sustained and durable for over a year. Chromatic ERG testing showed restoration of amplitudes in all three cone subtypes. CONCLUSIONS: AAV-mediated gene therapy partially restored cone function and was relatively durable. Inflammation and age of administration may be important to outcomes. Similar approaches in human patients may warrant investigation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PDE6C"
+    },
+    {
       "pmid": "",
       "doi": "10.1006/gcen.1995.1106",
       "zotero_key": "58AN64SB",
@@ -5837,6 +6045,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SOX2"
+    },
+    {
+      "pmid": "40848041",
+      "doi": "10.1016/j.ophtha.2025.07.018",
+      "zotero_key": "FU6JBJSZ",
+      "title": "CYP1B1-Associated Primary Congenital Glaucoma with Intracorneal Cleft Formation: Evidence of Intrauterine Descemet Membrane Rupture Mimicking Hydrops",
+      "authors": [
+        [
+          "Sai Sivani",
+          "Koonapareddy"
+        ],
+        [
+          "Sneha Pranahitha",
+          "Gorenka"
+        ],
+        [
+          "Muralidhar",
+          "Ramappa"
+        ]
+      ],
+      "journal": "Ophthalmology",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CYP1B1"
     },
     {
       "pmid": "",
@@ -8810,6 +9048,32 @@
       "subcollection": "RS1"
     },
     {
+      "pmid": "26522198",
+      "doi": "10.2015/jcpsp.s124s126",
+      "zotero_key": "5B2HCFF3",
+      "title": "Fraser Syndrome.",
+      "authors": [
+        [
+          "Adnan Aslam",
+          "Saleem"
+        ],
+        [
+          "Sorath Noorani",
+          "Siddiqui"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2015",
+      "abstract": "Fraser's Syndrome (FS) is a rare autosomal recessive disorder with a spectrum of malformations. The most consistent features are Cryptophthalmos (CO), syndactyly, genitourinary tract abnormalities, laryngeal and tracheal anomalies, craniofacial dysmorphism, malformations of the ear and nose, orofacial clefting and musculoskeletal defects. FS is genetically heterogeneous; so far mutations in FRAS1, FREM2 and GRIP1 genes have been linked to FS. FS can be diagnosed on clinical examination, pre-natal ultrasound or perinatal autopsy. We present a case of a 3 months old child born to consanguineous healthy parents with bilateral complete CO, unilateral microphthalmia, hypertelorism, syndactyly (hands and feet bilaterally), ambiguous genitalia with cryptorchidism and an umbilical hernia. We also present the criteria for diagnosing FS and the significant features on pre-natal ultrasonography. Around 200 case reports of patients with FS and CO have been published. To our knowledge, this is the first reported case of FS in Pakistan.",
+      "cited_by_count": 5,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FREM2"
+    },
+    {
       "pmid": "42106822",
       "doi": "10.1186/s12920-026-02385-8",
       "zotero_key": "4PRIZIIX",
@@ -9288,6 +9552,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "MYOC"
+    },
+    {
+      "pmid": "40326030",
+      "doi": "10.2174/0109298673365255250418092319",
+      "zotero_key": "T2TRX539",
+      "title": "Genetic Studies on Multiple Consanguineous Families Segregating Diverse Phenotypes of Microphthalmia Identified Novel and Recurrent Mutations",
+      "authors": [
+        [
+          "Kashmala",
+          "Samad"
+        ],
+        [
+          "Fazeelat",
+          "Samad"
+        ],
+        [
+          "Abdulfatah M.",
+          "Alayoubi"
+        ],
+        [
+          "Aisha",
+          "Siddiqua"
+        ],
+        [
+          "Mohammed Turki Hussain",
+          "Alharthi"
+        ],
+        [
+          "Hussam",
+          "Baghdadi"
+        ],
+        [
+          "Sumra Wajid",
+          "Abbasi"
+        ],
+        [
+          "Muzammil Ahmad",
+          "Khan"
+        ],
+        [
+          "Muhammad",
+          "Latif"
+        ]
+      ],
+      "journal": "Current Medicinal Chemistry",
+      "year": "2025",
+      "abstract": "INTRODUCTION: Anophthalmia/microphthalmia (A/M) and anterior segment dysgenesis (ASD) are severe ocular anomalies impacting eye morphology, occurring in 30 per 100,000 live births. Genetic research has identified over 30 genes linked to A/M anomalies, with their products mainly involved in eye organogenesis. AIMS AND OBJECTIVES: This study examined two consanguineous A/M families to identify disease-associated pathogenic mutations and predict their functional impact. METHODOLOGY: Patients were clinically examined using A-scan and ophthalmic ultrasonography. Whole exome sequencing (WES) identified candidate pathogenic variants validated through Sanger sequencing. Computational analyses assessed the impact of these mutations on protein structure and function. RESULTS: The clinical diagnosis of family A revealed microphthalmia with ASD, while family B presented with an A/M phenotype. Exome analysis of family A identified a novel missense variant, NM_012293:c.A3742G [p.(Arg1248Gly)], in the peroxidasin (PXDN) gene (ClinVar ID: VCV001333267.1). At the cellular level, PXDN is involved in establishing sulfilimine bonds in collagen IV, a component of the basement membrane, suggesting that ocular defects may result from impaired integrity of the basement membrane in the developing eye. In contrast, Family B exhibited a nonsense variant NM _012186:c.720C>A (p.- Cys240*) in the FOXE3 gene. This variant has been previously reported in other South Asian populations, suggesting a founder effect in subcontinent populations. Structural modeling and simulation analysis of mutant proteins revealed altered properties, thus corroborating the pathogenicity of the identified mutation. CONCLUSION: Our findings may contribute to the elucidation of genotype-phenotype correlations, potentially facilitating the molecular diagnosis of microphthalmia and ASD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FOXE3"
     },
     {
       "pmid": "34897530",
@@ -10466,6 +10784,76 @@
       "subcollection": "DCN"
     },
     {
+      "pmid": "40697538",
+      "doi": "10.3389/fgene.2025.1511796",
+      "zotero_key": "SX95MGD2",
+      "title": "Identification of variants in SWI/SNF complex genes associated with neurodevelopmental disorders",
+      "authors": [
+        [
+          "Chen",
+          "Liang"
+        ],
+        [
+          "Haihong",
+          "Shi"
+        ],
+        [
+          "Yanjuan",
+          "Chen"
+        ],
+        [
+          "Xia",
+          "Wang"
+        ],
+        [
+          "Jie‐Yuan",
+          "Jin"
+        ],
+        [
+          "Liqun",
+          "Su"
+        ],
+        [
+          "Lijun",
+          "Tang"
+        ],
+        [
+          "Huihong",
+          "Li"
+        ],
+        [
+          "Huihong",
+          "Li"
+        ],
+        [
+          "Fei",
+          "Ling"
+        ],
+        [
+          "Haoxian",
+          "Li"
+        ],
+        [
+          "Haoxian",
+          "Li"
+        ],
+        [
+          "Yanghui",
+          "Zhang"
+        ]
+      ],
+      "journal": "Frontiers in Genetics",
+      "year": "2025",
+      "abstract": "Introduction Neurodevelopmental disorder (NDDs) such as intellectual disability, developmental delay encompasses a diverse group of conditions caused by the disruptions in the central nervous system (CNS) during development. Variants in the SWItch/Sucrose non-fermentable (SWI/SNF) complex genes are significant contributors to NDDs. ARID2, ARID1B, and SMARCC2 are important subunits of the SWI/SNF complex, and their variants can also result in Coffin-Siris syndrome (CSS), a type of NDDs characterized by CNS disorders, global developmental delay, visual/hearing impairment, distinct facial features, and congenital heart disease (CHD). Methods Three NDDs families were recruited, and whole-exome sequencing and Sanger sequencing were used to detected their causative variant. Results We described their symptoms and identified three variants of SWI/SNF complex genes unreported in disease cohorts, including a deletion variant of ARID2 (NM_152641: c.2901delC, p.Asn967LysfsX2), an insertion variant of ARID1B (NM_001374828: c.6532_6533insT, p.Trp2178LeufsX34), and a missense variant of SMARCC2 (NM_003075: c.2920C&amp;gt;G, p.Pro974Ala). Additionally, we compiled known variants in ARID2 , ARID1B , and SMARCC2 associated with CSS/NDDs. Conclusion We reported three SWI/SNF variants in three NDDs families. Our identification broadened the variant spectrum of SWI/SNF genes and contributed to the genetic counseling and molecular diagnosis of NDDs.",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARID1B"
+    },
+    {
       "pmid": "41803283",
       "doi": "10.1038/s41598-026-42914-0",
       "zotero_key": "CJ3HWRWJ",
@@ -10902,6 +11290,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ACO2"
+    },
+    {
+      "pmid": "9160042",
+      "doi": "10.3181/00379727-215-44121",
+      "zotero_key": "6ZXA3Z9D",
+      "title": "Inherited Disorders of Glycoprotein Synthesis: Cell Biological Insights",
+      "authors": [
+        [
+          "GH",
+          "McDowell"
+        ],
+        [
+          "William A.",
+          "Gahl"
+        ]
+      ],
+      "journal": "Experimental Biology and Medicine",
+      "year": "1997",
+      "abstract": "Disorders of glycoprotein synthesis have been described only recently, and few have been studied extensively at both the clinical and biochemical level. The identification and characterization of these rare diseases are important, not only for the patients and their families, but because they offer enormous insight into biological processes. For example, the targeting of acid hydrolases to lysosomes by mannose-6-phosphate was discovered as a direct result of the elucidation of the defect in I-cell disease. The notion of carbohydrates as targeting agents continues to have ramifications today, with the success of macrophage-targeted enzyme replacement therapy for Gaucher disease. Likewise, confirmation of the in vivo role of fucose-containing glycans and selectins in neutrophil function came from studies using specimens from patients with leucocyte adhesion deficiency type II due to reduced availability of GDP-fucose. Identification of the in vivo ligands of selectins also has implications for anti-inflammatory therapies. Macular corneal dystrophy and spondyloepiphyseal dysplasia tarda offer an opportunity to investigate the number of different sulfotransferases in cells, their substrates, and their tissue expression. The Ehlers-Danlos progeroid variant offers insight into the function and regulation of the proteoglycan decorin, and suggests that several of the enzymes involved in proteoglycan synthesis may function as a multienzyme complex. The common occurrence of hypergonadotropic hypogonadism in patients with galactosemia or carbohydrate-deficient glycoprotein protein syndrome, due to defective N-linked glycosylation, suggests that ovarian function is particularly dependent on proper glycan-synthesis. A host of other concepts await discovery as a fuller contingent of human disorders of glycan synthesis achieves recognition.",
+      "cited_by_count": 33,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "DCN"
     },
     {
       "pmid": "42135191",
@@ -12464,28 +12878,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41542204",
-      "doi": "10.4103/joacp.joacp_140_25",
-      "zotero_key": "UIZFAVWM",
-      "title": "Methodological limitations in acceleromyographic monitoring: A comment on the study by Dhar et al.",
-      "authors": [
-        [
-          "Mustafa",
-          "Büyükcavlak"
-        ]
-      ],
-      "journal": "Journal of Anaesthesiology Clinical Pharmacology",
-      "year": "2025",
-      "abstract": "Dear Editor, I read with interest the study by Dhar et al.[1] comparing the effect of lignocaine and fentanyl on neuromuscular recovery in pediatric anesthesia. While the study addresses an important clinical question, the lack of train-of-four (TOF) ratio normalization in acceleromyography (AMG) measurements raises methodological concerns. AMG is prone to “inverse fade,” where baseline TOF ratios often exceed 1.0. Without normalization, TOF ratios may falsely indicate recovery. Recent work by Wedemeyer et al.[2] demonstrated that 42% of non-normalized AMG readings exceed 1.1, masking residual neuromuscular block. Similarly, Brull and Fuchs-Buder[3] highlighted AMG’s high variability and urged normalization for accuracy. In this study, a reported TOF of 0.9 might correspond to a normalized ratio 1.0—would enhance methodological rigor.[3] The authors’ contribution to pediatric anesthesia is commendable. However, TOF normalization is critical for accurate neuromuscular monitoring. Addressing this limitation would improve the study’s clinical relevance and align it with contemporary standards. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ZEB1"
-    },
-    {
       "pmid": "19947808",
       "doi": "10.1592/phco.29.12.1491",
       "zotero_key": "CCV6U59J",
@@ -12656,6 +13048,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CEP290"
+    },
+    {
+      "pmid": "30087219",
+      "doi": "",
+      "zotero_key": "VGBS5M97",
+      "title": "Molecular Study of Nephronophthisis in 7 Unrelated Pakistani Families.",
+      "authors": [
+        [
+          "Sofia",
+          "Hussain"
+        ],
+        [
+          "Naureen",
+          "Akhtar"
+        ],
+        [
+          "Reem",
+          "Qamar"
+        ],
+        [
+          "Naima",
+          "Khan"
+        ],
+        [
+          "Muhammad",
+          "Naeem"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2018",
+      "abstract": "Nephronophthisis is an autosomal recessive cystic kidney disease characterized by tubular interstitial infiltration, periglomerular fibrosis, and cysts, and is the most frequent genetic cause of end-stage renal disease in children. Nephronophthisis is pleiotropic as almost all the causative genes are involved in primary cilium and centrosome function which are found in almost all human cells. Genetic heterogeneity in nephronophthisis makes the molecular and genetic diagnosis somewhat difficult. Homozygous deletions in the nephronophthisis 1 (NPHP1) gene are the major contributor of nephronophthisis cases, while other genes accounts for less than 3% each. Nephronophthisis-related ciliopathy is a term used for extrarenal symptoms in addition to nephronophthisis. Herein, we are reporting the molecular study of 7 children from independent families fulfilling the criteria of nephronophthisis. A deletion analysis of the NPHP1 gene was performed in each case, and NPHP5 mutation screening was performed in the absence of such deletion in patients with Senior Loken syndrome.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "IQCB1"
     },
     {
       "pmid": "41768827",
@@ -14258,6 +14688,64 @@
       "subcollection": "Corneal dystrophy, lattice"
     },
     {
+      "pmid": "41905512",
+      "doi": "10.1016/j.jaapos.2026.104811",
+      "zotero_key": "S9A833HE",
+      "title": "Ophthalmic phenotype and strabismus surgery in Angelman syndrome: genotype-specific risks and uniform surgical efficacy",
+      "authors": [
+        [
+          "Kai",
+          "Xu"
+        ],
+        [
+          "Xin",
+          "Chen"
+        ],
+        [
+          "Xinyue",
+          "Li"
+        ],
+        [
+          "Zupeng",
+          "Lu"
+        ],
+        [
+          "Xiaoting",
+          "Zhou"
+        ],
+        [
+          "Wangyi",
+          "Fang"
+        ],
+        [
+          "Xiaodong",
+          "Du"
+        ],
+        [
+          "Kourosh",
+          "Shahraki"
+        ],
+        [
+          "Donny W.",
+          "Suh"
+        ],
+        [
+          "Tong",
+          "Qiao"
+        ]
+      ],
+      "journal": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OCA2"
+    },
+    {
       "pmid": "42491679",
       "doi": "10.2147/opth.s620562",
       "zotero_key": "G9NIHNEV",
@@ -14622,6 +15110,80 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CEP290"
+    },
+    {
+      "pmid": "41827828",
+      "doi": "10.3390/cells15050394",
+      "zotero_key": "DRPCXKX9",
+      "title": "Patient-Derived Immortalized Limbal Epithelial Cells as In Vitro Models of Congenital Aniridia",
+      "authors": [
+        [
+          "Tanja",
+          "Stachon"
+        ],
+        [
+          "Shweta",
+          "Suiwal"
+        ],
+        [
+          "Virendra",
+          "Kumar"
+        ],
+        [
+          "Tobias",
+          "May"
+        ],
+        [
+          "Frank",
+          "Schmitz"
+        ],
+        [
+          "Maryam",
+          "Amini"
+        ],
+        [
+          "Fabian N.",
+          "Fries"
+        ],
+        [
+          "Berthold",
+          "Seitz"
+        ],
+        [
+          "Shao-Lun",
+          "Hsu"
+        ],
+        [
+          "S.",
+          "Li"
+        ],
+        [
+          "Shanhe",
+          "Liu"
+        ],
+        [
+          "S.",
+          "Kundu"
+        ],
+        [
+          "Nicole",
+          "Ludwig"
+        ],
+        [
+          "Nóra",
+          "Szentmáry"
+        ]
+      ],
+      "journal": "Cells",
+      "year": "2026",
+      "abstract": "Purpose: To establish and comprehensively characterize immortalized limbal epithelial cell lines derived from patients with PAX6 haploinsufficiency-associated congenital aniridia, as well as from a healthy donor. These well-defined cell models provide a reliable and reproducible platform for long-term experimental studies, facilitating mechanistic investigations and the development and evaluation of novel therapeutic approaches. Methods: Primary limbal epithelial cells were isolated from biopsies of two patients with distinct PAX6 variants and from a healthy donor. Immortalization was performed by InSCREENex GmbH. The resulting cell lines were characterized using microscopy, BrdU assay, qPCR, flow cytometry, immunocytochemistry, and mRNA sequencing. Results: Immortalized aniridia and control cell lines displayed typical polygonal epithelial morphology and comparable proliferation rates. Total PAX6 mRNA and protein levels were similar among groups; however, nuclear PAX6 immunosignals were significantly reduced in aniridia-derived lines. Expression of ABCG2, TP63, FOSL2, ALDH1A1, and FABP5 showed no significant differences, except for reduced ΔNp63α protein levels in one aniridia line. mRNA sequencing detected more than 14,000 transcripts, including subsets uniquely expressed in control and aniridia-derived lines. Conclusions: Immortalized aniridia limbal epithelial cell lines preserve key epithelial characteristics and overall transcriptomic similarity to controls while exhibiting disease-relevant molecular alterations. These cell lines represent models of PAX6-associated ocular surface disease.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PAX6"
     },
     {
       "pmid": "42318730",
@@ -15456,6 +16018,52 @@
       "subcollection": "COL8A2"
     },
     {
+      "pmid": "42598766",
+      "doi": "10.1210/clinem/dgag330",
+      "zotero_key": "29EUAQ6N",
+      "title": "Precision Medicine in patients with rare forms of genetic obesity: Necessity for coordinated and structured care",
+      "authors": [
+        [
+          "Karine",
+          "Clément"
+        ],
+        [
+          "I. Sadaf",
+          "Farooqi"
+        ],
+        [
+          "Peter",
+          "Kühnen"
+        ],
+        [
+          "S.",
+          "Brandt"
+        ],
+        [
+          "Metin",
+          "Cetiner"
+        ],
+        [
+          "Jesús",
+          "Argente"
+        ],
+        [
+          "Annette",
+          "Grueters"
+        ]
+      ],
+      "journal": "The Journal of Clinical Endocrinology & Metabolism",
+      "year": "2026",
+      "abstract": "Advances in research enable precision medicine for rare metabolic diseases. The approval of therapies as melanocortin-4 receptor (MC4R) agonists for the treatment of hyperphagia and obesity in monogenic disorders (POMC, PCSK1, and LEPR deficiencies) and Bardet-Biedl syndrome (BBS), affecting fewer than 1 in 20,000 (BBS) to fewer than 1 in 1,000,000 individuals, represents a major advance. These therapies have transformative potential but introduce new responsibilities due to limited patient numbers and lack of long-term data. Equitable access to diagnosis and treatment, expert care and structured monitoring systems facilitate efficient use of resources and can address gaps in knowledge. This article outlines a European expert consensus recommending the designation of centers of expertise to coordinate the diagnosis and treatment of patients with monogenic obesity. The need for structured care protocols based on continued analysis of real-world databases to optimize therapy in a responsible manner is emphasized. The goals are (1) early and precise diagnosis; (2) access for eligible patients to therapy; (3) continuous evaluation of treatment response allowing discontinuation without no measurable clinical benefit and (4) provision of clinical care by trained and experienced professionals.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS2"
+    },
+    {
       "pmid": "42154411",
       "doi": "10.1007/s43390-026-01403-0",
       "zotero_key": "SW749PED",
@@ -15930,6 +16538,68 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Anterior segment examination"
+    },
+    {
+      "pmid": "12620391",
+      "doi": "10.1016/s0888-7543(02)00028-9",
+      "zotero_key": "B3R27Q3V",
+      "title": "Radiation hybrid map, physical map, and low-pass genomic sequence of the canine prcd region on CFA9 and comparative mapping with the syntenic region on human chromosome 17.",
+      "authors": [
+        [
+          "D.J.",
+          "Sidjanin"
+        ],
+        [
+          "Barbara",
+          "Miller"
+        ],
+        [
+          "James",
+          "Kijas"
+        ],
+        [
+          "J",
+          "McElwee"
+        ],
+        [
+          "J.",
+          "Pillardy"
+        ],
+        [
+          "Joel A.",
+          "Malek"
+        ],
+        [
+          "Grace",
+          "Pai"
+        ],
+        [
+          "Tamara V.",
+          "Feldblyum"
+        ],
+        [
+          "Claire M.",
+          "Fraser"
+        ],
+        [
+          "G. M.",
+          "Acland"
+        ],
+        [
+          "G.D.",
+          "Aguirre"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2003",
+      "abstract": "Progressive rod-cone degeneration (prcd) is a canine retinal disease that maps to the centromeric end of CFA9 in a region of synteny with the distal part of HSA17q. As such, prcd has been postulated as the only animal model of RP17, a human retinitis pigmentosa locus that maps to 17q22. In an effort to establish more detailed regions of synteny between dog CFA9 and the HSA17q-ter region, we created a robust gene-enriched CFA9-RH08(3000) map with 34 gene-based markers and 12 microsatellites, with the highest resolution and number of markers for the centromeric end of CFA9. Furthermore, we built an approximately 1.5-Mb physical map containing both GRB2 and GALK1, genes so far identified by meiotic linkage analysis as being closest to the prcd locus, and generated about 1.2 Mb low-pass (3.2x) canine sequence. Canine to human comparative sequence analysis identified 49 transcripts that had been previously mapped to the HSA17q25 region. The generated low-pass canine sequence was annotated with a working draft of human sequence from HSA17q25, and we used this scaffold to order and orient the canine sequence against human. This order and orientation are preliminary, as high-throughput genomic sequencing of HSA17q-ter has not been fully completed.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRCD"
     },
     {
       "pmid": "",
@@ -17771,40 +18441,6 @@
       "subcollection": "ACO2"
     },
     {
-      "pmid": "39132102",
-      "doi": "10.4103/ojo.ojo_164_23",
-      "zotero_key": "FA6R7IHI",
-      "title": "Spontaneous Amsler’s sign",
-      "authors": [
-        [
-          "Shishir",
-          "Narain"
-        ],
-        [
-          "Zalak",
-          "Shah"
-        ],
-        [
-          "S.",
-          "Ray"
-        ],
-        [
-          "Ramanjit",
-          "Sihota"
-        ]
-      ],
-      "journal": "Oman Journal of Ophthalmology",
-      "year": "2024",
-      "abstract": "We report an interesting case of a 39-year-old male patient with anterior uveitis who had recently been diagnosed with Fuchs’ heterochromic cyclitis (FHC) in our outpatient department (OPD) 2 months back. He subsequently presented to the OPD in an emergency, having noticed severe blurring of vision in his right eye on waking up. His best-corrected visual acuity was 6/6, N6 in both eyes. A slit-lamp examination of the right eye revealed a mild anterior chamber reaction, with a few keratic precipitates on the endothelium. The intraocular pressure was 28 mmHg in the right eye and 13 mmHg in the left eye. Such blurring is usually related to high intraocular pressure in these cases of hypertensive iridocyclitis. However, in our case, there was a streak of hyphema at 9 o’clock, suggestive of spontaneous Amsler’s sign [Figure 1]. We also demonstrate the use of infrared photography of the anterior segment to highlight the subtle iris changes in FHC seen in our case, which is classically called the moth-eaten appearance of the iris [Figure 2].Figure 1: Spontaneous hemorrhage (arrow) at 9 o’clock position in the right eye in Fuchs’ heterochromic cyclitis (Amsler’s sign)Figure 2: Iris near-infrared autofluorescence: Note the altered pattern with petaloid moderate autofluorescence pattern in the pupillary zone, minimal autofluorescence in the deep radial troughs, and reticular pattern in the ciliary zone in the right eye (a), and normal pattern in the left eye (b)Amsler’s sign is classically described as a streak of hyphema occurring diametrically opposite to the site of paracentesis in cases of FHC classically noted during initial anterior chamber entry during cataract surgery.[1] A case of spontaneous hyphema in FHC, very similar to our case, has earlier been reported.[2] Six cases of spontaneous Amsler’s sign in patients with Fuchs’ uveitis syndrome without any intervention have also been reported earlier.[3] We report yet another unique case of spontaneous Amsler’s sign in FHC with high intraocular pressure. Iris near-infrared autofluorescence (NIR-AF) is a noninvasive imaging technique that uses near-infrared light to detect autofluorescent molecules in the iris. In FHC, iris NIR-AF imaging has shown a decrease in the iris autofluorescence signal in the affected eye compared to the unaffected eye. This decrease is thought to be due to the loss of iris pigmentation, which is a hallmark feature of FHC. In addition, the distribution of iris NIR-AF is altered in FHC, with increased heterogeneity and decreased regularity. One of the advantages of iris NIR-AF imaging is that it allows for the detection of subtle changes in iris pigmentation that may not be visible on clinical examination. In addition, this technique is noninvasive, is rapid, and can be easily performed in an outpatient setting. Overall, iris NIR-AF imaging is a promising tool for studying the changes in iris pigmentation and autofluorescence in FHC. The rise in intraocular pressure in FHC is believed to be due to trabeculitis. A rarer cause is subtle angle neovascularization leading to decreased aqueous outflow. However, in our case, angle neovascularization was not present on gonioscopy [Figure 3]. Out of the six cases of spontaneous Amsler’s sign reported earlier, two of them were seen only through gonioscopy.[3] Another case of rubeosis of the anterior chamber angle in FHC has also been reported.[4]Figure 3: No neovascularization of angle was noted at 9 o’clock position in the right eye as evidenced by visualizing the angle at 3 o’clock position through indirect gonioscopyOur case highlights a very unusual presentation of FHC. It also elegantly demonstrates the use of near-infrared photography of the anterior segment for documentation of subtle iris pathologies in FHC. This imaging is a promising objective and noninvasive technique to document the iris changes and/or help distinguish FHC from other uveitis entities that might require more aggressive treatment. It may help clarify a confounding clinical picture and reduce the often years-long delay in diagnosis of FHC. This emphasizes the use of an emerging technique of anterior segment multimodal imaging in uveitis documentation.[5] However, further studies are needed to determine its clinical utility and its correlation with other clinical features of FHC. Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form, the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ZEB1"
-    },
-    {
       "pmid": "42231409",
       "doi": "10.1186/s12920-026-02402-w",
       "zotero_key": "6WU8UTDV",
@@ -17963,6 +18599,44 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Albinism"
+    },
+    {
+      "pmid": "42586422",
+      "doi": "10.1016/j.rceng.2026.502612",
+      "zotero_key": "EERSP3UC",
+      "title": "Stickler syndrome type 1: case series and new genetic variants",
+      "authors": [
+        [
+          "Lara",
+          "Landeras"
+        ],
+        [
+          "Leyre",
+          "Riancho‐Zarrabeitia"
+        ],
+        [
+          "Angel de la",
+          "Mora"
+        ],
+        [
+          "Carmelo",
+          "Morales"
+        ],
+        [
+          "José A.",
+          "Riancho"
+        ]
+      ],
+      "journal": "Revista Clínica Española (English Edition)",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL2A1"
     },
     {
       "pmid": "41987385",
@@ -18513,6 +19187,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Retinal dystrophies"
+    },
+    {
+      "pmid": "42058367",
+      "doi": "10.1515/nipt-2026-0006",
+      "zotero_key": "NTAG4VJP",
+      "title": "The 30 th Scientific Conference of the Society on NeuroImmune Pharmacology in Annapolis, Maryland, May 3 rd – 6 th , 2026",
+      "authors": [
+        [
+          "Linda Dongxia",
+          "Chang"
+        ],
+        [
+          "Susmita",
+          "Sil"
+        ],
+        [
+          "Jerel Adam",
+          "Fields"
+        ],
+        [
+          "Allison M.",
+          "Andrews"
+        ],
+        [
+          "Servio H.",
+          "Ramirez"
+        ],
+        [
+          "R J",
+          "Noel"
+        ]
+      ],
+      "journal": "NeuroImmune Pharmacology and Therapeutics",
+      "year": "2026",
+      "abstract": "Abstract The 30 th Annual Society on Neuroimmune Pharmacology (SNIP) conference will be held on May 3-6 th at the Graduate Hotel by Hilton in Annapolis, Maryland. This 4-day conference will present preclinical, translational, and clinical research in the intersecting fields of neuro-HIV and substance use disorders, as well as related neurodegenerative conditions. The speakers and poster presenters will share cutting-edge research funded by the National Institutes of Health. On the first day, we will have two concurrent preconference symposia. The first is “Single Cell HIV and SUD Effects on the Brain: SCORCH Consortium Progress”, with an overview and 7 presentations by investigators, highlighting the outstanding work in the Single Cell Opioid Response in the Context of HIV (SCORCH). The second concurrent symposium is “Catalyzing Interdisciplinary Research on HIV-Associated Co-occurring Conditions.” In the evening, we will have our first Poster Session with 52 abstracts by early-stage-career investigators (ECIs), including those that received the ECI travel awards. On days 2-4, in addition to a plenary talk and two memorial lectures, we will have 11 symposia, with 62 speakers (including 12 who are early-stage career investigator travel awardees), and 65 additional poster presentations. In total, the 30 th SNIP conference received 185 abstracts for the 70 oral presentations and 115 posters. Topics covered by these symposia and poster presentations include mechanistic and observational studies that evaluate neuronal injury and neuroinflammation associated with HIV brain infection, and how drugs of abuse, including stimulants, opioids, and cannabis, may exacerbate or mitigate neuropathogenesis. In addition, with the aging population of people with HIV and many with substance use disorders, recent work also evaluated how aging and various neurodegenerative disorders could further impact brain health. At the plenary lecture, Dr. Nora Volkow will highlight the priorities of HIV research at the National Institute on Drug Abuse (NIDA), while our banquet speaker, Dr. Avindra Nath will elucidate how viruses, particularly retroviruses, may invade the brain, infect brain cells, and adapt to the local environment for decades or mutate and possibly lead to neurodegenerative disorders. This will be an exciting conference that will continue SNIP’s emphasis on the career development of early-stage investigators.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "16340503",
@@ -20813,28 +21529,6 @@
       "subcollection": "Wagner vitreoretinopathy"
     },
     {
-      "pmid": "",
-      "doi": "10.1002/jimd.12645",
-      "zotero_key": "MDQCDJIE",
-      "title": "View from inside-Gyrate atrophy: From defeat to action.",
-      "authors": [
-        [
-          "P",
-          "Schultink"
-        ]
-      ],
-      "journal": "Journal of inherited metabolic disease",
-      "year": "2023",
-      "abstract": "",
-      "cited_by_count": 3,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Gyrate atrophy of choroid and retina"
-    },
-    {
       "pmid": "34484697",
       "doi": "10.1002/cld.1079",
       "zotero_key": "MH8C3PX9",
@@ -21089,28 +21783,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
-    },
-    {
-      "pmid": "37088422",
-      "doi": "10.1016/j.cmi.2023.04.018",
-      "zotero_key": "HD8J262P",
-      "title": "Which trial do we need? Comparison of 7 versus 14 days of antibiotic therapy for ventilator-associated pneumonia due to highly resistant gram-negative bacteria",
-      "authors": [
-        [
-          "Imad M.",
-          "Tleyjeh"
-        ]
-      ],
-      "journal": "Clinical Microbiology and Infection",
-      "year": "2023",
-      "abstract": "",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "TYRP1"
     },
     {
       "pmid": "42156752",
