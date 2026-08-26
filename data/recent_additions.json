@@ -1,6 +1,1326 @@
 {
- "generated_at": "2026-08-25T08:35:24Z",
+ "generated_at": "2026-08-26T08:45:01Z",
  "additions": [
+  {
+   "pmid": "20679209",
+   "doi": "10.1073/pnas.0914206107",
+   "title": "A canine Arylsulfatase G ( ARSG ) mutation leading to a sulfatase deficiency is associated with neuronal ceroid lipofuscinosis",
+   "year": "2010",
+   "subcollection": "ARSG",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T06:59:44Z"
+  },
+  {
+   "pmid": "26975023",
+   "doi": "10.1167/iovs.15-17645",
+   "title": "Degeneration of Photoreceptor Cells in Arylsulfatase G-Deficient Mice",
+   "year": "2016",
+   "subcollection": "ARSG",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T06:59:44Z"
+  },
+  {
+   "pmid": "22689975",
+   "doi": "10.1073/pnas.1202071109",
+   "title": "Arylsulfatase G inactivation causes loss of heparan sulfate 3- O -sulfatase activity and mucopolysaccharidosis in mice",
+   "year": "2012",
+   "subcollection": "ARSG",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T06:59:44Z"
+  },
+  {
+   "pmid": "34368957",
+   "doi": "10.1111/imr.13012",
+   "title": "The special unfolded protein response in plasma cells",
+   "year": "2021",
+   "subcollection": "ATF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:03:12Z"
+  },
+  {
+   "pmid": "41001250",
+   "doi": "10.33696/neurol.6.108",
+   "title": "N-Acetylcysteine Ameliorates Loss of the Electroretinogram b-wave in a Bardet-Biedl Syndrome Type 10 Mouse Model",
+   "year": "2025",
+   "subcollection": "BBS10",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:04:42Z"
+  },
+  {
+   "pmid": "39434570",
+   "doi": "10.3341/kjo.2024.0012",
+   "title": "Homozygous Frameshift Mutation in the BBS10 Gene Causing Bardet–Biedl Syndrome with Rod-Cone Dystrophy: A Case Report",
+   "year": "2024",
+   "subcollection": "BBS10",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:04:42Z"
+  },
+  {
+   "pmid": "39315571",
+   "doi": "10.1093/jas/skae273",
+   "title": "Integration of multi-omics reveals the important role of the BBS10 gene in reproduction",
+   "year": "2024",
+   "subcollection": "BBS10",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:04:42Z"
+  },
+  {
+   "pmid": "39250911",
+   "doi": "10.1159/000541137",
+   "title": "Neonatal Hydrocolpos in Bardet-Biedl Syndrome due to a Novel Frameshift Indel in the BBS10 Gene",
+   "year": "2024",
+   "subcollection": "BBS10",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:04:42Z"
+  },
+  {
+   "pmid": "40434474",
+   "doi": "10.4103/ijo.ijo_48_25",
+   "title": "The impact of genetic testing in retinitis pigmentosa on reproductive medicine",
+   "year": "2025",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "37469681",
+   "doi": "10.3389/fped.2023.1226595",
+   "title": "Bardet-Biedl syndrome caused by compound heterozygosity in BBS12 gene: a case report of one family with three affected members",
+   "year": "2023",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "36574078",
+   "doi": "10.1007/s10633-022-09915-6",
+   "title": "Bardet–Biedl syndrome associated with novel compound heterozygous variants in BBS12 gene",
+   "year": "2022",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "36384733",
+   "doi": "10.16288/j.yczz.22-182",
+   "title": "Diagnosis and genetic analysis of a case with Bardet-Biedl syndrome caused by compound heterozygous mutations in the BBS12 gene.",
+   "year": "2022",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "34760276",
+   "doi": "10.3892/br.2021.1479",
+   "title": "A case of Bardet‑Biedl syndrome caused by a recurrent variant inBBS12: A case report",
+   "year": "2021",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "33369054",
+   "doi": "10.1002/ajmg.a.62013",
+   "title": "Ciliopathies: Coloring outside of the lines",
+   "year": "2020",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "32448990",
+   "doi": "10.1007/s10792-020-01415-3",
+   "title": "Characteristics of genotype and phenotype in Chinese patients with Bardet–Biedl syndrome",
+   "year": "2020",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "29633607",
+   "doi": "10.22074/cellj.2018.5012",
+   "title": "Identification of A Novel Compound Heterozygous Mutation in BBS12 in An Iranian Family with Bardet-Biedl Syndrome Using Targeted Next Generation Sequencing.",
+   "year": "2018",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "26900326",
+   "doi": "",
+   "title": "A novel H395R mutation in MKKS/BBS6 causes retinitis pigmentosa and polydactyly without other findings of Bardet-Biedl or McKusick-Kaufman syndrome.",
+   "year": "2016",
+   "subcollection": "BBS12",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:06:07Z"
+  },
+  {
+   "pmid": "42395856",
+   "doi": "10.1155/crop/7604431",
+   "title": "Ocular and Systemic Phenotyping of Bardet–Biedel Syndrome Type 7 (BBS7) in a Palestinian Male: Case Report and Literature Review",
+   "year": "2026",
+   "subcollection": "BBS2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:07:59Z"
+  },
+  {
+   "pmid": "39967982",
+   "doi": "10.18240/ijo.2025.02.24",
+   "title": "A novel frameshift mutation in the BCOR gene is associated with oculo-facio-cardio-dental syndrome: a case report",
+   "year": "2025",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:08:40Z"
+  },
+  {
+   "pmid": "34313322",
+   "doi": "10.1111/cge.14034",
+   "title": "A C‐terminal BCOR nonsense variant in a male patient expands the phenotypic spectrum of BCOR ‐associated syndromic microphthalmia",
+   "year": "2021",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:08:40Z"
+  },
+  {
+   "pmid": "32748437",
+   "doi": "10.1111/cge.13808",
+   "title": "Craniosynostosis‐microphthalmia syndrome belongs to the spectrum of BCOR ‐related disorders",
+   "year": "2020",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:08:40Z"
+  },
+  {
+   "pmid": "30046887",
+   "doi": "10.1007/s00439-018-1907-y",
+   "title": "Identification of likely pathogenic and known variants in TSPEAR, LAMB3, BCOR, and WNT10A in four Turkish families with tooth agenesis",
+   "year": "2018",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:08:40Z"
+  },
+  {
+   "pmid": "42635054",
+   "doi": "10.1080/13816810.2026.2717329",
+   "title": "Homozygous ROM1 frameshift variant associated with late-onset retinal dystrophy",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42627378",
+   "doi": "10.1007/s00417-026-07469-w",
+   "title": "CLUAP1 variants cause non-syndromic retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42633834",
+   "doi": "10.1016/j.ajo.2026.08.027",
+   "title": "Peripheral Retinal Vascular Biomarkers on Ultra-Widefield OCT Angiography for Severity Grading in Retinitis Pigmentosa",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42482128",
+   "doi": "10.1186/s40942-026-00903-5",
+   "title": "Adjunctive dexamethasone implant during vitrectomy with silicone oil for diabetic tractional retinal detachment: a systematic review and exploratory meta-analysis",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42469711",
+   "doi": "10.1186/s12886-026-05142-8",
+   "title": "Adjuvant mitomycin C during vitrectomy in young adults with primary nontraumatic rhegmatogenous retinal detachment and grade C proliferative vitreoretinopathy",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42423915",
+   "doi": "10.1007/s10384-026-01396-3",
+   "title": "Acute retinal necrosis: an assessment of vitreous and retinal detachment",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42420903",
+   "doi": "10.1186/s12886-026-05101-3",
+   "title": "Recurrent rhegmatogenous retinal detachment: incidence, established and emerging risk factors, and clinical outcomes",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "42378081",
+   "doi": "10.4103/ijo.ijo_2654_25",
+   "title": "The clinical importance of phenotyping drusen",
+   "year": "2026",
+   "subcollection": "BEST1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:09:44Z"
+  },
+  {
+   "pmid": "34995847",
+   "doi": "10.1016/j.scr.2021.102644",
+   "title": "Generation of an induced pluripotent stem cell line (SYSUSCi001-A) from a congenital cataract patient carrying heterozygous mutations in BFSP1 and RHO",
+   "year": "2021",
+   "subcollection": "BFSP1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:10:13Z"
+  },
+  {
+   "pmid": "17167408",
+   "doi": "",
+   "title": "An autosomal dominant progressive congenital zonular nuclear cataract linked to chromosome 20p12.2-p11.23.",
+   "year": "2006",
+   "subcollection": "BFSP1",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:10:13Z"
+  },
+  {
+   "pmid": "36989286",
+   "doi": "10.1371/journal.pone.0281386",
+   "title": "Lens-specific βA3/A1-conditional knockout mice: Phenotypic characteristics and calpain activation causing protein degradation and insolubilization",
+   "year": "2023",
+   "subcollection": "BFSP2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:10:30Z"
+  },
+  {
+   "pmid": "12646746",
+   "doi": "10.1159/000069134",
+   "title": "Further Genetic Heterogeneity for Autosomal Dominant Human Sutural Cataracts",
+   "year": "2003",
+   "subcollection": "BFSP2",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:10:30Z"
+  },
+  {
+   "pmid": "37175759",
+   "doi": "10.3390/ijms24098052",
+   "title": "Holoprosencephaly with a Special Form of Anophthalmia Result from Experimental Induction of bmp4, Oversaturating BMP Antagonists in Zebrafish",
+   "year": "2023",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:11:06Z"
+  },
+  {
+   "pmid": "34009138",
+   "doi": "10.1530/ec-21-0019",
+   "title": "The evolving role of whole-exome sequencing in the management of disorders of sex development",
+   "year": "2021",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:11:06Z"
+  },
+  {
+   "pmid": "27661448",
+   "doi": "10.1080/13816810.2016.1217550",
+   "title": "Two missense mutations in SALL4 in a patient with microphthalmia, coloboma, and optic nerve hypoplasia",
+   "year": "2016",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:11:06Z"
+  },
+  {
+   "pmid": "23243277",
+   "doi": "10.1182/blood-2012-07-446443",
+   "title": "A novel role of BMP4 in adult hematopoietic stem and progenitor cell homing via Smad independent regulation of integrin-α4 expression",
+   "year": "2012",
+   "subcollection": "BMP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:11:06Z"
+  },
+  {
+   "pmid": "35659618",
+   "doi": "10.1016/j.jaapos.2022.04.005",
+   "title": "Phenotypes and genotypes underlying paradoxical pupillary reaction in children",
+   "year": "2022",
+   "subcollection": "CABP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:12:05Z"
+  },
+  {
+   "pmid": "28751151",
+   "doi": "10.1016/j.ajo.2017.07.008",
+   "title": "Development of Refractive Errors—What Can We Learn From Inherited Retinal Dystrophies?",
+   "year": "2017",
+   "subcollection": "CABP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:12:05Z"
+  },
+  {
+   "pmid": "23099293",
+   "doi": "10.1136/bjophthalmol-2012-302186",
+   "title": "Clinical characterisation of theCABP4-related retinal phenotype",
+   "year": "2012",
+   "subcollection": "CABP4",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:12:05Z"
+  },
+  {
+   "pmid": "40744901",
+   "doi": "10.1080/13816810.2025.2540407",
+   "title": "Novel structural variant in CACNA1F causing congenital stationary night blindness identified with whole genome sequencing",
+   "year": "2025",
+   "subcollection": "CACNA1F",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:12:44Z"
+  },
+  {
+   "pmid": "38579184",
+   "doi": "10.1212/wnl.0000000000209416",
+   "title": "Teaching Video NeuroImage: Infantile Upbeat Nystagmus as an Isolated Presentation of CACNA1F -Related Retinal Dystrophy",
+   "year": "2024",
+   "subcollection": "CACNA1F",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:12:44Z"
+  },
+  {
+   "pmid": "40448720",
+   "doi": "10.1007/s10048-025-00825-8",
+   "title": "A case series of joubert syndrome evaluated with whole exome sequencing and the utility of optical genome mapping in the diagnosis",
+   "year": "2025",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "41230208",
+   "doi": "10.1159/000543107",
+   "title": "Novel PIBF1 Pathogenic Variant in Three Siblings with Joubert Syndrome Type 33",
+   "year": "2024",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "39394465",
+   "doi": "10.1038/s41431-024-01703-x",
+   "title": "Pathogenic cryptic variants detectable through exome data reanalysis significantly increase the diagnostic yield in Joubert syndrome",
+   "year": "2024",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "37735380",
+   "doi": "10.1186/s12920-023-01669-7",
+   "title": "Novel variants identified in five Chinese families with Joubert Syndrome: a case report",
+   "year": "2023",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "37131188",
+   "doi": "10.1186/s13023-023-02706-5",
+   "title": "The genetic spectrum of congenital ocular motor apraxia type Cogan: an observational study, continued",
+   "year": "2023",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "36970932",
+   "doi": "10.1111/ahg.12507",
+   "title": "Identification of pathogenic deep intronic variant and exonic LINE‐1 insertion in a patient with Meckel syndrome",
+   "year": "2023",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "36468023",
+   "doi": "10.3389/fgene.2022.1038274",
+   "title": "Case report and a brief review: Analysis and challenges of prenatal imaging phenotypes and genotypes in Joubert syndrome",
+   "year": "2022",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "34182252",
+   "doi": "10.1016/j.scr.2021.102430",
+   "title": "Establishment of three Joubert syndrome-derived induced pluripotent stem cell (iPSC) lines harbouring compound heterozygous mutations in CC2D2A gene",
+   "year": "2021",
+   "subcollection": "CC2D2A",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:13:28Z"
+  },
+  {
+   "pmid": "40796707",
+   "doi": "10.1007/s13353-025-00991-3",
+   "title": "NGS sequencing reveals the cause of hearing loss in a group of Polish patients with an isolated, non-DFNB1 hearing loss",
+   "year": "2025",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "35186827",
+   "doi": "10.3389/fped.2021.803732",
+   "title": "Case Report: Reinterpretation and Reclassification of ARSB:p.Arg159Cys Variant Identified in an Emirati Patient With Hearing Loss Caused by a Pathogenic Variant in the CDH23 Gene",
+   "year": "2022",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "35050400",
+   "doi": "10.1007/s00439-021-02421-w",
+   "title": "Genetic etiology of hearing loss in Iran",
+   "year": "2022",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "34625930",
+   "doi": "10.3760/cma.j.cn511374-20200729-00561",
+   "title": "[Genetic diagnosis of a pedigree affected with Usher syndrome type 1D/F].",
+   "year": "2021",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "34338889",
+   "doi": "10.1007/s00439-021-02323-x",
+   "title": "Genetic etiology of hereditary hearing loss in the Gulf Cooperation Council countries",
+   "year": "2021",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "32485727",
+   "doi": "10.1159/000506500",
+   "title": "A Novel Cadherin 23 Variant for Hereditary Hearing Loss Reveals Additional Support for a DFNB12 Nonsyndromic Phenotype of CDH23",
+   "year": "2020",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "31546658",
+   "doi": "10.3390/genes10100732",
+   "title": "Aberrant Splicing Events Associated to CDH23 Noncanonical Splice Site Mutations in a Proband with Atypical Usher Syndrome 1",
+   "year": "2019",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "25575603",
+   "doi": "10.1016/j.heares.2014.12.006",
+   "title": "Usher syndrome: An effective sequencing approach to establish a genetic and clinical diagnosis",
+   "year": "2015",
+   "subcollection": "CDH23",
+   "category": "6 - Genes",
+   "source": "source:search",
+   "uploaded_at": "2026-08-26T07:14:41Z"
+  },
+  {
+   "pmid": "15976268",
+   "doi": "10.1096/fj.04-3101fje",
+   "title": "Abnormal maturation of the retinal vasculature in type XVIII collagen/endostatin deficient mice and changes in retinal glial cells due to lack of collagen types XV and XVIII",
+   "year": "2005",
+   "subcollection": "COL18A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:19:37Z"
+  },
+  {
+   "pmid": "22399687",
+   "doi": "10.1136/bjophthalmol-2011-301396",
+   "title": "The distinct ophthalmic phenotype of Knobloch syndrome in children",
+   "year": "2012",
+   "subcollection": "COL18A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:19:37Z"
+  },
+  {
+   "pmid": "40093039",
+   "doi": "10.1101/2025.03.06.641746",
+   "title": "Inwardly rectifying potassium channels regulate membrane potential polarization and direction sensing during neutrophil chemotaxis",
+   "year": "2025",
+   "subcollection": "KCNJ13",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:36:54Z"
+  },
+  {
+   "pmid": "18976636",
+   "doi": "10.1016/j.bbrc.2008.10.110",
+   "title": "Dual regulation of renal Kir7.1 potassium channels by protein Kinase A and protein Kinase C",
+   "year": "2008",
+   "subcollection": "KCNJ13",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:36:54Z"
+  },
+  {
+   "pmid": "39925741",
+   "doi": "10.3389/fcell.2025.1466948",
+   "title": "MLL4 regulates postnatal palate growth and midpalatal suture development",
+   "year": "2025",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "40964355",
+   "doi": "10.1101/2024.10.04.616738",
+   "title": "Human Neuron and Mouse Models Reveal Synaptic Imbalance in Kabuki Syndrome",
+   "year": "2024",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "30509212",
+   "doi": "10.1186/s12881-018-0724-4",
+   "title": "Novel KDM6A splice-site mutation in kabuki syndrome with congenital hydrocephalus: a case report",
+   "year": "2018",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "39309396",
+   "doi": "10.1016/j.reth.2024.08.022",
+   "title": "Role of histone methyltransferase KMT2D in BMSC osteogenesis via AKT signaling",
+   "year": "2024",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "40883562",
+   "doi": "10.1038/s42003-025-08635-2",
+   "title": "Deficiency of KMT2D causes autistic-like behavior in mice and zebrafish",
+   "year": "2025",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "42635044",
+   "doi": "10.1172/jci.insight.206763",
+   "title": "Reduced dosage of Kmt2d modifies Tbx1 haploinsufficiency toward phenotypes of 22q11.2DS",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "26366712",
+   "doi": "10.1038/nm.3940",
+   "title": "Disruption of KMT2D perturbs germinal center B cell development and promotes lymphomagenesis",
+   "year": "2015",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "24838796",
+   "doi": "10.1002/ajmg.a.36450",
+   "title": "De novo ANKRD11 and KDM1A gene mutations in a male with features of KBG syndrome and Kabuki syndrome",
+   "year": "2014",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "28732206",
+   "doi": "10.1016/j.molcel.2017.06.028",
+   "title": "A UTX-MLL4-p300 Transcriptional Regulatory Network Coordinately Shapes Active Enhancer Landscapes for Eliciting Transcription",
+   "year": "2017",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "31282990",
+   "doi": "10.1111/cge.13598",
+   "title": "Novel heterozygous variants in KMT2D associated with holoprosencephaly",
+   "year": "2019",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "40067214",
+   "doi": "10.1111/epi.18362",
+   "title": "Epileptic spasms and RNA analysis in a new case of Kabuki syndrome type 2",
+   "year": "2025",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "17500065",
+   "doi": "10.1074/jbc.m701574200",
+   "title": "PTIP Associates with MLL3- and MLL4-containing Histone H3 Lysine 4 Methyltransferase Complex",
+   "year": "2007",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "34724040",
+   "doi": "10.1042/bsr20211148",
+   "title": "KMT2D deficiency disturbs the proliferation and cell cycle activity of dental epithelial cell line (LS8) partially via Wnt signaling",
+   "year": "2021",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "35640156",
+   "doi": "10.1093/hmg/ddac121",
+   "title": "Kabuki syndrome stem cell models reveal locus specificity of histone methyltransferase 2D (KMT2D/MLL4)",
+   "year": "2022",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "35938163",
+   "doi": "10.3389/fcell.2022.946484",
+   "title": "Histone methyltransferase KMT2D contributes to the protection of myocardial ischemic injury",
+   "year": "2022",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "40416851",
+   "doi": "10.1097/fm9.0000000000000070",
+   "title": "Fetal Phenotype and Prenatal Diagnosis of Kabuki Syndrome",
+   "year": "2020",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "36276984",
+   "doi": "10.3389/fgene.2022.1007046",
+   "title": "Neurobehavioral phenotype of Kabuki syndrome: Anxiety is a common feature",
+   "year": "2022",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "38254937",
+   "doi": "10.3390/genes15010048",
+   "title": "KMT2D Deficiency Causes Sensorineural Hearing Loss in Mice and Humans",
+   "year": "2023",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:39:04Z"
+  },
+  {
+   "pmid": "12093878",
+   "doi": "10.1084/jem.20012094",
+   "title": "Delayed Apoptotic Cell Clearance and Lupus-like Autoimmunity in Mice Lacking the c-mer Membrane Tyrosine Kinase",
+   "year": "2002",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "17442946",
+   "doi": "10.4049/jimmunol.178.9.5635",
+   "title": "Macrophages and Dendritic Cells Use Different Axl/Mertk/Tyro3 Receptors in Clearance of Apoptotic Cells",
+   "year": "2007",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "12920122",
+   "doi": "10.1074/jbc.m305817200",
+   "title": "An SH2 Domain-dependent, Phosphotyrosine-independent Interaction between Vav1 and the Mer Receptor Tyrosine Kinase",
+   "year": "2003",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "29868590",
+   "doi": "10.3389/fmed.2018.00137",
+   "title": "GAS6/TAM Pathway Signaling in Hemostasis and Thrombosis",
+   "year": "2018",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "11929866",
+   "doi": "10.1074/jbc.m112086200",
+   "title": "Mer Receptor Tyrosine Kinase Signaling",
+   "year": "2002",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "18039660",
+   "doi": "10.1074/jbc.m706906200",
+   "title": "Autophosphorylation Docking Site Tyr-867 in Mer Receptor Tyrosine Kinase Allows for Dissociation of Multiple Signaling Pathways for Phagocytosis of Apoptotic Cells and Down-modulation of Lipopolysaccharide-inducible NF-κB Transcriptional Activation",
+   "year": "2007",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "19816064",
+   "doi": "10.1159/000231894",
+   "title": "TAM Receptor Signalling and Demyelination",
+   "year": "2009",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "15180281",
+   "doi": "10.1007/978-1-4615-0067-4_41",
+   "title": "The Phagocytosis of OS is Mediated by the PI3-Kinase Linked Tyrosine Kinase Receptor, Mer, and is Stimulated by Gas6",
+   "year": "2003",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "30054542",
+   "doi": "10.1038/s41598-018-29631-z",
+   "title": "Long-term Rescue of Photoreceptors in a Rodent Model of Retinitis Pigmentosa Associated with MERTK Mutation",
+   "year": "2018",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "10092806",
+   "doi": "",
+   "title": "A novel receptor tyrosine kinase, Mer, inhibits TNF-alpha production and lipopolysaccharide-induced endotoxic shock.",
+   "year": "1999",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "25695599",
+   "doi": "10.1038/cddis.2015.18",
+   "title": "Mer receptor tyrosine kinase mediates both tethering and phagocytosis of apoptotic cells",
+   "year": "2015",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "35967387",
+   "doi": "10.3389/fimmu.2022.960401",
+   "title": "The TAM receptor tyrosine kinases Axl and Mer drive the maintenance of highly phagocytic macrophages",
+   "year": "2022",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "15180261",
+   "doi": "10.1007/978-1-4615-0067-4_21",
+   "title": "Inherited Retinal Dystrophy in Mer Knockout Mice",
+   "year": "2003",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "20488176",
+   "doi": "10.1016/j.exer.2010.05.006",
+   "title": "Focus on Molecules: MERTK",
+   "year": "2010",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "18195070",
+   "doi": "10.1084/jem.20062293",
+   "title": "MerTK is required for apoptotic cell–induced T cell tolerance",
+   "year": "2008",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "18159085",
+   "doi": "10.1530/rep-07-0287",
+   "title": "Gas6 and the Tyro 3 receptor tyrosine kinase subfamily regulate the phagocytic function of Sertoli cells",
+   "year": "2007",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "23449722",
+   "doi": "10.1167/iovs.12-11154",
+   "title": "Photosensitized Oxidative Stress to ARPE-19 Cells Decreases Protein Receptors that Mediate Photoreceptor Outer Segment Phagocytosis",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "19273223",
+   "doi": "10.2741/3401",
+   "title": "Tyro3 receptor tyrosine kinases in the heterogeneity of apoptotic cell uptake",
+   "year": "2009",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "31485279",
+   "doi": "10.1155/2019/6156493",
+   "title": "Gas6/TAM Axis in Sepsis: Time to Consider Its Potential Role as a Therapeutic Target",
+   "year": "2019",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "8621659",
+   "doi": "10.1074/jbc.271.16.9785",
+   "title": "Characterization of Gas6, a Member of the Superfamily of G Domain-containing Proteins, as a Ligand for Rse and Axl",
+   "year": "1996",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "42101422",
+   "doi": "10.1042/bst20250119",
+   "title": "TAM receptor tyrosine kinases as potential mediators of the non-lytic spread of non-enveloped viruses",
+   "year": "2026",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "28210098",
+   "doi": "",
+   "title": "Mertk gene expression and photoreceptor outer segment phagocytosis by cultured rat bone marrow mesenchymal stem cells.",
+   "year": "2017",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "10731712",
+   "doi": "10.1093/oxfordjournals.jbchem.a022622",
+   "title": "Promotion of the Uptake of PS Liposomes and Apoptotic Cells by a Product of Growth Arrest-Specific Gene, gas6",
+   "year": "2000",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:45:39Z"
+  },
+  {
+   "pmid": "42634332",
+   "doi": "10.2174/0109298673436432260728094713",
+   "title": "Blocking the RhoA/ROCK/cofilin/F-actin Pathway via Y27632 Protects Against MERTK-deficient Retinal Degeneration and Visual Function Impairment",
+   "year": "2026",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-26T07:45:42Z"
+  },
+  {
+   "pmid": "42633867",
+   "doi": "10.1016/j.exer.2026.111207",
+   "title": "CatTohm Mutation Studies Identify AQP0 as a Modulator of Lens Transparency, Cell-to-Cell Adhesion, Biomechanics, Microcirculation and Homeostasis",
+   "year": "2026",
+   "subcollection": "MIP",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-08-26T07:48:11Z"
+  },
+  {
+   "pmid": "11163439",
+   "doi": "10.1016/s0166-6851(00)00322-4",
+   "title": "Genetic manipulation indicates that ARD1 is an essential Nα-acetyltransferase in Trypanosoma brucei",
+   "year": "2000",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "12464182",
+   "doi": "10.1016/s0092-8674(02)01085-1",
+   "title": "Regulation and Destabilization of HIF-1α by ARD1-Mediated Acetylation",
+   "year": "2002",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "15755738",
+   "doi": "10.1074/jbc.m412055200",
+   "title": "Analysis of ARD1 Function in Hypoxia Response Using Retroviral RNA Interference",
+   "year": "2005",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "32013195",
+   "doi": "10.3390/molecules25030588",
+   "title": "Characterization of Lysine Acetyltransferase Activity of Recombinant Human ARD1/NAA10",
+   "year": "2020",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "19246321",
+   "doi": "10.1095/biolreprod.108.073221",
+   "title": "Cloning, Characterization, and Expression Analysis of the Novel Acetyltransferase Retrogene Ard1b in the Mouse1",
+   "year": "2009",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "19090811",
+   "doi": "10.1111/j.1365-2443.2008.01235.x",
+   "title": "N‐acetyltransferase ARD1‐NAT1 regulates neuronal dendritic development",
+   "year": "2008",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "3907857",
+   "doi": "10.1016/0092-8674(85)90178-3",
+   "title": "The ARD1 gene of yeast functions in the switch between the mitotic cell cycle and alternative developmental pathways",
+   "year": "1985",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "3316986",
+   "doi": "10.1128/mcb.7.10.3713-3722.1987",
+   "title": "The Yeast ARD1 Gene Product is Required for Repression of Cryptic Mating-Type Information at the HML Locus",
+   "year": "1987",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T07:51:32Z"
+  },
+  {
+   "pmid": "14570705",
+   "doi": "10.1093/hmg/ddg358",
+   "title": "PCDH15 is expressed in the neurosensory epithelium of the eye and ear and mutant alleles are responsible for both USH1F and DFNB23",
+   "year": "2003",
+   "subcollection": "PCDH15",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:07:38Z"
+  },
+  {
+   "pmid": "38948700",
+   "doi": "10.1101/2024.06.16.599132",
+   "title": "Elasticity and Thermal Stability are Key Determinants of Hearing Rescue by Mini-Protocadherin-15 Proteins",
+   "year": "2024",
+   "subcollection": "PCDH15",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:07:38Z"
+  },
+  {
+   "pmid": "31461375",
+   "doi": "10.1152/jn.00231.2019",
+   "title": "Visual responses in the dorsal lateral geniculate nucleus at early stages of retinal degeneration in rd1 PDE6β mice",
+   "year": "2019",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:11:16Z"
+  },
+  {
+   "pmid": "7703521",
+   "doi": "10.1002/aja.1002020106",
+   "title": "Differential expression of retinoic acid receptor‐β isoforms during chick limb ontogeny",
+   "year": "1995",
+   "subcollection": "RARB",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:20:17Z"
+  },
+  {
+   "pmid": "19777591",
+   "doi": "10.1002/dvdy.22087",
+   "title": "Retinoic acid receptors exhibit cell‐autonomous functions in cranial neural crest cells",
+   "year": "2009",
+   "subcollection": "RARB",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:20:17Z"
+  },
+  {
+   "pmid": "17558407",
+   "doi": "10.1038/ng2069",
+   "title": "Mutations in the gene encoding the basal body protein RPGRIP1L, a nephrocystin-4 interactor, cause Joubert syndrome",
+   "year": "2007",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "33625872",
+   "doi": "10.1091/mbc.e20-03-0190",
+   "title": "Rpgrip1l controls ciliary gating by ensuring the proper amount of Cep290 at the vertebrate transition zone",
+   "year": "2021",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "17960139",
+   "doi": "10.1038/sj.ki.5002630",
+   "title": "Mutational analysis of the RPGRIP1L gene in patients with Joubert syndrome and nephronophthisis",
+   "year": "2007",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "26392567",
+   "doi": "10.15252/embj.201488044",
+   "title": "Formation of the transition zone by Mks5/Rpgrip1L establishes a ciliary zone of exclusion (CIZE) that compartmentalises ciliary signalling proteins and controls PIP2 ciliary abundance",
+   "year": "2015",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "26150391",
+   "doi": "10.1083/jcb.201408060",
+   "title": "The transition zone protein Rpgrip1l regulates proteasomal activity at the primary cilium",
+   "year": "2015",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "21490064",
+   "doi": "10.1242/dev.059808",
+   "title": "Primary cilia control telencephalic patterning and morphogenesis via Gli3 proteolytic processing",
+   "year": "2011",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "19430481",
+   "doi": "10.1038/ng.366",
+   "title": "A common allele in RPGRIP1L is a modifier of retinal degeneration in ciliopathies",
+   "year": "2009",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "26982032",
+   "doi": "10.1371/journal.pbio.1002416",
+   "title": "MKS5 and CEP290 Dependent Assembly Pathway of the Ciliary Transition Zone",
+   "year": "2016",
+   "subcollection": "RPGRIP1L",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:26:43Z"
+  },
+  {
+   "pmid": "24702266",
+   "doi": "10.1111/cge.12374",
+   "title": "A homozygous SIX6 mutation is associated with optic disc anomalies and macular atrophy and reduces retinal ganglion cell differentiation",
+   "year": "2014",
+   "subcollection": "SIX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:33:11Z"
+  },
+  {
+   "pmid": "12130660",
+   "doi": "10.1126/science.1073263",
+   "title": "Tissue-Specific Regulation of Retinal and Pituitary Precursor Cell Proliferation",
+   "year": "2002",
+   "subcollection": "SIX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:33:11Z"
+  },
+  {
+   "pmid": "10512683",
+   "doi": "10.1006/geno.1999.5916",
+   "title": "Genomic Cloning and Characterization of the Human Homeobox Gene SIX6 Reveals a Cluster of SIX Genes in Chromosome 14 and Associates SIX6 Hemizygosity with Bilateral Anophthalmia and Pituitary Anomalies",
+   "year": "1999",
+   "subcollection": "SIX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:33:11Z"
+  },
+  {
+   "pmid": "28438336",
+   "doi": "10.1016/j.ydbio.2017.04.003",
+   "title": "Distinct cis-acting regions control six6 expression during eye field and optic cup stages of eye formation",
+   "year": "2017",
+   "subcollection": "SIX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:33:11Z"
+  },
+  {
+   "pmid": "33085740",
+   "doi": "10.1167/iovs.61.12.21",
+   "title": "Heterozygous Loss of Yap1 in Mice Causes Progressive Cataracts",
+   "year": "2020",
+   "subcollection": "YAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-08-26T08:43:51Z"
+  },
   {
    "pmid": "40903467",
    "doi": "10.1038/s41439-025-00319-x",
@@ -550,16 +1870,6 @@
    "category": "6 - Genes",
    "source": "source:search",
    "uploaded_at": "2026-08-25T07:06:57Z"
-  },
-  {
-   "pmid": "42627378",
-   "doi": "10.1007/s00417-026-07469-w",
-   "title": "CLUAP1 variants cause non-syndromic retinitis pigmentosa",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-25T07:08:24Z"
   },
   {
    "pmid": "23188109",
@@ -6422,16 +7732,6 @@
    "uploaded_at": "2026-08-19T07:29:54Z"
   },
   {
-   "pmid": "18976636",
-   "doi": "10.1016/j.bbrc.2008.10.110",
-   "title": "Dual regulation of renal Kir7.1 potassium channels by protein Kinase A and protein Kinase C",
-   "year": "2008",
-   "subcollection": "KCNJ13",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-19T07:29:54Z"
-  },
-  {
    "pmid": "34012382",
    "doi": "10.1159/000513199",
    "title": "Kabuki Syndrome: Identification of Two Novel Variants in &lt;b&gt;&lt;i&gt;KMT2D&lt;/i&gt;&lt;/b&gt; and &lt;b&gt;&lt;i&gt;KDM6A&lt;/i&gt;&lt;/b&gt;",
@@ -6526,16 +7826,6 @@
    "doi": "10.1242/dev.132688",
    "title": "KMT2D regulates specific programs in heart development via histone H3 lysine 4 di-methylation",
    "year": "2016",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-19T07:31:51Z"
-  },
-  {
-   "pmid": "30509212",
-   "doi": "10.1186/s12881-018-0724-4",
-   "title": "Novel KDM6A splice-site mutation in kabuki syndrome with congenital hydrocephalus: a case report",
-   "year": "2018",
    "subcollection": "KMT2D",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -6786,16 +8076,6 @@
    "doi": "10.1155/2022/4969441",
    "title": "Single-Cell Transcriptome Analysis Defines Expression of Kabuki Syndrome-Associated KMT2D Targets and Interacting Partners",
    "year": "2022",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-19T07:31:51Z"
-  },
-  {
-   "pmid": "24838796",
-   "doi": "10.1002/ajmg.a.36450",
-   "title": "De novo ANKRD11 and KDM1A gene mutations in a male with features of KBG syndrome and Kabuki syndrome",
-   "year": "2014",
    "subcollection": "KMT2D",
    "category": "6 - Genes",
    "source": "source:citation",
@@ -7155,16 +8435,6 @@
    "pmid": "30352873",
    "doi": "10.1074/jbc.ra118.005949",
    "title": "Bisretinoids mediate light sensitivity resulting in photoreceptor cell degeneration in mice lacking the receptor tyrosine kinase Mer",
-   "year": "2018",
-   "subcollection": "MERTK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-19T07:39:26Z"
-  },
-  {
-   "pmid": "29868590",
-   "doi": "10.3389/fmed.2018.00137",
-   "title": "GAS6/TAM Pathway Signaling in Hemostasis and Thrombosis",
    "year": "2018",
    "subcollection": "MERTK",
    "category": "6 - Genes",
@@ -12982,16 +14252,6 @@
    "uploaded_at": "2026-08-12T08:14:54Z"
   },
   {
-   "pmid": "40093039",
-   "doi": "10.1101/2025.03.06.641746",
-   "title": "Inwardly rectifying potassium channels regulate membrane potential polarization and direction sensing during neutrophil chemotaxis",
-   "year": "2025",
-   "subcollection": "KCNJ13",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:14:54Z"
-  },
-  {
    "pmid": "12665599",
    "doi": "10.1113/jphysiol.2003.042341",
    "title": "Regulation of Inwardly Rectifying K+ Channels in Retinal Pigment Epithelial Cells by Intracellular pH",
@@ -13872,16 +15132,6 @@
    "uploaded_at": "2026-08-12T08:18:18Z"
   },
   {
-   "pmid": "40067214",
-   "doi": "10.1111/epi.18362",
-   "title": "Epileptic spasms and RNA analysis in a new case of Kabuki syndrome type 2",
-   "year": "2025",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:18:18Z"
-  },
-  {
    "pmid": "27991736",
    "doi": "10.1002/ajmg.a.38010",
    "title": "KMT2D p.Gln3575His segregating in a family with autosomal dominant choanal atresia strengthens the Kabuki/CHARGE connection",
@@ -13892,49 +15142,9 @@
    "uploaded_at": "2026-08-12T08:18:18Z"
   },
   {
-   "pmid": "40964355",
-   "doi": "10.1101/2024.10.04.616738",
-   "title": "Human Neuron and Mouse Models Reveal Synaptic Imbalance in Kabuki Syndrome",
-   "year": "2024",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:18:18Z"
-  },
-  {
    "pmid": "40125530",
    "doi": "10.3389/fgene.2025.1523228",
    "title": "Case Report: Area of focus clinical presentation and KMT2D gene mutation at the c.15535C&gt;T site in a case of Kabuki syndrome",
-   "year": "2025",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:18:18Z"
-  },
-  {
-   "pmid": "39309396",
-   "doi": "10.1016/j.reth.2024.08.022",
-   "title": "Role of histone methyltransferase KMT2D in BMSC osteogenesis via AKT signaling",
-   "year": "2024",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:18:18Z"
-  },
-  {
-   "pmid": "40883562",
-   "doi": "10.1038/s42003-025-08635-2",
-   "title": "Deficiency of KMT2D causes autistic-like behavior in mice and zebrafish",
-   "year": "2025",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-08-12T08:18:18Z"
-  },
-  {
-   "pmid": "39925741",
-   "doi": "10.3389/fcell.2025.1466948",
-   "title": "MLL4 regulates postnatal palate growth and midpalatal suture development",
    "year": "2025",
    "subcollection": "KMT2D",
    "category": "6 - Genes",
@@ -17160,26 +18370,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-08-05T08:59:21Z"
-  },
-  {
-   "pmid": "42482128",
-   "doi": "10.1186/s40942-026-00903-5",
-   "title": "Adjunctive dexamethasone implant during vitrectomy with silicone oil for diabetic tractional retinal detachment: a systematic review and exploratory meta-analysis",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-05T09:00:18Z"
-  },
-  {
-   "pmid": "42469711",
-   "doi": "10.1186/s12886-026-05142-8",
-   "title": "Adjuvant mitomycin C during vitrectomy in young adults with primary nontraumatic rhegmatogenous retinal detachment and grade C proliferative vitreoretinopathy",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-08-05T09:00:18Z"
   },
   {
    "pmid": "29383837",
@@ -32032,16 +33222,6 @@
    "uploaded_at": "2026-07-06T10:16:09Z"
   },
   {
-   "pmid": "42378081",
-   "doi": "10.4103/ijo.ijo_2654_25",
-   "title": "The clinical importance of phenotyping drusen",
-   "year": "2026",
-   "subcollection": "BEST1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-06T10:16:09Z"
-  },
-  {
    "pmid": "42382956",
    "doi": "10.18240/ijo.2026.07.14",
    "title": "Nomogram-based prediction of postoperative proliferative vitreoretinopathy following scleral buckling surgery for rhegmatogenous retinal detachment",
@@ -32940,306 +34120,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-07-01T09:51:09Z"
-  },
-  {
-   "pmid": "28868293",
-   "doi": "10.1159/000475500",
-   "title": "The Kidney in Bardet-Biedl Syndrome: Possible Pathogenesis of Urine Concentrating Defect",
-   "year": "2017",
-   "subcollection": "BBS10",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:24:11Z"
-  },
-  {
-   "pmid": "36314054",
-   "doi": "10.1002/jgm.3461",
-   "title": "X‐linked BCOR variants identified in Chinese Han patients with congenital heart disease",
-   "year": "2022",
-   "subcollection": "BCOR",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:26:04Z"
-  },
-  {
-   "pmid": "14638724",
-   "doi": "10.1167/iovs.03-0224",
-   "title": "Targeted Deletion of the Lens Fiber Cell–Specific Intermediate Filament Protein Filensin",
-   "year": "2003",
-   "subcollection": "BFSP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:28:17Z"
-  },
-  {
-   "pmid": "24993941",
-   "doi": "10.1242/dev.110130",
-   "title": "Simultaneous rather than ordered cleavage of two sites within the BMP4 prodomain leads to loss of ligand in mice",
-   "year": "2014",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "18305125",
-   "doi": "10.1681/asn.2006111282",
-   "title": "SIX2 and BMP4 Mutations Associate With Anomalous Kidney Development",
-   "year": "2008",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "18924235",
-   "doi": "10.1002/dvdy.21743",
-   "title": "BMP4 is required in the anterior heart field and its derivatives for endocardial cushion remodeling, outflow tract septation, and semilunar valve development",
-   "year": "2008",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "11427739",
-   "doi": "10.1073/pnas.151242798",
-   "title": "Induction of primordial germ cells from murine epiblasts by synergistic action of BMP4 and BMP8B signaling pathways",
-   "year": "2001",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "18692041",
-   "doi": "10.1016/j.ydbio.2008.07.021",
-   "title": "Bmp4 is required for tracheal formation: A novel mouse model for tracheal agenesis",
-   "year": "2008",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "22701669",
-   "doi": "10.1371/journal.pone.0038568",
-   "title": "An Evolutionarily Conserved Enhancer Regulates Bmp4 Expression in Developing Incisor and Limb Bud",
-   "year": "2012",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "16887829",
-   "doi": "10.1242/dev.02499",
-   "title": "Bone morphogenetic protein receptor 1A signaling is dispensable for hematopoietic development but essential for vessel and atrioventricular endocardial cushion formation",
-   "year": "2006",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "39152126",
-   "doi": "10.1038/s41420-024-02129-6",
-   "title": "Chrdl1-mediated BMP4 inhibition disrupts the balance between retinal neurons and Müller Glia",
-   "year": "2024",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "22472650",
-   "doi": "10.1126/scisignal.2002549",
-   "title": "A Large Bioactive BMP Ligand with Distinct Signaling Properties Is Produced by Alternative Proconvertase Processing",
-   "year": "2012",
-   "subcollection": "BMP4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:32:29Z"
-  },
-  {
-   "pmid": "32249787",
-   "doi": "10.1038/s41598-020-62734-0",
-   "title": "Synaptic ribbons foster active zone stability and illumination-dependent active zone enrichment of RIM2 and Cav1.4 in photoreceptor synapses",
-   "year": "2020",
-   "subcollection": "CACNA1F",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:35:12Z"
-  },
-  {
-   "pmid": "30970040",
-   "doi": "10.1371/journal.pone.0213960",
-   "title": "Ciliary genes arl13b, ahi1 and cc2d2a differentially modify expression of visual acuity phenotypes but do not enhance retinal degeneration due to mutation of cep290 in zebrafish",
-   "year": "2019",
-   "subcollection": "CC2D2A",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T09:37:21Z"
-  },
-  {
-   "pmid": "12427764",
-   "doi": "10.1074/jbc.m208550200",
-   "title": "Angiopoietin-1 and Angiopoietin-2 Share the Same Binding Domains in the Tie-2 Receptor Involving the First Ig-like Loop and the Epidermal Growth Factor-like Repeats",
-   "year": "2003",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "12506101",
-   "doi": "10.1167/iovs.02-0276",
-   "title": "Potential Role of the Angiopoietin/Tie2 System in Ischemia-Induced Retinal Neovascularization",
-   "year": "2003",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "42294902",
-   "doi": "10.1172/jci190552",
-   "title": "Inactive β1-integrin acts as a junctional scaffold for angiopoietin/TIE2/FOXO1 signaling",
-   "year": "2026",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "10473614",
-   "doi": "10.1074/jbc.274.37.26523",
-   "title": "Molecular Cloning, Expression, and Characterization of Angiopoietin-related Protein",
-   "year": "1999",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "11161575",
-   "doi": "10.1006/dbio.2000.0106",
-   "title": "Tie2-Cre Transgenic Mice: A New Model for Endothelial Cell-Lineage Analysis in Vivo",
-   "year": "2001",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "9723709",
-   "doi": "10.1093/intimm/10.8.1217",
-   "title": "Characterization of TEK receptor tyrosine kinase and its ligands, Angiopoietins, in human hematopoietic progenitor cells",
-   "year": "1998",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "9192754",
-   "doi": "10.1182/blood.v89.12.4317",
-   "title": "Expression and Function of Murine Receptor Tyrosine Kinases, TIE and TEK, in Hematopoietic Stem Cells",
-   "year": "1997",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "15284088",
-   "doi": "10.1161/01.atv.0000140819.81839.0e",
-   "title": "Expression of Angiopoietin-2 in Endothelial Cells Is Controlled by Positive and Negative Regulatory Promoter Elements",
-   "year": "2004",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "18556567",
-   "doi": "10.1161/atvbaha.108.169235",
-   "title": "Disruption of Ang-1/Tie-2 Signaling Contributes to the Impaired Myocardial Vascular Maturation and Angiogenesis in Type II Diabetic Mice",
-   "year": "2008",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "10446940",
-   "doi": "10.1681/asn.v1081722",
-   "title": "Expression of Angiopoietin-1, Angiopoietin-2, and the Tie-2 Receptor Tyrosine Kinase during Mouse Kidney Maturation",
-   "year": "1999",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "11801735",
-   "doi": "10.1242/jcs.115.1.175",
-   "title": "Angiopoietin 2 stimulates migration and tube-like structure formation of murine brain capillary endothelial cells through c-Fes and c-Fyn",
-   "year": "2002",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "27030595",
-   "doi": "10.1126/scitranslmed.aad9982",
-   "title": "Somatic activating mutations in Pik3ca cause sporadic venous malformations in mice and humans",
-   "year": "2016",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "41725941",
-   "doi": "10.3389/fcvm.2026.1770126",
-   "title": "Advances in genetics, signaling, and modeling of venous malformations",
-   "year": "2026",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "41982216",
-   "doi": "10.3389/fcvm.2026.1760326",
-   "title": "Identification of pathological CD133+ endothelial cells in venous malformations",
-   "year": "2026",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "10068209",
-   "doi": "",
-   "title": "Direct actions of angiopoietin-1 on human endothelium: evidence for network stabilization, cell survival, and interaction with other angiogenic growth factors.",
-   "year": "1999",
-   "subcollection": "TEK",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:25:36Z"
-  },
-  {
-   "pmid": "34954202",
-   "doi": "10.1016/j.exer.2021.108897",
-   "title": "Trpm1: Novel function at the intersection of light and pain response in the iris",
-   "year": "2021",
-   "subcollection": "TRPM1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-06-30T10:28:32Z"
   }
  ]
 }
