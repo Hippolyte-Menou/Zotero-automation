@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T03:20:22Z",
+  "generated_at": "2026-08-30T08:16:22Z",
   "threshold_k": 0,
-  "total_evaluated": 27340,
-  "total_flagged": 499,
+  "total_evaluated": 28121,
+  "total_flagged": 484,
   "total_dismissed": 0,
-  "total_unresolvable": 140,
+  "total_unresolvable": 130,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -87,24 +87,26 @@
       "ABCA4",
       "ACO2",
       "ADAMTSL4",
+      "ADGRV1",
       "AGK",
       "AIPL1",
+      "ALDH1A3",
       "ARID1B",
       "ARID2",
       "ARR3",
       "ARSG",
       "ATAD3A",
+      "ATF6",
       "B3GLCT",
       "BBS1",
       "BBS2",
+      "BCOR",
       "BEST1",
-      "CAPN15",
       "CDHR1",
       "CEP290",
       "CHD7",
       "CHST6",
       "CLRN1",
-      "COL18A1",
       "COL2A1",
       "COL8A2",
       "CRB1",
@@ -116,7 +118,7 @@
       "FBN1",
       "FOXE3",
       "FRAS1",
-      "FREM2",
+      "GDF6",
       "GJA8",
       "GPR143",
       "GPR179",
@@ -148,15 +150,16 @@
       "OTX2",
       "PAX2",
       "PAX6",
-      "PCDH15",
       "PDE6B",
       "PDE6C",
       "PLK4",
       "PRCD",
       "PROM1",
+      "PRPF3",
       "PRPH2",
       "PRR12",
       "RAB3GAP2",
+      "RAX",
       "RBP3",
       "RDH11",
       "RDH12",
@@ -1178,42 +1181,96 @@
       "subcollection": "Albinism, ocular"
     },
     {
-      "pmid": "36740439",
+      "pmid": "15259979",
       "doi": "",
-      "zotero_key": "US243MP6",
-      "title": "[Outcomes of surgical treatment of congenital cataract with microphthalmia in infancy].",
+      "zotero_key": "T5IACR3X",
+      "title": "[Preliminary linkage analysis on autosomal dominant microphthalmia with 12 microsatellite markers].",
       "authors": [
         [
-          "J",
+          "Ping",
+          "Yu"
+        ],
+        [
+          "Qiang",
+          "Zhou"
+        ],
+        [
+          "Lei",
+          "Guo"
+        ],
+        [
+          "Yong",
+          "Zhou"
+        ],
+        [
+          "Yuan",
+          "Luo"
+        ],
+        [
+          "Ruen Yue",
           "Zhang"
         ],
         [
-          "Junsheng",
-          "Sun"
+          "Xiao Yi",
+          "Yan"
         ],
         [
-          "Xiaomei",
-          "Wan"
-        ],
-        [
-          "Yichao",
+          "Ke",
           "Ding"
         ],
         [
-          "Lixin",
-          "Xie"
+          "Zi Fu",
+          "Hong"
+        ],
+        [
+          "Yu Zhu",
+          "Zhang"
         ]
       ],
       "journal": "PubMed",
-      "year": "2023",
-      "abstract": "Objective: To examine the outcomes of surgical treatment for infants with congenital cataract and microphthalmia (CATM). Methods: It was a retrospective case series study. Data of 28 (55 eyes) CATM children who underwent cataract surgery at the Qingdao Eye Hospital of Shandong First Medical University and were followed up for more than 5 years between January 2010 and December 2014 under the age of 6 months. There were 15 male and 13 female children. The age at the time of surgery was (3.2±1.3) months, and the follow-up time was (8.2±1.7) years. The data included the basic information of the children, the ocular biological parameters before and after surgery and intraocular lens (IOL) implantation, and the occurrence of complications. Paired t-tests or Wilcoxon signed rank tests were used to compare groups, and logistic regression analysis was used to identify factors related to IOL implantation, secondary glaucoma, and visual axis opacification (VAO). Results: The mean preoperative axial length was (16.6±1.0) mm, and the mean horizontal corneal diameter was (9.5±0.9) mm. The axial growth rate within 2 years after the first stage of surgery was (1.4±0.8) mm/year. None of the children had an IOL implanted before the age of 2. Sixty percent of the eyes (33/55) received IOL implantation within 2 to 4 years after the first stage of surgery, while the remaining 40% (22/55) did not receive IOL implantation at the last follow-up. The axial growth rate was (0.9±0.7) mm/year within two years after the second stage of surgery. Postoperative secondary glaucoma occurred in 7 eyes (12.7%), and VAO occurred in 15 eyes (27.3%). IOL implantation was associated with preoperative axial length (OR=0.072, POR=7.270, PP=0.735). The incidence of VAO was associated with preoperative corneal diameter (OR=4.124, P=0.011), but not with age at the first stage of surgery (P=0.489) or preoperative axial length (P=0.489). No factors related to the occurrence of secondary glaucoma were found. The best corrected visual acuity at the last follow-up after IOL implantation was (0.37±0.28) logMAR, which was better than that of children without IOL implantation (0.67±0.19) logMAR (U=49.50, P=0.003). Conclusions: Children with CATM can obtain the opportunity for IOL implantation through early surgery and ultimately achieve good visual outcomes. Properly selecting the timing for implanting IOL can keep the incidence of secondary glaucoma at an acceptable level.",
-      "cited_by_count": 2,
+      "year": "2004",
+      "abstract": "In this preliminary study a Chinese autosomal dominant microphthalmia family were investigated and the linkage analyses were performed with six previously reported loci (CHX10, MITF, RX, MCOP, NNO1, NNO2) and six microsatellite markers on chromosome 11 as well. The allelic polymorphisms of those microsatellite markers were identified by using polymerase chain reaction, polyacrylamide gel electrophoresis and silver-staining techniques. The LOD scores between microsatellite markers and the disease were obtained by using MLINK software. Our results showed that the linkage between the microphthalmia in this family with the 6 known loci could be excluded, indicating that the defect gene in this microphthalmia family was probably distinct from those of previously reported microphthalmia families.",
+      "cited_by_count": 3,
       "centrality": 0,
       "source_tags": [
         "source:search"
       ],
       "category": "6 - Genes",
-      "subcollection": "CAPN15"
+      "subcollection": "RAX"
+    },
+    {
+      "pmid": "40350403",
+      "doi": "10.3760/cma.j.cn511374-20241019-00545",
+      "zotero_key": "C4PSC35Z",
+      "title": "[Prenatal phenotype and genetic analysis of two fetuses with Bardet-Biedl syndrome].",
+      "authors": [
+        [
+          "Lingyi",
+          "Zhang"
+        ],
+        [
+          "Zhigang",
+          "Zhang"
+        ],
+        [
+          "Xingguang",
+          "Wang"
+        ],
+        [
+          "Yanyan",
+          "Li"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2025",
+      "abstract": "OBJECTIVE: To carry out genetic testing on two fetuses with prenatal ultrasound finding of polydactyly and renal abnormalities to determine the underlying causes. METHODS: Two fetuses with structural abnormalities detected by prenatal ultrasound at Cangzhou People's Hospital in 2021 were selected as the study subjects. Genomic DNA was extracted from the muscle tissue of the abortus and peripheral blood samples from both parents. Whole-exome sequencing (WES) was conducted on the trio to detect the genetic variants. Quantitative PCR was used to validate the exonic deletions. This study has been approved by the Ethics Committee of Cangzhou People's Hospital (Ethics No.K2020-049). RESULTS: Prenatal ultrasound revealed postaxial polydactylies of fingers and toes and slightly enlarged kidneys with increased echogenicity in fetus 1, along with polydactyly of both hands, enlarged kidneys, and enhanced echogenicity of renal parenchyma in fetus 2. Trio-WES analysis revealed that fetus 1 has harbored a pathogenic c.1339G>A variant of the BBS1 gene, along with a heterozygous 426 bp deletion in the 11q13.2 region, which was unreported previously. The deletion has involved exons 10 and 11 of the BBS1 gene. The two variants were inherited from its mother and father, respectively. Fetus 2 was found to harbor a pathogenic c.539G>A variant and a likely pathogenic c.49G>A variant of the BBS10 gene, which were inherited from its mother and father, respectively. The c.49G>A variant has not been documented in databases and the literature. CONCLUSION: Two rare fetuses with Bardet-Biedl syndrome have been diagnosed. Above finding has expanded the mutational spectrum of this syndrome and has important implications for genetic counseling for the affected families.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS1"
     },
     {
       "pmid": "23141518",
@@ -1326,48 +1383,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
-    },
-    {
-      "pmid": "34743467",
-      "doi": "",
-      "zotero_key": "2HVB4E2P",
-      "title": "[Ultrasonic manifestations and axis length of blind microphthalmia].",
-      "authors": [
-        [
-          "Jie",
-          "Dong"
-        ],
-        [
-          "Jingwen",
-          "Ding"
-        ],
-        [
-          "Zhijia",
-          "Hou"
-        ],
-        [
-          "Y",
-          "Li"
-        ],
-        [
-          "Qi",
-          "Zhao"
-        ],
-        [
-          "D M",
-          "Li"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2021",
-      "abstract": "Objective: To discuss the ultrasonic manifestations of blind microphthalmia, and to explore the correlation between axis length and complicity of intraocular structure of blind microphthalmia. Methods: Retrospective case series study. The data of ultrasonic imaging and axis length of 162 patients (162 eyes) with blind microphthalmia diagnosed in Tongren Eye Center, Beijing Tongren Hospital from July 2013 to July 2018 were collected. According to the degree of internal structure disorder, all affected eyes were divided into groups of the normal, the abnormal and the indistinguishable. The binocular axial length in these patients were compared. The relationship between the axial length and the age of the patients, and the structural changes of the blind microphthalmia with a basic structure were analyzed. Statistical methods were mainly performed by paired t-test, one-way linear regression analysis and one-way analysis of variance. Results: The disease was unilateral in all the 162 patients. The age ranged from 1 month to 58 years old. And 139 cases (85.80%) were under 12 years old. There were 90 males and 72 females. The mean axial length of the affected eyes (162 eyes) was (13.17±3.77) mm, while the mean axial length of the control eyes (162 eyes) was (21.85±2.01) mm. There was significantly statistical difference in the ocular size between them (t=-27.369; Pr=0.027; P>0.05), while there was a significant correlation between the axial length of the control eye and age (r=0.590; PF=72.800; PPConclusions: Blind microphthalmia mostly has a basic ocular structure and is often associated with retinal detachment. The axial length of the affected eye is correlated with the degree of intraocular structural disorder. (Chin J Ophthalmol, 2021, 57: 825-829).",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CAPN15"
     },
     {
       "pmid": "",
@@ -1880,36 +1895,6 @@
       "subcollection": "RHO"
     },
     {
-      "pmid": "41805046",
-      "doi": "10.1111/jocn.70290",
-      "zotero_key": "E7G2S5K9",
-      "title": "A Lived Experience of Intensive Care Unit Survivors Regarding Post‐Intensive Care Syndrome After Liver Transplantation: A Phenomenological Study, Response to Hu",
-      "authors": [
-        [
-          "Francesco",
-          "Gravante"
-        ],
-        [
-          "Francesca",
-          "Trotta"
-        ],
-        [
-          "Gianluca",
-          "Pucciarelli"
-        ]
-      ],
-      "journal": "Journal of Clinical Nursing",
-      "year": "2026",
-      "abstract": "We are pleased to have the opportunity to engage in an academic dialogue with the readers of your esteemed journal through reflective exchanges. We would like to thank Dr. Hu for his interest in our study and for his comments on the lived experience of intensive care unit (ICU) survivors following liver transplantation (Gravante, Trotta, et al. 2025; Hu 2026). We appreciate the opportunity to clarify and further explore several points raised. Post-intensive care syndrome (PICS) is increasingly used to describe the interaction of various physical, psychological and other deficits that emerge after ICU discharge, affecting both individuals and their families (Yuan et al. 2021). The description of lived experience is based on the narration of personal experiences, drawing from reserves such as memory. ICU survivors' recollections ranged from complete memory loss to vivid memories of specific events, thus filtering the narrative of their lived experience. In the general population, there is a tendency to perceive memories as more pleasant than unpleasant, with negative memories fading more quickly than positive ones. There is also a tendency to diminish the emotional impact of negative events compared to positive events (Adamson et al. 2004). We acknowledge that the clinical condition following liver transplantation may predispose participants to hepatic encephalopathy. However, this condition does not necessarily preclude their ability to narrate their lived experience after ICU discharge. PICS is strongly influenced by the compromised clinical state, which encompasses all the sequelae of the underlying disease, thus integrating them into the experience itself (Gravante, Iovino, et al. 2025). Moreover, a full understanding of the sequelae that comprise PICS, particularly those affecting the cognitive dimensions and related strategies of post-ICU lived experience, remains an area for further research (Kang and Jeong 2018). The timing of the interviews plays a crucial role in recognising the long-term sequelae of PICS. Yuan et al. (2021) define the concept of PICS in ICU survivors, addressing it through three dimensions—cognitive, psychological and physical—and introducing the concept of social reintegration. Furthermore, the variability of sequelae associated with PICS depends on the timing of their assessment. In fact, the physical and cognitive dimensions tend to manifest more rapidly, in contrast to the psychological and social dimensions, with the latter being more evident after hospital discharge. This varies according to the discharge context. The social dimension is characterised by difficulties in social relationships with family and reintegration into work, which manifest differently from the initial discharge phase from the ICU. The multidimensional symptoms that persist after ICU and hospital discharge range from 1 month to 9 years, with PICS typically appearing within this time frame and manifesting its long-term outcomes (Yuan et al. 2021). Although PICS remains a priority for researchers, a full understanding of the three main dimensions—cognitive, psychological and physical—along with the social dimension and their timing and severity of sequelae is yet to be determined. We agree with Dr. Hu that longitudinal trajectories would help shed light on the long-term outcomes in ICU survivors. However, future research should adopt more diverse approaches, such as mixed-methods studies, to further explore the cognitive dimension of ICU survivors. Furthermore, dyadic approaches (patient–family member) could offer a new perspective on the definition of the cognitive dimension by involving the family member who participates in the care of the survivor during their ICU stay. We hope that these reflections contribute to a deeper understanding of the lived experiences of ICU survivors post-liver transplantation and offer insights for future research. The authors have nothing to report. The authors declare no conflicts of interest. Data sharing not applicable to this article as no datasets were generated or analysed during the current study.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41613416",
       "doi": "10.17912/micropub.biology.001961",
       "zotero_key": "HAGCPVZT",
@@ -2018,6 +2003,36 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Syndromic congenital cataract"
+    },
+    {
+      "pmid": "39967982",
+      "doi": "10.18240/ijo.2025.02.24",
+      "zotero_key": "CP5KX8V7",
+      "title": "A novel frameshift mutation in the BCOR gene is associated with oculo-facio-cardio-dental syndrome: a case report",
+      "authors": [
+        [
+          "Qiongqiong",
+          "Gu"
+        ],
+        [
+          "Wen-Zhe",
+          "Xiao"
+        ],
+        [
+          "Chao",
+          "Qu"
+        ]
+      ],
+      "journal": "International Journal of Ophthalmology",
+      "year": "2025",
+      "abstract": "Dear Editor,O culo-facio-cardio-dental (OFCD) syndrome is a rare X chromosome-linked dominant genetic disease with multiple system and site abnormalities.The typical traits shown in this disease are: 1) eye abnormalities, notably congenital cataracts, microphthalmia, and secondary glaucoma; 2) facial deformities, in particular long and narrow face, high nasal bridge, nasal tip cartilage division, and cleft palate; 3) heart abnormalities, including atrial septal defect, interventricular septum defect, patent ductus arteriosus, tetralogy of Fallot, mitral valve prolapse, tricuspid valve insufficiency, and aortic valve stenosis; 4) dental abnormalities, notably malocclusion of teeth; pulpal and periapical diseases; oligodontia, macrodontia, delayed tooth eruption,",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BCOR"
     },
     {
       "pmid": "",
@@ -2432,7 +2447,7 @@
     {
       "pmid": "42482128",
       "doi": "10.1186/s40942-026-00903-5",
-      "zotero_key": "JEST9EA9",
+      "zotero_key": "G87AR8ZK",
       "title": "Adjunctive dexamethasone implant during vitrectomy with silicone oil for diabetic tractional retinal detachment: a systematic review and exploratory meta-analysis",
       "authors": [
         [
@@ -2478,7 +2493,7 @@
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:recent"
+        "source:search"
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
@@ -2486,7 +2501,7 @@
     {
       "pmid": "42469711",
       "doi": "10.1186/s12886-026-05142-8",
-      "zotero_key": "T28735CT",
+      "zotero_key": "FJJSQXVC",
       "title": "Adjuvant mitomycin C during vitrectomy in young adults with primary nontraumatic rhegmatogenous retinal detachment and grade C proliferative vitreoretinopathy",
       "authors": [
         [
@@ -2508,7 +2523,7 @@
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:recent"
+        "source:search"
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
@@ -3400,56 +3415,6 @@
       "subcollection": "PRPH2"
     },
     {
-      "pmid": "41802866",
-      "doi": "10.1523/jneurosci.1846-25.2026",
-      "zotero_key": "3XTJ37Z6",
-      "title": "Atypical Development of Functional Brain Networks in Neonates with Congenital Heart Disease",
-      "authors": [
-        [
-          "Jung-Hoon",
-          "Kim"
-        ],
-        [
-          "Josepheen De",
-          "Asis-Cruz"
-        ],
-        [
-          "Nickie N.",
-          "Andescavage"
-        ],
-        [
-          "Kushal",
-          "Kapse"
-        ],
-        [
-          "Mary T.",
-          "Donofrio"
-        ],
-        [
-          "Gilbert",
-          "Vézina"
-        ],
-        [
-          "Adre du",
-          "Plessis"
-        ],
-        [
-          "Catherine",
-          "Limperopoulos"
-        ]
-      ],
-      "journal": "Journal of Neuroscience",
-      "year": "2026",
-      "abstract": "Congenital heart disease (CHD) affects approximately 1% of live births in the United States and is the most prevalent congenital disorder. Despite advances in neonatal cardiovascular surgery improving survival, neurodevelopmental impairments remain prevalent, impacting motor skills, social behavior, and executive function. Motor deficits and long-term challenges in emotional regulation and memory are particularly common. Recent research using resting-state functional MRI (rs-fMRI) has revealed disorganized brain networks in newborns with CHD. However, those few prior rs-fMRI studies examining the impact of CHD have relied on predefined brain parcellations to compare group-level connectivity, limiting the ability to capture spatial alterations in neonatal brain networks in CHD. Understanding these network-level changes is critical for elucidating mechanisms of neurodevelopmental impairment and identifying early biomarkers of risk. To address these gaps, our study introduces two conceptual advances: 1) a data-driven approach to investigate atypical brain network development in high-risk CHD and 2) the use of a population-sized, independent dataset of healthy newborns to derive a normative set of neonatal brain networks. By analyzing a large rs-fMRI of human newborns (N=448; 219 females and 229 males), we identify atypical brain activity in the sensorimotor and limbic networks of newborns with complex CHD. Notably, before cardiovascular surgery, these networks are split into left and right hemispheric subnetworks. Postoperatively, these components coalesce into a singular, symmetric pattern resembling networks observed in healthy neonates. Our study highlights the potential of rs-fMRI to detect subtle, early functional disruptions in CHD and may inform future biomarkers of neurodevelopmental risk.Significant Statement Congenital heart disease, the most common congenital disorder, affects 1% of live births and is associated with persistent neurodevelopmental impairments despite improved surgical survival. These deficits, including motor, socio-emotional, and cognitive challenges, may stem from early brain network disruptions. Prior resting-state fMRI studies in CHD relied on predefined parcellations, limiting detection of subtle spatial alterations. In this study, we used a data-driven approach and leveraged an independent normative dataset to define resting-state networks. Comparing CHD patients and healthy controls against these independently derived networks, we reveal atypical sensorimotor and limbic network organization preoperatively, which normalizes post-surgery. These findings highlight the potential of rs-fMRI to identify early biomarkers of neurodevelopmental risk and guide targeted interventions in this high-risk population.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "42166140",
       "doi": "10.1001/jamaophthalmol.2026.1462",
       "zotero_key": "7SSKURC8",
@@ -3720,28 +3685,6 @@
       "subcollection": "BBS1"
     },
     {
-      "pmid": "22917574",
-      "doi": "10.1681/asn.2012060553",
-      "zotero_key": "ZRNCWDNM",
-      "title": "Basic Research in Nephrology",
-      "authors": [
-        [
-          "Qais",
-          "Al‐Awqati"
-        ]
-      ],
-      "journal": "Journal of the American Society of Nephrology",
-      "year": "2012",
-      "abstract": "There is a specter haunting nephrologic research today, the specter of decline. Perhaps I am simply parroting a recent spate of books arguing that everything is in a state of decline: countries, the United States in particular, Western civilization, quality of life, and manners. Declinism, made popular a hundred years ago by Spengler in his Decline of the West, seems to be back in the news,1–3 although a brief search of books published in the past shows this notion has never gone out of fashion. I have been having these ruminations toward the end of my role as an editor, first of the Journal of Clinical Investigation and then of Kidney International. In these capacities, I was closer to the pulse of the field given that I had to deal with a large number of studies by my colleagues and got to know more of their work than I usually did. Although this Spenglerian mood may reflect intellectual fashions in other fields, we console ourselves that at least in science, we can perform a study to test whether we are actually in decline or not. However, the first question in this study would be the following: Yes, you may think we are in decline but compared with what or to whom? Is there an absolute metric that shows basic renal research is not what it used to be? Furthermore, no one can write about decline without assigning blame and identifying who is letting the barbarians through the gate. Contemporary political declinists have it easy; it is China, of course, again 200 years after Napoleon’s fear of waking the sleeping giant, or the incredibly clever treatise by Clive James that argues a decline of Western civilization for the disappearance from modern memory of remarkably great thinkers and essayists.4 For us scientists, it is not going to be possible to define an absolute parameter by which all fields of science can be judged. Indeed, as I mention below, the technical level of research in our field is much higher now than say 30 years ago. However, one can ask a more modest, although answerable, question. Are we doing as well vis a vis our sister fields of cardiology or gastroenterology? We all grew up together in the fertile soil of modern biologic research studying the same basic sciences, reading the same journals, and inviting the same Nobel Prize winners to our national meetings. Hence, I will restrict myself to some questions of comparison. Do our colleagues in these disciplines think we are doing interesting research? Does research in nephrology get published in high-quality general science journals at the same rate as those in, say, gastroenterology or cardiology? This approach might answer other questions such as: Is finding some pathway that kills cells in AKI more or less interesting than finding the same pathway in the heart? There is no reason to think there is anything inherently more interesting in one versus the other and yet the analysis might at least help us formulate the question of whether others think the same, which might allow us to begin to elucidate the reason for this behavior. First, I would like to state that although the numbers of physicians and scientists entering our field may have been decreasing, I do not think this is a prime reason our discipline is tipping toward decline. It is rare that a renal investigator like me gets the privilege of observing the mechanics of publishing the best basic renal research at close hand. Over the past 10 years, I was the lucky recipient of this honor through two well placed journals. During this period, I observed a remarkable array of papers go through the process of submission, revision, and acceptance. For the first time in my career, I had firsthand knowledge of the state of research of basic science as it relates to the kidney. The results have often been exhilarating; editors get great pleasure from presenting exciting papers to their critical colleagues on an editorial board. It is pretty clear that we as a field have come a long way from the old days. Modern work uses exciting state-of-the-art methods to uncover new mechanisms in physiology and pathophysiology. The vitality of research in podocytes and the identification of the many mutations of podocyte proteins that cause human proteinuric diseases, for example, provide molecular insights into many of the disease processes plaguing patients with kidney dysfunction. Similarly, identification of the genes involved in a variety of human or animal models of cystic kidney disease has participated in the growth of knowledge of a cellular organelle, the cilia, with a myriad of functions associated with a variety of puzzling disorders. Even in the classic domain of renal physiology, long the jewel in the crown of our basic research, the introduction of genetics has reinvigorated this field by providing us with new mechanisms and new explanations for many hypertensive and hypotensive syndromes, confirming the conviction of most nephrologists that the kidney is near the center of causation of hypertension, perhaps the world’s most common disease. These developments are certainly a cause for celebration and pride of achievement for our field. This gratifying state of affairs resulted from the insights taken from cell biology, molecular genetics, and developmental biology, utilizing them to explain critical phenomena in kidney function. Advances in these fields over the past 20 years have been like a tide that lifted the boats of research in all applied areas such as ours as well as cardiology and gastroenterology. Although there is no doubt about our benefit from this rising tide, I slowly started to get the impression that our share of publications in the front-line journals of biomedical research compared with other organ-based fields was not commensurate with the advances I described above. Now that I am no longer an editor, I have more time to perform a little research into this issue and I am afraid that compared with our sister disciplines, we are actually in decline, at least in terms of losing bandwidth, a nicer term than market share. A smaller market share is a dangerous thing to have, as most businesses would quickly tell you. The idea that our field is smaller means we have less visibility for recruitment of the next generation of investigators. What is the reason that our visibility has shrunk over the past few decades? Are there more systemic reasons for such a finding? Here I present the findings of my research into these issues and propose a hypothesis that might be a plausible source of these findings. ARE WE LOSING BANDWIDTH? Comparisons are useful but they need to be buttressed by some sort of control data and I choose here historical controls of the share that our field obtained from among the recent past. The scientific basis of the disciplines of internal medicine, the specialties of nephrology, gastroenterology, and cardiology, all began at approximately the same time, immediately after World War II. These disciplines were stimulated by the developments and availability of a variety of measuring instruments that allowed a more quantitative approach to observations on individual patients or experimental animals. The best research that these early endeavors generated was published in the Journal of Clinical Investigation, a journal that remains prestigious even though it is no longer the only one in its class. I performed an analysis of the papers published in this journal from its inception in 1924 until today. I simply counted all papers and measured the fraction of these papers that had some relevance to renal issues or other areas of science. The results are shown in Figure 1. They show that our share of published papers rose to 14% in the late 1970s and 1980s but has been declining over the past 2 decades in almost a linear manner. If one extrapolates the line, we might find there will be very few, if any, renal publications by 2020! A random look at the first few issues of the Journal of Clinical Investigation in 2012 show no more than two papers in 3 months. Note that the fraction of papers of clinical renal interest in the New England Journal of Medicine is very low but has been stable, but others have speculated about the reason for this low number.5Figure 1: The fraction of papers among the total articles in the Journal of Clinical Investigation (JCI) and the New England Journal of Medicine (NEJM) that is of renal interest.One trivial explanation is that subspecialty research is pyramidal and as the base in some disciplines expand (ours has not), all things being equal, so does the top when it comes to publishing in high-profile journals. Nephrology is a small field and we have been publishing the same number of excellent papers every year for the past 50 years, but other fields have been growing more and thus are publishing more; hence, the renal fraction is decreasing as the total number of papers in the Journal of Clinical Investigation is increasing. However, that is not the case. Table 1 shows that nephrologists published 243 papers in the Journal of Clinical Investigation during the peak 5-year period, whereas only 96 papers were published in the latest 5-year period. This leaves us with the obvious conclusion that perhaps the editorial board of this journal is not interested in renal research. Yet every editorial board, which changes at 5-year intervals, has one or more senior nephrologists on it (myself included in 2000–2005) and a recent editor in chief, Larry Turka, was a nephrologist.Table 1: Papers published in the Journal of Clinical Investigation arranged by disciplineHence, it is not likely we were not defending our turf. Could it be that we are not a field that supports each other? I actually believe so from my observations of how reviewers who are nephrologists treat each other compared with other fields, and during my tenure on certain study sections at the National Institutes of Health where grants from many specialties were simultaneously evaluated. However, I do not think this is the explanation for the particular issue I raise here, because the decline began in 1980 and hence there have been more than six different editorial boards that included leading nephrologists, at least some of whom might have felt they needed to support their colleagues. Regardless of the psychology or paranoia that many of us have regarding rejection and acceptance of our manuscripts in this particular journal (and there is plenty of it having had one of my papers rejected recently after 3 revisions), I can assure readers that no renal editor of the Journal of Clinical Investigation can harbor these negative feelings. The editorial board of the journal has a weekly meeting in which the decision to accept or reject papers is done as a group and the only pleasure one gets from being an editor at the Journal of Clinical Investigation is when one is presenting an exciting paper to one’s distinguished colleagues. The closest description of one’s feeling is that of bragging; you brag about the interesting complexity of the argument and the directness of the evidence in an area that is familiar to you but esoteric to your colleagues. Most of the other editorial work is actually pretty unrewarding. Another possible explanation is that, since the 1980s, nephrologists did not send their best papers to the Journal of Clinical Investigation; rather, they sent them to other prestigious journals such as Cell, Nature, and Science or the new journals, Nature Medicine and Nature Genetics. However, an analysis of Nature Medicine or Nature Genetics shows that over their life history of almost 20 years, they have each published at best four papers a year with renal interest, a number that has not changed with time (Table 2). I will not show the number of recent papers in our field published in Nature, Cell, or Science for fear of inducing terminal depression in the reader.Table 2: Papers published in Nature Medicine and Nature Genetics arranged by disciplineThese findings need to be compared with those in two sister fields, cardiology and gastroenterology, which are more similar to ours in history. As shown in Figure 2, papers in the Journal of Clinical Investigation that deal with the heart have maintained a steady presence, being about 8% of all papers. Note, however, what happened in gastroenterology, including hepatology. They have had an upward trajectory that will certainly equal or exceed the renal rate in our heyday. Similarly, Table 2 shows these two fields certainly best us in Nature Genetics and Nature Medicine. We account for only 1% of the papers in Nature Medicine and 2% in Nature Genetics, whereas gastroenterology had 4.8% and 5.1%, respectively. Furthermore, over the past few years, Nature itself, arguably the leading journal of science, has published many supplements in which a field of investigation is highlighted. Admittedly, some of these are supported by industry; regardless, senior investigators are asked to review various aspects of a field. None of these supplements had anything to do with the kidney. Yet just in the past year there were supplements on cardiovascular biology,6 the intestinal microbiome,7 and hepatitis C.8Figure 2: The proportion of papers published in the Journal of Clinical Investigation by discipline. GI, gastrointestinal.Is our field shrinking? I am not so sure; the number of journals in nephrology is pretty significant at 69, including urology. In gastroenterology and hepatology, the number is 72, including surgical journals. The number of attendees at the national meeting of the American Society of Nephrology is pretty substantial, with about 13,000 in 2011. The American Gastroenterological Association and American Heart Association meetings have somewhat higher numbers of attendees, with 16,000 and 18,000, respectively. It is difficult to draw any conclusions from this because one must dissect out from these the number of papers presented that are in basic research, the subject of my commentary. Nevertheless, I suspect we are, perhaps, publishing fractional stories across multiple publications, rather than putting one great story together that justly deserves printing in one or more high-profile journals. A POSSIBLE MECHANISM OF DECLINE First, let me mention that the more vigorous areas of renal research require use of several basic disciplines. For example, the most obvious examples are human genetics and developmental biology, which turned their attention to kidney research in the last decade. In human genetics, a discipline anchored in clinical medicine, we simply waited for the right person to do kidney-related research. The consequence of the efforts of these pioneers was the appearance of new fields of renal research, podocyte biology, ciliopathies, and cystic diseases, as well as the role of the kidney in BP regulation. In developmental biology, we had the dumb luck of having the kidney as a large organ; hence, when knockout methods became available, the absence of the kidneys in certain mutations could not have been missed. Our luck continued into this in the that the investigators then turned their attention to kidney a now and exciting area of research. We need to the by which our sister fields In the same way that these new basic fields participated in and kidney research, we need to find areas that we might to this time not on first we need to our regarding other fields of basic science relevance to renal research has been by propose a for this decline, I use a that might be in what has been to one time, or was to begin when a group of cells became similar or to each other and began to with each This hypothesis was in the field and to the of cell as the for In this cells others as being of their and others that do not to this Although this is an it is not to explain the of we think of as a of cell each of which a significant to the of other of the For in the we need at least cell and of these in to the kidney. I am not including the or cells to the kidney. Although the might some of you as an or let me present some examples of where our has us from absence has other fields the in and was the last time you a (and I that in the of the study whether of the or Is there a paper on clear cell or published in our is arguably the most common in the United States new a has a in the of its many of which into exciting in cell as well as growth and of the of cells and number of of these are critical with great relevance to kidney and I am to a variety of renal diseases, not to mention the of clear cell itself, a common new a for which we could have methods and I am that it will come as a to many readers that are very interested in their The of gastroenterology in my is a who is an but can on disease like the of the most papers in gastroenterology are to in Another field that I suspect we out is There is a on the basic science of at our national meetings and we have the field even though I am most of us believe that is a renal disease. Yet the have many in their meetings on I believe that the field has been not only to us but to research in our of research and whereas a brief of the papers and in the meetings shows that has been to a hence a of biologic The consequence of this is the of the that, in its is only interested in and hence the of new We some for A subject out of our field is kidney disease. Here is a to the kidney and the yet I do not know of many of nephrology that have research in this very common to in 1% of the that I research into the or genetics of not the of data and A subject is of the A field with clinical relevance has been out of our research we have on this fertile field do we research in the role of the in the It is to think of a more exciting recent in than the role of the in and disease. Yet just in random with other nephrologists, seems to think that the is without the that is on methods that are for growth of We need studies on in the and their role in In I our field has the disciplines of kidney research such as renal physiology, renal renal more and human What we have is into other fields of biomedical research that would expand our new areas of research that are to our This approach to basic research in nephrology compared with other clinical disciplines is somewhat gets the impression that we have like one of these in which there is on of and where the growth of the only on we know that to our has been is in even if one at the growth of a is the source of in biomedical research. The research of our field is very long and and hence no changes can be made any I we have to be to changes that have perform all research, we need to a new of scientists in areas that will expand our discipline. and the need to be into our and many others that the readers may to This some by the of the field. There is a to be from arguably the most exciting area in renal research today, human genetics, which into a of research into podocyte We need to scientists entering the field into a field that is much than nephrology, such as which would then to the areas of renal research. The is to a renal a who is in a basic discipline as well as the research into the kidney. If we on only our we will to do this that all of us be of this It is to think that the National Institutes of Health or the American Society of Nephrology can do The that they are from a variety of interest any efforts pretty of are on of research that simply to the or of common such as that few, if any, scientists and many other that what is being done without a feeling for what is actually in the field. As it will require the of who can the of a field of their that is the most difficult of all to be one or very few many of the great I hence, the is not We just need a few more great thinkers to us from toward a not I the journals for articles that have the in the rather than because it turned out that when I used many papers were that on closer turned out to use cells the is I the that the search was by all papers in the Journal of Clinical Investigation in and that although the was not the search the number of papers by about I papers of renal interest, whereas the search the reason for the is that the work in many papers that year was performed in and and of the (myself the renal in the A study for that the whereas a search of all papers during that year results were obtained for in cardiovascular and papers with of the of the papers in",
-      "cited_by_count": 10,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PCDH15"
-    },
-    {
       "pmid": "41763550",
       "doi": "10.1542/pir.2025-006919",
       "zotero_key": "34WMR67E",
@@ -3958,6 +3901,64 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, lattice"
+    },
+    {
+      "pmid": "42634332",
+      "doi": "10.2174/0109298673436432260728094713",
+      "zotero_key": "KBS8K5VM",
+      "title": "Blocking the RhoA/ROCK/cofilin/F-actin Pathway via Y27632 Protects Against MERTK-deficient Retinal Degeneration and Visual Function Impairment",
+      "authors": [
+        [
+          "Lujia",
+          "Feng"
+        ],
+        [
+          "Ting",
+          "Zhang"
+        ],
+        [
+          "Yong",
+          "Du"
+        ],
+        [
+          "Yingyan",
+          "Qin"
+        ],
+        [
+          "Linbin",
+          "Zhou"
+        ],
+        [
+          "Bo",
+          "Bai"
+        ],
+        [
+          "Manjuan",
+          "Peng"
+        ],
+        [
+          "Lu",
+          "Chen"
+        ],
+        [
+          "Jin",
+          "Ma"
+        ],
+        [
+          "Shaochong",
+          "Zhang"
+        ]
+      ],
+      "journal": "Current Medicinal Chemistry",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Retinitis pigmentosa (RP) is the most common inherited neurodegenerative retinal disease. Mer receptor tyrosine kinase (MERTK) mutations are associated with severe RP and dysfunction of the RPE. Previous studies have shown that MERTK and the Rho-associated coiled-coil-containing kinases (ROCK) pathway are involved in phagocytosis. However, the specific role of the ROCK pathway in the context of MERTK-associated RP needs to be revealed. METHODS: We established an in vitro RP cellular model via MERTK depletion in human primary retinal pigment epithelium (HsRPE) cells by siRNAs, and RCS rats with spontaneous Mertk mutations were used as RP experimental animal models. Cell viability, apoptosis, phagocytosis, and visual function were measured by MTT, TUNEL and Annexin V/propidium iodide staining, phagocytosis assays and transmission electron microscopy, and electroretinography, respectively. The expression of RhoA, ROCK, Factin, and cofilin was determined by quantitative real-time PCR, western blotting, or immunofluorescence staining. RESULTS: MERTK knockdown substantially impaired cell survival, promoted apoptosis, and suppressed phagocytosis in HsRPE cells. In RCS rats, Mertk mutations impaired phagocytosis, promoted apoptosis of the RPE, and damaged visual functions. Silencing MERTK upregulated the phosphorylation of RhoA, ROCK2, and cofilin and decreased F-actin expression in HsRPE cells. Blocking the RhoA/ROCK axis by a selective ROCK inhibitor, Y27632, rescued the MERTK depletion-induced phagocytic dysfunction and apoptosis of HsRPE cells and rat RPE. DISCUSSION: Our results collectively indicate that MERTK maintains RPE survival and phagocytosis via regulating the RhoA/ROCK/cofilin/F-actin axis. CONCLUSION: This study demonstrates that MERTK deficiency impairs RPE phagocytosis and promotes cell apoptosis, leading to retinal degeneration and visual dysfunction. These findings provide new insight into RP pathogenesis and thereby offer valuable references for future drug development.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MERTK"
     },
     {
       "pmid": "",
@@ -4830,64 +4831,6 @@
       "subcollection": "RS1"
     },
     {
-      "pmid": "42542292",
-      "doi": "10.1053/j.jfas.2026.07.025",
-      "zotero_key": "C4KQXQSU",
-      "title": "Clinical Outcomes Following Staged Management of Bimalleolar and Trimalleolar Ankle Fractures",
-      "authors": [
-        [
-          "Samuel",
-          "Jin"
-        ],
-        [
-          "Sebastian",
-          "Quiana"
-        ],
-        [
-          "Dev",
-          "Patel"
-        ],
-        [
-          "Jamal",
-          "Revolus"
-        ],
-        [
-          "Raj",
-          "Patel"
-        ],
-        [
-          "Rakesh",
-          "Mashru"
-        ],
-        [
-          "Henry",
-          "Dolch"
-        ],
-        [
-          "John E.",
-          "Dibato"
-        ],
-        [
-          "Pietro",
-          "Gentile"
-        ],
-        [
-          "Kenneth",
-          "Graf"
-        ]
-      ],
-      "journal": "The Journal of Foot & Ankle Surgery",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "41089136",
       "doi": "10.7759/cureus.92151",
       "zotero_key": "GSIEKBZK",
@@ -4920,40 +4863,6 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Examen segment posterieur, Posterior segment examination"
-    },
-    {
-      "pmid": "41807597",
-      "doi": "10.1038/s41598-026-44011-8",
-      "zotero_key": "68QK9RUC",
-      "title": "Cockroach sensitization and its hidden links to mite and food allergens",
-      "authors": [
-        [
-          "Marharyta",
-          "Sobczak"
-        ],
-        [
-          "Paweł",
-          "Kitlas"
-        ],
-        [
-          "Rafał",
-          "Pawliczak"
-        ],
-        [
-          "Krzysztof",
-          "Kowal"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Cockroach allergy is a common trigger of allergic reactions and may be a cause or a result of cross-reactions with other allergens. The aim of this study was to assess the pattern of sensitization to arthropod allergens in perennial allergic rhinitis (PAR) patients with positive skin prick test to cockroach. A group of PAR patients with positive skin prick test (SPT) result with cockroach extract (Blattella germanica) was selected. In addition to SPTs for other inhalant allergens, such as house dust mites (Dermatophagoides pteronyssinus and Dermatophagoides farinae), birch, grass, mugwort, cat, dog, and Alternaria, participants underwent the ALEX2 test which allowed for detection of sensitization to cockroach-specific and cross-reacting molecules. Forty-eight participants took part in the study, of whom forty-six underwent the ALEX2 test. Among PAR patients with positive SPT results to cockroach extract only 2 had elevated IgE levels to cockroach specific allergens (Bla g 1 and Bla g 4). However, in substantial number of patients sensitization to cross-reacting allergens was demonstrated. This was associated with frequent sensitization to other arthropod extracts. A correlation was observed between cockroach allergy and allergy to edible insects such as crickets, locusts, and mealworms; seafood; house dust mites and storage mites; and wasp species, depending on the cockroach species. In our population of PAR patients sensitization to cockroaches is associated with a broader spectrum of cross-reactive allergens. These findings deepen our understanding of potential cross-allergenicity and may form the basis for personalized risk assessment and allergy treatment in patients with AR.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -6147,6 +6056,64 @@
       "subcollection": "Corneal dystrophy, Fuchs endothelial"
     },
     {
+      "pmid": "42608640",
+      "doi": "10.1007/s10278-026-02195-5",
+      "zotero_key": "QBJFMZMX",
+      "title": "Deep Learning–Based Classification of Facial Profile Convexity from Profile Photographs in Orthodontics: An Artificial Intelligence Study",
+      "authors": [
+        [
+          "Hoori",
+          "Mirmohammadsadeghi"
+        ],
+        [
+          "Yasamin",
+          "Vazirizadeh"
+        ],
+        [
+          "Hirad",
+          "Rokni"
+        ],
+        [
+          "Navid",
+          "Nasirzadeh"
+        ],
+        [
+          "Mohammad",
+          "Behnaz"
+        ],
+        [
+          "Asghar",
+          "Ebadifar"
+        ],
+        [
+          "Nazila",
+          "Biglar"
+        ],
+        [
+          "Amir",
+          "Bayatian"
+        ],
+        [
+          "Soodeh",
+          "Tahmasbi"
+        ],
+        [
+          "Shahab",
+          "Kavousinejad"
+        ]
+      ],
+      "journal": "Journal of Imaging Informatics in Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "41773460",
       "doi": "",
       "zotero_key": "CP3ZIEAQ",
@@ -6905,44 +6872,6 @@
       "subcollection": "TYR"
     },
     {
-      "pmid": "41800883",
-      "doi": "",
-      "zotero_key": "AQ6M9KSB",
-      "title": "Duplex ultrasound findings of left ovarian vein reflux suggest an ascending pattern of progression in pelvic venous disorders (PeVD).",
-      "authors": [
-        [
-          "Emma B",
-          "Dabbs"
-        ],
-        [
-          "L Da",
-          "Silva"
-        ],
-        [
-          "David",
-          "Beckett"
-        ],
-        [
-          "Judith M",
-          "Holdstock"
-        ],
-        [
-          "Mark Steven",
-          "Whiteley"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "AimTo analyse the patterns of reflux in incompetent left ovarian veins (LOV) in women with associated symptoms and/or signs, to assess whether the progression of reflux is descending or ascending.MethodsWe retrospectively reviewed pelvic venous duplex ultrasound reports from women assessed for suspected pelvic venous reflux (PVR) and/or pelvic venous disorders (PeVD) (previously pelvic congestion syndrome) at our unit between January 2016 and July 2017. All examinations included transvaginal duplex ultrasonography (TVUS) and transabdominal duplex ultrasonography (TADUS), performed by vascular technologists using our published protocol. LOV reflux was categorised as: (i) total reflux, (ii) distal reflux with proximal competence, or (iii) proximal reflux with distal competence.ResultsIn total, 317 women presenting with leg varicose veins with duplex evidence of reflux coming from the pelvis and/or symptoms of PeVD underwent TVUS and TADUS. Of these, 165 had reflux in the left ovarian vein (LOV); 108/165 (65%) demonstrated total LOV incompetence, 2/165 (1%) had proximal reflux without any distal reflux, and 55/165 (33%) showed distal-only LOV reflux. However, two of the distal-only LOV reflux had collaterals arising from the renal venous system. One of these has a true nutcracker syndrome. Of the two patients with proximal-only LOV reflux, one had symptomatic nutcracker syndrome, and the other had previously undergone left oophorectomy and was missing the distal LOV.ConclusionsThese results show that two reflux patterns predominated: total LOV reflux and distal-only LOV reflux. Isolated proximal reflux was rare. This distribution is consistent with a distal-to-proximal (ascending) pattern of reflux progression within the LOV. However, further prospective longitudinal studies are required to determine whether distal-only reflux represents an early stage in an ascending progression pathway.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41736501",
       "doi": "",
       "zotero_key": "WC3G7ZUS",
@@ -7357,84 +7286,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41800620",
-      "doi": "10.1002/ohn.70198",
-      "zotero_key": "XU4UD9DF",
-      "title": "Effects of Environmental Factors on Incidence of Allergic Rhinitis and Chronic Rhinosinusitis: A Comparative Study",
-      "authors": [
-        [
-          "Xin",
-          "Luo"
-        ],
-        [
-          "Huanping",
-          "Lu"
-        ],
-        [
-          "Jingyuan",
-          "Chen"
-        ],
-        [
-          "Shumin",
-          "Deng"
-        ],
-        [
-          "Manhou",
-          "Chao"
-        ],
-        [
-          "He",
-          "Zhang"
-        ],
-        [
-          "Tong",
-          "Wu"
-        ],
-        [
-          "Jing",
-          "Chen"
-        ],
-        [
-          "T.",
-          "Li"
-        ],
-        [
-          "Jingyang",
-          "Chen"
-        ],
-        [
-          "Zifeng",
-          "Liu"
-        ],
-        [
-          "X K",
-          "Huang"
-        ],
-        [
-          "Z H",
-          "Shi"
-        ],
-        [
-          "Yana",
-          "Zhang"
-        ],
-        [
-          "QinTai",
-          "Yang"
-        ]
-      ],
-      "journal": "Otolaryngology",
-      "year": "2026",
-      "abstract": "Air pollutants and meteorological factors significantly influence the incidence of AR and CRS in Southern China, with distinct susceptibility patterns between the 2 diseases.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "42312551",
       "doi": "10.1097/j.jcrs.0000000000002008",
       "zotero_key": "AQIBJKSH",
@@ -7629,72 +7480,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "41793719",
-      "doi": "",
-      "zotero_key": "M7KXPMEW",
-      "title": "Engineering π···π-Stacking Molecular Nanosheets of Iron Complexes for Improving Photocatalytic CO2 Reduction.",
-      "authors": [
-        [
-          "J. S.",
-          "Zhang"
-        ],
-        [
-          "Rui",
-          "Chen"
-        ],
-        [
-          "Xinyi",
-          "Bei"
-        ],
-        [
-          "Yue",
-          "Da"
-        ],
-        [
-          "Niannian",
-          "Qiao"
-        ],
-        [
-          "Zhuofei",
-          "Li"
-        ],
-        [
-          "Hao",
-          "Sun"
-        ],
-        [
-          "Jing",
-          "Wu"
-        ],
-        [
-          "Haitao",
-          "Yan"
-        ],
-        [
-          "Wei",
-          "Huang"
-        ],
-        [
-          "Qiang",
-          "Zhang"
-        ],
-        [
-          "Dayu",
-          "Wu"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "As a type of emerging two-dimensional (2D) material, molecularly stacking MOLs with nanosized thickness have emerged as a potential platform for photocatalysis. However, the molecular design of precise photogenerated carrier transport pathways is challenging for this type of 2D photocatalyst. Here, we report the strategy of π···π stacking assembly of 2D ultrathin MOLs for boosting CO2 photoreduction. Single-crystal X-ray diffraction analysis shows that Fe-mbb features vertically stacked Fe complexes held together by isotropic π···π stacking in two dimensions; however, Fe-mbm features anisotropic stacking via π···π and C-H···π interactions in different dimensions, giving rise to the difference in stacking patterns within 2D ultrathin MOLs. As a consequence, the MOL with 2D π···π stacking exhibits superior photocatalytic performance in terms of CO2 photoreduction to CO due to the enhanced separation efficiency of photogenerated carriers supported by ultrafast spectroscopic techniques. DFT calculations further reveal that the enhanced catalytic efficiency is associated with stronger CO2 adsorption and lower Gibbs free energy for the formation of key intermediates. These findings indicate that intermolecular stacking is an efficient strategy for the synthesis of emerging 2D materials, thereby meeting the key requirements for accelerating carrier transport in artificial photosynthesis.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "41775653",
       "doi": "10.1017/s000711452610676x",
       "zotero_key": "M9TQFAJ7",
@@ -7728,60 +7513,6 @@
       "journal": "British Journal Of Nutrition",
       "year": "2026",
       "abstract": "The endocannabinoid system in the central and peripheral nerves plays a crucial role in various physiological processes, including feeding behavior and energy metabolism. In particular, gut endocannabinoids stimulate appetite, and excessive activation of the system can induce hedonic eating, leading to obesity. Previous studies have indicated elevation of gut endocannabinoid levels in high-fat diet-induced or genetically obese rodents. The present study aimed to expand our understanding of gut endocannabinoids involved in feeding behavior during obesity by characterizing the profiles of arachidonic metabolites, including endocannabinoids, in the gut and by examining their impact on feeding behavior in KK-Ay mice, an obesity model established by crossing diabetic KK mice with lethal yellow (Ay) mice. KK-Ay mice exhibit hyperphagia compared with lean mice under either free-feeding condition or refeeding condition after 24 h of food deprivation. Meal pattern analyses revealed that hyperphagia in KK-Ay was primarily due to higher meal frequency rather than meal size or interval, suggesting a defect in hunger control. In addition, levels of endocannabinoids and other arachidonic acid metabolites such as prostaglandin E2 and F2α were elevated in KK-Ay mice. Pharmacological blockade of the peripheral cannabinoid receptor 1 and diacylglycerol lipase, but not N-acyl phosphatidylethanolamine phospholipase D, reduced food intake, as did treatment with cyclooxygenase-2 inhibitors. These findings suggest that intestinal 2-arachidonoyl glycerol-dependent cannabinoid receptor 1 activation contributes to hyperphagic behavior in KK-Ay mice and prostaglandins are involved in feeding control.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "41804935",
-      "doi": "",
-      "zotero_key": "DRTH9UNX",
-      "title": "Enhancing Accuracy and Interfacial Adhesion in PEEK-Based Conformal Electronics Fabricated via Hybrid Additive Manufacturing.",
-      "authors": [
-        [
-          "Pan",
-          "Chen"
-        ],
-        [
-          "Lizhi",
-          "Jiang"
-        ],
-        [
-          "Li",
-          "Meng"
-        ],
-        [
-          "Shuhuan",
-          "Zhang"
-        ],
-        [
-          "J.",
-          "Wang"
-        ],
-        [
-          "K.",
-          "Wang"
-        ],
-        [
-          "Bo",
-          "Zhu"
-        ],
-        [
-          "Kaiwen",
-          "Wei"
-        ],
-        [
-          "Xiaoyan",
-          "Zeng"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "The hybrid additive manufacturing technology integrating fused deposition modeling (FDM) with laser-activated metallization (LAM) presents significant applications in the fabrication of three-dimensional conformal electronics. However, it usually faces challenges of poor pattern accuracy and low heterogeneous interfacial bonding strength. Aiming at the above issues in the integrated fabrication of polyetheretherketone (PEEK)-based conformal electronics, this study systematically investigated the underlying mechanisms and proposed dual optimization strategies. First, the decomposition characteristics of different precursors under ultraviolet picosecond laser irradiation were studied comparatively. Pd(OAc)2 decomposed more efficiently to generate more reactive PdO species on the PEEK surface than PdCl2, enhancing the efficiency of electroless copper deposition significantly. On this basis, an improved LAM method integrating directional gas flow-assisted laser activation and cleaning solvent optimization was proposed to reduce residual active substances in nonactivated regions, enabling the deposition of high-precision copper lines with 50 μm widths and 60 μm spacings. Furthermore, an N,N-dimethylacetamide (DMAc) cleaning and KH550 silane coupling agent grafting-assisted LAM method was proposed to enhance the PEEK-Cu interfacial adhesion strength. Micro/nano composite structures and chemically active groups were introduced on the PEEK surface, establishing a dual-reinforcement PEEK-Cu interface that combines mechanical interlocking and chemical bonding, resulting in a dramatic increase in interfacial adhesion strength from 3.3 to 29.4 MPa. Ultimately, the integrated fabrication of complex PEEK-based conformal electronics was achieved, with the verification of circuit accuracy and antenna performance. This work has provided both theoretical and technical insights into the integrated fabrication of high-performance conformal electronics, significantly advancing its broader applications.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -8796,74 +8527,6 @@
       "subcollection": "ARR3"
     },
     {
-      "pmid": "39567705",
-      "doi": "10.1038/s41433-024-03481-8",
-      "zotero_key": "9RKKEW8X",
-      "title": "Eyes on Google’s NotebookLM: using generative AI to create ophthalmology podcasts with a single click",
-      "authors": [
-        [
-          "Qais A.",
-          "Dihan"
-        ],
-        [
-          "Bharti R.",
-          "Nihalani"
-        ],
-        [
-          "Andrea A.",
-          "Tooley"
-        ],
-        [
-          "Abdelrahman M.",
-          "Elhusseiny"
-        ]
-      ],
-      "journal": "Eye",
-      "year": "2024",
-      "abstract": "",
-      "cited_by_count": 18,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "COL18A1"
-    },
-    {
-      "pmid": "41817565",
-      "doi": "10.4103/ijo.ijo_1322_25",
-      "zotero_key": "THZWSAR9",
-      "title": "Ferroptosis regulator NOX1 acts a diagnostic biomarker and mediates disease progression with the transcriptional regulation of STAT3 in glaucoma",
-      "authors": [
-        [
-          "Fangwei",
-          "Zong"
-        ],
-        [
-          "Xuerui",
-          "Wang"
-        ],
-        [
-          "Jiaxin",
-          "You"
-        ],
-        [
-          "Hong",
-          "Wu"
-        ]
-      ],
-      "journal": "Indian Journal of Ophthalmology",
-      "year": "2026",
-      "abstract": "NOX1 was a good biomarker for characterizing POAG and promoted POAG progression through STAT3-mediated transcriptionally activation.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Ocular developmental anomalies"
-    },
-    {
       "pmid": "41763576",
       "doi": "10.1542/neo.27-3-106",
       "zotero_key": "KKVCXIKS",
@@ -8966,36 +8629,6 @@
       "subcollection": "MFRP"
     },
     {
-      "pmid": "41804817",
-      "doi": "",
-      "zotero_key": "R65GFJ6N",
-      "title": "First Korean Case of 5q35.2q35.3 Microduplication With Reversed Sotos Syndrome Phenotype and Growth Hormone Deficiency: Expanding the Endocrine Spectrum.",
-      "authors": [
-        [
-          "Sejin",
-          "Kim"
-        ],
-        [
-          "J. C.",
-          "Ha"
-        ],
-        [
-          "Jun Chul",
-          "Byun"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "Sotos syndrome is an overgrowth disorder caused by nuclear receptor binding SET domain protein 1 (NSD1) haploinsufficiency, whereas reciprocal 5q35.2q35.3 microduplication produces a reversed phenotype with growth retardation, microcephaly, delayed bone age, and neurodevelopmental delay. We describe a 43-month-old Korean girl born at 36 + 1 weeks with intrauterine growth restriction (birth weight 2200 g, length 46 cm, occipitofrontal circumference 42 cm). At presentation, all growth parameters were below the 10th percentile, with dysmorphic features including epicanthal folds, telecanthus, and a wide nasal bridge. She walked at 14 months but had an approximately 25-month language delay. Chromosomal microarray revealed a de novo 1.8 Mb duplication at 5q35.2q35.3 encompassing NSD1, classified as pathogenic (triplosensitivity score 3). A growth hormone (GH) stimulation test confirmed deficiency (peak GH 9.87 and 6.42 ng/mL). Recombinant human GH therapy (0.1 IU/kg/day) improved growth to the 5-10th percentile after 6 months. This is the first reported Korean case of 5q35.2q35.3 duplication with reversed Sotos phenotype and GH deficiency, which expands the endocrine spectrum of the disorder and underscores the need for early genetic testing and endocrine evaluation.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "",
       "doi": "10.1002/neu.480200503",
       "zotero_key": "S7XMV7NT",
@@ -9046,32 +8679,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RS1"
-    },
-    {
-      "pmid": "26522198",
-      "doi": "10.2015/jcpsp.s124s126",
-      "zotero_key": "5B2HCFF3",
-      "title": "Fraser Syndrome.",
-      "authors": [
-        [
-          "Adnan Aslam",
-          "Saleem"
-        ],
-        [
-          "Sorath Noorani",
-          "Siddiqui"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2015",
-      "abstract": "Fraser's Syndrome (FS) is a rare autosomal recessive disorder with a spectrum of malformations. The most consistent features are Cryptophthalmos (CO), syndactyly, genitourinary tract abnormalities, laryngeal and tracheal anomalies, craniofacial dysmorphism, malformations of the ear and nose, orofacial clefting and musculoskeletal defects. FS is genetically heterogeneous; so far mutations in FRAS1, FREM2 and GRIP1 genes have been linked to FS. FS can be diagnosed on clinical examination, pre-natal ultrasound or perinatal autopsy. We present a case of a 3 months old child born to consanguineous healthy parents with bilateral complete CO, unilateral microphthalmia, hypertelorism, syndactyly (hands and feet bilaterally), ambiguous genitalia with cryptorchidism and an umbilical hernia. We also present the criteria for diagnosing FS and the significant features on pre-natal ultrasonography. Around 200 case reports of patients with FS and CO have been published. To our knowledge, this is the first reported case of FS in Pakistan.",
-      "cited_by_count": 5,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FREM2"
     },
     {
       "pmid": "42106822",
@@ -9652,6 +9259,76 @@
       ],
       "category": "6 - Genes",
       "subcollection": "TYRP1"
+    },
+    {
+      "pmid": "42431867",
+      "doi": "10.1038/s41408-026-01573-0",
+      "zotero_key": "Z7RVFGZF",
+      "title": "Genomic landscape, clinical correlates and prognostic implications of U2AF1 mutation subtypes in myelodysplastic neoplasms",
+      "authors": [
+        [
+          "Zefei",
+          "Bao"
+        ],
+        [
+          "Bing",
+          "Li"
+        ],
+        [
+          "Tiejun",
+          "Qin"
+        ],
+        [
+          "Zefeng",
+          "Xu"
+        ],
+        [
+          "Shiqiang",
+          "Qu"
+        ],
+        [
+          "Y",
+          "Jia"
+        ],
+        [
+          "Lijuan",
+          "Pan"
+        ],
+        [
+          "Qingyan",
+          "Gao"
+        ],
+        [
+          "Meng",
+          "Jiao"
+        ],
+        [
+          "Jinqin",
+          "Liu"
+        ],
+        [
+          "Chengwen",
+          "Li"
+        ],
+        [
+          "Qi",
+          "Sun"
+        ],
+        [
+          "Zhijian",
+          "Xiao"
+        ]
+      ],
+      "journal": "Blood Cancer Journal",
+      "year": "2026",
+      "abstract": "U2 small nuclear RNA auxiliary factor 1 ( U2AF1 ) is one of the most frequently mutated genes in myelodysplastic neoplasms (MDS) [ 1 , 2 ]. U2AF1 mutations predominantly occur at two hotspots (S34, Q157) within two zinc finger domains and disrupt pre-mRNA splicing by altering RNA binding specificity, with S34 and Q157 variants affecting nucleotide recognition at the −3 and +1 positions of the 3′ splice site, respectively [ 2 , 3 , 4 ]. Emerging evidence suggests that mutations at these residues induce distinct alterations in downstream gene expression and RNA splicing, and are associated with distinct disease phenotypes [ 3 , 5 , 6 , 7 , 8 , 9 ]. However, their prognostic impact in MDS remains inconclusive [ 6 , 7 , 8 , 9 , 10 , 11 ], and potential differences among the specific amino acid substitutions within each hotspot have not been well defined.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "42211199",
@@ -10466,64 +10143,6 @@
       "subcollection": "Orbit"
     },
     {
-      "pmid": "41796120",
-      "doi": "10.1038/s41377-026-02246-0",
-      "zotero_key": "5RKAQSZW",
-      "title": "Highly efficient and ultrahigh-resolution quantum dot light-emitting diodes via photoisomeric transformation",
-      "authors": [
-        [
-          "Chenglong",
-          "Wu"
-        ],
-        [
-          "Chengzhao",
-          "Luo"
-        ],
-        [
-          "Yonghuan",
-          "Huo"
-        ],
-        [
-          "Yun",
-          "Chen"
-        ],
-        [
-          "Chengze",
-          "Xu"
-        ],
-        [
-          "Xin",
-          "Zhou"
-        ],
-        [
-          "Zhiyong",
-          "Zheng"
-        ],
-        [
-          "Xinwen",
-          "Wang"
-        ],
-        [
-          "zhenwei",
-          "ren"
-        ],
-        [
-          "Yu",
-          "Chen"
-        ]
-      ],
-      "journal": "Light Science & Applications",
-      "year": "2026",
-      "abstract": "The direct photopatterning technique provides a straightforward approach for high-resolution quantum dot (QD) patterns for next-generation displays. However, the extensively deteriorated QD optical properties deriving from the changes of the QD surface states and/or surroundings set substantial limitations in obtaining high-quality QD patterns and efficient electroluminescent devices. Here, we propose an ingenious and effective approach by utilizing the photoisomeric transformation from spiropyran to merocyanine for highly emissive QD patterns. We reveal the suppression of non-radiative energy transfer between QDs and the dissociative merocyanine for fast luminescence recovery. We achieve small-sized (0.8 μm), high-resolution (15,800 pixels per inch, PPI), high-fidelity (~100%), multicolor, and elaborated QD pixels, and showcase their good compatibility for CdSe/ZnS and perovskite QD pixel fabrication, as well as on both rigid and flexible substrates. These merits promote highly performing pixelated devices with a large luminance of 35,534 cd m-2 and a record efficiency of 24.5% at 6350 PPI among the direct photopatterning devices. Furthermore, we verify the wide applicability of the proposed strategy for high-performance pixelated perovskite devices with an efficiency of 13.8% at 1760 PPI. The above results confirm the great value of the proposed approach for high-quality QD patterns and high-performance pixelated devices.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "42500810",
       "doi": "10.1002/rcm.70142",
       "zotero_key": "W8U42PBQ",
@@ -10570,32 +10189,6 @@
       "subcollection": "PRPH2"
     },
     {
-      "pmid": "41804737",
-      "doi": "",
-      "zotero_key": "TT97CG2I",
-      "title": "Histopathological Findings of Testis Torsion According to Parenchymal Regions: New Recommendations for Damage Detection and Future Directions.",
-      "authors": [
-        [
-          "Fatih",
-          "Yilmaz"
-        ],
-        [
-          "Suleyman",
-          "Sagir"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "Testis torsion is a scrotal emergency in which parenchymal damage cannot be accurately predicted. This situation leads to atrophy in the follow-up of patients who underwent orchidopexy, and potentially reversible injury can be detected in the orchiectomy series. This study aimed to find answers to questions about the accurate detection of testes with potentially reversible injury. The testes of patients who underwent orchiectomy due to testis torsion under the age of 35 (n = 54) were re-examined. Considering the vascular anatomy of the testis, necrotic changes in the epididymal, anti-epididymal, and central regions were scored from grade 1 to 3. The necrosis score was obtained by multiplying the degree and percentage of necrotic areas. Potentially reversible injury (Grade 1) was detected in 10 (18%) testes, and 3 of them had partial necrotic changes. Grade 1 injury could be detected after a symptom duration of up to 168 h, while grade 3 could be observed after as short as 6 h. The median symptom duration of Grade 3 necrosis was higher than that of Grade 1 and Grade 2, but this difference was not statistically significant (P = .066). Testis pain, swelling, and abdominal pain were most commonly seen in high-grade injuries (P = .047). The highest necrosis scores were observed in the central region of the testes, followed by the epididymal and anti-epididymal side (P = .035). Clarification of the injury pattern of the twisted testes will allow a more accurate estimation of parenchymal damage and salvage ability.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "",
       "doi": "10.1080/02713680590959439",
       "zotero_key": "XH3U4EAC",
@@ -10628,44 +10221,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "42541874",
-      "doi": "10.1016/j.jenvman.2026.130511",
-      "zotero_key": "NCFQ7JGS",
-      "title": "How far back should we look? Long-term grassland changes to inform habitat restoration planning",
-      "authors": [
-        [
-          "Marianna",
-          "Biró"
-        ],
-        [
-          "Melinda",
-          "Halassy"
-        ],
-        [
-          "János",
-          "Bölöni"
-        ],
-        [
-          "László",
-          "Demeter"
-        ],
-        [
-          "Zsolt",
-          "Molnár"
-        ]
-      ],
-      "journal": "Journal of Environmental Management",
-      "year": "2026",
-      "abstract": "Long-term time-series analyses are essential to avoid underestimating ecosystem loss and degradation and to prevent the shifting baseline syndrome when assessing habitat decline and setting restoration targets. Our aims were to (1) quantify historical area changes of semi-natural and transitional (degraded, regenerating, or intensive) grasslands in Hungary; (2) assess grassland continuity; and (3) evaluate grassland habitat loss across different historical reference points. For the analysis, we updated and supplemented the Habitat Trend Database of Hungary (5000 sample localities) with new field data collected in 2024, representing the past ten years of changes. The analysed database contains habitat data estimated for eight time points over the past 240 years. Our results show that grassland cover declined from 37.6% in the 18th century to 9.2% today, reaching its minimum extent (8.4%) in the 1980s. It is now increasing due to the expansion of transitional grasslands regenerating after the peak of cultivated area in the 1960s. Over the 240-year study period, the total loss of semi-natural grasslands accounted for 86.3%. 67% of Hungary's current semi-natural grasslands have remained continuous since the 18th century, while only 8.7% of the 18th-century semi-natural grasslands persist continuously to the present day. The average area of the studied Natura 2000 grassland habitats decreased by 38% since the 1980s, by 61% since the 1960s, and by 70% since the 1940s. We argue that if the original extent of habitat loss is not clearly documented and communicated, both the scientific community and society may gradually lose awareness of past ecosystem conditions.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "41729106",
@@ -10854,34 +10409,96 @@
       "subcollection": "ARID1B"
     },
     {
-      "pmid": "41803283",
-      "doi": "10.1038/s41598-026-42914-0",
-      "zotero_key": "CJ3HWRWJ",
-      "title": "Identifying the coupling coordination relationship and driving forces between urbanization and the supply–demand of ecosystem service: a case study of the Gansu Province",
+      "pmid": "40712134",
+      "doi": "10.1097/icb.0000000000001790",
+      "zotero_key": "3GEJDB2Z",
+      "title": "Idiopathic Acute Exudative Polymorphous Vitelliform Maculopathy – Case Series and Extended Features",
       "authors": [
         [
-          "Guofeng",
-          "Dang"
+          "Efrat",
+          "Naaman"
         ],
         [
-          "Jia",
-          "Hu"
+          "Assaf",
+          "Rosenberg"
         ],
         [
-          "Guibin",
-          "Li"
+          "W.",
+          "Nasser"
+        ],
+        [
+          "Raz",
+          "Tshuva-Bitton"
+        ],
+        [
+          "Rina",
+          "Leibu"
+        ],
+        [
+          "Tamar",
+          "Ben‐Yosef"
+        ],
+        [
+          "Ido",
+          "Perlman"
+        ],
+        [
+          "Shiri",
+          "Zayit‐Soudry"
         ]
       ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Assessing the correlation between urbanization and the supply-demand of ecosystem services (ESS) aids in driving the sustainable and high-quality regional development. Exploring the degree of coupling coordination among urbanization and the supply and demand of ESS, as well as their relevant driving factors holds significant theoretical and practical value. This study utilizes elevation, meteorological, NDVI, population density, nighttime light, and socio-economic data to quantify the supply-demand relationships of ESS and the comprehensive urbanization level (CUL). It analyzed the ESS supply-demand and CUL in Gansu Province during the 2002-2022 period, and used the coupling coordination degree (CCD) model to analyze their coupling coordination relationship at different scales. Finally, the geographic detector was applied to recognize the key driving factors that have an effect on CCD. The results indicate: (1) The supply-demand ratio (ESSDR) of water services and comprehensive ecosystem services (CESS) show an upward trend, while that of carbon services and soil services shows a downward trend, the change in habitat quality is not obvious. (2) CUL has increased and continues to rise, with regional development imbalances and a spatially scattered, point-like distribution pattern. (3) Overall, the CCD between CUL and ESSDR is low, with most regions in a state of imbalance, but the CCD level shows an overall upward trend. (4) In factor detection, socio-economic factors exhibit greater influence than natural factors, with population density has a relatively significant influence. In interaction detection, natural factors become the primary driving force, with NDVI showing a increase in influence when synergized with other factors.",
-      "cited_by_count": 0,
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2025",
+      "abstract": "PURPOSE: Idiopathic acute exudative polymorphous vitelliform maculopathy (AEPVM) is a rare condition characterized by acute vision loss and distinctive retinal findings. Here we describe the disease course in three previously unpublished subjects diagnosed with AEPVM and a previously undescribed imaging feature. METHODS: We present the clinical presentation, disease progression, and multimodal imaging, along with retinal electrophysiology and genetic testing for PRPH2 and BEST1. RESULTS: All patients exhibited AEPVM-related retinal findings, including bilateral localized serous macular detachments that coalesced over time, forming yellow white vitelliform deposits with a hyperautofluorescent meniscus. SD-OCT revealed a previously unreported selective elongation of the outer retina throughout the macula, sparing the retinal midperiphery. Full-field electroretinography )ERG( was near normal in two patients, while multifocal ERG showed reduced responses. Genetic sequencing of PRPH2 and BEST1 revealed no pathogenic mutations, and systemic evaluation ruled out malignancy. CONCLUSIONS: Idiopathic AEPVM is a rare disease characterized by distinctive retinal imaging findings. An interesting observation is that the outer retinal elongation occurs only in the macular region of the retina, which is supported by the ERG results. These findings suggest an interruption at the level of the macular photoreceptors, retinal pigment epithelium (RPE), or their interactions.",
+      "cited_by_count": 1,
       "centrality": 0,
       "source_tags": [
-        "source:recent"
+        "source:search"
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "24059329",
+      "doi": "10.1563/aaid-joi-d-13-00155",
+      "zotero_key": "EB9ASEZK",
+      "title": "Immunophenotype of Dental Implant-Associated Peripheral Giant Cell Reparative Granuloma in a Representative Case Report",
+      "authors": [
+        [
+          "Pablo",
+          "Galindo‐Moreno"
+        ],
+        [
+          "Pedro",
+          "Hernández‐Cortés"
+        ],
+        [
+          "Rosa M.",
+          "Rı́os"
+        ],
+        [
+          "Elena",
+          "Sánchez‐Fernández"
+        ],
+        [
+          "Miguel A.",
+          "Camara"
+        ],
+        [
+          "Francisco",
+          "O′Valle"
+        ]
+      ],
+      "journal": "Journal of Oral Implantology",
+      "year": "2013",
+      "abstract": "We report the case of a 74-year-old white male patient who had worn an overdenture for the previous 6 years, retained by 4 screwed implants and a bar, who presented with an exophytic multilobed lesion of 2.5 × 2.0 cm on the anterior aspect of 1 implant neck, which was surrounded by pink-reddish tissue. All of the soft tissue around the implant was removed until the periosteum was reached. Histologic examination of the lamina propria revealed a cellular proliferation with imprecise boundaries, dense stromal component composed of spindle- to round-shaped mononucleated cells (fibroblasts and monocytes/macrophages), abundant multinucleated giant cells surrounding microscopic hemorrhagic foci, and deposits of hemosiderin; the diagnosis was peripheral giant-cell reparative granuloma (PGCG). Giant cells share the immunohistochemical expression of monocyte/macrophage markers (CD68, calprotectin [Mc387]) and osteoclastic cell markers (tartrate-resistant acid phosphatase, cathepsin K, and microphthalmia-associated transcription factor). After 6 months of follow-up, no bone resorption or recurrence of implant loss was observed. There have been only 12 case reports on dental implant–associated PGCG. Research results to date indicate that there may be little difference in immunophenotype among the giant cells of PGCG, central giant cell reparative granuloma, and peri-implant osteolysis. In conclusion, the immunohistochemical study confirms an osteoclast like giant cells phenotype differentiation in PGCG.",
+      "cited_by_count": 18,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "GDF6"
     },
     {
       "pmid": "42426665",
@@ -11344,6 +10961,94 @@
       "subcollection": "SAG"
     },
     {
+      "pmid": "40764517",
+      "doi": "10.1038/s41598-025-10542-9",
+      "zotero_key": "93CQZFAC",
+      "title": "Innovative approach to IOL-bag complex fixation with Siepser’s scleral sliding knots in pseudoexfoliation syndrome",
+      "authors": [
+        [
+          "Dario",
+          "Furgiuele"
+        ],
+        [
+          "Piera",
+          "Giunta"
+        ],
+        [
+          "Michele",
+          "Rinaldi"
+        ],
+        [
+          "Luca",
+          "D’Andrea"
+        ],
+        [
+          "Ciro",
+          "Costagliola"
+        ]
+      ],
+      "journal": "Scientific Reports",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "4 - Examinations",
+      "subcollection": "Anterior segment examination, Examen segment anterieur"
+    },
+    {
+      "pmid": "42590749",
+      "doi": "10.3390/s26154974",
+      "zotero_key": "55G8APZA",
+      "title": "Inscription of Quasi-Sinusoidal Surface Relief Optical Gratings in ZEONOR™ Cyclic Olefin Polymer by a 10.5 MeV N4+ Ion Microbeam at Low Implanted Fluences",
+      "authors": [
+        [
+          "I.",
+          "Bányász"
+        ],
+        [
+          "Gyula",
+          "Nagy"
+        ],
+        [
+          "I.",
+          "Rajta"
+        ],
+        [
+          "Vladimír",
+          "Havránek"
+        ],
+        [
+          "András József",
+          "Laki"
+        ],
+        [
+          "Miklós",
+          "Kellermayer"
+        ],
+        [
+          "Ágnes Nagyné",
+          "Szokol"
+        ],
+        [
+          "Robert",
+          "Magnusson"
+        ]
+      ],
+      "journal": "Sensors",
+      "year": "2026",
+      "abstract": "Direct writing of microstructures in ZEONOR™ cyclic olefin polymer, using a high-energy medium-mass ion microbeam, was proposed and demonstrated. Microbeams of 10.5 MeV N4+ ions were used. The implanted fluences were between 2.5·1012 and 2.0·1013 ion/cm2. The microstructures were surface relief optical gratings of quasi-sinusoidal profile and grating constant of 4, 8 and 16 µm. Peak-to-peak amplitudes of the gratings ranged from 10 to 90 nm. Measured profiles of the gratings were Fourier-analyzed. Highest measured net first-order diffraction efficiencies were between 25 and 29% at wavelengths of 405 and 640 nm, very close to the theoretical maximum of 33%, calculated with the Raman-Nath equation. This method could be used for the production of micro- and nanostructures in cyclic olefin polymers and copolymers and other polymers as well, either for the direct production of label-free biosensors and other devices, or to produce masters for hot stamping of such structures.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "42343637",
       "doi": "10.1631/jzus.b2500747",
       "zotero_key": "2KSK8WDK",
@@ -11722,44 +11427,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS1"
-    },
-    {
-      "pmid": "41826620",
-      "doi": "10.1038/s41598-026-44128-w",
-      "zotero_key": "GBH8QD7A",
-      "title": "Investigation of deformation characteristics of gate and earth–rock dam systems under deep overburden conditions",
-      "authors": [
-        [
-          "Boyuan",
-          "Liu"
-        ],
-        [
-          "Feng Ryan",
-          "Wang"
-        ],
-        [
-          "Degao",
-          "Zou"
-        ],
-        [
-          "Yue",
-          "Zhuo"
-        ],
-        [
-          "Shaoyun",
-          "Pang"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Gate and earth-rock dam systems are the preferred dam types for river sections under deep overburden conditions, low head, and high flow rates. This study established a three-dimensional finite element model incorporating all main structures of the gate-dam earth-rock dam system based on octree discretization technology. The stress-strain characteristics of this model were analyzed using the FEM-SBFEM coupling algorithm. The results show: (1) Structural stiffness, load transmission, dam volume, and overburden thickness account for the spatial non-uniformity in dam deformation, with vertical settlement in the earth-rock dam surpassing that of the gate dam by 28.1%. (2) Larger displacement occurs at the joints on both sides of the gate dam, while the central section exhibits relatively coordinated deformation. (3) A tensile stress zone with a maximum tensile stress of 2.6 MPa formed at the top of the cutoff wall due to bending deformation caused by inadequate deformation coordination between the cutoff wall and overburden. (4) The underground continuous walls exhibit uneven settlement patterns influenced by the earth-rock dam and gravity retaining walls, with tensile stress zones forming at both the top and bottom. This study effectively identified the mutual interactions and spatial deformation characteristics among components within the gate and earth-rock dam systems, locating vulnerable zones and providing basis for engineering design optimization. Additionally, the octree discretization technology and FEM-SBFEM coupling algorithm used in this study provide a reference for the numerical analysis of engineering problems with complex structures, huge computational domains, and strong nonlinearity.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "42508613",
@@ -12384,6 +12051,52 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "41755732",
+      "doi": "10.1021/acsami.5c20740",
+      "zotero_key": "Q56VE9R3",
+      "title": "Lithography-Patterned Nafion Interlayers Enable High-Injection Contacts in p-MoTe <sub>2</sub> FETs",
+      "authors": [
+        [
+          "Sewoong",
+          "Oh"
+        ],
+        [
+          "Jeehong",
+          "Park"
+        ],
+        [
+          "Yeonjin",
+          "Yi"
+        ],
+        [
+          "Seongil",
+          "Im"
+        ],
+        [
+          "Ji Hoon",
+          "Park"
+        ],
+        [
+          "Ji Hoon",
+          "Park"
+        ],
+        [
+          "Ji Hoon",
+          "Park"
+        ]
+      ],
+      "journal": "ACS Applied Materials & Interfaces",
+      "year": "2026",
+      "abstract": "A lithography-compatible approach for site-selective contact engineering is developed by using electron-beam lithography to pattern ultrathin Nafion interlayers at the metal contacts of p-type MoTe<sub>2</sub> field-effect transistors. The patterned Nafion films are prepared by electron-beam irradiation followed by development, forming conformal nanometer-thick layers localized exclusively at the source and drain regions. Due to its high work function, Nafion facilitates localized charge transfer that p-dopes the MoTe<sub>2</sub> interface, thereby narrowing the Schottky barrier width for hole injection. Two-terminal and four-terminal electrical measurements allow a clear distinction between intrinsic channel properties and contact-related effects. Nafion-contacted devices show a 2-fold increase in on-state current, more linear output behavior, and field-effect mobility up to 10 cm<sup>2</sup>/V·s, compared to control devices with bare-Pt contacts. The convergence of two- and four-terminal mobilities observed in Nafion-modified transistors indicates the successful mitigation of contact resistance and Fermi-level pinning. An electron-beam dose of 10 μC cm<sup>-2</sup> produces optimal results by achieving good pattern definition while maintaining effective interfacial doping. This site-selective patterning method offers a practical route for tailored contact engineering in 2D materials and represents a promising path toward improved p-type MoTe<sub>2</sub> transistors for advanced electronic applications.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "41761912",
       "doi": "",
       "zotero_key": "SBR3ZAE9",
@@ -12822,6 +12535,36 @@
       "subcollection": "RPGR"
     },
     {
+      "pmid": "36682978",
+      "doi": "10.1016/j.ophtha.2022.11.001",
+      "zotero_key": "9TW5ATXD",
+      "title": "Macular Pseudocoloboma in Achromatopsia",
+      "authors": [
+        [
+          "Marianne",
+          "Bourhis"
+        ],
+        [
+          "Dominique",
+          "Brémond‐Gignac"
+        ],
+        [
+          "Matthieu P.",
+          "Robert"
+        ]
+      ],
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ATF6"
+    },
+    {
       "pmid": "",
       "doi": "10.1159/000304366",
       "zotero_key": "9TX5BSDE",
@@ -13200,40 +12943,6 @@
       "subcollection": "CHST6"
     },
     {
-      "pmid": "42541508",
-      "doi": "10.1016/j.mayocp.2026.01.022",
-      "zotero_key": "43RGZXZC",
-      "title": "MRI-Negative Posterior Reversible Encephalopathy Syndrome",
-      "authors": [
-        [
-          "M.C.",
-          "Bates"
-        ],
-        [
-          "Jennifer E.",
-          "Fugate"
-        ],
-        [
-          "Jay",
-          "Mandrekar"
-        ],
-        [
-          "Alejandro A.",
-          "Rabinstein"
-        ]
-      ],
-      "journal": "Mayo Clinic Proceedings",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "42017674",
       "doi": "10.1128/msphere.00907-25",
       "zotero_key": "NNFGGKMG",
@@ -13254,56 +12963,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NAA15"
-    },
-    {
-      "pmid": "41825899",
-      "doi": "10.2987/25-7276",
-      "zotero_key": "4QEQ9F4R",
-      "title": "MULTI-COUNTY TICK SURVEY (ACARI: IXODIDAE) IN MISSOURI USA, 2019 AND 2021",
-      "authors": [
-        [
-          "Patricia J.",
-          "Norton"
-        ],
-        [
-          "Samniqueka J.",
-          "Halsey"
-        ],
-        [
-          "Kendall",
-          "Mara"
-        ],
-        [
-          "Hayden",
-          "Calvin"
-        ],
-        [
-          "Deborah M.",
-          "Anderson"
-        ],
-        [
-          "Cassandra D.",
-          "Pauling"
-        ],
-        [
-          "David M.",
-          "Claborn"
-        ],
-        [
-          "Brenda T.",
-          "Beerntsen"
-        ]
-      ],
-      "journal": "Journal of the American Mosquito Control Association",
-      "year": "2026",
-      "abstract": "Ongoing surveillance of tick populations is critical for informing the health of humans, livestock, and companion animals. From 2004 to 2019 in the USA and its territories, the National Notifiable Disease Surveillance System data show a 2.1-fold increase in all reportable notifiable tick-borne diseases (TBDs) in humans. Eight tick-borne zoonotic pathogens and 1 syndrome were described for the first time in the USA between 2004 and 2024. In Missouri, 33 counties were surveyed over a 2-year period (2019 and 2021). More than 3,811 ticks were collected during the study: 89.0% Amblyomma americanum, 10.9% Dermacentor variabilis, <0.1% Amblyomma maculatum, <0.1% Haemaphysalis longicornus, and <0.1% Ixodes spp. Significantly greater tick density was found in metropolitan areas as compared to rural counties (P = 0.012). Of the 2 level I ecoregions in Missouri, the Eastern Temperate Forest (ETF) had a significantly greater tick density (P = 0.0045). Even so, D. variabilis had significantly higher density in the Great Plains ecoregion than in ETF (P = 0.031). Ozark Highlands had the highest tick density of the 5 level III ecoregions surveyed (5.12 ticks/100 m2). A moderate, positive correlation between a county's density of A. americanum nymphs and its quadrennial tick-borne disease rate was observed (r = 0.68, P = 0.002). Our study adds new data on established and reported tick populations for 13 counties and examines the relationships of tick density to TBDs and to area designation.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "42122953",
@@ -14468,48 +14127,6 @@
       "subcollection": "ARSG"
     },
     {
-      "pmid": "42541497",
-      "doi": "10.1016/j.jneb.2026.06.219",
-      "zotero_key": "D94G8PUA",
-      "title": "Nutrition Messaging in Food Documentaries: Assessment of Social Cognitive Theory Constructs and Information Quality",
-      "authors": [
-        [
-          "Enid A.",
-          "Keseko"
-        ],
-        [
-          "Minji",
-          "Kim"
-        ],
-        [
-          "Leila M.",
-          "Larson"
-        ],
-        [
-          "Amanda J.",
-          "Fairchild"
-        ],
-        [
-          "Alexis",
-          "Bell"
-        ],
-        [
-          "Gabrielle",
-          "Turner‐McGrievy"
-        ]
-      ],
-      "journal": "Journal of Nutrition Education and Behavior",
-      "year": "2026",
-      "abstract": "OBJECTIVE: To examine how food documentaries reflect Social Cognitive Theory (SCT) in relation to dietary behavior and assess the quality of dietary information they present. DESIGN: A content analysis of food documentaries on video streaming platforms, released between January 2020 and December 2024. Eligible documentaries exceeded 30 minutes and included content consistent with dietary patterns recommended by the Dietary Guidelines for Americans 2020-2025. ANALYSIS: Transcripts from 7 documentaries were obtained through subtitles and independently coded by 2 researchers using qualitative data analysis software. Content reflecting SCT constructs, including self-efficacy, observational learning, reciprocal determinism, outcome expectations, and reinforcement, was coded and analyzed. Information quality was assessed through scoring of reliability, clarity, and evidence base of health-related information. RESULTS: All documentaries included SCT constructs. Across 195 SCT-coded instances, self-efficacy was most prevalent and included practical tips to build confidence (13.3% of the codes) and encouragement for positive change (8.7%). Observational learning codes included expert demonstrations (9.2%) and success stories as models (11.8%). Information quality assessment scores ranged from 58 to 69, indicating moderate to high information quality. CONCLUSIONS AND IMPLICATIONS: Food documentaries in this sample provided SCT-aligned dietary behavior messaging and moderate to high-quality nutrition information, highlighting their potential for health promotion.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "",
       "doi": "10.1097/00055735-199810000-00007",
       "zotero_key": "P79JEEJZ",
@@ -14782,6 +14399,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "HK1"
+    },
+    {
+      "pmid": "33120675",
+      "doi": "10.4103/ijo.ijo_927_20",
+      "zotero_key": "NAMKMJPZ",
+      "title": "Optic disc pseudoduplication accompanied with macular hole",
+      "authors": [
+        [
+          "Yasaman",
+          "Zarrin"
+        ],
+        [
+          "Farhad",
+          "Fazel"
+        ],
+        [
+          "Mohammadreza",
+          "Fazel"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2020",
+      "abstract": "A 68-year-old man presented with decreased vision in his left eye since 2 months ago. His best corrected visual acuity (BCVA) was 20/400. During the fundus examination, a disc-like lesion was observed inferior to the left optic nerve. A full-thickness macular hole was also detected and determined to be the main cause of his declining vision which needed surgical management [Fig. 1a]. fluorescein angiography was performed [Fig. 1b], and B-scan ultrasonography then revealed that there was only one true optic nerve.Figure 1: (a) Color fundus photograph of the left eye revealed optic nerve pseudo duplication. The colobomatous lesion was half disc diameter in size and mildly excavated. (b) Fluorescein angiogram showed that the inferotemporal retinal vein dipped in the lesion before reaching the optic nerve; however, the arterial vasculature seemed to be normalOptic disc doubling is very rare in humans but colobamatous lesions, as seen in our case, can simulate the optic nerve.[12] Optic disc congenital colobomas are very rare and may be diagnosed as optic disc duplication which does not usually impair the patient's visual acuity and might be accompanied by other retinal lesions. 2.1 Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. 2.2 Financial support and sponsorship Nil. 2.3 Conflicts of interest There are no conflicts of interest.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "MAB21L2"
     },
     {
       "pmid": "",
@@ -15062,6 +14709,28 @@
       "subcollection": "CRB1"
     },
     {
+      "pmid": "42114966",
+      "doi": "10.1261/rna.081086.126",
+      "zotero_key": "WAMXRNEB",
+      "title": "Past studies suggest potential therapies for newly discovered retinitis pigmentosa mutations in U6 and U4 snRNAs",
+      "authors": [
+        [
+          "David A.",
+          "Brow"
+        ]
+      ],
+      "journal": "RNA",
+      "year": "2026",
+      "abstract": "Sequencing of whole genomes from hundreds of thousands of people has made it possible to track down the genetic causes of many inherited diseases by correlating the presence of rare sequence variants with the disease in affected families (Posey et al. 2019).Only a small fraction of the human genome codes for proteins but much of the genome is transcribed, so disease variants are increasingly being found in noncoding RNAs.A very recent report describes mutations in the genes for two RNA components of the spliceosome, U4 and U6 small nuclear (sn)RNAs, that are associated with the progressive vision disorder retinitis pigmentosa (RP; Quinodoz et al. 2026).The correspondence of the U6 RP mutations with mutations studied in detail in brewer's yeast suggests possible disease mechanisms and therapies.RP is the most common form of inherited retinal disease in humans and results from mutation of any one of over 100 different genes (Rivolta et al. 2025).The mutations cause slow, progressive loss of photoreceptor cells (initially rods) typically starting in adolescence, resulting in loss of night vision, progressive tunnel vision, and eventual partial or complete blindness (Verbakel et al. 2018).Previously, all the known RP genes coded for proteins, five of which (Brr2, Prp3, Prp4, Prp8, and Prp31) are present in an RNA-protein subcomplex of the spliceosome called the U4/U6.U5 tri-snRNP.Thus, it made sense to find RP mutations in two RNA components of the tri-snRNP, U4 and U6.About one third of all RP families exhibit autosomal dominant inheritance (adRP), including all of those with mutations in protein or RNA components of the tri-snRNP.Distinct rare variants in U4 and U5 snRNAs were recently associated with neurodevelopmental disorders (Chen et al. 2024;Greene et al. 2024;Nava et al. 2025), but the RP mutations are the first disease mutations reported in U6 snRNA.There",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPF3"
+    },
+    {
       "pmid": "42351339",
       "doi": "10.1097/icb.0000000000001839",
       "zotero_key": "JN3R2R5S",
@@ -15181,6 +14850,44 @@
       "centrality": 0,
       "source_tags": [
         "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PAX6"
+    },
+    {
+      "pmid": "42612147",
+      "doi": "10.3791/68556",
+      "zotero_key": "ITZK76E9",
+      "title": "Patient-Specific iPSC-Derived Cornea Organoids for Investigating Aniridia-Associated Corneal Disorders",
+      "authors": [
+        [
+          "Ali Can",
+          "Koç"
+        ],
+        [
+          "Gaye Su",
+          "Yiğit"
+        ],
+        [
+          "Semih Numan",
+          "Göçmez"
+        ],
+        [
+          "Mustafa",
+          "Titiz"
+        ],
+        [
+          "Sinan",
+          "Güven"
+        ]
+      ],
+      "journal": "Journal of Visualized Experiments",
+      "year": "2026",
+      "abstract": "Aniridia is a rare congenital eye disorder marked by the partial or complete absence of the iris, and it is often associated with corneal opacification and limbal stem cell deficiency. The underlying genetic mutations, primarily affecting the PAX6 gene, disrupt both the development and function of the cornea. The most common ocular features besides iris defects are nystagmus, foveal hypoplasia, cataract, glaucoma and aniridia-associated keratopathy (AAK). Although in vivo models offer valuable insights into the pathology of aniridia, patient-derived in vitro models are crucial for investigating disease mechanisms and evaluating potential therapies. In this study, we present an in vitro AAK model using patient-derived induced pluripotent stem cells (iPSCs). Our protocol involves the stepwise differentiation of iPSCs into corneal epithelial-like cells within self-assembled three-dimensional organoids, which mimic the native corneal microenvironment. Through the optimization of differentiation culture conditions, we successfully generated corneal organoids that harbor distinct corneal cell populations, recapitulating the key structural and functional attributes of the human cornea.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
       ],
       "category": "6 - Genes",
       "subcollection": "PAX6"
@@ -15366,44 +15073,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
-    },
-    {
-      "pmid": "41528829",
-      "doi": "10.1080/01676830.2025.2608258",
-      "zotero_key": "CFXAFF7H",
-      "title": "Periocular necrotizing sweet syndrome – a case series and review of literature",
-      "authors": [
-        [
-          "Prerna",
-          "Sinha"
-        ],
-        [
-          "Sumer",
-          "Doctor"
-        ],
-        [
-          "Yamini",
-          "Maniktala"
-        ],
-        [
-          "Dilip Kumar",
-          "Mishra"
-        ],
-        [
-          "Tarjani Vivek",
-          "Dave"
-        ]
-      ],
-      "journal": "Orbit",
-      "year": "2026",
-      "abstract": "Sweet syndrome (SS), or acute neutrophilic dermatosis, is a dermatologic condition characterized by fever and neutrophilia with tender papular or plaque-like eruptions; diagnosis is confirmed histologically and the disease typically responds to systemic corticosteroids. Ocular associations include conjunctivitis, peripheral ulcerative keratitis, scleritis, uveitis, glaucoma, and retinal detachment, with occasional periocular involvement. A rare clinical variant, necrotizing Sweet's syndrome (NSS), closely mimics necrotizing fasciitis (NF). While NF requires urgent, extensive surgical debridement, NSS requires tissue biopsy, systemic corticosteroid therapy, and systemic evaluation to rule out underlying malignancy; misdiagnosis can therefore lead to inappropriate surgery and delayed treatment. We present three patients with isolated periocular SS. One had the classical form, while two were subsequently diagnosed with hematologic disease. All three exhibited features of NSS and underwent limited surgical debridement with microbiological and histopathological work-up, which confirmed SS. Collagen sheet grafting was used for wound coverage; two patients achieved rapid and cosmetically favourable recovery, while in one patient with full-thickness margin necrosis collagen alone was insufficient and an acquired eyelid coloboma remained. These cases underscore the need to distinguish NSS from NF: despite similar clinical appearance, the management is diametrically opposite.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RPGRIP1L"
     },
     {
       "pmid": "37865907",
@@ -16484,6 +16153,64 @@
       "subcollection": "CEP290"
     },
     {
+      "pmid": "41158164",
+      "doi": "10.18240/ijo.2025.11.05",
+      "zotero_key": "VMKSEVKU",
+      "title": "Protein truncating splice site variant in ALDH1A3 associated with bilateral anophthalmia identified in a multiplex consanguineous Pakistani family",
+      "authors": [
+        [
+          "Kashmala",
+          "Samad"
+        ],
+        [
+          "Khalaf F.",
+          "Alsharif"
+        ],
+        [
+          "Fazeelat",
+          "Samad"
+        ],
+        [
+          "Farman",
+          "Ullah"
+        ],
+        [
+          "Muhammad Zeeshan",
+          "Ali"
+        ],
+        [
+          "Safeer",
+          "Ahmad"
+        ],
+        [
+          "Muhammad",
+          "Muzammal"
+        ],
+        [
+          "Sumra Wajid",
+          "Abbasi"
+        ],
+        [
+          "Jabbar",
+          "Khan"
+        ],
+        [
+          "Muzammil Ahmad",
+          "Khan"
+        ]
+      ],
+      "journal": "International Journal of Ophthalmology",
+      "year": "2025",
+      "abstract": "AIM: To identify the genetic factors underlying anophthalmia and microphthalmia (A/M), and to perform computational analysis to verify the pathophysiological mechanisms of the disease.? METHODS: This study investigated a consanguineous Pakistani family with multiple affected individuals. Clinical evaluations were conducted using A-Scan and ophthalmic B-Scan ultrasonography (B-Scan). To identify the disease-causing variant, whole exome sequencing (WES) and Sanger sequencing were performed. In silico functional analyses were carried out using AlphaFold (for protein modeling) and ClusPro (for protein docking analysis) tools, and the hydrodynamic properties of the protein were determined via molecular dynamics simulations.? RESULTS: Clinical analysis of the five patients revealed severe phenotypes of bilateral anophthalmia. Ocular B-Scan did not detect ocular tissue or intraocular fluid, thus confirming the diagnosis of anophthalmia in all patients. Due to these structural defects, all patients exhibited complete blindness and absence of light perception; additionally, two patients had mild to moderate intellectual disability. Genetic analysis identified a splice site variant [NM_000693.2: c.884-2_885dup; p.(Asp296SerfsTer35)] in the 9th exon of the ALDH1A3 gene.? CONCLUSION: The present study expands the genetic spectrum of ALDH1A3 and contributes to establishing the genotype-phenotype correlation for this gene.?",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ALDH1A3"
+    },
+    {
       "pmid": "41787648",
       "doi": "10.15283/ijsc25127",
       "zotero_key": "TFQV44QJ",
@@ -16538,6 +16265,52 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Anterior segment examination"
+    },
+    {
+      "pmid": "42596207",
+      "doi": "10.1364/oe.604922",
+      "zotero_key": "88S2ZJK7",
+      "title": "Quasi-Bragg geometric-phase lens for high-numerical-aperture focusing",
+      "authors": [
+        [
+          "Moritsugu",
+          "Sakamoto"
+        ],
+        [
+          "Kohei",
+          "Noda"
+        ],
+        [
+          "Ryusei",
+          "Momosaki"
+        ],
+        [
+          "Takeya",
+          "Sakai"
+        ],
+        [
+          "Yukitoshi",
+          "Hattori"
+        ],
+        [
+          "Nobuhiro",
+          "Kawatsuki"
+        ],
+        [
+          "Hiroshi",
+          "Ono"
+        ]
+      ],
+      "journal": "Optics Express",
+      "year": "2026",
+      "abstract": "Geometric-phase lenses (GPLs) enable ultrathin wavefront shaping but suffer from a fundamental limitation in numerical aperture (NA) imposed by the Raman-Nath diffraction regime. In this work, we introduce a quasi-Bragg geometric-phase lens (QB-GPL) that overcomes this limitation by spatially engineering the diffraction regime within a single device. The proposed approach combines Raman-Nath-type diffraction near the lens center with Bragg-like diffraction in the outer aperture region, enabled by a three-dimensional liquid-crystal director distribution formed via a contact-transfer exposure method. By combining a GPL master with an isotropic plano-convex lens, a three-dimensional polarization field with a finite out-of-plane tilt is generated, allowing the formation of an inclined grating vector required for Bragg diffraction. Finite-difference time-domain simulations predict near-diffraction-limited focusing, and experimental results confirm high-NA operation and imaging functionality. Importantly, the high-NA performance demonstrated here originates not only from the numerical aperture value itself, but from the ability to maintain efficient diffraction under normal incidence even in the Bragg-dominant outer region. These results establish diffraction-regime engineering as a powerful design principle for high-performance flat optics.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "12620391",
@@ -16985,28 +16758,6 @@
       "subcollection": "RPGRIP1, Leber congenital amaurosis"
     },
     {
-      "pmid": "41794914",
-      "doi": "10.1038/s41598-026-43111-9",
-      "zotero_key": "GSC44NA3",
-      "title": "Rethink context engineering using an attention-based architecture",
-      "authors": [
-        [
-          "Yiqiao",
-          "Yin"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "Accurate prediction of user actions is essential for optimizing digital platform workflows, enabling proactive recommendations, resource prefetching, and intelligent user assistance. Traditional Markov chain-based methods, though widely used for modeling sequential behavior, are fundamentally limited in capturing the complexity, long-range dependencies, and multi-objective nature of real-world user interactions. This paper introduces a multi-task attention-based transformer architecture for sequential API recommendation that addresses these gaps in robustness and generalizability. The core insight is that user behavior on enterprise platforms is driven by latent intent: users with different goals-such as executing a machine learning pipeline, conducting data analysis, managing user accounts, or generating quick visualizations-exhibit systematically different sequential patterns across functional API categories. Our framework exploits this structure through a shared transformer encoder backbone that produces a unified representation of the user's action history, which is then decoded by three task-specific prediction heads operating simultaneously. The primary head predicts the next API action from a probability distribution over all available endpoints; an auxiliary goal classification head infers the user's underlying session objective from the observed action sequence alone; and a session boundary detection head estimates the probability that the user is about to conclude their session. During inference, only the sequence of prior API calls is required as input-the model jointly infers what the user will do next, what they are trying to accomplish, and whether they are about to leave, all from the observed behavioral trace. Leveraging a large-scale simulated behavioral dataset encompassing 2, 000 user sessions and 20, 000 API calls across 100 APIs organized into 10 functional categories, with 4 distinct session goal types governing workflow-specific transition patterns, our model demonstrates strong performance across all tasks. The primary API prediction task achieves [Formula: see text] top-1 accuracy and [Formula: see text] top-5 hit rate, representing a [Formula: see text] improvement over a first-order Markov chain baseline. Auxiliary tasks further validate the framework's effectiveness, with goal prediction reaching [Formula: see text] accuracy and session-end detection achieving [Formula: see text] accuracy. To ensure full reproducibility, we release an open-source Python package, context-engineer, available on PyPI, that enables researchers and practitioners to regenerate the experimental dataset, reproduce all reported results, and-critically-apply the same multi-task transformer pipeline to their own user log data by mapping proprietary action sequences and session labels into the framework's integer-encoded input format. Our approach not only advances prediction accuracy over conventional sequential methods but also establishes a new, reproducible benchmark for modeling multi-objective sequential user behavior on digital platforms, with direct applicability to any enterprise environment where user actions can be represented as ordered sequences of discrete events.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "",
       "doi": "10.14670/hh-13.1037",
       "zotero_key": "BPBCF2QQ",
@@ -17165,40 +16916,6 @@
       "subcollection": "Vieillissement oculaire"
     },
     {
-      "pmid": "17955848",
-      "doi": "10.3928/15428877-20070901-10",
-      "zotero_key": "PA5W7F35",
-      "title": "Retinal Redetachment Involving a Macular Hole Resulting From Hypotony After Trabeculectomy in a Highly Myopic Eye",
-      "authors": [
-        [
-          "Tomomi",
-          "Higashide"
-        ],
-        [
-          "Akira",
-          "Nishimura"
-        ],
-        [
-          "Makoto",
-          "Torisaki"
-        ],
-        [
-          "Kazuhisa",
-          "Sugiyama"
-        ]
-      ],
-      "journal": "Ophthalmic surgery, lasers & imaging retina",
-      "year": "2007",
-      "abstract": "&lt;P&gt;A 57-year-old woman with high myopia underwent trabeculectomy 21 months after a successful vitrectomy with peeling of the internal limiting membrane to treat a bullous retinal detachment associated with a macular hole. A shallow retinal detachment involving the macular hole developed on the sixth postoperative day after a 3-day period of hypotony. This case was unique because recurrence of the retinal detachment involving a macular hole in a highly myopic eye occurred in association with hypotony after glaucoma filtering surgery, with the retinal detachment resolving spontaneously following normalization of intraocular pressure even though the macular hole remained open. [&lt;CITE&gt;Ophthalmic Surg Lasers Imaging&lt;/CITE&gt; 2007;38:406-409.]&lt;/P&gt; &lt;H4&gt;AUTHORS&lt;/H4&gt; &lt;P&gt;From the Department of Ophthalmology (TH, AN, KS), Kanazawa University Graduate School of Medical Science, Kanazawa, Japan; and the Department of Ophthalmology (MT), Toyama City Hospital, Toyama, Japan.&lt;/P&gt; &lt;P&gt;Accepted for publication March 31, 2007.&lt;/P&gt; &lt;P&gt;Address correspondence to Tomomi Higashide, MD, Department of Ophthalmology, Kanazawa University Graduate School of Medical Science, 13-1 Takara-machi, Kanazawa, Ishikawa 9208641 Japan.&lt;/P&gt;",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "COL18A1"
-    },
-    {
       "pmid": "12824633",
       "doi": "10.1385/1-59259-393-3:205",
       "zotero_key": "8A8U5TA5",
@@ -17321,6 +17038,92 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Anterior segment examination, Examen segment anterieur"
+    },
+    {
+      "pmid": "42637518",
+      "doi": "10.1261/rna.080484.125",
+      "zotero_key": "AF9BSINA",
+      "title": "Revisiting the in vivo functions of coilin in mice: Requirement for snRNA modifications and formation of novel condensates in elongating spermatids",
+      "authors": [
+        [
+          "Miyu",
+          "Ichii"
+        ],
+        [
+          "Yuma",
+          "Ishigami"
+        ],
+        [
+          "Xiao",
+          "Yao"
+        ],
+        [
+          "Jianxi",
+          "Li"
+        ],
+        [
+          "J.",
+          "Sato"
+        ],
+        [
+          "Yuki",
+          "Okada"
+        ],
+        [
+          "Atsushi P",
+          "Kimura"
+        ],
+        [
+          "Mari",
+          "Mito"
+        ],
+        [
+          "Shintaro",
+          "Iwasaki"
+        ],
+        [
+          "",
+          "栗原靖之"
+        ],
+        [
+          "Taichi",
+          "Noda"
+        ],
+        [
+          "Kimi",
+          "Araki"
+        ],
+        [
+          "Masato",
+          "Ohtsuka"
+        ],
+        [
+          "Saki",
+          "Ohazama"
+        ],
+        [
+          "Hiroshi",
+          "Maita"
+        ],
+        [
+          "Tsutomu",
+          "Suzuki"
+        ],
+        [
+          "Shinichi",
+          "Nakagawa"
+        ]
+      ],
+      "journal": "RNA",
+      "year": "2026",
+      "abstract": "Cajal bodies (CBs), first identified in the early 20th century, are classic nuclear structures organized primarily by the protein coilin. Although CBs have long been implicated in snRNA modification and maturation, their precise roles in mice remain unclear. Here, we revisit the functions of CBs by using genome editing to generate mice that lack nearly the entire coilin protein, retaining only the first seven amino acids. Mass-spectrometry analyses showed reduced 2'-O-methylation of U2 snRNA in coilin mutant liver; however, these reductions had minimal impact on overall gene expression and pre-mRNA splicing patterns. Additionally, detailed analysis recapitulated previously reported testicular size reductions and newly revealed decreased proportions of high-quality sperm. We also identified novel coilin-containing condensates distinct from genuine CBs in the nuclear pocket of elongating spermatids. Our findings implicate that coilin orchestrates membraneless organelles in various compartments, playing multifunctional roles beyond classical CB formation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "42180235",
@@ -18035,28 +17838,6 @@
       "subcollection": "RP2"
     },
     {
-      "pmid": "",
-      "doi": "10.1097/00007611-198110000-00025",
-      "zotero_key": "WHC8K3X7",
-      "title": "Selecting patients for penetrating keratoplasty.",
-      "authors": [
-        [
-          "3rd",
-          "Waring GO"
-        ]
-      ],
-      "journal": "Southern medical journal",
-      "year": "1981",
-      "abstract": "",
-      "cited_by_count": 5,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Inner coat"
-    },
-    {
       "pmid": "42440378",
       "doi": "10.1681/asn.0000001187",
       "zotero_key": "E6C59HXH",
@@ -18225,44 +18006,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41796736",
-      "doi": "10.1016/j.oftale.2026.502490",
-      "zotero_key": "AAC7KE2R",
-      "title": "Simultaneous Bilateral NAION Following Initiation of High-Dose Semaglutide: A Case Report",
-      "authors": [
-        [
-          "V.M.",
-          "Asensio-Sánchez"
-        ],
-        [
-          "J.",
-          "Rodríguez-Espinosa"
-        ],
-        [
-          "S.",
-          "Silva-Schultz"
-        ],
-        [
-          "G.",
-          "González-Fernández"
-        ],
-        [
-          "S.",
-          "Lallana-Serrano"
-        ]
-      ],
-      "journal": "Archivos de la Sociedad Española de Oftalmología (English Edition)",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ACO2"
-    },
-    {
       "pmid": "",
       "doi": "10.3109/17453058709150306",
       "zotero_key": "WR4XWC23",
@@ -18407,40 +18150,6 @@
       "subcollection": "ARID2"
     },
     {
-      "pmid": "41817208",
-      "doi": "10.1097/iop.0000000000003215",
-      "zotero_key": "S9AF9KUH",
-      "title": "Spheno-Orbital Meningioma With an Orbital Cystic Component",
-      "authors": [
-        [
-          "Sophia",
-          "Hussain"
-        ],
-        [
-          "Sasha",
-          "Hubschman"
-        ],
-        [
-          "Mariah",
-          "Diaz"
-        ],
-        [
-          "Ann Q",
-          "Tran"
-        ]
-      ],
-      "journal": "Ophthalmic Plastic and Reconstructive Surgery",
-      "year": "2026",
-      "abstract": "A 65-year-old male presented with a 5-year history of right-sided eyelid swelling and retrobulbar pressure sensation. Ophthalmic examination revealed visual acuity of 20/20 bilaterally, with no ocular motility defects or signs of compressive optic neuropathy. There was right upper eyelid fullness and 3 mm of proptosis (Panel A). MRI of the orbits demonstrated an expansile mass at the right greater wing of the sphenoid with intracranial extension to the middle cranial fossa and a large intraconal cystic mass in the lateral orbit causing mass effect on the lateral rectus, globe, and optic nerve (Panel B). No optic nerve signal abnormality was detected. An orbitotomy and biopsy were performed to obtain a tissue diagnosis of the cystic lesion and sphenoid bone (Panel C). Histopathological analysis showed a meningothelial neoplasm composed of sheets of spindle cells and inflammatory infiltrate with a prominent cystic component, revealing a WHO Grade 1 spheno-orbital meningioma (Panel D). Mitotic activity was 2 per 10 high-power microscopic fields, and the Ki67 proliferation marker was focally increased. The patient then underwent a gross total resection of the spheno-orbital meningioma and decompression of the optic nerve via a right pterional craniotomy. Spheno-orbital meningiomas are typically solid, en-plaque tumors with sheetlike infiltrative growth. Only 3.5% of all intracranial meningiomas have a cystic component, and cystic spheno-orbital meningiomas are even rarer, with only 1 case reported in the literature. Once the diagnosis is established, surgical management includes gross total resection when able.FIG.:",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ACO2"
-    },
-    {
       "pmid": "42231409",
       "doi": "10.1186/s12920-026-02402-w",
       "zotero_key": "6WU8UTDV",
@@ -18511,7 +18220,7 @@
     {
       "pmid": "42525609",
       "doi": "10.1159/oph/aeeag006",
-      "zotero_key": "AZBUCJZA",
+      "zotero_key": "8UH9ZRM2",
       "title": "Stage of Epiretinal Membrane and Central Bouquet Abnormalities: Key Predictors of Visual Acuity After Vitrectomy.",
       "authors": [
         [
@@ -18755,6 +18464,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42649184",
+      "doi": "10.1038/s41467-026-75941-6",
+      "zotero_key": "8H4WKDCM",
+      "title": "Structural and functional studies of inward rectifier Kir7.1 and its regulation by the Melanocortin-4 receptor",
+      "authors": [
+        [
+          "Alys",
+          "Peisley"
+        ],
+        [
+          "Ciria C.",
+          "Hernandez"
+        ],
+        [
+          "Naima S.",
+          "Dahir"
+        ],
+        [
+          "Laura",
+          "Koepping"
+        ],
+        [
+          "Ashleigh",
+          "Raczkowski"
+        ],
+        [
+          "Min",
+          "Su"
+        ],
+        [
+          "Masoud",
+          "Ghamari‐Langroudi"
+        ],
+        [
+          "Xinrui",
+          "Ji"
+        ],
+        [
+          "Luis E.",
+          "Gimenez"
+        ],
+        [
+          "Roger D.",
+          "Cone"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "Hereditary defects in the function of the inwardly rectifying potassium channel Kir7.1 in the retinal pigment epithelium are associated with the ocular diseases retinitis pigmentosa, Leber congenital amaurosis, and snowflake vitreoretinal degeneration. However, this ion channel is widely expressed, and studies also suggest that Kir7.1 may be directly regulated in a G protein-independent manner by a GPCR, the melanocortin-4 receptor (MC4R), in specific hypothalamic neurons involved in energy homeostasis. To advance our understanding of this unusual direct regulation of an ion channel by a GPCR, it is important to characterize the structure and function of Kir7.1, and the Kir7.1-MC4R complex. Utilizing cryo-electron microscopy, we present structures of human Kir7.1 and demonstrate the structural basis for the blockade of the channel by a small molecule ML418. We show that channel blockade of Kir7.1 depolarizes MC4R neurons in a slice preparation of the paraventricular nucleus of the hypothalamus (PVH), and activates PVH neurons in vivo, inhibiting food intake and inducing weight loss. We further show that Kir7.1 and MC4R are in close association on the plasma membrane and characterize a fusion construct of MC4R and Kir7.1 that provides an experimental tool for study of Kir7.1 regulation by the MC4R.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "KCNJ13"
     },
     {
       "pmid": "42047282",
@@ -19289,8 +19056,8 @@
     {
       "pmid": "42568187",
       "doi": "10.1016/j.xhgg.2026.100659",
-      "zotero_key": "5T3T7HWE",
-      "title": "The AP5B1 p.(Leu785Pro) variant is a frequent cause of late-onset macular dystrophy with variable extraocular manifestations",
+      "zotero_key": "VS6F4BJG",
+      "title": "The AP5B1 p.Leu785Pro variant is a frequent cause of late-onset macular dystrophy with variable extraocular manifestations",
       "authors": [
         [
           "Petra",
@@ -19451,7 +19218,7 @@
       ],
       "journal": "Human Genetics and Genomics Advances",
       "year": "2026",
-      "abstract": "Inherited retinal diseases (IRDs) represent a large group of genetically heterogeneous disorders that often cause progressive visual loss. The fifth adaptor protein (AP-5) complex, which contributes to endolysosomal trafficking and lysosomal homeostasis, has previously been implicated in neurodegenerative syndromes, and more recently biallelic variants in three of its subunits were found in families with macular dystrophy including four with variants in AP5B1. Here, we describe 22 affected individuals from 20 families with AP5B1-associated IRD, all carrying the recurrent missense variant NM_138368.5:c.2354T>C p.(Leu785Pro), either in the homozygous state (16 families) or in trans with another rare heterozygous AP5B1 missense or loss-of-function variant. Five families were of Ashkenazi Jewish ancestry and 15 families of European ancestry. Clinically, affected individuals presented with a predominantly late-onset macular dystrophy that frequently progressed to cone-rod degeneration. Characteristic retinal findings included foveal sparing, early peripapillary involvement, and a reticular pattern best observed by fundus autofluorescence imaging in the mid- or peripheral retina. The typical presenting symptom was decreased visual acuity. Age at onset ranged from 27 to 74 years, with most individuals becoming symptomatic after the fifth decade of life. Some individuals also presented with extraocular manifestations, most notably hearing loss, which was reported in 8 cases. These findings further support AP5B1 as a cause of macular dystrophy, identify p.(Leu785Pro) as a relatively frequent pathogenic allele in individuals of European and Ashkenazi Jewish ancestry, and expand the associated phenotypic spectrum to include both isolated macular dystrophy and possible syndromic presentations.",
+      "abstract": "Inherited retinal diseases (IRDs) represent a large group of genetically heterogeneous disorders that often cause progressive visual loss. The fifth adaptor protein (AP-5) complex, which contributes to endolysosomal trafficking and lysosomal homeostasis, has previously been implicated in neurodegenerative syndromes, and more recently, bi-allelic variants in three of its subunits were found in families with macular dystrophy, including four with variants in AP5B1. Here, we describe 22 affected individuals from 20 families with AP5B1-associated IRD, all carrying the recurrent missense variant c.2354T>C (GenBank: NM_138368.5) (p.Leu785Pro), either in the homozygous state (16 families) or in trans with another rare heterozygous AP5B1 missense or loss-of-function variant. Five families were of Ashkenazi Jewish ancestry and 15 families of European ancestry. Clinically, affected individuals presented with a predominantly late-onset macular dystrophy that frequently progressed to cone-rod degeneration. Characteristic retinal findings included foveal sparing, early peripapillary involvement, and a reticular pattern best observed by fundus autofluorescence imaging in the mid- or peripheral retina. The typical presenting symptom was decreased visual acuity. Age at onset ranged from 27 to 74 years, with most individuals becoming symptomatic after the fifth decade of life. Some individuals also presented with extraocular manifestations, most notably hearing loss, which was reported in 8 affected individuals. These findings further support AP5B1 as a cause of macular dystrophy, identify p.Leu785Pro as a relatively frequent pathogenic allele in individuals of European and Ashkenazi Jewish ancestry, and expand the associated phenotypic spectrum to include both isolated macular dystrophy and possible syndromic presentations.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -19687,32 +19454,6 @@
       "year": "2024",
       "abstract": "",
       "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "1 - Anatomy",
-      "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "",
-      "doi": "10.1159/000112999",
-      "zotero_key": "6VT8C3XK",
-      "title": "The functional anatomy of the ciliary muscle in four avian species.",
-      "authors": [
-        [
-          "MT",
-          "Pardue"
-        ],
-        [
-          "JG",
-          "Sivak"
-        ]
-      ],
-      "journal": "Brain, behavior and evolution",
-      "year": "1997",
-      "abstract": "",
-      "cited_by_count": 24,
       "centrality": 0,
       "source_tags": [
         "source:deep-search"
@@ -20527,60 +20268,6 @@
       "subcollection": "Outer coat"
     },
     {
-      "pmid": "41826621",
-      "doi": "10.1038/s41598-026-43954-2",
-      "zotero_key": "53GBRCU7",
-      "title": "Towards realistic electrical double layer capacitor device with elevated energy and power densities designed from plasticized nanocomposite PVA-based electrolyte",
-      "authors": [
-        [
-          "Shujahadeen B.",
-          "Aziz"
-        ],
-        [
-          "Peshawa O.",
-          "Hama"
-        ],
-        [
-          "Ary R.",
-          "Murad"
-        ],
-        [
-          "Rebar T.",
-          "Abdulwahid"
-        ],
-        [
-          "Mohammed El Amine",
-          "Ahmed"
-        ],
-        [
-          "Mohd F. Z.",
-          "Kadir"
-        ],
-        [
-          "Sambasivam",
-          "Sangaraju"
-        ],
-        [
-          "Jacky",
-          "Yong"
-        ],
-        [
-          "H. J.",
-          "Woo"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2026",
-      "abstract": "The current work establishes a breakthrough for the electrical double-layer capacitor (EDLC) device, utilizing biodegradable polymer and non-toxic salt. In this project, polymer electrolytes (PEs) comprising polyvinyl alcohol (PVA), sodium thiocyanate (NaSCN), glycerol (Gly), and various amounts of TiO2 nanofillers were prepared by solution casting. The electrolyte inserted with 3 wt% TiO2 showed the maximum DC conductivity, reaching 1.86 × 10-3 S/cm. Dielectric analysis revealed a high dielectric constant (8.5 × 106), indicating efficient charge storage. The AC conductivity pattern demonstrated a low-frequency spike and a flat region, emphasizing the direct current (DC) component. Additional tests on the highset conducting electrolyte verified that ion transport was the primary mechanism (tion = 0.976) and that the electrolyte maintained good electrochemical stability around 2.5 V. This electrolyte was subsequently employed in the construction of an EDLC device. The cyclic voltammetry (CV) results revealed a non-Faradaic charge storage process characterized by an almost leaf-like profile. Galvanostatic charge-discharge curves close enough to the ideal shape with minimal voltage drop, reinforcing the device's excellent performance. The constructed EDLC exhibited strong performance, delivering 138 F/g in capacitance, with an output power of 4000 W/kg and an energy storage capacity of 17.3 Wh/kg. The Ragone plot showed high power and energy densities comparable to lead-acid and Ni-Cd batteries, highlighting its potential for rapid charge-discharge performance. Finally, the limitations of EDLC devices have been discussed.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "",
       "doi": "10.1002/(sici)1096-9861(19970714)383:4<512::aid-cne8>3.0.co;2-5",
       "zotero_key": "SFHFGGDM",
@@ -20751,68 +20438,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "GPR143"
-    },
-    {
-      "pmid": "41803047",
-      "doi": "10.1097/cm9.0000000000004013",
-      "zotero_key": "TGRMRPFJ",
-      "title": "Trends and subnational variation in maternal disease burden in China from 1990 to 2021",
-      "authors": [
-        [
-          "Yuchen",
-          "Zou"
-        ],
-        [
-          "Yeerlin",
-          "Asihaer"
-        ],
-        [
-          "Menglong",
-          "Li"
-        ],
-        [
-          "Huiming",
-          "He"
-        ],
-        [
-          "Nourhan M.",
-          "Khattab"
-        ],
-        [
-          "Galal",
-          "Elshishiney"
-        ],
-        [
-          "Jinlei",
-          "Qi"
-        ],
-        [
-          "Peng",
-          "Yin"
-        ],
-        [
-          "Lina",
-          "Wang"
-        ],
-        [
-          "Min",
-          "Zhou"
-        ],
-        [
-          "Yifei",
-          "Hu"
-        ]
-      ],
-      "journal": "Chinese Medical Journal",
-      "year": "2026",
-      "abstract": "To the Editor: From 1990 to 2021, the disease burden of pregnant women in China has changed significantly. China is facing challenges in addressing the complex factors affecting the well-being of pregnant women. Socioeconomic disparities, regional variations in healthcare infrastructure, and gaps in the quality of care remain significant barriers to achieving optimal health outcomes for vulnerable populations.[1,2] Economic development has brought new health challenges, highlighting the need to update data in China to improve health equity. Based on the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2021, our study assesses the maternal disease burden in 2021 and updates national trends from 1990 to 2021. The trend of disease burden indicators was analyzed by the annual percent change (APC), average annual percent change (AAPC), and estimated annual percentage change (EAPC); the trend of disease burden indicators after 2021 was predicted in the Bayesian age-period-cohort analysis. Our study helps to identify gaps in maternal disorders across Chinese provinces and guides the creation of targeted measures, which is crucial for developing effective public health services for maternal health in China. Comparison of maternal disorder disease burden in China with globality: In 2021, the age-standardized mortality rate (ASMR) of maternal disorders in China was 0.24 per 100,000 population, lower than ASMR in other regions in the world: 4.87 in the globality, 1.38 in Southeast Asia, East Asia, and Oceania, 4.54 in South Asia, and 0.34 in high-income countries, per 100,000 population. Except for sub-Saharan Africa, the decline in maternal disorder deaths and disability-adjusted life-years (DALYs) worldwide was driven by the epidemiological change contribution. Both epidemiological and population aging trends for maternal disorders have declined globally, with the most significant decrease observed in China [Supplementary Figure 1, https://links.lww.com/CM9/C798]. Since 2013, the Chinese government has adopted the Belt and Road Initiative to connect the Asia–Pacific Economic Area with the European Economic Area. The initiative will also provide a platform for China to strengthen its global health strategy further, especially in terms of policy cooperation with other parts of the world on maternal health. China and provincial maternal disorders diseases burden in 2021: In 2021, maternal disorders caused 1.51 (95% uncertainty interval [UI]: 1.07 to 2.08) thousand female deaths and 124.64 (95%UI: 95.53 to 161.79) thousand DALYs person-years in China; the age-standardized maternal mortality rate (MMR) per 100,000 live births was 14.09 (95%UI: 9.92 to 19.52), and the age-standardized DALYs rate (ASDR) was 20.54 (95%UI: 15.64 to 26.63) per 100,000 population. The highest age-standardized MMR of maternal disorders per 100,000 live births was seen in Xizang (61.39 [95%UI: 39.32 to 92.91]), and 13 provinces such as Qinghai (36.17 [95%UI: 21.55 to 60.70]), Xinjiang (31.42 [95%UI: 17.75 to 50.44]), Yunnan (26.72 [95%UI: 14.79 to 45.74]) have the higher rate than the national average (14.09 [95%UI: 9.92 to 19.52]), while the MMR of each maternal disease subtype in Heilongjiang, Hong Kong, Jiangsu, and Liaoning is relatively low [Figure 1]. Xizang also had the highest ASDR per 100,000 (97.60 [95%UI: 65.43 to 143.23]), with 14 provinces above average (20.53 [95%UI: 15.73 to 26.67] per 100,000) [Supplementary Figure 2, https://links.lww.com/CM9/C798]. Among the subtypes, the highest age-standardized MMR per 100,000 live births were all indirect maternal deaths. The main cause of maternal death in 27 provinces was also indirect maternal deaths [Figure 1]. The results of ASDR were shown in Supplementary Figure 2, https://links.lww.com/CM9/C798. We also compared the prevalence, incidence, and mortality rates of each maternal disorder subtype across provinces in 2021. Based on ASMR rankings, Xizang had the highest burden nationwide, with leading prevalence, incidence, and mortality rates. Yunnan, Guangdong, and Guangxi also exhibited relatively high prevalence and incidence of maternal disorders [Supplementary Figure 3, https://links.lww.com/CM9/C798]. Hotspot analysis identified Xinjiang, Xizang, and Qinghai as 99% confidence hotspots for both age-standardized MMR and ASDR of maternal disease, and the cold spot values of age-standardized MMR were concentrated in the southern region; ASDR cold point values were concentrated along the eastern region. The age-standardized MMR in Xinjiang, Xizang, and Qinghai showed a high–high cluster and in Jilin and southern regions, it exhibited a low–low cluster, and no outliers were observed. ASDR has a high–high in Xinjiang, Xizang, and Qinghai; a low–low in eastern coastal areas and northeast areas; and a high–low outlier in Anhui and Shanxi [Supplementary Figure 4, https://links.lww.com/CM9/C798].Figure 1: Age-standardized MMR (per 100,000 live births) of maternal disorder and its subtypes at the provincial level. HIV/AIDS: Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome; MMR: Maternal mortality rate.China and provincial maternal disorders diseases burden trends: As for the maternal disorders, the age-standardized MMR per 100,000 live births decreased from 68.00 (95%UI: 46.34 to 92.69) in 1990 to 14.09 (95%UI: 9.92 to 19.52) in 2021, AAPC was −4.94 (95% Confidence Interval [CI]: −5.29 to −4.59); ASDR per 100,000 population declined from 148.86 (95%UI: 103.78 to 199.21) in 1990 to 20.53 (95%UI: 15.73 to 26.67) in 2021, AAPC was −6.14 (95%CI: −6.51 to −5.76). From 1990 to 2021, the province with the biggest change in age-standardized MMR per 100,000 live births of maternal disorders was Hunan (−7.99 [95%CI: −7.26 to −8.72]); in ASDR per 100,000 population, also was Hunan (95%CI: −7.65 [−7.24 to −8.06]). In the EAPC results of maternal disorder subtypes, the biggest change of age-standardized MMR in 21 provinces was maternal sepsis and other maternal infections; the biggest change of ASDR in 26 provinces was maternal hemorrhage. The distribution of heatmaps in EAPC results by provinces shows that the MMR for each maternal disorder subtype in Hunan has decreased; however, Tianjin, Jilin, and Liaoning were the provinces with a smaller decline. The ASDR in Guizhou has decreased obviously; however, Tianjin was the city with the smallest decline [Supplementary Figure 5, https://links.lww.com/CM9/C798]. By calculating the APC of each subtype age-standardized MMR and ASDR, it was found that three diseases, indirect maternal deaths, maternal hypertensive disorders, and other direct maternal disorders, had the most significant decline during 2010–2015, and maternal hemorrhage had a significant decline during 2010–2014 [Supplementary Figure 6, https://links.lww.com/CM9/C798]. Obstetricians must attend to the complex spectrum of gynecological and gynecological diseases during gestation. Multifaceted interventions have contributed to the reduction in maternal mortality associated with these conditions.[3] Since 1994, China has implemented a three-stage national poverty alleviation plan (1994–2000, 2001–2010, and 2011–2020), gradually incorporating women, children, and other vulnerable groups into the healthcare system, especially in rural and remote area. The differences between regions are gradually narrowing. Effects of age on MMR and ASDR: In 2021, the MMR per 100,000 live births was lower among those aged 20–34 and highest at 50–54 years, the indirect maternal deaths were the leading cause in every age group; The DALYs rate per 100,000 population was higher in the 20–34 age group and lowest at 10–14 years, with indirect maternal deaths remaining the leading cause in all but the 25–29 years group [Supplementary Figure 7, https://links.lww.com/CM9/C798]. By calculating APC, the age-standardized MMR and ASDR of all age groups showed an overall downward trend from 1990 to 2021, with the most significant decline in age groups 20–24 years old and 25–29 years old from 2010 to 2015, and the most significant decline in women over 30 years old from 2003 to 2007 [Supplementary Figure 3, https://links.lww.com/CM9/C798]. Projections suggest a continued decline in MMR and ASMR of pregnant women in China from 2022 to 2040 . The MMR decreased to 32.05 per 100,000 live births in 2040; the ASMR declined from 2.30 per 100,000 population in 2021 to 0.03 per 100,000 population in 2040. By 2030, China’s MMR aims to decrease to 12.0 per 100,000 live births.[4] To achieve the goals of the Healthy China strategy on schedule, continued efforts are necessary in maternal and child safety management. We found that in 2021, the ASMR, ASDR, and MMR of China was lower than that of global regional average separately. Maternal and newborn disease burden indicators in China show a declining trend nationally and provincially. Our study reveals that from 1990 to 2021, the disease burden of pregnant and postpartum women in China has decreased continuously. Key findings indicate that maternal hemorrhage and indirect maternal causes are the leading subtypes of maternal disorders. MMR remains persistently higher in Western regions compared with Eastern regions in China. China has made remarkable progress in maternal and neonatal health, significantly reducing the disease burden among pregnant women. Maternal disease burden has significantly decreased due to improvements in antenatal care, skilled birth attendance, and timely access to emergency obstetric services. However, despite these achievements, disparities in the supply of medical resources persist between different provinces and regions in China. To further reduce maternal and newborn mortality, it is essential to continue focusing on maternal and child health. Crucial measures include preventing obstetric hemorrhage, improving the quality of obstetric and newborn care, and strengthening the medical security system to ensure equitable access to quality services across all regions. Funding This study was funded by the High-Level Public Health Specialized Talents Project of the Beijing Municipal Health Commission (No. 2024-3-028). Conflicts of interest None.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "41664852",
@@ -21107,56 +20732,6 @@
       "subcollection": "FBN1"
     },
     {
-      "pmid": "42541639",
-      "doi": "10.1007/s12020-026-04716-2",
-      "zotero_key": "PH888PCU",
-      "title": "Under-recognition of autoimmune polyendocrine syndromes in T1DM: results from an extended screening workup",
-      "authors": [
-        [
-          "Valerio",
-          "Velardi"
-        ],
-        [
-          "Lidiana",
-          "Sanson"
-        ],
-        [
-          "Barbara",
-          "Toffoli"
-        ],
-        [
-          "Federico",
-          "Favaro"
-        ],
-        [
-          "Fabio",
-          "Fischetti"
-        ],
-        [
-          "Bruno",
-          "Fabris"
-        ],
-        [
-          "Riccardo",
-          "Candido"
-        ],
-        [
-          "Stella",
-          "Bernardi"
-        ]
-      ],
-      "journal": "Endocrine",
-      "year": "2026",
-      "abstract": "AIMS: Type 1 diabetes mellitus (T1DM) is frequently associated with other autoimmune disorders, particularly autoimmune thyroid disease (AITD) and celiac disease. Guidelines recommend screening for thyroid and celiac disease in T1DM patients. Nevertheless, in case of their positivity, indicating the presence of an autoimmune polyendocrine syndrome (APS), there is a lack of guidance on how to proceed. Should we screen these patients for other autoimmune diseases? This study's aim was to evaluate the prevalence of additional autoimmune conditions in a cohort of T1DM patients with AITD and/or celiac disease. METHODS: This cross-sectional study includes adult T1DM patients identified through electronic medical records. Patients with concomitant AITD or celiac disease were invited to undergo an extended screening workup for autoimmune disorders. RESULTS: 639 T1DM patients were identified, and 198 (31%) met the clinical criteria for APS (T1DM plus AITD and/or celiac disease), but only 17 (8.6%) had a formal APS diagnosis in their records. After the extended screening in 139/198 patients, 39% exhibited previously unknown autoantibody positivity, and 11.5% had new autoimmune diseases. Overall, among the patients who underwent the extended screening, 32% (44/139) were diagnosed with at least three autoimmune diseases. CONCLUSIONS: Our study shows that APS is often under-recognized and rarely formally documented in patients with T1DM. In addition, 32% of T1DM patients with AITD or celiac disease have at least a third autoimmune disease. These findings highlight that the identification of AITD or celiac disease in T1DM marks only one stage of the diagnostic journey. APS recognition should lead to a formal diagnosis and ensure heightened clinical vigilance with tailored evaluation of further autoimmune comorbidities during lifelong patient follow-up.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "41763544",
       "doi": "10.1542/pir.2025-006814",
       "zotero_key": "2W42V7TS",
@@ -21257,80 +20832,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Syndromic ocular developmental anomalies"
-    },
-    {
-      "pmid": "42542940",
-      "doi": "10.4103/singaporemedj.smj-2025-211",
-      "zotero_key": "FQE96BT3",
-      "title": "Unmet needs in autoimmune liver disease: epidemiology and clinical outcomes from a Southeast Asian cohort",
-      "authors": [
-        [
-          "Shwetha",
-          "Thiyagarajan"
-        ],
-        [
-          "Jarell Jie-Rae",
-          "Tan"
-        ],
-        [
-          "Rahul",
-          "Kumar"
-        ],
-        [
-          "Jessica",
-          "Tan"
-        ],
-        [
-          "Kenneth W.",
-          "Lin"
-        ],
-        [
-          "Nicholas Chin Hock",
-          "Tee"
-        ],
-        [
-          "Chin Kimg",
-          "Tan"
-        ],
-        [
-          "Andrew Xia Huang",
-          "Tan"
-        ],
-        [
-          "Daphne Shih Wen",
-          "Ang"
-        ],
-        [
-          "Jeannie Peng Lan",
-          "Ong"
-        ],
-        [
-          "Tiing Leong",
-          "Ang"
-        ],
-        [
-          "Andrew",
-          "Kwek"
-        ],
-        [
-          "Kwong Ming",
-          "Fock"
-        ],
-        [
-          "Yu Jun",
-          "Wong"
-        ]
-      ],
-      "journal": "Singapore Medical Journal",
-      "year": "2026",
-      "abstract": "INTRODUCTION: The burden of autoimmune liver disease (AILD) is rising globally, yet data on its epidemiology and outcomes in Singapore remain limited. We aimed to characterise disease phenotype, treatment response and clinical outcomes among patients with autoimmune hepatitis (AIH), primary biliary cholangitis (PBC) and primary sclerosing cholangitis (PSC). METHODS: We retrospectively analysed patients diagnosed with AILD between 1995 and 2025 at a tertiary centre. Diagnoses and treatment responses for AILD were defined according to international guidelines. Clinical outcomes between AIH and PBC were compared using logistic regression, adjusted for baseline Model for End-stage Liver Disease score. RESULTS: Among 260 patients included, 71.2% had PBC, 22.0% had AIH, 3.8% had AIH/PBC overlap syndrome and 3.1% had PSC. The prevalence of AIH and PBC was 8.0 and 26.1 per 100,000 persons, respectively. Autoimmune hepatitis was independently associated with a higher risk of de novo steatotic liver disease (SLD) (adjusted odds ratio [OR] 5.90, 95% confidence interval [CI] 2.39-14.58). Compared with PBC, patients with AIH had a higher treatment response rate at 1 year (57.4% vs. 34.6%, P < 0.01) and a lower risk of overall mortality (OR 0.28, 95% CI 0.11-0.69). In patients with PBC, achieving a treatment response by the Toronto criteria was associated with improved transplant-free survival. CONCLUSION: The prevalence of AIH and PBC in our cohort mirrors that of East Asian populations. Despite a superior biochemical response, AIH was associated with a higher risk of hepatic steatosis. Underutilisation of second-line treatment in PBC represents an important gap for future improvement.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "41651789",
@@ -21527,32 +21028,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Wagner vitreoretinopathy"
-    },
-    {
-      "pmid": "34484697",
-      "doi": "10.1002/cld.1079",
-      "zotero_key": "MH8C3PX9",
-      "title": "Viral Hepatitis in Pregnancy: An Update on Screening, Diagnosis, and Management",
-      "authors": [
-        [
-          "Vedha",
-          "Sanghi"
-        ],
-        [
-          "Christina C.",
-          "Lindenmeyer"
-        ]
-      ],
-      "journal": "Clinical Liver Disease",
-      "year": "2021",
-      "abstract": "Content available: Audio Recording Viral hepatitis in pregnancy is common; accordingly, there is a need for evolved best practices in the approach to treatment of this special population.1 Historically, the major limitation to standardization of evaluation and management of pregnant patients with viral hepatitis had been the availability of high-quality evidence and consensus expert opinion. In this article, we review the updated evidence for the screening, diagnosis, and management of acute and chronic viral hepatitis in pregnancy. Viral hepatitis in pregnancy increases the risk for pregnancy-related complications, as well as the risks associated with acute and chronic liver disease for both the mother and the infant as a result of mother-to-child transmission (MTCT) (Table 1).1 A comprehensive and multidisciplinary approach to the management of viral hepatitis in pregnancy is necessary to reduce morbidity, mortality, and need for liver transplantation. This methodology involves early identification by screening, use of prevention techniques, encouragement of safe breastfeeding, treatment of infection, and immunoprophylaxis (Tables 1 and 2). Hepatitis A virus (HAV) typically has minimal impact on pregnancy. Testing in acute illness includes serum anti-HAV immunoglobulin M (IgM) antibody. Treatment is supportive for mild hepatitis, and rarely, hospitalization may be indicated for severe hepatitis or in the uncommon case of fulminant hepatitis. Prevention is the key through the practice of universal precautions (Table 1) and by following the recommended vaccination schedule (Table 2). The World Health Organization aims to reduce hepatitis B surface antigen (HBsAg) in infants to 0.1% in their goal to eliminate hepatitis B virus (HBV) by 2030 as a public threat.5 Hence the prevention of MTCT is a critical step in the elimination strategy (Tables 1 and 2). The recommended approach to management of HBV in pregnancy is described in Table 3. Treatment is guided by disease progression, and options include tenofovir, lamivudine (LAM), and telbivudine (LTD). Numerous studies have emerged in recent years that favor the use of tenofovir disoproxil fumarate (TDF) because of its high efficacy and safety profile in addition to its high barrier to resistance (Table 4).6-12 Patients who become pregnant while already maintained on HBV treatment should be assessed for both the appropriateness of the drug therapy and their response to treatment. Patients should be continued on HBV antiviral therapy (AVT) throughout the pregnancy and after delivery in the long term. In patients with chronic HBV not previously on AVT: At delivery or in the 4- to 12-week postpartum period in women: Overall RR, 0.3; 95% CI: 0.2-0.4; I2 = 63.9% at 6-12 months Overall RR, 0.51; 95% CI: 0.45-0.57 AVT in early (RR, 0.0076), middle (RR, 0.0015), or late (RR, 0.10) pregnancy showed significant reduction in MTCT: Both the American Association for the Study of Liver Diseases (AASLD) in 2018 and the Centers for Disease Control and Prevention in April 2020 updated their recommendation to include hepatitis C virus (HCV) screening in all pregnant women during each pregnancy (except in regions where the prevalence rate is <0.1%).2, 3 Whenever feasible, HCV diagnosis and treatment prior to becoming pregnant is preferred to reduce the risk for MTCT. HCV treatment during pregnancy is not yet US Food and Drug Administration (FDA) approved; however, treatment options include interferon, ribavirin, and the newer direct-acting antiviral agents (DAAs). Ribavirin is contraindicated in pregnancy because of its teratogenic effects.3 Animal studies have failed to demonstrate evidence of fetal harm with use of DAAs (except simeprevir) during pregnancy; however, the data in humans are limited (Table 5). Universal screening is preferred to recruit mothers with chronic HCV into health care for postpartum treatment, prevent future MTCT, guide management during pregnancy, testing and monitoring in infants, and overall cost-effectiveness. Testing in infants includes HCV-RNA polymerase chain reaction (PCR) or anti-HCV antibody (≥18 months).1 There is no FDA-approved treatment for infants and children 0 to 3 years old. Hepatitis D virus (HDV) is an incomplete virus and requires HBV for its replication. Infection can occur in HBsAg+ women only as a coinfection or superinfection. The risk for MTCT and severe hepatitis increases with elevated HBV DNA levels, especially in the third trimester of pregnancy. Testing includes HDV RNA by PCR. Treatment is supportive; however, interferon/PEGylated interferon-alpha or liver transplant are considered when lifesaving measures are needed. Preventive strategies used for HBV are applicable to HDV (Table 1). Breastfeeding is encouraged. Hepatitis E virus (HEV) infection is more common in developing countries, such as in South East Asia, and less common in developed countries, including the United States and Europe.2 HEV in pregnancy is typically a subclinical, self-limiting acute illness. However, the risk for fulminant hepatitis and acute liver failure (ALF) is increased in the second and third trimesters (Table 1). Testing includes anti-HEV IgM or HEV RNA by PCR in serum or stool. Supportive care is provided in acute infection, while hospitalization with urgent liver transplantation evaluation is necessary in severe cases. Prevention with universal safety precautions is the key (Table 2). Herpes simplex virus (HSV) hepatitis in pregnancy is rare. MTCT occurs as a result of direct viral contact in secretions (HSV-1 is more common than HSV-2). The characteristic mucocutaneous vesicular lesions are uncommon. Testing includes HSV-DNA PCR, IgM antibodies, and HSV antigen/culture. The risks for high mortality and poor prognosis are outweighed by the benefits of empiric treatment with acyclovir when HSV is suspected.19 Cesarean section is performed if active genital lesions are noted on the day of delivery. After delivery, the neonate is empirically treated until HSV testing results. Prevention includes handwashing and avoiding unprotected sexual intercourse with new partners in the peripartum period and contact with vesicles. Breastfeeding is safe (if no lesions are on the nipple and breast). Varicella zoster virus (VZV) hepatitis is rare, and the risk for MTCT is low. Fetal complications include congenital varicella (MTCT before 20 weeks: presents with intrauterine growth retardation, limb hypoplasia, chorioretinitis, cataracts, microphthalmia, microcephaly, cutaneous scarring) and neonatal varicella (MTCT between 5 days before and 2 days after delivery: wide clinical presentation). Maternal zoster infection alone without hepatitis is not associated with viremia or fetal complications. Treatment options include anti-VZV immunoglobulin and acyclovir. Vaccination during pregnancy is contraindicated (live attenuated virus). Prevention includes avoiding sick contacts and vaccination before pregnancy. Breastfeeding is encouraged unless there are active lesions on the nipple or breast. Epstein-Barr virus (EBV) hepatitis in pregnancy presents similarly in pregnant and in nonpregnant patients. Diagnosis is established by the presence of lymphocytosis, atypical mononuclear cells, and antiviral capsid antigen IgM antibodies.19 Mild illness is self-limited and treated symptomatically. In severe EBV hepatitis or ALF, treatment includes steroids, acyclovir, and multidisciplinary care.19 Breastfeeding is encouraged. Cytomegalovirus (CMV) hepatitis presents with flu-like symptoms, acute hepatitis, ALF, or hemolysis, elevated liver enzymes, low platelet count (HELLP) syndrome.19 Testing includes anti-CMV IgM antibodies. CMV-DNA PCR is reliable after 21 weeks of pregnancy and 6 weeks after presumed date of infection. The risk for MTCT is high when infection occurs during the first trimester, ranging from 30% to 40% in primary infection and 2% to 3% in reinfection. Mild CMV infection is self-limited with supportive care. In severe cases, hyperimmunoglobulin and AVT with ganciclovir or valacyclovir are used.19 Breastfeeding is encouraged; however, care should be observed because viral transmission can occur in breast milk. The clinician should have a low threshold to suspect viral hepatitis in a pregnant woman because of the increased risk for maternal and fetal complications associated with MTCT. Multidisciplinary care, including obstetrics, maternal-fetal medicine, hepatology, and pediatrics, is crucial for optimizing outcomes for both mother and child. Universal screening for HBV and HCV is recommended in all pregnant women. If needed in HBV infection in pregnancy as already described, preferentially AVT with TDF and LTD may be considered as per the AASLD, European Association for the Study of the Liver (EASL), and Asian Pacific Association for the Study of the Liver current guidelines, and LAM may be considered as per the AASLD and EASL recommendations (Table 3). As we gain more knowledge surrounding the safety and efficacy of the DAAs in HCV infection in the peripartum period and await FDA approval for the use of DAAs in pregnancy, clinical outcomes for both mother and infant are expected to improve.",
-      "cited_by_count": 6,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "MAB21L2"
     },
     {
       "pmid": "42146963",
@@ -21783,6 +21258,64 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42640550",
+      "doi": "10.1093/rheumatology/keag436",
+      "zotero_key": "8AHDKIDR",
+      "title": "Whole exome sequencing of paediatric patients with Cogan’s syndrome to identify monogenic mimics",
+      "authors": [
+        [
+          "Kirsty",
+          "McLellan"
+        ],
+        [
+          "Fiona",
+          "Price-Kuehne"
+        ],
+        [
+          "Alice",
+          "Burleigh"
+        ],
+        [
+          "Neil",
+          "Martin"
+        ],
+        [
+          "Sarah",
+          "Hicks"
+        ],
+        [
+          "Lisa",
+          "Hutton"
+        ],
+        [
+          "Sandrine",
+          "Compeyrot‐Lacassagne"
+        ],
+        [
+          "Despina",
+          "Eleftheriou"
+        ],
+        [
+          "Ebun",
+          "Omoyinmi"
+        ],
+        [
+          "Paul",
+          "Brogan"
+        ]
+      ],
+      "journal": "Lara D. Veeken",
+      "year": "2026",
+      "abstract": "OBJECTIVES: Cogan's syndrome (CS) is a rare variable vessel vasculitis, describing sensorineural hearing loss (SNHL), inflammatory ocular disease, and vestibular dysfunction. We hypothesised that within paediatric-onset (p)CS, a proportion would have monogenic disease, either autoinflammatory and/or associated with SNHL. METHODS: Whole exome sequencing (WES) was performed and analysed using an in-house pipeline incorporating virtual gene panels for inflammation and SNHL; copy number variant analysis (ExomeDepth); and phenotype-driven variant prioritisation (Exomiser). Genetic variants were interpreted by a multi-disciplinary team according to American College of Medical Genetics and Genomics guidelines. RESULTS: Ten patients with a clinical diagnosis of pCS were enrolled. Three/10 (30%) had a monogenic contribution to the phenotype based on Class 4/5 variants: de novo NLRP3 p.T915R (n = 1) associated with Cryopyrin-associated periodic syndrome; MYO7A p.K542Qfs*5 (n = 1) causing SNHL; and HBB homozygous p.E7V causing sickle cell disease (associated with hearing loss and uveitis). A further two cases had possible monogenic contribution with the following rare variants of uncertain significance (class 3): ADGRV1 compound heterozygous variants (n = 1) associated with Usher syndrome; and a novel ALPK1 p.H735P (n = 1), associated with Retinal dystrophy Optic nerve oedema Splenomegaly Anhidrosis Headache (ROSAH) syndrome. CONCLUSIONS: In children presenting with features suggesting CS, genetic screening should be considered before conferring this rare diagnostic label since at least 30% had an alternative monogenic contribution to the phenotype rather than true pCS, with implications for treatment and prognosis. We thus advocate for genetic testing using next generation sequencing for patients presenting with pCS.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ADGRV1"
     },
     {
       "pmid": "42156752",
