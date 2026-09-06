@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T08:16:22Z",
+  "generated_at": "2026-09-06T07:12:45Z",
   "threshold_k": 0,
-  "total_evaluated": 28121,
-  "total_flagged": 484,
+  "total_evaluated": 28356,
+  "total_flagged": 468,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -92,7 +92,6 @@
       "AIPL1",
       "ALDH1A3",
       "ARID1B",
-      "ARID2",
       "ARR3",
       "ARSG",
       "ATAD3A",
@@ -4953,52 +4952,6 @@
       "subcollection": "PRPH2"
     },
     {
-      "pmid": "40160374",
-      "doi": "10.3389/fnhum.2025.1557826",
-      "zotero_key": "RTJ5ZXMS",
-      "title": "Combined deep and reinforcement learning with gaming to promote healthcare in neurodevelopmental disorders: a new hypothesis",
-      "authors": [
-        [
-          "Fabrizio",
-          "Stasolla"
-        ],
-        [
-          "Anna",
-          "Passaro"
-        ],
-        [
-          "Enza",
-          "Curcio"
-        ],
-        [
-          "Mariacarla Di",
-          "Gioia"
-        ],
-        [
-          "Antonio",
-          "Zullo"
-        ],
-        [
-          "Mirella",
-          "Dragone"
-        ],
-        [
-          "Elvira",
-          "Martini"
-        ]
-      ],
-      "journal": "Frontiers in Human Neuroscience",
-      "year": "2025",
-      "abstract": "Children and adolescents with neurodevelopmental disorders (NDD) may experience significant problems dealing with daily activities and/or everyday life environmental requests. Besides intellectual disabilities, communication disorders and challenging behaviors may occur. Commonly, isolation and passivity are acknowledged. Accordingly, social interactions may be relevantly compromised. NDD usually has an early onset, a variable clinical manifestation, a wide range of severity, and a recognized comorbidity (Howner et al., 2018;Malik et al., 2023). Their clinical conditions may have negative outcomes on their quality-of-lifefamilies&#39; and caregivers&#39; burden may be meaningfully increased with negative consequences on their overall management and healthcare (Kanniappan et al., 2024;Lefton-Greif et al., 2024;Materula et al., 2023). To tackle this issue an early assessment is crucial (Chorna et al., 2024;Henry et al., 2016). Thus, either standard tests or technology-based solutions are available (Ceruti et al., 2024;Niu et al., 2022;Woodcock and Blackwell, 2020). Traditional assessment relies on neuropsychological evaluation (Haddad et al., 2024;Hamadelseed et al., 2023). Technology-aided options may represent a functional bridge between personal skills and environmental requests by enhancing self-determination and positive occupation accordingly (Passaro et al., 2024). Recently, artificial intelligence-based programs (AI) emerged (Boubakri and Nafil, 2024). Both assessment and rehabilitative goals are targeted (Anbarasi et al., 2024;Climent-P&#233;rez et al., 2024).Deep learning (DL), as part of machine learning solutions (ML), has been growingly used to evaluate the normal brain functioning and differentiate between individuals who have a normal development and individuals who are at risk of developmental disorders (Kucewicz et al., 2023;Li et al., 2024;Swinckels et al., 2024). For example, DL algorithms as convolutional neural networks (CNN) have progressed allowing future learning of a significant amount of data patterns which enables the subjectivity in future extraction procedure. Successful implementations of DL and CNN have been documented. Thus, brain functioning has been positively investigated through functional magnetic resonance (fMRI) in main domains (Hu et al., 2023).Reinforcement Learning (RL) as a further part of ML has been adopted for rehabilitative purposes.That is, an artificial intelligent agent continuously interacting with a participant dealing with a cognitive task is positively reinforced by such interaction and is capable of learning by it. Based on the interaction, it will provide the participant with an optimal task. Consequently, the artificial intelligent agent ensures the participants with highly customized and tailored solutions along all the working sessions and an ideal learning process will be ensured (Zini et al., 2022). Recently, RL-based principles have been adopted for emotional regulation in neurodevelopmental disorders and neurodegenerative diseases (Stasolla et al., 2024;Stasolla and Di Gioia, 2023).Gamification may be considered an advanced technological cornerstone in neurodevelopmental disorders for both assessment and rehabilitative purposes. Educational and recovery goals may be targeted. Education, healthcare, and rehabilitation objectives have been pursued. Significant improvements have been reported in individuals with developmental disabilities. Self-determination, independence, and fulfillment may be fostered by embedding features such as challenges, competitions, and rewards. Thus, gamification can help persons with neurodevelopmental disorders by enhancing an active role and constructive engagement (Boubakri and Nafil, 2024).A literature overview was performed in Scopus. Neurodevelopmental disorders, quality of life, DL, RL, gamification, assessment, and rehabilitation were merged as keywords. Although the detailed solutions were widely adopted in neurodevelopmental disorders (Alves et al., 2020a;Bakır et al., 2023;Brzosko et al., 2019;Nahar et al., 2024;Ouyang et al., 2024;Pandya et al., 2024;Rahman et al., 2024;Rodulfo-C&#225;rdenas et al., 2023;Wyatt et al., 2024;Zhao et al., 2024), no records were found on their integration. In line with the above, the aims of the current opinion paper were (a) to provide the reader with a concise framework on the use of DL, RL, and gaming in developmental DL in neurodevelopmental is a widely adopted strategy of assessment with 63 records found including five reviews published between 2020 and 2024 (Kucewicz et al., 2023;Li et al., 2024;Soybilgic and Avcin, 2020;Swinckels et al., 2024;Wang et al., 2023). Li et al. (2024) conducted a comprehensive review on the use of electroencephalography (EEG) as a method that records changes in brain activity which may represent a marker for the identification of autism spectrum disorders (ASD). The review included DL and ML methods. Future perspectives and challenges were highlighted to automatically diagnose ASD through EEG signals to emphasize ASD automated identification. Kucewicz et al. (2024) RL in neurodevelopmental disorders is also represented in the literature with 60 documents available in Scopus and five reviews in the last two decades (Brzosko et al., 2019;Meyer et al., 2005;Rodulfo-C&#225;rdenas et al., 2023;Swan et al., 2016;Wyatt et al., 2024). By further inspection, the contribution of Meyer et al. (2005) investigated an animal model for the early detection of schizophrenia, was considered as irrelevant for the current work, and was not detailed accordingly. Conversely, exploitation decision-making was associated with default network brain regions. Data were interpreted in the context of a network architecture useful to support the flexible switching between externally and internally directed cognitive processes, mandatory for adaptive and purposeful behaviors. Moreover, they surveyed studies involving neurodevelopmental, neuropsychological, and neuropsychiatric disorders as well as lifespan development and neurodegenerative diseases. Significant differences between exploring-exploiting decision-making were observed across the populations corroborating that the two decision-making modes are supported by independent neural circuits. Comprehensive neural circuity mapping and neural behavioral correlates associated with exploration-exploitation in humans were warranted. A new trans-diagnostic approach to assessment, surveillance, and intervention for cognitive decline and dysfunction in mental health for normal development and clinical population was putted forward.Gamification and neurodevelopmental disorders is represented in Scopus with 3 reviews (Alves et al., 2020b;Bakır et al., 2023;Boubakri and Nafil, 2024). Alves et al. (2020) Boubakri and Nafil (2024) explored the potential impact of gamification on accessibility issues for persons with disabilities. According to PRISMA guidelines, a literature review was performed across seven databases. Fifty-three studies were selected. Data revealed that gamification was suitable for neurodevelopmental disorders, blindness, and visual impairments, relevantly improving the learning and rehabilitation processes of individuals with disabilities. Nevertheless, significant gaps remained to be filled including the need for a comprehensive assessment framework and a more accurate integration with emerging technologies like AI-based programs to customize optimal solutions for individuals with disabilities. Although gamification was proven to be effective and suitable for targeting challenges in persons with disabilities, further balanced perspectives were required.Specifically, a focused approach to gamification to identify its potential benefits as well as to address the existing gaps and claim for its integration with emerging technologies to generate more inclusive and tailored experiences.An illustrative example might be represented by a combined immersive system including AR, VR, and gamification. One can argue on a highly immersive and funny system which may promote executive functions, communicative skills, and social interactions. Different rigorously customized solutions may be designed. Based on RL principles, one may envisage different tasks properly tailored on the participant&#39;s capacities and continuously adapted to his/her performance. Both cognitive skills and behavioral responses may be recorded, monitored, and tracked. Recently, Stasolla et al. (2025) proposed a suitable scoping review on this specific topic.Considering the above, a new hypothesis on a combined and integrated technological solution based on DL, RL, and gamification principles was proposed. Matched technological options have been recently outlined (Stasolla et al., 2023). A three-step hierarchical solution was recommended in individuals with NDD for assessment and rehabilitative purposes (see figure 1). One may design a first step in which through DL principles the artificial system will be capable of differentiate between individuals who may have a normal development and individuals who are at risk of NDD through exploring and mapping the brain activity during cognitive tasks. Once differentiated, with a combined solution of RL and gamification (i.e., second step), one may plan funny, educational, and rehabilitative tasks focused on promoting cognitive and communicative skills as well as redirecting challenging behaviors into adaptive, functional or occupational activities (Chiapparino et al., 2011).In a third step, the clinical validity may be assessed involving expert external raters in social validation procedures (Stasolla et al., 2019). Different solutions may be adapted and customized depending on the participant&#39;s functioning.For instance, for individuals with severe to profound intellectual and multiple disabilities, one may suppose to design a basic discrimination between positive and negative emotions or situations eliciting specific emotions. For individuals with a moderate level of intellectual disabilities, one may plan combined AR, virtual reality (VR), and gamification opportunities to enhance different social interactions. For individuals with a high intellectual functioning and ASD or for persons estimated as borderline between the normal range of intellectual functioning and mild intellectual disabilities, one may implement access to literacy integrated with occupational and/or leisure opportunities (Chiapparino et al., 2011;Lancioni et al., 2007). Finally, one may envisage combined rehabilitative programs focused on supporting academic skills, personal needs, and access to literacy (Stasolla et al., 2022). Different technological solutions may be considered to provide a fully immersive environment (Bennewith et al., 2024;Panzeri et al., 2024). Individuals with NDD and different levels of disabilities may experience significant difficulties in different daily contexts and settings. Because they commonly present intellectual, motor, communicative, and sensorial impairments, they constantly rely on families&#39; and caregivers&#39; assistance. This condition may be deleterious for their social image, status, and desirability. In fact, it may seriously hamper their quality of life. To overcome this issue, technology-aided solutions may be helpful as previous findings demonstrated (Kinsella et al., 2017;Paul et al., 2023;Pham et al., 2019). Recently, AI-based solutions emerged as a valid avenue to promote healthcare of children and adolescents with NDD (Mengi and Malhotra, 2022). Here is a new hypothesis on a combined technological solution was proposed. The following considerations were suggested.First, self-determination, constructive engagement, independence, and social inclusion were fostered. Thus, an active role, positive occupation, and functional activities were supported with a reduction of isolation and passivity. Assessment and rehabilitation were critically targeted issues (Harris, 2020;Kwan et al., 2021;Lancioni et al., 2008Lancioni et al., , 2004a;;Stasolla et al., 2014bStasolla et al., , 2014a;;Zimmer and Dunn, 2021).Second, different behaviors depending on the individuals&#39; levels of functioning may be outlined.For example, one may envisage a simple discrimination between positive and negative emotions for individuals with a very low functioning and limited behavioral repertoire. Otherwise, one may design to promote communication and positive social interactions for individuals with a moderate level of disabilities. Furthermore, more complex programs focused on different hierarchical managed opportunities may be considered (Michalski et al., 2021).Third, one may include the assessment of brain activity and a rehabilitative intervention in an unique program. Thus, both evaluation and recovery issues may be embedded. Through DL systems one may differentiate between individuals with a normal development and people who are at risk of neurodevelopmental disorders. Gamification may play a dual crucial role with educational and rehabilitative purposes (Gao et al., 2024;Liu et al., 2024;Shariat et al., 2024).Fourth, families&#39; and caregivers&#39; burden may be reduced. The clinical validity of the proposed intervention may be assessed. One may argue that being constructively engaged, positively occupied, with highly customized and tailored solutions, individuals with NDD may be more easily involved and included in daily settings with a burden reduction and a more effective and suitable solution was adopted (Song et al., 2022).Despite the promising postulated outcomes, some relevant issues should be acknowledged. First, no empirical data was available. Systematic reviews, metanalysis, and single-subject comparisons matched with longitudinal studies should be carried out. Second, sustainability issues should be carefully considered. Human, financial, and environmental resources should be targeted to investigate the affordability and the suitability of such proposed combination. Ethical issues should be additionally targeted. Third, a differentiation between the NDD is currently lacking with a large body of literature focused on ASD. Other disorders such as rare genetic diseases should be included in future studies. Accordingly, future research perspectives should deal with the following topics (a) empirical and/or experimental data to be collected, (b) systematic comparisons between groups or longitudinal investigations based on single subjects should be sought, (c) families&#39; and caregivers&#39; burden should be targeted, and (d) the clinical validity with a focus on sustainability and suitability in daily settings should be prioritized.",
-      "cited_by_count": 6,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARID2"
-    },
-    {
       "pmid": "41423800",
       "doi": "10.1097/j.jcrs.0000000000001818",
       "zotero_key": "MI2JXD7R",
@@ -5668,28 +5621,6 @@
       "subcollection": "BBS1"
     },
     {
-      "pmid": "41739803",
-      "doi": "10.1371/journal.pone.0343933",
-      "zotero_key": "SZHGFHS2",
-      "title": "Correction: Association of myopia and parapapillary choroidal microvascular density in primary open-angle glaucoma",
-      "authors": [
-        [
-          "PLOS ONE",
-          "Staff"
-        ]
-      ],
-      "journal": "PLoS ONE",
-      "year": "2026",
-      "abstract": "[This corrects the article DOI: 10.1371/journal.pone.0317881.].",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Retinal dystrophies"
-    },
-    {
       "pmid": "41335185",
       "doi": "10.1007/s40123-025-01294-w",
       "zotero_key": "U7FEHFG5",
@@ -6114,52 +6045,6 @@
       "subcollection": "RNU2-2"
     },
     {
-      "pmid": "41773460",
-      "doi": "",
-      "zotero_key": "CP3ZIEAQ",
-      "title": "Defining the end point of status epilepticus: A scoping review and framework for standardization.",
-      "authors": [
-        [
-          "Fawad A.",
-          "Khan"
-        ],
-        [
-          "Margaret",
-          "Gopaul"
-        ],
-        [
-          "Samuel L",
-          "Carter"
-        ],
-        [
-          "Anil",
-          "Chimakurthy"
-        ],
-        [
-          "Summer",
-          "Skelton"
-        ],
-        [
-          "Lawrence J.",
-          "Hirsch"
-        ],
-        [
-          "Eugen",
-          "Trinka"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "Status epilepticus (SE) is a life-threatening neurological emergency with consensus-driven definitions for onset but no standardized criteria for its end point. This gap creates uncertainty in research and clinical practice. We conducted a scoping review to evaluate how end points have been defined in SE research and to identify key areas of variability. Comprehensive searches of MEDLINE, Embase, and CENTRAL (Cochrane Central Registry of Controlled Trials; 1980-2025) yielded 3940 citations (1674 unique). After screening, 207 studies met the inclusion criteria and were charted using scoping review methodology (Preferred Reporting Items of Systematic Reviews and Meta-Analyses, extension for scoping reviews). Data were extracted on terminology, electroencephalography (EEG) use, temporal thresholds, and definitions of therapeutic success across retrospective and prospective designs. Five domains of heterogeneity were identified: (1) semantic terminology (e.g., \"resolved,\" \"controlled,\" \"terminated,\" \"cessation\"); (2) EEG confirmation of the SE end point (reported in 54% of studies, with variable criteria); (3) whether time was included in defining the end point; (4) how quickly seizures were judged to have stopped, based on clinical signs, EEG findings, or both; and (5) how long seizure freedom had to be maintained to count as a successful end point. No consistent global or time-based patterns were identified, and overlapping terminology further limited comparison across studies. Despite established consensus definitions for SE onset, the end point remains variably defined, undermining methodological rigor and limiting cross-study synthesis. A unified, consensus-driven framework is urgently needed to standardize SE end points through the use of standard terminology and methodologies, thereby strengthening clinical trial design and facilitating regulatory evaluation of novel therapies.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "",
       "doi": "10.1002/cne.1146",
       "zotero_key": "7UVHGZQF",
@@ -6230,36 +6115,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "25249376",
-      "doi": "10.1177/1744629514552151",
-      "zotero_key": "HBUAQC5F",
-      "title": "Diagnoses, labels and stereotypes",
-      "authors": [
-        [
-          "Megan",
-          "Aston"
-        ],
-        [
-          "Lynn M.",
-          "Breau"
-        ],
-        [
-          "Emily",
-          "Macleod"
-        ]
-      ],
-      "journal": "Journal of Intellectual Disabilities",
-      "year": "2014",
-      "abstract": "Children with intellectual disabilities (IDs) and their parents continue to experience stigma within health-care systems. Whilst some research studies have examined the stigma associated with children who have IDs, there continues to be a gap in understanding how the experiences of these children, their parents and nurses have been constructed personally, socially and institutionally. Face-to-face semi-structured interviews were conducted with 17 mothers, 12 nurses and 8 children. Feminist post-structuralism and discourse analysis were used to examine the experiences of children, parents and nurses with the intent of understanding the dominant taken-for-granted everyday practices as well as hidden or marginalized practices. Four main themes emerged, which included the theme of Diagnoses, Labels and Stereotypes, which will be discussed in this article. Participants provided rich detail about their experiences in the hospital and how they addressed and often attempted to challenge the stigma associated with children with IDs.",
-      "cited_by_count": 32,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRR12"
     },
     {
       "pmid": "",
@@ -7478,48 +7333,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
-    },
-    {
-      "pmid": "41775653",
-      "doi": "10.1017/s000711452610676x",
-      "zotero_key": "M9TQFAJ7",
-      "title": "Enhanced 2-arachidonoyl glycerol-dependent CB1 activation contributes to feeding dysregulation in KK-Ay mice",
-      "authors": [
-        [
-          "Miki",
-          "Igarashi"
-        ],
-        [
-          "Kensuke",
-          "Iwasa"
-        ],
-        [
-          "Shinji",
-          "Yamamoto"
-        ],
-        [
-          "Takayo",
-          "Ohto-Nakanishi"
-        ],
-        [
-          "Ikuo",
-          "KIMURA"
-        ],
-        [
-          "Keisuke",
-          "Yoshikawa"
-        ]
-      ],
-      "journal": "British Journal Of Nutrition",
-      "year": "2026",
-      "abstract": "The endocannabinoid system in the central and peripheral nerves plays a crucial role in various physiological processes, including feeding behavior and energy metabolism. In particular, gut endocannabinoids stimulate appetite, and excessive activation of the system can induce hedonic eating, leading to obesity. Previous studies have indicated elevation of gut endocannabinoid levels in high-fat diet-induced or genetically obese rodents. The present study aimed to expand our understanding of gut endocannabinoids involved in feeding behavior during obesity by characterizing the profiles of arachidonic metabolites, including endocannabinoids, in the gut and by examining their impact on feeding behavior in KK-Ay mice, an obesity model established by crossing diabetic KK mice with lethal yellow (Ay) mice. KK-Ay mice exhibit hyperphagia compared with lean mice under either free-feeding condition or refeeding condition after 24 h of food deprivation. Meal pattern analyses revealed that hyperphagia in KK-Ay was primarily due to higher meal frequency rather than meal size or interval, suggesting a defect in hunger control. In addition, levels of endocannabinoids and other arachidonic acid metabolites such as prostaglandin E2 and F2α were elevated in KK-Ay mice. Pharmacological blockade of the peripheral cannabinoid receptor 1 and diacylglycerol lipase, but not N-acyl phosphatidylethanolamine phospholipase D, reduced food intake, as did treatment with cyclooxygenase-2 inhibitors. These findings suggest that intestinal 2-arachidonoyl glycerol-dependent cannabinoid receptor 1 activation contributes to hyperphagic behavior in KK-Ay mice and prostaglandins are involved in feeding control.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "1122983",
@@ -10671,48 +10484,6 @@
       "subcollection": "Gyrate atrophy of choroid and retina"
     },
     {
-      "pmid": "23551940",
-      "doi": "10.1111/jpc.12171",
-      "zotero_key": "CN7B5DP5",
-      "title": "Inequity in child health: The importance of early childhood development",
-      "authors": [
-        [
-          "Susan",
-          "Woolfenden"
-        ],
-        [
-          "Sharon",
-          "Goldfeld"
-        ],
-        [
-          "Shanti",
-          "Raman"
-        ],
-        [
-          "Valsamma",
-          "Eapen"
-        ],
-        [
-          "Lynn",
-          "Kemp"
-        ],
-        [
-          "Katrina",
-          "Williams"
-        ]
-      ],
-      "journal": "Journal of Paediatrics and Child Health",
-      "year": "2013",
-      "abstract": "The development of society, rich or poor, can be judged by the quality of its population's health, [and] how fairly health is distributed across the social spectrum.1 Child health inequalities were first described in the mid-19th century as differences in infant mortality rates across occupational and social classes.2 Despite an overall improvement in health and advances in health care in many high-income countries, inequalities in mortality and morbidity have persisted and widened.2, 3 For most health conditions, there is a ‘social gradient’; the greater the social disadvantage, the higher the prevalence of disease.4 There is an increasingly robust evidence base for population-based child health inequalities in Australia. Research from ‘Growing Up in Australia’, the Longitudinal Study of Australia's Children, has demonstrated that social disadvantage is associated with poorer outcomes across most measures of physical and developmental health and that these start early in childhood, do not attenuate at older ages and have a clear gradient, with worse outcomes associated with increasing disadvantage.5 Most health professionals working with children will encounter inequalities in their daily practice related to service access and clustering of risk and to poor health, well-being and development among vulnerable populations of children (Table 1). The terms inequality and inequity are often used interchangeably to describe these differences in health status; however, they have quite different meanings. Inequality is a descriptive term that refers to differences between groups, such as a higher rate of cerebral palsy in preterm versus term babies. Inequity has a moral and ethical component. It refers to inequalities that are unfair, unjust, systematic, avoidable and unnecessary, such as the higher rate of preterm birth in children from socially disadvantaged groups compared with their more socially advantaged peers.6 There has been longstanding debate in the health inequity literature as to what would constitute an unfair and avoidable inequality, especially around the role of personal responsibility in health and our innate biological predisposition to conditions.7, 8 The debate around personal responsibility for health choices is irrelevant for young children who are never responsible for their choices and in whom inequalities in their health and health-care access are intrinsically linked to the social determinants of health such as the safety and social capital of the community they live in, their family's socio-economic position and ethnicity and the impact these have on home environment and the choices their parents make.9 With regard to the debate over the role of biology versus environment in the origin of inequalities, for some children an inequality may not be preventable or remediable because of biological differences, such as a chromosomal abnormality, but for the majority, social disadvantage contributes to or worsens any biological predisposition.10 Even for conditions where there is clearly a biological cause, there are inequalities in health outcomes that are related to social disadvantage. For example, children with cystic fibrosis from low-income families in the USA and UK have been found to have a significantly increased risk of death compared with those from higher income families.11, 12 Inequalities that are inequities in child health have a significant civic cost in that they reflect an ‘unjust society’. We know that children from disadvantaged environments, particularly those exposed to a range of early childhood adversities including poverty and abuse/neglect, are at increased risk for chronic health problems13: developmental delay, mental health problems, school failure and increased adult mortality and morbidity,11, 14-20 although there is an unclear and even conflicting relationship with children having a language background other than English.21In addition, inequities have an economic cost. Estimates from the UK and USA indicate that if all children had the same level of health as their most advantaged peers (i.e. inequality based on inequity was eliminated) there would be a 30–70% reduction in the population-attributable proportion of chronic conditions such as cerebral palsy, intellectual disabilities, learning difficulties, mental health problems and injury, both accidental and non-accidental. This represents a significant saving in terms of health, education and welfare budgets and gains in productivity.22, 23 One of the keys to future health, well-being and development is a solid foundation in early childhood development. Unfortunately, we have evidence that many children have a suboptimal start and thus are ‘developmentally vulnerable’. Developmental vulnerability means that they are significantly underperforming in one or more areas of child development (e.g. motor, language, self-help, socio-emotional, cognitive and behavioural). There is a growing global burden of developmental vulnerability, with 23% of children aged 2–9 years having or being at risk of disabilities.24, 25 Data from the Australian Early Development Index 2009 census found that 20–25% of children starting their first year of school are ‘developmentally vulnerable’,26 with lower socio-economic status, (Fig. 1) as well as being Indigenous and living in remote areas, associated with its higher prevalence.27 Australian Early Development Index (AEDI) domain comparison. Vulnerability by SEIFA, 261 000 (AEDI National Report 2009). , developmentally vulnerable in one or more domain; , developmentally vulnerable in two or more domains. At the population level, most of the variance in developmental vulnerability between groups of children is associated with the environmental risk factors associated with socio-economic disadvantage (i.e. the social determinants of health), including poor parental mental health and education, lack of stimulating early childhood experiences, low family and neighbourhood income, and a lack of social capital. These risk factors interact with each individual child's innate biological sensitivity to adversity.28-31 There is also emerging evidence of a transactional relationship between genes and the environment, where not only do genetic characteristics impact our response to the environment but environmental risk factors moderate gene expression.32 Cumulative exposure to ongoing risk factors without the buffering of protective factors, particularly during sensitive periods of neural development, can result in changes in neurobiology and neurochemistry that limit future developmental capability over the life course and particularly in the early years.9 (Fig. 2) Developmental trajectory. The good news is that public health investment that aims to diminish negative environmental factors associated with social disadvantage, when used wisely, can produce measurable improvements in health.33 Population-level early intervention programmes such as home visiting, high-quality early child care and other early childhood development programmes have clear high-level evidence of effectiveness in reducing developmental vulnerability, preventing developmental delay and improving school readiness.16, 34, 35 In the long term, they have been shown to reduce high school drop-out rates and criminal behaviour, increase employment and delay child rearing.16, 34, 35 Targeted early intervention for children at risk of developmental disability or those who have a diagnosed disorder also has increasing evidence of improved developmental outcomes.35, 36 Much of what determines health and well-being lies outside the health-care system. Equitable health care is therefore necessary but not sufficient as we tackle child health inequities. In Australia, we have demonstrated that it is possible to reduce some inequities in child health through health system initiatives such as a universal immunisation programme.27 To address inequity in early childhood development, we need well-organised, high-quality and accessible primary health-care services and services that promote early child development, detect problems early and facilitate access to enriching environments or specific effective interventions if required.37, 38 To detect problems early and facilitate appropriate pathways to support a child's development, it is accepted that one-off ‘developmental screening’ is not sufficient,39, 40 and evidence in terms of its effectiveness in preventing or predicting later difficulties has been mixed. A National Health and Medical Research Council review in Australia38 and the American Academy of Paediatrics recommend instead the concept of ‘developmental surveillance’, characterised by (i) ongoing contact of families and children within a universal system; (ii) health professionals trained in child development and health promotion; and (iii) monitoring and responding to developmental concerns over time from infancy to the pre-school period. If concerns about early childhood development are identified, then access to suitable services to provide enriched and stimulating environments and further assessment, with standardised tools and assessment of possible causes, should be available along with timely and effective early intervention.38, 41 In Australia, the responsibility for ‘well-child care’, including undertaking developmental surveillance, falls under both federal and state jurisdiction. The Early Childhood Development Strategy launched by the Council of Australian Governments in 2009 has a focus on promotion of early childhood development, strengthened universal child health service delivery and improved support for vulnerable families.42 In addition, as part of the National Mental Health Reform, the ‘Health and Wellbeing Check for 3 year olds’ will be introduced, and we currently have the Medicare Healthy Kids Check.43 Most states have implemented strategies (or have strategies underway) to achieve universal developmental surveillance programmes through their maternal and child health programmes.44 Despite these federal and state policy initiatives, there are significant challenges for universal and primary health-care services in Australia currently in meeting the needs of children, including insufficient awareness amongst some primary health professionals who have not had training in early childhood development about child development promotion, and the potential service gap for children living in socially disadvantaged circumstances. In Australia, up to 18% of children with significant developmental vulnerability are not identified before they start school,21 and there is emerging evidence that children from our more vulnerable populations are less likely to undergo ‘well-child’ checks.45 Unfortunately, our knowledge about the true impact of our health-care system on child health inequities in early childhood development, either positive or negative, is limited, with scant data available for any of the six areas highlighted in the National Health Performance Framework.46 We have limited understanding about whether high-quality and affordable primary health-care systems are available for children and delivered according to need and/or whether these systems actually facilitate access to appropriate services. Without these data, we are in a ‘silent zone of information’, as described by Lynch, which is the opposite of what we need to ‘close the ECD [early childhood development] gap’.47 Society has a responsibility to protect children from adverse environments, as is clearly articulated in The Convention on the Rights of the Child, which recognises the vulnerability of children and makes their best interests paramount.48, 49 We know that the availability of a universal system does not guarantee equity in health care50 and that improved health care systems, while necessary, are not sufficient without considering the broader social determinants of health. However, the systems we work in can aim to eliminate inequities in health care by ensuring that all children have access to high-quality primary health-care systems with sound developmental surveillance systems (horizontal equity) and that there is a greater allocation of resources to respond to the increased needs of those children living in disadvantaged circumstances (vertical equity).16 We need to continue to work towards health-care systems that aim to be free, but in the interim are at least affordable, easily accessible, implemented within an evidence-based framework and delivered along the principles of ‘proportionate universalism’.16 This is supported by the recommendation of the National Health and Hospitals Reform Commission to ensure that ‘children get access to the right mix of universal and targeted services, based on their age and their individual health and social needs’.51 Services need to engage with families from before birth right through schooling and cannot be limited to a single-funded visit. They need to ‘find’ those who may be ‘hidden’ from our current system, including asylum seekers, itinerant families, and children of parents with substance abuse or mental illness.31 Paediatricians and other health professionals who work within service delivery systems for children must act as advocates and ensure that every encounter that a pre-schooler, toddler or infant has with our health and early childhood services is an opportunity for developmental surveillance.37 We should also encourage governments to use existing data to plan allocation of resources, community services, education and health in geographic locations where opportunities for prevention are greatest in a way that takes into account numbers of children as well as the prevalence of developmental vulnerability in a community. In order for systems to be effective, professionals working with children and families need to be trained on promotion of early childhood development and detection of developmental delays and deviations. This also needs to be matched with appropriate referral systems, pathways of care and service provision. Health professionals working with children should regularly evaluate their own services to highlight and work towards elimination of inequity in local service delivery.23 Today, we are faced with the challenge of how best to respond to inequity in child health and, in particular, early childhood development through changing models of service delivery. This gives us the unique opportunity to consider how best to configure new services or improve upon existing services to ensure they are delivered equitably.47 We need a comprehensive high-quality primary health-care system that all children have access to and that has the flexibility to respond to differing levels of need in the population. A concerted effort is required involving workforce training, service redesign and ongoing monitoring and evaluation, involving not only health but welfare, education, employment, housing and other components of a civil society. Whether the investments in early childhood services for vulnerable children are done from a social justice perspective or as a wise economic investment, available scientific knowledge on early brain development provides supportive evidence on both grounds. Ensuring that all children have a good start in life from the antenatal period is the critical first step for improving the health and well-being of future generations.",
-      "cited_by_count": 67,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRR12"
-    },
-    {
       "pmid": "",
       "doi": "10.1076/opge.23.2.71.2214",
       "zotero_key": "5DXA4VQK",
@@ -11787,32 +11558,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CEP290"
-    },
-    {
-      "pmid": "41772078",
-      "doi": "10.1038/s41433-026-04376-6",
-      "zotero_key": "CRX8C4SN",
-      "title": "Late-onset choroidal detachment after combined surgery for glaucoma and cataract",
-      "authors": [
-        [
-          "Jie",
-          "Zu"
-        ],
-        [
-          "Jianmin",
-          "Wang"
-        ]
-      ],
-      "journal": "Eye",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "41814654",
@@ -13157,64 +12902,6 @@
       "subcollection": "ARID1B"
     },
     {
-      "pmid": "41773462",
-      "doi": "",
-      "zotero_key": "IB765TGN",
-      "title": "Multiple Afterglows of Chiral Zinc (II) Halide Enabled by Regulating Coordination Bonds.",
-      "authors": [
-        [
-          "Hongli",
-          "Yu"
-        ],
-        [
-          "Yibo",
-          "Cui"
-        ],
-        [
-          "Ruibin",
-          "Hao"
-        ],
-        [
-          "Dong",
-          "Zhao"
-        ],
-        [
-          "Linyu",
-          "Chi"
-        ],
-        [
-          "Kunjie",
-          "Liu"
-        ],
-        [
-          "Jiawei",
-          "Lin"
-        ],
-        [
-          "Zhongnan",
-          "Guo"
-        ],
-        [
-          "Jing",
-          "Zhao"
-        ],
-        [
-          "Quanlin",
-          "Liu"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "Zero-dimensional (0D) hybrid halide materials are promising candidates for room-temperature phosphorescence (RTP) and hold significant potential for anti-counterfeiting applications. However, conventional anti-counterfeiting methods relying solely on spatial patterns are insufficient to meet rising demands for multidimensional security. Here, we report an excitation-responsive spatiotemporal triple-resolution anti-counterfeiting system based on heterocoordinated zinc-based halides, (R/S-C<sub>12</sub>H<sub>18</sub>N<sub>2</sub>)ZnCl<sub>2</sub> and (R/S-C<sub>12</sub>H<sub>20</sub>N<sub>2</sub>)ZnCl<sub>4</sub>·H<sub>2</sub>O (R/S-C<sub>12</sub>H<sub>20</sub>N<sub>2</sub> is (R)-3-Amino-1-benzylpiperidine and (S)-1-Benzyl-3-aminopiperidine). Specifically, (R/S-C<sub>12</sub>H<sub>20</sub>N<sub>2</sub>)ZnCl<sub>4</sub>·H<sub>2</sub>O exhibits a broad excitation window and dual afterglow emissions at 455 and 505 nm, while (R/S-C<sub>12</sub>H<sub>18</sub>N<sub>2</sub>)ZnCl<sub>2</sub> displays blue afterglow at 460 nm. Coordination bond engineering enables tunable excitation-dependent phosphorescence, offering a powerful strategy for advanced time-gated and multilevel anti-counterfeiting applications.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
       "pmid": "42065194",
       "doi": "10.1097/md.0000000000048444",
       "zotero_key": "7WHZW9CJ",
@@ -13772,60 +13459,6 @@
       "journal": "PubMed",
       "year": "2026",
       "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
-    },
-    {
-      "pmid": "41790986",
-      "doi": "",
-      "zotero_key": "EXCDPGZJ",
-      "title": "Neutralizing autoantibodies against interferon alpha in systemic lupus erythematosus: Prevalence, age of onset, and clinical associations.",
-      "authors": [
-        [
-          "Elsa",
-          "Grenmyr"
-        ],
-        [
-          "Birgitta",
-          "Gullstrand"
-        ],
-        [
-          "Andreas",
-          "Jern"
-        ],
-        [
-          "Niklas",
-          "Björklund"
-        ],
-        [
-          "Robin",
-          "Kahn"
-        ],
-        [
-          "Fredrik",
-          "Kahn"
-        ],
-        [
-          "Petrus",
-          "Linge"
-        ],
-        [
-          "Andreas",
-          "Jönsen"
-        ],
-        [
-          "Anders A",
-          "Bengtsson"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "ObjectiveType I interferons (IFN) drive systemic lupus erythematosus (SLE) pathogenesis. Some patients develop neutralizing IFN autoantibodies (anti-IFN ab), which theoretically could modify disease activity. We aimed to determine the prevalence of anti-IFN ab in patients with SLE, identify the age and when during the disease course of anti-IFN ab emerge, and assess their association with organ damage.MethodsThis cross-sectional study included 173 SLE patients from the Lund Lupus Cohort. Samples taken at routine outpatient visits were analyzed for anti-IFN ab using ELISA, and positive samples were tested for IFN neutralizing capacity with a gene-reporter assay. Longitudinal samples were analyzed to determine the time-point and age of first positive sample. Demographic and clinical data were obtained from research registries.ResultsEighteen (10.4%) patients were positive for anti-IFN ab by ELISA. Among these, antibodies from nine patients (5.2%) displayed IFN neutralizing capacity. No statistically significant differences were detected between patients positive for neutralizing antibodies and antibody-negative patients with respect to demography, organ damage or ACR classification criteria. The group with neutralizing antibodies were slightly older (median age 59 vs 45 years, p = .14) and had a higher proportion of renal involvement (67% vs 33%, p = .088). Longitudinal analysis of samples from patients with neutralizing anti-IFN ab revealed two age-related patterns: late-onset (≥65 years, n = 4), including one patient positive at diagnosis at age 69, and early-onset (≤40 years, n = 5), with antibodies present at or soon after diagnosis in four cases. Organ damage did not differ between patients with or without neutralizing antibodies (p = .65). At the latest follow-up (2-38 years after anti-IFN ab detection), three of nine patients remained free of organ damage.ConclusionsApproximately 5% of SLE patients have neutralizing anti-IFN antibodies, which may present early in disease or develop later in life. While late-onset antibodies may reflect age-related changes in immune regulation and early-onset antibodies could potentially modulate IFN-driven mechanisms, our data do not support a protective effect against organ damage.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
@@ -15565,40 +15198,6 @@
       "subcollection": "OPN1MW"
     },
     {
-      "pmid": "41606966",
-      "doi": "10.12659/ajcr.950985",
-      "zotero_key": "GWEABMM4",
-      "title": "Postoperative Corneal Dellen Following PreserFlo MicroShunt: A Case Report",
-      "authors": [
-        [
-          "Nawaf Zaid",
-          "Almeshari"
-        ],
-        [
-          "Norah Bin",
-          "Dakhil"
-        ],
-        [
-          "Konrad",
-          "Schargel"
-        ],
-        [
-          "Furat",
-          "Alrajhi"
-        ]
-      ],
-      "journal": "American Journal of Case Reports",
-      "year": "2025",
-      "abstract": "BACKGROUND The PreserFlo MicroShunt is a subconjunctival drainage device increasingly used to manage open-angle glaucoma. While its safety profile is considered favorable compared with that of trabeculectomy, rare postoperative complications, including corneal surface pathology, can still be encountered. To our knowledge, corneal dellen has not been previously reported following PreserFlo implantation. CASE REPORT A 15-year-old boy with pathological myopia and Stickler syndrome underwent PreserFlo MicroShunt implantation for refractory secondary open-angle glaucoma. Two weeks postoperatively, he developed a temporal area of corneal stromal thinning consistent with dellen, located adjacent to an elevated bleb in the horizontal plane. Conservative therapy, including a switch from prednisolone acetate to loteprednol etabonate, intensive preservative-free lubrication, autologous serum drops, and bandage contact lens placement, was initiated. Full corneal re-epithelialization and recovery were achieved within 1 week, without compromising bleb function or intraocular pressure control. CONCLUSIONS Corneal dellen is a potential, although previously undocumented, complication of PreserFlo MicroShunt surgery, particularly when bleb elevation is prominent in areas not protected by the eyelid. Prompt recognition and targeted conservative therapy may allow for complete recovery while preserving device function and visual outcomes. Surgeons should monitor the ocular surface for this complication and adjust postoperative management accordingly.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Retinal dystrophies"
-    },
-    {
       "pmid": "42420907",
       "doi": "10.1186/s12886-026-05050-x",
       "zotero_key": "RMUT59DX",
@@ -16211,40 +15810,6 @@
       "subcollection": "ALDH1A3"
     },
     {
-      "pmid": "41787648",
-      "doi": "10.15283/ijsc25127",
-      "zotero_key": "TFQV44QJ",
-      "title": "PRPS1 (p.V42L) Mutation in Arts Syndrome Induces Aberrant Neural Stem Cell Development and Neuronal Senescence-Like Phenotype: Rescue by Nicotinamide Mononucleotide Supplementation",
-      "authors": [
-        [
-          "Jihee",
-          "Kim"
-        ],
-        [
-          "Su Jung",
-          "Park"
-        ],
-        [
-          "Jeong-A",
-          "Lee"
-        ],
-        [
-          "Chong Kun",
-          "Cheon"
-        ]
-      ],
-      "journal": "International Journal of Stem Cells",
-      "year": "2026",
-      "abstract": "Arts syndrome is a rare X-linked recessive neurodevelopmental disorder arising from pathogenic variants in PRPS1, which encodes phosphoribosyl pyrophosphate synthetase 1-an enzyme essential for de novo nucleotide biosynthesis. Affected individuals typically exhibit sensorineural hearing loss, intellectual disability, cerebellar ataxia, and recurrent infections. However, despite the severity of these clinical manifestations, therapeutic interventions remain limited, largely due to an incomplete understanding of the cellular pathophysiology underlying the disorder. In this study, we generated patient-specific induced pluripotent stem cells harboring the PRPS1 p.V42L variant and differentiated them into neural stem cells (NSCs) and neurons to elucidate disease mechanisms and explore potential therapeutic strategies. Patient-derived NSCs demonstrated significantly reduced proliferative capacity, aberrant nuclear morphology, and increased neuronal senescence, while mitochondrial integrity and function were largely preserved. Neurons differentiated from these NSCs exhibited impaired neurite outgrowth and reduced branching complexity, indicative of disrupted neurodevelopmental processes. Notably, supplementation with nicotinamide mononucleotide, a precursor of nicotinamide adenine dinucleotide (NAD＋), partially ameliorated defects in NSC proliferation, nuclear architecture, and neuronal morphology. Collectively, these findings delineate key cellular mechanisms underlying PRPS1-associated neurodevelopmental pathology and identify NAD＋ metabolic augmentation as a promising therapeutic avenue for Arts syndrome and related PRPS1-mediated disorders.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
-    },
-    {
       "pmid": "",
       "doi": "10.4103/ijo.ijo_3375_22",
       "zotero_key": "TAAMGHJ9",
@@ -16497,32 +16062,6 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Lacrimal system, Systeme lacrymal"
-    },
-    {
-      "pmid": "40881361",
-      "doi": "10.3389/fpsyt.2025.1611101",
-      "zotero_key": "ZQHBKKFD",
-      "title": "Redefining communication in mental healthcare: generative AI for neurodivergent equity and non-verbal autistic inclusion",
-      "authors": [
-        [
-          "Akhil P.",
-          "Joseph"
-        ],
-        [
-          "Anithamol",
-          "Babu"
-        ]
-      ],
-      "journal": "Frontiers in Psychiatry",
-      "year": "2025",
-      "abstract": "). This lack of representational justice reveals a deep theoretical and practical gap that cannot be resolved through technological enhancement alone-it requires a paradigmatic shift in how communication, personhood, and therapeutic alliance are conceptualized. Unless research and clinical paradigms are expanded to legitimize and respond to non-verbal modes of expression, non-verbal autistic individuals will remain excluded from both the epistemological foundations and practical realities of equitable mental healthcare.Generative artificial intelligence (AI) presents a timely and transformative intervention to reconfigure the communicative foundations and relational dynamics of mental healthcare by addressing the expressive gaps that persistently marginalize non-verbal autistic individuals.Unlike conventional tools that prioritize speech interpretation, generative AI systemsparticularly those integrating natural language processing and multimodal affective recognition-can process complex, context-rich inputs such as facial micro-expressions, vocal tones, gaze patterns, repetitive movement, autonomic responses, and environmental cues, thereby generating outputs that translate non-verbal emotional states into coherent, relationally relevant messages (Ballesteros et al., 2024;Solis-Arrazola et al., 2025). This is not about reducing neurodivergent communication into neurotypical language; rather, it is about affirming its validity and rendering it legible within therapeutic frameworks. Current AIaugmented systems like Affectiva's emotion analytics, Cognoa's pediatric behavioral health platforms, and increasingly adaptive AAC tools suggest early but promising directions in this regard (Kulke et al., 2020;O'Leary et al., 2024). For example, in overstimulating environments such as classrooms or clinics, AI-enabled wearables could detect physiological and behavioral stress markers and generate real-time alerts like \"I feel overwhelmed and need a break,\" allowing clinicians or educators to respond promptly and empathetically. These tools can deescalate distress, reduce misinterpretation, and promote communicative trust. While preliminary evidence supports the use of AI in ASD-related contexts, empirical research specifically examining generative AI applications for non-verbal autistic individuals remains limited but emergent, warranting focused scholarly attention and investment. However, it is crucial to emphasize that generative AI cannot and should not be expected to replace human empathy, clinical judgment, or the relational nuance of therapeutic alliance. It cannot fully interpret subjective experience, guarantee cultural sensitivity without intentional design, or autonomously validate emotional truths. Rather than a panacea or autonomous agent of care, generative AI must be positioned as a relational co-participant-an interpretive scaffold that supports, but never substitutes, the human work of listening, validating, and building trust.Recognizing its limits is essential to avoiding technological idealism and ensuring that its integration enhances rather than distorts the therapeutic process.The adaptive capacity of generative AI offers transformative potential to reconfigure how mental healthcare systems engage with the diverse communicative realities of non-verbal autistic individuals-across developmental stages, intersecting identities, and care contextsby translating nuanced, embodied expressions into therapeutic insight without collapsing their meaning into neurotypical norms (Iannone & Giansanti, 2023). From preverbal toddlers requiring early detection of sensory distress and communication delays, to school-age children needing support in emotion identification and social interaction, AI-integrated platforms can offer real-time feedback, visual prompts, and personalized engagement in classrooms and therapeutic environments (Xing, 2024). For adolescents managing developmental shifts, peer dynamics, and emerging self-concepts, generative AI could enable safe spaces for emotional journaling, avatar-based role-play, or voice-assisted storytelling-tools that empower identity exploration while mitigating communicative alienation. For adults, especially those at the intersections of autism, intellectual disability, trauma, and gender nonconformity, AI can provide continuous affective tracking, adaptive stress response strategies, and relational continuity in both institutional and home-based care (Fu et al., 2025).Equally important is the capacity of generative AI to attend to the sociopolitical dimensions of communication by embedding intersectional insights into its interpretive models (Hohenstein et al., 2023). Whether shaped by language barriers, racialized diagnostic disparities, classbased access limitations, or culturally situated expressions of affect, AI tools must be designed to engage with these contextual nuances, thereby avoiding the homogenization of neurodivergent expression. When attuned to these factors, generative AI can function as both an interpretive aid and a structural corrector, disrupting entrenched speech-dominant paradigms that constrain therapeutic engagement and marginalize non-verbal communicative forms. Its strength lies in its adaptability: systems can evolve in response to user-specific patterns, culturally embedded meanings, and age-appropriate forms of expression, rendering care more responsive, ethical, and inclusive (Dai et al., 2025). To frame generative AI merely as an assistive communication tool is to overlook its revolutionary potential as a platform for epistemic justice, relational equity, and clinical transformation across the lifespan.The development, deployment, and validation of AI tools within mental healthcare must be guided by the lived expertise of neurodivergent communities, supported by interdisciplinary collaboration across clinical, technological, and social domains. Participatory design processes must actively involve autistic individuals, caregivers, AAC users, and clinicians to co-create systems that reflect real-world communicative practices and emotional priorities. Pilot trials must go beyond traditional efficacy metrics to capture subjective measures such as emotional resonance, perceived respect, empowerment, and trust in therapeutic relationships. Research methodologies should include multimodal validation strategies that combine quantitative metrics-such as physiological biomarkers and behavioral indicators-with qualitative ethnographies, narrative interviews, and community-led data interpretation. Crucially, AI systems must be trained to recognize affect not as a decontextualized output but as a relational, ecologically situated signal shaped by personal history, environment, and cultural norms.Furthermore, AI-generated insights must be treated not as definitive clinical verdicts but as provisional and dialogic prompts that invite further interpretation, discussion, and negotiation.While the ethical potential of generative AI is foregrounded throughout this discourse, its deployment also raises profound risks, including the normalization of surveillance, clinical coercion, algorithmic misjudgment, and the commodification of affective data. These threats are especially acute in under-resourced or overly institutionalized environments, where AI may reinforce systemic hierarchies rather than subvert them. To ensure equitable integration, a phased, justice-oriented implementation strategy must guide its development. This must include a clear delineation of potential harms such as data misuse, behavioral over-surveillance, and the uncritical pathologization of AI-interpreted signals. Safeguards-such as algorithmic auditing, data minimization, neurodivergent oversight, and real-time interpretive feedback loops-must be implemented to counterbalance these risks and uphold ethical integrity. In Phase One, participatory co-design with non-verbal autistic individuals, caregivers, and neurodivergent clinicians is essential to produce culturally grounded, developmentally responsive prototypes. Ethical safeguards-such as dynamic, ongoing consent mechanisms, transparent data governance, and community-led oversight boards-must be embedded from inception, particularly across both developed and developing countries. In Phase Two, these systems should undergo multi-site testing in classrooms, clinics, and community settings using mixed-method designs that assess clinical accuracy, emotional attunement, and relational trust. This research must directly engage with complex and unresolved questions: How can informed consent be meaningfully operationalized when communication is technologically mediated, embodied, and non-verbal? What methodological strategies ensure ecological and cultural validity when interpreting multimodal affective data across linguistically diverse, socioeconomically stratified, and geopolitically varied healthcare systems? What safeguards are needed to prevent algorithmic outputs from reinforcing diagnostic biases, intensifying global health inequities, or flattening culturally specific communicative practices? These questions are especially urgent for non-verbal autistic populations who remain excluded from dominant speech-centered diagnostic frameworks and therapeutic paradigms. Addressing these challenges requires robust integration of affective computing, human-computer interaction, disability studies, neuroethics, communication theories, implementation science, and lived experiences research across regional, linguistic, and cultural contexts. Developing multi-phase longitudinal studies, AI-assisted therapeutic prototypes grounded in ethnographic insight, and comparative global policy frameworks is critical not only for building an internationally credible foundation for equitable AI deployment, but also for ensuring that non-verbal autistic individuals are no longer treated as invisible subjects within mental healthcare systems. This effort represents a research and justice mandate-one that challenges dominant epistemologies while advancing neurodivergent expression within a culturally responsive and ethically grounded mental healthcare paradigm.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARID2"
     },
     {
       "pmid": "42446836",
@@ -16840,52 +16379,6 @@
       "subcollection": "Inner coat"
     },
     {
-      "pmid": "38059113",
-      "doi": "10.4103/ojo.ojo_330_22",
-      "zotero_key": "CCH5VNJM",
-      "title": "Retinal neovascularization in Susac’s syndrome: A rare imaging finding",
-      "authors": [
-        [
-          "Marie‐Hélène",
-          "Errera"
-        ],
-        [
-          "JenniferO",
-          "Adeghate"
-        ],
-        [
-          "GabrielleR",
-          "Bonhomme"
-        ],
-        [
-          "Chad",
-          "Indermill"
-        ],
-        [
-          "StevenL",
-          "Taylor"
-        ],
-        [
-          "Marcelo",
-          "Rocha"
-        ],
-        [
-          "Siamak",
-          "Moghadam‐Kia"
-        ]
-      ],
-      "journal": "Oman Journal of Ophthalmology",
-      "year": "2023",
-      "abstract": "Description We present imaging findings of a 34-year-old Caucasian woman with a history of recurrent cryptogenic strokes, bilateral branch retinal artery occlusions (BRAOs), and sensorineural hearing loss. Her presentation was consistent with Susac’s syndrome, a rare autoimmune vasculo-occlusive disease consisting classically of the above triad.[1] Susac’s syndrome affects endothelial cells of capillaries and arterioles and, thus, involves organs in which these vessels supply vital structures such as the retina, corpus callosum, and inner ear.[2] Peripheral retinal neovascularization is a rare finding in this disease, but can occur and change the course of management. She initially presented to the eye clinic with photopsias, photophobia, diplopia, torsional nystagmus, and left fourth nerve palsy. Visual acuity was 20/20 in both eyes. Fundus photography of the left eye showed subtle signs of neovascularization, which in late-phase fundus fluorescein angiography (FFA) shows frank preretinal neovascularization [Figure 1a and b]. Figure 2a and b demonstrate pathognomonic callosal lesions and subsequent improvement in the brain magnetic resonance imaging after immunomodulatory therapy. FFA shows staining of several retinal arterioles in both eyes, indicating BRAOs [Figure 3a and b]. It is important to note that these areas appeared normal on ophthalmoscopy and, therefore, would have been missed without FFA. She underwent panretinal photocoagulation, and subsequent imaging showed hyperfluorescent neovascularization [Figure 4]. Neovascularization is a rare finding in Susac’s syndrome,[3] and a similar “sea-fan-” type pattern of neovascularization has been noted in a recent case report.[4]Figure 1: (a and b) Fundus photography and late-phase fundus fluorescein angiography of the left eye demonstrating preretinal neovascularization at the border of an ischemic retinal area, temporally (encircled areas)Figure 2: (a and b) Pathognomonic callosal lesions (green arrows) and subsequent improvement on magnetic resonance imaging, while the patient was on intravenous rituximab treatmentFigure 3: (a) Late-phase fundus fluorescein angiography of the right eye showing active disease with typical multifocal arteriolar leakage (red arrows). (b) Left eye temporal peripheral nonperfusion before panretinal photocoagulation treatment (blue arrows)Figure 4: Late-phase fundus fluorescein angiography of the left eye showing persistent hyperfluorescent preretinal neovascularization after panretinal photocoagulation (blue arrow)The patient reported significant improvement in her symptoms, including diplopia and photophobia, after 3 days of intravenous immunoglobulin (IVIg) 2 g/kg and 3 days of methylprednisolone sodium succinate 1 g/daily. She was started on a maintenance dose of prednisone and maintenance IVIg. Over the course of her management, she became intolerant to multiple immunosuppressive agents, including oral mycophenolate mofetil, azathioprine, steroids, and IVIg monotherapy. Ultimately, IV rituximab infusions every 6 months were chosen as a second-line therapy. Susac’s syndrome is a complex diagnosis requiring multidisciplinary workup and management, in which multimodal retinal imaging is crucial. When suspecting Susac’s syndrome, there should be a low threshold to obtain FFA to detect ischemic areas secondary to BRAO, as well as neovascularization. The differential diagnosis for Susac’s syndrome is broad, but must include causes of occlusive retinal vasculopathy: Behcet’s uveitis, sarcoidosis, systemic lupus erythematosus, Eales’ disease, tuberculous retinal vasculitis, idiopathic retinal vasculitis-aneurysms-neuroretinitis syndrome, and multiple sclerosis. Declaration of Patient Consent Written informed consent was obtained from the patient for publication of the details of their medical case and the accompanying images. The patient understands that their name or initials will not be depicted, and due efforts will be made to conceal their identity; however, anonymity cannot be guaranteed. Financial support and sponsorship This work was supported by NIH CORE Grant P30 EY08098 to the Department of Ophthalmology, the Eye and Ear Foundation of Pittsburgh, and from an unrestricted grant from Research to Prevent Blindness, New York, NY. Conflicts of interest There are no conflicts of interest.",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Albinism"
-    },
-    {
       "pmid": "",
       "doi": "10.1016/s1011-1344(01)00227-5",
       "zotero_key": "HEUS99WM",
@@ -17158,8 +16651,8 @@
     {
       "pmid": "41775632",
       "doi": "10.1523/jneurosci.1924-25.2026",
-      "zotero_key": "BQU7NWRQ",
-      "title": "RGR-mediated photopic visual cycle and oxidative stress: potential mechanisms for cone vision impairment and retinal degeneration in retinitis pigmentosa linked to D1080N-IRBP",
+      "zotero_key": "7P8FFTC8",
+      "title": "RGR-Mediated Photopic Visual Cycle and Oxidative Stress: Potential Mechanisms for Cone Vision Impairment and Retinal Degeneration in Retinitis Pigmentosa Linked to D1080N-IRBP",
       "authors": [
         [
           "Songhua",
@@ -17176,14 +16669,14 @@
       ],
       "journal": "Journal of Neuroscience",
       "year": "2026",
-      "abstract": "Interphotoreceptor retinoid-binding protein (IRBP), an extracellular glycoprotein, supports cone-mediated vision through unclear molecular mechanisms. Over 30 different mutations in the IRBP gene have been found in patients with retinitis pigmentosa, childhood-onset retinal dystrophy with high myopia, and cone-rod dystrophy, yet their pathogenicity and underlying pathogenic mechanisms have not been studied in animal models. Here, we found that extracellular IRBP significantly increased the quantities of the extracellular, but not intracellular, 11-cis-retinol and 11-cis-retinal synthesized by retinal G protein-coupled receptor (RGR) in coordination with retinol dehydrogenases and green light stimuli. Retinoid trafficking in the retina and recovery of S-cone and rod maximum photoresponses were substantially delayed in male and female mice of a new retinitis pigmentosa model linked to the human D1080N-IRBP. The mutant IRBP was unstable, not secreted, and retained in the endoplasmic reticulum of photoreceptors due to formation of insoluble high molecular complexes via disulfide bonds. Young mutant mice exhibited profound reduction in photoresponses to ultraviolet stimuli without a significant S-opsin reduction and S-cone structural degeneration. In contrast, M-cones exhibited early and progressive degeneration, accompanied by mislocalization of M-opsin to the soma and synaptic region of M-cones. Rods also underwent early and progressive degeneration. Oxidative and inflammatory stresses as well as pro-apoptotic proteins such as activated caspase-3, BAX, and apoptosis-inducing factor were markedly increased in the mutant mouse retina. These findings identify both a role of IRBP in the RGR-mediated photopic visual cycle supporting daytime color vision and the molecular mechanism by which D1080N-IRBP causes vision impairment and photoreceptor degeneration.Significance Statement IRBP, an interphotoreceptor matrix protein, supports cone-mediated color vision via unclear mechanism. Mutations in IRBP are associated with blinding diseases with poorly understood pathogenic mechanism. Here, we found that IRBP plays an important role in the RGR-mediated photopic visual cycle essential cone-mediated vision. Consistent with this, recovery of S-cone photoresponse was significantly delayed in a newly developed mouse model carrying a human disease-causing IRBP mutation. This mutation abolished IRBP secretion and led to progressive degeneration of rods and M-cones, accompanied by elevation of oxidative stress, inflammatory cytokines, and proapoptotic proteins in the retina. These results identify both a functional mechanism of IRBP in promoting cone-mediated vision and a pathogenic mechanism by which IRBP mutations cause vision loss and photoreceptor degeneration.",
+      "abstract": "Interphotoreceptor retinoid-binding protein (IRBP), an extracellular glycoprotein, supports cone-mediated vision through unclear molecular mechanisms. Over 30 different mutations in the IRBP gene have been found in patients with retinitis pigmentosa (RP), childhood-onset retinal dystrophy with high myopia, and cone-rod dystrophy, yet their pathogenicity and underlying pathogenic mechanisms have not been studied in animal models. Here, we found that extracellular IRBP significantly increased the quantities of the extracellular, but not intracellular, 11- cis -retinol and 11- cis -retinal synthesized by retinal G-protein–coupled receptor (RGR) in coordination with retinol dehydrogenases and GL stimuli. Retinoid trafficking in the retina and recovery of S-cone and rod maximum photoresponses were substantially delayed in male and female mice of a new RP model linked to the human D1080N-IRBP. The mutant IRBP was unstable, not secreted, and retained in the endoplasmic reticulum of photoreceptors due to formation of insoluble high molecular complexes via disulfide bonds. Young mutant mice exhibited profound reduction in photoresponses to ultraviolet stimuli without a significant S-opsin reduction and S-cone structural degeneration. In contrast, M-cones exhibited early and progressive degeneration, accompanied by mislocalization of M-opsin to the soma and synaptic region of M-cones. Rods also underwent early and progressive degeneration. Oxidative and inflammatory stresses as well as proapoptotic proteins such as activated caspase-3, BAX, and apoptosis-inducing factor were markedly increased in the mutant mouse retina. These findings identify both a role of IRBP in the RGR-mediated photopic visual cycle supporting daytime color vision and the molecular mechanism by which D1080N-IRBP causes vision impairment and photoreceptor degeneration.",
       "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:recent"
       ],
       "category": "6 - Genes",
-      "subcollection": "ARR3"
+      "subcollection": "RBP3"
     },
     {
       "pmid": "42322193",
@@ -17550,6 +17043,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42678407",
+      "doi": "10.1007/s00595-026-03476-w",
+      "zotero_key": "U2K2WV5A",
+      "title": "Safety and efficacy of tolvaptan sodium phosphate in patients undergoing open-heart surgery",
+      "authors": [
+        [
+          "Hiroyuki",
+          "Nishi"
+        ],
+        [
+          "Tetsuya",
+          "Saito"
+        ],
+        [
+          "Takaya",
+          "Nakagwa"
+        ],
+        [
+          "Koji",
+          "Iha"
+        ]
+      ],
+      "journal": "Surgery Today",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "",
@@ -18122,32 +17649,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Severe early-onset retinal dystrophy"
-    },
-    {
-      "pmid": "41069227",
-      "doi": "10.1113/jp289770",
-      "zotero_key": "ZSZ9H8WJ",
-      "title": "Special issue: The giant impact of synapses on brain function and disease",
-      "authors": [
-        [
-          "Samuel",
-          "Young"
-        ],
-        [
-          "Lu‐Yang",
-          "Wang"
-        ]
-      ],
-      "journal": "The Journal of Physiology",
-      "year": "2025",
-      "abstract": "Synapses are specialized junctions that are the fundamental sites of communication between neurons. The speed, plasticity and structural diversity of synapses form the basis of sensation, motor control, learning, memory and higher cognitive functions. Mounting evidence indicates that synaptic dysfunction or degeneration is the key driver for neurological and psychiatric diseases, such as Parkinson's disease, Alzheimer's disease, amyotrophic lateral sclerosis, schizophrenia, intellectual disability, epilepsy, ataxia's, dementia and autism spectrum disorders. Despite the central role of synapses, the mechanisms that link synaptic alterations to disease onset and progression remain unknown. Therefore, deciphering the molecular and biophysical principles that govern synapse formation, organization and dynamic remodelling is not only essential for understanding basic brain function but also for illuminating the root cause of neurological disorders. In short, elucidating how synapses control circuit function and behaviour is indispensable to developing targeted therapeutic strategies for a wide array of brain diseases. To address these fundamental questions that underpin the neuroscience field, The Giant Synapse Symposium was started in 2010 to gather a diverse group of scientists across careers stages with a shared interest in the ‘giant impact of all synapses’. Many of the articles in this special issue arose from The Giant Synapse Meeting 2023: Synaptic function, exocytosis, and endocytosis in Washington, DC on 10–11 November 2023. This meeting featured a special session on exo- and endocytosis to honor the 50th year anniversary in 2023 since Drs John Heuser and Tom Reese demonstrated local endocytosis after synaptic transmission. To celebrate this seminal discovery, Dr John Heuser gave a plenary lecture that described their findings and how their collaborations led to this seminal work, which impacted the field of synaptic transmission and plasticity for the decades that followed. The meeting covered multiple areas with the first session on Exocytosis and endocytosis of synaptic vesicles, with talks given by John Heuser (Washington University–St Louis), Shigeki Watanabe (Johns Hopkins University), Ling-Gang Wu, (NIH) and Volker Haucke, (Leibniz Research Institute for Molecular Pharmacology). The second session focused on the Dynamics and organization of synaptic vesicle pools, with talks by Jeremy Dittman (Cornell University), Katie Kindt (NIH), Araven Tiroumlechetty (Albert Einstein College of Medicine) Cordelia Imig (University of Copenhagen) and Ege Kavalali (Vanderbilt University). Session 3 covered Neural excitability and transmission with presentations by Zayd Khaliq (NIH), Jianing Li (University of Iowa), Indira Raman (Northwestern University), and Stephanie Gantz (University of Iowa). The fourth session focused on Synaptic transmission and plasticity with talks by Grae Davis (University of California-San Francisco), Tinting Wang, (Georgetown University), Sabine Rannio (McGill University), Troy Littleton (Massachusetts Institute of Technology) and Audrey Medeiros (Brown University). The final session focused on Synaptic adaption and maladaptation with talks by Melanie Samuel (Baylor University), Ghazal Ashrafi (Washington University–St Louis), Yomna Badawi (University of Pittsburgh), Alison Barth (Carnegie Mellon University) and Lisa Monteggia (Vanderbilt University). In this issue of The Journal of Physiology, we have a series of Perspectives, Reviews and Research Articles from members of the synaptic community that highlight the leading edge of research into the molecular and biophysical principles that govern synapse formation, organization, dynamic remodelling and how they impact the root cause of neurological disorders. The first series of Perspectives highlight insights into the cellular and molecular mechanisms on how the presynaptic H3 receptor controls excitatory and inhibitory homeostasis (Ma & Hu, 2025), how cAMP reduces action potential amplitude and conduction velocity over long axonal distance (Abate et al., 2025), the roles of dynamin-independent mechanisms in exo–endocytosis coupling (Bandura & Feng, 2025), insights into vesicle priming states and plasticity (Dittman, 2025), and how spinogenesis to synaptogenesis occurs with dendritic filopodia converting into spines (Kong & Wang, 2025). This is followed by a series of Reviews on the current understanding and future prospects of the roles of synapsin tetramerization in synaptic vesicle clustering (Song & Augustine, 2025), and adaptor protein complexes in generating functionally distinct synaptic vesicle pools (Asmerian et al., 2025). This is followed by how ubiquitin ligase signalling networks shape presynaptic development, function and disease (Borgen & Grill, 2025), how synaptic adhesion molecules are trafficked (Bogaciu & Rizzoli, 2024), and how the synaptic vesicle clusters control pre- and post-synaptic structure and function (Bogaciu & Rizzoli, 2024). Additional reviews focus on the biogenesis and reformation of synaptic vesicles (Bolz & Haucke, 2025), the regulation of presynaptic homeostatic plasticity by glial signalling in Alzheimer's disease (Cai & Wang, 2025) and how presynaptic vesicle cycling is enhanced during long-term potentiation in the hippocampus (Harris, 2025). Finally, there are a bevy of Research Articles on several different themes that break new ground with exciting discoveries. One major theme is centred on the roles of presynaptic modulation regulating synaptic transmission. These articles look at how presynaptic histamine H3 heteroreceptors suppress excitatory synaptic transmission in the centrolateral amygdala (Zhang, Ling et al., 2025), how somatostatin modulates fusion pore dynamics (Cheng & Jackson, 2025), how presynaptic quantal size enhancement counteracts post-tetanic release depression (Nair et al., 2025), how the deficiency of protein kinase A-mediated SNAP-25b phosphorylation destabilizes exocytotic fusion pores and reduces the interaction of t-SNAREs (Hsiao et al., 2025), how independently engaging protein tethers of different length enhances synaptic vesicle trafficking to the plasma membrane (Berns et al., 2025), and how the number and relative abundance of synaptic vesicles in functionally distinct priming states determine synaptic strength and short-term plasticity (Lin et al., 2025). There is a series of articles that are focused around the theme of synaptic vesicle recycling and endocytosis. They are on how in the absence of dynamins quantal synaptic vesicle recycling persists (Afuwape et al., 2025), deciphering how developmental translocation of Intersectin-1 pivots calcium-dependent replenishment of the readily releasable pool of synaptic vesicles (Yang et al., 2025), how acute introduction of monomeric or multimeric α-synuclein induced distinct impacts on synaptic vesicle trafficking at lamprey giant synapses (Roman-Vendrell et al., 2025), and how complexin gains effective access to the assembling SNAREs via its membrane-binding C-terminal domain (Lottermoser et al., 2025). Another principal focus is to elucidate how ion channel physiology and electrical properties impact synaptic transmission and plasticity. This theme is represented by how cAMP controls action potential and neurotransmitter release at Purkinje cell outputs (Furukawa et al., 2025), how inactivation of A-type currents through Kv4 channels controls action potential afterdepolarizations (Sultan et al., 2025), how Kv4 channels improve the temporal processing of auditory neurons in the cochlear nucleus (Zhang, Wang et al., 2025), and how PDE4A5 exerts differential effects on cAMP-dependent forms of long-term potentiation (Tadinada et al., 2025). Anothercore area is receptor function and impact on synaptic excitability, represented by articles on how NMDA receptors increase sounds evoked and spontaneous firing in the inferior colliculus (Drotos et al., 2025), discovery of activity-induced conversion from dendritic filopodia to spines mediated by NMDA receptor-dependent calcium transients and vesicular exocytosis (Liu et al., 2025), and by novel findings in how activation of TRPA1 and TRPM3 triggers Ca2+ waves to facilitates synaptic activity in the spinal dorsal horn (Andrianov et al., 2025). Finally the theme of structural and developmental synaptic mechanisms is represented by how microtubules maintain synaptic-vesicle populations at ribbon synapses in zebrafish hair cells (David et al., 2025), insight into synaptic communication within the microcircuits of pyramidal neurons and basket cells in the mouse prefrontal cortex (Fekete et al., 2025), and how ageing-induced weakness of mouse neuromuscular junctions is associated with reduced active zone density, synaptic event kinetics, and presynaptic calcium entry (Li et al., 2025). We hope this series of perspectives, reviews and research papers will bring about new paradigms of thinking to advance the understanding of synaptic neurobiology in healthy and diseased brain. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article. The authors declare no conflict of interest. S.Y. and L.-Y.W.: conception or design of the work; drafting the work or revising it critically for important intellectual content. Both authors have read and approved the final version of this manuscript and agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All persons designated as authors qualify for authorship, and all those who qualify for authorship are listed. This work was supported by National Institute of Neurological Disorders RO1 NS110742 (SMY), National Institute on Deafness and Other Communication Disorders RO1 DC014093 (SMY), MIllion Dollar Bike Ride-Penn medicine orphan disease Center (SMY), research funds from University of North Carolina-Chapel Hill (SMY), Canadian Government, Canadian Institutes of Health Research 202309PJT-50532;202403PJT-518084 (LW), Natural Sciences and Engineering Research Council of Canada RGPIN-2022-05425 (LW) and Tier 1 Canada Research Chair CRC-95-232466 (LW)",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARID2"
     },
     {
       "pmid": "42231409",
@@ -18932,28 +18433,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "FBN1"
-    },
-    {
-      "pmid": "24821103",
-      "doi": "10.1097/wno.0000000000000124",
-      "zotero_key": "HWI58EXU",
-      "title": "The 12th Hoyt Lecture",
-      "authors": [
-        [
-          "Nancy J.",
-          "Newman"
-        ]
-      ],
-      "journal": "Journal of Neuro-Ophthalmology",
-      "year": "2014",
-      "abstract": "No matter what their ultimate specialty, every ophthalmologist needs to master the basics of neuro-ophthalmology. To that end, we must ensure that we continue to train effective teachers of neuro-ophthalmology. This is William F. Hoyt's most important lasting legacy and charge. In this same spirit, Emory Neuro-Ophthalmology has tried to carry on this essential mission of training the next generations of neuro-ophthalmologists around the world not only as clinical practitioners of the art but also as academicians and teachers in their own right, contributing greatly to our specialty and, at the same time, teaching non–neuro-ophthalmologists the basics of what they need to know about neuro-ophthalmology and creating the next generation of neuro-ophthalmologists. Through the projects and key publications of 50 Emory fellows, this neuroanatomical tour reviews advances in neuro-ophthalmology over the past 25 years, highlighting common and uncommon disorders affecting the afferent and efferent visual systems. We begin our tour in the eye and how findings in the retina can reflect neurologic disease such as acute posterior multifocal placoid pigment epitheliopathy, carotid–cavernous fistula, cat scratch encephalopathy, and mitochondrial disease, but not migraine. We then move to the optic nerve and contributions to our understanding of optic neuropathies including optic neuritis, its demographics and treatment, anterior ischemic optic neuropathy of the young and in patients with giant cell arteritis, Leber hereditary optic neuropathy, dominant optic atrophy, the risk factors for visual loss from papilledema in patients with idiopathic intracranial hypertension, and the recently appreciated myriad of neuroimaging findings in patients with elevated intracranial pressure. Regarding the retrochiasmal pathways, publications have advanced our understanding of homonymous hemianopias, their detection, causes, congruity, and prognosis for recovery. Studies of cranial nerves 3, 4, and 6 have alerted us to the problems of radiologically unreported aneurysms and dural fistulae, the difficulties in surgically correcting residual ocular misalignment, and the prevalence of these disorders among hundreds of victims of head trauma. A study of visual complaints in patients with Parkinson disease helped neurologists understand that the most frequent causes of visual disability are ocular and potentially quite treatable. Regarding recent technology, we have written on optical coherence tomography and, most prolifically, on the uses of nonmydriatic ocular fundus photography in various settings, including the emergency department, the pediatric ophthalmology clinic, on the iphone through telemedicine, and in the classroom for teaching medical students. Fellows trained at Emory are now scattered across the globe (Fig. 1), but they remain a close-knit family of clinicians, scholars, researchers, and educators. A video of the 12th Hoyt lecture is available online within the Neuro-Ophthalmology Virtual Education Library at http://content.lib.utah.edu/cdm/ref/collection/EHSL-NOVEL/id/2051.FIG. 1: Current location of 50 former Emory neuro-ophthalmology fellows.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Retinal dystrophies"
     },
     {
       "pmid": "42058367",
@@ -19976,48 +19455,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "41774436",
-      "doi": "10.1094/mpmi-02-26-0015-r",
-      "zotero_key": "GJDNTNRQ",
-      "title": "The RING-Type Ubiquitin Ligase XBAT35.2 Positively Modulates Plant Immunity by Promoting FLS2 Protein Accumulation",
-      "authors": [
-        [
-          "Y. B.",
-          "Zhang"
-        ],
-        [
-          "Chaofeng",
-          "Wang"
-        ],
-        [
-          "Bangjun",
-          "Zhou"
-        ],
-        [
-          "Pooja",
-          "Verma"
-        ],
-        [
-          "Sadia",
-          "Hamera"
-        ],
-        [
-          "Lirong",
-          "Zeng"
-        ]
-      ],
-      "journal": "Molecular Plant-Microbe Interactions",
-      "year": "2026",
-      "abstract": "Pattern-triggered immunity (PTI) serves as a critical frontline defense in plants, initiated by the recognition of pathogen- or microbe-associated molecular patterns (PAMPs/MAMPs) by cell-surface pattern recognition receptors (PRRs). The PRR FLAGELLIN-SENSING 2 (FLS2), which perceives bacterial flagellin (flg22), is essential for plant defense against bacterial pathogens. In this study, we demonstrate that the Arabidopsis ubiquitin ligase (E3) XBAT35.2 positively regulates FLS2-mediated PTI by modulating FLS2 protein stability. XBAT35 belongs to an Arabidopsis E3 ligase family that features an Ankyrin-repeat (ANK)-RING domain architecture and is highly homologous to tomato XBSL35 (XB3 ortholog 5 in <i>Solanum lycopersicum</i>), an interactor of the tomato E2 enzyme Fni3 that has been implicated in Lys63-linked ubiquitination and plant immunity. The <i>XBAT35</i> transcript undergoes alternative splicing, giving rise to two isoforms, XBAT35.1 and XBAT35.2. Unlike XBAT34 and XBAT35.1, XBAT35.2 was shown to function in plant immunity against the bacterial pathogen <i>Pseudomonas syringae</i> pv. <i>tomato</i> strain DC3000. Overexpression of XBAT35.2 increases FLS2 protein accumulation without affecting BAK1 levels, while the <i>xbat35</i> null mutant exhibits enhanced flg22-induced FLS2 degradation. XBAT35.2 is localized to the plasma membrane (PM) and the Golgi apparatus, interacting with FLS2, BAK1, and BIK1 at the PM in vivo via its ANK domain. Treatment with flg22 strengthens XBAT35.2 interactions with FLS2 and BAK1 but reduces its association with BIK1. Notably, XBAT35.2 does not ubiquitinate FLS2 in vitro. These findings suggest that XBAT35.2 contributes to plant PTI by modulating FLS2 protein stability, presumably without directly ubiquitinating FLS2, and likely also facilitates early FLS2-mediated immune signaling.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PRPH2"
     },
     {
       "pmid": "",
@@ -21154,88 +20591,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Aniridia"
-    },
-    {
-      "pmid": "41793087",
-      "doi": "",
-      "zotero_key": "B37RXF32",
-      "title": "WDTC1 Haploinsufficiency as a Cause of Neurodevelopmental Phenotypes.",
-      "authors": [
-        [
-          "Elyssa",
-          "Smith"
-        ],
-        [
-          "Victor",
-          "Faundes"
-        ],
-        [
-          "Xinyu",
-          "Zhao"
-        ],
-        [
-          "Zheng",
-          "Bixia"
-        ],
-        [
-          "Gang",
-          "Zhang"
-        ],
-        [
-          "Xiao",
-          "Mao"
-        ],
-        [
-          "Emily",
-          "Danko"
-        ],
-        [
-          "Jason",
-          "Laufman"
-        ],
-        [
-          "Thomas",
-          "Besnard"
-        ],
-        [
-          "Bertrand",
-          "Isidor"
-        ],
-        [
-          "Benjamin",
-          "Cogné"
-        ],
-        [
-          "Brynjar Örn",
-          "Jensson"
-        ],
-        [
-          "Telma",
-          "Sulem"
-        ],
-        [
-          "Patrick",
-          "Sulem"
-        ],
-        [
-          "Jill A",
-          "Rosenfeld"
-        ],
-        [
-          "Daryl A.",
-          "Scott"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2026",
-      "abstract": "WD and tetratricopeptide repeats protein 1 (WDTC1) encodes a component of the cullin-RING E3 ligase complexes that mediate polyubiquitination of specific target proteins for degradation and has been shown to regulate lipid storage in studies performed in Drosophila, mice, and humans. WDTC1 is expressed in a wide variety of tissues and organs including the brain and is predicted to be loss-of-function intolerant. To determine the phenotypes associated with WDTC1 haploinsufficiency, we identified seven individuals, six of whom have not been previously reported, who are heterozygous for loss-of-function or putatively damaging missense variants in WDTC1. None of these individuals were reported to be obese, but all had neurodevelopmental phenotypes that included developmental delay and intellectual disability. Seizures were also recurrently reported. One loss-of-function variant was inherited from an affected mother, and one missense variant was inherited from an unaffected father. Our findings suggest that WDTC1 haploinsufficiency causes a neurodevelopmental syndrome characterized by variable developmental delay, intellectual disability, and seizures. The identification of additional patients with loss-of-function variants will be needed to identify recurrent patterns of less common phenotypes, determine with greater certainty if obesity is or is not a feature associated with this disorder, and confirm that this disorder is incompletely penetrant.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "FBN1"
     },
     {
       "pmid": "41690779",
