@@ -1,6 +1,546 @@
 {
- "generated_at": "2026-09-08T12:27:08Z",
+ "generated_at": "2026-09-09T12:08:41Z",
  "additions": [
+  {
+   "pmid": "28483418",
+   "doi": "10.1016/j.molcel.2017.04.018",
+   "title": "Mll3 and Mll4 Facilitate Enhancer RNA Synthesis and Transcription from Promoters Independently of H3K4 Monomethylation",
+   "year": "2017",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:20:16Z"
+  },
+  {
+   "pmid": "12482968",
+   "doi": "10.1128/mcb.23.1.140-149.2003",
+   "title": "Activating Signal Cointegrator 2 Belongs to a Novel Steady-State Complex That Contains a Subset of Trithorax Group Proteins",
+   "year": "2002",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:20:16Z"
+  },
+  {
+   "pmid": "19703992",
+   "doi": "10.1128/mcb.00924-09",
+   "title": "Global Analysis of H3K4 Methylation Defines MLL Family Member Targets and Points to a Role for MLL1-Mediated H3K4 Methylation in the Regulation of Transcriptional Initiation by RNA Polymerase II",
+   "year": "2009",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:20:16Z"
+  },
+  {
+   "pmid": "24244024",
+   "doi": "10.4049/jimmunol.1302229",
+   "title": "TAM Receptors Affect Adult Brain Neurogenesis by Negative Regulation of Microglial Cell Activation",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "22422887",
+   "doi": "10.4049/jimmunol.1102920",
+   "title": "Complement Component C1q Regulates Macrophage Expression of Mer Tyrosine Kinase To Promote Clearance of Apoptotic Cells",
+   "year": "2012",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "24650765",
+   "doi": "10.1186/ar4517",
+   "title": "Increased expression of Mer tyrosine kinase in circulating dendritic cells and monocytes of lupus patients: correlations with plasma interferon activity and steroid therapy",
+   "year": "2014",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "30143932",
+   "doi": "10.1007/s10753-018-0877-5",
+   "title": "MerTK Downregulates Lipopolysaccharide-Induced Inflammation Through SOCS1 Protein but Does Not Affect Phagocytosis of Escherichia coli in Macrophages",
+   "year": "2018",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "19301199",
+   "doi": "10.1080/08916930802668586",
+   "title": "The receptor tyrosine kinase MerTK regulates dendritic cell production of BAFF",
+   "year": "2009",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "23197771",
+   "doi": "10.1124/jpet.112.199778",
+   "title": "Upregulation of Mer Receptor Tyrosine Kinase Signaling Attenuated Lipopolysaccharide-Induced Lung Inflammation",
+   "year": "2012",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "20959443",
+   "doi": "10.1074/jbc.m110.126748",
+   "title": "Ectosomes Released by Polymorphonuclear Neutrophils Induce a MerTK-dependent Anti-inflammatory Pathway in Macrophages",
+   "year": "2010",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "30699285",
+   "doi": "10.14348/molcells.2018.0419",
+   "title": "Anti-Inflammatory Role of TAM Family of Receptor Tyrosine Kinases Via Modulating Macrophage Function.",
+   "year": "2019",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "25884792",
+   "doi": "10.1111/1756-185x.12568",
+   "title": "Incomplete clearance of apoptotic cells in systemic lupus erythematosus: pathogenic role and potential biomarker",
+   "year": "2015",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "34631419",
+   "doi": "10.3233/bpl-210125",
+   "title": "TAM Signaling in the Nervous System",
+   "year": "2021",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "40595270",
+   "doi": "10.1038/s41598-025-08086-z",
+   "title": "Clinical significance of TAM receptor in the minor salivary glands of patients with Sjögren’s disease",
+   "year": "2025",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "34631417",
+   "doi": "10.3233/bpl-200102",
+   "title": "Identification and Characterisation of cis-Regulatory Elements Upstream of the Human Receptor Tyrosine Kinase Gene MERTK",
+   "year": "2020",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "39570652",
+   "doi": "10.7554/elife.96085",
+   "title": "ACK1 and BRK non-receptor tyrosine kinase deficiencies are associated with familial systemic lupus and involved in efferocytosis",
+   "year": "2024",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "38883731",
+   "doi": "10.1101/2024.02.15.24302255",
+   "title": "ACK1 and BRK non-receptor tyrosine kinase deficiencies are associated with familial systemic lupus and involved in efferocytosis",
+   "year": "2024",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "17005688",
+   "doi": "10.1128/jvi.01157-06",
+   "title": "Tyro3 Family-Mediated Cell Entry of Ebola and Marburg Viruses",
+   "year": "2006",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "24466192",
+   "doi": "10.1371/journal.pone.0086660",
+   "title": "The Monocyte to Macrophage Transition in the Murine Sterile Wound",
+   "year": "2014",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "26962228",
+   "doi": "10.4049/jimmunol.1502562",
+   "title": "MerTK Is a Functional Regulator of Myelin Phagocytosis by Human Myeloid Cells",
+   "year": "2016",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "26523970",
+   "doi": "10.1038/nm.3974",
+   "title": "The TAM receptor Mertk protects against neuroinvasive viral infection by maintaining blood-brain barrier integrity",
+   "year": "2015",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "23071254",
+   "doi": "10.1084/jem.20120493",
+   "title": "Identification of Axl as a downstream effector of TGF-β1 during Langerhans cell differentiation and epidermal homeostasis",
+   "year": "2012",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "25624460",
+   "doi": "10.1189/jlb.3a0714-334r",
+   "title": "MERTK as negative regulator of human T cell activation",
+   "year": "2015",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "30846565",
+   "doi": "10.1074/jbc.ra118.006628",
+   "title": "MERTK tyrosine kinase receptor together with TIM4 phosphatidylserine receptor mediates distinct signal transduction pathways for efferocytosis and cell proliferation",
+   "year": "2019",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "21347448",
+   "doi": "10.1371/journal.pone.0016964",
+   "title": "Polymorphisms in the Receptor Tyrosine Kinase MERTK Gene Are Associated with Multiple Sclerosis Susceptibility",
+   "year": "2011",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "25514676",
+   "doi": "10.1371/journal.pone.0115140",
+   "title": "TAM Receptors Support Neural Stem Cell Survival, Proliferation and Neuronal Differentiation",
+   "year": "2014",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "23203851",
+   "doi": "10.1002/art.37786",
+   "title": "Therapeutic efficacy of Tyro3, Axl, and Mer tyrosine kinase agonists in collagen‐induced arthritis",
+   "year": "2012",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "14623883",
+   "doi": "10.1074/jbc.m311750200",
+   "title": "Ligand Recognition and Homophilic Interactions in Tyro3",
+   "year": "2004",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "21496228",
+   "doi": "10.1186/ar3316",
+   "title": "Increased plasma levels of the soluble Mer tyrosine kinase receptor in systemic lupus erythematosus relate to disease activity and nephritis",
+   "year": "2011",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "23497733",
+   "doi": "10.1186/ar4199",
+   "title": "Vitamin K-dependent proteins GAS6 and Protein S and TAM receptors in patients of systemic lupus erythematosus: correlation with common genetic variants and disease activity",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "23319738",
+   "doi": "10.4049/jimmunol.1200824",
+   "title": "Prolonged Apoptotic Cell Accumulation in Germinal Centers of Mer-Deficient Mice Causes Elevated B Cell and CD4+ Th Cell Responses Leading to Autoantibody Production",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "15650770",
+   "doi": "10.1172/jci22079",
+   "title": "Role of Gas6 receptors in platelet signaling during thrombus stabilization and implications for antithrombotic therapy",
+   "year": "2005",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "27419619",
+   "doi": "10.1016/j.molimm.2016.06.016",
+   "title": "Mer receptor tyrosine kinase negatively regulates lipoteichoic acid-induced inflammatory response via PI3K/Akt and SOCS3",
+   "year": "2016",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "37958886",
+   "doi": "10.3390/ijms242115903",
+   "title": "The Tolerogenic Influence of Dexamethasone on Dendritic Cells Is Accompanied by the Induction of Efferocytosis, Promoted by MERTK",
+   "year": "2023",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "19251650",
+   "doi": "10.1073/pnas.0900683106",
+   "title": "MerTK regulates thymic selection of autoreactive T cells",
+   "year": "2009",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "22687607",
+   "doi": "10.1016/j.taap.2012.05.024",
+   "title": "Preventing cleavage of Mer promotes efferocytosis and suppresses acute lung injury in bleomycin treated mice",
+   "year": "2012",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "25878564",
+   "doi": "10.1186/s12969-015-0007-y",
+   "title": "Increased soluble phagocytic receptors sMer, sTyro3 and sAxl and reduced phagocytosis in Juvenile-onset Systemic Lupus Erythematosus",
+   "year": "2015",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "32187540",
+   "doi": "10.1016/j.celrep.2020.02.101",
+   "title": "Dead Cells Induce Innate Anergy via Mertk after Acute Viral Infection",
+   "year": "2020",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "7559388",
+   "doi": "10.1074/jbc.270.39.22681",
+   "title": "Stimulation of Sky Receptor Tyrosine Kinase by the Product of Growth Arrest-specific Gene 6",
+   "year": "1995",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "29118245",
+   "doi": "10.4049/jimmunol.1700611",
+   "title": "Mer Receptor Tyrosine Kinase Signaling Prevents Self-Ligand Sensing and Aberrant Selection in Germinal Centers",
+   "year": "2017",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "28369510",
+   "doi": "10.1093/molbev/msx102",
+   "title": "Antagonistic Coevolution of MER Tyrosine Kinase Expression and Function",
+   "year": "2017",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "42094405",
+   "doi": "10.64898/2026.04.27.720940",
+   "title": "Transient efferocytosis-induced activation of IKKβ reprograms macrophages to promote tissue resolution",
+   "year": "2026",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "42405212",
+   "doi": "10.4110/in.2026.26.e26",
+   "title": "Apoptotic-Cell Accumulation and Mertk Expression Are Linked to Diminished Antiviral CD8 + T Cell Immunity in Chronic Infections",
+   "year": "2026",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:25:15Z"
+  },
+  {
+   "pmid": "19716809",
+   "doi": "10.1016/j.bbrc.2009.08.127",
+   "title": "Phosphorylation of ARD1 by IKKβ contributes to its destabilization and degradation",
+   "year": "2009",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:30:38Z"
+  },
+  {
+   "pmid": "27910960",
+   "doi": "10.1038/srep38508",
+   "title": "Unc-5 homolog B (UNC5B) is one of the key downstream targets of N-α-Acetyltransferase 10 (Naa10)",
+   "year": "2016",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:30:38Z"
+  },
+  {
+   "pmid": "25421966",
+   "doi": "10.3892/ijo.2014.2770",
+   "title": "Different subcellular localizations and functions of human ARD1 variants",
+   "year": "2014",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:30:38Z"
+  },
+  {
+   "pmid": "34384519",
+   "doi": "10.1016/j.neuron.2021.07.006",
+   "title": "Axon morphogenesis and maintenance require an evolutionary conserved safeguard function of Wnk kinases antagonizing Sarm and Axed",
+   "year": "2021",
+   "subcollection": "NMNAT1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:35:03Z"
+  },
+  {
+   "pmid": "42704165",
+   "doi": "10.1021/acs.inorgchem.6c02998",
+   "title": "U2@ D 3 h (5)-C78: Experimental Validation of a Theoretically Predicted Structure and Insights into U–U Bonding in a Fullerene Cage",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-09-09T11:49:11Z"
+  },
+  {
+   "pmid": "12612584",
+   "doi": "10.1038/ng1120",
+   "title": "Mutations in SOX2 cause anophthalmia",
+   "year": "2003",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:56:17Z"
+  },
+  {
+   "pmid": "41325489",
+   "doi": "10.1371/journal.pgen.1011961",
+   "title": "Two genes, one culprit - a functional candidate validation of a SPATA7 deletion in dogs with day blindness/retinal degeneration",
+   "year": "2025",
+   "subcollection": "SPATA7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:56:48Z"
+  },
+  {
+   "pmid": "35368022",
+   "doi": "10.1038/s41598-022-09530-0",
+   "title": "Spata7 is required for maintenance of the retinal connecting cilium",
+   "year": "2022",
+   "subcollection": "SPATA7",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T11:56:48Z"
+  },
+  {
+   "pmid": "42702620",
+   "doi": "10.1038/s41467-026-76454-y",
+   "title": "Non-canonical pore architecture underlies constitutive gating of human retinal TRPM1",
+   "year": "2026",
+   "subcollection": "TRPM1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T12:03:03Z"
+  },
+  {
+   "pmid": "24664737",
+   "doi": "10.1007/978-1-4614-3209-8_64",
+   "title": "Synergistic Interaction of Tubby and Tubby-Like Protein 1 (Tulp1)",
+   "year": "2014",
+   "subcollection": "TULP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T12:04:42Z"
+  },
+  {
+   "pmid": "11406614",
+   "doi": "10.1093/hmg/10.12.1325",
+   "title": "Neural tube defects and neuroepithelial cell death in Tulp3 knockout mice",
+   "year": "2001",
+   "subcollection": "TULP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-09T12:04:42Z"
+  },
   {
    "pmid": "31898838",
    "doi": "10.1002/humu.23970",
@@ -210,16 +750,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-09-08T11:45:40Z"
-  },
-  {
-   "pmid": "42704165",
-   "doi": "10.1021/acs.inorgchem.6c02998",
-   "title": "U2@ D 3 h (5)-C78: Experimental Validation of a Theoretically Predicted Structure and Insights into U–U Bonding in a Fullerene Cage",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-08T11:54:25Z"
   },
   {
    "pmid": "42674265",
@@ -4066,16 +4596,6 @@
    "doi": "10.1007/978-1-4614-3209-8_65",
    "title": "Interaction of Tubby-Like Protein-1 (Tulp1) and Microtubule-Associated Protein (MAP) 1A and MAP1B in the Mouse Retina",
    "year": "2014",
-   "subcollection": "TULP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-01T12:30:57Z"
-  },
-  {
-   "pmid": "11406614",
-   "doi": "10.1093/hmg/10.12.1325",
-   "title": "Neural tube defects and neuroepithelial cell death in Tulp3 knockout mice",
-   "year": "2001",
    "subcollection": "TULP1",
    "category": "6 - Genes",
    "source": "source:citation",
