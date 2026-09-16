@@ -1,6 +1,726 @@
 {
- "generated_at": "2026-09-15T12:51:44Z",
+ "generated_at": "2026-09-16T12:19:16Z",
  "additions": [
+  {
+   "pmid": "36982987",
+   "doi": "10.3390/ijms24065912",
+   "title": "Retinal Organoids from an AIPL1 CRISPR/Cas9 Knockout Cell Line Successfully Recapitulate the Molecular Features of LCA4 Disease",
+   "year": "2023",
+   "subcollection": "AIPL1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T10:54:08Z"
+  },
+  {
+   "pmid": "38439910",
+   "doi": "10.1016/j.omtn.2024.102148",
+   "title": "Effective AAV-mediated gene replacement therapy in retinal organoids modeling AIPL1-associated LCA4",
+   "year": "2024",
+   "subcollection": "AIPL1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T10:54:08Z"
+  },
+  {
+   "pmid": "33545358",
+   "doi": "10.1016/j.ymthe.2021.01.033",
+   "title": "Enforced dimerization between XBP1s and ATF6f enhances the protective effects of the UPR in models of neurodegeneration",
+   "year": "2021",
+   "subcollection": "ATF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:00:07Z"
+  },
+  {
+   "pmid": "37162806",
+   "doi": "10.1007/s13205-023-03535-w",
+   "title": "Novel pathogenic CERKL variant in Iranian familial with inherited retinal dystrophies: genotype–phenotype correlation",
+   "year": "2023",
+   "subcollection": "CERKL",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:06:39Z"
+  },
+  {
+   "pmid": "42713652",
+   "doi": "10.1242/dmm.052775",
+   "title": "A patient-derived missense mouse model of Kabuki syndrome 1",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "25135975",
+   "doi": "10.1098/rstb.2013.0514",
+   "title": "Regulation of histone H3K4 methylation in brain development and disease",
+   "year": "2014",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "38513661",
+   "doi": "10.1016/j.molcel.2024.02.030",
+   "title": "H3K4me1 facilitates promoter-enhancer interactions and gene activation during embryonic stem cell differentiation",
+   "year": "2024",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "22569554",
+   "doi": "10.1242/dev.076687",
+   "title": "Histone recognition and nuclear receptor co-activator functions ofDrosophilaCara Mitad, a homolog of the N-terminal portion of mammalian MLL2 and MLL3",
+   "year": "2012",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "28013028",
+   "doi": "10.1016/j.jmb.2016.12.016",
+   "title": "H3K4 Methyltransferase Activity Is Required for MLL4 Protein Stability",
+   "year": "2016",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "26320581",
+   "doi": "10.1016/j.str.2015.07.018",
+   "title": "Evolving Catalytic Properties of the MLL Family SET Domain",
+   "year": "2015",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "33431871",
+   "doi": "10.1038/s41467-020-20511-7",
+   "title": "The histone H3-lysine 4-methyltransferase Mll4 regulates the development of growth hormone-releasing hormone-producing neurons in the mouse hypothalamus",
+   "year": "2021",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "42214331",
+   "doi": "10.1016/j.molcel.2026.05.006",
+   "title": "Molecular mechanisms of the MLL4 complex in H3K4 methylation and p53-dependent transcription activation",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "42409830",
+   "doi": "10.1038/s41467-026-75253-9",
+   "title": "The H3K4 methyltransferase KMT2D is an essential cofactor for GATA1 at erythroid gene enhancers",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "42715378",
+   "doi": "10.1093/arclin/acag069",
+   "title": "The social behavioral phenotype of Kabuki syndrome",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:26:44Z"
+  },
+  {
+   "pmid": "25471571",
+   "doi": "10.1523/jneurosci.2449-14.2014",
+   "title": "Targeted GAS6 Delivery to the CNS Protects Axons from Damage during Experimental Autoimmune Encephalomyelitis",
+   "year": "2014",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "32051695",
+   "doi": "10.1155/2020/1614627",
+   "title": "New Insights into the Role of Tyro3, Axl, and Mer Receptors in Rheumatoid Arthritis",
+   "year": "2020",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "20637106",
+   "doi": "10.1186/ar3088",
+   "title": "TAM receptor ligands in lupus: Protein S but not Gas6 levels reflect disease activity in systemic lupus erythematosus",
+   "year": "2010",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "37671615",
+   "doi": "10.1093/brain/awad298",
+   "title": "MerTK is a mediator of alpha-synuclein fibril uptake by human microglia",
+   "year": "2023",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "24325951",
+   "doi": "10.1186/ar4407",
+   "title": "Circulating levels of soluble MER in lupus reflect M2c activation of monocytes/macrophages, autoantibody specificities and disease activity",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "33192322",
+   "doi": "10.3389/fncel.2020.576650",
+   "title": "Gas6 Inhibits Toll-Like Receptor-Mediated Inflammatory Pathways in Mouse Microglia via Axl and Mer",
+   "year": "2020",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "23840307",
+   "doi": "10.1371/journal.pone.0064812",
+   "title": "Systemic Autoimmunity in TAM Triple Knockout Mice Causes Inflammatory Brain Damage and Cell Death",
+   "year": "2013",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "24939420",
+   "doi": "10.1124/jpet.114.215673",
+   "title": "RhoA/Phosphatidylinositol 3-Kinase/Protein Kinase B/Mitogen-Activated Protein Kinase Signaling after Growth Arrest–Specific Protein 6/Mer Receptor Tyrosine Kinase Engagement Promotes Epithelial Cell Growth and Wound Repair via Upregulation of Hepatocyte Growth Factor in Macrophages",
+   "year": "2014",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "30541554",
+   "doi": "10.1186/s12964-018-0308-0",
+   "title": "Tyro3, Axl, and Mertk receptors differentially participate in platelet activation and thrombus formation",
+   "year": "2018",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:32:02Z"
+  },
+  {
+   "pmid": "9326941",
+   "doi": "10.1038/ng1097-194",
+   "title": "Mutations in RPE65 cause autosomal recessive childhood–onset severe retinal dystrophy",
+   "year": "1997",
+   "subcollection": "RPE65",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:56:54Z"
+  },
+  {
+   "pmid": "39489915",
+   "doi": "10.1016/j.ymthe.2024.10.017",
+   "title": "Recombinant adeno-associated virus as a delivery platform for ocular gene therapy: A comprehensive review",
+   "year": "2024",
+   "subcollection": "RPE65",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:56:54Z"
+  },
+  {
+   "pmid": "42733973",
+   "doi": "10.1080/14712598.2026.2733200",
+   "title": "Clinical progress in gene therapy for RPGR-associated X-linked retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "RPE65",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-09-16T11:56:56Z"
+  },
+  {
+   "pmid": "15772089",
+   "doi": "10.1093/hmg/ddi129",
+   "title": "RPGR ORF15 isoform co-localizes with RPGRIP1 at centrioles and basal bodies and interacts with nucleophosmin",
+   "year": "2005",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "9792872",
+   "doi": "10.1086/302121",
+   "title": "A Novel Locus (RP24) for X-linked Retinitis Pigmentosa Maps to Xq26-27",
+   "year": "1998",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "31910043",
+   "doi": "10.1089/hum.2019.297",
+   "title": "Toxicity and Efficacy Evaluation of an Adeno-Associated Virus Vector Expressing Codon-Optimized RPGR Delivered by Subretinal Injection in a Canine Model of X-linked Retinitis Pigmentosa",
+   "year": "2020",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "30280954",
+   "doi": "10.1089/humc.2018.168",
+   "title": "Toxicology and Pharmacology of an AAV Vector Expressing Codon-Optimized RPGR in RPGR-Deficient Rd9 Mice",
+   "year": "2018",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "9326322",
+   "doi": "10.1086/515523",
+   "title": "Analysis of the RPGRGene in 11 Pedigrees with the Retinitis Pigmentosa Type 3 Genotype: Paucity of Mutations in the Coding Region but Splice Defects in Two Families",
+   "year": "1997",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "41539649",
+   "doi": "10.1016/j.jcjo.2025.12.016",
+   "title": "Genotypic and phenotypic landscape of novel RPGR variants in patients from Western Canada",
+   "year": "2026",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T11:59:33Z"
+  },
+  {
+   "pmid": "22193413",
+   "doi": "10.1007/s00335-011-9384-9",
+   "title": "Genome-wide association study in RPGRIP1 −/− dogs identifies a modifier locus that determines the onset of retinal degeneration",
+   "year": "2011",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "38752391",
+   "doi": "10.1111/age.13443",
+   "title": "Frequency of RPGRIP1 and MAP9 genetic modifiers of canine progressive retinal atrophy, in 132 breeds of dog",
+   "year": "2024",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "18687878",
+   "doi": "10.1101/gr.074302.107",
+   "title": "A deletion in nephronophthisis 4 (NPHP4) is associated with recessive cone-rod dystrophy in standard wire-haired dachshund",
+   "year": "2008",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "19223988",
+   "doi": "",
+   "title": "The RPGRIP1-deficient dog, a promising canine model for gene therapy.",
+   "year": "2009",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "36713053",
+   "doi": "10.1515/biol-2022-0532",
+   "title": "Identifying two pathogenic variants in a patient with pigmented paravenous retinochoroidal atrophy",
+   "year": "2023",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "41551217",
+   "doi": "10.1016/j.vas.2025.100555",
+   "title": "Genetic testing drives a decline in the occurrence of the canine PRA-related RPGRIP1 variant without an increase in inbreeding",
+   "year": "2025",
+   "subcollection": "RPGRIP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:01:52Z"
+  },
+  {
+   "pmid": "42524290",
+   "doi": "10.3389/fneur.2026.1851383",
+   "title": "Differences in immune-related semaphorin levels in the CSF and serum of newly diagnosed, treatment-naive patients with relapsing–remitting multiple sclerosis: a case–control study",
+   "year": "2026",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "32169103",
+   "doi": "10.1186/s12974-020-01757-w",
+   "title": "Sema4A is implicated in the acceleration of Th17 cell-mediated neuroinflammation in the effector phase",
+   "year": "2020",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "42313864",
+   "doi": "10.1371/journal.pbio.3003865",
+   "title": "The microglia-derived protein Sema4ab attenuates regenerative neurogenesis after spinal cord injury in zebrafish",
+   "year": "2026",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "42216457",
+   "doi": "10.1002/jcsm.70315",
+   "title": "Sema4A Protects Against Muscle Atrophy and Promotes Repair by Regulating Intracellular Metabolic Signalling",
+   "year": "2026",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "12893810",
+   "doi": "10.1242/jcs.00674",
+   "title": "Immune semaphorins: a new area of semaphorin research",
+   "year": "2003",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "29467366",
+   "doi": "10.1038/s41467-018-03128-9",
+   "title": "Human Semaphorin-4A drives Th2 responses by binding to receptor ILT-4",
+   "year": "2018",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "22491253",
+   "doi": "10.4049/jimmunol.1102023",
+   "title": "Elevation of Sema4A Implicates Th Cell Skewing and the Efficacy of IFN-β Therapy in Multiple Sclerosis",
+   "year": "2012",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "31012544",
+   "doi": "10.1002/art.40915",
+   "title": "Induction of Inflammation and Fibrosis by Semaphorin 4A in Systemic Sclerosis",
+   "year": "2019",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "31876207",
+   "doi": "10.1080/08916934.2019.1704273",
+   "title": "T-cell specific upregulation of Sema4A as risk factor for autoimmunity in systemic lupus erythematosus and rheumatoid arthritis",
+   "year": "2019",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "41893339",
+   "doi": "10.3390/metabo16030190",
+   "title": "Serum Semaphorin Alterations in Psoriasis: Links to Metabolic Status Rather than Disease Severity",
+   "year": "2026",
+   "subcollection": "SEMA4A",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:04:20Z"
+  },
+  {
+   "pmid": "17716241",
+   "doi": "10.1042/bj20070619",
+   "title": "Na+/Ca2+ exchangers: three mammalian gene families control Ca2+ transport",
+   "year": "2007",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "33199372",
+   "doi": "10.1074/jbc.ra120.015037",
+   "title": "Calmodulin binds and modulates K+-dependent Na+/Ca2+-exchanger isoform 4, NCKX4",
+   "year": "2020",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "15163769",
+   "doi": "10.1093/molbev/msh177",
+   "title": "The Cation/Ca2+ Exchanger Superfamily: Phylogenetic Analysis and Structural Implications",
+   "year": "2004",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "26631410",
+   "doi": "10.1016/j.ceca.2015.11.001",
+   "title": "Cation dependencies and turnover rates of the human K+-dependent Na+-Ca2+ exchangers NCKX1, NCKX2, NCKX3 and NCKX4",
+   "year": "2015",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "10390518",
+   "doi": "10.1152/physrev.1999.79.3.763",
+   "title": "Sodium/Calcium Exchange: Its Physiological Implications",
+   "year": "1999",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "11294880",
+   "doi": "10.1074/jbc.m102314200",
+   "title": "Molecular Cloning of a Third Member of the Potassium-dependent Sodium-Calcium Exchanger Gene Family,NCKX3",
+   "year": "2001",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "12177187",
+   "doi": "10.1523/jneurosci.22-16-06891.2002",
+   "title": "K+-Dependent Na+/Ca2+Exchange Is a Major Ca2+Clearance Mechanism in Axon Terminals of Rat Neurohypophysis",
+   "year": "2002",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "15198672",
+   "doi": "10.1111/j.1471-4159.2004.02462.x",
+   "title": "Differential contribution of plasmalemmal Na+/Ca2+ exchange isoforms to sodium‐dependent calcium influx and NMDA excitotoxicity in depolarized neurons",
+   "year": "2004",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "17172467",
+   "doi": "10.1074/jbc.m610582200",
+   "title": "Analysis of Ion Interactions with the K+ -dependent Na+/Ca+ Exchangers NCKX2, NCKX3, and NCKX4",
+   "year": "2006",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "18305240",
+   "doi": "10.1523/jneurosci.4912-07.2008",
+   "title": "A Critical Role for the Potassium-Dependent Sodium–Calcium Exchanger NCKX2 in Protection against Focal Ischemic Brain Damage",
+   "year": "2008",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "20231282",
+   "doi": "10.1074/jbc.m109.090738",
+   "title": "Residues Contributing to the Na+-binding Pocket of the SLC24 Na+/Ca2+-K+ Exchanger NCKX2",
+   "year": "2010",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "17164249",
+   "doi": "10.1074/jbc.m609285200",
+   "title": "Na+-dependent Inactivation of the Retinal Cone/Brain Na+/Ca2+-K+ Exchanger NCKX2",
+   "year": "2006",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "22677781",
+   "doi": "10.1159/000337493",
+   "title": "Expression of the Sodium/Calcium/Potassium Exchanger, NCKX4, in Ameloblasts",
+   "year": "2012",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "22442075",
+   "doi": "10.1523/jneurosci.6331-11.2012",
+   "title": "KIF21A-Mediated Axonal Transport and Selective Endocytosis Underlie the Polarized Targeting of NCKX2",
+   "year": "2012",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "17917108",
+   "doi": "10.1007/s12035-007-0007-0",
+   "title": "Searching for a Role of NCX/NCKX Exchangers in Neurodegeneration",
+   "year": "2007",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "17038313",
+   "doi": "10.1074/jbc.m606287200",
+   "title": "Protein Kinase C-dependent Enhancement of Activity of Rat Brain NCKX2 Heterologously Expressed in HEK293 Cells",
+   "year": "2006",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "11342562",
+   "doi": "10.1074/jbc.m103401200",
+   "title": "Electrophysiological Characterization and Ionic Stoichiometry of the Rat Brain K+-dependent Na+/Ca2+ Exchanger, NCKX2",
+   "year": "2001",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "10617665",
+   "doi": "10.1074/jbc.275.1.669",
+   "title": "Minimal Domain Requirement for Cation Transport by the Potassium-dependent Na/Ca-K Exchanger",
+   "year": "2000",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "23431067",
+   "doi": "10.3389/fncel.2013.00014",
+   "title": "Endocytosis of somatodendritic NCKX2 is regulated by Src family kinase-dependent tyrosine phosphorylation",
+   "year": "2013",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "24224486",
+   "doi": "10.1042/bsr20130099",
+   "title": "Purinergic stimulation of K+-dependent Na+/Ca2+ exchanger isoform 4 requires dual activation by PKC and CaMKII",
+   "year": "2013",
+   "subcollection": "SLC24A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:06:03Z"
+  },
+  {
+   "pmid": "39603584",
+   "doi": "10.1016/j.ydbio.2024.11.010",
+   "title": "A conditional smoothened (smo) allele on an inbred C57BL/6J genetic background has a hypomorphic smo mutant phenotype",
+   "year": "2024",
+   "subcollection": "SMO",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:10:49Z"
+  },
+  {
+   "pmid": "33598458",
+   "doi": "10.3389/fcell.2020.630340",
+   "title": "WDPCP Modulates Cilia Beating Through the MAPK/ERK Pathway in Chronic Rhinosinusitis With Nasal Polyps",
+   "year": "2021",
+   "subcollection": "WDPCP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:17:44Z"
+  },
+  {
+   "pmid": "39669798",
+   "doi": "10.1016/j.athplu.2024.11.002",
+   "title": "A cross-tissue transcriptome-wide association study identifies WDPCP as a potential susceptibility gene for coronary atherosclerosis",
+   "year": "2024",
+   "subcollection": "WDPCP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:17:44Z"
+  },
+  {
+   "pmid": "39582775",
+   "doi": "10.1002/pul2.70013",
+   "title": "High gestational leucine level dampens WDPCP/MAPK signaling to impair the EMT and migration of cardiac microvascular endothelial cells in congenital heart defects",
+   "year": "2024",
+   "subcollection": "WDPCP",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-09-16T12:17:44Z"
+  },
   {
    "pmid": "20976199",
    "doi": "10.1371/journal.pgen.1001158",
@@ -1130,26 +1850,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-09-15T12:32:58Z"
-  },
-  {
-   "pmid": "9792872",
-   "doi": "10.1086/302121",
-   "title": "A Novel Locus (RP24) for X-linked Retinitis Pigmentosa Maps to Xq26-27",
-   "year": "1998",
-   "subcollection": "RP2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-15T12:38:29Z"
-  },
-  {
-   "pmid": "42733973",
-   "doi": "10.1080/14712598.2026.2733200",
-   "title": "Clinical progress in gene therapy for RPGR-associated X-linked retinitis pigmentosa",
-   "year": "2026",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-15T12:40:08Z"
   },
   {
    "pmid": "38007539",
@@ -35890,796 +36590,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-07-23T09:29:45Z"
-  },
-  {
-   "pmid": "42411475",
-   "doi": "10.31083/fbl50701",
-   "title": "Broad Roles of Endoplasmic Reticulum Stress Sensors Activated by Diverse Pathophysiological Stimuli",
-   "year": "2026",
-   "subcollection": "ATF6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T08:33:36Z"
-  },
-  {
-   "pmid": "23470693",
-   "doi": "10.1177/0022034513481976",
-   "title": "Genome-wide Association Studies of Pit-and-Fissure- and Smooth-surface Caries in Permanent Dentition",
-   "year": "2013",
-   "subcollection": "BCOR",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T08:36:16Z"
-  },
-  {
-   "pmid": "42474218",
-   "doi": "10.1002/epi.70403",
-   "title": "Refining diagnostic boundaries and electroclinical profiles of Lennox–Gastaut syndrome through unsupervised clustering",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42472793",
-   "doi": "10.1186/s12903-026-09296-1",
-   "title": "Efficacy of magnesium–calcium ionic oral rinse for primary burning mouth syndrome: a randomized, double-blind, placebo-controlled trial",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42474677",
-   "doi": "10.1007/s12010-026-05819-2",
-   "title": "Abatacept-Loaded Podocyte-Derived Exosomes Alleviate Membranous Nephropathy via AhR-Regulated NF-κB/Nrf2 Signaling under Oxidative Stress and Inflammation",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42472851",
-   "doi": "10.1186/s13256-026-06397-x",
-   "title": "Multiple ventral hernias in a 30-year-old female with Down syndrome: a case report and review of the literature",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42472986",
-   "doi": "10.1111/cge.70217",
-   "title": "Clinical and Molecular Characterization of a RASopathy Cohort From Türkiye and an AMMECR1 ‐Related Noonan Syndrome‐Mimicking Phenotype",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42472739",
-   "doi": "10.1007/s00380-026-02733-9",
-   "title": "Elucidating physiologic influences of sleep-related breathing and architectural disruption in Takotsubo syndrome",
-   "year": "2026",
-   "subcollection": "FBN1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T08:47:13Z"
-  },
-  {
-   "pmid": "42472798",
-   "doi": "10.1186/s12903-026-09345-9",
-   "title": "Exploring the use of large language models for self-learning in preventive dentistry and their associations with academic performance: a cross-sectional pilot study among dental students",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474711",
-   "doi": "10.1007/s00248-026-02842-y",
-   "title": "Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42473913",
-   "doi": "10.1002/acn3.70494",
-   "title": "Stage‐Dependent β‐Synuclein Links MRI and Cognitive Decline in Alzheimer's Disease",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474922",
-   "doi": "10.1007/s10266-026-01501-5",
-   "title": "Colour change and fracture resistance of endodontically treated teeth after staining and walking bleach: role of filling strategy",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474113",
-   "doi": "10.1002/advs.76723",
-   "title": "Pattern‐Aware Intelligence Enables Nondestructive, Rapid Quantification of High‐Aspect‐Ratio Silicon Etching",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474571",
-   "doi": "10.1007/s11701-026-03655-4",
-   "title": "Preoperative gap phenotypes in functionally aligned robotic total knee arthroplasty: derivation and internal coherence of a driver-based classification",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474262",
-   "doi": "10.1021/acs.orglett.6c02795",
-   "title": "Construction of a Chasmanine Skeleton Enabled by Hg(OAc) 2 -Promoted Vinylogous Mannich Reaction",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "42474317",
-   "doi": "10.1021/acs.jctc.6c00906",
-   "title": "DDCCNet: Physics-Enhanced Multitask Neural Networks for Data-Driven Coupled-Cluster",
-   "year": "2026",
-   "subcollection": "PRPH2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-07-22T09:06:17Z"
-  },
-  {
-   "pmid": "22845794",
-   "doi": "10.1089/hum.2012.125",
-   "title": "The Human Rhodopsin Kinase Promoter in an AAV5 Vector Confers Rod- and Cone-Specific Expression in the Primate Retina",
-   "year": "2012",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "36672611",
-   "doi": "10.3390/biomedicines11010103",
-   "title": "Gene Therapy with Voretigene Neparvovec Improves Vision and Partially Restores Electrophysiological Function in Pre-School Children with Leber Congenital Amaurosis",
-   "year": "2022",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "19190735",
-   "doi": "",
-   "title": "Gene therapy following subretinal AAV5 vector delivery is not affected by a previous intravitreal AAV5 vector administration in the partner eye.",
-   "year": "2009",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "32483256",
-   "doi": "10.1038/s41598-020-65657-y",
-   "title": "Lentiviral mediated RPE65 gene transfer in healthy hiPSCs-derived retinal pigment epithelial cells markedly increased RPE65 mRNA, but modestly protein level",
-   "year": "2020",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "41481309",
-   "doi": "10.1001/jamaophthalmol.2025.5505",
-   "title": "Vision Outcomes in Children Treated With Voretigene Neparvovec for RPE65 -Associated Retinopathy",
-   "year": "2026",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "28280483",
-   "doi": "10.3389/fneur.2017.00059",
-   "title": "Outer Plexiform Layer Structures Are Not Altered Following AAV-Mediated Gene Transfer in Healthy Rat Retina",
-   "year": "2017",
-   "subcollection": "RPE65",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:12:58Z"
-  },
-  {
-   "pmid": "19324861",
-   "doi": "10.1167/iovs.09-3418",
-   "title": "Correlation of Genetic and Clinical Findings in Spanish Patients with X-linked Juvenile Retinoschisis",
-   "year": "2009",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "15281981",
-   "doi": "10.1111/j.1442-9071.2004.00820.x",
-   "title": "Two cases of X‐linked juvenile retinoschisis with different optical coherence tomography findings and RS1 gene mutations",
-   "year": "2004",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "20806044",
-   "doi": "",
-   "title": "R213W mutation in the retinoschisis 1 gene causes X-linked juvenile retinoschisis in a large Chinese family.",
-   "year": "2010",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "17515881",
-   "doi": "",
-   "title": "Genetic variations in the hotspot region of RS1 gene in Indian patients with juvenile X-linked retinoschisis.",
-   "year": "2007",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "12920343",
-   "doi": "10.1159/000072151",
-   "title": "Three Novel Mutations in the X-Linked Juvenile Retinoschisis &lt;i&gt;(XLRS1)&lt;/i&gt; Gene in 6 Japanese Patients, 1 of Whom Had Turner’s Syndrome",
-   "year": "2003",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "10450864",
-   "doi": "10.1034/j.1399-0004.1999.550611.x",
-   "title": "Assessment of RS1 in X‐linked juvenile retinoschisis and sporadic senile retinoschisis",
-   "year": "1999",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "24227916",
-   "doi": "",
-   "title": "Characterization of novel RS1 exonic deletions in juvenile X-linked retinoschisis.",
-   "year": "2013",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "14986011",
-   "doi": "10.1007/s00417-004-0878-y",
-   "title": "Novel 473-bp deletion in XLRS1 gene in a Japanese family with X-linked juvenile retinoschisis",
-   "year": "2004",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "12457918",
-   "doi": "10.1016/s0021-5155(02)00539-7",
-   "title": "Electroretinographic Findings in Three Family Members with X-linked Juvenile Retinoschisis Associated with a Novel Pro192Thr Mutation of the XLRS1 Gene",
-   "year": "2002",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "32300273",
-   "doi": "",
-   "title": "Clinical findings and RS1 genotype in 90 Chinese families with X-linked retinoschisis.",
-   "year": "2020",
-   "subcollection": "RS1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:17:01Z"
-  },
-  {
-   "pmid": "42462966",
-   "doi": "10.1016/j.jmb.2026.169947",
-   "title": "The role of SLC24A5 (NCKX5) in human skin pigmentation: the importance of cation transport activity",
-   "year": "2026",
-   "subcollection": "SLC24A5",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:19:58Z"
-  },
-  {
-   "pmid": "42239206",
-   "doi": "10.64898/2026.05.21.726777",
-   "title": "Fast pairwise coalescence enables gene-resolution scans for recent selection in diverse human populations",
-   "year": "2026",
-   "subcollection": "SLC24A5",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:19:58Z"
-  },
-  {
-   "pmid": "26686029",
-   "doi": "10.1016/j.jdermsci.2015.11.012",
-   "title": "Detection of the first OCA6 Italian patient in a large cohort of albino subjects",
-   "year": "2015",
-   "subcollection": "SLC24A5",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:19:58Z"
-  },
-  {
-   "pmid": "1339306",
-   "doi": "10.1016/0092-8674(92)90192-f",
-   "title": "Characterization of the yeast SWI1, SWI2, and SWI3 genes, which encode a global activator of transcription",
-   "year": "1992",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "1360703",
-   "doi": "10.1126/science.1360703",
-   "title": "Roles of SWI1, SWI2, and SWI3 Proteins for Transcriptional Enhancement by Steroid Receptors",
-   "year": "1992",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "8127913",
-   "doi": "10.1073/pnas.91.5.1950",
-   "title": "A multisubunit complex containing the SWI1/ADR6,SWI2/SNF2, SWI3, SNF5, and SNF6 gene products isolated fromyeast.",
-   "year": "1994",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "7623818",
-   "doi": "10.1128/mcb.15.8.4240",
-   "title": "SNF11, a New Component of the Yeast SNF-SWI Complex That Interacts with a Conserved Region of SNF2",
-   "year": "1995",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "8521502",
-   "doi": "10.1016/0092-8674(95)90217-1",
-   "title": "ISWI, a member of the SWl2/SNF2 ATPase family, encodes the 140 kDa subunit of the nucleosome remodeling factor",
-   "year": "1995",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "17713580",
-   "doi": "10.1139/o07-059",
-   "title": "How many remodelers does it take to make a brain? Diverse and cooperative roles of ATP-dependent chromatin-remodeling complexes in developmentThis paper is one of a selection of papers published in this Special Issue, entitled 28th International West Coast Chromatin and Chromosome Conference, and has undergone the Journal's usual peer review process.",
-   "year": "2007",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9799253",
-   "doi": "10.1093/genetics/150.3.987",
-   "title": "Sth1p, a Saccharomyces cerevisiae Snf2p/Swi2p Homolog, Is an Essential ATPase in RSC and Differs From Snf/Swi in Its Interactions With Histones and Chromatin-Associated Proteins",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "1901413",
-   "doi": "10.1073/pnas.88.7.2687",
-   "title": "Functional interdependence of the yeast SNF2, SNF5, and SNF6 proteins in transcriptional activation.",
-   "year": "1991",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "8774890",
-   "doi": "10.1093/nar/24.16.3121",
-   "title": "Expanding the Mot1 subfamily: 89B helicase encodes a new Drosophila melanogaster SNF2-related protein which binds to multiple sites on polytene chromosomes",
-   "year": "1996",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9685490",
-   "doi": "10.1093/nar/26.16.3739",
-   "title": "Direct interaction between Rsc6 and Rsc8/Swh3, two proteins that are conserved in SWI/SNF-related complexes",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "1312673",
-   "doi": "10.1128/mcb.12.4.1879",
-   "title": "A presumptive helicase (MOT1 gene product) affects gene expression and is required for viability in the yeast Saccharomyces cerevisiae.",
-   "year": "1992",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10361278",
-   "doi": "10.1046/j.1365-2958.1999.01390.x",
-   "title": "The product of the SNF2/SWI2 paralogue INO80 of Saccharomyces cerevisiae required for efficient expression of various yeast structural genes is part of a high‐molecular‐weight protein complex",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10601972",
-   "doi": "10.1677/jme.0.0230255",
-   "title": "Nuclear receptors: coactivators, corepressors and chromatin remodeling in the control of transcription",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "7958867",
-   "doi": "10.1101/gad.8.16.1920",
-   "title": "Mot1, a global repressor of RNA polymerase II transcription, inhibits TBP binding to DNA by an ATP-dependent mechanism.",
-   "year": "1994",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "24402584",
-   "doi": "10.1534/g3.113.009852",
-   "title": "Caenorhabditis elegans SWI/SNF Subunits Control Sequential Developmental Stages in the Somatic Gonad",
-   "year": "2014",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9819566",
-   "doi": "10.1002/(sici)1521-1878(199809)20:9<771::aid-bies10>3.0.co;2-v",
-   "title": "Chromatin remodeling: a marriage between two families?",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "12058073",
-   "doi": "10.1091/mbc.01-10-0484",
-   "title": "Novel ATPase of SNF2-like Protein Family Interacts with Androgen Receptor and Modulates Androgen-dependent Transcription",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9151708",
-   "doi": "10.1084/jem.185.10.1827",
-   "title": "A New Mouse Gene, SRG3, Related to the SWI3 of Saccharomyces cerevisiae, Is Required for Apoptosis Induced by Glucocorticoids in a Thymoma Cell Line",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "1648006",
-   "doi": "10.1093/genetics/128.1.69",
-   "title": "The SNF2, SNF5 and SNF6 genes are required for Ty transcription in Saccharomyces cerevisiae.",
-   "year": "1991",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10725359",
-   "doi": "10.1073/pnas.97.7.3364",
-   "title": "Whole-genome expression analysis of snf/swi mutants of Saccharomyces cerevisiae",
-   "year": "2000",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "11865042",
-   "doi": "10.1128/mcb.22.6.1615-1625.2002",
-   "title": "Transcription Activator Interactions with Multiple SWI/SNF Subunits",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "29776334",
-   "doi": "10.1186/s12864-018-4746-2",
-   "title": "SWI/SNF regulates half of its targets without the need of ATP-driven nucleosome remodeling by Brahma",
-   "year": "2018",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9099865",
-   "doi": "10.1016/s0378-1119(96)00785-8",
-   "title": "Ligand-dependent interaction between the estrogen receptor and the human homologues of SWI2/SNF2",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "2188093",
-   "doi": "10.1128/mcb.10.6.2544",
-   "title": "SNF6 encodes a nuclear protein that is required for expression of many genes in Saccharomyces cerevisiae.",
-   "year": "1990",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10320476",
-   "doi": "10.1046/j.1365-2443.1999.00242.x",
-   "title": "Nps1/Sth1p, a component of an essential chromatin‐remodeling complex of Saccharomyces cerevisiae, is required for the maximal expression of early meiotic genes",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "19650111",
-   "doi": "10.1002/jcb.22288",
-   "title": "Variations in the composition of mammalian SWI/SNF chromatin remodelling complexes",
-   "year": "2009",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "21284845",
-   "doi": "10.1186/1749-8104-6-5",
-   "title": "The chromatin remodeling factor Bap55 functions through the TIP60 complex to regulate olfactory projection neuron dendrite targeting",
-   "year": "2011",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9118215",
-   "doi": "10.1016/s0092-8674(00)81918-2",
-   "title": "SWI2/SNF2 and Related Proteins: ATP-Driven Motors That Disrupt-Protein–DNA Interactions?",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10347196",
-   "doi": "10.1074/jbc.274.23.16370",
-   "title": "Identification of a Novel SNF2/SWI2 Protein Family Member, SRCAP, Which Interacts with CREB-binding Protein",
-   "year": "1999",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9234740",
-   "doi": "10.1128/mcb.17.8.4842",
-   "title": "Molecular Analysis of the SNF2/SWI2 Protein Family Member MOT1, an ATP-Driven Enzyme That Dissociates TATA-Binding Protein from DNA",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9507009",
-   "doi": "10.1074/jbc.273.12.7018",
-   "title": "RapA, a Novel RNA Polymerase-Associated Protein, Is a Bacterial Homolog of SWI2/SNF2",
-   "year": "1998",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "9271422",
-   "doi": "10.1128/mcb.17.9.5461",
-   "title": "Identification of a Member of a DNA-Dependent ATPase Family That Causes Interference with Silencing",
-   "year": "1997",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "10713074",
-   "doi": "10.1074/jbc.275.11.7648",
-   "title": "A Eukaryotic SWI2/SNF2 Domain, an Exquisite Detector of Double-stranded to Single-stranded DNA Transition Elements",
-   "year": "2000",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "15284901",
-   "doi": "10.1139/o04-044",
-   "title": "Functional diversity of ISWI complexes",
-   "year": "2004",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "8460153",
-   "doi": "10.1073/pnas.90.6.2414",
-   "title": "A mammalian DNA-binding protein that contains a chromodomain and an SNF2/SWI2-like helicase domain.",
-   "year": "1993",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "15728673",
-   "doi": "10.1242/dev.01713",
-   "title": "The Drosophila trithorax group protein Kismet facilitates an early step in transcriptional elongation by RNA Polymerase II",
-   "year": "2005",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "11262242",
-   "doi": "10.1242/dev.128.8.1429",
-   "title": "The domino gene of Drosophila encodes novel members of the SWI2/SNF2 family of DNA-dependent ATPases, which contribute to the silencing of homeotic genes",
-   "year": "2001",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "1626430",
-   "doi": "10.1002/yea.320080506",
-   "title": "Identification of RAD 16, a yeast excision repair gene homologous to the recombinational repair gene RAD 54 and to the SNF2 gene involved in transcriptioal activation",
-   "year": "1992",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "12466201",
-   "doi": "10.1242/dev.00222",
-   "title": "TheDrosophilatrithorax group genetonalli(tna) interacts genetically with the Brahma remodeling complex and encodes an SP-RING finger protein",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "14701856",
-   "doi": "10.1074/jbc.m312288200",
-   "title": "Transcription Factors and Nuclear Receptors Interact with the SWI/SNF Complex through the BAF60c Subunit",
-   "year": "2004",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "19424417",
-   "doi": "10.1371/journal.pgen.1000470",
-   "title": "SWI/SNF Associates with Nascent Pre-mRNPs and Regulates Alternative Pre-mRNA Processing",
-   "year": "2009",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "18511465",
-   "doi": "10.1093/nar/gkn291",
-   "title": "Transcriptional regulation of the Drosophila moira and osa genes by the DREF pathway",
-   "year": "2008",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "33806269",
-   "doi": "10.3390/genes12030363",
-   "title": "The Osa-Containing SWI/SNF Chromatin-Remodeling Complex Is Required in the Germline Differentiation Niche for Germline Stem Cell Progeny Differentiation",
-   "year": "2021",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
-  },
-  {
-   "pmid": "11861561",
-   "doi": "10.1093/genetics/160.2.547",
-   "title": "The Drosophila Gene taranis Encodes a Novel Trithorax Group Member Potentially Linked to the Cell Cycle Regulatory Apparatus",
-   "year": "2002",
-   "subcollection": "SMARCA2",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-07-22T09:22:32Z"
   }
  ]
 }
