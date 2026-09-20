@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T07:33:22Z",
+  "generated_at": "2026-09-20T07:51:04Z",
   "threshold_k": 0,
-  "total_evaluated": 28880,
-  "total_flagged": 436,
+  "total_evaluated": 29201,
+  "total_flagged": 432,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -31,8 +31,6 @@
     ],
     "4 - Examinations": [
       "Anterior segment examination",
-      "Binocular vision",
-      "Examen segment posterieur",
       "Neuro-ophthalmologic examinations",
       "Ocular imaging",
       "Posterior segment examination",
@@ -98,6 +96,7 @@
       "ATF6",
       "B3GLCT",
       "BBS1",
+      "BBS10",
       "BBS2",
       "BCOR",
       "BEST1",
@@ -138,6 +137,7 @@
       "MYO7A",
       "MYOC",
       "MYRF",
+      "NAA10",
       "NAA15",
       "NDP",
       "NR2E3",
@@ -627,56 +627,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Knobloch syndrome"
-    },
-    {
-      "pmid": "29798271",
-      "doi": "",
-      "zotero_key": "MFZEZIPJ",
-      "title": "[Clinical and genetic investigation of families with Waardenburg syndrome type 2].",
-      "authors": [
-        [
-          "Hongsheng",
-          "Chen"
-        ],
-        [
-          "Xin",
-          "Liao"
-        ],
-        [
-          "Y L",
-          "Liu"
-        ],
-        [
-          "C F",
-          "He"
-        ],
-        [
-          "H",
-          "Zhang"
-        ],
-        [
-          "Lu",
-          "Jiang"
-        ],
-        [
-          "Yang",
-          "Feng"
-        ],
-        [
-          "Lingyun",
-          "Mei"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2016",
-      "abstract": "<b>Objective:</b>To investigate the clinical chacteration and molecular pathology of Waardenburg syndrome type 2 in seven families, and provide genetic diagnosis and hereditary counseling for family members. <b>Method:</b>Clinical data of seven families with WS2（14 patients）were collected. Peripheral blood samples of the probands and related family members were collected and genomic DNA was extracted. The coding sequences of microphthalmia associated transcription factor (MITF), sex-determining region Y-box 10(SOX10), snail family zinc finger 2 (SNAI2) and endothelin receptor type B（EDNRB）were analyzed by polymerase chain reaction and DNA sequencing. Then the raw data was analyzed. <b>Result:</b>The most common manifestations of WS2 are sensorineural hearing loss(10/14,71.4%), freckle(7/14, 50.0%)，heterochromia iridis(6/14, 42.9%) and premature greying(5/14,35.7%). All the deafness phenotype is congenital, bilateral profound sensorineural hearing loss. Freckles phenotype is different from cutaneous pigment abnormalities of WS in Westerners. The heterozygous mutation, c.328C>T in exon 3 of the MITF gene was detected in the proband and all patients of pedigree 2. However, no pathological mutation of the relevant genes (SOX10,SNAI2 and EDNRB) was detected in other pedigrees. <b>Conclusion:</b>There are obvious variations in clinical features of WS, while freckles may be a special subtype of cutaneous pigment disturbances. The MITF gene mutation, R110X,is therefore considered the disease causing mutation in pedigree WS02.However, there are novel disease causing genes or copy number variations in Waardenburg syndrome type 2, which require further research.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PAX6"
     },
     {
       "pmid": "",
@@ -2129,40 +2079,6 @@
       "subcollection": "Ocular imaging"
     },
     {
-      "pmid": "39411676",
-      "doi": "10.4103/tp.tp_68_23",
-      "zotero_key": "ISJUQKT2",
-      "title": "A simple transport method for molecular detection of microsporidiosis using a glass slide smear of corneal scraping",
-      "authors": [
-        [
-          "R",
-          "Balamurugan"
-        ],
-        [
-          "Chayan",
-          "Sharma"
-        ],
-        [
-          "Sumeeta",
-          "Khurana"
-        ],
-        [
-          "Madhuri",
-          "Akella"
-        ]
-      ],
-      "journal": "Tropical parasitology",
-      "year": "2024",
-      "abstract": "Dear Editor, Microsporidial keratitis is a protozoal infection of the cornea that causes redness, decreased vision, superficial punctate keratitis (SPKs) lesions on the cornea, etc., In general, the diagnosis is typically confirmed through corneal scrapings that are examined under the microscope for the presence of oval-shaped microsporidial spores. At times, even in cases of high clinical suspicion, microscopy fails to detect the pathogens. Such instances call for the need to transport the clinical specimens (corneal scraping) to the concerned laboratory for sensitive detection methods such as the polymerase chain reaction (PCR). The transport of infectious clinical specimens is a well-regulated system with established regulations and protocols (International Air Transportation Association [IATA], guidelines) that must be strictly adhered to.[1,2] The clinician (especially at a remote site that lacks the facility of molecular analysis) faces the challenge of transporting clinical specimens to the relevant microbiological laboratory for molecular-based detection of the organism. In this article, we included a total of eight corneal scrapings from suspected microsporidial keratitis, which were smeared on the glass slide and transported after triple-layer packing from one hospital in South India to another hospital in North India for molecular-based microsporidia identification. The corneal lesions (SPKs) [Figure 1a] were removed using a 26G needle [Figure 1b] and smeared on the glass slide [Figure 1c]. The glass slides were mounted with other similar glass slides and wrapped with paper with patient identification written on top of them [Figure 1d]. The glass slide was again wrapped with air bubble coverage to reduce the shock and prevent glass damage. The package was then placed in a leak-proof plastic container with a screw cap sealed with adhesive tape (primary receptacle), as shown in Figure 1e and f. The sealed transport container was placed inside a leak-proof plastic sheet (secondary receptacle), as shown in Figure 1f. The secondary package was then kept inside a thermocol box [Figure 1g] of suitable size and then placed in a rigid cardboard box [Figure 1h] (triple layer packing as per IATA guidelines) along with the shipping and sender’s addresses. The biohazard sticker was placed outside to indicate the infectious biological sample for transportation. The patient information sheet, including identification and clinical details, was included in the box. The specimens were received after approximately 7 days of transportation at another tertiary care center in North India. The corneal scrapings were scraped off using a 23G sterile single-use needle from the glass slide smear [Figure 2a]. The material collected on the needle was then added to the 1.5 mL microcentrifuge tube containing 200 μL ATL buffer [Figure 2b]. The deoxynucleic acid (DNA) extraction was performed using the Qiagen DNeasy Blood and Tissue Kit, New Delhi, India, as per the manufacturer’s instructions. The extracted DNA was subjected to a PCR.[3] The purified amplified products were sequenced using the Big-Dye 3.1 Terminator sequencing kit (Applied Biosystems, Foster City, CA, USA) on an ABI 3130 Genetic Analyzer automated sequencer following the manufacturer’s instructions (Applied Biosystems, Foster City, CA, USA). The raw sequences were compared with GenBank using BLAST (http://blast.ncbi.nlm.nih.gov/Blast.cgi) to identify the species and the degree of sequence similarity. A total of eight corneal scraping samples from clinically suspected cases of microsporidia keratitis were processed. Based on the Gram staining, six samples were detected as positive for microsporidia; one was found to be negative; and another sample was not available for staining. Based on the PCR amplification, all eight clinically suspected samples were found positive for microsporidia [Figure 2c]. The Sanger sequencing analysis further confirmed all these samples to be positive for Vittaforma corneae. Out of eight patients, seven were treated successfully with a combination of topical voriconazole 1% and gatifloxacin 0.5% six times a day[4] and one patient was lost to follow-up.Figure 1: (a-h) The various important steps in the triple packing process for sending biological substances (corneal scrapings). (a) The whitish, gray superficial punctate keratitis lesions (White arrow) suggestive of microsporidiosis. (b) The corneal scraping using a 26G needle. (c) The making of a smear from the scrapings on the glass slide. (d) Wrapping the glass slide using paper with patient identification written on top of it. (e) The plastic box enclosing the glass slide wrapped with an air bubble cover (primary receptacle). (f) The plastic container covered by a leak-proof secondary plastic sheet (secondary receptacle). (g) The use of a thermocol box to contain the secondary receptacle. (h) A hard cardboard box to enclose all the material (triple packing) with shipping and sender details and biohazard symbols written on the boxFigure 2: (a) The corneal scraping smear being scraped off using a 23G sterile single-use needle from the glass slide smear. (b) The scraped-off material from the glass slide being added to a 1.5 mL microcentrifuge tube containing lysis buffer. (c) A gel electrophoresis image of microsporidia positive samples: lane 1, negative control; Lane 2–4, positive samples; Lane 5, molecular marker; Lane 6, positive control, showing a band of 250–280 bpCalcofluor white staining has the highest sensitivity (96.7%) in diagnosing microsporidial spores among the staining techniques,[5] but its availability may be limited in many hospitals. Molecular diagnosis such as PCR can be helpful in identifying microsporidia infections, especially in diagnostic dilemmas. We used glass slides as a medium to transport corneal scraping for molecular diagnosis. Studies of a similar kind have reported successful DNA extraction and PCR-based identification of microsporidia from archived stained hematoxylin and eosin (H and E) and fixed Giemsa-stained slides.[6] Furthermore, in a study conducted by Eskandarian et al., they used Giemsa-stained slides as the source of samples which were transported by post from one region of Iran (South and Southeastern) to another region of Iran (Isfahan) for the molecular detection of malarial parasites.[7] Similarly, we employed corneal scraping smeared onto glass slides as the sample source for molecular-based detection of microsporidiosis which was transported from one region of India (South) to another region of India (North) by courier, which enabled us to identify V. corneae as the cause of microsporidiosis in all eight clinically suspected cases. These results have essentially emphasized the significance of DNA as a reliable and stable genetic component for various molecular diagnostic methods. Although there are several reports on the molecular detection of ocular microsporidiosis, to the best of our knowledge, none of them has reported the method or suggested a transport medium for transporting corneal scraping to the concerned molecular laboratory. This glass slide smear-based molecular diagnosis of microsporidiosis seems like a simple, cheap, easily available medium and could be used to transport corneal scraping samples from any limited resources small hospitals set up in remote locations without any need of buffer solution or DNA preservative media for molecular diagnosis and will eventually aid in the prompt detection of the specific microsporidia species, ultimately helping in tailoring the treatment regimen. However, a study with a larger sample size would help in evaluating the effectiveness of this method of sample transport. Financial support and sponsorship Nil. Conflicts of interest One of the authors of this paper is an editor of this journal.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PAX6"
-    },
-    {
       "pmid": "",
       "doi": "10.1097/00006534-199509000-00007",
       "zotero_key": "JSEHTXJ2",
@@ -3087,28 +3003,6 @@
       "subcollection": "High myopia"
     },
     {
-      "pmid": "41460117",
-      "doi": "10.4103/ijo.ijo_3280_25",
-      "zotero_key": "TRUC4NJK",
-      "title": "Artificial intelligence in microbial keratitis",
-      "authors": [
-        [
-          "Murugesan",
-          "Vanathi"
-        ]
-      ],
-      "journal": "Indian Journal of Ophthalmology",
-      "year": "2025",
-      "abstract": "The integration of artificial intelligence (AI) into the various aspects of clinical medicine is being explored with heightened interest. Various studies are exploring multiple aspects of microbial keratitis (MK) data involving imaging and diagnostics employing a variety of AI tools. Deep learning (DL) is now seen as a promising diagnostic AI tool for ophthalmic conditions. Its potential as a diagnostic tool in infective keratitis (IK) has been extensively studied in recent times. The diagnostic accuracy of DL models for keratitis using corneal imaging such as slit-lamp anterior segment photography, vivo confocal microscopy, anterior segment optical coherence tomography, and corneal topography/tomography as diagnostic datasets has been assessed in various studies.[1] Expert consensus, microbiological results, treatment response, and their combination were engaged as reference standards in most studies. Convolutional neural networks (CNNs) seem to be the commonly used primary DL model in most studies, with good diagnostic accuracy to recognize IK and differentiate it from healthy eyes or other corneal pathologies. CNNs and other DL models have been observed to achieve equivocal diagnostic accuracy with reference standards for KC and FECD. However, the performance in IK and DED has more potential for perfection as concerns of heterogeneous image quality and objective training criteria seem to require further refinement.[2] Its comparable diagnostic accuracy with ophthalmologists seems to be convincing. However, the challenge lies in its ability to distinguish between various types of IK. Conclusions of the recent meta-analysis[1] point toward overestimation of diagnostic accuracy of DL models with internal validation due to overfitting and recommend external validation for establishing the generalizability of DL models. CorneAI, another DL model, though trained on diffuser slit-lamp images, seemed to perform effectively utilizing smartphone images.[3] The slit-lamp photography (SLP) generative adversarial network (GAN) model StyleGAN2-ADA, when trained on limited real and supplemented synthetic data, was observed to be able to provide a reliable AI-based MK classification system.[4] Given the ease of obtaining good resolution clinical images with smart phones photography, the CNN-based DL model was seen to perform effectively in diagnosing and distinguishing between the subtypes of MK using smartphone-captured images. This will aid in developing novel rapid diagnostic approaches in management of IK.[5] DL models using transfer learning with ResNet50 architecture to classify culture-confirmed keratitis observed significant diagnostic accuracy in distinguishing FK, AK, and NSK and subtyping FK along with providing treatment strategies.[6] A recent study utilizing AI imaging segmentation algorithm base DL model predictions showed good association of stromal infiltrate area and hypopyon with 3-month visual outcome.[7] Another retrospective study[8] that was done to evaluate three novel Vision Transformer (ViT) frameworks in bacterial and fungal keratitis diagnosis used different images ((broad-beam, slit-beam, and blue-light images) of the anterior segment to improve recognition accuracy. The combination of two or more types of anterior segment images was seen to be enhance the diagnostic accuracy of ViT in diagnosis of bacterial and mycotic corneal infection. DeepIK was noted to perform well in internal, external, and prospective datasets outperforming three other algorithms (DenseNet121, InceptionResNetV2, and Swin-Transformer).[9] In an attempt to evaluate the ability of an automated classification system to surpass the current gold standard in MK diagnosis of corneal smear cultures, the effective automatic classification methods using DL for multitype infectious keratitis diagnosis was studied.[10] The large size of the images of whole slides of potassium hydroxide (KOH) smears precludes the employment of conventional computer vision methods such as CNNs for analysis. An earlier retrospective observational study, hence, evaluated the performance of a DL framework, dual stream multiple instance learning (DSMIL), in automation of whole slide imaging (WSI) of potassium hydroxide (KOH) smears to provide precise and rapid detection in mycotic keratitis.[10] DSMIL uses image segmentation of the WSI to extract relevant features by producing heat maps to visualize areas contributing to the diagnostics prediction and compiles them to enable a comprehensive diagnostics. The competence of DSMIL framework in handling large, high-resolution WSI data along with precise detect fungal infections using heat maps-generated visual explanations seems to be a promising in the automation of KOH smears image interpretations. The EfficientNet_B0 model succeeded as the best performer among five models (EfficientNet_B0, EfficientNet_V2_S, ResNet50, Vision Transformer (ViT), and DeepIK) that were evaluated MK classification. EfficientNet_B0 model effectively distinguished the normal eyes and four IK types, establishing the role of this DL model in diagnosing MK.[11] The prospective data set combining both imaging and clinical data of bacterial and fungal keratitis was studied to develop and evaluate multimodal machine learning models for differentiating bacterial and fungal keratitis comparing three prediction models (clinical data model, a computer vision model using EfficientNet architecture, and a multimodal model) in a study from South India recently.[12] The computer vision model outperformed as the best IK classifier suggesting the reliable diagnostic accuracy of image-based DL with the use of prospective, sequentially collected, representative datasets. Another recent study assessed the implementation of large language models (LLMs) for large-scale MK data analysis, studied extraction of MK descriptors from the clinical notes of hospital electronic medical records (EMRs) adopting the zero-shot prompting to approach, and compared them with the annotations of clinical cornea experts.[13] GPT-4o and GPT-4o mini were prompted to extract the three MK descriptors (centrality, infiltrate depth, and thinning), annotated by human experts, and the agreement measures between the LLM responses and human annotations were analyzed. While good agreement was noted between GPT-4o and GPT-4o mini and human annotations in extracting MK descriptors, the quality and consistency of EMR documentation seem to influence the efficiency and performance of LLM architectures in the detection of MK descriptors in big data analysis. Comparison of use of real cases, AI-generated images, and real medical images to evaluate diagnostic accuracy of medical students for bacterial, fungal, and herpetic keratitis noted equivocal efficacy and is being advocated as a method of clinical ophthalmology training,[14] enabling the use of AI in medical education methods. While AI modes utilizing image interpretation techniques seem to perform well in pathogen detection in IK, significant limitations such as single retrospective methodology, lack of diverse datasets, restricted generalizability, inadequate classification methods, and lack of uniformity in ground truth detection standards preclude its adoption in clinical practice.[15] The need of the hour with the current scenario seeking to establish the performance efficacy of AI in the various aspects of MK detection and treatment and future research needs to incorporate optimal enhancements with larger datasets to ensure better precision in these aspects. Better clarity on patient characteristics reporting, engaging datasets of homogeneous study populations, will be more beneficial in future studies on DL models for MK. AI-related black box issues remain a concern, resulting in lack of transparency and hence raising doubts on trust and accountability of its performance. Improved reporting of study characteristics, data diversity, external validation, transparency of AI algorithms, and enhanced reliability and generalizability of DL models will need to be the focus of future evaluations in order to make this a more desirable diagnostic approach that can surpass human abilities.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PAX6"
-    },
-    {
       "pmid": "42321874",
       "doi": "10.1186/s13256-026-06231-4",
       "zotero_key": "N9FGRIJK",
@@ -3665,6 +3559,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RNU4ATAC"
+    },
+    {
+      "pmid": "42752067",
+      "doi": "10.1016/j.ogla.2026.08.005",
+      "zotero_key": "SXSXVPZW",
+      "title": "Bicuspid Iris: A Manifestation of Anterior Segment Dysgenesis",
+      "authors": [
+        [
+          "Akanksha",
+          "Sharma"
+        ],
+        [
+          "Faisal",
+          "Thattaruthody"
+        ],
+        [
+          "Ranjan Kumar",
+          "Behera"
+        ]
+      ],
+      "journal": "Ophthalmology Glaucoma",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
     },
     {
       "pmid": "42410159",
@@ -4673,40 +4597,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RS1"
-    },
-    {
-      "pmid": "41089136",
-      "doi": "10.7759/cureus.92151",
-      "zotero_key": "GSIEKBZK",
-      "title": "Clinical Outcomes of Group D Retinoblastoma at a Tertiary Care Hospital in Pakistan",
-      "authors": [
-        [
-          "Khawaja Muhammad Ammar Ali",
-          "Javed"
-        ],
-        [
-          "Usman",
-          "Vayani"
-        ],
-        [
-          "Anum",
-          "Javed"
-        ],
-        [
-          "Muhammad Hanif",
-          "Chatni"
-        ]
-      ],
-      "journal": "Cureus",
-      "year": "2025",
-      "abstract": "",
-      "cited_by_count": 1,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "4 - Examinations",
-      "subcollection": "Examen segment posterieur, Posterior segment examination"
     },
     {
       "pmid": "",
@@ -5766,64 +5656,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Corneal dystrophy, Fuchs endothelial"
-    },
-    {
-      "pmid": "42608640",
-      "doi": "10.1007/s10278-026-02195-5",
-      "zotero_key": "QBJFMZMX",
-      "title": "Deep Learning–Based Classification of Facial Profile Convexity from Profile Photographs in Orthodontics: An Artificial Intelligence Study",
-      "authors": [
-        [
-          "Hoori",
-          "Mirmohammadsadeghi"
-        ],
-        [
-          "Yasamin",
-          "Vazirizadeh"
-        ],
-        [
-          "Hirad",
-          "Rokni"
-        ],
-        [
-          "Navid",
-          "Nasirzadeh"
-        ],
-        [
-          "Mohammad",
-          "Behnaz"
-        ],
-        [
-          "Asghar",
-          "Ebadifar"
-        ],
-        [
-          "Nazila",
-          "Biglar"
-        ],
-        [
-          "Amir",
-          "Bayatian"
-        ],
-        [
-          "Soodeh",
-          "Tahmasbi"
-        ],
-        [
-          "Shahab",
-          "Kavousinejad"
-        ]
-      ],
-      "journal": "Journal of Imaging Informatics in Medicine",
-      "year": "2026",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RNU2-2"
     },
     {
       "pmid": "",
@@ -9855,44 +9687,6 @@
       "subcollection": "SAG"
     },
     {
-      "pmid": "40764517",
-      "doi": "10.1038/s41598-025-10542-9",
-      "zotero_key": "93CQZFAC",
-      "title": "Innovative approach to IOL-bag complex fixation with Siepser’s scleral sliding knots in pseudoexfoliation syndrome",
-      "authors": [
-        [
-          "Dario",
-          "Furgiuele"
-        ],
-        [
-          "Piera",
-          "Giunta"
-        ],
-        [
-          "Michele",
-          "Rinaldi"
-        ],
-        [
-          "Luca",
-          "D’Andrea"
-        ],
-        [
-          "Ciro",
-          "Costagliola"
-        ]
-      ],
-      "journal": "Scientific Reports",
-      "year": "2025",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "4 - Examinations",
-      "subcollection": "Anterior segment examination, Examen segment anterieur"
-    },
-    {
       "pmid": "42590749",
       "doi": "10.3390/s26154974",
       "zotero_key": "55G8APZA",
@@ -10257,6 +10051,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
+    },
+    {
+      "pmid": "42080728",
+      "doi": "10.4103/ijo.ijo_2097_25",
+      "zotero_key": "QH3ZHVXM",
+      "title": "Intraocular lens-sling 2.0: A safer modification for implanting foldable intraocular lens following complicated cataract surgery",
+      "authors": [
+        [
+          "Manas",
+          "Nath"
+        ],
+        [
+          "Annamalai",
+          "Odayappan"
+        ],
+        [
+          "Koushik",
+          "Tripathy"
+        ],
+        [
+          "Josephine",
+          "Christy"
+        ],
+        [
+          "Sivagami",
+          "Nachiappan"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2026",
+      "abstract": "Dear Editor, We had earlier published the “Intraocular lens (IOL)-sling technique: A safe approach for lens implantation in complicated cataract surgery and secondary intraocular lens implantation” in your esteemed journal.[1] This was an innovative idea of using a suture material (9-0 or 10-0 nylon) through the dialing hole of a three-piece rigid intraocular lens (IOL), to reduce the risk of IOL drop following complicated cataract surgery. One of the major limitations was that it could not be used while implanting foldable IOLs since they do not have dialing holes. Here, we share a modification that is specifically adapted for use with foldable three-piece IOLs during sutureless scleral-fixated IOL (SFIOL) implantation or for sulcus placement in those with deficient capsular support. After injecting the three-piece IOL into the anterior chamber, while the trailing haptic lies outside, a 9-0/10-0 nylon suture is used to loop around the trailing haptic twice. After implantation, when the IOL is found to be stable in sulcus or haptics tucked inside the intra-scleral tunnel in SFIOL,[2] the sling can be removed by cutting one end.[1] [Fig. 1, Video 1].Figure 1: Steps of implanting a foldable scleral-fixated intraocular lens (IOL) by Gabor’s technique with IOL sling 2.0. a. After the foldable IOL is placed into the eye, the first loop of 10-0 or 9-0 Nylon is made over the trailing haptic, which lies externally. The trailing haptic of a 3-piece IOL is placed externally even when the IOL is injected with a cartridge. b. Another loop is made over the trailing haptic. c. The loop is pushed so that it stays at the junction of the inner one-third and outer two-thirds of the trailing haptic to avoid loosening or displacement. d. Note that the two ends of the IOL sling lie externally. e and f. The trailing haptic is exteriorized using the handshake technique. g. One end of the sling is cut, and the sling is removed gently. h. The IOL position is centered and stabilized {\"href\":\"Single Video Player\",\"role\":\"media-player-id\",\"content-type\":\"play-in-place\",\"position\":\"float\",\"orientation\":\"portrait\",\"label\":\"Video 1\",\"caption\":\"\",\"object-id\":[{\"pub-id-type\":\"doi\",\"id\":\"\"},{\"pub-id-type\":\"other\",\"content-type\":\"media-stream-id\",\"id\":\"1_vcj8d9nv\"},{\"pub-id-type\":\"other\",\"content-type\":\"media-source\",\"id\":\"Kaltura\"}]} This allows us to attempt IOL placement in the sulcus even when anterior capsular support is deemed borderline. An unstable IOL can be easily removed. During sutureless SFIOL placement, the slippage is more likely while exteriorizing the trailing haptic. The IOL sling helps to safely manipulate the IOL back to the pupillary plane, where the haptic can be regrasped, thus acting like the surgeon’s third hand. There is always a risk of IOL drop while implanting IOL in capsule-deficient cases, especially by novice surgeons.[3] We believe that the “IOL Sling 2.0,” an additional step to the various SFIOL techniques or during sulcus placement, will enhance the safety of surgical techniques used in aphakia management. Authors’ contributions Manas Nath: Concept, Design, Manuscript editing; Annamalai Odayappan: Design, Definition of intellectual content, Manuscript editing; Koushik Tripathy: Design, Manuscript preparation; Josephine Christy: Concept, Manuscript preparation; Sivagami Nachiappan: Concept, Manuscript preparation. Financial support and sponsorship: There was no funding received by any of the authors for the purpose of the study. Dr. Annamalai Odayappan was a Research scholar at the Kellogg Eye Center, University of Michigan, USA, supported by a grant from NIH/Fogarty International Center (D43TW012027). Conflicts of interest: There are no conflicts of interest.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "41024720",
@@ -16440,6 +16272,56 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "42743093",
+      "doi": "10.1159/nef/adtag006",
+      "zotero_key": "NCAFBT4V",
+      "title": "Sequential liraglutide and setmelanotide therapy in Bardet-Biedl Syndrome: metabolic and renal outcomes in a real-world case report and literature review.",
+      "authors": [
+        [
+          "Tommaso",
+          "Pasquariello"
+        ],
+        [
+          "Floriana",
+          "Secondulfo"
+        ],
+        [
+          "Anna Rita",
+          "Roscini"
+        ],
+        [
+          "Elisabetta",
+          "Nardi"
+        ],
+        [
+          "Enrico",
+          "Prosperi"
+        ],
+        [
+          "Giovambattista",
+          "Capasso"
+        ],
+        [
+          "Alessandra",
+          "Perna"
+        ],
+        [
+          "Miriam",
+          "Zacchia"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Bardet-Biedl syndrome (BBS) is a syndromic ciliopathy characterized by multiple clinical features, including obesity and kidney disease. Therapeutic options remain limited. Setmelanotide, a melanocortin-4 receptor (MC4R) agonist, is approved for obesity in BBS, but real-world data in adults is scarce. This case highlights the synergistic metabolic and nephroprotective effects of a sequential therapeutic strategy combining a glucagon-like peptide-1 (GLP-1) receptor agonist and a MC4R agonist. CASE PRESENTATION: We report the case of a 37-year-old male with genetically confirmed BBS due to compound heterozygous likely pathogenic BBS10 variants presenting with obesity, insulin resistance, dyslipidemia, albuminuria and metabolic dysfunction-associated steatotic liver disease (MASLD). Treatment with liraglutide induced modest weight loss (-3.4%, BMI 35.2→34 kg/m²), improved urinary albumin-to-creatinine ratio (uACR) and liver enzymes levels within 8 months. Following discontinuation of liraglutide, setmelanotide therapy was subsequently initiated. After 12 months of treatment, the patient achieved a 10.5% weight loss compared with baseline (BMI 35.2→31.5 kg/m²), normalization of liver transaminases, reduced liver stiffness, and sustained improvement in uACR, while eGFR remained stable. Fasting insulin and HOMA-IR improved. Metformin, statin, and fenofibrate were discontinued, though fenofibrate was later reintroduced for hypertriglyceridemia. Two interventional studies (n≃10-40, 3-52 weeks) similarly reported consistent reduction in metabolic syndrome burden (METs-Z-BMI-score), liver steatosis, stiffness, and enzymes, while renal biomarkers showed stabilization or improvement, supporting potential hepatoprotective and reno-protective effects. CONCLUSION: Setmelanotide promoted clinically meaningful weight loss and improved liver, kidney, and metabolic parameters in an adult patient carrying BBS10-likely pathogenic variants. Together with emerging evidence for interventional studies, these findings suggest that MC4R agonism may confer organ-level and cardiometabolic benefits beyond weight reduction.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS10"
+    },
+    {
       "pmid": "",
       "doi": "10.1097/icb.0000000000001831",
       "zotero_key": "WTRC2Q2J",
@@ -16570,6 +16452,52 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Severe early-onset retinal dystrophy"
+    },
+    {
+      "pmid": "42741724",
+      "doi": "10.1021/acs.jpcc.6c04168",
+      "zotero_key": "WGJI9UN9",
+      "title": "Speciation of Tellurium During Volatilization from Lead–Bismuth Eutectic and Its Chemical Transport Properties",
+      "authors": [
+        [
+          "Vladislav",
+          "Zobnin"
+        ],
+        [
+          "Andrei Mario",
+          "Ivan"
+        ],
+        [
+          "R.",
+          "Eichler"
+        ],
+        [
+          "Alexander",
+          "Vögele"
+        ],
+        [
+          "Dominik",
+          "Herrmann"
+        ],
+        [
+          "Zeynep",
+          "Talip"
+        ],
+        [
+          "Jörg",
+          "Neuhausen"
+        ]
+      ],
+      "journal": "The Journal of Physical Chemistry C",
+      "year": "2026",
+      "abstract": "Abstract Tellurium (Te) volatilization from lead–bismuth eutectic (LBE) was investigated by thermosublimatography to resolve the chemical form of Te transported from a Pb-rich liquid metal and its subsequent surface-mediated transformations. For dilute Te in LBE (xTe ≈ 10–3), the dominant transported species was assigned to PbTe(g), which deposited at high temperature in both fused-silica and 316L stainless-steel columns. This indicates that lead-based coolants intrinsically suppress Te release, as Te bound in PbTe is less volatile than elemental Te. In fused-silica columns, deposited PbTe partially decomposed under more oxidizing carrier-gas conditions, causing secondary release and low-temperature deposition of elemental Te, most consistently explained by Te2(g) formation. In contrast, PbTe remained stable on 316L stainless-steel surfaces even under water-saturated conditions, consistent with local redox buffering by the steel surface. These results demonstrate that Te transport from Pb-rich liquid metal is governed not only by its chemical form, but also by gas-phase conditions and surface-mediated processes. The findings provide insight into chalcogen transport at liquid metal/material interfaces and demonstrate how surface selection and carrier-gas redox conditions can influence Te mobility.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "42231409",
@@ -17324,32 +17252,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "NAA15"
-    },
-    {
-      "pmid": "16340503",
-      "doi": "10.1097/01.wno.0000189060.97681.20",
-      "zotero_key": "E23FGVMJ",
-      "title": "The 57th Annual Meeting of the American Academy of Neurology, Miami, Florida, April 9-16, 2005",
-      "authors": [
-        [
-          "Mark L.",
-          "Moster"
-        ],
-        [
-          "Laura J.",
-          "Balcer"
-        ]
-      ],
-      "journal": "Journal of Neuro-Ophthalmology",
-      "year": "2005",
-      "abstract": "There were 1,405 scientific papers and poster presentations at the 57th Annual Meeting of the American Academy of Neurology held in Miami Beach, Florida from April 9 to 16, 2005. Abstracts are published in Neurology 2005;64:Suppl 1. We have summarized the material of most interest to neuro-ophthalmologists. OPTIC NEURITIS AND MULTIPLE SCLEROSIS Brain MRI is an established biomarker of disease in multiple sclerosis (MS), and data on the impact of MS and acute optic neuritis on retinal nerve fiber layer (RNFL) thickness, as measured by optical coherence tomography (OCT), are beginning to emerge. A recent investigation examined the relation of visual function to RNFL thickness and brain MRI parameters in an MS cohort. Scores for low-contrast letter acuity (Sloan charts) and contrast sensitivity (Pelli-Robson), the leading candidates for visual components for inclusion in the MS functional composite, were significant predictors of average overall RNFL thickness (P < 0.001) and of lesion burden on T2-weighted MRIs (P = 0.001 for Sloan charts; P = 0.03 for Pelli-Robson) accounting for age. The greatest reductions in RNFL thickness were noted among eyes of MS patients with a history of acute optic neuritis. However, MS eyes without an optic neuritis history also demonstrated abnormalities. These results not only confirm a role for axonal loss in the anterior visual pathways of MS patients but demonstrate correlations of low-contrast letter acuity and contrast sensitivity with structural biomarkers, supporting their validity as clinical trial outcome measures (Wu GF, Philadelphia, PA, P01.025). Visual dysfunction is a common manifestation of MS and may therefore have important effects on health-related quality of life (HRQOL). The 25-Item National Eye Institute Visual Function Questionnaire (VFQ-25) has been used in a variety of ocular conditions and ophthalmic clinical trials. A study was performed to examine whether a 10-Item Neuro-Ophthalmic Supplement could increase the capacity of the VFQ-25 to capture self-reported visual dysfunction in patients with neuro-ophthalmic disorders, particularly those associated with diplopia or optic neuropathy. Patients included those with optic neuritis, MS, idiopathic intracranial hypertension, ischemic optic neuropathy, ocular myasthenia gravis, thyroid eye disease, and ocular motor palsies. Scores for the VFQ-25 + 10-Item Neuro-Ophthalmic Supplement (combined scores) had a greater capacity to distinguish neuro-ophthalmically impaired patients from disease-free controls (receiver operating characteristic[ROC] curve area, 0.77) than did the VFQ-25 alone (ROC curve area, 0.73; P = 0.001). VFQ-25 + Supplement scores correlated significantly with binocular and with worse eye visual acuities (rs = 0.38 - 0.41; P < 0.0001), and Neuro-Ophthalmic Supplement items demonstrated appropriate levels of reliability. The 10-Item Supplement is a valid measure of self-reported visual dysfunction in neuro-ophthalmically impaired patients. This new scale captures symptoms and limitations related to diplopia and will be used to complement the VFQ-25 in clinical trials and other research (Balcer LJ, Philadelphia, PA, P01.031). Sixty MS patients were studied to establish the relationship of infections to MS exacerbations. MS attacks occurring between two weeks before and five weeks after an infection were considered temporally related to infection. A total of 127 infections were recorded in 53 patients, and 124 exacerbations occurred in 49 of the 53 patients. There was an increased risk of relapses temporally related to infection (odds ratio, 3.2; P < 0.0001). Exacerbations that were temporally related to infection were more frequently associated with severe and sustained deficits than those that were not temporally related to infection. The number of Gd-enhancing lesions was higher during exacerbations temporally related to infection than in those that were not temporally related to infection. This study demonstrates a significant association between systemic infection, risk of MS clinical relapse, and degree of MRI activity (Correale JD, Buenos Aires, Argentina, P03117). NEUROMYELITIS OPTICA Neuromyelitis optica (NMO) is a severe inflammatory central nervous system (CNS) disorder with a predilection for the optic nerves and spinal cord. Because of the potential overlap with MS with regard to clinical and neuroimaging findings, the diagnostic criteria for NMO have been recently re-examined and revised. These new criteria have modified those published in 1999 (Wingerchuk et al., Neurology 1999;53:1107-14) to update MRI findings and to incorporate a novel serum autoantibody marker, NMO-immunoglobulin (Ig)G. Investigations for these studies calculated sensitivities and specificities for each component of the 1999 NMO diagnostic criteria using a new 118-patient cohort. Combinations of individual criteria, including NMO-IgG, were tested to optimize the potential for correct diagnosis. Among patients with NMO (n = 84) versus MS (n = 34), criteria that had the greatest capacity to distinguish NMO from MS were the presence of NMO-IgG (sensitivity, 75.3%; specificity, 93.3%) and spinal cord T2-lesion length extending beyond three vertebral segments (sensitivity, 97.0%; specificity, 79.0%). Neurological symptoms indicating disease outside the optic nerves and spinal cord were seen in 17 NMO patients (20.2%). Based on these findings, the authors suggested criteria for diagnosis of NMO. Absolute criteria: presence of optic neuritis and acute myelitis (but disease in other areas of CNS allowed); supportive criteria: 1) spinal cord MRI with lesion(s) extending over three or more vertebral segments or 2) NMO-IgG seropositivity (Wingerchuk DM, Scottsdale, AZ, P01.033). As emphasized by studies refining the diagnostic criteria for NMO (P01.033 above), an NMO diagnosis is no longer precluded by the presence of clinical or imaging abnormalities outside the optic nerves or spinal cord as long as the patient meets the new NMO criteria described the previous paragraph. Importantly, the former (1999) criteria required a normal brain MRI. The brain MRI findings for 60 patients who met revised criteria for NMO (P01.033 above) were described in a recent study. In 26 (43%) of 60 patients, brain MRI was normal at a median of 1.6 years (range, 0-29 years) after the onset of symptoms. Seventeen patients (28%) had non-specific abnormalities that were generally located in the deep white matter and few in number (only four [6.5%] patients had more than four high T2 signal foci). Typical MS-like lesions were found in only six patients (10%), five of whom were seropositive for NMO-IgG. The remaining 11 patients (19%) had MRI findings considered atypical for MS; brainstem lesions were seen mostly among children. Because brain MRI abnormalities were noted among ~50% of patients who otherwise had classic findings for NMO, diagnostic criteria have been revised to allow for brain involvement (Pittock SJ, Scottsdale, AZ, P01.036). Because brain MRI techniques have continued to evolve, atypical findings have been noted more frequently in the brains of NMO patients. Given the contiguity of the hypothalamic regions to the anterior visual pathways, hypothalamic involvement in patients with NMO is perhaps not unexpected. Two patients with otherwise classic features of NMO were described as having hypersomnolence, hyponatremia, and hypothermia. MRI scans revealed new areas of hyperintense signal in the hypothalamus in the absence of other brain parenchymal lesions. Additional similar cases were identified from the literature, and this series again supports revision of the NMO diagnostic criteria to include involvement beyond the optic nerves and spinal cord (Poppe AY, Montreal, QC, Canada, P01.037). GENETIC OPTIC NEUROPATHIES Patients with Friedreich ataxia (FA) develop optic neuropathies, most frequently after development of gait and limb dysfunction. Sixteen molecularly defined Italian FA patients with quantified GAA were assessed with visual acuity, fundus photos, 30-degree Humphrey visual field, Ishihara color plates, OCT, visual evoked potentials (VEP), and electroretinography (ERG). All patients showed optic nerve damage as assessed by OCT and visual fields. Fiber loss was typically peripheral; decreased visual acuity was present only when central fibers were lost. VEP was altered in eight (56%) of the patients. In six, they were significantly delayed with reduced amplitudes; in three, the responses were absent. ERGs were normal in all patients. The degree of fiber loss, expressed as thickness of the nerve fiber layer as measured by OCT, was significantly correlated with the GAA expansion in the smaller allele of the frataxin gene (P = 0.002; r = −0.69 for the peripheral sectors). OCT was the most sensitive test in showing optic neuropathy (Fortuna F, Milan, Italy, S01.003). Investigators designed a battery of clinical measures that may be used for outcomes assessment in FA therapeutic trials. FA candidate performance measures, including the timed 25-foot walk, 9-hole peg test, low-contrast letter acuity, and PATA test (a test of speech) were evaluated in a cohort of 131 FA patients at six academic medical centers. Scores for individual components (including vision) and for the combination of performance measures correlated significantly with neurologic disability, activities of daily living, and disease duration (rs = 0.40 - 0.89; P < 0.0001). Visual function scores were also found to be lower in the FA cohort compared with disease-free controls, further supporting the inclusion of low-contrast letter acuity in an FA outcomes assessment battery. Given the high proportion of FA patients who progress to a non-ambulatory status in adulthood, inclusion of measures that capture vision, arm function, and speech will ensure sensitivity and applicability throughout the course of disease (Lynch DR, Philadelphia, PA, P01.104). To further development of an animal model for Leber Hereditary Optic Neuropathy (LHON), mice received intraocular injections of an adeno-associated virus-ribozyme directed against the murine mitochondrial ND4 subunit of complex I. Their ganglion cells showed hyperchromatic cytoplasm and nuclear condensation suggestive of apoptosis. Optic nerves showed secondary demyelination with axonal loss. Transmission electron microscopy revealed swelling and vacuolization of mitochondria with dissolution of cristae. Allotopic expression of a mutant R340H ND4 results in histopathology similar to that of patients with LHON harboring the G11778A mutation in mitochondrial DNA (mtDNA). This is a step further in development of an animal model of LHON (Qi X, Gainesville, FL, S01.001). In addition to the three most common mtDNA mutations that occur in patients with LHON, novel pathogenetic mutations continue to be discovered. Overlap with other mitochondrial disease phenotypes, such as mitochondrial encephalopathy, lactic acidosis, and stroke-like episodes (MELAS), has also been described for mutations involving the ND5 subunit of complex I. An Italian family with a maternally inherited LHON phenotype demonstrated an ND5 mtDNA mutation (G13042A/ND5) that was pathogenetic for LHON yet had been previously described in a case of MELAS. This report underscores the potentially variable clinical expression that may occur in the setting of mtDNA mutations and reinforces the need for consideration of a variety of mutations in patients with optic neuropathies consistent with LHON (Valentino ML, Bologna, Italy, P01.029). An attempt to use neuroprotection to prevent second eye involvement with LHON was reported. In an open-label prospective pilot study, nine patients with one-eye vision loss for less than six months and normal visual function in the other eye were treated with brimonidine purite 0.15% (Alphagan P) four times daily in the unaffected eye for up to two years. Visual acuity was the primary outcome measure. Secondary measures included changes on automated perimetry and quantification of the relative afferent pupillary defect. There were eight men and one woman enrolled, aged 13-54 years (mean, 32 years); eight had the 11,778 mtDNA mutations, and one the 3,460 mutations. Despite normal visual acuity and visual field mean deviations at baseline, seven patients had minimal changes in the central visual field of the study eye. All patients had deterioration of their second eye vision. Topical brimonidine purite in this dosage was unsuccessful in preventing second-eye involvement (Newman NJ, Atlanta, GA, S01.002). Horizontal gaze palsy with progressive scoliosis (HGPPS) is a rare syndrome with congenital absence of conjugate horizontal eye movements from birth and a severe progressive scoliosis. It is caused by mutations in the human axon guidance gene ROBO3 that is important in midline crossing during neurodevelopment. Two genetically defined HGPPS patients were studied. One patient underwent structural MRI, and one underwent Brain Stem Auditory Evoked Responses (BAERs). A T1-weighted three-dimensional volume MRI provided anatomical information and was co-registered to the diffusion tensor imaging (DTI) data. Diffusion tensors were calculated from diffusion-weighted images using standard methods. The structural MRI showed reductions in the size of the pons, medulla, and cerebellar peduncles and flattening of the rostral medulla. Color-coded DTI showed absence of the decussation of the superior cerebellar peduncles and absence of the major crossing fibers representing the trapezoid body at the pontine level, confirmed by the BAER results in the second patient. Supratentorial crossing fibers appeared normal. Mutations in ROBO3 resulted in DTI-defined abnormal midline crossing of several white matter tracts in the hindbrain. This is the first report of the lack of decussation of both the superior cerebellar peduncles and the auditory/vestibular pathways (Sicotte NL, Los Angeles, CA, S01.005). Two children with severe microphthalmia and one with anophthalmia developed progressive severe white matter degeneration. The patients were unrelated, but parents originated from the same Pakistani village. Workup for known causes of white matter degeneration was negative. The authors propose that this is a novel example of a leukoencephalopathy in which the abnormal cerebral white matter disappears over time (vanishing white matter) (Kanavin OJ, Amsterdam, Netherlands, S65.001). IDIOPATHIC INTRACRANIAL HYPERTENSION Obesity and weight gain are known risk factors for idiopathic intracranial hypertension (IIH). However, the profiles of body mass index (BMI; = weight [kg]/height2 [meters]) and weight change that are most associated with IIH have not been defined. A recent case-control study designed to pilot a new risk factor questionnaire and to examine patterns of weight gain and obesity has provided new insight. This study included 34 newly diagnosed IIH patients and 41 age-matched controls. As expected, higher levels of BMI were associated with progressively greater risk of IIH in this cohort (BMI, 25-30; odds ratio in favor of IIH = 6.5; BMI 30-35: odds ratio = 19.5; BMI >35; odds ratio = 26.0; P < 0.01, χ2 for trend). Higher percentages of weight gain during the year before diagnosis (or corresponding reference time for controls) were also associated with IIH (5%-10% weight gain: odds ratio = 3.5; 10%-15%: odds ratio = 10.2; >15%: odds ratio = 15.2; P < 0.01). Most interesting was the finding that among patients with moderate weight gain (5%-15%), those with BMIs <30 (ideal or slightly overweight) were at greatest risk for IIH. Results of this study support clinical observations that associate IIH with increasing degrees of weight gain and indicate that weight gain-associated IIH may develop even among patients of ideal or slightly overweight BMI profile (Daniels AB, Philadelphia, PA, P01.032). VESTIBULO-CEREBELLAR PATHWAY DYSFUNCTION Whereas skew deviation is typically attributed to brain stem lesions that disrupt otolithic vestibular projections to the third and fourth nerve nuclei, it may also occur in the setting of isolated focal cerebellar lesions. Focal cerebellar lesions were identified in five patients with vertical ocular misalignment who had no evidence of brainstem involvement (or neuromuscular disease). After detailed testing of the vestibulo-ocular reflex, patterns were found that implicate imbalance of the utriculo-ocular reflex as the mechanism for skew deviation (Wong MF, Toronto, ON, Canada, P01.013). Benign paroxysmal positional vertigo (BPPV) is a common cause of vertigo encountered by neurologists and neuro-ophthalmologists. The assessment and treatment of BPPV has been systematically investigated by several research groups. BPPV is unique among other causes of vertigo in that it results from misplaced otoconia in the semicircular canals. Treatment, therefore, centers on repositioning of the otoconial debris within the canals. Among 524 consecutive patients who presented to an emergency department in Italy with symptoms of dizziness, 243 were found to have BPPV that localized by Dix-Hallpike maneuver to the posterior or anterior canals (n = 202), the horizontal canal (n = 35), or the posterior and horizontal canals combined (n = 6). Canalith repositioning treatment (modified in cases of horizontal canal BPPV) produced resolution of vertigo symptoms in all but six patients (Del Colle R, Legnago, Italy, P01.019). The efficacy of a new treatment maneuver for posterior canal BPPV was also investigated. This new treatment, the Gans Repositioning Maneuver (GRM), is a hybrid of the Semont Liberatory Maneuver (SLM) and the Canalith Repositioning Maneuver (CRM). Although these established maneuvers are well tolerated and easily performed on most patients, those with hip problems that may be aggravated by brisk lateral motion during the SLM, and individuals with a contraindication to neck hyperextension (as required in the CRM), need a modified version of these treatments. The GRM consists of the following: 1) the patient is placed in a side-lying position (used in SLM); 2) the patient rolls onto the shoulder opposite the involved ear (with head turned away from involved ear throughout rotation); and 3) the patient is seated upright. Patients with posterior canal BPPV treated with GRM in a recent series (n = 207) experienced resolution in 80.5% of cases after a with two treatments. were only within a and results were in with previous data for the and The GRM was to be in posterior canal BPPV and may to repositioning maneuvers for of patients with hip and neck problems that FL, One of the most important in an emergency is peripheral vestibular dysfunction from more brain stem causes or of vertigo and An abnormal head on vestibular testing is to clinical evidence in favor of a peripheral vestibular To the the patient a the the head to each The of a during this maneuver is a of decreased from the ear to the head is decreased the eye with the head during the and a is required to the Among study were diagnosed with peripheral and were diagnosed with cerebellar in posterior cerebellar superior cerebellar and anterior cerebellar patients had a lateral syndrome one had a and patients had in multiple The was normal in of of and in all patients who presented with isolated vestibular In the three patients with and abnormal the abnormal was attributed to involvement of vestibular or peripheral vestibular nerve The authors that a normal to brain in patients with non-specific acute onset symptoms of vertigo and ataxia The National and cohort data on a of the The of self-reported among men and aged years who in from 1999 to was with the relationship to risk and to treatment for in this within the year was by of the The symptoms less than two weeks in two weeks to three months in and more than three months in of the with The to was for for and for years and with who did not report dizziness, with were more to be versus P < and to have a higher mean versus P < was in of the with It of (n = ear (n = other (n = vestibular (n = or other (n = after treatment was among of the treated patients. The demonstrates that is a common that over aged years and in the will have symptoms that over three A is required to and among Patients with ocular myasthenia diplopia and that may be was to consecutive patients with at to a of Patients had been on and were on of to treatment, or disease was during and all were after of symptoms. One patient with underwent an average of of patients on including and were but infections and were not and was generally well of the patients who continued on of developed or limb within years of and occurred in of patients, and they were treated with trials are to further examine the potential for to and to or prevent onset of symptoms A case of primary CNS was after months of treatment with for This is as the first such patient in a is as a clinical of of the In a series of patients with sensitivity of was found to be consistent with Whereas was the was in one of four patients diagnosed with that other for may be associated with nerve was performed on the nerve from the in normal controls and patients with who had a clinical history and consistent with the diagnosis of and A was found after than versus of demonstrated on without significant on is a visual manifestation of or head of is to occur within six months of but the course of such has not been examined in A series of cases in and in in in in in and in demonstrated or resolution in The of did not with of or of resolution was seen more with Importantly, of visual field was noted to occur after six months in eight patients, evidence for that may be when the and of such of visual field function or increasing capacity to visual field testing to be investigated X, Atlanta, GA, A study at the of neuroimaging with of was Among patients, had were and were There were no significant between the two with to and of the visual field defect. of and of were (P = 0.001). was more common in and than in other (P = 0.001). after was more than after or demyelination (P = 0.001). lesions resulted in the most lesions produced in was also seen in of of of of optic and of lateral lesions. the cases with and the cases with and the most information from this study is that at of secondary to lesions of the optic and optic will be Atlanta, GA, patients treated with for primary CNS developed The clinical of included vision visual loss and One patient was at diagnosis of The median from of to diagnosis of was in these patients included retinal and patient had previous or other disease to an to changes in visual of a to information visual A study of in a in disease patients, and was of the trials a that in and of the and no had to whether a change and reduced the to and to changes in of increased The authors attributed the increased in and to over the of items or decreased The in this study were also more than to report a change when had with impaired caused by and in which may have for information in a variety of including To test the that visual and with motor function in disease patients were tested on and higher visual patients with disease were impaired in and higher visual as well as including and compared with controls. The higher visual and dysfunction correlated with motor in with and may to of the dysfunction in patients A study compared visual in patients",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Anomalies du developpement oculaire, Ocular developmental anomalies"
     },
     {
       "pmid": "",
@@ -18826,52 +18728,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "EYS"
-    },
-    {
-      "pmid": "8227939",
-      "doi": "",
-      "zotero_key": "2XVTVP57",
-      "title": "Types of optometric testing emphasized in different practice modes.",
-      "authors": [
-        [
-          "Lawrence",
-          "Thal"
-        ],
-        [
-          "C",
-          "Hisaka"
-        ],
-        [
-          "R",
-          "Melrose"
-        ],
-        [
-          "Iván Hernández",
-          "López"
-        ],
-        [
-          "Aung Aung Phyo",
-          "Wai"
-        ],
-        [
-          "Mary A.",
-          "Woo"
-        ],
-        [
-          "M",
-          "Woo"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "1993",
-      "abstract": "We found the following relationships in the frequency/emphasis of testing as statistically significant: 1) For stereopsis testing: private practices performed it more often than corporate; 2) For binocular vision testing: private practices performed it more than did either corporate or NP/HMO, corporate performed it more than NP/HMO; 3) For tonometry: corporate performed it slightly more than NP/HMO; 4) For dilation: NP/HMO performed it more than both private and corporate; and 5) For perimetry: private performed it more than both corporate and NP/HMO.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "4 - Examinations",
-      "subcollection": "Binocular vision, Vision binoculaire"
     },
     {
       "pmid": "42704165",
