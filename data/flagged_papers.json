@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T07:51:04Z",
+  "generated_at": "2026-09-27T08:00:45Z",
   "threshold_k": 0,
-  "total_evaluated": 29201,
-  "total_flagged": 432,
+  "total_evaluated": 30457,
+  "total_flagged": 503,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -88,7 +88,7 @@
       "ADGRV1",
       "AGK",
       "AIPL1",
-      "ALDH1A3",
+      "APC",
       "ARID1B",
       "ARR3",
       "ARSG",
@@ -116,6 +116,8 @@
       "FBN1",
       "FOXE3",
       "FRAS1",
+      "FRMD7",
+      "FZD4",
       "GDF6",
       "GJA8",
       "GPR143",
@@ -129,8 +131,6 @@
       "KCNJ13",
       "KRT12",
       "KRT3",
-      "LSS",
-      "MAB21L2",
       "MAC assess-genes",
       "MERTK",
       "MFRP",
@@ -158,7 +158,7 @@
       "PRPH2",
       "PRR12",
       "RAB3GAP2",
-      "RAX",
+      "RARB",
       "RBP3",
       "RDH11",
       "RNU2-2",
@@ -182,9 +182,6 @@
       "USH2A",
       "ZEB1",
       "ZNF408"
-    ],
-    "APC": [
-      "APC"
     ]
   },
   "articles": [
@@ -235,6 +232,40 @@
       "subcollection": "MYOC"
     },
     {
+      "pmid": "9153893",
+      "doi": "",
+      "zotero_key": "96F6NWQN",
+      "title": "[\"CHARGE\" association].",
+      "authors": [
+        [
+          "A.",
+          "Barak"
+        ],
+        [
+          "L",
+          "Gabis"
+        ],
+        [
+          "B",
+          "Mogilner"
+        ],
+        [
+          "S",
+          "Gelman-Kohan"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1997",
+      "abstract": "CHARGE association represents a group of congenital anomalies with no clear etiology. The broad array of abnormalities, which involves several systems, has been the basis for the acronym CHARGE: coloboma, heart anomaly, choanal atresia, retarded growth and development, hypoplastic genitalia and ear malformation. We present 3 children with CHARGE association to illustrate the phenotypic variability and note the multidisciplinary treatment they received. It is recommended that this entity be approached in an interdisciplinary, integrated way to allow for faster diagnosis and better prognosis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "32842192",
       "doi": "10.13201/j.issn.2096-7993.2020.06.019",
       "zotero_key": "WRGC2MUP",
@@ -263,6 +294,178 @@
       ],
       "category": "6 - Genes",
       "subcollection": "USH1C"
+    },
+    {
+      "pmid": "13584535",
+      "doi": "",
+      "zotero_key": "ABA7NWUD",
+      "title": "[A new syndrome dyscephalia with bird-head and dental abnormalities, nanism, hypotrichosis, cutaneous atrophy, microphthalmia and congenital cataract].",
+      "authors": [
+        [
+          "J H",
+          "François"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1958",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "13546833",
+      "doi": "",
+      "zotero_key": "2EVJ3RE6",
+      "title": "[A new syndrome: cranial abnormalities with bird-like head & dental abnormalities, nanism, hypotrichosis, cutaneous atrophy, microphthalmia & congenital cataract].",
+      "authors": [
+        [
+          "J H",
+          "François"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1958",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "13596685",
+      "doi": "",
+      "zotero_key": "K6C3HCCI",
+      "title": "[A new syndrome: dyscephalia with bird-like head & dental anomalies, nanism, hypotrichosis, skin atrophy, microphthalmia & congenital cataract].",
+      "authors": [
+        [
+          "J H",
+          "François"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1958",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1296050",
+      "doi": "",
+      "zotero_key": "WT3F635K",
+      "title": "[Aicardi syndrome: a case report].",
+      "authors": [
+        [
+          "Lin",
+          "Ck"
+        ],
+        [
+          "Tsai",
+          "Rk"
+        ],
+        [
+          "Jong",
+          "Yj"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1992",
+      "abstract": "A 5-year-old girl had suffered from infantile spasms since 3 months of age. Cranial computerized tomography revealed agenesis of the corpus callosum. Abnormal ocular fundus features consisted of bilateral disc colobomas and lacunar pigment change in her right eye. The clinical presentations were consistent with Aicardi syndrome. The ophthalmologic manifestations of Aicardi syndrome will be discussed in this paper.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "12483842",
+      "doi": "",
+      "zotero_key": "BCI84HWI",
+      "title": "[Aicardi syndrome].",
+      "authors": [
+        [
+          "Kenji",
+          "Naritomi"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2002",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "7125395",
+      "doi": "",
+      "zotero_key": "QSEJFFR9",
+      "title": "[Aicardi syndrome].",
+      "authors": [
+        [
+          "E",
+          "Ramos"
+        ],
+        [
+          "E",
+          "Rodríguez-Vigil"
+        ],
+        [
+          "A",
+          "Alonso"
+        ],
+        [
+          "E",
+          "Suárez"
+        ],
+        [
+          "P",
+          "Poo"
+        ],
+        [
+          "María Guadalupe Obregón",
+          "Sánchez"
+        ],
+        [
+          "M A",
+          "Miguel"
+        ],
+        [
+          "Margarita Aguerrea",
+          "Menendez"
+        ],
+        [
+          "Jose Gerardo Rios",
+          "Castillo"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1982",
+      "abstract": "The association in young girls of flexion spasms of early beginning, partial or total agenesis of the corpus callosum, severe chororetinopathy and frequent skeletal anomalies is known as the Aicardi syndrome. On occasion of two observations a review of the literature is made.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "38565512",
@@ -437,6 +640,44 @@
       "subcollection": "TYR"
     },
     {
+      "pmid": "9785790",
+      "doi": "",
+      "zotero_key": "SUG5W6IS",
+      "title": "[Anesthetic management of a child with Lenz dysplasia associated with panhypopituitarism].",
+      "authors": [
+        [
+          "C",
+          "Oobayashi"
+        ],
+        [
+          "Hideo",
+          "Iwasaka"
+        ],
+        [
+          "Masahiko",
+          "Ichimata"
+        ],
+        [
+          "S",
+          "Kira"
+        ],
+        [
+          "Teruyoshi",
+          "Noguchi"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1998",
+      "abstract": "We present a child with Lenz dysplasia associated with panhypopituitarism. Lenz dysplasia is characterized by small eyeball, small head, hydronephrosis, cleft lip and palate, and mental retardation. A 12 month-old boy with Lenz dysplasia was scheduled for plasty of the lip and basis of the nasal cavity under general anesthesia. We had to pay attention for airway management and hormone supplementation. Anesthesia was induced with sevoflurane and nitrous oxide in oxygen. Tracheal intubation was facilitated with vecuronium bromide. We had no difficulty in airway management. Since this patient could not release enough endogenous cortisol in response to the stress of surgery, we supplemented hydrocortisone after anesthesia induction. Urine output and serum electrolyte concentrations were carefully monitored during surgery because of the impaired ADH response. We encountered no complications in the anesthetic management of this patient.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1055/s-0032-1328508",
       "zotero_key": "7BD5VWKT",
@@ -465,6 +706,124 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Aniridia"
+    },
+    {
+      "pmid": "26173131",
+      "doi": "",
+      "zotero_key": "ZKRDPMEI",
+      "title": "[Anophthalmia and microphthalmia requires multidisciplinary care. Many of the children also have other medical problems].",
+      "authors": [
+        [
+          "Ylva",
+          "Jugård"
+        ],
+        [
+          "Marie",
+          "Odersjö"
+        ],
+        [
+          "Alexandra",
+          "Topa"
+        ],
+        [
+          "Gun",
+          "Lindgren"
+        ],
+        [
+          "Marita Andersson",
+          "Grönlund"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2015",
+      "abstract": "Anophthalmia/microphthalmia (A/M) are rare congenital eye malformations. Early intervention with ocular prosthesis can stimulate orbital growth and prevent facial asymmetry. We reviewed medical records from 18 individuals with A/M (0.8-31 years) treated with ocular prosthesis at Sahlgrenska University Hospital between 2000 and 2012. A majority had other ocular findings. Seven had subnormal visual acuity in the fellow eye, one third were in contact with vision support services and half of the group wore glasses. Eleven individuals had extra-ocular findings such as cardiac defect, hearing impairment and neuropsychiatric disorders, possibly indicating syndromic conditions. We suggest that investigation of A/M children should include ultrasound of the eye, optionally visual evoked potential and magnetic resonance imaging of the CNS. The ophthalmologist should initiate treatment with prosthesis, pediatric assessment, hearing tests and genetic counseling, but should also monitor visual development of the fellow eye.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "11462399",
+      "doi": "",
+      "zotero_key": "58XJRN74",
+      "title": "[Anophthalmia-limb anomalies].",
+      "authors": [
+        [
+          "Kenji",
+          "Kurosawa"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "9019968",
+      "doi": "",
+      "zotero_key": "QXK5NV7D",
+      "title": "[Anophthalmia/micro-ophthalmia in syndromes: epidemiology study of newborns in Spain].",
+      "authors": [
+        [
+          "Eva",
+          "Bermejo"
+        ],
+        [
+          "A Ayala",
+          "Garcés"
+        ],
+        [
+          "Villegas",
+          "Rodríguez"
+        ],
+        [
+          "M Martín",
+          "Bermejo"
+        ],
+        [
+          "M Blanco",
+          "García"
+        ],
+        [
+          "Javier Egües",
+          "Jimeno"
+        ],
+        [
+          "Héctor Huertas",
+          "Camacho"
+        ],
+        [
+          "N Jiménez",
+          "Muñoz-Delgado"
+        ],
+        [
+          "Luis Paisán",
+          "Grisolía"
+        ],
+        [
+          "M L",
+          "Martínez-Frías"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1996",
+      "abstract": "OBJECTIVE: The objective of this study was to perform an epidemiological analysis of the frequency of anophthalmia/microphthalmia (A/M) in syndromes identified in newborn infants in Spain. PATIENTS AND METHODS: Data of the Spanish Collaborative Study of Congenital Malformations during the period of 1976-1994, corresponding to more than 1,200,000 births, was analyzed. Among these, 86 newborn infants with A/M presented some of the recognized syndromes. RESULTS: There is a wide etiological heterogeneity among the syndromes with this ocular defect, with chromosomal syndromes being the most frequent (67.9% of total syndromes with A/M), followed by monogenic syndromes (19.1%), environmental (9.5%) and those of unknown etiology (3.6%). CONCLUSIONS: Some guidelines when a baby is born with A/M are derived from this study. First, given the tendency of the defect to present together with other anomalies, it is advisable to perform a detailed study to rule out or to confirm the existence of other defects. Adequate samples should be taken (even in stillborn infants) for cytogenetic study. Examine carefully the prenatal history, looking for chronic diseases, infectious processes or exposure to teratogens. Depending on the baby's survival, follow-up of the psychomotor development should be made. All of these aspects are always important in malformed babies, but especially in infants with A/M given the tendency of the defect to present in syndromes as the etiologic diagnosis determines the counselling regarding the risk of recurrence, detection of carriers in some cases and possible prenatal diagnosis.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "2035198",
@@ -531,6 +890,86 @@
       "subcollection": "Bardet-Biedl syndrome"
     },
     {
+      "pmid": "10021803",
+      "doi": "",
+      "zotero_key": "MUVGRIHC",
+      "title": "[CHARGE association].",
+      "authors": [
+        [
+          "María José",
+          "Costeira"
+        ],
+        [
+          "I",
+          "Ruivo"
+        ],
+        [
+          "C",
+          "Miguel"
+        ],
+        [
+          "Paulo José Tonello Mendes",
+          "Ferreira"
+        ],
+        [
+          "A",
+          "Almeida"
+        ],
+        [
+          "I",
+          "Azevedo"
+        ],
+        [
+          "GABRIELLE BRITO",
+          "SILVA"
+        ],
+        [
+          "A",
+          "Aguiar"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1998",
+      "abstract": "Posterior choanal atresia is a congenital malformation which can occur isolated or in combination to additional malformations. In CHARGE association the other anomalies are: coloboma, heart disease, retarded development/growth or central nervous system abnormalities, genital hypoplasia or hypogonadism and ear abnormalities or deafness. The authors present three cases of CHARGE association and they also review the clinical findings required for the diagnosis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "9048002",
+      "doi": "",
+      "zotero_key": "QEB3FSTG",
+      "title": "[CHARGE association].",
+      "authors": [
+        [
+          "Masato",
+          "Tsukahara"
+        ],
+        [
+          "M",
+          "Yoshimura"
+        ],
+        [
+          "J",
+          "Yoneda"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1996",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "20204230",
       "doi": "10.1590/s0325-00752010000100016",
       "zotero_key": "V2FA4VP5",
@@ -563,6 +1002,40 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
+    },
+    {
+      "pmid": "17022586",
+      "doi": "",
+      "zotero_key": "GU6DACV2",
+      "title": "[CHARGE syndrome].",
+      "authors": [
+        [
+          "Tadashi",
+          "Matsumoto"
+        ],
+        [
+          "Harumi",
+          "Miyahara"
+        ],
+        [
+          "Kanako",
+          "Morifuji"
+        ],
+        [
+          "Noriko",
+          "Sasaki"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2006",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "40623937",
@@ -759,6 +1232,32 @@
       "subcollection": "Syndromic ocular developmental anomalies"
     },
     {
+      "pmid": "3219089",
+      "doi": "",
+      "zotero_key": "HW2MGCGN",
+      "title": "[Congenital anophthalmos].",
+      "authors": [
+        [
+          "E D",
+          "Cherstvoĭ"
+        ],
+        [
+          "S K",
+          "Kletskiĭ"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1976",
+      "abstract": "The authors analyze 8 cases of congenital anophthalmia (CA). In all the cases this condition has been a component of multiple congenital developmental abnormalities; in 4 cases the defect has been nosologically diagnosed. Developmental defects of the central nervous system have been revealed in all the cases. Histologic studies have made it possible to single out, with due consideration for the normal embryogenesis of the eye, the following variants of CA: (1) complete anophthalmia, (2) partial anophthalmia--(a) purely neuroectodermal, (b) mixed mesodermal/ectodermal, (3) anophthalmia with cysts, (4) anophthalmia with intracranial synophthalmus. The possible mechanisms of teratogenesis acting in every case of CA are discussed.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1055/s-0028-1109327",
       "zotero_key": "CU3KGN46",
@@ -793,6 +1292,78 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "3205659",
+      "doi": "",
+      "zotero_key": "XIPU5EIF",
+      "title": "[Diagnostic criteria of the cerebro-oculo-facio-skeletal syndrome or Pena-Shokeir II syndrome].",
+      "authors": [
+        [
+          "",
+          "Butomo"
+        ],
+        [
+          "Riabykh",
+          "Ov"
+        ],
+        [
+          "Chepeleva",
+          "Ov"
+        ],
+        [
+          "Krisnogorskiĭ",
+          "In"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1988",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1052253",
+      "doi": "",
+      "zotero_key": "IJSJVSNR",
+      "title": "[Diverse etiologies of colobomas of the crystalline lens].",
+      "authors": [
+        [
+          "Bec",
+          "P"
+        ],
+        [
+          "Arné",
+          "Jl"
+        ],
+        [
+          "P",
+          "Sécheyron"
+        ],
+        [
+          "V",
+          "Philippot"
+        ],
+        [
+          "Pierre-Émile",
+          "Lhuillier"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1976",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1055/s-2000-10584",
       "zotero_key": "VPE4NH3B",
@@ -825,6 +1396,50 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Glaucoma"
+    },
+    {
+      "pmid": "4981129",
+      "doi": "",
+      "zotero_key": "GR4VHBMD",
+      "title": "[Etiology of occular colobomas].",
+      "authors": [
+        [
+          "J",
+          "Kelecom"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1967",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "11462617",
+      "doi": "",
+      "zotero_key": "RRVMQBET",
+      "title": "[Eye, microphthalmia/coloboma].",
+      "authors": [
+        [
+          "Tomoki",
+          "Kosho"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "14552188",
@@ -941,6 +1556,40 @@
       "subcollection": "Achromatopsia"
     },
     {
+      "pmid": "4708606",
+      "doi": "",
+      "zotero_key": "8D94QX4M",
+      "title": "[Goltz' syndrome. Bone, eye and skin dysplasias].",
+      "authors": [
+        [
+          "Ádám",
+          "Fazekas"
+        ],
+        [
+          "L",
+          "Szegö"
+        ],
+        [
+          "L",
+          "Vígváry"
+        ],
+        [
+          "Margit",
+          "Nagy"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1973",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1055/a-0583-6290",
       "zotero_key": "DC4P4V39",
@@ -1031,6 +1680,28 @@
       "subcollection": "Syndromic albinism"
     },
     {
+      "pmid": "11529030",
+      "doi": "",
+      "zotero_key": "7HVV8P65",
+      "title": "[Ichthyosis-coloboma-heart defect-deafness-mental retardation].",
+      "authors": [
+        [
+          "Kim",
+          "Kc"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "40623933",
       "doi": "10.3760/cma.j.cn511374-20250401-00193",
       "zotero_key": "E5JXQKP8",
@@ -1119,62 +1790,370 @@
       "subcollection": "Albinism, ocular"
     },
     {
-      "pmid": "15259979",
+      "pmid": "3241525",
       "doi": "",
-      "zotero_key": "T5IACR3X",
-      "title": "[Preliminary linkage analysis on autosomal dominant microphthalmia with 12 microsatellite markers].",
+      "zotero_key": "T84QC6ZD",
+      "title": "[Incidence and significance of coloboma of the optic disk].",
       "authors": [
         [
-          "Ping",
-          "Yu"
+          "Manfred",
+          "Tost"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1989",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "11529025",
+      "doi": "",
+      "zotero_key": "TRVEHKH6",
+      "title": "[Lenz microphthalmia syndrome].",
+      "authors": [
+        [
+          "Tsugukazu",
+          "Tohma"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "19504436",
+      "doi": "10.3760/cma.j.issn.1003-9406.2009.03.006",
+      "zotero_key": "FRF5FV3Z",
+      "title": "[Linkage analysis of a Chinese family with autosomal dominant congenital retinaochoroidal coloboma].",
+      "authors": [
+        [
+          "Jiamei",
+          "Dong"
         ],
         [
-          "Qiang",
-          "Zhou"
+          "Juan",
+          "Bu"
         ],
         [
-          "Lei",
-          "Guo"
+          "Jing",
+          "Li"
         ],
         [
-          "Yong",
-          "Zhou"
+          "Yan-ling",
+          "Zhuo"
         ],
         [
-          "Yuan",
-          "Luo"
+          "Lejin",
+          "Wang"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2009",
+      "abstract": "OBJECTIVE: To map the candidate gene by linkage analysis in a Chinese family with autosomal dominant congenital retinaochoroidal coloboma. METHODS: A detailed clinical examination was performed for all patients in the family. The genomic DNA of all family members was extracted from peripheral blood leukocytes. Linkage analysis and genome-wide linkage screening was conducted using fluorescent detection of 398 microsatellite markers representing all autosomes at an average resolution of approximately 10 cM. Polymerase chain reaction was carried out to amplify all 398 microsatellite markers. The allele sizes were determined on ABI 3130-Avant genetic analyzer according to an internal size standard, and the results were analyzed using Genescan 3.1 and Genotyper 2.0 software. RESULTS: Linkage analysis showed the markers D2S2382-D2S301-D2S2244-D2S163 co-segregated with the disease locus in all affected members. The maximum Lod score was 3.01(D2S2382). CONCLUSION: The candidate region of the disease gene in the family was located in 2q34-2q35.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "11528654",
+      "doi": "",
+      "zotero_key": "N6FBE4E7",
+      "title": "[Macular coloboma-brachydactyly].",
+      "authors": [
+        [
+          "Y",
+          "Izumikawa"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1616250",
+      "doi": "",
+      "zotero_key": "CI7KPH46",
+      "title": "[Möbius syndrome and bilateral chorioretinal coloboma].",
+      "authors": [
+        [
+          "Valentín",
+          "Huerva"
         ],
         [
-          "Ruen Yue",
-          "Zhang"
+          "Ascaso",
+          "Fj"
         ],
         [
-          "Xiao Yi",
-          "Yan"
+          "Palomar",
+          "Mt"
         ],
         [
-          "Ke",
-          "Ding"
+          "Joselin Maritza Vera",
+          "García"
         ],
         [
-          "Zi Fu",
-          "Hong"
+          "J L Olivares",
+          "López"
         ],
         [
-          "Yu Zhu",
-          "Zhang"
+          "M",
+          "Gabas"
+        ],
+        [
+          "A",
+          "Palomar"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1992",
+      "abstract": "A child with palsy of the right facial nerve and bilateral palsy of the VIth, IXth and XIIth cranial nerves, dysfunction of the VIIIth cranial nerve, facial malformations and bilateral equinovarus was diagnosed on the basis of these features as having Moebius syndrome. Ocular studies disclosed congenital cataract and chorioretinal coloboma in both eyes. These ocular abnormalities have not previously been described in Moebius syndrome. This paper discusses whether the coexistence of these two types of anomalies may be due to occurrence of a break in the primitive internal carotid and trigeminal arteries between the fourth and fifth postconceptional weeks, causing maldevelopment of the choriocapillary and impairing neuron differentiation in cranial nerve nuclei.",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "11528735",
+      "doi": "",
+      "zotero_key": "8WMG8A3I",
+      "title": "[Nasopalpebral lipoma-coloboma syndrome].",
+      "authors": [
+        [
+          "Kazuhiro",
+          "Yamaguchi"
+        ],
+        [
+          "Takeshi",
+          "Kondoh"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2001",
+      "abstract": "",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "15114725",
+      "doi": "",
+      "zotero_key": "QXV9DWRS",
+      "title": "[Neuro-ophthalmological and radiological signs of Aicardi syndrome].",
+      "authors": [
+        [
+          "I M",
+          "Mosin"
+        ],
+        [
+          "O Iu",
+          "Vasil'eva"
+        ],
+        [
+          "Skripets",
+          "Pp"
+        ],
+        [
+          "Iaroslavtseva",
+          "Ev"
+        ],
+        [
+          "Avuchenkova",
+          "Tn"
+        ],
+        [
+          "Iziumova",
+          "Eb"
+        ],
+        [
+          "Shakarova",
+          "Ea"
+        ],
+        [
+          "O V",
+          "Shuleshko"
         ]
       ],
       "journal": "PubMed",
       "year": "2004",
-      "abstract": "In this preliminary study a Chinese autosomal dominant microphthalmia family were investigated and the linkage analyses were performed with six previously reported loci (CHX10, MITF, RX, MCOP, NNO1, NNO2) and six microsatellite markers on chromosome 11 as well. The allelic polymorphisms of those microsatellite markers were identified by using polymerase chain reaction, polyacrylamide gel electrophoresis and silver-staining techniques. The LOD scores between microsatellite markers and the disease were obtained by using MLINK software. Our results showed that the linkage between the microphthalmia in this family with the 6 known loci could be excluded, indicating that the defect gene in this microphthalmia family was probably distinct from those of previously reported microphthalmia families.",
-      "cited_by_count": 3,
+      "abstract": "Described in the paper are the results of ophthalmologic, ultrasound and radiological examinations of 3 girls with the Aicardi syndrome. It was for the first time, that an expansion of the optic-nerve disk excavation was described in patients with the above syndrome; such expansion was conditioned by trans-synaptic neuron degeneration induced by lesions to optic radiation in view of prenatal of encephaloplastic processes. The changing brain white substance as projected by optic radiation was detected in all children by computer and magnetic resonance tomography. Besides, other anomalies of the optic nerve (bindweed syndrome, coloboma) and of the retina are elucidated. Finally, the pathogenesis and differential diagnostics of the Aicardi syndrome are under discussion.",
+      "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
-        "source:search"
+        "source:seed"
       ],
-      "category": "6 - Genes",
-      "subcollection": "RAX"
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "5006098",
+      "doi": "",
+      "zotero_key": "Q99TS5DR",
+      "title": "[Ocular signs of trisomy 13. General review].",
+      "authors": [
+        [
+          "J",
+          "Cordier"
+        ],
+        [
+          "Armalia",
+          "Reny"
+        ],
+        [
+          "Nicolas Carlos",
+          "Kahn"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1971",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1029610",
+      "doi": "",
+      "zotero_key": "EMVR29PW",
+      "title": "[Oculocutaneous polydysplasic syndrome].",
+      "authors": [
+        [
+          "OSWALDO G.",
+          "COSTA"
+        ],
+        [
+          "H",
+          "Rocha"
+        ],
+        [
+          "Paulo Menzel",
+          "Galvao"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1976",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "4787574",
+      "doi": "",
+      "zotero_key": "9UNVQMKK",
+      "title": "[Ophthalmological manifestations of Aicardi's syndrome].",
+      "authors": [
+        [
+          "Francesco",
+          "Deodati"
+        ],
+        [
+          "Bec",
+          "P"
+        ],
+        [
+          "Jean-Claude",
+          "Carriere"
+        ],
+        [
+          "J B",
+          "Labro"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1973",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "10992067",
+      "doi": "",
+      "zotero_key": "3PRPPISQ",
+      "title": "[Persistent hyperplastic primary vitreous syndrome in a girl with Aicardi syndrome].",
+      "authors": [
+        [
+          "Francis",
+          "Béby"
+        ],
+        [
+          "Ch",
+          "Zech"
+        ],
+        [
+          "R.",
+          "Touraine"
+        ],
+        [
+          "P",
+          "Guibaud"
+        ],
+        [
+          "H.",
+          "Masset"
+        ],
+        [
+          "Ch",
+          "Trepsat"
+        ],
+        [
+          "P.H.",
+          "Denis"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2000",
+      "abstract": "Aicardi syndrome is characterized by infantile spasms, agenesis of the corpus callosum and chorioretinal lacunae. This disorder affects mostly females with early embryonic lethality in males. We present a case of persistent hyperplastic primary vitreous (PHPV) in association with Aicardi syndrome in a 2-year-old girl.",
+      "cited_by_count": 10,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "40350403",
@@ -1237,6 +2216,28 @@
       "subcollection": "PDE6C"
     },
     {
+      "pmid": "4277269",
+      "doi": "",
+      "zotero_key": "GZ5QS9JE",
+      "title": "[Repercussions of anomalies of colobomic fissures on optic fiber migration].",
+      "authors": [
+        [
+          "A",
+          "Clavert"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1974",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.3760/cma.j.cn112142-20220930-00468",
       "zotero_key": "R75HICFR",
@@ -1297,6 +2298,32 @@
       "subcollection": "Norrie disease, Familial exudative vitreoretinopathy"
     },
     {
+      "pmid": "23302280",
+      "doi": "",
+      "zotero_key": "XRP3RBCW",
+      "title": "[SOX2 defect and anophthalmia and microphthalmia].",
+      "authors": [
+        [
+          "Fuxiang",
+          "Ye"
+        ],
+        [
+          "Xianqun",
+          "Fan"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2012",
+      "abstract": "As a severe congenital developmental disorder, anophthalmia and microphthalmia are usually accompanied with vision impairment and hypoevolutism of the orbit in the affected side. Many genes are involved in anophthalmia and microphthalmia, in which, SOX2 is an important one. The defect of SOX2 causes multiple system disorders, including anophthalmia and microphthalmia. We describe the relationship between the SOX2 defect and anophthalmia/microphthalmia, in order to offer some proposals for the differential diagnosis, treatment and research of anophthalmia and microphthalmia.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "18552902",
       "doi": "",
       "zotero_key": "MN2ZDUBW",
@@ -1321,6 +2348,114 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
+    },
+    {
+      "pmid": "17340827",
+      "doi": "",
+      "zotero_key": "WGN9GN3P",
+      "title": "[The embryology and pathogenesis of congenital anophthalmus].",
+      "authors": [
+        [
+          "R",
+          "Verraz"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1969",
+      "abstract": "The picture presented by congenital anophthalmus is presented and its primary, secondary and degenerative forms are distinguished. The frequency of this rare abnormality is discussed with reference to the literature data, both clinical and experimental, and the possible part played by various physical, chemical, infectious and genetic factors is explained. Some considerations are expressed concerning the qualitative and chronological mechanisms of action and the harmful factors responsible for this embryopathy.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "22409892",
+      "doi": "",
+      "zotero_key": "HZA42D63",
+      "title": "[The genetic background for the eye malformations anophthalmia and microphthalmia].",
+      "authors": [
+        [
+          "Laura Sønderberg",
+          "Roos"
+        ],
+        [
+          "Karen",
+          "Grønskov"
+        ],
+        [
+          "Hanne",
+          "Jensen"
+        ],
+        [
+          "Zeynep",
+          "Tümer"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2012",
+      "abstract": "Anophthalmia and microphthalmia (AO/MO) are rare congenital eye malformations, in which the eyeball is apparently absent or smaller than normal, which causes various degrees of visual impairment. Over 200 different AO/MO-related syndromes have been described, but the genetic background is unknown in many cases. The aim of this article is to give an overview of AO/MO, focusing on the genetic background. It is illustrated that the future identification of new AO/MO related genes will benefit in the genetic counseling of AO/MO patients, and in the understanding of eye development and congenital eye malformations.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "4969480",
+      "doi": "",
+      "zotero_key": "53QGSUMJ",
+      "title": "[The genetic origin of colobomatous fossae of the optic nerve].",
+      "authors": [
+        [
+          "J.",
+          "Babel"
+        ],
+        [
+          "Hamid Reza",
+          "Farpour"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1967",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "8259321",
+      "doi": "",
+      "zotero_key": "RDD8HTCA",
+      "title": "[Unilateral anophthalmia in association with learning handicap and affective disorders--contribution to Lenz syndrome].",
+      "authors": [
+        [
+          "Paul",
+          "Fehlow"
+        ],
+        [
+          "W.",
+          "Miosge"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1993",
+      "abstract": "The case of an 18-year-old debile boy with leftside anophthalmia, premature craniosynostosis and dysmorphias characteristic for LENZ-syndrome as well as episodic affective disorders is reported. Special emphasis is laid on the differential diagnosis of the dysmorphia retardation syndrome.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -2011,6 +3146,44 @@
       "subcollection": "NYX"
     },
     {
+      "pmid": "7868502",
+      "doi": "",
+      "zotero_key": "7QTVBRKK",
+      "title": "A rare case of Aicardi syndrome.",
+      "authors": [
+        [
+          "Negi",
+          "Vs"
+        ],
+        [
+          "Kavita Yang",
+          "Sarin"
+        ],
+        [
+          "Daga",
+          "Mk"
+        ],
+        [
+          "Manorama",
+          "Gaiha"
+        ],
+        [
+          "Yatin",
+          "Sethi"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1994",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1074/jbc.271.26.15623",
       "zotero_key": "DM4CN4DB",
@@ -2435,44 +3608,6 @@
       "subcollection": "PLK4"
     },
     {
-      "pmid": "41480687",
-      "doi": "10.3892/ijmm.2025.5723",
-      "zotero_key": "IB4QMUD7",
-      "title": "Advances in RPGR gene therapy for X‑linked retinitis pigmentosa: From preclinical insights to clinical application (Review)",
-      "authors": [
-        [
-          "Yushan",
-          "Long"
-        ],
-        [
-          "Qi",
-          "Jia"
-        ],
-        [
-          "Wenliang",
-          "Zhang"
-        ],
-        [
-          "Huan",
-          "Qin"
-        ],
-        [
-          "Kai",
-          "Yao"
-        ]
-      ],
-      "journal": "International Journal of Molecular Medicine",
-      "year": "2025",
-      "abstract": "X‑linked retinitis pigmentosa, primarily caused by mutations in the <i>retinitis pigmentosa</i> <i>GTPase regulator</i> (<i>RPGR</i>) gene, represents one of the most severe forms of inherited retinal degeneration, with early onset and rapid progression. Conventional interventions, such as vitamin A or docosahexaenoic acid supplementation, offer limited benefits and fail to halt disease progression. By contrast, gene therapy has emerged as a promising approach to alter the disease course. The present review summarizes the clinical phenotypes and pathogenic mechanisms associated with <i>RPGR</i> mutations, focusing on their disruption of ciliary transport and metabolic homeostasis. The present review further discusses advances in preclinical models, including mice, dogs, zebrafish and induced pluripotent stem cell‑derived organoids, that have facilitated the development of <i>RPGR</i>‑targeted therapies. Adeno‑associated virus‑based gene replacement has shown efficacy in restoring retinal structure and function, and several approaches have progressed to early‑phase clinical trials. Despite encouraging outcomes, challenges such as RPGR coding sequence instability, vector delivery efficiency and long‑term safety remain. The present review integrates current mechanistic understanding and therapeutic progress, providing a translational perspective for precision treatment of <i>RPGR</i>‑associated retinal diseases.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "IFT172"
-    },
-    {
       "pmid": "38249506",
       "doi": "10.4103/tjo.tjo-d-23-00167",
       "zotero_key": "ICGDGSZB",
@@ -2523,6 +3658,104 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Knobloch syndrome"
+    },
+    {
+      "pmid": "2766069",
+      "doi": "",
+      "zotero_key": "6TSX6FW6",
+      "title": "Aicardi syndrome--a case report.",
+      "authors": [
+        [
+          "J H",
+          "Wang"
+        ],
+        [
+          "C D",
+          "Roan"
+        ],
+        [
+          "K P",
+          "Chang"
+        ],
+        [
+          "Sui",
+          "Huang"
+        ],
+        [
+          "C S",
+          "Chi"
+        ],
+        [
+          "B T",
+          "Hwang"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1989",
+      "abstract": "The Aicardi syndrome was first described by Aicardi in in 1965, which consisted of infantile spasms, defect of the corpus callosum, a characteristic lacunar chorioretinopathy, mental subnormality, and costovertebral anomalies. All patients have been female except one male case was reported in Australia. There have been approximately over 100 cases of the Aicardi syndrome reported in the literatures since 1965. The etiology of this syndrome is unknown. The most likely cause, however, is an X-linked mutational event with lethality in hemizygous male. We report a 43-day-old female infant with classic features of Aicardi syndrome including flexion spasms, dysgenesis of corpus callosum, microphthalmia, characteristic EEG, and characteristic lacunar chorioretinopathy.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "42151403",
+      "doi": "10.1038/s41433-026-04555-5",
+      "zotero_key": "ZTCWH8W9",
+      "title": "Aicardi syndrome: chorioretinal lacunae with optic–macular coloboma",
+      "authors": [
+        [
+          "Harsh H.",
+          "Jain"
+        ],
+        [
+          "Aditya",
+          "Kelkar"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1358350",
+      "doi": "",
+      "zotero_key": "8XATXQ62",
+      "title": "Aicardi's syndrome in a female infant with a family history of miscarried male siblings.",
+      "authors": [
+        [
+          "Chiu",
+          "Nc"
+        ],
+        [
+          "Shen",
+          "Ey"
+        ],
+        [
+          "",
+          "Fang"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1992",
+      "abstract": "Aicardi's syndrome is thought to be an X-linked genetic disease, although the mechanism for transmission remains uncertain. We report on a four-month-old female patient with Aicardi's syndrome. She was born prematurely at 28 weeks' gestation, weighing 1,500 g. Asymmetric myoclonic jerks developed at one month of age. Her left eye showed chorioretinal lacunae and a coloboma on the optic disc, while the right eye was microphthalmic with total retinal detachment. A CT scan disclosed heterotopia and dysgenesis of the corpus callosum. Abnormal development of the thoracic vertebrae was also evident. The most remarkable aspect of this case was that the patient's mother had suffered three miscarriages. Two are known to have been male, but the other gender is unknown. This family history may support the theory that there is a factor, lethal for males, involved in the genetic transmission of Aicardi's syndrome.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -3899,6 +5132,32 @@
       "subcollection": "RS1"
     },
     {
+      "pmid": "9689623",
+      "doi": "10.1007/s002340050600",
+      "zotero_key": "ABS23ZEE",
+      "title": "Central nervous system involvement in incontinentia pigmenti: cranial MRI of two siblings",
+      "authors": [
+        [
+          "Üstün",
+          "Aydıngöz"
+        ],
+        [
+          "Mehran",
+          "Midia"
+        ]
+      ],
+      "journal": "Neuroradiology",
+      "year": "1998",
+      "abstract": "",
+      "cited_by_count": 22,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.2170/jjphysiol.41.351",
       "zotero_key": "CTWA572B",
@@ -4251,6 +5510,64 @@
       "subcollection": "Glaucoma"
     },
     {
+      "pmid": "42755371",
+      "doi": "10.1242/dev.206057",
+      "zotero_key": "PWIX4XUJ",
+      "title": "CiliaIO: Machine learning reveals spatial patterns of cilia beating dynamics in the zebrafish spinal cord",
+      "authors": [
+        [
+          "Ece",
+          "Atayeter"
+        ],
+        [
+          "Jason",
+          "Ho"
+        ],
+        [
+          "Talon G",
+          "Blottin"
+        ],
+        [
+          "Ilyena B",
+          "Joe"
+        ],
+        [
+          "Ron",
+          "Sistrunk"
+        ],
+        [
+          "Bo",
+          "Zhang"
+        ],
+        [
+          "Lilianna",
+          "Solnica-Krezel"
+        ],
+        [
+          "Andreas",
+          "Gerstlauer"
+        ],
+        [
+          "John B.",
+          "Wallingford"
+        ],
+        [
+          "Ryan S.",
+          "Gray"
+        ]
+      ],
+      "journal": "Development",
+      "year": "2026",
+      "abstract": "Motile cilia generate fluid flows that are essential for normal development and physiology. Cilia display diverse beating waveforms, and while pronounced defects are strongly associated with motile ciliopathies, subtler alterations also influence disease manifestations. Finer quantification of ciliary dynamics is therefore critical for understanding ciliopathies, but the heterogeneity of cilia beating makes accurate and robust characterization challenging. Here, we present CiliaIO, a machine learning-based tool for quantification of motile cilia morphodynamics. Using this platform, we discovered subtle but highly significant regional differences in ciliary waveforms in the zebrafish spinal cord. To demonstrate the tool's efficacy, we used CiliaIO to capture and quantify subtle ciliary defects in a novel bbs2 allele that causes a late-onset scoliosis phenotype. These results provide a workflow for additional fine-scale analyses of ciliary morphodynamics that will be important for understanding motile ciliopathy.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS2"
+    },
+    {
       "pmid": "42342644",
       "doi": "10.1038/s41398-026-04186-0",
       "zotero_key": "JI77IHA7",
@@ -4453,6 +5770,36 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "LCHAD deficiency retinopathy"
+    },
+    {
+      "pmid": "42751639",
+      "doi": "10.2147/opth.s632710",
+      "zotero_key": "DE5SDBGW",
+      "title": "Clinical and Multimodal Imaging Features of Familial Exudative Vitreoretinopathy: The Genetic and Phenotypic Spectrum",
+      "authors": [
+        [
+          "Tülin",
+          "Öğreden"
+        ],
+        [
+          "Ilkay Kilic",
+          "Muftuoglu"
+        ],
+        [
+          "Gürkan",
+          "Erdoğan"
+        ]
+      ],
+      "journal": "Clinical ophthalmology",
+      "year": "2026",
+      "abstract": "Objective: This study aimed to characterize the genetic, clinical, and multimodal imaging findings in a cohort of patients with familial exudative vitreoretinopathy (FEVR). Methods: This retrospective cross-sectional study included patients diagnosed with FEVR at a tertiary referral center. Clinical findings, fluorescein angiography, optical coherence tomography (OCT), OCT angiography (OCTA), treatment records, and whole-exome sequencing results were reviewed. Results: A total of 28 patients were included in the analysis, of whom 22 (78.6%) were probands and 6 (21.4%) were family members.Fifteen patients (53.6%) were male and 13 (46.4%) female. Mean age was 11.75±9.63 (2-47) years, with a mean follow-up of 21.57±14.24 (2-50) months. Visual acuity ranged from light perception to 20/20, with a median BCVA of 20/32. Among 56 eyes, mild disease (stage 1-2) was observed in 67.9%, compared with 32.1% for advanced disease (stage 3-5). Genetic variants were identified in 17 patients (60.7%), whereas no disease-associated variant was detected in 11 (39.3%). The most commonly affected genes were FZD4 (21.4%), LRP5 (17.9%), KIF11 (14.3%), TSPAN12 (3.6%), and NDP (3.6%). Clinical manifestations ranged from asymptomatic peripheral vascular anomalies to advanced retinal detachment and severe vision loss. One LRP5-mutant patient exhibited PFV, stage 5 disease, and glaucoma. The four KIF11-mutant cases demonstrated marked phenotypic variability. A FEVR phenotype was also identified in a case with an EPHA2 mutation. OCT, OCT-A, and fluorescein angiography were available in 29 (51.8%), 10 (17.9%), and 27 eyes (48.2%), respectively. Combined imaging revealed posterior pole, vitreoretinal interface, and retinal microvascular abnormalities, including foveal and vitreomacular alterations, that were not fully reflected by stage classification alone. Laser photocoagulation was performed in 26.8% of eyes, combination therapy in 14.2%, and anti-VEGF monotherapy in 1.8%. Conclusion: FEVR demonstrated marked genetic and phenotypic heterogeneity, while multimodal imaging provided complementary information beyond conventional stage classification.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FZD4"
     },
     {
       "pmid": "",
@@ -4985,6 +6332,156 @@
       "subcollection": "Myopia"
     },
     {
+      "pmid": "42758552",
+      "doi": "10.1093/brain/awag294",
+      "zotero_key": "H9ZPER3X",
+      "title": "Compromised striatal structure and function in mouse models of RARB-related disorder",
+      "authors": [
+        [
+          "Nicolas",
+          "Zinter"
+        ],
+        [
+          "Devanshi",
+          "Shah"
+        ],
+        [
+          "Victorine",
+          "Artot"
+        ],
+        [
+          "Nicolas",
+          "Lemmetti"
+        ],
+        [
+          "Hanna",
+          "Semaan"
+        ],
+        [
+          "Rodolphe",
+          "Soret"
+        ],
+        [
+          "Nicolas",
+          "Pilon"
+        ],
+        [
+          "Christina",
+          "Nassif"
+        ],
+        [
+          "Marie‐Christine",
+          "Birling"
+        ],
+        [
+          "Amrita",
+          "Raja-Ravi-Shankar"
+        ],
+        [
+          "Valérie",
+          "Fraulob"
+        ],
+        [
+          "Véronique",
+          "Caron"
+        ],
+        [
+          "André",
+          "Tremblay"
+        ],
+        [
+          "Gerardo",
+          "Zapata"
+        ],
+        [
+          "Marc",
+          "Danik"
+        ],
+        [
+          "Jacques L.",
+          "Michaud"
+        ],
+        [
+          "Wojciech",
+          "Krężel"
+        ]
+      ],
+      "journal": "Brain",
+      "year": "2026",
+      "abstract": "Dominant variants in the retinoic acid receptor beta (RARB) gene cause a complex disorder known as RARB-related disorder (RARB-RD), characterized by multiple congenital anomalies, global developmental delay, and dystonia. RARB-RD variants have been classified as either gain-of-function (GOF) or dominant-negative (DN) based on their cell-based transcriptional responses to retinoids. To investigate the mechanisms underlying this disorder, we generated mouse models carrying either the p.R387C or p.L402P RARB-RD variant, previously categorized as GOF and DN, respectively. Homozygous mice for either RARB-RD variant died perinatally with colonic aganglionosis, while heterozygous mice survived and recapitulated several features of RARB-RD. In addition to microphthalmia, both RarbR387C/+and RarbL402P/+ mice exhibited progressive coordination deficits, increased active-phase locomotor activity, and cognitive impairment in the novel object recognition test. In contrast, mice heterozygous for a null allele of Rarb (Rarb+/-) did not display these abnormalities. In the brain, Rarb is predominantly expressed in the two major populations of projection neurons of the striatum recognizable by the expression of dopamine receptors D1R/Drd1 and D2R/Drd2. Marker analysis revealed a reduction in Drd2-expressing neurons without changes in Drd1-expressing neurons in both RARB-RD models. Furthermore, RARB-RD mice showed partial resistance to the cataleptic effects of haloperidol, a D2R-specific antagonist. These behavioral, cellular, and dopaminergic deficits-though not the cognitive impairments-have previously been observed in Rarb-/- mice. To determine whether the in vitro effects of RARB-RD variants correlate with distinct transcriptional signatures in vivo, we compared the striatal transcriptome of RarbR387C/+, RarbL402P/+, Rarb-/- and Rarb+/- mice with their littermate controls. We found that the heterozygous RARB-RD variants and the homozygous null allele affected a large subset of common genes, with putative direct RARB targets predominantly downregulated. Notably, the transcriptional impact of the RARB-RD variants was more profound than that of the null allele, regardless of zygosity. Additionally, transcriptional changes in RARB-RD mice extensively overlapped with those observed in mouse models of Huntington's disease, suggesting shared mechanisms affecting neuronal survival in the striatum. We conclude that the p.R387C and p.L402P variants similarly compromise striatal integrity and function, likely through a DN mechanism. Progressive emergence of most neurologic deficits highlights a potential therapeutic window. Our results support the development of strategies aimed at silencing RARB-RD alleles.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RARB"
+    },
+    {
+      "pmid": "41680104",
+      "doi": "10.5115/acb.25.317",
+      "zotero_key": "FHRD6Q6I",
+      "title": "Concurrent mutations in DNAH5 and FOXE3 genes: a unique occurrence in infancy",
+      "authors": [
+        [
+          "Asha",
+          "Krishnamurthy"
+        ],
+        [
+          "Anand",
+          "Verma"
+        ],
+        [
+          "Sayan",
+          "Biswas"
+        ],
+        [
+          "Praisy",
+          "Joy"
+        ]
+      ],
+      "journal": "Anatomy & Cell Biology",
+      "year": "2026",
+      "abstract": "A 3-month-old female infant from South India presented with microphthalmia and features suggestive of primary ciliary dyskinesia (PCD).She was born to a third-degree consanguineous couple and showed signs of breathing difficulty at birth, frequent respiratory infections, bilateral microphthalmia, hypertelorism, a flat nasal bridge, rounded lips, crackles in the lungs, and situs inversus.Whole exome sequencing revealed homozygous pathogenic mutations in two genes: a frameshift mutation in Dynein Axonemal Heavy Chain 5 (DNAH5), linked to PCD, and a null mutation in Forkhead Box E3 (FOXE3), associated with eye developmental disorders such as microphthalmia and primary aphakia.FOXE3 encodes a forkhead transcription factor critical for lens development, while DNAH5 is essential for the function of motile cilia.Both variants were classified as pathogenic per American College of Medical Genetics and Genomics guidelines.The recurrence risk was estimated at 25% in future pregnancies and genetic counselling was provided.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "10172408",
+      "doi": "10.1097/00055735-199410000-00016",
+      "zotero_key": "4G4F46JZ",
+      "title": "Congenital and acquired anophthalmia",
+      "authors": [
+        [
+          "Lawrence F.",
+          "Handler"
+        ],
+        [
+          "Katrinka L.",
+          "Heher"
+        ],
+        [
+          "James A.",
+          "Katowitz"
+        ]
+      ],
+      "journal": "Current Opinion in Ophthalmology",
+      "year": "1994",
+      "abstract": "Anophthalmia is an absence of ocular tissue in the orbit. Important aspects in the diagnosis, evaluation, and treatment of both congenital and acquired anophthalmic patients are reviewed. Congenital and acquired anophthalmia differ in etiology, but many concepts of management can apply to either category. Specific steps in the evaluation and treatment including the proper timing for medical and surgical intervention will be discussed. The major goals for the ophthalmologist are to optimize motility and symmetry of the eyelids and orbit and coordinate efforts with other medical specialties.",
+      "cited_by_count": 21,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "41531001",
       "doi": "10.1111/ddg.15973",
       "zotero_key": "RT9R8FX4",
@@ -5017,6 +6514,28 @@
       ],
       "category": "6 - Genes",
       "subcollection": "AGK"
+    },
+    {
+      "pmid": "18390130",
+      "doi": "10.4314/njm.v17i1.37352",
+      "zotero_key": "W3AQN7CN",
+      "title": "Congenital eye and adneial anomalies in Kano, a 5 year review",
+      "authors": [
+        [
+          "Abdu",
+          "Lawan"
+        ]
+      ],
+      "journal": "Nigerian Journal of Medicine",
+      "year": "2008",
+      "abstract": "BACKGROUND: Knowledge of prevalence and types of congenital eye and adnexial anomalies is important as some of these anomalies can lead to childhood blindness. The aim of the study is to determine the types of congenital eye and adnexial anomalies seen in the eye clinic of Aminu Kano Teaching Hospital Kano, Nigeria between the years 2001 to 2005. To determine the proportion of children below the age of 10 years who presented with congenital eye and adnexial anomalies, the proportion of eye surgeries due to such anomalies, and proportion of these anomalies amenable to (surgical) intervention. METHODS: The clinic and theater registers were used to obtain the total number of children less than 10 years of age seen and those that had surgery during the review period. A list of those with congenital eye and adnexial anomalies was compiled. The case folders of patients with such anomalies were retrieved and information on age, sex, type of anomaly, laterality of the condition, and types of surgical intervention offered, was obtained. The data was manually analyzed. RESULTS: There were 4163 children seen in the eye clinic and 268 had surgery during the review period. There were 109 eyes of 69 patients with congenital eye and adnexial anomalies. The prevalence of such anomalies amongst children (<10 years of age) is 1.7% and surgery for congenital eye and adnexial anomalies accounted for 25.7% of eye surgeries in the study population. The male to female ratio is 2.3:1. In 40 patients, the anomaly was bilateral and it was unilateral in 29 patients. The commonest congenital anomalies are buphthalmos in 38%, cataracts in 35%, and naso lachrymal duct obstruction in 14%. Other less frequent anomalies are anophthalmia/micophthalmia, limbal dermoid cysts and aniridia. Eighty six percent of the patients had surgery to correct the anomaly. CONCLUSION: Most of the congenital anomalies seen in our hospital can lead to childhood blindness and vigilance by eye care providers is advised to ensure prompt identification and intervention.",
+      "cited_by_count": 18,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -5183,6 +6702,36 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Specialized microanatomy"
+    },
+    {
+      "pmid": "21163155",
+      "doi": "10.5070/d38c0053h9",
+      "zotero_key": "JFU65XVA",
+      "title": "Conradi-Hünermann-Happle syndrome",
+      "authors": [
+        [
+          "Rachael D.",
+          "Hartman"
+        ],
+        [
+          "Vered",
+          "Molho‐Pessach"
+        ],
+        [
+          "Julie V.",
+          "Schaffer"
+        ]
+      ],
+      "journal": "Dermatology Online Journal",
+      "year": "2010",
+      "abstract": "A seven-year-old girl was born with red, scaly skin that later evolved into hypopigmentation and follicular atrophoderma in a widespread distribution that followed Blaschko lines. She also had patchy, scarring alopecia, left microphthalmia, bilateral cataracts, dysmorphic facies, short stature, hip dysplasia, and vertebral abnormalities. An elevated plasma 8(9)-cholestenol level confirmed the diagnosis of Conradi-Hünermann-Happle syndrome, which is caused by mutations in the emopamil binding protein (EBP) gene. This reports highlights the evolution of clinical findings over time in this X-linked dominant form of chondrodysplasia punctata.",
+      "cited_by_count": 6,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "42474262",
@@ -5588,6 +7137,32 @@
       "subcollection": "CYP1B1"
     },
     {
+      "pmid": "6513401",
+      "doi": "10.1055/s-2008-1054616",
+      "zotero_key": "JDG4ZKHC",
+      "title": "Das Meyer-Schwickerath-Syndrom mit Mikrophthalmie",
+      "authors": [
+        [
+          "Ladislav",
+          "Novotný"
+        ],
+        [
+          "S.",
+          "Šterbová"
+        ]
+      ],
+      "journal": "Klinische Monatsblätter für Augenheilkunde",
+      "year": "1984",
+      "abstract": "Es wird über eine Sippe mit 102 Mitgliedern in 5 Generationen berichtet. Von diesen weisen 42 Mitglieder das okulo-dento-digitale Syndrom auf, das auch als Meyer-Schwickerath-Syndrom bezeichnet wird. Bei älteren Mitgliedern der Sippe wurde als Komplikation Glaukom und bei jüngeren Strabismus festgestellt.",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1167/iovs.66.9.22",
       "zotero_key": "BPDWHGK8",
@@ -5690,6 +7265,28 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "1071919",
+      "doi": "",
+      "zotero_key": "DX6DRAND",
+      "title": "Developmental abnormalities of the optic nerve.",
+      "authors": [
+        [
+          "BRIAN",
+          "HARCOURT"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1976",
+      "abstract": "",
+      "cited_by_count": 4,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -7649,6 +9246,32 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "14136828",
+      "doi": "",
+      "zotero_key": "S84IS2HE",
+      "title": "FAMILIAL SYNDROME OF DYSPLASTIC BODY BUILD, MENTAL RETARDATION AND CHOROIDO-RETINAL COLOBOMA.",
+      "authors": [
+        [
+          "W",
+          "Mclain"
+        ],
+        [
+          "Anatole S.",
+          "Dekaban"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1963",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "40965398",
       "doi": "10.1016/j.oret.2025.08.012",
       "zotero_key": "Q42GFPWU",
@@ -8055,6 +9678,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ABCA4"
+    },
+    {
+      "pmid": "42751619",
+      "doi": "10.2147/opth.s623649",
+      "zotero_key": "RDWRR52K",
+      "title": "Genetic Architecture and Clinical Phenotypes of Primary Open-Angle Glaucoma: An Updated Review of Mendelian Genes, GWAS Loci, and Polygenic Risk",
+      "authors": [
+        [
+          "Khaled K.",
+          "Abu‐Amero"
+        ],
+        [
+          "Shereen",
+          "Abualkhair"
+        ],
+        [
+          "Hajar",
+          "Alotaibi"
+        ],
+        [
+          "Gorka",
+          "Sesma"
+        ]
+      ],
+      "journal": "Clinical ophthalmology",
+      "year": "2026",
+      "abstract": "Purpose: To synthesize the genetic architecture of primary open-angle glaucoma (POAG) across the full variant spectrum and map each genetic subtype to its clinical phenotype, IOP profile, optic nerve morphology, systemic associations, and treatment response. Methods: PubMed/MEDLINE was searched from inception through April 2025 for POAG genetics, susceptibility genes, GWAS loci, polygenic risk scores, and gene-specific clinical correlations. Eligible designs included peer-reviewed original research, GWAS meta-analyses, candidate-gene studies, family-based linkage analyses, cohort and case-control studies, and PRS development in human subjects. Genetic association studies were appraised using Q-Genie; observational clinical studies were appraised using the Newcastle-Ottawa Scale. Results: Seven high-penetrance Mendelian genes (MYOC, OPTN, TBK1, WDR36, NTF4, FOXC1, CYP1B1) account for fewer than 10% of cases, each defining a clinically distinct subtype: juvenile high-tension glaucoma (MYOC), normal-tension neurodegeneration (OPTN, TBK1), and syndromic developmental glaucoma (FOXC1, CYP1B1). GWAS meta-analyses have identified 100 to 127 susceptibility loci converging on five biological axes: trabecular meshwork dysfunction, retinal ganglion cell survival, autophagy and protein homeostasis, neuroinflammation, and extracellular matrix integrity. Polygenic risk scores combined with clinical variables achieve an AUC of 0.89. Conclusion: POAG comprises genetically and clinically distinct subtypes defined by dominant molecular axes. Gene-specific data reveal actionable pharmacogenomic signals: ROCK inhibitors for ARHGEF12 and AFAP1 carriers, nicotinamide for OPTN and TXNRD2 subtypes, and goniotomy for CYP1B1-associated congenital glaucoma. IOP-centric management is insufficient for normal-tension subtypes driven by autophagy failure and neuroinflammation. The framework supports genotype-guided decisions on screening intensity, IOP targets, and neuroprotective adjuncts.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CYP1B1"
     },
     {
       "pmid": "",
@@ -8969,6 +10626,28 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Accommodation"
+    },
+    {
+      "pmid": "18103374",
+      "doi": "10.1093/oxfordjournals.jhered.a105770",
+      "zotero_key": "WUUFBGJC",
+      "title": "HEREDITARY MICROPHTHALMIA AND OTHER EYE DEFECTS IN PIGEONS",
+      "authors": [
+        [
+          "W. F.",
+          "Hollander"
+        ]
+      ],
+      "journal": "Journal of Heredity",
+      "year": "1948",
+      "abstract": "W. F. HOLLANDER; HEREDITARY MICROPHTHALMIA AND OTHER EYE DEFECTS IN PIGEONS, Journal of Heredity, Volume 39, Issue 10, 1 October 1948, Pages 289–292, https://do",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -10593,6 +12272,28 @@
       "subcollection": "Corneal dystrophy, lattice"
     },
     {
+      "pmid": "15039634",
+      "doi": "10.1016/s0181-5512(04)96134-7",
+      "zotero_key": "AIIBU2CA",
+      "title": "Le syndrome charge",
+      "authors": [
+        [
+          "Dominique",
+          "Brémond‐Gignac"
+        ]
+      ],
+      "journal": "Journal Français d Ophtalmologie",
+      "year": "2004",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.5455/medarh.2025.79.241-248",
       "zotero_key": "RR2ISM7U",
@@ -10991,6 +12692,44 @@
       "subcollection": "RDH11"
     },
     {
+      "pmid": "41890055",
+      "doi": "10.64898/2026.03.13.711620",
+      "zotero_key": "SCI3KSH8",
+      "title": "Loss of Hippo signaling causes transdifferentiation of neural retina between the optic fissure edges causing coloboma",
+      "authors": [
+        [
+          "Uma M",
+          "Neelathi"
+        ],
+        [
+          "Daniel",
+          "Sanchez-Mendoza"
+        ],
+        [
+          "Sydney",
+          "Steele"
+        ],
+        [
+          "Rachel M",
+          "Aguda"
+        ],
+        [
+          "Ben",
+          "Brooks"
+        ]
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "year": "2026",
+      "abstract": "Abstract Optic fissure (OF) is a transient structure in the ventral optic cup, which acts as a conduit for periocular mesenchyme cells to enter the eye, forming hyaloid vasculature and retinal ganglion axons to exit. Optic fissure closes to form a continuous layer of retinal pigment epithelium and neural retina. Failure of OF closure results in coloboma, which is mostly genetic in nature. The severity of blindness depends on the tissue it effects and accounts for 10% of childhood blindness. In the current study, we describe coloboma pathogenesis caused by hippo effectors yap1 and wwtr1. Both the paralogs are expressed in the OF edges, possibly in the pioneer cells. wwtr1 homozygotes do not have coloboma, while yap1 homozygotes have coloboma and pigment defects which are exacerbated by absence of one copy of wwtr1 ( yap1 -/- ; wwtr1 +/- ). The coloboma observed in these mutants is not due to defective optic cup morphogenesis nor an overgrown optic nerve. The pigment defects are more pronounced at the OF with complete absence of RPE specific transcription factors mitf A, tfec, and pigmentation gene dct . On the other hand, NR specific genes are upregulated and the unpigmented region at the OF have transdifferentiated retinal ganglion cells, amacrine, and photoreceptor cells. Our observations indicate that in the absence of yap1 and wwtr1 , the cells at the OF cannot attain a conducive state to fuse nor they maintain the RPE specific fate and instead they transdifferentiate into unpigmented retina, causing a steric block for fusion, resulting in coloboma.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "41915430",
       "doi": "10.1172/jci193367",
       "zotero_key": "VBN6R7HK",
@@ -11077,6 +12816,32 @@
       "subcollection": "RPGR"
     },
     {
+      "pmid": "2928019",
+      "doi": "",
+      "zotero_key": "BIR48KC2",
+      "title": "Macrosomia, microphthalmia, and early rapid or sudden infant death: a new syndrome?",
+      "authors": [
+        [
+          "Ahmad Said",
+          "Teebi"
+        ],
+        [
+          "Talaat I.",
+          "Farag"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1989",
+      "abstract": "Macrosomia together with macroglossia and omphalocele permits the recognition of Beckwith-Wiedemann syndrome which is frequently observed in sporadic occurrence and occasionally as an autosomal dominant disorder. However, macrosomia may be also a part of several clinically recognizable overgrowth syndromes such as cerebral gigantism, Smith-Marshall syndrome, and Weaver syndrome. Recently, we observed a female infant with macrosomia (birth weight 4,650 g, length 52 cm), bilateral severe microphthalmia, frequent cyanotic spells with apnea, and an early death at 43 days due to overwhelming illness.",
+      "cited_by_count": 4,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "36682978",
       "doi": "10.1016/j.ophtha.2022.11.001",
       "zotero_key": "9TW5ATXD",
@@ -11105,6 +12870,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ATF6"
+    },
+    {
+      "pmid": "3127340",
+      "doi": "",
+      "zotero_key": "TFBAGRRC",
+      "title": "Major congenital colobomatous disorders of the globe (in the State of Assam).",
+      "authors": [
+        [
+          "Harsha",
+          "Bhattacharjee"
+        ],
+        [
+          "Md. Aminul",
+          "Islam"
+        ],
+        [
+          "R",
+          "Deka"
+        ],
+        [
+          "Debasish",
+          "Chaudhury"
+        ],
+        [
+          "B",
+          "Bhuyon"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1988",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "40810225",
@@ -11161,7 +12964,7 @@
       "source_tags": [
         "source:seed"
       ],
-      "category": "APC",
+      "category": "6 - Genes",
       "subcollection": "APC"
     },
     {
@@ -11221,34 +13024,64 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "19947808",
-      "doi": "10.1592/phco.29.12.1491",
-      "zotero_key": "CCV6U59J",
-      "title": "Mitochondrial T9098C Sequence Change in the <i>MTATP6</i> Gene and Development of Severe Mitochondrial Disease After In Utero Antiretroviral Prophylaxis",
+      "pmid": "9689994",
+      "doi": "10.1097/00019605-199807000-00008",
+      "zotero_key": "HTE8T8ZN",
+      "title": "Mental retardation, iris coloboma, optic atrophy and distinctive facial appearance in two sibs",
       "authors": [
         [
-          "Milen",
-          "Velinov"
-        ],
-        [
-          "Natalia",
-          "Dolzhanskaya"
-        ],
-        [
-          "Hermann",
-          "Mendez"
+          "Lihadh I.",
+          "Al-Gazali"
         ]
       ],
-      "journal": "Pharmacotherapy The Journal of Human Pharmacology and Drug Therapy",
-      "year": "2009",
-      "abstract": "Mitochondrial toxicity is a well‐recognized adverse effect of nucleoside reverse transcriptase inhibitor therapy for human immunodeficiency virus (HIV) infection. Transient lactic acidosis is often observed in children born after in utero antiretroviral prophylaxis against mother‐to‐child transmission of HIV However, the extent and the mechanism of in utero adverse effects are largely unknown. We describe a 4‐year‐old girl who presented with manifestations of severe mitochondrial disease, specifically, developmental and growth delay, hypotonia, lactic acidosis, congenital cataracts, and pancreatitis. Her HIV‐positive mother was receiving lamivudine, zidovudine, and nelfinavir mesylate during her pregnancy. The child tested HIV negative after birth. She was found to have a homoplastic T9098C sequence change in the mitochondrial gene coding for adenosine 5′‐triphosphate synthase 6 ( MTATP6 ) that was previously reported as a mitochondrial polymorphism. This polymorphism is in the MTATP6 gene‐coding sequence and leads to the replacement of a nonpolar amino acid with a polar amino acid. Because of the typical clinical manifestations of mitochondrial disorder and because of the nature of the mitochondrial sequence change, the observed polymorphism likely predisposed this patient to develop severe antiretroviral‐associated mitochondrial disease. Mitochondrial sequence alterations may be important factors in mitochondrial toxicity associated with antiretroviral treatment. Mitochondrial sequencing may be warranted in cases of persistent lactic acidosis after antiretroviral prophylaxis to further study this association.",
-      "cited_by_count": 4,
+      "journal": "Clinical Dysmorphology",
+      "year": "1998",
+      "abstract": "We report an inbred Arab family from the United Arab Emirates with two children affected with mental retardation, iris coloboma, optic atrophy, nystagmus, and a distinctive facial appearance. This includes a long narrow face, downslanting palpebral fissures, a narrow nose with hypoplasia of the alae nasi, a small philtrum and a thin upper lip. We suggest that the combination of abnormalities in these children represents a previously undescribed autosomal recessive syndrome.",
+      "cited_by_count": 3,
       "centrality": 0,
       "source_tags": [
-        "source:search"
+        "source:seed"
       ],
-      "category": "6 - Genes",
-      "subcollection": "LSS"
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "10949362",
+      "doi": "",
+      "zotero_key": "M9QE2NIM",
+      "title": "Microphthalmia with linear skin deficiency syndrome accompanied by cleft lip and palate.",
+      "authors": [
+        [
+          "Ufuk",
+          "Bılkay"
+        ],
+        [
+          "Naci",
+          "Çelik"
+        ],
+        [
+          "Cüneyt",
+          "Özek"
+        ],
+        [
+          "Tahir",
+          "Gürler"
+        ],
+        [
+          "Yalçın",
+          "Akin"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2000",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "42512851",
@@ -12373,6 +14206,32 @@
       "subcollection": "GUCY2D"
     },
     {
+      "pmid": "1227531",
+      "doi": "",
+      "zotero_key": "KVXE8MZ4",
+      "title": "New syndromes of mental retardation.",
+      "authors": [
+        [
+          "Thurmon",
+          "Tf"
+        ],
+        [
+          "Santos",
+          "Cl"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1975",
+      "abstract": "During a survey of a selected group of residents of an institution for the mentally retarded, four previously undescribed syndromes were found. They were characterized as follows: cerebral maldevelopment, dwarfism and cataracts (autosomal recessive inheritance); cerebral maldevelopment, dwarfism and facial osteoproliferation (autosomal recessive inheritance); cerebral maldevelopment and colobomata (autosomal recessive inheritance); and cerebral maldevelopment and acrocephaly (X-linked recessive inheritance).",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "41751772",
       "doi": "10.3390/ijms27041636",
       "zotero_key": "GQHWNXU4",
@@ -12433,6 +14292,102 @@
       ],
       "category": "6 - Genes",
       "subcollection": "USH2A"
+    },
+    {
+      "pmid": "42763576",
+      "doi": "10.1016/j.xops.2026.101363",
+      "zotero_key": "GUUTJ64C",
+      "title": "Nontruncating FRMD7 Variants Are More Penetrant than Truncating Variants in Heterozygous Female Carriers of Infantile Nystagmus.",
+      "authors": [
+        [
+          "Callum",
+          "Hunt"
+        ],
+        [
+          "Lilian",
+          "Zevlaris"
+        ],
+        [
+          "Benjamin",
+          "Wong"
+        ],
+        [
+          "Gail D E",
+          "Maconachie"
+        ],
+        [
+          "Zhanhan",
+          "Tu"
+        ],
+        [
+          "Omar A",
+          "Mahroo"
+        ],
+        [
+          "Mariya",
+          "Moosajee"
+        ],
+        [
+          "Michel",
+          "Michaelides"
+        ],
+        [
+          "Andrew R",
+          "Webster"
+        ],
+        [
+          "Jinu",
+          "Han"
+        ],
+        [
+          "Pradeep",
+          "Vasudevan"
+        ],
+        [
+          "Irène",
+          "Gottlob"
+        ],
+        [
+          "Yolanda",
+          "Markaki"
+        ],
+        [
+          "Mervyn G",
+          "Thomas"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FRMD7"
+    },
+    {
+      "pmid": "6810371",
+      "doi": "",
+      "zotero_key": "BAI9VBZN",
+      "title": "Normal and abnormal ocular development in man.",
+      "authors": [
+        [
+          "Elise",
+          "Torczynski"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1982",
+      "abstract": "",
+      "cited_by_count": 11,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -12737,6 +14692,44 @@
       "subcollection": "PAX6"
     },
     {
+      "pmid": "8278482",
+      "doi": "10.1097/00006534-199401000-00004",
+      "zotero_key": "F7ZC8339",
+      "title": "Ocular Manifestations of Frontonasal Dysplasia",
+      "authors": [
+        [
+          "John D.",
+          "Roarty"
+        ],
+        [
+          "Gaylene E.",
+          "Pron"
+        ],
+        [
+          "Jackie",
+          "Siegel-Bartelt"
+        ],
+        [
+          "Jeffrey C.",
+          "Posnick"
+        ],
+        [
+          "J. Raymond",
+          "Buncic"
+        ]
+      ],
+      "journal": "Plastic & Reconstructive Surgery",
+      "year": "1994",
+      "abstract": "The ophthalmologic findings associated with frontonasal dysplasia have not been defined previously in a large series of untreated children. We reviewed the ophthalmic manifestations of a series of patients with frontonasal dysplasia who were seen as part of their craniofacial evaluation. All had undergone a complete ophthalmologic examination before any manipulation of either the orbits or the soft tissues of the orbital contents. From 1986 to 1991, 23 patients with frontonasal dysplasia were seen; ophthalmologic abnormalities were found in 20 (87 percent). Abnormalities included significant refractive errors, strabismus, nystagmus, and eyelid ptosis. Three patients had amblyopia, a treatable cause of visual loss, from strabismus or anisometropia. Ten eyes in seven patients (30 percent) had severe structural anomalies, such as optic nerve hypoplasia, optic nerve colobomas, microphthalmia, cataract, corneal dermoid, or inflammatory retinopathy, that resulted in an acuity of 20/100 or worse. The high incidence of ocular abnormalities indicates that early assessment by an ophthalmologist should be part of the initial evaluation of patients with frontonasal dysplasia to detect treatable visual or ocular problems.",
+      "cited_by_count": 33,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1097/00055735-199512000-00013",
       "zotero_key": "89PIGSUC",
@@ -12857,36 +14850,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "HK1"
-    },
-    {
-      "pmid": "33120675",
-      "doi": "10.4103/ijo.ijo_927_20",
-      "zotero_key": "NAMKMJPZ",
-      "title": "Optic disc pseudoduplication accompanied with macular hole",
-      "authors": [
-        [
-          "Yasaman",
-          "Zarrin"
-        ],
-        [
-          "Farhad",
-          "Fazel"
-        ],
-        [
-          "Mohammadreza",
-          "Fazel"
-        ]
-      ],
-      "journal": "Indian Journal of Ophthalmology",
-      "year": "2020",
-      "abstract": "A 68-year-old man presented with decreased vision in his left eye since 2 months ago. His best corrected visual acuity (BCVA) was 20/400. During the fundus examination, a disc-like lesion was observed inferior to the left optic nerve. A full-thickness macular hole was also detected and determined to be the main cause of his declining vision which needed surgical management [Fig. 1a]. fluorescein angiography was performed [Fig. 1b], and B-scan ultrasonography then revealed that there was only one true optic nerve.Figure 1: (a) Color fundus photograph of the left eye revealed optic nerve pseudo duplication. The colobomatous lesion was half disc diameter in size and mildly excavated. (b) Fluorescein angiogram showed that the inferotemporal retinal vein dipped in the lesion before reaching the optic nerve; however, the arterial vasculature seemed to be normalOptic disc doubling is very rare in humans but colobamatous lesions, as seen in our case, can simulate the optic nerve.[12] Optic disc congenital colobomas are very rare and may be diagnosed as optic disc duplication which does not usually impair the patient's visual acuity and might be accompanied by other retinal lesions. 2.1 Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. 2.2 Financial support and sponsorship Nil. 2.3 Conflicts of interest There are no conflicts of interest.",
-      "cited_by_count": 1,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "MAB21L2"
     },
     {
       "pmid": "",
@@ -13817,6 +15780,60 @@
       "subcollection": "CEP290"
     },
     {
+      "pmid": "30384553",
+      "doi": "10.3906/sag-1611-107",
+      "zotero_key": "4PTWF4W2",
+      "title": "Phenotypic spectrum of CHARGE syndrome based on clinical characteristics",
+      "authors": [
+        [
+          "Ozge Aksel",
+          "Kilicarslan"
+        ],
+        [
+          "Esra",
+          "Ataman"
+        ],
+        [
+          "Semra",
+          "Gürsoy"
+        ],
+        [
+          "Fılız",
+          "Hazan"
+        ],
+        [
+          "Cemre",
+          "RANDA"
+        ],
+        [
+          "Tufan",
+          "Çankaya"
+        ],
+        [
+          "Derya",
+          "Erçal"
+        ],
+        [
+          "Ayfer",
+          "Ülgenalp"
+        ],
+        [
+          "Özlem Giray",
+          "Bozkaya"
+        ]
+      ],
+      "journal": "TURKISH JOURNAL OF MEDICAL SCIENCES",
+      "year": "2018",
+      "abstract": "Background/aim: CHARGE syndrome is a rare autosomal dominant disease with multiple congenital anomalies and cognitive impairment, which is caused by mutations in the CHD7 gene. This study aimed to disclose the mild end of the phenotypic spectrum of CHARGE syndrome, which has a highly variable expressivity. Materials and methods: Twenty-one patients who had at least one of the major symptoms of CHARGE syndrome (coloboma, choanal atresia, characteristic ear anomalies, semicircular canal hypoplasia, and cranial nerve anomalies) were included in the study. All patients were tested for karyotype analysis and CHD7 gene mutation/deletion. Results: In the study population, 6 different mutations were detected in 5 patients, and 2 different polymorphisms were detected in the CHD7 gene in 3 patients. MLPA analysis of all coding exons of the CHD7 gene revealed no pathogenic deletion/duplication. Conclusion: CHARGE syndrome should be considered as a differential diagnosis to detect the mild end of the spectrum, even if the patient does not fit the criteria.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "42421125",
       "doi": "10.1186/s12951-026-04763-x",
       "zotero_key": "8JDD76GT",
@@ -14025,6 +16042,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "OPN1MW"
+    },
+    {
+      "pmid": "42767787",
+      "doi": "10.1136/bcr-2026-275017",
+      "zotero_key": "EKV4J7ZB",
+      "title": "Posterior chamber phakic intraocular lens in posterior polymorphous corneal dystrophy",
+      "authors": [
+        [
+          "Vivek M",
+          "Singh"
+        ],
+        [
+          "Aman",
+          "Agrawal"
+        ],
+        [
+          "Priyam",
+          "Gupta"
+        ]
+      ],
+      "journal": "BMJ Case Reports",
+      "year": "2026",
+      "abstract": "A woman in her early 20s with bilateral compound myopic astigmatism and unilateral posterior polymorphous corneal dystrophy (PPCD) underwent sequential bilateral toric posterior chamber phakic intraocular lens (PCpIOL) implantation, more specifically implantable collamer lens (ICL). Corneal specular microscopy and slit lamp examination done preoperatively were consistent with the diagnosis of left eye PPCD. At 3 years follow-up visit, the patient had uncorrected distance visual acuity of LogMAR 0 and LogMAR 0.1 in the right and left eye, respectively, with normal intraocular pressure, good corneal endothelial cell density and a stable PCpIOL. To the best of our knowledge, ICL implantation in an eye with PPCD has not been reported before.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL8A2"
     },
     {
       "pmid": "42420907",
@@ -14581,64 +16628,6 @@
       "subcollection": "CEP290"
     },
     {
-      "pmid": "41158164",
-      "doi": "10.18240/ijo.2025.11.05",
-      "zotero_key": "VMKSEVKU",
-      "title": "Protein truncating splice site variant in ALDH1A3 associated with bilateral anophthalmia identified in a multiplex consanguineous Pakistani family",
-      "authors": [
-        [
-          "Kashmala",
-          "Samad"
-        ],
-        [
-          "Khalaf F.",
-          "Alsharif"
-        ],
-        [
-          "Fazeelat",
-          "Samad"
-        ],
-        [
-          "Farman",
-          "Ullah"
-        ],
-        [
-          "Muhammad Zeeshan",
-          "Ali"
-        ],
-        [
-          "Safeer",
-          "Ahmad"
-        ],
-        [
-          "Muhammad",
-          "Muzammal"
-        ],
-        [
-          "Sumra Wajid",
-          "Abbasi"
-        ],
-        [
-          "Jabbar",
-          "Khan"
-        ],
-        [
-          "Muzammil Ahmad",
-          "Khan"
-        ]
-      ],
-      "journal": "International Journal of Ophthalmology",
-      "year": "2025",
-      "abstract": "AIM: To identify the genetic factors underlying anophthalmia and microphthalmia (A/M), and to perform computational analysis to verify the pathophysiological mechanisms of the disease.? METHODS: This study investigated a consanguineous Pakistani family with multiple affected individuals. Clinical evaluations were conducted using A-Scan and ophthalmic B-Scan ultrasonography (B-Scan). To identify the disease-causing variant, whole exome sequencing (WES) and Sanger sequencing were performed. In silico functional analyses were carried out using AlphaFold (for protein modeling) and ClusPro (for protein docking analysis) tools, and the hydrodynamic properties of the protein were determined via molecular dynamics simulations.? RESULTS: Clinical analysis of the five patients revealed severe phenotypes of bilateral anophthalmia. Ocular B-Scan did not detect ocular tissue or intraocular fluid, thus confirming the diagnosis of anophthalmia in all patients. Due to these structural defects, all patients exhibited complete blindness and absence of light perception; additionally, two patients had mild to moderate intellectual disability. Genetic analysis identified a splice site variant [NM_000693.2: c.884-2_885dup; p.(Asp296SerfsTer35)] in the 9th exon of the ALDH1A3 gene.? CONCLUSION: The present study expands the genetic spectrum of ALDH1A3 and contributes to establishing the genotype-phenotype correlation for this gene.?",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ALDH1A3"
-    },
-    {
       "pmid": "",
       "doi": "10.4103/ijo.ijo_3375_22",
       "zotero_key": "TAAMGHJ9",
@@ -14891,6 +16880,40 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Lacrimal system, Systeme lacrymal"
+    },
+    {
+      "pmid": "22345997",
+      "doi": "10.4103/0971-6866.92099",
+      "zotero_key": "Q65ASQWG",
+      "title": "Refractory seizures with global developmental delay: A rare cause",
+      "authors": [
+        [
+          "JJulius Xavier",
+          "Scott"
+        ],
+        [
+          "PN",
+          "Vinoth"
+        ],
+        [
+          "Betty",
+          "Chacko"
+        ],
+        [
+          "",
+          "Venkatasai"
+        ]
+      ],
+      "journal": "Indian journal of human genetics",
+      "year": "2011",
+      "abstract": "Aicardi syndrome is a genetic disorder characterized by the triad of infantile spasm in flexion, callosal agenesis and ocular abnormalities (chorioretinal lacunae, coloboma of optic disc). We report a typical case of Aicardi syndrome with all the classical features.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "42446836",
@@ -16172,6 +18195,64 @@
       "subcollection": "RP2"
     },
     {
+      "pmid": "42303997",
+      "doi": "10.1038/s41467-026-74427-9",
+      "zotero_key": "KITIZJGX",
+      "title": "Selective interaction of SMCHD1 with chromatin is governed by LRIF1 and SMCHD1 ATPase activity",
+      "authors": [
+        [
+          "Flavia",
+          "Constantinescu"
+        ],
+        [
+          "Aleksander T.",
+          "Szczurek"
+        ],
+        [
+          "Tatyana B.",
+          "Nesterova"
+        ],
+        [
+          "Guifeng",
+          "Wei"
+        ],
+        [
+          "Mafalda R.",
+          "Almeida"
+        ],
+        [
+          "Jessica R.",
+          "Kelley"
+        ],
+        [
+          "Victoria",
+          "Pustygina"
+        ],
+        [
+          "Stephan",
+          "Uphoff"
+        ],
+        [
+          "Adam D.",
+          "Cawte"
+        ],
+        [
+          "Neil",
+          "Brockdorff"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "The chromosomal protein SMCHD1 is a GHKL ATPase with important roles in epigenetic silencing, including on the inactive X chromosome (Xi). Mutations of SMCHD1 have been linked to facioscapulohumeral muscular dystrophy (FSHD) and Bosma arrhinia microphthalmia syndrome (BAMS). Here, we use live-cell and single-molecule imaging to investigate SMCHD1 interactions with chromatin and its function in epigenetic silencing. We show that chromatin binding of SMCHD1 genome-wide, including on the Xi, is critically dependent on the protein LRIF1 that mediates interaction with H3K9me2/3-modified nucleosomes. Engineered mutations in the GHKL ATPase domain demonstrate that ATP hydrolysis is required for selective enrichment of SMCHD1 at specific chromatin regions, which is critical for X-linked gene silencing. Conversely, gain-of-function BAMS-associated mutations are linked to accelerated Xi recruitment and gene silencing, or increased Xi compaction. Together, our findings advance understanding of SMCHD1 recruitment and function on the Xi and at other target sites in the genome.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "42440378",
       "doi": "10.1681/asn.0000001187",
       "zotero_key": "E6C59HXH",
@@ -16320,6 +18401,36 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BBS10"
+    },
+    {
+      "pmid": "42546896",
+      "doi": "10.1016/j.jaapos.2026.105275",
+      "zotero_key": "WGBCE53G",
+      "title": "Severe bilateral ocular coloboma and microphthalmia in a neonate with WDR37-associated neurooculocardiogenitourinary syndrome",
+      "authors": [
+        [
+          "Susana Cerdá",
+          "Checa"
+        ],
+        [
+          "Carolina Vizcaíno",
+          "Díaz"
+        ],
+        [
+          "Cristian Fernández",
+          "Martínez"
+        ]
+      ],
+      "journal": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
@@ -17212,6 +19323,84 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42428117",
+      "doi": "10.64898/2026.06.25.26355554",
+      "zotero_key": "969SMEHW",
+      "title": "The +57C>T substitution in microRNA-184 is associated with microphthalmia, retinal detachment, and altered ocular development",
+      "authors": [
+        [
+          "Yuejia",
+          "Huang"
+        ],
+        [
+          "Yanjun",
+          "Zhang"
+        ],
+        [
+          "Sonya",
+          "Zhang"
+        ],
+        [
+          "Kadia",
+          "Lissit"
+        ],
+        [
+          "Audrey",
+          "Talley-Rostov"
+        ],
+        [
+          "Charles C.",
+          "Lin"
+        ],
+        [
+          "Patricia S.",
+          "Tsai"
+        ],
+        [
+          "Alice",
+          "Hong"
+        ],
+        [
+          "Anshuman",
+          "Agrawal"
+        ],
+        [
+          "Jonathan",
+          "Thomas"
+        ],
+        [
+          "Lo‐Yu",
+          "Chang"
+        ],
+        [
+          "Michael",
+          "Sulewski"
+        ],
+        [
+          "Luisa",
+          "Cochella"
+        ],
+        [
+          "Jinchong",
+          "Xu"
+        ],
+        [
+          "Allen Omid",
+          "Eghrari"
+        ]
+      ],
+      "journal": "medRxiv",
+      "year": "2026",
+      "abstract": "Purpose: To expand the clinical and mechanistic understanding of the +57C>T seed-region mutation in miR-184 causing EDICT (endothelial dystrophy, iris hypoplasia, congenital cataract, and stromal thinning) syndrome. Design: Cross-sectional analysis and laboratory confirmation. Participants: 18 members of a four-generation family with known +57C>T miR-184 status. Methods: We used optical biometry, corneal topography, and medical history to characterize the clinical phenotype. Carrier effects on ocular biometric measurements were estimated using polygenic linear mixed models incorporating a pedigree-derived kinship matrix, adjusted for age and sex. Patient-derived and control induced pluripotent stem cells (iPSCs) were generated and differentiated into corneal endothelial cells (CECs). Main Outcome Measures: Axial length, keratometry (in diopters), white-to-white corneal diameter, topography mapping, central and peripheral corneal thickness, and history of retinal detachment or corneal transplant were compared between mutation carriers and noncarriers, adjusting for age and sex. Cellular analysis was conducted with immunostaining (ZO-1, ATP1A1), morphometric quantification, qRT-PCR of endothelial markers, and transendothelial electrical resistance (TEER). Results: 10 of 18 family members were heterozygous for +57C>T, with retinal detachment occurring in 5/10 affected individuals compared to 0/8 unaffected individuals (p=0.04). Affected eyes had 2.2 mm shorter axial length (p=0.02), 9.3 D steeper mean keratometry (p=0.004), 1.6 mm smaller horizontal corneal diameter (p=0.0001), and 139-μm thinner central corneas (p=0.003). Mutant iPSC-derived CECs were associated with irregular borders, increased cell and nucleus area, widened intercellular gaps, disrupted ATP1A1 membrane localization, and reduced barrier function on TEER (all pT mutation produces a broad ocular phenotype that includes smaller, thinner corneas and microphthalmia. Mechanistically, it disrupts CEC junctional integrity, extracellular matrix and pump-related genes, supporting a role for miR-184 in coordinated anterior-posterior eye morphogenesis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "42058367",
       "doi": "10.1515/nipt-2026-0006",
       "zotero_key": "NTAG4VJP",
@@ -18092,6 +20281,50 @@
       "subcollection": "RNU4ATAC"
     },
     {
+      "pmid": "103250",
+      "doi": "",
+      "zotero_key": "IPMU7D9D",
+      "title": "The Montgomery lecture, 1977. Curious colobomata.",
+      "authors": [
+        [
+          "J",
+          "Mullaney"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1977",
+      "abstract": "The humble coloboma has been taken as a model in an attempt to illustrate the benefit of continued observation and the application of increasingly sophisticated methods of investigation in the genetic and biochemical areas. The recent literature is reviewed with particular reference to publications dealing with colobomata and systemic malformations. Polycystic renal disease has been produced in animals and the application of the method used to a study of the eye may help to explain some of the unusual systemic clinical combinations which may occur in human cases. A simple factor may yet emerge to account for these anomalies rather than the multifactorial explanations previously postulated.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "1457068",
+      "doi": "",
+      "zotero_key": "BH4WJHDH",
+      "title": "The ocularists' management of congenital microphthalmos and anophthalmos.",
+      "authors": [
+        [
+          "Dootz",
+          "Gl"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "1992",
+      "abstract": "Early socket stimulation is crucial for management of congenital anophthalmos and microphthalmos among infants. Progressive sized hard conformers and lid expansion devices can expand the small socket in these patients. The ocularists' management of these two conditions is discussed and techniques are introduced.",
+      "cited_by_count": 16,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
       "pmid": "",
       "doi": "10.1159/000535545",
       "zotero_key": "P72682DM",
@@ -18594,6 +20827,110 @@
       "subcollection": "GPR143"
     },
     {
+      "pmid": "18293215",
+      "doi": "10.1080/10915810701876760",
+      "zotero_key": "CFQ9W6SN",
+      "title": "Trichloroethylene and Ocular Malformations: Analysis of Extant Literature",
+      "authors": [
+        [
+          "Amy Lavin",
+          "Williams"
+        ],
+        [
+          "John M.",
+          "DeSesso"
+        ]
+      ],
+      "journal": "International Journal of Toxicology",
+      "year": "2008",
+      "abstract": "An evaluation of the scientific literature for trichloroethylene (TCE) identified two reports of ocular defects, specifically microphthalmia/anophthalmia, following prenatal TCE exposure in rats. Herein, these reports are analyzed in detail and interpreted within the context of other developmental TCE exposure studies. The ocular findings following prenatal TCE exposure are reported in studies that were not designed specifically for developmental safety assessment, and thus did not use standard experimental practices. Furthermore, these findings most commonly occurred at TCE doses associated with considerable maternal toxicity. Among the 18 published studies using developmental TCE exposures, only 3 used doses sufficiently high enough to result in maternal toxicity, and of these, only the 2 discussed in detail in this paper demonstrated ocular defects in the offspring. Furthermore, statistically significant effects were only observed at doses that were above the currently accepted guideline limit dose of 1000 mg/kg body weight. All other TCE developmental exposure studies failed to demonstrate ocular defects as a result of prenatal exposure. These results suggest that the micro-/anophthalmia findings were likely a consequence of delivery of an extremely high bolus TCE dose that is irrelevant to human environmental exposure scenarios.",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "42764332",
+      "doi": "10.1038/s41467-026-76928-z",
+      "zotero_key": "F6X7GR3F",
+      "title": "TTC33 forms a complex with WDR61 and PHF5A to recruit factors relevant to genomic integrity",
+      "authors": [
+        [
+          "Rafał",
+          "Tomecki"
+        ],
+        [
+          "Małgorzata",
+          "Drabko"
+        ],
+        [
+          "Małgorzata",
+          "Siek"
+        ],
+        [
+          "Maria",
+          "Matykiewicz"
+        ],
+        [
+          "Miłosz",
+          "Ludwinek"
+        ],
+        [
+          "Lukasz S.",
+          "Borowski"
+        ],
+        [
+          "Aneta",
+          "Jurkiewicz"
+        ],
+        [
+          "Kamil",
+          "Kobyłecki"
+        ],
+        [
+          "Agnieszka",
+          "Jabłońska"
+        ],
+        [
+          "Dominik",
+          "Cysewski"
+        ],
+        [
+          "Agata",
+          "Malinowska"
+        ],
+        [
+          "Magdalena",
+          "Bakun"
+        ],
+        [
+          "Rafał",
+          "Płoski"
+        ],
+        [
+          "Roman J.",
+          "Szczęsny"
+        ],
+        [
+          "Agnieszka",
+          "Tudek"
+        ]
+      ],
+      "journal": "Nature Communications",
+      "year": "2026",
+      "abstract": "The functions of many human proteins remain unknown, highlighting major gaps in our understanding of cellular biology. TTC33 is an evolutionarily conserved tetratricopeptide repeat (TPR) protein expressed across human tissues, whose molecular role is not defined. Here we identify the TTC33 partners using comparative label-free mass spectrometry. The TTC33-associated network (TAN) comprises WDR61, CCDC97, UNG1/2, PP2A-B55α, PHF5A, and components of the SF3B U2 spliceosomal complex. Using a combination of biochemical assays, structural modeling and molecular dynamics we show that TTC33 directly recruits WDR61 and PHF5A to assemble into a trimeric core complex (TANC), which then forms distinct interactions with either UNG1/2 or SF3B-CCDC97. Somatic TTC33 mutations at key TANC interface residues reduce complex stability and weaken the interaction network. We further show that WDR61 stabilizes TTC33 by protecting it from proteolytic degradation. Loss of network components induces genomic instability and activates DNA damage markers, including γH2AX and p53 phosphorylation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "41664852",
       "doi": "",
       "zotero_key": "4Q7A7T4D",
@@ -18894,40 +21231,6 @@
       "subcollection": "ARR3"
     },
     {
-      "pmid": "",
-      "doi": "10.1007/s00431-001-0870-z",
-      "zotero_key": "VGDHVRST",
-      "title": "Unilateral CHARGE association.",
-      "authors": [
-        [
-          "J",
-          "Trip"
-        ],
-        [
-          "M",
-          "van Stuijvenberg"
-        ],
-        [
-          "FG",
-          "Dikkers"
-        ],
-        [
-          "MW",
-          "Pijnenburg"
-        ]
-      ],
-      "journal": "European journal of pediatrics",
-      "year": "2002",
-      "abstract": "",
-      "cited_by_count": 13,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Syndromic ocular developmental anomalies"
-    },
-    {
       "pmid": "41651789",
       "doi": "10.1002/ajmga.70078",
       "zotero_key": "2TD44CXH",
@@ -19016,6 +21319,226 @@
       ],
       "category": "6 - Genes",
       "subcollection": "TEK"
+    },
+    {
+      "pmid": "39606382",
+      "doi": "10.1101/2024.11.09.24316578",
+      "zotero_key": "GJIZ6292",
+      "title": "Variants in NR6A1 cause a novel oculo-vertebral-renal (OVR) syndrome",
+      "authors": [
+        [
+          "Uma M",
+          "Neelathi"
+        ],
+        [
+          "Ehsan",
+          "Ullah"
+        ],
+        [
+          "Aman",
+          "George"
+        ],
+        [
+          "Mara I",
+          "Maftei"
+        ],
+        [
+          "Elangovan",
+          "Elangovan"
+        ],
+        [
+          "Daniel",
+          "Sanchez-Mendoza"
+        ],
+        [
+          "Chloe",
+          "Adams"
+        ],
+        [
+          "David M.",
+          "McGaughey"
+        ],
+        [
+          "Yuri V.",
+          "Sergeev"
+        ],
+        [
+          "Ranya AI",
+          "Rawi"
+        ],
+        [
+          "Amelia",
+          "Naik"
+        ],
+        [
+          "Chelsea",
+          "Bender"
+        ],
+        [
+          "Irene Hussels",
+          "Maumenee"
+        ],
+        [
+          "Michel",
+          "Michaelides"
+        ],
+        [
+          "Tun Giap",
+          "Tan"
+        ],
+        [
+          "Siying",
+          "Lin"
+        ],
+        [
+          "Rafael",
+          "Villasmil"
+        ],
+        [
+          "Delphine",
+          "Blain"
+        ],
+        [
+          "Robert B.",
+          "Hufnagel"
+        ],
+        [
+          "Gavin",
+          "Arno"
+        ],
+        [
+          "Rodrigo",
+          "Young"
+        ],
+        [
+          "Bin",
+          "Guan"
+        ],
+        [
+          "Brian P.",
+          "Brooks"
+        ]
+      ],
+      "journal": "medRxiv",
+      "year": "2024",
+      "abstract": "Colobomatous microphthalmia is a potentially blinding congenital ocular malformation that can present either in isolation or together with other syndromic features. Despite a strong genetic component to disease, many cases lack a molecular diagnosis. We describe a novel autosomal dominant oculo-vertebral-renal (OVR) syndrome in six independent families characterized by colobomatous microphthalmia, missing vertebrae and congenital kidney abnormalities. Genome sequencing identified six rare variants in the orphan nuclear receptor gene NR6A1 in these families. We performed in silico, cellular and zebrafish experiments to demonstrate the NR6A1 variants were pathogenic or likely pathogenic for OVR syndrome. Knockdown of either or both zebrafish paralogs of NR6A1 results in abnormal eye and somite development, which was rescued by wild-type but not variant NR6A1 mRNA. Illustrating the power of genomic ascertainment in medicine, our study establishes NR6A1 as a critical factor in eye and vertebral development and a pleiotropic gene responsible for OVR syndrome.",
+      "cited_by_count": 2,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "39606449",
+      "doi": "10.21203/rs.3.rs-5375105/v1",
+      "zotero_key": "W9CTFT6B",
+      "title": "Variants in NR6A1 cause a novel oculo-vertebral-renal (OVR) syndrome",
+      "authors": [
+        [
+          "Brian P.",
+          "Brooks"
+        ],
+        [
+          "Uma M",
+          "Neelathi"
+        ],
+        [
+          "Ehsan",
+          "Ullah"
+        ],
+        [
+          "Aman",
+          "George"
+        ],
+        [
+          "Mara I",
+          "Maftei"
+        ],
+        [
+          "Elangovan",
+          "Boobalan"
+        ],
+        [
+          "Daniel",
+          "Sanchez-Mendoza"
+        ],
+        [
+          "Chloe",
+          "Adams"
+        ],
+        [
+          "David M.",
+          "McGaughey"
+        ],
+        [
+          "Yuri V.",
+          "Sergeev"
+        ],
+        [
+          "Ranya AI",
+          "Rawi"
+        ],
+        [
+          "Amelia",
+          "Naik"
+        ],
+        [
+          "Chelsea",
+          "Bender"
+        ],
+        [
+          "Irene Hussels",
+          "Maumenee"
+        ],
+        [
+          "Michel",
+          "Michaelides"
+        ],
+        [
+          "Tun Giap",
+          "Tan"
+        ],
+        [
+          "Siying",
+          "Lin"
+        ],
+        [
+          "Rafael",
+          "Villasmil"
+        ],
+        [
+          "Delphine",
+          "Blain"
+        ],
+        [
+          "Robert B.",
+          "Hufnagel"
+        ],
+        [
+          "Gavin",
+          "Arno"
+        ],
+        [
+          "Rodrigo",
+          "Young"
+        ],
+        [
+          "Bin",
+          "Guan"
+        ]
+      ],
+      "journal": "Research Square",
+      "year": "2024",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
     },
     {
       "pmid": "",
