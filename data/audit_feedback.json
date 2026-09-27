@@ -1,1325 +1,1593 @@
 {
- "genes": {
-  "Ocular imaging": {
-   "trashed": 0,
-   "rescued": 128
-  },
-  "ROM1": {
-   "trashed": 7,
-   "rescued": 33
-  },
-  "IMPDH1": {
-   "trashed": 0,
-   "rescued": 16
-  },
-  "Middle coat": {
-   "trashed": 0,
-   "rescued": 87
-  },
-  "TENM3": {
-   "trashed": 3,
-   "rescued": 24
-  },
-  "COL8A2": {
-   "trashed": 6,
-   "rescued": 49
-  },
-  "GDF6": {
-   "trashed": 1,
-   "rescued": 29
-  },
-  "Chorioretinal coloboma": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "Ocular vascular physiology": {
-   "trashed": 0,
-   "rescued": 108
-  },
-  "SLC4A11": {
-   "trashed": 10,
-   "rescued": 11
-  },
-  "CNGB3": {
-   "trashed": 0,
-   "rescued": 55
-  },
-  "ADGRV1": {
-   "trashed": 0,
-   "rescued": 73
-  },
-  "CLRN1": {
-   "trashed": 2,
-   "rescued": 24
-  },
-  "USH1C": {
-   "trashed": 6,
-   "rescued": 43
-  },
-  "OCA2": {
-   "trashed": 5,
-   "rescued": 37
-  },
-  "ARSG": {
-   "trashed": 7,
-   "rescued": 32
-  },
-  "GZF1": {
-   "trashed": 0,
-   "rescued": 5
-  },
-  "SNRNP200": {
-   "trashed": 4,
-   "rescued": 28
-  },
-  "Night blindness": {
-   "trashed": 6,
-   "rescued": 0
-  },
-  "NMNAT1": {
-   "trashed": 17,
-   "rescued": 11
-  },
-  "LSS": {
-   "trashed": 2,
-   "rescued": 39
-  },
-  "Lens coloboma": {
-   "trashed": 17,
-   "rescued": 0
-  },
-  "IDH3A": {
-   "trashed": 0,
-   "rescued": 6
-  },
-  "BBS10": {
-   "trashed": 2,
-   "rescued": 63
-  },
-  "posterior polymorphous": {
-   "trashed": 7,
-   "rescued": 0
-  },
-  "HSF4": {
-   "trashed": 0,
-   "rescued": 18
-  },
-  "RPE65": {
-   "trashed": 2,
-   "rescued": 113
-  },
-  "CERKL": {
-   "trashed": 0,
-   "rescued": 15
-  },
-  "FOXE3": {
-   "trashed": 1,
-   "rescued": 20
-  },
-  "USP45": {
-   "trashed": 3,
-   "rescued": 2
-  },
-  "PDE6B": {
-   "trashed": 3,
-   "rescued": 167
-  },
-  "Anterior segment examination": {
-   "trashed": 1,
-   "rescued": 146
-  },
-  "PRCD": {
-   "trashed": 6,
-   "rescued": 38
-  },
-  "LRMDA": {
-   "trashed": 1,
-   "rescued": 26
-  },
-  "WDPCP": {
-   "trashed": 0,
-   "rescued": 23
-  },
-  "PDE6H": {
-   "trashed": 2,
-   "rescued": 7
-  },
-  "RPGRIP1": {
-   "trashed": 10,
-   "rescued": 19
-  },
-  "Ocular malformations": {
-   "trashed": 0,
-   "rescued": 20
-  },
-  "Ocular surface examinations": {
-   "trashed": 0,
-   "rescued": 115
-  },
-  "CACNA1F": {
-   "trashed": 0,
-   "rescued": 104
-  },
-  "GUCA1B": {
-   "trashed": 1,
-   "rescued": 40
-  },
-  "FAM161A": {
-   "trashed": 0,
-   "rescued": 34
-  },
-  "Usher syndrome": {
-   "trashed": 4,
-   "rescued": 0
-  },
-  "FRAS1": {
-   "trashed": 0,
-   "rescued": 1
-  },
-  "RS1": {
-   "trashed": 10,
-   "rescued": 58
-  },
-  "NAA10": {
-   "trashed": 13,
-   "rescued": 23
-  },
-  "GPR143": {
-   "trashed": 0,
-   "rescued": 22
-  },
-  "Oculocutaneous albinism": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "SEMA4A": {
-   "trashed": 2,
-   "rescued": 12
-  },
-  "TTLL5": {
-   "trashed": 0,
-   "rescued": 18
-  },
-  "Coat differentiation": {
-   "trashed": 0,
-   "rescued": 63
-  },
-  "NDP": {
-   "trashed": 2,
-   "rescued": 30
-  },
-  "AXIN1": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "RD3": {
-   "trashed": 1,
-   "rescued": 8
-  },
-  "Pupillary physiology": {
-   "trashed": 0,
-   "rescued": 102
-  },
-  "DRAM2": {
-   "trashed": 0,
-   "rescued": 9
-  },
-  "BEST1": {
-   "trashed": 41,
-   "rescued": 14
-  },
-  "MAK": {
-   "trashed": 3,
-   "rescued": 14
-  },
-  "CDH23": {
-   "trashed": 2,
-   "rescued": 63
-  },
-  "ZEB1": {
-   "trashed": 10,
-   "rescued": 6
-  },
-  "Glaucoma": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "CHM": {
-   "trashed": 2,
-   "rescued": 35
-  },
-  "PLK4": {
-   "trashed": 15,
-   "rescued": 5
-  },
-  "STRA6": {
-   "trashed": 0,
-   "rescued": 28
-  },
-  "Accommodation": {
-   "trashed": 2,
-   "rescued": 93
-  },
-  "DHDDS": {
-   "trashed": 1,
-   "rescued": 22
-  },
-  "KRT12": {
-   "trashed": 7,
-   "rescued": 7
-  },
-  "DCT": {
-   "trashed": 0,
-   "rescued": 77
-  },
-  "SMOC1": {
-   "trashed": 1,
-   "rescued": 3
-  },
-  "BBS2": {
-   "trashed": 4,
-   "rescued": 18
-  },
-  "RGR": {
-   "trashed": 17,
-   "rescued": 41
-  },
-  "Transparent media": {
-   "trashed": 0,
-   "rescued": 100
-  },
-  "GUCA1A": {
-   "trashed": 1,
-   "rescued": 65
-  },
-  "USH2A": {
-   "trashed": 0,
-   "rescued": 59
-  },
-  "TYRP1": {
-   "trashed": 8,
-   "rescued": 12
-  },
-  "ATF6": {
-   "trashed": 5,
-   "rescued": 2
-  },
-  "NR2E3": {
-   "trashed": 2,
-   "rescued": 35
-  },
-  "granular": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "RPGR": {
-   "trashed": 1,
-   "rescued": 58
-  },
-  "Corneal dystrophy": {
-   "trashed": 39,
-   "rescued": 0
-  },
-  "CRB1": {
-   "trashed": 0,
-   "rescued": 48
-  },
-  "Ocular neurophysiology": {
-   "trashed": 0,
-   "rescued": 5
-  },
-  "Adnexal structures": {
-   "trashed": 0,
-   "rescued": 43
-  },
-  "PRR12": {
-   "trashed": 7,
-   "rescued": 0
-  },
-  "RP2": {
-   "trashed": 1,
-   "rescued": 53
-  },
-  "CEP290": {
-   "trashed": 9,
-   "rescued": 27
-  },
-  "Specialized functional testing": {
-   "trashed": 0,
-   "rescued": 151
-  },
-  "CNGA3": {
-   "trashed": 0,
-   "rescued": 57
-  },
-  "PDE6C": {
-   "trashed": 0,
-   "rescued": 142
-  },
-  "RAX": {
-   "trashed": 0,
-   "rescued": 71
-  },
-  "EPHA2": {
-   "trashed": 0,
-   "rescued": 17
-  },
-  "TACSTD2": {
-   "trashed": 0,
-   "rescued": 15
-  },
-  "TDRD7": {
-   "trashed": 7,
-   "rescued": 22
-  },
-  "PITPNM3": {
-   "trashed": 12,
-   "rescued": 19
-  },
-  "Derived structures": {
-   "trashed": 0,
-   "rescued": 86
-  },
-  "Syndromic ocular developmental anomalies": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "GRM6": {
-   "trashed": 1,
-   "rescued": 89
-  },
-  "Schnyder corneal dystrophy": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "EYS": {
-   "trashed": 1,
-   "rescued": 44
-  },
-  "RAB3GAP1": {
-   "trashed": 1,
-   "rescued": 26
-  },
-  "CRYGS": {
-   "trashed": 0,
-   "rescued": 178
-  },
-  "ESPN": {
-   "trashed": 0,
-   "rescued": 33
-  },
-  "GRHL2": {
-   "trashed": 0,
-   "rescued": 3
-  },
-  "Vascularization and innervation": {
-   "trashed": 1,
-   "rescued": 71
-  },
-  "CABP4": {
-   "trashed": 0,
-   "rescued": 50
-  },
-  "OPN1MW": {
-   "trashed": 0,
-   "rescued": 50
-  },
-  "PCSK6": {
-   "trashed": 15,
-   "rescued": 0
-  },
-  "FYCO1": {
-   "trashed": 0,
-   "rescued": 20
-  },
-  "CDHR1": {
-   "trashed": 1,
-   "rescued": 36
-  },
-  "NAA15": {
-   "trashed": 21,
-   "rescued": 26
-  },
-  "CRYBA1": {
-   "trashed": 1,
-   "rescued": 122
-  },
-  "Visual physiology": {
-   "trashed": 0,
-   "rescued": 122
-  },
-  "RBP3": {
-   "trashed": 16,
-   "rescued": 136
-  },
-  "Vitreoretinopathies": {
-   "trashed": 0,
-   "rescued": 30
-  },
-  "MYRF": {
-   "trashed": 10,
-   "rescued": 11
-  },
-  "RAB28": {
-   "trashed": 1,
-   "rescued": 24
-  },
-  "GUCY2D": {
-   "trashed": 0,
-   "rescued": 75
-  },
-  "LRAT": {
-   "trashed": 1,
-   "rescued": 93
-  },
-  "PITX3": {
-   "trashed": 13,
-   "rescued": 11
-  },
-  "CIB2": {
-   "trashed": 1,
-   "rescued": 36
-  },
-  "MYO7A": {
-   "trashed": 0,
-   "rescued": 64
-  },
-  "CRYGD": {
-   "trashed": 0,
-   "rescued": 288
-  },
-  "Inner coat": {
-   "trashed": 1,
-   "rescued": 94
-  },
-  "COL4A1": {
-   "trashed": 0,
-   "rescued": 24
-  },
-  "ZNF408": {
-   "trashed": 0,
-   "rescued": 18
-  },
-  "CAPN15": {
-   "trashed": 14,
-   "rescued": 12
-  },
-  "GNB3": {
-   "trashed": 0,
-   "rescued": 21
-  },
-  "RDH12": {
-   "trashed": 1,
-   "rescued": 39
-  },
-  "COL11A1": {
-   "trashed": 1,
-   "rescued": 68
-  },
-  "COL2A1": {
-   "trashed": 3,
-   "rescued": 30
-  },
-  "ARL3": {
-   "trashed": 0,
-   "rescued": 90
-  },
-  "FOXC1": {
-   "trashed": 1,
-   "rescued": 33
-  },
-  "OPN1LW": {
-   "trashed": 0,
-   "rescued": 11
-  },
-  "CRYBA4": {
-   "trashed": 0,
-   "rescued": 65
-  },
-  "HCCS": {
-   "trashed": 4,
-   "rescued": 23
-  },
-  "OAT": {
-   "trashed": 3,
-   "rescued": 49
-  },
-  "TRPM1": {
-   "trashed": 1,
-   "rescued": 36
-  },
-  "SOX2": {
-   "trashed": 20,
-   "rescued": 24
-  },
-  "RP9": {
-   "trashed": 9,
-   "rescued": 41
-  },
-  "RPGRIP1L": {
-   "trashed": 8,
-   "rescued": 84
-  },
-  "FZD4": {
-   "trashed": 0,
-   "rescued": 101
-  },
-  "Choroideremia": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "FREM1": {
-   "trashed": 7,
-   "rescued": 14
-  },
-  "PORCN": {
-   "trashed": 0,
-   "rescued": 52
-  },
-  "Visual function": {
-   "trashed": 0,
-   "rescued": 75
-  },
-  "GJA8": {
-   "trashed": 0,
-   "rescued": 25
-  },
-  "OTX2": {
-   "trashed": 5,
-   "rescued": 38
-  },
-  "KRT3": {
-   "trashed": 8,
-   "rescued": 5
-  },
-  "Emerging technologies": {
-   "trashed": 0,
-   "rescued": 79
-  },
-  "MAB21L2": {
-   "trashed": 13,
-   "rescued": 1
-  },
-  "ALMS1": {
-   "trashed": 0,
-   "rescued": 123
-  },
-  "CRYAB": {
-   "trashed": 0,
-   "rescued": 141
-  },
-  "FRMD7": {
-   "trashed": 0,
-   "rescued": 10
-  },
-  "TMEM98": {
-   "trashed": 0,
-   "rescued": 2
-  },
-  "Fleck": {
-   "trashed": 7,
-   "rescued": 0
-  },
-  "UNC119": {
-   "trashed": 0,
-   "rescued": 14
-  },
-  "GRIP1": {
-   "trashed": 6,
-   "rescued": 8
-  },
-  "Ocular aging": {
-   "trashed": 0,
-   "rescued": 5
-  },
-  "RNU4ATAC": {
-   "trashed": 1,
-   "rescued": 33
-  },
-  "DCN": {
-   "trashed": 0,
-   "rescued": 62
-  },
-  "gelatinous drop-like": {
-   "trashed": 10,
-   "rescued": 0
-  },
-  "AGK": {
-   "trashed": 0,
-   "rescued": 16
-  },
-  "RP1": {
-   "trashed": 0,
-   "rescued": 30
-  },
-  "HK1": {
-   "trashed": 2,
-   "rescued": 19
-  },
-  "Wagner vitreoretinopathy": {
-   "trashed": 16,
-   "rescued": 0
-  },
-  "SMO": {
-   "trashed": 3,
-   "rescued": 10
-  },
-  "Developmental genetics": {
-   "trashed": 0,
-   "rescued": 33
-  },
-  "CRYBB2": {
-   "trashed": 0,
-   "rescued": 91
-  },
-  "FZD5": {
-   "trashed": 4,
-   "rescued": 29
-  },
-  "CYP1B1": {
-   "trashed": 1,
-   "rescued": 34
-  },
-  "SMARCA2": {
-   "trashed": 55,
-   "rescued": 17
-  },
-  "TEK": {
-   "trashed": 21,
-   "rescued": 8
-  },
-  "FREM2": {
-   "trashed": 0,
-   "rescued": 33
-  },
-  "LCA5": {
-   "trashed": 0,
-   "rescued": 26
-  },
-  "High myopia": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "CRYGC": {
-   "trashed": 0,
-   "rescued": 31
-  },
-  "Leber congenital amaurosis": {
-   "trashed": 5,
-   "rescued": 0
-  },
-  "IQCB1": {
-   "trashed": 0,
-   "rescued": 53
-  },
-  "Ocular motility": {
-   "trashed": 0,
-   "rescued": 15
-  },
-  "COL18A1": {
-   "trashed": 17,
-   "rescued": 5
-  },
-  "FAT1": {
-   "trashed": 2,
-   "rescued": 7
-  },
-  "Cataract": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "TGFBI": {
-   "trashed": 17,
-   "rescued": 6
-  },
-  "KIF3B": {
-   "trashed": 1,
-   "rescued": 37
-  },
-  "C12ORF57": {
-   "trashed": 0,
-   "rescued": 15
-  },
-  "Albinism": {
-   "trashed": 2,
-   "rescued": 22
-  },
-  "SPATA7": {
-   "trashed": 6,
-   "rescued": 17
-  },
-  "CRYGB": {
-   "trashed": 0,
-   "rescued": 61
-  },
-  "COL9A1": {
-   "trashed": 1,
-   "rescued": 23
-  },
-  "ADAMTSL4": {
-   "trashed": 0,
-   "rescued": 31
-  },
-  "Severe early-onset retinal dystrophy": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "GPR179": {
-   "trashed": 1,
-   "rescued": 18
-  },
-  "MIP": {
-   "trashed": 6,
-   "rescued": 70
-  },
-  "Oguchi disease": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "Foveal hypoplasia": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "Myopia": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "USH1G": {
-   "trashed": 3,
-   "rescued": 61
-  },
-  "Posterior segment examination": {
-   "trashed": 0,
-   "rescued": 22
-  },
-  "LRIT3": {
-   "trashed": 0,
-   "rescued": 24
-  },
-  "PROM1": {
-   "trashed": 2,
-   "rescued": 48
-  },
-  "IFT140": {
-   "trashed": 1,
-   "rescued": 90
-  },
-  "KMT2D": {
-   "trashed": 9,
-   "rescued": 22
-  },
-  "BMP4": {
-   "trashed": 3,
-   "rescued": 18
-  },
-  "DHX38": {
-   "trashed": 2,
-   "rescued": 13
-  },
-  "ACO2": {
-   "trashed": 31,
-   "rescued": 5
-  },
-  "RAB18": {
-   "trashed": 5,
-   "rescued": 17
-  },
-  "TRIM44": {
-   "trashed": 1,
-   "rescued": 17
-  },
-  "Gillespie syndrome": {
-   "trashed": 5,
-   "rescued": 0
-  },
-  "Familial exudative vitreoretinopathy": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "Developmental timeline": {
-   "trashed": 0,
-   "rescued": 56
-  },
-  "SHH": {
-   "trashed": 7,
-   "rescued": 52
-  },
-  "Specialized microanatomy": {
-   "trashed": 0,
-   "rescued": 6
-  },
-  "TUBGCP4": {
-   "trashed": 0,
-   "rescued": 45
-  },
-  "Congenital hereditary stromal dystrophy": {
-   "trashed": 11,
-   "rescued": 0
-  },
-  "GNAT1": {
-   "trashed": 0,
-   "rescued": 147
-  },
-  "TYR": {
-   "trashed": 3,
-   "rescued": 114
-  },
-  "RLBP1": {
-   "trashed": 9,
-   "rescued": 67
-  },
-  "Aniridia": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "Adnexal development": {
-   "trashed": 0,
-   "rescued": 24
-  },
-  "RNU2-2": {
-   "trashed": 22,
-   "rescued": 1
-  },
-  "Hereditary optic atrophy": {
-   "trashed": 5,
-   "rescued": 0
-  },
-  "B3GLCT": {
-   "trashed": 0,
-   "rescued": 15
-  },
-  "KCNJ13": {
-   "trashed": 3,
-   "rescued": 4
-  },
-  "PCDH15": {
-   "trashed": 13,
-   "rescued": 89
-  },
-  "MYOC": {
-   "trashed": 0,
-   "rescued": 35
-  },
-  "CRYBB3": {
-   "trashed": 0,
-   "rescued": 31
-  },
-  "IMPG1": {
-   "trashed": 0,
-   "rescued": 57
-  },
-  "LOXL3": {
-   "trashed": 1,
-   "rescued": 2
-  },
-  "ADAM9": {
-   "trashed": 0,
-   "rescued": 6
-  },
-  "FBN1": {
-   "trashed": 216,
-   "rescued": 16
-  },
-  "PAX6": {
-   "trashed": 15,
-   "rescued": 78
-  },
-  "PRPH2": {
-   "trashed": 272,
-   "rescued": 5
-  },
-  "PUF60": {
-   "trashed": 0,
-   "rescued": 9
-  },
-  "PDE6A": {
-   "trashed": 1,
-   "rescued": 150
-  },
-  "UBIAD1": {
-   "trashed": 1,
-   "rescued": 3
-  },
-  "Meesmann": {
-   "trashed": 12,
-   "rescued": 0
-  },
-  "SAG": {
-   "trashed": 22,
-   "rescued": 16
-  },
-  "MAC assess-genes": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "ARID1B": {
-   "trashed": 7,
-   "rescued": 20
-  },
-  "Congenital cataracts": {
-   "trashed": 28,
-   "rescued": 4
-  },
-  "MERTK": {
-   "trashed": 1,
-   "rescued": 73
-  },
-  "MFRP": {
-   "trashed": 2,
-   "rescued": 43
-  },
-  "ALDH1A3": {
-   "trashed": 1,
-   "rescued": 66
-  },
-  "PAX2": {
-   "trashed": 6,
-   "rescued": 21
-  },
-  "CRYAA": {
-   "trashed": 0,
-   "rescued": 11
-  },
-  "PITX2": {
-   "trashed": 5,
-   "rescued": 17
-  },
-  "Comparative Anatomy": {
-   "trashed": 157,
-   "rescued": 0
-  },
-  "Fundus albipunctatus": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "ELOVL4": {
-   "trashed": 1,
-   "rescued": 39
-  },
-  "Intraocular pressure": {
-   "trashed": 0,
-   "rescued": 153
-  },
-  "Retinal dystrophies": {
-   "trashed": 35,
-   "rescued": 11
-  },
-  "ARID2": {
-   "trashed": 21,
-   "rescued": 12
-  },
-  "CRX": {
-   "trashed": 4,
-   "rescued": 71
-  },
-  "VCAN": {
-   "trashed": 3,
-   "rescued": 4
-  },
-  "AIPL1": {
-   "trashed": 1,
-   "rescued": 26
-  },
-  "SIX6": {
-   "trashed": 11,
-   "rescued": 55
-  },
-  "PIKFYVE": {
-   "trashed": 1,
-   "rescued": 18
-  },
-  "MKKS": {
-   "trashed": 0,
-   "rescued": 10
-  },
-  "CRYBB1": {
-   "trashed": 1,
-   "rescued": 76
-  },
-  "WHRN": {
-   "trashed": 2,
-   "rescued": 43
-  },
-  "PRSS56": {
-   "trashed": 0,
-   "rescued": 7
-  },
-  "OVOL2": {
-   "trashed": 5,
-   "rescued": 10
-  },
-  "Cone-rod dystrophy": {
-   "trashed": 20,
-   "rescued": 0
-  },
-  "NYX": {
-   "trashed": 0,
-   "rescued": 39
-  },
-  "RHO": {
-   "trashed": 10,
-   "rescued": 65
-  },
-  "FSCN2": {
-   "trashed": 0,
-   "rescued": 11
-  },
-  "IFT172": {
-   "trashed": 6,
-   "rescued": 61
-  },
-  "CNGA1": {
-   "trashed": 0,
-   "rescued": 278
-  },
-  "X-linked retinoschisis": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "Neuro-ophthalmologic examinations": {
-   "trashed": 0,
-   "rescued": 139
-  },
-  "Orbit": {
-   "trashed": 0,
-   "rescued": 13
-  },
-  "CHD7": {
-   "trashed": 1,
-   "rescued": 30
-  },
-  "CHST6": {
-   "trashed": 0,
-   "rescued": 68
-  },
-  "Norrie disease": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "Congenital nystagmus": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "BBS1": {
-   "trashed": 8,
-   "rescued": 25
-  },
-  "NRL": {
-   "trashed": 1,
-   "rescued": 52
-  },
-  "congenital stationary": {
-   "trashed": 6,
-   "rescued": 0
-  },
-  "Pre-Descemet corneal dystrophy": {
-   "trashed": 15,
-   "rescued": 0
-  },
-  "PRPF3": {
-   "trashed": 11,
-   "rescued": 19
-  },
-  "ELP4": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "SLC38A8": {
-   "trashed": 0,
-   "rescued": 7
-  },
-  "TULP1": {
-   "trashed": 10,
-   "rescued": 54
-  },
-  "POC1B": {
-   "trashed": 2,
-   "rescued": 18
-  },
-  "YAP1": {
-   "trashed": 1,
-   "rescued": 8
-  },
-  "Ocular developmental anomalies": {
-   "trashed": 52,
-   "rescued": 19
-  },
-  "RARB": {
-   "trashed": 3,
-   "rescued": 36
-  },
-  "GNAT2": {
-   "trashed": 1,
-   "rescued": 26
-  },
-  "VSX2": {
-   "trashed": 2,
-   "rescued": 61
-  },
-  "BBS12": {
-   "trashed": 3,
-   "rescued": 74
-  },
-  "Axenfeld-Rieger syndrome": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "NHS": {
-   "trashed": 2,
-   "rescued": 20
-  },
-  "Optic vesicle": {
-   "trashed": 0,
-   "rescued": 88
-  },
-  "LRP2": {
-   "trashed": 4,
-   "rescued": 13
-  },
-  "Anophthalmia and microphthalmia": {
-   "trashed": 7,
-   "rescued": 0
-  },
-  "Syndromic congenital cataract": {
-   "trashed": 6,
-   "rescued": 0
-  },
-  "Fuchs endothelial": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "BFSP2": {
-   "trashed": 0,
-   "rescued": 46
-  },
-  "MAF": {
-   "trashed": 7,
-   "rescued": 9
-  },
-  "ACTB": {
-   "trashed": 12,
-   "rescued": 19
-  },
-  "SLC45A2": {
-   "trashed": 5,
-   "rescued": 24
-  },
-  "Syndromic albinism": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "GRK1": {
-   "trashed": 0,
-   "rescued": 130
-  },
-  "RDH11": {
-   "trashed": 2,
-   "rescued": 71
-  },
-  "Nystagmus": {
-   "trashed": 30,
-   "rescued": 0
-  },
-  "Outer coat": {
-   "trashed": 0,
-   "rescued": 104
-  },
-  "ABCA4": {
-   "trashed": 7,
-   "rescued": 135
-  },
-  "Peters anomaly": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "CC2D2A": {
-   "trashed": 0,
-   "rescued": 216
-  },
-  "HMX1": {
-   "trashed": 4,
-   "rescued": 33
-  },
-  "Binocular vision": {
-   "trashed": 0,
-   "rescued": 1
-  },
-  "RAB3GAP2": {
-   "trashed": 1,
-   "rescued": 17
-  },
-  "ARL6": {
-   "trashed": 0,
-   "rescued": 135
-  },
-  "LTBP2": {
-   "trashed": 2,
-   "rescued": 28
-  },
-  "Genetic testing": {
-   "trashed": 0,
-   "rescued": 35
-  },
-  "BFSP1": {
-   "trashed": 1,
-   "rescued": 42
-  },
-  "Congenital glaucoma": {
-   "trashed": 2,
-   "rescued": 0
-  },
-  "SLC24A5": {
-   "trashed": 5,
-   "rescued": 41
-  },
-  "TBC1D20": {
-   "trashed": 6,
-   "rescued": 14
-  },
-  "GJA3": {
-   "trashed": 0,
-   "rescued": 33
-  },
-  "ARR3": {
-   "trashed": 48,
-   "rescued": 2
-  },
-  "BCOR": {
-   "trashed": 0,
-   "rescued": 16
-  },
-  "LCHAD deficiency retinopathy": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "NAA10/NAA15": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "Corneal dystrophies": {
-   "trashed": 3,
-   "rescued": 0
-  },
-  "2 - Embryology": {
-   "trashed": 1,
-   "rescued": 0
-  },
-  "SLC24A1": {
-   "trashed": 21,
-   "rescued": 7
-  },
-  "ACTG1": {
-   "trashed": 1,
-   "rescued": 14
-  },
-  "SIX1": {
-   "trashed": 8,
-   "rescued": 0
-  },
-  "Transparent media physiology": {
-   "trashed": 0,
-   "rescued": 23
-  }
- },
- "updated_at": "2026-09-26T03:42:41Z"
+  "genes": {
+    "2 - Embryology": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "ABCA4": {
+      "rescued": 138,
+      "trashed": 7
+    },
+    "ABCA4, ABCA4, Emerging technologies": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ACO2": {
+      "rescued": 5,
+      "trashed": 31
+    },
+    "ACTB": {
+      "rescued": 19,
+      "trashed": 12
+    },
+    "ACTG1": {
+      "rescued": 14,
+      "trashed": 1
+    },
+    "ADAM9": {
+      "rescued": 6,
+      "trashed": 0
+    },
+    "ADAMTSL4": {
+      "rescued": 31,
+      "trashed": 0
+    },
+    "ADGRV1": {
+      "rescued": 73,
+      "trashed": 0
+    },
+    "ADGRV1, CLRN1, MYO7A, USH1C": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ADGRV1, CLRN1, MYO7A, USH1C, USH1G, WHRN": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "AGK": {
+      "rescued": 16,
+      "trashed": 0
+    },
+    "AIPL1": {
+      "rescued": 26,
+      "trashed": 1
+    },
+    "AIPL1, EYS, GNAT1, PDE6A, PDE6B, PDE6C": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ALDH1A3": {
+      "rescued": 67,
+      "trashed": 1
+    },
+    "ALDH1A3, SOX2": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ALMS1": {
+      "rescued": 123,
+      "trashed": 0
+    },
+    "ARID1B": {
+      "rescued": 20,
+      "trashed": 7
+    },
+    "ARID1B, ARID2, CHD7, KMT2D": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ARID2": {
+      "rescued": 12,
+      "trashed": 21
+    },
+    "ARL3": {
+      "rescued": 90,
+      "trashed": 0
+    },
+    "ARL3, ARL6, BBS12, IFT172, SMO, WDPCP": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ARL6": {
+      "rescued": 135,
+      "trashed": 0
+    },
+    "ARR3": {
+      "rescued": 2,
+      "trashed": 48
+    },
+    "ARSG": {
+      "rescued": 32,
+      "trashed": 7
+    },
+    "ARSG, CLRN1, OPN1MW": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ATF6": {
+      "rescued": 2,
+      "trashed": 5
+    },
+    "AXIN1": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Accommodation": {
+      "rescued": 97,
+      "trashed": 2
+    },
+    "Accommodation, Middle coat, Vascularization and innervation, Accommodation, Middle coat": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Adnexal development": {
+      "rescued": 24,
+      "trashed": 0
+    },
+    "Adnexal structures": {
+      "rescued": 45,
+      "trashed": 0
+    },
+    "Adnexal structures, Vascularization and innervation, Ocular vascular physiology": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Albinism": {
+      "rescued": 23,
+      "trashed": 2
+    },
+    "Albinism, Developmental timeline, Inner coat, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Albinism, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Aniridia": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Anophthalmia and microphthalmia": {
+      "rescued": 0,
+      "trashed": 7
+    },
+    "Anterior segment examination": {
+      "rescued": 158,
+      "trashed": 1
+    },
+    "Axenfeld-Rieger syndrome": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "B3GLCT": {
+      "rescued": 15,
+      "trashed": 0
+    },
+    "BBS1": {
+      "rescued": 25,
+      "trashed": 8
+    },
+    "BBS10": {
+      "rescued": 63,
+      "trashed": 2
+    },
+    "BBS12": {
+      "rescued": 74,
+      "trashed": 3
+    },
+    "BBS12, PDE6A": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "BBS2": {
+      "rescued": 18,
+      "trashed": 4
+    },
+    "BCOR": {
+      "rescued": 16,
+      "trashed": 0
+    },
+    "BEST1": {
+      "rescued": 14,
+      "trashed": 41
+    },
+    "BFSP1": {
+      "rescued": 42,
+      "trashed": 1
+    },
+    "BFSP1, Derived structures, Derived structures, PAX6": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "BFSP2": {
+      "rescued": 46,
+      "trashed": 0
+    },
+    "BMP4": {
+      "rescued": 18,
+      "trashed": 3
+    },
+    "Binocular vision": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "C12ORF57": {
+      "rescued": 15,
+      "trashed": 0
+    },
+    "CABP4": {
+      "rescued": 52,
+      "trashed": 0
+    },
+    "CACNA1F": {
+      "rescued": 104,
+      "trashed": 0
+    },
+    "CACNA1F, GRM6": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CAPN15": {
+      "rescued": 12,
+      "trashed": 14
+    },
+    "CC2D2A": {
+      "rescued": 218,
+      "trashed": 0
+    },
+    "CDH23": {
+      "rescued": 63,
+      "trashed": 2
+    },
+    "CDHR1": {
+      "rescued": 36,
+      "trashed": 1
+    },
+    "CEP290": {
+      "rescued": 27,
+      "trashed": 9
+    },
+    "CERKL": {
+      "rescued": 15,
+      "trashed": 0
+    },
+    "CERKL, FAM161A, RAB28, SEMA4A, TULP1, USH2A": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CHD7": {
+      "rescued": 31,
+      "trashed": 1
+    },
+    "CHM": {
+      "rescued": 35,
+      "trashed": 2
+    },
+    "CHST6": {
+      "rescued": 69,
+      "trashed": 0
+    },
+    "CIB2": {
+      "rescued": 36,
+      "trashed": 1
+    },
+    "CLRN1": {
+      "rescued": 24,
+      "trashed": 2
+    },
+    "CNGA1": {
+      "rescued": 279,
+      "trashed": 0
+    },
+    "CNGA1, SLC24A1": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CNGA3": {
+      "rescued": 57,
+      "trashed": 0
+    },
+    "CNGA3, OPN1LW, OPN1MW": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CNGB3": {
+      "rescued": 55,
+      "trashed": 0
+    },
+    "COL11A1": {
+      "rescued": 74,
+      "trashed": 1
+    },
+    "COL11A1, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "COL18A1": {
+      "rescued": 5,
+      "trashed": 17
+    },
+    "COL2A1": {
+      "rescued": 30,
+      "trashed": 3
+    },
+    "COL4A1": {
+      "rescued": 24,
+      "trashed": 0
+    },
+    "COL8A2": {
+      "rescued": 49,
+      "trashed": 6
+    },
+    "COL8A2, SLC4A11": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "COL9A1": {
+      "rescued": 23,
+      "trashed": 1
+    },
+    "CRB1": {
+      "rescued": 50,
+      "trashed": 0
+    },
+    "CRX": {
+      "rescued": 71,
+      "trashed": 4
+    },
+    "CRYAA": {
+      "rescued": 11,
+      "trashed": 0
+    },
+    "CRYAB": {
+      "rescued": 146,
+      "trashed": 0
+    },
+    "CRYBA1": {
+      "rescued": 126,
+      "trashed": 1
+    },
+    "CRYBA1, CRYBB3, CRYGD, CRYGS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBA4": {
+      "rescued": 65,
+      "trashed": 0
+    },
+    "CRYBA4, CRYBB1, CRYBB2, CRYGC, CRYGD, CRYGS, LSS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBA4, CRYBB1, CRYGS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBA4, CRYBB1, EPHA2": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBA4, CRYGB, CRYGD": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBA4, HSF4": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBB1": {
+      "rescued": 76,
+      "trashed": 1
+    },
+    "CRYBB1, CRYGC, CRYGD, CRYGS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBB2": {
+      "rescued": 93,
+      "trashed": 0
+    },
+    "CRYBB2, CRYBB2, Derived structures": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBB2, CRYGB": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYBB3": {
+      "rescued": 31,
+      "trashed": 0
+    },
+    "CRYGB": {
+      "rescued": 65,
+      "trashed": 0
+    },
+    "CRYGC": {
+      "rescued": 31,
+      "trashed": 0
+    },
+    "CRYGD": {
+      "rescued": 298,
+      "trashed": 0
+    },
+    "CRYGD, CRYGS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYGD, LSS": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "CRYGS": {
+      "rescued": 182,
+      "trashed": 0
+    },
+    "CYP1B1": {
+      "rescued": 34,
+      "trashed": 1
+    },
+    "Cataract": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "Chorioretinal coloboma": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Choroideremia": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Coat differentiation": {
+      "rescued": 63,
+      "trashed": 0
+    },
+    "Comparative Anatomy": {
+      "rescued": 0,
+      "trashed": 157
+    },
+    "Cone-rod dystrophy": {
+      "rescued": 0,
+      "trashed": 20
+    },
+    "Congenital cataracts": {
+      "rescued": 4,
+      "trashed": 28
+    },
+    "Congenital glaucoma": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Congenital hereditary stromal dystrophy": {
+      "rescued": 0,
+      "trashed": 11
+    },
+    "Congenital nystagmus": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Corneal dystrophies": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "Corneal dystrophy": {
+      "rescued": 0,
+      "trashed": 39
+    },
+    "DCN": {
+      "rescued": 62,
+      "trashed": 0
+    },
+    "DCT": {
+      "rescued": 77,
+      "trashed": 0
+    },
+    "DHDDS": {
+      "rescued": 22,
+      "trashed": 1
+    },
+    "DHX38": {
+      "rescued": 13,
+      "trashed": 2
+    },
+    "DRAM2": {
+      "rescued": 9,
+      "trashed": 0
+    },
+    "DRAM2, EYS, MERTK, PDE6B, PDE6H, TULP1": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Derived structures": {
+      "rescued": 86,
+      "trashed": 0
+    },
+    "Developmental genetics": {
+      "rescued": 33,
+      "trashed": 0
+    },
+    "Developmental timeline": {
+      "rescued": 56,
+      "trashed": 0
+    },
+    "Developmental timeline, Optic vesicle, Optic vesicle, VSX2": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "ELOVL4": {
+      "rescued": 39,
+      "trashed": 1
+    },
+    "ELP4": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "EPHA2": {
+      "rescued": 17,
+      "trashed": 0
+    },
+    "ESPN": {
+      "rescued": 33,
+      "trashed": 0
+    },
+    "EYS": {
+      "rescued": 44,
+      "trashed": 1
+    },
+    "EYS, LRP2, PDE6B": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Emerging technologies": {
+      "rescued": 80,
+      "trashed": 0
+    },
+    "Emerging technologies, Ocular imaging": {
+      "rescued": 5,
+      "trashed": 0
+    },
+    "FAM161A": {
+      "rescued": 34,
+      "trashed": 0
+    },
+    "FAT1": {
+      "rescued": 7,
+      "trashed": 2
+    },
+    "FBN1": {
+      "rescued": 18,
+      "trashed": 216
+    },
+    "FOXC1": {
+      "rescued": 36,
+      "trashed": 1
+    },
+    "FOXE3": {
+      "rescued": 20,
+      "trashed": 1
+    },
+    "FRAS1": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "FREM1": {
+      "rescued": 14,
+      "trashed": 7
+    },
+    "FREM2": {
+      "rescued": 33,
+      "trashed": 0
+    },
+    "FRMD7": {
+      "rescued": 10,
+      "trashed": 0
+    },
+    "FRMD7, GPR143, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "FRMD7, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "FSCN2": {
+      "rescued": 11,
+      "trashed": 0
+    },
+    "FYCO1": {
+      "rescued": 20,
+      "trashed": 0
+    },
+    "FZD4": {
+      "rescued": 103,
+      "trashed": 0
+    },
+    "FZD5": {
+      "rescued": 29,
+      "trashed": 4
+    },
+    "Familial exudative vitreoretinopathy": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Fleck": {
+      "rescued": 0,
+      "trashed": 7
+    },
+    "Foveal hypoplasia": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "Fuchs endothelial": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Fundus albipunctatus": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "GDF6": {
+      "rescued": 30,
+      "trashed": 1
+    },
+    "GJA3": {
+      "rescued": 33,
+      "trashed": 0
+    },
+    "GJA8": {
+      "rescued": 25,
+      "trashed": 0
+    },
+    "GNAT1": {
+      "rescued": 149,
+      "trashed": 0
+    },
+    "GNAT2": {
+      "rescued": 26,
+      "trashed": 1
+    },
+    "GNB3": {
+      "rescued": 21,
+      "trashed": 0
+    },
+    "GPR143": {
+      "rescued": 22,
+      "trashed": 0
+    },
+    "GPR143, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "GPR179": {
+      "rescued": 18,
+      "trashed": 1
+    },
+    "GRHL2": {
+      "rescued": 3,
+      "trashed": 0
+    },
+    "GRIP1": {
+      "rescued": 8,
+      "trashed": 6
+    },
+    "GRK1": {
+      "rescued": 130,
+      "trashed": 0
+    },
+    "GRM6": {
+      "rescued": 89,
+      "trashed": 1
+    },
+    "GUCA1A": {
+      "rescued": 65,
+      "trashed": 1
+    },
+    "GUCA1B": {
+      "rescued": 40,
+      "trashed": 1
+    },
+    "GUCA1B, PDE6H, SAG": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "GUCY2D": {
+      "rescued": 75,
+      "trashed": 0
+    },
+    "GZF1": {
+      "rescued": 5,
+      "trashed": 0
+    },
+    "Genetic testing": {
+      "rescued": 35,
+      "trashed": 0
+    },
+    "Genetic testing, DRAM2, OPN1LW, OPN1MW, RAX2": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Genetic testing, LRIT3, OPN1LW, OPN1MW": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Genetic testing, OPN1MW": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Gillespie syndrome": {
+      "rescued": 0,
+      "trashed": 5
+    },
+    "Glaucoma": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "HCCS": {
+      "rescued": 23,
+      "trashed": 4
+    },
+    "HK1": {
+      "rescued": 19,
+      "trashed": 2
+    },
+    "HMX1": {
+      "rescued": 33,
+      "trashed": 4
+    },
+    "HSF4": {
+      "rescued": 18,
+      "trashed": 0
+    },
+    "Hereditary optic atrophy": {
+      "rescued": 0,
+      "trashed": 5
+    },
+    "High myopia": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "IDH3A": {
+      "rescued": 6,
+      "trashed": 0
+    },
+    "IFT140": {
+      "rescued": 90,
+      "trashed": 2
+    },
+    "IFT172": {
+      "rescued": 61,
+      "trashed": 10
+    },
+    "IMPDH1": {
+      "rescued": 16,
+      "trashed": 1
+    },
+    "IMPG1": {
+      "rescued": 57,
+      "trashed": 0
+    },
+    "IMPG1, DCN, Outer coat": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "IQCB1": {
+      "rescued": 53,
+      "trashed": 2
+    },
+    "Inner coat": {
+      "rescued": 97,
+      "trashed": 1
+    },
+    "Intraocular pressure": {
+      "rescued": 183,
+      "trashed": 0
+    },
+    "Intraocular pressure, FREM2, Ocular developmental anomalies, TRIM44": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Intraocular pressure, Transparent media physiology": {
+      "rescued": 2,
+      "trashed": 0
+    },
+    "KCNJ13": {
+      "rescued": 4,
+      "trashed": 3
+    },
+    "KIF3B": {
+      "rescued": 41,
+      "trashed": 1
+    },
+    "KMT2D": {
+      "rescued": 22,
+      "trashed": 9
+    },
+    "KRT12": {
+      "rescued": 7,
+      "trashed": 27
+    },
+    "KRT3": {
+      "rescued": 5,
+      "trashed": 15
+    },
+    "LCA5": {
+      "rescued": 26,
+      "trashed": 0
+    },
+    "LCHAD deficiency retinopathy": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "LOXL3": {
+      "rescued": 2,
+      "trashed": 4
+    },
+    "LRAT": {
+      "rescued": 93,
+      "trashed": 1
+    },
+    "LRAT, RBP3, RDH11, RGR": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "LRIT3": {
+      "rescued": 24,
+      "trashed": 0
+    },
+    "LRMDA": {
+      "rescued": 26,
+      "trashed": 1
+    },
+    "LRP2": {
+      "rescued": 13,
+      "trashed": 4
+    },
+    "LSS": {
+      "rescued": 39,
+      "trashed": 8
+    },
+    "LTBP2": {
+      "rescued": 28,
+      "trashed": 2
+    },
+    "Leber congenital amaurosis": {
+      "rescued": 0,
+      "trashed": 5
+    },
+    "Lens coloboma": {
+      "rescued": 0,
+      "trashed": 17
+    },
+    "MAB21L2": {
+      "rescued": 1,
+      "trashed": 13
+    },
+    "MAC assess-genes": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "MAF": {
+      "rescued": 9,
+      "trashed": 9
+    },
+    "MAK": {
+      "rescued": 14,
+      "trashed": 3
+    },
+    "MERTK": {
+      "rescued": 73,
+      "trashed": 1
+    },
+    "MFRP": {
+      "rescued": 43,
+      "trashed": 2
+    },
+    "MIP": {
+      "rescued": 74,
+      "trashed": 6
+    },
+    "MKKS": {
+      "rescued": 10,
+      "trashed": 0
+    },
+    "MYO7A": {
+      "rescued": 65,
+      "trashed": 0
+    },
+    "MYOC": {
+      "rescued": 35,
+      "trashed": 0
+    },
+    "MYRF": {
+      "rescued": 11,
+      "trashed": 10
+    },
+    "Meesmann": {
+      "rescued": 0,
+      "trashed": 12
+    },
+    "Middle coat": {
+      "rescued": 88,
+      "trashed": 0
+    },
+    "Middle coat, Ocular aging, Ocular vascular physiology": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Middle coat, Vascularization and innervation": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Middle coat, Vascularization and innervation, Ocular vascular physiology": {
+      "rescued": 2,
+      "trashed": 0
+    },
+    "Myopia": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "NAA10": {
+      "rescued": 23,
+      "trashed": 13
+    },
+    "NAA10/NAA15": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "NAA15": {
+      "rescued": 26,
+      "trashed": 21
+    },
+    "NDP": {
+      "rescued": 30,
+      "trashed": 2
+    },
+    "NHS": {
+      "rescued": 20,
+      "trashed": 2
+    },
+    "NMNAT1": {
+      "rescued": 11,
+      "trashed": 17
+    },
+    "NR2E3": {
+      "rescued": 35,
+      "trashed": 2
+    },
+    "NRL": {
+      "rescued": 52,
+      "trashed": 1
+    },
+    "NYX": {
+      "rescued": 39,
+      "trashed": 0
+    },
+    "Neuro-ophthalmologic examinations": {
+      "rescued": 143,
+      "trashed": 0
+    },
+    "Neuro-ophthalmologic examinations, Neuro-ophthalmologic examinations, Pupillary physiology, Specialized functional testing": {
+      "rescued": 2,
+      "trashed": 0
+    },
+    "Neuro-ophthalmologic examinations, Pupillary physiology, Neuro-ophthalmologic examinations, Pupillary physiology": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Neuro-ophthalmologic examinations, Pupillary physiology, Neuro-ophthalmologic examinations, Pupillary physiology, Specialized functional testing": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Neuro-ophthalmologic examinations, Pupillary physiology, Neuro-ophthalmologic examinations, Specialized functional testing": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Night blindness": {
+      "rescued": 0,
+      "trashed": 6
+    },
+    "Norrie disease": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Nystagmus": {
+      "rescued": 0,
+      "trashed": 30
+    },
+    "OAT": {
+      "rescued": 49,
+      "trashed": 3
+    },
+    "OCA2": {
+      "rescued": 37,
+      "trashed": 5
+    },
+    "OPN1LW": {
+      "rescued": 11,
+      "trashed": 0
+    },
+    "OPN1MW": {
+      "rescued": 50,
+      "trashed": 0
+    },
+    "OPN1MW, RLBP1, RPE65": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "OPN1MW, SLC38A8": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "OTX2": {
+      "rescued": 38,
+      "trashed": 5
+    },
+    "OVOL2": {
+      "rescued": 10,
+      "trashed": 5
+    },
+    "Ocular aging": {
+      "rescued": 5,
+      "trashed": 0
+    },
+    "Ocular developmental anomalies": {
+      "rescued": 20,
+      "trashed": 52
+    },
+    "Ocular developmental anomalies, C12ORF57, SMO, SOX2": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Ocular imaging": {
+      "rescued": 133,
+      "trashed": 0
+    },
+    "Ocular malformations": {
+      "rescued": 20,
+      "trashed": 0
+    },
+    "Ocular malformations, CHD7": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Ocular motility": {
+      "rescued": 36,
+      "trashed": 0
+    },
+    "Ocular neurophysiology": {
+      "rescued": 5,
+      "trashed": 0
+    },
+    "Ocular surface examinations": {
+      "rescued": 120,
+      "trashed": 0
+    },
+    "Ocular vascular physiology": {
+      "rescued": 116,
+      "trashed": 0
+    },
+    "Oculocutaneous albinism": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "Oguchi disease": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Optic vesicle": {
+      "rescued": 88,
+      "trashed": 0
+    },
+    "Optic vesicle, Retinal dystrophies, OPN1LW, OPN1MW": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Orbit": {
+      "rescued": 13,
+      "trashed": 0
+    },
+    "Outer coat": {
+      "rescued": 108,
+      "trashed": 0
+    },
+    "PAX2": {
+      "rescued": 21,
+      "trashed": 6
+    },
+    "PAX6": {
+      "rescued": 78,
+      "trashed": 15
+    },
+    "PCDH15": {
+      "rescued": 90,
+      "trashed": 13
+    },
+    "PCSK6": {
+      "rescued": 0,
+      "trashed": 15
+    },
+    "PDE6A": {
+      "rescued": 152,
+      "trashed": 1
+    },
+    "PDE6B": {
+      "rescued": 168,
+      "trashed": 3
+    },
+    "PDE6B, TUBGCP4": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "PDE6C": {
+      "rescued": 147,
+      "trashed": 0
+    },
+    "PDE6H": {
+      "rescued": 7,
+      "trashed": 2
+    },
+    "PIKFYVE": {
+      "rescued": 18,
+      "trashed": 1
+    },
+    "PITPNM3": {
+      "rescued": 19,
+      "trashed": 12
+    },
+    "PITX2": {
+      "rescued": 17,
+      "trashed": 5
+    },
+    "PITX3": {
+      "rescued": 11,
+      "trashed": 13
+    },
+    "PLK4": {
+      "rescued": 5,
+      "trashed": 15
+    },
+    "POC1B": {
+      "rescued": 18,
+      "trashed": 2
+    },
+    "PORCN": {
+      "rescued": 52,
+      "trashed": 0
+    },
+    "PRCD": {
+      "rescued": 40,
+      "trashed": 6
+    },
+    "PROM1": {
+      "rescued": 49,
+      "trashed": 2
+    },
+    "PRPF3": {
+      "rescued": 19,
+      "trashed": 11
+    },
+    "PRPF3, RP9": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "PRPH2": {
+      "rescued": 6,
+      "trashed": 272
+    },
+    "PRR12": {
+      "rescued": 0,
+      "trashed": 7
+    },
+    "PRSS56": {
+      "rescued": 7,
+      "trashed": 0
+    },
+    "PUF60": {
+      "rescued": 9,
+      "trashed": 0
+    },
+    "Peters anomaly": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Posterior segment examination": {
+      "rescued": 22,
+      "trashed": 0
+    },
+    "Pre-Descemet corneal dystrophy": {
+      "rescued": 0,
+      "trashed": 15
+    },
+    "Pupillary physiology": {
+      "rescued": 102,
+      "trashed": 0
+    },
+    "RAB18": {
+      "rescued": 17,
+      "trashed": 5
+    },
+    "RAB28": {
+      "rescued": 24,
+      "trashed": 1
+    },
+    "RAB3GAP1": {
+      "rescued": 26,
+      "trashed": 1
+    },
+    "RAB3GAP2": {
+      "rescued": 17,
+      "trashed": 1
+    },
+    "RARB": {
+      "rescued": 36,
+      "trashed": 3
+    },
+    "RAX": {
+      "rescued": 71,
+      "trashed": 0
+    },
+    "RBP3": {
+      "rescued": 142,
+      "trashed": 16
+    },
+    "RD3": {
+      "rescued": 8,
+      "trashed": 1
+    },
+    "RDH11": {
+      "rescued": 71,
+      "trashed": 2
+    },
+    "RDH11, RDH12, RGR": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "RDH12": {
+      "rescued": 39,
+      "trashed": 1
+    },
+    "RGR": {
+      "rescued": 41,
+      "trashed": 17
+    },
+    "RHO": {
+      "rescued": 65,
+      "trashed": 10
+    },
+    "RLBP1": {
+      "rescued": 71,
+      "trashed": 9
+    },
+    "RNU2-2": {
+      "rescued": 1,
+      "trashed": 22
+    },
+    "RNU4ATAC": {
+      "rescued": 33,
+      "trashed": 1
+    },
+    "ROM1": {
+      "rescued": 33,
+      "trashed": 7
+    },
+    "RP1": {
+      "rescued": 30,
+      "trashed": 0
+    },
+    "RP2": {
+      "rescued": 53,
+      "trashed": 1
+    },
+    "RP9": {
+      "rescued": 41,
+      "trashed": 9
+    },
+    "RPE65": {
+      "rescued": 114,
+      "trashed": 2
+    },
+    "RPGR": {
+      "rescued": 58,
+      "trashed": 1
+    },
+    "RPGRIP1": {
+      "rescued": 20,
+      "trashed": 10
+    },
+    "RPGRIP1L": {
+      "rescued": 84,
+      "trashed": 8
+    },
+    "RS1": {
+      "rescued": 58,
+      "trashed": 10
+    },
+    "Retinal dystrophies": {
+      "rescued": 11,
+      "trashed": 35
+    },
+    "SAG": {
+      "rescued": 16,
+      "trashed": 22
+    },
+    "SEMA4A": {
+      "rescued": 12,
+      "trashed": 2
+    },
+    "SHH": {
+      "rescued": 52,
+      "trashed": 7
+    },
+    "SIX1": {
+      "rescued": 0,
+      "trashed": 8
+    },
+    "SIX6": {
+      "rescued": 55,
+      "trashed": 11
+    },
+    "SLC24A1": {
+      "rescued": 8,
+      "trashed": 21
+    },
+    "SLC24A5": {
+      "rescued": 41,
+      "trashed": 5
+    },
+    "SLC38A8": {
+      "rescued": 13,
+      "trashed": 0
+    },
+    "SLC45A2": {
+      "rescued": 24,
+      "trashed": 5
+    },
+    "SLC4A11": {
+      "rescued": 14,
+      "trashed": 10
+    },
+    "SMARCA2": {
+      "rescued": 17,
+      "trashed": 55
+    },
+    "SMO": {
+      "rescued": 10,
+      "trashed": 3
+    },
+    "SMOC1": {
+      "rescued": 3,
+      "trashed": 1
+    },
+    "SNRNP200": {
+      "rescued": 28,
+      "trashed": 4
+    },
+    "SOX2": {
+      "rescued": 27,
+      "trashed": 20
+    },
+    "SOX2, TENM3": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "SPATA7": {
+      "rescued": 17,
+      "trashed": 6
+    },
+    "STRA6": {
+      "rescued": 28,
+      "trashed": 0
+    },
+    "Schnyder corneal dystrophy": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "Severe early-onset retinal dystrophy": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Specialized functional testing": {
+      "rescued": 161,
+      "trashed": 0
+    },
+    "Specialized functional testing, PDE6H": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Specialized functional testing, Visual physiology, Visual physiology": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Specialized microanatomy": {
+      "rescued": 6,
+      "trashed": 0
+    },
+    "Syndromic albinism": {
+      "rescued": 0,
+      "trashed": 2
+    },
+    "Syndromic congenital cataract": {
+      "rescued": 0,
+      "trashed": 6
+    },
+    "Syndromic ocular developmental anomalies": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "TACSTD2": {
+      "rescued": 15,
+      "trashed": 0
+    },
+    "TBC1D20": {
+      "rescued": 14,
+      "trashed": 6
+    },
+    "TDRD7": {
+      "rescued": 22,
+      "trashed": 7
+    },
+    "TEK": {
+      "rescued": 8,
+      "trashed": 21
+    },
+    "TENM3": {
+      "rescued": 24,
+      "trashed": 3
+    },
+    "TGFBI": {
+      "rescued": 7,
+      "trashed": 17
+    },
+    "TMEM98": {
+      "rescued": 2,
+      "trashed": 0
+    },
+    "TRIM44": {
+      "rescued": 17,
+      "trashed": 1
+    },
+    "TRPM1": {
+      "rescued": 36,
+      "trashed": 1
+    },
+    "TTLL5": {
+      "rescued": 18,
+      "trashed": 0
+    },
+    "TUBGCP4": {
+      "rescued": 45,
+      "trashed": 0
+    },
+    "TULP1": {
+      "rescued": 54,
+      "trashed": 10
+    },
+    "TYR": {
+      "rescued": 114,
+      "trashed": 3
+    },
+    "TYRP1": {
+      "rescued": 12,
+      "trashed": 8
+    },
+    "Transparent media": {
+      "rescued": 101,
+      "trashed": 0
+    },
+    "Transparent media physiology": {
+      "rescued": 23,
+      "trashed": 0
+    },
+    "Transparent media, GJA3, GJA8, MIP": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "Transparent media, MIP": {
+      "rescued": 1,
+      "trashed": 0
+    },
+    "UBIAD1": {
+      "rescued": 3,
+      "trashed": 1
+    },
+    "UNC119": {
+      "rescued": 14,
+      "trashed": 0
+    },
+    "USH1C": {
+      "rescued": 44,
+      "trashed": 6
+    },
+    "USH1G": {
+      "rescued": 61,
+      "trashed": 3
+    },
+    "USH2A": {
+      "rescued": 59,
+      "trashed": 0
+    },
+    "USP45": {
+      "rescued": 2,
+      "trashed": 3
+    },
+    "Usher syndrome": {
+      "rescued": 0,
+      "trashed": 4
+    },
+    "VCAN": {
+      "rescued": 4,
+      "trashed": 3
+    },
+    "VSX2": {
+      "rescued": 61,
+      "trashed": 2
+    },
+    "Vascularization and innervation": {
+      "rescued": 71,
+      "trashed": 1
+    },
+    "Visual function": {
+      "rescued": 81,
+      "trashed": 0
+    },
+    "Visual physiology": {
+      "rescued": 135,
+      "trashed": 0
+    },
+    "Visual physiology, CNGA1": {
+      "rescued": 2,
+      "trashed": 0
+    },
+    "Vitreoretinopathies": {
+      "rescued": 30,
+      "trashed": 0
+    },
+    "WDPCP": {
+      "rescued": 23,
+      "trashed": 0
+    },
+    "WHRN": {
+      "rescued": 43,
+      "trashed": 2
+    },
+    "Wagner vitreoretinopathy": {
+      "rescued": 0,
+      "trashed": 16
+    },
+    "X-linked retinoschisis": {
+      "rescued": 0,
+      "trashed": 3
+    },
+    "YAP1": {
+      "rescued": 8,
+      "trashed": 1
+    },
+    "ZEB1": {
+      "rescued": 6,
+      "trashed": 10
+    },
+    "ZNF408": {
+      "rescued": 18,
+      "trashed": 0
+    },
+    "congenital stationary": {
+      "rescued": 0,
+      "trashed": 6
+    },
+    "gelatinous drop-like": {
+      "rescued": 0,
+      "trashed": 10
+    },
+    "granular": {
+      "rescued": 0,
+      "trashed": 1
+    },
+    "posterior polymorphous": {
+      "rescued": 0,
+      "trashed": 7
+    }
+  },
+  "updated_at": "2026-09-27T04:49:06Z"
 }
