@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T08:00:45Z",
+  "generated_at": "2026-10-04T08:10:38Z",
   "threshold_k": 0,
-  "total_evaluated": 30457,
-  "total_flagged": 503,
+  "total_evaluated": 30680,
+  "total_flagged": 509,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -105,6 +105,7 @@
       "CHD7",
       "CHST6",
       "CLRN1",
+      "COL18A1",
       "COL2A1",
       "COL8A2",
       "CRB1",
@@ -121,7 +122,6 @@
       "GDF6",
       "GJA8",
       "GPR143",
-      "GPR179",
       "GUCY2D",
       "HK1",
       "IFT172",
@@ -173,6 +173,7 @@
       "SPATA7",
       "TEK",
       "TGFBI",
+      "TRIM44",
       "TRPM1",
       "TULP1",
       "TYR",
@@ -970,40 +971,6 @@
       "subcollection": ""
     },
     {
-      "pmid": "20204230",
-      "doi": "10.1590/s0325-00752010000100016",
-      "zotero_key": "V2FA4VP5",
-      "title": "[CHARGE syndrome].",
-      "authors": [
-        [
-          "CJ",
-          "Lobete Prieto"
-        ],
-        [
-          "I",
-          "Llano Rivas"
-        ],
-        [
-          "J",
-          "Fernández Toral"
-        ],
-        [
-          "P",
-          "Madero Barrajón"
-        ]
-      ],
-      "journal": "Archivos argentinos de pediatria",
-      "year": "2010",
-      "abstract": "",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:deep-search"
-      ],
-      "category": "5 - Pathologies",
-      "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
-    },
-    {
       "pmid": "17022586",
       "doi": "",
       "zotero_key": "GU6DACV2",
@@ -1036,6 +1003,40 @@
       ],
       "category": "",
       "subcollection": ""
+    },
+    {
+      "pmid": "20204230",
+      "doi": "10.1590/s0325-00752010000100016",
+      "zotero_key": "V2FA4VP5",
+      "title": "[CHARGE syndrome].",
+      "authors": [
+        [
+          "CJ",
+          "Lobete Prieto"
+        ],
+        [
+          "I",
+          "Llano Rivas"
+        ],
+        [
+          "J",
+          "Fernández Toral"
+        ],
+        [
+          "P",
+          "Madero Barrajón"
+        ]
+      ],
+      "journal": "Archivos argentinos de pediatria",
+      "year": "2010",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Coloboma, Syndromic ocular developmental anomalies"
     },
     {
       "pmid": "40623937",
@@ -3182,6 +3183,36 @@
       ],
       "category": "",
       "subcollection": ""
+    },
+    {
+      "pmid": "35791189",
+      "doi": "10.4103/ijo.ijo_58_22",
+      "zotero_key": "7BUX5SRF",
+      "title": "A rare case of unilateral anterior segment dysgenesis and limb deformity in a neonate",
+      "authors": [
+        [
+          "Meenakshi",
+          "Wadhwani"
+        ],
+        [
+          "Shubhangi",
+          "Kursange"
+        ],
+        [
+          "Mamta",
+          "Jajoo"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2022",
+      "abstract": "A 14-day-old male baby presented to the department of ophthalmology with redness, swelling, and watering in the right eye since birth. Ocular examination of the right eye revealed proptosis and anterior staphyloma with erythema of the upper lid; left-eye examination was unremarkable [Fig. 1a–c]. Computed tomography of orbit revealed enlargement of right globe with anterior protrusion, intact muscle cone, and absence of lens in the right globe [Fig. 1d]. Ultrasound B-scan of the globe revealed absence of lens echo in the right eye without any abnormality in the posterior segment [Fig. 1e, f]. Diagnosis of right-eye anterior staphyloma with congenital aphakia was made. Further systemic examination revealed foot anomaly with amputation defect, high arched palate, and hyperbilirubinemia (serum bilirubin: 24.8 mg/dL). Family history revealed that the child was delivered through cesarean section, out of a third-degree consanguineous marriage. Mother had seropositivity for human cytomegalovirus (HCV) in the postnatal period. There was a history of death of elder sibling 1 year back at birth. Further pedigree analysis excluded similar presentation in the family members on the maternal and paternal sides. Conservative management was done in the form of topical antiglaucoma and antibiotics. The grave visual prognosis of the right eye and the need for surgical intervention in the form of enucleation was explained to parents. The child was referred to a pediatrician for systemic stabilization. The child was lost to follow-up after the initial check-up.Figure 1: a) Anterior staphyloma right eye; b) Proptosis of the right eye with erythematous upper lid skin; c) High arched palate; d) Foot anomaly; e) CT orbit image showing normal bony structures with intact muscle cone with enlargement of the right eyeball, with the absence of lens; f) USG image of the right eye showing intact retina – choroid complex, absent lens echoDiscussion The presentation of this unilateral anterior segment dysgenesis is known to be associated with anomalies of antenatal HCV infection. This is a rare case of congenital anterior staphyloma with unilateral congenital aphakia. Variable presentations of anterior segment dysgenesis usually have a poor prognosis. The presence of such congenital anomalies indicates the importance of genetic analysis in the antenatal and postnatal periods along with proper counseling of parents to explain the impact of timely management of such disorders. Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. Financial support and sponsorship Nil. Conflicts of interest There are no conflicts of interest.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TRIM44"
     },
     {
       "pmid": "",
@@ -9246,6 +9277,40 @@
       "subcollection": "ARR3"
     },
     {
+      "pmid": "39567705",
+      "doi": "10.1038/s41433-024-03481-8",
+      "zotero_key": "KEBQ8SV8",
+      "title": "Eyes on Google’s NotebookLM: using generative AI to create ophthalmology podcasts with a single click",
+      "authors": [
+        [
+          "Qais A.",
+          "Dihan"
+        ],
+        [
+          "Bharti R.",
+          "Nihalani"
+        ],
+        [
+          "Andrea A.",
+          "Tooley"
+        ],
+        [
+          "Abdelrahman M.",
+          "Elhusseiny"
+        ]
+      ],
+      "journal": "Eye",
+      "year": "2024",
+      "abstract": "",
+      "cited_by_count": 18,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL18A1"
+    },
+    {
       "pmid": "14136828",
       "doi": "",
       "zotero_key": "S84IS2HE",
@@ -10180,6 +10245,72 @@
       "subcollection": "PRR12"
     },
     {
+      "pmid": "16123401",
+      "doi": "10.1167/iovs.05-0111",
+      "zotero_key": "VV58JDFT",
+      "title": "Genotyping Microarray (Disease Chip) for Leber Congenital Amaurosis: Detection of Modifier Alleles",
+      "authors": [
+        [
+          "Jana",
+          "Zernant"
+        ],
+        [
+          "Maigi",
+          "Ku¨lm"
+        ],
+        [
+          "Sharola",
+          "Dharmaraj"
+        ],
+        [
+          "Anneke I. den",
+          "Hollander"
+        ],
+        [
+          "Isabelle",
+          "Perrault"
+        ],
+        [
+          "Markus N.",
+          "Preising"
+        ],
+        [
+          "Birgit",
+          "Lorenz"
+        ],
+        [
+          "Josseline",
+          "Kaplan"
+        ],
+        [
+          "Frans P. M.",
+          "Cremers"
+        ],
+        [
+          "Irene",
+          "Maumenee"
+        ],
+        [
+          "Robert K.",
+          "Koenekoop"
+        ],
+        [
+          "Rando",
+          "Allikmets"
+        ]
+      ],
+      "journal": "Investigative Ophthalmology & Visual Science",
+      "year": "2005",
+      "abstract": "PURPOSE: Leber congenital amaurosis (LCA) is an early-onset inherited disorder of childhood blindness characterized by visual impairment noted soon after birth. Variants in at least six genes (AIPL1, CRB1, CRX, GUCY2D, RPE65, and RPGRIP1) have been associated with a diagnosis consistent with LCA or early-onset retinitis pigmentosa (RP). Genetically heterogeneous inheritance complicates the analyses of LCA cases, especially in patients without a family history of the disorder, and conventional methods are of limited value. METHODS: To overcome these limitations, arrayed primer extension (APEX) technology was used to design a genotyping microarray for early-onset, severe retinal degenerations that includes all of the >300 disease-associated variants currently described in eight genes (in addition to the six just listed, the early-onset RP genes LRAT and MERTK were added). The resultant LCA array allows simultaneous detection of all known disease-associated alleles in any patient with early-onset RP. The array was validated by screening 93 confirmed patients with LCA who had known mutations. Subsequently, 205 novel LCA cases were screened on the array, followed by segregation analyses in families, if applicable. RESULTS: The microarray was >99% effective in determining the existing genetic variation and yielded at least one disease-associated allele in approximately one third of the novel patients. More than two (expected) variants were discovered in a substantial fraction (22/300) of the patients, suggesting a modifier effect from more than one gene. In support of the latter hypothesis, the third allele segregated with a more severe disease phenotype in at least five families. CONCLUSIONS: The LCA genotyping microarray is a robust and cost-effective screening tool, representing the prototype of a disease chip for genotyping patients with a genetically heterogeneous condition. Simultaneous screening for all known LCA-associated variants in large LCA cohorts allows systematic detection and analysis of genetic variation, facilitating prospective diagnosis and ultimately predicting disease progression.",
+      "cited_by_count": 178,
+      "centrality": 0,
+      "source_tags": [
+        "source:citation"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CRB1"
+    },
+    {
       "pmid": "42507518",
       "doi": "10.4103/ijo.ijo_3349_25",
       "zotero_key": "6DGNE7ZZ",
@@ -10762,6 +10893,36 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42793940",
+      "doi": "10.3390/e28091028",
+      "zotero_key": "4CBP6BTF",
+      "title": "Hulls of Non-Separable Constacyclic Codes over FqR and Their Applications in Constructing New QECCs",
+      "authors": [
+        [
+          "Xiying",
+          "Zheng"
+        ],
+        [
+          "Bo Hyun",
+          "Kong"
+        ],
+        [
+          "Enbin",
+          "Zhang"
+        ]
+      ],
+      "journal": "Entropy",
+      "year": "2026",
+      "abstract": "Let R=Fq[u1,u2,u3]/⟨ui2=ui,uiuj=ujui=0⟩ and FqR={(a,d)|a∈Fq,d∈R}, where q=pm, p is a prime, and m∈N+. We investigate the algebraic structure of the non-separable constacyclic codes over the mixed-alphabet ring FqR and then determine the generator polynomials and the dimensions of their hulls. As an application, using the construction X, we obtain some new quantum error-correcting codes that are not listed in the online quantum codes database.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
     },
     {
       "pmid": "41729106",
@@ -12908,6 +13069,52 @@
       ],
       "category": "",
       "subcollection": ""
+    },
+    {
+      "pmid": "40854686",
+      "doi": "10.3174/ajnr.a8984",
+      "zotero_key": "E5QMC98E",
+      "title": "Mapping Regional Brain Total Sodium Concentration Using Anatomically Guided Reconstruction of Dual-Echo Sodium-23 MRI: Moving toward Improved Accuracy and Precision",
+      "authors": [
+        [
+          "Alaleh",
+          "Alivar"
+        ],
+        [
+          "Georg A.K.",
+          "Schramm"
+        ],
+        [
+          "Yongxian",
+          "Qian"
+        ],
+        [
+          "Hugo",
+          "Lefer"
+        ],
+        [
+          "Johan L.",
+          "Nuyts"
+        ],
+        [
+          "Fernando E.",
+          "Boada"
+        ],
+        [
+          "Yvonne W.",
+          "Lui"
+        ]
+      ],
+      "journal": "American Journal of Neuroradiology",
+      "year": "2025",
+      "abstract": "ABSTRACT BACKGROUND AND PURPOSE: Sodium (23Na) MRI provides unique information about ionic homeostasis in the brain. However, in vivo quantification of regional brain sodium is highly challenging due to low SNR and limited spatial resolution. Here, we employ our novel anatomically guided reconstruction (AGR) method to overcome these challenges and enable precise quantification of regional brain total sodium concentration (TSC). MATERIALS AND METHODS: Thirty-four healthy subjects were studied using a 3T clinical MRI scanner with a dual-tuned (1H-23Na) birdcage coil. Sodium images were acquired using a TPI sequence (TR=100ms, TE1/TE2=0.5/5ms), while proton (1H) images were obtained with a standard T1w MPRAGE sequence. AGR was performed with regularization parameters βr =0.67, 2.0, and 6.0. As a baseline comparison, standard reconstruction (SR) was also performed using a re-gridding algorithm with compensation for nonuniform sampling. To assess partial volume effects (PVE) on the reconstruction methods, an erosion experiment was conducted. Internal linear calibration using noise-only background and vitreous humor regions was applied to calculate TSC in ROIs including lobar cortical gray matter (GM), subcortical (including hippocampus, caudate, pallidum, putamen and thalamus), callosal, and whole brain white matter (WM). Bonferroni-corrected pairwise comparison was performed using MANOVA at a significance level P < 0.05. RESULTS: The WM erosion experiments confirmed that TSCAGR was stabilized beyond one voxel erosion in the WM, but TSCSR was decreasing with erosion increasing, showing a reduced PVE in the AGR images. AGR also shows greater separation in TSC between GM and WM compared with SR (GM TSCSR=49.2±4.6mMol/L, WM TSCSR=38.1±3.0mMol/L; GM TSCAGR= 48.6±4.9mMol/L, WM TSCAGR=30.5±2.8mMol/L). We also found smaller variance of TSCAGR in WM and GMsubcortical compared with TSCSR. CONCLUSIONS: The AGR helps sodium quantification in healthy human brains by reducing the partial volume effect and variance of TSC in non-cortical brain regions. Our normative values of TSC in the brain regions set the stage to better understand derangements of sodium metabolism and homeostasis in neurological disease. ABBREVIATIONS: AGR＝ anatomically-guided reconstruction; SR= Standard reconstruction; 23Na= sodium-23; Na+/K+ − ATPase= sodium-potassium pump; PVC= partial volume correction; PVE= partial volume effect; TSC= total sodium concentration; VH= vitreous humor",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "40810225",
@@ -16916,44 +17123,6 @@
       "subcollection": ""
     },
     {
-      "pmid": "42446836",
-      "doi": "10.1186/s40510-026-00638-x",
-      "zotero_key": "7DWFMJZH",
-      "title": "Relationship between root formation progress of adjacent teeth and external root resorption associated with impacted maxillary canines: a retrospective cross-sectional CBCT study",
-      "authors": [
-        [
-          "Yukari",
-          "Mizoguchi"
-        ],
-        [
-          "Yuji",
-          "Ishida"
-        ],
-        [
-          "Aiko",
-          "Ishizaki-Terauchi"
-        ],
-        [
-          "Chiyo",
-          "Shimizu-Tomoda"
-        ],
-        [
-          "Takashi",
-          "Ono"
-        ]
-      ],
-      "journal": "Progress in Orthodontics",
-      "year": "2026",
-      "abstract": "BACKGROUND: This study aimed to clarify the involvement of the root formation stage and apical foramen diameter (AFD) of adjacent teeth in the occurrence of external root resorption (ERR) associated with impacted maxillary canines (IMCs), and to identify novel risk indicators for more accurate clinical prediction. METHODS: Forty patients with IMCs (58 canines) who underwent cone-beam computed tomography (CBCT) between May 2017 and October 2022 were retrospectively analyzed. The developmental status was assessed using the root formation stage and AFD of the central incisor (U1), lateral incisor (U2), and first premolar (U4). Additionally, spatial factors, including inter-root distance and the 3D position of the IMC, were evaluated in relation to ERR. RESULTS: ERR was detected in 72.5% of patients, affecting 37.1% of all examined adjacent teeth. Among the affected teeth, U2 showed the highest incidence (65.3%), followed by U1 (28.6%) and U4 (6.1%). In exploratory tooth-level comparisons, AFD was smaller in the ERR group for U1 and U4. In the supplementary affected-side-level mixed-effects analysis, no statistically significant independent association was demonstrated between maximum AFD and side-level ERR occurrence. CONCLUSIONS: Developmental indicators, including AFD, may provide clinically relevant information when assessing ERR associated with IMCs. These indicators should be interpreted as potential modifying factors in conjunction with established spatial relationships rather than as independent predictive markers.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "RNU2-2"
-    },
-    {
       "pmid": "40588277",
       "doi": "10.1542/pir.2024-006386",
       "zotero_key": "KPDNQVRK",
@@ -17237,36 +17406,6 @@
       ],
       "category": "3 - Physiology",
       "subcollection": "Vieillissement oculaire"
-    },
-    {
-      "pmid": "12824633",
-      "doi": "10.1385/1-59259-393-3:205",
-      "zotero_key": "8A8U5TA5",
-      "title": "Retinal Tissue",
-      "authors": [
-        [
-          "Trevor J.",
-          "McFarland"
-        ],
-        [
-          "Binoy",
-          "Appukuttan"
-        ],
-        [
-          "J. Timothy",
-          "Stout"
-        ]
-      ],
-      "journal": "Humana Press eBooks",
-      "year": "2003",
-      "abstract": "Mutations within genes that are specifically expressed within the retina and/or the retinal pigment epithelium (RPE) are associated with the majority of inherited retinal degenerations (1). Retinal degenerative disorders are highly heterogeneous, both genetically and phenotypically (2). Different mutations within a single gene (such as rhodopsin) can not only result in different modes of inheritance (autosomal dominant as well as recessive) of the same disease (retinitis pigmentosa), but can also result in different retinal disease (congenital stationary night blindness (CSNB) (3). Numerous mutations within the rhodopsin gene and mutations within other genes in the phototransduction pathway have been detected in patients with retinitis pigmentosa (RP), a progressive degenerative disease that leads to death of rod photoreceptors and results in loss of vision. To date, 41 forms of RP, autosomal dominant, recessive, or X-linked, have been mapped, and 21 genes have so far been identified that carry mutations responsible for the disease process (4,5). Many retinal degenerative diseases are caused by mutations within genes that are involved in the phototransduction pathway or are key structural components of the outer segments of photoreceptors and are thereby expressed exclusively in photoreceptor cells. However, when altered, genes for RPE65, RPE-retinal G protein-coupled receptor (RGR), cellular retinaldehyde-binding protein (CRALBP), and Best macular dystrophy (VMD2), which are expressed in the RPE and not in rod photoreceptors, can also cause similar retinal dysfunction.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "GPR179"
     },
     {
       "pmid": "41996228",
@@ -18527,6 +18666,36 @@
       "subcollection": "Posterior segment examination"
     },
     {
+      "pmid": "42778164",
+      "doi": "10.1071/hc26149",
+      "zotero_key": "E9SP5BS3",
+      "title": "Spatial access to CT scanners: a rural–urban comparison in the Southern and Te Manawa Taki regions of New Zealand",
+      "authors": [
+        [
+          "Hannah",
+          "Dawson"
+        ],
+        [
+          "Jesse",
+          "Whitehead"
+        ],
+        [
+          "Rory",
+          "Miller"
+        ]
+      ],
+      "journal": "Journal of Primary Health Care",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Computed tomography (CT) is available to few rural communities in Aotearoa New Zealand (NZ). Obtaining CT imaging is a common reason rural patients are transferred to urban hospitals. AIM: This study aimed to quantify rural-urban differences in spatial access to CT in the Southern and Te Manawa Taki regions of NZ and examine the impact of a theoretical investment in rural CT scanners. METHODS: The resident population of each region was estimated using 2023 census data. The population living within a 60 min drive to a CT scanner was estimated using a drive time matrix. Subgroup analyses were performed by rurality, ethnicity, and socioeconomic status. Investment scenarios placed CT scanners in selected rural hospitals, and the impact on population-level access was measured. RESULTS: In both regions, 100% of urban residents (U1 and U2) lived within 60 min of a CT scanner; however, only 25.8 and 1.2% of residents in the most rural (R3) areas of Southern and Te Manawa Taki respectively were within this range. Theoretical investment in CT scanners in rural hospitals may extend timely access to an additional 9465 to 17,784 rural people per scanner. DISCUSSION: In both regions, rural populations, as well as Māori and those living in areas of high socioeconomic deprivation in Te Manawa Taki, faced inequitable access to CT services. Investment in rural CT scanners may substantially reduce rural-urban disparities in CT accessibility and aligns with NZ's Rural Health Strategy of providing care 'closer to home.'",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "",
       "doi": "10.1159/000477257",
       "zotero_key": "GUX46E4E",
@@ -18987,6 +19156,94 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARID1B"
+    },
+    {
+      "pmid": "42327941",
+      "doi": "10.1021/acsnanoscienceau.5c00188",
+      "zotero_key": "QPEDHWPW",
+      "title": "Structural Complexity from Consecutive Postsynthetic Transformations: The Site-Specificity of Sequential Tellurium Anion and Cadmium Cation Exchange on Roxbyite Copper Sulfide Nanoparticles",
+      "authors": [
+        [
+          "Cat Tuong Nguyen",
+          "Dinh"
+        ],
+        [
+          "Clarisse",
+          "Doligon"
+        ],
+        [
+          "Noah",
+          "Ehrenberg"
+        ],
+        [
+          "Eli",
+          "Rudman"
+        ],
+        [
+          "Holden",
+          "Brown"
+        ],
+        [
+          "Alaina",
+          "Konicki"
+        ],
+        [
+          "Chul-Hyun",
+          "Jeong"
+        ],
+        [
+          "Qi",
+          "Luo"
+        ],
+        [
+          "Raymond E.",
+          "Schaak"
+        ],
+        [
+          "Katherine E.",
+          "Plass"
+        ]
+      ],
+      "journal": "ACS Nanoscience Au",
+      "year": "2026",
+      "abstract": "Abstract A crucial tool in the design of multicomponent nanoheterostructures is the ability to carry out reactions with site-specificity. Here, we examine the interplay of two site-specific postsynthetic transformations─tellurium anion exchange followed by cadmium cation exchange on Cu2-xS nanorods─to reveal how, together, they create numerous new nanoheterostructures with various interfaces and chemical components. By varying the temperature of the initial exchange, we obtained Cu2-xS/Cu2-xTe structures with varying numbers of Cu2-x Scores and thicknesses of Cu2-xTe shells. We then subjected these Cu2-xS/Cu2-xTe nanoheterostructures to either low- or high-temperature cadmium exchange. While many different factors dictating the position of cation exchange have been identified, here we find that differences in the ease of ion diffusion through Cu2-xS and Cu2-xTe direct the incoming Cd2+ toward reaction with Cu2-xS. This straightforward site preference for cation exchange, coupled with the ability to modulate the extent of tellurium and cadmium exchange, is used to create several distinctive nanostructure patterns. In particular, we demonstrate that the regioselectivity of Te2– anion exchange on Cu2-xS nanorods can be leveraged to produce distinct templates for cation exchange, resulting in a library of nontrivial nanoheterostructures. The demonstration of such a variety of different copper/cadmium chalcogenide structures shows that consecutive anion and cation exchanges offer new routes to novel materials.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
+    },
+    {
+      "pmid": "42814012",
+      "doi": "10.1097/iae.0000000000005024",
+      "zotero_key": "5NA5MIWV",
+      "title": "Structure–Function Relationships in Retinitis Pigmentosa: Three-Year Changes in Visual Function and Outer Retinal Layers",
+      "authors": [
+        [
+          "Min‐Woo",
+          "Lee"
+        ],
+        [
+          "Yun-Sang",
+          "Roh"
+        ],
+        [
+          "Sung-Chul",
+          "Lee"
+        ]
+      ],
+      "journal": "Retina",
+      "year": "2026",
+      "abstract": "PURPOSE: To characterize longitudinal changes in outer retinal layers in retinitis pigmentosa (RP) and to determine how these structural alterations relate to functional decline, including visual field parameters and visual acuity. METHODS: In this retrospective cohort study, 57 eyes with RP were evaluated over a fixed 3-year follow-up. Annual measurements of ellipsoid zone width (EZW), outer nuclear layer (ONL) thickness, and outer segment (OS) thickness were obtained from horizontal foveal OCT scans. Functional assessments included best-corrected visual acuity (BCVA) and visual field index (VFI), mean deviation (MD), and pattern standard deviation (PSD). Linear mixed-effects models were used to estimate longitudinal rates of change and structure-function associations. RESULTS: All visual field parameters significantly declined over time (VFI: -2.06%/year; MD and PSD both P < 0.050). Structural parameters also demonstrated progressive deterioration (EZW: -2.7%/year, P < 0.001; ONL: -1.82 µm/year, P = 0.038; OS: -1.25 µm/year, P = 0.006). Among structural measures, EZW demonstrated the strongest association with VFI (P < 0.001), while OS thickness showed the closest relationship with BCVA (P = 0.002). ONL thinning was significant but showed limited functional correlation. CONCLUSIONS: Distinct outer retinal biomarkers were differentially associated with functional measures in RP. Repeated EZW measurements were most strongly associated with VFI, whereas repeated OS thickness measurements were most closely associated with BCVA. ONL shows measurable structural loss but limited functional relevance. Multilayer structural assessment provides complementary information on RP progression and may help refine future clinical evaluation strategies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "40384764",
@@ -20619,6 +20876,44 @@
       "subcollection": "Knobloch syndrome"
     },
     {
+      "pmid": "36872662",
+      "doi": "10.4103/ijo.ijo_445_23",
+      "zotero_key": "7U7C4EPF",
+      "title": "Through the prism of inspiration – Dr. P. Vijayalakshmi",
+      "authors": [
+        [
+          "Rolika",
+          "Bansal"
+        ],
+        [
+          "R Usha",
+          "Kim"
+        ],
+        [
+          "Sahithya",
+          "Bhaskaran"
+        ],
+        [
+          "Bruce E.",
+          "Spivey"
+        ],
+        [
+          "Santosh G",
+          "Honavar"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2023",
+      "abstract": "“Try to be a rainbow in someone else’s cloud.” – Maya Angelou In 1672, Sir Issac Newton explained the optical phenomena of reflection, refraction, and dispersion and labeled the seven colours while dividing the spectrum of light. In 1950, was born a phenomenal woman who has a spectrum of qualities, dares to dream, stretches beyond horizons with diversified thinking, and has added colors to numerous lives. Here is the inspiring life story of one of the legendary women in ophthalmology who contributed toward changing the face of pediatric ophthalmology in India and worldwide. Youngest of the five children of her proud parents [Fig. 1], she finished schooling in her native village and later studied at Fatima College, Madurai tentatively. Destiny took her to join the medical college at Madurai. She considers Dr. Govindappa Venkataswamy (Dr. V), Dr. G. Natchiar, and Dr. Namperumalsamy (her elder brother) as the kind designers of her destiny. She then joined as a senior resident in a government hospital. In the evenings, she used to work at Dr. V’s clinic in Naicker New Street, in the outpatient department performing preliminary examinations, investigations, and refractions. Based on her newly developed interest, she pursued postgraduation in ophthalmology. She married Dr. M. Srinivasan in 1975 [Fig. 2]. After finishing her postgraduation, Dr. P. Vijayalakshmi joined as a resident medical officer of Aravind Eye Hospital (AEH) in 1976.[1] Mentored by Dr. V, she had a comprehensive training including assisting Dr. V as a nurse and working 10–12 hours a day. Dr. V imparted his wealth of knowledge and experience.Figure 1: Proud parents of Dr. P. VijayalakshmiFigure 2: Dr. M. Srinivasan and Dr. P. Vijayalakshmi as pillars of strength for each other (a) since 1975; (b) till date and foreverDr. P. Vijayalakshmi pursued her fellowship in pediatric ophthalmology and strabismus in 1982 at the University of Illinois, Chicago, under the kind guidance of Dr. Marilyn Miller [Fig. 3]. This marked the beginning of a new dawn, a new hope for the rise of pediatric ophthalmology in India. After returning, in 1983, she established, the leadoff department of pediatric ophthalmology and strabismus at AEH, Madurai. She collaborated with nongovernmental organizations and provided a helping hand to the school-going children and the children enrolled in Anganwadis, in the region around AEH. Indeed, it took a lot of strength and courage to build a powerful department, which has been able to provide eye care services to 85,000 children and nearly 2000 sight-restoring surgeries every year, with deep affection and love for their patients.Figure 3: Dr. P. Vijayalakshmi (extreme right), with her mentors – Dr. Govindappa Venkataswamy (left) and Dr. Marilyn T. Miller (center)“A very loving and affectionate mentor; and the pioneer to kickstart a composite Pediatric Ophthalmology fellowship in India, providing a comprehensive training in one program.” – Dr. Pradeep Sharma Dr. P. Vijayalakshmi’s thoughtfulness and consideration led to the birth of a fellowship program in the subspeciality in 1990, offering an 18 months’ training, and she has bequeathed her knowledge upon approximately 137 fellows till date, which included national and international ophthalmologists [Fig. 4]. She also trained several allied personnel in the field. “Viji ma’am (as the whole world addresses her) honed my skills, improved my confidence and showed me by example that it is possible to do world class work with limited resources. What I didn’t learn though was how to wear a simple elegant cotton saree and keep it crease free from morning 7 am to evening 7 pm.,” shares Dr. Sumita Agarkar. Viji ma’am, with her optimistic approach toward her students, has been a woman of few words, who is deeply loved and revered by her fellows. She passed on leadership traits, multitasking skills, and the essence of time management to her students, along with maintaining a balance between work and family. She taught women, in particular, to be team leaders in their own right confidently without being aggressive.Figure 4: Geographic distribution of her trainees over India (a) and worldwide (b)“Dr. P. Vijayalakshmi is not only a versatile squint surgeon but also a great speaker and a comrade in our specialty.” – Dr. T. S. Surendran Dr. P. Vijayalakshmi added sunshine to the pediatric ophthalmology world by contributing her intellect and by carrying out several clinical and epidemiological research projects which included population case surveillance for congenital rubella syndrome (carried out in collaboration with the Indian Council of Medical Research [ICMR] and World Health Organization [WHO]) and molecular studies on congenital cataract, globe anomalies, aniridia, Leber’s congenital amaurosis, retinitis pigmentosa, and oculocutaneous albinism through the Aravind Medical Research Foundation (AMRF). She has more than 125 publications to her credit and has authored chapters for eight books apart from her practical guides for pediatricians and orthoptists.[1] She also collaborated with several international premier foundations like Public Health Laboratory London, International Eye Foundation, Pan American Health Organization (PAHO), United States Agency for International Development (USAID), Orbis,[2] International Council of Ophthalmology (ICO), and Queen Elizabeth Diamond Jubilee Trust (QEDJT). “Mere hard work, which is dedicated to the service of humanity, without expectations, will bring more happiness and peace in the later years of life.” – P. Vijayalakshmi In 2014, she had the foresight to expand her low vision program to include kids with periventricular leukomalacia and cerebral visual impairment (CVI). Dr. Linda Lawrence, who in 2015 worked with Dr. P. Vijayalakshmi (through USAID), adds that, “The early intervention program for the assessment and intervention of CVI, gained its own place in the low vision centre and has served as the ideal model across Aravind Eye Care System (AECS) and beyond.” The sunset in the lives of the children affected by CVI and autism was converted into a beautiful sunrise by her ability to identify the difficulties faced by these children [Fig. 5] and their families, along with development of several interventional programs.Figure 5: (a) Dr. P. Vijayalakshmi with Joyce Mein, Principal, Orthoptics School, Leeds London, UK, learning the art of holding prisms right; (b) Viji ma’am examining and interacting with her lovable patient“Vision rehabilitation does not cure or restore lost sight. But good care and therapy makes these children with no or negligible vision come alive,” believes Dr. P. Vijalylakshmi.[3] Her efforts put pediatric eye care high on the health-care map by pledging a comprehensive and holistic approach to treating the children for all ocular disorders. Dr. P. Vijayalakshmi took pediatric eye care beyond the hospital-based care. She pioneered the model of screening school children with the help of school teachers followed by vision technicians. She created a unique model on refractive errors among school-going children, in collaboration with Orbis International, based on service and research which, in 3 years, screened 4,00,000 children and provided 14,000 spectacles. The model was developed with the motive of attaining sustainability without any funding agency. Dr. P. Vijayalakshmi and her multidimensional personality truly deserved to receive a long list of accolades including the Lifetime Achievement Award at the Sadguru Conclave Meet in 2016, from the Strabismus and Pediatric Ophthalmological Society of India (SPOSI) in 2017, and by the Tamil Nadu Ophthalmological Association in 2022. She has also been awarded the Dr. Ishwar Chandra oration award in 2003, Dr. D. Sundareswaran Endowment oration award in 2003, Dr. K. Subramanian oration award in 2007, Dr. Joseph Gnanathickam oration award in 2009, Dr. Kalidas Bhattacharya Memorial Award in 2010, and the TACO oration award in 2016. Dr. P. Vijayalakshmi recognized the darkness in the lives of her patients and established a world-class vision rehabilitation center for undertaking functional vision assessments and early intervention programs. She is also one of the core group members under pediatric low vision rehabilitation committee of the American Association of Pediatric Ophthalmology and Strabismus (AAPOS). She also interconnected nutritional health to treat blindness due to vitamin A deficiency. She improved retinopathy of prematurity (ROP) screening by creating a network with the neonatal intensive care units, and therefore screened approximately 1510 neonates. In the past decade, she researched in depth on inherited eye diseases, helped in carrying out diagnosis in vivo, and provided genetic counseling and gene therapy. While her list of achievements is long, she has maintained her humility and grace, and stays grounded, dwelling in focused calm with no egoistic element. A devoted daughter, an ideal wife, a marvelous mother, a meticulous surgeon, a knowledgeable teacher, and an encouraging soul who has nurtured pediatric ophthalmology like a mother, Dr. P. Vijayalakshmi is courageous and enjoys her journey fearlessly while being completely immersed in service. A positive mindset like hers manifests unimaginable visions while appreciating the ebb and flow of life, along the way. A little beam of sunshine, a subtle petrichor of fresh rain, a drizzle of raindrops, and a spectator ready to be inspired, all the elements are required to appreciate the hidden scenic beauty of a rainbow. We thank her for her contributions and for adding colors of joy and positivity through her “prism of inspiration.”",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TRIM44"
+    },
+    {
       "pmid": "",
       "doi": "10.1097/icu.0000000000000093",
       "zotero_key": "53GHZB9U",
@@ -20779,52 +21074,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "EYS"
-    },
-    {
-      "pmid": "22300298",
-      "doi": "10.1111/j.1939-1676.2011.00865.x",
-      "zotero_key": "GQTQ9MKD",
-      "title": "Treatment of Ivermectin Overdose in a Miniature Shetland Pony Using Intravenous Administration of a Lipid Emulsion",
-      "authors": [
-        [
-          "H.",
-          "Bruenisholz"
-        ],
-        [
-          "J.",
-          "Küpper"
-        ],
-        [
-          "Cedric",
-          "Muentener"
-        ],
-        [
-          "Annika M.",
-          "Dally"
-        ],
-        [
-          "Thomas",
-          "Kræmer"
-        ],
-        [
-          "Hanspeter",
-          "Naegeli"
-        ],
-        [
-          "Colin C.",
-          "Schwarzwald"
-        ]
-      ],
-      "journal": "Journal of Veterinary Internal Medicine",
-      "year": "2012",
-      "abstract": "An 11-month-old miniature Shetland Pony colt weighing 26 kg was presented to the University of Zurich Equine Hospital for evaluation of acute onset of generalized seizures, followed by unconsciousness and recumbency, 34 hours after a massive (>25-fold) overdose of deworming paste1 (140 mg ivermectin and 1.05 g praziquantel). Instead of the labeled quantities of 0.2 mg ivermectin/kg and 1.5 mg praziquantel/kg, the foal had received the entire tube, equivalent to 5.4 mg ivermectin/kg and 40.4 mg praziquantel/kg. At presentation, the colt was in a stuporous condition but responded to pain stimuli including jugular venous catheter placement. Heart rate was 26/min, respiratory rate was 20/min, and rectal temperature was 34.5°C (94.1°F). The peripheral pulses were very weak and not detectable by palpation at all superficial arteries. Both jugular veins were poorly filled and capillary refill time was prolonged at approximately 3 seconds. The distal limbs and ears were cold to the touch. Palpebral and pupillary reflexes as well as menace responses were absent. In contrast, the corneal reflex was preserved and both eyes showed spontaneous horizontal nystagmus. Muscular tone of the tongue was decreased, whereas the anal reflex appeared normal. The clinical signs were most consistent with ivermectin intoxication. Ivermectin overdoses trigger severe neurologic signs by opening γ-aminobutyric acid (GABA)-gated chloride channels, which in turn causes membrane hyperpolarization and blockade of neuronal impulses.1, 2 In adult horses, no signs of intoxication are observed up to an ivermectin dosage of 1.8 mg/kg, whereas ingestion of 2 mg/kg has been shown to cause lethargy, ataxia, and visual impairment.1 The praziquantel overdose was considered less relevant in this foal, because praziquantel has a wide margin of safety, and the present exposure would result in only mild neurological and gastrointestinal signs.1 Analyses of blood samples at admission identified a low blood glucose concentration2 (3.4 mmol/L; normal, 3.6–6.1 mmol/L), normal plasma protein concentration3 (70 g/L; normal, 57–80 g/L) with low albumin3 (11 g/L; normal, 22–37 g/L) and increased globulin3 concentrations (59 g/L; normal, 27–50 g/L), a total bilirubin concentration3 of 9 μmol/L (normal, 9–39 μmol/L), increased γ-glutamyl transferase activity3 (GGT, 53 IU/L; normal, 5–24 IU/L), and low total calcium concentration3 (2.40 mmol/L; normal, 2.88–3.55 mmol/L). Blood urea nitrogen and creatinine concentrations, as well as plasma sodium, potassium, and chloride concentrations,3 were within reference ranges. The blood lactate concentration4 was 2.3 mmol/L (normal, <3 mmol/L). A CBC5 disclosed normocytic, normochromic anemia (hematocrit, 19.3%; normal, 30–42%; hemoglobin concentration, 7.0 g/dL; normal, 10.8–14.9 g/dL) with increased white blood cell count (WBC, 11.2 × 103/μL; normal, 4.7–8.2 × 103/μL). Treatment was initiated with warmed lactated Ringer's solution (LRS)6 supplemented with glucose7 to a concentration of 2.5%, administered through a jugular venous catheter at a rate of 60 mL/kg/h. After 10 minutes, the blood glucose concentration had reached 8.3 mmol/L and treatment was continued with LRS without glucose at the same rate. After 1 hour, the fluid was changed to a maintenance crystalloid solution8 containing 1.5% glucose and the infusion rate was decreased to 4 mL/kg/h. By that time, peripheral pulse quality, jugular vein filling, and capillary refill time had improved, and the patient urinated. The colt was placed under a heat lamp, on a forced-air heating blanket, and the extremities were bandaged. To improve ventilation and oxygenation of arterial blood, the colt was kept in sternal recumbency and supplemented with 6 L/min humidified oxygen via nasal insufflation. Based on its benefical effects in a previous moxidectin overdose in a foal,3 the partial inverse benzodiazepine receptor agonist sarmazenil9 was administered at a dosage of 0.04 mg/kg IV q2h, in an attempt to antagonize the effect of ivermectin on GABA receptors. Despite treatment, the colt remained stuporous 12 hours after admission. The heart rate had increased to 48/min, the respiratory rate was 18/min, and the rectal temperature had increased to 37.0°C (98.6°F). Venous blood gas analysis10 yielded a pH of 7.40 (normal, 7.34–7.43), a PvCO2 of 50 mmHg (normal, 38–48 mmHg), a PvO2 of 38 mmHg (normal, 37–56 mmHg), a HCO3− concentration of 28.7 mmol/L (normal, 22–29 mmol/L), and a base excess of 3.7 mmol/L (normal, 0–6 mmol/L). The blood glucose2 and lactate4 concentrations were 7.6 and 4.5 mmol/L, respectively. Over time, blood lactate concentration increased, reached a peak of 7.5 mmol/L about 17 hours after admission, and decreased continuously thereafter to reach concentrations below 3 mmol/L 28 hours after admission. After initial treatment, blood glucose concentration remained between 5.1 and 7.6 mmol/L over the first 24 hours after admission. Twenty-four hours after admission, the colt still was recumbent and unconscious. No improvement of its neurologic status was evident. A CBC11 now yielded a WBC of 16.4 × 103/μL with 79.5% segmented neutrophils, 0.5% monocytes, and 20.0% lymphocytes. On plasma biochemistry analysis,12 the GGT activity was 50 U/L (normal, 6–31 U/L), the glutamate dehydrogenase activity 18.1 U/L (normal, 0.5–2.2 U/L), the lactate dehydrogenase activity 1053 IU/L (normal, 369–822 IU/L), the sorbitol dehydrogenase activity 133.4 IU/L (normal, 0.1–7.6 IU/L), and the bile acid concentration 19.1 μmol/L (normal, 5–15 μmol/L). All other variables were similar to those observed at admission. Venous blood gas analysis still was unremarkable. Blood lactate4 and glucose2 concentrations were 2.0 and 5.8 mmol/L, respectively. A broad-spectrum antibiotic (cefquinome,13 1 mg/kg q12h) and flunixin meglumine14 (2.2 mg/kg q12h) were added to the therapeutic regimen. Fluid therapy was continued with maintenance fluids8 administered at a rate of 2.5 mL/kg/h IV. Thirty-seven hours after presentation (71 hours after ivermectin exposure), no neurological improvement was evident. As a consequence, treatment with sarmazenil was replaced by an IV lipid emulsion containing 20% soybean oil in water.15 Because no recommendations on the use of lipid emulsions for the treatment of lipophilic drug toxicities in horses were available, the dosage was based on previously reported cases in small animals4, 5 and on current protocols for human patients.6 First, a bolus of 1.5 mL/kg was injected IV through the jugular catheter, followed by 0.25 mL/kg/min over 30 minutes, until reaching a total volume of 234 mL. During lipid administration and for 2 hours thereafter, the colt was closely monitored. Physical examination findings (heart rate, respiratory rate, rectal temperature, capillary refill time, neurologic status) as well as ECG recordings16 and noninvasive oscillometric measurements of systemic blood pressures16 obtained every 10 minutes remained unchanged. Twenty minutes after completion of the lipid infusion, the colt showed slight improvement of the pupillary light reflexes in both eyes and the nystagmus stopped. However, it remained recumbent and unconscious. Because no further clinical improvement was evident subsequently, IV lipid treatment was repeated at the same dose 19 hours later (ie, 56 hours after admission and 90 hours after ivermectin exposure). Again, heart rate, respiratory rate, rectal temperature, capillary refill time, ECG recordings, and systemic blood pressure measurements did not show any remarkable changes during and after treatment. However, during the 30-minute infusion, neurologic status improved steadily and the colt regained consciousness. Immediately after the 2nd lipid treatment, the colt was able to stay in sternal recumbency and to hold its head in a normal position. The colt also started showing moderate appetite and, with return of the swallowing reflex, was able to ingest small amounts of hay. The pupillary light reflexes still were sluggish and the menace response absent. However, 1 hour later, the colt tried to stand up and, with minimal help, was able to maintain a standing position for 3 minutes. Four hours after the second lipid infusion, the colt stood up independently and remained in a standing position for 7 hours. At that time, with the exception of a dysfunctional menace response and suspected cortical blindness, the foal appeared neurologically normal. Heparinized and EDTA-supplemented blood samples17 were collected before and repeatedly after the first and second IV lipid treatments for subsequent measurement of plasma triglyceride and ivermectin concentrations (see below). The samples were centrifuged at ambient temperature and plasma was harvested, transferred into cryovials,18 and immediately frozen and stored at −20°C until batch-wise analysis 6 weeks after collection. Serum biochemistry was repeated after the lipid treatments. Blood ammonia and bile acid concentrations12 were 60 μmol/L (normal, <63 μmol/L) and 15.5 μmol/L (normal, 5–15 μmol/L), respectively, 18 hours after the 1st lipid treatment. Twenty-four hours after the 2nd lipid treatment, blood ammonia concentration had decreased to 24.1 μmol/L and bile acid concentration had increased to 36.6 μmol/L. All other biochemical variables did not change markedly compared with the results obtained 24 hours after admission. Fluid therapy with the crystalloid maintenance solution8 (2.5 mL/kg/h) was continued for 5 days, and the antibiotic and anti-inflammatory treatments were extended for 3 days. Eyesight and menace responses recovered completely within 5 days after the 2nd lipid infusion. There was no relapse of neurologic signs, and the colt was discharged 8 days after the second IV lipid treatment, at which time the owners assessed the foal's behavior as completely normal. Three weeks later, the colt was presented to the hospital for reevaluation. At that time, no abnormal clinical signs were detected and laboratory variables had further improved. This case indicates that IV administration of lipid emulsions may be effective for treatment of avermectin overdoses in equids. Both after the 1st and the 2nd IV lipid treatment, the foal appeared to show sudden and marked improvement in neurologic deficits and state of consciousness. Triglyceride concentrations12 were monitored using plasma from heparinized blood samples. Concomitantly, ivermectin and the internal standard abamectin19 were measured in EDTA-supplemented plasma by solid reversed-phase extraction20 followed by high-performance liquid chromatography (HPLC) coupled to tandem mass spectrometry (MS/MS). First, the analytes were separated using an UltiMate 3000 HPLC system21 equipped with a C18 column.22 A gradient elution was carried out using 5 mM ammonium formate buffer (pH 3) and acetonitrile/formic acid at a flow rate of 0.5 mL/min. The final detection took place in an AB Sciex 5500 Q-Trap tandem mass spectrometer23 by electrospray ionization, multiple reaction monitoring (MRM), and enhanced product ion scans using information-dependent acquisition. Three MRM transitions for ivermectin (892/569, 892/307, 892/551) and 2 MRM transitions for the internal standard (890/305, 890/567) were used. After therapeutic administration of ivermectin to horses, maximal plasma concentrations of the drug have been reported in the range of 21.4–82.3 ng/mL.7, 8 In contrast, ivermectin concentrations measured in the plasma of this overdosed pony attained a peak of 1,930 ng/mL (Fig 1). After each lipid treatment, the transient rise in triglyceride concentrations coincided with considerably increased plasma ivermectin concentrations. Subsequently, the drug concentration steadily decreased to reach concentrations of 83 ng/mL at the day of discharge (8 days after the 2nd lipid infusion) and 4 ng/mL 3 weeks later. The parallel course of triglyceride and ivermectin plasma concentrations (Fig 1), in conjunction with the concurrent clinical improvements, allowed us to address the question of how lipid infusions resolve the adverse consequences of drug overdoses. Previous publications already described the use of IV lipid emulsions to manage life-threatening toxicities caused by lipophilic agents unresponsive to other treatments in humans6, 9, 10 and animals.4, 5, 11 This therapeutic approach was first described in an experimental model in 1998,11 but the exact mechanism of action is still a subject of debate.12 In the case of overdosed local anesthetics, IV lipids have been postulated to either beneficially influence cellular metabolism or exert a direct inotropic effect on the myocardium.13 In the presence of lipophilic substances that do not cause cardiotoxicity (eg, ivermectin), an alternative scenario known as the \"lipid sink\" hypothesis postulates that lipophilic drugs are effectively transferred from the central nervous system into the lipid fraction of the vascular compartment.11, 12 The systemically circulating ivermectin then is prone to metabolism mainly in the liver, or to direct secretion into the gut followed by excretion in the feces, thus accelerating its overall elimination.1, 2, 14 Here, we were able to confirm the lipid sink hypothesis in a clinical case by demonstrating that the blood concentration of a lipophilic drug indeed increases substantially after IV triglyceride infusion (Fig 1). The normally low toxicity of ivermectin or other avermectins in mammals is because of their exclusion from the central nervous system. Although highly lipophilic molecules readily diffuse across biological membranes, their penetration into the central nervous system is counteracted by a P-glycoprotein pump, encoded by the multidrug resistance (MDR1) gene, which is expressed at the blood-brain barrier in the luminal membrane of capillary endothelial cells.15 As a consequence, incomplete expression of P-glycoprotein in neonates16, 17 or foals under 4 months3, 18 as well as homozygous mutations of the MDR1 gene19 may lead to accumulation of lipophilic drugs in the brain. Alternatively, a massive overdose in an otherwise healthy animal may have a comparable outcome by saturating the excretory function of the P-glycoprotein pump.20, 21 Because no specific antidote exists, the treatment of avermectin overdoses is mostly supportive. Sarmazenil may counteract the action of avermectins by down-regulating chloride conductance,3 although it did not appear to be beneficial at the dosage and dosing intervals used in the present case. Conversely, the lipid infusion appeared to dramatically improve the clinical status of the pony. To our knowledge, this is the 1st case study demonstrating that IV administration of a lipid emulsion may be effective for the treatment of avermectin overdoses in horses. However, despite potential benefits in the treatment of lipophilic drug overdoses, IV administration of high doses of lipid emulsions is not without risk of adverse effects.22, 23 For example, lipid emulsions are known to cause pancreatitis when used for parenteral nutrition in humans, and increased serum amylase activity has been reported after lipid treatment for local anesthetic toxicity in an adult human.22 In horses, IV administration of phospholipid emulsions has been shown to result in hemolysis with minimal changes in hematocrit, but no signs of pancreatitis.24, 25 In the present case, no immediate clinical adverse effects were noted during and immediately after lipid infusion and no hemolysis was evident. However, transient increases in blood ammonia and bile acid concentrations occurred and may have been related to lipid treatment, indicating that the functional capacity of the liver might be transiently overwhelmed by the massive lipid load. This was consistent with a previous study on the use of a phospholipid emulsion in horses, which also identified a marked increase in bile acid concentrations after treatment.25 However, this effect was only transient and no clinical signs of acute liver failure occurred. In conclusion, this case demonstrates that lipid emulsions should be considered for treatment of avermectin overdoses in horses and foals and might also be used in cases of intoxication with other lipophilic drugs (eg, local anesthetics). The data presented here supports the \"lipid sink\" theory, explaining the potential mechanism of action of lipid emulsions for treatment of lipophilic drug overdoses. Possible adverse reactions, including liver dysfunction and mild to moderate hemolysis, must be considered when using high doses of lipids IV. Therefore, we recommend that hematocrit, plasma hemoglobin concentration, and integrity and function of the liver be monitored when using lipid emulsions in horses. Additional studies will be required to determine the optimal dosage, efficacy, and full spectrum of adverse reactions of IV lipids for treatment of drug overdoses in horses.",
-      "cited_by_count": 33,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "GPR143"
     },
     {
       "pmid": "18293215",
@@ -21321,116 +21570,6 @@
       "subcollection": "TEK"
     },
     {
-      "pmid": "39606382",
-      "doi": "10.1101/2024.11.09.24316578",
-      "zotero_key": "GJIZ6292",
-      "title": "Variants in NR6A1 cause a novel oculo-vertebral-renal (OVR) syndrome",
-      "authors": [
-        [
-          "Uma M",
-          "Neelathi"
-        ],
-        [
-          "Ehsan",
-          "Ullah"
-        ],
-        [
-          "Aman",
-          "George"
-        ],
-        [
-          "Mara I",
-          "Maftei"
-        ],
-        [
-          "Elangovan",
-          "Elangovan"
-        ],
-        [
-          "Daniel",
-          "Sanchez-Mendoza"
-        ],
-        [
-          "Chloe",
-          "Adams"
-        ],
-        [
-          "David M.",
-          "McGaughey"
-        ],
-        [
-          "Yuri V.",
-          "Sergeev"
-        ],
-        [
-          "Ranya AI",
-          "Rawi"
-        ],
-        [
-          "Amelia",
-          "Naik"
-        ],
-        [
-          "Chelsea",
-          "Bender"
-        ],
-        [
-          "Irene Hussels",
-          "Maumenee"
-        ],
-        [
-          "Michel",
-          "Michaelides"
-        ],
-        [
-          "Tun Giap",
-          "Tan"
-        ],
-        [
-          "Siying",
-          "Lin"
-        ],
-        [
-          "Rafael",
-          "Villasmil"
-        ],
-        [
-          "Delphine",
-          "Blain"
-        ],
-        [
-          "Robert B.",
-          "Hufnagel"
-        ],
-        [
-          "Gavin",
-          "Arno"
-        ],
-        [
-          "Rodrigo",
-          "Young"
-        ],
-        [
-          "Bin",
-          "Guan"
-        ],
-        [
-          "Brian P.",
-          "Brooks"
-        ]
-      ],
-      "journal": "medRxiv",
-      "year": "2024",
-      "abstract": "Colobomatous microphthalmia is a potentially blinding congenital ocular malformation that can present either in isolation or together with other syndromic features. Despite a strong genetic component to disease, many cases lack a molecular diagnosis. We describe a novel autosomal dominant oculo-vertebral-renal (OVR) syndrome in six independent families characterized by colobomatous microphthalmia, missing vertebrae and congenital kidney abnormalities. Genome sequencing identified six rare variants in the orphan nuclear receptor gene NR6A1 in these families. We performed in silico, cellular and zebrafish experiments to demonstrate the NR6A1 variants were pathogenic or likely pathogenic for OVR syndrome. Knockdown of either or both zebrafish paralogs of NR6A1 results in abnormal eye and somite development, which was rescued by wild-type but not variant NR6A1 mRNA. Illustrating the power of genomic ascertainment in medicine, our study establishes NR6A1 as a critical factor in eye and vertebral development and a pleiotropic gene responsible for OVR syndrome.",
-      "cited_by_count": 2,
-      "centrality": 0,
-      "source_tags": [
-        "source:seed"
-      ],
-      "category": "",
-      "subcollection": ""
-    },
-    {
       "pmid": "39606449",
       "doi": "10.21203/rs.3.rs-5375105/v1",
       "zotero_key": "W9CTFT6B",
@@ -21533,6 +21672,116 @@
       "year": "2024",
       "abstract": "",
       "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:seed"
+      ],
+      "category": "",
+      "subcollection": ""
+    },
+    {
+      "pmid": "39606382",
+      "doi": "10.1101/2024.11.09.24316578",
+      "zotero_key": "GJIZ6292",
+      "title": "Variants in NR6A1 cause a novel oculo-vertebral-renal (OVR) syndrome",
+      "authors": [
+        [
+          "Uma M",
+          "Neelathi"
+        ],
+        [
+          "Ehsan",
+          "Ullah"
+        ],
+        [
+          "Aman",
+          "George"
+        ],
+        [
+          "Mara I",
+          "Maftei"
+        ],
+        [
+          "Elangovan",
+          "Elangovan"
+        ],
+        [
+          "Daniel",
+          "Sanchez-Mendoza"
+        ],
+        [
+          "Chloe",
+          "Adams"
+        ],
+        [
+          "David M.",
+          "McGaughey"
+        ],
+        [
+          "Yuri V.",
+          "Sergeev"
+        ],
+        [
+          "Ranya AI",
+          "Rawi"
+        ],
+        [
+          "Amelia",
+          "Naik"
+        ],
+        [
+          "Chelsea",
+          "Bender"
+        ],
+        [
+          "Irene Hussels",
+          "Maumenee"
+        ],
+        [
+          "Michel",
+          "Michaelides"
+        ],
+        [
+          "Tun Giap",
+          "Tan"
+        ],
+        [
+          "Siying",
+          "Lin"
+        ],
+        [
+          "Rafael",
+          "Villasmil"
+        ],
+        [
+          "Delphine",
+          "Blain"
+        ],
+        [
+          "Robert B.",
+          "Hufnagel"
+        ],
+        [
+          "Gavin",
+          "Arno"
+        ],
+        [
+          "Rodrigo",
+          "Young"
+        ],
+        [
+          "Bin",
+          "Guan"
+        ],
+        [
+          "Brian P.",
+          "Brooks"
+        ]
+      ],
+      "journal": "medRxiv",
+      "year": "2024",
+      "abstract": "Colobomatous microphthalmia is a potentially blinding congenital ocular malformation that can present either in isolation or together with other syndromic features. Despite a strong genetic component to disease, many cases lack a molecular diagnosis. We describe a novel autosomal dominant oculo-vertebral-renal (OVR) syndrome in six independent families characterized by colobomatous microphthalmia, missing vertebrae and congenital kidney abnormalities. Genome sequencing identified six rare variants in the orphan nuclear receptor gene NR6A1 in these families. We performed in silico, cellular and zebrafish experiments to demonstrate the NR6A1 variants were pathogenic or likely pathogenic for OVR syndrome. Knockdown of either or both zebrafish paralogs of NR6A1 results in abnormal eye and somite development, which was rescued by wild-type but not variant NR6A1 mRNA. Illustrating the power of genomic ascertainment in medicine, our study establishes NR6A1 as a critical factor in eye and vertebral development and a pleiotropic gene responsible for OVR syndrome.",
+      "cited_by_count": 2,
       "centrality": 0,
       "source_tags": [
         "source:seed"
