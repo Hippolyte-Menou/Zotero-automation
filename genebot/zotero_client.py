@@ -5,6 +5,7 @@ import time
 import logging
 from dataclasses import dataclass
 import httpx
+import httpx2
 from pyzotero import zotero
 from pyzotero import errors as zotero_exceptions
 
@@ -48,7 +49,8 @@ class DedupBaseline:
 
 def _is_retryable(exc: Exception) -> bool:
     """Return True for transient errors that warrant a retry (5xx, timeouts)."""
-    if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout)):
+    if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout,
+                        httpx2.TimeoutException, httpx2.ReadTimeout)):
         return True
     if isinstance(exc, zotero_exceptions.HTTPError):
         msg = str(exc)
@@ -72,8 +74,9 @@ _TYPE_TAG_MAP = {
 class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
         self.zot = zotero.Zotero(group_id, "group", api_key)
-        # Override default timeout (httpx default is 5s, too short for large libraries)
-        self.zot.client.timeout = httpx.Timeout(60.0, connect=15.0)
+        # Override default timeout (pyzotero uses httpx2 internally; httpx.Timeout
+        # causes 'Timeout object cannot be interpreted as integer' on write ops)
+        self.zot.client.timeout = httpx2.Timeout(60.0, connect=15.0)
         self.delay = delay
         # Cache of (name, parent_key) -> key, populated lazily
         self._collection_cache: dict[tuple[str, str | None], str] = {}
@@ -598,7 +601,7 @@ class ZoteroGroupClient:
                             logger.warning(f"  Failed item {idx}: {err}")
                     break
 
-                except httpx.ConnectTimeout as e:
+                except (httpx.ConnectTimeout, httpx2.ConnectTimeout) as e:
                     # Connection never established -> the request did not reach
                     # the server, so re-sending cannot create duplicates.
                     if attempt < 2:
@@ -616,7 +619,8 @@ class ZoteroGroupClient:
                         stats["failed"] += len(batch)
                         break
 
-                except (httpx.ReadTimeout, httpx.TimeoutException) as e:
+                except (httpx.ReadTimeout, httpx.TimeoutException,
+                        httpx2.ReadTimeout, httpx2.TimeoutException) as e:
                     # Timed out after the request was sent: Zotero may have
                     # created the items server-side, so retrying risks
                     # duplicates. Do not retry -- defer to the next run, whose
