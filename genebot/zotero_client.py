@@ -5,6 +5,7 @@ import time
 import logging
 from dataclasses import dataclass
 import httpx
+import httpx2
 from pyzotero import zotero
 from pyzotero import errors as zotero_exceptions
 
@@ -72,8 +73,8 @@ _TYPE_TAG_MAP = {
 class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
         self.zot = zotero.Zotero(group_id, "group", api_key)
-        # Override default timeout (httpx default is 5s, too short for large libraries)
-        self.zot.client.timeout = httpx.Timeout(60.0, connect=15.0)
+        # Override default timeout (httpx2 default is 5s, too short for large libraries)
+        self.zot.client.timeout = httpx2.Timeout(60.0, connect=15.0)
         self.delay = delay
         # Cache of (name, parent_key) -> key, populated lazily
         self._collection_cache: dict[tuple[str, str | None], str] = {}
