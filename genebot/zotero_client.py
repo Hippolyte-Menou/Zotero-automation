@@ -73,7 +73,7 @@ class ZoteroGroupClient:
     def __init__(self, group_id: str, api_key: str, delay: float = 1.0):
         self.zot = zotero.Zotero(group_id, "group", api_key)
         # Override default timeout (httpx default is 5s, too short for large libraries)
-        self.zot.client.timeout = httpx.Timeout(60.0, connect=15.0)
+        self.zot.client.timeout = 60.0
         self.delay = delay
         # Cache of (name, parent_key) -> key, populated lazily
         self._collection_cache: dict[tuple[str, str | None], str] = {}
