@@ -545,6 +545,23 @@ def cmd_apply(args) -> None:
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
     def rescue_fn(entries):
+        if getattr(args, "skip_rescue", False):
+            # OpenAlex is rate-limiting; defer rescues to the regular bot via
+            # rescue_queue.json rather than blocking --apply for hours. The rescue
+            # entries are returned as "failed" so they stay out of the ledger and
+            # are re-adjudicated on the next audit run (by which time the regular
+            # bot will have uploaded them and dedup will skip them).
+            rq_path = os.path.join(os.path.dirname(args.ledger), "rescue_queue.json")
+            existing = _read_json(rq_path, [])
+            if not isinstance(existing, list):
+                existing = []
+            merged = {(e.get("pmid", ""), e.get("doi", "").lower()): e
+                      for e in existing + entries}
+            with open(rq_path, "w", encoding="utf-8") as f:
+                json.dump(list(merged.values()), f, indent=1)
+            logger.info("skip-rescue: queued %d entries in %s for regular bot",
+                        len(entries), rq_path)
+            return 0, entries
         return run.process_rescue_queue(
             entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
             genes_parent_key, additions_tracker=[])
@@ -574,6 +591,12 @@ def main() -> None:
     p.add_argument("--adj-batch-size", type=int, default=20)
     p.add_argument("--genes-parent", default="6 - Genes")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--skip-rescue", action="store_true",
+                   help="With --apply: queue rescues in rescue_queue.json for the "
+                        "regular bot instead of calling OpenAlex now. Use when "
+                        "OpenAlex is rate-limiting and --apply would otherwise block "
+                        "for hours. Rescue entries are excluded from the ledger and "
+                        "will be re-adjudicated on the next audit run.")
     mode = p.add_mutually_exclusive_group(required=True)
     mode.add_argument("--prepare", action="store_true")
     mode.add_argument("--collect", action="store_true")
