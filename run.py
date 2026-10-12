@@ -551,6 +551,24 @@ def process_rescue_queue(
     uploaded = 0
     failed_entries: list[dict] = []
 
+    # Pre-fetch all works in bulk to avoid one API call per item (rate-limit risk).
+    all_pmids = [e.get("pmid", "").strip() for e in rescue_entries if e.get("pmid", "").strip()]
+    all_dois  = [e.get("doi",  "").strip() for e in rescue_entries if e.get("doi",  "").strip()]
+    pmid_work_map: dict[str, dict] = {}
+    doi_work_map:  dict[str, dict] = {}
+    if all_pmids:
+        for w in openalex.fetch_works_by_pmids(all_pmids):
+            pid = (w.get("ids") or {}).get("pmid", "")
+            if pid:
+                pid = pid.replace("https://pubmed.ncbi.nlm.nih.gov/", "").rstrip("/")
+                pmid_work_map[pid] = w
+    if all_dois:
+        for w in openalex.fetch_works_by_dois(all_dois):
+            d = ((w.get("ids") or {}).get("doi") or "").lower().replace("https://doi.org/", "")
+            if d:
+                doi_work_map[d] = w
+    logger.info(f"Pre-fetched {len(pmid_work_map)} works by PMID, {len(doi_work_map)} by DOI")
+
     for entry in rescue_entries:
         pmid = entry.get("pmid", "").strip()
         doi = entry.get("doi", "").strip()
@@ -570,9 +588,13 @@ def process_rescue_queue(
             logger.info(f"Rescue: DOI {doi} already in library, skipping")
             continue
 
-        # Look up on OpenAlex by PMID or DOI
+        # Look up from pre-fetched bulk results; fall back to individual API call
         work = None
         if pmid:
+            work = pmid_work_map.get(pmid)
+        if not work and doi:
+            work = doi_work_map.get(doi.lower().replace("https://doi.org/", ""))
+        if not work and pmid:
             works = openalex.fetch_works_by_pmids([pmid])
             if works:
                 work = works[0]

@@ -4,7 +4,7 @@ import re
 import time
 import logging
 from dataclasses import dataclass
-import httpx
+import httpx2 as httpx
 from pyzotero import zotero
 from pyzotero import errors as zotero_exceptions
 
