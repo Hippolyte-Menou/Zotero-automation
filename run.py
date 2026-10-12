@@ -588,20 +588,13 @@ def process_rescue_queue(
             logger.info(f"Rescue: DOI {doi} already in library, skipping")
             continue
 
-        # Look up from pre-fetched bulk results; fall back to individual API call
+        # Look up from pre-fetched bulk results only (no per-item fallback to
+        # avoid exhausting the rate limit when the bulk fetch already failed)
         work = None
         if pmid:
             work = pmid_work_map.get(pmid)
         if not work and doi:
             work = doi_work_map.get(doi.lower().replace("https://doi.org/", ""))
-        if not work and pmid:
-            works = openalex.fetch_works_by_pmids([pmid])
-            if works:
-                work = works[0]
-        if not work and doi:
-            works = openalex.fetch_works_by_dois([doi])
-            if works:
-                work = works[0]
 
         if not work:
             logger.warning(
