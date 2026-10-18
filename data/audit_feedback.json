@@ -34,7 +34,7 @@
   },
   "ADGRV1": {
    "rescued": 82,
-   "trashed": 0
+   "trashed": 1
   },
   "ADGRV1, CLRN1, MYO7A, USH1C": {
    "rescued": 1,
@@ -46,10 +46,10 @@
   },
   "AGK": {
    "rescued": 16,
-   "trashed": 0
+   "trashed": 9
   },
   "AIPL1": {
-   "rescued": 27,
+   "rescued": 28,
    "trashed": 1
   },
   "AIPL1, EYS, GNAT1, PDE6A, PDE6B, PDE6C": {
@@ -66,7 +66,7 @@
   },
   "ALMS1": {
    "rescued": 127,
-   "trashed": 0
+   "trashed": 14
   },
   "ARID1B": {
    "rescued": 20,
@@ -82,23 +82,23 @@
   },
   "ARL3": {
    "rescued": 97,
-   "trashed": 0
+   "trashed": 1
   },
   "ARL3, ARL6, BBS12, IFT172, SMO, WDPCP": {
    "rescued": 1,
    "trashed": 0
   },
   "ARL6": {
-   "rescued": 141,
+   "rescued": 142,
    "trashed": 0
   },
   "ARR3": {
    "rescued": 2,
-   "trashed": 48
+   "trashed": 68
   },
   "ARSG": {
-   "rescued": 32,
-   "trashed": 7
+   "rescued": 33,
+   "trashed": 27
   },
   "ARSG, CLRN1, OPN1MW": {
    "rescued": 1,
@@ -106,7 +106,7 @@
   },
   "ATF6": {
    "rescued": 2,
-   "trashed": 5
+   "trashed": 8
   },
   "AXIN1": {
    "rescued": 0,
@@ -153,7 +153,7 @@
    "trashed": 7
   },
   "Anterior segment examination": {
-   "rescued": 166,
+   "rescued": 174,
    "trashed": 1
   },
   "Axenfeld-Rieger syndrome": {
@@ -165,15 +165,15 @@
    "trashed": 0
   },
   "BBS1": {
-   "rescued": 27,
-   "trashed": 8
+   "rescued": 28,
+   "trashed": 15
   },
   "BBS10": {
-   "rescued": 67,
+   "rescued": 69,
    "trashed": 2
   },
   "BBS12": {
-   "rescued": 78,
+   "rescued": 79,
    "trashed": 3
   },
   "BBS12, PDE6A": {
@@ -182,7 +182,7 @@
   },
   "BBS2": {
    "rescued": 19,
-   "trashed": 4
+   "trashed": 15
   },
   "BCOR": {
    "rescued": 17,
@@ -190,11 +190,11 @@
   },
   "BEST1": {
    "rescued": 18,
-   "trashed": 45
+   "trashed": 62
   },
   "BFSP1": {
    "rescued": 43,
-   "trashed": 1
+   "trashed": 4
   },
   "BFSP1, Derived structures, Derived structures, PAX6": {
    "rescued": 1,
@@ -218,7 +218,7 @@
   },
   "CABP4": {
    "rescued": 56,
-   "trashed": 0
+   "trashed": 4
   },
   "CACNA1F": {
    "rescued": 107,
@@ -241,7 +241,7 @@
    "trashed": 4
   },
   "CDHR1": {
-   "rescued": 36,
+   "rescued": 37,
    "trashed": 1
   },
   "CEP290": {
@@ -261,11 +261,11 @@
    "trashed": 1
   },
   "CHM": {
-   "rescued": 42,
+   "rescued": 45,
    "trashed": 2
   },
   "CHST6": {
-   "rescued": 70,
+   "rescued": 71,
    "trashed": 0
   },
   "CIB2": {
@@ -277,7 +277,7 @@
    "trashed": 2
   },
   "CNGA1": {
-   "rescued": 308,
+   "rescued": 310,
    "trashed": 0
   },
   "CNGA1, SLC24A1": {
@@ -285,7 +285,7 @@
    "trashed": 0
   },
   "CNGA3": {
-   "rescued": 71,
+   "rescued": 77,
    "trashed": 0
   },
   "CNGA3, OPN1LW, OPN1MW": {
@@ -297,7 +297,7 @@
    "trashed": 0
   },
   "COL11A1": {
-   "rescued": 81,
+   "rescued": 83,
    "trashed": 3
   },
   "COL11A1, SLC38A8": {
@@ -309,7 +309,7 @@
    "trashed": 17
   },
   "COL2A1": {
-   "rescued": 34,
+   "rescued": 35,
    "trashed": 3
   },
   "COL4A1": {
@@ -325,11 +325,11 @@
    "trashed": 0
   },
   "COL9A1": {
-   "rescued": 23,
+   "rescued": 30,
    "trashed": 1
   },
   "CRB1": {
-   "rescued": 62,
+   "rescued": 63,
    "trashed": 0
   },
   "CRX": {
@@ -341,11 +341,11 @@
    "trashed": 3
   },
   "CRYAB": {
-   "rescued": 166,
+   "rescued": 168,
    "trashed": 0
   },
   "CRYBA1": {
-   "rescued": 131,
+   "rescued": 134,
    "trashed": 1
   },
   "CRYBA1, CRYBB3, CRYGD, CRYGS": {
@@ -353,7 +353,7 @@
    "trashed": 0
   },
   "CRYBA4": {
-   "rescued": 75,
+   "rescued": 77,
    "trashed": 0
   },
   "CRYBA4, CRYBB1, CRYBB2, CRYGC, CRYGD, CRYGS, LSS": {
@@ -377,7 +377,7 @@
    "trashed": 0
   },
   "CRYBB1": {
-   "rescued": 77,
+   "rescued": 78,
    "trashed": 1
   },
   "CRYBB1, CRYGC, CRYGD, CRYGS": {
@@ -385,7 +385,7 @@
    "trashed": 0
   },
   "CRYBB2": {
-   "rescued": 118,
+   "rescued": 126,
    "trashed": 0
   },
   "CRYBB2, CRYBB2, Derived structures": {
@@ -397,19 +397,19 @@
    "trashed": 0
   },
   "CRYBB3": {
-   "rescued": 38,
+   "rescued": 40,
    "trashed": 0
   },
   "CRYGB": {
-   "rescued": 69,
+   "rescued": 70,
    "trashed": 0
   },
   "CRYGC": {
-   "rescued": 37,
+   "rescued": 41,
    "trashed": 1
   },
   "CRYGD": {
-   "rescued": 322,
+   "rescued": 330,
    "trashed": 0
   },
   "CRYGD, CRYGS": {
@@ -481,7 +481,7 @@
    "trashed": 0
   },
   "DCT": {
-   "rescued": 77,
+   "rescued": 78,
    "trashed": 5
   },
   "DHDDS": {
@@ -493,7 +493,7 @@
    "trashed": 5
   },
   "DRAM2": {
-   "rescued": 11,
+   "rescued": 12,
    "trashed": 0
   },
   "DRAM2, EYS, MERTK, PDE6B, PDE6H, TULP1": {
@@ -521,7 +521,7 @@
    "trashed": 1
   },
   "ELP4": {
-   "rescued": 0,
+   "rescued": 1,
    "trashed": 1
   },
   "EPHA2": {
@@ -533,7 +533,7 @@
    "trashed": 0
   },
   "EYS": {
-   "rescued": 46,
+   "rescued": 47,
    "trashed": 18
   },
   "EYS, LRP2, PDE6B": {
@@ -541,7 +541,7 @@
    "trashed": 0
   },
   "Emerging technologies": {
-   "rescued": 83,
+   "rescued": 84,
    "trashed": 0
   },
   "Emerging technologies, Ocular imaging": {
@@ -693,7 +693,7 @@
    "trashed": 0
   },
   "GUCY2D": {
-   "rescued": 78,
+   "rescued": 79,
    "trashed": 0
   },
   "GZF1": {
@@ -701,7 +701,7 @@
    "trashed": 1
   },
   "Genetic testing": {
-   "rescued": 35,
+   "rescued": 44,
    "trashed": 0
   },
   "Genetic testing, DRAM2, OPN1LW, OPN1MW, RAX2": {
@@ -729,7 +729,7 @@
    "trashed": 4
   },
   "HK1": {
-   "rescued": 20,
+   "rescued": 21,
    "trashed": 5
   },
   "HMX1": {
@@ -749,7 +749,7 @@
    "trashed": 3
   },
   "IDH3A": {
-   "rescued": 7,
+   "rescued": 8,
    "trashed": 0
   },
   "IFT140": {
@@ -777,11 +777,11 @@
    "trashed": 2
   },
   "Inner coat": {
-   "rescued": 100,
-   "trashed": 1
+   "rescued": 101,
+   "trashed": 2
   },
   "Intraocular pressure": {
-   "rescued": 219,
+   "rescued": 240,
    "trashed": 0
   },
   "Intraocular pressure, FREM2, Ocular developmental anomalies, TRIM44": {
@@ -885,7 +885,7 @@
    "trashed": 2
   },
   "MIP": {
-   "rescued": 75,
+   "rescued": 76,
    "trashed": 6
   },
   "MKKS": {
@@ -909,7 +909,7 @@
    "trashed": 12
   },
   "Middle coat": {
-   "rescued": 88,
+   "rescued": 91,
    "trashed": 0
   },
   "Middle coat, Ocular aging, Ocular vascular physiology": {
@@ -945,7 +945,7 @@
    "trashed": 2
   },
   "NHS": {
-   "rescued": 20,
+   "rescued": 21,
    "trashed": 2
   },
   "NMNAT1": {
@@ -953,7 +953,7 @@
    "trashed": 18
   },
   "NR2E3": {
-   "rescued": 38,
+   "rescued": 45,
    "trashed": 2
   },
   "NRL": {
@@ -1009,7 +1009,7 @@
    "trashed": 0
   },
   "OPN1MW": {
-   "rescued": 72,
+   "rescued": 74,
    "trashed": 0
   },
   "OPN1MW, RLBP1, RPE65": {
@@ -1053,7 +1053,7 @@
    "trashed": 0
   },
   "Ocular motility": {
-   "rescued": 45,
+   "rescued": 51,
    "trashed": 0
   },
   "Ocular neurophysiology": {
@@ -1061,11 +1061,11 @@
    "trashed": 0
   },
   "Ocular surface examinations": {
-   "rescued": 121,
+   "rescued": 122,
    "trashed": 0
   },
   "Ocular vascular physiology": {
-   "rescued": 129,
+   "rescued": 133,
    "trashed": 0
   },
   "Oculocutaneous albinism": {
@@ -1089,7 +1089,7 @@
    "trashed": 0
   },
   "Outer coat": {
-   "rescued": 114,
+   "rescued": 117,
    "trashed": 0
   },
   "PAX2": {
@@ -1129,11 +1129,11 @@
    "trashed": 2
   },
   "PIKFYVE": {
-   "rescued": 20,
+   "rescued": 21,
    "trashed": 1
   },
   "PITPNM3": {
-   "rescued": 21,
+   "rescued": 25,
    "trashed": 12
   },
   "PITX2": {
@@ -1205,7 +1205,7 @@
    "trashed": 0
   },
   "RAB18": {
-   "rescued": 17,
+   "rescued": 18,
    "trashed": 5
   },
   "RAB28": {
@@ -1213,7 +1213,7 @@
    "trashed": 1
   },
   "RAB3GAP1": {
-   "rescued": 26,
+   "rescued": 27,
    "trashed": 1
   },
   "RAB3GAP2": {
@@ -1285,7 +1285,7 @@
    "trashed": 9
   },
   "RPE65": {
-   "rescued": 121,
+   "rescued": 123,
    "trashed": 2
   },
   "RPGR": {
@@ -1301,12 +1301,12 @@
    "trashed": 10
   },
   "RS1": {
-   "rescued": 76,
+   "rescued": 77,
    "trashed": 10
   },
   "Retinal dystrophies": {
-   "rescued": 11,
-   "trashed": 35
+   "rescued": 12,
+   "trashed": 39
   },
   "SAG": {
    "rescued": 16,
@@ -1373,7 +1373,7 @@
    "trashed": 0
   },
   "SPATA7": {
-   "rescued": 19,
+   "rescued": 20,
    "trashed": 6
   },
   "STRA6": {
@@ -1389,7 +1389,7 @@
    "trashed": 3
   },
   "Specialized functional testing": {
-   "rescued": 166,
+   "rescued": 170,
    "trashed": 0
   },
   "Specialized functional testing, PDE6H": {
@@ -1421,7 +1421,7 @@
    "trashed": 0
   },
   "TBC1D20": {
-   "rescued": 14,
+   "rescued": 15,
    "trashed": 6
   },
   "TDRD7": {
@@ -1465,7 +1465,7 @@
    "trashed": 10
   },
   "TYR": {
-   "rescued": 114,
+   "rescued": 115,
    "trashed": 3
   },
   "TYRP1": {
@@ -1473,11 +1473,11 @@
    "trashed": 8
   },
   "Transparent media": {
-   "rescued": 102,
+   "rescued": 103,
    "trashed": 0
   },
   "Transparent media physiology": {
-   "rescued": 23,
+   "rescued": 27,
    "trashed": 0
   },
   "Transparent media, GJA3, GJA8, MIP": {
@@ -1489,7 +1489,7 @@
    "trashed": 0
   },
   "UBIAD1": {
-   "rescued": 3,
+   "rescued": 4,
    "trashed": 1
   },
   "UNC119": {
@@ -1497,7 +1497,7 @@
    "trashed": 0
   },
   "USH1C": {
-   "rescued": 49,
+   "rescued": 50,
    "trashed": 6
   },
   "USH1G": {
@@ -1505,7 +1505,7 @@
    "trashed": 3
   },
   "USH2A": {
-   "rescued": 59,
+   "rescued": 65,
    "trashed": 0
   },
   "USP45": {
@@ -1525,15 +1525,15 @@
    "trashed": 2
   },
   "Vascularization and innervation": {
-   "rescued": 71,
+   "rescued": 72,
    "trashed": 1
   },
   "Visual function": {
-   "rescued": 85,
+   "rescued": 86,
    "trashed": 0
   },
   "Visual physiology": {
-   "rescued": 147,
+   "rescued": 155,
    "trashed": 0
   },
   "Visual physiology, CNGA1": {
@@ -1561,7 +1561,7 @@
    "trashed": 3
   },
   "YAP1": {
-   "rescued": 8,
+   "rescued": 18,
    "trashed": 1
   },
   "ZEB1": {
@@ -1593,5 +1593,5 @@
    "rescued": 0
   }
  },
- "updated_at": "2026-10-17T03:46:49Z"
+ "updated_at": "2026-10-18T04:16:00Z"
 }
