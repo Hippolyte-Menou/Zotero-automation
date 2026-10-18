@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T08:42:53Z",
+  "generated_at": "2026-10-18T07:22:34Z",
   "threshold_k": 0,
-  "total_evaluated": 30671,
-  "total_flagged": 505,
+  "total_evaluated": 30916,
+  "total_flagged": 497,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -91,7 +91,6 @@
       "APC",
       "ARID1B",
       "ARR3",
-      "ARSG",
       "ATAD3A",
       "ATF6",
       "B3GLCT",
@@ -100,10 +99,8 @@
       "BBS2",
       "BCOR",
       "BEST1",
-      "CDHR1",
       "CEP290",
       "CHD7",
-      "CHST6",
       "CLRN1",
       "COL18A1",
       "COL2A1",
@@ -130,6 +127,7 @@
       "KCNJ13",
       "KRT12",
       "KRT3",
+      "LTBP2",
       "MAC assess-genes",
       "MERTK",
       "MFRP",
@@ -150,6 +148,7 @@
       "PAX6",
       "PDE6B",
       "PDE6C",
+      "PIKFYVE",
       "PLK4",
       "PRCD",
       "PROM1",
@@ -2879,40 +2878,6 @@
       "subcollection": "CEP290"
     },
     {
-      "pmid": "41613416",
-      "doi": "10.17912/micropub.biology.001961",
-      "zotero_key": "HAGCPVZT",
-      "title": "A Novel Cell-Cell Communication Structure: Tanycyte and Cilia Hypothalamic Unifying Glia-cilia Structure (HUGS)",
-      "authors": [
-        [
-          "Kara R.",
-          "Schwantz"
-        ],
-        [
-          "Jaelyn G.",
-          "Boone"
-        ],
-        [
-          "Kathryn M.",
-          "Brewer"
-        ],
-        [
-          "Nicolas F.",
-          "Berbari"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2025",
-      "abstract": "Primary cilia, microtubule-based sensory organelles that mediate cell-cell communication, may facilitate signaling in the brain through direct physical contacts (e.g., synapse-like structures). Similarly, specialized glial cells lining the third ventricle (3V) called tanycytes signal through physical interactions and can dynamically alter their morphology in response to external stimuli and physiological changes. Here, we identify robust cilia-tanycyte contacts; we term HUGS ( H ypothalamic, U nifying G lia-cilia S tructures) and discover that these connections are disrupted in a mouse ciliopathy model ( <i>Bbs4</i> ) exhibiting hypothalamic dysfunction. These data provide insight into potentially new cell-cell signaling mechanisms deployed by neuronal cilia.&nbsp.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARSG"
-    },
-    {
       "pmid": "41767327",
       "doi": "10.18240/ijo.2026.03.25",
       "zotero_key": "KJFM3FDR",
@@ -3899,40 +3864,6 @@
       "subcollection": "HK1"
     },
     {
-      "pmid": "39215425",
-      "doi": "",
-      "zotero_key": "9AIFF6ZG",
-      "title": "An uncommon case of retinitis pigmentosa patients based on clinical and genetic study.",
-      "authors": [
-        [
-          "S",
-          "Supanji"
-        ],
-        [
-          "Ayudha Bahana Ilham",
-          "Perdamaian"
-        ],
-        [
-          "Dewi Kartikawati",
-          "Paramita"
-        ],
-        [
-          "Riris Istighfari",
-          "Jenie"
-        ]
-      ],
-      "journal": "PubMed",
-      "year": "2024",
-      "abstract": "Inherited retinal dystrophy (IRD) is a group of phenotypes caused by mutations in visual pathways-related genes, mostly occurring at photoreceptors. This heterogeneous group includes retinitis pigmentosa (RP) recognised by bone spicule at the peripheral retina and the other is Stargardt with macular pisiform flecks. In this study, a 20- year-old male patient with RP symptoms was accompanied by a yellowish pisiform flex in the macula. However, his brother, mother and aunty have typical Stargardt disease. This study involved four persons, two males (cases 1 and 2), their mother (case 3) and aunt (case 4). Initially, cases 1 and 2 came to the clinic, case 1 was diagnosed as RP and macular dystrophy, and case 2 was diagnosed as Stargardt disease. On the follow-up, cases 1 and 2 as well as their father, mother and other family members underwent comprehensive eye examination, including fundus, Snellen, OCT, OCT-A and HFA, and found an uncommon macular abnormality besides typical RP appearance in case 1. The father is healthy while the mother and one of his aunties were diagnosed as Stargardt. A genetics analysis was conducted in case 1, finding various mutations associated with IRD mutation at the cone protein-encoded gene that concentrated at the central and rod protein-encoded gene concentrated at the peripheral retina. Whether the combination of multiple or the same mutations is responsible for this RP phenotype needs further analysis and validation. Cases 2 and 3 genetic analysis showed similar mutation results but with a healthy peripheral retina and only represented Stargardt. Case 1 is considered as RP with macular dystrophy, while cases 2, 3 and 4 are confirmed as Stargardt.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CDHR1"
-    },
-    {
       "pmid": "41825688",
       "doi": "10.1016/j.redare.2026.502024",
       "zotero_key": "Z8B88ZQN",
@@ -4307,6 +4238,44 @@
       "subcollection": "BBS1"
     },
     {
+      "pmid": "40978843",
+      "doi": "10.7759/cureus.90520",
+      "zotero_key": "ZGMK835W",
+      "title": "Assessment of Safety and Functional Outcomes of Arthroscopic Meniscal Repair Surgery Using Surestitch All-Inside Implant",
+      "authors": [
+        [
+          "Dhammapal",
+          "Bhamare"
+        ],
+        [
+          "Suhas Laxman",
+          "Kamble"
+        ],
+        [
+          "Janapamala V S",
+          "Kishore"
+        ],
+        [
+          "Raj Suhas",
+          "Kamble"
+        ],
+        [
+          "Rohan",
+          "Hajare"
+        ]
+      ],
+      "journal": "Cureus",
+      "year": "2025",
+      "abstract": "Introduction Meniscal injuries are prevalent in orthopedic practice, affecting a diverse patient population. In recent times, a notable shift has occurred in the treatment approach for meniscal injuries, favoring repair surgery over the traditional method of meniscectomy. Meniscal repair surgery is a crucial intervention to restore knee function and alleviate symptoms, contributing to improved patient quality of life. Therefore, the present study aimed to assess the safety and functional outcomes of the Surestitch all-inside implants in arthroscopic meniscal repair surgery. Methods From July 2020 to July 2022, 51 patients underwent arthroscopic meniscal repair surgery at Sai Nath Hospital, Maharashtra, India. Patient-reported outcomes, including the International Knee Documentation Committee (IKDC) subjective score, Single Assessment Numeric Evaluation (SANE) score, Tegner activity level, and Lysholm knee score, were recorded through telephonic follow-ups. Detailed patient characteristics, diagnoses, and surgery details were retrospectively extracted from medical records. Results The mean age of the recruited patients was 37.75±11.65 years. About 71% of patients were male (n=36/51). Medial meniscal tear was more prevalent than lateral tear (38 vs. eight patients). The remaining five patients had combined medial and lateral meniscal tears. Patient-reported outcomes showed the mean IKDC, Tegner, and Lysholm scores of 87.49±10.21, 6.03±1.38, and 93.45±9.36, respectively. On comparing the mean SANE scores of affected and unaffected contralateral knees, a significant difference in the scores was observed (86.73±15.94 vs. 97.55±6.81, p<0.05). Conclusion Our data suggest favorable and good functional outcomes of the Surestitch all-inside meniscal repair implant in meniscal repair surgery.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "42521237",
       "doi": "10.6133/apjcn.202608_35(4).0017",
       "zotero_key": "GNDXVU56",
@@ -4567,6 +4536,28 @@
       "subcollection": "CEP290"
     },
     {
+      "pmid": "40683271",
+      "doi": "10.1016/s1474-4422(25)00244-3",
+      "zotero_key": "KH4EGPEZ",
+      "title": "Avindra Nath: in pursuit of pandemics.",
+      "authors": [
+        [
+          "Jennifer A.",
+          "Thorley"
+        ]
+      ],
+      "journal": "PubMed",
+      "year": "2025",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "42316211",
       "doi": "10.1186/s12964-026-03006-8",
       "zotero_key": "JH7JT7ZQ",
@@ -4753,6 +4744,140 @@
       ],
       "category": "6 - Genes",
       "subcollection": "RNU4ATAC"
+    },
+    {
+      "pmid": "42872583",
+      "doi": "10.1093/brain/awag355",
+      "zotero_key": "PMC2J59R",
+      "title": "Biallelic variants in PIKFYVE cause a hypomyelinating leukodystrophy with endolysosomal dysfunction",
+      "authors": [
+        [
+          "Luisa",
+          "Averdunk"
+        ],
+        [
+          "Martin",
+          "Groß"
+        ],
+        [
+          "Anna B.",
+          "Hamacher"
+        ],
+        [
+          "Sandra C.",
+          "Donkervoort"
+        ],
+        [
+          "Diran Agaid",
+          "Herebian"
+        ],
+        [
+          "Shekeeb S.",
+          "Mohammad"
+        ],
+        [
+          "Alexej",
+          "Knaus"
+        ],
+        [
+          "Annette",
+          "Seibt"
+        ],
+        [
+          "Joerg",
+          "Schaper"
+        ],
+        [
+          "Heinrich",
+          "Sticht"
+        ],
+        [
+          "Samantha J.",
+          "Bryen"
+        ],
+        [
+          "Ann Kathrin",
+          "Bergmann"
+        ],
+        [
+          "Miriam",
+          "Langener"
+        ],
+        [
+          "Lenika De",
+          "Simone"
+        ],
+        [
+          "A",
+          "Markshausen"
+        ],
+        [
+          "Guy",
+          "Lenk"
+        ],
+        [
+          "Sujal",
+          "Ghosh"
+        ],
+        [
+          "Sarah A.",
+          "Sandaradura"
+        ],
+        [
+          "Tanja",
+          "Guthoff"
+        ],
+        [
+          "Richard Jacob",
+          "Leventer"
+        ],
+        [
+          "Rotem",
+          "Orbach"
+        ],
+        [
+          "Rocío",
+          "Rius"
+        ],
+        [
+          "Nikola",
+          "Morton"
+        ],
+        [
+          "Kimberly",
+          "Gilmour"
+        ],
+        [
+          "Ertan",
+          "Mayatepek"
+        ],
+        [
+          "Peter Michael",
+          "Krawitz"
+        ],
+        [
+          "Carsten G.",
+          "Bönnemann"
+        ],
+        [
+          "Juliane",
+          "Bremer"
+        ],
+        [
+          "Felix",
+          "Distelmaier"
+        ]
+      ],
+      "journal": "Brain",
+      "year": "2026",
+      "abstract": "The PIKfyve-FIG4-VAC14 lipid kinase complex generates phosphoinositide PI(3,5)P2. Pathogenic variants in VAC14 and FIG4 cause neurodevelopmental disorders and PIKFYVE has been linked to autosomal dominant fleck corneal dystrophy. We searched for the underlyging, genetic cause of a neurodevelopmental disorder in five affected individuals from three families using exome- or genome sequencing. Cranial MRI images and clinical phenotypes were analyzed. Size, number and acidity of cellular vacuoles were investigated in patient-derived fibroblasts from family 1 using LysoSensor acidophilic probes. Levels of PI(3,5)P2 were quantified in patient-derived fibroblasts from family 1 using high-performance liquid chromatography-tandem mass spectrometry. Pikfyve-mutant zebrafish larvae were injected with wildtype-mRNA or mutant mRNA harboring the PIKFYVE missense variant identified in family 3. Pikfyve-mutant zebrafish larvae were treated with metformin, bafilomycin A1, or rapamycin. We identified biallelic PIKFYVE variants in five affected individuals with hypomyelinating leukodystrophy, brain hyperintensities of inferior olives, thalami, long tracts, and optic nerves. Clinically, they presented with intellectual disability, spasticity, muscular weakness, and nystagmus. Additional features included feeding difficulties, auditory dysfunction, insulin resistance, microcephaly, peripheral neuropathy, and mild creatine kinase elevations. We detected four distinct PIKFYVE variants: three loss-of-function variants (family 1 & 2), and one p.Arg1156Pro missense variant (family 3). The pathogenicity of the p.Arg1156Pro variant was confirmed by phenotypic rescue of pikfyve-mutant zebrafish larvae injected with wildtype-mRNA but not with p.Arg1156Pro mRNA. Consistent with the role of PIKfyve in maintaining endolysosomal homeostasis, patient-derived fibroblasts of family 1 accumulated enlarged, hyperacidic vacuoles and showed a reduced PI(3,5)P2 production upon hyperosmotic stimulation. Exposing pikfyve-mutant zebrafisch larvae to the mTORC1 inhibitor and TRPML1 activator rapamycin attenuated cellular vacuolization, highlighting potential therapeutic approaches. Our findings establish PIKFYVE deficiency as a novel cause of hypomyelinating leukodystrophy and endolysosomal dysfunction.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PIKFYVE"
     },
     {
       "pmid": "42752067",
@@ -4943,6 +5068,28 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Vascularization and innervation"
+    },
+    {
+      "pmid": "40877135",
+      "doi": "10.3399/bjgp25x743097",
+      "zotero_key": "T4MTC5CJ",
+      "title": "Books: From error to ethics: Five essential lessons from teaching clinicians in trouble",
+      "authors": [
+        [
+          "Andrew N.",
+          "Papanikitas"
+        ]
+      ],
+      "journal": "British Journal of General Practice",
+      "year": "2025",
+      "abstract": "Daniel Sokol 2025. From Error to Ethics: Five Essential Lessons from Teaching Clinicians in Trouble. PB: Daniel Sokol, 118, 9.99, 978-1036914233. ![Graphic][1] I am not usually a fan of self-published books. Self-publishing or paying a commercial publisher to host your work electronically or in print often comes at a cost in editorial quality, whether the deficit is in the argument or the typography. This elegant little volume bucks that trend. Though it is ostensibly published by the author and printed in the UK by Amazon, with financial support from the Dr Prem Nath Berry Educational Trust, it is well put together. I really liked this book. It is accessible, engaging, and has important ideas to share. I first got to know Daniel Sokol’s work from his helpful and often entertaining column in the British Medical Journal ( BMJ ). In teaching, I frequently recommend these articles on topics ranging from truthfulness to futility. I was rather disgruntled that he had obtained from the BMJ the … [1]: /embed/inline-graphic-1.gif",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "42482214",
@@ -6083,32 +6230,6 @@
       "subcollection": "PRPH2"
     },
     {
-      "pmid": "41423800",
-      "doi": "10.1097/j.jcrs.0000000000001818",
-      "zotero_key": "MI2JXD7R",
-      "title": "Comment on: Intraocular ointment after phacoemulsification",
-      "authors": [
-        [
-          "Liliana",
-          "Werner"
-        ],
-        [
-          "Nick",
-          "Mamalis"
-        ]
-      ],
-      "journal": "Journal of Cataract & Refractive Surgery",
-      "year": "2025",
-      "abstract": "We read with interest the paper by Qin and Liu on intraocular ointment after phacoemulsification.1 The authors described a patient with retinitis pigmentosa who underwent uneventful phacoemulsification in the right eye, through a self-sealing 3.0 mm clear corneal incision. Although no wound leakage was observed at the conclusion of the procedure, the patient exhibited an oil droplet-like substance in the anterior chamber week 1 postoperatively, likely related to the antibiotic/steroid ointment prescribed after surgery. Six months later, the eye developed redness and pain in association with significant decrease in visual acuity; a mobile sphere was still visible in the anterior chamber. The authors noted that previous cases of intraocular ointment have shown no significant clinical effects, but given the typically milder anterior chamber and vitreous inflammation in patients with retinitis pigmentosa, early surgical intervention to remove retained ointment is crucial to prevent further complications. In 2006, we reported clinical and laboratory findings of 8 cases of toxic anterior segment syndrome (TASS) related to an oily substance in the anterior chamber of eyes after uneventful phacoemulsification with intraocular lens (IOL) implantation performed by the same surgeon through clear corneal incisions.2 Postoperative medications included antibiotic/steroid ointment and pilocarpine gel; each eye was firmly patched at the end of the procedure. On day 1, some patients presented with diffuse corneal edema, increased intraocular pressure (IOP), and an oily film-like material within the anterior chamber coating the corneal endothelium. The others presented with an oily bubble floating inside the anterior chamber (Figure 1). Additional surgical procedures required in this series included penetrating keratoplasty, IOL explantation, and trabeculectomy. Two corneal buttons analyzed histopathologically showed variable thinning of the epithelium with edema, a diffusely thickened stroma, and absence of the endothelial cell layer.Figure 1.: Slitlamp clinical photograph taken during the first postoperative week showing a large bubble floating into the anterior chamber.Later, we described the case of a patient who started to have recurrent episodes of anterior chamber inflammatory reaction, 8 months after uneventful phacoemulsification with IOL implantation.3 Postoperative medications in that case included antibiotic/steroid drops and ointments. Analysis of the explanted lens in that case showed the presence of compounds commonly found in the vehicle of ophthalmic ointments. McDonnell et al. evaluated the dynamics of clear corneal incisions in eyes obtained postmortem.4 Optical coherence tomography was used to image corneal incisions in real time as the IOP in the eyes was varied with an infusion cannula showing that, at low pressures, wound edges tended to gape, starting at the internal aspect of the wound. Shingleton et al. demonstrated that a significant percentage of eyes having clear corneal phacoemulsification had an IOP of 5 mm Hg or less 30 minutes postoperatively.5 Patients included in the above-mentioned studies from our group did not have any particular associated ocular condition. Considering that TASS can potentially occur if ointment gains intraocular access, in our opinion, postoperative drops should be preferred after surgery; furthermore, any intraocular ointment should be irrigated from the eye as soon as observed, regardless if the patient has or not associated conditions such as retinitis pigmentosa.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "BBS2"
-    },
-    {
       "pmid": "",
       "doi": "10.3390/biology15040363",
       "zotero_key": "IFNJKTCC",
@@ -6467,6 +6588,40 @@
       "subcollection": "RARB"
     },
     {
+      "pmid": "42869273",
+      "doi": "10.1016/j.jaapos.2026.105322",
+      "zotero_key": "2HHEEJPI",
+      "title": "Concentric macular rings: ultrawide-field biomarker in pediatric albinism",
+      "authors": [
+        [
+          "Marta",
+          "Caminal-Caramés"
+        ],
+        [
+          "Jaume Catala",
+          "Mora"
+        ],
+        [
+          "Jesús",
+          "Díaz‐Cascajosa"
+        ],
+        [
+          "Eduard Pedemonte",
+          "Sarrias"
+        ]
+      ],
+      "journal": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OCA2"
+    },
+    {
       "pmid": "41680104",
       "doi": "10.5115/acb.25.317",
       "zotero_key": "FHRD6Q6I",
@@ -6529,40 +6684,6 @@
       ],
       "category": "",
       "subcollection": ""
-    },
-    {
-      "pmid": "41531001",
-      "doi": "10.1111/ddg.15973",
-      "zotero_key": "RT9R8FX4",
-      "title": "Congenital cataract and slowly progressing facial skin lesions in a 5‐year‐old boy",
-      "authors": [
-        [
-          "Julia",
-          "Limmer"
-        ],
-        [
-          "Cristina",
-          "Has"
-        ],
-        [
-          "Kilian",
-          "Eyerich"
-        ],
-        [
-          "Anna Caroline",
-          "Pilz"
-        ]
-      ],
-      "journal": "JDDG Journal der Deutschen Dermatologischen Gesellschaft",
-      "year": "2026",
-      "abstract": "A five-year-old boy presented to our outpatient clinic with asymptomatic skin lesions on the right side of his face. The lesions had first appeared on the lateral cheek during the patient's first year of life and had gradually extended medially. At the age of 10 months, a congenital cataract of the right eye had been diagnosed; a lensectomy was performed, and the child subsequently wore a contact lens. Over time, he developed severe amblyopia and an inward strabismus of the right eye. The mother reported that she had premature contractions in the seventh month of pregnancy, whereupon treatment was administered to promote fetal lung maturation. The child was born at term, and further development was normal. There was no clinical evidence of skeletal, dental, or neurological abnormalities. On physical examination, grouped, blaschkoid-arranged, dimple-shaped follicular openings were present on the right cheek with interspersed open and closed comedones (Figure 1a, b). There was no evidence of inflammation, as neither erythema nor swelling was noted. Apart from minimal white dermographism, the remainder of the skin was unremarkable. Your diagnosis? Diagnosis: Nevus comedonicus syndrome (NCS) Nevus comedonicus syndrome (NCS) was first described by Engber in 1978 and is characterized by the presence of a nevus comedonicus associated with systemic manifestations.1 Regarding the frequency of this rare condition, in a 2012 review, 30 of 349 cases (8.6 %) of nevus comedonicus were found to have additional extracutaneous abnormalities,2 while the prevalence of nevus comedonicus is reported as 1 in 45,000 to 100,000.3 Nevus comedonicus is an epidermal nevus with organoid differentiation of the hair follicle and typically appears at birth, is located unilaterally along the Blaschko lines and most often affects the head-and-neck region.2 The clinical morphology of nevus comedonicus in NCS can be divided into three types. The first is the most common comedonal type with dilated follicular openings filled with dark cornified material, and the second is the Selhorst type with giant comedones, cysts, and extensive scarring. The least frequent type has small pits and scattered comedones and therefore resembles atrophoderma vermiculatum.4 This type was present in our patient, making atrophoderma vermiculatum a valid differential diagnosis. Furthermore, acneiform nevus and mild childhood acne were considered, but both display signs of inflammation that were absent in our patient. Happle-Tinschert syndrome was ruled out due to the lack of basaloid follicular hamartoma and other skin findings. Regarding the extracutaneous manifestations of NCS, these are almost exclusively localized ipsilaterally, usually in close proximity to the nevus, and involve the eye and/or skeleton in more than 50 % of cases. It is striking that, in atrophoderma vermiculatum-type NCS, a congenital cataract is the only or the predominant extracutaneous manifestation in approximately 80.0 % of the cases, as was the case in our patient. Concerning skeletal anomalies, digital malformations are most common, and these are disproportionately associated with the comedonal type. Anomalies of the central nervous system, teeth, soft tissue and cardiovascular system are generally less frequent in NCS.4 At the molecular level, Levinsohn et al. identified somatic gain-of-function mutations in the Never in Mitosis A (NIMA)-related kinase 9 (NEK9) gene as the cause of nevus comedonicus in 2016.5 These mutations led to increased phosphorylation at Thr210, which is localized in the activation loop of NEK9. Impaired follicular differentiation was observed with the presence of the interfollicular epidermis marker keratin 10 and an increase of keratin 15, a marker for the hair follicle bulge. Since then, further NEK9 mutations have been identified in the skin of three other patients with nevus comedonicus and in two patients with NCS.6-8 Interestingly, recessive germline loss-of-function mutations in NEK9 lead to severe deformities and malfunctioning of bones and joints, resulting in disorders such as lethal skeletal dysplasia or arthrogryposis.6, 9 The treatment of nevus comedonicus is primarily for aesthetic reasons and/ or to reduce signs of inflammation, although there is no generally recognized and/or effective treatment. Topical retinoids and, to a lesser extent, systemic retinoids, vitamin D derivatives as well as topical keratolytics, such as salicylic acid, have been used. Furthermore, procedural interventions including dermabrasion, surgical excision, and laser therapies may be considered.3 Since no inflammation and only sparse comedones were present in our patient, retinoids, vitamin D derivatives and/or keratolytics were not promising treatment options. Fractional CO2 laser treatment, analogous to atrophic acne scar therapy to induce collagen remodeling and re-epithelialization, was discussed. However, due to the young age of the patient in combination with possible occurrence of pain during the laser treatment, this was considered a future option.10 Genetic testing of a lesional skin sample and genetic counseling were recommended, but these were not performed due to the lack of immediate consequences. None.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "AGK"
     },
     {
       "pmid": "18390130",
@@ -7562,36 +7683,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "26779998",
-      "doi": "10.5483/bmbrep.2016.49.2.006",
-      "zotero_key": "9J3KVS35",
-      "title": "Donating Otx2 to support neighboring neuron survival",
-      "authors": [
-        [
-          "Hyoung-Tai",
-          "Kim"
-        ],
-        [
-          "Alain",
-          "Prochiantz"
-        ],
-        [
-          "Jin Woo",
-          "Kim"
-        ]
-      ],
-      "journal": "BMB Reports",
-      "year": "2016",
-      "abstract": "Mutations of orthodentricle homeobox 2 (OTX2) in human and mice often cause retinal dystrophy and nyctalopia, suggesting a role of OTX2 in mature retina, in addition to its functions in the development of the eye and retina. In support of this, the number of bipolar cells in Otx2＋/- post-natal mouse retina was found to be significantly lower than normal. Degeneration of the cells becomes greater as the mice age, leading to the loss of vision. Especially, the type-2 OFF-cone bipolar cells, which do not express Otx2 mRNA but carry Otx2 protein, are most sensitive to Otx2 haplodeficiency. Interestingly, this bipolar cell subpopulation imports Otx2 protein from photoreceptors to protect itself from glutamate excitotoxicity in the dark. Moreover, in the bipolar cells, the exogenous Otx2 relocates to the mitochondria to support mitochondrial ATP synthesis. This novel mitochondrial activity of exogenous Otx2 highlights the therapeutic potential of Otx2 protein transduction in retinal dystrophy. [BMB Reports 2016; 49(2): 69-70].",
-      "cited_by_count": 6,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CRX"
-    },
-    {
       "pmid": "41711526",
       "doi": "10.1097/iop.0000000000003200",
       "zotero_key": "93RSGHVP",
@@ -8018,36 +8109,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Retinal dystrophies"
-    },
-    {
-      "pmid": "41715899",
-      "doi": "10.12659/ajcr.951257",
-      "zotero_key": "XVHJ2X9P",
-      "title": "Early-Onset Ocular Presentation in Stickler Syndrome Type 1 Due to a COL2A1 Frameshift Variant",
-      "authors": [
-        [
-          "Faisal",
-          "AlQahtani"
-        ],
-        [
-          "Motazz",
-          "Alarfaj"
-        ],
-        [
-          "Abdulelah A.",
-          "Al-Abdullah"
-        ]
-      ],
-      "journal": "American Journal of Case Reports",
-      "year": "2026",
-      "abstract": "BACKGROUND Stickler syndrome is a genetically heterogeneous connective tissue disorder caused by mutations in collagen genes (COL2A1, COL11A1, COL11A2, COL9A1, and COL9A2). It is characterized by a distinctive craniofacial appearance, high myopia, vitreoretinal degeneration, hearing loss, and early-onset arthritis. Type 1, the most common autosomal-dominant form, results from COL2A1 variants and is strongly associated with ocular complications, including high myopia, vitreous degeneration, and retinal detachment. Early recognition of systemic and ocular findings is essential for timely management and genetic counseling. CASE REPORT An 8-year-old Saudi girl presented to the emergency department with sudden deterioration of vision in the right eye. External examination revealed midfacial hypoplasia. Ophthalmologic evaluations, including best-corrected visual acuity measurement, fundus photography, optical coherence tomography, and genetic testing, were performed. Rhegmatogenous retinal detachment was identified and surgically managed. Revision surgery was performed; at 3 years post-revision, best-corrected visual acuity in the right eye had improved to 20/30. The family history included childhood retinal detachment in the patient's father. Clinical exome sequencing identified a novel heterozygous COL2A1 frameshift variant, c.3642delT (p.Gly1215Alafs*12), that introduced a premature stop codon; Sanger sequencing confirmation and segregation analysis were consistent with pathogenicity. CONCLUSIONS This report describes a previously undocumented COL2A1 frameshift variant causing Stickler syndrome type 1. The truncating mutation may be associated with the early-onset, ocular-predominant presentation observed in the present case. This variant expands the known COL2A1 mutational spectrum and underscores the importance of molecular testing for accurate diagnosis and family counseling in pediatric collagenopathies.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARR3"
     },
     {
       "pmid": "",
@@ -9173,28 +9234,6 @@
       "subcollection": "Comparative Anatomy"
     },
     {
-      "pmid": "41581027",
-      "doi": "10.4103/ijo.ijo_2419_25",
-      "zotero_key": "UQWNTHCC",
-      "title": "Eye research in India – evolution, current status, and future",
-      "authors": [
-        [
-          "Gullapalli N",
-          "Rao"
-        ]
-      ],
-      "journal": "Indian Journal of Ophthalmology",
-      "year": "2026",
-      "abstract": "“Somewhere, something incredible is waiting to be known.” – Carl Sagan Advances in eye research over the past three decades have been revolutionary, making a significant impact on the problems of blindness and visual impairment around the world. Progress in discovery and clinical, translational, and public health research have contributed to this success. An increasing emphasis on translational and implementation research has also played a pivotal role in taking the benefits of this progress to the people who need them the most. Better elucidation of the underlying mechanisms contributing to vision loss and blindness led to effective methods of treatment and enhanced the precision of surgical techniques, resulting in bigger impact. The parallel improvement in systems of eye care delivery have multiplied this effect. Together, all these advancements have helped in making an informed eye health policy. Most impactful examples of this success include elimination of blinding onchocerciasis, trachoma, and vitamin A deficiency that have plagued humanity for generations. The combination of multidisciplinary research, cross-sectoral collaborations, public–private partnerships, and better systems of delivery have contributed to India’s success. Among these, while India is spared from the ravages of blinding onchocerciasis, millions were affected by trachoma and vitamin A deficiency-related blindness. In 1956, for example, the Trachoma Control Pilot Project by the Indian Council of Medical Research (ICMR), the World Health Organization (WHO), and other UN bodies included bacteriological studies on causes and prevention of trachoma and provided critical epidemiological data, estimating that 3 million people were blind due to the condition. It led to the national trachoma control program in 1963, leading to its ultimate elimination as a public health scourge in 2024. Yet another example was the 6-monthly megadose of Vitamin A in children to combat vitamin A deficiency-induced sight loss. However, infections and nutritional deficiencies are the lowest hanging fruit when it comes to research-led disease eradication. For cataract, which continues to be the leading cause of blindness worldwide, surgery remains the mainstay of treatment. Extensive research was conducted to better understand its underlying mechanisms and causes, with large support from the World Health Organization (WHO) and the National Eye Institute of the National Institutes of Health (NIH) in the United States. Indian researchers participated in these studies leading to a better understanding of the underlying mechanisms of cataract formation and their risk factors. However, this knowledge did not result in any interventions for prevention or assisting the progression of cataract. Large-scale clinical research studies, both retrospective and prospective, have helped in the refinement of surgical techniques with better outcomes. Evolution of Eye Research Between the 1950s and 70s, eye research was confined to clinical case studies, clinical series, and retrospective studies along with epidemiological research. Deeper investments were needed in basic research that could provide foundational knowledge on disease pathogenesis and cure. This began only in the early 1970s with the creation of some basic research laboratories, initiated by the All-India Institute of Medical Sciences (AIIMS), New Delhi, and the Post Graduate Institute of Medical Education and Research (PGIMER), Chandigarh. These institutions invested in infrastructure for the laboratories, recruitment of qualified scientists and other supporting staff, and other ancillary facilities. A few of the other national research organizations and universities were marginally involved in collaboration along with eye hospitals, whose role was limited to the supply of clinical samples. The near absence of a research culture in medical colleges across the country, with rare exceptions, has been a great impediment to advance medical research, in general. For eye research, the limiting factors included a lack of interest among the basic scientists, negligible involvement of clinicians in research, and sparse support from governmental and nongovernmental institutions for eye research. Public-supported Basic Research: AIIMS, New Delhi and PGIMER Chandigarh The first institution to initiate basic research was the department of ophthalmology at AIIMS, headed by Prof L. P. Agarwal. His visionary leadership led to the creation of the Dr Rajendra Prasad Centre for Ophthalmic Sciences (RP Centre) at AIIMS. His blueprint for research had all the components: basic, clinical, and population-based research. The focus areas included biochemistry, microbiology, and pathology led by highly qualified individuals. In addition, RP Centre strongly promoted the concept of “Clinician–Scientists.” Infrastructure included well-equipped laboratories, a library with all the current journals and books, and animal facilities, along with other qualified human resources. This conducive environment led to greater research productivity by both the basic scientists and the clinician-researchers. Ophthalmology residents at the center were encouraged to take up an active research project, as part of their training, most of which ended in good quality publications. In addition, RP Centre had the distinct advantage of being part of a multidisciplinary, highly regarded, research institution like AIIMS. Over the years, research expanded into every area of ophthalmology with numerous well-funded projects along with a good track record of publications. Successive leaders continued to build on the strong foundation laid earlier. PGIMER in Chandigarh was another institution engaged in research in the early 1980s. Dr S. D. Paul, part of a founding faculty of five eminent ophthalmologists, introduced retinal surgery at PGIMER and published the first 100 cases from India in 1965. A major epidemiology and rehabilitation program was conducted, with support from the American Department of Health and Social Welfare and ICMR, from 1968 to 1972. This journey continued expanding into all areas of eye research under successive leaders. Particularly noteworthy are the contributions to ocular tuberculosis, making it a global leader. Uveitis, glaucoma, retinal diseases, and corneal diseases are other areas where PGIMER made important contributions. This has multiplied following the development of a dedicated eye center under the dynamic leadership of Prof. Amod Gupta, a globally reputed clinician-scientist. The Not-for-profit Revolution in Eye Research A transformation in the Indian eye research landscape began to take shape in the late 1980s and 90s with not-for-profit, private institutions beginning to play a pivotal role in advancing eye research in India. Through committed leadership and management, and an enabling environment, for the promotion of research Sankara Nethralaya in Chennai, the Aravind Eye Care System in Madurai and the L V Prasad Eye Institute (LVPEI) in Hyderabad took a lead in this important development. Each of them created a vibrant research segment encompassing all major divisions of eye research. Sankara Nethralaya, founded by Dr. S.S. Badrinath, started research activity during mid 1980s and made good progress leading to the creation of a dedicated research center by 2008. Sankara Nethralaya made deep investments in all aspects of eye research, with some seminal epidemiological studies in diabetic retinopathy and glaucoma. Other major initiatives included stem cell biology, genetics, molecular biology, biochemistry, and nanotechnology. Ocular tuberculosis, retinoblastoma, and uveitis have been some of the focus areas that have made the organization a global leader. The institution has an impressive record of over 3000 publications and has awarded 90 PhDs till date. True to its foundational work, Aravind Eye Hospital’s research started with the work on social determinants of compliance to cataract surgery in 1979. This led to its notable interventions in the process of care, which helped to make cataract surgery accessible to millions. Globally recognized for its efforts in bringing down the prices of intraocular lenses, Aravind’s research then extended to clinical trials on different types of IOLs and more. At the turn of century, Aravind turned its attention to basic research with full commitment and is now involved in multiple areas of eye research. The dedicated research institute eponymous with its legendary founder, Prof. G. Venkataswamy, has become a major presence on the eye research map of India. Aravind’s pioneering work identified solutions to deliver eye care on a large scale. The L V Prasad Eye Institute (LVPEI) was founded in 1987 as an academic eye care institution with research as an integral arm. The leadership was fully committed to achieving this objective and started creating all the ingredients needed for a research culture – appropriate infrastructure, high-quality equipment, supportive operational systems, adoption of best practices of leading academic centers, library with access to all journals and reading material, forum for frequent interactions between all groups of researchers, identifying and nurturing talents, and giving the required autonomy and protected research time for clinicians. Fostering collaborations with local eye researchers and continuing links with former collaborators was another important step. Clinical research was the first component followed by clinical trials for which international collaborations helped immensely. Basic research started with microbiology, biochemistry, and molecular genetics and subsequently led to many areas of biology including stem cell research, immunology, and a large component of visual psychophysics. New surgical techniques with good outcomes have also been described. All this research had a strong translational component. Public health research formed another significant component with multiple arms. Financial support was obtained from multiple international organizations, governmental agencies, and individual philanthropists, both national and international. In terms of productivity, the record included over 5000 peer-reviewed publications, awarded 87 PhDs and the recipient of 4 Shanti Swarup Bhatnagar (SSB) awards, 1 J.C. Bose Fellowship, several awards at ARVO, and other international meetings justifying the investment in research. Another encouraging development is the initiation and steady growth of research activity at the Shroff Charity Eye Hospital in Delhi. In a short period, considerable progress was achieved in areas of clinical, basic, and public health research. This development in this century-old institution augurs well for the future in encouraging similar institutions of long standing. Eye Research in the Private Sector In the private, for-profit sector, the leading example of investing in research is that of Narayana Nethralaya. The organization began investing in research around 2009, and in the recent times, some important advances were made by this vibrant group, particularly in gene therapies and stem cells. This example is worthy of emulation by other for-profit organizations. More ophthalmologists in private practice settings are involved in clinical research, innovating new surgical techniques and enhancing India’s image at national and international meetings. This is a welcome trend. When more of this work ends up in publications, India’s global standing will receive a big boost. To sum up, India’s contributors to eye research cover a wide range of eye care problems. Notable among them include cataract surgery, high-volume delivery of care, surgical techniques, infections, stem cell biology and transplantation, myopia, visual psychophysics, and epidemiology and population health. Indian Eye Research Group – ARVO India During LVPEI’s formative years, research initiatives were being planned even while the construction of the building was in progress. A survey of individuals and institutions in Hyderabad already engaged in eye research was done, and Prof. D. Balasubramanian at the Centre for Cellular and Molecular Biology (CCMB) was identified as a suitable collaborator because of his work with crystallins and their role(s) in cataract formation. Others who were also involved in eye research included Dr. Seetharam Bhat at the National Institute of Nutrition and Prof. J S Murthy at the Institute of Genetics, Osmania University. All of them were in active collaboration with the National Eye Institute of NIH. After initial discussions among these groups, a collaborative network was formed, called the “Hyderabad Cataract Research Group (HCRG),” which initially met every month. As more people involved in other areas of eye research got together through this collaboration, the HCRG was broadened to become the “Hyderabad Eye Research Group.” This collaboration was quite productive, leading to presentations at international eye research meetings and publications. A few years later, the idea of inviting all those actively involved in eye research across the country led to the formation of the “Indian Eye Research Group (IERG),” which had its first meeting in 1995. Initially, it was LVPEI, Sankara Nethralaya, Aravind Eye Hospital, and the CCMB, and later, Dr. Rajendra Prasad Centre for Ophthalmic Sciences, Iladevi Cataract Research Centre, PGI-Chandigarh, and Narayana Nethralaya joined in. IERG gradually increased in size with more members participating and ultimately became the India Chapter of the Association for Research in Vision and Ophthalmology (ARVO) in 2011. Around 2001, Dr. Paul Sieving, soon after he took over as the Director of National Eye Institute in the United States, had discussions with LVPEI that led to the formation of US–India bilateral eye research collaboration. Prof. D. Balasubramanian from India and Dr. Leon Ellwein from the US led this effort in the early years. This collaboration resulted in some basic and enhanced funding from both sides and cemented partnerships between US and Indian institutions as well as among individual researchers from both countries. Current Status Today, we have many key research institutions in the country. Several state medical colleges and private institutions are also getting increasingly active. We have largely succeeded in securing funding from key Indian government bodies promoting scientific research and innovation, like the ICMR, CSIR, DBT (including BIRAC), DST, and SERB (now ANRF), and from global entities like the Welcome Trust, NIH, and The Gates Foundation. However, long-term, flexible, high-value grants remain limited compared to other countries. Encouragement from the government also came in the form of Bhatnagar awards, JC Bose fellowship, and many DBT-IA fellowships awarded to ophthalmology researchers. Global Standing According to the latest Stanford global ranking of scientists based on lifetime citations, 27 Indian eye researchers rank between 321 and 1564. While in comparison, researchers from USA hold 73 of the top 100 ranks and 645 of the top 1000. The citation data for 2023 projected a more encouraging picture, with 55 Indian researchers ranked between 61 and 2854, with one ophthalmologist in the top 100, nine in the top 500, and 28 in the top 1000. This reflects a near doubling of India’s contributions in recent years, although there remains a significant gap with the West. From the perspective of institutions, according to SCIMAGO’s institutional rankings, one Indian institution featured among the top 10 and another in the top 25 globally. Additionally, five other Indian institutions are listed among the top 1000. In volume, India’s presence in eye research in Asia is second only to China and Japan in terms of volume but still trailing significantly in terms of high-impact output. Globally, Indian eye research ranks among the top ten by volume but not by average citations or H-index. As the Indian eye researchers have become more visible on the global stage, increasing numbers are being recognized through various honors and awards. At the ARVO meeting this year in Salt Lake City, Indian researchers were recipients of a significant number of awards including named lectures, and fellowships, in addition to chairing many sessions and getting elected to many committees. All these developments are encouraging, motivating eye researchers to strive harder, inspiring more of the younger generation to aspire for an active research career and more ophthalmologists seeking a clinician-researcher career path. Key Challenges and Opportunities Challenges include a persistently limited research culture in many academic centers and medical colleges, low clinician-researcher density, infrastructure gaps, and low and inconsistent funding. India has a large clinical base, an emerging ecosystem for biotech innovation, and strong international collaborations, and leveraging that advantage offers a great opportunity. With growing government and private investment in health research, increasing international collaborations, and a new generation of clinician-researchers, eye research in India is well positioned to make an increasing number of relevant contributions. Further strengthening of our training pathways, research governance, and equitable funding mechanisms will be critical to this success. All India Ophthalmological Society (AIOS) has an opportunity to play a catalytical role in enhancing the research capacity in the country, by organizing training programs, supporting research fellowships, creating a fund to support early-stage researchers, and playing a strong advocacy role with the government and foundations for supporting eye research. Globally, as the funding for science is receding in advanced countries, India has an opportunity to fill some of this With enhanced governmental and as promoting for reputed researchers from creation of to scientists among the Indian and the of a culture of research in the of ophthalmology at institutions make this a medical advances have helped millions of people these to decades of investment in medical of the lack of of the of some of the institutions be and the provided some institutions not be the American After a career in the US as an academic in 1987 Dr. the L V Prasad Eye Institute in India years and is the of that L V Prasad Eye Institute is a of eye with advanced training for ophthalmologists and eye health an eye research rehabilitation development and quality eye care for Dr. his basic medical in and his training at Dr. Rajendra Prasad Centre for Ophthalmic Sciences, All India Institute of Medical Sciences, New Delhi. In the he at of in and at the of of where he continued on the faculty and Research from the of and of New Dr. of Health Sciences, of and India. of of 100 of the most eminent in ophthalmology in the world. to many in the and over in international journals of several international journals of in the year of of of the of Vision million of the of the of and of of the of India. of National of Medical Other – and of the and of the for of in which role played a pivotal role in and the global to blindness along with – The to in with World Health of Council of Ophthalmology in many National and eye care of L V Prasad Eye India. of many national and international and from Council of Ophthalmology for global leadership in eye from for made to the of from Association for Research in Vision and Ophthalmology for as a ophthalmologist and World from Society the first for to the of of the of of the Ophthalmology Association of Eye of Asia at the Asia Society of Asia Foundation. by the Council of Ophthalmology into of at the meeting of American Society of Cataract and in ophthalmologists from around the have been into the of in the past three from Asia of Ophthalmology for contributions to eye care in Asia from American of by New from American of named around the in scientific meetings and awards from the All India Ophthalmological awards from the Asia of other awards from both National and as a of the of for to the of and to in public and by of of by All India Ophthalmological – created by the All India Ophthalmological Society in the year of the first five of all times, in The and among the top 10 ophthalmologists in the whose work will delivery of eye care across the in the through the of the Asia of",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARR3"
-    },
-    {
       "pmid": "39567705",
       "doi": "10.1038/s41433-024-03481-8",
       "zotero_key": "KEBQ8SV8",
@@ -10163,72 +10202,6 @@
       "subcollection": "PRR12"
     },
     {
-      "pmid": "16123401",
-      "doi": "10.1167/iovs.05-0111",
-      "zotero_key": "VV58JDFT",
-      "title": "Genotyping Microarray (Disease Chip) for Leber Congenital Amaurosis: Detection of Modifier Alleles",
-      "authors": [
-        [
-          "Jana",
-          "Zernant"
-        ],
-        [
-          "Maigi",
-          "Ku¨lm"
-        ],
-        [
-          "Sharola",
-          "Dharmaraj"
-        ],
-        [
-          "Anneke I. den",
-          "Hollander"
-        ],
-        [
-          "Isabelle",
-          "Perrault"
-        ],
-        [
-          "Markus N.",
-          "Preising"
-        ],
-        [
-          "Birgit",
-          "Lorenz"
-        ],
-        [
-          "Josseline",
-          "Kaplan"
-        ],
-        [
-          "Frans P. M.",
-          "Cremers"
-        ],
-        [
-          "Irene",
-          "Maumenee"
-        ],
-        [
-          "Robert K.",
-          "Koenekoop"
-        ],
-        [
-          "Rando",
-          "Allikmets"
-        ]
-      ],
-      "journal": "Investigative Ophthalmology & Visual Science",
-      "year": "2005",
-      "abstract": "PURPOSE: Leber congenital amaurosis (LCA) is an early-onset inherited disorder of childhood blindness characterized by visual impairment noted soon after birth. Variants in at least six genes (AIPL1, CRB1, CRX, GUCY2D, RPE65, and RPGRIP1) have been associated with a diagnosis consistent with LCA or early-onset retinitis pigmentosa (RP). Genetically heterogeneous inheritance complicates the analyses of LCA cases, especially in patients without a family history of the disorder, and conventional methods are of limited value. METHODS: To overcome these limitations, arrayed primer extension (APEX) technology was used to design a genotyping microarray for early-onset, severe retinal degenerations that includes all of the >300 disease-associated variants currently described in eight genes (in addition to the six just listed, the early-onset RP genes LRAT and MERTK were added). The resultant LCA array allows simultaneous detection of all known disease-associated alleles in any patient with early-onset RP. The array was validated by screening 93 confirmed patients with LCA who had known mutations. Subsequently, 205 novel LCA cases were screened on the array, followed by segregation analyses in families, if applicable. RESULTS: The microarray was >99% effective in determining the existing genetic variation and yielded at least one disease-associated allele in approximately one third of the novel patients. More than two (expected) variants were discovered in a substantial fraction (22/300) of the patients, suggesting a modifier effect from more than one gene. In support of the latter hypothesis, the third allele segregated with a more severe disease phenotype in at least five families. CONCLUSIONS: The LCA genotyping microarray is a robust and cost-effective screening tool, representing the prototype of a disease chip for genotyping patients with a genetically heterogeneous condition. Simultaneous screening for all known LCA-associated variants in large LCA cohorts allows systematic detection and analysis of genetic variation, facilitating prospective diagnosis and ultimately predicting disease progression.",
-      "cited_by_count": 178,
-      "centrality": 0,
-      "source_tags": [
-        "source:citation"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CRB1"
-    },
-    {
       "pmid": "42507518",
       "doi": "10.4103/ijo.ijo_3349_25",
       "zotero_key": "6DGNE7ZZ",
@@ -11159,6 +11132,80 @@
       "subcollection": "Gyrate atrophy of choroid and retina"
     },
     {
+      "pmid": "42847173",
+      "doi": "10.1016/j.gim.2026.102750",
+      "zotero_key": "NG8KFHSQ",
+      "title": "Individuals heterozygous for LTBP2 loss-of-function variants have an increased risk of adult-onset primary open-angle glaucoma",
+      "authors": [
+        [
+          "Mauricio",
+          "Garcia"
+        ],
+        [
+          "Yuyang",
+          "Luo"
+        ],
+        [
+          "Jyoti K.",
+          "Lama"
+        ],
+        [
+          "Terri L.",
+          "Young"
+        ],
+        [
+          "Elizabeth J.",
+          "Rossin"
+        ],
+        [
+          "Louis Robert",
+          "Pasquale"
+        ],
+        [
+          "Pirro G.",
+          "Hysi"
+        ],
+        [
+          "Anthony P.",
+          "Khawaja"
+        ],
+        [
+          "David Anthony",
+          "Mackey"
+        ],
+        [
+          "Jamie E.",
+          "Craig"
+        ],
+        [
+          "Emmanuelle",
+          "Souzeau"
+        ],
+        [
+          "Inas F.",
+          "Aboobakar"
+        ],
+        [
+          "Ayellet V.",
+          "Segrè"
+        ],
+        [
+          "Janey L.",
+          "Wiggs"
+        ]
+      ],
+      "journal": "Genetics in Medicine",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CYP1B1"
+    },
+    {
       "pmid": "",
       "doi": "10.1076/opge.23.2.71.2214",
       "zotero_key": "5DXA4VQK",
@@ -11311,56 +11358,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
-    },
-    {
-      "pmid": "42590749",
-      "doi": "10.3390/s26154974",
-      "zotero_key": "55G8APZA",
-      "title": "Inscription of Quasi-Sinusoidal Surface Relief Optical Gratings in ZEONOR™ Cyclic Olefin Polymer by a 10.5 MeV N4+ Ion Microbeam at Low Implanted Fluences",
-      "authors": [
-        [
-          "I.",
-          "Bányász"
-        ],
-        [
-          "Gyula",
-          "Nagy"
-        ],
-        [
-          "I.",
-          "Rajta"
-        ],
-        [
-          "Vladimír",
-          "Havránek"
-        ],
-        [
-          "András József",
-          "Laki"
-        ],
-        [
-          "Miklós",
-          "Kellermayer"
-        ],
-        [
-          "Ágnes Nagyné",
-          "Szokol"
-        ],
-        [
-          "Robert",
-          "Magnusson"
-        ]
-      ],
-      "journal": "Sensors",
-      "year": "2026",
-      "abstract": "Direct writing of microstructures in ZEONOR™ cyclic olefin polymer, using a high-energy medium-mass ion microbeam, was proposed and demonstrated. Microbeams of 10.5 MeV N4+ ions were used. The implanted fluences were between 2.5·1012 and 2.0·1013 ion/cm2. The microstructures were surface relief optical gratings of quasi-sinusoidal profile and grating constant of 4, 8 and 16 µm. Peak-to-peak amplitudes of the gratings ranged from 10 to 90 nm. Measured profiles of the gratings were Fourier-analyzed. Highest measured net first-order diffraction efficiencies were between 25 and 29% at wavelengths of 405 and 640 nm, very close to the theoretical maximum of 33%, calculated with the Raman-Nath equation. This method could be used for the production of micro- and nanostructures in cyclic olefin polymers and copolymers and other polymers as well, either for the direct production of label-free biosensors and other devices, or to produce masters for hot stamping of such structures.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "NAA15"
     },
     {
       "pmid": "42343637",
@@ -11775,40 +11772,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Anomalies du developpement oculaire, Ocular developmental anomalies"
-    },
-    {
-      "pmid": "41201158",
-      "doi": "10.1097/hep.0000000000001502",
-      "zotero_key": "88RFWE9T",
-      "title": "Introducing Saul J. Karpen, MD, PhD, the 77th President of AASLD",
-      "authors": [
-        [
-          "Paul A.",
-          "Dawson"
-        ],
-        [
-          "Marco",
-          "Arrese"
-        ],
-        [
-          "Michael",
-          "Trauner"
-        ],
-        [
-          "Sanjiv",
-          "Harpavat"
-        ]
-      ],
-      "journal": "Hepatology",
-      "year": "2025",
-      "abstract": "It is our honor and distinct pleasure to introduce Saul J. Karpen, MD, PhD, as the 77th president of the American Association for the Study of Liver Diseases (AASLD), and notably the 5th pediatrician to serve as president. Saul’s impact in the field of hepatology has been enormous and includes contributions to clinical practice, basic science research, translational research, national service, and, in his role, as a mentor. As colleagues who have worked with Saul and/or trained under Saul’s guidance, we are grateful for the opportunity to share a personal side of our society’s next president. BACKGROUND, EDUCATION, AND TRAINING Saul was born in Norwood, New Jersey, on August 11, 1960. His father, Seymour (“Sy”) Karpen, was born in the Bronx, joined the army in 1943 at age 17 in lieu of going to college, fought and was wounded in the Battle of the Bulge, and then returned home with a Bronze Star and Purple Heart. He married Saul’s mother, Leah, a librarian and NYU graduate, and moved to the small New Jersey town of Norwood (pop 4000) to help raise a family and run a small local company—“Karpen’s Roofing and Sheet Metal.” This is where Saul spent his formative years, growing up with an older sister (who became an astrophysicist and now heads the Space Weather Lab at the NASA Goddard Space Flight Center in Maryland) and brother (who became a molecular biologist and is now a prominent genetic researcher at UC Berkley). Sy Karpen’s army stories ingrained in Saul the importance of service and a desire to make a difference, whereas working alongside his father introduced Saul to the world of technology and engineering. Saul remembers a childhood of making construction designs, running heavy machinery, cutting sheet metal, and “fixing things.” It was these experiences and a “fixing-of-problems” mentality that led him to apply to engineering schools, ultimately choosing the University of Pennsylvania’s biomedical engineering program. At Penn, Saul discovered the biology classes were as much fun (and easier) than his engineering courses. He jumped at the opportunity to do undergraduate research in orthopedics and material sciences, applying his sheet metal skills to design better artificial joints. Perhaps as important for his future path, he and his friends would frequent a McDonald’s at the nearby Children’s Hospital of Philadelphia, where Saul was introduced to pediatric physicians. Although not yet differentiated (adult vs. pediatric medicine), Saul became hooked on applying engineering to medicine and looked to Medical Scientist Training Programs to pursue that path. Saul joined the MD-PhD program at Mt. Sinai in 1982, where his interests quickly turned to the exciting and rapidly developing field of molecular biology. Saul dabbled in aspects of liver regeneration in his rotations but finally found his PhD home in hepatology with George Acs, MD, PhD. Acs’s lab was the first to culture HBV in any cell line, and Saul undertook an engineer’s approach to the ambitious project of trying to understand how HBV gene expression was controlled. Saul’s work ultimately identified 2 upstream sites for transcription factors (one was HNF1α, whereas the other site bound a transcription factor that would become a focus of many years of future investigation in the nuclear receptor field). Notably, his research in Acs's lab was reported in the first of many papers that Saul would publish in Hepatology. Saul also took advantage of the opportunity to learn from the remarkable concentration of prominent hepatologists at Mt Sinai, which included Hans Popper, MD (14th President of AASLD), Fenton Schaffner, MD (28th President of AASLD), and Paul Berk, MD, FAASLD (40th President of AASLD). For those of us who have worked with Saul, we know from his own recollections that the interactions with Hans Popper, the undisputed father of modern hepatology, were fortunate and the most meaningful as a medical and graduate student. Saul remembers being inspired by Dr Popper, who, in the late stages of his career, would sit in the front row of a seminar on the most up-to-date aspects of molecular biology and ask the best questions. In fact, one of the most treasured publications for Saul is not in a high-impact journal paper indexed by PubMed. Rather, it is an article in the proceedings of a Falk Symposium titled “Regulation of hepatitis B virus in liver cells and culture\", in which Saul was a co-author with Hans Popper. CLINICAL AND SCIENTIFIC CAREER Saul officially began his academic career in hepatology at Yale, first as a pediatric resident, followed by a fellowship and then a faculty appointment in 1994. Saul intentionally chose to focus on children because of the relative dearth of research on childhood diseases. These were vibrant years in another epicenter of leaders in the field. Saul was drawn by the array of talent in liver research at Yale, principally to the lab of Fred Suchy (54th President of AASLD), who was chief of the Pediatric GI/Liver division. For his research, Saul applied his molecular biology skills to identify regulatory sequences and transcription factors (including a nuclear receptor) controlling expression of the bile acid transporter NTCP. At Yale, Saul also had the benefit of mentorship and collaborations with other Yale hepatology luminaries in addition to Fred Suchy, including James Boyer (31st President of AASLD), Roberto J. Groszmann (recipient of the 2002 Distinguished Achievement Award for the AASLD), and Michael Nathanson (former editor of Hepatology). The friendships Saul made during these critical early-career years have been the closest and most enduring to date. Benjamin Shneider, MD (a major thought leader in pediatric hepatology) and Sundararajah Thevananther, PhD (who would later co-build Saul’s research program in Houston) were training at Yale, as were Michael Trauner, MD, Marco Arese, MD, and Emmanuel Gonzales, MD. Saul’s groundbreaking work on transcriptional regulation of NTCP soon attracted the attention of younger talent and postdoctoral fellows from other research groups and became the center of collaborative efforts across labs at Yale at that time. The quality of Saul’s mentorship was already apparent at this early stage of his career, as he promoted the careers of younger colleagues by selflessly offering his support and sharing his ideas. Saul, Michael Trauner, and Marco Arrese engaged in close research collaborations concerning the transcriptional regulation of NTCP in inflammation-induced cholestasis, which later laid the foundation for many other seminal papers from Saul’s lab on this central aspect in the pathogenesis of sepsis and TPN-associated cholestasis. Through this early work, Saul, Michael, and Marco developed an enduring friendship, reflected in subsequent collaborative endeavors and periodic inter-institutional visits. Each time they meet, a photograph is taken, documenting their shared history over the last 30 years (Figure 1). Apart from his passion for science, there is always time for enlightening discussions about history and contemporary literature, where Saul shares his wonderful sense of humor which is greatly appreciated by colleagues across the globe.FIGURE 1: Saul Karpen, Marco Arrese, and Michael Trauner in pictures over the years, capturing the evolution of friendships and collaborations planted in hepatology and blossoming through AASLD. (A) 1997 in New Haven, Saul is left; (B) 2011 in Vienna, Saul is left; and (C) 2024 in San Diego at The Liver Meeting, Saul is middle.In 1999, Saul made a life-changing trip to Texas Children’s Hospital in Houston, by invitation from the leading pediatrician at the time, Ralph Feigin, MD. Unbeknownst to Saul, Ralph Feigin was always one to aggressively pursue talent when he saw it. This visit, where Saul gave a talk on nuclear receptors and cholestasis, was followed by a series of invitations from Ralph Feigin. Ultimately, Saul was convinced to move and start anew in a large but often academically-overlooked city and build a liver program for the nation’s largest children’s hospital. From 2000 to 2011, Saul teamed up with a new group of colleagues in Houston that spanned clinical and research expertise, including John Goss, MD (transplant surgeon), Milton Finegold, MD (pediatric liver pathologist), John Vierling, MD (57th President of AASLD), Mary Brandt, MD (pediatric surgeon), Blaine Hollinger, MD (hepatitis B expert), and David Moore, PhD and Bert O’Malley, PhD (nuclear receptor biologists). In this environment, Saul’s clinical and research programs accelerated. He helped build the largest pediatric liver transplant center in the country, which to this day still consistently ranks #1 or #2 in pediatric transplant volume in the United States. Saul’s group was also instrumental in identifying plant sterols in TPN as the inciting agent in TPN-associated cholestasis, leading to seminars given around the world, which have since changed daily NICU practice and led to dramatic reductions in morbidity and mortality in premature infants. In Houston, Saul also began his work on the serious liver disease biliary atresia. He started by securing Baylor’s spot in the ChiLDReN Network, an NIH-sponsored consortium led by Ronald Sokol, MD (69th President of AASLD), to study cholestatic liver diseases. In this setting, Saul helped increase enrollment in the landmark randomized-controlled trial for steroids, a study led by Jorge Bezerra, MD (71st President of AASLD). Saul also examined the large number of patients at Texas Children’s Hospital to make important clinical observations about biliary atresia that had not been appreciated. Saul helped establish that biliary atresia starts in utero, rather than after birth, which had been previously thought. Saul also helped to identify the cardiac effects of high bile acids in biliary atresia and other forms of cholestasis, which he and his colleagues were the first to term “cholecardia.” In 2011, Saul accepted the position as Professor, Division Chief of Pediatric Gastroenterology, Hepatology and Nutrition, and Raymond F. Schinazi Distinguished Biomedical Chair at the Emory School of Medicine. In 2014, he partnered with Paul Dawson, PhD, a world expert in bile acid transport and metabolism, to form a joint laboratory. The goal of the “Saul-Paul Lab” was to understand how changes in bile acid homeostasis contribute to hepatic and metabolic diseases and to exploit those insights to develop new preventative measures and therapies. This work highlighted the role of retained bile acids in liver disease pathology and the mechanism of action of ileal bile acid transport inhibitors, which are now in clinical use in pediatric patients with Progressive Familial Intrahepatic Cholestasis and Alagille Syndrome. Saul also immediately capitalized on Emory’s strong genetics program. He created the now ubiquitous “EGL Emory Genetics Panel,” which industry has since adopted and provided free of charge for any baby with cholestasis. The service has transformed care and catapulted the field of neonatal cholestasis into the ever-expanding world of genetic diagnoses. Saul’s group also identified a potential genetic cause of biliary atresia—a mutation in the ciliopathy gene PKD1L1—and created a corresponding mouse model, which was recently lauded as a breakthrough in a recent NIDDK report. Finally, during his time at Emory, Saul partnered with industry to lead a worldwide trial for ileal bile acid transporter inhibitors in biliary atresia. Though the results of the trial are still not known, these efforts will undoubtedly serve as a model for how to collaborate with pharmaceutical companies to test therapies for biliary atresia in the future. Saul’s drive to contribute and serve now continues at the Stravitz-Sanyal Institute for Liver Disease and Metabolic Health at Virginia Commonwealth University (VCU; Arun Sanyal, Director, 61st President of the AASLD), where he recently accepted the position of Chief Scientific Officer. To VCU, Saul brings a wealth of knowledge and experience guiding highly successful collaborations, now with the added goal of advancing both pediatric and adult hepatology. He also brings invaluable insights gained from his scientific contributions supported by continuous support from the NIH in the form of K08, R01, R21, and U01 grants and disseminated in >200 publications and multiple textbook chapters, which include transcription control of NTCP, nuclear receptor involvement in cholestasis diseases, prevention of TPN-associated cholestasis, identification of an early onset for biliary atresia, characterization of bile acid effects on the heart, therapeutic targeting of bile acid transporters for liver disease, evaluating cholestatic infants through genetic testing, and creating a genetic mouse model for biliary atresia. He also brings many of the other contributions through collaborations with academic societies such as AASLD, NASPGHAN, AAP/SPR, AGA, the Cystic Fibrosis Foundation, and Transplant Societies, which have involved giving and/or organizing talks that have guided clinicians caring for countless numbers of children afflicted by liver disease. PERSONAL LIFE AND FAMILY Throughout his journey through hepatology, Saul has been joined by some very faithful fellow-travelers. Saul’s daughter Emily was born in 1999 in New Haven, and his son Matthew was born in 2002 in Houston. Saul could be found just as often at their swim meets as at lab or in clinic in the 2000s. Emily is now off to a successful career start as a lawyer in Los Angeles, while Matthew plans to follow in his father’s footsteps in medicine. In 2022, Saul and Binita Kamath, MBBChir, married in London. Binita is the division chief of Pediatric Gastroenterology, Hepatology, and Nutrition at the Children’s Hospital of Philadelphia, the same place a college-aged Saul would visit for fast food and to learn about medicine. Binita’s clinical and research focus is on Alagille Syndrome, a disease that in many ways is complementary to biliary atresia (bile ducts are missing inside the liver in Alagille Syndrome, and bile ducts are missing outside the liver in biliary atresia). Both have dynamic personalities, and given that Binita and Saul are leaders in the study of their respective diseases, many younger pediatric hepatologists have fondly and informally dubbed Binita and Saul as the current “Queen and King” of pediatric hepatology. VISION FOR THE AASLD Saul assumes the Presidency in 2026 as one of only 5 pediatricians in the Society’s 70+ year history. He credits AASLD for being a home during his formative years, starting with interactions with Hans Popper as a budding MD/PhD student. Saul sees the presidency as an incredible honor, is in awe of the current membership, and recognizes the enormous responsibility to influence the next generation of hepatologists. Saul’s vision is to help AALSD equip members now and in the future with the best information possible, to fill scientific gaps and provide the best possible care to those suffering from liver diseases.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "BBS1"
     },
     {
       "pmid": "42508613",
@@ -13269,38 +13232,26 @@
       "subcollection": "Middle coat"
     },
     {
-      "pmid": "23557583",
-      "doi": "10.3760/cma.j.issn.0366-6999.20121691",
-      "zotero_key": "25DJ83JC",
-      "title": "Moxifloxacin-induced multiple organ dysfunction possibly related to mutations in several genes involved in drug metabolism pathways",
+      "pmid": "41542723",
+      "doi": "10.1002/mds.70203",
+      "zotero_key": "SIBSHEKR",
+      "title": "Movement Disorders Thanks Journal Reviewers from 2025",
       "authors": [
         [
-          "Yongjiu",
-          "Xiao"
-        ],
-        [
-          "Longxiang",
-          "Su"
-        ],
-        [
-          "Xin",
-          "Zhang"
-        ],
-        [
-          "Lixin",
-          "Xie"
+          "A. Jon",
+          "Stoessl"
         ]
       ],
-      "journal": "Chinese Medical Journal",
-      "year": "2013",
-      "abstract": "Quinolones have been used to treat various infectious diseases. The addition of fluorine atoms has allowed for extensive modifications of structures, which has enhanced the spectrum of activities and oral bioavailability of quinolones and resulted in the creation of fluoroquinolones.1 Although the adverse effects associated with fluoroquinolone antibiotics have decreased considerably and these drugs are generally well tolerated, adverse effects do sometimes occur. Previous studies have shown that the most common side effects are nausea and diarrhea (>5%), dizziness (2.5%-3.6%), skin lesions (<2.5%), central nervous system disorders (1%-2%), and liver function test abnormalities (1.1%).2,3 We herein report a patient who suffered from multiple organ dysfunction (MOD) after intravenous infusion of moxifloxacin. A 71-year-old male patient was admitted to the respiratory intensive care unit (RICU) with chief complaints of fever for one week, increased cough with sputum production, and wheezing for one day. Seven days prior to this admission (June 18, 2010), he had a fever (highest temperature was 39.5°C), sore throat, and occasional cough with sputum production due to an upper respiratory tract infection. A previous routine blood examination in a community hospital showed a white blood cell (WBC) count of 7.87×109/L, neutrophils of 93.2%, lymphocytes of 4.1%, platelet (PLT) count of 112×109/L, and C-reactive protein (CRP) level of 4.2 mg/ml on June 21. Biochemical tests, including liver and renal function, electrolytes, and coagulation, showed no abnormal findings. Chest computed tomography (CT) showed a consolidation in the lower lobe of the right lung and bilateral pleural effusion (on the left of Figure 1A). In consideration of possible lung infection, he was given piperacillin sodium/sulbactam (5 g per dose) for 3 days, but he maintained a low fever (fluctuations between 37.4-38.2°C). The test results showed that the patient's condition had not significantly improved on June 24, 2010. Piperacillin sodium/sulbactam was then stopped, and moxifloxacin (0.4 g) was added by intravenous drip.Figure 1.: CT scan of the chest (A) and mutation of UGT and MPR2 (B, C). A: The left CT scan showed a consolidation occurred in lower lobe of right lung and bilateral pleural effusion appeared on June 21, 2010. The right CT scan showed that the consolidation and pleural effusion absorbed, especially pleural effusion in the left lung disappeared on July 15, 2010. B: The upper graph showed a heterozygous mutation of c.211G>A (Gly 71 Arg) in exon 1 of UGT. The lower graph showed a mutation of c. 1457 C>T (Thr486Ile) in exon 10 of MRP2. C: Results of mutation exons on genes the patient and his daughter expressed. Father is the patient and his daughter is our donor. UGT means UDP-glucuronosyltransferase; SULT means sulfotransferase; MRP2 means multidrug resistance protein 2; S.M. means synonymous mutation; H.E means heterozygous; H.O. means homozygous; N. means normal.The next day (June 25, 2010), the symptoms cited above had increased, along with development of tachypnea and an erythematous macular rash with a film on his back and no itching in the rash area. An emergent blood test showed that his WBC count and neutrophil percentage had decreased slightly (5.28×109/L and 80.4%, respectively) and that his PLT count had decreased significantly (60×109/L). Biochemistry results showed abnormal indices for electrolytes (sodium, 119.4 mmol/L; potassium, 2.67 mmol/L; and chloride, 88.7 mmol/L), liver function (total bilirubin, 29.9 mg/dl; aspartate aminotransferase, 517.8 U/L; and alanine aminotransferase, 196.5 U/L), kidney function (urea nitrogen, 25.21 mg/dl and creatinine, 457.3 mg/dl), and heart function (lactate dehydrogenase, 1455 U/L and pro-brain natriuretic peptide, 9237 pg/ml). These results suggested multiple organ failure. The moxifloxacin treatment was stopped immediately because of a potential influence of moxifloxacin. The patient was transferred to the RICU on the same day. A diagnosis of drug allergy-induced MOD (heart, liver, and kidney) was considered along with right lower lung pneumonia. Methylprednisolone sodium succinate injection was immediately given by intravenous drip as an anti-allergy treatment. This injection was continued every 12 hours for 3 days and was then followed by oral administration at a dosage of 8 mg for 5 days and 4 mg for 2 days; it was then stopped. This treatment was accompanied by omeprazole sodium to prevent the occurrence of gastrointestinal ulcers, glutathione and polyene phosphatidyl choline to protect the liver, and octreotide to inhibit pancrease secretion. Interval furosemide and antisterone diuresis were used to reduce the heart load. The anti-infection strategy involved the use of antibiotics. Injectable meropenem (0.5 mg every 8 hours) was used for 7 days. Finally, the patient was discharged with stable vital signs after a 35-day hospitalization. His routine blood test results were nearly normal and biochemical indices were normal on August 2, 2010. Chest CT showed that the consolidation and pleural effusion had been absorbed (on the right of Figure 1A). In order to explore the primary mechanism that could induce such a severe reaction, we performed genetic screens for the genes, such as UDP-glucuronosyltransferase (UGT),1 N-sulfate form after N-sulfoconjugation by sulfotransferase (SULT),2 and multidrug-resistance protein 2 (MRP2)3 in peripheral WBCs using samples that were provided by the patient and his daughter. The daughter had previously been given moxifloxacin without any ill effects or the appearance of any symptoms like those of her father. Moxifloxacin is metabolized to an N-sulfate conjugate (M1) and an acyl glucuronide (M2) in humans via enzyme-induced glucuronide and sulfate conjugation.4 It is discharged as the M1 and M2 forms and unchanged moxifloxacin in the urine, bile, and feces. Enzymes including UGT, SULT, and MRP2 or ABCC2 play key roles in the metabolic pathway and secretion of moxifloxacin. However, the pharmacokinetics of moxifloxacin are not significantly affected by renal or hepatic impairment.5 Thus, moxifloxacin has been accepted as a safe drug for clinical use. In particular, moxifloxacin-induced MOD has not been reported. Therefore, we speculated that the cause of the MOD may have been more closely associated with a metabolic disorder related to moxifloxacin. In this study, we explored the mechanism of moxifloxacin-induced MOD from the perspective of a pharmacokinetic disorder of moxifloxacin. We performed genetic screens for the UGT, SULT, and MRP2 genes, which are related to moxifloxacin metabolism in vivo, in peripheral WBCs using samples that were provided by the patient and his daughter. We tested for all 5 exons of UGT, 6 exons of SULT, and 32 exons of MRP2. We found that the daughter had nonsense synonymous mutations of c.46 C>T in exon 1 of UGT and c.1548 C>T in exon 7. Both the father and the daughter had nonsense synonymous mutations of c.90 T>C in exon 1 of SULT and c.117 A>T (Tyr 39 Phe). However, the father had heterozygous mutations of c.211G>A (Gly 71 Arg) in exon 1 of UGT and c.1457 C>T (Thr486Ile) in exon 10 of MRP2 (Figure 1B, 1C). We inferred that the heterozygous mutations for the UGT and MRP2 genes altered the functions of UGT and MRP2. The alteration in UGT function may have resulted in a loss of the ability to transform moxifloxacin to M1/M2, and the alteration in MRP2 function may have resulted in a lack of secretion of moxifloxacin into bile. These gene mutations cause metabolic disorders that lead to the accumulation of moxifloxacin in the body. Meanwhile, renal function impairment may decrease the excretion of unchanged moxifloxacin in the urine. These synergistic reactions may have caused the accumulation of moxifloxacin in vivo. In addition, we cannot exclude that the patients also had a severe allergic reaction. The metabolic disorders in the body may have also caused the accumulation of moxifloxacin to induce a longer-lasting and more severe allergic reaction. All of the above factors may have induced the occurrence of MOD. This patient was not suffering from serious infections when MOD occurred. Therefore, we inferred that moxifloxacin-induced MOD was more likely than infection. We concluded that alteration in UGT and MRP2 gene function may have caused the accumulation of moxifloxacin in vivo and induced MOD. When this happens clinically, moxifloxacin should be discontinued and organ support and protective measures should be immediately implemented. Further studies are needed to reveal the mechanism and define the usefulness of this phenomenon in daily clinical decision-making and practice.",
-      "cited_by_count": 2,
+      "journal": "Movement Disorders",
+      "year": "2026",
+      "abstract": "Each year, the journal receives approximately 1800–2000 submissions, of which some 50% are sent out for review. Peer review is at the very heart of maintaining the excellence and integrity of communicating scientific findings, yet it is time-consuming and often thankless. Our reviewers put an enormous effort into this process and, in so doing, significantly enhance our authors' work as well as that of the journal. On behalf of the journal editorial leadership team, we extend our heartfelt thanks to our peer reviewers, whose commitment to the field and to the success of the journal is greatly appreciated. Peer review is also an excellent opportunity to stay up to date in the field and to learn how to improve one's own work. To those interested in becoming a peer reviewer, we welcome your expertise, experience, and insights. Please email us at [email protected] to express interest, and we will help you set up a reviewer account in Movement Disorders. In addition to contact information, please provide specific areas of interest and expertise. Abdelnour, Carla Abe, Yoshifumi Adler, Charles Adrissi, Jennifer Agin-Liebes, Julian Agosta, Federica Akbostanci, M. Cenk Akhtar, Rizwan Albin, Roger* Alcalay, Roy* Ali, Farwa Almeida, Leonardo Alster, Piotr Amara, Amy Amboni, Marianna Amprimo, Gianluca Amundsen Huffmaster, Sommer Anderson, Karen Anderson, Tim Annuar, Azlina Antelmi, Elena Antoniades, Chrystalina A. Antonini, Angelo* Aquino, Camila Arena, Julieta Arnaldi, Dario Arpin, David* Artusi, Carlo Alberto Asakawa, Tetsuya Asci, Francesco Asselta, Rosanna Åström, Daniel Avenali, Micol Aviles-Olmos, Iciar Bae, Yun Jung Baker, Janet Balck, Alexander Balestrino, Roberta Bandres-Ciga, Sara Barrett, Matthew Barsottini, Orlando Batla, Amit* Batzu, Lucia Belvisi, Daniele Ben Sassi, Samia Bendetowicz, David Benussi, Alberto Bergsland, Niels Berman, Brian Beudel, Martijn Bevington, Connor Bharucha, Adil Bhat, Krishna Bhattacharjee, Shakya Bhidayasiri, Roongroj Billingsley, Kimberley Bishop, Christopher Biundo, Roberta Bjornevik, Kjetil Black, Kevin Blauwendraat, Cornelis Bledsoe, Ian Bočková, Martina Boesch, Sylvia Boeve, Bradley Bohnen, Nicolaas Bologna, Matteo* Bonato, Paolo Borders, James Borghammer, Per Bougea, Anastasia Bower, James Braga-Neto, Pedro Breen, David Brice, Alexis Brown, Ethan Brüggemann, Norbert Bugalho, Paulo Buijink, Arthur Burciu, Roxana Burre, Jacqueline Cabreira, Verónica Cai, Mengfei Cai, Weidong Cakmak, Yusuf O. Calabresi, Paolo Calakos, Nicole Caliebe, Amke Callister, Marcus Camargos, Sarah Camicioli, Richard Campos-Romo, Aurelio Carecchio, Miryam Carta, Anna Castagna, Anna Castrioto, Anna Caughey, Byron Caulfield, Margaret Cavallieri, Francesco Cavanna, Andrea E. Cedarbaum, Jesse Cen, Zhidong Centen, L.M. Cernera, Stephanie Cervantes-Arriaga, Amin Cesari, Matteo Chahine, Lana Chang, Jun Ha Chang, Kuo-Hsuan Chaudhuri, Kallol Ray Chelban, Viorica Chen, Honglei Chen, Kai-Hsiang Chen, Robin Chen, Xiaofen Chen, Xiqun Chen, Zhao Cheng, Tzu-Hao Chiang, Hsueh-Sheng Chiu, Shannon Chopra, Avika Christou, Evangelos Chung, Jae Woo Ciampi de Andrade, Daniel Cif, Laura Cilia, Roberto Clark, Darren Coarelli, Giulia Cohen, Jesse Combs, Hannah Comi, Cristoforo Compta, Yaroslau* Concha-Marambio, Luis Contarino, Maria Fiorella Conti, Matteo Cookson, Mark Coombes, Stephen Coon, Elizabeth Cooper, Christine Corben, Louise Cornejo-Olivas, Mario Corvol, Jean-Christophe Cosgrove, Rees Costa, Maria do Carmo Craig, Chesney Cristiani, Costanza Maria Crosiers, David Cross, Kathryn Cullinane, Patrick Cunnane, Stephen Cury, Rubens Dagher, Alain Dahodwala, Nabila Daida, Kensuke* Dakin, Avery Dale, Russell Darmani, Ghazaleh Darweesh, Sirwan D'Cruz, Nicholas de Almeida Marcelino, Ana Luísa de Bie, Rob de Gusmao, Claudio de Pablo-Fenández, Eduardo Deistung, Andreas Delli Pizzi, Stefano Delva, Aline Dembek, Till Dermaut, Bart DeSimone, Jesse di Biase, Lazzaro Di Fonzo, Alessio Di Lazzaro, Vincenzo Di Luca, Daniel* Diedrichsen, Joern Dietiker, Cameron Dirkx, Michiel Disbrow, Elizabeth Dobkin, Roseanne Dodel, Richard Dodet, Pauline Domanskyi, Andrii Domingo, Aloysius Donadio, Vincenzo Doppler, Kathrin Doxakis, Epaminondas Du, Guangwei* Dujardin, Kathy Dulski, Jaroslaw Dunkley, Benjamin Dzamko, Nicolas Lang, Anthony* Earhart, Gammon Ebrahimi-Fakhari, Darius* Edwards, Mark* Ehrlich, Debra Eidelberg, David Ekenstedt, Kari Emborg, Marina Endo, Hironobu Erro, Roberto Erskine, Daniel Escobar, Alex Eskow Jaunarajs, Karen* Espay, Alberto** Estevez-Fraga, Carlos Etminan, Mahyar Ewenczyk, Claire Ewing, Andrew Fabbri, Margherita* Faber, Jennifer Falkenburger, Björn Fanciulli, Alessandra* Fang, Ruogu Fang, Yu-Hua Fasano, Alfonso** Fekete, Robert Feng, Tanya Fereshtehnejad, Seyed-Mohammad Ferini-Strambi, Luigi Fevga, Christina Filipović, Saša Fiorenzato, Eleonora Flanagan, Richelle Florin, Esther Foo, Jia-Nee Fothergill-Misbah, Natasha Foubert-Samier, Alexandra Fox, Susan Franca Jr, Marcondes Franca, Marcondes Frank, Samuel* Franz, Jonas Friedman, Jennifer Friedman, Joseph Friedrich, Maximilian Fu, Jessie Fanglu Fu, YuHong Funayama, Manabu* Furlanettil, Luciano Galosi, Serena Galvan, Adriana Gan, Shi-Rui Gandolfi, Marialuisa Ganguly, Jacky Gan-Or, Ziv** Ganos, Christos* Garcia-Moreno, Hector Garg, Divyani Garrard, Peter Gasca-Salas, Carmen Ghorayeb, Imad Gialluisi, Alessandro Gibson, Jessie Gittis, Aryn Glaab, Enrico Godinho, Fabio Goldman, Samuel Gonzalez-Escamilla, Gabriel Gorodetsky, Carolina* Grillner, Sten Gros, Priti Guerra, Andrea Gül, Tuğçe Gunduz, Aysegul Gutierrez Quintana, Rodrigo Haar, Shlomi Halabi, Cathra Halliday, Glenda Hamilton, Jamie Hammer, Lauren Hanajima, Ritsuko Hanania, Jordan Hariz, Marwan Hart, Michael G.* Hatano, Taku** He, Shenghong Heerdegen, Marco Helmich, Rick Hemachandra, Dimuthu Hemptinne, Coralie de Henadeerage Don, Dimuthu Henry, Pierre-Gilles Hensman Moss, Davina Hermann, Andreas Hertel, Johannes Heuberger, Jules Heutink, Peter Hinson, Vanessa Hobert, Markus Hoeritzauer, Ingrid Höglinger, Günter Hong, Daojun Hong, Xiangfei Hönig, Merle Hopfner, Franziska Horovitz, Silvina Houlden, Henry Hu, Xiaoping Hummel, Friedhelm Huot, Philippe Husain, Ralf A. Hutchison, William Hvingelby, Victor Ibarretxe-Bilbao, Naroa Ilg, Winfried Indelicato, Elisabetta Infante, Jon Irwin, David Isa, Tadashi Iwaki, Hirotaka Jabbari, Edwin* Jackson, Stephen Jacobi, Heike Janssen Daalen, Jules Jaunmuktane, Zane Jiang, Hong Jiang, Linjing Jiménez-Jiménez, Félix Javier Jimenez-Shahed, Joohi* Jin, Peng Jinnah, Hyder Jog, Mandar Johansson, Martin Jost, Stefanie Kaasinen, Valtteri Kaiyrzhanov, Rauan Kalia, Lorraine Kamble, Nitish Kanel, P. Kanel, Prabesh Kano, Yukiko Kanzler, Christoph Karthikbabu, Suruliraj Kaski, Diego Kawabata, Kazuya Keith, Julia Keller Sarmiento, Ignacio J. Kerestes, Rebecca Kim, Jeff Kim, Ryul Kim, Young Eun Kimberley, Teresa Kinoshita, Michiaki Kirby, Alana Kluger, Benzi Kojović, Maja Kordower, Jeff Kostev, Karel Kostyk, Sandra Koval, Alexey Koy, Anne Krainc, Dimitri Krause, Patricia Krauss, Joachim Kremer, Philip* Krishna, Vibhor* Krishnan, Natraj Krismer, Florian Kumar, Hrishikesh Kumar, Kishore Raj** Kuo, Ming-Che Kuo, Sheng-Han Kurtas, Nehir Kurtis, Monica Kuter, Katarzyna La Morgia, Chiara La Piana, Roberta Laabs, Björn-Hergen Lai, Dongbing Lamoš, Martin Lange, Florian Lange, Lara Langley, Christelle Langley, Jason Lanore, Ayemric Laß, Joshua Latorre, Anna* Lawson, Rachael Le Heron, Campbell Le, Weidong Lee, Ni-Chung Lee, Jee-Young* Lee, Yi-chung Lemon, Roger Lench, Daniel Lenka, Abhishek Leocadi, Michela Leodori, Giorgio Lesage, Suzanne Leta, Valentina* Levi, Vincenzo Levine, Todd Lewis, Simon* LeWitt, Peter Lill, Christina Lim, Shen-Yang Liu, Gang Liu, Jing Yu Liu, Jun Liu, Yaping Liu, Zhenhua Liu, Zhiyong Lizarraga, Karlo Loeffler, Moritz Lofredi, Roxanne Lohmann, Katja Lorenzo-Betancor, Oswaldo Lorkiewicz, Sara* Lou, XiangYang Luca, Antonina Lumsden, Daniel E. Luo, Sheng Luo, Wei* Luo, Zhehui Lüth, Theresa Lyell, Veronica Lynch, David Ma, Jiyan Ma, Thong Ma, Yilong Maas, Roderick Macerollo, Antonella Macias-Garcia, Daniel* Maciel, Patrícia Mack, Joel MacKinnon, Colum Maetzler, Walter Mahlknecht, Philipp Maiti, Baijayanta Manbeck, Christopher Mancuso, Marco Mansournia, Mohammad** Mao, Xiaobo Maraki, Maria Marano, Massimo Marchant, Natalie Marder, Karen Marecek, Stanislav Mareci, Thomas Mari, Zoltan Mariotti, Caterina Marras, Connie Marshall, Nathaniel Marsili, Luca Martin, W. R. Wayne Martinez-Fernandez, Raul Martinez-Nunez, Alfonso Martino, Davide Martin-Rodriguez, Juan Francisco Mason, Sarah Massey, Thomas Matar, Elie Matarazzo, Michele Matias-Guiu, Jordi Matsuura, Keita Matthews, Dawn Matthews, Paul Mazère, Joachim McCarter, Stuart McColgan, Peter McFarland, Nikolaus McGarry, Andrew McGuire, Joseph McKeown, Martin McLean, Pamela J Mecheri, Yasser Mei, Davide Meissner, Wassilios Mencacci, Niccolò Emanuele Mente, Karin Merchant, Shabbir* Mestre, Tiago** Milosevic, Luka* Miocinovic, Svjetlana Mirelman, Anat Misic, Bratislav Mochel, Fanny Modugno, Nicola Moehle, Mark Mohammad, Shekeeb* Monje, Mariana H.G. Montine, Thomas Morales-Briceño, Hugo Moratalla, Rosario Morbelli, Silvia Morris, Genela Morris, Meg Mortiboys, Heather Muller, Marjolein Muñoz, Ana Murer, Mario Murley, Alexander Muthuraman, Muthuraman* Nagy, Sara Nambu, Atsushi Narayanan, Nandakumar Nath, Avindra Neilson, Lee Neiman, Aaron Nelson, Alexandra Neumann, Wolf-Julian Nguyen, An Phu Nicolas, Gael Nielsen, Glenn Nielsen, Henrietta Nikolaos, Papagiannakis Nobre, Rui Nobrega, Clevio Nonnekes, Jorik Nordberg, Agneta Obeso, Ignacio Obeso, Jose Oehrn, Carina Oertel, Wolfgang Ofori, Edward O'Keefe, Joan Okubadejo, Njideka Okun, Michael Ondo, William Onofrj, Marco Oosterhof, Thomas Opri, Enrico Ortigoza-Escobar, Juan Oswal, Ashwini Outeiro, Tiago* Pagonabarraga, Javier Pal, Pramod Palermo, Giovanni Palleis, Carla Pandey, Sanjay* Panyakaew, Pattamon Paparella, Giulia Parashos, Sotirios Parchi, Piero Parker, Jonathan Parmera, Jacy Pasquini, Jacopo Pastor, Pau Patel, Rekha Paucar, Martin Paulsen, Jane Paz, Rodrigo Pchelina, Sofya Peall, Kathryn Peattie, Alexander Peball, Marina Pedroso, José Luiz Pei, Zhong Peixoto Leal, Thiago Pellecchia, Maria Teresa Pellerin, David Pereira, Joana Perez, David Perez-Lloret, Santiago Perez-Soriano, Alexandra Periñan, Maria Teresa Perlman, Susan Perovnik, Matej Peters, James Peterson, Daniel Petit, Emilien Petrosa, David Petrov, Viecheslav Picillo, Marina Pihlstrøm, Lasse Pilotto, Andrea Pineda, Jose Angel Pinilla-Monsalve, Gabriel Pirio Richardson, Sarah Pisani, Antonio Planche, Vincent Poewe, Werner Pons, Roser Pontone, Gregory Postuma, Ronald Pötter-Nerger, Monika Pouget, Pierre Prange, Stephane Prasad, Shweta Prasuhn, Jannik Pringsheim, Tamara Prochnow, Astrid Puppi Munhoz, Renato Puts, Nicolaas Quartarone, Angelo Quattrone, Aldo Quattrone, Andrea* Radhakrishnan, Divya Raffa, Robert Rahayel, Shady Rajput, Alex Ramdhani, Ritesh Ramirez-Zamora, Adolfo Rascol, Olivier Rattay, Tim W.* Rauch, Anita Reetz, Kathrin Regensburger, Martin Reichmann, Heinz Rektorova, Irena Ren, Jianxun Revuelta, Gonzalo Rezende, Thiago Riboldi, Giulietta Ricciardi, Lucia Riggare, Sara Ritz, Beate Rizzo, Giovanni Robakis, Daphne Rocha, Natalia Rochester, Lynn Rodriguez-Blazquez, Carmen Rodriguez-Labrada, Roberto Rodriguez-Porcel, Federico** Rogers, Jack Rohani, Mohammad Romero-Ramos, Marina Romito, Luigi Rosales, Raymond Ross, Christopher Rosser, Anne Rossi, Malco* Rothwell, John Rouleau, Guy Ruiz Ranzi, Agustina Rumrich, Isabell Katharina Ryman, Sephira Sadikot, Abbas Sadnicka, Anna Sáenz Farret, Michel Safarpour, Delaram Saffari, Seyed Ehsan Sahni, Vibhu Salman, Mootaz Salmon, David Salsano, Ettore San Luciano, Marta Sanchez-Ferro, Alvaro Sanders, Laurie Sanger, Terence Sarasso, Elisabetta Sarica, Can Sarmiento, Ignacio Saunders-Pullman, Rachel Saute, Jonas Sawamoto, Nobukatsu Sawamura, Masanori Schade, Sebastian Schaffner, Samantha Schalling, Ellika Schenck, Carlos Scherer, Jannik Schlossmacher, Michael Schmitz-Hübsch, Tanja Schnitzler, Alfons Schocke, Michael Schrag, Anette Schreglmann, Sebastian Schröter, Nils Schulz, Jörg Schumacher-Schuh, Artur Schwarzschild, Michael Schwingenschuh, Petra Sciacca, Giorgia Scorr, Laura Segura, Barbara Seibler, Philip Senkevich, Konstantin Seppi, Klaus Serranová, Tereza Severino, Mariasavina Sevitz, Jordanna Shaikh, Aasef G. Shang, Huifang Sharma, Nutan Sharp, Madeleine Shih, Ludy Shin, Jung Hwan Shine, James Shukla, Aparna Wagle Siciliano, Mattia Simmering, Jacob Simonyan, Kristina Simuni, Tanya Singh, Arun Sintini, Irene Skorvanek, Matej* Slater, Nicola Smeyne, Rich Smilowska, Katarzyna Smith, Yoland Song, Sheng Song, Yulu Squintani, Giovanna Stankovic, Iva Starr, Philip* Stefani, Alessandro Stefani, Ambra Stefanis, Leonidas* Stegemöller, Elizabeth Stocchi, Fabrizio Stone, Britt Streubel-Gallasch, Linn Sturchio, Andrea Sui, Binbin Sumarac, Srdjan Sung, Victor Suppa, Antonio* Svenningsson, Per Swan, Matthew Swinnen, Bart Szejko, Natalia Szymczak, Silke Takahashi, Ryosuke Takeda, Atsushi Tambasco, Nicola Tan, Ai Huey Tan, Eng-King Tan, Huiling Tan, Louis Tang, Chris Tay, Yi Wen Tedroff, Joakim Tegeder, Irmgard Teive, Helio Terao, Yasuo Tessitore, Alessandro* Thaler, Avner Thevathasan, Wesley Thirunavukarasu, Arun Thomsen, Mirja Tinazzi, Michele Tisch, Stephen Titulaer, Maarten Tofaris, George Tolppanen, Anna-Maija Tosin, Michelle Tranfa, Mario Trinh, Joanne Tripathi, Richa Tripoliti, Elina* Truini, Andrea Trujillo, Paula Tsai, Jin-Wu Tsai, Meng-Han Tsou, Wei-Ling Tzoulis, Charalampos Udupa, Kaviraja Uribe, Carme Vahdat, Shahabeddin Vale, Thiago Valente, Enza Maria van de Warrenburg, Bart van Eimeren, Thilo* van Wamelen, Daniel VandeVrede, Lawren Vanlandewijck, Michael Vaou, Eleni Venuto, Charles* Verin, Marc Videnovic, Aleksandar Vijiaratnam, Nirosen Vinding, Mikkel Vivash, Lucy Vizcarra, Joaquin Vogel, Adam Volpicelli-Daley, Laura Vos, Melissa Wagle Shukla, Aparna Wagner, Matias Walker, Harrison Walker, Ruth Walters, Art Wang, Doris Wang, Qing Wang, Wei-en Wang, Yuanjia Warnecke, Tobias Weber, Sandrina* Weil, Rimona Weiss, Daniel Weißbach, Anne Welton, Thomas Weydt, Patrick Whitwell, Jennifer Wichmann, Thomas Wilke, Carlo Wilkes, Bradley* Wilkins, Kevin B. Williams-Gray, Caroline Wills, Anne-Marie Wilson, Heather WING, YK Winkler, J rgen Wirth, Thomas Wojtecki, Lars Wong, Joshua** Wood, Nicholas Wu, Tao Wüllner, Ullrich Wyse, Richard Xiao, Xiong Xie, Tao Xu, Enquan Yabe, Ichiro Yagishita, Sho Yao, Jingwen Yarnall, Alison Ye, Rong Yu, Yanbing Yu, Cherry Yu, Jin-Tai Yuluğ, Burak Zabetian, Cyrus Zanusso, Gianluigi Zaplatnikov, Yaroslav Zappia, Mario Zarkali, Angeliki Zech, Michael* Zemmar, Ajmal Zhang, chencheng Zhang, Kezhong Zhang, Zhentao Zhao, Haifeng Zhou, Junhong Zhou, Zaiwei Zhu, Tingting Zhu, Xiaodong Zielonka, Daniel Zimmermann, Milan Zimprich, Alexander Zitser, Jennifer Zou, Haotian Zoupi, Lida Zrinzo, Ludvic",
+      "cited_by_count": 0,
       "centrality": 0,
       "source_tags": [
         "source:search"
       ],
       "category": "6 - Genes",
-      "subcollection": "CHST6"
+      "subcollection": "NAA15"
     },
     {
       "pmid": "42017674",
@@ -13565,96 +13516,6 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
-    },
-    {
-      "pmid": "41633654",
-      "doi": "10.3341/kjo.2025.0179",
-      "zotero_key": "TVC97C58",
-      "title": "Myopia Management Consensus Statement in Korean Children 2025 by the Korean Myopia Society for KAPOS",
-      "authors": [
-        [
-          "Yeon-Hee",
-          "Lee"
-        ],
-        [
-          "Jae Yun",
-          "Sung"
-        ],
-        [
-          "Sun Young",
-          "Shin"
-        ],
-        [
-          "Young-Woo",
-          "Suh"
-        ],
-        [
-          "Ungsoo Samuel",
-          "Kim"
-        ],
-        [
-          "Hyunkyung",
-          "Kim"
-        ],
-        [
-          "Eun Hee",
-          "Hong"
-        ],
-        [
-          "Su Jin",
-          "Kim"
-        ],
-        [
-          "MiRae",
-          "Kim"
-        ],
-        [
-          "Kyomin",
-          "Choi"
-        ],
-        [
-          "Kyeong Wook",
-          "Lee"
-        ],
-        [
-          "Se-Youp",
-          "Lee"
-        ],
-        [
-          "So Young",
-          "Han"
-        ],
-        [
-          "Jinu",
-          "Han"
-        ],
-        [
-          "Daye",
-          "Choi"
-        ],
-        [
-          "Seung-Hee Hannah",
-          "Baek"
-        ],
-        [
-          "Hae Jung",
-          "Paik"
-        ],
-        [
-          "the Korean Myopia Management Consensus Task",
-          "Force"
-        ]
-      ],
-      "journal": "Korean Journal of Ophthalmology",
-      "year": "2026",
-      "abstract": "Myopia, particularly high myopia, is a significant risk factor for several ocular pathologies including cataract, glaucoma, and retinal detachment. Excessive axial elongation associated with high myopia can induce biomechanical stretching, increasing the risk of serious complications like posterior staphyloma and myopic maculopathy. Global meta-analyses estimate that approximately 10 million people were visually impaired due to myopic maculopathy in 2015, with 3 million being blind. Recent nationwide surveys in Korea revealed a prevalence of 65.4% for myopia and 6.9% for high myopia in children and adolescents, highlighting the urgent need for effective management. Delaying the onset and slowing the progression of myopia during childhood and adolescence is crucial for reducing the potential lifetime risk of these complications. This consensus statement, prepared by the Korean Myopia Society for KAPOS (Korean Association for Pediatric Ophthalmology and Strabismus), reviews the current evidence for myopia control interventions and provides management strategies applicable to the Korean clinical setting. Key interventions covered include lifestyle modifications (outdoor time, near work adjustment), optical methods (myopia-control spectacle lenses, dual-focus soft contact lenses, orthokeratology), and pharmacologic treatment (low-concentration atropine), as well as combination therapies. The statement also addresses patient selection, treatment outcome evaluation using spherical equivalent (SE) and axial length (AL) changes, and the crucial aspects related to treatment cessation and the rebound effect.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARR3"
     },
     {
       "pmid": "",
@@ -14463,40 +14324,6 @@
       "subcollection": "Usher syndrome"
     },
     {
-      "pmid": "41064626",
-      "doi": "10.1159/000547878",
-      "zotero_key": "BMQG89AK",
-      "title": "Novel OFD1 Mutation Results in Unusually Early-Onset Polycystic Kidney Disease",
-      "authors": [
-        [
-          "Nicholas",
-          "Jones"
-        ],
-        [
-          "Matthew",
-          "Nguyen"
-        ],
-        [
-          "Dao",
-          "Le"
-        ],
-        [
-          "Ramy M.",
-          "Hanna"
-        ]
-      ],
-      "journal": "Case Reports in Nephrology and Dialysis",
-      "year": "2025",
-      "abstract": "&lt;p&gt;Introduction: Mutations of the OFD1 gene cause oral-facial-digital syndrome type 1 (OFD 1) and variations of the related ciliopathies Joubert syndrome and primary ciliary dyskinesia. OFD 1 manifests with skeletal, CNS, and renal abnormalities with prevalence estimated between 1 in 50,000 and 1 in 250,000. Cilia help regulate responses to mechanical forces in the renal tubules, and polycystic kidney disease (PKD) resulting from defective cilia is the primary determinant of morbidity in OFD 1. PKD associated with OFD 1 is rare before adulthood but may increase markedly with age, progressing to end-stage renal disease (ESRD) in 80% of cases. Case Presentation: We report an 18-year-old female with congenital ciliopathy presenting with declining renal function and an increase of serum creatinine to 1.7 mg/dL. A 24-h urine collection yielded 0.8 g of creatinine and 500 mg of total protein. Imaging was conducted and genetic studies were repeated as her early childhood results were not available. MRI revealed numerous bilateral renal cysts consistent with progression of ciliopathy-associated PKD. Genetic testing confirmed the presence of a novel c.1332del frameshift mutation in the OFD1 gene, prematurely truncating the OFD1 protein. Modifications to diet and hydration to preserve renal function and delay progression to ESRD were initiated. Conclusion: This case of unusually early renal decline highlights the challenge of treating OFD 1. There are no currently approved medications and management consists of supportive measures to delay progression. Further research to better characterize and identify treatments for OFD 1 and related ciliopathies is warranted. &lt;/p&gt;",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARSG"
-    },
-    {
       "pmid": "",
       "doi": "10.1097/00055735-199810000-00007",
       "zotero_key": "P79JEEJZ",
@@ -15001,6 +14828,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "CLRN1"
+    },
+    {
+      "pmid": "41954491",
+      "doi": "10.17305/bb.2026.13819",
+      "zotero_key": "HM9ISZ9K",
+      "title": "Oxytocin modulates social preference and anxiety-like locomotor behavior in albino and non-albino zebrafish",
+      "authors": [
+        [
+          "Ana Maria",
+          "Danila"
+        ],
+        [
+          "Alexandra",
+          "Săvucă"
+        ],
+        [
+          "Mircea-Nicușor",
+          "Nicoară"
+        ],
+        [
+          "Alin Stelian",
+          "Ciobica"
+        ],
+        [
+          "Bogdan",
+          "Novac"
+        ],
+        [
+          "Stefan Andrei",
+          "Chiriac"
+        ],
+        [
+          "Daniela Ivona",
+          "Tomiţa"
+        ],
+        [
+          "Ovidiu‐Dumitru",
+          "Ilie"
+        ]
+      ],
+      "journal": "Biomolecules and Biomedicine",
+      "year": "2026",
+      "abstract": "Socio-emotional and exploratory behaviors in zebrafish (Danio rerio) are shaped by conserved neuromodulators such as oxytocin (OXT), yet phenotypic variation (e.g., albinism) may modify sensitivity to OXT-dependent regulation. Here, we tested whether pigmentation phenotype alters behavioral responses to acute OXT across structured social and anxiogenic contexts. Adult albino (A; n = 30) and non-albino (N; n = 30) zebrafish (total n = 60; equal allocation across 6 groups, n = 10/group) were exposed to OXT by immersion (33.2 ng/mL, 15 min) under a 2 × 3 factorial design (Phenotype × Dosing regimen: Vehicle; OXT single exposure assessed at 24 h; OXT repeated exposure assessed at 48 h) and evaluated using the social preference test (SPT), social interaction (SI) test, and novel tank test (NTT). In the SPT, decision-zone occupancy and mean distance to the non-social arm were robustly modulated by dosing (p < 0.0001; p = 0.007) without phenotype × dosing interactions; locomotor outputs (swimming distance, p = 0.040; velocity, p = 0.041; counterclockwise rotations, p = 0.006) also showed dosing effects only, supporting a dissociation between social allocation and global motor output. In the SI test, stimulus-zone occupancy showed a significant main effect of phenotype (p = 0.009), independent of dosing, and locomotor indices similarly exhibited phenotype effects without interaction (swimming distance and velocity, p = 0.017; mobile-state duration, p = 0.002). In contrast, the NTT revealed phenotype-dependent locomotor regulation: highly mobile duration showed a significant interaction (p = 0.002) with strong main effects of phenotype and dosing (both p < 0.001), while immobile duration displayed an interaction (p = 0.015) and dosing effect (p = 0.005), driven primarily by the non-albino phenotype; clockwise rotation (p = 0.018) and active-state duration (p = 0.030) further indicated phenotype-related differences. Collectively, OXT exerts context- and dosing-regimen-dependent modulation in zebrafish, with social allocation primarily dosing-driven and largely phenotype-independent, whereas anxiety-related locomotor dynamics show marked phenotype specificity.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "OCA2"
     },
     {
       "pmid": "40249948",
@@ -16249,44 +16126,6 @@
       "subcollection": "BEST1"
     },
     {
-      "pmid": "40371404",
-      "doi": "10.15386/mpr-2743",
-      "zotero_key": "8KBUABHW",
-      "title": "Primary ciliary dyskinesia: a case report of double DNAH11 mutant alleles",
-      "authors": [
-        [
-          "Lorin-Manuel",
-          "Pîrlog"
-        ],
-        [
-          "Andrada-Adelaida",
-          "Pătrășcanu"
-        ],
-        [
-          "Enikő",
-          "Kutasi"
-        ],
-        [
-          "Irina",
-          "Iordănescu"
-        ],
-        [
-          "Mariela",
-          "Militaru"
-        ]
-      ],
-      "journal": "Medicine and Pharmacy Reports",
-      "year": "2024",
-      "abstract": "Primary ciliary dyskinesia (PCD), a rare disorder, is genetically varied. Mutations in proteins involved in the structure, function, or assembly of cilia are known to determine situs inversus, male infertility, and chronic destructive airway disease. PCD is inherited by an autosomal recessive pattern of inheritance in most cases. Nonetheless, patterns of autosomal dominant and X-linked inheritance have been mentioned. A history of recurrent upper and lower respiratory tract infections raised clinical suspicion of primary ciliary dyskinesia in a 10-year-old patient. Genetic tests were performed using next-generation sequencing technology (Illumina NextGen) with the multiplex ligation-dependent probe amplification technique for primary ciliopathies and syndromes subject to differential diagnosis. Genetic testing identified two pathogenic variants, not previously associated with a case report in the literature, c.7727A&gt;G (p.Asp2576Gly) and c.8578G&gt;A (p.Gly2860Ser), within the DNAH11 gene, which is associated with autosomal recessive PCD. The result also reported mutations in other genes involved in autosomal recessive PCD (DNAH8, DNAH9 and ZMYND10), which were classified as variants with uncertain clinical significance. Transmission electron microscopy of respiratory cilia and nasal nitric oxide measurement cannot be used to diagnose PCD in patients with DNAH11 mutations because the structure of cilia is normal, and the levels of NO are not constantly low. High-speed video microscopy analysis can be helpful because DNAH11 mutations cause a distinct phenotype of PCD. Nevertheless, the mutation analysis of various PCD-causing genes remains the easiest to conduct and with good results. Genetic research on PCD has identified a number of significant ciliary genes in recent years, offering fresh perspectives on the molecular processes underlying cilia assembly and function. This facilitates the development of new methods for the diagnosis, prevention, and treatment of PCD. However, because it is a highly complex and heterogeneous disease, the field of gene diagnosis and therapy in PCD is still in its infancy.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARSG"
-    },
-    {
       "pmid": "42316823",
       "doi": "10.12659/ajcr.952147",
       "zotero_key": "DR9GVMUC",
@@ -16319,32 +16158,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Albinism"
-    },
-    {
-      "pmid": "41579043",
-      "doi": "10.1111/aos.70080",
-      "zotero_key": "X5QXHPFJ",
-      "title": "Profuse nocturnal eyelid haemorrhage from a spider angioma",
-      "authors": [
-        [
-          "Ype de",
-          "Jong"
-        ],
-        [
-          "Paulus T. V. M. de",
-          "Jong"
-        ]
-      ],
-      "journal": "Acta Ophthalmologica",
-      "year": "2026",
-      "abstract": "At 2:45 a.m., a 47-year-old Caucasian woman awoke unable to open her left eye due to a large blood clot covering her eyelid. After washing away the clot and changing the blood-soaked pillowcase, she resumed sleep. A similar episode of nocturnal bleeding had occurred 1 year prior. The patient wore disposable contact lenses and was certain she had removed them before going to bed. She was healthy, taking 40 mg of pantoprazole daily and denied the use of anticoagulants or medication affecting platelet function. She had used oral contraceptives for 30 years, discontinuing them 2 years earlier. Three days after the second bleeding episode, the patient's eye examination revealed visual acuity 1.0 OU with Sph −10.0D. Slit-lamp examination showed no trace of blood, inflammation or redness on the ocular surface, conjunctiva, or in the anterior chamber OU, and otherwise, both eyes only revealed an optic disc consistent with her myopia. Upon everting the left upper eyelid, a spider angioma (also known as spider naevus or spider telangiectasia) was observed on the tarsal conjunctiva (Figure 1). Her husband later conducted a full skin check, revealing a single additional spider angioma on her left upper leg. Spider angiomas on the skin were present in 47.5% of healthy children between the ages of 3 and 17 years, with a peak prevalence between 7 and 10 years (Alderson, 1963). In adults, they are common in pregnancy and in patients with cirrhosis of the liver. In the latter, they are mostly located on the upper thorax, neck, face and in mucous membranes of the nose, mouth, pharynx, hard and soft palate and in the linings of the alimentary tract (Bean, 1953). Extensive literature searches in PubMed, Medline and ophthalmological reference works revealed no mention of a spider angioma in the tarsal conjunctiva. Stewart Duke-Elder described in his System of Ophthalmology conjunctival spider-like telangiectasias only after ionizing radiation treatment. Last year, a spider telangiectasia was described on both bulbar conjunctivae of a 45-year-old male with cirrhosis of the liver (Chavan & Rajput, 2025). Spider angiomas are generally regarded as a benign and transient finding during normal pregnancy, with a prevalence of 60%–70% among white and approximately 10% among black women (Henry et al., 2006). The association between oral contraceptive use and the development of spider naevi has been only sparsely documented (Deharo et al., 1988). In liver cirrhosis, spider naevi are attributed to impaired hepatic metabolism and clearance of androstenedione, resulting in increased extrahepatic conversion to oestrogen. Our patient demonstrated no evidence of advanced liver disease (Fibrosis Index Based-4 score: 0.88). We therefore consider her long-term use of oral contraceptives to be the most likely etiologic factor in the development of her spider angiomas. Mechanical trauma from her contact lens wear or removal may have led to rupture of the angioma wall. The patient declined treatment due to concern about potential conjunctival scarring, and no further episodes of bleeding have occurred.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARR3"
     },
     {
       "pmid": "41669807",
@@ -16821,44 +16634,6 @@
       ],
       "category": "",
       "subcollection": ""
-    },
-    {
-      "pmid": "40588277",
-      "doi": "10.1542/pir.2024-006386",
-      "zotero_key": "KPDNQVRK",
-      "title": "Renal Dysfunction in a 13-Year-Old Girl With Trisomy 21",
-      "authors": [
-        [
-          "Anuj",
-          "Gupta"
-        ],
-        [
-          "Hannah",
-          "Myles"
-        ],
-        [
-          "Farzana",
-          "Nuruzzaman"
-        ],
-        [
-          "Katarina",
-          "Supe‐Markovina"
-        ],
-        [
-          "Maribeth",
-          "Chitkara"
-        ]
-      ],
-      "journal": "Pediatrics in Review",
-      "year": "2025",
-      "abstract": "A 13-year-old girl with trisomy 21 presents with 2 weeks of decreased oral intake and abdominal pain. During the past week, she experienced 2 episodes of nonbloody, nonbilious emesis; nonbloody diarrhea; and tactile fevers. Her mother also reports that the patient has appeared paler and more fatigued than usual. She denies any history of constipation, urinary frequency, dysuria, abnormal uterine bleeding, or history of pallor during menstrual periods.She initially presented to an outside hospital where she was found to have elevated levels of blood urea nitrogen (BUN) of 26 mg/dL (9.29 mmol/L), creatinine of 4.1 mg/dL (362.4 μmol/L), and hemoglobin of 8.2 g/dL (82 g/L) and was, therefore, transferred to our institution for further management and admission to the pediatric hospital medicine service. On admission, her temperature is 99.1 °F (37.3 °C), blood pressure is 96/68 mm Hg, heart rate is 78 beats/min, respiratory rate is 19 breaths/min, room air oxygen saturation is 94%, and weight is 59.50 kg (89th percentile on the trisomy 21 growth chart). Urine output is within normal limits. Physical examination reveals bilateral conjunctival injection, more pronounced in the left eye, and facial features consistent with trisomy 21. Her cardiopulmonary examination findings are normal, and she has no appreciable edema on examination. There is mild tenderness to palpation of the right upper and lower abdomen without distention or organomegaly. The right costovertebral angle is tender to percussion. Otherwise, her physical examination findings are normal.Initial laboratory findings reveal a normocytic, hypochromic anemia, with a hemoglobin level of 7.6 g/dL (76 g/L) and a hematocrit value of 23.5%, along with a slightly elevated platelet count of 382 × 103/μL (382 × 109/L). Her complete metabolic panel indicates elevated BUN and creatinine levels of 23 mg/dL (8.21 mmol/L) and 4.41 mg/dL (389.9 μmol/L), respectively. Serum sodium, potassium, and bicarbonate levels are all within normal limits, but her phosphorus level is elevated at 5.6 mg/dL (1.81 mmol/L). In addition, serum cystatin C and parathyroid hormone levels are elevated to 3.0 mg/L (reference range, 0.5-1.2 mg/L) and 82.8 pg/mL (82.8 ng/L) (reference range, 15.0–65.0 pg/mL [15.0-65.0 ng/L]), respectively. Serum 25-hydroxyvitamin D levels are low at 10 ng/mL (25 nmol/L) (reference range, 30-80 ng/mL [75-200 nmol/L]). Her liver function panel is normal, except for a low serum albumin level of 2.8 g/dL (28 g/L). Urinalysis shows 30 mg/dL of protein, trace leukocyte esterase, large blood, 17 red blood cells per high-power field, 8 white blood cells per high-power field, a few bacteria, hyaline casts, and squamous epithelial cells. A polymerase chain reaction gastrointestinal (GI) pathogen panel reveals positivity for enteropathogenic Escherichia coli. Renal ultrasonography reveals a renal length discrepancy, with the left kidney measuring 4.3 × 5.4 × 8.1 cm3 and the right kidney measuring 4.0 × 5.3 × 9.9 cm3, fullness of the right renal pelvis without hydronephrosis, and diffusely increased echogenicity of bilateral renal parenchyma.Abdominal pain as a presenting symptom can be diagnostically challenging due to the myriad of potential causes. As part of her initial evaluation, a GI pathogen panel revealed enteropathogenic E coli, which could explain her diarrhea, emesis, and abdominal pain.1 In addition, her history of fevers and her urinalysis indicative of infection make pyelonephritis another possibility. However, the initial evaluation revealed significant renal dysfunction, making renal etiologies for the patient’s abdominal pain a diagnostic priority.Based on the available information, it is unclear whether her illness is acute or chronic in nature. Acutely, one must consider prerenal, intrinsic, and postrenal etiologies.2 Because she presents with decreased oral intake, diarrhea, and emesis, one prerenal cause of acute kidney injury that should be considered is dehydration. Due to the ultrasonography findings of renal length discrepancy and fullness of the right renal pelvis, obstruction, a cause of postrenal acute kidney injury, is another possibility. However, she has a low BUN/creatinine ratio of 5.22:1 (reference range, 10:1-20:1), which, in combination with proteinuria and microscopic hematuria, strongly suggests intrinsic kidney disease. The potential acuity of her presentation raises suspicion for rapidly progressive glomerulonephritis, with possible etiologies including Goodpasture syndrome, lupus nephritis, IgA nephropathy, antineutrophil cytoplasmic antibody (ANCA)–associated vasculitis (AAV), and infectious and idiopathic causes.2,3On the other hand, her parathyroid hormone level is significantly elevated, indicating a mineral and bone disorder, which could be a consequence of chronic kidney disease (CKD).4,5 Furthermore, CKD may also explain her anemia, as it is known to impair erythropoiesis.4–7 There are a variety of conditions that can lead to CKD in children, including congenital anomalies of the kidneys and urinary tracts, chronic glomerulonephritis, steroid-resistant nephrotic syndrome, and renal ciliopathies.4,5Given the initial laboratory findings, additional evaluation was pursued. Renal function testing revealed elevated urine protein/creatinine and microalbumin/creatinine ratios of 1160 mg/g (131.1 mg/mmol) (reference range, <150 mg/g [<15 mg/mmol]) and 592.4 mg/g (66.94 mg/mmol) (reference range, 0-30 mg/g [0-3.39 mg/mmol]), respectively. Because there was fullness of the renal pelvis on ultrasonography, a voiding cystourethrogram was performed, which did not show evidence of vesicoureteral reflux.Concurrent evaluation for her anemia was also conducted. Stool occult blood testing was negative, making GI bleeding as a source of the anemia less likely. Blood work showed an elevated ferritin level of 366.6 ng/mL (366.6 μg/L), a low transferrin level of 121 mg/dL (14.88 μmol/L), a low total iron-binding capacity of 151 μg/dL (27.0 μmol/L), and a low iron level of 15 μg/dL (2.7 μmol/L), aligning with a diagnosis of anemia of chronic disease. These findings heightened suspicions of CKD.Inflammatory markers were also elevated, with a C-reactive protein level of 19.2 mg/dL (192 mg/L) and an erythrocyte sedimentation rate of 111 mm/h. A panel of autoimmune markers revealed negativity for antinuclear antibodies. However, it showed an elevated antimyeloperoxidase (anti-MPO) IgG antibody avidity index greater than 8.0 (reference range, <1.0) and an elevated ANCA IgG immunofluorescence assay titer greater than 1:1280 (reference range, <1:20), with an immunofluorescence assay pattern of p-ANCA. A renal biopsy was performed, and pathology was notable for diffuse, obliterative ANCA-associated pauci-immune glomerulonephritis, affecting almost all glomeruli, and neutrophil-rich tubulointerstitial nephritis with acute tubular necrosis. Almost two-thirds of glomeruli showed glomerulosclerosis with 20% to 30% tubular atrophy.Given these findings, this patient was diagnosed as having CKD due to p-ANCA/MPO+ microscopic polyangiitis (MPA) complicated by glomerulonephritis with sclerosis. A chest radiograph, performed to investigate the extent of systemic involvement of disease, was normal.MPA is an AAV affecting the small- to medium-sized vessels of the kidneys and lungs, with few or no immune deposits.8 The annual incidence of AAV in the pediatric population varies between 0.45 and 6.39 cases per million but has steadily increased during the past 40 years.8 MPA has an average onset age of 9 to 12 years and occurs more often in females.9–11In MPA, IgG autoantibodies target MPO, a specific enzyme found in neutrophils.12 These autoantibodies activate neutrophils and monocytes, leading to endothelial adhesion, tissue damage, and characteristic vascular inflammation associated with the disease.12 MPA can induce microvascular damage across various organ systems, with the kidneys and lungs being the most common targets, leading to necrotizing glomerulonephritis and pulmonary capillaritis.13–15 Studies have shown that neutrophils induce alternative complement protein pathway activation in these organs.16,17 In glomeruli, the interplay of complement-mediated endothelial cytotoxicity and neutrophilic oxidative burst injury results in necrotizing vasculitis and subsequent glomerulonephritis.17Although case reports describing AAV in individuals with trisomy 21 exist, the rarity of these comorbid conditions poses a challenge for comprehensive studies.18–20 Nevertheless, research suggests that individuals with trisomy 21 exhibit low levels of autoimmune regulator protein and regulatory T cells, which can contribute to the formation of autoantibodies.20–23 In turn, this can lead to the development of p-ANCA glomerulonephritis.24MPA often presents insidiously with a variety of nonspecific symptoms.14 However, literature has shown that fever, anemia, hematuria, and proteinuria are strongly associated with the disease.25,26 MPA can also be differentiated from other types of vasculitis based on signs and symptoms. Saddle-nose deformity, recurrent sinus infections, epistaxis, oral ulcers, dyspnea, and dysphonia are associated with granulomatosis with polyangiitis/c-ANCA vasculitis.8 A history of asthma or eosinophilia is characteristic of eosinophilic granulomatosis with polyangiitis.27 In MPA, clinical presentations of dyspnea, cough, and hemoptysis can indicate lung involvement.14,15 Other manifestations include peripheral neuropathy, purpura, arthritis, and abdominal pain.9,14 Regarding renal involvement, patients with MPA may progress to CKD and ultimately end-stage renal disease (ESRD).8 Features of CKD in children can include growth impairment, anemia, hypertension, cardiovascular disease, and mineral and bone disorder, as evidenced by hyperparathyroidism and renal osteodystrophy with bone lesions.5Initial suspicions of MPA can be confirmed via serologic testing for anti-MPO antibodies and immunofluorescence staining for p-ANCA.13,28 Kidney biopsy is helpful in patients with renal involvement to distinguish between necrotizing crescentic glomerulonephritis, suggestive of active disease, and glomerular scarring, as seen in ESRD.16,25 Whereas other disorders, such as lupus nephritis, feature immune complex deposition in glomeruli, renal biopsy in MPA typically reveals an absence of immune complex deposition and is termed “pauci-immune” glomerulonephritis.16 Patients presenting with lower respiratory tract symptoms should undergo chest imaging and, if applicable, biopsy of the lungs to determine the extent of disease involvement.13,17Due to the relative scarcity of clinical trials in the pediatric population, current guidelines for management of AAV in children rely on data gathered from adults with AAV.29 The goal of management in patients with severe p-ANCA glomerulonephritis is to induce and maintain remission by decreasing active inflammation to prevent further glomerular or pulmonary necrosis.29–31 Induction therapy includes either pulse-dose intravenous glucocorticoids or high-dose oral glucocorticoids combined with rituximab or cyclophosphamide, with rituximab being preferred due to a more favorable adverse effect profile.30–34 The specific agent and duration of maintenance therapy depends on the patient’s risk factors for relapse, with poor prognostic factors, including significant renal disease, massive pulmonary hemorrhage, cardiomyopathy, and central nervous system or GI involvement.34–36Some patients may see recovery of damaged glomeruli with the aforementioned therapies. However, many patients with severe glomerular sclerosis will eventually require renal replacement therapy and renal transplant.15,37On the diagnosis of CKD, our patient was started on epoetin alfa along with periodic iron infusions to manage her anemia. Treatment with vitamin D, calcium carbonate, and sodium bicarbonate supplementation was also initiated, and she was placed on a low sodium/phosphate/potassium renal diet. Empirical broad-spectrum antibiotics were initiated to treat a presumed concomitant pyelonephritis. Once the diagnosis of MPA was established, she received pulse-dose methylprednisolone as well as rituximab, and she was discharged on oral steroids. Despite these interventions, she developed worsening metabolic abnormalities after discharge and was subsequently diagnosed as having ESRD, requiring renal replacement therapy.Recognizing the clinical features of microscopic polyangiitis (MPA) can be difficult due to variable presentations. Health-care providers should, therefore, be vigilant when patients present with unexplained symptoms and should perform comprehensive clinical, laboratory, and imaging tests. Renal dysfunction of unclear etiology should raise suspicion for MPA.Early identification of renal ANCA-associated vasculitis is essential because delays can result in progression to chronic kidney disease and end-stage renal disease, which can have effects on multiple organ systems. This is especially important in children with developmental disabilities, who face challenges in verbalizing symptoms and, therefore, may experience delays in receiving care.Individuals with trisomy 21 can have certain immunologic deficiencies, which may heighten their risk of developing certain autoimmune disorders.Management of children with MPA requires a collaborative, interdisciplinary approach. Primary care physicians, nephrologists, rheumatologists, pulmonologists, and social workers may all be involved. Regular monitoring of patients by all teams is crucial for successful long-term outcomes.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARSG"
     },
     {
       "pmid": "",
@@ -18560,6 +18335,36 @@
       "subcollection": "ZEB1"
     },
     {
+      "pmid": "42867433",
+      "doi": "10.1016/j.ophtha.2026.09.022",
+      "zotero_key": "WPMTFUD2",
+      "title": "Spontaneous Posterior Lens Luxation in Type 3 Weill–Marchesani Syndrome",
+      "authors": [
+        [
+          "Noélie",
+          "Bacq"
+        ],
+        [
+          "Matthieu P. A.",
+          "Robert"
+        ],
+        [
+          "Alejandra",
+          "Daruich"
+        ]
+      ],
+      "journal": "Ophthalmology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "LTBP2"
+    },
+    {
       "pmid": "42231409",
       "doi": "10.1186/s12920-026-02402-w",
       "zotero_key": "6WU8UTDV",
@@ -18786,6 +18591,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "MYRF"
+    },
+    {
+      "pmid": "41362836",
+      "doi": "10.1016/j.lansea.2025.100698",
+      "zotero_key": "Q7KN6G83",
+      "title": "Strengthening student mental health support systems in India: reflections on the Supreme Court's landmark guidelines",
+      "authors": [
+        [
+          "Seema",
+          "Mehrotra"
+        ],
+        [
+          "Lakshmi",
+          "Vijayakumar"
+        ]
+      ],
+      "journal": "The Lancet Regional Health - Southeast Asia",
+      "year": "2025",
+      "abstract": "On July 25, 2025, the Hon'ble Supreme Court of India issued fifteen binding guidelines to prevent student suicides, in a landmark judgment delivered by Justices Vikram Nath and Sandeep Mehta in Sukdeb Saha v. State of Andhra Pradesh & Ors.1 These guidelines mark a significant step toward strengthening mental health support systems across educational institutions and coaching centres. These are broad in scope and encompass elements such as accessible mental health policies, counselling services, training of teaching and non-teaching staff, establishment of referral protocols, redressal pathways, and other protective measures.",
+      "cited_by_count": 3,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "42477626",
@@ -20474,36 +20305,6 @@
       "subcollection": "Orbit"
     },
     {
-      "pmid": "41460122",
-      "doi": "10.4103/ijo.ijo_538_25",
-      "zotero_key": "3WBEGMQC",
-      "title": "The unusual eyelid margin thickening",
-      "authors": [
-        [
-          "Mainak",
-          "Raychaudhuri"
-        ],
-        [
-          "Chhavi",
-          "Gupta"
-        ],
-        [
-          "Sima",
-          "Das"
-        ]
-      ],
-      "journal": "Indian Journal of Ophthalmology",
-      "year": "2025",
-      "abstract": "A 13-year-old female presented with complaints of multiple swellings in the upper and lower lid margins of both eyes since the age of 5. Occasional itching and intermittent mild increase in the lid margin swelling were reported, but no redness or discharge. She also had blurred vision in both eyes for the past 1 year. She was diagnosed with blepharitis following multiple ophthalmic consultations elsewhere and was on antibiotic drops and steroid ointments for the past 7 years. On examination, she had beaded raised lesions with a cauliflower appearance at the root of the lashes present along the entire lid margin in both eyes, not involving puncta [Fig. 1a and b]. Her Schirmer’s values were 35 mm in both eyes with normal tear meniscus height. On anterior segment examination, she was found to have posterior subcapsular cataracts in both eyes [Fig. 1c]. Fundus examination was normal.Figure 1: (a) – External photo showing beaded raised lesion and thickenings of the eyelid margins; (b) – Magnified view showing moniliform blepharosis; (c) – Slit lamp photo showing the posterior subcapsular cataract (indicated by yellow arrowhead); (d) – External photo showing fissures over the tongue; (e) – Histopathology showing deposition of PAS-positive hyaline material in the papillary dermis extending around the sweat glands. PAS: periodic acid-SchiffWhat will you do next? Look for seborrhoea on the scalp Compound microscopy of the eyelash root to rule out Demodex sp. infection Complete systemic evaluation Incision biopsy Eyelid margin swellings can have numerous differential diagnoses, ranging from chalazion, sebaceous cyst, blepharitis, molluscum contagiosum, amelanotic nevus, etc. In this case, the lesions had the typical cauliflower appearance of monoliform blepharosis. On further evaluation, she was found to have hoarseness of voice and furrows over her tongue for which she was referred to an otorhinolaryngologist (ENT) specialist [Fig. 1d]. An incision biopsy was planned from lid margin papules, and histopathology showed deposition of hyaline material in the papillary dermis extending around the sweat glands, which were periodic acid-Schiff (PAS) positive [Fig. 1e]. This confirmed the diagnosis of lipoid proteinosis. Diagnosis Lipoid proteinosis Correct answer d) Incision biopsy Discussion Lipoid proteinosis or Urban Weithe disease is a rare autosomal recessive condition characterized by the deposition of hyaline-like material in the skin, mucous membranes, vocal cords, and other internal organs. It is caused by a mutation in the extracellular matrix of one gene on chromosome 1q21.[1] Clinical features include hoarseness of voice, beaded papules over eyelids, skin lesions over the axilla or elbow, and tongue fissures. Systemic manifestations such as acute respiratory distress or central nervous system involvement may be life-threatening. It lacks inflammatory signs like redness, tenderness, flaking, or discharge. It does not respond to conventional treatment regimens of antibiotics and steroids, and these must be avoided to prevent adverse effects like steroid-induced cataract, which our patient had following prolonged topical steroid use. Although hoarseness of voice is the most common presenting feature, ocular manifestations are present in 50% of the cases.[2] Other ocular manifestations include the involvement of puncta, which usually requires excision, or the involvement of the lacrimal gland, which can cause dry eye, which was not there in our patient. Rare manifestations of open-angle glaucoma, retinitis pigmentosa, and uveitis have been reported.[3] Unfortunately, it is often misdiagnosed due to a lack of awareness among ophthalmologists owing to its rare entity.[4] Diagnosis can only be confirmed by histopathology and PAS staining. Recent advances in management include oral actretin, CO2 laser, and dermabrasion. The patient was offered debulking surgery, but she was not cosmetically concerned and refused any surgical intervention. Declaration of patient consent The authors certify that they have obtained all appropriate patient consent forms. In the form, the patient(s) has/have given his/her/their consent for his/her/their images and other clinical information to be reported in the journal. The patients understand that their names and initials will not be published and due efforts will be made to conceal their identity, but anonymity cannot be guaranteed. Financial support and sponsorship: Nil. Conflicts of interest: There are no conflicts of interest.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "BEST1"
-    },
-    {
       "pmid": "41656489",
       "doi": "10.4103/aam.aam_609_25",
       "zotero_key": "DXERF999",
@@ -21664,28 +21465,6 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Aniridia"
-    },
-    {
-      "pmid": "41690779",
-      "doi": "10.1136/bmj.s308",
-      "zotero_key": "8MMTJ6F3",
-      "title": "When I use a word . . . Medical emoticons",
-      "authors": [
-        [
-          "J K",
-          "Aronson"
-        ]
-      ],
-      "journal": "BMJ",
-      "year": "2026",
-      "abstract": "On 19 September 1982 a computer scientist at the Carnegie Mellon University in Pittsburgh, Scott E Fahlman, sent an email message to his colleagues, who had been discussing how to mark jokes in an email text: \n \n“I propose the following character sequence for joke markers::-) Read it sideways. Actually, it's probably more economical to mark things that are NOT jokes, given current trends. For this, use:-(” \n \nThis is generally agreed to be the first example of what are now called emoticons, or smileys, the little sets of symbols that are used as markers in email messages. In fact, there is a pre-history of such symbols. According to the Official Smiley Dictionary (www.smileydictionary.com), in 1972 a French journalist called Franklin Loufrani invented a picture consisting of a bubble with two dots for eyes and a curve for a smiling mouth, thus ; he called it a smiley and used it and derivatives to mark articles in France soir and other newspapers. \n \nWhatever their origin, emoticons are popular and have spawned explanatory dictionaries and websites. Here are my suggestions for some medical emoticons. Remember to hold the page sideways.​sideways. \n \n \n \n \nTable 1 \na€:-| Male pattern baldness \t:-(#) Tonsillitis \t \n@:-| Alopecia areata \t:-)) Mania \t \n8-) Myopia \t:'-((Depression \t \n%-) Strabismus \t:-§ Bipolar disorder \t \n!-) Ptosis \t:-(# Torticollis \t \n::--)) Diplopia \t€:-)X Harley Street doctor \t \n8-)) 8 Graves' disease \t€:-) :- Man \t \n¶-(Migraine \t#:-)3 Woman \t \n:-•(Coryza \t€:-(3 Gynaecomastia \t \n:#(Broken nose \t#:-) O Pregnancy \t \n:o(Rhinophyma \t€:-(O Ascites \t \n:¬| Scleroderma \t€:-(O Hydrocele \t \n:-|==== Marfan's syndrome \t€:-(¬ Impotence \t \n:-£ Congenital syphilis \t€:-))  Viagra \t \n:-/ Bell's palsy \t€:-(( Priapism \t \n \n \nView it in a separate window \n \n \n \nThere was a time when doctors would write abbreviations and acronyms, such as GOK (God only knows) or TALOIA (there's a lot of it about), in patients' notes. Now instead we can draw emoticons. I expect to see this happen before too long.",
-      "cited_by_count": 1,
-      "centrality": 0,
-      "source_tags": [
-        "source:search"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "ARR3"
     },
     {
       "pmid": "37088422",
