@@ -1,0 +1,12 @@
+[
+{"id": "pmid:41543272", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CRISPR clinical-trial survey and non-viral delivery review; no MFRP link"},
+{"id": "pmid:41680844", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "extracellular vesicle scaffold-protein drug delivery review; no MFRP link"},
+{"id": "pmid:41597209", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "gene editing for cardiovascular lipid targets review; no MFRP link"},
+{"id": "pmid:41813914", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "programmable cell therapy review with no abstract; no MFRP link"},
+{"id": "pmid:41647042", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "plant virus and bacteriophage VLP nucleic acid delivery review; no MFRP link"},
+{"id": "pmid:41717698", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "PRKCA base editing in heart failure; no MFRP link"},
+{"id": "pmid:41733889", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "engineered VLPs for genome editing review; no MFRP link"},
+{"id": "pmid:41775665", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "lung-targeting LNP protein delivery; no MFRP link"},
+{"id": "pmid:35112019", "verdict": "relevant", "confidence": 0.85, "reason": "case report of early gyrate atrophy (OAT deficiency, ornithine elevated) with retinal/choroidal OCT findings; the disease is the OAT-associated retinal dystrophy the gene is filed under"},
+{"id": "pmid:20388642", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "optineurin (OPTN) E50K transgenic mouse retinal degeneration; OPTN is not MYOC/myocilin, only generic glaucoma overlap"}
+]

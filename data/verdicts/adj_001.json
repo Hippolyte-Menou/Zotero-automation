@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:35163683",
+    "verdict": "on_topic",
+    "confidence": 0.92,
+    "reason": "Decorin (DCN) gene expression is explicitly measured as an outcome variable in MSC cultures on fibrotic ECM substrates. The paper directly quantifies DCN transcription in the context of ECM remodeling disease, which is central to DCN biology."
+  },
+  {
+    "id": "pmid:35360851",
+    "verdict": "on_topic",
+    "confidence": 0.90,
+    "reason": "DCN is explicitly listed as one of the canonical fibroblast markers analyzed across all 15 cell subsets in the single-cell transcriptome integration. Expression levels of DCN are directly assayed and reported, making DCN a primary measurement target of the study."
+  },
+  {
+    "id": "pmid:35357965",
+    "verdict": "on_topic",
+    "confidence": 0.82,
+    "reason": "Decorin is one of the key stromal ECM proteins explicitly quantified by mass spectrometry across multiple organs and decellularization protocols. Although no ocular tissue is included, decorin (DCN protein) is a direct measurement target of the study, maintaining a real connection to the gene."
+  },
+  {
+    "id": "pmid:37034263",
+    "verdict": "on_topic",
+    "confidence": 0.97,
+    "reason": "Decorin is explicitly measured in the corneal stroma of bioartificial corneas both ex vivo and after in vivo rabbit implantation. This paper has direct ophthalmic relevance: decorin/DCN is a key corneal stromal proteoglycan and the paper tracks its maturation in corneal tissue engineering."
+  },
+  {
+    "id": "pmid:41303659",
+    "verdict": "on_topic",
+    "confidence": 0.78,
+    "reason": "Decorin (DCN) is explicitly identified as a depleted ECM remodeling regulator in fetal growth restriction placentas, interacting with fibrillin-1 and syndecan-4. Although the context is placental, DCN is a direct measurement target and a central player in the ECM dysregulation findings. Caution principle applied: real connection to DCN biology is established."
+  },
+  {
+    "id": "pmid:40437144",
+    "verdict": "on_topic",
+    "confidence": 0.96,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1038/s41598-025-03509-3), DCN/decorin is explicitly measured as a keratocyte-specific proteoglycan marker that increases during corneal keratocyte differentiation from hPSC, and enriched hPSC-CK are characterized as LUM/DCN/PAX6/CD166 positive. This is directly relevant to both DCN and corneal biology."
+  },
+  {
+    "id": "pmid:39243928",
+    "verdict": "on_topic",
+    "confidence": 0.95,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1016/j.exer.2024.110073), DCN is one of the hub genes identified as significantly upregulated in quiescent human corneal stromal fibroblasts by RNA-seq. Published in Experimental Eye Research, this is directly relevant to DCN expression in corneal stroma."
+  },
+  {
+    "id": "pmid:38673955",
+    "verdict": "correctly_rejected",
+    "confidence": 0.93,
+    "reason": "This paper studies the ELP456 sub-complex in Arabidopsis thaliana and yeast Saccharomyces cerevisiae. ELP4 is tracked in the ophthalmogenetics library for its role at the 11p13 locus adjacent to PAX6 (aniridia/ASD context), not for general Elongator biochemistry in non-human organisms. The plant-yeast structural comparison has no clinical or ophthalmic relevance."
+  },
+  {
+    "id": "pmid:9074760",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "This 1997 review covers the entire inward rectifier K channel (Kir) family without specific focus on KCNJ13/Kir7.1 or any retinal/ocular phenotype. KCNJ13 is tracked for its role in LCA16 and retinal dystrophy; a broad channel-family review predating characterization of KCNJ13 does not add meaningful gene-specific or disease-specific value to an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:16713582",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1016/j.molcel.2006.04.017), this paper studies Elongator's role via IKBKAP/ELP1 depletion in the context of familial dysautonomia, a neurological disease caused by ELP1 mutations, not ELP4. The paper is neurological in focus with no ophthalmic relevance. ELP4 is tracked for the 11p13 PAX6-adjacent locus, not for ELP1-mediated FD pathology."
+  },
+  {
+    "id": "pmid:11689709",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "This is a foundational yeast (Saccharomyces cerevisiae) paper characterizing the six-subunit holo-Elongator complex including yeast Elp4. It has no human disease or ophthalmic context. ELP4 is tracked for its human 11p13 locus proximity to PAX6, not for its function in yeast Elongator biochemistry."
+  },
+  {
+    "id": "pmid:12427073",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "This paper directly reports a patient with USH2A-mutation-caused retinitis pigmentosa arising through paternal uniparental heterodisomy with partial isodisomy of chromosome 1 at the USH2A locus. It is a clinical genetics study directly about USH2A pathology in a human patient, providing important mechanistic insight into non-Mendelian inheritance of USH2A-associated RP. Directly relevant to USH2A ophthalmogenetics."
+  },
+  {
+    "id": "pmid:20825490",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "This paper characterizes ELP4 variants at the 11p13 locus in the context of Rolandic epilepsy and speech sound disorder, not aniridia or anterior segment dysgenesis. Although the chromosomal locus is shared with PAX6, the entire study is neurological: ERG, LOD score analysis for epilepsy/speech phenotypes. No ophthalmic outcomes are reported."
+  },
+  {
+    "id": "pmid:27847465",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "This review covers Elongator complex functions in neurodevelopment and neurological diseases (familial dysautonomia, intellectual disability, ALS, Rolandic epilepsy). While ELP4 mutations are discussed in the RE context, the review has no ophthalmic content. The ophthalmogenetics library tracks ELP4 for its 11p13 PAX6-locus role, not its neurological Elongator activities."
+  },
+  {
+    "id": "pmid:29332244",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1007/s00018-018-2747-6), this review covers Elongator complex structure and function with disease associations centered on familial dysautonomia. ELP4 is mentioned as a subunit of the Elp4/5/6 subcomplex. The review contains no ophthalmic content and serves as general Elongator structural biology background, not relevant to the PAX6-adjacent aniridia context for which ELP4 is tracked."
+  },
+  {
+    "id": "pmid:36617428",
+    "verdict": "correctly_rejected",
+    "confidence": 0.87,
+    "reason": "This cryo-EM structural paper of the yeast and murine Elongator complex provides foundational structural biology of the complex including ELP4 as a subunit. No human disease phenotype or ophthalmic content is described. Not relevant to the PAX6-locus/aniridia context for which ELP4 is tracked in this ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:28960290",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "This paper reviews the architecture and structural asymmetry of the eukaryotic Elongator complex and tRNA modification activity. It discusses ELP4 as a subunit of the Elp4/5/6 subcomplex. No ophthalmic disease context is present. Correctly rejected for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:22889844",
+    "verdict": "correctly_rejected",
+    "confidence": 0.87,
+    "reason": "This short review summarizes multi-functionality of the Elongator complex in transcriptional elongation and other cellular activities. ELP4 appears as one of six Elongator subunits. No ophthalmic relevance. Correctly rejected for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:34247281",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1007/164_2021_460), this is a pharmacology handbook chapter comparing all four K+ channel families. KCNJ13/Kir7.1 belongs to the inwardly rectifying Kir subfamily, but the paper provides no specific KCNJ13 content and no retinal or ophthalmic context. Too general for an ophthalmogenetics library tracking KCNJ13 for LCA16/retinal dystrophy."
+  },
+  {
+    "id": "pmid:9381682",
+    "verdict": "relevant",
+    "confidence": 0.91,
+    "reason": "According to PubMed (DOI: https://doi.org/10.1016/s0042-6989(97)00035-7), this paper directly studies ERG characteristics in Schubert-Bornschein complete-type CSNB (SB-CSNB), identifying a temporal abnormality in the depolarizing bipolar cell pathway. Complete CSNB is the disease caused by NYX (CSNB1A/nyctalopin) mutations. This characterizes the disease phenotype and pathophysiological mechanism of NYX-associated CSNB with direct ophthalmic relevance."
+  }
+]

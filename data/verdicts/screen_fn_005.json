@@ -1,0 +1,12 @@
+[
+{"id": "pmid:8861938", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ROMK (Kir1.1, KCNJ1) pH sensitivity study; not KCNJ13 (Kir7.1). Generic Kir hit only."},
+{"id": "pmid:9592090", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Kir2.4 (KCNJ14) cloning in brainstem motoneurons; not KCNJ13/Kir7.1."},
+{"id": "pmid:9037094", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "IRK1 (Kir2.1, KCNJ2) selectivity filter salt bridge; not KCNJ13."},
+{"id": "pmid:1331360", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Frog subretinal space volume physiology; no KCNJ13 or Kir7.1 content."},
+{"id": "pmid:26310159", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General review of retinal biochemistry on refraction; no abstract and no evident NYX (nyctalopin) focus."},
+{"id": "pmid:31837604", "verdict": "uncertain", "confidence": 0.5, "reason": "AAV-miR-204 therapy paper; one of two test models is an Aipl1-mutant LCA mouse, so AIPL1 is a secondary model rather than the focus. Score 4 below threshold 6 is consistent with weak gene-specific relevance; a reviewer may reasonably keep it as an AIPL1 LCA-model paper."},
+{"id": "pmid:15359216", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Kir4.1 (KCNJ10) contribution to mouse ERG; not KCNJ13."},
+{"id": "pmid:23720324", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "General miRNA regulation of ion channels/transporters review; no KCNJ13 focus."},
+{"id": "pmid:10967048", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Bovine corneal endothelial IRK1 (Kir2.1, KCNJ2) cloning; not KCNJ13."},
+{"id": "pmid:40062477", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Insect Kir channel pharmacology and insecticides; no human KCNJ13 content."}
+]

@@ -1,0 +1,12 @@
+[
+{"id": "pmid:34544838", "verdict": "relevant", "confidence": 0.7, "reason": "Direct functional study of zebrafish myrf mutants (MYRF gene itself), CNS hypomyelination; gene-level paper, non-ocular but on the gene."},
+{"id": "pmid:24204318", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sox10 partner study in CNS/PNS myelination; MYRF not mentioned in abstract."},
+{"id": "pmid:33247189", "verdict": "relevant", "confidence": 0.55, "reason": "Studies NaBC1 (alias of SLC4A11) transporter function in MSC osteogenesis; on the gene product but non-ocular, borderline for inclusion."},
+{"id": "pmid:27891578", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Dusp15 in Schwann cell Erk signaling; MYRF only mentioned in background, not studied."},
+{"id": "pmid:39339769", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Mediterranean diet review for retinal disease; no OPN1MW link."},
+{"id": "pmid:32790717", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Golli/Mbp enhancer study; MYRF not in abstract, gene is MBP/Golli locus."},
+{"id": "pmid:39488795", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sonogenetics review; no OPN1MW or cone opsin content."},
+{"id": "pmid:38738427", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Wet AMD pharmacotherapy review; no OPN1MW link."},
+{"id": "pmid:39726128", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AAV retinal gene therapy nonclinical pathology; no OPN1MW link."},
+{"id": "pmid:39222301", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ARPE-19 maturation for AAV gene therapy testing; no OPN1MW link."}
+]

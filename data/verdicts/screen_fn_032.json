@@ -1,0 +1,12 @@
+[
+{"id": "pmid:9299319", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bacterial periplasmic cytochrome c biogenesis (E. coli Ccm/DsbD thioreduction); HCCS is the mammalian holocytochrome c synthase (System III), no human HCCS or CCHL disease link"},
+{"id": "pmid:14534316", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "E. coli cytochrome b562 CXXCH variant and Ccm maturation system; bacterial, no HCCS or human disease content"},
+{"id": "pmid:15937156", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bordetella pertussis cytochrome c system II mutants; bacterial biology, not HCCS"},
+{"id": "pmid:12777830", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Medaka fish membrane guanylyl cyclase OlGC8, described as not belonging to any vertebrate membrane GC subfamily; not GUCY2D ortholog or retinal disease paper"},
+{"id": "pmid:41956070", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Autism rare-variant brain transcriptomics review; no GUCA1A or retinal content"},
+{"id": "pmid:20501793", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Melanosome transfer via filopodia in skin cells (MyoX/Cdc42); general pigmentation biology with no GPR143/OA1 or albinism content"},
+{"id": "pmid:10844653", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bacillus subtilis cytochrome c synthesis genes (resB, resC, ccdA); bacterial, not HCCS"},
+{"id": "pmid:16965270", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab7/Rab27a control of melanosome motor proteins in melanocytes; general melanosome transport without GPR143/OA1 or ocular albinism link"},
+{"id": "pmid:21291502", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab17 regulation of melanosome trafficking and filopodia in melanoma cells; no GPR143/OA1 or albinism content"},
+{"id": "pmid:7971749", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Ultrastructural study of melanosome transfer in Caucasian facial skin; general pigmentation biology, no GPR143 link"}
+]

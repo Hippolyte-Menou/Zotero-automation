@@ -1,0 +1,12 @@
+[
+{"id": "pmid:42532476", "verdict": "uncertain", "confidence": 0.5, "reason": "General review of cholesterol biosynthesis/sterol flux; LSS (lanosterol synthase) is a pathway enzyme but is not named in the abstract. Pathway-level biology only."},
+{"id": "pmid:38333055", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General glaucoma neurodegeneration/glial review; no MYOC/myocilin content in abstract."},
+{"id": "pmid:25894083", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Catalytic mechanism of the retinoid isomerase (RPE65), not LRAT. Same visual cycle but a different enzyme; empty abstract."},
+{"id": "pmid:30258865", "verdict": "relevant", "confidence": 0.6, "reason": "Red-green color vision deficiency prevalence and allele/gene frequencies, which is the disease caused by OPN1LW/OPN1MW variants. Epidemiology rather than gene-level, so moderate confidence."},
+{"id": "pmid:26187035", "verdict": "relevant", "confidence": 0.65, "reason": "Review of molecular basis of initial color vision steps (photopigment/opsin biology), which covers L-opsin. Abstract empty; based on title."},
+{"id": "pmid:3542541", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "1986 workshop report on retinal detachment cell biology; no IMPG1/SPACR-specific content evident from title or abstract."},
+{"id": "pmid:26408953", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Fibrillin microfibrils in bone physiology; no ADAMTSL4 or ectopia lentis link evident. Abstract empty."},
+{"id": "pmid:33544131", "verdict": "relevant", "confidence": 0.6, "reason": "AO-PSOCT study of cone phenotype and L/M opsin gene-array genotype in color vision deficiency; directly relates OPN1LW/OPN1MW genotype to function."},
+{"id": "pmid:30320615", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Nutrition and age-related cataract review; sterols only mentioned as a future candidate. No LSS link."},
+{"id": "pmid:21465477", "verdict": "relevant", "confidence": 0.7, "reason": "Studies LRAT (lecithin/retinol acyltransferase) expression and enzymatic activity in melanocytic skin cells. This is LRAT gene biology, though not retinal disease."}
+]

@@ -1,0 +1,12 @@
+[
+{"id": "pmid:17514355", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Generic HIF-in-cancer review; no NAA10/ARD1-specific content in title or (empty) abstract. ARD1 acetylation of HIF-1a is a known link but this is not a NAA10-focused paper."},
+{"id": "pmid:17259560", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "HIF-1a as cancer therapy target; generic tumour biology, no NAA10/ARD1 focus."},
+{"id": "pmid:1849012", "verdict": "uncertain", "confidence": 0.5, "reason": "In vitro melanin polymerisation chemistry comparing peroxidase with tyrosinase. Tyrosinase enzymology is relevant to TYR biology, but it is not a gene-level paper and the abstract is empty."},
+{"id": "pmid:15598469", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of HIF and tumour angiogenesis; no NAA10 link."},
+{"id": "pmid:15542839", "verdict": "relevant", "confidence": 0.7, "reason": "Studies NatA (Nat1p, Ard1p, Nat5p) Nalpha-acetylation in yeast. Ard1p is the yeast ortholog of NAA10, the catalytic NatA subunit, so this is NAA10-family biology."},
+{"id": "pmid:17920193", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of HIF protein stability and degradation. Generic HIF biology; the ARD1 acetylation link is at most a minor part of the topic, not NAA10-focused."},
+{"id": "pmid:28116619", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HDAC6 stress response and HIF-1a stability; no NAA10/ARD1 connection in the abstract."},
+{"id": "pmid:3137937", "verdict": "relevant", "confidence": 0.9, "reason": "Expression of the tyrosinase gene in amelanotic mutant mice. Directly about TYR gene expression and the albinism locus, so it is on topic for TYR despite the empty abstract."},
+{"id": "pmid:39470609", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of HIFs as anticancer targets; no NAA10/ARD1 focus."},
+{"id": "pmid:41093057", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MC4R/GLP-1R peptide agonist for obesity and diabetes in rats. Not about BBS1 or Bardet-Biedl syndrome, although MC4R is in the ciliopathy obesity pathway."}
+]

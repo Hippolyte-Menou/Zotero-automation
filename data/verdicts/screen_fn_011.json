@@ -1,0 +1,12 @@
+[
+{"id": "pmid:17161380", "verdict": "relevant", "confidence": 0.85, "reason": "ARD1 is a NAA10 alias; paper studies ARD1 splice isoforms (ARD1235/ARD1225) and their regulation, so it is gene-specific NAA10 biology"},
+{"id": "pmid:40336056", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "myopia prevalence and eye-health behavior survey in Hubei children; no ARR3 or ARRX content"},
+{"id": "pmid:39071383", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "study is on Elp1 (ELP1, familial dysautonomia gene) in chick trigeminal ganglion; ELP4 is not studied and ELP1 is a different subunit"},
+{"id": "pmid:38946992", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "melanoma-associated retinopathy case report centred on TRPM1 autoantibodies; LRIT3 (a CSNB1 gene and TRPM1 pathway partner) is not studied"},
+{"id": "pmid:23320748", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "EnRICH software tool for candidate gene prioritization; retinal disease gene case study does not feature NR2E3 specifically"},
+{"id": "pmid:1749427", "verdict": "relevant", "confidence": 0.9, "reason": "title describes a three-base-pair deletion in the peripherin-RDS gene (PRPH2 = RDS) in retinitis pigmentosa; PRPH2 is one of the filed genes, abstract is empty but title is clearly on-gene"},
+{"id": "pmid:23684651", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general review of cell stress and proteostasis in retinal degeneration; no specific focus on LRP2 or MYOC"},
+{"id": "pmid:32242237", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Impg2 knockout mouse study; the paper is on IMPG2, a paralog of IMPG1 (SPACR), not IMPG1 or HK1. Borderline only because IMPG1/IMPG2 are closely related interphotoreceptor matrix proteoglycans"},
+{"id": "pmid:19520207", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KLHL7 is the gene studied in this ADRP paper; IMPDH1, RD3, SAG and USP45 are not studied"},
+{"id": "pmid:42168701", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AI-guided redesign of prime editor reverse transcriptases; no MFRP content"}
+]

@@ -1,0 +1,10 @@
+[
+{"id": "pmid:37751235", "verdict": "on_topic", "confidence": 0.95, "reason": "Congenital corneal stromal dystrophy caused by DCN mutation; decorin staining central to diagnosis"},
+{"id": "pmid:38437155", "verdict": "on_topic", "confidence": 0.95, "reason": "Pediatric CSCD case with DCN (decorin) c.962delA de novo variant"},
+{"id": "pmid:37355022", "verdict": "on_topic", "confidence": 0.75, "reason": "Review of small leucine-rich proteoglycans (decorin is the prototypical SLRP) in ocular surface; abstract empty so judged from title"},
+{"id": "pmid:37079653", "verdict": "on_topic", "confidence": 0.6, "reason": "Corneal injury study in which decorin deficiency is an experimental variable that modifies dural changes; DCN is a functional focus but not the main subject"},
+{"id": "pmid:39508749", "verdict": "on_topic", "confidence": 0.6, "reason": "DCN is one of five validated hub genes for recurrent miscarriage with tissue expression and mouse validation; multi-gene paper"},
+{"id": "pmid:41303659", "verdict": "off_topic", "confidence": 0.6, "reason": "Placental matrisome proteomics in FGR; decorin mentioned only as one of many depleted ECM regulators, not a focus"},
+{"id": "pmid:40437144", "verdict": "uncertain", "confidence": 0.4, "reason": "hPSC co-differentiation of corneal endothelium and keratocytes; no abstract, DCN not evident from title; keratocyte marker context possible"},
+{"id": "pmid:39243928", "verdict": "uncertain", "confidence": 0.4, "reason": "Transcriptomics of corneal stromal fibroblasts; no abstract; DCN is a keratocyte-associated gene but paper is not DCN-specific from title"}
+]

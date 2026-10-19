@@ -1,0 +1,12 @@
+[
+{"id": "pmid:27421851", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Ex vivo rat retina metabolic proteome during glutamate-induced progenitor induction; IMPDH1 not named in title or abstract (abstract empty), no evidence IMPDH1 is a focus."},
+{"id": "pmid:39719691", "verdict": "relevant", "confidence": 0.55, "reason": "Focal cortical dysplasia myelination study; abstract explicitly assesses binding of transcription factor MYRF to myelin gene targets, so MYRF biology is a substantive component. Gene-level link is modest."},
+{"id": "pmid:39004556", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "NOPR antagonist promoting oligodendrocyte differentiation; MYRF appears only as one transcription factor whose expression is modulated. Passing mention, not a MYRF-focused paper."},
+{"id": "pmid:42776253", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Japanese nationwide RP epidemiology from claims data; no IMPDH1 genetics or gene-level content (RP is only the disease context)."},
+{"id": "pmid:41826673", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Anti-retinal autoantibodies (alpha-enolase, arrestin, recoverin, IRBP) in lupus retinopathy; no IMPG1 content."},
+{"id": "pmid:42729307", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "POR (cytochrome P450 oxidoreductase) variants in Antley-Bixler syndrome/PORD; LSS (lanosterol synthase) not involved."},
+{"id": "pmid:6248568", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "1985 method for separating astroglial and oligodendroglial cultures; no MYRF content."},
+{"id": "pmid:1613821", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "CG-4 glial progenitor cell line characterization; no MYRF content."},
+{"id": "pmid:24275321", "verdict": "uncertain", "confidence": 0.45, "reason": "Review of oligodendrocyte development and CNS myelin mechanisms; abstract is empty so cannot confirm whether MYRF is discussed substantively. Generic OL review would not normally be a MYRF paper."},
+{"id": "pmid:18160645", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Olig1/Sox10 cooperation on Mbp transcription in zebrafish and mouse; no MYRF content."}
+]

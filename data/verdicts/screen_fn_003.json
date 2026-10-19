@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:22889844", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of the Elongator complex (ELP4 is a core subunit, Elp4) in general; not ELP4-specific, no ophthalmic link. Borderline for a gene-level filing."},
+ {"id": "pmid:38508705", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ZFHX3 epilepsy study; no ELP4 link."},
+ {"id": "pmid:34247281", "verdict": "uncertain", "confidence": 0.45, "reason": "Broad review comparing K+ channel families (KCNJ13/Kir7.1 is one member); empty abstract, no KCNJ13-specific content evident from title."},
+ {"id": "pmid:9381682", "verdict": "relevant", "confidence": 0.8, "reason": "Schubert-Bornschein complete CSNB (CSNB1) phenotype, which is the NYX-associated disease; ERG study of the disease phenotype."},
+ {"id": "pmid:28601220", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of Elongator complex structures and cofactors; ELP4 is a subunit but the paper is not ELP4-specific. Borderline."},
+ {"id": "pmid:34634394", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Minireview on TRP channels in retinal circulation; no LRIT3 link."},
+ {"id": "pmid:15583843", "verdict": "relevant", "confidence": 0.75, "reason": "Clinical electrophysiology in CSNB1 patients, 4 of 5 with NYX mutations; disease phenotype relevant to NYX."},
+ {"id": "pmid:37863328", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of ion channels in metabolic disorders; no KCNJ13 link."},
+ {"id": "pmid:39749456", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Nanoparticle gene delivery review for retina; no USH2A link."},
+ {"id": "pmid:35128251", "verdict": "relevant", "confidence": 0.75, "reason": "Structural and biochemical study of human Elongator subassemblies, including hELP4/5/6 recruitment; directly addresses ELP4 as a subunit."}
+]

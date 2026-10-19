@@ -1,0 +1,12 @@
+[
+{"id": "pmid:9893828", "verdict": "relevant", "confidence": 0.9, "reason": "Titled study of L-cone pigment (OPN1LW) gene expression in normal colour vision; direct OPN1LW topic, rejected only on low score."},
+{"id": "pmid:4186708", "verdict": "relevant", "confidence": 0.6, "reason": "1970s study of retinal mucopolysaccharides/glycosaminoglycans (interphotoreceptor matrix); plausibly about the IPM proteoglycan IMPG1 (SPACR). Abstract missing, so confidence is moderate."},
+{"id": "pmid:8792812", "verdict": "relevant", "confidence": 0.85, "reason": "Blue cone monochromatism mechanism paper; BCM is caused by OPN1LW/OPN1MW array deletions, so it is core OPN1LW/OPN1MW disease literature."},
+{"id": "pmid:18318631", "verdict": "relevant", "confidence": 0.75, "reason": "L:M cone ratio study centred on the X-linked L and M opsin gene array and LCR/promoter proximity; direct OPN1LW/OPN1MW biology."},
+{"id": "pmid:2795409", "verdict": "relevant", "confidence": 0.85, "reason": "Clinical characterisation of blue cone monochromatism (BCM), the disease caused by OPN1LW/OPN1MW dysfunction."},
+{"id": "pmid:38989717", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Dermal biomaterial review on elastogenesis; no IMPG1 link (filed under ADAMTSL4 and clearly unrelated)."},
+{"id": "pmid:20492958", "verdict": "relevant", "confidence": 0.8, "reason": "Characterisation of extracellular retinol-binding glycoprotein in rat eye (interphotoreceptor retinol-binding protein, IRBP = RBP3); RBP3 is a listed gene for this item."},
+{"id": "pmid:41535609", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "CRISPR-gold nanoparticle delivery into haematopoietic stem cells; no MFRP link."},
+{"id": "pmid:38404354", "verdict": "uncertain", "confidence": 0.5, "reason": "Comment on contrast theory and myopia optics; it mentions cone opsin gene splicing defects only as background to the critiqued work. Weak OPN1MW link, mostly about optics."},
+{"id": "pmid:41738314", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Epigenetic regulation review in MASLD (liver); no MFRP link. Matched only on generic retina/gene terms."}
+]

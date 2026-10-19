@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:438294", "verdict": "uncertain", "confidence": 0.5, "reason": "Basic biochemistry of ornithine aminotransferase (OAT) in CHO cells: ornithine as proline precursor. Concerns the OAT enzyme, but no retina or gyrate-atrophy content; marginal for OAT gene bibliography."},
+ {"id": "pmid:40116022", "verdict": "relevant", "confidence": 0.6, "reason": "YTHDF1 retinal degeneration study that identifies TULP1 mRNA as a direct m6A/YTHDF1 target enhancing its translation; TULP1 is a named mechanistic gene in a retinal dystrophy context."},
+ {"id": "pmid:10393049", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Decorin expression in rat retina; no IMPG1 content (IMPG1 is SPACR/interphotoreceptor matrix proteoglycan 1, a different gene)."},
+ {"id": "pmid:12601056", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Neurocan distribution in RCS rat retina; neurocan is a different chondroitin sulfate proteoglycan and the paper does not address IMPG1."},
+ {"id": "pmid:41957988", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CAPE (propolis) eNOS/beta2-adrenoceptor endothelial study; no LTBP2 link."},
+ {"id": "pmid:42119653", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Virus-like particle drug delivery review with no abstract; no MFRP link."},
+ {"id": "pmid:40427353", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "GWAS of sperm freezing tolerance in Duroc boars; MYRF appears only as a livestock candidate gene, unrelated to eye disease."},
+ {"id": "pmid:42447864", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Prime editing delivery via virus-like particles targeting TP53; no MFRP link."},
+ {"id": "pmid:41596689", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Antioxidant analysis of commercial propolis products; no LTBP2 link."},
+ {"id": "pmid:41566888", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Alginate propolis raft gastric delivery formulation; no LTBP2 link."}
+]

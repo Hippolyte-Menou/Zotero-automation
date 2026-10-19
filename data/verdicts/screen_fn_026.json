@@ -1,0 +1,12 @@
+[
+{"id": "pmid:10099690", "verdict": "uncertain", "confidence": 0.5, "reason": "General connexin review (gap junction biology, innexins, several connexin diseases incl. lens cataract). Not specific to GJA3 (Cx46) or GJA8 (Cx50); no direct gene-level content in abstract."},
+{"id": "pmid:17279539", "verdict": "uncertain", "confidence": 0.5, "reason": "Drug RCT (memantine/gabapentin) in congenital nystagmus. Associated disease of FRMD7 but not genetic or FRMD7-specific; treatment trial with no gene content."},
+{"id": "pmid:26553938", "verdict": "relevant", "confidence": 0.9, "reason": "Shows PDE6D binds RPGR C-terminus in a prenylation-dependent manner; PDE6D is the ARL3 effector that releases prenylated cargo, so the paper is directly about RPGR and ARL3 biology. Abstract empty, judged on title."},
+{"id": "pmid:33251218", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "STXBP1 variant causing autosomal dominant congenital nystagmus; no FRMD7 content. Nystagmus is the phenotype only."},
+{"id": "pmid:11836243", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Myristoyl switch in neuronal calcium sensors (hippocalcin, NCS-1, neurocalcin delta). GCAP1 (GUCA1A) is a family member but not studied here."},
+{"id": "pmid:39639154", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Clinical retrospective study of infantile nystagmus causes (albinism, IRDs). FRMD7 not mentioned; generic nystagmus epidemiology."},
+{"id": "pmid:39336999", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of clinical trial endpoints for gene therapy in IRDs. Generic; AIPL1/BEST1/OPN1LW/OPN1MW/RPE65/RS1 not discussed specifically in abstract."},
+{"id": "pmid:23150357", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Methods chapter on IRD gene identification and NGS. Generic IRD gene discovery; KIF3B and RPGR not discussed specifically."},
+{"id": "pmid:17223737", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of rAAV gene transfer for retinal disease in general. RPE65/RS1 not named; generic gene therapy overview."},
+{"id": "pmid:40248125", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Systematic review of immune safety of ocular AAV gene therapy across delivery routes. Not specific to GUCY2D, RPE65 or RS1."}
+]

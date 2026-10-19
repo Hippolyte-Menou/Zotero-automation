@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:19111294",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "Abstract confirms this is a study of ROS-GC1 (GUCY2D) and GCAP1 (GUCA1A) in spermatozoa, investigating fertilization machinery. GUCA1A's relevance to this library is in retinal phototransduction and cone/rod dystrophy; the paper has no retinal or ophthalmic content. Sperm calcium signaling is outside the ophthalmogenetics scope."
+  },
+  {
+    "id": "pmid:41846671",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Case report of isolated cone dystrophy with macular involvement mimicking vascular insult. Full abstract confirms direct relevance: multimodal imaging, ERG demonstrating selective cone dysfunction, differential diagnosis of cone dystrophy. Directly pertinent to AIPL1, GUCA1A, and OPN1MW, all of which are cone-associated disease genes."
+  },
+  {
+    "id": "pmid:8461139",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract confirms this is a classic electrophysiology study of recoverin-like calcium-binding proteins in the retinal rod photoresponse, directly probing guanylate cyclase activation and the phototransduction cascade. Recoverin regulates GRK1 (rhodopsin kinase); the paper directly addresses the GRK1 and GUCY2D pathway in intact Gecko rods. Core retinal phototransduction science."
+  },
+  {
+    "id": "pmid:10647174",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "Abstract confirms this is a general biochemistry review asking why haem is covalently attached in c-type cytochromes, without specific reference to HCCS, microphthalmia with linear skin defects, or any eye disease. The paper discusses structural and chemical rationale for thioether bonds in general; it is basic structural biochemistry unrelated to ophthalmic pathology."
+  },
+  {
+    "id": "pmid:10049688",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Abstract confirms this describes three photoreceptor-specific guanylate cyclases in medaka retina and pineal organ, with localisation to rods and cones. Directly relevant to GUCY2D (retinal guanylate cyclase 2D); establishes GC subtype expression patterns in photoreceptors. Core molecular biology for understanding GUCY2D function in inherited retinal dystrophies."
+  },
+  {
+    "id": "pmid:22541657",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract confirms a prospective clinical study of vitrectomy outcomes in 22 patients with progressive X-linked retinoschisis (RS1 mutation disease). Demonstrates vitrectomy prevents vision deterioration. Directly relevant to RS1; this is exactly the clinical management literature an ophthalmogenetics library should hold."
+  },
+  {
+    "id": "pmid:34211088",
+    "verdict": "correctly_rejected",
+    "confidence": 0.97,
+    "reason": "Abstract confirms this is a cancer cell biology study of TRIM44 deubiquitinating p62 to regulate autophagy and DNA damage repair in therapy-resistant tumour cells. No ocular, retinal, or developmental eye disease content. TRIM44 is tracked in this library for aniridia/anterior-segment-dysgenesis; this paper has no connection to those phenotypes."
+  },
+  {
+    "id": "pmid:30792262",
+    "verdict": "correctly_rejected",
+    "confidence": 0.98,
+    "reason": "Full abstract confirms this is a study of TRIM44 as a cervical cancer biomarker for diagnosis and prognosis, with Kaplan-Meier survival analysis. Entirely oncology content with no ophthalmological relevance."
+  },
+  {
+    "id": "pmid:33649536",
+    "verdict": "correctly_rejected",
+    "confidence": 0.93,
+    "reason": "Title and context confirm this is a study of statins repressing Hedgehog signalling in medulloblastoma. SMO is in this library for structural developmental eye disease (coloboma, microphthalmia); a paper on statin therapy for brain cancer has no ophthalmogenetics relevance."
+  },
+  {
+    "id": "pmid:34034495",
+    "verdict": "correctly_rejected",
+    "confidence": 0.98,
+    "reason": "Full abstract confirms this is a study of TRIM44 facilitating ovarian cancer proliferation, migration, and invasion via FRK inhibition, with xenograft experiments. No connection to eye disease or the ophthalmogenetics scope of this library."
+  },
+  {
+    "id": "pmid:35609523",
+    "verdict": "correctly_rejected",
+    "confidence": 0.97,
+    "reason": "Full abstract confirms this is a rat TBI study showing TRIM44 silencing reduces neuroinflammation via TLR4-NF-kB suppression. No ocular or developmental eye disease content. Neurology/neurotrauma paper unrelated to aniridia or anterior-segment-dysgenesis."
+  },
+  {
+    "id": "pmid:36120578",
+    "verdict": "correctly_rejected",
+    "confidence": 0.97,
+    "reason": "Full abstract confirms this is a bone biology study of Hedgehog signalling in epiphyseal growth plate chondrocytes, involving SMO and SUFU conditional knockouts in skeletal tissue. No ocular content. SMO is in this library for developmental eye disease; limb elongation and cartilage growth have no relevance to that scope."
+  },
+  {
+    "id": "pmid:2873060",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract confirms this is a foundational biochemistry study measuring guanylate cyclase activity in toad retinal rod outer segments, demonstrating Ca2+-dependent regulation of cGMP synthesis in phototransduction. Directly relevant to GUCY2D (retinal guanylate cyclase). Seminal retinal biochemistry paper establishing the calcium-GC regulatory axis central to GUCY2D-associated dystrophies."
+  },
+  {
+    "id": "pmid:20238021",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Abstract confirms this is a review of photoreceptor sensory cilia and inherited retinal degeneration, explicitly covering Bardet-Biedl syndrome and identifying novel PSC proteins from the cilia proteome. Directly relevant to BBS12 (Bardet-Biedl syndrome 12) and RPGR (retinitis pigmentosa GTPase regulator), both cilia-associated retinal degeneration genes."
+  },
+  {
+    "id": "pmid:14578418",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Full abstract confirms a multifocal ERG study of seven XLRS patients documenting cone-system dysfunction across the retina. Directly characterises the electrophysiological phenotype of RS1-associated disease. Essential clinical functional data for an RS1 gene entry in an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:16855496",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Abstract describes a review of 39 basal cell nevus syndrome (Gorlin syndrome) patients with ophthalmic features including periocular BCC and eyelid cysts. BCNS is caused by PTCH1 mutations (not SMO); SMO is an effector downstream of PTCH1. The library tracks SMO for developmental structural eye disease (coloboma, microphthalmia), not for Hedgehog-pathway oncology syndromes. Incidental ophthalmic features do not make this relevant to SMO's role in eye development."
+  },
+  {
+    "id": "pmid:15617676",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Abstract confirms that Xhip (Hedgehog-interacting protein, a Smoothened pathway antagonist) controls lens placode and olfactory placode formation in Xenopus. Loss-of-function suppresses lens placode; overexpression causes a dramatic increase in retinal structures. Directly addresses eye developmental biology via the SMO/Hedgehog pathway and is also relevant to RAX (retinal homeobox gene). On-topic for structural eye disease entries."
+  },
+  {
+    "id": "pmid:35454139",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Full abstract confirms this is a mechanistic biochemistry study converting a bacterial cytochrome into a substrate for eukaryotic CcHL/HCCS, investigating substrate recognition and catalytic constraints. Pure enzymology with no eye disease, microphthalmia, or MLS syndrome content. The SMO co-tagging appears spurious. Not useful for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:11566855",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "Abstract confirms zebrafish SMO (smu) study focused on motoneuron and pituitary specification, floor plate induction, and hypothalamic cell maintenance. No coloboma, microphthalmia, or structural eye disease content. MeSH includes 'Retina' as a tissue but the paper's scientific focus is on ventral neural tube and CNS patterning, not ocular development."
+  },
+  {
+    "id": "pmid:10960781",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Abstract confirms this is a study of zebrafish Gli/Shh pathway mutants in which inhibition of Hedgehog-Gli signalling causes the adenohypophysis anlage to transdifferentiate into lens (crystallin-expressing). Directly about lens development and the SMO-transduced Hedgehog pathway. Relevant to SMO's role in structural eye disease and lens/ocular developmental biology."
+  }
+]

@@ -1,0 +1,12 @@
+[
+{"id": "pmid:3753603", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "1980s chicken beta B1-crystallin cDNA paper; beta B1 is CRYBB1, not CRYBA1. Only link is the CRYB1 alias, which is ambiguous."},
+{"id": "pmid:15746564", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "RIM1 mutation screen in arRP families linked to the RP25 locus; EYS is not analysed. RP25 is near EYS, so the link is marginal."},
+{"id": "pmid:42503519", "verdict": "correctly_rejected", "confidence": 0.98, "reason": "Review of mucosal immunity and vaccines; no BBS10 or ciliopathy content."},
+{"id": "pmid:39344563", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "SLC25A19 in colorectal cancer; IDH3A not discussed. Shared name fragment only."},
+{"id": "pmid:39553983", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Mitochondrial superoxide and morphogenesis in flies and vertebrate embryos; no IDH3A or retinal dystrophy content."},
+{"id": "pmid:42161597", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Oncomodulin knockout and noise-induced hearing loss in mice; USH2A not studied. Hearing-loss context is related but the gene is not the subject."},
+{"id": "pmid:38673955", "verdict": "uncertain", "confidence": 0.5, "reason": "Arabidopsis Elongator ELP4/5/6 protein interactions and structure. It is about the ELP4 gene product, but not about any ophthalmic disease (aniridia link is via the PAXNEB alias). Excluding it is defensible."},
+{"id": "pmid:39381753", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Prion protein (PRNP) knockout ERG study of photoreceptor-bipolar synapses; LRIT3 not studied. Retinal synaptic context is related to CSNB but the gene is not the subject."},
+{"id": "pmid:41758249", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "CCDC57 in Xenopus cilia and left-right patterning; BBS10 not studied. Ciliopathy and laterality context only."},
+{"id": "pmid:39608187", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Puffer fish liver transcriptome under temperature stress; no abstract; no IDH3A or retinal link."}
+]

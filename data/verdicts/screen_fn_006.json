@@ -1,0 +1,12 @@
+[
+{"id": "pmid:39316135", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "PLS3 early-onset osteoporosis cohort; no ZNF408 link in title or keywords"},
+{"id": "pmid:18367426", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "IGE linkage study in epilepsy family; KCNJ13 only a negative candidate-gene screen, not a retinal/LCA16 paper"},
+{"id": "pmid:39640095", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "case report of IOL-capsular tension ring pupillary block; no ZNF408 link"},
+{"id": "pmid:27350183", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "epidemiology of myopia onset in Singapore children; no ARR3 content"},
+{"id": "pmid:26706569", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "general iPSC ocular tissue review; VSX2 not a focus of the paper"},
+{"id": "pmid:42645443", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "systematic review of NGS in cleft palate and tooth agenesis; NHS (Nance-Horan) not discussed"},
+{"id": "pmid:7873577", "verdict": "relevant", "confidence": 0.6, "reason": "review of tyrosinase enzyme mechanism; TYR is the gene product underlying OCA1, so gene-level biology is on topic despite no abstract"},
+{"id": "pmid:16507982", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "HDAC inhibitor-driven HIF-1alpha degradation; NAA10/ARD1 not part of the study"},
+{"id": "pmid:15451019", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "HIF-1alpha posttranslational modification review; NAA10/ARD1 acetylation not evident from title, no abstract"},
+{"id": "pmid:18264140", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HBx, MTA1 and HDAC1 in hepatocellular carcinoma hypoxia signaling; no NAA10 link"}
+]

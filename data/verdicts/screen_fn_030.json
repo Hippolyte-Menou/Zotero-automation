@@ -1,0 +1,12 @@
+[
+{"id": "pmid:11744735", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bacterial CcmF heme lyase in E. coli cytochrome c maturation; HCCS (holocytochrome c synthase) is a distinct mitochondrial enzyme, no HCCS/CCHL/MLS link"},
+{"id": "pmid:16824107", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bacterial CcmA/B/C ABC transporter releasing haem chaperone CcmE; not HCCS biology, only a distant functional analogy"},
+{"id": "pmid:12191019", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Melan-A/MART-1 subcellular localization in melanocytes; GPR143 (OA1) not mentioned, no ocular albinism link"},
+{"id": "pmid:17991747", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pmel17 amyloid fibril processing in melanosomes; no GPR143/OA1 content, only generic melanosome context"},
+{"id": "pmid:12073655", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of prokaryotic haem biosynthesis; no HCCS or cytochrome c lyase content, and no abstract"},
+{"id": "pmid:19436266", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "AAV tyrosinase (TYR) gene transfer in OCA1 mouse model; OCA1 is TYR, not GPR143/OA1. Albinism is only a broad keyword match"},
+{"id": "pmid:11069919", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Arabidopsis CCME, a plant orthologue of bacterial CcmE; not HCCS. Plant mitochondrial cytochrome c maturation only"},
+{"id": "pmid:10049688", "verdict": "uncertain", "confidence": 0.5, "reason": "Medaka photoreceptor guanylate cyclases (title); plausibly includes the retGC-1/GUCY2D ortholog but abstract is empty, so the GUCY2D link cannot be confirmed"},
+{"id": "pmid:10542282", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Synechocystis ccsB mutant and cytochrome f maturation; cyanobacterial cytochrome c lyase, not HCCS"},
+{"id": "pmid:23633582", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "H. pylori HP0377 thioredoxin-fold protein in system II cytochrome c assembly; not HCCS"}
+]

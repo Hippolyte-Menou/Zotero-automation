@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pmid:15013805",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Title explicitly states 'hedgehog pathway in lens regeneration' - directly ocular. SMO is the obligate transducer of Hedgehog signaling; a paper on lens (eye) regeneration via this pathway is squarely within SMO's ocular-genetics scope (structural eye disease, microphthalmia, coloboma)."
+  },
+  {
+    "id": "pmid:31014769",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Wide-field OCT and angiography specifically in X-linked retinoschisis. RS1 is the causative gene for XLRS; clinical imaging characterisation of this disease is core to any RS1 gene-specific library."
+  },
+  {
+    "id": "pmid:14661905",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Scotopic threshold response abnormalities correlated with gene mutations in X-linked retinoschisis. The RS1 gene is explicitly named in the title alongside XLRS phenotype; directly characterises electrophysiological correlates of RS1 mutations."
+  },
+  {
+    "id": "pmid:32906187",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "Paper characterises hypomorphic SMO variants in holoprosencephaly using zebrafish bioassays. Although SMO is central and HPE can in extreme cases involve midline eye anomalies, this paper addresses forebrain/craniofacial midline patterning exclusively and mentions no ocular phenotype. The SMO library entry is justified by coloboma/microphthalmia; a purely HPE-focused study without eye phenotyping does not meet that relevance bar."
+  },
+  {
+    "id": "pmid:35812756",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "Case report of prenatal postaxial polydactyly caused by bi-allelic SMO variants. The abstract and subject are limited to limb digit formation; no eye or craniofacial phenotype is described. Does not connect to the ocular-structural-disease rationale for tracking SMO."
+  },
+  {
+    "id": "pmid:40475175",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "Pallister-Hall-Like Syndrome with homozygous SMO variant. Clinical features listed are postaxial polydactyly, hypothalamic hamartoma, cardiac/skeletal anomalies, and craniofacial dysmorphism; no ocular phenotype is reported. Without an eye-disease link this falls outside the ophthalmogenetics scope of the SMO collection."
+  },
+  {
+    "id": "pmid:32999669",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Case report demonstrating ROCK inhibitor (ripasudil) resolving retinoschisis and cystic foveal cavities in X-linked retinoschisis. RS1-disease treatment study with OCT documentation; directly relevant to RS1 clinical management literature."
+  },
+  {
+    "id": "pmid:40657133",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Novel SMO missense variant causing isolated autosomal-recessive postaxial polydactyly in two consanguineous families. Entirely focused on digit/limb development via the Sonic Hedgehog pathway; no eye phenotype is mentioned. Does not satisfy the ocular-structural-disease criterion for the SMO collection."
+  },
+  {
+    "id": "pmid:3380806",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Investigates Na-Ca exchange current in isolated rod outer segments - exactly the physiological function of SLC24A1 (NCKX1, the rod photoreceptor Na+/Ca2+-K+ exchanger). This is a foundational electrophysiology paper on the protein product of SLC24A1 in its native retinal compartment; directly relevant to the CSNB1D/retinal-dystrophy focus of the SLC24A1 collection."
+  },
+  {
+    "id": "pmid:10875081",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Clinical review of idiopathic infantile nystagmus diagnosis and treatment. FRMD7 is the causative gene for X-linked idiopathic congenital nystagmus (NYS1); clinical management literature on the phenotype is core to the FRMD7 collection even when the gene is not named in the title."
+  },
+  {
+    "id": "pmid:25999676",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Cohort study of X-linked retinoschisis clinical presentations in Taiwanese patients with RS1 gene sequencing confirming diagnosis and identifying nine mutations including six novel ones. Directly characterises RS1 genotype-phenotype relationships."
+  },
+  {
+    "id": "pmid:5159529",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Hereditary study of congenital nystagmus in a Swedish population. FRMD7 mutations are the principal cause of X-linked hereditary congenital nystagmus; population-level hereditary genetics of this phenotype is directly within scope for the FRMD7 collection, even as a pre-molecular era paper establishing inheritance patterns."
+  }
+]

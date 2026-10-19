@@ -1,0 +1,12 @@
+[
+{"id": "pmid:21991550", "verdict": "uncertain", "confidence": 0.5, "reason": "Adaptive optics rod reflectance study; no OPN1LW/OPN1MW content (cites RP, Usher, CSNB only). Plausible only under the 'Emerging technologies' part of the combined label, not the opsin genes."},
+{"id": "pmid:42453397", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AI in biologic drug discovery review; no MFRP link."},
+{"id": "pmid:42119787", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Engineering immune cells for therapy; no abstract, title shows no MFRP link."},
+{"id": "pmid:41981313", "verdict": "correctly_rejected", "confidence": 0.93, "reason": "PEX1 base editing in Zellweger spectrum disorder; PEX1 is not MFRP (membrane frizzled-related protein)."},
+{"id": "pmid:17237794", "verdict": "correctly_rejected", "confidence": 0.93, "reason": "Angiotensin II receptor blockade and TGF-beta in myopathy; no ADAMTSL4 link."},
+{"id": "pmid:18228265", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of elastic fiber assembly (elastin, fibrillin microfibrils, LOX, fibulins). Microfibril biology is adjacent to ADAMTSL4 (fibrillin-associated, ectopia lentis), but ADAMTSL4 is not mentioned. Leans correctly_rejected."},
+{"id": "pmid:21167193", "verdict": "relevant", "confidence": 0.9, "reason": "Review of the genetics of normal and defective color vision; directly concerns the red/green opsin genes OPN1LW/OPN1MW (no abstract, title is decisive)."},
+{"id": "pmid:8756760", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "LTBP-1 and latent TGF-beta in ECM microfibrils; microfibril-adjacent but no ADAMTSL4 mention."},
+{"id": "pmid:11773636", "verdict": "relevant", "confidence": 0.92, "reason": "Locus control region and mutually exclusive expression of human red and green cone pigment genes (OPN1LW/OPN1MW) in transgenic mice."},
+{"id": "pmid:2915991", "verdict": "relevant", "confidence": 0.92, "reason": "Molecular patterns of X-linked red and green color vision pigment genes (OPN1LW/OPN1MW) in 134 men; directly on the genes."}
+]

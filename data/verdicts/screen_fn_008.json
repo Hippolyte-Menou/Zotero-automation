@@ -1,0 +1,12 @@
+[
+{"id": "pmid:41493658", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "GPR40 (FFAR1) microglial NLRP3/ERK study in AMD model; no AIPL1 (LCA4 photoreceptor chaperone) link"},
+{"id": "pmid:41514281", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "VCP inhibitor ML240 in retinal explants; no AIPL1 link"},
+{"id": "pmid:41859137", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bibliometric review of retinitis pigmentosa research; generic RP, AIPL1 not mentioned"},
+{"id": "pmid:42679699", "verdict": "correctly_rejected", "confidence": 0.98, "reason": "Medicinal chemistry review of FDA-approved imidazole drugs; no BBS1 link, empty abstract"},
+{"id": "pmid:22174013", "verdict": "relevant", "confidence": 0.7, "reason": "NR2E3 is the gene under study (regulator of ESR1 in breast cancer); gene-centric biology paper, though not retinal. Borderline on whether gene-biology-only papers belong in the NR2E3 collection"},
+{"id": "pmid:30358468", "verdict": "relevant", "confidence": 0.8, "reason": "Genetic screening of Usher syndrome cohort reporting CDH23 and USH2A variants; directly about genes under the rejected entry and retinal-disease genetics"},
+{"id": "pmid:37123404", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Gene-agnostic IRD therapy review; NR2E3 not discussed in abstract, only matched via generic retinal-dystrophy terms"},
+{"id": "pmid:39449090", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Hypothalamic puberty transcriptomics in mice; no C12orf57 link (match is on generic 'gene' wording)"},
+{"id": "pmid:38907272", "verdict": "correctly_rejected", "confidence": 0.98, "reason": "Review of coleoid cephalopod embryonic brain development; no C12orf57 link"},
+{"id": "pmid:40498875", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Behavioral risk factors for childhood myopia in Ningxia; no ARR3 (cone arrestin) link"}
+]

@@ -1,0 +1,12 @@
+[
+{"id": "pmid:10586887", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Factor VIII C2 domain structure; no RS1/retinoschisin link beyond a shared discoidin-type domain name"},
+{"id": "pmid:10049354", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Zebrafish you-too/gli2 Hedgehog transcription factor; not about SMO"},
+{"id": "pmid:23343527", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Dhh and angiogenesis; Smoothened only used as an endothelial knockout tool, SMO not the subject"},
+{"id": "pmid:38733884", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "c-Met dual inhibitors in cancer; no SMO link"},
+{"id": "pmid:34884862", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of SHH pathway malformation syndromes; SMO not central, gene-level focus is SHH/GLI"},
+{"id": "pmid:32906187", "verdict": "relevant", "confidence": 0.95, "reason": "Hypomorphic human SMO variants in holoprosencephaly; directly about SMO"},
+{"id": "pmid:38614282", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Proton vs photon irradiation of neonatal mouse brain; no SMO link"},
+{"id": "pmid:35812756", "verdict": "relevant", "confidence": 0.95, "reason": "Case report with bi-allelic SMO variants causing postaxial polydactyly"},
+{"id": "pmid:40475175", "verdict": "relevant", "confidence": 0.95, "reason": "Pallister-Hall-like syndrome case with homozygous SMO variant"},
+{"id": "pmid:32999669", "verdict": "relevant", "confidence": 0.75, "reason": "Ripasudil treatment of X-linked juvenile retinoschisis (the RS1 disease); disease-level match to RS1 gene topic, though it is a therapy case report"}
+]

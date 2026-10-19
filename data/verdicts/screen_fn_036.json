@@ -1,0 +1,12 @@
+[
+{"id": "pmid:20238021", "verdict": "relevant", "confidence": 0.7, "reason": "Review of photoreceptor sensory cilia and inherited retinal degeneration; RPGR is a connecting-cilium protein and a core IRD gene, and BBS12 fits the ciliopathy theme. Abstract empty, so judged from title."},
+{"id": "pmid:14578418", "verdict": "relevant", "confidence": 0.9, "reason": "Multifocal ERG study in X-linked retinoschisis patients; XLRS is the RS1 disease, so this is directly on topic."},
+{"id": "pmid:26436454", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Hedgehog signaling in adult lung quiescence and repair; general Hh pathway biology with no SMO-specific or ocular/SMO-disease link in title or abstract."},
+{"id": "pmid:34196950", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Review of spliceosome mutations in cancer and immunity; general spliceosome biology, not RNU4ATAC (U4atac minor spliceosome snRNA) or its disease."},
+{"id": "pmid:33675823", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Congenital aniridia review centred on PAX6; TRIM44 is not an aniridia gene and is not discussed in the abstract."},
+{"id": "pmid:16855496", "verdict": "uncertain", "confidence": 0.5, "reason": "Ophthalmic features of basal cell nevus syndrome (Gorlin). BCNS is mainly PTCH1-driven and SMO is only a minor contributor, so the SMO link is weak; it is a Hh-pathway disease but not SMO-specific."},
+{"id": "pmid:31451534", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Tests Hedgehog pathway as a cell-autonomous modifier of Pkd1-driven polycystic kidney disease. Hh pathway, not SMO gene biology per se; no ocular link and SMO is not the focus."},
+{"id": "pmid:15617676", "verdict": "uncertain", "confidence": 0.5, "reason": "Xenopus Xhip (Hedgehog-interacting protein) in olfactory and lens placode formation. Hh-pathway developmental eye-adjacent work; SMO not named in title, RAX is an eye-field homeobox but not clearly discussed. Abstract empty."},
+{"id": "pmid:35454139", "verdict": "relevant", "confidence": 0.8, "reason": "Mechanistic study of CcHL/HCCS (System III holocytochrome c synthase) substrate recognition. HCCS is the gene itself; HCCS loss-of-function causes MLS (microphthalmia with linear skin defects). The SMO tag is spurious but HCCS is on topic."},
+{"id": "pmid:10821773", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Shh and Ihh ligand requirements in gut development; ligand-level GI biology with no SMO focus and no ocular link in the abstract."}
+]

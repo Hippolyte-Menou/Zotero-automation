@@ -1,0 +1,12 @@
+[
+{"id": "pmid:27271801", "verdict": "relevant", "confidence": 0.7, "reason": "Crystal structure of MAB21L1 (paralog) that explicitly offers a structure-based explanation for MAB21L2 mutations in patients with eye malformations; MAB21L2 is named in the abstract."},
+{"id": "pmid:30487245", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "COFG syndrome caused by MAB21L1 loss of function; MAB21L2 not discussed. Paralog only."},
+{"id": "pmid:27103078", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Case report of MAB21L1 truncating variant with scrotal agenesis; MAB21L2 not discussed. Paralog only."},
+{"id": "pmid:1879502", "verdict": "uncertain", "confidence": 0.5, "reason": "1991 study of interphotoreceptor matrix light-evoked changes in RCS rats; IPM is IMPG1's compartment but the paper does not address IMPG1 itself. Abstract empty."},
+{"id": "pmid:39083153", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "PrEP continuum of care systematic review; no gene relevance to MAB21L2."},
+{"id": "pmid:39390264", "verdict": "uncertain", "confidence": 0.55, "reason": "Colon adenocarcinoma machine-learning biomarker study where MAB21L2 is one of three biomarkers. Gene named prominently but the paper is about cancer biomarkers, not MAB21L2 biology."},
+{"id": "pmid:42653158", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Retinal proteomics in a magnetic-bead glaucoma mouse model; IMPDH1 not mentioned."},
+{"id": "pmid:2697513", "verdict": "relevant", "confidence": 0.85, "reason": "Immunogold localization of interphotoreceptor retinoid-binding protein (IRBP, the RBP3 gene product) in the IPM; directly on-topic for RBP3, which is listed in gene_or_topic."},
+{"id": "pmid:7714907", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Xenopus IPM development via WGA-binding sialoglycoconjugates; predates and does not address IMPG1 molecular biology."},
+{"id": "pmid:10220452", "verdict": "relevant", "confidence": 0.8, "reason": "Transgenic mouse study of mutually exclusive expression of the human red (L) opsin gene (OPN1LW) and green pigment genes in cones; OPN1LW regulation is the core subject."}
+]

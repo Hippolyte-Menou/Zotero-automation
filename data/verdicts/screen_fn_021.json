@@ -1,0 +1,12 @@
+[
+{"id": "pmid:14722609", "verdict": "uncertain", "confidence": 0.5, "reason": "Commentary on Bateman domains binding adenosyl compounds and regulating IMP dehydrogenase (IMPDH isoforms, not IMPDH1 specifically); IMPDH1 enzyme regulation is gene biology but no retinal or IMPDH1-specific content"},
+{"id": "pmid:27362644", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of cytoophidium filamentation of metabolic enzymes (CTPS mainly); IMPDH is only one example among many enzymes"},
+{"id": "pmid:17851563", "verdict": "relevant", "confidence": 0.85, "reason": "Direct IMPDH1 gene study: variant identification and rs2278293/rs2278294 association with acute rejection in transplant patients"},
+{"id": "pmid:32702086", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Focuses on IMPDH2 (paralog) in glioblastoma and cancer GTP metabolism; not IMPDH1"},
+{"id": "pmid:21426047", "verdict": "uncertain", "confidence": 0.5, "reason": "General review of IMPDH as a drug target across isoforms and species; IMPDH1 not specifically discussed, enzyme-level biology only"},
+{"id": "pmid:16865192", "verdict": "correctly_rejected", "confidence": 0.92, "reason": "Autosomal dominant RP due to rhodopsin (RHO) mutation; no IMPDH1 link, retinitis pigmentosa match is only via keyword"},
+{"id": "pmid:37714971", "verdict": "correctly_rejected", "confidence": 0.92, "reason": "Luminescent assay for cellular GTP and ATP quantitation; no IMPDH1 gene or retinal disease content"},
+{"id": "pmid:1782651", "verdict": "uncertain", "confidence": 0.45, "reason": "Proteoglycan synthesis in murine retinal neuron and photoreceptor cultures; could relate to interphotoreceptor matrix proteoglycans (IMPG1/SPACR), but abstract is empty and IMPG1 is not named"},
+{"id": "pmid:38779803", "verdict": "relevant", "confidence": 0.6, "reason": "Shows truncated TDP-43 interacts with myelin regulatory factor (MYRF) and downregulates MYRF target myelin genes in monkey brain; MYRF biology is central to the mechanism, though the paper is mainly neurodegeneration"},
+{"id": "pmid:38486710", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "MicroRNA effects on CG-4 oligodendrocyte differentiation in MS; MYRF not named and the readouts (Tcf7l2, Cnp, Plp1, Mbp, Mobp) are not MYRF-centred"}
+]

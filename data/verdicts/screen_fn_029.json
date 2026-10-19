@@ -1,0 +1,12 @@
+[
+{"id": "pmid:11522784", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Dictyostelium guanylyl/adenylyl cyclase DdGCA with GTPgammaS; no GUCA1A (GCAP) link"},
+{"id": "pmid:19111294", "verdict": "uncertain", "confidence": 0.5, "reason": "Sperm ROS-GC1 (GUCY2D) calcium-modulated system; GCAP-type regulation is plausible but no abstract and no explicit GUCA1A content"},
+{"id": "pmid:42127184", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cx43 (GJA1) gap junction cryo-ET; no GJA3 (Cx46) or GJA8 (Cx50) content"},
+{"id": "pmid:41846671", "verdict": "uncertain", "confidence": 0.5, "reason": "Isolated cone dystrophy case report; GUCA1A is a known cause of cone dystrophy but the report does not mention genetics or GUCA1A, so the gene link is only disease-level"},
+{"id": "pmid:4297751", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ultrastructure of mouse melanoma premelanosomes; GPR143/OA1 not mentioned"},
+{"id": "pmid:9756475", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Transducin-PDE gamma subunit deactivation in rods; no GCAP/GUCA1A content"},
+{"id": "pmid:8461139", "verdict": "relevant", "confidence": 0.6, "reason": "Recoverin-like calcium-binding proteins on rod photoresponse; recoverin-family proteins (GCAPs, recoverin) regulate GRK1 and ROS-GC (GUCY2D) so the paper bears on both queried genes; abstract missing so score was low"},
+{"id": "pmid:8413670", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Proline residue in voltage gating of gap junctions; no abstract and no specific GJA8 (Cx50) link evident from title"},
+{"id": "pmid:10647174", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of why haem is covalently attached in c-type cytochromes; this is the reaction HCCS catalyses, so it is biology-adjacent, but it is general biochemistry rather than HCCS gene/disease content"},
+{"id": "pmid:9716376", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Proteasome inhibitors activate HSF1/HSF2/HSF3 in avian cells; HSF4 not studied"}
+]

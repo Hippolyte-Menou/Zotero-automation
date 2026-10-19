@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:42015509", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Generic prime editing review; no MFRP-specific content, MFRP not mentioned in abstract"},
+ {"id": "pmid:41751840", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Prime editing functional genomics review; generic methods, no MFRP content"},
+ {"id": "pmid:24515290", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Review of NBCe1 (SLC4A4) as model for SLC4 family; SLC4A11 not the subject, only a family relative; no abstract"},
+ {"id": "pmid:42298102", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "LNP prime editing in mouse liver (PAH target); no MFRP link"},
+ {"id": "pmid:10814758", "verdict": "relevant", "confidence": 0.8, "reason": "Cone spectral sensitivities measured in observers of known opsin genotype; directly concerns OPN1LW/OPN1MW variants and their functional effect"},
+ {"id": "pmid:16303957", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Rebound tonometer method for rodent IOP; glaucoma model methodology, no myocilin (MYOC) content"},
+ {"id": "pmid:21447600", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "12q14 duplication (TBK1/XPOT/RASSF3/GNS) in NTG; not MYOC, though glaucoma-related"},
+ {"id": "pmid:6891215", "verdict": "relevant", "confidence": 0.6, "reason": "Biochemical study of interphotoreceptor retinol-binding protein (IRBP, the RBP3 gene product); no abstract, gene-product level content, somewhat old basic biology"},
+ {"id": "pmid:41851456", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "In vivo CAR T engineering; no MFRP link"},
+ {"id": "pmid:41526513", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Targeted delivery of genome editors in vivo (general delivery methods); no EYS or MFRP specific content, no abstract"}
+]

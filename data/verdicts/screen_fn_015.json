@@ -1,0 +1,12 @@
+[
+{"id": "pmid:18625713", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MAGP-1 (MFAP2) knockout phenotypes; no ADAMTSL4 link, only shared fibrillin-microfibril context"},
+{"id": "pmid:21063442", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "complete FBN1 deletion clinical spectrum; FBN1 is not ADAMTSL4; no abstract"},
+{"id": "pmid:15518190", "verdict": "relevant", "confidence": 0.9, "reason": "L and M opsin gene arrays (OPN1LW/OPN1MW) in dichromacy; core gene biology"},
+{"id": "pmid:19934058", "verdict": "relevant", "confidence": 0.9, "reason": "C203R M-opsin (OPN1MW) mutation and cone mosaic disruption"},
+{"id": "pmid:18578077", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "general Marfan/related disorders review; no ADAMTSL4-specific content; no abstract"},
+{"id": "pmid:17158461", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "fibrillin-1 microfibril ultrastructure; FBN1 not ADAMTSL4"},
+{"id": "pmid:7667922", "verdict": "relevant", "confidence": 0.85, "reason": "genetic basis of photopigment (L/M opsin) variants in dichromats; title is squarely on OPN1LW/OPN1MW"},
+{"id": "pmid:21784848", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "fibrillin-1 Marfan mutations and protease susceptibility; FBN1 not ADAMTSL4"},
+{"id": "pmid:3884672", "verdict": "relevant", "confidence": 0.6, "reason": "IRBP (interstitial retinol binding protein, the RBP3 product) distribution during human subretinal space development; gene-product biology though not a genetic study"},
+{"id": "pmid:31254532", "verdict": "relevant", "confidence": 0.85, "reason": "L:M cone ratio and L opsin gene polymorphisms (OPN1LW) associated with myopia"}
+]

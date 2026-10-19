@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:28002562", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "PSC-derived corneal endothelial cell induction; VSX2 (PAX6/LHX2/VSX2 listed only as eye-field fate markers) is not the subject; no VSX2 disease or gene-level biology"},
+ {"id": "pmid:31337830", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Automated hPSC-to-RPE differentiation protocol; no VSX2 content"},
+ {"id": "pmid:34494680", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Photoreceptor nanotube material transfer; no NRL content"},
+ {"id": "pmid:12427073", "verdict": "relevant", "confidence": 0.9, "reason": "Family with RP caused by homozygous USH2A missense variant (Cys759Phe) via paternal uniparental heterodisomy; USH2A-disease paper that should be in the USH2A library"},
+ {"id": "pmid:31091471", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of neoplasia and intraocular inflammation masquerade syndromes; no LRIT3 link (empty abstract, title-based judgment)"},
+ {"id": "pmid:20825490", "verdict": "relevant", "confidence": 0.8, "reason": "Linkage and fine-mapping of 11p13 locus to ELP4 variants for centrotemporal sharp waves and speech sound disorder; ELP4 variant-level genetic study"},
+ {"id": "pmid:27847465", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of Elongator complex (ELP4 is a subunit) in neurodevelopment and disease; ELP4 not named in abstract, relevance is complex-level"},
+ {"id": "pmid:29332244", "verdict": "uncertain", "confidence": 0.4, "reason": "Structural review of Elongator complex; no abstract, judged on title only; complex-level rather than ELP4-specific"},
+ {"id": "pmid:36617428", "verdict": "uncertain", "confidence": 0.5, "reason": "Cryo-EM structure of yeast/mouse Elongator complex containing ELP4; basic structural biology, no human ELP4 disease content"},
+ {"id": "pmid:28960290", "verdict": "uncertain", "confidence": 0.55, "reason": "Review of Elongator architecture and subunit arrangement; ends by linking subunit mutations to human pathologies; complex-level rather than ELP4-specific"}
+]

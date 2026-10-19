@@ -1,0 +1,12 @@
+[
+{"id": "pmid:41834719", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MC4R accessory-protein review; no KCNJ13 (Kir7.1) link"},
+{"id": "pmid:42352306", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "fish neural melanocortin receptor review; unrelated to KCNJ13"},
+{"id": "pmid:42566994", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "nephronectin (NPNT) ameloblast study; NHS (Nance-Horan) not mentioned"},
+{"id": "pmid:42560691", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "FAM83H amelogenesis imperfecta study; matched only on 'NHS' alias-like token, not NHS gene"},
+{"id": "pmid:9525859", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KcsA bacterial K channel crystal structure; no KCNJ13 link"},
+{"id": "pmid:9074760", "verdict": "uncertain", "confidence": 0.5, "reason": "general Kir channel family review; KCNJ13 (Kir7.1) not specifically discussed, so family-level relevance only"},
+{"id": "pmid:8355805", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "rat GIRK1 muscarinic K channel cloning; not KCNJ13"},
+{"id": "pmid:16713582", "verdict": "relevant", "confidence": 0.6, "reason": "Elongator-depleted cells (familial dysautonomia); ELP4 is a core Elongator subunit, so the complex biology applies to ELP4 though ELP4 is not the focus"},
+{"id": "pmid:22410558", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "blood-derived iPSC optic vesicle differentiation; OTX2/PROM1/VSX2 not studied"},
+{"id": "pmid:11689709", "verdict": "relevant", "confidence": 0.85, "reason": "yeast holo-Elongator complex characterization that identifies and studies Elp4 directly"}
+]

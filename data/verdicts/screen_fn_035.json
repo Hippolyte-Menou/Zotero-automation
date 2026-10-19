@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:33649536", "verdict": "uncertain", "confidence": 0.5, "reason": "Medulloblastoma paper on statins repressing hedgehog signaling (mechanism plausibly via SMO, but abstract empty and paper is oncology, not ocular); SMO-specific link not established from title alone"},
+ {"id": "pmid:33398366", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cardiology paper on TRIM28/GPX1 in myocardial injury; TRIM28 is not a TRIM44 alias"},
+ {"id": "pmid:34034495", "verdict": "relevant", "confidence": 0.6, "reason": "Paper is directly about TRIM44 gene function (ovarian cancer proliferation via FRK); gene-level paper, though not ocular"},
+ {"id": "pmid:35609523", "verdict": "relevant", "confidence": 0.6, "reason": "Paper is directly about TRIM44 knockdown in traumatic brain injury; gene-level paper, not ocular"},
+ {"id": "pmid:36120578", "verdict": "relevant", "confidence": 0.7, "reason": "Conditional deletion of Smo in growth plate chondrocytes; direct SMO gene function study, non-ocular"},
+ {"id": "pmid:36055555", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Mandarin fish scTRIM59 antiviral paper; not TRIM44 and not human gene biology"},
+ {"id": "pmid:42621064", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Electroporation device for retinal DNA delivery; no RPGR-specific content in abstract"},
+ {"id": "pmid:42009447", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Senile degenerative peripheral retinoschisis in intermediate uveitis; not X-linked RS1 disease or RS1 biology"},
+ {"id": "pmid:14635248", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "General spliceosome review of major U1/U2/U4/U5/U6 machinery; does not address the minor-spliceosome U4atac snRNA specifically"},
+ {"id": "pmid:2873060", "verdict": "relevant", "confidence": 0.65, "reason": "Biochemistry of rod outer segment guanylate cyclase (the protein encoded by GUCY2D, ROS-GC/retGC) and Ca2+ regulation; pre-cloning era but same protein biology"}
+]

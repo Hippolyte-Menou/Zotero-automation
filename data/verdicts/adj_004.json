@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:32195292",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title explicitly addresses photopigment genes (OPN1LW/OPN1MW protein products) and how splicing-code disruptions cause vision disorders including color blindness and cone dystrophy. Directly on-topic for OPN1LW and OPN1MW; the empty abstract does not reduce confidence given the title clarity."
+  },
+  {
+    "id": "pmid:27245533",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly names OPN1LW and OPN1MW cone opsin genes and covers genotype-phenotype correlations across the full spectrum of X-linked cone opsin disorders from mild color-vision deficiency to severe cone dystrophy. Directly on-topic for OPN1LW."
+  },
+  {
+    "id": "pmid:27787612",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "According to PubMed, this paper studies OLFM1 (olfactomedin 1), a distinct glycoprotein from IMPG1. Although OLFM1 localizes to the IPM (same compartment as IMPG1), the paper does not study IMPG1/SPACR/IPM150 and the two proteins are unrelated at the gene level. Correct rejection for an IMPG1-focused library entry."
+  },
+  {
+    "id": "pmid:917049",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "This 1977 NEJM letter is a landmark paper establishing deficient ornithine ketoacid aminotransferase (OAT) activity as the biochemical basis of gyrate atrophy of the choroid and retina. It is directly foundational for the OAT gene entry in an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:8242064",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly studies red (OPN1LW) and green (OPN1MW) opsin gene polymorphisms and haplotype diversity, including sequence exchange via gene conversion in exon 3. This is core molecular genetics of OPN1LW and is relevant to the OPN1LW library entry."
+  },
+  {
+    "id": "pmid:2307198",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "According to PubMed, the paper characterizes and partially purifies a photoreceptor survival-promoting activity (PSPA) from crude IPM extracts of chick retina. The factor is not identified as IMPG1 and predates its molecular characterization. The paper is general IPM biology and does not study IMPG1/SPACR specifically."
+  },
+  {
+    "id": "pmid:27271801",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly determines the crystal structure of MAB21L1 and provides a structure-based explanation for the effects of MAB21L2 mutations in patients with eye malformations. IMPG1 is not the gene of interest here -- MAB21L2 is directly studied in the context of ocular structural disease, exactly the ophthalmogenetics focus."
+  },
+  {
+    "id": "pmid:1879502",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "According to PubMed, the paper studies light-evoked distributional changes of the IPM (colloidal iron staining) in normal and RCS rats. RCS retinal dystrophy is caused by a Mertk mutation, not IMPG1. The paper examines general IPM physiology and does not identify or study IMPG1/SPACR/IPM150 as a molecular entity."
+  },
+  {
+    "id": "pmid:39390264",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "This paper identifies MAB21L2 as a biomarker for liver metastasis in colon adenocarcinoma using machine learning on TCGA data. The ophthalmogenetics library covers MAB21L2 in relation to microphthalmia and coloboma; colon cancer biomarker discovery is entirely off-topic for this collection."
+  },
+  {
+    "id": "pmid:2697513",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly studies IRBP (interphotoreceptor retinoid-binding protein, encoded by RBP3) distribution around rod and cone photoreceptors in the IPM. RBP3 is one of the two genes_or_topics listed. The paper is specifically about RBP3 protein localization."
+  },
+  {
+    "id": "pmid:10220452",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract studies the mechanism of mutually exclusive expression of human red (OPN1LW) and green (OPN1MW) visual pigment genes in cone photoreceptors using transgenic mice, addressing locus control region and stochastic pairing. Directly on-topic for OPN1LW."
+  },
+  {
+    "id": "pmid:438294",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Abstract directly measures OAT (ornithine aminotransferase) function: the enzyme catalyzes ornithine to pyrroline-5-carboxylate, and the paper establishes that OAT is the primary route for proline biosynthesis in mammalian cells. This is foundational biochemistry for OAT, the enzyme deficient in gyrate atrophy. While it does not study the ocular phenotype, understanding OAT's metabolic role is directly relevant to interpreting gyrate atrophy pathophysiology in an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:40116022",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly identifies TULP1 (Tulp1) as a direct target of m6A reader YTHDF1 in the retina, with loss of Ythdf1 causing rod photoreceptor degeneration. TULP1 is directly studied in the context of inherited retinal degeneration, exactly the focus for this gene entry."
+  },
+  {
+    "id": "pmid:14722609",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "According to PubMed, this is a commentary reviewing how Bateman domains regulate IMPDH, CBS, chloride channels, and AMP kinase across multiple proteins. While IMPDH is mentioned, the paper does not address IMPDH1-specific retinal degeneration (RP/LCA phenotype) and frames IMPDH primarily in the context of metabolic therapeutics. Off-topic for an ophthalmogenetics library entry on IMPDH1."
+  },
+  {
+    "id": "pmid:17851563",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper studies IMPDH1 gene polymorphisms and their association with acute rejection in renal transplant patients receiving mycophenolate mofetil. The ophthalmogenetics library covers IMPDH1 for retinitis pigmentosa and Leber congenital amaurosis; transplant immunosuppression pharmacogenomics is unrelated to the retinal disease context."
+  },
+  {
+    "id": "pmid:21426047",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper reviews IMPDH as a drug target for antiviral, anticancer, antimicrobial, and immunosuppressive therapeutics. No discussion of the retinal degeneration (RP10/LCA11) phenotype caused by IMPDH1 mutations. Off-topic for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:1782651",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "According to PubMed, the paper characterizes proteoglycans (chondroitin sulfate/dermatan sulfate and heparan sulfate) synthesized by murine retinal neuron cultures in the context of retinal degenerations. The study does not identify or analyze IMPG1/SPACR specifically; it is general proteoglycan biochemistry that predates IMPG1 molecular characterization."
+  },
+  {
+    "id": "pmid:38779803",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper studies how pathologic TDP-43 fragments downregulate myelin gene expression through interaction with myelin regulatory factor (MYRF) in oligodendrocytes of monkey brain in an ALS/neurodegeneration context. The ophthalmogenetics library covers MYRF for microphthalmia and structural eye disease; ALS-related neurodegeneration brain studies are off-topic."
+  },
+  {
+    "id": "pmid:39719691",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper investigates myelination dysregulation in focal cortical dysplasia of the frontal lobe causing intractable epilepsy, with MYRF mentioned as a transcription factor binding myelin gene targets. The ophthalmogenetics library covers MYRF for microphthalmia; cortical dysplasia and epilepsy are off-topic."
+  },
+  {
+    "id": "pmid:24275321",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Title indicates a review of mechanisms regulating oligodendrocyte development and CNS myelination. MYRF is a key transcription factor in this pathway, but the topic is CNS myelination biology without an ocular angle. The ophthalmogenetics library covers MYRF for structural eye disease (microphthalmia/coloboma); general CNS myelination reviews are off-topic."
+  }
+]

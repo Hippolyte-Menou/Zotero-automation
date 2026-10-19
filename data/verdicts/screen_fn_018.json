@@ -1,0 +1,12 @@
+[
+{"id": "pmid:32195292", "verdict": "relevant", "confidence": 0.9, "reason": "Review of cone opsin (OPN1LW/OPN1MW) splicing defects causing vision disorders; directly about the gene pair"},
+{"id": "pmid:27245533", "verdict": "relevant", "confidence": 0.95, "reason": "Genotype-phenotype review of OPN1LW/OPN1MW cone opsin disorders"},
+{"id": "pmid:27787612", "verdict": "uncertain", "confidence": 0.5, "reason": "Mouse IPM olfactomedin-domain protein study (title says Olfactomedin 1, but IPM/olfactomedin biology overlaps IMPG1/SPACR); abstract not available to confirm the gene"},
+{"id": "pmid:41446205", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Engineered extracellular vesicles for RNA delivery; no MFRP link"},
+{"id": "pmid:41968583", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Base editing of Rag2 for SCID in mice; no MFRP link"},
+{"id": "pmid:917049", "verdict": "relevant", "confidence": 0.9, "reason": "Gyrate atrophy of choroid and retina due to deficient ornithine ketoacid aminotransferase (OAT) activity; OAT disease paper"},
+{"id": "pmid:41415457", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "VLP-based CRISPR screening in myeloid cells; no MFRP link"},
+{"id": "pmid:8242064", "verdict": "relevant", "confidence": 0.9, "reason": "Polymorphism and haplotype diversity of human red and green opsin genes; directly about OPN1LW (and OPN1MW)"},
+{"id": "pmid:2307198", "verdict": "uncertain", "confidence": 0.45, "reason": "1990 characterization of an interphotoreceptor matrix photoreceptor survival factor; IMPG1 not named in abstract, link is only via IPM biology (pre-cloning)"},
+{"id": "pmid:29921877", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Rosmarinic acid as anti-cataract drug screening; LSS (lanosterol synthase) not studied, only generic cataract topic"}
+]

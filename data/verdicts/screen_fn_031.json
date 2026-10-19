@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:41516372", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "BBF2H7/Sec23a ER-to-melanosome tyrosinase transport; no GPR143 (OA1) content"},
+ {"id": "pmid:42535814", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "brinzolamide clinical trial for nystagmus in children; no FRMD7 genetics or FRMD7-specific content, only generic nystagmus term matched"},
+ {"id": "pmid:42525157", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "electroacupuncture stroke neuroprotection via RhoGDIalpha; unrelated to FRMD7 (abstract empty, title only)"},
+ {"id": "pmid:41491788", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "cattle coat color GWAS; TYR variant in Hanwoo, not GPR143 (matched via melanin/pigmentation terms only)"},
+ {"id": "pmid:41683574", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pmel17 melanosome maturation and melanoma vascularization; not GPR143"},
+ {"id": "pmid:42068163", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "bird pangenome structural variation; melanin genes MREG/MLPH/RAB17 mentioned but no GPR143 content"},
+ {"id": "pmid:9790980", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bradyrhizobium cbb3 oxidase subunits overexpressed in E. coli; no HCCS (holocytochrome c synthase) content (abstract empty, title only)"},
+ {"id": "pmid:11228153", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Rab27a/myosin Va melanosome capture in mouse melanocytes; not GPR143 (melanosome biology only)"},
+ {"id": "pmid:8392055", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "recoverin as frog S-modulin regulating PDE; phototransduction Ca2+ sensor but recoverin (RCVRN), not GCAP1/GUCA1A; background-level link only"},
+ {"id": "pmid:10632883", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Rhodobacter c-type cytochrome biogenesis genes cycJ and ccdA; bacterial haem delivery, not HCCS (eukaryotic holocytochrome c synthase) itself"}
+]

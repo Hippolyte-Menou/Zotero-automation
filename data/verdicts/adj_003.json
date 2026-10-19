@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:21167193",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly states genetics of normal and defective color vision. OPN1LW and OPN1MW encode the L- and M-cone opsins whose mutations underlie color vision defects. Core topic for these genes. Abstract is missing but title is unambiguous."
+  },
+  {
+    "id": "pmid:11773636",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly describes the locus control region controlling mutually exclusive expression of red (OPN1LW) and green (OPN1MW) cone pigment genes, including a model for trichromacy evolution via LCR-promoter competition. Directly studies both target genes."
+  },
+  {
+    "id": "pmid:2915991",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract describes Southern blot analysis of X-linked red and green pigment gene arrays (OPN1LW and OPN1MW) in 134 Caucasian men, cataloguing molecular genotypes and hybrid gene patterns. Directly studies both target genes at the molecular level."
+  },
+  {
+    "id": "pmid:15518190",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly examines L and M pigment genes (OPN1LW and OPN1MW) in 128 dichromatic males and catalogues the variety of gene arrangements causing dichromacy including deletion, hybrid genes, and LCR-region rearrangements. Directly relevant to both genes."
+  },
+  {
+    "id": "pmid:19934058",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly studies the C203R missense mutation in M-cone opsin (OPN1MW), showing it disrupts the cone photoreceptor mosaic with reduced cone density. Directly examines a pathogenic OPN1MW mutation and its retinal consequence."
+  },
+  {
+    "id": "pmid:7667922",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly describes genetic basis of photopigment variations in human dichromats, which is the core disease area for OPN1LW and OPN1MW. Protan and deutan dichromacy arise from mutations in these genes. Abstract missing but title is unambiguous."
+  },
+  {
+    "id": "pmid:3884672",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly uses rabbit antiserum against IRBP (interphotoreceptor retinol-binding protein) to study subretinal space development. IRBP is the protein product of RBP3. The paper tracks IRBP appearance and distribution during human retinal development, directly relevant to RBP3."
+  },
+  {
+    "id": "pmid:31254532",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly examines L and M opsin genes (OPN1LW and OPN1MW) and L:M cone ratios in relation to myopia susceptibility, including cone opsin genetics and spectral sensitivity measurements. Directly studies both target genes."
+  },
+  {
+    "id": "pmid:9893828",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly references L-cone pigment genes (OPN1LW) in normal colour vision. Core subject of the paper is expression of OPN1LW. Abstract missing but title is unambiguous for the target gene."
+  },
+  {
+    "id": "pmid:4186708",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "IMPG1 (aliases IPM150, SPACR in search keywords) is Interphotoreceptor Matrix Proteoglycan 1, a proteoglycan whose GAG (glycosaminoglycan/mucopolysaccharide) chains are a structural component. A paper studying retinal mucopolysaccharides/GAGs is directly relevant to understanding IMPG1 structure and function. Abstract missing but the biochemical connection to IMPG1 is plausible and direct."
+  },
+  {
+    "id": "pmid:8792812",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly references blue cone monochromatism (CBBM), which is caused by mutations in OPN1LW and OPN1MW. Blue cone monochromatism is listed as a primary search keyword for these genes. Abstract missing but title is unambiguous for the target disease-gene association."
+  },
+  {
+    "id": "pmid:18318631",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly discusses L and M cone opsin gene arrays (OPN1LW and OPN1MW), the LCR, the proximal advantage hypothesis for L cone advantage, and L:M cone ratios in males of African descent. Directly studies the target genes."
+  },
+  {
+    "id": "pmid:2795409",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly describes blue cone monochromatism (BCM), a condition caused by mutations in OPN1LW and OPN1MW that eliminate red and green cone function. Clinical study of the target disease with spectral sensitivity and color discrimination findings. BCM is a primary disease keyword for these genes."
+  },
+  {
+    "id": "pmid:20492958",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title describes an extracellular retinol-binding glycoprotein in the rat eye, which is IRBP, the protein product of RBP3. The study characterizes, localizes, and examines biosynthesis of RBP3 protein in the eye. Directly relevant to RBP3."
+  },
+  {
+    "id": "pmid:38404354",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Abstract addresses a published comment correcting misrepresentation of contrast theory regarding cone opsin gene splicing defects and myopia, mentioning ON-bipolar cells and differential cone opsin expression. LRIT3 mutations cause CSNB1F affecting ON-bipolar cells, and OPN1MW splicing defects are directly referenced. The paper connects both target genes in the context of ON-pathway signaling and myopia susceptibility."
+  },
+  {
+    "id": "pmid:42532476",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "This is a broad review of cholesterol biosynthesis as a general signaling network covering cancer, immunity, neurodegeneration, ageing, and regeneration. LSS (lanosterol synthase) is an enzyme in the cholesterol biosynthesis pathway, but it is not mentioned in the abstract and the paper does not address LSS specifically, congenital cataracts, or any ocular disease. The connection to the gene_or_topic is indirect (pathway membership only) without any gene-specific or ophthalmic relevance. Correctly excluded from an ophthalmogenetics library focused on LSS and congenital cataracts."
+  },
+  {
+    "id": "pmid:30258865",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly examines the prevalence and gene frequency of red-green color vision deficiency including protan (OPN1LW-related) and deutan (OPN1MW-related) defects in a North Indian population using Hardy-Weinberg analysis. Directly addresses the target gene's disease area with population genetics data."
+  },
+  {
+    "id": "pmid:26187035",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly states advances in the molecular basis of color vision, which is the core research area for OPN1LW (L-cone opsin). This is a review article in Progress in Retinal and Eye Research on the molecular biology of color vision. Abstract missing but title is unambiguous for the target gene."
+  },
+  {
+    "id": "pmid:33544131",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly investigates color vision phenotype and genotype manifestation in individual cone cells, studying OPN1LW-related subjects including color normals, deuteranopes, protanopes, and deuteranomalous trichromats. Measures L/M cone ratios, cone density, and functional cone classification directly relevant to OPN1LW."
+  },
+  {
+    "id": "pmid:21465477",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "This paper studies LRAT expression and function in melanoma and melanocyte skin cells, examining vitamin A esterification in cancer biology. LRAT is the target gene, but this paper studies it in the context of skin cancer with no discussion of retinal function, visual cycle, or any ophthalmic manifestation. LRAT mutations cause LCA14 (Leber congenital amaurosis) through disruption of the retinal visual cycle; this paper's skin-cancer context does not contribute to the ophthalmogenetics basis for LRAT inclusion in this library."
+  }
+]

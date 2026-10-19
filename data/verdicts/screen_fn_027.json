@@ -1,0 +1,12 @@
+[
+{"id": "pmid:42080789", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Nystagmus change after cataract surgery in congenital blindness (Project Prakash); no FRMD7 link, nystagmus is not shown to be genetic."},
+{"id": "pmid:42096224", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Psychophysics of viewing time in infantile nystagmus generally; no FRMD7 or genetic content. Borderline since IN is the FRMD7 phenotype, but paper is not gene-specific."},
+{"id": "pmid:40736861", "verdict": "uncertain", "confidence": 0.5, "reason": "Gene therapy book chapter with no abstract; plausibly covers RPE65 (first approved retinal gene therapy) but ACO2 and RS1 links unclear. Needs full text to decide per gene."},
+{"id": "pmid:12126230", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General gap junction/connexin review; mentions connexin 50 (GJA8) only in passing among many connexins."},
+{"id": "pmid:1993030", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Head posture in congenital nystagmus (1991); no genetic content and not FRMD7-specific. Borderline on the IN-as-disease reading."},
+{"id": "pmid:33947751", "verdict": "uncertain", "confidence": 0.5, "reason": "Kinetoplastid (trypanosome) cytochrome c synthase, ortholog of HCCS; only the truncated abstract touches a human genetic disease. Mainly protist biology, leaning correctly rejected."},
+{"id": "pmid:38573619", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "ERG in albinism and idiopathic infantile nystagmus; no FRMD7 or genetic link. Borderline on the IN-as-disease reading."},
+{"id": "pmid:12686556", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Recoverin (RCVRN) myristoylation and Ca2+ structure; not about GRK1 or GUCA1A/GCAP1."},
+{"id": "pmid:38955952", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of retinal gene therapy clinical trials across disorders; likely covers RPGR-XLRP and RS1 trials to some extent, but multi-disease and not gene-specific. Leans relevant at disease level."},
+{"id": "pmid:3035715", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Rat liver gap junction cDNA (connexin 32 era, 1990); not GJA3 (Cx46) or GJA8 (Cx50)."}
+]

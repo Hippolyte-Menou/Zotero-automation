@@ -1,0 +1,12 @@
+[
+{"id": "pmid:29205155", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Hedgehog/Gli2 diet-induced obesity in adipocyte lineage (uses SmoM2 as a pathway tool); pathway-level metabolic paper with no ocular or SMO-gene-specific link"},
+{"id": "pmid:24860986", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Long bone growth in limb development and amphibian regeneration; no SMO or ocular link"},
+{"id": "pmid:27018594", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Hedgehog-beta-catenin interaction in synovial joint and osteoarthritis; pathway paper outside ocular genetics, no SMO-gene focus"},
+{"id": "pmid:27847343", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fish TRIM32 antiviral function; not about TRIM44 and no ocular link"},
+{"id": "pmid:34870341", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Smo deletion in skeletal stem cells controls bone-fat fate in osteoporosis; SMO gene-level but skeletal, no ocular link"},
+{"id": "pmid:22541657", "verdict": "relevant", "confidence": 0.85, "reason": "Vitrectomy outcomes for progressive X-linked retinoschisis, the disease caused by RS1; clinically on-topic for RS1 disease biology (abstract missing, judged from title)"},
+{"id": "pmid:34211088", "verdict": "relevant", "confidence": 0.55, "reason": "TRIM44 mechanistic paper (p62 deubiquitination, DNA repair); gene-level paper on TRIM44 itself, though no ocular link and abstract missing"},
+{"id": "pmid:30593901", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fish SUMO3 antiviral function; not about TRIM44"},
+{"id": "pmid:30792262", "verdict": "relevant", "confidence": 0.55, "reason": "TRIM44 expression as biomarker in cervical cancer; gene-level paper on TRIM44, no ocular link"},
+{"id": "pmid:22517907", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Stromal Hedgehog/Smo effects on B lymphopoiesis; SMO gene-level but hematologic, no ocular link"}
+]

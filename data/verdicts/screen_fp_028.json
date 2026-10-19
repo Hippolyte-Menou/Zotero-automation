@@ -1,0 +1,12 @@
+[
+{"id": "pmid:33582236", "verdict": "on_topic", "confidence": 0.97, "reason": "Decorin (DCN) knockout mice and TGF-beta signaling in glaucoma outflow; DCN is the central subject"},
+{"id": "pmid:15671264", "verdict": "on_topic", "confidence": 0.98, "reason": "Truncating DCN mutation causing congenital stromal dystrophy of the cornea; DCN-associated disease"},
+{"id": "pmid:35847484", "verdict": "off_topic", "confidence": 0.9, "reason": "BMP12/WNT inhibitor tenogenesis in equine MSCs; DCN appears only as one of several tenogenic marker genes measured"},
+{"id": "pmid:35163683", "verdict": "off_topic", "confidence": 0.8, "reason": "MSC-derived ECM remodeling; decorin is one of several ECM gene transcripts measured, not a study focus"},
+{"id": "pmid:35360851", "verdict": "off_topic", "confidence": 0.9, "reason": "Single-cell transcriptome of MSCs vs fibroblasts; DCN is only in a list of common fibroblast markers"},
+{"id": "pmid:35357965", "verdict": "uncertain", "confidence": 0.5, "reason": "Decellularization detergent effects on stromal matrix proteomics; decorin is one of several named proteins (collagens, elastin, fibrillin, laminin) with a specific decorin result, but the paper is about matrix preservation broadly"},
+{"id": "pmid:36534610", "verdict": "on_topic", "confidence": 0.98, "reason": "Novel DCN frameshift mutation in a family with congenital stromal corneal dystrophy"},
+{"id": "pmid:37034263", "verdict": "off_topic", "confidence": 0.75, "reason": "Bioengineered artificial corneas; decorin is one of several stromal proteoglycans/matrix components quantified, not the focus"},
+{"id": "pmid:35031282", "verdict": "on_topic", "confidence": 0.9, "reason": "Title states decorin regulates collagen fibrillogenesis in corneal wound healing; abstract empty so judged from title"},
+{"id": "pmid:38667295", "verdict": "on_topic", "confidence": 0.97, "reason": "DCN downregulation in breast stromal fibroblasts and its pro-carcinogenic effects; DCN is the central subject"}
+]

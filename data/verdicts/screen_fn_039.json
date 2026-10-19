@@ -1,0 +1,12 @@
+[
+{"id": "pmid:40657133", "verdict": "relevant", "confidence": 0.95, "reason": "Case report/genetics study of a homozygous SMO missense variant causing isolated postaxial polydactyly; direct SMO disease link, rejected only on score"},
+{"id": "pmid:2443659", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cardiac Na-Ca exchange in guinea-pig ventricular myocytes (NCX1, SLC8A1); no SLC24A1/NCKX1 link"},
+{"id": "pmid:901903", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Squid axon Na-Ca exchange physiology; not SLC24A1 (NCKX1) biology"},
+{"id": "pmid:15602012", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Pharmacology review of brain NCX (SLC8 family) exchangers; not the retinal NCKX1 encoded by SLC24A1"},
+{"id": "pmid:1336540", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cardiac sodium-calcium exchange in guinea-pig giant patches (NCX1); no SLC24A1 link"},
+{"id": "pmid:3380806", "verdict": "relevant", "confidence": 0.6, "reason": "Rod outer segment Na/Ca exchanger biophysics; the rod photoreceptor exchanger is NCKX1 (SLC24A1), so this is foundational work on the protein, though pre-cloning and it does not name the gene"},
+{"id": "pmid:10875081", "verdict": "uncertain", "confidence": 0.5, "reason": "General review of idiopathic infantile nystagmus diagnosis/treatment; FRMD7 is a known INS gene but the paper has no genetic content and no abstract"},
+{"id": "pmid:7666363", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Synaptosomal Na/Ca exchanger kinetics in rat brain (NCX family); no SLC24A1 link"},
+{"id": "pmid:25999676", "verdict": "relevant", "confidence": 0.95, "reason": "Clinical and genetic study of X-linked retinoschisis with RS1 sequencing and six novel mutations; direct RS1 disease paper"},
+{"id": "pmid:5159529", "verdict": "relevant", "confidence": 0.6, "reason": "Hereditary study of congenital (infantile) nystagmus in a Swedish pedigree population, the X-linked form now known to be caused by FRMD7; disease-level relevance, no abstract"}
+]

@@ -1,0 +1,12 @@
+[
+{"id": "pmid:8056849", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Connexin chimera study of Cx43/Cx32/Cx38 channel gating; does not involve GJA8 (Cx50)"},
+{"id": "pmid:2848816", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Liver gap junction protein (Cx32) topology; no GJA8/Cx50 link"},
+{"id": "pmid:9592087", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cx32 mutations in CMTX; Cx50 only mentioned as a partner, paper is about GJB1"},
+{"id": "pmid:11350787", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Alveolar epithelial connexins (Cx32/Cx43/Cx46); Cx46 is GJA3, not GJA8"},
+{"id": "pmid:10426548", "verdict": "relevant", "confidence": 0.55, "reason": "Calcium-dependent stimulation of membrane guanylate cyclase (ROS-GC, the GUCY2D product) in bovine retina by S100 proteins; retinal GUCY2D biology, though abstract is empty"},
+{"id": "pmid:9369488", "verdict": "relevant", "confidence": 0.55, "reason": "CD-GCAP (S100beta) activation of rod outer segment guanylate cyclase (ROS-GC/GUCY2D); mainly protein identity but functionally about GUCY2D regulation"},
+{"id": "pmid:18425059", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "GJA1 (Cx43) ODDD mutation; not GJA8"},
+{"id": "pmid:11368183", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Soluble guanylyl cyclase calcium inhibition mechanism; not GUCA1A/GCAP1 and not retinal"},
+{"id": "pmid:24385969", "verdict": "relevant", "confidence": 0.95, "reason": "Functional study of Cx50 (GJA8) amino-terminal domain gap junction biophysics; directly about GJA8 protein, wrongly scored below threshold"},
+{"id": "pmid:19941036", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Atrial natriuretic factor receptor guanylate cyclase (NPR-A/B) signaling review; not GUCA1A/GCAP1"}
+]

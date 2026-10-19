@@ -1,0 +1,12 @@
+[
+ {"id": "pmid:40602557", "verdict": "uncertain", "confidence": 0.5, "reason": "ALS muscle study with borax hydrogel; abstract explicitly builds on NaBC1 (SLC4A11) boron transporter biology, but the paper is not about corneal/endothelial SLC4A11 disease"},
+ {"id": "pmid:39254558", "verdict": "uncertain", "confidence": 0.4, "reason": "Commentary on transcriptional control of GPCRs (G6-nal/GPR126) in oligodendrocyte development; abstract empty, MYRF is a plausible transcriptional regulator discussed but not confirmed"},
+ {"id": "pmid:21285510", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "SC4MOL (sterol-C4-methyl oxidase-like) mutation paper; LSS is lanosterol synthase, no link"},
+ {"id": "pmid:15161958", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Yeast Ndt80 Ig-fold transcription factor structure/DNA-binding; 'Ndt80' is a homology alias collision, not MYRF disease biology"},
+ {"id": "pmid:7635473", "verdict": "relevant", "confidence": 0.75, "reason": "1990s linkage of an autosomal dominant RP family to D7S480 on 7q, the RP10 (IMPDH1) locus region; genetic-locus paper for IMPDH1 disease"},
+ {"id": "pmid:38045361", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Dhcr7-KO mouse transcriptomics in Smith-Lemli-Opitz; LSS (lanosterol synthase) not studied; OSC alias is a mismatch"},
+ {"id": "pmid:40161588", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Engineered trogocytosis macromolecule delivery; no MFRP/C1QTNF5 link"},
+ {"id": "pmid:1979051", "verdict": "relevant", "confidence": 0.8, "reason": "Multipoint linkage and heterogeneity testing in 20 XLRP families; foundational mapping of the RP2/RPGR X-linked RP loci"},
+ {"id": "pmid:15336959", "verdict": "relevant", "confidence": 0.9, "reason": "Review of guanylate cyclase-activating proteins (GCAP1/GUCA1A, GCAP2/GUCA1B) and their guanylate cyclase partners (GUCY2D); core phototransduction biology for these genes"},
+ {"id": "pmid:27907266", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of retinal axon midline misrouting in albinism (OA1/GPR143 is the ocular albinism gene) and achiasmia; GPR143 link is disease-level only; no FRMD7/nystagmus content in abstract"}
+]

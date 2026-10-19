@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:26232072",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "MYRF (Myelin Regulatory Factor) is a transcription factor that controls oligodendrocyte precursor differentiation. A paper on transcriptional regulation in embryonic and adult oligodendrocyte precursors is directly on-topic for MYRF biology. MYRF mutations cause structural eye disease (microphthalmia, coloboma), and understanding MYRF transcriptional activity in its primary cell type is core relevant literature."
+  },
+  {
+    "id": "pmid:33812623",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "While NaBC1 (SLC4A11) is mentioned as the mechanistic transporter, the paper's focus is engineering borax-loaded hydrogels for skeletal muscle regeneration. The clinical context (muscle repair after cardiotoxin injury) has no connection to corneal dystrophy or any ophthalmic phenotype. SLC4A11 is used here purely as a scaffold for a biomaterials strategy, making this off-topic for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:14326619",
+    "verdict": "relevant",
+    "confidence": 0.72,
+    "reason": "IMPG1 encodes SPACR, the dominant proteoglycan of the interphotoreceptor matrix. A paper on 35S-sulfate utilization in retinal mucopolysaccharide synthesis is foundational biochemistry for the very matrix compartment in which IMPG1 functions. Even though this 1963 paper predates molecular identification of IMPG1, it characterizes the proteoglycan synthesis activity in the specific retinal compartment where IMPG1 acts, making it relevant contextual literature for IMPG1-associated retinal dystrophies."
+  },
+  {
+    "id": "pmid:34544838",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "This paper directly generates and characterizes zebrafish myrf mutants with CNS-specific hypomyelination. MYRF is the gene under study: myrf mutant animals are the experimental model. The paper investigates axonal conduction velocity and behavior downstream of MYRF-dependent myelination, directly illuminating MYRF loss-of-function consequences. Strongly relevant to MYRF biology."
+  },
+  {
+    "id": "pmid:33247189",
+    "verdict": "correctly_rejected",
+    "confidence": 0.93,
+    "reason": "This paper studies NaBC1 (SLC4A11) transporter stimulation by borax in mesenchymal stem cells to drive osteogenesis via the BMP/Smad1/YAP pathway. The entire context is bone tissue engineering with no connection to corneal endothelium, corneal dystrophy, or any ophthalmic phenotype. SLC4A11's role in bone is a distinct biological context from its role in CHED2/FECD4."
+  },
+  {
+    "id": "pmid:40602557",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "The paper investigates NaBC1 (SLC4A11) activation via borax in the SOD1-G93A ALS mouse model as a muscle neuroprotection strategy. The clinical focus is ALS motor neuron disease and skeletal muscle atrophy, entirely unrelated to corneal dystrophy or SLC4A11 ophthalmic phenotypes. SLC4A11 is exploited as a therapeutic lever in a neuromuscular disease context with no ophthalmological relevance."
+  },
+  {
+    "id": "pmid:39254558",
+    "verdict": "relevant",
+    "confidence": 0.75,
+    "reason": "The abstract is almost empty but the paper comes from the Michael Wegner lab at FAU Erlangen-Nurnberg, the principal research group for MYRF/MRF oligodendrocyte transcription factor work. A paper on transcriptional control of G-protein coupled receptors during oligodendroglial development from this group almost certainly involves MYRF as the central transcriptional regulator. The paper falls within MYRF's core functional domain (oligodendrocyte transcriptional regulation). Confidence is reduced by the absent abstract."
+  },
+  {
+    "id": "pmid:7635473",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "IMPDH1 causes RP10, an autosomal dominant retinitis pigmentosa locus on chromosome 7q31.3. D7S480 is a chromosome 7q marker, and this paper describes an autosomal dominant RP family with close linkage to it. This is a direct early linkage mapping study for the RP10 locus, foundational work for the IMPDH1 gene in retinal dystrophy."
+  },
+  {
+    "id": "pmid:1979051",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "RP2 and RPGR are both causative genes for X-linked retinitis pigmentosa. A multipoint linkage analysis in 20 X-linked RP families is directly relevant to identifying and characterizing the RP2 and RPGR loci. This is foundational genetic mapping work for both genes."
+  },
+  {
+    "id": "pmid:15336959",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "GUCA1A encodes GCAP1 and GUCA1B encodes GCAP2 (guanylate cyclase activating proteins), which are the direct physiological activators of GUCY2D (retinal guanylate cyclase 2D). A review of guanylate cyclase-activating proteins structure, function, and diversity is directly on-topic for three of the four listed genes (GUCA1A, GUCA1B, GUCY2D). The proteins described are the very products of these genes in the retinal phototransduction pathway."
+  },
+  {
+    "id": "pmid:27907266",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "GPR143 (OA1) causes X-linked ocular albinism and is directly implicated in aberrant retinal axon guidance at the optic chiasm. This paper's focus on chiasmatic misrouting in albinism is GPR143's core phenotypic territory. FRMD7 causes congenital nystagmus, which is a common consequence of the chiasmatic misrouting and foveal hypoplasia described here. The paper covers both genes' phenotypic overlap directly."
+  },
+  {
+    "id": "pmid:10099690",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "GJA3 encodes connexin 46 (Cx46) and GJA8 encodes connexin 50 (Cx50), both of which cause congenital cataracts when mutated. This review covers genetic diseases caused by connexin mutations, explicitly including lens cataracts, and discusses knockout mouse models for connexin function. The paper is directly on-topic for GJA3 and GJA8 disease mechanisms."
+  },
+  {
+    "id": "pmid:17279539",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "FRMD7 mutations cause idiopathic congenital nystagmus (NYS1). This is a randomized controlled trial of memantine and gabapentin for congenital nystagmus, reporting improvements in visual acuity, nystagmus intensity, and foveation. This is directly relevant clinical literature for the condition caused by FRMD7 mutations."
+  },
+  {
+    "id": "pmid:26553938",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "RPGR is named directly in the title. The paper characterizes PDE6D binding to the RPGR C-terminus in a prenylation-dependent manner, which is part of the ARL3/RPGR ciliary trafficking complex. ARL3 is the second gene of interest here, and PDE6D is a known ARL3 effector. This paper directly studies RPGR protein interactions within the ARL3-regulated ciliary trafficking pathway."
+  },
+  {
+    "id": "pmid:40736861",
+    "verdict": "relevant",
+    "confidence": 0.80,
+    "reason": "RPE65 gene therapy (Luxturna/voretigene) is the landmark approved retinal gene therapy and is a central focus of any gene therapy review in ophthalmology. RS1 gene therapy is in clinical trials. ACO2 causes optic atrophy. A book chapter on the gene therapy revolution in retinal medicine almost certainly covers RPE65 and RS1 directly. The title and gene context strongly support relevance even without an abstract."
+  },
+  {
+    "id": "pmid:33947751",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "This paper studies the cytochrome c maturation system in kinetoplastid protists (trypanosomes/leishmania) primarily as an antiparasitic drug target. HCCS encodes holocytochrome c synthase and causes microphthalmia with linear skin lesions (MLS syndrome). While the abstract mentions relevance to 'the mechanistic basis of a human genetic disease,' the paper's primary content is parasitology and antiparasitic drug development. The connection to HCCS function in human ocular/structural disease is too indirect to warrant inclusion in an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:38955952",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "RPGR and RS1 are both subject to active gene therapy development. This review of gene therapies in clinical development for retinal disorders covers a wide range of inherited retinal diseases including RPGR- and RS1-associated conditions. The search keywords (retinitis-pigmentosa, retinoschisis, cone-rod-dystrophy) and the explicit mention of both genes confirm direct relevance."
+  },
+  {
+    "id": "pmid:10426548",
+    "verdict": "relevant",
+    "confidence": 0.78,
+    "reason": "GUCY2D encodes the photoreceptor retinal guanylate cyclase (ROS-GC1/RETGC-1). This paper investigates the calcium-dependent stimulation of membrane-bound guanylate cyclase activity in bovine retina by S100B and S100A1. The 'membrane-bound guanylate cyclase' studied is GUCY2D itself. While S100 proteins are not the canonical GCAPs (GUCA1A/GUCA1B), this paper directly characterizes the functional regulation of GUCY2D activity in the retina."
+  },
+  {
+    "id": "pmid:9369488",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "This paper characterizes CD-GCAP, a retinal calcium-binding protein that activates ROS-GC (the rod outer segment guanylate cyclase, i.e. GUCY2D) in a calcium-dependent manner, and establishes its identity with S100beta. The paper directly studies the activation mechanism of GUCY2D (ROS-GC) and the calcium-dependent modulation that underlies phototransduction and is disrupted in GUCY2D-associated LCA/cone-rod dystrophy."
+  },
+  {
+    "id": "pmid:24385969",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "GJA8 encodes connexin 50 (Cx50), which causes congenital cataract when mutated. This paper directly studies structure-function relationships of the Cx50 amino-terminal domain using mutations and chimeras, characterizing single-channel conductance and voltage-dependent gating. This is directly on-topic biophysics for GJA8, complementing GJA3 as the two lens connexins causing congenital cataracts."
+  }
+]

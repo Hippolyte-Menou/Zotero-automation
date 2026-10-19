@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:41386636",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ADGRV1 is explicitly named in the abstract as a pathogenic variant detected in the epilepsy patient group (G protein-coupled receptor ADGRV1). The gene is a direct subject of the variant analysis, not merely a tangential mention."
+  },
+  {
+    "id": "pmid:30617060",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ADGRV1 is discussed explicitly as the protein associated with ankle links in the hair bundle and as a cause of Usher syndrome (combined deafness/blindness). This is a core functional review of ADGRV1 with direct ophthalmic relevance through Usher syndrome."
+  },
+  {
+    "id": "pmid:37057399",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The abstract states that one lens epithelial cell subtype 'specifically expressed C8orf4 and ADAMTSL4 with distinct spatial localization.' ADAMTSL4 is a defining marker of a newly identified cell subtype in human lens tissue - directly on-topic for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:32112643",
+    "verdict": "on_topic",
+    "confidence": "medium",
+    "reason": "ADAMTSL4 is explicitly named as one of the top genes exhibiting loss of coordinated expression in the frailty group. While the study topic is frailty rather than ophthalmology, the gene is directly identified as a functional finding. Applying caution principle: a real connection to ADAMTSL4 is present and the paper could inform understanding of ADAMTSL4 gene regulation."
+  },
+  {
+    "id": "pmid:36103205",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ADAMTSL4 is directly named as one of only four genes harboring likely-pathogenic or pathogenic variants in this SCAD genetics study. The finding directly implicates ADAMTSL4 in a vascular connective tissue disease, which is mechanistically relevant given ADAMTSL4's known role in fibrillin microfibril assembly."
+  },
+  {
+    "id": "pmid:25770910",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "This is a comprehensive review of the ADAMTS superfamily where ADAMTSL4 is featured prominently as a Mendelian disease gene. The paper extensively covers ADAMTSL4's genetics, function, and clinical manifestations. Directly relevant."
+  },
+  {
+    "id": "pmid:38435780",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The paper explicitly profiled ADAMTS(L) superfamily gene expression including ADAMTSL4 across five human ocular tissues across age groups. This is direct ADAMTSL4 expression data in an ophthalmic context - highly relevant."
+  },
+  {
+    "id": "pmid:38892339",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The abstract explicitly states that ADAM9 is 'an uncommon cause of LCA/EOSRD,' directly linking ADAM9 to Leber congenital amaurosis and early-onset severe retinal dystrophy. Both the gene and the ophthalmic disease are central to this paper."
+  },
+  {
+    "id": "pmid:15507448",
+    "verdict": "on_topic",
+    "confidence": "medium",
+    "reason": "ADAM9-deficient mouse cells were explicitly used to test pro-BTC shedding. The paper directly examined ADAM9's contribution (finding it was not responsible for pro-BTC shedding). Although ADAM9 is a negative result here, its activity was directly tested and functionally characterized. Caution principle applies."
+  },
+  {
+    "id": "pmid:20207970",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ADAM9 is explicitly identified as a substrate cleaved by HTRA1 in the RPE secretome (54% cleavage efficiency) in the context of AMD pathogenesis. This places ADAM9 directly in an ophthalmic disease mechanism, making it highly relevant to an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:25480335",
+    "verdict": "on_topic",
+    "confidence": "medium",
+    "reason": "ADAM9 is explicitly discussed as upregulated in acute and chronic lung inflammation, with functional analyses linking it to disease development. The paper is not ophthalmic, but ADAM9 is a direct subject of functional and genetic analysis. Caution principle applies: a real connection to ADAM9 is present, and this review may inform understanding of ADAM9 biology across tissues."
+  },
+  {
+    "id": "pmid:41570770",
+    "verdict": "off_topic",
+    "confidence": "high",
+    "reason": "This paper is entirely about the SIRT3-ACSS2-OPA1 axis in Parkinson's disease and ferroptosis. ACO2 (aconitase 2) does not appear anywhere in the title or abstract. No connection to the gene_or_topic is present or plausible from the available text."
+  },
+  {
+    "id": "pmid:35923205",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The paper discusses Stargardt's disease (STGD1), which is the primary disease caused by ABCA4 mutations, in the context of vitamin A metabolism and retinal degeneration. While ABCA4 is not spelled out by symbol, the paper is substantively about ABCA4-related pathology and therapeutic approaches. Directly on-topic."
+  },
+  {
+    "id": "pmid:15044640",
+    "verdict": "off_topic",
+    "confidence": "high",
+    "reason": "This paper is about ABCA3 gene mutations causing fatal surfactant deficiency in newborns - a pulmonary disease with no ophthalmic content. ABCA4 appears in a single sentence only as a structurally related protein to contextualize ABCA3. The paper's subject matter has no functional relevance to ABCA4."
+  },
+  {
+    "id": "pmid:40926010",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ABCA4 is explicitly cited as a gene whose variant pathogenicity was confirmed by functional assays in this IRD diagnostic yield study. The paper is directly relevant to ABCA4 genetics and inherited retinal dystrophies."
+  },
+  {
+    "id": "pmid:35119454",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "ABCA4 is a central subject of this large-scale Spanish IRD genetics study, with the entire ABCA4 locus sequenced and characterized. Highly relevant to ABCA4 and Stargardt disease."
+  },
+  {
+    "id": "pmid:39730605",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The title describes a novel animal model for Stargardt's disease via interruption of the visual cycle. Stargardt disease is the canonical ABCA4 disease. Although the abstract is empty, the title is sufficient to confirm direct relevance to ABCA4-related retinal degeneration research."
+  },
+  {
+    "id": "doi:10.1177/41.10.8245404",
+    "verdict": "on_topic",
+    "confidence": "high",
+    "reason": "The abstract explicitly discusses 'DSPG (decorin and/or biglycan)' and keratan sulfate proteoglycans in fetal rabbit cornea. Decorin is the protein product of DCN. The paper directly examines DCN protein in an ocular tissue (corneal development), making it on-topic for an ophthalmogenetics library."
+  },
+  {
+    "id": "doi:10.1016/s0945-053x(00)00116-5",
+    "verdict": "off_topic",
+    "confidence": "high",
+    "reason": "This paper is about keratocan and mimecan gene cloning and expression in quail cornea. DCN (decorin) is not mentioned anywhere in the title or abstract. While keratocan, mimecan, and decorin are all leucine-rich repeat proteoglycans, they are distinct genes and the paper's subject is not DCN."
+  },
+  {
+    "id": "pmid:35847484",
+    "verdict": "on_topic",
+    "confidence": "medium",
+    "reason": "DCN is explicitly listed and measured as one of the primary tenogenic differentiation markers (SCX, TNMD, DCN, TNC) in this study. Although the context is equine tendon biology rather than ophthalmology, DCN is directly quantified as an outcome variable. Caution principle applies: a real connection to the gene is present."
+  }
+]

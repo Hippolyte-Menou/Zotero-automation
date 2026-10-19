@@ -1,0 +1,12 @@
+[
+{"id": "pmid:9054934", "verdict": "on_topic", "confidence": 0.97, "reason": "Original ABCR/ABCA4 Stargardt discovery paper; ABCR is the ABCA4 alias"},
+{"id": "pmid:11017087", "verdict": "on_topic", "confidence": 0.96, "reason": "ABCR (ABCA4) variants and biochemical defects in retinopathies"},
+{"id": "pmid:30889179", "verdict": "on_topic", "confidence": 0.95, "reason": "Canine ABCA4 frameshift loss-of-function causing Stargardt-like disease; ABCA4 disease biology"},
+{"id": "pmid:30563929", "verdict": "on_topic", "confidence": 0.98, "reason": "Novel pathogenic ABCA4 variants in a Stargardt family"},
+{"id": "pmid:36857739", "verdict": "on_topic", "confidence": 0.93, "reason": "Prime editing correction of the ABCA4 frameshift (porcine ABCA4, STGD-relevant mutation)"},
+{"id": "pmid:39730605", "verdict": "uncertain", "confidence": 0.55, "reason": "Empty abstract; animal model of visual cycle interruption resembling Stargardt. Relevant to ABCA4 biology only if the model targets ABCA4, which the title does not state"},
+{"id": "doi:10.1177/41.10.8245404", "verdict": "uncertain", "confidence": 0.55, "reason": "Corneal proteoglycans (KSPG/DSPG) and type VI collagen; antibodies target lumican/fibromodulin and decorin/biglycan core proteins. DCN is only one of several proteoglycans studied, so the link to decorin is weak"},
+{"id": "doi:10.1159/000081806", "verdict": "on_topic", "confidence": 0.95, "reason": "Decorin (DCN) knockout mice; DCN role in corneal angiogenesis"},
+{"id": "doi:10.1074/jbc.m806590200", "verdict": "on_topic", "confidence": 0.95, "reason": "Decorin and biglycan genetic deficiency in cornea; DCN-null fibrillogenesis"},
+{"id": "doi:10.1186/s12974-020-01812-6", "verdict": "on_topic", "confidence": 0.9, "reason": "Topical decorin therapy for corneal nerve regeneration; DCN biology"}
+]

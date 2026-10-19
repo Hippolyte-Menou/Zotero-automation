@@ -1,0 +1,12 @@
+[
+{"id": "pmid:37713503", "verdict": "on_topic", "confidence": 0.95, "reason": "ADAM9 is the central subject: identified as host factor for SARS-CoV-2 entry, with knockdown/overexpression and ACE2/Spike binding data"},
+{"id": "pmid:15507448", "verdict": "off_topic", "confidence": 0.8, "reason": "Paper is about ADAM10 mediated betacellulin shedding; ADAM9 appears only as a deficient-cell control with no focus on ADAM9 function"},
+{"id": "pmid:38028590", "verdict": "on_topic", "confidence": 0.9, "reason": "Cone-rod dystrophy genetics paper reporting a homozygous ADAM9 nonsense variant (p.Arg202Ter) as a causative variant in one family"},
+{"id": "pmid:25091951", "verdict": "on_topic", "confidence": 0.98, "reason": "Novel ADAM9 homozygous mutation causing arCRD and cataract in a consanguineous family"},
+{"id": "pmid:20806078", "verdict": "on_topic", "confidence": 0.95, "reason": "Identifies an ADAM9 deletion causing canine cone-rod dystrophy 3 and its homology to human CORD9"},
+{"id": "pmid:11955914", "verdict": "on_topic", "confidence": 0.95, "reason": "Downregulated ADAM9 expression as a marker of anterior polar cataracts"},
+{"id": "pmid:11581183", "verdict": "on_topic", "confidence": 0.7, "reason": "Describes the CORD9 arCRD locus at 8p11, which is the ADAM9 locus; abstract does not name ADAM9 explicitly, so moderately confident"},
+{"id": "pmid:20207970", "verdict": "off_topic", "confidence": 0.8, "reason": "HTRA1 substrate proteomics in RPE secretome; ADAM9 is one of about eight cleaved proteins, not a focus"},
+{"id": "pmid:25063875", "verdict": "on_topic", "confidence": 0.97, "reason": "ADAM9 expression in neutrophils, ECM degradation, and Adam9 knockout mice in acute lung injury"},
+{"id": "pmid:15739225", "verdict": "on_topic", "confidence": 0.6, "reason": "Developmental expression of ADAM9, 10 and 17 in pancreas; ADAM9 is one of three main subjects with specific expression findings, but the paper is multi-gene"}
+]

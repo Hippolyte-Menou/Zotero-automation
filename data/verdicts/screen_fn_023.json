@@ -1,0 +1,12 @@
+[
+{"id": "pmid:9345108", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "RP11 locus is PRPF31, not FSCN2 (RP30) or IMPDH1 (RP10); empty abstract; no link to either gene"},
+{"id": "pmid:29615051", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "generic review of membrane-bound transcription factor nuclear transport; MYRF not named, only a general MTF class member"},
+{"id": "pmid:22716662", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "RetinoStat lentiviral anti-angiogenic gene therapy for AMD; no OPN1MW link"},
+{"id": "pmid:38543807", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "AAV serotype and capsid review; no OPN1MW or blue-cone link"},
+{"id": "pmid:26232072", "verdict": "uncertain", "confidence": 0.5, "reason": "OPC/oligodendrocyte transcriptional regulation talk; MYRF is a canonical OL transcription factor but is not named; abstract empty and title garbled"},
+{"id": "pmid:32154951", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "epigenetic regulation review of oligodendrocyte differentiation; MYRF not mentioned"},
+{"id": "pmid:33812623", "verdict": "relevant", "confidence": 0.65, "reason": "study centers on SLC4A11 (NaBC1) protein function in myoblast adhesion and muscle regeneration; gene is the subject even though the context is non-ocular"},
+{"id": "pmid:35877446", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "general CNS myelinogenesis review; MYRF not named in abstract"},
+{"id": "pmid:39185722", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "bioderived nanoparticles for cardiac repair; AAV mentioned only as a vector class, no OPN1MW link"},
+{"id": "pmid:14326619", "verdict": "uncertain", "confidence": 0.5, "reason": "historical study of 35S-sulfate incorporation into retinal mucopolysaccharides; plausibly interphotoreceptor matrix proteoglycan biology (IMPG1/SPACR) but no direct IMPG1 mention"}
+]

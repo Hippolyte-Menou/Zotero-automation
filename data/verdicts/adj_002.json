@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:28601220",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "ELP4 is subunit 4 of the Elongator complex by definition. A paper on Elongator complex structures and activities directly characterises the biological entity of which ELP4 is an essential part. The association is intrinsic, not incidental."
+  },
+  {
+    "id": "pmid:15583843",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The abstract explicitly reports that 4 of 5 CSNB1 patients carry NYX gene mutations. The paper studies multifocal oscillatory potentials to characterise the retinal electrophysiological phenotype of NYX-mutant patients and compares it with CSNB2. Directly relevant to NYX."
+  },
+  {
+    "id": "pmid:35128251",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The abstract directly characterises the human ELP4/5/6 subcomplex of the Elongator complex multiple times, describing its assembly, recruitment by hELP3, and morphology. This is primary biochemical work on the ELP4 protein product."
+  },
+  {
+    "id": "pmid:38895206",
+    "verdict": "correctly_rejected",
+    "confidence": "moderate",
+    "reason": "Although Kir7.1 is the KCNJ13 protein product, this paper studies it exclusively in hypothalamic MC4R-expressing neurons in the context of antipsychotic drug-induced hyperphagia and weight gain. KCNJ13 is tracked for its role in LCA16 and retinal dystrophy. The paper has no retinal or ophthalmic content; the channel biology studied is in a completely different tissue and disease context."
+  },
+  {
+    "id": "pmid:31837604",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The abstract explicitly tests AAV-miR-204 in a Leber congenital amaurosis mouse model caused by Aipl1 gene mutations, demonstrating neuroprotective effects. AIPL1 is directly mentioned as the gene underlying one of the tested disease models. Clearly relevant."
+  },
+  {
+    "id": "pmid:7873577",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "TYR encodes tyrosinase. A comprehensive review of tyrosinase mechanism is squarely about the TYR gene product and is foundational for understanding OCA1 pathomechanisms. The abstract is absent but the title is unambiguous."
+  },
+  {
+    "id": "pmid:1849012",
+    "verdict": "relevant",
+    "confidence": "moderate",
+    "reason": "Tyrosinase (TYR) is named in the title as the reference enzyme in melanin oxidative polymerisation; the paper directly examines the same biochemical reaction that TYR catalyses. Even though the focus is on peroxidase as an alternative, the melanin synthesis pathway involving tyrosinase is directly relevant to understanding TYR function in OCA1."
+  },
+  {
+    "id": "pmid:15542839",
+    "verdict": "relevant",
+    "confidence": "moderate",
+    "reason": "NAA10 is the human orthologue of yeast ARD1p, which together with Nat1p forms the catalytic core of the NatA N-terminal acetyltransferase complex. The paper directly characterises ARD1p/NatA function, N-terminal acetylation activity, and genetic interactions in yeast. This is primary functional work on the yeast homologue of NAA10 and is relevant to understanding NAA10 biology."
+  },
+  {
+    "id": "pmid:3137937",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The title explicitly studies expression of the tyrosinase gene (TYR) in amelanotic mutant mice, which are models of albinism caused by TYR deficiency. Directly relevant to TYR."
+  },
+  {
+    "id": "pmid:22174013",
+    "verdict": "correctly_rejected",
+    "confidence": "moderate",
+    "reason": "NR2E3 is the subject of the paper, but the entire study is framed in breast cancer, examining NR2E3 regulation of ESR1 in ER-positive breast cancer cells with clinical association to tamoxifen response. NR2E3 is tracked for enhanced S-cone syndrome and retinitis pigmentosa. The paper has no retinal or ophthalmic content whatsoever. Non-ocular characterisation of a gene tracked for retinal disease does not warrant inclusion in an ophthalmogenetics library at this library size."
+  },
+  {
+    "id": "pmid:30358468",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The abstract directly reports CDH23 and USH2A mutation spectra in a Russian Usher syndrome cohort, with 11 mutations in MYO7A, CDH23, PCDH15, USH1C for USH1 cases and 11 mutations in USH2A for USH2 cases. Both CDH23 and USH2A are central subjects of the genetic analysis. Clearly relevant."
+  },
+  {
+    "id": "pmid:30366342",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The abstract describes generation of an iPSC line from a Leber congenital amaurosis patient carrying a homozygous AIPL1 mutation (c.265 T>C, p.Cys89Arg). AIPL1 is directly named as the causative gene and the line is a disease model for AIPL1-associated LCA. Clearly relevant."
+  },
+  {
+    "id": "pmid:30293640",
+    "verdict": "relevant",
+    "confidence": "moderate",
+    "reason": "BBS10 causes Bardet-Biedl syndrome, a systemic ciliopathy. Situs inversus and heterotaxy are established manifestations of ciliopathies including BBS. A paper reporting thoraco-abdominal abnormalities in BBS characterises the clinical phenotype of the disease caused by BBS10 mutations. While not about the retinal manifestation specifically, it is relevant to the broader syndrome biology of BBS10."
+  },
+  {
+    "id": "pmid:17161380",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "ARD1235 and ARD1225 are the two isoforms of mammalian ARD1/NAA10. The paper directly studies differential splicing, subcellular localisation, and stability of these NAA10 protein isoforms. This is primary characterisation of NAA10 gene products."
+  },
+  {
+    "id": "pmid:1749427",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The title directly names peripherin-RDS (PRPH2) and describes a three-base-pair deletion mutation causing retinitis pigmentosa. This is a foundational PRPH2 mutation paper. The item is also tagged to ROM1 and other RP genes, and the peripherin-RDS/ROM1 complex interaction is a well-established subject. Clearly relevant."
+  },
+  {
+    "id": "pmid:10814758",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "The paper measures spectral sensitivities of M-cones (OPN1MW) and L-cones (OPN1LW) in human observers of known genotype, directly linking OPN1LW/OPN1MW genotypic variation to photoreceptor function. This is core functional characterisation of these two genes. The score of 2 vs threshold 3 is a very close miss for foundational work."
+  },
+  {
+    "id": "pmid:6891215",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "RBP3 encodes IRBP (interphotoreceptor retinoid-binding protein), a major retinol-binding protein of the interphotoreceptor matrix. A paper about retinol-binding proteins in the bovine interphotoreceptor matrix is directly about RBP3's protein product in its physiological location. Also relevant to IMPG1 as an IPM protein. Clearly relevant."
+  },
+  {
+    "id": "pmid:35112019",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "OAT mutations cause gyrate atrophy of the retina and choroid. This case report describes a teenage patient with gyrate atrophy (elevated plasma and urine ornithine, typical chorioretinal lesions), the exact disease caused by OAT deficiency. The abstract provides detailed ophthalmic characterisation including ERG and OCT findings directly relevant to OAT."
+  },
+  {
+    "id": "pmid:21991550",
+    "verdict": "relevant",
+    "confidence": "moderate",
+    "reason": "The paper tracks reflectance of both rod and cone photoreceptors (1,690 rods and 1,980 cones) using adaptive optics in the living human retina. It is tagged under Emerging technologies (adaptive optics retinal imaging methodology) and OPN1LW/OPN1MW (foveal/parafoveal cones studied). The paper falls just below threshold (score 2 vs 3) for methodology work that is directly relevant to retinal photoreceptor imaging and is appropriate for the emerging technologies topic."
+  },
+  {
+    "id": "pmid:18228265",
+    "verdict": "correctly_rejected",
+    "confidence": "moderate",
+    "reason": "ADAMTSL4 is tracked for ectopia lentis due to its role in fibrillin-1 microfibril assembly, but this review of elastic fiber assembly covers elastin, fibrillin, MAGPs, fibulins, EMILIN-1, and lysyl oxidase without mentioning ADAMTSL4 or any ADAMTS-like protein. The connection to ADAMTSL4 is too indirect; papers about fibrillin microfibrils are more directly relevant to FBN1/FBN2 than to ADAMTSL4."
+  }
+]

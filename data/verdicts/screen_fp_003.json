@@ -1,0 +1,12 @@
+[
+{"id": "pmid:35813073", "verdict": "on_topic", "confidence": 0.95, "reason": "Paper is a clinical genetics study of ADGRV1 variants in febrile seizures/epilepsy and audio-visual phenotypes; gene is the central subject"},
+{"id": "pmid:37057399", "verdict": "uncertain", "confidence": 0.5, "reason": "Lens single-cell atlas; ADAMTSL4 appears only as a marker defining one epithelial subpopulation (with C8orf4). Gene is named in the abstract but is not the focus"},
+{"id": "pmid:32112643", "verdict": "off_topic", "confidence": 0.8, "reason": "Frailty transcriptome coordination analysis; ADAMTSL4 is one of several genes listed among top loss-of-correlation hits with no follow-up on the gene itself"},
+{"id": "pmid:35233794", "verdict": "on_topic", "confidence": 0.95, "reason": "De novo ADAMTSL4 missense variant in a bovine congenital cataract case; gene-specific variant report with lens disease link"},
+{"id": "pmid:36284667", "verdict": "on_topic", "confidence": 0.95, "reason": "Phenotypic spectrum of ADAMTSL4-associated ectopia lentis with additional cases"},
+{"id": "pmid:35042684", "verdict": "on_topic", "confidence": 0.97, "reason": "Novel ADAMTSL4 mutations in Chinese isolated ectopia lentis cohort"},
+{"id": "pmid:35378950", "verdict": "on_topic", "confidence": 0.97, "reason": "Recessive ADAMTSL4 mutations causing craniosynostosis with ectopia lentis; gene-specific case report"},
+{"id": "pmid:38146062", "verdict": "on_topic", "confidence": 0.97, "reason": "Novel ADAMTSL4 compound heterozygous variant in isolated ectopia lentis case report"},
+{"id": "pmid:26653794", "verdict": "on_topic", "confidence": 0.97, "reason": "Founder ADAMTSL4 mutation causing early-onset ectopia lentis; gene is the title subject (abstract empty)"},
+{"id": "pmid:24802351", "verdict": "on_topic", "confidence": 0.97, "reason": "Compound heterozygous ADAMTSL4 mutations in a Chinese family with isolated ectopia lentis"}
+]
