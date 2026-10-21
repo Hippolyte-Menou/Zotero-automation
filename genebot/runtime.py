@@ -77,9 +77,13 @@ def make_openalex_client() -> OpenAlexClient:
     tier identically.
     """
     key = os.environ.get("OPENALEX_API_KEY") or None
+    email = os.environ.get("OPENALEX_EMAIL", "hippolytefrmenou@gmail.com")
     client = OpenAlexClient(api_key=key)
+    # Add mailto for polite pool access (higher rate limit tier)
+    if not key:
+        client.params["mailto"] = email
     if key:
         logger.info("OpenAlex client initialized (with API key)")
     else:
-        logger.info("OpenAlex client initialized (no API key -- lower rate limit)")
+        logger.info("OpenAlex client initialized (no API key, polite pool via %s)", email)
     return client
