@@ -548,7 +548,7 @@ class ZoteroGroupClient:
                 # authors is a list of (firstName, lastName) tuples produced
                 # by OpenAlexClient.work_to_record() -- name splitting and
                 # comma-form detection happen there.
-                if isinstance(author_entry, tuple):
+                if isinstance(author_entry, (tuple, list)) and len(author_entry) == 2:
                     first_name, last_name = author_entry
                 else:
                     # Legacy fallback: plain string "First Last"
