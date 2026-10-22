@@ -190376,5 +190376,1130 @@
    "screener": "haiku",
    "adjudicator": "sonnet"
   }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:19490090",
+  "key": "6MHV3ZFH",
+  "gene_or_topic": "SOX2",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:42896283",
+  "key": "93QUU72T",
+  "gene_or_topic": "RNU2-2",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:42787165",
+  "key": "CUAGVPUA",
+  "gene_or_topic": "BEST1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:42897487",
+  "key": "D99CNSUC",
+  "gene_or_topic": "BEST1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28532380",
+  "pmid": "28532380",
+  "gene_or_topic": "CRX, NR2E3, NRL, RAX, VSX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:36134023",
+  "pmid": "36134023",
+  "gene_or_topic": "NAA10, NAA15",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37462250",
+  "pmid": "37462250",
+  "gene_or_topic": "NAA10, NAA15",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29109912",
+  "pmid": "29109912",
+  "gene_or_topic": "OCA2, SLC24A5",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29195075",
+  "pmid": "29195075",
+  "gene_or_topic": "OCA2, SLC24A5",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27499155",
+  "pmid": "27499155",
+  "gene_or_topic": "OCA2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19736324",
+  "pmid": "19736324",
+  "gene_or_topic": "C12ORF57, SOX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23462474",
+  "pmid": "23462474",
+  "gene_or_topic": "SOX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6605090",
+  "pmid": "6605090",
+  "gene_or_topic": "NYX",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5315207",
+  "pmid": "5315207",
+  "gene_or_topic": "NYX",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7336429",
+  "pmid": "7336429",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:21520335",
+  "pmid": "21520335",
+  "gene_or_topic": "BBS1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:39837650",
+  "pmid": "39837650",
+  "gene_or_topic": "COL11A1, COL18A1, FZD4, ZNF408",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22517799",
+  "pmid": "22517799",
+  "gene_or_topic": "OPN1MW, SLC38A8",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:14525950",
+  "pmid": "14525950",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:14614990",
+  "pmid": "14614990",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:39393775",
+  "pmid": "39393775",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23667181",
+  "pmid": "23667181",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:41867372",
+  "pmid": "41867372",
+  "gene_or_topic": "CNGA3, OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:14500905",
+  "pmid": "14500905",
+  "gene_or_topic": "OPN1LW, OPN1MW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22472762",
+  "pmid": "22472762",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3443931",
+  "pmid": "3443931",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8301403",
+  "pmid": "8301403",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3808045",
+  "pmid": "3808045",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15811001",
+  "pmid": "15811001",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10815162",
+  "pmid": "10815162",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:20884587",
+  "pmid": "20884587",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3470811",
+  "pmid": "3470811",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7863325",
+  "pmid": "7863325",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15252758",
+  "pmid": "15252758",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1968424",
+  "pmid": "1968424",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26296154",
+  "pmid": "26296154",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2395857",
+  "pmid": "2395857",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1247409",
+  "pmid": "1247409",
+  "gene_or_topic": "SLC38A8",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29170010",
+  "pmid": "29170010",
+  "gene_or_topic": "ELP4",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12424236",
+  "pmid": "12424236",
+  "gene_or_topic": "ELP4",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27872205",
+  "pmid": "27872205",
+  "gene_or_topic": "ELP4",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:24801621",
+  "pmid": "24801621",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:16961970",
+  "pmid": "16961970",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:16961968",
+  "pmid": "16961968",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7759069",
+  "pmid": "7759069",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:35113505",
+  "pmid": "35113505",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:16961974",
+  "pmid": "16961974",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:41189636",
+  "pmid": "41189636",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8213841",
+  "pmid": "8213841",
+  "gene_or_topic": "CNGA3, Genetic testing, Optic vesicle, Retinal dystrophies, CNGA3, OPN1LW, OPN1MW, Retinal dystrophies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19186166",
+  "pmid": "19186166",
+  "gene_or_topic": "ARR3, CRX, NR2E3, NRL",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7571473",
+  "pmid": "7571473",
+  "gene_or_topic": "CACNA1F, NYX",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1246803",
+  "pmid": "1246803",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8088964",
+  "pmid": "8088964",
+  "gene_or_topic": "LRIT3, NYX",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11328749",
+  "pmid": "11328749",
+  "gene_or_topic": "NYX",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:458520",
+  "pmid": "458520",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:39542505",
+  "pmid": "39542505",
+  "gene_or_topic": "BBS10",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19959642",
+  "pmid": "19959642",
+  "gene_or_topic": "USH2A",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32269902",
+  "pmid": "32269902",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17646274",
+  "pmid": "17646274",
+  "gene_or_topic": "RPGR",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37734846",
+  "pmid": "37734846",
+  "gene_or_topic": "FBN1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:24251594",
+  "pmid": "24251594",
+  "gene_or_topic": "CRYGD",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:40103944",
+  "pmid": "40103944",
+  "gene_or_topic": "RS1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:40090885",
+  "pmid": "40090885",
+  "gene_or_topic": "RS1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9187681",
+  "pmid": "9187681",
+  "gene_or_topic": "ROM1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17685476",
+  "pmid": "17685476",
+  "gene_or_topic": "TENM3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:35109811",
+  "pmid": "35109811",
+  "gene_or_topic": "EYS",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:42752380",
+  "pmid": "42752380",
+  "gene_or_topic": "CNGA3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:34188501",
+  "pmid": "34188501",
+  "gene_or_topic": "RP2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26316687",
+  "pmid": "26316687",
+  "gene_or_topic": "OPN1MW, RP2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37806489",
+  "pmid": "37806489",
+  "gene_or_topic": "NR2E3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1923319",
+  "pmid": "1923319",
+  "gene_or_topic": "RP2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2591498",
+  "pmid": "2591498",
+  "gene_or_topic": "RBP3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27160483",
+  "pmid": "27160483",
+  "gene_or_topic": "Genetic testing, PITPNM3, TUBGCP4",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22183351",
+  "pmid": "22183351",
+  "gene_or_topic": "GUCY2D, PITPNM3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-10-22T05:56:31Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:30910914",
+  "pmid": "30910914",
+  "gene_or_topic": "FSCN2, PITPNM3, SEMA4A",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": false,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
  }
 ]
