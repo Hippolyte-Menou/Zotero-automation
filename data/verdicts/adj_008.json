@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:39393775",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Title unambiguously describes a surgical case in Knobloch syndrome, which is caused by COL18A1 mutations. Directly relevant to COL18A1-associated retinal pathology and its management."
+  },
+  {
+    "id": "pmid:23667181",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract explicitly discusses COL18A1 mutations causing Knobloch syndrome, corrects a prior claim of locus heterogeneity by confirming the pathogenic variant is in COL18A1. Core COL18A1 literature."
+  },
+  {
+    "id": "pmid:24581449",
+    "verdict": "correctly_rejected",
+    "confidence": 0.75,
+    "reason": "Empty abstract and a broad title about tRNA modifications in human diseases. ELP4 is tracked for its PAX6 adjacency and aniridia/ASD role, not for Elongator tRNA modification function. Without abstract evidence that this paper discusses ELP4 in an ophthalmic context, the rejection stands."
+  },
+  {
+    "id": "pmid:15138274",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Yeast biochemistry study of the Elongator complex structure-function. Explicitly notes Elp4 is dispensable for RNA binding. No eye disease or ophthalmology content. ELP4 is relevant to this library through PAX6 adjacency and aniridia, not Elongator molecular biology."
+  },
+  {
+    "id": "pmid:37415189",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Focuses entirely on hyperphagia and obesity as non-ocular manifestations of BBS. BBS2 is tracked for retinal dystrophy/retinitis pigmentosa. The abstract contains no retinal or ocular content; correctly excluded from an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:14500905",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Directly involves OPN1LW (red/L-cone opsin) and OPN1MW (green/M-cone opsin): replaces the X-linked green pigment gene with the human red pigment gene in mice, characterising cone photoreceptor function. Core OPN1LW/OPN1MW mechanistic literature."
+  },
+  {
+    "id": "pmid:12770978",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Characterises foveal hypoplasia, nystagmus, and contralateral VEP misrouting in albinism. Foveal hypoplasia is the primary phenotype of SLC38A8 mutations (search keyword match), and contralateral VEP asymmetry relates to OPN1MW cone function. Relevant for both genes."
+  },
+  {
+    "id": "pmid:17375040",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Nature Reviews Neuroscience review of colour vision machinery, which centers on OPN1LW and OPN1MW opsins. Foundational reference for the molecular basis of OPN1LW-associated colour vision defects."
+  },
+  {
+    "id": "pmid:22472762",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Systematic review of worldwide prevalence of inherited red-green colour deficiency, caused by OPN1LW and OPN1MW variants. Directly relevant epidemiological literature for OPN1LW."
+  },
+  {
+    "id": "pmid:11904415",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Yeast Elongator histone acetyltransferase study. ELP4 is mentioned as a subunit required for HAT activity. No eye disease or developmental eye biology content. Elongator biochemistry is not the basis for ELP4 inclusion in this ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:15811001",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "Directly addresses variation in red cone pigment (OPN1LW) including the Ser180Ala polymorphism, spectral tuning, gene conversion, and red-green hybrid genes - the core molecular mechanisms of OPN1LW-associated colour vision defects."
+  },
+  {
+    "id": "pmid:10815162",
+    "verdict": "relevant",
+    "confidence": 0.91,
+    "reason": "Review of molecular genetics of colour vision and colour vision defects. OPN1LW is central to this topic; paper covers gene structure, the X-linked array, and inherited defects caused by OPN1LW variants."
+  },
+  {
+    "id": "pmid:11435442",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "Purification and characterisation of the yeast/human Elongator holoenzyme. Although this is the original paper cloning human ELP4, the context is RNA pol II elongation biochemistry with no ophthalmic connection. ELP4 is tracked here for PAX6 adjacency/aniridia, not Elongator function."
+  },
+  {
+    "id": "pmid:20884587",
+    "verdict": "relevant",
+    "confidence": 0.91,
+    "reason": "Studies the dimensionality of colour vision in carriers of anomalous trichromacy (deuteranomaly/protanomaly), including molecular genetic analysis of cone pigment gene variants. Directly involves OPN1LW and its spectral variants; includes a tetrachromatic carrier with three long-wave photopigments."
+  },
+  {
+    "id": "pmid:11818576",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "Purification of human Elongator from HeLa cells, demonstrating HAT activity and chromatin-dependent transcription facilitation. No ophthalmic content. ELP4 is not named in the abstract; eye disease relevance of ELP4 is through PAX6 adjacency, not Elongator transcription function."
+  },
+  {
+    "id": "pmid:3470811",
+    "verdict": "relevant",
+    "confidence": 0.84,
+    "reason": "Characterises inheritance of the X-linked cone pigment polymorphism in squirrel monkeys - the ancestral single-locus system that gave rise to the OPN1LW/OPN1MW arrangement in primates. Directly relevant to the biology and evolution of OPN1LW-encoded photopigments."
+  },
+  {
+    "id": "pmid:7863325",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Examines numbers and ratios of visual pigment genes (OPN1LW/OPN1MW array) on the X chromosome in normal colour vision, challenging prior models. Core structural genetics of the OPN1LW locus."
+  },
+  {
+    "id": "pmid:20107598",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "C. elegans study showing Elongator regulates neuronal alpha-tubulin acetylation and neurotransmitter levels. No eye disease or ocular development content. Elongator neurobiology in nematodes is not relevant to ELP4 in the context of aniridia/anterior-segment-dysgenesis."
+  },
+  {
+    "id": "pmid:15252758",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Investigates signatures of selection and gene conversion in the OPN1LW/OPN1MW locus - the primary structural mechanism underlying colour vision defects. Empty abstract but title is unambiguous; directly relevant to OPN1LW molecular genetics."
+  },
+  {
+    "id": "pmid:23510783",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Structural biology review of the Elongator complex. Empty abstract; title indicates focus on Elongator function, not eye disease. ELP4's ophthalmic relevance is through PAX6 adjacency, not Elongator structural biology."
+  }
+]
