@@ -48,7 +48,8 @@ class DedupBaseline:
 
 def _is_retryable(exc: Exception) -> bool:
     """Return True for transient errors that warrant a retry (5xx, timeouts)."""
-    if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout)):
+    if isinstance(exc, (httpx.TimeoutException, httpx.ReadTimeout,
+                        httpx.RemoteProtocolError, httpx.ConnectError)):
         return True
     if isinstance(exc, zotero_exceptions.HTTPError):
         msg = str(exc)
