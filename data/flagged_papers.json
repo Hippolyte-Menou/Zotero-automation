@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T07:22:34Z",
+  "generated_at": "2026-10-25T07:42:19Z",
   "threshold_k": 0,
-  "total_evaluated": 30916,
-  "total_flagged": 497,
+  "total_evaluated": 31207,
+  "total_flagged": 506,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -48,6 +48,7 @@
       "Coloboma",
       "Cone dystrophy",
       "Congenital cataract",
+      "Congenital cataracts",
       "Congenital hereditary stromal dystrophy",
       "Congenital stationary night blindness",
       "Corneal dystrophy",
@@ -101,7 +102,9 @@
       "BEST1",
       "CEP290",
       "CHD7",
+      "CHM",
       "CLRN1",
+      "COL11A1",
       "COL18A1",
       "COL2A1",
       "COL8A2",
@@ -161,6 +164,7 @@
       "RDH11",
       "RNU2-2",
       "RNU4ATAC",
+      "RP1",
       "RP2",
       "RPGR",
       "RPGRIP1",
@@ -178,6 +182,7 @@
       "UBIAD1",
       "USH1C",
       "USH2A",
+      "VCAN",
       "ZEB1",
       "ZNF408"
     ]
@@ -3560,6 +3565,72 @@
       "subcollection": "B3GLCT"
     },
     {
+      "pmid": "42897157",
+      "doi": "10.1038/s41420-026-03263-z",
+      "zotero_key": "97F3JJQG",
+      "title": "Age- and sex-dependent retinal degeneration in peripherin-2 mutant mice, a model of central areolar choroidal dystrophy",
+      "authors": [
+        [
+          "Enola",
+          "Missonnier"
+        ],
+        [
+          "Lorena",
+          "Vidal‐Gil"
+        ],
+        [
+          "Carla",
+          "Sánchez‐Castillo"
+        ],
+        [
+          "Estela",
+          "Tébar-Garcerán"
+        ],
+        [
+          "Ceren",
+          "Şahin"
+        ],
+        [
+          "Marina",
+          "Pastor‐Mas"
+        ],
+        [
+          "Yoel",
+          "Hernández"
+        ],
+        [
+          "Oksana",
+          "Kutsyr"
+        ],
+        [
+          "Laura",
+          "Fernández‐Sánchez"
+        ],
+        [
+          "Victoria",
+          "Maneu"
+        ],
+        [
+          "Nicolás",
+          "Cuenca"
+        ],
+        [
+          "Natalia",
+          "Martínez‐Gil"
+        ]
+      ],
+      "journal": "Cell Death Discovery",
+      "year": "2026",
+      "abstract": "Abstract Central areolar choroidal dystrophy (CACD) is a progressive macular dystrophy without treatment. Although PRPH2 mutations are the most common cause of disease, the mechanisms driving their phenotypic variability remain poorly understood. Here, a comprehensive characterization of the pathophysiological consequences of p.Arg195Leu mutation in PRPH2 was carried out in a mouse model (Prph2 KI/WT ). For evaluating the retinal degeneration, this study combines the analysis of electroretinographic responses together with a complete study of bulk RNA-seq transcriptomics and the key cellular and molecular pathways using confocal imaging, flow-cytometry and western blotting. Results from this work demonstrate that ageing and sex influence retinal degeneration. In young mutant mice, retinal functional impairment and structural disorganization of photoreceptor outer segments were accompanied by a reduced expression of Prph2 and Rom1 genes, together with the activation of the immune system and complement pathways. Middle-age stages represent a critical transition point where the increase of cell death and epithelial barrier dysfunction mark the beginning of retinal degeneration. These pathological events become evident at 9 months of age, where visual pathways-related genes were deregulated. Functional, cellular and molecular alterations observed in the mutant mice do not affect males and females equally. From the earliest stages of the disease, females exhibited greater and sustained inflammatory activation, mainly promoted by complement system upregulation and increased CD11b immunoreactivity, and potentially mediated by IL-6/STAT3/ERK signaling. Moreover, females had greater functional decline and photoreceptor loss. Together, these results could explain the high inter- and intrafamilial variability observed in CACD patients carrying the same mutation. Our findings identify inflammatory biomarkers accompanied by visual function loss, prior to evident retinal degeneration, and demonstrate that age and sex critically shape disease onset and severity. These insights underscore the necessity of incorporating sex-specific biology and early anti-inflammatory treatment into the development of targeted therapies for PRPH2-related dystrophies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "PRPH2"
+    },
+    {
       "pmid": "",
       "doi": "10.1167/iovs.02-1180",
       "zotero_key": "SRJIABFH",
@@ -3998,6 +4069,36 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Gillespie syndrome"
+    },
+    {
+      "pmid": "18212189",
+      "doi": "10.1136/sti.2007.029173",
+      "zotero_key": "N47SVTDP",
+      "title": "Are serological chlamydia-specific markers useful to detect asymptomatic cases of lymphogranuloma venereum proctitis?",
+      "authors": [
+        [
+          "Vitaly",
+          "Smelov"
+        ],
+        [
+          "Servaas A.",
+          "Morré"
+        ],
+        [
+          "Henry J.C. de",
+          "Vries"
+        ]
+      ],
+      "journal": "Sexually Transmitted Infections",
+      "year": "2008",
+      "abstract": "Abstract Martsolf syndrome is characterized by congenital cataracts, postnatal microcephaly, developmental delay, hypotonia, short stature and biallelic hypomorphic mutations in either RAB3GAP1 or RAB3GAP2. Through genetic analysis of 85 unrelated “mutation negative” probands referred with Martsolf syndrome we identified two individuals with different homozygous null mutations in ITPA, the gene encoding inosine triphosphate pyrophosphatase (ITPase). The probands reported here each presented with a lethal and highly distinctive disorder; Martsolf syndrome with infantile-onset dilated cardiomyopathy. Severe ITPase-deficiency has been previously reported with infantile epileptic encephalopathy (MIM 616647). ITPase acts to prevent incorporation of inosine bases (rl/dl) into RNA and DNA. In Itpa-null cells, dI was undetectable in genomic DNA. dI could be identified at a low level in mtDNA but this was not associated with detectable mitochondrial genome instability, mtDNA depletion or biochemical dysfunction of the mitochondria. rI accumulation was detectable in lymphoblastoid RNA from an affected individual. In Itpa-null mouse embryos rI was detectable in the brain and kidney with the highest level seen in the embryonic heart (rI at 1 in 385 bases). Transcriptome and proteome analysis in mutant cells revealed no major differences with controls. The rate of transcription and the total amount of cellular RNA also appeared normal. rI accumulation in RNA – and by implication rI production - correlates with the severity of organ dysfunction in ITPase deficiency but the basis of the cellulopathy remains cryptic. While we cannot exclude cumulative minor effects, there are no major anomalies in the production, processing, stability and/or translation of mRNA. Author Summary Nucleotide triphosphate bases containing inosine, ITP and dITP, are continually produced within the cell as a consequence of various essential biosynthetic reactions. The enzyme inosine triphosphate pyrophosphatase (ITPase) scavenges ITP and dITP to prevent their incorporation into RNA and DNA. Here we describe two unrelated families with complete loss of ITPase function as a consequence of disruptive mutations affecting both alleles of ITPA, the gene that encodes this protein. Both of the families have a very distinctive and severe combination of clinical problems, most notably a failure of heart muscle that was lethal in infancy or early childhood. They also have features of another rare genetic disorder affecting the brain and the eyes called Martsolf syndrome. We could not detect any evidence of dITP accumulation in genomic DNA from the affected individuals. A low but detectable level of inosine was present in the mitochondrial DNA but this did not have any obvious detrimental effect. The inosine accumulation in RNA was detectable in the patient cells. We made both cellular and animal models that were completely deficient in ITPase. Using these reagents we could show that the highest level of inosine accumulation into RNA was seen in the embryonic mouse heart. In this tissue more than 1 in 400 bases in all RNA in the cell was inosine. In normal tissues inosine is almost undetectable using very sensitive assays. The inosine accumulation did not seem to be having a global effect on the balance of RNA molecules or proteins.",
+      "cited_by_count": 4,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RAB3GAP2"
     },
     {
       "pmid": "42532136",
@@ -5842,6 +5943,32 @@
       "subcollection": "BEST1"
     },
     {
+      "pmid": "42881442",
+      "doi": "10.1186/s12886-026-05436-x",
+      "zotero_key": "KS7JHW4K",
+      "title": "Clinical and etiological profile of patients with bitemporal optic disc pallor visiting at a tertiary eye hospital",
+      "authors": [
+        [
+          "Jyoti",
+          "Mishra"
+        ],
+        [
+          "Pawan",
+          "Shrestha"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Bitemporal optic disc pallor may result from chiasmal compression as well as bilateral toxic, nutritional, hereditary, or inflammatory optic neuropathies. Data describing its clinical and etiological profile in Nepal are limited. This study was conducted with the aim to describe the clinical and etiological profile of patients with bitemporal optic disc pallor and to evaluate the relationship between clinical, visual-field, neuroimaging, and OCT findings. METHODS: A hospital-based prospective, cross-sectional study was conducted among patients with clinically documented bitemporal optic disc pallor presenting to Biratnagar Eye Hospital, Nepal. The minimum calculated sample size was 49, and 50 participants were included in the final analysis. Demographic and clinical findings, Humphrey visual-field patterns, neuroimaging findings, optical coherence tomography-derived retinal nerve fibre layer (RNFL) and macular ganglion cell analysis (GCA) measurements, and relevant blood investigations were evaluated. Data were summarized using frequencies, percentages, means, and standard deviations. RESULTS: The mean age of participants was 38.58 ± 15.20 years, and 58.0% were male. Diminution of vision was the predominant presenting complaint (88.0%). Central scotoma was the most common visual-field defect (48.0%), followed by cecocentral scotoma (26.0%) and bitemporal hemianopia (20.0%). Nutritional optic neuropathy was the most frequent etiology (26.0%), followed by toxic optic neuropathy (20.0%); Leber hereditary optic neuropathy and inflammatory optic neuropathy each accounted for 18.0%. Pituitary macroadenoma was present in 16.0% and Rathke cleft cyst in 2.0%. Bitemporal hemianopia was predominantly associated with sellar lesions. The combined pituitary macroadenoma/Rathke cleft cyst group had the lowest mean RNFL thickness (67.4 ± 10.7 μm). Temporal RNFL thinning was more prominent in toxic optic neuropathy and Leber hereditary optic neuropathy, with mean temporal RNFL values of 39.5 and 40.8 μm, respectively. CONCLUSIONS: Bitemporal optic disc pallor demonstrated a diverse etiological spectrum. Sellar lesions were predominantly associated with bitemporal hemianopia and greater overall RNFL loss, whereas non-sellar optic neuropathies were more frequently associated with central or cecocentral scotomas and temporal RNFL thinning. Combined clinical examination, visual-field assessment, neuroimaging, and optical coherence tomography may assist in differentiating the underlying causes.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Retinal dystrophies"
+    },
+    {
       "pmid": "42271513",
       "doi": "10.1186/s40246-026-01002-0",
       "zotero_key": "95AD4BF2",
@@ -6120,6 +6247,28 @@
       "subcollection": "RS1"
     },
     {
+      "pmid": "42898745",
+      "doi": "10.14744/bej.2026.47108",
+      "zotero_key": "DP9PWX97",
+      "title": "Clinical Manifestations of a Hereditary Vitreoretinopathy with Wagner Phenotype in a Multigenerational Turkish Family",
+      "authors": [
+        [
+          "Raciha Beril",
+          "Küçümen"
+        ]
+      ],
+      "journal": "Beyoglu Eye Journal",
+      "year": "2026",
+      "abstract": "Objectives: To report long-term clinical manifestations and genetic findings of a hereditary vitreoretinopathy exhibiting phenotypical characteristics of Wagner Syndrome in a multigenerational Turkish family originating from the same district in Central Anatolia. Methods: Data from detailed medical histories and ophthalmological examinations were evaluated. Family pedigree was constructed. PCR and sequence analysis were performed to assess splice sites of introns 7 and 8 of the VCAN gene associated with Wagner syndrome. Results: Thirty family members were examined, and 21 affected individuals were followed for 2-18 years. Cohort included 12 females and 9 males, with a mean age of 31±19 years (4-71), mean spherical equivalent of -3.87±5.03 diopters. Sixteen patients (76%) were myopic (≤-0.50 D). Rhegmatogenous retinal detachment (RD) was presenting diagnosis in seven patients (33%). Hollow vitreous cavity with fibrous bands was detected in nine individuals (43%). Peripheral retinal pathology included multiple breaks in 16/21 (76%), snail-track degeneration in 3/21 (14%), lattice degeneration in 5/21 (24%), white without pressure in 2/21 (9.5%). One 20-year-old male with bilateral RD also had an optic nerve head astrocytoma. Mean age at onset was 21.6±13.5 years (4-50). Earliest RD occurred at age 10, retinal breaks with attached retina were identified at age 8. Youngest patient (age 4) exhibited high axial myopia and vitreous bands. Laser prophylaxis was effective in 10 patients, although one later developed RD. Three patients (14%) developed phthisis, seven (33%) underwent cataract surgery, and four (19%) had glaucoma. Sequence analysis revealed no mutations in VCAN intron 7 or 8 splice sites. Conclusions: This study presents a Turkish family with hereditary vitreoretinopathy exhibiting phenotypical characteristics of Wagner Syndrome. Although genetic analysis was inconclusive, detailed presentation of long-term clinical manifestations may provide valuable information about hereditary vitreoretinopathies and emphasize the importance of early and regular follow-up and prophylactic treatment for prevention of RD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "VCAN"
+    },
+    {
       "pmid": "42291478",
       "doi": "10.1177/15357597261439484",
       "zotero_key": "7URBEXJ5",
@@ -6228,6 +6377,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PRPH2"
+    },
+    {
+      "pmid": "42875743",
+      "doi": "10.1186/s12870-026-09735-9",
+      "zotero_key": "6BPZJCGS",
+      "title": "Combined application of bacterial biofertilizers, seaweed, and Thymbra spicata extract enhanced productivity, nutritional value, and postharvest shelf life of cucumber (Cucumis sativus L.)",
+      "authors": [
+        [
+          "Bahareh",
+          "Karami"
+        ],
+        [
+          "Majid",
+          "Bagnazari"
+        ],
+        [
+          "Meisam",
+          "Mohammadi"
+        ],
+        [
+          "Afsaneh",
+          "Azizi"
+        ]
+      ],
+      "journal": "BMC Plant Biology",
+      "year": "2026",
+      "abstract": "Environmentally friendly biostimulants and biofertilizers have emerged as promising alternatives to synthetic agricultural inputs for improving crop productivity, fruit quality, and postharvest longevity. This study investigated the effects of Thymbra spicata L. extract at 0% (E0), 10% (TE1), and 20% (TE2), applied individually or in combination with seaweed biofertilizer (1%) (SB) and bacterial biofertilizer (10%) (BB), on the growth, yield, physiological responses, and postharvest characteristics of cucumber (Cucumis sativus L. var. eureka) under field conditions. The experiment was conducted as a factorial arrangement in a randomized complete block design with three replications. The results showed that the combined application of TE1 + SB + BB was the most effective treatment with respect to yield, vitamin C content, antioxidant activity, and postharvest longevity. Compared with the untreated control, this treatment increased fruit number by 29.32%, total yield by 43.23%, fruit firmness by 22.34%, vitamin C content by 33.25%, antioxidant activity by 72.93%, and shelf life by 121.67%, while reducing fruit weight loss by 45.67%. Although several other treatments improved specific physiological and biochemical traits, TE1 + SB + BB provided the greatest benefits for the major yield- and postharvest-related attributes evaluated in this study. These findings indicated that integrating 10% T. spicata extract with seaweed and bacterial biofertilizers enhanced cucumber yield, antioxidant capacity, and postharvest longevity, and could represent an effective and sustainable approach for cucumber production.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "",
@@ -8109,6 +8292,36 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Retinal dystrophies"
+    },
+    {
+      "pmid": "41715899",
+      "doi": "10.12659/ajcr.951257",
+      "zotero_key": "PFUMA6K9",
+      "title": "Early-Onset Ocular Presentation in Stickler Syndrome Type 1 Due to a COL2A1 Frameshift Variant",
+      "authors": [
+        [
+          "Faisal S.",
+          "Alqahtani"
+        ],
+        [
+          "Motazz",
+          "Alarfaj"
+        ],
+        [
+          "Abdulelah A.",
+          "Al-Abdullah"
+        ]
+      ],
+      "journal": "American Journal of Case Reports",
+      "year": "2026",
+      "abstract": "BACKGROUND Stickler syndrome is a genetically heterogeneous connective tissue disorder caused by mutations in collagen genes (COL2A1, COL11A1, COL11A2, COL9A1, and COL9A2). It is characterized by a distinctive craniofacial appearance, high myopia, vitreoretinal degeneration, hearing loss, and early-onset arthritis. Type 1, the most common autosomal-dominant form, results from COL2A1 variants and is strongly associated with ocular complications, including high myopia, vitreous degeneration, and retinal detachment. Early recognition of systemic and ocular findings is essential for timely management and genetic counseling. CASE REPORT An 8-year-old Saudi girl presented to the emergency department with sudden deterioration of vision in the right eye. External examination revealed midfacial hypoplasia. Ophthalmologic evaluations, including best-corrected visual acuity measurement, fundus photography, optical coherence tomography, and genetic testing, were performed. Rhegmatogenous retinal detachment was identified and surgically managed. Revision surgery was performed; at 3 years post-revision, best-corrected visual acuity in the right eye had improved to 20/30. The family history included childhood retinal detachment in the patient's father. Clinical exome sequencing identified a novel heterozygous COL2A1 frameshift variant, c.3642delT (p.Gly1215Alafs*12), that introduced a premature stop codon; Sanger sequencing confirmation and segregation analysis were consistent with pathogenicity. CONCLUSIONS This report describes a previously undocumented COL2A1 frameshift variant causing Stickler syndrome type 1. The truncating mutation may be associated with the early-onset, ocular-predominant presentation observed in the present case. This variant expands the known COL2A1 mutational spectrum and underscores the importance of molecular testing for accurate diagnosis and family counseling in pediatric collagenopathies.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL11A1"
     },
     {
       "pmid": "",
@@ -11358,6 +11571,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "SAG"
+    },
+    {
+      "pmid": "39315571",
+      "doi": "10.1093/jas/skae273",
+      "zotero_key": "4WAVHF9T",
+      "title": "Integration of multi-omics reveals the important role of the BBS10 gene in reproduction",
+      "authors": [
+        [
+          "Guoqing",
+          "Zhang"
+        ],
+        [
+          "Mingxing",
+          "Chu"
+        ],
+        [
+          "Shoufeng",
+          "Wang"
+        ],
+        [
+          "Pingjie",
+          "Feng"
+        ],
+        [
+          "Jianxin",
+          "Shi"
+        ],
+        [
+          "Hao",
+          "Li"
+        ],
+        [
+          "Xinyue",
+          "Li"
+        ],
+        [
+          "Zhangyuan",
+          "Pan"
+        ]
+      ],
+      "journal": "Journal of Animal Science",
+      "year": "2024",
+      "abstract": "Blood samples are easily obtained from sheep. Therefore, blood analysis can be a convenient method for evaluating reproductive traits in sheep by detecting genetic and metabolic changes in the ovary. By combining 167 RNA sequencing data and 60 untargeted metabolomics data, this study analyzed the relationship between genes and metabolites in the ovary and blood. The conjoint KEGG enrichment analysis enriched glutathione (GSH) metabolic pathways both in the ovary and blood. This finding provides an explanation for possible GSH metabolic processes in the ovary with metabolite exchange in the blood. The metabolite-gene-disease interaction network revealed a correlation between the expression of certain Bardet-Biedl syndrome (BBS) family genes in the ovary and blood. This indicates that BBS family genes, such as BBS10 in sheep blood, could be a potential biomarker for BBS. We investigated the relationship between BBS10 gene expression in the ovary and lambing numbers using whole-genome sequencing data from 450 ewes. Our findings suggest that g.112314188C>G may lead to decreased litter size in ewes carrying the FecB gene. These single nucleotide polymorphisms could be potential molecular markers for breeding sheep.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BBS10"
     },
     {
       "pmid": "42343637",
@@ -14830,6 +15093,56 @@
       "subcollection": "CLRN1"
     },
     {
+      "pmid": "40312951",
+      "doi": "10.17236/sat00452",
+      "zotero_key": "WTVHAABZ",
+      "title": "Overview of known and new genetic defects and their prevalence in Swiss Fleckvieh cattle",
+      "authors": [
+        [
+          "B. A.",
+          "Weber"
+        ],
+        [
+          "T",
+          "Leuenberger"
+        ],
+        [
+          "Miriam",
+          "Hauser"
+        ],
+        [
+          "J C F",
+          "Bousmar"
+        ],
+        [
+          "Corinne",
+          "Gurtner"
+        ],
+        [
+          "Franz R.",
+          "Seefried"
+        ],
+        [
+          "Cord",
+          "Drögemüller"
+        ],
+        [
+          "Joana G. P.",
+          "Jacinto"
+        ]
+      ],
+      "journal": "Schweizer Archiv für Tierheilkunde",
+      "year": "2025",
+      "abstract": "INTRODUCTION: In the Swiss Fleckvieh (SF) cattle breed, derived from crosses between the Holstein (HO) and Simmental (SI) breeds, two inherited diseases, thrombocytopathy (TP) and bovine dilated cardiomyopathy (BDCMP), and four so-called fertility haplotypes, Fleckvieh haplotype 1,2,4,5 (FH1,2,4,5), have been described so far. In addition, the APOB-related hereditary disease cholesterol deficiency (CD) has been thoroughly described in the closely related HO breed after its discovery in 2015, but to date it has not been reported in the SF breed. The hereditary disease retinitis pigmentosa (RP), which leads to progressive retinal degeneration in homozygous carriers of a pathogenic variant of the RP1 gene, has been shown to occur in several European cattle breeds, but has not been described in the SF population. The aim of this study was to determine the prevalence of the known genetic defects and fertility haplotypes, as well as CD, in SF and the two closely related breeds, HO and SI. We also investigated the prevalence of RP in the SF population and characterised the genetic disease through a case series. To determine the prevalence, the SNP array genotyping data of over 65 000 cattle from the Swiss breeding association database were analyzed and based on those results, four RP1 homozygous animals were clinically evaluated. The allele frequency of the RP causing allele in SF was 13 % and the CD causing allele, previously described only in HO, was found in SF with an allele frequency of 1,17 %. The remaining six genetic defects occurred in SF either with a low allele frequency (TP 0,24 %, BDCMP 1,93 %, FH2 0,03 %, FH5 0,02 %) or not at all (FH1, FH4). The four RP1 homozygous animals with a mean age of 7,5 years old Showed varying degrees of visual impairment. Overall, the clinical and pathological findings were consistent with RP1-associated RP. In a suspected case, RP1 genotyping by genetic testing can confirm the diagnosis of RP. Due to the routine use of SNP genotyping to estimate breeding values, the genotypes of genetic defects are known, at least in the active breeding population, and can therefore be considered before matings. Avoiding risk mating will improve animal health and welfare and prevent animal losses, and therefore economic losses.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RP1"
+    },
+    {
       "pmid": "41954491",
       "doi": "10.17305/bb.2026.13819",
       "zotero_key": "HM9ISZ9K",
@@ -16310,44 +16623,6 @@
       "subcollection": "EYS"
     },
     {
-      "pmid": "42045071",
-      "doi": "10.1523/jneurosci.0164-26.2026",
-      "zotero_key": "6V6SHIXA",
-      "title": "Protein Inhibitor of Retinal Membrane Guanylyl Cyclase Rescues Mouse Rod Photoreceptors from GUCY2D Retinal Dystrophy",
-      "authors": [
-        [
-          "Shinya",
-          "Sato"
-        ],
-        [
-          "Igor V.",
-          "Peshenko"
-        ],
-        [
-          "Elena V.",
-          "Olshevskaya"
-        ],
-        [
-          "Vladimir J.",
-          "Kefalov"
-        ],
-        [
-          "Alexander M.",
-          "Dizhoor"
-        ]
-      ],
-      "journal": "Journal of Neuroscience",
-      "year": "2026",
-      "abstract": "adCORD.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "CEP290"
-    },
-    {
       "pmid": "",
       "doi": "10.4103/ijo.ijo_3375_22",
       "zotero_key": "TAAMGHJ9",
@@ -16937,6 +17212,40 @@
       ],
       "category": "6 - Genes",
       "subcollection": "TGFBI"
+    },
+    {
+      "pmid": "42878518",
+      "doi": "10.1097/icb.0000000000002001",
+      "zotero_key": "5NKG8JMM",
+      "title": "Retinoschisis-Associated Retinal Detachment in Choroideremia: A Surgical Conundrum",
+      "authors": [
+        [
+          "Brianna A.",
+          "Blasingame"
+        ],
+        [
+          "Brandon J.",
+          "Kennedy"
+        ],
+        [
+          "Christina J.",
+          "Flaxel"
+        ],
+        [
+          "Zachary A.",
+          "Kroeger"
+        ]
+      ],
+      "journal": "Retinal Cases & Brief Reports",
+      "year": "2026",
+      "abstract": "PURPOSE: To describe a case of retinoschisis-associated retinal detachment (RD) in a patient with genetically confirmed choroideremia and discuss implications for surveillance and surgical management. METHODS: A case report of a 43-year-old man with genotypically confirmed choroideremia, CHM c.242_245 deletion, who developed rhegmatogenous RD following progression of peripheral retinoschisis. Multimodal imaging, including optical coherence tomography (OCT), B-scan ultrasonography, ultrasound biomicroscopy (UBM), and fundus autofluorescence (AF) were utilized for diagnosis and surgical planning. RESULTS: The patient presented with acute visual decline from 20/20 Snellen to 20/100 Snellen in the affected eye following progression of temporal retinoschisis into the fovea. OCT demonstrated schisis cavities with subretinal fluid extending to the fovea. B-scan demonstrated shallow temporal subretinal fluid involving the macula, and UBM was suggestive of multiple small anterior holes within the retinoschisis, though these were not clearly identified on examination with indirect fundoscopy. Surgical repair with a high posterior encircling scleral buckle (#277 tire) with cryopexy achieved foveal reattachment, schisis cavity collapse, and visual recovery to 20/25 Snellen. CONCLUSIONS: This case represents the first documented retinoschisis-associated RD in choroideremia. Progressive degeneration of the RPE, choroid, and retinal layers may create structural instability predisposing to RD when retinoschisis progresses. This mechanism should theoretically make surgical reattachment challenging. This case highlights the need for risk stratification, close follow-up, and early surgical intervention to prevent reversible vision loss in patients with retinoschisis, RD, and choroideremia.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CHM"
     },
     {
       "pmid": "40840457",
@@ -20983,6 +21292,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ARR3"
+    },
+    {
+      "pmid": "42892448",
+      "doi": "10.1016/j.jaapos.2026.105325",
+      "zotero_key": "7UCRB5XI",
+      "title": "Unilateral uveitic congenital cataract caused by Spiroplasma ixodetis",
+      "authors": [
+        [
+          "Vesna Cvitković",
+          "Špik"
+        ],
+        [
+          "Tina",
+          "Triglav"
+        ],
+        [
+          "Petra",
+          "Kmetič"
+        ],
+        [
+          "Patricija",
+          "Pozvek"
+        ],
+        [
+          "Miša",
+          "Korva"
+        ],
+        [
+          "Darja",
+          "Keše"
+        ],
+        [
+          "Miroslav",
+          "Petrovec"
+        ],
+        [
+          "Manca Tekavčič",
+          "Pompe"
+        ]
+      ],
+      "journal": "Journal of American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "abstract": "Congenital cataract and uveitis caused by Spiroplasma ixodetis are rare, with only a small number of cases reported worldwide. We report 2 infants with unilateral uveitic congenital cataracts. Both underwent lensectomy and anterior vitrectomy, received intracameral antibiotics, and were postoperatively treated with a topical corticosteroid-antibiotic regimen. Routine microbiological tests were negative, but 16S rRNA PCR detected S. ixodetis in the vitreous and lens. Identification was confirmed by partial sequencing of the Mollicutes 16S-23S rRNA intergenic spacer region and a species-specific real-time PCR targeting rpoB gene of S. ixodetis. Targeted assays for S. ixodetis can be incorporated into the diagnostic work-up of neonatal uveitic congenital cataract. Recognizing this rare etiology can help optimize antimicrobial therapy and supports further studies of the clinical significance of S. ixodetis.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "41651789",
