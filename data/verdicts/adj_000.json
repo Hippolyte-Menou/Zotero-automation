@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:41386636",
+    "id": "pmid:42922393",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ADGRV1 is explicitly named in the abstract as a pathogenic variant detected in the epilepsy patient group (G protein-coupled receptor ADGRV1). The gene is a direct subject of the variant analysis, not merely a tangential mention."
+    "confidence": 0.98,
+    "reason": "COL8A2 is the primary genetic cause of Fuchs Endothelial Corneal Dystrophy (FECD). This paper directly investigates layer-specific corneal structural changes and optical aberrations in FECD patients using Scheimpflug and AS-OCT imaging. The paper is centrally about the disease caused by COL8A2 mutations."
   },
   {
-    "id": "pmid:30617060",
+    "id": "pmid:42927157",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ADGRV1 is discussed explicitly as the protein associated with ankle links in the hair bundle and as a cause of Usher syndrome (combined deafness/blindness). This is a core functional review of ADGRV1 with direct ophthalmic relevance through Usher syndrome."
+    "confidence": 0.88,
+    "reason": "BEST1 mutations cause autosomal recessive bestrophinopathy (ARB), which characteristically presents with multifocal serous retinal pigment epithelial detachments distributed from posterior pole to equator and full-field ERG abnormalities including severely reduced rod and combined rod-cone responses - precisely the clinical picture described. The unremarkable workup and idiopathic designation are consistent with undiagnosed ARB. The clinical overlap is strong enough that this paper is on-topic for BEST1."
   },
   {
-    "id": "pmid:37057399",
+    "id": "pmid:42636066",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The abstract states that one lens epithelial cell subtype 'specifically expressed C8orf4 and ADAMTSL4 with distinct spatial localization.' ADAMTSL4 is a defining marker of a newly identified cell subtype in human lens tissue - directly on-topic for an ophthalmogenetics library."
+    "confidence": 0.95,
+    "reason": "ARL3 is the direct molecular substrate of ARL13B's guanine nucleotide exchange factor activity studied in this paper. The paper uses an Arl13bR79Q allele (residue critical for ARL3 GEF activity) to suppress PKD1-dependent cysts. ARL3 activation by ARL13B is a central mechanistic subject of the work, not merely incidental."
   },
   {
-    "id": "pmid:32112643",
+    "id": "pmid:42885952",
     "verdict": "on_topic",
-    "confidence": "medium",
-    "reason": "ADAMTSL4 is explicitly named as one of the top genes exhibiting loss of coordinated expression in the frailty group. While the study topic is frailty rather than ophthalmology, the gene is directly identified as a functional finding. Applying caution principle: a real connection to ADAMTSL4 is present and the paper could inform understanding of ADAMTSL4 gene regulation."
+    "confidence": 0.65,
+    "reason": "SLC45A2 causes oculocutaneous albinism type 4 (OCA4). This tertiary center genetics survey covers albinism (n=18, ~2% of tested patients) among inherited eye diseases in a genetics context. The connection is real but general; per the caution rule, a plausible link to the gene's disease is sufficient to retain the paper."
   },
   {
-    "id": "pmid:36103205",
+    "id": "pmid:42924990",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ADAMTSL4 is directly named as one of only four genes harboring likely-pathogenic or pathogenic variants in this SCAD genetics study. The finding directly implicates ADAMTSL4 in a vascular connective tissue disease, which is mechanistically relevant given ADAMTSL4's known role in fibrillin microfibril assembly."
+    "confidence": 0.92,
+    "reason": "The abstract explicitly names LOXL3 as a comparator: 'Biallelic P3H2 variants represent relatively common causes of autosomal-recessive eoHM, with a frequency comparable with LOXL3- and LRPAP1-associated eoHM.' LOXL3 is a directly cited reference point for the paper's main frequency finding."
   },
   {
-    "id": "pmid:25770910",
+    "id": "pmid:42906679",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "This is a comprehensive review of the ADAMTS superfamily where ADAMTSL4 is featured prominently as a Mendelian disease gene. The paper extensively covers ADAMTSL4's genetics, function, and clinical manifestations. Directly relevant."
+    "confidence": 0.97,
+    "reason": "GPR179 is explicitly identified in the abstract as a direct binding partner of pikachurin: 'binds to presynaptic dystroglycan, postsynaptic orphan receptor GPR179, and postsynaptic adhesion molecule LRRTM4.' The paper studies the heparan sulfate domain of pikachurin required for GPR179 binding (LRRTM4 co-immunoprecipitation depends on the HS attachment site). GPR179 is a central subject of the work."
   },
   {
-    "id": "pmid:38435780",
+    "id": "pmid:42256003",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The paper explicitly profiled ADAMTS(L) superfamily gene expression including ADAMTSL4 across five human ocular tissues across age groups. This is direct ADAMTSL4 expression data in an ophthalmic context - highly relevant."
+    "confidence": 0.98,
+    "reason": "EYS variants are explicitly analyzed as a subgroup with the most pronounced hemispheric asymmetry: 'We observed the most pronounced asymmetry in eyes with EYS variants (1.93 +/- 0.21, 95% CI: 1.51-2.34).' EYS is a named genotype subgroup with a specific quantitative finding, making this paper directly relevant to EYS-associated retinitis pigmentosa."
   },
   {
-    "id": "pmid:38892339",
+    "id": "pmid:42913097",
     "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The abstract explicitly states that ADAM9 is 'an uncommon cause of LCA/EOSRD,' directly linking ADAM9 to Leber congenital amaurosis and early-onset severe retinal dystrophy. Both the gene and the ophthalmic disease are central to this paper."
+    "confidence": 0.95,
+    "reason": "ARL3 ciliary localization is directly measured in ARL13B CRISPR-edited lines. The abstract states the Arl13bV358A mutation caused 'loss of ARL3 and INPP5E localization.' ARL3 is one of a small set of ciliary proteins whose behavior is directly tracked as a readout of ciliary ARL13B function."
   },
   {
-    "id": "pmid:15507448",
-    "verdict": "on_topic",
-    "confidence": "medium",
-    "reason": "ADAM9-deficient mouse cells were explicitly used to test pro-BTC shedding. The paper directly examined ADAM9's contribution (finding it was not responsible for pro-BTC shedding). Although ADAM9 is a negative result here, its activity was directly tested and functionally characterized. Caution principle applies."
+    "id": "pmid:15177205",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Foundational review of dark adaptation and the retinoid cycle directly covering the molecular functions of ABCA4 (ATR flippase), RPE65 (retinoid isomerohydrolase), RLBP1/CRALBP (retinoid carrier), LRAT (acyltransferase), RGR (retinal G-protein-coupled receptor), RDH11 (retinol dehydrogenase), GRK1 (rhodopsin kinase), RBP3/IRBP (interphotoreceptor retinoid-binding protein), and CABP4 (calcium binding protein regulating phototransduction). The score-threshold gap of 1 is narrow and the paper's relevance to the listed genes is unambiguous."
   },
   {
-    "id": "pmid:20207970",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ADAM9 is explicitly identified as a substrate cleaved by HTRA1 in the RPE secretome (54% cleavage efficiency) in the context of AMD pathogenesis. This places ADAM9 directly in an ophthalmic disease mechanism, making it highly relevant to an ophthalmogenetics library."
+    "id": "pmid:16120006",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Discusses all-trans-retinal (ATR) accumulation, A2E biosynthesis, and retinoid cycle operation in the context of photodamage. A2E accumulation is the central pathogenic mechanism in ABCA4/Stargardt disease (ABCA4 normally prevents ATR/A2E buildup by flipping ATR from disc membranes). The paper also discusses retinoid cycle components including RPE65, RLBP1/CRALBP (implicit in efficient retinoid cycle), RGR, and RDH. Directly relevant to ABCA4 disease mechanism and the other retinoid-cycle genes listed."
   },
   {
-    "id": "pmid:25480335",
-    "verdict": "on_topic",
-    "confidence": "medium",
-    "reason": "ADAM9 is explicitly discussed as upregulated in acute and chronic lung inflammation, with functional analyses linking it to disease development. The paper is not ophthalmic, but ADAM9 is a direct subject of functional and genetic analysis. Caution principle applies: a real connection to ADAM9 is present, and this review may inform understanding of ADAM9 biology across tissues."
+    "id": "pmid:28413780",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Baraitser-Winter cerebrofrontofacial syndrome is caused by mutations in ACTB and ACTG1. The paper is specifically about BWMS and lists iris colobomata as a key feature alongside ptosis and hypertelorism. Both ACTB and ACTG1 are the causative genes for the syndrome described; this is directly relevant to both gene collections."
   },
   {
-    "id": "pmid:41570770",
-    "verdict": "off_topic",
-    "confidence": "high",
-    "reason": "This paper is entirely about the SIRT3-ACSS2-OPA1 axis in Parkinson's disease and ferroptosis. ACO2 (aconitase 2) does not appear anywhere in the title or abstract. No connection to the gene_or_topic is present or plausible from the available text."
+    "id": "pmid:7929587",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "Basic cell biology paper on ACTB mRNA localization via a 3-prime UTR zipcode in chicken embryo fibroblasts. No ophthalmological content, no disease context, no connection to Baraitser-Winter syndrome or structural eye disease. ACTB is in the ophthalmogenetics library for its role in causing BWMS with coloboma; a 1994 mRNA localization study in fibroblasts does not contribute to that disease knowledge."
   },
   {
-    "id": "pmid:35923205",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The paper discusses Stargardt's disease (STGD1), which is the primary disease caused by ABCA4 mutations, in the context of vitamin A metabolism and retinal degeneration. While ABCA4 is not spelled out by symbol, the paper is substantively about ABCA4-related pathology and therapeutic approaches. Directly on-topic."
+    "id": "pmid:20847274",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Biochemistry paper on differential arginylation and coding-sequence-dependent degradation of beta-actin vs gamma-actin. No ophthalmological content, no connection to eye disease or Baraitser-Winter syndrome. Post-translational actin biochemistry without any relevant disease context for this ophthalmogenetics library."
   },
   {
-    "id": "pmid:15044640",
-    "verdict": "off_topic",
-    "confidence": "high",
-    "reason": "This paper is about ABCA3 gene mutations causing fatal surfactant deficiency in newborns - a pulmonary disease with no ophthalmic content. ABCA4 appears in a single sentence only as a structurally related protein to contextualize ABCA3. The paper's subject matter has no functional relevance to ABCA4."
+    "id": "pmid:32001148",
+    "verdict": "correctly_rejected",
+    "confidence": 0.72,
+    "reason": "Review of actin isoform regulation in cellular and developmental processes (abstract empty). Title indicates broad cell biology scope with no apparent ophthalmological focus. Consistent with the pattern of basic ACTB molecular biology papers that lack eye disease relevance to this gene's ophthalmogenetics collection."
   },
   {
-    "id": "pmid:40926010",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ABCA4 is explicitly cited as a gene whose variant pathogenicity was confirmed by functional assays in this IRD diagnostic yield study. The paper is directly relevant to ABCA4 genetics and inherited retinal dystrophies."
+    "id": "pmid:15336505",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Paper directly addresses a retinoid-processing protein complex in the apical retinal pigment epithelium. RLBP1 encodes CRALBP (cellular retinaldehyde-binding protein), which is the primary retinoid carrier in the apical RPE and a central component of any RPE retinoid-processing complex. This paper is unambiguously about the molecular machinery in which RLBP1 functions."
   },
   {
-    "id": "pmid:35119454",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "ABCA4 is a central subject of this large-scale Spanish IRD genetics study, with the entire ABCA4 locus sequenced and characterized. Highly relevant to ABCA4 and Stargardt disease."
+    "id": "pmid:28077619",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Comparison of beta-actin (ACTB) and gamma-actin (ACTG1) functions in primary mouse embryonic fibroblasts. No ophthalmological content, no eye disease context, no coverage of Baraitser-Winter syndrome or coloboma. Pure cell biology experiment without relevance to the ophthalmogenetics focus of the ACTB gene collection."
   },
   {
-    "id": "pmid:39730605",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The title describes a novel animal model for Stargardt's disease via interruption of the visual cycle. Stargardt disease is the canonical ABCA4 disease. Although the abstract is empty, the title is sufficient to confirm direct relevance to ABCA4-related retinal degeneration research."
+    "id": "pmid:42884024",
+    "verdict": "relevant",
+    "confidence": 0.72,
+    "reason": "Recent (2025) comprehensive review of cytoskeletal disorders affecting the nervous system, covering mutations in actin filament genes. ACTB mutations cause Baraitser-Winter syndrome, which has prominent neurological features (lissencephaly, intellectual disability) alongside ocular ones (coloboma, ptosis). This review would cover ACTB-related cytoskeletal disease in a disease context, providing useful background for the ACTB gene collection even if the ophthalmological aspects are not the primary focus."
   },
   {
-    "id": "doi:10.1177/41.10.8245404",
-    "verdict": "on_topic",
-    "confidence": "high",
-    "reason": "The abstract explicitly discusses 'DSPG (decorin and/or biglycan)' and keratan sulfate proteoglycans in fetal rabbit cornea. Decorin is the protein product of DCN. The paper directly examines DCN protein in an ocular tissue (corneal development), making it on-topic for an ophthalmogenetics library."
+    "id": "pmid:8723719",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Maps the RP10 locus for autosomal dominant retinitis pigmentosa on chromosome 7q to a 5-cM interval. RP10 is listed as a known alias/locus for IMPDH1 (present in the search keywords). This is foundational positional cloning literature that directly defines the genomic region later identified as IMPDH1; it is core disease genetics literature for IMPDH1-associated adRP."
   },
   {
-    "id": "doi:10.1016/s0945-053x(00)00116-5",
-    "verdict": "off_topic",
-    "confidence": "high",
-    "reason": "This paper is about keratocan and mimecan gene cloning and expression in quail cornea. DCN (decorin) is not mentioned anywhere in the title or abstract. While keratocan, mimecan, and decorin are all leucine-rich repeat proteoglycans, they are distinct genes and the paper's subject is not DCN."
+    "id": "pmid:42849713",
+    "verdict": "relevant",
+    "confidence": 0.78,
+    "reason": "CRISPR-Cas9 precision medicine for the anterior segment. MYOC (myocilin) is a major anterior segment glaucoma gene and one of the most prominent CRISPR gene therapy targets for primary open-angle glaucoma. A paper specifically about therapeutic applications of CRISPR-Cas9 in anterior segment disorders would very likely cover myocilin-related glaucoma. Empty abstract precludes confirmation, but the thematic alignment and search keywords (MYOC, myocilin, glaucoma) make relevance highly plausible."
   },
   {
-    "id": "pmid:35847484",
-    "verdict": "on_topic",
-    "confidence": "medium",
-    "reason": "DCN is explicitly listed and measured as one of the primary tenogenic differentiation markers (SCX, TNMD, DCN, TNC) in this study. Although the context is equine tendon biology rather than ophthalmology, DCN is directly quantified as an outcome variable. Caution principle applies: a real connection to the gene is present."
+    "id": "pmid:15670804",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Quantifies rod photoreceptor-mediated vision using dark-adapted thresholds as outcome measures in retinal degenerations. CRB1, GUCY2D, RPE65, and SPATA7 all cause Leber congenital amaurosis and related early-onset rod-cone dystrophies. A clinical methodology paper defining outcome measures for rod function in retinal degenerations is directly applicable to natural history studies and clinical trials for all four gene-associated diseases."
   }
 ]

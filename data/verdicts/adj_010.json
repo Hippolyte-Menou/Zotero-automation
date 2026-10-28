@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:41189636",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "TRβ2 (thyroid hormone receptor beta-2) is a primary transcriptional regulator of LWS cone opsin expression; the paper directly studies ligand-dependent control of lws1/lws2 (zebrafish OPN1LW orthologs) and cone subtype fate specification. The mechanistic link to OPN1LW is direct and well-established."
-  },
-  {
-    "id": "pmid:39914527",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper is about the Elongator complex regulating larval-pupal metamorphosis via ecdysteroid biosynthesis in Tribolium castaneum (red flour beetle). Although ELP4 is a subunit of the Elongator complex, the biological context is entirely insect developmental biology with no ophthalmic or human disease relevance."
-  },
-  {
-    "id": "pmid:39870092",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Color vision deficiency (CVD) as measured by the Ishihara test is the primary phenotype caused by OPN1LW mutations. A large-cohort prevalence study of Ishihara test failures directly characterises the epidemiology of OPN1LW-related disease and is within scope for the gene collection."
-  },
-  {
-    "id": "pmid:40060642",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies L-cone (long-wavelength-sensitive cone) function and spatial distribution using adaptive optics; L cones express OPN1LW. Findings on local L/M ratio effects on color detection and naming are directly relevant to OPN1LW biology and color vision physiology."
-  },
-  {
-    "id": "pmid:41842066",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Tutorial explicitly addresses genetically determined spectral shifts of L-cone photopigment (encoded by OPN1LW), individual differences in cone spectral sensitivities arising from OPN1LW variants, and their impact on color vision. Directly relevant to OPN1LW function and clinical consequences."
-  },
-  {
-    "id": "pmid:9428513",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Classic Drosophila paper on Dachshund and Eyes Absent forming a complex to drive ectopic eye development; Sine oculis (So), the Drosophila SIX6 homolog, operates in the same retinal determination network. The paper is foundational for understanding PAX6 and SIX6 network function in eye specification, both of which are listed gene targets."
-  },
-  {
-    "id": "pmid:39271417",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of small heat shock proteins (sHsps) covers structural principles and their role in eye lens transparency. CRYAB (alphaB-crystallin, HSPB5) is a prototypical sHsp and a major lens protein; the review directly discusses lens function and protein homeostasis relevant to both CRYAB and CRYBB3."
-  },
-  {
-    "id": "pmid:18776951",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Comparative genomics study identifying candidate genes for retinal degeneration loci using photoreceptor dystrophy mouse models (rd1, rd2). PDE6A encodes the rod PDE6 alpha subunit, and the closely related rd1 model involves rod PDE signalling. The paper is directly about retinal degeneration gene discovery and validates PDE6-pathway relevance."
-  },
-  {
-    "id": "pmid:39368693",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Paper measures absolute abundance of crystallins in human and transgenic mouse lenses; CRYBB3 is a lens beta-crystallin that would be among the proteins quantified. The alphaA N101D transgenic mouse is a cataract model, and crystallin stoichiometry data directly informs understanding of lens crystallin biology including CRYBB3."
-  },
-  {
-    "id": "pmid:17686842",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Paper characterises TBC1D20 as a Rab1 GAP that regulates vesicle trafficking; this biochemical function is directly responsible for the ER-to-Golgi trafficking defect that causes Warburg Micro syndrome (microphthalmia). Understanding TBC1D20 Rab-GAP activity is mechanistically essential for the gene's ophthalmic disease link."
-  },
-  {
-    "id": "pmid:30566373",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Comprehensive review of the Hippo pathway where YAP (YAP1) and TAZ are the central transcriptional effectors. YAP1 mutations cause coloboma. The paper covers YAP1 biology in depth including mechanotransduction and organ size control, providing essential mechanistic context for the gene."
-  },
-  {
-    "id": "pmid:16354681",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Targeted disruption of Yap65 (the gene now known as YAP1) in mice; reveals in vivo requirements for YAP1 in developmental processes. A primary functional characterisation of YAP1 through knockout; directly relevant to understanding how YAP1 mutations cause developmental eye defects."
-  },
-  {
-    "id": "pmid:277922",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Direct biochemical characterisation of high-molecular-weight disulfide-linked crystallin aggregates in cataractous human lenses. CRYGD (gamma-D crystallin) is known to aggregate and cause cataract. The study of crystallin crosslinking and aggregation is foundational to understanding CRYGD-related cataract mechanisms."
-  },
-  {
     "id": "pmid:23709342",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of crystallins in retinal ganglion cell survival and regeneration; CRYBB2 (betaB2-crystallin) has documented roles in RGC neuroprotection and axonal regeneration. Directly relevant to CRYBB2's ophthalmic biology beyond its lens function."
+    "confidence": 0.85,
+    "reason": "Title directly states 'Crystallins in Retinal Ganglion Cell Survival and Regeneration'. CRYBB2 encodes betaB2-crystallin; the paper addresses the biological role of crystallins (including betaB2) in retinal survival. Abstract is empty but title is unambiguous for the CRYBB2 context."
   },
   {
     "id": "pmid:25299378",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Experimental study showing betaB2-crystallin (CRYBB2) promotes optic nerve axon regeneration after crush injury in rats. Directly studies CRYBB2 protein function in an ophthalmic in vivo model; highly relevant to the gene's role in retinal ganglion cell and optic nerve biology."
+    "confidence": 0.97,
+    "reason": "Abstract explicitly and repeatedly studies betaB2-crystallin (the CRYBB2 protein product) in optic nerve regeneration in vitro and in vivo. Intravitreal injections of beta-crystallin, lens injury models, and betaB2-crystallin-overexpressing NPCs are all central to the study. Directly relevant to CRYBB2 function."
   },
   {
-    "id": "pmid:26145577",
+    "id": "pmid:1246803",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Biophysical study of lens beta-crystallin homodimer and heterodimer solution dynamics. CRYBA1 (betaA1/A3-crystallin) forms homodimers and heterodimers with other beta-crystallins; hydrogen-deuterium exchange data directly informs the structural biology of CRYBA1 and its stability in the lens."
+    "confidence": 0.95,
+    "reason": "Case report of gyrate atrophy of choroid and retina with hyperornithinemia. Gyrate atrophy with hyperornithinemia is the canonical disease caused by OAT (ornithine aminotransferase) deficiency. The paper provides detailed clinical and biochemical characterization of the OAT-associated phenotype including cataracts and peripheral lacunar atrophy."
   },
   {
-    "id": "pmid:34341513",
+    "id": "pmid:8088964",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Studies scotopic threshold response in complete and incomplete types of congenital stationary night blindness (CSNB). Complete CSNB is directly caused by NYX mutations; LRIT3 is also a CSNB gene. The paper dissects rod pathway function differences between complete and incomplete CSNB subtypes, directly contributing to understanding the NYX/LRIT3 disease phenotype."
+  },
+  {
+    "id": "pmid:11328749",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Studies multifocal ERG in complete-type CSNB (cCSNB), the disease caused by NYX mutations. The paper characterizes first- and second-order kernel abnormalities as a signature of cCSNB. This directly characterizes the electroretinographic phenotype of NYX disease."
+  },
+  {
+    "id": "pmid:458520",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "First Italian case of gyrate atrophy of the choroid with hyperornithinemia. This is the defining disease phenotype of OAT deficiency. Directly relevant to OAT as a clinical characterization of the condition."
+  },
+  {
+    "id": "pmid:32546498",
     "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper studies CRYbetaB2 (CRYBB2) exclusively in the context of triple-negative breast cancer tumorigenesis via nucleolin upregulation. The gene appears but the biological context is cancer biology with no ophthalmic relevance; the library is focused on ophthalmogenetics and this subject matter falls clearly outside scope."
+    "confidence": 0.85,
+    "reason": "Paper studies potassium channel bioelectricity in zebrafish dermomyotome determining fin patterning. KCNJ13 encodes Kir7.1, expressed in the retinal pigment epithelium and mutated in LCA16. This paper has no connection to the retina, RPE, or ocular disease; its subject is zebrafish morphological patterning. Even if KCNJ13 were among the tested channels, the finding contributes to understanding developmental bioelectricity in fins, not retinal disease pathophysiology."
   },
   {
-    "id": "pmid:8170936",
+    "id": "pmid:39542505",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Foundational cloning paper for CNG-3 (CNGA3), a cyclic nucleotide-gated channel alpha subunit causing achromatopsia. The paper characterises CNGA3 electrophysiology and tissue expression; this is primary molecular characterisation of the gene and is directly relevant to the CNGA3 gene collection."
+    "confidence": 0.90,
+    "reason": "Case report of delayed identification of Bardet-Biedl syndrome presenting with central obesity, polydactyly, retinitis pigmentosa, and atrial septal defect. BBS10 is a major Bardet-Biedl syndrome gene. This clinical report of BBS directly involves the disease caused by BBS10 mutations and highlights its ophthalmic component (retinitis pigmentosa)."
   },
   {
-    "id": "pmid:18727382",
+    "id": "pmid:16163270",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of Usher syndrome molecular genetics directly covering all five listed genes: ADGRV1 (USH2C), CDH23 (USH1D), MYO7A (USH1B), USH1C (harmonin), and USH2A. The paper is squarely about the genetics of the ophthalmic/audio-vestibular syndrome these genes cause."
+    "confidence": 0.85,
+    "reason": "Studies early markers of retinal degeneration in rd/rd mice, focusing on cGMP levels, cationic channel opening, and LDH metabolic activity in photoreceptors. PDE6A encodes the alpha subunit of rod cGMP phosphodiesterase; the rd mouse has abnormal PDE6/cGMP signaling causing rod degeneration. The paper characterizes the same cGMP-PDE pathway that PDE6A operates in, making it relevant to PDE6A retinal dystrophy biology."
   },
   {
-    "id": "pmid:22790432",
+    "id": "pmid:12832458",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Longitudinal OCT study of progressive cone photoreceptor degeneration in achromatopsia; achromatopsia is the primary phenotype of CNGA3, CNGB3, and PDE6H mutations, all listed as gene targets. The paper directly characterises the natural history of the disease these genes cause and supports gene therapy rationale."
+    "confidence": 0.85,
+    "reason": "Differential proteomic analysis of rd1 mouse retina identifies loss of rod-specific phototransduction cascade proteins upon degeneration. PDE6A is a rod phototransduction protein and would be among those lost. The paper also notes crystallin induction in response to degeneration. Directly relevant to PDE6A's role in the rod phototransduction proteome and retinal degeneration."
+  },
+  {
+    "id": "pmid:167289",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "Title indicates this is a paper about IMP dehydrogenase linked to proliferation and malignancy (cancer context, 1975). Abstract is empty but the framing is clearly about cell proliferation and tumor biology, with no indication of retinal or ocular content. For an ophthalmogenetics library, a paper about IMPDH1 in cancer without any retinal disease context is off-topic."
+  },
+  {
+    "id": "pmid:2902093",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "Reports cloning and sequencing of human and Chinese hamster IMPDH cDNA (1989). While this is foundational characterization of IMPDH1, the abstract contains no retinal, ocular, or ophthalmological content. For an ophthalmogenetics library the relevant connection is IMPDH1 mutations in RP10/LCA11; this molecular cloning paper predates that discovery and contributes to general biochemistry, not retinal disease understanding."
+  },
+  {
+    "id": "pmid:19959642",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Studies morphologic and functional changes in Ush2a mice and explores cell transplantation to arrest visual deterioration. USH2A encodes usherin; the Ush2a mouse is the direct animal model. Paper measures visual acuity/contrast sensitivity longitudinally, identifies cone opsin mislocalization, and shows transplanted progenitor cells prevent functional deterioration. Directly relevant to USH2A pathophysiology and therapeutic strategies."
+  },
+  {
+    "id": "pmid:36857066",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "CEP250 knockout mouse model develops retinal degeneration and sensorineural hearing loss resembling Usher syndrome. The gene_or_topic is USH2A, and this paper contributes to the broader Usher syndrome biology; CEP250 causes atypical USH, the paper benchmarks against other USH animal models and discusses USH pathophysiology. Relevant to USH2A collections as it expands understanding of USH retinal and hearing phenotypes."
+  },
+  {
+    "id": "pmid:26101081",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Review of oligodendrocyte biology: myelin sheath formation, spiral wrapping, compaction, and axonal metabolic support. MYRF (Myelin Regulatory Factor) is a transcription factor for oligodendrocyte differentiation, but this review does not mention MYRF, nor does it connect myelination to eye development, microphthalmia, or structural eye disease. For an ophthalmogenetics library focused on MYRF's role in eye development, a general CNS myelination review without ocular relevance is off-topic."
+  },
+  {
+    "id": "pmid:32269902",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Presents a case of gyrate atrophy-like chorioretinal phenotype with normal plasma ornithine (unusual for OAT deficiency) and low taurine. Directly discusses the differential diagnosis and pathophysiology of gyrate atrophy (the OAT disease phenotype) and proposes a research avenue regarding taurine. Relevant to OAT because it contributes to understanding the gyrate atrophy phenotype and its differential."
+  },
+  {
+    "id": "pmid:17646274",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Studies RPGR ORF15 deletions causing canine X-linked progressive retinal atrophy (XLPRA), a homolog of human RP3/retinitis pigmentosa. Haplotype analysis confirms shared descent of XLPRA1 mutations in Siberian husky and Samoyed and independent origin of XLPRA2. Directly relevant to RPGR mutation biology and the retinal dystrophy it causes across species."
+  },
+  {
+    "id": "pmid:37734846",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Retrospective multicenter study of 61 Weill-Marchesani syndrome patients including FBN1 variants. Monoallelic FBN1 variants cause dominant WMS. The paper provides natural history, genotype-phenotype correlations, and ophthalmological features (spherophakia, ectopia lentis) for FBN1-associated disease. Directly relevant to FBN1."
+  },
+  {
+    "id": "pmid:24251594",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "Investigates Ca2+-binding properties of vertebrate betagamma-crystallins including gammaB-crystallin. CRYGD encodes gamma-D crystallin and mutations cause congenital cataracts. The paper discusses the structural basis for cataract-causing mutations (e.g., R77S in gammaB-crystallin) and evolutionary fitness of lens crystallins. Relevant to CRYGD as it addresses the structural biology and cataract mechanism of gamma-crystallins."
+  },
+  {
+    "id": "pmid:40103944",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "Case report of angle closure glaucoma in a patient with X-linked retinoschisis (XLRS). RS1 mutations cause XLRS. The paper documents an important complication (angle closure glaucoma) occurring in the setting of RS1-associated retinoschisis. Abstract is empty but the title unambiguously establishes relevance to RS1 disease management."
   }
 ]

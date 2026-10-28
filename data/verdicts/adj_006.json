@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:19111294",
-    "verdict": "correctly_rejected",
+    "id": "pmid:19038374",
+    "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Abstract confirms this is a study of ROS-GC1 (GUCY2D) and GCAP1 (GUCA1A) in spermatozoa, investigating fertilization machinery. GUCA1A's relevance to this library is in retinal phototransduction and cone/rod dystrophy; the paper has no retinal or ophthalmic content. Sperm calcium signaling is outside the ophthalmogenetics scope."
+    "reason": "Title explicitly names PRPH2/RDS gene mutations and describes phenotypic variability in patients. Directly on-topic for PRPH2 (peripherin/RDS). Thin abstract does not reduce confidence given unambiguous title."
   },
   {
-    "id": "pmid:41846671",
+    "id": "pmid:30726412",
     "verdict": "relevant",
     "confidence": 0.98,
-    "reason": "Case report of isolated cone dystrophy with macular involvement mimicking vascular insult. Full abstract confirms direct relevance: multimodal imaging, ERG demonstrating selective cone dysfunction, differential diagnosis of cone dystrophy. Directly pertinent to AIPL1, GUCA1A, and OPN1MW, all of which are cone-associated disease genes."
+    "reason": "Abstract centers entirely on PRPH2 variants causing macular dystrophies. Peripherin-2 protein function and pathogenic variant spectrum are the subject of the paper. Squarely on-topic for PRPH2."
   },
   {
-    "id": "pmid:8461139",
+    "id": "pmid:22466463",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Abstract reports Y141C mutation in the peripherin/RDS gene (PRPH2) causing pattern dystrophy with high intrafamilial variability, plus anti-VEGF treatment of associated CNV. Directly about PRPH2 disease genetics and management."
+  },
+  {
+    "id": "pmid:8644804",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Abstract confirms this is a classic electrophysiology study of recoverin-like calcium-binding proteins in the retinal rod photoresponse, directly probing guanylate cyclase activation and the phototransduction cascade. Recoverin regulates GRK1 (rhodopsin kinase); the paper directly addresses the GRK1 and GUCY2D pathway in intact Gecko rods. Core retinal phototransduction science."
+    "reason": "Title unambiguously reports autosomal dominant central areolar choroidal dystrophy caused by a codon-142 mutation in the Peripherin/RDS gene (PRPH2). No abstract, but the title alone establishes direct relevance."
   },
   {
-    "id": "pmid:10647174",
-    "verdict": "correctly_rejected",
-    "confidence": 0.92,
-    "reason": "Abstract confirms this is a general biochemistry review asking why haem is covalently attached in c-type cytochromes, without specific reference to HCCS, microphthalmia with linear skin defects, or any eye disease. The paper discusses structural and chemical rationale for thioether bonds in general; it is basic structural biochemistry unrelated to ophthalmic pathology."
+    "id": "pmid:26061163",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Abstract fully characterises recessive bi-allelic PRPH2 mutations causing a distinct Leber congenital amaurosis phenotype in children and prominent maculopathy in adults, with asymptomatic heterozygous parents showing macular signs. Core PRPH2 genotype-phenotype literature."
   },
   {
-    "id": "pmid:10049688",
+    "id": "pmid:39944181",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract identifies a PRPH2 mutation in the diagnostic workup of presumed autoimmune retinopathy, extends the PRPH2 phenotypic spectrum, and reports intravitreal steroid response. On-topic for PRPH2."
+  },
+  {
+    "id": "pmid:34867178",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Review of autosomal optic atrophy genes linked to mitochondrial dysfunction. ACO2 (aconitase 2, mitochondrial) is a known causative gene for autosomal optic atrophy with retinal involvement. The review covers all currently identified causative genes in this category, making it directly relevant to ACO2."
+  },
+  {
+    "id": "pmid:25920555",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Abstract confirms this describes three photoreceptor-specific guanylate cyclases in medaka retina and pineal organ, with localisation to rods and cones. Directly relevant to GUCY2D (retinal guanylate cyclase 2D); establishes GC subtype expression patterns in photoreceptors. Core molecular biology for understanding GUCY2D function in inherited retinal dystrophies."
+    "reason": "Genotyping study of a Northern European Joubert syndrome cohort. CC2D2A (JBTS9) and RPGRIP1L (JBTS7/MKS5) are among the most frequently mutated Joubert syndrome genes; this cohort study would report mutations in both. Title and keywords align tightly."
   },
   {
-    "id": "pmid:22541657",
+    "id": "pmid:35218890",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Abstract confirms a prospective clinical study of vitrectomy outcomes in 22 patients with progressive X-linked retinoschisis (RS1 mutation disease). Demonstrates vitrectomy prevents vision deterioration. Directly relevant to RS1; this is exactly the clinical management literature an ophthalmogenetics library should hold."
+    "confidence": 0.90,
+    "reason": "Review of mechanotransduction in auditory and vestibular hair cells. CDH23 and PCDH15 encode the two subunits of the tip link that gates mechanotransduction channels — they are the central molecules of this process. CIB2 modulates TMC-channel-based mechanotransduction. A review of hair-cell mechanotransduction molecules would cover all three in depth."
   },
   {
-    "id": "pmid:34211088",
-    "verdict": "correctly_rejected",
-    "confidence": 0.97,
-    "reason": "Abstract confirms this is a cancer cell biology study of TRIM44 deubiquitinating p62 to regulate autophagy and DNA damage repair in therapy-resistant tumour cells. No ocular, retinal, or developmental eye disease content. TRIM44 is tracked in this library for aniridia/anterior-segment-dysgenesis; this paper has no connection to those phenotypes."
-  },
-  {
-    "id": "pmid:30792262",
-    "verdict": "correctly_rejected",
-    "confidence": 0.98,
-    "reason": "Full abstract confirms this is a study of TRIM44 as a cervical cancer biomarker for diagnosis and prognosis, with Kaplan-Meier survival analysis. Entirely oncology content with no ophthalmological relevance."
-  },
-  {
-    "id": "pmid:33649536",
-    "verdict": "correctly_rejected",
-    "confidence": 0.93,
-    "reason": "Title and context confirm this is a study of statins repressing Hedgehog signalling in medulloblastoma. SMO is in this library for structural developmental eye disease (coloboma, microphthalmia); a paper on statin therapy for brain cancer has no ophthalmogenetics relevance."
-  },
-  {
-    "id": "pmid:34034495",
-    "verdict": "correctly_rejected",
-    "confidence": 0.98,
-    "reason": "Full abstract confirms this is a study of TRIM44 facilitating ovarian cancer proliferation, migration, and invasion via FRK inhibition, with xenograft experiments. No connection to eye disease or the ophthalmogenetics scope of this library."
-  },
-  {
-    "id": "pmid:35609523",
-    "verdict": "correctly_rejected",
-    "confidence": 0.97,
-    "reason": "Full abstract confirms this is a rat TBI study showing TRIM44 silencing reduces neuroinflammation via TLR4-NF-kB suppression. No ocular or developmental eye disease content. Neurology/neurotrauma paper unrelated to aniridia or anterior-segment-dysgenesis."
-  },
-  {
-    "id": "pmid:36120578",
-    "verdict": "correctly_rejected",
-    "confidence": 0.97,
-    "reason": "Full abstract confirms this is a bone biology study of Hedgehog signalling in epiphyseal growth plate chondrocytes, involving SMO and SUFU conditional knockouts in skeletal tissue. No ocular content. SMO is in this library for developmental eye disease; limb elongation and cartilage growth have no relevance to that scope."
-  },
-  {
-    "id": "pmid:2873060",
+    "id": "pmid:32307080",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Abstract confirms this is a foundational biochemistry study measuring guanylate cyclase activity in toad retinal rod outer segments, demonstrating Ca2+-dependent regulation of cGMP synthesis in phototransduction. Directly relevant to GUCY2D (retinal guanylate cyclase). Seminal retinal biochemistry paper establishing the calcium-GC regulatory axis central to GUCY2D-associated dystrophies."
+    "reason": "Investigates ATP effects on gamma-S-crystallin (the CRYGS protein) stability in the human eye lens under crowding conditions. Directly studies the biophysics of the CRYGS-encoded protein. Relevant to cataract mechanism."
   },
   {
-    "id": "pmid:20238021",
+    "id": "pmid:31084934",
     "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Abstract confirms this is a review of photoreceptor sensory cilia and inherited retinal degeneration, explicitly covering Bardet-Biedl syndrome and identifying novel PSC proteins from the cilia proteome. Directly relevant to BBS12 (Bardet-Biedl syndrome 12) and RPGR (retinitis pigmentosa GTPase regulator), both cilia-associated retinal degeneration genes."
+    "confidence": 0.95,
+    "reason": "Studies the G57W variant of human gamma-S-crystallin (CRYGS) using hydrogen-deuterium exchange, characterising pro-cataractogenic conformational excursions. CRYGS G57W is a known pathogenic mutation. Directly relevant to CRYGS."
   },
   {
-    "id": "pmid:14578418",
+    "id": "pmid:37905108",
     "verdict": "relevant",
     "confidence": 0.97,
-    "reason": "Full abstract confirms a multifocal ERG study of seven XLRS patients documenting cone-system dysfunction across the retina. Directly characterises the electrophysiological phenotype of RS1-associated disease. Essential clinical functional data for an RS1 gene entry in an ophthalmogenetics library."
+    "reason": "Abstract directly studies PCDH15 (protocadherin 15) dimer nanomechanics under physiological Ca2+ and characterises the V507D point mutation associated with non-syndromic hearing loss. Squarely on-topic for PCDH15."
   },
   {
-    "id": "pmid:16855496",
-    "verdict": "correctly_rejected",
+    "id": "pmid:42883758",
+    "verdict": "relevant",
     "confidence": 0.82,
-    "reason": "Abstract describes a review of 39 basal cell nevus syndrome (Gorlin syndrome) patients with ophthalmic features including periocular BCC and eyelid cysts. BCNS is caused by PTCH1 mutations (not SMO); SMO is an effector downstream of PTCH1. The library tracks SMO for developmental structural eye disease (coloboma, microphthalmia), not for Hedgehog-pathway oncology syndromes. Incidental ophthalmic features do not make this relevant to SMO's role in eye development."
+    "reason": "Biophysical mutagenesis study of the whirlin (WHRN) PDZ tandem, mapping residue-level energetics of transient misfolding. Whirlin is the scaffold protein encoded by WHRN, mutations in which cause Usher syndrome 2D (retinal dystrophy plus deafness). A structural study of the disease protein is within scope for a gene-focused ophthalmogenetics library."
   },
   {
-    "id": "pmid:15617676",
+    "id": "pmid:21520335",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Identifies a BBS1 splice-donor mutation causing an exceptionally mild Bardet-Biedl phenotype and demonstrates U1 snRNA gene therapy restoring correct BBS1 splicing in patient fibroblasts. Directly about BBS1 genetics and therapeutic correction."
+  },
+  {
+    "id": "pmid:20012162",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Title reports novel photoreceptor guanylate cyclase functions revealed by targeted deletion; GUCY2D encodes retinal guanylate cyclase 1 (RetGC-1/RETGC-1), GUCA1A encodes its activator GCAP1. Both genes are directly studied. Missing abstract does not reduce confidence given the unambiguous title."
+  },
+  {
+    "id": "pmid:40689462",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Abstract confirms that Xhip (Hedgehog-interacting protein, a Smoothened pathway antagonist) controls lens placode and olfactory placode formation in Xenopus. Loss-of-function suppresses lens placode; overexpression causes a dramatic increase in retinal structures. Directly addresses eye developmental biology via the SMO/Hedgehog pathway and is also relevant to RAX (retinal homeobox gene). On-topic for structural eye disease entries."
+    "reason": "Review of membrane-bound guanylyl cyclases localised to the ciliary compartment. GUCY2D (RetGC-1) is the canonical cilium-restricted retinal membrane GC; RD3 is a regulator of RetGC trafficking/activity. The abstract specifically covers cilium-restricted receptor-type GCs, placing GUCY2D and RD3 at the centre of the review."
   },
   {
-    "id": "pmid:35454139",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Full abstract confirms this is a mechanistic biochemistry study converting a bacterial cytochrome into a substrate for eukaryotic CcHL/HCCS, investigating substrate recognition and catalytic constraints. Pure enzymology with no eye disease, microphthalmia, or MLS syndrome content. The SMO co-tagging appears spurious. Not useful for an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:11566855",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "Abstract confirms zebrafish SMO (smu) study focused on motoneuron and pituitary specification, floor plate induction, and hypothalamic cell maintenance. No coloboma, microphthalmia, or structural eye disease content. MeSH includes 'Retina' as a tissue but the paper's scientific focus is on ventral neural tube and CNS patterning, not ocular development."
-  },
-  {
-    "id": "pmid:10960781",
+    "id": "pmid:23687432",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Abstract confirms this is a study of zebrafish Gli/Shh pathway mutants in which inhibition of Hedgehog-Gli signalling causes the adenohypophysis anlage to transdifferentiate into lens (crystallin-expressing). Directly about lens development and the SMO-transduced Hedgehog pathway. Relevant to SMO's role in structural eye disease and lens/ocular developmental biology."
+    "confidence": 0.97,
+    "reason": "Microarray expression profiling of the rd3 mouse retina specifically to characterise the RD3 gene-deficiency phenotype (LCA12 model). Identifies phototransduction and immune-response pathway changes. Directly studies RD3 function and pathomechanism."
+  },
+  {
+    "id": "pmid:9367224",
+    "verdict": "correctly_rejected",
+    "confidence": 0.78,
+    "reason": "Hearing loss paper proposing the RBF/DnJ mouse as an animal model of Usher syndrome type IIa. Usher IIa is caused by USH2A mutations, not RD3. The paper was likely co-cited with RD3 literature due to the shared hearing-plus-retinal phenotype angle, but the primary scientific focus is on hearing loss and Usher IIa pathology, not on RD3 gene function or retinal disease. Without an abstract the connection to RD3 cannot be confirmed, and the title alone suggests USH2A biology rather than RD3."
+  },
+  {
+    "id": "pmid:12374753",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Biochemical characterisation of hierarchical protein interactions with U4/U6 snRNA and a defined biochemical role for U4/U6 proteins. PRPF3 (hPrp3/RP18) is a U4/U6 snRNP protein; SNRNP200 (Brr2) is a U4/U5/U6 tri-snRNP helicase; RNU4ATAC encodes U4atac snRNA of the minor spliceosome. This paper addresses the molecular interactions at the heart of all three gene products."
+  },
+  {
+    "id": "pmid:25957814",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Review of mRNA metabolism defects in neuronal disease, covering retinitis pigmentosa as a major example alongside SMA and XLMR. PRPF3 (RP18) mutations cause RP through mRNA splicing defects. The paper explicitly discusses how pre-mRNA processing mutations cause tissue-specific retinal degeneration, placing PRPF3-related RP at its centre."
   }
 ]

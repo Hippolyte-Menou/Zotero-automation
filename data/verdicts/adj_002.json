@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:28601220",
+    "id": "pmid:17177891",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "ELP4 is subunit 4 of the Elongator complex by definition. A paper on Elongator complex structures and activities directly characterises the biological entity of which ELP4 is an essential part. The association is intrinsic, not incidental."
+    "reason": "GNAT1 encodes the rod transducin alpha subunit (G-t-alpha). The paper directly studies the G(t)alpha(340-350) peptide and its interaction with photoactivated rhodopsin, which is the core GNAT1 biochemistry. The transducin alpha-subunit C-terminus is the subject of this NMR structural study."
   },
   {
-    "id": "pmid:15583843",
+    "id": "pmid:10736737",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The abstract explicitly reports that 4 of 5 CSNB1 patients carry NYX gene mutations. The paper studies multifocal oscillatory potentials to characterise the retinal electrophysiological phenotype of NYX-mutant patients and compares it with CSNB2. Directly relevant to NYX."
+    "reason": "GUCY2D encodes retinal membrane guanylate cyclase (retGC-1 / ROS-GC1). The paper is about calcium-dependent activation of membrane guanylate cyclase by S100 proteins, which directly addresses the regulation of the GUCY2D protein family. Despite the empty abstract, the title places it squarely in GUCY2D biology."
   },
   {
-    "id": "pmid:35128251",
+    "id": "pmid:42900584",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The abstract directly characterises the human ELP4/5/6 subcomplex of the Elongator complex multiple times, describing its assembly, recruitment by hELP3, and morphology. This is primary biochemical work on the ELP4 protein product."
+    "reason": "The abstract explicitly identifies PIKfyve as the lysosomal lipid kinase whose inhibition triggers the studied pathway. The paper is a direct mechanistic study of PIKfyve function and its downstream effects via ClC-7 and LRRK2, making it clearly on-topic for the PIKFYVE gene."
   },
   {
-    "id": "pmid:38895206",
-    "verdict": "correctly_rejected",
-    "confidence": "moderate",
-    "reason": "Although Kir7.1 is the KCNJ13 protein product, this paper studies it exclusively in hypothalamic MC4R-expressing neurons in the context of antipsychotic drug-induced hyperphagia and weight gain. KCNJ13 is tracked for its role in LCA16 and retinal dystrophy. The paper has no retinal or ophthalmic content; the channel biology studied is in a completely different tissue and disease context."
-  },
-  {
-    "id": "pmid:31837604",
+    "id": "pmid:7151791",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The abstract explicitly tests AAV-miR-204 in a Leber congenital amaurosis mouse model caused by Aipl1 gene mutations, demonstrating neuroprotective effects. AIPL1 is directly mentioned as the gene underlying one of the tested disease models. Clearly relevant."
+    "reason": "This is a primary characterisation of bovine beta-crystallin gene products, identifying acidic and basic polypeptide chains and their reassociation behaviour. CRYBA1 (beta-A1) and CRYBB1 (beta-B1) are beta-crystallin subunits of exactly this class. The study directly describes the proteins encoded by these genes."
   },
   {
-    "id": "pmid:7873577",
+    "id": "pmid:40065510",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "TYR encodes tyrosinase. A comprehensive review of tyrosinase mechanism is squarely about the TYR gene product and is foundational for understanding OCA1 pathomechanisms. The abstract is absent but the title is unambiguous."
+    "reason": "Clinical study of early-onset Marfan syndrome caused by FBN1 variants in exon 24-32, covering genotype-phenotype correlations and survival. FBN1 is the causative gene and is named throughout the abstract. Directly relevant."
   },
   {
-    "id": "pmid:1849012",
-    "verdict": "relevant",
-    "confidence": "moderate",
-    "reason": "Tyrosinase (TYR) is named in the title as the reference enzyme in melanin oxidative polymerisation; the paper directly examines the same biochemical reaction that TYR catalyses. Even though the focus is on peroxidase as an alternative, the melanin synthesis pathway involving tyrosinase is directly relevant to understanding TYR function in OCA1."
-  },
-  {
-    "id": "pmid:15542839",
-    "verdict": "relevant",
-    "confidence": "moderate",
-    "reason": "NAA10 is the human orthologue of yeast ARD1p, which together with Nat1p forms the catalytic core of the NatA N-terminal acetyltransferase complex. The paper directly characterises ARD1p/NatA function, N-terminal acetylation activity, and genetic interactions in yeast. This is primary functional work on the yeast homologue of NAA10 and is relevant to understanding NAA10 biology."
-  },
-  {
-    "id": "pmid:3137937",
+    "id": "pmid:39511342",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The title explicitly studies expression of the tyrosinase gene (TYR) in amelanotic mutant mice, which are models of albinism caused by TYR deficiency. Directly relevant to TYR."
+    "reason": "Brazilian cohort study using targeted NGS and FBN1 direct sequencing for aortopathies, identifying novel FBN1 variants contributing to Marfan-like phenotypes. FBN1 is a primary subject of the study."
   },
   {
-    "id": "pmid:22174013",
-    "verdict": "correctly_rejected",
-    "confidence": "moderate",
-    "reason": "NR2E3 is the subject of the paper, but the entire study is framed in breast cancer, examining NR2E3 regulation of ESR1 in ER-positive breast cancer cells with clinical association to tamoxifen response. NR2E3 is tracked for enhanced S-cone syndrome and retinitis pigmentosa. The paper has no retinal or ophthalmic content whatsoever. Non-ocular characterisation of a gene tracked for retinal disease does not warrant inclusion in an ophthalmogenetics library at this library size."
-  },
-  {
-    "id": "pmid:30358468",
+    "id": "pmid:40959563",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The abstract directly reports CDH23 and USH2A mutation spectra in a Russian Usher syndrome cohort, with 11 mutations in MYO7A, CDH23, PCDH15, USH1C for USH1 cases and 11 mutations in USH2A for USH2 cases. Both CDH23 and USH2A are central subjects of the genetic analysis. Clearly relevant."
+    "reason": "Machine-learning model for cardiac phenotype prediction in ectopia lentis patients, using genotype (FBN1 mutation type) and ocular phenotype. FBN1 mutations are the primary genetic variable analysed; Marfan syndrome diagnosis is an explicit endpoint. Directly relevant to FBN1."
   },
   {
-    "id": "pmid:30366342",
+    "id": "pmid:41916683",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The abstract describes generation of an iPSC line from a Leber congenital amaurosis patient carrying a homozygous AIPL1 mutation (c.265 T>C, p.Cys89Arg). AIPL1 is directly named as the causative gene and the line is a disease model for AIPL1-associated LCA. Clearly relevant."
+    "reason": "Retrospective study identifying diagnostic red flags for Marfan syndrome in children, comparing FBN1-positive versus FBN1-negative cases. FBN1 is the defining molecular criterion throughout. Directly relevant."
   },
   {
-    "id": "pmid:30293640",
-    "verdict": "relevant",
-    "confidence": "moderate",
-    "reason": "BBS10 causes Bardet-Biedl syndrome, a systemic ciliopathy. Situs inversus and heterotaxy are established manifestations of ciliopathies including BBS. A paper reporting thoraco-abdominal abnormalities in BBS characterises the clinical phenotype of the disease caused by BBS10 mutations. While not about the retinal manifestation specifically, it is relevant to the broader syndrome biology of BBS10."
-  },
-  {
-    "id": "pmid:17161380",
+    "id": "pmid:26919284",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "ARD1235 and ARD1225 are the two isoforms of mammalian ARD1/NAA10. The paper directly studies differential splicing, subcellular localisation, and stability of these NAA10 protein isoforms. This is primary characterisation of NAA10 gene products."
+    "reason": "Review of 25 years of gene discovery in Marfan syndrome and related disorders, with FBN1 as the central gene and the TGF-beta pathway as the mechanistic frame. A core FBN1 reference."
   },
   {
-    "id": "pmid:1749427",
+    "id": "pmid:15235604",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Seminal Nature Genetics paper identifying heterozygous TGFBR2 mutations in a subset of Marfan syndrome patients. Although the finding is TGFBR2, the clinical context is MFS and the paper is part of the foundational FBN1/MFS differential genetics literature. A real connection to FBN1 research is plausible; caution applied."
+  },
+  {
+    "id": "pmid:25405392",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The title directly names peripherin-RDS (PRPH2) and describes a three-base-pair deletion mutation causing retinitis pigmentosa. This is a foundational PRPH2 mutation paper. The item is also tagged to ROM1 and other RP genes, and the peripherin-RDS/ROM1 complex interaction is a well-established subject. Clearly relevant."
+    "reason": "Landmark NEJM randomised trial of atenolol versus losartan in children and young adults with Marfan syndrome, the definitive study for cardiovascular management of this FBN1-caused condition. Directly relevant to FBN1 clinical care."
   },
   {
-    "id": "pmid:10814758",
+    "id": "pmid:10774478",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "The paper measures spectral sensitivities of M-cones (OPN1MW) and L-cones (OPN1LW) in human observers of known genotype, directly linking OPN1LW/OPN1MW genotypic variation to photoreceptor function. This is core functional characterisation of these two genes. The score of 2 vs threshold 3 is a very close miss for foundational work."
+    "reason": "Comprehensive review of Marfan syndrome explicitly describing FBN1 as the causative gene, covering skeletal, ocular, and cardiovascular manifestations and management. A foundational FBN1 reference."
   },
   {
-    "id": "pmid:6891215",
+    "id": "pmid:8541880",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "RBP3 encodes IRBP (interphotoreceptor retinoid-binding protein), a major retinol-binding protein of the interphotoreceptor matrix. A paper about retinol-binding proteins in the bovine interphotoreceptor matrix is directly about RBP3's protein product in its physiological location. Also relevant to IMPG1 as an IPM protein. Clearly relevant."
+    "reason": "Review of FBN1 mutations in Marfan syndrome and related disorders, covering fibrillin-1 structure, genotype-phenotype correlations, and molecular pathogenesis. FBN1 is the explicit subject."
   },
   {
-    "id": "pmid:35112019",
+    "id": "pmid:8136837",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "OAT mutations cause gyrate atrophy of the retina and choroid. This case report describes a teenage patient with gyrate atrophy (elevated plasma and urine ornithine, typical chorioretinal lesions), the exact disease caused by OAT deficiency. The abstract provides detailed ophthalmic characterisation including ERG and OCT findings directly relevant to OAT."
+    "reason": "Reports fibrillin gene mutations causing dominant ectopia lentis and neonatal Marfan syndrome. Ectopia lentis is a key ophthalmic manifestation of FBN1 mutations; the paper is directly on-topic despite an empty abstract."
   },
   {
-    "id": "pmid:21991550",
+    "id": "pmid:1631074",
     "verdict": "relevant",
-    "confidence": "moderate",
-    "reason": "The paper tracks reflectance of both rod and cone photoreceptors (1,690 rods and 1,980 cones) using adaptive optics in the living human retina. It is tagged under Emerging technologies (adaptive optics retinal imaging methodology) and OPN1LW/OPN1MW (foveal/parafoveal cones studied). The paper falls just below threshold (score 2 vs 3) for methodology work that is directly relevant to retinal photoreceptor imaging and is appropriate for the emerging technologies topic."
+    "confidence": "high",
+    "reason": "Identifies two FBN1 mutations producing truncated fibrillin polypeptides in Marfan syndrome patients, using SSCP screening. A primary molecular genetics study of FBN1."
   },
   {
-    "id": "pmid:18228265",
-    "verdict": "correctly_rejected",
-    "confidence": "moderate",
-    "reason": "ADAMTSL4 is tracked for ectopia lentis due to its role in fibrillin-1 microfibril assembly, but this review of elastic fiber assembly covers elastin, fibrillin, MAGPs, fibulins, EMILIN-1, and lysyl oxidase without mentioning ADAMTSL4 or any ADAMTS-like protein. The connection to ADAMTSL4 is too indirect; papers about fibrillin microfibrils are more directly relevant to FBN1/FBN2 than to ADAMTSL4."
+    "id": "pmid:18310266",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "International study of 1009 FBN1 mutation carriers, evaluating the added diagnostic value of molecular analysis over clinical criteria alone, and aortic risk stratification. FBN1 is the defining molecular marker throughout."
+  },
+  {
+    "id": "pmid:8533811",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Studies fibrillin-1 protein abnormalities (synthesis, secretion, matrix deposition) in MFS patients, correlating fibrillin metabolic groups with phenotypic severity and cardiovascular prognosis. Directly about FBN1 protein biology."
+  },
+  {
+    "id": "pmid:14695540",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Reports 30 novel FBN1 mutations in MFS and related fibrillinopathies with genotype-phenotype analysis including ectopia lentis risk. FBN1 is the explicit subject of the mutation screen."
+  },
+  {
+    "id": "pmid:11826022",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Evaluates CSGE sensitivity for FBN1 mutation detection in MFS and related phenotypes including ectopia lentis and familial aortic aneurysm. FBN1 mutation analysis is the central subject."
+  },
+  {
+    "id": "pmid:12203992",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "TGGE screening of the entire FBN1 coding sequence in 126 individuals with MFS and type-1 fibrillinopathies, identifying 53 mutations including 33 novel ones. FBN1 is the explicit and sole gene screened."
   }
 ]

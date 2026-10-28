@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:32195292",
+    "id": "pmid:15858157",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Title explicitly addresses photopigment genes (OPN1LW/OPN1MW protein products) and how splicing-code disruptions cause vision disorders including color blindness and cone dystrophy. Directly on-topic for OPN1LW and OPN1MW; the empty abstract does not reduce confidence given the title clarity."
+    "reason": "Directly identifies TYR gene mutations (G301R, G227W) responsible for siamese and burmese phenotypes of the albino locus in domestic cats, and characterises TYRP1 variants for the brown locus. Core molecular genetics of TYR gene function."
   },
   {
-    "id": "pmid:27245533",
+    "id": "pmid:11274139",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract explicitly names OPN1LW and OPN1MW cone opsin genes and covers genotype-phenotype correlations across the full spectrum of X-linked cone opsin disorders from mild color-vision deficiency to severe cone dystrophy. Directly on-topic for OPN1LW."
+    "reason": "Demonstrates that alphaB-crystallin (CRYAB/HSPB5) inhibits autoproteolytic maturation of caspase-3 in both mitochondrial and death-receptor apoptotic pathways and co-immunoprecipitates with the p24 caspase-3 intermediate in vivo. Direct mechanistic study of CRYAB protein function explaining its anti-apoptotic role."
   },
   {
-    "id": "pmid:27787612",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "According to PubMed, this paper studies OLFM1 (olfactomedin 1), a distinct glycoprotein from IMPG1. Although OLFM1 localizes to the IPM (same compartment as IMPG1), the paper does not study IMPG1/SPACR/IPM150 and the two proteins are unrelated at the gene level. Correct rejection for an IMPG1-focused library entry."
-  },
-  {
-    "id": "pmid:917049",
+    "id": "pmid:8039502",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "This 1977 NEJM letter is a landmark paper establishing deficient ornithine ketoacid aminotransferase (OAT) activity as the biochemical basis of gyrate atrophy of the choroid and retina. It is directly foundational for the OAT gene entry in an ophthalmogenetics library."
+    "reason": "Characterises a far-upstream cell-specific enhancer of the mouse TYR gene conferring high-level, copy-number-related expression in transgenic mice. Direct study of TYR transcriptional regulation."
   },
   {
-    "id": "pmid:8242064",
+    "id": "pmid:12100494",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract directly studies red (OPN1LW) and green (OPN1MW) opsin gene polymorphisms and haplotype diversity, including sequence exchange via gene conversion in exon 3. This is core molecular genetics of OPN1LW and is relevant to the OPN1LW library entry."
+    "reason": "Investigates TYR mutations in transgenic albino mice that develop amelanotic melanoma and unexpectedly acquire pigmentation; demonstrates tyrosinase activity and protein despite the original nucleotide 291 mutation. Direct TYR gene and protein study in a disease context."
   },
   {
-    "id": "pmid:2307198",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "According to PubMed, the paper characterizes and partially purifies a photoreceptor survival-promoting activity (PSPA) from crude IPM extracts of chick retina. The factor is not identified as IMPG1 and predates its molecular characterization. The paper is general IPM biology and does not study IMPG1/SPACR specifically."
-  },
-  {
-    "id": "pmid:27271801",
+    "id": "pmid:1292013",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract explicitly determines the crystal structure of MAB21L1 and provides a structure-based explanation for the effects of MAB21L2 mutations in patients with eye malformations. IMPG1 is not the gene of interest here -- MAB21L2 is directly studied in the context of ocular structural disease, exactly the ophthalmogenetics focus."
+    "reason": "Reports microinjection of mouse tyrosinase minigene (mg-Tyrs-J) into BALB/c albino mice yielding heritable patterned and uniform coat-colour phenotypes. Direct study of TYR gene expression and pigmentation regulation in vivo."
   },
   {
-    "id": "pmid:1879502",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "According to PubMed, the paper studies light-evoked distributional changes of the IPM (colloidal iron staining) in normal and RCS rats. RCS retinal dystrophy is caused by a Mertk mutation, not IMPG1. The paper examines general IPM physiology and does not identify or study IMPG1/SPACR/IPM150 as a molecular entity."
-  },
-  {
-    "id": "pmid:39390264",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "This paper identifies MAB21L2 as a biomarker for liver metastasis in colon adenocarcinoma using machine learning on TCGA data. The ophthalmogenetics library covers MAB21L2 in relation to microphthalmia and coloboma; colon cancer biomarker discovery is entirely off-topic for this collection."
-  },
-  {
-    "id": "pmid:2697513",
+    "id": "pmid:8562078",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract directly studies IRBP (interphotoreceptor retinoid-binding protein, encoded by RBP3) distribution around rod and cone photoreceptors in the IPM. RBP3 is one of the two genes_or_topics listed. The paper is specifically about RBP3 protein localization."
+    "reason": "Maps P-region (S5-S6 loop) accessibility and gating function of the bovine retinal CNG channel using cysteine-substituted residues - this is the CNGA1/RCNC1 channel whose mutations cause retinitis pigmentosa (RP49). Direct structural-functional study of the CNGA1 protein in retinal tissue."
   },
   {
-    "id": "pmid:10220452",
+    "id": "pmid:42752380",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract studies the mechanism of mutually exclusive expression of human red (OPN1LW) and green (OPN1MW) visual pigment genes in cone photoreceptors using transgenic mice, addressing locus control region and stochastic pairing. Directly on-topic for OPN1LW."
+    "reason": "Case report of red-tinted contact lens use in a child with achromatopsia, a disease primarily caused by CNGA3 mutations. Describes clinical outcomes including visual acuity, contrast sensitivity, and quality of life. Directly addresses clinical management of CNGA3-related retinal disease."
   },
   {
-    "id": "pmid:438294",
+    "id": "pmid:7487869",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Characterises the substrate specificity of alpha-crystallin as a molecular chaperone in the ocular lens context, showing it recognises non-native intermediates on the denaturation pathway. Direct study of CRYAB protein chaperone function that underlies why mutations lead to cataract and other lens pathologies."
+  },
+  {
+    "id": "pmid:10099937",
     "verdict": "relevant",
     "confidence": "medium",
-    "reason": "Abstract directly measures OAT (ornithine aminotransferase) function: the enzyme catalyzes ornithine to pyrroline-5-carboxylate, and the paper establishes that OAT is the primary route for proline biosynthesis in mammalian cells. This is foundational biochemistry for OAT, the enzyme deficient in gyrate atrophy. While it does not study the ocular phenotype, understanding OAT's metabolic role is directly relevant to interpreting gyrate atrophy pathophysiology in an ophthalmogenetics library."
+    "reason": "Abstract is empty, but the title describes ectopic expression of alphaB-crystallin (CRYAB/HSPB5) in CHO cells suggesting a nuclear function for this protein. Direct study of CRYAB localisation and function; medium confidence due to missing abstract."
   },
   {
-    "id": "pmid:40116022",
+    "id": "pmid:28370",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Abstract is empty, but the title describes biochemical characterisation of human hairbulb tyrosinase comparing normal and albino enzyme properties. Direct study of TYR enzyme; medium confidence due to missing abstract."
+  },
+  {
+    "id": "pmid:12031619",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Abstract is empty, but the title covers glucocorticoid induction of small heat shock proteins in satellite cells in the context of desmin-related myopathy involving the R120G alphaB-crystallin (CRYAB) mutation - a known pathogenic CRYAB variant. Directly studies CRYAB mutation consequences; medium confidence due to missing abstract."
+  },
+  {
+    "id": "pmid:31743059",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract explicitly identifies TULP1 (Tulp1) as a direct target of m6A reader YTHDF1 in the retina, with loss of Ythdf1 causing rod photoreceptor degeneration. TULP1 is directly studied in the context of inherited retinal degeneration, exactly the focus for this gene entry."
+    "reason": "Describes a three-generation family with cone-rod dystrophy carrying a heterozygous CRX deletion [c.(100+1_101-1)_(c.900+1_?)del] that segregates with disease; characterises the arcuate temporal macular lesion phenotype. Direct CRX mutation/phenotype study."
   },
   {
-    "id": "pmid:14722609",
-    "verdict": "correctly_rejected",
+    "id": "pmid:31322236",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Identifies two novel homozygous CRB1 missense mutations (c.1997T>A and c.2426A>C) in two Chinese consanguineous families with autosomal recessive retinitis pigmentosa and validates segregation in family members and 1260 controls. Direct CRB1 mutation spectrum study."
+  },
+  {
+    "id": "pmid:37462250",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Cell Science at a Glance review of N-terminal acetyltransferases covering NAA10 and NAA15 (NatA complex subunits), their substrate coverage, cellular roles and disease connections. Directly relevant to both NAA10 and NAA15 genes in the library."
+  },
+  {
+    "id": "pmid:29109912",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "GWAS of iris and skin pigmentation in East Asians finds genome-wide significant association at the OCA2 region driven by the non-synonymous rs1800414 variant explaining up to 11.9% of iris colour variance. Direct OCA2 genetics study of a trait it mediates."
+  },
+  {
+    "id": "pmid:29195075",
+    "verdict": "relevant",
     "confidence": "medium",
-    "reason": "According to PubMed, this is a commentary reviewing how Bateman domains regulate IMPDH, CBS, chloride channels, and AMP kinase across multiple proteins. While IMPDH is mentioned, the paper does not address IMPDH1-specific retinal degeneration (RP/LCA phenotype) and frames IMPDH primarily in the context of metabolic therapeutics. Off-topic for an ophthalmogenetics library entry on IMPDH1."
+    "reason": "Abstract is empty, but the title describes complex genetic architecture of skin pigmentation in Africans - a study expected to involve OCA2 and SLC24A5 loci. Relevant given both genes are pigmentation loci; medium confidence due to missing abstract."
   },
   {
-    "id": "pmid:17851563",
-    "verdict": "correctly_rejected",
+    "id": "pmid:27499155",
+    "verdict": "relevant",
     "confidence": "high",
-    "reason": "Paper studies IMPDH1 gene polymorphisms and their association with acute rejection in renal transplant patients receiving mycophenolate mofetil. The ophthalmogenetics library covers IMPDH1 for retinitis pigmentosa and Leber congenital amaurosis; transplant immunosuppression pharmacogenomics is unrelated to the retinal disease context."
+    "reason": "Demonstrates that SNPs in the OCA2/HERC2 region (rs12913832, rs1129038, rs916977) that determine eye colour are significantly associated with uveal melanoma risk (OR ~0.5, p < 1e-7). Directly implicates OCA2 as a uveal melanoma susceptibility locus with ophthalmic relevance."
   },
   {
-    "id": "pmid:21426047",
-    "verdict": "correctly_rejected",
+    "id": "pmid:19736324",
+    "verdict": "relevant",
     "confidence": "high",
-    "reason": "Paper reviews IMPDH as a drug target for antiviral, anticancer, antimicrobial, and immunosuppressive therapeutics. No discussion of the retinal degeneration (RP10/LCA11) phenotype caused by IMPDH1 mutations. Off-topic for an ophthalmogenetics library."
+    "reason": "Describes a directional Wnt/beta-catenin-Sox2-proneural pathway that coordinates the transition from proliferation to differentiation in the Xenopus retina, with Sox2 having dual roles in promoting competence and inhibiting differentiation via Notch. Direct study of SOX2 in retinal development."
   },
   {
-    "id": "pmid:1782651",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "According to PubMed, the paper characterizes proteoglycans (chondroitin sulfate/dermatan sulfate and heparan sulfate) synthesized by murine retinal neuron cultures in the context of retinal degenerations. The study does not identify or analyze IMPG1/SPACR specifically; it is general proteoglycan biochemistry that predates IMPG1 molecular characterization."
-  },
-  {
-    "id": "pmid:38779803",
-    "verdict": "correctly_rejected",
+    "id": "pmid:9858536",
+    "verdict": "relevant",
     "confidence": "high",
-    "reason": "Paper studies how pathologic TDP-43 fragments downregulate myelin gene expression through interaction with myelin regulatory factor (MYRF) in oligodendrocytes of monkey brain in an ALS/neurodegeneration context. The ophthalmogenetics library covers MYRF for microphthalmia and structural eye disease; ALS-related neurodegeneration brain studies are off-topic."
+    "reason": "Mechanistically characterises SOX1/2/3 regulatory target selection, showing that the proximal C-terminal domain of SOX2 specifically interacts with a partner factor that determines target specificity. Direct study of SOX2 molecular mechanism relevant to understanding how SOX2 mutations affect transcription in microphthalmia and anophthalmia."
   },
   {
-    "id": "pmid:39719691",
-    "verdict": "correctly_rejected",
+    "id": "pmid:23462474",
+    "verdict": "relevant",
     "confidence": "high",
-    "reason": "Paper investigates myelination dysregulation in focal cortical dysplasia of the frontal lobe causing intractable epilepsy, with MYRF mentioned as a transcription factor binding myelin gene targets. The ophthalmogenetics library covers MYRF for microphthalmia; cortical dysplasia and epilepsy are off-topic."
-  },
-  {
-    "id": "pmid:24275321",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Title indicates a review of mechanisms regulating oligodendrocyte development and CNS myelination. MYRF is a key transcription factor in this pathway, but the topic is CNS myelination biology without an ocular angle. The ophthalmogenetics library covers MYRF for structural eye disease (microphthalmia/coloboma); general CNS myelination reviews are off-topic."
+    "reason": "Shows that SOX2 maintains quiescent progenitor state of postnatal retinal Muller glia; conditional Sox2 knockout disrupts radial morphology and cell-cycle quiescence, causing Muller cell depletion and retinal degeneration rescued partly by Notch induction. Direct study of SOX2 in retinal biology."
   }
 ]

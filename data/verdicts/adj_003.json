@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:21167193",
+    "id": "pmid:22178754",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly states genetics of normal and defective color vision. OPN1LW and OPN1MW encode the L- and M-cone opsins whose mutations underlie color vision defects. Core topic for these genes. Abstract is missing but title is unambiguous."
+    "confidence": 0.97,
+    "reason": "Directly studies FBN1 mutations in Marfan syndrome using iPSC models; demonstrates FBN1-dependent TGF-beta signaling effects on osteogenesis. Core FBN1 mechanistic research."
   },
   {
-    "id": "pmid:11773636",
+    "id": "pmid:10647894",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly describes the locus control region controlling mutually exclusive expression of red (OPN1LW) and green (OPN1MW) cone pigment genes, including a model for trichromacy evolution via LCR-promoter competition. Directly studies both target genes."
+    "confidence": 0.95,
+    "reason": "Title is explicitly 'Molecular analysis of eight mutations in FBN1'. Direct FBN1 mutation characterization study; relevance is unambiguous despite empty abstract."
   },
   {
-    "id": "pmid:2915991",
+    "id": "pmid:18435798",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract describes Southern blot analysis of X-linked red and green pigment gene arrays (OPN1LW and OPN1MW) in 134 Caucasian men, cataloguing molecular genotypes and hybrid gene patterns. Directly studies both target genes at the molecular level."
+    "confidence": 0.98,
+    "reason": "FBN1 mutation screening study identifying 46 novel mutations in Marfan syndrome patients. Abstract explicitly mentions ectopia lentis correlating with cysteine missense mutations — directly ophthalmogenetically relevant."
   },
   {
-    "id": "pmid:15518190",
+    "id": "pmid:31830381",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly examines L and M pigment genes (OPN1LW and OPN1MW) in 128 dichromatic males and catalogues the variety of gene arrangements causing dichromacy including deletion, hybrid genes, and LCR-region rearrangements. Directly relevant to both genes."
+    "confidence": 0.97,
+    "reason": "FBN1 genotype-phenotype correlation study in Marfan syndrome. Abstract mentions lens dislocation association with missense mutations. Directly relevant to FBN1 and ocular manifestations."
   },
   {
-    "id": "pmid:19934058",
+    "id": "pmid:19772952",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract directly studies the C203R missense mutation in M-cone opsin (OPN1MW), showing it disrupts the cone photoreceptor mosaic with reduced cone density. Directly examines a pathogenic OPN1MW mutation and its retinal consequence."
+    "confidence": 0.92,
+    "reason": "Review of molecular biological progress in Marfan syndrome and related disorders. FBN1 is the primary causal gene for MFS; a molecular review of MFS is directly relevant to FBN1. Empty abstract but title scope is unambiguous."
   },
   {
-    "id": "pmid:7667922",
+    "id": "pmid:18412115",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly describes genetic basis of photopigment variations in human dichromats, which is the core disease area for OPN1LW and OPN1MW. Protan and deutan dichromacy arise from mutations in these genes. Abstract missing but title is unambiguous."
+    "confidence": 0.97,
+    "reason": "Reports FBN1 exon deletions causing severe Marfan syndrome including ocular and skeletal manifestations, and the first mosaicism case in an MFS patient. Directly relevant to FBN1."
   },
   {
-    "id": "pmid:3884672",
+    "id": "pmid:17418587",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly uses rabbit antiserum against IRBP (interphotoreceptor retinol-binding protein) to study subretinal space development. IRBP is the protein product of RBP3. The paper tracks IRBP appearance and distribution during human retinal development, directly relevant to RBP3."
+    "confidence": 0.96,
+    "reason": "Identifies novel FBN1 and TGFBR2 mutations and characterizes genotype-phenotype correlations for vascular disease. Directly relevant to FBN1 with a cardiovascular focus."
   },
   {
-    "id": "pmid:31254532",
+    "id": "pmid:19533785",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly examines L and M opsin genes (OPN1LW and OPN1MW) and L:M cone ratios in relation to myopia susceptibility, including cone opsin genetics and spectral sensitivity measurements. Directly studies both target genes."
+    "confidence": 0.97,
+    "reason": "Identifies 24 FBN1 mutations (19 novel) and 6 TGFBR2 mutations in Marfan syndrome probands. Directly relevant FBN1 mutation spectrum study."
   },
   {
-    "id": "pmid:9893828",
+    "id": "pmid:15666366",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly references L-cone pigment genes (OPN1LW) in normal colour vision. Core subject of the paper is expression of OPN1LW. Abstract missing but title is unambiguous for the target gene."
+    "confidence": 0.95,
+    "reason": "Describes a novel FBN1 splicing mutation in neonatal Marfan syndrome with severe pulmonary complications. Unusual phenotype but the paper is directly about an FBN1 mutation and its consequences."
   },
   {
-    "id": "pmid:4186708",
+    "id": "pmid:11139245",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "IMPG1 (aliases IPM150, SPACR in search keywords) is Interphotoreceptor Matrix Proteoglycan 1, a proteoglycan whose GAG (glycosaminoglycan/mucopolysaccharide) chains are a structural component. A paper studying retinal mucopolysaccharides/GAGs is directly relevant to understanding IMPG1 structure and function. Abstract missing but the biochemical connection to IMPG1 is plausible and direct."
+    "confidence": 0.97,
+    "reason": "Identifies nine FBN1 mutations in Japanese MFS patients and explores genotype-phenotype correlations. Directly relevant FBN1 mutation characterization."
   },
   {
-    "id": "pmid:8792812",
+    "id": "pmid:29768367",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly references blue cone monochromatism (CBBM), which is caused by mutations in OPN1LW and OPN1MW. Blue cone monochromatism is listed as a primary search keyword for these genes. Abstract missing but title is unambiguous for the target disease-gene association."
+    "confidence": 0.97,
+    "reason": "FBN1 variant spectrum and phenotypic heterogeneity in Korean MFS patients. Abstract explicitly mentions ectopia lentis association with FBN1 missense mutations — directly ophthalmogenetically relevant."
   },
   {
-    "id": "pmid:18318631",
+    "id": "pmid:17253931",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly discusses L and M cone opsin gene arrays (OPN1LW and OPN1MW), the LCR, the proximal advantage hypothesis for L cone advantage, and L:M cone ratios in males of African descent. Directly studies the target genes."
+    "confidence": 0.96,
+    "reason": "Describes automated FBN1 mutation detection strategy, achieving 76% detection rate in 105 MFS patients. Directly relevant diagnostic methodology for FBN1."
   },
   {
-    "id": "pmid:2795409",
+    "id": "pmid:34916231",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract directly describes blue cone monochromatism (BCM), a condition caused by mutations in OPN1LW and OPN1MW that eliminate red and green cone function. Clinical study of the target disease with spectral sensitivity and color discrimination findings. BCM is a primary disease keyword for these genes."
+    "confidence": 0.95,
+    "reason": "Characterizes FBN1 variant types as risk factors for severe scoliosis in Marfan syndrome. Genotype-phenotype correlation directly relevant to FBN1, even though the phenotype studied is skeletal rather than ocular."
   },
   {
-    "id": "pmid:20492958",
+    "id": "pmid:33910934",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title describes an extracellular retinol-binding glycoprotein in the rat eye, which is IRBP, the protein product of RBP3. The study characterizes, localizes, and examines biosynthesis of RBP3 protein in the eye. Directly relevant to RBP3."
+    "confidence": 0.96,
+    "reason": "Systematic study of parental somatic mosaicism of FBN1 pathogenic variants in Marfan syndrome. Directly relevant to FBN1 variant biology and genetic counselling."
   },
   {
-    "id": "pmid:38404354",
+    "id": "pmid:31950671",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract addresses a published comment correcting misrepresentation of contrast theory regarding cone opsin gene splicing defects and myopia, mentioning ON-bipolar cells and differential cone opsin expression. LRIT3 mutations cause CSNB1F affecting ON-bipolar cells, and OPN1MW splicing defects are directly referenced. The paper connects both target genes in the context of ON-pathway signaling and myopia susceptibility."
+    "confidence": 0.96,
+    "reason": "Describes compound heterozygous FBN1 mutations in a large MFS family; mentions cerebral and ocular aneurysms. Directly relevant to FBN1 with ocular involvement noted."
   },
   {
-    "id": "pmid:42532476",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "This is a broad review of cholesterol biosynthesis as a general signaling network covering cancer, immunity, neurodegeneration, ageing, and regeneration. LSS (lanosterol synthase) is an enzyme in the cholesterol biosynthesis pathway, but it is not mentioned in the abstract and the paper does not address LSS specifically, congenital cataracts, or any ocular disease. The connection to the gene_or_topic is indirect (pathway membership only) without any gene-specific or ophthalmic relevance. Correctly excluded from an ophthalmogenetics library focused on LSS and congenital cataracts."
-  },
-  {
-    "id": "pmid:30258865",
+    "id": "pmid:34628919",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract directly examines the prevalence and gene frequency of red-green color vision deficiency including protan (OPN1LW-related) and deutan (OPN1MW-related) defects in a North Indian population using Hardy-Weinberg analysis. Directly addresses the target gene's disease area with population genetics data."
+    "confidence": 0.97,
+    "reason": "FBN1 mutation spectrum in 6 Chinese MFS families; abstract explicitly documents ectopia lentis associated with cysteine-related FBN1 mutations. Directly ophthalmogenetically relevant."
   },
   {
-    "id": "pmid:26187035",
+    "id": "pmid:31163209",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly states advances in the molecular basis of color vision, which is the core research area for OPN1LW (L-cone opsin). This is a review article in Progress in Retinal and Eye Research on the molecular biology of color vision. Abstract missing but title is unambiguous for the target gene."
+    "confidence": 0.94,
+    "reason": "Title explicitly describes FBN1 gene mutations in 26 Hungarian MFS/fibrillinopathy patients. Directly relevant FBN1 mutation study; empty abstract does not undermine the unambiguous title."
   },
   {
-    "id": "pmid:33544131",
+    "id": "pmid:34598112",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly investigates color vision phenotype and genotype manifestation in individual cone cells, studying OPN1LW-related subjects including color normals, deuteranopes, protanopes, and deuteranomalous trichromats. Measures L/M cone ratios, cone density, and functional cone classification directly relevant to OPN1LW."
+    "confidence": 0.90,
+    "reason": "Sudden death case due to a novel nonsense mutation in Marfan syndrome. MFS is primarily caused by FBN1 nonsense mutations; this is a clinically relevant FBN1 case. Empty abstract warrants a slight confidence reduction, but the title scope is clear."
   },
   {
-    "id": "pmid:21465477",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "This paper studies LRAT expression and function in melanoma and melanocyte skin cells, examining vitamin A esterification in cancer biology. LRAT is the target gene, but this paper studies it in the context of skin cancer with no discussion of retinal function, visual cycle, or any ophthalmic manifestation. LRAT mutations cause LCA14 (Leber congenital amaurosis) through disruption of the retinal visual cycle; this paper's skin-cancer context does not contribute to the ophthalmogenetics basis for LRAT inclusion in this library."
+    "id": "pmid:41949522",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Addresses mitral valve risk in Marfan syndrome. MFS is caused by FBN1 mutations; mitral valve prolapse is a major cardiovascular feature of FBN1-related disease. Empty abstract reduces certainty but topic is clearly within FBN1/MFS scope."
+  },
+  {
+    "id": "pmid:11812790",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Directly studies tyrosinase (TYR gene product) trafficking and retention in the secretory pathway. TYR encodes tyrosinase, mutations in which cause oculocutaneous albinism type 1 (OCA1) with significant ocular phenotypes. Mechanistic understanding of TYR protein behaviour is relevant to the OCA2/TYR gene entry even though the experimental context is melanoma. The connection is real and plausible, consistent with the caution-preferring adjudication rule."
   }
 ]

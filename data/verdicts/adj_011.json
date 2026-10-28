@@ -1,50 +1,20 @@
 [
   {
-    "id": "pmid:23889849",
+    "id": "pmid:40090885",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "FRMD7 is explicitly named in the abstract as a gene analyzed in patients; additionally, three patients had achromatopsia, the retinal condition caused by CNGA3 mutations. Both target genes are directly represented."
+    "confidence": "high",
+    "reason": "Paper is a case report directly describing the RS1 gene (c.267T>A p.Tyr89* mutation) and its phenotypic effects in X-linked retinoschisis patients. RS1 is the central subject of the title and abstract; phenotypic heterogeneity in XLRS is a core clinical question for this gene."
   },
   {
-    "id": "pmid:20801516",
+    "id": "pmid:9187681",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "According to PubMed (doi:10.1016/j.ophtha.2010.04.022), this paper describes a resequencing chip covering 90 retinal disease genes for conditions including retinitis pigmentosa. USH2A is one of the most prevalent inherited retinal dystrophy genes (Usher syndrome type 2 / RP39) and is virtually certain to be among those 90 genes."
+    "confidence": "high",
+    "reason": "Title explicitly names a mutant ROM1 allele and retinitis pigmentosa. ROM1 (retinal outer segment membrane protein 1) is the gene under review, and an association study of a ROM1 mutation with retinal dystrophy is directly on-topic despite the missing abstract."
   },
   {
-    "id": "pmid:8213841",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "The abstract directly studies mutations in the red- and green-cone pigment genes (OPN1LW, OPN1MW) causing blue-cone monochromacy; these are exactly the target genes listed. Also captured under CNGA3 topic via gene panel context."
-  },
-  {
-    "id": "pmid:32252387",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Review of phosphoinositides in retinal function and disease. PIKFYVE is a phosphoinositide kinase (PIP5K3) and PITPNM3 is a phosphatidylinositol transfer protein; both are core members of the phosphoinositide pathway discussed throughout this review. TULP1 causes retinal dystrophy and is functionally connected to membrane trafficking reviewed here."
-  },
-  {
-    "id": "pmid:1246803",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Case report of gyrate atrophy of the choroid and retina with hyperornithinemia, including extensive ornithine metabolic investigation. This is the clinical syndrome caused by OAT (ornithine aminotransferase) deficiency; the paper is directly relevant to the OAT gene even though the gene symbol is not used (the disease predates gene cloning)."
-  },
-  {
-    "id": "pmid:8088964",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Electrophysiological study of complete vs. incomplete congenital stationary night blindness (CSNB). NYX mutations cause complete CSNB (CSNB1) and LRIT3 mutations cause complete CSNB (CSNB1F); both genes act at the photoreceptor-to-ON-bipolar cell synapse. The paper characterises the rod pathway defect that defines these gene-associated phenotypes."
-  },
-  {
-    "id": "pmid:11328749",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Multifocal ERG study specifically in complete CSNB (cCSNB), the condition caused by NYX mutations. The paper defines the electrophysiological signature of the disease directly caused by the target gene NYX (nyctalopin)."
-  },
-  {
-    "id": "pmid:458520",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "First Italian case of gyrate atrophy of the choroid with hyperornithinemia. This is the OAT-deficiency phenotype; directly relevant to the OAT gene. The disease predates gene cloning so the gene symbol does not appear in the abstract, but the clinical-biochemical syndrome is unambiguously the OAT disease."
+    "id": "pmid:15537545",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "The paper concerns Islet-2 (ISL2 transcription factor) repression of retinal ganglion cell axon pathfinding determinants. None of the TENM3 aliases (ODZ3, TEN3, Ten-M3, KIAA1455) appear in the title. The Pak et al. 2004 Cell paper characterised ISL2 repression of EphB receptors to specify contralateral projection, a mechanism distinct from TENM3's later-described role in binocular circuit formation. The topical overlap (retinal axon laterality) is insufficient to make this a TENM3 paper; the low citation overlap score (2/3 threshold) reflects indirect rather than direct relevance."
   }
 ]

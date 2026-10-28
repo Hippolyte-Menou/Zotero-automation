@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:1968424",
+    "id": "pmid:34188501",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Directly clones the 195-kb Xq28 region containing the red and green color pigment genes (OPN1LW and OPN1MW) in tandem array; foundational genomic characterization of the OPN1LW locus."
+    "reason": "RP2 is one of the two major X-linked retinitis pigmentosa loci (alongside RP3/RPGR). A burden-of-disease narrative review specifically covering XLRP is directly relevant to the RP2 gene collection."
   },
   {
-    "id": "pmid:26296154",
+    "id": "pmid:26316687",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Studies differential regulation of tandemly-duplicated long wavelength-sensitive (LWS) cone opsin genes by retinoic acid in zebrafish; LWS1/LWS2 are the zebrafish orthologs of OPN1LW. Directly addresses opsin gene regulation in cone photoreceptors."
+    "reason": "Studies radial fundus autofluorescence as a phenotypic hallmark in XLRP patients and carriers. RP2 is a primary XLRP gene, making this phenotype characterization paper directly relevant."
   },
   {
-    "id": "pmid:20036197",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Review of the Elongator complex in neurological disorders (Huntington's disease, familial dysautonomia). ELP4 encodes Elongator subunit 4 (Elp4); a disease-focused review of ELP4's protein complex is directly relevant to ELP4 biology, even though the eye-disease connection is through chromosomal proximity to PAX6 rather than Elongator neurological function."
-  },
-  {
-    "id": "pmid:2395857",
+    "id": "pmid:10556287",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Population genetics study of the red pigment gene (OPN1LW) molecular abnormalities across Caucasian, Japanese, and Afro-American populations. Directly characterizes OPN1LW gene structure variants and their phenotypic consequences in color vision deficiency."
+    "reason": "This is the foundational paper cloning and characterizing the two mammalian mab-21 homologs including MAB21L2 itself. Reports MAB21L2 expression in embryonic eye and neural crest derivatives. Directly on-topic."
   },
   {
-    "id": "pmid:1247409",
+    "id": "pmid:36446583",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Classic description of isolated foveal hypoplasia without albinism or aniridia in nine patients with congenital nystagmus. This is precisely the phenotype caused by SLC38A8 mutations; directly defines the clinical entity."
+    "reason": "MAB21L1 and MAB21L2 are closely related paralogs, both associated with congenital eye defects including microphthalmia. A paper establishing that missense variants in MAB21L1 cause dominant microphthalmia is directly relevant to MAB21L2 in an ophthalmogenetics library."
   },
   {
-    "id": "pmid:27594978",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Reviews primate color vision evolution including LWS (OPN1LW) opsin gene allelic differentiation and gene duplication. Directly discusses OPN1LW/LWS gene biology, adaptive significance, and behavioral consequences of opsin variation; relevant for understanding OPN1LW evolutionary context."
-  },
-  {
-    "id": "pmid:27872205",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "First structural model of the Elongator complex (Elp1-6 hexameric assembly) by single-particle EM and cross-linking mass spectrometry. ELP4 is Elongator subunit 4 (Elp4); structural data on the Elongator complex is foundational to understanding ELP4 function and disease mechanisms."
-  },
-  {
-    "id": "pmid:24801621",
+    "id": "pmid:8582275",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Creates knock-in mice expressing human L-opsin (OPN1LW) variants to study disease-causing cone opsin alleles (blue cone monochromacy, myopia, cone dystrophy). Directly models OPN1LW variant pathophysiology in vivo."
+    "reason": "Original characterization of the C. elegans mab-21 gene, the ortholog of human MAB21L2. Provides foundational biology of cell fate specification mechanisms for this gene family, including sensory organ development analogous to eye development."
   },
   {
-    "id": "pmid:16961970",
+    "id": "pmid:7706044",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Maps L:M cone opsin mRNA ratio across human and baboon retinas using RT-PCR, demonstrating a central-to-peripheral gradient. Directly characterizes OPN1LW expression topography in human retina."
+    "reason": "RBP3 encodes IRBP (interphotoreceptor retinoid-binding protein). This paper directly identifies pathogenic epitopes in the human IRBP molecule and studies experimental autoimmune uveoretinitis. Core RBP3/IRBP research."
   },
   {
-    "id": "pmid:27366885",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Measures unique hue wavelengths and relates them to L/M cone ratio (estimated by genetics and ERG flicker photometry), revealing that unique green depends strongly on cone numerosity. Directly implicates OPN1LW/OPN1MW gene-driven cone ratio variation in individual color experience."
-  },
-  {
-    "id": "pmid:40057485",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Presents Paraphase, a HiFi long-read method for resolving highly similar paralogous genes including OPN1LW/OPN1MW (which form a high-similarity tandem array). The paper explicitly covers medically relevant genes challenging to genotype; directly applicable to OPN1LW clinical genetic testing."
-  },
-  {
-    "id": "pmid:39538819",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Quantifies individual differences in L-cone (OPN1LW) and M-cone photopigment spectral sensitivities across 51 observers using LED trichromator and CIEPO06 observer modeling. Directly measures OPN1LW photopigment spectral variation relevant to color vision phenotyping."
-  },
-  {
-    "id": "pmid:16961968",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Measures L:M cone ratios in 60 heterozygous female New World monkeys using ERG flicker photometry; X-linked opsin alleles in these primates are direct homologs of OPN1LW/OPN1MW. Provides quantitative data on opsin-driven cone mosaic variation directly relevant to OPN1LW cone biology."
-  },
-  {
-    "id": "pmid:7759069",
+    "id": "pmid:1690082",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Characterizes molecular patterns and sequence polymorphisms of the red (OPN1LW) and green (OPN1MW) pigment genes in Japanese males, including haplotypes and recombination hotspots. Directly about OPN1LW gene molecular genetics across populations."
+    "reason": "Title directly concerns immunological properties of IRBP (=RBP3) repeated determinants. Abstract is empty but title is unambiguous as core RBP3/IRBP research."
   },
   {
-    "id": "pmid:38441889",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Develops quantitative foveal structural metrics (IRL, OS, ONL ratios) as predictors of visual acuity in albinism-related foveal hypoplasia. SLC38A8 mutations cause isolated foveal hypoplasia; this paper's quantitative characterization of foveal hypoplasia grades and their visual acuity correlates directly informs the SLC38A8 phenotype workup."
-  },
-  {
-    "id": "pmid:41429421",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Demonstrates that loss of wobble uridine (U34) tRNA modifications (performed by the Elongator complex, of which ELP4 is subunit 4) causes ribosome stalling at suboptimal codon pairs and triggers cellular quality control. Directly characterizes the functional consequences of Elongator/ELP4 deficiency at the molecular level."
-  },
-  {
-    "id": "pmid:24695200",
+    "id": "pmid:3032518",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Compares performance of protan and deutan carriers (heterozygous for OPN1LW/OPN1MW gene defects) on seven color vision tests including Ishihara plates. Directly characterizes the phenotypic expression of OPN1LW/OPN1MW carrier status in females."
+    "reason": "Immunoelectron microscopic study of IRBP (=RBP3) localization in primate photoreceptors. Abstract explicitly describes intracellular IRBP localization in rod versus cone cells. Directly relevant to RBP3."
   },
   {
-    "id": "pmid:35113505",
+    "id": "pmid:2477180",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Compares Ishihara/HRR pseudoisochromatic test results with MassArray genotyping of OPN1LW and OPN1MW genes directly. Explicitly names OPN1LW as the target gene; demonstrates that genetic testing identifies twice as many color-deficient males as phenotypic testing alone."
+    "reason": "Title directly studies immune responses to IRBP (=RBP3) peptides, including immunopathogenic versus immunodominant determinants. Core RBP3/IRBP research despite empty abstract."
   },
   {
-    "id": "pmid:16961974",
+    "id": "pmid:7516403",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Molecular characterization of a novel single X-linked visual pigment gene with unique exon 5 arrangement (Y277 from L gene, A285 from M gene) causing an atypical dichromatic color vision defect. Directly about OPN1LW gene structure and intragenic recombination causing color vision deficiency."
+    "reason": "Abstract extensively studies IRBP (=RBP3) epitopes in context of experimental autoimmune uveoretinitis (EAU), mapping cross-reactive surrogate determinants within the IRBP molecule. Directly relevant to RBP3."
   },
   {
-    "id": "pmid:40013507",
+    "id": "pmid:9727736",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Case report of surgical repair of myopic macular hole-related retinal detachment in a child with Knobloch syndrome. Knobloch syndrome is caused by COL18A1 mutations; the paper directly describes the ocular phenotype and surgical management of COL18A1-associated disease."
+    "reason": "Abstract explicitly names the RP2 locus and analyzes linkage markers for XLRP genetic counseling. Directly relevant to RP2 gene."
+  },
+  {
+    "id": "pmid:8066038",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract explicitly uses DNA markers flanking both the RP2 and RP3 loci for prenatal diagnosis of X-linked retinitis pigmentosa. Directly relevant to RP2."
+  },
+  {
+    "id": "pmid:12596916",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title directly names recoverin (=GUCA1A) and rhodopsin kinase (=GRK1) as subject. Both genes are present in gene_or_topic. Paper concerns Ca2+-dependent regulation of rhodopsin phosphorylation, a core function for both genes."
+  },
+  {
+    "id": "pmid:6305024",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Calcium modulation of cGMP synthesis in rod visual cells is the core biochemistry underlying CNGA1 (cGMP-gated channel), GUCA1A (GCAP calcium sensor), and GUCY2D (retinal guanylate cyclase). Directly relevant to all three tagged genes and the Visual physiology topic."
+  },
+  {
+    "id": "pmid:21922272",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Photoreceptor adaptation via phosphodiesterase modulation is integral to the phototransduction cascade involving CNGA1 (downstream of PDE) and GUCA1A (calcium sensor controlling guanylate cyclase opposing PDE). Directly relevant to both tagged genes."
+  },
+  {
+    "id": "pmid:8639567",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly characterizes the activation mechanism of bovine rod outer segment membrane guanylate cyclase (ROS-GC = GUCY2D) by S100A1-S100B. Extensively discusses ROS-GC (RETGC-1) calcium-modulated activation, directly relevant to GUCY2D."
+  },
+  {
+    "id": "pmid:13349334",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "FRMD7 is the causative gene for X-linked idiopathic infantile nystagmus (NYS1). This paper reports X-linked hereditary nystagmus in two families with clear X-linked inheritance. Directly relevant to the FRMD7 disease phenotype."
+  },
+  {
+    "id": "pmid:30322349",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "FRMD7 causes X-linked infantile nystagmus. A clinical review of infantile nystagmus investigation, differential diagnosis, and treatment is directly relevant to the FRMD7 disease phenotype."
+  },
+  {
+    "id": "pmid:30566373",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "YAP and TAZ are named as core downstream effectors in the Hippo pathway in this review abstract. This is directly about YAP1 biology and pathophysiology at the level of the gene product."
+  },
+  {
+    "id": "pmid:16354681",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Yap65 is an established alias for YAP1 (listed in search_keywords). This paper characterizes the Yap-/- mouse knockout phenotype, directly studying YAP1 in vivo developmental function."
   }
 ]

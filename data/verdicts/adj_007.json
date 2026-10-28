@@ -1,74 +1,122 @@
 [
   {
-    "id": "pmid:15013805",
+    "id": "pmid:30930731",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Title explicitly states 'hedgehog pathway in lens regeneration' - directly ocular. SMO is the obligate transducer of Hedgehog signaling; a paper on lens (eye) regeneration via this pathway is squarely within SMO's ocular-genetics scope (structural eye disease, microphthalmia, coloboma)."
+    "confidence": "high",
+    "reason": "Paper directly characterizes teneurin protein structure and evolution, including the C-terminal domain determined by X-ray crystallography and EM, alternative splicing effects on teneurin diversification, and multifunctional receptor features. TENM3 encodes teneurin-3 (ODZ3/TEN3/KIAA1455), one of the four teneurin family members. Structural characterization of the teneurin scaffold is foundational content for understanding TENM3 biology."
   },
   {
-    "id": "pmid:31014769",
+    "id": "pmid:8157104",
     "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Wide-field OCT and angiography specifically in X-linked retinoschisis. RS1 is the causative gene for XLRS; clinical imaging characterisation of this disease is core to any RS1 gene-specific library."
+    "confidence": "high",
+    "reason": "Title unambiguously describes alpha-crystallin complexes (alpha-gamma and alpha-beta) and demonstrates the in vivo chaperone role of alpha-crystallin. CRYAA encodes alphaA-crystallin, the primary alpha-crystallin subunit in the lens. The abstract is empty but the title establishes direct relevance to CRYAA chaperone function, a central feature of the gene."
   },
   {
-    "id": "pmid:14661905",
+    "id": "pmid:16439475",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Scotopic threshold response abnormalities correlated with gene mutations in X-linked retinoschisis. The RS1 gene is explicitly named in the title alongside XLRS phenotype; directly characterises electrophysiological correlates of RS1 mutations."
+    "confidence": "high",
+    "reason": "Paper directly studies alphaA-crystallin (CRYAA) and alphaB-crystallin double-knockout mice to dissect caspase inhibition in lens fiber cell terminal differentiation. Shows that alphaA-crystallin interacts with caspase 6 and suppresses caspase activity to maintain lens fiber cell integrity. This is mechanistic work directly on the CRYAA gene product in the lens."
   },
   {
-    "id": "pmid:32906187",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "Paper characterises hypomorphic SMO variants in holoprosencephaly using zebrafish bioassays. Although SMO is central and HPE can in extreme cases involve midline eye anomalies, this paper addresses forebrain/craniofacial midline patterning exclusively and mentions no ocular phenotype. The SMO library entry is justified by coloboma/microphthalmia; a purely HPE-focused study without eye phenotyping does not meet that relevance bar."
-  },
-  {
-    "id": "pmid:35812756",
-    "verdict": "correctly_rejected",
-    "confidence": 0.92,
-    "reason": "Case report of prenatal postaxial polydactyly caused by bi-allelic SMO variants. The abstract and subject are limited to limb digit formation; no eye or craniofacial phenotype is described. Does not connect to the ocular-structural-disease rationale for tracking SMO."
-  },
-  {
-    "id": "pmid:40475175",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "Pallister-Hall-Like Syndrome with homozygous SMO variant. Clinical features listed are postaxial polydactyly, hypothalamic hamartoma, cardiac/skeletal anomalies, and craniofacial dysmorphism; no ocular phenotype is reported. Without an eye-disease link this falls outside the ophthalmogenetics scope of the SMO collection."
-  },
-  {
-    "id": "pmid:32999669",
+    "id": "pmid:8986785",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Case report demonstrating ROCK inhibitor (ripasudil) resolving retinoschisis and cystic foveal cavities in X-linked retinoschisis. RS1-disease treatment study with OCT documentation; directly relevant to RS1 clinical management literature."
+    "confidence": "high",
+    "reason": "Directly examines how endogenous metabolites modulate alpha-crystallin anti-aggregation (chaperone) activity using beta-crystallin and alcohol dehydrogenase as substrates. Alpha-crystallin chaperone activity is a defining function of CRYAA; modulation of this activity by physiological compounds is relevant to CRYAA lens biology and cataract susceptibility."
   },
   {
-    "id": "pmid:40657133",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Novel SMO missense variant causing isolated autosomal-recessive postaxial polydactyly in two consanguineous families. Entirely focused on digit/limb development via the Sonic Hedgehog pathway; no eye phenotype is mentioned. Does not satisfy the ocular-structural-disease criterion for the SMO collection."
-  },
-  {
-    "id": "pmid:3380806",
+    "id": "pmid:32184356",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Investigates Na-Ca exchange current in isolated rod outer segments - exactly the physiological function of SLC24A1 (NCKX1, the rod photoreceptor Na+/Ca2+-K+ exchanger). This is a foundational electrophysiology paper on the protein product of SLC24A1 in its native retinal compartment; directly relevant to the CSNB1D/retinal-dystrophy focus of the SLC24A1 collection."
+    "confidence": "high",
+    "reason": "Paper explicitly uses human alphaA-crystallin (CRYAA) and alphaB-crystallin to study how chaperone-client complexes undergo glycation-mediated cross-linking. Shows age-associated increase in AGE-mediated cross-linking correlates with lens stiffness and presbyopia. Directly studies CRYAA protein in the context of lens aging, a phenotype relevant to the gene."
   },
   {
-    "id": "pmid:10875081",
+    "id": "pmid:8670752",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Clinical review of idiopathic infantile nystagmus diagnosis and treatment. FRMD7 is the causative gene for X-linked idiopathic congenital nystagmus (NYS1); clinical management literature on the phenotype is core to the FRMD7 collection even when the gene is not named in the title."
+    "confidence": "high",
+    "reason": "Directly quantifies age-related increase in alpha-, beta-, and gamma-crystallin degradation fragments in human lens high-molecular-weight protein complexes, identifying cleavage sites by N-terminal sequencing. Alpha-crystallin (CRYAA is the major alphaA subunit) fragmentation is directly relevant to CRYAA age-related biology and cataract formation."
   },
   {
-    "id": "pmid:25999676",
+    "id": "pmid:12702164",
     "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Cohort study of X-linked retinoschisis clinical presentations in Taiwanese patients with RS1 gene sequencing confirming diagnosis and identifying nine mutations including six novel ones. Directly characterises RS1 genotype-phenotype relationships."
+    "confidence": "high",
+    "reason": "Paper directly screens USH1C for mutations in Usher syndrome type 1 patients and non-syndromic deafness families using DHPLC, identifies the 238-239insC mutation and assesses its haplotypic background. USH1C (harmonin) is the ophthalmogenetics gene of interest; Usher syndrome type 1 causes both deafness and retinitis pigmentosa. Directly relevant to USH1C mutation spectrum."
   },
   {
-    "id": "pmid:5159529",
+    "id": "pmid:37253645",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Hereditary study of congenital nystagmus in a Swedish population. FRMD7 mutations are the principal cause of X-linked hereditary congenital nystagmus; population-level hereditary genetics of this phenotype is directly within scope for the FRMD7 collection, even as a pre-molecular era paper establishing inheritance patterns."
+    "confidence": "high",
+    "reason": "Title explicitly names CRYAA, and the abstract describes systematic investigation of CRYAA expression in in vivo (rabbit naphthalene cataract) and in vitro (HLEB3 H2O2) age-related cataract models. Shows CRYAA silencing increases apoptosis and autophagy in lens epithelial cells. This is direct and primary research on CRYAA in cataract."
+  },
+  {
+    "id": "pmid:34010109",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Meta-analysis directly investigating three CRYAA promoter polymorphisms (rs3761381, rs13053109, rs7278468) and their association with cataract susceptibility. Finds rs7278468 G allele carriers have significantly decreased cataract risk. This is core CRYAA genetic epidemiology directly tied to the gene's disease association."
+  },
+  {
+    "id": "pmid:22517799",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Review of developmental macular disorders and their molecular genetic basis. OPN1MW mutations cause blue-cone monochromacy with macular dysfunction, and SLC38A8 mutations cause isolated foveal hypoplasia - both are developmental macular disorders. This review of the category's phenotypes and genetic underpinning is directly relevant to understanding both genes in disease context."
+  },
+  {
+    "id": "pmid:14525950",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper reports that Col18a1-knockout mice develop anterior segment defects including fragile iris, iris adhesion to lens and cornea, posterior pigment epithelial cell defoliation, and ciliary body atrophy. COL18A1 encodes type XVIII collagen; this mouse study directly establishes COL18A1's role in anterior ocular integrity, an important complement to its known role in Knobloch syndrome."
+  },
+  {
+    "id": "pmid:14614990",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Double knockout mice for collagens XV and XVIII (COL18A1) study is directly about COL18A1 (type XVIII collagen) and reveals lack of functional compensation between these two closely related collagens. While the abstract is absent, the title is unambiguous in relevance to COL18A1."
+  },
+  {
+    "id": "pmid:39393775",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Clinical case report of amniotic membrane graft for macular hole in a patient with Knobloch syndrome. Knobloch syndrome (KS, MIM 267750) is definitively caused by biallelic mutations in COL18A1. Surgical management of ocular complications in COL18A1-associated Knobloch syndrome is directly relevant to the gene's clinical significance."
+  },
+  {
+    "id": "pmid:23667181",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Correction letter establishing that a reported case of Knobloch syndrome with apparent ADAMTS18 mutation was, in fact, due to a COL18A1 mutation missed by initial analysis. Includes clinical characterization of KS ocular phenotype (ectopia lentis, cryptless irides, high myopia, vitreoretinal atrophy, macular atrophy). Directly relevant to COL18A1 mutation detection and Knobloch syndrome."
+  },
+  {
+    "id": "pmid:14500905",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper directly studies OPN1LW (human red pigment) and OPN1MW (mouse green pigment) by replacing the mouse X-linked green opsin with the human red opsin gene. Uses multi-electrode array recordings to characterize chromatic sensitivity and retinal ganglion cell responses. Directly relevant to both OPN1LW and OPN1MW biology in cone photoreceptors."
+  },
+  {
+    "id": "pmid:12770978",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Study of VEP abnormalities in albinism, showing strong correlation between foveal hypoplasia grade and interhemispheric VEP latency asymmetry due to optic nerve misrouting. SLC38A8 mutations cause isolated foveal hypoplasia with optic nerve misrouting and nystagmus - phenotypically identical to albinism's ocular features. This paper characterizes the electrophysiological phenotype of foveal hypoplasia with misrouting, directly informative for SLC38A8-related disease. Link to OPN1MW is indirect (color opsin function is distinct from misrouting phenotype)."
+  },
+  {
+    "id": "pmid:22472762",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Large population review of inherited red-green color deficiency prevalence across ethnicities. Red-green color deficiency is caused by mutations or deletion of OPN1LW and OPN1MW. The prevalence data, population genetics (founder effects, genetic drift) and male:female ratios are directly relevant to the epidemiology of OPN1LW-associated disease."
+  },
+  {
+    "id": "pmid:15811001",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Directly analyzes OPN1LW molecular variation including the Ser180Ala polymorphism, spectral tuning of red and green cone pigments, hybrid gene formation via unequal recombination, and the red/green gene array structure. OPN1LW encodes the long-wave sensitive cone opsin; this review of its molecular genetics and resulting color vision phenotypes is core content for the gene."
+  },
+  {
+    "id": "pmid:10815162",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Review of molecular genetics of color vision and color vision defects, discussing OPN1LW (and OPN1MW) gene structure, the tandem array on Xq28, spectral polymorphisms, and mechanisms underlying color deficiency. OPN1LW is directly the subject of this review. Relevant as foundational molecular genetics for the gene."
+  },
+  {
+    "id": "pmid:11435442",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper purifies and characterizes holo-Elongator as a six-subunit complex, discovers Elp4/Elp5/Elp6 subcomplex, and clones the human homologue of ELP4, showing it is ubiquitously expressed. ELP4 is the gene of interest (associated with aniridia/anterior segment dysgenesis via its location in the PAX6 locus). This paper defines ELP4's protein function as an Elongator subunit and establishes the human gene, making it directly relevant."
   }
 ]
