@@ -545,6 +545,11 @@ def cmd_apply(args) -> None:
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
     def rescue_fn(entries):
+        if args.skip_rescue:
+            # Defer all FN uploads to the next run (entries left out of ledger
+            # so they are retried).  Useful when OpenAlex is rate-limited.
+            logger.warning("--skip-rescue: deferring %d FN rescues to next run", len(entries))
+            return 0, list(entries)
         return run.process_rescue_queue(
             entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
             genes_parent_key, additions_tracker=[])
@@ -574,6 +579,8 @@ def main() -> None:
     p.add_argument("--adj-batch-size", type=int, default=20)
     p.add_argument("--genes-parent", default="6 - Genes")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--skip-rescue", action="store_true",
+                   help="Defer FN uploads to next run (use when OpenAlex is rate-limited)")
     mode = p.add_mutually_exclusive_group(required=True)
     mode.add_argument("--prepare", action="store_true")
     mode.add_argument("--collect", action="store_true")
