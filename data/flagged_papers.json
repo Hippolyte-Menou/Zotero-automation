@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T07:42:19Z",
+  "generated_at": "2026-11-01T09:08:09Z",
   "threshold_k": 0,
-  "total_evaluated": 31207,
-  "total_flagged": 506,
+  "total_evaluated": 31334,
+  "total_flagged": 519,
   "total_dismissed": 0,
   "total_unresolvable": 130,
   "hierarchy": {
@@ -89,8 +89,10 @@
       "ADGRV1",
       "AGK",
       "AIPL1",
+      "ALMS1",
       "APC",
       "ARID1B",
+      "ARL3",
       "ARR3",
       "ATAD3A",
       "ATF6",
@@ -171,6 +173,8 @@
       "RPGRIP1L",
       "RS1",
       "SAG",
+      "SLC45A2",
+      "SNRNP200",
       "SOX2",
       "SPATA7",
       "TEK",
@@ -3905,6 +3909,52 @@
       "subcollection": "Ocular malformations"
     },
     {
+      "pmid": "42433927",
+      "doi": "10.21037/tp-2026-0217",
+      "zotero_key": "77PR34XW",
+      "title": "Alström syndrome in a Chinese girl: a case report and literature review",
+      "authors": [
+        [
+          "Jiapeng",
+          "Bao"
+        ],
+        [
+          "Shuang",
+          "Kou"
+        ],
+        [
+          "X K",
+          "Liu"
+        ],
+        [
+          "Y",
+          "Zhang"
+        ],
+        [
+          "Yanying",
+          "Li"
+        ],
+        [
+          "Mei",
+          "Zhang"
+        ],
+        [
+          "Yanhong",
+          "Zhang"
+        ]
+      ],
+      "journal": "Translational Pediatrics",
+      "year": "2026",
+      "abstract": "Background: Alström syndrome (ALMS) is a rare autosomal recessive genetic disorder caused by homozygous or compound heterozygous mutations in the ALMS1 gene. The encoded ALMS1 protein is widely distributed, leading to the complex clinical manifestations of this disease. Currently, there are no effective curative treatments-disease-modifying or curative therapies. Methods: Here, we report a case of ALMS in a Chinese female patient featuring nystagmus, visual impairment, diabetes mellitus, hepatosplenomegaly, mixed hearing loss, ovarian pedicle torsion, and acanthosis nigricans. Comprehensive clinical data—including anthropometric, laboratory, and imaging findings—were collected. Whole-exome sequencing identified biallelic pathogenic variants in the ALMS1 gene, confirming the diagnosis. For glycemic control, the patient was managed with a combination of insulin aspart, insulin detemir, and metformin. Results: Whole-exome sequencing identified compound heterozygous mutations in the ALMS1 gene, leading to erroneous ALMS1 protein coding and confirming ALMS. The variant ALMS1 c.4839dupA was identified as a novel likely pathogenic mutation. Currently, there is no definitive treatment for this disease, and management primarily focuses on symptomatic support. Conclusions: We identified a novel likely pathogenic variant in the ALMS1 gene as the underlying cause of ALMS in this Chinese patient. The clinical presentation highlights the remarkable phenotypic variability of the disorder, a key factor contributing to frequent diagnostic delays or errors. Consequently, early genetic confirmation is imperative to guide appropriate and timely interventions that can significantly improve patient care and quality of life.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ALMS1"
+    },
+    {
       "pmid": "42523721",
       "doi": "10.18240/ijo.2026.08.24",
       "zotero_key": "VTAFNFXC",
@@ -5251,6 +5301,36 @@
       "subcollection": "SPATA7"
     },
     {
+      "pmid": "42940806",
+      "doi": "10.3390/e28101084",
+      "zotero_key": "ZUUQX6NW",
+      "title": "Bridging Machine Learning and Algorithmic Information Theory, Part VII: Algorithmic Information Kernels and Kernel Discrepancies on Countable Spaces",
+      "authors": [
+        [
+          "Boumediene",
+          "Hamzi"
+        ],
+        [
+          "Marcus",
+          "Hütter"
+        ],
+        [
+          "Houman",
+          "Owhadi"
+        ]
+      ],
+      "journal": "Entropy",
+      "year": "2026",
+      "abstract": "Compression-based dissimilarities such as the normalized compression distance are widely used, but direct exponentiation need not produce a positive semidefinite kernel. We develop a systematic interface between prefix algorithmic information theory and three kernel discrepancy methods on finite or countable spaces: maximum mean discrepancy (MMD), the Hilbert-Schmidt independence criterion (HSIC), and a Markov-operator kernel Stein discrepancy (KSD). Explicit feature realizations guarantee positive semidefiniteness for distance-to-kernel embeddings and for an ideal Solomonoff feature-mixture kernel satisfying kSol,U(x,y)≍U2-KU(⟨x,y⟩). Zero-mass signed measures give the exact characteristicity criterion, and whether the ideal Solomonoff kernel meets that criterion turns out to depend on the universal machine: two universal prefix machines are exhibited, one whose kernel is not characteristic on a two-point set and one whose kernel separates all finite-total-variation signed measures on the countable string space. In the resulting RKHS geometry, the MMD compares compressibility profiles, the HSIC is product-kernel MMD from the joint law to the product of its marginals, and KSDTP,k(Q)=MMDk(QTP,Q) for a target-stationary Markov kernel TP. Expected algorithmic mutual information is connected to the HSIC only through explicit source-description, mutual-information, support, and kernel conditions. Ideal AIT objects, computable feature surrogates, and finite-sample errors are separated explicitly. Reproducible synthetic experiments examine the identities, landmark approximation, and selected testing alternatives at the computable and empirical layers. They provide no evidence about ideal AIT quantities or general superiority over baselines. An algebraic example also shows that a characteristic finite-support kernel can give a constant permutation statistic: identification alone does not guarantee test power.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "42091926",
       "doi": "10.1038/s41525-026-00576-x",
       "zotero_key": "ZAIXSW6B",
@@ -5283,6 +5363,70 @@
       ],
       "category": "6 - Genes",
       "subcollection": "IFT172"
+    },
+    {
+      "pmid": "42933899",
+      "doi": "10.1261/rna.081012.126",
+      "zotero_key": "GQC84X66",
+      "title": "Brr2p-mediated unwinding of U4/U6 is promoted by a mutually exclusive internal stem loop in U4 and involves destabilization of the 5’ stem-loop of U4",
+      "authors": [
+        [
+          "Klaus H",
+          "Nielsen"
+        ],
+        [
+          "Brenden",
+          "Johnson"
+        ],
+        [
+          "Amartya",
+          "Das"
+        ],
+        [
+          "Jonathan P.",
+          "Staley"
+        ]
+      ],
+      "journal": "RNA",
+      "year": "2026",
+      "abstract": "Before the spliceosome engages a pre-mRNA to excise its introns, the catalytic small nuclear RNA (snRNA) U6 is inactive because of base pairing with U4 snRNA; thus, spliceosome activation requires unwinding of base paired U4/U6, composed of stem I and stem II. The Ski2-like ATPase and RNA helicase Brr2p facilitates U4/U6 unwinding and the ultimately irreversible release of U4; however, the molecular mechanism behind Brr2p-mediated U4/U6 unwinding and the roles of the snRNAs in unwinding remain incompletely understood. To investigate the mechanism in vivo in budding yeast, we screened an unwinding-deficient, cold-sensitive brr2 mutant, associated with retinitis pigmentosa in humans, for genetic interactions with mutations in U4 snRNA. Some destabilizing U4 mutations in either stem I or stem II suppressed the brr2 mutant, providing functional evidence that Brr2p disrupts both stems in vivo. Further, destabilizing mutations in the intervening 5’ stem loop of U4 also suppressed the brr2 mutant, and in vitro Brr2p displaced Prp31p from this stem loop, implicating Brr2p in disruption of this structure, too. Unexpectedly and counterintuitively, a subset of destabilizing mutations in U4/U6 stem I exacerbated the brr2 mutant. These mutations disrupted a conserved, internal stem loop in U4 that is mutually exclusive with U4/U6 stem I. In yeast, we found that this stem loop (U4-ISL1) is required for splicing in vivo and for U4/U6 unwinding in vitro. Notably, this stem loop overlaps with a region of human RNU4-2 mutated in neurodevelopmental disorders. Altogether, these results implicate Brr2p in disrupting all U4 secondary structures upstream of its initial U4 binding site and implicate an important role for U4 in antagonizing U4/U6 reannealing during Brr2p-mediated U4/U6 unwinding.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SNRNP200"
+    },
+    {
+      "pmid": "38404484",
+      "doi": "10.1016/j.ajoc.2024.102012",
+      "zotero_key": "C6ZSTJZX",
+      "title": "Case study and pilot results: Stepwise approach to teach a resident tube shunt surgery",
+      "authors": [
+        [
+          "Hassaan",
+          "Asif"
+        ],
+        [
+          "Jessie J.J.",
+          "Wang"
+        ],
+        [
+          "Mary",
+          "Qiu"
+        ]
+      ],
+      "journal": "American Journal of Ophthalmology Case Reports",
+      "year": "2024",
+      "abstract": "Purpose: To illustrate the utility of a previously published stepwise rubric for evaluating a resident's progress learning aqueous tube shunt surgery. Method: Using a stepwise rubric, a single PGY3 ophthalmology resident and attending glaucoma surgeon evaluated the resident's performance after each aqueous tube shunt surgery. The rubric subdivides the surgery into 12 consecutive steps and scores the resident's proficiency in each step with either a 0 (observation), 2 (novice), 3 (beginner), 4 (advanced beginner), or 5 (competent). Results: The resident's cumulative score increased significantly throughout the 17 surgeries performed, with the resident's self-evaluated score and attending's score increasing from 12 to 27 and 14 to 27 from the first to last surgery, respectively. Scores were consistent between the resident and attending; for any given surgery, the resident's own score never deviated from the attending's score by more than 1 point. The resident completed at least 50% of the steps in 11 of the 17 cases. While some surgical steps were mastered earlier on (\"tube tying\" and \"suture implantation\"), other steps were more challenging to master (\"tunnel in sclera and enter the AC\" and \"close conjunctiva\", as demonstrated by fewer overall attempts or never attaining a score of '5' despite multiple attempts. Conclusions and Importance: This study demonstrates the utility of the stepwise rubric in tracking resident surgical scores chronologically via self and attending assessment. The ability to compare their own scores to that of an attending allows the resident to learn how to effectively evaluate their own performance. Most importantly, statistics obtained for each step provides the resident with personalized and real-time feedback for learning specific surgical steps. In conclusion, the stepwise rubric is a useful add-on to a resident's aqueous tube shunt surgery education.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TEK"
     },
     {
       "pmid": "42200729",
@@ -6379,40 +6523,6 @@
       "subcollection": "PRPH2"
     },
     {
-      "pmid": "42875743",
-      "doi": "10.1186/s12870-026-09735-9",
-      "zotero_key": "6BPZJCGS",
-      "title": "Combined application of bacterial biofertilizers, seaweed, and Thymbra spicata extract enhanced productivity, nutritional value, and postharvest shelf life of cucumber (Cucumis sativus L.)",
-      "authors": [
-        [
-          "Bahareh",
-          "Karami"
-        ],
-        [
-          "Majid",
-          "Bagnazari"
-        ],
-        [
-          "Meisam",
-          "Mohammadi"
-        ],
-        [
-          "Afsaneh",
-          "Azizi"
-        ]
-      ],
-      "journal": "BMC Plant Biology",
-      "year": "2026",
-      "abstract": "Environmentally friendly biostimulants and biofertilizers have emerged as promising alternatives to synthetic agricultural inputs for improving crop productivity, fruit quality, and postharvest longevity. This study investigated the effects of Thymbra spicata L. extract at 0% (E0), 10% (TE1), and 20% (TE2), applied individually or in combination with seaweed biofertilizer (1%) (SB) and bacterial biofertilizer (10%) (BB), on the growth, yield, physiological responses, and postharvest characteristics of cucumber (Cucumis sativus L. var. eureka) under field conditions. The experiment was conducted as a factorial arrangement in a randomized complete block design with three replications. The results showed that the combined application of TE1 + SB + BB was the most effective treatment with respect to yield, vitamin C content, antioxidant activity, and postharvest longevity. Compared with the untreated control, this treatment increased fruit number by 29.32%, total yield by 43.23%, fruit firmness by 22.34%, vitamin C content by 33.25%, antioxidant activity by 72.93%, and shelf life by 121.67%, while reducing fruit weight loss by 45.67%. Although several other treatments improved specific physiological and biochemical traits, TE1 + SB + BB provided the greatest benefits for the major yield- and postharvest-related attributes evaluated in this study. These findings indicated that integrating 10% T. spicata extract with seaweed and bacterial biofertilizers enhanced cucumber yield, antioxidant capacity, and postharvest longevity, and could represent an effective and sustainable approach for cucumber production.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "NAA10"
-    },
-    {
       "pmid": "",
       "doi": "10.3390/biology15040363",
       "zotero_key": "IFNJKTCC",
@@ -7217,6 +7327,48 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42922393",
+      "doi": "10.1097/j.jcrs.0000000000002075",
+      "zotero_key": "8FDWMZW5",
+      "title": "Corneal Aberrations and Layer-Specific Changes in Fuchs’ Dystrophy: A Scheimpflug and AS-OCT-Based Analysis",
+      "authors": [
+        [
+          "Dominika",
+          "Szkodny"
+        ],
+        [
+          "Adam",
+          "Wylęgała"
+        ],
+        [
+          "Patrycja",
+          "Potrawa"
+        ],
+        [
+          "Katarzyna",
+          "Kryszan"
+        ],
+        [
+          "Arkadiusz",
+          "Chalecki"
+        ],
+        [
+          "Edward",
+          "Wylęgała"
+        ]
+      ],
+      "journal": "Journal of Cataract & Refractive Surgery",
+      "year": "2026",
+      "abstract": "PURPOSE: To investigate the relationship between layer-specific corneal structural changes and optical aberrations in Fuchs Endothelial Corneal Dystrophy (FECD), using Scheimpflug imaging and anterior segment optical coherence tomography (AS-OCT). SETTING: Academic tertiary referral center. DESIGN: Prospective, cross-sectional observational study. METHODS: A total of 130 eyes (70 FECD, 60 controls) underwent high-resolution imaging using Pentacam AXL Wave and REVO HR OCT. Parameters measured included corneal thickness, Descemet's membrane thickness, epithelial thickness, keratometry, densitometry, and wavefront aberrations. Correlation and multiple regression analyses were performed. Principal component analysis (PCA) identified major structural and optical contributors to visual quality. RESULTS: Anterior higher-order aberrations (HOAs) significantly correlated with Kmax, anterior densitometry, and Descemet's membrane thickness. Posterior HOAs correlated with central corneal thickness and posterior densitometry. Regression models identified Kmax and trefoil components as significant predictors of posterior HOAs. PCA revealed anterior HOAs, stromal haze, and optical degradation as dominant contributors to visual decline. These features varied with FECD grade and inversely correlated with best-corrected visual acuity (BCVA). CONCLUSIONS: Corneal aberrations in FECD are driven by layer-specific structural changes, notably anterior stromal haze and Descemet's membrane thickening. These precede clinical edema and contribute to early visual impairment. Combined AS-OCT and aberrometry improve disease staging and surgical planning.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "COL8A2"
     },
     {
       "pmid": "41866701",
@@ -8889,60 +9041,6 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
-    },
-    {
-      "pmid": "42226100",
-      "doi": "10.1186/s11658-026-00952-6",
-      "zotero_key": "D45NTCEZ",
-      "title": "Exendin-4 averts all-trans-retinal-driven damage to photoreceptors and the retina via the GLP-1R/PKA/CREB1 signaling axis",
-      "authors": [
-        [
-          "Beiting",
-          "He"
-        ],
-        [
-          "Yuling",
-          "Chen"
-        ],
-        [
-          "Peixin",
-          "Cai"
-        ],
-        [
-          "Ruitong",
-          "Xi"
-        ],
-        [
-          "Xiaoqing",
-          "Shen"
-        ],
-        [
-          "Shuting",
-          "Guo"
-        ],
-        [
-          "J",
-          "Chen"
-        ],
-        [
-          "Shiying",
-          "Li"
-        ],
-        [
-          "Yalin",
-          "Wu"
-        ]
-      ],
-      "journal": "Cellular & Molecular Biology Letters",
-      "year": "2026",
-      "abstract": "Atrophic macular degeneration comprises dry age-related macular degeneration (AMD) and autosomal recessive Stargardt disease (STGD1). These disorders lead to irreversible blindness and still lack effective therapies. The rise of all-trans-retinal (atRAL) brought on by visual cycle disruption closely links to retinal atrophy in both conditions, yet the key downstream targets remain obscure. Exendin-4 (EX-4) is a natural glucagon-like peptide-1 receptor (GLP-1R) agonist. Recent clinical retrospective studies indicate that GLP-1R agonists such as exenatide (synthetic EX-4) can markedly lower the 5-year risk of developing dry AMD. Here, we sought to clarify the protective effect of natural EX-4 against retinal degeneration in atrophic macular degeneration linked to impaired clearance of atRAL. Cell and animal paradigms of STGD1 and dry AMD were generated by atRAL-loaded 661W cells and light-exposed Abca4−/−Rdh8−/− mice, respectively. RNA-sequencing, cell viability assays, morphometric analysis, annexin V/propidium-iodide staining using flow cytometry, quantitative polymerase chain reaction (qPCR), western blotting, immunofluorescence, electroretinography (ERG), fundus photography, hematoxylin and eosin (H&E) histology, and TUNEL staining were integrated to delineate the anti-apoptotic actions of EX-4 and to uncover its underlying protective mechanism. GLP-1R/cyclic adenosine monophosphate (cAMP)-dependent protein kinase (PKA)/cAMP response element–binding protein 1 (CREB1) signaling was markedly downregulated in atRAL-challenged 661W cells and in neural retina of light-exposed Abca4−/−Rdh8−/− mice. EX-4 reinstated this pathway, suppressed caspase-3 activation and DNA damage, and curtailed apoptosis in both cell and tissue contexts. Silencing of Glp1r or the PKA catalytic subunits by small interfering RNA (siRNA) abrogated EX-4-induced activation of the PKA/CREB1 axis in atRAL-loaded 661W cells. Pharmacologic blockade of CREB1 phosphorylation with the PKA inhibitor H-89 or the CREB1 inhibitor 666-15 largely nullified the DNA-protective and anti-apoptotic benefits conferred by EX-4 in 661W cells following atRAL exposure, suggesting that the GLP-1R/PKA/CREB1 signaling axis contributes to its cytoprotection action. More importantly, intraperitoneal injection of EX-4 significantly preserved retinal structure and function in Abca4−/−Rdh8−/− mice after exposure to light, and mitigated punctate lesions in the fundus. EX-4 exerted anti-apoptotic and DNA-protective effects against atRAL-induced photoreceptor loss and retinal degeneration at least partially through activating the GLP-1R/PKA/CREB1 pathway. These findings suggest that GLP-1R agonists could serve as potential preventive therapeutics for atrophic macular degeneration associated with atRAL toxicity, including dry AMD and STGD1.",
-      "cited_by_count": 0,
-      "centrality": 0,
-      "source_tags": [
-        "source:recent"
-      ],
-      "category": "6 - Genes",
-      "subcollection": "PROM1"
     },
     {
       "pmid": "42322192",
@@ -11681,6 +11779,60 @@
       "subcollection": "TGFBI"
     },
     {
+      "pmid": "42925597",
+      "doi": "10.1016/j.foodchem.2026.151733",
+      "zotero_key": "GXGGNBVE",
+      "title": "Integrative quality evaluation of tea raw material uniformity using sensory analysis, metabolomics, GC–O, and principal component analysis",
+      "authors": [
+        [
+          "Jixin",
+          "Zhang"
+        ],
+        [
+          "Luyao",
+          "Yang"
+        ],
+        [
+          "Yuxuan",
+          "Zhang"
+        ],
+        [
+          "Yanqun",
+          "Jiang"
+        ],
+        [
+          "Zhibin",
+          "Ye"
+        ],
+        [
+          "Tiehan",
+          "Li"
+        ],
+        [
+          "Shaode",
+          "Hu"
+        ],
+        [
+          "Jingming",
+          "Ning"
+        ],
+        [
+          "Zhengzhu",
+          "Zhang"
+        ]
+      ],
+      "journal": "Food Chemistry",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RNU2-2"
+    },
+    {
       "pmid": "23956131",
       "doi": "",
       "zotero_key": "PXHFF3RQ",
@@ -12035,6 +12187,48 @@
       ],
       "category": "5 - Pathologies",
       "subcollection": "Anomalies du developpement oculaire, Ocular developmental anomalies"
+    },
+    {
+      "pmid": "42897487",
+      "doi": "10.1186/s12886-026-05455-8",
+      "zotero_key": "JEZJ3HTH",
+      "title": "Intravitreal methotrexate as a prophylactic strategy for proliferative vitreoretinopathy in high-risk retinal detachment",
+      "authors": [
+        [
+          "Adrian",
+          "Luyken"
+        ],
+        [
+          "Claudia",
+          "Brockmann"
+        ],
+        [
+          "Valentin",
+          "Junge"
+        ],
+        [
+          "André",
+          "Schulz"
+        ],
+        [
+          "Thomas A",
+          "Fuchsluger"
+        ],
+        [
+          "Friederike",
+          "Schaub"
+        ]
+      ],
+      "journal": "BMC Ophthalmology",
+      "year": "2026",
+      "abstract": "BACKGROUND: Proliferative vitreoretinopathy (PVR) remains the major cause of surgical failure in rhegmatogenous retinal detachment (RRD). This study evaluates the anatomical and functional outcomes, as well as the safety, of a standardized intraoperative intravitreal methotrexate infusion protocol during pars plana vitrectomy (PPV) in eyes with early stage PVR (grade B) or with advanced PVR (grade C). METHODS: A retrospective case series was conducted on 60 consecutive eyes of 59 patients with RRD and PVR grade B (n = 29) or grade C (n = 31) undergoing PPV with adjunct intraoperative methotrexate between November 2024 and February 2026 at a German tertiary center. Methotrexate 40 mg was administered via a 500 mL balanced salt solution infusion. Functional and structural testing included best-corrected visual acuity (BCVA), intraocular pressure, multifocal electroretinogram, perimetry, and spectral-domain optical coherence tomography. The primary outcome measure was single-surgery anatomical success (SSAS) at 12 weeks after primary surgery or after silicone oil removal. Secondary outcomes included BCVA changes and complication rates. RESULTS: SSAS was achieved in 81.7% of all eyes, with a significantly higher success rate in eyes with PVR grade B compared to PVR grade C (93.1% versus 71.0%; p = 0.043). At 12 weeks, BCVA improved significantly in macula-off cases (p < 0.001) and remained stable in macula-on cases. In an exploratory subset of 17 patients postoperative multifocal electroretinogram and perimetry demonstrated preserved central retinal function. No ocular or systemic adverse events related to methotrexate occurred. CONCLUSIONS: The standardized intraoperative intravitreal methotrexate infusion protocol was safe, feasible, and associated with high single-surgery reattachment rates, particularly in PVR grade B eyes. Anatomical outcomes in PVR grade C eyes were comparable to other complex PVR cohorts, without any drug-related local or systemic toxicity. TRIAL REGISTRATION: Not applicable (retrospective observational study).",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "42508613",
@@ -13031,6 +13225,52 @@
       ],
       "category": "6 - Genes",
       "subcollection": "ATF6"
+    },
+    {
+      "pmid": "42945440",
+      "doi": "10.1159/oph/aeeag019",
+      "zotero_key": "DS5HQ4I2",
+      "title": "MACULAR STRUCTURE AND FUNCTION IN RETINAL DETACHMENT COMPLICATED BY PROLIFERATIVE VITREORETINOPATHY",
+      "authors": [
+        [
+          "Rodrigo",
+          "Anguita"
+        ],
+        [
+          "Peng Yong",
+          "Sim"
+        ],
+        [
+          "Lorenzo Ferro",
+          "Desideri"
+        ],
+        [
+          "Moritz Joachim",
+          "Schmid"
+        ],
+        [
+          "Philip J.",
+          "Banerjee"
+        ],
+        [
+          "Martin Sebastian",
+          "Zinkernagel"
+        ],
+        [
+          "David G.",
+          "Charteris"
+        ]
+      ],
+      "journal": "Ophthalmologica",
+      "year": "2026",
+      "abstract": "INTRODUCTION: Macular structural changes after surgery for rhegmatogenous retinal detachment (RRD) complicated by proliferative vitreoretinopathy (PVR) remain poorly characterised. The aim of this study was to evaluate longitudinal macular structural changes on optical coherence tomography (OCT) and their relationship to visual function over 12 months in eyes undergoing pars plana vitrectomy (PPV) with silicone oil tamponade for PVR-related RRD. METHODS: Post-hoc analysis from a phase IIIb, single-centre, participant-masked, prospective, randomised controlled trial of slow-release dexamethasone in PVR-related RRD conducted at Moorfields Eye Hospital. One hundred and thirty-nine (139) eyes of 139 patients undergoing PPV with silicone oil tamponade for RRD with confirmed PVR-C were included. Spectral-domain OCT imaging and best-corrected visual acuity (BCVA, LogMAR) were obtained preoperatively and at 10 days, 6 months, and 12 months postoperatively. Retinal-layer thicknesses were obtained by manual segmentation and 13 qualitative biomarkers were graded. Univariable regression and Firth penalised multivariable logistic regression were used to identify early structural predictors of 12-month BCVA. RESULTS: Central retinal thickness (CRT) increased significantly from 314.9 µm at 10 days to 370.9 µm at 12 months (p  0.80), with an area under the receiver operating characteristic curve of 0.71. CONCLUSIONS: Macular structural changes after surgery for PVR-related RRD reflect extensive cellular remodelling with progressive development of ERM and CMO. Early (10-day) postoperative OCT findings are associated with 12-month visual outcome and may help inform prognosis in PVR-related RRD.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "BEST1"
     },
     {
       "pmid": "3127340",
@@ -16371,6 +16611,72 @@
       "subcollection": "FBN1"
     },
     {
+      "pmid": "42948634",
+      "doi": "10.3892/etm.2026.13331",
+      "zotero_key": "WNNIVNEA",
+      "title": "Prenatal diagnosis of CHARGE syndrome in a fetus with a novel CHD7 splicing mutation: A case report",
+      "authors": [
+        [
+          "Elena",
+          "Papageorgiou"
+        ],
+        [
+          "Christina",
+          "Keramida"
+        ],
+        [
+          "Elissavet",
+          "Siomou"
+        ],
+        [
+          "Chrisoula",
+          "Eustathiadou"
+        ],
+        [
+          "Michail",
+          "Rotas"
+        ],
+        [
+          "C.",
+          "Chlapoutaki"
+        ],
+        [
+          "Sotirios",
+          "Sotiriou"
+        ],
+        [
+          "Georgios-Konstantinos",
+          "Papaioannou"
+        ],
+        [
+          "Marios",
+          "Mamalis"
+        ],
+        [
+          "Sandro",
+          "Orrù"
+        ],
+        [
+          "Emmanouil",
+          "Manolakos"
+        ],
+        [
+          "Ioannis",
+          "Papoulidis"
+        ]
+      ],
+      "journal": "Experimental and Therapeutic Medicine",
+      "year": "2026",
+      "abstract": "CHARGE syndrome is a rare genetic, multisystem disorder with a number of malformations associated with coloboma, heart defects, choanal atresia, retardation of growth and/or development, genitourinary malformation and ear abnormalities.The primary causes of CHARGE syndrome are mutations in the chromodomain helicase DNA binding protein 7 (CHD7) gene.Therefore, the present report outlines the case of a fetus with a variety of ultrasound findings, including persistent left superior vena cava (LSVC), delay in the fusion of the cerebellar vermis, inferior vermis hypoplasia and borderline mega cisterna magna (MCM).Fetal exome sequencing revealed the presence of the novel c.2836-3C>G splicing mutation in CHD7, which was classified to be likely pathogenic.Genetic testing of the parents showed that neither were carriers of the mutation, suggesting a de novo origin.Due to the poor prognosis resulting from the combination of clinical findings and the identification of the novel, likely pathogenic mutation, the couple opted for pregnancy termination following genetic counseling.The present report includes the description of the fetal sonographic features and MRI findings.To the best of our knowledge, this is the first documented case of persistent LSVC and borderline MCM observed in a fetus with CHARGE syndrome.Since prenatal diagnosis of CHARGE syndrome is rare, the present report may serve as a valuable reference for evaluating similar findings in other prenatal cases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "CHD7"
+    },
+    {
       "pmid": "42474571",
       "doi": "10.1007/s11701-026-03655-4",
       "zotero_key": "GS43U8MT",
@@ -17936,6 +18242,32 @@
       "subcollection": "Schnyder corneal dystrophy"
     },
     {
+      "pmid": "42320836",
+      "doi": "10.1016/j.cjca.2026.06.011",
+      "zotero_key": "TJ4JW6DM",
+      "title": "Screen Failure in Transcatheter Tricuspid Valve Intervention: A Call for Timely Referral and Comprehensive Care Pathways",
+      "authors": [
+        [
+          "K",
+          "Kim"
+        ],
+        [
+          "Neil P.",
+          "Fam"
+        ]
+      ],
+      "journal": "Canadian Journal of Cardiology",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
+    },
+    {
       "pmid": "42309414",
       "doi": "10.1016/j.ajo.2026.06.016",
       "zotero_key": "TNQDGAQ9",
@@ -18784,6 +19116,28 @@
       "subcollection": "BEST1"
     },
     {
+      "pmid": "41148027",
+      "doi": "10.4103/ijo.ijo_994_25",
+      "zotero_key": "Z3W8FHX4",
+      "title": "Standardizing anterior lens capsule graft reporting: A call for reproducibility, suture-based fixation, and biobanking",
+      "authors": [
+        [
+          "Joobin",
+          "Khadamy"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2025",
+      "abstract": "Beniwal et al.[1] recently reported the anterior lens capsule (ALC) as a biological patch for small corneal perforations, with favorable early outcomes that broaden its potential use. Building on that observation, this brief commentary addresses the central issue it exposes: inconsistent and incomplete reporting of key variables when ALC is used as a graft. Our focus is to delineate a concise set of reporting elements—donor source, harvesting/processing, storage, handling and orientation, fixation method, and outcome measures—to improve reproducibility, comparability, and safety across studies. Notably, Beniwal et al.[1] did not specify whether the ALC grafts were autologous (from the same patient) or allogeneic (from a donor). Their article mentions that cataract surgery patients were screened for viral markers before the capsule was used in ulcer patients, implying an allogeneic donor source—an important detail that should be stated explicitly.[1] Likewise, the method of capsule harvesting was only partly described (simply noting the use of FLACS). Yet, the supplementary video of the procedure shows the transplanted capsule patch folded multiple times with irregular, frayed edges, rather than a neat double fold. This observation suggests deviations in technique or handling that differ from the ideal, smoothly circular capsulorhexis one would expect from a FLACS or precision pulse capsulotomy (Zepto) device.[2–4] Such variability underlines why authors must disclose the exact harvesting method and any modifications. Differences in how the capsule is obtained—manual continuous curvilinear capsulorhexis versus femtosecond laser versus Zepto—can affect its size, edge quality, and structural integrity. Each of these factors may influence graft performance, yet they are often omitted in reports. To ensure reproducibility and allow comparisons across studies, it is vital that future publications standardize the reporting of key parameters whenever ALC grafts are used. At minimum, authors should clearly document the donor type (autologous, allogeneic—with donor screening, consent, age, lens status, exclusion criteria, and traceability/ID specified—or xenogeneic with species and pathogen testing), the capsule harvesting method (how the ALC was obtained, e.g., manual capsulorhexis, FLACS, or Zepto, including the resulting capsule dimensions and shape), any decellularization technique applied (with specific protocols if used to remove lens epithelial cells), the preservation or storage protocol for the capsule (how it was stored or prepared, including medium, duration, and temperature – for example, fresh use, cryopreservation, or lyophilization), the transfer and handling of the graft (measures to maintain sterility and avoid damage, folding, or desiccation during placement), and any quality control measures performed (such as vital dye staining to assess capsule integrity, microscopic inspection for tears or residual cells, evaluation of biological factor longevity (e.g., basement membrane proteins and growth factors) and confirmation of acellularity if a decellularization method was employed). Additionally, the orientation of the ALC graft—specifically whether the anterior or posterior surface faced the host tissue—should be clearly documented as this may influence adhesion, epithelial migration, and overall biocompatibility. Such orientation details are absent in many reports but may be critical for graft behavior, influencing not only host cell adhesion and migration in culture but also the inflammatory response and integration in vivo, as has been demonstrated in amniotic membrane transplantation where basement-membrane orientation affects epithelialization and healing outcomes.[5] Each of these elements can significantly influence the clinical outcome and safety of ALC grafting, yet current literature shows inconsistent reporting on these details. The proposed checklist [Table 1] provides a concise summary of key domains to be reported in all future studies.Table 1: Checklist for standardized reporting of lens capsule graftsThe importance of consistent methodology was highlighted in a recent narrative review of lens capsule applications. That review found that variability in capsule harvesting techniques and the lack of standardized protocols are hindering broader clinical adoption of ALC grafts.[6] The article emphasized the necessity of standardizing capsule harvesting and preservation methods—potentially in collaboration with eye banks—to improve tissue availability and consistency.[6] For instance, if an allogeneic ALC graft is used, decellularization is crucial to remove residual lens epithelial cells that could incite inflammation. In a comparative study, Yu et al.[7] evaluated several decellularization methods and identified 10% sodium chloride solution followed by sterile water as the most effective approach for creating an acellular human ALC, while still preserving the capsule’s structural integrity. Such findings underscore the importance of reporting any decellularization protocol used; employing an optimal, validated method can enhance graft biocompatibility and should become standard practice in allograft preparation. In the report by Beniwal et al., the ALC patches were secured over the corneal wounds with a tissue adhesive (cyanoacrylate glue).[1] It is worth noting that the lens capsule’s biomechanical resilience also permits suturing as an alternative means of fixation. An ex vivo feasibility study demonstrated that a human anterior lens capsule can be successfully sutured with 10-0 nylon, without tearing or “cheese-wiring” the delicate tissue.[8] The capsule tolerated multiple needle passes and knot tying when handled carefully, reaffirming that it behaves as a robust, elastic membrane.[8] This finding suggests that future surgical techniques could directly suture an ALC graft in place (for example, anchoring it over a corneal defect or affixing it during glaucoma filtering surgery), rather than relying solely on glue. Consequently, whether a graft is glued, sutured, laser-welded (indocyanine green-assisted),[9] or otherwise secured is another technical detail that should be transparently reported[6,8] as graft configuration (e.g., a folded, irregular patch versus a taut sutured layer) might behave differently under stress and thus influence clinical outcomes. We also wish to highlight the potential for using the ALC graft as a tectonic patch from within the anterior chamber, analogous to a Mini-DSAEK approach for macroperforations, as described by Vasquez-Perez et al.[10] This underscores the versatility of the ALC and the importance of defining its preparation and application in varied contexts. Looking ahead, authors are strongly encouraged to include all the above details in any forthcoming reports on ALC grafting. Just as established guidelines exist for reporting outcomes of corneal transplants or implantable devices, a basic set of ALC graft preparation parameters should be expected in published studies. Establishing such reporting standards is not a mere academic exercise but a necessary step toward reproducible surgical outcomes and patient safety. Importantly, standardized preparation and documentation will also lay the groundwork for developing lens capsule biobanking programs. It is foreseeable that eye banks could begin to collect and preserve ALC tissue (similar to how amniotic membrane is banked) to make this underutilized biomaterial readily available to surgeons.[6] So far, no eye bank has initiated systematic harvesting of lens capsules, partly due to the absence of agreed-upon protocols for processing and storage.[6] By converging now on best practices—including donor screening, decellularization, storage conditions, and quality assurance—the ophthalmic community can create a foundation for “capsule banks” and unlock the full potential of lens capsule transplantation. Establishing lens capsule biobanking requires compliance with the prevailing national or regional tissue banking frameworks and the technical standards issued by recognized professional organizations and eye bank associations. Essential elements include validated processing protocols, microbial safety testing, donor eligibility screening, documentation of consent, and robust traceability systems. Practical challenges also arise from ensuring adequate infrastructure for tissue handling and storage, maintaining the biological integrity of key basement membrane components and growth factors over time, and verifying acellularity or sterility following any processing steps. These prerequisites highlight that meaningful implementation depends not only on scientific feasibility but also on coordinated regulatory oversight and standardized quality systems. In conclusion, Beniwal et al.[1] have pioneered a creative use of the ALC in corneal perforation repair. To build on this innovation, future studies must adopt standardized reporting of ALC graft parameters. Such rigor will facilitate cross-comparison of outcomes, ensure safety through transparency, and accelerate progress toward tissue banking of lens capsules. Ultimately, embracing uniform preparation protocols is essential for translating the promise of ALC grafting into widespread clinical practice.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TEK"
+    },
+    {
       "pmid": "42208684",
       "doi": "10.1016/j.toxicon.2026.109171",
       "zotero_key": "42QS3IEA",
@@ -19222,6 +19576,56 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PDE6B"
+    },
+    {
+      "pmid": "39217300",
+      "doi": "10.1186/s12913-024-11448-4",
+      "zotero_key": "CX475JA4",
+      "title": "Suggested solutions to barriers in accessing healthcare by persons with disability in Uganda: a qualitative study",
+      "authors": [
+        [
+          "Andrew Sentoogo",
+          "Ssemata"
+        ],
+        [
+          "Tracey",
+          "Smythe"
+        ],
+        [
+          "Sande",
+          "Slivesteri"
+        ],
+        [
+          "Abdmagidu",
+          "Menya"
+        ],
+        [
+          "Shaffa",
+          "Hameed"
+        ],
+        [
+          "Peter",
+          "Waiswa"
+        ],
+        [
+          "Femke Bannink",
+          "Mbazzi"
+        ],
+        [
+          "Hannah",
+          "Kuper"
+        ]
+      ],
+      "journal": "BMC Health Services Research",
+      "year": "2024",
+      "abstract": "BACKGROUND: There are 1.3 billion people with disabilities globally, and they frequently face barriers to accessing healthcare, contributing to their worse health and higher mortality. However, little research has explored patient-reported approaches to improve healthcare for persons with disabilities. Consequently, this study aimed to explore possible solutions and recommendations to address the existing barriers to access to healthcare for persons with disabilities in rural Uganda. METHODS: We conducted 27 semi-structured interviews with individuals with various disabilities in rural Luuka district, Eastern Uganda, between September and November 2022. The participants included individuals with visual impairment (n = 5), physical impairment (n = 5), hearing impairment (n = 6), multiple impairments (n = 5), intellectual/cognitive impairment (n = 5), and albinism (n = 1). Interviews were recorded, transcribed verbatim, and thematically analysed. We categorized the solutions using the Missing Billion disability-inclusive health systems framework. RESULTS: Our findings, framed within the health systems framework, revealed several critical themes. On the demand side, suggested solutions emphasized advocacy and sensitization for persons with disabilities, their communities, and caregivers about healthcare needs. Socio-economic empowerment and community-based health services were also highlighted as essential. On the supply side, participants stressed the importance of training healthcare workers on disability, facilitating dialogue and experience-sharing sessions, and employing health workers with disabilities. Additional recommendations included improving accessibility and reasonable accommodation, organizing inclusive services like special clinic days and outreaches, ensuring representation in health facility management, and establishing comprehensive rehabilitation services with affordable assistive devices. CONCLUSION: The multifaceted solutions proposed by persons with disabilities highlight the complex challenges they face in accessing healthcare services and highlight the necessity for comprehensive, sustainable interventions. The call to action for policymakers and healthcare providers is to prioritise the incorporation of disability-inclusive practices and explore multi-dimensional approaches that foster a more inclusive healthcare environment that adequately meets the needs of persons with disabilities.",
+      "cited_by_count": 14,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "SLC45A2"
     },
     {
       "pmid": "",
@@ -20018,6 +20422,32 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42928900",
+      "doi": "10.2147/opth.s664127",
+      "zotero_key": "KNTFH5S3",
+      "title": "The Genetic and Phenotypic Spectrum: Beyond Gene-Level Reporting [Letter]",
+      "authors": [
+        [
+          "Fulya Yaylacıoğlu",
+          "Tuncay"
+        ],
+        [
+          "Mehmet Ali",
+          "Ergün"
+        ]
+      ],
+      "journal": "Clinical ophthalmology",
+      "year": "2026",
+      "abstract": "Imaging Features of Familial Exudative Vitreoretinopathy: The Genetic and Phenotypic Spectrum\". 1 The authors provide valuable clinical and multimodal imaging observations in a heterogeneous cohort of patients with familial exudative vitreoretinopathy (FEVR).However, despite the emphasis on the genetic spectrum and genotype-phenotype associations, the study provides limited information regarding both the methodology of genetic analysis and the molecular findings.We believe that the lack of detailed genetic data limits the interpretation of the reported findings and warrants further discussion.First, the methodology of genetic analysis is insufficiently described.Although whole-exome sequencing (WES) constitutes a central component of the study, the methods section provides only a single sentence regarding the genetic testing approach.Essential details, including sequencing depth and coverage, variant filtering strategies, and ACMG/ AMP classification criteria, are not reported.[2][3][4] It is also unclear whether variant analysis was restricted to established FEVR-associated genes and, if so, which genes were included, or whether a broader phenotype-guided or exome-wide analysis was performed.Furthermore, the authors do not specify whether all 28 patients underwent WES using a uniform analytical pipeline or whether targeted familial testing was performed in some cases.These omissions are particularly important for interpreting the 11 genetically unsolved cases, as it remains unclear whether no relevant variants were identified or variants of uncertain significance were excluded from the reported findings.Without this information, the analytical limitations of genetic testing and the interpretation of the reported molecular diagnostic yield cannot be adequately assessed.Second, despite the emphasis on the genetic spectrum of FEVR, the study does not provide variant-level molecular findings.Although pathogenic or likely pathogenic variants were reported in FZD4, LRP5, KIF11, NDP, and TSPAN12 in 17 patients, Table 1 presents only the affected genes and variant counts, without specifying nucleotide changes (HGVS cDNA notation), corresponding protein changes, reference transcripts, zygosity, or variant-specific ACMG/AMP classifications.Consequently, the reported pathogenicity classifications cannot be independently evaluated, and it is not possible to determine whether the identified variants are novel or previously reported.More importantly, this omission directly affects the interpretation of the reported genotype-phenotype associations.The authors report a significantly higher frequency of severe retinal involvement in patients with LRP5 variants compared with those carrying variants in other genes (OR: 7.42, p = 0.008).However, without information on allelic status and variant type across the different genetic groups, it remains unclear whether this association reflects a gene-specific effect or differences in the underlying molecular characteristics of the variants.Previous studies have reported more severe FEVR phenotypes associated with biallelic variants not only in LRP5 but also in FZD4 and TSPAN12, highlighting the potential influence of allelic status on disease severity across different FEVR-associated genes.[5][6][7] Therefore, patient-level molecular findings, including variant descriptions, zygosity, and pathogenicity classifications, should be presented in the main manuscript, with detailed classification evidence provided in supplementary material.Furthermore, public deposition of the identified variants in",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "FZD4"
     },
     {
       "pmid": "42007156",
@@ -20824,6 +21254,40 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "36872746",
+      "doi": "10.4103/ijo.ijo_2984_22",
+      "zotero_key": "3DN73SII",
+      "title": "Training partnerships between United States and Indian eye institutions",
+      "authors": [
+        [
+          "Praneeth",
+          "Kalva"
+        ],
+        [
+          "Monica",
+          "Patel"
+        ],
+        [
+          "Akash",
+          "Kakkilaya"
+        ],
+        [
+          "Karanjit",
+          "Kooner"
+        ]
+      ],
+      "journal": "Indian Journal of Ophthalmology",
+      "year": "2023",
+      "abstract": "Dear Editor, Since the 1970s, ophthalmologists have been leaders in global health efforts in underserved regions and physician training programs.[1] Within the USA, ophthalmology residency programs have partnered with hospitals around the world to broaden their trainees’ exposure to different cultures, clinical practices, and pathologies.[2] We sought to explore the partnerships between US residency programs and Indian eye institutions that allow US trainees to gain these valuable experiences. We screened 115 US ophthalmology residency program websites for international rotation and training opportunities for residents and fellows. Of these, 25 (22%) programs offered international rotations, and of those, 15 (60%) were associated with Indian eye institutions: Aravind Eye Hospitals (7/15, 46.7%), L. V. Prasad Eye Hospital (3/15, 20%), Dr. Shroff’s Charity Eye Hospital (1/15, 6.7%), and Srikiran Institute of Ophthalmology (1/15, 6.7%). Three (20%) programs listed training opportunities in India without specifying a specific institution. Although some US programs send their residents to Latin America and China, the higher number of Indian rotation sites is particularly striking. While sharing a mutual English language, Indian training sites allow US trainees to gain exposure to a variety of pathologies that are uncommon in the US, such as malnutrition, infections, advanced glaucoma, mature cataracts, and uncorrected refractive errors.[3,4] Furthermore, US graduates benefit from the vast surgical expertise of Indian surgeons, particularly their cost-effective approaches to treatment and small-incision cataract surgeries.[5] In addition, the trainees in these programs gain cultural competency, insight into global ethics, and exposure to different health-care systems.[1] In exchange, Indian physicians are exposed to the American approaches to clinical problems through observation and dialog. Our findings demonstrate that the close collaboration between US and Indian ophthalmology departments benefits both patients and physicians. Strong ties between the two nations may aid joint efforts in tackling global health problems, in research, and build on existing programs such as the Seva Foundation, Orbis, and the Association for Research in Vision and Ophthalmology (ARVO). Similarly, creating rotation sites for Indian trainees in the USA may further strengthen this mutually beneficial relationship. Financial support and sponsorship This study was supported in part by the NIH grant P30 EY030413 (Bethesda, MD, USA), Research to Prevent Blindness (NYC, NY, USA), University of Texas Southwestern Medical Student Research Program (Dallas, TX, USA), and NIH award UL1TR001105. Conflicts of interest There are no conflicts of interest.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:search"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "TEK"
+    },
+    {
       "pmid": "42463452",
       "doi": "10.1523/jneurosci.0052-26.2026",
       "zotero_key": "NENPQX7F",
@@ -20888,6 +21352,32 @@
       ],
       "category": "6 - Genes",
       "subcollection": "EYS"
+    },
+    {
+      "pmid": "42913097",
+      "doi": "10.1093/g3journal/jkag292",
+      "zotero_key": "DRGISBE8",
+      "title": "Transcriptomics of independent CRISPR-edited cell lines reveal ciliary-specific ARL13B dependent changes",
+      "authors": [
+        [
+          "Olivia",
+          "Morrison"
+        ],
+        [
+          "Tamara",
+          "Caspary"
+        ]
+      ],
+      "journal": "G3 Genes Genomes Genetics",
+      "year": "2026",
+      "abstract": "Primary cilia coordinate signaling pathways that regulate tissue homeostasis and development, and defects in cilia contribute to numerous ciliopathies. However, the transcriptional consequences of disrupting ciliary protein localization remain poorly defined. ARL13B is a cilia-enriched regulatory GTPase required for ciliary trafficking and signaling. The ARL13BV358A variant is undetectable in cilia yet retains known biochemical functions, providing a unique model to investigate the functions of ciliary ARL13B independently of ciliogenesis. To define transcriptional programs associated with loss of ciliary ARL13B, we generated two independent Arl13bV358A/V358A kidney epithelial cell lines and matched rescue lines. The ARL13BV358A mutation did not affect ciliation frequency or cilia length but altered ciliary protein composition, including loss of ARL3 and INPP5E localization and increased accumulation of TULP3. RNA sequencing revealed expression changes in genes associated with ciliary biology, mechanotransduction, epithelial organization, and kidney-related phenotypes. Despite similar ciliary phenotypes, the independently-derived, mutant clones displayed substantial transcriptomic heterogeneity, highlighting a potential source of variation in CRISPR-based transcriptional studies. By integrating data from the independent mutant and rescue clones, we identified a high-confidence set of 131 genes whose expression reproducibly tracked with loss and restoration of ciliary ARL13B. Together, these findings demonstrate that ciliary ARL13B is required to maintain normal ciliary composition and gene expression programs and underscores the value of multi-clone, rescue-based experimental designs for robust transcriptomic analyses.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "ARL3"
     },
     {
       "pmid": "18293215",
