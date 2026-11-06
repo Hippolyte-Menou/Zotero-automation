@@ -1,122 +1,26 @@
 [
   {
-    "id": "pmid:6605090",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Title directly addresses congenital stationary night blindness (CSNB), the primary disease phenotype caused by NYX (nyctalopin) mutations. Includes loss of ERG oscillatory potentials and optic atrophy — classic CSNB features. Score 5 is just one point below threshold and the topical alignment is strong."
-  },
-  {
-    "id": "pmid:5315207",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Directly about photopic abnormalities in congenital stationary nightblindness, the key disease associated with NYX. No abstract, but the title is unambiguous. Score 5 is just below threshold; clinical characterisation of CSNB is core to the NYX gene collection."
-  },
-  {
-    "id": "pmid:24501124",
+    "id": "pmid:38582455",
     "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "Studies Sox2/Sox6 feedback in maintaining undifferentiated neural progenitors in the ventricular zone of the developing CNS. Although SOX2 is the gene of interest, the entire study concerns general CNS neurogenesis (not retinal or ocular development) with no mention of eye, retina, or microphthalmia. Mechanistic insight is generic rather than ophthalmology-relevant."
+    "confidence": "high",
+    "reason": "Paper studies sulfated glycans in ovarian carcinoma using the 297-11A antibody, which detects Gal-6-O-sulfated LacNAc structures - a CHST3 substrate, not CHST6. CHST6 catalyzes GlcNAc-6-O-sulfation in keratan sulfate chains. No mention of CHST6, cornea, macular corneal dystrophy, or eye disease. The clinical context is entirely oncological and unrelated to CHST6's known disease association."
   },
   {
-    "id": "pmid:26292759",
+    "id": "pmid:40459927",
     "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "Examines Ube2s-mediated regulation of Sox2 protein stability in mouse embryonic stem cells. No abstract to review, but the title places the work squarely in ES-cell/pluripotency biology without ocular context. SOX2 appears only as a stem-cell maintenance factor here, not in the microphthalmia/structural eye disease context that justifies its inclusion in the library."
+    "confidence": "medium",
+    "reason": "Broad review of KS proteoglycan biodiversity across all tissues. While CHST6 is a KS sulfotransferase and a biochemical link exists, the paper does not address CHST6 specifically, the cornea, or macular corneal dystrophy. For a gene-specific ophthalmogenetics library, a general tissue-wide KS review without corneal or ophthalmic focus is too distant from the gene's clinical and anatomical context to warrant inclusion."
   },
   {
-    "id": "pmid:27171428",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Studies Sox2 and Pax6 regulation of neurogenesis in the murine olfactory epithelium. Despite involving a known eye-development gene (Pax6), the experimental system is olfactory, not ocular. The paper does not address eye morphogenesis or any disease phenotype linked to SOX2 in ophthalmogenetics."
-  },
-  {
-    "id": "pmid:35406524",
+    "id": "pmid:21878117",
     "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Reviews zebrafish models of syndromic albinism, directly covering the melanogenesis pathway in which OCA2 is a key gene. Albinism (OCA2-type) is an ophthalmologically important condition (nystagmus, foveal hypoplasia, reduced acuity). The paper discusses conserved developmental pathways, disease mechanisms, and potential treatments — actionable context for an OCA2 gene collection."
+    "confidence": "high",
+    "reason": "NRL (Neural Retina Leucine zipper) is the master transcription factor for rod photoreceptor fate determination; mutations cause RP27 (retinitis pigmentosa). This paper directly addresses rod vs. cone cell fate decisions via retinoic acid signaling in zebrafish, showing that RARalphab mediates rod development and RA shifts progenitor output toward rods at the expense of red cones. This is squarely within NRL's research domain. Correctly flagged for rescue."
   },
   {
-    "id": "pmid:19278018",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "Comparative genetics study investigating whether blue-eye color in lemurs shares the OCA2/HERC2 regulatory mechanism found in humans. The work concerns normal pigmentation variation across primate species, not the disease alleles or ocular pathology relevant to an ophthalmogenetics library. OCA2 is referenced only as a pigmentation locus, not in a clinical context."
-  },
-  {
-    "id": "pmid:27081560",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "Population genetics study mapping the frequency of two OCA2 SNPs (rs1800414, rs74653330) associated with skin and hair pigmentation in East Asian populations. Not a disease study; addresses normal trait variation and selection signals with no ocular phenotype or clinical relevance to the OCA2 gene collection."
-  },
-  {
-    "id": "pmid:7336429",
+    "id": "pmid:32753732",
     "verdict": "relevant",
-    "confidence": 0.94,
-    "reason": "Reports the first Japanese patients with hyperornithinemia and gyrate atrophy of the choroid and retina, demonstrating markedly reduced OAT (ornithine aminotransferase, the OAT gene product) activity and the ornithine-to-proline conversion defect. This is a primary clinical description of the exact disease caused by OAT mutations, making it highly relevant to the OAT gene collection."
-  },
-  {
-    "id": "pmid:26900323",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "The title appears to be a metadata error (stroke rehabilitation), but the abstract is clearly a study of EPHA2 congenital cataract-causing mutations and their effect on EPHA2 protein localisation in epithelial cells. The abstract directly addresses the mechanism by which EPHA2 variants cause congenital cataract, which is the core ophthalmological phenotype for the EPHA2 gene entry."
-  },
-  {
-    "id": "pmid:14709720",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "Studies the role of Syne-1 and kinesin II (including KIF3B) in cytokinesis and membrane-vesicle delivery to the spindle midbody. KIF3B is relevant to retinal disease through intraflagellar transport (IFT) in photoreceptor cilia, not through cell division. The cytokinesis mechanism described here has no established link to photoreceptor degeneration."
-  },
-  {
-    "id": "pmid:17510633",
-    "verdict": "relevant",
-    "confidence": 0.86,
-    "reason": "Investigates distinct IFT (intraflagellar transport) mechanisms generating ciliary structural diversity in C. elegans. IFT is the exact mechanism through which KIF3B (part of the heterotrimeric kinesin-II IFT motor) is linked to photoreceptor maintenance and retinal dystrophy. The paper directly addresses the mechanistic underpinning of KIF3B's disease-relevant function."
-  },
-  {
-    "id": "pmid:9506951",
-    "verdict": "correctly_rejected",
-    "confidence": 0.78,
-    "reason": "Characterises KAP3 (SMAP) as a KIF3A/B-associated protein that forms a ternary complex with HCAP (a chromosome-associated polypeptide) in the nuclear fraction. The identified interaction and cellular compartment (nucleus/chromosome) are not related to the ciliary IFT function of KIF3B that is relevant to retinal disease."
-  },
-  {
-    "id": "pmid:9475085",
-    "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "Linkage survey of 20 autosomal dominant RP pedigrees characterising the frequency and distribution of known ADRP loci. Chromosome 19q (where IMPDH1 maps) is identified as the second most common ADRP locus. RP9 locus detection is also addressed. Although individual gene names are not yet assigned in the 1998 paper, this is a direct genetic study of the RP landscape relevant to both IMPDH1 and RP9."
-  },
-  {
-    "id": "pmid:19339549",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "Demonstrates that p0071 is transported to the midbody during cytokinesis via KIF3b, linking KIF3 to RhoA activation during cell division. This is another cytokinesis function of KIF3B, not the ciliary IFT activity responsible for its connection to retinal dystrophy. No ocular or photoreceptor content."
-  },
-  {
-    "id": "pmid:28161539",
-    "verdict": "correctly_rejected",
-    "confidence": 0.94,
-    "reason": "Describes a role for KIF3b in the seminoma (testicular germ-cell tumour) cell cycle. Seminoma biology has no established relevance to retinal dystrophy or the IFT/ciliary function of KIF3B. Even with an absent abstract the title is unambiguous."
-  },
-  {
-    "id": "pmid:25506500",
-    "verdict": "relevant",
-    "confidence": 0.87,
-    "reason": "Comprehensive review of ciliary chondrodysplasias (Jeune, short-rib polydactyly, Mainzer-Saldino, cranioectodermal dysplasia, etc.) caused by mutations in IFT genes including IFT140 and IFT172. The abstract explicitly lists eyes among the affected extraskeletal organs and discusses ciliary hedgehog-signalling defects. Directly relevant to the disease syndromic context for both IFT140 and IFT172."
-  },
-  {
-    "id": "pmid:17653047",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Reports a 23% prevalence of PRPH2 (peripherin/RDS) mutations across 61 unrelated Spanish families with autosomal dominant macular dystrophies, including four novel mutations. Directly characterises the mutational spectrum, frequency, and phenotypic range of PRPH2-caused retinal dystrophies — core clinical genetics content for the PRPH2 gene collection."
-  },
-  {
-    "id": "pmid:1326553",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Biochemical study of the cGMP-PDE / transducin (GNAT1) complex in retinal rod outer segments, characterising membrane binding, subunit interactions, and the structural model of the activated complex. This directly describes the molecular function of both GNAT1 (transducin alpha subunit) and the PDE machinery (PDE6 family including PDE6C) in phototransduction — foundational mechanistic content for both gene collections."
-  },
-  {
-    "id": "pmid:41435840",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Biobank-scale study (317,964 AoU participants + UK Biobank validation) quantifying population-level penetrance of IRD-associated variants, directly including FSCN2 and PRPH2 pathogenic alleles. Demonstrates markedly lower penetrance than traditionally assumed and estimates real-world genotype prevalence. Directly relevant to both gene collections and has significant implications for clinical genetics of IRDs."
+    "confidence": "high",
+    "reason": "KIF3B encodes the kinesin-2 motor (KIF3A/KIF3B/KAP complex) that drives intraflagellar transport in photoreceptor cilia. This review covers photoreceptor cilium structure, function, disease-causing mutations in ciliary genes, and gene therapy approaches targeting the cilium for retinal disease treatment. The subject matter is core KIF3B biology. Score of 2 vs. threshold 3 is a marginal miss and the topical relevance is unambiguous."
   }
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:21411639",
+    "id": "pmid:15134637",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Paper directly demonstrates that TRPM1 cation channels of retinal ON bipolar cells are the primary autoantibody target in melanoma-associated retinopathy. TRPM1 is one of the three tracked genes. The study uses Trpm1-/- mice, colocalization with GRM6-pathway markers (Grm6-GFP transgenics, Galpha-o), and retinal cell biology. Highly relevant to TRPM1, and contextually relevant to GPR179 and GRM6 as co-players in ON bipolar cell signaling."
+    "reason": "Title directly indicates this is about subunit configuration of heteromeric cone CNG channels. CNGA3 and CNGB3 (cone cyclic nucleotide-gated channel subunits) are core targets in the gene_or_topic list, and CNGA1 (rod subunit) is studied by comparison. Directly relevant to achromatopsia and cone dystrophy genetics."
   },
   {
-    "id": "pmid:25124745",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title 'Vector platforms for gene therapy of inherited retinopathies' directly covers the therapeutic landscape for GUCY2D (LCA1) and RPE65 (LCA2), which are the canonical first-in-class gene therapy targets for Leber congenital amaurosis. Abstract is absent but the title unambiguously places this paper at the intersection of gene therapy and the two tracked genes. Rescuing is warranted."
-  },
-  {
-    "id": "pmid:7984873",
+    "id": "pmid:16037091",
     "verdict": "relevant",
     "confidence": "medium",
-    "reason": "Calcium modulation of vertebrate phototransduction is directly relevant to both CNGA1 (cyclic nucleotide-gated channel whose gating is calcium-calmodulin modulated) and GRK1 (rhodopsin kinase whose activity is regulated by the calcium sensor recoverin). The abstract is absent and the paper is old (1994), but the subject matter is mechanistically central to both genes."
+    "reason": "Full abstract confirms a detailed mechanistic study of rod phototransduction, cGMP-gated channel physiology, and light adaptation in mammalian vs amphibian rods. Directly relevant to Visual physiology and to CNGA1 (the rod cyclic nucleotide-gated channel whose gating is central to the cGMP mechanisms described)."
   },
   {
-    "id": "pmid:15271992",
+    "id": "pmid:10407028",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Directly studies structure-function of the GNAT1 protein (transducin alpha subunit). The paper introduces mutations in linker regions of alpha(T) and characterizes their effects on basal GDP-GTP exchange rates and cGMP phosphodiesterase activation. Core GNAT1 biochemistry."
+    "reason": "Abstract describes a GUCY2D (retGC1) knockout mouse with cone-specific dystrophy. GUCY2D, GUCA1A, and GUCA1B are all in the gene_or_topic list and are directly studied or mechanistically implicated. The cGMP produced by GUCY2D gates CNGA1 channels, and SLC24A1 mediates calcium extrusion in the same outer-segment signaling cascade."
   },
   {
-    "id": "pmid:14622106",
+    "id": "pmid:11707584",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Directly studies a gain-of-function point mutation (R238Q) in transducin-alpha (GNAT1), characterizing its effects on GTPase activity, RGS9-1 uncoupling, and effector function. This is core GNAT1 molecular biology directly relevant to the gene's functional mechanisms."
+    "reason": "Abstract explicitly measures signal amplification and visual pigment phosphorylation rates in purified rod and cone fractions. GRK1 (rhodopsin kinase) is the enzyme responsible for visual pigment phosphorylation, making this paper directly relevant to the GRK1 gene target. CNGA1 is downstream in the same phototransduction cascade."
   },
   {
-    "id": "pmid:18975915",
+    "id": "pmid:40832404",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Abstract studies pharmacogenomics of steroid-induced ocular hypertension and its relationship to high-tension glaucoma. MYOC (myocilin / GLC1A) is a canonical glaucoma gene and the paper explicitly studies the pathogenetic link to high-tension glaucomas where MYOC is implicated. COL8A2 corneal structural variants may also contribute to aqueous outflow resistance."
+  },
+  {
+    "id": "pmid:2234853",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Studies native vs. reconstituted heterotrimeric transducin purified from bovine rod photoreceptor membranes. Gtalpha = GNAT1. The paper characterizes posttranslational modifications, heterotrimer stability, and interaction with rhodopsin and PDE6, all directly relevant to GNAT1 biology. RGR connection is incidental but GNAT1 relevance is strong."
+    "reason": "Title is 'Macular Dystrophy of the Cornea', which is precisely the disease caused by CHST6 mutations (macular corneal dystrophy / MCDC1). This is a direct disease-gene match."
   },
   {
-    "id": "pmid:10779426",
+    "id": "pmid:41167547",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "ARID1B mutations cause Coffin-Siris syndrome. This case series documents optic nerve hypoplasia and dysplasia in Coffin-Siris patients, directly characterising the ophthalmic manifestations of ARID1B haploinsufficiency. Squarely within the ophthalmogenetics scope."
+  },
+  {
+    "id": "pmid:12161344",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract is a comprehensive review of Ca2+ homeostasis in photoreceptors. CNGA1 (rod CNG channel, main route of Ca2+ entry in the outer segment) and SLC24A1 / NCKX1 (the rod Na+/Ca2+-K+ exchanger responsible for Ca2+ extrusion) are foundational to this review. ACO2 is mentioned in the context of inner-segment metabolism and Ca2+ regulation."
+  },
+  {
+    "id": "pmid:9695791",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "CRYAB (alphaB-crystallin / HSPB5) is a lens crystallin with significant expression in cornea. A review of gene sharing between lens and cornea is directly mechanistically relevant to CRYAB biology, and is also relevant to the Outer coat anatomical topic covering corneal and lens structures."
+  },
+  {
+    "id": "pmid:33558532",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "CDH23 and PCDH15 are the two proteins forming the tip-link in inner ear hair cells, and both cause Usher syndrome (USH1D and USH1F respectively) with associated retinitis pigmentosa. This single-molecule study directly characterises the molecular mechanics and Ca2+ sensitivity of the CDH23-PCDH15 adhesion bond, providing fundamental mechanistic insight into these Usher syndrome genes."
+  },
+  {
+    "id": "pmid:14568616",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "CHST6 encodes carbohydrate sulfotransferase 6, which catalyses sulfation of keratan sulfate glycosaminoglycans in the corneal stroma. A review of sulfotransferases in glycosaminoglycan biosynthesis is directly mechanistically relevant to CHST6 function and to the pathogenesis of macular corneal dystrophy."
+  },
+  {
+    "id": "pmid:42094404",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract studies mGluR6 (GRM6) in retinal ON-bipolar signaling and explicitly shows mislocalization of TRPM1, Bassoon, and ELFN2 in GRM6-ablated organoids. NYX (nyctalopin) is a GPI-anchored protein essential for mGluR6 signaling at the OPL synapse and is in the same signaling complex; CACNA1F (Cav1.4) mediates depolarisation at the same synapse. Both genes cause CSNB and are directly tied to the circuit studied here."
+  },
+  {
+    "id": "pmid:28487520",
     "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "This is a hematology paper characterizing isolation of human hematopoietic stem cells using AC133/CD133 (PROM1) and CD7 as surface markers. The subject is stem cell immunophenotyping and NOD/SCID engraftment. There is no retinal, ophthalmic, or visual disease content. PROM1 is used here only as a generic stem cell surface marker with no connection to its role in photoreceptor outer segment morphogenesis or retinal dystrophy. Off-topic for an ophthalmogenetics library."
+    "confidence": "medium",
+    "reason": "The paper studies TMEM67 mutations in a large-animal model of Meckel syndrome. The gene_or_topic is CC2D2A, which causes MKS6 (a different Meckel locus) and Joubert syndrome. While TMEM67 and CC2D2A are both transition-zone ciliopathy proteins and produce overlapping syndromes, this paper investigates TMEM67 exclusively and does not study CC2D2A. For a gene-indexed ophthalmogenetics library, a paper about a distinct gene modelling a related but separate disease is correctly excluded under CC2D2A."
   },
   {
-    "id": "pmid:7076677",
+    "id": "pmid:21268676",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Classic paper describing isolation and purification of bovine rod outer segment G-protein (transducin = GNAT1 alpha subunit) along with cGMP phosphodiesterase. Foundational biochemistry for GNAT1, directly describing the protein's properties and reconstitution with visual pigment membranes."
+    "reason": "Abstract directly studies peripapillary RNFL thickness by SD-OCT in a cohort of choroideremia patients. CHM mutations are the sole cause of choroideremia, making this a direct clinical characterisation of the CHM disease phenotype."
   },
   {
-    "id": "pmid:8994033",
+    "id": "pmid:1677924",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Directly maps receptor- and betagamma-binding surfaces on the alpha subunit of retinal transducin (GNAT1) using alanine-scanning mutagenesis of 100 mutants. Proposes a mechanism for receptor-catalyzed nucleotide exchange. Central to understanding GNAT1 structure-function."
+    "reason": "Title indicates this is a linkage analysis paper for choroideremia using closely mapped DNA markers. Choroideremia is caused by CHM mutations; early linkage mapping papers established the CHM locus and are foundational to the gene's clinical literature."
   },
   {
-    "id": "pmid:8755504",
+    "id": "pmid:42070230",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Applies evolutionary trace analysis to identify functionally conserved binding surfaces on Galpha subunits, with direct application to transducin (GNAT1). The paper identifies receptor and effector interaction sites on the alpha subunit, proposing a structural model of the receptor-G protein complex. Relevant to GNAT1 signaling mechanism."
+    "confidence": "medium",
+    "reason": "Abstract describes AAV-Foxo1 gene therapy tested in a Fuchs endothelial corneal dystrophy mouse model. COL8A2 mutations cause FECD1 (early-onset Fuchs dystrophy). A paper developing and validating therapeutic strategies specifically for FECD disease models is relevant to the COL8A2 gene entry."
   },
   {
-    "id": "pmid:8550587",
+    "id": "pmid:42771568",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Studies combinatorial peptide library variants of the C-terminal 340-350 region of transducin alpha (GNAT1) that bind rhodopsin with high affinity and stabilize metarhodopsin II. Directly characterizes GNAT1-rhodopsin interaction surface and identifies critical residues. Core GNAT1 biochemistry."
+    "confidence": "medium",
+    "reason": "Abstract explicitly reviews COL4A1/COL4A2-associated microangiopathy as a distinct entity within hereditary cerebral small vessel disease, covering clinical and radiological features. COL4A1 mutations also cause ophthalmic disease (retinal artery tortuosity, cataract, Axenfeld-Rieger-like anomalies); a detailed review of the full disease spectrum provides necessary clinical context for the gene. The paper does not need to be exclusively ophthalmic to be useful under COL4A1 in an ophthalmogenetics library."
   },
   {
-    "id": "pmid:8240815",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Identifies a GTPase-accelerating factor for transducin in rod outer segment membranes (precursor work leading to RGS9 identification). Transducin alpha = GNAT1. The paper characterizes GNAT1 GTPase regulation in its native retinal context. Abstract is empty but the title is unambiguous."
-  },
-  {
-    "id": "pmid:15007073",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Uses time-resolved light scattering to resolve the temporal sequence of Galpha and Ggamma C-terminal interactions with activated rhodopsin (R*) in native membranes. Gtalpha = GNAT1. Proposes a sequential coupling mechanism with direct implications for GNAT1 activation kinetics."
-  },
-  {
-    "id": "pmid:31102292",
+    "id": "pmid:42568836",
     "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Cancer biology review of CD133 (PROM1) as a cancer stem cell biomarker covering signaling pathways and miRNA regulation in solid tumors. No retinal, photoreceptor, or ophthalmic content. PROM1 is relevant to the library only through its role in retinal outer segment disc morphogenesis and inherited macular/retinal dystrophies; this paper has no connection to that biology. Off-topic for an ophthalmogenetics library."
+    "confidence": "medium",
+    "reason": "Abstract is a retrospective study of a multigene bleeding/coagulation panel in patients with bleeding disorder of unknown cause or cerebrovascular events. COL4A1 appears as an incidental pathogenic finding in a subset of CVE patients, but the paper has no ophthalmic content and its scientific focus is haematology and coagulopathy. The connection to COL4A1 ophthalmic manifestations (the basis for its inclusion in this library) is too indirect to justify inclusion."
   },
   {
-    "id": "pmid:11356823",
+    "id": "pmid:42184904",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Identifies constitutively activating mutations (Thr-325, Val-328, Phe-332) in the alpha5 helix of transducin alpha (GNAT1) that increase basal nucleotide exchange up to 165-fold. Directly characterizes GNAT1 activation mechanisms and identifies a functional microdomain mediating receptor-catalyzed exchange."
+    "reason": "Abstract directly studies genetic prediction of progression to endothelial keratoplasty in Fuchs endothelial corneal dystrophy, combining CTG18.1 expansion status with a FECD-specific polygenic risk score. COL8A2 mutations cause FECD1; this paper characterises the genetic architecture and clinical progression of the same disease, directly relevant to the COL8A2 gene entry."
   },
   {
-    "id": "pmid:13373179",
+    "id": "pmid:16359517",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Epidemiological study of prevalence and inheritance patterns of congenital nystagmus in a Swedish population. FRMD7 mutations are the primary cause of X-linked idiopathic congenital nystagmus (NYS1). A population genetics study of congenital nystagmus is directly relevant to FRMD7 as the main causative gene for this phenotype."
-  },
-  {
-    "id": "pmid:8386172",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Studies the inhibitory subunit of cGMP phosphodiesterase (Pgamma) interaction with transducin alpha (T alpha = GNAT1), demonstrating that Pgamma inhibits GTP hydrolysis by transducin and modulates T alpha-T betagamma reassociation. Directly characterizes how GNAT1 function is regulated by its effector interaction."
-  },
-  {
-    "id": "pmid:9726932",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Uses ATR-FTIR spectroscopy to study binding of transducin (GNAT1 alpha subunit and derived C-terminal peptides) to rhodopsin. Abstract is absent but the title unambiguously describes transducin-rhodopsin interaction characterization, directly relevant to GNAT1 function."
-  },
-  {
-    "id": "pmid:11018024",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Studies structural requirements in the C-terminal 340-350 peptide of transducin alpha (GNAT1) for stabilizing metarhodopsin II. Identifies critical residues (Cys-347, N-terminal charge effects) in GNAT1's receptor interaction domain. Core GNAT1-rhodopsin coupling biochemistry."
-  },
-  {
-    "id": "pmid:19332500",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Directly demonstrates light adaptation-associated transcriptional up-regulation of Guca1a (GCAP1, the protein product of GUCA1A) and Guca1b (GCAP2) in isolated photoreceptors and retinas. GUCA1A is the tracked gene. The paper characterizes a novel gene-expression-level mechanism of light adaptation mediated by GUCA1A and provides ERG evidence of functional recovery, directly relevant to GUCA1A biology in photoreceptors."
+    "confidence": "medium",
+    "reason": "GAS6 is the primary ligand for MERTK, activating it on RPE cells to mediate photoreceptor outer-segment phagocytosis. Gamma-carboxylation is required for GAS6 to bind phosphatidylserine exposed on shed outer-segment membranes and trigger MERTK signalling. A paper elucidating gamma-carboxylation's role in GAS6 anti-apoptotic and receptor-activating function is directly mechanistically relevant to MERTK biology and to understanding retinitis pigmentosa caused by MERTK loss-of-function."
   }
 ]

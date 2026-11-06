@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:22178754",
+    "id": "pmid:42934426",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Directly studies FBN1 mutations in Marfan syndrome using iPSC models; demonstrates FBN1-dependent TGF-beta signaling effects on osteogenesis. Core FBN1 mechanistic research."
+    "confidence": 0.72,
+    "reason": "IQCB1 (NPHP5) is a nephronophthisis gene and RPGRIP1L (NPHP8/MKS5) is a Joubert/nephronophthisis gene. This review covers molecular mechanisms of nephronophthisis including Senior-Loken and Joubert syndromes where both genes are mutated. While kidney-focused, the ciliopathy molecular biology is directly relevant to these genes which cause retinal dystrophy as part of ciliopathy syndromes."
   },
   {
-    "id": "pmid:10647894",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Title is explicitly 'Molecular analysis of eight mutations in FBN1'. Direct FBN1 mutation characterization study; relevance is unambiguous despite empty abstract."
-  },
-  {
-    "id": "pmid:18435798",
+    "id": "pmid:19627444",
     "verdict": "relevant",
     "confidence": 0.98,
-    "reason": "FBN1 mutation screening study identifying 46 novel mutations in Marfan syndrome patients. Abstract explicitly mentions ectopia lentis correlating with cysteine missense mutations — directly ophthalmogenetically relevant."
+    "reason": "The study directly uses the Rs1h (retinoschisin-deficient) mouse model, explicitly studying RS1 gene biology. DHA supplementation in this RS1 disease model is directly relevant to understanding RS1-associated retinal degeneration mechanisms."
   },
   {
-    "id": "pmid:31830381",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "FBN1 genotype-phenotype correlation study in Marfan syndrome. Abstract mentions lens dislocation association with missense mutations. Directly relevant to FBN1 and ocular manifestations."
-  },
-  {
-    "id": "pmid:19772952",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Review of molecular biological progress in Marfan syndrome and related disorders. FBN1 is the primary causal gene for MFS; a molecular review of MFS is directly relevant to FBN1. Empty abstract but title scope is unambiguous."
-  },
-  {
-    "id": "pmid:18412115",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Reports FBN1 exon deletions causing severe Marfan syndrome including ocular and skeletal manifestations, and the first mosaicism case in an MFS patient. Directly relevant to FBN1."
-  },
-  {
-    "id": "pmid:17418587",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Identifies novel FBN1 and TGFBR2 mutations and characterizes genotype-phenotype correlations for vascular disease. Directly relevant to FBN1 with a cardiovascular focus."
-  },
-  {
-    "id": "pmid:19533785",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Identifies 24 FBN1 mutations (19 novel) and 6 TGFBR2 mutations in Marfan syndrome probands. Directly relevant FBN1 mutation spectrum study."
-  },
-  {
-    "id": "pmid:15666366",
+    "id": "pmid:15076957",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Describes a novel FBN1 splicing mutation in neonatal Marfan syndrome with severe pulmonary complications. Unusual phenotype but the paper is directly about an FBN1 mutation and its consequences."
+    "reason": "OCT study of X-linked retinoschisis, the disease caused by RS1 mutations. Directly relevant clinical characterization of the RS1 phenotype."
   },
   {
-    "id": "pmid:11139245",
+    "id": "pmid:30935660",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Identifies nine FBN1 mutations in Japanese MFS patients and explores genotype-phenotype correlations. Directly relevant FBN1 mutation characterization."
+    "confidence": 0.98,
+    "reason": "Longitudinal natural history study of congenital X-linked retinoschisis (CXLRS) in 51 patients with disease typing and progression tracking. Directly studies the RS1-caused disease and is a primary clinical reference for the condition."
   },
   {
-    "id": "pmid:29768367",
+    "id": "pmid:20648073",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "FBN1 variant spectrum and phenotypic heterogeneity in Korean MFS patients. Abstract explicitly mentions ectopia lentis association with FBN1 missense mutations — directly ophthalmogenetically relevant."
+    "confidence": 0.98,
+    "reason": "mfERG evaluation of focal retinal function in X-linked retinoschisis patients. Directly characterizes retinal function in the RS1 disease and provides electrophysiological benchmarks for the condition."
   },
   {
-    "id": "pmid:17253931",
+    "id": "pmid:19187097",
     "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Describes automated FBN1 mutation detection strategy, achieving 76% detection rate in 105 MFS patients. Directly relevant diagnostic methodology for FBN1."
+    "confidence": 0.85,
+    "reason": "Studies cGMP-dependent protein kinase (PKG) in photoreceptor degeneration in rd1 and rd2 models. PDE6A hydrolyzes cGMP in photoreceptors, CNGA3 is a cGMP-gated channel, and AIPL1 is a chaperone for PDE6. The paper dissects cGMP-mediated photoreceptor death mechanisms that are directly upstream and downstream of all three genes, and shows PKG inhibition rescues photoreceptors - mechanistically relevant to the shared cGMP pathway."
   },
   {
-    "id": "pmid:34916231",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Characterizes FBN1 variant types as risk factors for severe scoliosis in Marfan syndrome. Genotype-phenotype correlation directly relevant to FBN1, even though the phenotype studied is skeletal rather than ocular."
-  },
-  {
-    "id": "pmid:33910934",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Systematic study of parental somatic mosaicism of FBN1 pathogenic variants in Marfan syndrome. Directly relevant to FBN1 variant biology and genetic counselling."
-  },
-  {
-    "id": "pmid:31950671",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Describes compound heterozygous FBN1 mutations in a large MFS family; mentions cerebral and ocular aneurysms. Directly relevant to FBN1 with ocular involvement noted."
-  },
-  {
-    "id": "pmid:34628919",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "FBN1 mutation spectrum in 6 Chinese MFS families; abstract explicitly documents ectopia lentis associated with cysteine-related FBN1 mutations. Directly ophthalmogenetically relevant."
-  },
-  {
-    "id": "pmid:31163209",
-    "verdict": "relevant",
-    "confidence": 0.94,
-    "reason": "Title explicitly describes FBN1 gene mutations in 26 Hungarian MFS/fibrillinopathy patients. Directly relevant FBN1 mutation study; empty abstract does not undermine the unambiguous title."
-  },
-  {
-    "id": "pmid:34598112",
+    "id": "pmid:15021226",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Sudden death case due to a novel nonsense mutation in Marfan syndrome. MFS is primarily caused by FBN1 nonsense mutations; this is a clinically relevant FBN1 case. Empty abstract warrants a slight confidence reduction, but the title scope is clear."
+    "reason": "The abstract explicitly discusses Myocilin (MYOC) production in relation to outflow resistance and corticosteroid responsiveness in uveitic glaucoma. MYOC gene expression and corticosteroid induction in trabecular meshwork are directly discussed, making this paper relevant to the MYOC gene's role in glaucoma pathogenesis."
   },
   {
-    "id": "pmid:41949522",
-    "verdict": "relevant",
+    "id": "pmid:21835309",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "PubMed retrieval confirms this GWAS found associations between iris patterns and SEMA3A, TRAF3IP1, and SLC24A4 - not OCA2. OCA2 is not among the study's findings or analysis targets. Despite OCA2 being an iris pigmentation gene, this paper does not study OCA2 and therefore has no meaningful connection to it."
+  },
+  {
+    "id": "pmid:31605511",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Studies Smoothened (SMO) in stage-specific regulation of oligodendrocyte development in the spinal cord. The context is CNS myelin biology, not eye development. SMO is in the ophthalmogenetics library for its role in coloboma and microphthalmia (ocular structural development). A spinal cord oligodendrocyte study has no ophthalmological relevance."
+  },
+  {
+    "id": "pmid:39576500",
+    "verdict": "correctly_rejected",
     "confidence": 0.88,
-    "reason": "Addresses mitral valve risk in Marfan syndrome. MFS is caused by FBN1 mutations; mitral valve prolapse is a major cardiovascular feature of FBN1-related disease. Empty abstract reduces certainty but topic is clearly within FBN1/MFS scope."
+    "reason": "General review of GLI protein regulatory mechanisms in Hh signaling focused on tissue development and tumorigenesis. PubMed retrieval confirms no eye-specific content and no focus on SMO itself. While GLI proteins are downstream of SMO, this review has no connection to ocular development, coloboma, or microphthalmia - the ophthalmological context for which SMO is in the library."
   },
   {
-    "id": "pmid:11812790",
+    "id": "pmid:39635117",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Studies Hh signaling (including SMO) in myelin development and repair in oligodendrocytes, using LPC-induced demyelination and cholesterol synthesis as focus. This is a CNS myelination/multiple sclerosis context with no ophthalmological relevance. SMO's role in eye development (coloboma, microphthalmia) is unrelated to this paper's subject."
+  },
+  {
+    "id": "pmid:39473481",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Studies Budesonide binding to SMO cysteine-rich domain to promote myelination of oligodendrocyte precursor cells. The context is CNS remyelination and multiple sclerosis therapy. No connection to ocular development, coloboma, or microphthalmia."
+  },
+  {
+    "id": "pmid:1923319",
     "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Directly studies tyrosinase (TYR gene product) trafficking and retention in the secretory pathway. TYR encodes tyrosinase, mutations in which cause oculocutaneous albinism type 1 (OCA1) with significant ocular phenotypes. Mechanistic understanding of TYR protein behaviour is relevant to the OCA2/TYR gene entry even though the experimental context is melanoma. The connection is real and plausible, consistent with the caution-preferring adjudication rule."
+    "confidence": 0.85,
+    "reason": "Studies an Australian family with X-linked retinal dystrophy and explicitly discusses both RP2 (Xp11.3) and RP3 (Xp21) loci in the context of XLRP. Even though this family mapped to RP3, the paper's comparative analysis and clinical variability discussion directly address the RP2 gene locus and are relevant to the broader XLRP landscape in which RP2 sits."
+  },
+  {
+    "id": "pmid:5764685",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Classic clinical characterization study of sex-linked (X-linked) retinitis pigmentosa using psychophysical and electrophysiological testing, with analysis of carrier females supporting Lyon hypothesis. X-linked RP is caused by RP2 or RPGR mutations, and this foundational study of XLRP phenotype and ERG findings is directly relevant to RP2."
+  },
+  {
+    "id": "pmid:33090715",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Comprehensive genetic testing study of 800 Chinese IRD patients covering non-syndromic inherited retinal dystrophies. GUCY2D (LCA1/CORD6) and PITPNM3 (CORD5) are both IRD genes directly studied in this cohort. The paper characterizes diagnostic rates and variant spectra in these genes."
+  },
+  {
+    "id": "pmid:22183351",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Book chapter or review about genes and mutations in autosomal dominant cone and cone-rod dystrophy. GUCY2D causes dominant CORD6/LCA1 and PITPNM3 causes dominant CORD5. This paper directly covers the genetic landscape of the diseases caused by these two genes."
+  },
+  {
+    "id": "pmid:30910914",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Allele frequency analysis of reported pathogenic variants in 58 AD-IRD genes, questioning the pathogenicity of 122 variants including those in FSCN2, PITPNM3, and SEMA4A. The paper may specifically question whether variants in these genes truly cause AD-IRDs. This is directly relevant to the genetic interpretation and disease associations of all three genes in the gene_or_topic."
+  },
+  {
+    "id": "pmid:22156015",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Studies CD133 (PROM1/prominin-1) expression in rhabdomyosarcoma tissue and cell lines as a cancer stem cell marker. No ophthalmological content. PROM1 mutations cause retinal dystrophies (CORD12, STGD4, RP41, MCDR2), but this paper is entirely about muscle cancer biology with no eye disease relevance."
+  },
+  {
+    "id": "pmid:41613301",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Study of CD markers (likely including CD133/PROM1) in breast cancer stem cell isolation and chemoresistance. Entirely cancer biology context with no ophthalmological relevance. PROM1's retinal dystrophy role is unrelated to this paper's subject."
+  },
+  {
+    "id": "pmid:42518390",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "Rational design of peptide binders targeting prominin-1 (PROM1/CD133) and sortilin for cancer detection and targeted treatment. Cancer biomarker/drug delivery context. No ophthalmological relevance despite PROM1 being the target protein."
   }
 ]

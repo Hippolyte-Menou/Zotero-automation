@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:15858157",
+    "id": "pmid:31440135",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Directly identifies TYR gene mutations (G301R, G227W) responsible for siamese and burmese phenotypes of the albino locus in domestic cats, and characterises TYRP1 variants for the brown locus. Core molecular genetics of TYR gene function."
+    "confidence": 0.90,
+    "reason": "Directly reviews the teneurin family structure and function, explicitly covering TENM3 (also called ODZ3/TEN3). Teneurins are the exact protein family TENM3 belongs to, and their developmental biology (synaptic specificity, cell-surface adhesion) is mechanistically relevant to TENM3-associated coloboma and microphthalmia."
   },
   {
-    "id": "pmid:11274139",
+    "id": "pmid:39287988",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Demonstrates that alphaB-crystallin (CRYAB/HSPB5) inhibits autoproteolytic maturation of caspase-3 in both mitochondrial and death-receptor apoptotic pathways and co-immunoprecipitates with the p24 caspase-3 intermediate in vivo. Direct mechanistic study of CRYAB protein function explaining its anti-apoptotic role."
+    "confidence": 0.85,
+    "reason": "The paper explicitly studies SLC4A11 as an ammonia transporter - this provides direct mechanistic insight into SLC4A11 function. While the disease context is hepatocellular carcinoma, understanding how SLC4A11 operates as a transporter is foundational to understanding its pathological role in corneal dystrophy (CHED2, FECD4). The gene is studied at the molecular level."
   },
   {
-    "id": "pmid:8039502",
+    "id": "pmid:20118971",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Characterises a far-upstream cell-specific enhancer of the mouse TYR gene conferring high-level, copy-number-related expression in transgenic mice. Direct study of TYR transcriptional regulation."
+    "confidence": 0.65,
+    "reason": "SEMA4A is a semaphorin and this review covers semaphorin biology in immune cell responses. SEMA4A has documented roles in both immune regulation and retinal function - the two are not mutually exclusive. With an empty abstract, caution favors inclusion; semaphorin receptor biology reviewed here is mechanistically relevant to understanding SEMA4A's diverse cellular roles."
   },
   {
-    "id": "pmid:12100494",
+    "id": "pmid:32057761",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Investigates TYR mutations in transgenic albino mice that develop amelanotic melanoma and unexpectedly acquire pigmentation; demonstrates tyrosinase activity and protein despite the original nucleotide 291 mutation. Direct TYR gene and protein study in a disease context."
+    "confidence": 0.90,
+    "reason": "Steroid-induced glaucoma has a well-established link to MYOC (myocilin), which is expressed in trabecular meshwork and implicated in steroid-induced intraocular pressure elevation. A clinical management review of steroid-induced glaucoma is squarely relevant to the MYOC gene library entry."
   },
   {
-    "id": "pmid:1292013",
+    "id": "pmid:8399348",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Reports microinjection of mouse tyrosinase minigene (mg-Tyrs-J) into BALB/c albino mice yielding heritable patterned and uniform coat-colour phenotypes. Direct study of TYR gene expression and pigmentation regulation in vivo."
+    "confidence": 0.88,
+    "reason": "LRAT (lecithin retinol acyltransferase) esterifies retinol to retinyl esters in the visual cycle; enzymes that hydrolyze retinyl esters are the complementary arm of the same pathway. A paper on retinyl ester hydrolytic enzymes is directly relevant to LRAT's biochemical context and mutations causing Leber congenital amaurosis."
   },
   {
-    "id": "pmid:8562078",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Maps P-region (S5-S6 loop) accessibility and gating function of the bovine retinal CNG channel using cysteine-substituted residues - this is the CNGA1/RCNC1 channel whose mutations cause retinitis pigmentosa (RP49). Direct structural-functional study of the CNGA1 protein in retinal tissue."
+    "id": "pmid:28391084",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "SWI/SNF complexes in cancer therapeutics. ARID2 is tracked for intellectual disability / ophthalmic genetics, not oncology. With an empty abstract and a cancer-therapy framing, this paper does not connect to the ophthalmic or neurodevelopmental rationale for including ARID2 in the library."
   },
   {
-    "id": "pmid:42752380",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Case report of red-tinted contact lens use in a child with achromatopsia, a disease primarily caused by CNGA3 mutations. Describes clinical outcomes including visual acuity, contrast sensitivity, and quality of life. Directly addresses clinical management of CNGA3-related retinal disease."
+    "id": "pmid:38910326",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "The abstract confirms the paper is specifically about SWI/SNF dysregulation in human lung diseases (malignant and non-malignant). ARID2 is tracked for intellectual disability and ophthalmic genetics; a lung disease focus is off-topic for this library regardless of ARID2 being a PBAF subunit."
   },
   {
-    "id": "pmid:7487869",
+    "id": "pmid:9098284",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Characterises the substrate specificity of alpha-crystallin as a molecular chaperone in the ocular lens context, showing it recognises non-native intermediates on the denaturation pathway. Direct study of CRYAB protein chaperone function that underlies why mutations lead to cataract and other lens pathologies."
+    "confidence": 0.88,
+    "reason": "Wagner vitreoretinal degeneration is a vitreoretinal disease directly within the scope of this gene entry (search keywords include vitreoretinopathy, stickler-syndrome). COL2A1 and VCAN/CSPG2 (also in search keywords) are both implicated in vitreoretinal conditions; a clinical paper on Wagner syndrome is relevant to the library's ophthalmic focus."
   },
   {
-    "id": "pmid:10099937",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract is empty, but the title describes ectopic expression of alphaB-crystallin (CRYAB/HSPB5) in CHO cells suggesting a nuclear function for this protein. Direct study of CRYAB localisation and function; medium confidence due to missing abstract."
+    "id": "pmid:27614704",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "The paper studies a COL11A1 variant in relation to adult height in a Chinese population. The ophthalmic rationale for COL11A1 in this library is Stickler syndrome and vitreoretinopathy; a population genetics study of height is not relevant to the gene's ocular disease context."
   },
   {
-    "id": "pmid:28370",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract is empty, but the title describes biochemical characterisation of human hairbulb tyrosinase comparing normal and albino enzyme properties. Direct study of TYR enzyme; medium confidence due to missing abstract."
+    "id": "pmid:17029294",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "The abstract explicitly describes the paper as studying ColXIa1 in myocardial morphogenesis and heart valve development. Cardiac function research is off-topic for an ophthalmic genetics library. While COL11A1 mutations underlie Stickler syndrome, cardiac development is not part of the gene's ocular disease scope."
   },
   {
-    "id": "pmid:12031619",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract is empty, but the title covers glucocorticoid induction of small heat shock proteins in satellite cells in the context of desmin-related myopathy involving the R120G alphaB-crystallin (CRYAB) mutation - a known pathogenic CRYAB variant. Directly studies CRYAB mutation consequences; medium confidence due to missing abstract."
+    "id": "pmid:8333924",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "The abstract describes this as a review of autoimmunity to cartilage collagens in rheumatoid arthritis, using collagen-induced arthritis as an animal model. While COL2A1 is a cartilage collagen, the paper's focus on joint autoimmunity and rheumatoid arthritis is off-topic for the ophthalmic genetics library that tracks COL2A1 for Stickler syndrome and vitreoretinopathy."
   },
   {
-    "id": "pmid:31743059",
+    "id": "pmid:18066062",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Describes a three-generation family with cone-rod dystrophy carrying a heterozygous CRX deletion [c.(100+1_101-1)_(c.900+1_?)del] that segregates with disease; characterises the arcuate temporal macular lesion phenotype. Direct CRX mutation/phenotype study."
+    "confidence": 0.85,
+    "reason": "WDPCP (Fritz/hFrtz) is known to function at the intersection of planar cell polarity and ciliogenesis. A paper linking ciliary proteins to basal body polarization and planar cell polarity is directly relevant to understanding WDPCP's mechanism, which underlies Bardet-Biedl syndrome and other ciliopathies in this library."
   },
   {
-    "id": "pmid:31322236",
+    "id": "pmid:22326026",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Identifies two novel homozygous CRB1 missense mutations (c.1997T>A and c.2426A>C) in two Chinese consanguineous families with autosomal recessive retinitis pigmentosa and validates segregation in family members and 1260 controls. Direct CRB1 mutation spectrum study."
+    "confidence": 0.82,
+    "reason": "WDPCP/BBS15/CPLANE5 is a bona fide ciliary protein. A proteomic analysis of mammalian primary cilia is directly relevant - it would be expected to include or inform the ciliary localization of WDPCP. With an empty abstract the confidence is moderate, but the topic matches WDPCP's core biology."
   },
   {
-    "id": "pmid:37462250",
+    "id": "pmid:22935613",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Cell Science at a Glance review of N-terminal acetyltransferases covering NAA10 and NAA15 (NatA complex subunits), their substrate coverage, cellular roles and disease connections. Directly relevant to both NAA10 and NAA15 genes in the library."
+    "confidence": 0.83,
+    "reason": "WDPCP (Fritz) functions together with INTU and FUZZY as a planar cell polarity effector complex. A paper on Intu and primary cilia in cell differentiation is directly relevant to the WDPCP/Fritz/INTU/FUZZY ciliopathy pathway. This is mechanistically central to WDPCP's role in Bardet-Biedl syndrome."
   },
   {
-    "id": "pmid:29109912",
+    "id": "pmid:32894826",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "GWAS of iris and skin pigmentation in East Asians finds genome-wide significant association at the OCA2 region driven by the non-synonymous rs1800414 variant explaining up to 11.9% of iris colour variance. Direct OCA2 genetics study of a trait it mediates."
+    "confidence": 0.87,
+    "reason": "WDPCP is a WD40-repeat protein whose mutations cause Bardet-Biedl syndrome (a ciliopathy). The abstract explicitly reviews WDR proteins in ciliopathies and endocrine disorders, which is precisely the disease context for WDPCP. This review likely covers WDPCP or its closely related family members."
   },
   {
-    "id": "pmid:29195075",
+    "id": "pmid:18765832",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract is empty, but the title describes complex genetic architecture of skin pigmentation in Africans - a study expected to involve OCA2 and SLC24A5 loci. Relevant given both genes are pigmentation loci; medium confidence due to missing abstract."
+    "confidence": 0.88,
+    "reason": "FZD4 and FZD5 are frizzled Wnt receptors directly tracked in this entry. A paper on how alternative Wnt signaling is initiated by distinct frizzled receptors is mechanistically central to understanding FZD4 (FEVR) and FZD5 (coloboma) function. The search keywords explicitly include both genes."
   },
   {
-    "id": "pmid:27499155",
+    "id": "pmid:1515706",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Demonstrates that SNPs in the OCA2/HERC2 region (rs12913832, rs1129038, rs916977) that determine eye colour are significantly associated with uveal melanoma risk (OR ~0.5, p < 1e-7). Directly implicates OCA2 as a uveal melanoma susceptibility locus with ophthalmic relevance."
+    "confidence": 0.80,
+    "reason": "The paper directly studies eye defect etiology in a mouse model, examining extracellular matrix (glycosaminoglycans, laminin) in developing eye structures. FREM1 and CRYGB are both associated with structural eye anomalies (microphthalmia, cataract). A paper specifically about ECM disruption in the developing eye is relevant to both genes."
   },
   {
-    "id": "pmid:19736324",
+    "id": "pmid:6223038",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Describes a directional Wnt/beta-catenin-Sox2-proneural pathway that coordinates the transition from proliferation to differentiation in the Xenopus retina, with Sox2 having dual roles in promoting competence and inhibiting differentiation via Notch. Direct study of SOX2 in retinal development."
+    "confidence": 0.90,
+    "reason": "CHST6 encodes the sulfotransferase responsible for sulfating corneal keratan sulfate; its mutations abolish corneal keratan sulfate sulfation, causing macular corneal dystrophy. A paper specifically characterizing corneal keratan sulfate biochemistry is foundational to understanding CHST6's substrate and disease mechanism."
   },
   {
-    "id": "pmid:9858536",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Mechanistically characterises SOX1/2/3 regulatory target selection, showing that the proximal C-terminal domain of SOX2 specifically interacts with a partner factor that determines target specificity. Direct study of SOX2 molecular mechanism relevant to understanding how SOX2 mutations affect transcription in microphthalmia and anophthalmia."
+    "id": "pmid:21298098",
+    "verdict": "correctly_rejected",
+    "confidence": 0.78,
+    "reason": "Although a Col4a1 mouse model is used, the paper's subject is tendon basement membrane biology and adhesion formation after tendon injury. The ophthalmic rationale for COL4A1 is anterior segment dysgenesis, cataract, and retinal disease. Tendon adhesion pathophysiology is not relevant to the ocular disease focus of this library entry."
   },
   {
-    "id": "pmid:23462474",
+    "id": "pmid:33672553",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Shows that SOX2 maintains quiescent progenitor state of postnatal retinal Muller glia; conditional Sox2 knockout disrupts radial morphology and cell-cycle quiescence, causing Muller cell depletion and retinal degeneration rescued partly by Notch induction. Direct study of SOX2 in retinal biology."
+    "confidence": 0.92,
+    "reason": "The abstract explicitly addresses Fuchs endothelial corneal dystrophy (FECD) - the precise disease caused by COL8A2 mutations. The paper studies oxidative stress in corneal endothelial cells in an FECD model, which is directly in-scope for a library tracking COL8A2 (FECD1, FECD). Highly relevant regardless of the specific therapeutic being tested."
   }
 ]

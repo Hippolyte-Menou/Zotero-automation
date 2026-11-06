@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:17177891",
+    "id": "pmid:29708510",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "GNAT1 encodes the rod transducin alpha subunit (G-t-alpha). The paper directly studies the G(t)alpha(340-350) peptide and its interaction with photoactivated rhodopsin, which is the core GNAT1 biochemistry. The transducin alpha-subunit C-terminus is the subject of this NMR structural study."
+    "reason": "Paper directly studies PROS1 as a ligand for MERTK and Tyro3 receptors, with MERTK KO mice explicitly used to dissect the pathway. Core MERTK biology; clearly on-topic for an ophthalmogenetics library studying MERTK-associated retinal dystrophy."
   },
   {
-    "id": "pmid:10736737",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "GUCY2D encodes retinal membrane guanylate cyclase (retGC-1 / ROS-GC1). The paper is about calcium-dependent activation of membrane guanylate cyclase by S100 proteins, which directly addresses the regulation of the GUCY2D protein family. Despite the empty abstract, the title places it squarely in GUCY2D biology."
-  },
-  {
-    "id": "pmid:42900584",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "The abstract explicitly identifies PIKfyve as the lysosomal lipid kinase whose inhibition triggers the studied pathway. The paper is a direct mechanistic study of PIKfyve function and its downstream effects via ClC-7 and LRRK2, making it clearly on-topic for the PIKFYVE gene."
-  },
-  {
-    "id": "pmid:7151791",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "This is a primary characterisation of bovine beta-crystallin gene products, identifying acidic and basic polypeptide chains and their reassociation behaviour. CRYBA1 (beta-A1) and CRYBB1 (beta-B1) are beta-crystallin subunits of exactly this class. The study directly describes the proteins encoded by these genes."
-  },
-  {
-    "id": "pmid:40065510",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Clinical study of early-onset Marfan syndrome caused by FBN1 variants in exon 24-32, covering genotype-phenotype correlations and survival. FBN1 is the causative gene and is named throughout the abstract. Directly relevant."
-  },
-  {
-    "id": "pmid:39511342",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Brazilian cohort study using targeted NGS and FBN1 direct sequencing for aortopathies, identifying novel FBN1 variants contributing to Marfan-like phenotypes. FBN1 is a primary subject of the study."
-  },
-  {
-    "id": "pmid:40959563",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Machine-learning model for cardiac phenotype prediction in ectopia lentis patients, using genotype (FBN1 mutation type) and ocular phenotype. FBN1 mutations are the primary genetic variable analysed; Marfan syndrome diagnosis is an explicit endpoint. Directly relevant to FBN1."
-  },
-  {
-    "id": "pmid:41916683",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Retrospective study identifying diagnostic red flags for Marfan syndrome in children, comparing FBN1-positive versus FBN1-negative cases. FBN1 is the defining molecular criterion throughout. Directly relevant."
-  },
-  {
-    "id": "pmid:26919284",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of 25 years of gene discovery in Marfan syndrome and related disorders, with FBN1 as the central gene and the TGF-beta pathway as the mechanistic frame. A core FBN1 reference."
-  },
-  {
-    "id": "pmid:15235604",
+    "id": "pmid:18451871",
     "verdict": "relevant",
     "confidence": "medium",
-    "reason": "Seminal Nature Genetics paper identifying heterozygous TGFBR2 mutations in a subset of Marfan syndrome patients. Although the finding is TGFBR2, the clinical context is MFS and the paper is part of the foundational FBN1/MFS differential genetics literature. A real connection to FBN1 research is plausible; caution applied."
+    "reason": "Review of apoptotic cell recognition and phagocytic clearance, covering phosphatidylserine recognition and immune suppression by phagocytes - the exact mechanism by which RPE cells (via MERTK) clear shed photoreceptor outer segments. Mechanistically central to MERTK biology in the retina even without explicit eye focus."
   },
   {
-    "id": "pmid:25405392",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Landmark NEJM randomised trial of atenolol versus losartan in children and young adults with Marfan syndrome, the definitive study for cardiovascular management of this FBN1-caused condition. Directly relevant to FBN1 clinical care."
+    "id": "pmid:20444650",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "Paper is specifically about MERTK (Mer) in nephrotoxic serum-induced nephritis. The clinical context is entirely renal inflammation. While MERTK is the gene of interest, the ophthalmogenetics library should capture papers relevant to ophthalmic manifestations; a kidney-disease-specific study does not add meaningfully to understanding MERTK-related retinal dystrophy."
   },
   {
-    "id": "pmid:10774478",
+    "id": "pmid:34090501",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Comprehensive review of Marfan syndrome explicitly describing FBN1 as the causative gene, covering skeletal, ocular, and cardiovascular manifestations and management. A foundational FBN1 reference."
+    "reason": "WldS is a fusion protein whose enzymatic component is NMNAT1; the paper directly studies WldS/NMNAT1-mediated neuroprotection in retinal ganglion cells in a glaucoma model, testing anterograde axon transport and spatial acuity. Directly on-topic for NMNAT1 and retinal neuroprotection."
   },
   {
-    "id": "pmid:8541880",
+    "id": "pmid:40751911",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of FBN1 mutations in Marfan syndrome and related disorders, covering fibrillin-1 structure, genotype-phenotype correlations, and molecular pathogenesis. FBN1 is the explicit subject."
+    "confidence": "medium",
+    "reason": "Paper demonstrates that plasma extracellular vesicles trigger MERTK-dependent signaling via GAS6 and PROS1 ligands to regulate macrophage activation and neutrophil function. MERTK is explicitly and centrally studied. Provides mechanistic understanding of MERTK signaling relevant to its role in RPE phagocytosis and retinal disease."
   },
   {
-    "id": "pmid:8136837",
+    "id": "pmid:42845288",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Reports fibrillin gene mutations causing dominant ectopia lentis and neonatal Marfan syndrome. Ectopia lentis is a key ophthalmic manifestation of FBN1 mutations; the paper is directly on-topic despite an empty abstract."
+    "reason": "Paper directly studies NRL in photoreceptor cell specification in zebrafish, demonstrating that Tbx2b represses synergistic Nrl/Crx activity at the rhodopsin promoter. NRL is a central subject of the study; clearly on-topic for an ophthalmogenetics library."
   },
   {
-    "id": "pmid:1631074",
+    "id": "pmid:27851990",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Identifies two FBN1 mutations producing truncated fibrillin polypeptides in Marfan syndrome patients, using SSCP screening. A primary molecular genetics study of FBN1."
+    "reason": "Review of genetic variants associated with POAG in Indian populations, with CYP1B1 and MYOC among the primary genes discussed. Published in Genomics, specifically about ophthalmic genetics of glaucoma. Directly relevant to both listed genes."
   },
   {
-    "id": "pmid:18310266",
+    "id": "pmid:42754173",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "International study of 1009 FBN1 mutation carriers, evaluating the added diagnostic value of molecular analysis over clinical criteria alone, and aortic risk stratification. FBN1 is the defining molecular marker throughout."
+    "reason": "Systematic review in Survey of Ophthalmology specifically examining gene polymorphisms associated with POAG progression, with MYOC (MYOC.mt1+) explicitly identified as associated with faster optic nerve head damage and visual field deterioration. Directly on-topic for MYOC and glaucoma."
   },
   {
-    "id": "pmid:8533811",
-    "verdict": "relevant",
+    "id": "pmid:32708116",
+    "verdict": "correctly_rejected",
     "confidence": "high",
-    "reason": "Studies fibrillin-1 protein abnormalities (synthesis, secretion, matrix deposition) in MFS patients, correlating fibrillin metabolic groups with phenotypic severity and cardiovascular prognosis. Directly about FBN1 protein biology."
+    "reason": "Review focuses entirely on inner ear gene therapies for hereditary hearing loss and cochlear implants. While CLRN1 and WHRN are Usher syndrome genes with both auditory and retinal phenotypes, this paper addresses only the auditory side and makes no reference to retinal disease or gene therapy for the eye. Off-topic for an ophthalmogenetics library."
   },
   {
-    "id": "pmid:14695540",
+    "id": "pmid:42427680",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Reports 30 novel FBN1 mutations in MFS and related fibrillinopathies with genotype-phenotype analysis including ectopia lentis risk. FBN1 is the explicit subject of the mutation screen."
+    "reason": "Paper demonstrates AAV-mediated gene therapy restoring synaptic architecture, retinal ERG responses, and visual acuity in a mouse model of CSNB (CACNA2D4 KO). The paper is squarely about retinal gene therapy for inherited retinal disease, the primary domain of the ophthalmogenetics library. Tagged under CACNA1F/CEP290/LRIT3 as related CSNB/retinal disease genes."
   },
   {
-    "id": "pmid:11826022",
+    "id": "pmid:42817960",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Evaluates CSGE sensitivity for FBN1 mutation detection in MFS and related phenotypes including ectopia lentis and familial aortic aneurysm. FBN1 mutation analysis is the central subject."
+    "reason": "Paper evaluates deep intronic variants causing cryptic exon activation in patients with recessive inherited retinal disease, testing 640 DIVs from 76 IRD patients using a high-throughput splicing assay. Directly about IRD genetics involving CLRN1, RP2, and RPGRIP1 - all retinal dystrophy genes. Clearly on-topic."
   },
   {
-    "id": "pmid:12203992",
+    "id": "pmid:40379786",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper is about de novo variants in spliceosomal snRNA genes (RNU4-2, RNU5B-1, RNU5A-1) causing neurodevelopmental disorders (ReNU syndrome). No ophthalmic phenotype is described; the disorder and study focus are entirely neurological/developmental. The gene_or_topic RNU2-2 appears to be a peripheral keyword match rather than the paper's subject."
+  },
+  {
+    "id": "pmid:7610579",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "TGGE screening of the entire FBN1 coding sequence in 126 individuals with MFS and type-1 fibrillinopathies, identifying 53 mutations including 33 novel ones. FBN1 is the explicit and sole gene screened."
+    "reason": "Classic paper on choroidal thickness changes and scleral compensation in chick myopia/emmetropization. Directly studies choroidal biology relevant to the Middle coat anatomy category and ARR3 myopia gene context. Core literature for ocular growth regulation."
+  },
+  {
+    "id": "pmid:40622998",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper directly studies the CRYbetaA1-DeltaG91 mutation causing autosomal dominant congenital nuclear cataract in mice, examining crystallin gene expression, protein insolubilization, and lens epithelial cell changes. CRYBA1 is the primary subject; CRYAA, CRYBB2, CRYBB3 are related crystallin genes also discussed. Directly on-topic."
+  },
+  {
+    "id": "pmid:41273252",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper studies gamma-D crystallin (CRYGD) stability under crowded conditions mimicking the human eye lens cytoplasm. Directly relevant to lens biology and understanding crystallin protein behavior associated with CRYGD/CRYAA/CRYBA4 mutations causing cataract."
+  },
+  {
+    "id": "pmid:29414938",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper is specifically about TENM3 (Teneurin-3) controlling topographic circuit assembly in the hippocampus (CA1-subiculum-entorhinal cortex connectivity). The abstract briefly notes TENM3 is 'required for vertebrate visual system development' as background, but the entire study is in the hippocampus with no ophthalmic data. Not relevant to microphthalmia or eye disease."
+  },
+  {
+    "id": "pmid:12915301",
+    "verdict": "correctly_rejected",
+    "confidence": "high",
+    "reason": "Paper characterizes expression of the four Ten-m/Odz (Teneurin) genes in the developing and adult mouse brain. No reference to eye, visual system, retina, or ophthalmic phenotype. Brain expression atlas study; not relevant to the ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:40355371",
+    "verdict": "relevant",
+    "confidence": "medium",
+    "reason": "Paper dissects the structural organization and activation mechanisms of gamma-TuRCs in centrosomes, with TUBGCP4 (GCP4) as a component. TUBGCP4 is associated with microphthalmia and retinal dystrophy; understanding its molecular function in gamma-TuRC is mechanistic background relevant to interpreting TUBGCP4-linked eye disease. Centrosome/cilia biology is frequently pertinent to ophthalmic ciliopathies."
+  },
+  {
+    "id": "pmid:8213841",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Classic paper describing genetic heterogeneity in blue-cone monochromacy, characterizing OPN1LW and OPN1MW gene rearrangements (locus control region deletions, homologous recombination, point mutations) as causes. Directly relevant to multiple listed genes (CNGA3, OPN1LW, OPN1MW) and the retinal dystrophies topic category."
+  },
+  {
+    "id": "pmid:8170936",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Paper clones and characterizes CNG-3 (CNGA3) from bovine kidney as a cyclic nucleotide-gated channel family member. The abstract explicitly opens by noting CNG channels are essential for visual signal transduction. CNGA3 mutations cause achromatopsia; this is a foundational characterization paper for the gene, clearly relevant to the ophthalmogenetics library."
   }
 ]

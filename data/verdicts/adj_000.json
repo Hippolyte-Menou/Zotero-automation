@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:42922393",
+    "id": "pmid:37905027",
     "verdict": "on_topic",
-    "confidence": 0.98,
-    "reason": "COL8A2 is the primary genetic cause of Fuchs Endothelial Corneal Dystrophy (FECD). This paper directly investigates layer-specific corneal structural changes and optical aberrations in FECD patients using Scheimpflug and AS-OCT imaging. The paper is centrally about the disease caused by COL8A2 mutations."
+    "confidence": 0.95,
+    "reason": "COL4A1 is one of six COL4A genes (COL4A1-6) explicitly named and analyzed throughout this paper on collagen IV basement membrane evolution. The abstract discusses COL4A1/2 gene-pair emergence across metazoans and its role as progenitor scaffold. Directly relevant to COL4A1."
   },
   {
-    "id": "pmid:42927157",
+    "id": "pmid:42539265",
+    "verdict": "on_topic",
+    "confidence": 0.90,
+    "reason": "CACNA1F encodes the Cav1.4 alpha subunit of the photoreceptor L-type calcium channel. This paper studies alpha2delta4 (CACNA2D4) gene therapy and explicitly measures restoration of Cav1.4 synaptic localization as the primary outcome. Restoration of CACNA1F protein (Cav1.4) function and localization is a central result, making this directly relevant to CACNA1F biology in retinal synaptopathy."
+  },
+  {
+    "id": "pmid:28018693",
+    "verdict": "on_topic",
+    "confidence": 0.80,
+    "reason": "COL11A1 mutations cause Stickler syndrome type 2 (Marshall syndrome), while this paper covers Stickler type 1 (COL2A1). COL11A1 and COL2A1 form the same collagen XI fibril complex in vitreous; type 1 and type 2 share the same clinical phenotype spectrum. Research on Stickler type 1 is directly relevant to understanding COL11A1-associated Stickler type 2. Caution principle applies."
+  },
+  {
+    "id": "pmid:37854384",
+    "verdict": "on_topic",
+    "confidence": 0.85,
+    "reason": "The abstract (despite title mismatch in PubMed data) describes repeated low-level red-light therapy for myopia control in Stickler syndrome (STL) patients with genetic testing. COL11A1 mutations cause Stickler syndrome type 2, and myopia control in Stickler patients is directly relevant to COL11A1-associated disease management."
+  },
+  {
+    "id": "pmid:38770077",
+    "verdict": "on_topic",
+    "confidence": 0.95,
+    "reason": "Paper describes peripheral retinal nonperfusion identified by fluorescein angiography in confirmed Stickler syndrome patients. COL11A1 is one of the main genetic causes of Stickler syndrome; this clinical finding and management recommendation directly apply to COL11A1-associated Stickler syndrome."
+  },
+  {
+    "id": "pmid:18844904",
+    "verdict": "on_topic",
+    "confidence": 0.90,
+    "reason": "Retrospective series of Stickler syndrome patients with cleft palate documenting ophthalmological (myopia, refractive error), musculoskeletal, and auditory outcomes. COL11A1 is a major Stickler syndrome gene; clinical natural history papers like this are directly relevant to COL11A1-associated disease."
+  },
+  {
+    "id": "pmid:23870125",
     "verdict": "on_topic",
     "confidence": 0.88,
-    "reason": "BEST1 mutations cause autosomal recessive bestrophinopathy (ARB), which characteristically presents with multifocal serous retinal pigment epithelial detachments distributed from posterior pole to equator and full-field ERG abnormalities including severely reduced rod and combined rod-cone responses - precisely the clinical picture described. The unremarkable workup and idiopathic designation are consistent with undiagnosed ARB. The clinical overlap is strong enough that this paper is on-topic for BEST1."
+    "reason": "According to PubMed (DOI: 10.1016/j.cell.2013.06.012), this paper demonstrates that LC3-associated phagocytosis (a noncanonical autophagy pathway) is required for RPE phagocytosis of photoreceptor outer segments and maintenance of the visual cycle. MERTK is the phagocytic receptor on RPE that initiates outer segment engulfment - this paper characterizes the downstream phagocytic degradation pathway essential to MERTK-mediated function in retinal homeostasis."
   },
   {
-    "id": "pmid:42636066",
-    "verdict": "on_topic",
-    "confidence": 0.95,
-    "reason": "ARL3 is the direct molecular substrate of ARL13B's guanine nucleotide exchange factor activity studied in this paper. The paper uses an Arl13bR79Q allele (residue critical for ARL3 GEF activity) to suppress PKD1-dependent cysts. ARL3 activation by ARL13B is a central mechanistic subject of the work, not merely incidental."
-  },
-  {
-    "id": "pmid:42885952",
-    "verdict": "on_topic",
-    "confidence": 0.65,
-    "reason": "SLC45A2 causes oculocutaneous albinism type 4 (OCA4). This tertiary center genetics survey covers albinism (n=18, ~2% of tested patients) among inherited eye diseases in a genetics context. The connection is real but general; per the caution rule, a plausible link to the gene's disease is sufficient to retain the paper."
-  },
-  {
-    "id": "pmid:42924990",
+    "id": "pmid:39119605",
     "verdict": "on_topic",
     "confidence": 0.92,
-    "reason": "The abstract explicitly names LOXL3 as a comparator: 'Biallelic P3H2 variants represent relatively common causes of autosomal-recessive eoHM, with a frequency comparable with LOXL3- and LRPAP1-associated eoHM.' LOXL3 is a directly cited reference point for the paper's main frequency finding."
+    "reason": "Paper studies rescue of trafficking-deficient CNG channel mutants (R272Q, R278W) associated with retinopathies using oleic acid. CNGA3 encodes the alpha-3 subunit of the cone CNG channel; trafficking mutants in CNG channels are a known disease mechanism for CNGA3-related achromatopsia and cone dystrophies. Directly relevant to CNGA3."
   },
   {
-    "id": "pmid:42906679",
+    "id": "pmid:11530337",
     "verdict": "on_topic",
-    "confidence": 0.97,
-    "reason": "GPR179 is explicitly identified in the abstract as a direct binding partner of pikachurin: 'binds to presynaptic dystroglycan, postsynaptic orphan receptor GPR179, and postsynaptic adhesion molecule LRRTM4.' The paper studies the heparan sulfate domain of pikachurin required for GPR179 binding (LRRTM4 co-immunoprecipitation depends on the HS attachment site). GPR179 is a central subject of the work."
+    "confidence": 0.90,
+    "reason": "According to PubMed (DOI: 10.1016/s1471-4914(01)02103-7), this review covers molecular chaperones in retinal dystrophies and specifically identifies retinal degeneration genes functioning as chaperones. AIPL1 (Aryl Hydrocarbon Receptor Interacting Protein Like 1) is a co-chaperone essential for PDE6 assembly in photoreceptors; the paper directly discusses the class of chaperone-function retinal degeneration genes that AIPL1 exemplifies."
   },
   {
-    "id": "pmid:42256003",
+    "id": "pmid:7891370",
     "verdict": "on_topic",
-    "confidence": 0.98,
-    "reason": "EYS variants are explicitly analyzed as a subgroup with the most pronounced hemispheric asymmetry: 'We observed the most pronounced asymmetry in eyes with EYS variants (1.93 +/- 0.21, 95% CI: 1.51-2.34).' EYS is a named genotype subgroup with a specific quantitative finding, making this paper directly relevant to EYS-associated retinitis pigmentosa."
+    "confidence": 0.85,
+    "reason": "According to PubMed (DOI: 10.1136/jmg.31.12.903), this is a comprehensive review of the gene map of primary hereditary diseases of retina, choroid, and vitreous. COL2A1 causes Stickler syndrome type 1 with vitreoretinal degeneration; a 1994 gene map review of vitreous and retinal hereditary diseases would include COL2A1 as a mapped vitreoretinal disease gene."
   },
   {
-    "id": "pmid:42913097",
+    "id": "pmid:27917399",
+    "verdict": "on_topic",
+    "confidence": 0.92,
+    "reason": "Review of the retinoid cycle in retinal disease including rational therapeutic interventions. ABCA4 is the primary retinoid transporter in photoreceptors responsible for clearing all-trans-retinal from disc membranes; its dysfunction causes A2E accumulation and Stargardt disease. Retinoid cycle reviews are central to ABCA4 biology."
+  },
+  {
+    "id": "pmid:20012162",
+    "verdict": "on_topic",
+    "confidence": 0.93,
+    "reason": "According to PubMed (DOI: 10.1007/s11010-009-0322-z), this review covers photoreceptor guanylate cyclase knockouts and explicitly discusses GCAPs (guanylate cyclase-activating proteins), noting their absence in GC double-knockout outer segments. GUCA1A encodes GCAP1, the primary Ca2+-sensitive activator of GUCY2D/GC-E. This paper directly characterizes the guanylate cyclase signaling system that GUCA1A/GCAP1 regulates."
+  },
+  {
+    "id": "pmid:39837650",
     "verdict": "on_topic",
     "confidence": 0.95,
-    "reason": "ARL3 ciliary localization is directly measured in ARL13B CRISPR-edited lines. The abstract states the Arl13bV358A mutation caused 'loss of ARL3 and INPP5E localization.' ARL3 is one of a small set of ciliary proteins whose behavior is directly tracked as a readout of ciliary ARL13B function."
+    "reason": "Review of hereditary vitreoretinopathies covering molecular diagnosis, clinical presentation, and management of Stickler syndrome among other conditions. COL11A1 mutations cause Stickler syndrome type 2, a hereditary vitreoretinopathy; this review is directly relevant to COL11A1."
   },
   {
-    "id": "pmid:15177205",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Foundational review of dark adaptation and the retinoid cycle directly covering the molecular functions of ABCA4 (ATR flippase), RPE65 (retinoid isomerohydrolase), RLBP1/CRALBP (retinoid carrier), LRAT (acyltransferase), RGR (retinal G-protein-coupled receptor), RDH11 (retinol dehydrogenase), GRK1 (rhodopsin kinase), RBP3/IRBP (interphotoreceptor retinoid-binding protein), and CABP4 (calcium binding protein regulating phototransduction). The score-threshold gap of 1 is narrow and the paper's relevance to the listed genes is unambiguous."
+    "id": "pmid:11000483",
+    "verdict": "off_topic",
+    "confidence": 0.90,
+    "reason": "According to PubMed (DOI: 10.1016/s0169-328x(00)00164-9), this paper characterizes subcellular localization of tubby gene family members (TUB, TULP1, TULP2, TULP3). CERKL (ceramide kinase-like) is not a tubby family member and is not mentioned in this paper. The only shared context is both genes being associated with retinal degeneration broadly, which is insufficient for relevance. TULP1 and CERKL are unrelated gene families."
+  },
+  {
+    "id": "pmid:18312782",
+    "verdict": "on_topic",
+    "confidence": 0.90,
+    "reason": "According to PubMed (DOI: 10.1016/j.prp.2007.10.013), this review of ciliary syndromes explicitly includes Bardet-Biedl Syndrome in both its MeSH terms and content. BBS1 is a core component of the BBSome complex causing Bardet-Biedl syndrome ciliopathy; a ciliary syndromes review is directly on-topic for BBS1."
   },
   {
     "id": "pmid:16120006",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Discusses all-trans-retinal (ATR) accumulation, A2E biosynthesis, and retinoid cycle operation in the context of photodamage. A2E accumulation is the central pathogenic mechanism in ABCA4/Stargardt disease (ABCA4 normally prevents ATR/A2E buildup by flipping ATR from disc membranes). The paper also discusses retinoid cycle components including RPE65, RLBP1/CRALBP (implicit in efficient retinoid cycle), RGR, and RDH. Directly relevant to ABCA4 disease mechanism and the other retinoid-cycle genes listed."
-  },
-  {
-    "id": "pmid:28413780",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Baraitser-Winter cerebrofrontofacial syndrome is caused by mutations in ACTB and ACTG1. The paper is specifically about BWMS and lists iris colobomata as a key feature alongside ptosis and hypertelorism. Both ACTB and ACTG1 are the causative genes for the syndrome described; this is directly relevant to both gene collections."
-  },
-  {
-    "id": "pmid:7929587",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "Basic cell biology paper on ACTB mRNA localization via a 3-prime UTR zipcode in chicken embryo fibroblasts. No ophthalmological content, no disease context, no connection to Baraitser-Winter syndrome or structural eye disease. ACTB is in the ophthalmogenetics library for its role in causing BWMS with coloboma; a 1994 mRNA localization study in fibroblasts does not contribute to that disease knowledge."
-  },
-  {
-    "id": "pmid:20847274",
-    "verdict": "correctly_rejected",
-    "confidence": 0.82,
-    "reason": "Biochemistry paper on differential arginylation and coding-sequence-dependent degradation of beta-actin vs gamma-actin. No ophthalmological content, no connection to eye disease or Baraitser-Winter syndrome. Post-translational actin biochemistry without any relevant disease context for this ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:32001148",
-    "verdict": "correctly_rejected",
-    "confidence": 0.72,
-    "reason": "Review of actin isoform regulation in cellular and developmental processes (abstract empty). Title indicates broad cell biology scope with no apparent ophthalmological focus. Consistent with the pattern of basic ACTB molecular biology papers that lack eye disease relevance to this gene's ophthalmogenetics collection."
-  },
-  {
-    "id": "pmid:15336505",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Paper directly addresses a retinoid-processing protein complex in the apical retinal pigment epithelium. RLBP1 encodes CRALBP (cellular retinaldehyde-binding protein), which is the primary retinoid carrier in the apical RPE and a central component of any RPE retinoid-processing complex. This paper is unambiguously about the molecular machinery in which RLBP1 functions."
-  },
-  {
-    "id": "pmid:28077619",
-    "verdict": "correctly_rejected",
-    "confidence": 0.82,
-    "reason": "Comparison of beta-actin (ACTB) and gamma-actin (ACTG1) functions in primary mouse embryonic fibroblasts. No ophthalmological content, no eye disease context, no coverage of Baraitser-Winter syndrome or coloboma. Pure cell biology experiment without relevance to the ophthalmogenetics focus of the ACTB gene collection."
-  },
-  {
-    "id": "pmid:42884024",
-    "verdict": "relevant",
-    "confidence": 0.72,
-    "reason": "Recent (2025) comprehensive review of cytoskeletal disorders affecting the nervous system, covering mutations in actin filament genes. ACTB mutations cause Baraitser-Winter syndrome, which has prominent neurological features (lissencephaly, intellectual disability) alongside ocular ones (coloboma, ptosis). This review would cover ACTB-related cytoskeletal disease in a disease context, providing useful background for the ACTB gene collection even if the ophthalmological aspects are not the primary focus."
-  },
-  {
-    "id": "pmid:8723719",
-    "verdict": "relevant",
+    "verdict": "on_topic",
     "confidence": 0.93,
-    "reason": "Maps the RP10 locus for autosomal dominant retinitis pigmentosa on chromosome 7q to a 5-cM interval. RP10 is listed as a known alias/locus for IMPDH1 (present in the search keywords). This is foundational positional cloning literature that directly defines the genomic region later identified as IMPDH1; it is core disease genetics literature for IMPDH1-associated adRP."
+    "reason": "Paper discusses all-trans-retinal (ATR) phototoxicity, A2E accumulation, and retinoid cycle in light-induced retinal damage. ABCA4 (ABCR) transports all-trans-retinal across disc membranes, and its dysfunction causes excess ATR and A2E accumulation leading to Stargardt disease. The paper explicitly discusses A2E biosynthesis and ATR accumulation, the core consequences of ABCA4 dysfunction."
   },
   {
-    "id": "pmid:42849713",
-    "verdict": "relevant",
-    "confidence": 0.78,
-    "reason": "CRISPR-Cas9 precision medicine for the anterior segment. MYOC (myocilin) is a major anterior segment glaucoma gene and one of the most prominent CRISPR gene therapy targets for primary open-angle glaucoma. A paper specifically about therapeutic applications of CRISPR-Cas9 in anterior segment disorders would very likely cover myocilin-related glaucoma. Empty abstract precludes confirmation, but the thematic alignment and search keywords (MYOC, myocilin, glaucoma) make relevance highly plausible."
-  },
-  {
-    "id": "pmid:15670804",
-    "verdict": "relevant",
+    "id": "pmid:31794245",
+    "verdict": "on_topic",
     "confidence": 0.92,
-    "reason": "Quantifies rod photoreceptor-mediated vision using dark-adapted thresholds as outcome measures in retinal degenerations. CRB1, GUCY2D, RPE65, and SPATA7 all cause Leber congenital amaurosis and related early-onset rod-cone dystrophies. A clinical methodology paper defining outcome measures for rod function in retinal degenerations is directly applicable to natural history studies and clinical trials for all four gene-associated diseases."
+    "reason": "Review of RNA splicing by the spliceosome explicitly discusses U2 snRNA, its pairing with U6 snRNA to form the RNA-based active site, and its role in branch point recognition. RNU2-2 encodes U2 small nuclear RNA, the gene product whose function this paper reviews in mechanistic detail."
+  },
+  {
+    "id": "pmid:42972847",
+    "verdict": "on_topic",
+    "confidence": 0.80,
+    "reason": "Paper establishes a gecko model for studying foveal development and explicitly names albinism (alongside macular degeneration and aniridia) as conditions affecting the fovea that motivate this model. OCA2 encodes the P protein responsible for oculocutaneous albinism type 2 and is associated with foveal hypoplasia. The gecko model is proposed for studying OCA2-relevant foveal developmental pathways. Caution principle applied for plausible connection."
+  },
+  {
+    "id": "pmid:42401922",
+    "verdict": "on_topic",
+    "confidence": 0.95,
+    "reason": "Paper explicitly uses an NRL+/eGFP rod reporter line (WA09 NRL+/eGFP) as a base for the dual reporter system and links NRL to rod photoreceptor specification throughout. NRL (Neural Retina Leucine zipper) is the master transcription factor for rod photoreceptor development; use of NRL reporter lines and analysis of rod vs. cone cone precursors is directly relevant to NRL."
+  },
+  {
+    "id": "pmid:42922550",
+    "verdict": "off_topic",
+    "confidence": 0.95,
+    "reason": "Paper is entirely about TH17 CD4+ T cell differentiation and immune signaling via compound AA147, NRF2, and RORgammat. The abstract explicitly states the reduction in TH17 differentiation is 'independent of ATF6 activation.' The paper has no content relating to retinal disease, cone photoreceptor dystrophy, or ophthalmology. ATF6 is mentioned only as a pathway that is NOT responsible for the observed immunological effect. No plausible connection to ATF6-associated achromatopsia or retinal disease."
   }
 ]
