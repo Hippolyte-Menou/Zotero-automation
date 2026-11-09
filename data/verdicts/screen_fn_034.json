@@ -1,12 +1,12 @@
 [
-{"id": "pmid:29205155", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Hedgehog/Gli2 diet-induced obesity in adipocyte lineage (uses SmoM2 as a pathway tool); pathway-level metabolic paper with no ocular or SMO-gene-specific link"},
-{"id": "pmid:24860986", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Long bone growth in limb development and amphibian regeneration; no SMO or ocular link"},
-{"id": "pmid:27018594", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Hedgehog-beta-catenin interaction in synovial joint and osteoarthritis; pathway paper outside ocular genetics, no SMO-gene focus"},
-{"id": "pmid:27847343", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fish TRIM32 antiviral function; not about TRIM44 and no ocular link"},
-{"id": "pmid:34870341", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Smo deletion in skeletal stem cells controls bone-fat fate in osteoporosis; SMO gene-level but skeletal, no ocular link"},
-{"id": "pmid:22541657", "verdict": "relevant", "confidence": 0.85, "reason": "Vitrectomy outcomes for progressive X-linked retinoschisis, the disease caused by RS1; clinically on-topic for RS1 disease biology (abstract missing, judged from title)"},
-{"id": "pmid:34211088", "verdict": "relevant", "confidence": 0.55, "reason": "TRIM44 mechanistic paper (p62 deubiquitination, DNA repair); gene-level paper on TRIM44 itself, though no ocular link and abstract missing"},
-{"id": "pmid:30593901", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fish SUMO3 antiviral function; not about TRIM44"},
-{"id": "pmid:30792262", "verdict": "relevant", "confidence": 0.55, "reason": "TRIM44 expression as biomarker in cervical cancer; gene-level paper on TRIM44, no ocular link"},
-{"id": "pmid:22517907", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Stromal Hedgehog/Smo effects on B lymphopoiesis; SMO gene-level but hematologic, no ocular link"}
+{"id": "pmid:40385550", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Trans-scleral subretinal microneedle delivery method in rodents and rabbits; no LCA5 or lebercilin content"},
+{"id": "pmid:40349927", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AAV filter adsorption and surfactant formulation study; no LCA5 link"},
+{"id": "pmid:41230903", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Subretinal injection volume and retinal thinning in pig eye; no LCA5 link"},
+{"id": "pmid:40991728", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ELOVL2 and VLC-PUFA supplementation for aging vision and AMD; ELOVL2 is not PRCD, and PRCD is not mentioned"},
+{"id": "pmid:23824587", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Computational screening of OCA2 mutations; OCA2 is distinct from LRMDA (OCA7); abstract empty so judged on title only"},
+{"id": "pmid:1707331", "verdict": "relevant", "confidence": 0.6, "reason": "Embryonic and adult corneal epithelial differentiation with the K3/K12 keratin pair; directly concerns KRT12 (alias K12) expression, though the corneal focus is outside the adnexal-development label. Abstract empty"},
+{"id": "pmid:24581223", "verdict": "uncertain", "confidence": 0.5, "reason": "Canine retinal degeneration miRNA study in which prcd (PRCD-mutant dogs) is one of four models with qRT-PCR; PRCD is a secondary model rather than the focus"},
+{"id": "pmid:30541930", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Canine PRA caused by a PPT1 structural variant in Miniature Schnauzers; PRCD not the causal gene"},
+{"id": "pmid:17623091", "verdict": "uncertain", "confidence": 0.5, "reason": "Finnish lapphund progressive retinal atrophy mapped to CFA9 near GALK1; the paper cites the prcd (rod-cone degeneration) locus as nearby, but the study itself is about a different breed and locus"},
+{"id": "pmid:2309782", "verdict": "relevant", "confidence": 0.9, "reason": "Inheritance and segregation distortion of prcd (progressive rod-cone degeneration) in Miniature Poodles; directly about the PRCD-associated canine disease"}
 ]

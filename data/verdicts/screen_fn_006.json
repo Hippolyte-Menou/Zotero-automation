@@ -1,12 +1,12 @@
 [
-{"id": "pmid:39316135", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "PLS3 early-onset osteoporosis cohort; no ZNF408 link in title or keywords"},
-{"id": "pmid:18367426", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "IGE linkage study in epilepsy family; KCNJ13 only a negative candidate-gene screen, not a retinal/LCA16 paper"},
-{"id": "pmid:39640095", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "case report of IOL-capsular tension ring pupillary block; no ZNF408 link"},
-{"id": "pmid:27350183", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "epidemiology of myopia onset in Singapore children; no ARR3 content"},
-{"id": "pmid:26706569", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "general iPSC ocular tissue review; VSX2 not a focus of the paper"},
-{"id": "pmid:42645443", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "systematic review of NGS in cleft palate and tooth agenesis; NHS (Nance-Horan) not discussed"},
-{"id": "pmid:7873577", "verdict": "relevant", "confidence": 0.6, "reason": "review of tyrosinase enzyme mechanism; TYR is the gene product underlying OCA1, so gene-level biology is on topic despite no abstract"},
-{"id": "pmid:16507982", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "HDAC inhibitor-driven HIF-1alpha degradation; NAA10/ARD1 not part of the study"},
-{"id": "pmid:15451019", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "HIF-1alpha posttranslational modification review; NAA10/ARD1 acetylation not evident from title, no abstract"},
-{"id": "pmid:18264140", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HBx, MTA1 and HDAC1 in hepatocellular carcinoma hypoxia signaling; no NAA10 link"}
+{"id": "pmid:18606534", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General lipid droplet cell biology review; no RAB18 mention in title or abstract (empty abstract). Generic LD biology only, not RAB18-specific."},
+{"id": "pmid:17622624", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HCV core protein lipid droplet association and virus production; no RAB18 link."},
+{"id": "pmid:16543254", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Drosophila lipid droplet subproteome; RAB18 not named in abstract. Generic LD proteomics, at most a tangential mention of Rab proteins that the abstract does not show."},
+{"id": "pmid:19416659", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Leukocyte lipid bodies in inflammation review (empty abstract); no RAB18 link."},
+{"id": "pmid:23551521", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Ectopic lipid storage and insulin resistance review; no RAB18 link."},
+{"id": "pmid:23711956", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Phospholipids and ER structure review (empty abstract); no RAB18 link."},
+{"id": "pmid:28642194", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Lipophagy review (empty abstract); no RAB18 link."},
+{"id": "pmid:33844406", "verdict": "uncertain", "confidence": 0.5, "reason": "Filed under KMT2D. Review on DNA and histone methylation with disease implications; KMT2D (MLL4/MLL2) is a histone methyltransferase and plausibly discussed, but abstract is empty and the title is general. Not clearly KMT2D-specific; the score-based rejection looks reasonable."},
+{"id": "pmid:22578141", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Lipid droplets in immunity and host-pathogen interactions review; no RAB18 link."},
+{"id": "pmid:21870882", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Skeletal muscle lipid droplet proteome and apo A-I; RAB18 not named in abstract. Generic LD proteomics."}
 ]

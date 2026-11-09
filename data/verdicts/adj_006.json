@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:19038374",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Title explicitly names PRPH2/RDS gene mutations and describes phenotypic variability in patients. Directly on-topic for PRPH2 (peripherin/RDS). Thin abstract does not reduce confidence given unambiguous title."
-  },
-  {
-    "id": "pmid:30726412",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Abstract centers entirely on PRPH2 variants causing macular dystrophies. Peripherin-2 protein function and pathogenic variant spectrum are the subject of the paper. Squarely on-topic for PRPH2."
-  },
-  {
-    "id": "pmid:22466463",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Abstract reports Y141C mutation in the peripherin/RDS gene (PRPH2) causing pattern dystrophy with high intrafamilial variability, plus anti-VEGF treatment of associated CNV. Directly about PRPH2 disease genetics and management."
-  },
-  {
-    "id": "pmid:8644804",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Title unambiguously reports autosomal dominant central areolar choroidal dystrophy caused by a codon-142 mutation in the Peripherin/RDS gene (PRPH2). No abstract, but the title alone establishes direct relevance."
-  },
-  {
-    "id": "pmid:26061163",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Abstract fully characterises recessive bi-allelic PRPH2 mutations causing a distinct Leber congenital amaurosis phenotype in children and prominent maculopathy in adults, with asymptomatic heterozygous parents showing macular signs. Core PRPH2 genotype-phenotype literature."
-  },
-  {
-    "id": "pmid:39944181",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Abstract identifies a PRPH2 mutation in the diagnostic workup of presumed autoimmune retinopathy, extends the PRPH2 phenotypic spectrum, and reports intravitreal steroid response. On-topic for PRPH2."
-  },
-  {
-    "id": "pmid:34867178",
+    "id": "pmid:37470964",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Review of autosomal optic atrophy genes linked to mitochondrial dysfunction. ACO2 (aconitase 2, mitochondrial) is a known causative gene for autosomal optic atrophy with retinal involvement. The review covers all currently identified causative genes in this category, making it directly relevant to ACO2."
+    "reason": "The abstract confirms novel compound heterozygous variants in FREM1 were identified and speculated to cause the neonatal progeria phenotype in this patient. The paper directly characterizes FREM1 variants, fully on-topic for the FREM1 gene entry."
   },
   {
-    "id": "pmid:25920555",
-    "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Genotyping study of a Northern European Joubert syndrome cohort. CC2D2A (JBTS9) and RPGRIP1L (JBTS7/MKS5) are among the most frequently mutated Joubert syndrome genes; this cohort study would report mutations in both. Title and keywords align tightly."
-  },
-  {
-    "id": "pmid:35218890",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Review of mechanotransduction in auditory and vestibular hair cells. CDH23 and PCDH15 encode the two subunits of the tip link that gates mechanotransduction channels — they are the central molecules of this process. CIB2 modulates TMC-channel-based mechanotransduction. A review of hair-cell mechanotransduction molecules would cover all three in depth."
-  },
-  {
-    "id": "pmid:32307080",
+    "id": "pmid:34332989",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Investigates ATP effects on gamma-S-crystallin (the CRYGS protein) stability in the human eye lens under crowding conditions. Directly studies the biophysics of the CRYGS-encoded protein. Relevant to cataract mechanism."
+    "reason": "Published in Experimental Eye Research, this review focuses on the redox chemistry of Cys-rich gamma-crystallins (which CRYGD and CRYGS are) in the context of lens transparency and cataract. Directly relevant to both genes."
   },
   {
-    "id": "pmid:31084934",
+    "id": "pmid:19173613",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Studies the G57W variant of human gamma-S-crystallin (CRYGS) using hydrogen-deuterium exchange, characterising pro-cataractogenic conformational excursions. CRYGS G57W is a known pathogenic mutation. Directly relevant to CRYGS."
+    "confidence": 0.88,
+    "reason": "Although primarily a proteomics methods paper, the application directly studies gammaS-crystallin (CRYGS) peptide deamidation across normal aging and cataractous human lenses. CRYGS protein is a primary subject of the study, making it on-topic for the CRYGS gene entry."
   },
   {
-    "id": "pmid:37905108",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Abstract directly studies PCDH15 (protocadherin 15) dimer nanomechanics under physiological Ca2+ and characterises the V507D point mutation associated with non-syndromic hearing loss. Squarely on-topic for PCDH15."
-  },
-  {
-    "id": "pmid:42883758",
-    "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Biophysical mutagenesis study of the whirlin (WHRN) PDZ tandem, mapping residue-level energetics of transient misfolding. Whirlin is the scaffold protein encoded by WHRN, mutations in which cause Usher syndrome 2D (retinal dystrophy plus deafness). A structural study of the disease protein is within scope for a gene-focused ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:21520335",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Identifies a BBS1 splice-donor mutation causing an exceptionally mild Bardet-Biedl phenotype and demonstrates U1 snRNA gene therapy restoring correct BBS1 splicing in patient fibroblasts. Directly about BBS1 genetics and therapeutic correction."
-  },
-  {
-    "id": "pmid:20012162",
-    "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Title reports novel photoreceptor guanylate cyclase functions revealed by targeted deletion; GUCY2D encodes retinal guanylate cyclase 1 (RetGC-1/RETGC-1), GUCA1A encodes its activator GCAP1. Both genes are directly studied. Missing abstract does not reduce confidence given the unambiguous title."
-  },
-  {
-    "id": "pmid:40689462",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Review of membrane-bound guanylyl cyclases localised to the ciliary compartment. GUCY2D (RetGC-1) is the canonical cilium-restricted retinal membrane GC; RD3 is a regulator of RetGC trafficking/activity. The abstract specifically covers cilium-restricted receptor-type GCs, placing GUCY2D and RD3 at the centre of the review."
-  },
-  {
-    "id": "pmid:23687432",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Microarray expression profiling of the rd3 mouse retina specifically to characterise the RD3 gene-deficiency phenotype (LCA12 model). Identifies phototransduction and immune-response pathway changes. Directly studies RD3 function and pathomechanism."
-  },
-  {
-    "id": "pmid:9367224",
+    "id": "pmid:36732661",
     "verdict": "correctly_rejected",
-    "confidence": 0.78,
-    "reason": "Hearing loss paper proposing the RBF/DnJ mouse as an animal model of Usher syndrome type IIa. Usher IIa is caused by USH2A mutations, not RD3. The paper was likely co-cited with RD3 literature due to the shared hearing-plus-retinal phenotype angle, but the primary scientific focus is on hearing loss and Usher IIa pathology, not on RD3 gene function or retinal disease. Without an abstract the connection to RD3 cannot be confirmed, and the title alone suggests USH2A biology rather than RD3."
+    "confidence": 0.88,
+    "reason": "The abstract reveals this is a craniosynostosis study of 101 infants; FREM1 appears as an incidental finding in only 1 patient out of 101. The paper's focus is SMAD6, FGFR2, and TWIST1 in craniosynostosis; there is no discussion of eye anomalies or FREM1-related ophthalmic phenotypes. The connection to ophthalmogenetics is too marginal."
   },
   {
-    "id": "pmid:12374753",
+    "id": "pmid:35341744",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Published from the National Eye Institute, this structural study of gammaS-crystallin (CRYGS) domain-swapping and aggregation is explicitly tied to cataract pathogenesis. Directly on-topic for the CRYGS gene entry."
+  },
+  {
+    "id": "pmid:11060213",
     "verdict": "relevant",
     "confidence": 0.92,
-    "reason": "Biochemical characterisation of hierarchical protein interactions with U4/U6 snRNA and a defined biochemical role for U4/U6 proteins. PRPF3 (hPrp3/RP18) is a U4/U6 snRNP protein; SNRNP200 (Brr2) is a U4/U5/U6 tri-snRNP helicase; RNU4ATAC encodes U4atac snRNA of the minor spliceosome. This paper addresses the molecular interactions at the heart of all three gene products."
+    "reason": "Classic paper characterizing genetic heterogeneity of Usher syndrome type I with 151 families. MYO7A mutations identified in 64 families; USH1D (CDH23) and additional chromosome 10 loci mapped. MeSH terms include Retinitis Pigmentosa. Directly relevant to MYO7A, CDH23, USH1C, and by extension to the broader Usher gene set (ADGRV1, CLRN1) in the library."
   },
   {
-    "id": "pmid:25957814",
+    "id": "pmid:28381413",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "The paper studies photoreceptor disc morphogenesis via peripherin and its suppression of ciliary ectosome release. ROM1 (retinal outer segment membrane protein 1) is a direct peripherin-binding partner essential for disc formation and is in the gene list. The abstract is fully within the photoreceptor biology scope of CDHR1, RAB28, and ROM1."
+  },
+  {
+    "id": "pmid:38532366",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "PROM1 (CD133/prominin-1) is the primary subject of this review. PROM1 mutations cause Stargardt disease, macular dystrophy, and retinitis pigmentosa; the review explicitly covers PROM1's role in cilia and membrane protrusions relevant to photoreceptor biology. Directly on-topic for the PROM1 gene entry."
+  },
+  {
+    "id": "pmid:12408083",
+    "verdict": "relevant",
+    "confidence": 0.80,
+    "reason": "Published in an ENT journal but MeSH terms explicitly include Retinitis Pigmentosa, confirming the ophthalmic component is covered. ADGRV1 and CLRN1 are in the library for their USH3/USH2C retinal dystrophy roles; a paper describing genotype-phenotype correlations across the full Usher syndrome spectrum (hearing + retinal) is directly relevant for understanding these genes."
+  },
+  {
+    "id": "pmid:19392879",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Review of mRNA metabolism defects in neuronal disease, covering retinitis pigmentosa as a major example alongside SMA and XLMR. PRPF3 (RP18) mutations cause RP through mRNA splicing defects. The paper explicitly discusses how pre-mRNA processing mutations cause tissue-specific retinal degeneration, placing PRPF3-related RP at its centre."
+    "reason": "Review of canine models of inherited retinal degeneration for therapy testing, with particular emphasis on corrective gene therapy. RPE65 and RPGRIP1 canine models are cornerstones of LCA gene therapy development. Directly relevant to both genes."
+  },
+  {
+    "id": "pmid:17493778",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "The paper studies AAV-delivered anti-clarin-1 ribozyme effects in the mouse cochlea (outer and inner hair cells, stria vascularis). Despite CLRN1 being a USH3A gene with retinal involvement, this paper has no retinal component and the finding (ribozyme-induced cochlear apoptosis) is a negative result for therapy. Too cochlear-focused for an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:17306875",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Published in Ophthalmology, this case report directly investigates retinal structure and treatment potential in a patient with RPGRIP1-LCA (LCA6), using OCT and psychophysics to map preserved photoreceptors. Central case report for RPGRIP1 gene therapy candidacy."
+  },
+  {
+    "id": "pmid:23278760",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "The abstract directly reports a novel homozygous RPGRIP1 frameshift mutation (c.2608_2609insA) causing LCA6 in a consanguineous Emirati family, confirmed by NGS and Sanger sequencing. Textbook example of on-topic content for the RPGRIP1 gene entry."
+  },
+  {
+    "id": "pmid:32736544",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "The abstract confirms a novel homozygous RPGRIP1 nonsense mutation (p.C765X) causing LCA6 in Japanese siblings, with 27-year follow-up. Directly on-topic for both RPGR and RPGRIP1 gene entries, with detailed clinical and genotypic data."
+  },
+  {
+    "id": "pmid:28157192",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "The abstract describes molecular diagnosis of 106 simplex RP cases using a targeted gene panel; USH2A, CERKL, and RP1 are among the causative genes identified. Directly relevant to the CERKL, RP1, USH2A gene entries, and also to the Genetic testing topic category."
+  },
+  {
+    "id": "pmid:26773734",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "The abstract is entirely about BCOR aberrations in extranodal NK/T-cell lymphoma. The paper discusses BCOR as a tumor suppressor in lymphoma pathogenesis. No connection to ophthalmology, eye development, microphthalmia, or structural eye disease."
+  },
+  {
+    "id": "pmid:26752546",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "The abstract covers novel BCOR-MAML3 and ZC3H7B-BCOR gene fusions in small blue round cell sarcomas. Pure oncology paper; no connection to ophthalmogenetics, microphthalmia, or structural eye disease."
+  },
+  {
+    "id": "pmid:23580382",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "The abstract describes ZC3H7B-BCOR gene fusion in endometrial stromal sarcomas. Pure gynecological oncology paper; no connection to ophthalmogenetics, microphthalmia, or structural eye disease."
+  },
+  {
+    "id": "pmid:38884738",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "The abstract covers human genetics of Tetralogy of Fallot and double-outlet right ventricle (cardiac defects). BCOR is not mentioned in the abstract or MeSH terms; the paper focuses on NKX2-5, GATA4, TBX1/TBX5, and 22q11 deletion. No direct ophthalmogenetics connection."
+  },
+  {
+    "id": "pmid:18280243",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "The abstract describes the crystal structure of a BCOR corepressor peptide bound to the BCL6 BTB domain, with application to killing BCL6-positive lymphoma cells. Structural biology/lymphoma paper; does not address BCOR's role in eye development, microphthalmia, or structural eye disease."
   }
 ]

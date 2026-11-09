@@ -1,12 +1,12 @@
 [
-{"id": "pmid:8056849", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Connexin chimera study of Cx43/Cx32/Cx38 channel gating; does not involve GJA8 (Cx50)"},
-{"id": "pmid:2848816", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Liver gap junction protein (Cx32) topology; no GJA8/Cx50 link"},
-{"id": "pmid:9592087", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cx32 mutations in CMTX; Cx50 only mentioned as a partner, paper is about GJB1"},
-{"id": "pmid:11350787", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Alveolar epithelial connexins (Cx32/Cx43/Cx46); Cx46 is GJA3, not GJA8"},
-{"id": "pmid:10426548", "verdict": "relevant", "confidence": 0.55, "reason": "Calcium-dependent stimulation of membrane guanylate cyclase (ROS-GC, the GUCY2D product) in bovine retina by S100 proteins; retinal GUCY2D biology, though abstract is empty"},
-{"id": "pmid:9369488", "verdict": "relevant", "confidence": 0.55, "reason": "CD-GCAP (S100beta) activation of rod outer segment guanylate cyclase (ROS-GC/GUCY2D); mainly protein identity but functionally about GUCY2D regulation"},
-{"id": "pmid:18425059", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "GJA1 (Cx43) ODDD mutation; not GJA8"},
-{"id": "pmid:11368183", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Soluble guanylyl cyclase calcium inhibition mechanism; not GUCA1A/GCAP1 and not retinal"},
-{"id": "pmid:24385969", "verdict": "relevant", "confidence": 0.95, "reason": "Functional study of Cx50 (GJA8) amino-terminal domain gap junction biophysics; directly about GJA8 protein, wrongly scored below threshold"},
-{"id": "pmid:19941036", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Atrial natriuretic factor receptor guanylate cyclase (NPR-A/B) signaling review; not GUCA1A/GCAP1"}
+{"id": "pmid:41410385", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Motile cilia subcellular proteomics across tissues; general ciliary proteome, no CEP290 or CABP4 focus. Only tangential ciliopathy framing."},
+{"id": "pmid:38798559", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Endocardial primary cilia and KLF4 in cushion development; no CEP290 link in abstract."},
+{"id": "pmid:40200693", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Homozygous WNT11 variant with laterality and heart/renal defects; no CEP290 link."},
+{"id": "pmid:9110977", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "BCL-6 transcriptional repressor in inflammation and germinal centers. BCL6 is a different gene from BCOR (BCL6 corepressor); GZF1 not involved."},
+{"id": "pmid:28157192", "verdict": "relevant", "confidence": 0.65, "reason": "Targeted-panel genetic diagnosis of simplex RP (68 IRD genes, 106 cases). Fits the Genetic testing topic and the retinal-dystrophy gene context; CERKL/RP1/USH2A are only named in search keywords, not the abstract."},
+{"id": "pmid:26773734", "verdict": "relevant", "confidence": 0.6, "reason": "Somatic BCOR loss-of-function mutations in ENKTL; a paper on the BCOR gene itself, though oncology rather than ocular. Borderline for an ophthalmic gene list."},
+{"id": "pmid:26752546", "verdict": "relevant", "confidence": 0.55, "reason": "Novel BCOR-MAML3 and ZC3H7B-BCOR fusions in sarcomas; a BCOR gene-level paper, oncology focus. Borderline."},
+{"id": "pmid:23580382", "verdict": "relevant", "confidence": 0.55, "reason": "ZC3H7B-BCOR chimeric transcript in endometrial stromal sarcoma; a BCOR gene-level paper, oncology focus. Borderline."},
+{"id": "pmid:21772852", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of epigenetics in MSC osteogenic and adipogenic differentiation; no BCOR mention."},
+{"id": "pmid:38884738", "verdict": "uncertain", "confidence": 0.35, "reason": "Book chapter on human genetics of TOF and DORV with an empty abstract. BCOR relevance cannot be judged from the metadata; it may mention BCOR among CHD genes."}
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:29708510",
+    "id": "pmid:12939318",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies PROS1 as a ligand for MERTK and Tyro3 receptors, with MERTK KO mice explicitly used to dissect the pathway. Core MERTK biology; clearly on-topic for an ophthalmogenetics library studying MERTK-associated retinal dystrophy."
+    "confidence": 0.97,
+    "reason": "Directly studies optic nerve head blood flow dynamics after acute IOP elevation in rabbits, including effects of nitric oxide synthase inhibition and calcium antagonism. Core content for 'Ocular vascular physiology'."
   },
   {
-    "id": "pmid:18451871",
+    "id": "pmid:8641839",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Review of apoptotic cell recognition and phagocytic clearance, covering phosphatidylserine recognition and immune suppression by phagocytes - the exact mechanism by which RPE cells (via MERTK) clear shed photoreceptor outer segments. Mechanistically central to MERTK biology in the retina even without explicit eye focus."
+    "confidence": 0.97,
+    "reason": "Biochemical quantification of glycosaminoglycans in normal vs POAG trabecular meshwork; identifies hyaluronic acid depletion and chondroitin sulfate accumulation as contributors to increased aqueous outflow resistance. Directly relevant to 'Intraocular pressure' physiology."
   },
   {
-    "id": "pmid:20444650",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "Paper is specifically about MERTK (Mer) in nephrotoxic serum-induced nephritis. The clinical context is entirely renal inflammation. While MERTK is the gene of interest, the ophthalmogenetics library should capture papers relevant to ophthalmic manifestations; a kidney-disease-specific study does not add meaningfully to understanding MERTK-related retinal dystrophy."
-  },
-  {
-    "id": "pmid:34090501",
+    "id": "pmid:7556490",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "WldS is a fusion protein whose enzymatic component is NMNAT1; the paper directly studies WldS/NMNAT1-mediated neuroprotection in retinal ganglion cells in a glaucoma model, testing anterograde axon transport and spatial acuity. Directly on-topic for NMNAT1 and retinal neuroprotection."
+    "confidence": 0.95,
+    "reason": "Title is 'The optic nerve head circulation in health and disease' (1994 von Sallman lecture). Abstract is absent but the title is unambiguous: squarely within 'Ocular vascular physiology'. Thin abstract is insufficient reason to exclude a topically precise paper."
   },
   {
-    "id": "pmid:40751911",
+    "id": "pmid:10218694",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Paper demonstrates that plasma extracellular vesicles trigger MERTK-dependent signaling via GAS6 and PROS1 ligands to regulate macrophage activation and neutrophil function. MERTK is explicitly and centrally studied. Provides mechanistic understanding of MERTK signaling relevant to its role in RPE phagocytosis and retinal disease."
+    "confidence": 0.97,
+    "reason": "Characterizes which layers of the optic nerve head circulation are measured by laser Doppler flowmetry using experimental occlusions of central retinal artery and posterior ciliary arteries in primates. Central to understanding ocular vascular physiology of the ONH."
   },
   {
-    "id": "pmid:42845288",
+    "id": "pmid:11889464",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies NRL in photoreceptor cell specification in zebrafish, demonstrating that Tbx2b represses synergistic Nrl/Crx activity at the rhodopsin promoter. NRL is a central subject of the study; clearly on-topic for an ophthalmogenetics library."
+    "confidence": 0.97,
+    "reason": "Demonstrates that gene transfer of dominant-negative RhoA to the intact human trabecular meshwork increases outflow facility by loosening cytoskeletal attachments. Directly studies the cellular regulation of aqueous outflow, core 'Intraocular pressure' physiology."
   },
   {
-    "id": "pmid:27851990",
+    "id": "pmid:19627444",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of genetic variants associated with POAG in Indian populations, with CYP1B1 and MYOC among the primary genes discussed. Published in Genomics, specifically about ophthalmic genetics of glaucoma. Directly relevant to both listed genes."
+    "confidence": 0.96,
+    "reason": "Uses the Rs1h(-/Y) mouse (the established RS1 knockout model) to study microglia activation and photoreceptor survival; shows DHA supplementation delays degeneration and quiesces microglia. Directly uses and characterizes the RS1 disease model."
   },
   {
-    "id": "pmid:42754173",
+    "id": "pmid:15076957",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Systematic review in Survey of Ophthalmology specifically examining gene polymorphisms associated with POAG progression, with MYOC (MYOC.mt1+) explicitly identified as associated with faster optic nerve head damage and visual field deterioration. Directly on-topic for MYOC and glaucoma."
+    "confidence": 0.95,
+    "reason": "OCT study of X-linked retinoschisis, the disease caused by RS1 mutations. Thin abstract but title is unambiguous; imaging characterization of the RS1 phenotype is directly relevant."
   },
   {
-    "id": "pmid:32708116",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Review focuses entirely on inner ear gene therapies for hereditary hearing loss and cochlear implants. While CLRN1 and WHRN are Usher syndrome genes with both auditory and retinal phenotypes, this paper addresses only the auditory side and makes no reference to retinal disease or gene therapy for the eye. Off-topic for an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:42427680",
+    "id": "pmid:30935660",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper demonstrates AAV-mediated gene therapy restoring synaptic architecture, retinal ERG responses, and visual acuity in a mouse model of CSNB (CACNA2D4 KO). The paper is squarely about retinal gene therapy for inherited retinal disease, the primary domain of the ophthalmogenetics library. Tagged under CACNA1F/CEP290/LRIT3 as related CSNB/retinal disease genes."
+    "confidence": 0.95,
+    "reason": "Natural history of congenital X-linked retinoschisis including phenotype conversion over time. Directly characterizes the clinical course of RS1 disease; relevant despite absent abstract."
   },
   {
-    "id": "pmid:42817960",
+    "id": "pmid:20648073",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper evaluates deep intronic variants causing cryptic exon activation in patients with recessive inherited retinal disease, testing 640 DIVs from 76 IRD patients using a high-throughput splicing assay. Directly about IRD genetics involving CLRN1, RP2, and RPGRIP1 - all retinal dystrophy genes. Clearly on-topic."
+    "confidence": 0.95,
+    "reason": "Multifocal ERG evaluation of focal retinal function in X-linked retinoschisis patients. Directly assesses retinal function in RS1 disease; relevant despite absent abstract."
   },
   {
-    "id": "pmid:40379786",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper is about de novo variants in spliceosomal snRNA genes (RNU4-2, RNU5B-1, RNU5A-1) causing neurodevelopmental disorders (ReNU syndrome). No ophthalmic phenotype is described; the disorder and study focus are entirely neurological/developmental. The gene_or_topic RNU2-2 appears to be a peripheral keyword match rather than the paper's subject."
-  },
-  {
-    "id": "pmid:7610579",
+    "id": "pmid:19187097",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Classic paper on choroidal thickness changes and scleral compensation in chick myopia/emmetropization. Directly studies choroidal biology relevant to the Middle coat anatomy category and ARR3 myopia gene context. Core literature for ocular growth regulation."
+    "confidence": 0.88,
+    "reason": "Shows PKG activation is a shared mechanism of cGMP-mediated photoreceptor death across two RP models. Mechanistically central to PDE6A disease (PDE6A loss causes cGMP accumulation that activates PKG), and relevant to CNGA3 (cGMP-gated channel physiology). The cGMP-PKG axis is the core pathomechanism for both genes."
   },
   {
-    "id": "pmid:40622998",
+    "id": "pmid:22183351",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies the CRYbetaA1-DeltaG91 mutation causing autosomal dominant congenital nuclear cataract in mice, examining crystallin gene expression, protein insolubilization, and lens epithelial cell changes. CRYBA1 is the primary subject; CRYAA, CRYBB2, CRYBB3 are related crystallin genes also discussed. Directly on-topic."
+    "confidence": 0.96,
+    "reason": "Book chapter reviewing genes and mutations in autosomal dominant cone and cone-rod dystrophy, the primary disease associations for GUCY2D (CORD6/LCA1) and PITPNM3 (CORD5). Directly covers both genes."
   },
   {
-    "id": "pmid:41273252",
+    "id": "pmid:30910914",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper studies gamma-D crystallin (CRYGD) stability under crowded conditions mimicking the human eye lens cytoplasm. Directly relevant to lens biology and understanding crystallin protein behavior associated with CRYGD/CRYAA/CRYBA4 mutations causing cataract."
+    "confidence": 0.95,
+    "reason": "Systematically re-examines allele frequencies of reported pathogenic variants in AD-IRD genes using gnomAD, questioning pathogenicity of variants in FSCN2 (RP30), PITPNM3 (CORD5), and SEMA4A. Directly relevant to variant interpretation for all three named genes."
   },
   {
-    "id": "pmid:29414938",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper is specifically about TENM3 (Teneurin-3) controlling topographic circuit assembly in the hippocampus (CA1-subiculum-entorhinal cortex connectivity). The abstract briefly notes TENM3 is 'required for vertebrate visual system development' as background, but the entire study is in the hippocampus with no ophthalmic data. Not relevant to microphthalmia or eye disease."
-  },
-  {
-    "id": "pmid:12915301",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper characterizes expression of the four Ten-m/Odz (Teneurin) genes in the developing and adult mouse brain. No reference to eye, visual system, retina, or ophthalmic phenotype. Brain expression atlas study; not relevant to the ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:40355371",
+    "id": "pmid:25138764",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Paper dissects the structural organization and activation mechanisms of gamma-TuRCs in centrosomes, with TUBGCP4 (GCP4) as a component. TUBGCP4 is associated with microphthalmia and retinal dystrophy; understanding its molecular function in gamma-TuRC is mechanistic background relevant to interpreting TUBGCP4-linked eye disease. Centrosome/cilia biology is frequently pertinent to ophthalmic ciliopathies."
+    "confidence": 0.97,
+    "reason": "Reports two novel SLC4A11 mutations including a large deletion in Thai siblings with CHED2. Directly extends the mutation spectrum of SLC4A11 and characterizes the clinical presentation."
   },
   {
-    "id": "pmid:8213841",
+    "id": "pmid:5936364",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Classic paper describing genetic heterogeneity in blue-cone monochromacy, characterizing OPN1LW and OPN1MW gene rearrangements (locus control region deletions, homologous recombination, point mutations) as causes. Directly relevant to multiple listed genes (CNGA3, OPN1LW, OPN1MW) and the retinal dystrophies topic category."
+    "confidence": 0.90,
+    "reason": "Classic clinical description of chorioretinopathy with hereditary microcephaly in Mennonite inbred families, the exact phenotype caused by TUBGCP4 (and related gamma-tubulin complex subunit) mutations. Provides foundational phenotypic characterization of the TUBGCP4-associated disorder, predating molecular identification."
   },
   {
-    "id": "pmid:8170936",
+    "id": "pmid:1449470",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper clones and characterizes CNG-3 (CNGA3) from bovine kidney as a cyclic nucleotide-gated channel family member. The abstract explicitly opens by noting CNG channels are essential for visual signal transduction. CNGA3 mutations cause achromatopsia; this is a foundational characterization paper for the gene, clearly relevant to the ophthalmogenetics library."
+    "confidence": 0.90,
+    "reason": "Studies interaction of decorin (DCN gene product) core protein fragments with type I collagen. DCN mutations cause congenital stromal corneal dystrophy; understanding decorin-collagen binding is directly relevant to its pathomechanism. Thin abstract but gene-product focus is clear from title."
+  },
+  {
+    "id": "pmid:10686422",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Demonstrates that alpha1(VIII) and alpha2(VIII) collagen chains (COL8A1 and COL8A2) form distinct homotrimeric proteins in vivo. Directly characterizes the biochemistry of the COL8A2 protein product relevant to Fuchs endothelial corneal dystrophy pathomechanism."
+  },
+  {
+    "id": "pmid:35455444",
+    "verdict": "relevant",
+    "confidence": 0.86,
+    "reason": "PDRN treatment in an in vitro FECD model: studies oxidative stress, inflammation, and apoptosis in corneal endothelial cells. FECD is the primary disease associated with COL8A2 mutations; mechanistic studies of FECD pathogenesis and treatment are pertinent to the gene's disease context."
+  },
+  {
+    "id": "pmid:17553638",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Studies functional diversification of Kir7.1 (the KCNJ13 gene product) in cichlid fish following gene duplication. Directly investigates the KCNJ13 protein; comparative functional genomics of this channel contributes to understanding its biology relevant to LCA16 and retinal dystrophy."
+  },
+  {
+    "id": "pmid:3261696",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Compares posterior polymorphous corneal dystrophy (PPMD/PPCD) with congenital hereditary endothelial dystrophy. COL8A2 causes FECD1 and PPCD2; PIKFYVE causes PPCD3. Direct clinical comparison of the diseases associated with both named genes."
+  },
+  {
+    "id": "pmid:37358491",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Quantifies visual performance improvement in achromatopsia patients using short-wavelength cutoff filter glasses. CNGA3 is the major achromatopsia gene (ACHM2); clinical studies characterizing achromatopsia and its management are directly relevant to the CNGA3 gene library."
   }
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:11744735", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bacterial CcmF heme lyase in E. coli cytochrome c maturation; HCCS (holocytochrome c synthase) is a distinct mitochondrial enzyme, no HCCS/CCHL/MLS link"},
-{"id": "pmid:16824107", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bacterial CcmA/B/C ABC transporter releasing haem chaperone CcmE; not HCCS biology, only a distant functional analogy"},
-{"id": "pmid:12191019", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Melan-A/MART-1 subcellular localization in melanocytes; GPR143 (OA1) not mentioned, no ocular albinism link"},
-{"id": "pmid:17991747", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pmel17 amyloid fibril processing in melanosomes; no GPR143/OA1 content, only generic melanosome context"},
-{"id": "pmid:12073655", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of prokaryotic haem biosynthesis; no HCCS or cytochrome c lyase content, and no abstract"},
-{"id": "pmid:19436266", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "AAV tyrosinase (TYR) gene transfer in OCA1 mouse model; OCA1 is TYR, not GPR143/OA1. Albinism is only a broad keyword match"},
-{"id": "pmid:11069919", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Arabidopsis CCME, a plant orthologue of bacterial CcmE; not HCCS. Plant mitochondrial cytochrome c maturation only"},
-{"id": "pmid:10049688", "verdict": "uncertain", "confidence": 0.5, "reason": "Medaka photoreceptor guanylate cyclases (title); plausibly includes the retGC-1/GUCY2D ortholog but abstract is empty, so the GUCY2D link cannot be confirmed"},
-{"id": "pmid:10542282", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Synechocystis ccsB mutant and cytochrome f maturation; cyanobacterial cytochrome c lyase, not HCCS"},
-{"id": "pmid:23633582", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "H. pylori HP0377 thioredoxin-fold protein in system II cytochrome c assembly; not HCCS"}
+{"id": "pmid:19797232", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sphingosine synthesis in photoreceptor apoptosis (paraquat, ceramidase); no CERKL (ceramide kinase-like) study"},
+{"id": "pmid:22183377", "verdict": "uncertain", "confidence": 0.5, "reason": "Book chapter on ceramide signaling in retinal degeneration; no abstract, so CERKL content cannot be confirmed; likely general sphingolipid biology"},
+{"id": "pmid:21724910", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ceramide-1-phosphate in photoreceptor development/survival; a different sphingolipid, not CERKL"},
+{"id": "pmid:27571014", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Acid sphingomyelinase and ceramide in retinal ischemia; no CERKL link"},
+{"id": "pmid:25802487", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "C8orf37 mutations causing retinitis pigmentosa; a different gene from CERKL (RP26), so the paper is off-topic for CERKL"},
+{"id": "pmid:40766124", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "South African Parkinson disease GWAS; no CERKL relevance"},
+{"id": "pmid:16923157", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Acid sphingomyelinase-ceramide apoptosis in 661W cells; no CERKL study"},
+{"id": "pmid:16565407", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ceramide-mediated photoreceptor apoptosis (C2-ceramide, DHA); no CERKL study"},
+{"id": "pmid:21111813", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of ceramide kinase (CERK), a distinct enzyme from CERKL; no CERKL content"},
+{"id": "pmid:15504344", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Ceramide kinase (CERK) PH domain targeting; CERK is not CERKL"}
 ]

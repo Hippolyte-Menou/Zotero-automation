@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:37905027",
-    "verdict": "on_topic",
-    "confidence": 0.95,
-    "reason": "COL4A1 is one of six COL4A genes (COL4A1-6) explicitly named and analyzed throughout this paper on collagen IV basement membrane evolution. The abstract discusses COL4A1/2 gene-pair emergence across metazoans and its role as progenitor scaffold. Directly relevant to COL4A1."
-  },
-  {
-    "id": "pmid:42539265",
-    "verdict": "on_topic",
-    "confidence": 0.90,
-    "reason": "CACNA1F encodes the Cav1.4 alpha subunit of the photoreceptor L-type calcium channel. This paper studies alpha2delta4 (CACNA2D4) gene therapy and explicitly measures restoration of Cav1.4 synaptic localization as the primary outcome. Restoration of CACNA1F protein (Cav1.4) function and localization is a central result, making this directly relevant to CACNA1F biology in retinal synaptopathy."
-  },
-  {
-    "id": "pmid:28018693",
+    "id": "pmid:3287925",
     "verdict": "on_topic",
     "confidence": 0.80,
-    "reason": "COL11A1 mutations cause Stickler syndrome type 2 (Marshall syndrome), while this paper covers Stickler type 1 (COL2A1). COL11A1 and COL2A1 form the same collagen XI fibril complex in vitreous; type 1 and type 2 share the same clinical phenotype spectrum. Research on Stickler type 1 is directly relevant to understanding COL11A1-associated Stickler type 2. Caution principle applies."
+    "reason": "The 1986 Berlin nosology is the foundational clinical classification framework for heritable connective tissue disorders, including Marfan syndrome, which is caused by FBN1 mutations. As an essential reference document for understanding the disease phenotype that FBN1 mutations produce, it belongs in the FBN1 collection. The absence of an abstract is expected for a nosology/classification paper from 1986."
   },
   {
-    "id": "pmid:37854384",
-    "verdict": "on_topic",
-    "confidence": 0.85,
-    "reason": "The abstract (despite title mismatch in PubMed data) describes repeated low-level red-light therapy for myopia control in Stickler syndrome (STL) patients with genetic testing. COL11A1 mutations cause Stickler syndrome type 2, and myopia control in Stickler patients is directly relevant to COL11A1-associated disease management."
+    "id": "pmid:42949071",
+    "verdict": "off_topic",
+    "confidence": 0.80,
+    "reason": "The paper is about the role of AP-2beta (TFAP2B) in trabecular meshwork development, Schlemm's canal formation, and intraocular pressure homeostasis. These are glaucoma/aqueous outflow pathway topics. 'Transparent media' in ophthalmology anatomy refers to the optically clear structures light passes through (cornea, aqueous humor, lens, vitreous); this paper studies IOP regulation mechanisms and outflow pathway structures, not the anatomy or optical properties of transparent media. The connection to 'Transparent media' is too indirect to justify inclusion."
   },
   {
-    "id": "pmid:38770077",
-    "verdict": "on_topic",
-    "confidence": 0.95,
-    "reason": "Paper describes peripheral retinal nonperfusion identified by fluorescein angiography in confirmed Stickler syndrome patients. COL11A1 is one of the main genetic causes of Stickler syndrome; this clinical finding and management recommendation directly apply to COL11A1-associated Stickler syndrome."
+    "id": "pmid:9326947",
+    "verdict": "off_topic",
+    "confidence": 0.82,
+    "reason": "This paper specifically recapitulates the vascular (aortic) aspect of Marfan syndrome by targeting FBN1 (fibrillin-1). ADAMTSL4 mutations cause autosomal recessive isolated ectopia lentis, not aortic or cardiovascular disease. The paper has an empty abstract and its title frames it exclusively as an FBN1/vascular-Marfan study. There is no plausible route by which a paper about the aortic phenotype of FBN1 knockout is specifically relevant to ADAMTSL4 biology."
   },
   {
-    "id": "pmid:18844904",
-    "verdict": "on_topic",
-    "confidence": 0.90,
-    "reason": "Retrospective series of Stickler syndrome patients with cleft palate documenting ophthalmological (myopia, refractive error), musculoskeletal, and auditory outcomes. COL11A1 is a major Stickler syndrome gene; clinical natural history papers like this are directly relevant to COL11A1-associated disease."
-  },
-  {
-    "id": "pmid:23870125",
-    "verdict": "on_topic",
+    "id": "pmid:29286095",
+    "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "According to PubMed (DOI: 10.1016/j.cell.2013.06.012), this paper demonstrates that LC3-associated phagocytosis (a noncanonical autophagy pathway) is required for RPE phagocytosis of photoreceptor outer segments and maintenance of the visual cycle. MERTK is the phagocytic receptor on RPE that initiates outer segment engulfment - this paper characterizes the downstream phagocytic degradation pathway essential to MERTK-mediated function in retinal homeostasis."
+    "reason": "This review covers fibrillin-1 structure, assembly, and the role of FBN1 mutations in fibrillinopathies. It is directly relevant to FBN1. It is also relevant to ADAMTSL4 because ADAMTSL4 functions within the fibrillin-1 microfibril system, and this review provides essential mechanistic context for understanding how disruption of that system causes ectopia lentis. The score of 5 against a threshold of 6 is marginal and does not outweigh the clear topical relevance."
   },
   {
-    "id": "pmid:39119605",
-    "verdict": "on_topic",
+    "id": "pmid:18425143",
+    "verdict": "correctly_rejected",
+    "confidence": 0.72,
+    "reason": "The title describes a general study of ubiquitin's role in spliceosome assembly. The abstract is empty, providing no evidence that the paper specifically addresses DHX38 (PRPF16) or SNRNP200 (U5-200KD/Brr2). Although both genes are spliceosome components, a broad paper on ubiquitin and spliceosome assembly is not specifically about these RP-associated helicases. The score-below-threshold rejection is appropriate absent evidence of direct relevance."
+  },
+  {
+    "id": "pmid:1852206",
+    "verdict": "relevant",
     "confidence": 0.92,
-    "reason": "Paper studies rescue of trafficking-deficient CNG channel mutants (R272Q, R278W) associated with retinopathies using oleic acid. CNGA3 encodes the alpha-3 subunit of the cone CNG channel; trafficking mutants in CNG channels are a known disease mechanism for CNGA3-related achromatopsia and cone dystrophies. Directly relevant to CNGA3."
+    "reason": "Classic 1991 Nature paper establishing genetic linkage of Marfan syndrome to two fibrillin genes, one of which is FBN1 on chromosome 15. This is a foundational genetics paper for the FBN1 collection."
   },
   {
-    "id": "pmid:11530337",
-    "verdict": "on_topic",
+    "id": "pmid:8430317",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Directly studies fibrillin transcript from a Marfan syndrome patient and demonstrates nonsense-mutation-induced exon skipping in FBN1. The abstract explicitly mentions fibrillin and Marfan syndrome, making this a core FBN1 disease-mechanism paper."
+  },
+  {
+    "id": "pmid:2402262",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Maps the Marfan syndrome genetic defect to chromosome 15 (where FBN1 resides) using linkage analysis. Foundational paper in the discovery of FBN1 as the Marfan gene. Directly relevant to FBN1."
+  },
+  {
+    "id": "pmid:1729284",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Studies fibrillin (FBN1 protein) synthesis, secretion, and extracellular matrix incorporation in dermal fibroblasts from 26 Marfan syndrome probands. Directly confirms FBN1 as the Marfan gene and characterizes the range of biochemical defects. Core FBN1 biology paper."
+  },
+  {
+    "id": "pmid:1301946",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Reports three new FBN1 missense mutations in Marfan syndrome patients, all in EGF-like domains at cysteine residues. The abstract explicitly names FBN1 and characterizes its mutations in Marfan syndrome. Directly on-topic."
+  },
+  {
+    "id": "pmid:19012347",
+    "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "According to PubMed (DOI: 10.1016/s1471-4914(01)02103-7), this review covers molecular chaperones in retinal dystrophies and specifically identifies retinal degeneration genes functioning as chaperones. AIPL1 (Aryl Hydrocarbon Receptor Interacting Protein Like 1) is a co-chaperone essential for PDE6 assembly in photoreceptors; the paper directly discusses the class of chaperone-function retinal degeneration genes that AIPL1 exemplifies."
+    "reason": "Prospectively evaluates 279 patients referred for suspected Marfan syndrome to characterize the spectrum of Marfan-like features and differential diagnoses. FBN1 is the defining gene for Marfan syndrome; this clinical characterization study is directly relevant to the FBN1 collection."
   },
   {
-    "id": "pmid:7891370",
-    "verdict": "on_topic",
-    "confidence": 0.85,
-    "reason": "According to PubMed (DOI: 10.1136/jmg.31.12.903), this is a comprehensive review of the gene map of primary hereditary diseases of retina, choroid, and vitreous. COL2A1 causes Stickler syndrome type 1 with vitreoretinal degeneration; a 1994 gene map review of vitreous and retinal hereditary diseases would include COL2A1 as a mapped vitreoretinal disease gene."
-  },
-  {
-    "id": "pmid:27917399",
-    "verdict": "on_topic",
+    "id": "pmid:8594563",
+    "verdict": "relevant",
     "confidence": 0.92,
-    "reason": "Review of the retinoid cycle in retinal disease including rational therapeutic interventions. ABCA4 is the primary retinoid transporter in photoreceptors responsible for clearing all-trans-retinal from disc membranes; its dysfunction causes A2E accumulation and Stargardt disease. Retinoid cycle reviews are central to ABCA4 biology."
+    "reason": "Describes a software package and database for analysis of FBN1 mutations in Marfan syndrome. The abstract explicitly names FBN1, Marfan syndrome, and the database contents. Directly relevant to FBN1 mutation analysis."
   },
   {
-    "id": "pmid:20012162",
-    "verdict": "on_topic",
-    "confidence": 0.93,
-    "reason": "According to PubMed (DOI: 10.1007/s11010-009-0322-z), this review covers photoreceptor guanylate cyclase knockouts and explicitly discusses GCAPs (guanylate cyclase-activating proteins), noting their absence in GC double-knockout outer segments. GUCA1A encodes GCAP1, the primary Ca2+-sensitive activator of GUCY2D/GC-E. This paper directly characterizes the guanylate cyclase signaling system that GUCA1A/GCAP1 regulates."
+    "id": "pmid:24613577",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Title explicitly states that mutations at the 3' end of the FBN1 gene cause the neonatal progeroid variant of Marfan syndrome with congenital lipodystrophy. Directly about FBN1 genotype-phenotype correlation. Relevant despite empty abstract."
   },
   {
-    "id": "pmid:39837650",
-    "verdict": "on_topic",
-    "confidence": 0.95,
-    "reason": "Review of hereditary vitreoretinopathies covering molecular diagnosis, clinical presentation, and management of Stickler syndrome among other conditions. COL11A1 mutations cause Stickler syndrome type 2, a hereditary vitreoretinopathy; this review is directly relevant to COL11A1."
-  },
-  {
-    "id": "pmid:11000483",
-    "verdict": "off_topic",
-    "confidence": 0.90,
-    "reason": "According to PubMed (DOI: 10.1016/s0169-328x(00)00164-9), this paper characterizes subcellular localization of tubby gene family members (TUB, TULP1, TULP2, TULP3). CERKL (ceramide kinase-like) is not a tubby family member and is not mentioned in this paper. The only shared context is both genes being associated with retinal degeneration broadly, which is insufficient for relevance. TULP1 and CERKL are unrelated gene families."
-  },
-  {
-    "id": "pmid:18312782",
-    "verdict": "on_topic",
-    "confidence": 0.90,
-    "reason": "According to PubMed (DOI: 10.1016/j.prp.2007.10.013), this review of ciliary syndromes explicitly includes Bardet-Biedl Syndrome in both its MeSH terms and content. BBS1 is a core component of the BBSome complex causing Bardet-Biedl syndrome ciliopathy; a ciliary syndromes review is directly on-topic for BBS1."
-  },
-  {
-    "id": "pmid:16120006",
-    "verdict": "on_topic",
-    "confidence": 0.93,
-    "reason": "Paper discusses all-trans-retinal (ATR) phototoxicity, A2E accumulation, and retinoid cycle in light-induced retinal damage. ABCA4 (ABCR) transports all-trans-retinal across disc membranes, and its dysfunction causes excess ATR and A2E accumulation leading to Stargardt disease. The paper explicitly discusses A2E biosynthesis and ATR accumulation, the core consequences of ABCA4 dysfunction."
-  },
-  {
-    "id": "pmid:31794245",
-    "verdict": "on_topic",
+    "id": "pmid:21883168",
+    "verdict": "relevant",
     "confidence": 0.92,
-    "reason": "Review of RNA splicing by the spliceosome explicitly discusses U2 snRNA, its pairing with U6 snRNA to form the RNA-based active site, and its role in branch point recognition. RNU2-2 encodes U2 small nuclear RNA, the gene product whose function this paper reviews in mechanistic detail."
+    "reason": "Evaluates diagnostic utility of FBN1 genotype combined with Ghent nosology phenotype in 300 consecutive patients referred for Marfan syndrome. The abstract explicitly discusses FBN1 mutation status and its effect on diagnosis. Core FBN1 clinical genetics paper."
   },
   {
-    "id": "pmid:42972847",
-    "verdict": "on_topic",
-    "confidence": 0.80,
-    "reason": "Paper establishes a gecko model for studying foveal development and explicitly names albinism (alongside macular degeneration and aniridia) as conditions affecting the fovea that motivate this model. OCA2 encodes the P protein responsible for oculocutaneous albinism type 2 and is associated with foveal hypoplasia. The gecko model is proposed for studying OCA2-relevant foveal developmental pathways. Caution principle applied for plausible connection."
+    "id": "pmid:9016526",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Second edition of the computerized FBN1 mutation database (89 entries), directly providing mutation analysis tools and data for FBN1 and Marfan syndrome. Directly relevant."
   },
   {
-    "id": "pmid:42401922",
-    "verdict": "on_topic",
-    "confidence": 0.95,
-    "reason": "Paper explicitly uses an NRL+/eGFP rod reporter line (WA09 NRL+/eGFP) as a base for the dual reporter system and links NRL to rod photoreceptor specification throughout. NRL (Neural Retina Leucine zipper) is the master transcription factor for rod photoreceptor development; use of NRL reporter lines and analysis of rod vs. cone cone precursors is directly relevant to NRL."
+    "id": "pmid:8040326",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Describes a novel FBN1 missense mutation in a family with a Marfan/ectopia lentis phenotype. The abstract explicitly discusses ectopia lentis (a key ocular manifestation), FBN1, and the fibrillin polypeptide. Directly relevant to both FBN1 and its ocular phenotype."
   },
   {
-    "id": "pmid:42922550",
-    "verdict": "off_topic",
-    "confidence": 0.95,
-    "reason": "Paper is entirely about TH17 CD4+ T cell differentiation and immune signaling via compound AA147, NRF2, and RORgammat. The abstract explicitly states the reduction in TH17 differentiation is 'independent of ATF6 activation.' The paper has no content relating to retinal disease, cone photoreceptor dystrophy, or ophthalmology. ATF6 is mentioned only as a pathway that is NOT responsible for the observed immunological effect. No plausible connection to ATF6-associated achromatopsia or retinal disease."
+    "id": "pmid:19059503",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Title describes compound-heterozygous Marfan syndrome; Marfan syndrome is caused exclusively by FBN1 mutations. A paper about compound-heterozygous Marfan syndrome concerns FBN1 genotype and is directly relevant to the FBN1 collection. Abstract is empty but the title is unambiguous."
+  },
+  {
+    "id": "pmid:21936929",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Characterizes large genomic deletions in the FBN1 gene using MLPA in Marfan syndrome patients. The abstract explicitly names FBN1, Marfan syndrome, and reports novel FBN1 deletions. Directly relevant."
+  },
+  {
+    "id": "pmid:10441597",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Title explicitly names an FBN1 mutation causing Marfan-like manifestations via germline mosaicism. Directly relevant to FBN1 genetics despite empty abstract."
+  },
+  {
+    "id": "pmid:17627385",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Applies dHPLC for mutation detection of the fibrillin-1 (FBN1) gene in 262 patients with Marfan syndrome or Marfan-like phenotypes. The abstract explicitly names FBN1, reports 93 mutations, and demonstrates diagnostic utility. Directly relevant to FBN1."
   }
 ]

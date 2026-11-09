@@ -1,12 +1,12 @@
 [
-{"id": "pmid:17514355", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Generic HIF-in-cancer review; no NAA10/ARD1-specific content in title or (empty) abstract. ARD1 acetylation of HIF-1a is a known link but this is not a NAA10-focused paper."},
-{"id": "pmid:17259560", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "HIF-1a as cancer therapy target; generic tumour biology, no NAA10/ARD1 focus."},
-{"id": "pmid:1849012", "verdict": "uncertain", "confidence": 0.5, "reason": "In vitro melanin polymerisation chemistry comparing peroxidase with tyrosinase. Tyrosinase enzymology is relevant to TYR biology, but it is not a gene-level paper and the abstract is empty."},
-{"id": "pmid:15598469", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of HIF and tumour angiogenesis; no NAA10 link."},
-{"id": "pmid:15542839", "verdict": "relevant", "confidence": 0.7, "reason": "Studies NatA (Nat1p, Ard1p, Nat5p) Nalpha-acetylation in yeast. Ard1p is the yeast ortholog of NAA10, the catalytic NatA subunit, so this is NAA10-family biology."},
-{"id": "pmid:17920193", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of HIF protein stability and degradation. Generic HIF biology; the ARD1 acetylation link is at most a minor part of the topic, not NAA10-focused."},
-{"id": "pmid:28116619", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HDAC6 stress response and HIF-1a stability; no NAA10/ARD1 connection in the abstract."},
-{"id": "pmid:3137937", "verdict": "relevant", "confidence": 0.9, "reason": "Expression of the tyrosinase gene in amelanotic mutant mice. Directly about TYR gene expression and the albinism locus, so it is on topic for TYR despite the empty abstract."},
-{"id": "pmid:39470609", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of HIFs as anticancer targets; no NAA10/ARD1 focus."},
-{"id": "pmid:41093057", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MC4R/GLP-1R peptide agonist for obesity and diabetes in rats. Not about BBS1 or Bardet-Biedl syndrome, although MC4R is in the ciliopathy obesity pathway."}
+ {"id": "pmid:17135363", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Leukocyte lipid body proteomics (U937, neutrophils); no RAB18 link in abstract. Lipid droplet biology only, not RAB18 disease or gene biology."},
+ {"id": "pmid:21844583", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of adipocyte vs non-adipocyte lipid droplet size and composition; no RAB18 or eye-disease link."},
+ {"id": "pmid:23319140", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Drosophila S2 cell lipid droplet proteome method; RAB18 not mentioned. Generic LD proteomics."},
+ {"id": "pmid:19708857", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Yeast ER stress and lipid droplet formation; no RAB18 or ophthalmic link."},
+ {"id": "pmid:28028537", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab10-EHBP1-EHD2 complex in lipophagy. Rab10 is a different Rab GTPase from RAB18; no RAB18 link in abstract."},
+ {"id": "pmid:22311986", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Adipocyte lipid droplet remodeling in 3T3-L1 cells; no RAB18 link."},
+ {"id": "pmid:21498505", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "LPCAT1/2 localization to lipid droplets; RAB18 not mentioned. Generic lipid metabolism."},
+ {"id": "pmid:24680889", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "SETD5 de novo LoF in intellectual disability; filed under KMT2D, no KMT2D link in abstract. Also filed under the wrong gene for its own content."},
+ {"id": "pmid:25655664", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Brown adipose tissue lipid droplet remodeling during cold; empty abstract, title shows no RAB18 link."},
+ {"id": "pmid:18487653", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bovine milk fat globule membrane proteome; unrelated to RAB18 or eye disease."}
 ]

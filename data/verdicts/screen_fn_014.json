@@ -1,12 +1,12 @@
 [
-{"id": "pmid:21991550", "verdict": "uncertain", "confidence": 0.5, "reason": "Adaptive optics rod reflectance study; no OPN1LW/OPN1MW content (cites RP, Usher, CSNB only). Plausible only under the 'Emerging technologies' part of the combined label, not the opsin genes."},
-{"id": "pmid:42453397", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AI in biologic drug discovery review; no MFRP link."},
-{"id": "pmid:42119787", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Engineering immune cells for therapy; no abstract, title shows no MFRP link."},
-{"id": "pmid:41981313", "verdict": "correctly_rejected", "confidence": 0.93, "reason": "PEX1 base editing in Zellweger spectrum disorder; PEX1 is not MFRP (membrane frizzled-related protein)."},
-{"id": "pmid:17237794", "verdict": "correctly_rejected", "confidence": 0.93, "reason": "Angiotensin II receptor blockade and TGF-beta in myopathy; no ADAMTSL4 link."},
-{"id": "pmid:18228265", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of elastic fiber assembly (elastin, fibrillin microfibrils, LOX, fibulins). Microfibril biology is adjacent to ADAMTSL4 (fibrillin-associated, ectopia lentis), but ADAMTSL4 is not mentioned. Leans correctly_rejected."},
-{"id": "pmid:21167193", "verdict": "relevant", "confidence": 0.9, "reason": "Review of the genetics of normal and defective color vision; directly concerns the red/green opsin genes OPN1LW/OPN1MW (no abstract, title is decisive)."},
-{"id": "pmid:8756760", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "LTBP-1 and latent TGF-beta in ECM microfibrils; microfibril-adjacent but no ADAMTSL4 mention."},
-{"id": "pmid:11773636", "verdict": "relevant", "confidence": 0.92, "reason": "Locus control region and mutually exclusive expression of human red and green cone pigment genes (OPN1LW/OPN1MW) in transgenic mice."},
-{"id": "pmid:2915991", "verdict": "relevant", "confidence": 0.92, "reason": "Molecular patterns of X-linked red and green color vision pigment genes (OPN1LW/OPN1MW) in 134 men; directly on the genes."}
+{"id": "pmid:15630479", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Vertebrate conserved non-coding enhancer paper; ELP4 not mentioned. Only a PAX6-neighborhood enhancer link (ELP4 is alias PAXNEB), so weak ELP4 relevance."},
+{"id": "pmid:29125462", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "LRRK2 phosphorylates Rab proteins and ciliogenesis; RAB28 not among the phosphorylated Rabs or discussed."},
+{"id": "pmid:8163553", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Drosophila singed (fascin) actin bundling; FSCN2 (retinal fascin, RP30) not discussed. Fascin-1 family paper only."},
+{"id": "pmid:24530063", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans ciliated neuron extracellular vesicles; no RAB28 link (abstract empty, judged on title)."},
+{"id": "pmid:18974354", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "C. elegans glia and sensory organ function (fig-1); no RAB28 link."},
+{"id": "pmid:12592367", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Fascin-1 prognostic value in NSCLC; FSCN1 not FSCN2, and not a retinal dystrophy paper."},
+{"id": "pmid:15935778", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "C. elegans daf-6 patched-related lumen formation; no RAB28 link (abstract empty, judged on title)."},
+{"id": "pmid:3001710", "verdict": "uncertain", "confidence": 0.5, "reason": "Aniridia-Wilms 11p13 deletion mapping; the ELP4/PAXNEB locus lies in the WAGR/aniridia region near PAX6, but ELP4 is not named. Gene-level relevance is borderline."},
+{"id": "pmid:26687621", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans ciliated sensory neuron transcriptional profiling; no RAB28 link (abstract empty, judged on title)."},
+{"id": "pmid:8415664", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Echinoderm fascin cloning and singed homology; FSCN2 not discussed."}
 ]

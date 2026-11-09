@@ -1,12 +1,12 @@
 [
- {"id": "pmid:22889844", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of the Elongator complex (ELP4 is a core subunit, Elp4) in general; not ELP4-specific, no ophthalmic link. Borderline for a gene-level filing."},
- {"id": "pmid:38508705", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ZFHX3 epilepsy study; no ELP4 link."},
- {"id": "pmid:34247281", "verdict": "uncertain", "confidence": 0.45, "reason": "Broad review comparing K+ channel families (KCNJ13/Kir7.1 is one member); empty abstract, no KCNJ13-specific content evident from title."},
- {"id": "pmid:9381682", "verdict": "relevant", "confidence": 0.8, "reason": "Schubert-Bornschein complete CSNB (CSNB1) phenotype, which is the NYX-associated disease; ERG study of the disease phenotype."},
- {"id": "pmid:28601220", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of Elongator complex structures and cofactors; ELP4 is a subunit but the paper is not ELP4-specific. Borderline."},
- {"id": "pmid:34634394", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Minireview on TRP channels in retinal circulation; no LRIT3 link."},
- {"id": "pmid:15583843", "verdict": "relevant", "confidence": 0.75, "reason": "Clinical electrophysiology in CSNB1 patients, 4 of 5 with NYX mutations; disease phenotype relevant to NYX."},
- {"id": "pmid:37863328", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of ion channels in metabolic disorders; no KCNJ13 link."},
- {"id": "pmid:39749456", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Nanoparticle gene delivery review for retina; no USH2A link."},
- {"id": "pmid:35128251", "verdict": "relevant", "confidence": 0.75, "reason": "Structural and biochemical study of human Elongator subassemblies, including hELP4/5/6 recruitment; directly addresses ELP4 as a subunit."}
+{"id": "pmid:41167547", "verdict": "relevant", "confidence": 0.9, "reason": "Coffin-Siris case series on optic nerve hypoplasia; ARID1B is the principal Coffin-Siris gene, so the paper is directly about ARID1B-associated disease (score 5 vs threshold 6 only)."},
+{"id": "pmid:12161344", "verdict": "relevant", "confidence": 0.7, "reason": "Review of photoreceptor Ca2+ homeostasis covering phototransduction, NCKX (SLC24A1) extrusion and CNG channel-related dysfunction in retinitis pigmentosa and CSNB. Relevant to CNGA1/SLC24A1; no ACO2 link, but one of the three filed genes suffices."},
+{"id": "pmid:21268676", "verdict": "relevant", "confidence": 0.9, "reason": "SD-OCT RNFL measurements in choroideremia patients; directly about the CHM disease phenotype."},
+{"id": "pmid:1677924", "verdict": "relevant", "confidence": 0.9, "reason": "Linkage analysis of choroideremia with DNA markers (DXS540 region); this is the foundational mapping study for CHM/REP-1."},
+{"id": "pmid:18567786", "verdict": "relevant", "confidence": 0.8, "reason": "Deamidation of betaA3-crystallin, the product of the CRYBA1 gene, with aggregation and cataract relevance; on-topic for CRYBA1 (also lens crystallin family for CRYGD/CRYGS)."},
+{"id": "pmid:4207130", "verdict": "relevant", "confidence": 0.75, "reason": "Ionic mechanisms of rod photoreceptor potential in isolated retina; core visual physiology, matching the Visual physiology topic. Low score is the only rejection reason."},
+{"id": "pmid:8988423", "verdict": "relevant", "confidence": 0.85, "reason": "Laser speckle vs hydrogen clearance measurement of optic nerve head circulation; squarely on Ocular vascular physiology."},
+{"id": "pmid:12939318", "verdict": "relevant", "confidence": 0.9, "reason": "Time course of ONH circulation after acute IOP rise, with vasoactive interventions; core Ocular vascular physiology."},
+{"id": "pmid:8641839", "verdict": "relevant", "confidence": 0.8, "reason": "Trabecular meshwork glycosaminoglycan profiles in POAG and their link to outflow resistance; on-topic for Intraocular pressure physiology."},
+{"id": "pmid:7556490", "verdict": "relevant", "confidence": 0.9, "reason": "Review of optic nerve head circulation in health and disease (von Sallmann lecture); on-topic for Ocular vascular physiology."}
 ]

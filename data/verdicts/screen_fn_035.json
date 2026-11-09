@@ -1,12 +1,12 @@
 [
- {"id": "pmid:33649536", "verdict": "uncertain", "confidence": 0.5, "reason": "Medulloblastoma paper on statins repressing hedgehog signaling (mechanism plausibly via SMO, but abstract empty and paper is oncology, not ocular); SMO-specific link not established from title alone"},
- {"id": "pmid:33398366", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cardiology paper on TRIM28/GPX1 in myocardial injury; TRIM28 is not a TRIM44 alias"},
- {"id": "pmid:34034495", "verdict": "relevant", "confidence": 0.6, "reason": "Paper is directly about TRIM44 gene function (ovarian cancer proliferation via FRK); gene-level paper, though not ocular"},
- {"id": "pmid:35609523", "verdict": "relevant", "confidence": 0.6, "reason": "Paper is directly about TRIM44 knockdown in traumatic brain injury; gene-level paper, not ocular"},
- {"id": "pmid:36120578", "verdict": "relevant", "confidence": 0.7, "reason": "Conditional deletion of Smo in growth plate chondrocytes; direct SMO gene function study, non-ocular"},
- {"id": "pmid:36055555", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Mandarin fish scTRIM59 antiviral paper; not TRIM44 and not human gene biology"},
- {"id": "pmid:42621064", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Electroporation device for retinal DNA delivery; no RPGR-specific content in abstract"},
- {"id": "pmid:42009447", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Senile degenerative peripheral retinoschisis in intermediate uveitis; not X-linked RS1 disease or RS1 biology"},
- {"id": "pmid:14635248", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "General spliceosome review of major U1/U2/U4/U5/U6 machinery; does not address the minor-spliceosome U4atac snRNA specifically"},
- {"id": "pmid:2873060", "verdict": "relevant", "confidence": 0.65, "reason": "Biochemistry of rod outer segment guanylate cyclase (the protein encoded by GUCY2D, ROS-GC/retGC) and Ca2+ regulation; pre-cloning era but same protein biology"}
+{"id": "pmid:38916958", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "SD-OCT and ERG study of retinal atrophy in mixed breed dogs; general canine PRA, no PRCD gene analysis"},
+{"id": "pmid:12809679", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Linkage mapping for collie eye anomaly (choroidal hypoplasia locus); not PRCD"},
+{"id": "pmid:11949808", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of veterinary clinical electrophysiology; no PRCD link"},
+{"id": "pmid:12400639", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of canine inherited retinal degeneration genetics; PRCD is likely one of the mapped genes but it is not the focus; borderline"},
+{"id": "pmid:11397244", "verdict": "relevant", "confidence": 0.7, "reason": "Describes Papillon dog rod-cone degeneration, the breed disease explicitly linked to gene symbol prcd"},
+{"id": "pmid:10895316", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Excludes RDS/Peripherin and ROM1 as gPRA candidates; PRCD not studied"},
+{"id": "pmid:9820795", "verdict": "uncertain", "confidence": 0.5, "reason": "Canine phosducin as gPRA candidate gene; historically tied to the PRCD locus area but the paper tests phosducin, not PRCD itself"},
+{"id": "pmid:1720261", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Epidermolysis bullosa simplex linked to keratin 14 and keratin 5; not KRT12"},
+{"id": "pmid:1381288", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Keratin 1 mutation in epidermolytic hyperkeratosis; not keratin 12"},
+{"id": "pmid:11470454", "verdict": "uncertain", "confidence": 0.5, "reason": "Human ocular surface epithelium review; KRT12 is a corneal epithelial marker so may be discussed, but no abstract to confirm"}
 ]

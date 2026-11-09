@@ -1,12 +1,12 @@
 [
-{"id": "pmid:9486652", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General PIP2/G-beta-gamma gating of Kir/GIRK channels; no KCNJ13 (Kir7.1) content and no abstract to suggest otherwise"},
-{"id": "pmid:18094050", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Paper is about MKKS (BBS6), not BBS10; BBS is only mentioned as MKKS-associated disease"},
-{"id": "pmid:42814338", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Review of obesity and anorexia genetics; BBS1 not specifically discussed in the abstract, only generic monogenic obesity"},
-{"id": "pmid:42823733", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Mitochondrial DNA variants and GvHD in MDS; NHS (Nance-Horan) not involved"},
-{"id": "pmid:42811979", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Fungal class III adenylyl cyclase LRR domains; NYX (nyctalopin) not involved"},
-{"id": "pmid:9148889", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Kir4.1 (KCNJ10) clustering by PSD-95; Kir4.1 is not KCNJ13/Kir7.1"},
-{"id": "pmid:15827083", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Kir2.1/Kir2.4 Golgi export and heteromer stoichiometry; Kir7.1 (KCNJ13) not studied"},
-{"id": "pmid:16799057", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Photoreceptor organization in diurnal Nile rat; NRL transcription factor not studied"},
-{"id": "pmid:30293640", "verdict": "uncertain", "confidence": 0.5, "reason": "Clinical BBS phenotype paper (situs inversus/heterotaxy) with no abstract; relates to BBS disease but not specifically to BBS10 genetics"},
-{"id": "pmid:37461597", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "SORL1 Alzheimer variant study; ZNF408 not involved"}
+{"id": "pmid:27990414", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "General CHD genetics review; Kabuki syndrome mentioned only in passing, no KMT2D-specific content"},
+{"id": "pmid:25663264", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HLHS with 21q22.3 deletion; no KMT2D link"},
+{"id": "pmid:26345374", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Peri-operative risk in syndromic CHD; no KMT2D link"},
+{"id": "pmid:29203834", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Wiedemann-Steiner syndrome is KMT2A (MLL1), a different gene from KMT2D (MLL2/MLL4); no KMT2D content"},
+{"id": "pmid:35268351", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Epigenetics review of inborn errors of immunity; no KMT2D-specific content"},
+{"id": "pmid:27837088", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Microalgae membrane proteomics; the 'Retinitis Pigmentosa Type 2' hit is a name match to an algal clathrin light chain, unrelated to human RP2"},
+{"id": "pmid:38428701", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CircRNAs in hepatocellular carcinoma; no KMT2D link"},
+{"id": "pmid:42465316", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "TAOK3 in cervical cancer; no RP2 link (RP2 is a retinal dystrophy gene)"},
+{"id": "pmid:1847109", "verdict": "relevant", "confidence": 0.85, "reason": "Cloning of mouse rod photoreceptor cGMP PDE alpha subunit, which is PDE6A (alias PDEA); core PDE6A biology, low score likely from short abstract and lack of disease terms"},
+{"id": "pmid:41381288", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Lens lipidome and cataract/presbyopia pharmacology review; LSS (lanosterol synthase) not discussed in abstract"}
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:10099690", "verdict": "uncertain", "confidence": 0.5, "reason": "General connexin review (gap junction biology, innexins, several connexin diseases incl. lens cataract). Not specific to GJA3 (Cx46) or GJA8 (Cx50); no direct gene-level content in abstract."},
-{"id": "pmid:17279539", "verdict": "uncertain", "confidence": 0.5, "reason": "Drug RCT (memantine/gabapentin) in congenital nystagmus. Associated disease of FRMD7 but not genetic or FRMD7-specific; treatment trial with no gene content."},
-{"id": "pmid:26553938", "verdict": "relevant", "confidence": 0.9, "reason": "Shows PDE6D binds RPGR C-terminus in a prenylation-dependent manner; PDE6D is the ARL3 effector that releases prenylated cargo, so the paper is directly about RPGR and ARL3 biology. Abstract empty, judged on title."},
-{"id": "pmid:33251218", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "STXBP1 variant causing autosomal dominant congenital nystagmus; no FRMD7 content. Nystagmus is the phenotype only."},
-{"id": "pmid:11836243", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Myristoyl switch in neuronal calcium sensors (hippocalcin, NCS-1, neurocalcin delta). GCAP1 (GUCA1A) is a family member but not studied here."},
-{"id": "pmid:39639154", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Clinical retrospective study of infantile nystagmus causes (albinism, IRDs). FRMD7 not mentioned; generic nystagmus epidemiology."},
-{"id": "pmid:39336999", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of clinical trial endpoints for gene therapy in IRDs. Generic; AIPL1/BEST1/OPN1LW/OPN1MW/RPE65/RS1 not discussed specifically in abstract."},
-{"id": "pmid:23150357", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Methods chapter on IRD gene identification and NGS. Generic IRD gene discovery; KIF3B and RPGR not discussed specifically."},
-{"id": "pmid:17223737", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Review of rAAV gene transfer for retinal disease in general. RPE65/RS1 not named; generic gene therapy overview."},
-{"id": "pmid:40248125", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Systematic review of immune safety of ocular AAV gene therapy across delivery routes. Not specific to GUCY2D, RPE65 or RS1."}
+{"id": "pmid:17906626", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Canine GWAS methods paper for mendelian traits; no abstract; no clear RPGRIP1/GRIP1 focus from title. Marginal at best."},
+{"id": "pmid:39798091", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Zebrafish motile cilia and CSF flow in brain physiology; no CEP290 link in title or abstract."},
+{"id": "pmid:40263625", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Review of metabolic reprogramming in PKD and renal ciliopathies broadly; mentions nephronophthisis but not CEP290 specifically."},
+{"id": "pmid:40427710", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of cilia imaging techniques; generic ciliary biology with no CEP290 content."},
+{"id": "pmid:40066717", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cortical neuron primary cilia orientation and positioning in mouse; no CEP290 link."},
+{"id": "pmid:22841313", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "VGLUT3 knockout hearing restoration by gene therapy; concerns VGLUT3 not CLRN1 (clarin-1)."},
+{"id": "pmid:8794866", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Desmin knockout mice muscle pathology; desmin is not BFSP1 (filensin), no link."},
+{"id": "pmid:10469845", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of Finnish disease heritage genes; no CLRN1-specific content evident."},
+{"id": "pmid:4886533", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "1967-era review of lens cell macromolecular differentiation and gamma-crystallin; not BFSP2 (phakinin) specific."},
+{"id": "pmid:17493778", "verdict": "relevant", "confidence": 0.85, "reason": "Title is directly about anti-clarin-1 (CLRN1, USH3A) AAV ribozyme effects in mouse cochlea; abstract missing so score was low, but the paper is squarely on CLRN1."}
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:18625713", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MAGP-1 (MFAP2) knockout phenotypes; no ADAMTSL4 link, only shared fibrillin-microfibril context"},
-{"id": "pmid:21063442", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "complete FBN1 deletion clinical spectrum; FBN1 is not ADAMTSL4; no abstract"},
-{"id": "pmid:15518190", "verdict": "relevant", "confidence": 0.9, "reason": "L and M opsin gene arrays (OPN1LW/OPN1MW) in dichromacy; core gene biology"},
-{"id": "pmid:19934058", "verdict": "relevant", "confidence": 0.9, "reason": "C203R M-opsin (OPN1MW) mutation and cone mosaic disruption"},
-{"id": "pmid:18578077", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "general Marfan/related disorders review; no ADAMTSL4-specific content; no abstract"},
-{"id": "pmid:17158461", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "fibrillin-1 microfibril ultrastructure; FBN1 not ADAMTSL4"},
-{"id": "pmid:7667922", "verdict": "relevant", "confidence": 0.85, "reason": "genetic basis of photopigment (L/M opsin) variants in dichromats; title is squarely on OPN1LW/OPN1MW"},
-{"id": "pmid:21784848", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "fibrillin-1 Marfan mutations and protease susceptibility; FBN1 not ADAMTSL4"},
-{"id": "pmid:3884672", "verdict": "relevant", "confidence": 0.6, "reason": "IRBP (interstitial retinol binding protein, the RBP3 product) distribution during human subretinal space development; gene-product biology though not a genetic study"},
-{"id": "pmid:31254532", "verdict": "relevant", "confidence": 0.85, "reason": "L:M cone ratio and L opsin gene polymorphisms (OPN1LW) associated with myopia"}
+{"id": "pmid:22342749", "verdict": "uncertain", "confidence": 0.4, "reason": "C. elegans sensory cilia endocytosis paper; no abstract and title does not name RAB28, so RAB28 link cannot be confirmed"},
+{"id": "pmid:28510639", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "general review of inherited retinal degeneration genetics; RAB28 and IDH3A are only among hundreds of IRD genes, not the focus"},
+{"id": "pmid:18282513", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "general book chapter on long-range gene control and genetic disease; no abstract; ELP4 not the focus"},
+{"id": "pmid:8068206", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "cloning of human fascin (hsn, FSCN1 homolog); not FSCN2 retinal fascin"},
+{"id": "pmid:7738015", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "cloning of murine fascin homolog from brain (FSCN1 ortholog); not FSCN2"},
+{"id": "pmid:1723709", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Drosophila singed locus structure (fascin ortholog); no FSCN2 or retinal link"},
+{"id": "pmid:8595413", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "ROM1 mutation screen in retinitis pigmentosa; concerns ROM1, not FSCN2 (RP30); RP keyword match only"},
+{"id": "pmid:2592159", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "actin filament polarity at rod outer segment disk morphogenesis; no FSCN2 content"},
+{"id": "pmid:7789978", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "chromosome 11 physical/genetic map; no abstract; ELP4 (C11orf19) only incidentally located in the mapped region"},
+{"id": "pmid:16928862", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Drosophila neuron culture, singed/fascin (FSCN1) neurite morphogenesis; not FSCN2 retinal disease"}
 ]

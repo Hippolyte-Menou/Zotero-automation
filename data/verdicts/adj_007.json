@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:30930731",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly characterizes teneurin protein structure and evolution, including the C-terminal domain determined by X-ray crystallography and EM, alternative splicing effects on teneurin diversification, and multifunctional receptor features. TENM3 encodes teneurin-3 (ODZ3/TEN3/KIAA1455), one of the four teneurin family members. Structural characterization of the teneurin scaffold is foundational content for understanding TENM3 biology."
+    "id": "pmid:27631520",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "Paper describes ZC3H7B-BCOR gene fusions in uterine endometrial stromal sarcomas. While BCOR is the gene of interest, the clinical subject is exclusively gynaecological oncology with no ophthalmic phenotype mentioned. The BCOR connection is through its cancer fusion role, not through its oculofaciocardiodental or Lenz microphthalmia syndrome relevance. Not useful for an ophthalmogenetics library."
   },
   {
-    "id": "pmid:8157104",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title unambiguously describes alpha-crystallin complexes (alpha-gamma and alpha-beta) and demonstrates the in vivo chaperone role of alpha-crystallin. CRYAA encodes alphaA-crystallin, the primary alpha-crystallin subunit in the lens. The abstract is empty but the title establishes direct relevance to CRYAA chaperone function, a central feature of the gene."
+    "id": "pmid:18599376",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "Broad dental genetics review covering amelogenesis imperfecta, dentinogenesis imperfecta, and dental anomalies in multiple congenital anomaly syndromes. PubMed MeSH terms contain no ocular descriptors. Although BCOR-related OFCD syndrome has dental involvement, this review does not specifically address BCOR or OFCD, and the library focus is ophthalmic genetics."
   },
   {
-    "id": "pmid:16439475",
+    "id": "pmid:24515802",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies alphaA-crystallin (CRYAA) and alphaB-crystallin double-knockout mice to dissect caspase inhibition in lens fiber cell terminal differentiation. Shows that alphaA-crystallin interacts with caspase 6 and suppresses caspase activity to maintain lens fiber cell integrity. This is mechanistic work directly on the CRYAA gene product in the lens."
+    "confidence": 0.95,
+    "reason": "Abstract explicitly states 'Germline BCOR mutations have been detected in patients with oculofaciocardiodental and Lenz microphthalmia syndromes', directly linking BCOR to inherited eye malformation syndromes. Also discusses BCOR fusion transcripts and somatic mutations in retinoblastoma. This is essential background on BCOR's known ophthalmic disease associations."
   },
   {
-    "id": "pmid:8986785",
+    "id": "pmid:37895297",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Directly examines how endogenous metabolites modulate alpha-crystallin anti-aggregation (chaperone) activity using beta-crystallin and alcohol dehydrogenase as substrates. Alpha-crystallin chaperone activity is a defining function of CRYAA; modulation of this activity by physiological compounds is relevant to CRYAA lens biology and cataract susceptibility."
+    "confidence": 0.98,
+    "reason": "Directly reports pathogenic BCOR and PITX2 variants in Axenfeld-Rieger anomaly/syndrome, a primary anterior segment disorder. Abstract explicitly describes ARA, congenital glaucoma, corneal neovascularization, and cataracts associated with the identified variants. Core ophthalmogenetics content."
   },
   {
-    "id": "pmid:32184356",
+    "id": "pmid:39865314",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper explicitly uses human alphaA-crystallin (CRYAA) and alphaB-crystallin to study how chaperone-client complexes undergo glycation-mediated cross-linking. Shows age-associated increase in AGE-mediated cross-linking correlates with lens stiffness and presbyopia. Directly studies CRYAA protein in the context of lens aging, a phenotype relevant to the gene."
+    "confidence": 0.97,
+    "reason": "Study of inherited retinal diseases in 50 Turkish IRD patients identifies variants in ARSG and BBS12 genes among others, covering retinitis pigmentosa and Stargardt disease. Directly relevant to both genes catalogued (ARSG, BBS12) and to the library's retinal dystrophy focus."
   },
   {
-    "id": "pmid:8670752",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Directly quantifies age-related increase in alpha-, beta-, and gamma-crystallin degradation fragments in human lens high-molecular-weight protein complexes, identifying cleavage sites by N-terminal sequencing. Alpha-crystallin (CRYAA is the major alphaA subunit) fragmentation is directly relevant to CRYAA age-related biology and cataract formation."
+    "id": "pmid:35100716",
+    "verdict": "correctly_rejected",
+    "confidence": 0.93,
+    "reason": "Published in JCO Precision Oncology; describes BCOR alterations in pediatric sarcomas and high-grade glial malignancies. PubMed abstract is unavailable but journal, author affiliations (oncology departments), and title confirm an exclusively oncological focus with no ophthalmic content. BCOR's role here is as a cancer gene, not an eye disease gene."
   },
   {
-    "id": "pmid:12702164",
+    "id": "pmid:35227579",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly screens USH1C for mutations in Usher syndrome type 1 patients and non-syndromic deafness families using DHPLC, identifies the 238-239insC mutation and assesses its haplotypic background. USH1C (harmonin) is the ophthalmogenetics gene of interest; Usher syndrome type 1 causes both deafness and retinitis pigmentosa. Directly relevant to USH1C mutation spectrum."
+    "confidence": 0.97,
+    "reason": "Review explicitly titled 'Ocular phenotypes' for inherited metabolic disorders. Abstract describes 577 IMDs with ophthalmic manifestations including retinal degeneration, optic atrophy, corneal and lens involvement. Directly catalogues CERKL and IDH3A among the genes with ocular phenotypes."
   },
   {
-    "id": "pmid:37253645",
+    "id": "pmid:22183377",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title explicitly names CRYAA, and the abstract describes systematic investigation of CRYAA expression in in vivo (rabbit naphthalene cataract) and in vitro (HLEB3 H2O2) age-related cataract models. Shows CRYAA silencing increases apoptosis and autophagy in lens epithelial cells. This is direct and primary research on CRYAA in cataract."
+    "confidence": 0.90,
+    "reason": "Title 'Ceramide Signaling in Retinal Degeneration' directly maps to CERKL (Ceramide Kinase-Like), which causes retinitis pigmentosa. Even without an available abstract, the subject matter is precisely the molecular pathway implicated in CERKL-associated retinal disease. Relevant to the library."
   },
   {
-    "id": "pmid:34010109",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Meta-analysis directly investigating three CRYAA promoter polymorphisms (rs3761381, rs13053109, rs7278468) and their association with cataract susceptibility. Finds rs7278468 G allele carriers have significantly decreased cataract risk. This is core CRYAA genetic epidemiology directly tied to the gene's disease association."
+    "id": "pmid:40442284",
+    "verdict": "correctly_rejected",
+    "confidence": 0.82,
+    "reason": "Identifies RNU2-2 and RNU5B-1 as neurodevelopmental disorder genes through R-loop region analysis. Abstract and search keywords contain no ophthalmic terms. The paper characterises these spliceosomal RNA genes in the context of NDDs with no mention of retinal, corneal, or other ocular phenotypes. Insufficient connection to ophthalmogenetics."
   },
   {
-    "id": "pmid:22517799",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of developmental macular disorders and their molecular genetic basis. OPN1MW mutations cause blue-cone monochromacy with macular dysfunction, and SLC38A8 mutations cause isolated foveal hypoplasia - both are developmental macular disorders. This review of the category's phenotypes and genetic underpinning is directly relevant to understanding both genes in disease context."
+    "id": "pmid:9188497",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "Characterises 17beta-HSD6 and retinol dehydrogenase from rat and human prostate in the context of androgen/steroid metabolism. RDH11 is in the same enzyme superfamily but the paper's focus is prostate steroid biochemistry, not retinal biology. The retinol dehydrogenase mentioned (RoDH1) is a different enzyme than RDH11 and no retinal tissue is studied."
   },
   {
-    "id": "pmid:14525950",
+    "id": "pmid:1869569",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper reports that Col18a1-knockout mice develop anterior segment defects including fragile iris, iris adhesion to lens and cornea, posterior pigment epithelial cell defoliation, and ciliary body atrophy. COL18A1 encodes type XVIII collagen; this mouse study directly establishes COL18A1's role in anterior ocular integrity, an important complement to its known role in Knobloch syndrome."
+    "confidence": 0.93,
+    "reason": "Describes purification and characterisation of retinol dehydrogenase from bovine RETINAL rod outer segments, with kinetics for all-trans retinol and retinal. This is foundational biochemistry for the retinaldehyde/visual cycle enzyme family to which RDH11 belongs, studied directly in retinal tissue."
   },
   {
-    "id": "pmid:14614990",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Double knockout mice for collagens XV and XVIII (COL18A1) study is directly about COL18A1 (type XVIII collagen) and reveals lack of functional compensation between these two closely related collagens. While the abstract is absent, the title is unambiguous in relevance to COL18A1."
+    "id": "pmid:26231136",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "Review of biochemical properties and biotechnological production of retinoids, focusing on industrial/microbial retinoid synthesis. Although retinol dehydrogenase is briefly reviewed and retinal's role in the visual cycle is mentioned, the paper's primary scope is biotechnology and metabolic engineering, not retinal pathology or inherited eye disease."
   },
   {
-    "id": "pmid:39393775",
+    "id": "pmid:31082679",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Clinical case report of amniotic membrane graft for macular hole in a patient with Knobloch syndrome. Knobloch syndrome (KS, MIM 267750) is definitively caused by biallelic mutations in COL18A1. Surgical management of ocular complications in COL18A1-associated Knobloch syndrome is directly relevant to the gene's clinical significance."
+    "confidence": 0.98,
+    "reason": "Generates iPSC lines from a retinitis pigmentosa patient carrying a homozygous CERKL c.769C>T (p.Arg257Ter) mutation. Directly studies CERKL-associated RP, provides disease-model cell lines for CERKL research. Core ophthalmogenetics content."
   },
   {
-    "id": "pmid:23667181",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Correction letter establishing that a reported case of Knobloch syndrome with apparent ADAMTS18 mutation was, in fact, due to a COL18A1 mutation missed by initial analysis. Includes clinical characterization of KS ocular phenotype (ectopia lentis, cryptless irides, high myopia, vitreoretinal atrophy, macular atrophy). Directly relevant to COL18A1 mutation detection and Knobloch syndrome."
+    "id": "pmid:7876135",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "Clones and characterises liver microsomal retinol dehydrogenase (RoDH) expressed specifically in liver. The enzyme is studied in rat liver, not retinal tissue, in the context of hepatic retinoic acid biosynthesis. RDH11 is a related SDR family member but the paper does not study it or any retinal context."
   },
   {
-    "id": "pmid:14500905",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper directly studies OPN1LW (human red pigment) and OPN1MW (mouse green pigment) by replacing the mouse X-linked green opsin with the human red opsin gene. Uses multi-electrode array recordings to characterize chromatic sensitivity and retinal ganglion cell responses. Directly relevant to both OPN1LW and OPN1MW biology in cone photoreceptors."
+    "id": "pmid:34426021",
+    "verdict": "correctly_rejected",
+    "confidence": 0.75,
+    "reason": "General review of Polycomb PRC1/PR-DUB complexes in neurodevelopmental disorders and cancer. BCOR is a PRC1 component and would be catalogued in this review, but no ocular diseases, eye malformations, or ophthalmic phenotypes are mentioned in the abstract or MeSH terms (which cover Developmental Disabilities and Neoplasms). Insufficient ophthalmological relevance."
   },
   {
-    "id": "pmid:12770978",
+    "id": "pmid:40537162",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Study of VEP abnormalities in albinism, showing strong correlation between foveal hypoplasia grade and interhemispheric VEP latency asymmetry due to optic nerve misrouting. SLC38A8 mutations cause isolated foveal hypoplasia with optic nerve misrouting and nystagmus - phenotypically identical to albinism's ocular features. This paper characterizes the electrophysiological phenotype of foveal hypoplasia with misrouting, directly informative for SLC38A8-related disease. Link to OPN1MW is indirect (color opsin function is distinct from misrouting phenotype)."
+    "confidence": 0.90,
+    "reason": "Review of Joubert syndrome, a ciliopathy in which LCA5 and RPGRIP1L are causative genes. PubMed MeSH terms include 'Eye Abnormalities' and 'Retina', and Joubert syndrome is well known to involve Leber congenital amaurosis and coloboma as ocular manifestations. Directly relevant to both genes listed."
   },
   {
-    "id": "pmid:22472762",
+    "id": "pmid:36114230",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Large population review of inherited red-green color deficiency prevalence across ethnicities. Red-green color deficiency is caused by mutations or deletion of OPN1LW and OPN1MW. The prevalence data, population genetics (founder effects, genetic drift) and male:female ratios are directly relevant to the epidemiology of OPN1LW-associated disease."
+    "confidence": 0.95,
+    "reason": "Studies the molecular interaction between LC8 and LCA5 (lebercilin), the protein product of the Leber congenital amaurosis gene LCA5, in the ciliary-centrosome system. Provides mechanistic insight into LCA5 protein biology directly relevant to ciliopathy-related retinal degeneration."
   },
   {
-    "id": "pmid:15811001",
+    "id": "pmid:8407213",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Directly analyzes OPN1LW molecular variation including the Ser180Ala polymorphism, spectral tuning of red and green cone pigments, hybrid gene formation via unequal recombination, and the red/green gene array structure. OPN1LW encodes the long-wave sensitive cone opsin; this review of its molecular genetics and resulting color vision phenotypes is core content for the gene."
+    "confidence": 0.92,
+    "reason": "Studies structural changes in the interphotoreceptor matrix during progressive rod-cone degeneration (prcd) in dogs using lectin cytochemistry. PRCD and IMPG1 (interphotoreceptor matrix glycoprotein 1) are both directly studied. The paper examines photoreceptor-matrix interactions in the PRCD disease model, relevant to both catalogued genes."
   },
   {
-    "id": "pmid:10815162",
+    "id": "pmid:2558906",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Review of molecular genetics of color vision and color vision defects, discussing OPN1LW (and OPN1MW) gene structure, the tandem array on Xq28, spectral polymorphisms, and mechanisms underlying color deficiency. OPN1LW is directly the subject of this review. Relevant as foundational molecular genetics for the gene."
+    "confidence": 0.90,
+    "reason": "Establishes non-allelism of three early-onset hereditary retinal degeneration loci (rcd1, rcd2, erd) in dogs via cross-breeding experiments. These canine loci correspond to PDE6A (rcd1) and PRCD (erd/rcd2 lineage). Classic genetics paper establishing the genetic framework of retinal degeneration models for these genes."
   },
   {
-    "id": "pmid:11435442",
+    "id": "pmid:19390472",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Paper purifies and characterizes holo-Elongator as a six-subunit complex, discovers Elp4/Elp5/Elp6 subcomplex, and clones the human homologue of ELP4, showing it is ubiquitously expressed. ELP4 is the gene of interest (associated with aniridia/anterior segment dysgenesis via its location in the PAX6 locus). This paper defines ELP4's protein function as an Elongator subunit and establishes the human gene, making it directly relevant."
+    "confidence": 0.97,
+    "reason": "Clinical review of albinism with detailed description of ocular features: foveal hypoplasia, reduced vision, nystagmus, positive angle kappa, strabismus, iris transillumination, absent melanin in fundi, and retinostriate decussation. LRMDA (OCA7) and TYR (OCA1) are both albinism genes directly discussed. Core ophthalmogenetics content."
   }
 ]

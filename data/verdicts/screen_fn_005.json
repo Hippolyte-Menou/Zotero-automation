@@ -1,12 +1,12 @@
 [
-{"id": "pmid:8861938", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ROMK (Kir1.1, KCNJ1) pH sensitivity study; not KCNJ13 (Kir7.1). Generic Kir hit only."},
-{"id": "pmid:9592090", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Kir2.4 (KCNJ14) cloning in brainstem motoneurons; not KCNJ13/Kir7.1."},
-{"id": "pmid:9037094", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "IRK1 (Kir2.1, KCNJ2) selectivity filter salt bridge; not KCNJ13."},
-{"id": "pmid:1331360", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Frog subretinal space volume physiology; no KCNJ13 or Kir7.1 content."},
-{"id": "pmid:26310159", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General review of retinal biochemistry on refraction; no abstract and no evident NYX (nyctalopin) focus."},
-{"id": "pmid:31837604", "verdict": "uncertain", "confidence": 0.5, "reason": "AAV-miR-204 therapy paper; one of two test models is an Aipl1-mutant LCA mouse, so AIPL1 is a secondary model rather than the focus. Score 4 below threshold 6 is consistent with weak gene-specific relevance; a reviewer may reasonably keep it as an AIPL1 LCA-model paper."},
-{"id": "pmid:15359216", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Kir4.1 (KCNJ10) contribution to mouse ERG; not KCNJ13."},
-{"id": "pmid:23720324", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "General miRNA regulation of ion channels/transporters review; no KCNJ13 focus."},
-{"id": "pmid:10967048", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Bovine corneal endothelial IRK1 (Kir2.1, KCNJ2) cloning; not KCNJ13."},
-{"id": "pmid:40062477", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Insect Kir channel pharmacology and insecticides; no human KCNJ13 content."}
+{"id": "pmid:5936364", "verdict": "relevant", "confidence": 0.85, "reason": "1966 report of microcephaly with chorioretinopathy in Mennonite sibships; this phenotype is the TUBGCP4-associated microcephaly-chorioretinopathy syndrome, so it fits the gene's disease biology"},
+{"id": "pmid:1449470", "verdict": "relevant", "confidence": 0.6, "reason": "Biochemistry of decorin (DCN) core protein fragments binding type I collagen; about the gene product itself, though no abstract and no corneal disease focus"},
+{"id": "pmid:10686422", "verdict": "relevant", "confidence": 0.9, "reason": "Describes alpha1(VIII) and alpha2(VIII) (COL8A2 product) homotrimers in vivo; directly about COL8A2 protein"},
+{"id": "pmid:35455444", "verdict": "uncertain", "confidence": 0.5, "reason": "PDRN therapy in an in vitro Fuchs endothelial corneal dystrophy model; FECD is a COL8A2-associated disease (FECD1/PPCD2 aliases) but the paper does not study COL8A2 itself"},
+{"id": "pmid:17553638", "verdict": "relevant", "confidence": 0.55, "reason": "Functional diversification of Kir7.1 (KCNJ13 protein) in cichlids after gene duplication; about the gene product and its evolution, non-human but gene-centric"},
+{"id": "pmid:28738413", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Cone density AOSLO imaging in Stargardt disease and RPGR retinopathy; no focus on AIPL1, CNGB3 or OPN1MW"},
+{"id": "pmid:3261696", "verdict": "uncertain", "confidence": 0.5, "reason": "Clinical comparison of posterior polymorphous dystrophy (COL8A2-associated PPCD2 alias) and congenital hereditary endothelial dystrophy; no abstract, no PIKFYVE content; disease-level link only"},
+{"id": "pmid:37358491", "verdict": "relevant", "confidence": 0.6, "reason": "Achromatopsia visual acuity testing with filter glasses; achromatopsia is the core CNGA3-associated disease, consistent with disease-level inclusion"},
+{"id": "pmid:22177091", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Weaver syndrome caused by EZH2 mutations; not KMT2D (Kabuki) biology"},
+{"id": "pmid:14741744", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Proteomics of lipid droplet fraction in HuH7 hepatocytes; no RAB18 focus in title or abstract and no ocular disease link"}
 ]

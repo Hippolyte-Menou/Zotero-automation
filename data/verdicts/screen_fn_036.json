@@ -1,12 +1,12 @@
 [
-{"id": "pmid:20238021", "verdict": "relevant", "confidence": 0.7, "reason": "Review of photoreceptor sensory cilia and inherited retinal degeneration; RPGR is a connecting-cilium protein and a core IRD gene, and BBS12 fits the ciliopathy theme. Abstract empty, so judged from title."},
-{"id": "pmid:14578418", "verdict": "relevant", "confidence": 0.9, "reason": "Multifocal ERG study in X-linked retinoschisis patients; XLRS is the RS1 disease, so this is directly on topic."},
-{"id": "pmid:26436454", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Hedgehog signaling in adult lung quiescence and repair; general Hh pathway biology with no SMO-specific or ocular/SMO-disease link in title or abstract."},
-{"id": "pmid:34196950", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Review of spliceosome mutations in cancer and immunity; general spliceosome biology, not RNU4ATAC (U4atac minor spliceosome snRNA) or its disease."},
-{"id": "pmid:33675823", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Congenital aniridia review centred on PAX6; TRIM44 is not an aniridia gene and is not discussed in the abstract."},
-{"id": "pmid:16855496", "verdict": "uncertain", "confidence": 0.5, "reason": "Ophthalmic features of basal cell nevus syndrome (Gorlin). BCNS is mainly PTCH1-driven and SMO is only a minor contributor, so the SMO link is weak; it is a Hh-pathway disease but not SMO-specific."},
-{"id": "pmid:31451534", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Tests Hedgehog pathway as a cell-autonomous modifier of Pkd1-driven polycystic kidney disease. Hh pathway, not SMO gene biology per se; no ocular link and SMO is not the focus."},
-{"id": "pmid:15617676", "verdict": "uncertain", "confidence": 0.5, "reason": "Xenopus Xhip (Hedgehog-interacting protein) in olfactory and lens placode formation. Hh-pathway developmental eye-adjacent work; SMO not named in title, RAX is an eye-field homeobox but not clearly discussed. Abstract empty."},
-{"id": "pmid:35454139", "verdict": "relevant", "confidence": 0.8, "reason": "Mechanistic study of CcHL/HCCS (System III holocytochrome c synthase) substrate recognition. HCCS is the gene itself; HCCS loss-of-function causes MLS (microphthalmia with linear skin defects). The SMO tag is spurious but HCCS is on topic."},
-{"id": "pmid:10821773", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Shh and Ihh ligand requirements in gut development; ligand-level GI biology with no SMO focus and no ocular link in the abstract."}
+{"id": "pmid:1691189", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Keratin 8/18 cystine cross-linking and heterodimer assembly; no KRT12 content"},
+{"id": "pmid:1721910", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Transgenic mouse model of EBS with generic keratin mutants; KRT12 not discussed"},
+{"id": "pmid:9028791", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "General keratin disease review (K1/K5/K14/K16/K17 etc.); KRT12 not mentioned"},
+{"id": "pmid:1702787", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "K14 deletion mutants and filament assembly; no KRT12 link"},
+{"id": "pmid:7505575", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "General keratin overlap regions vs genodermatosis mutations; no KRT12-specific content"},
+{"id": "pmid:11593936", "verdict": "correctly_rejected", "confidence": 0.55, "reason": "Corneal integrity review (no abstract); topic is corneal transparency, not KRT12 specifically"},
+{"id": "pmid:7506606", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KRT14 three-nucleotide deletion in EBS; not KRT12"},
+{"id": "pmid:32882212", "verdict": "relevant", "confidence": 0.65, "reason": "Keratin expression in developing corneal and limbal epithelium; KRT12 is the canonical corneal differentiation keratin, so this bears directly on KRT12 biology"},
+{"id": "pmid:18059516", "verdict": "relevant", "confidence": 0.6, "reason": "Meesmann corneal dystrophy (KRT3/KRT12-associated) case management; disease-level relevance to KRT12, though surgical focus"},
+{"id": "pmid:40410165", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Corneal epithelial DIA proteome resource; no KRT12-specific focus"}
 ]

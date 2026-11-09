@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41834719", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MC4R accessory-protein review; no KCNJ13 (Kir7.1) link"},
-{"id": "pmid:42352306", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "fish neural melanocortin receptor review; unrelated to KCNJ13"},
-{"id": "pmid:42566994", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "nephronectin (NPNT) ameloblast study; NHS (Nance-Horan) not mentioned"},
-{"id": "pmid:42560691", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "FAM83H amelogenesis imperfecta study; matched only on 'NHS' alias-like token, not NHS gene"},
-{"id": "pmid:9525859", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KcsA bacterial K channel crystal structure; no KCNJ13 link"},
-{"id": "pmid:9074760", "verdict": "uncertain", "confidence": 0.5, "reason": "general Kir channel family review; KCNJ13 (Kir7.1) not specifically discussed, so family-level relevance only"},
-{"id": "pmid:8355805", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "rat GIRK1 muscarinic K channel cloning; not KCNJ13"},
-{"id": "pmid:16713582", "verdict": "relevant", "confidence": 0.6, "reason": "Elongator-depleted cells (familial dysautonomia); ELP4 is a core Elongator subunit, so the complex biology applies to ELP4 though ELP4 is not the focus"},
-{"id": "pmid:22410558", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "blood-derived iPSC optic vesicle differentiation; OTX2/PROM1/VSX2 not studied"},
-{"id": "pmid:11689709", "verdict": "relevant", "confidence": 0.85, "reason": "yeast holo-Elongator complex characterization that identifies and studies Elp4 directly"}
+{"id": "pmid:21883168", "verdict": "relevant", "confidence": 0.9, "reason": "Marfan syndrome diagnosis built on FBN1 genotype and phenotype; FBN1 mutation status central to the classification"},
+{"id": "pmid:9016526", "verdict": "relevant", "confidence": 0.95, "reason": "Marfan Database software for analysis of mutations in the human FBN1 gene"},
+{"id": "pmid:8040326", "verdict": "relevant", "confidence": 0.95, "reason": "Novel FBN1 transition mutation (extra cysteine in EGF-like motif) in a Marfan-like family"},
+{"id": "pmid:19059503", "verdict": "relevant", "confidence": 0.75, "reason": "Compound-heterozygous Marfan syndrome; no abstract, but the title and the Marfan/FBN1 context point to FBN1 genotype"},
+{"id": "pmid:21936929", "verdict": "relevant", "confidence": 0.95, "reason": "Large genomic deletions in FBN1 detected by MLPA in Marfan-like aortopathy patients"},
+{"id": "pmid:10441597", "verdict": "relevant", "confidence": 0.9, "reason": "Germline mosaicism for an FBN1 mutation causing recurrent Marfan-like manifestations"},
+{"id": "pmid:17627385", "verdict": "relevant", "confidence": 0.95, "reason": "dHPLC mutation scanning of FBN1 for Marfan syndrome diagnosis; 93 mutations reported"},
+{"id": "pmid:23506379", "verdict": "relevant", "confidence": 0.85, "reason": "Screening of marfanoid ID patients including FBN1 sequencing; pathogenic FBN1 mutations found"},
+{"id": "pmid:31506931", "verdict": "relevant", "confidence": 0.9, "reason": "Fibrillinopathies (MFS/CCA) with FBN1/FBN2 variant co-occurrence and FBN1 variant classification"},
+{"id": "pmid:15598221", "verdict": "relevant", "confidence": 0.95, "reason": "Incomplete penetrance of the FBN1 R2726W mutation in a family with Marfan-like features"}
 ]

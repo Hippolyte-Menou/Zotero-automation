@@ -1,12 +1,12 @@
 [
-{"id": "pmid:32195292", "verdict": "relevant", "confidence": 0.9, "reason": "Review of cone opsin (OPN1LW/OPN1MW) splicing defects causing vision disorders; directly about the gene pair"},
-{"id": "pmid:27245533", "verdict": "relevant", "confidence": 0.95, "reason": "Genotype-phenotype review of OPN1LW/OPN1MW cone opsin disorders"},
-{"id": "pmid:27787612", "verdict": "uncertain", "confidence": 0.5, "reason": "Mouse IPM olfactomedin-domain protein study (title says Olfactomedin 1, but IPM/olfactomedin biology overlaps IMPG1/SPACR); abstract not available to confirm the gene"},
-{"id": "pmid:41446205", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Engineered extracellular vesicles for RNA delivery; no MFRP link"},
-{"id": "pmid:41968583", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Base editing of Rag2 for SCID in mice; no MFRP link"},
-{"id": "pmid:917049", "verdict": "relevant", "confidence": 0.9, "reason": "Gyrate atrophy of choroid and retina due to deficient ornithine ketoacid aminotransferase (OAT) activity; OAT disease paper"},
-{"id": "pmid:41415457", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "VLP-based CRISPR screening in myeloid cells; no MFRP link"},
-{"id": "pmid:8242064", "verdict": "relevant", "confidence": 0.9, "reason": "Polymorphism and haplotype diversity of human red and green opsin genes; directly about OPN1LW (and OPN1MW)"},
-{"id": "pmid:2307198", "verdict": "uncertain", "confidence": 0.45, "reason": "1990 characterization of an interphotoreceptor matrix photoreceptor survival factor; IMPG1 not named in abstract, link is only via IPM biology (pre-cloning)"},
-{"id": "pmid:29921877", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Rosmarinic acid as anti-cataract drug screening; LSS (lanosterol synthase) not studied, only generic cataract topic"}
+{"id": "pmid:14676542", "verdict": "relevant", "confidence": 0.6, "reason": "Clinical orthopaedic series of 27 Bardet-Biedl syndrome patients; BBS is the disease tied to MKKS (BBS6), so disease-level relevance, though gene not named"},
+{"id": "pmid:33886537", "verdict": "relevant", "confidence": 0.5, "reason": "Mouse model of Bardet-Biedl syndrome ciliopathy genes; disease-level relevance to MKKS/BBS6, but MKKS itself not specifically studied"},
+{"id": "pmid:26875007", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Global myopia prevalence meta-analysis; not about ACO2, ARR3, LRIT3, OPN1MW, PITPNM3, choroid/vascular physiology or retinal dystrophies as listed"},
+{"id": "pmid:25005911", "verdict": "relevant", "confidence": 0.85, "reason": "Retinal vascular anomalies in familial exudative vitreoretinopathy; FEVR is caused by FZD4, which is the listed gene"},
+{"id": "pmid:15134637", "verdict": "relevant", "confidence": 0.75, "reason": "Subunit configuration of heteromeric cone CNG channels (CNGA3/CNGB3 achromatopsia channels); CNG channel family biology under CNGA1 composite entry"},
+{"id": "pmid:3132713", "verdict": "uncertain", "confidence": 0.5, "reason": "Describes the brown-locus tyrosinase-related protein (mouse TYRP1, not DCT/TRP-2) in pigmentation; loosely albinism/pigment biology but not DCT-specific"},
+{"id": "pmid:11221837", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Melanoma T-cell antigen discovery (HLA-A2 epitopes, TRP-2 epitope); no albinism or SLC45A2 focus"},
+{"id": "pmid:8457509", "verdict": "relevant", "confidence": 0.85, "reason": "X-linked exudative vitreoretinopathy family with linkage to Xp11 Norrie disease locus; NDP is the listed gene"},
+{"id": "pmid:2336278", "verdict": "relevant", "confidence": 0.85, "reason": "Long-term follow-up of fundus albipunctatus, a congenital stationary night-blindness retinal dystrophy; matches Retinal dystrophies topic"},
+{"id": "pmid:10366074", "verdict": "relevant", "confidence": 0.8, "reason": "Vitrectomy outcomes for retinal detachment in familial exudative vitreoretinopathy patients; matches Vitreoretinopathies topic"}
 ]

@@ -1,122 +1,110 @@
 [
   {
-    "id": "pmid:20884587",
+    "id": "pmid:33800529",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Directly studies tetrachromacy in female carriers of anomalous trichromacy. OPN1LW (red cone opsin / RCP) underlies the fourth cone class in these carriers. The paper explicitly examines the spectral dimensions of the OPN1LW/OPN1MW gene products and their psychophysical consequences. Core OPN1LW literature."
+    "confidence": "high",
+    "reason": "Abstract explicitly names TYR and OCA2 genes and discusses LRMDA/OCA7 as one of the seven albinism genes. The paper directly studies pathogenic variants in these three genes (all listed as gene_or_topic) causing oculocutaneous albinism, including a digenic TYR/OCA2 case. Directly on-topic."
   },
   {
-    "id": "pmid:7863325",
+    "id": "pmid:1707331",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Foundational Science paper on the numbers and ratios of visual pigment genes in the X-linked OPN1LW/OPN1MW array. Directly examines OPN1LW gene copy number and its implications for normal and anomalous color vision. Central to OPN1LW genomics."
+    "confidence": "high",
+    "reason": "Title names the K3/K12 keratin pair; K12 is the protein product of KRT12. The paper studies K12 expression during corneal epithelial differentiation in chick and rabbit, directly relevant to KRT12 biology. The abstract is empty but the title is unambiguous."
   },
   {
-    "id": "pmid:15252758",
+    "id": "pmid:24581223",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Title explicitly covers signatures of selection and gene conversion in human color vision variation. Gene conversion between OPN1LW and OPN1MW is the primary molecular mechanism driving variation and disease in these genes. Directly relevant to OPN1LW molecular evolution."
+    "confidence": "high",
+    "reason": "Abstract explicitly includes 'prcd (PRCD-mutation)' as one of four canine retinal degeneration models studied for miRNA expression changes. PRCD is directly investigated in this paper."
   },
   {
-    "id": "pmid:1968424",
+    "id": "pmid:17623091",
     "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "195-kb cosmid walk encompassing the Xq28 color vision pigment genes - this is the OPN1LW/OPN1MW locus. A foundational genomic mapping paper for the OPN1LW gene region. Directly relevant to OPN1LW locus structure."
+    "confidence": "high",
+    "reason": "Abstract maps progressive retinal atrophy locus in Finnish lapphund and concludes 'The locus for progressive rod-cone degeneration is known to be close to the GALK1 locus... This suggests that the disease in this breed, as well as in the Swedish lapphund, may correspond to progressive rod-cone degeneration.' PRCD is the gene symbol for progressive rod-cone degeneration; directly relevant."
   },
   {
-    "id": "pmid:26296154",
+    "id": "pmid:2309782",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Studies differential regulation of tandemly-duplicated LWS cone opsin genes (zebrafish homologs of OPN1LW) by retinoic acid signaling. Provides mechanistic insight into how the OPN1LW/OPN1MW tandem array is differentially regulated, directly relevant to understanding OPN1LW expression control."
+    "confidence": "high",
+    "reason": "Title and abstract directly study 'progressive rod-cone degeneration (prcd)' in Miniature Poodle dogs, the same gene as PRCD. Abstract discusses PRCD inheritance patterns and draws comparison to retinitis pigmentosa."
   },
   {
-    "id": "pmid:2395857",
+    "id": "pmid:12400639",
     "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Population genetics of X-linked OPN1LW (red pigment gene) and OPN1MW (green pigment gene) across African, Japanese, and Caucasian populations. Directly studies OPN1LW gene structure including a shortened red pigment gene variant and gene conversion. Core OPN1LW molecular genetics literature."
+    "confidence": "medium",
+    "reason": "Review of canine inherited retinal degenerations notes linkage studies have identified genetic markers for a retinal degeneration 'found in at least six different breeds.' PRCD was precisely the multi-breed disease under linkage investigation at this period. As a review covering the entire field, it covers PRCD research. Relevant to PRCD."
   },
   {
-    "id": "pmid:1247409",
+    "id": "pmid:11397244",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Classic early report of isolated foveal hypoplasia with congenital nystagmus and poor visual acuity, without albinism or aniridia. SLC38A8 loss-of-function causes isolated foveal hypoplasia (FHONDA syndrome). This paper describes the identical clinical presentation and is foundational for understanding the SLC38A8 phenotype."
+    "confidence": "high",
+    "reason": "Abstract explicitly states 'The Papillon dog is another dog breed affected by progressive rod-cone degeneration, with similarities to the canine retinal disease given the gene symbol prcd.' PRCD is named by its gene symbol. Directly relevant."
   },
   {
-    "id": "pmid:29170010",
+    "id": "pmid:9820795",
     "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Review of the Elongator complex, of which ELP4 is a core subunit. ELP4 is in the ophthalmogenetics library because 11p13 deletions encompassing ELP4 are associated with aniridia and anterior segment dysgenesis. Understanding ELP4's molecular role in tRNA modification provides essential functional context for interpreting ELP4's contribution to ophthalmic phenotypes."
+    "confidence": "medium",
+    "reason": "Title describes evaluation of phosducin as a candidate gene for canine generalized progressive retinal atrophies. Abstract is empty. Phosducin was investigated during the PRCD gene discovery effort as one of several photoreceptor-expressed candidates. Relevant to PRCD research context even if phosducin was ultimately ruled out."
   },
   {
-    "id": "pmid:12424236",
+    "id": "pmid:11470454",
     "verdict": "relevant",
-    "confidence": 0.80,
-    "reason": "Directly studies ELP4 (Elp4p/Tot7p) subunit function and its role in maintaining the structural integrity of the Elongator HAP subcomplex in yeast. ELP4 is an ophthalmogenetics gene (11p13 locus; aniridia); this foundational characterization of ELP4 protein function is relevant for interpreting its role in ophthalmic conditions."
+    "confidence": "medium",
+    "reason": "Title describes characteristics of the human ocular surface epithelium, the tissue where KRT12 is the hallmark corneal keratin. KRT12 expression and function in the ocular surface epithelium would be expected content in such a review. No abstract available but the subject matter is directly tied to KRT12."
   },
   {
-    "id": "pmid:24801621",
+    "id": "pmid:32882212",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Creates knock-in mouse model with human L-opsin (OPN1LW) variant replacing mouse M-opsin, specifically to study disease-causing OPN1LW/OPN1MW variant combinations (blue cone monochromacy, cone dystrophy). Directly relevant to OPN1LW structure-function and disease modeling."
+    "confidence": "high",
+    "reason": "Title directly studies keratin expression by corneal and limbal stem cells during development. KRT12 is the primary keratin expressed in corneal epithelium and is a defining marker of corneal stem cell differentiation. Directly relevant to KRT12. Abstract empty but title is unambiguous."
   },
   {
-    "id": "pmid:16961970",
+    "id": "pmid:18059516",
     "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Maps topographical distribution of L-cone (OPN1LW) versus M-cone opsin mRNA ratios across human and baboon retina using real-time PCR. Directly quantifies OPN1LW expression patterns in the retina, relevant to understanding cone subtype distribution and OPN1LW biology."
+    "confidence": "high",
+    "reason": "Meesmann corneal dystrophy is caused specifically by mutations in KRT3 or KRT12. A paper on managing Meesmann dystrophy is directly relevant to KRT12. Abstract empty but the disease-gene link is unambiguous."
   },
   {
-    "id": "pmid:7759069",
+    "id": "pmid:40336309",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Characterizes molecular patterns and sequence polymorphisms in the red (OPN1LW) and green (OPN1MW) visual pigment genes in Japanese men. Directly studies OPN1LW gene polymorphisms relevant to color vision variation and disease risk."
+    "confidence": "high",
+    "reason": "Abstract describes butterfly-shaped pattern dystrophy, one of the best-characterized phenotypes caused by PRPH2 mutations. Search keywords include both 'PRPH2' and 'pattern-dystrophy'. Although the abstract does not name PRPH2 explicitly, butterfly-shaped pattern dystrophy is prototypically a PRPH2-associated disorder and the paper is directly relevant to PRPH2."
   },
   {
-    "id": "pmid:38441889",
+    "id": "pmid:8602784",
     "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "Establishes quantitative foveal structural metrics (IRL ratio, OS ratio, ONL ratio) as predictors of visual acuity in foveal hypoplasia using SD-OCT in albinism. SLC38A8 mutations cause isolated foveal hypoplasia (FHONDA); the quantitative grading framework and OCT metrics validated here are directly applicable to assessing and monitoring SLC38A8 patients."
+    "confidence": "high",
+    "reason": "Peripherin/RDS is an alias for PRPH2. Abstract explicitly studies a large deletion in the peripherin/RDS gene causing butterfly-shaped macular dystrophy, performing linkage analysis and molecular characterization of the PRPH2 mutation. Directly relevant."
   },
   {
-    "id": "pmid:35113505",
+    "id": "pmid:7710395",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Directly genotypes OPN1LW and OPN1MW using MassArray in 454 participants and compares with pseudoisochromatic plate testing. The abstract explicitly names OPN1LW genotype analysis. Core diagnostic/epidemiologic paper for OPN1LW."
+    "confidence": "high",
+    "reason": "Peripherin/RDS is PRPH2. Abstract studies a 4-bp insertion at codon 140 of the peripherin/RDS gene causing dominantly inherited pattern dystrophy. Directly relevant to PRPH2."
   },
   {
-    "id": "pmid:16961974",
+    "id": "pmid:11704030",
     "verdict": "relevant",
-    "confidence": 0.94,
-    "reason": "Characterizes a novel X-linked visual pigment gene with a unique exon 5 arrangement arising from intragenic unequal crossing-over between OPN1LW and OPN1MW. This is a direct study of OPN1LW/OPN1MW gene structure and its role in producing a unique dichromatic color vision defect."
+    "confidence": "high",
+    "reason": "Peripherin/RDS is PRPH2. Title describes a splice site mutation in the peripherin/RDS gene causing pattern dystrophy. Directly relevant to PRPH2. Abstract is empty but title is unambiguous."
   },
   {
-    "id": "pmid:40013507",
+    "id": "pmid:27895971",
     "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Case report of surgical repair of myopic macular hole-related retinal detachment in a child with Knobloch syndrome. Knobloch syndrome is caused by COL18A1 mutations. This paper directly describes the ophthalmic management of a COL18A1-related condition and is directly relevant to COL18A1 clinical care."
+    "confidence": "medium",
+    "reason": "HMX1 mutations cause oculoauricular syndrome, which includes both microtia and structural eye defects (the reason HMX1 is in the ophthalmogenetics library). A review of the genetic causes of microtia would cover HMX1 as a causative gene with known ophthalmic co-phenotype. Relevant to HMX1."
   },
   {
-    "id": "pmid:41189636",
-    "verdict": "relevant",
-    "confidence": 0.91,
-    "reason": "Studies how TRbeta2 overexpression and thyroid hormone (TH) availability regulate differential expression of LWS cone opsin genes (zebrafish OPN1LW homologs lws1/lws2). TRbeta2 is a known regulator of human OPN1LW expression. Provides mechanistic insight into OPN1LW transcriptional regulation directly relevant to cone photoreceptor biology."
+    "id": "pmid:40033430",
+    "verdict": "correctly_rejected",
+    "confidence": "medium",
+    "reason": "Abstract is entirely about non-coding cis-regulatory HK1 variants causing congenital hyperinsulinism via loss of beta-cell repression. The paper focuses solely on pancreatic beta-cell biology and insulin secretion; no retinal or ophthalmic content is mentioned. HK1 is in this ophthalmogenetics library for its retinal dystrophy role, not its metabolic role. A paper focused exclusively on the hyperinsulinism phenotype of HK1 is off-topic for an ophthalmogenetics library."
   },
   {
-    "id": "pmid:27917399",
+    "id": "pmid:7510254",
     "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Annual Review covering the retinoid cycle in mammalian retina with direct relevance to ABCA4, LRAT, RDH11, RLBP1, RPE65, and STRA6 (all key retinoid cycle genes) as well as RHO and PDE6H. All listed gene_or_topic entries are directly covered in this review of retinoid-cycle biochemistry and therapeutic interventions."
-  },
-  {
-    "id": "pmid:7891370",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Gene map review of inherited eye disorders covering retina, choroid, and vitreous diseases. COL2A1 (Stickler syndrome/vitreoretinopathy), OAT (gyrate atrophy of choroid/retina), and RP2 (X-linked retinitis pigmentosa) are all directly covered. Foundational mapping reference for these three ophthalmogenetics genes."
-  },
-  {
-    "id": "pmid:28065590",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Reviews mechanism and evidence for nonsense suppression therapy in genetic eye disorders. CHM (choroideremia) and RP2 (X-linked RP) are both X-linked retinal dystrophies with nonsense mutations; this therapeutic review is directly relevant to both genes. Clearly within scope for a gene-centric ophthalmogenetics library."
+    "confidence": "medium",
+    "reason": "Title describes a novel NK-related mouse homeobox gene expressed in nervous structures during embryonic development. HMX1 is an NK-related homeobox gene (H6 family, also called NKX5-3), and the search keywords include both HMX1 and NKX5-3. This paper likely characterizes HMX1 or a direct homolog; expression in neural structures during embryogenesis is consistent with HMX1's known role in sensory organ development. Abstract is empty but title and gene aliases match strongly."
   }
 ]

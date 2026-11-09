@@ -1,12 +1,12 @@
 [
-{"id": "pmid:9893828", "verdict": "relevant", "confidence": 0.9, "reason": "Titled study of L-cone pigment (OPN1LW) gene expression in normal colour vision; direct OPN1LW topic, rejected only on low score."},
-{"id": "pmid:4186708", "verdict": "relevant", "confidence": 0.6, "reason": "1970s study of retinal mucopolysaccharides/glycosaminoglycans (interphotoreceptor matrix); plausibly about the IPM proteoglycan IMPG1 (SPACR). Abstract missing, so confidence is moderate."},
-{"id": "pmid:8792812", "verdict": "relevant", "confidence": 0.85, "reason": "Blue cone monochromatism mechanism paper; BCM is caused by OPN1LW/OPN1MW array deletions, so it is core OPN1LW/OPN1MW disease literature."},
-{"id": "pmid:18318631", "verdict": "relevant", "confidence": 0.75, "reason": "L:M cone ratio study centred on the X-linked L and M opsin gene array and LCR/promoter proximity; direct OPN1LW/OPN1MW biology."},
-{"id": "pmid:2795409", "verdict": "relevant", "confidence": 0.85, "reason": "Clinical characterisation of blue cone monochromatism (BCM), the disease caused by OPN1LW/OPN1MW dysfunction."},
-{"id": "pmid:38989717", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Dermal biomaterial review on elastogenesis; no IMPG1 link (filed under ADAMTSL4 and clearly unrelated)."},
-{"id": "pmid:20492958", "verdict": "relevant", "confidence": 0.8, "reason": "Characterisation of extracellular retinol-binding glycoprotein in rat eye (interphotoreceptor retinol-binding protein, IRBP = RBP3); RBP3 is a listed gene for this item."},
-{"id": "pmid:41535609", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "CRISPR-gold nanoparticle delivery into haematopoietic stem cells; no MFRP link."},
-{"id": "pmid:38404354", "verdict": "uncertain", "confidence": 0.5, "reason": "Comment on contrast theory and myopia optics; it mentions cone opsin gene splicing defects only as background to the critiqued work. Weak OPN1MW link, mostly about optics."},
-{"id": "pmid:41738314", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Epigenetic regulation review in MASLD (liver); no MFRP link. Matched only on generic retina/gene terms."}
+ {"id": "pmid:21857800", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans glial sensory compartment morphogenesis (LIT-1/NLK, DAF-6, WASP); no RAB28 or cone-rod dystrophy link"},
+ {"id": "pmid:3793408", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Immunoferritin localization of actin in photoreceptor cilia; no FSCN2 mention, and FSCN2 (fascin-2) is not the actin protein studied"},
+ {"id": "pmid:7581389", "verdict": "relevant", "confidence": 0.7, "reason": "Maps the adRP eighth locus (RP30, 17q) that is now known to be FSCN2; the gene behind this locus is FSCN2"},
+ {"id": "pmid:9132491", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "FISH study of WAGR/11p13 deletions around PAX6 and WT1; ELP4 not examined. Only the PAXNEB alias (a neighbouring-gene name) links it"},
+ {"id": "pmid:28321846", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "PAX6 mutation spectrum in Russian aniridia cohort; ELP4 not mentioned. Link is only via the PAXNEB alias"},
+ {"id": "pmid:23692385", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "LZTFL1 (BBS17) mutations with mesoaxial polydactyly; not MKKS (BBS6)"},
+ {"id": "pmid:33036185", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Zebrafish rhodopsin P23H retinitis pigmentosa model; no FSCN2 link"},
+ {"id": "pmid:22736939", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Genotyping microarray for adRP in Spanish families; generic adRP diagnostics, FSCN2/RP30 not specifically studied"},
+ {"id": "pmid:21985185", "verdict": "uncertain", "confidence": 0.5, "reason": "PAX6 3' deletion on 11p13 with a four-gene region; ELP4 may lie within the deleted neighbourhood but the paper does not name it. Link is via PAXNEB alias only"},
+ {"id": "pmid:21816254", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "OCT phenotyping of aniridia; no ELP4 content. Abstract is empty, so judged on title only"}
 ]

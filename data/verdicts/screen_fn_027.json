@@ -1,12 +1,12 @@
 [
-{"id": "pmid:42080789", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Nystagmus change after cataract surgery in congenital blindness (Project Prakash); no FRMD7 link, nystagmus is not shown to be genetic."},
-{"id": "pmid:42096224", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Psychophysics of viewing time in infantile nystagmus generally; no FRMD7 or genetic content. Borderline since IN is the FRMD7 phenotype, but paper is not gene-specific."},
-{"id": "pmid:40736861", "verdict": "uncertain", "confidence": 0.5, "reason": "Gene therapy book chapter with no abstract; plausibly covers RPE65 (first approved retinal gene therapy) but ACO2 and RS1 links unclear. Needs full text to decide per gene."},
-{"id": "pmid:12126230", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General gap junction/connexin review; mentions connexin 50 (GJA8) only in passing among many connexins."},
-{"id": "pmid:1993030", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Head posture in congenital nystagmus (1991); no genetic content and not FRMD7-specific. Borderline on the IN-as-disease reading."},
-{"id": "pmid:33947751", "verdict": "uncertain", "confidence": 0.5, "reason": "Kinetoplastid (trypanosome) cytochrome c synthase, ortholog of HCCS; only the truncated abstract touches a human genetic disease. Mainly protist biology, leaning correctly rejected."},
-{"id": "pmid:38573619", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "ERG in albinism and idiopathic infantile nystagmus; no FRMD7 or genetic link. Borderline on the IN-as-disease reading."},
-{"id": "pmid:12686556", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Recoverin (RCVRN) myristoylation and Ca2+ structure; not about GRK1 or GUCA1A/GCAP1."},
-{"id": "pmid:38955952", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of retinal gene therapy clinical trials across disorders; likely covers RPGR-XLRP and RS1 trials to some extent, but multi-disease and not gene-specific. Leans relevant at disease level."},
-{"id": "pmid:3035715", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Rat liver gap junction cDNA (connexin 32 era, 1990); not GJA3 (Cx46) or GJA8 (Cx50)."}
+{"id": "pmid:8376465", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Type IV neuronal intermediate filament (alpha-internexin, NF triplet) assembly in transfected cells; no BFSP1/filensin content (BFSP1 is a lens type VI beaded filament protein)."},
+{"id": "pmid:12462438", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Canine ERG clinical guidelines; no RPGRIP1 content, no abstract."},
+{"id": "pmid:29708978", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Canine genetic disease variant prevalence across 152 variants; RPGRIP1 not discussed in abstract, only a generic inherited-disease panel."},
+{"id": "pmid:11124530", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Canine gPRA in Sloughi dogs due to PDE6B 8-bp insertion; RPGRIP1 not involved."},
+{"id": "pmid:17306875", "verdict": "relevant", "confidence": 0.95, "reason": "Title explicitly describes LCA caused by an RPGRIP1 mutation with treatment potential; abstract missing only because of data gap, so score was artificially low."},
+{"id": "pmid:31117272", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Giant Schnauzer PRA WGS identifying NECAP1 as candidate; RPGRIP1 not mentioned."},
+{"id": "pmid:23278760", "verdict": "relevant", "confidence": 0.95, "reason": "Novel RPGRIP1 frameshift mutation causing LCA6 in an Emirati family; core RPGRIP1 disease-variant paper."},
+{"id": "pmid:41083750", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Obesity effects on adipose stem cell primary cilia via RFX2/ADCY3; CEP290 not studied, only generic ciliopathy context."},
+{"id": "pmid:32736544", "verdict": "relevant", "confidence": 0.95, "reason": "Novel homozygous RPGRIP1 nonsense mutation in Japanese siblings with LCA6 and 27-year follow-up; core RPGRIP1 disease paper."},
+{"id": "pmid:16049101", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ASAP microtubule-associated protein in mitotic spindle assembly; unrelated to RPGRIP1."}
 ]

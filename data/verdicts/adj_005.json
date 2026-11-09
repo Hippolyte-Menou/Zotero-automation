@@ -1,26 +1,122 @@
 [
   {
-    "id": "pmid:38582455",
-    "verdict": "correctly_rejected",
-    "confidence": "high",
-    "reason": "Paper studies sulfated glycans in ovarian carcinoma using the 297-11A antibody, which detects Gal-6-O-sulfated LacNAc structures - a CHST3 substrate, not CHST6. CHST6 catalyzes GlcNAc-6-O-sulfation in keratan sulfate chains. No mention of CHST6, cornea, macular corneal dystrophy, or eye disease. The clinical context is entirely oncological and unrelated to CHST6's known disease association."
-  },
-  {
-    "id": "pmid:40459927",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "Broad review of KS proteoglycan biodiversity across all tissues. While CHST6 is a KS sulfotransferase and a biochemical link exists, the paper does not address CHST6 specifically, the cornea, or macular corneal dystrophy. For a gene-specific ophthalmogenetics library, a general tissue-wide KS review without corneal or ophthalmic focus is too distant from the gene's clinical and anatomical context to warrant inclusion."
-  },
-  {
-    "id": "pmid:21878117",
+    "id": "pmid:10655547",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "NRL (Neural Retina Leucine zipper) is the master transcription factor for rod photoreceptor fate determination; mutations cause RP27 (retinitis pigmentosa). This paper directly addresses rod vs. cone cell fate decisions via retinoic acid signaling in zebrafish, showing that RARalphab mediates rod development and RA shifts progenitor output toward rods at the expense of red cones. This is squarely within NRL's research domain. Correctly flagged for rescue."
+    "confidence": 0.97,
+    "reason": "HPS protein is part of the melanosome biogenesis machinery; Hermansky-Pudlak syndrome directly causes oculocutaneous albinism through organelle defects. Core mechanistic paper for the Albinism topic."
   },
   {
-    "id": "pmid:32753732",
+    "id": "pmid:16760431",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "KIF3B encodes the kinesin-2 motor (KIF3A/KIF3B/KAP complex) that drives intraflagellar transport in photoreceptor cilia. This review covers photoreceptor cilium structure, function, disease-causing mutations in ciliary genes, and gene therapy approaches targeting the cilium for retinal disease treatment. The subject matter is core KIF3B biology. Score of 2 vs. threshold 3 is a marginal miss and the topical relevance is unambiguous."
+    "confidence": 0.95,
+    "reason": "BLOC-1 and AP-3 complexes are mutated in Hermansky-Pudlak syndrome subtypes causing albinism. Paper characterises the shared pathway underlying hypopigmentation in HPS mouse models. Directly relevant to Albinism."
+  },
+  {
+    "id": "pmid:16162817",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Tyrosinase sorting to melanosomes is the primary step whose failure causes oculocutaneous albinism. Paper is tagged both Albinism and TYR and directly investigates how AP-3 and AP-1 route tyrosinase to the melanosome."
+  },
+  {
+    "id": "pmid:2261023",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "Clinical epidemiology study of HPS in Puerto Rico covering all types of oculocutaneous and ocular albinism, visual acuity outcomes, and optic tract crossing defects. Squarely within the Albinism topic."
+  },
+  {
+    "id": "pmid:12191018",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Pallidin is a subunit of a multi-protein complex involved in biogenesis of melanosomes and platelet dense bodies - both defective in HPS. Direct mechanistic relevance to the Albinism topic via HPS pathogenesis."
+  },
+  {
+    "id": "pmid:11912185",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "The muted mouse is a model for HPS; paper identifies the mu gene regulating melanosome/lysosome biogenesis and causing hypopigmentation. Directly relevant to Albinism topic."
+  },
+  {
+    "id": "pmid:8541858",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Genetic mapping of the HPS gene defines the locus for a form of tyrosinase-positive oculocutaneous albinism. Foundational genetics paper for the Albinism topic."
+  },
+  {
+    "id": "pmid:6031677",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Pale ear (ep) and light ear are foundational mouse pigmentation mutants that subsequently became recognized HPS models; abstract is thin but the paper is cited in HPS gene-mapping work and is foundational reference material for albinism mouse genetics."
+  },
+  {
+    "id": "pmid:8043950",
+    "verdict": "relevant",
+    "confidence": 0.87,
+    "reason": "Maps pale ear (ep) and ruby-eye (ru) on mouse chromosome 19 - these are established HPS models that led to identification of human albinism gene loci. Relevant to the Albinism topic as foundational mouse genetics; abstract is absent but title confirms the HPS-model genes."
+  },
+  {
+    "id": "pmid:17166758",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Review of crystallins in the eye covering function and pathology - directly relevant to all nine crystallin gene entries (BFSP2, CRYAA, CRYAB, CRYBA1, CRYBB1, CRYBB2, CRYGB, CRYGD, CRYGS). Abstract is absent but title is unambiguous."
+  },
+  {
+    "id": "pmid:30570828",
+    "verdict": "correctly_rejected",
+    "confidence": 0.88,
+    "reason": "General review of kidney development biology. While FREM1, FREM2, and PAX2 all have roles in renal development, the paper contains no ophthalmic content. For an ophthalmogenetics library the kidney-development focus makes this off-topic; the ophthalmic aspects of these genes are not addressed."
+  },
+  {
+    "id": "pmid:15623520",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Paper investigates lung lobation and capillary organisation in a Fras1-deficient Fraser syndrome mouse model. While FRAS1 is functionally related to FREM1/FREM2, the paper's subject is pulmonary development, not the ophthalmic manifestations (cryptophthalmos) that make these genes relevant to ophthalmogenetics."
+  },
+  {
+    "id": "pmid:37524861",
+    "verdict": "correctly_rejected",
+    "confidence": 0.92,
+    "reason": "Review of CAKUT (Congenital Anomalies of the Kidney and Urinary Tract) genetics. No ophthalmic content. Even though FREM2 mutations can contribute to Fraser syndrome renal anomalies, this paper is about kidney/urinary-tract disease and has no relevance to the ophthalmic aspects of FREM2."
+  },
+  {
+    "id": "pmid:8055142",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Proposes a mouse model for Fraser syndrome, which has cryptophthalmos (failure of eyelid separation and eye malformation) as its cardinal ophthalmic feature. Directly relevant to FREM1/FREM2 as Fraser complex genes causing eye malformation. Abstract is minimal but title and context are clear."
+  },
+  {
+    "id": "pmid:33058542",
+    "verdict": "correctly_rejected",
+    "confidence": 0.97,
+    "reason": "FREM1 expression in breast cancer as a prognostic biomarker and immune infiltration marker. No ophthalmic content whatsoever. Correctly rejected from an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:24143185",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Novel Fras1 missense mutant mouse (bfb) with blebs phenotype in Fraser syndrome. FRAS1 is the direct binding partner of FREM1 and FREM2; blebs proteins collectively underlie Fraser syndrome, whose hallmark is cryptophthalmos. Relevant to FREM2 gene entry in an ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:14691175",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Structural and functional study of deamidation on human alphaB-crystallin (CRYAB). Directly investigates CRYAB protein properties relevant to lens pathology and cataract. Relevant to CRYAB and CRYGS gene entries."
+  },
+  {
+    "id": "pmid:2851937",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Clinical review of 11 Fraser syndrome (cryptophthalmos-syndactyly syndrome) cases at postmortem, with detailed ocular, renal, and digital anomalies. Cryptophthalmos is a primary ophthalmic malformation; directly relevant to FREM2 as a Fraser syndrome gene."
+  },
+  {
+    "id": "pmid:35595450",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Whole exome sequencing identifying a novel FRAS1 mutation causing Fraser syndrome, with preimplantation genetic diagnosis application. FRAS1 is the central binding partner of FREM2; both cause the same syndrome (Fraser/cryptophthalmos). Relevant to FREM2 gene entry for ophthalmogenetics."
+  },
+  {
+    "id": "pmid:11180977",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Study of deamidation effects on betaB1-crystallin (CRYBB1) dimer structure. Directly relevant to CRYBA1, CRYBA4, CRYBB1, and CRYGS crystallin gene entries covering lens protein biochemistry. Abstract is absent but title is specific and unambiguous."
   }
 ]

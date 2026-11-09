@@ -1,12 +1,12 @@
 [
-{"id": "pmid:19509336", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Bacterial CcsBA heme exporter/cytochrome c synthetase (system II); no HCCS (human holocytochrome c synthase) content"},
-{"id": "pmid:28598240", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "LC3B/ATG4B autophagy proteins in melanosome trafficking; no GPR143/OA1 content"},
-{"id": "pmid:17085564", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "E. coli system I/II cytochrome c biogenesis and porphyrin requirements; bacterial, not HCCS"},
-{"id": "pmid:30563894", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Bacterial CcsBA heme trafficking structure-function; not human HCCS"},
-{"id": "pmid:3291115", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "General protein kinase catalytic domain phylogeny; no GUCY2D/guanylyl cyclase content"},
-{"id": "pmid:8617725", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Chloroplast ccsA gene in Chlamydomonas c-type cytochrome synthesis; not HCCS"},
-{"id": "pmid:1382057", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "NPR-A (NPR1/GC-A) natriuretic peptide receptor oligomerization; a different receptor guanylyl cyclase, not GUCY2D (retGC-1)"},
-{"id": "pmid:1349465", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "General review of guanylyl cyclase-linked receptor family and ligands; no retinal GUCY2D/GUCY2D-disease content, only a tangential family-level link"},
-{"id": "pmid:9886026", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "NMDA/kainate-induced NO-cGMP signaling in turtle retina via NOS; not GUCY2D/retGC"},
-{"id": "pmid:37827288", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Structural review of bacterial CcsBA and CcmF/H heme-attachment machines; not HCCS"}
+{"id": "pmid:40358237", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Trigeminal neuralgia case in Dandy-Walker malformation with TOPORS variant; no LCA5 link"},
+{"id": "pmid:41074764", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ZFX X-linked neurodevelopmental disorder case; no LCA5 link"},
+{"id": "pmid:41094582", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Persistent left SVC in a Joubert syndrome patient; Joubert is a ciliopathy but the paper does not involve LCA5"},
+{"id": "pmid:8407213", "verdict": "relevant", "confidence": 0.7, "reason": "Canine prcd (progressive rod-cone degeneration) interphotoreceptor matrix study; prcd is the PRCD disease model and IMPG1 is an interphotoreceptor matrix component"},
+{"id": "pmid:24939053", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General review of gene discovery in inherited retinal degeneration; no specific KIF3B or LCA5 focus in abstract"},
+{"id": "pmid:2558906", "verdict": "relevant", "confidence": 0.75, "reason": "Canine rcd1 (PDE6A ortholog) and rcd2 (PRCD) non-allelism genetics; directly about PDE6A and PRCD-associated rod-cone dysplasia"},
+{"id": "pmid:19390472", "verdict": "relevant", "confidence": 0.6, "reason": "Albinism classification review including TYR-associated oculocutaneous albinism; disease-level relevance to TYR"},
+{"id": "pmid:33800529", "verdict": "relevant", "confidence": 0.9, "reason": "Genetic causes of oculocutaneous albinism with TYR and OCA2 variants in Pakistani families"},
+{"id": "pmid:40186350", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Generic AAV vector development review; no LCA5 link"},
+{"id": "pmid:21394582", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Generic intraocular viral gene transfer review; not specific to LCA5"}
 ]

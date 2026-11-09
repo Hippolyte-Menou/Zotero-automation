@@ -1,12 +1,12 @@
 [
- {"id": "pmid:42015509", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Generic prime editing review; no MFRP-specific content, MFRP not mentioned in abstract"},
- {"id": "pmid:41751840", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Prime editing functional genomics review; generic methods, no MFRP content"},
- {"id": "pmid:24515290", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Review of NBCe1 (SLC4A4) as model for SLC4 family; SLC4A11 not the subject, only a family relative; no abstract"},
- {"id": "pmid:42298102", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "LNP prime editing in mouse liver (PAH target); no MFRP link"},
- {"id": "pmid:10814758", "verdict": "relevant", "confidence": 0.8, "reason": "Cone spectral sensitivities measured in observers of known opsin genotype; directly concerns OPN1LW/OPN1MW variants and their functional effect"},
- {"id": "pmid:16303957", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Rebound tonometer method for rodent IOP; glaucoma model methodology, no myocilin (MYOC) content"},
- {"id": "pmid:21447600", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "12q14 duplication (TBK1/XPOT/RASSF3/GNS) in NTG; not MYOC, though glaucoma-related"},
- {"id": "pmid:6891215", "verdict": "relevant", "confidence": 0.6, "reason": "Biochemical study of interphotoreceptor retinol-binding protein (IRBP, the RBP3 gene product); no abstract, gene-product level content, somewhat old basic biology"},
- {"id": "pmid:41851456", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "In vivo CAR T engineering; no MFRP link"},
- {"id": "pmid:41526513", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Targeted delivery of genome editors in vivo (general delivery methods); no EYS or MFRP specific content, no abstract"}
+{"id": "pmid:21330445", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Enterocyte brush border shotgun proteomics; no USH1C/harmonin link in abstract"},
+{"id": "pmid:38909044", "verdict": "uncertain", "confidence": 0.5, "reason": "HNF4A/HNF1A ChIP-seq; USH1C is one of many identified target loci and abstract notes a functional follow-up on USH1C in beta cells, but the paper is not about USH1C itself"},
+{"id": "pmid:12871240", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Hearing loss genetic screening centred on GJB2, SLC26A4, WFS1; no USH1C mention"},
+{"id": "pmid:12014894", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Generic hearing impairment genetics review, no abstract; no USH1C-specific content evident from title"},
+{"id": "pmid:39119251", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Splice-switching ASO review for pediatric neurological disorders; no USH1C link"},
+{"id": "pmid:37600010", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Auditory-gut-brain axis review; no USH1C link"},
+{"id": "pmid:14744904", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Mouse ERG screening for Pde6b retinal dysfunction; no USH1C link"},
+{"id": "pmid:15645695", "verdict": "relevant", "confidence": 0.85, "reason": "Contiguous gene deletion that removes most of USH1C exons; clinical description links USH1C loss to Usher-type deafness and retinal dystrophy features"},
+{"id": "pmid:23237960", "verdict": "relevant", "confidence": 0.6, "reason": "Usher syndrome type 1 patient case (MYO7A); USH1C is one of the USH1 genes so disease-level relevance, but the paper's focus is MYO7A"},
+{"id": "pmid:22219650", "verdict": "relevant", "confidence": 0.9, "reason": "Usher type 1 families in which linkage and sequencing implicate USH1C in one family; USH1C mutations explicitly reported"}
 ]

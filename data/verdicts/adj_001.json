@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:15134637",
+    "id": "pmid:23506379",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Title directly indicates this is about subunit configuration of heteromeric cone CNG channels. CNGA3 and CNGB3 (cone cyclic nucleotide-gated channel subunits) are core targets in the gene_or_topic list, and CNGA1 (rod subunit) is studied by comparison. Directly relevant to achromatopsia and cone dystrophy genetics."
+    "reason": "Abstract explicitly reports FBN1 mutations in patients screened for marfanoid habitus and intellectual disability, including four pathogenic FBN1 mutations and chromosomal rearrangements. Directly on-topic for the FBN1 gene collection."
   },
   {
-    "id": "pmid:16037091",
+    "id": "pmid:31506931",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract directly addresses FBN1 variant interpretation, co-occurrence of FBN1/FBN2 variants in fibrillinopathies, and challenges in variant classification for Marfan syndrome and congenital contractural arachnodactyly. Core FBN1 genetics content."
+  },
+  {
+    "id": "pmid:15598221",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title and abstract describe reduced penetrance of a specific FBN1 mutation (R2726W) in Marfan syndrome, with direct clinical implications for genetic counselling. Squarely on-topic for the FBN1 gene collection."
+  },
+  {
+    "id": "pmid:23124041",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title explicitly names a novel FBN1 mutation causing geleophysic dysplasia. FBN1 mutations are known to cause multiple fibrillinopathy phenotypes beyond classic Marfan syndrome. Directly on-topic for the FBN1 gene collection."
+  },
+  {
+    "id": "pmid:27704402",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Study classifies Marfan patients by FBN1 mutation type (haploinsufficient vs. dominant negative) and assesses differential therapeutic response to losartan. FBN1 mutation classification is central to the paper's design and conclusions."
+  },
+  {
+    "id": "pmid:28944857",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Novel FBN1 missense mutation (c.1708 T>G, p.C570G) in autosomal dominant Marfan syndrome; abstract explicitly states that ophthalmologic examinations were performed in affected family members. Directly on-topic for the FBN1 gene collection."
+  },
+  {
+    "id": "pmid:31098894",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title describes NGS screening for pathogenic mutations in 123 patients with Marfan syndrome or a related disease; FBN1 is the principal gene screened in this population. Abstract is absent but title is unambiguous."
+  },
+  {
+    "id": "pmid:10425041",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract reports 9 novel FBN1 mutations in German Marfan syndrome patients, characterising missense and frameshift variants across multiple exons. Classic FBN1 mutation discovery paper."
+  },
+  {
+    "id": "pmid:41656376",
     "verdict": "relevant",
     "confidence": "medium",
-    "reason": "Full abstract confirms a detailed mechanistic study of rod phototransduction, cGMP-gated channel physiology, and light adaptation in mammalian vs amphibian rods. Directly relevant to Visual physiology and to CNGA1 (the rod cyclic nucleotide-gated channel whose gating is central to the cGMP mechanisms described)."
+    "reason": "Paper directly studies SOX2 and its DBD-flanking region, showing how SOX2's positively-charged DFR enhances target search efficiency, 1D sliding on DNA, and nucleosome engagement (pioneering activity). SOX2 is both the principal subject and a mechanistically studied molecule. Fundamental SOX2 biology is within scope of a gene-centric ophthalmogenetics collection for SOX2."
+  },
+  {
+    "id": "pmid:33483584",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Title describes an integrated clinical and molecular study of Turkish patients with Marfan syndrome and FBN1 variants, including novel variants. Abstract is absent but the title is unambiguous and directly on-topic for the FBN1 collection."
+  },
+  {
+    "id": "pmid:37038253",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract characterises a large FBN1 deletion CNV in a Marfan syndrome patient, proposes MMBIR as the formation mechanism, and places findings in the context of the ~2-7% of MFS caused by CNVs. Directly on-topic for FBN1 mutation mechanisms."
   },
   {
     "id": "pmid:10407028",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract describes a GUCY2D (retGC1) knockout mouse with cone-specific dystrophy. GUCY2D, GUCA1A, and GUCA1B are all in the gene_or_topic list and are directly studied or mechanistically implicated. The cGMP produced by GUCY2D gates CNGA1 channels, and SLC24A1 mediates calcium extrusion in the same outer-segment signaling cascade."
-  },
-  {
-    "id": "pmid:11707584",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly measures signal amplification and visual pigment phosphorylation rates in purified rod and cone fractions. GRK1 (rhodopsin kinase) is the enzyme responsible for visual pigment phosphorylation, making this paper directly relevant to the GRK1 gene target. CNGA1 is downstream in the same phototransduction cascade."
-  },
-  {
-    "id": "pmid:40832404",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract studies pharmacogenomics of steroid-induced ocular hypertension and its relationship to high-tension glaucoma. MYOC (myocilin / GLC1A) is a canonical glaucoma gene and the paper explicitly studies the pathogenetic link to high-tension glaucomas where MYOC is implicated. COL8A2 corneal structural variants may also contribute to aqueous outflow resistance."
+    "reason": "Abstract describes a GC-E (retGC1/GUCY2D) knockout mouse model that develops cone-specific dystrophy and paradoxical rod behaviour. This is a foundational paper for GUCY2D (Leber congenital amaurosis gene) and cone dystrophy, directly relevant to multiple genes in the multi-gene query (GUCY2D, GUCA1A, GUCA1B, CNGA1, SLC24A1)."
   },
   {
     "id": "pmid:2234853",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Title is 'Macular Dystrophy of the Cornea', which is precisely the disease caused by CHST6 mutations (macular corneal dystrophy / MCDC1). This is a direct disease-gene match."
+    "reason": "Title 'Macular Dystrophy of the Cornea' is the principal clinical phenotype caused by CHST6 mutations. Even with an absent abstract, the title alone is sufficient to establish direct relevance to the CHST6 gene collection."
   },
   {
     "id": "pmid:41167547",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "ARID1B mutations cause Coffin-Siris syndrome. This case series documents optic nerve hypoplasia and dysplasia in Coffin-Siris patients, directly characterising the ophthalmic manifestations of ARID1B haploinsufficiency. Squarely within the ophthalmogenetics scope."
+    "reason": "Title describes optic nerve hypoplasia/dysplasia in Coffin-Siris syndrome, which is caused by ARID1B mutations. This paper directly documents an ophthalmic structural manifestation of ARID1B-related disease, squarely within scope for an ophthalmogenetics collection."
   },
   {
     "id": "pmid:12161344",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract is a comprehensive review of Ca2+ homeostasis in photoreceptors. CNGA1 (rod CNG channel, main route of Ca2+ entry in the outer segment) and SLC24A1 / NCKX1 (the rod Na+/Ca2+-K+ exchanger responsible for Ca2+ extrusion) are foundational to this review. ACO2 is mentioned in the context of inner-segment metabolism and Ca2+ regulation."
-  },
-  {
-    "id": "pmid:9695791",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "CRYAB (alphaB-crystallin / HSPB5) is a lens crystallin with significant expression in cornea. A review of gene sharing between lens and cornea is directly mechanistically relevant to CRYAB biology, and is also relevant to the Outer coat anatomical topic covering corneal and lens structures."
-  },
-  {
-    "id": "pmid:33558532",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "CDH23 and PCDH15 are the two proteins forming the tip-link in inner ear hair cells, and both cause Usher syndrome (USH1D and USH1F respectively) with associated retinitis pigmentosa. This single-molecule study directly characterises the molecular mechanics and Ca2+ sensitivity of the CDH23-PCDH15 adhesion bond, providing fundamental mechanistic insight into these Usher syndrome genes."
-  },
-  {
-    "id": "pmid:14568616",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "CHST6 encodes carbohydrate sulfotransferase 6, which catalyses sulfation of keratan sulfate glycosaminoglycans in the corneal stroma. A review of sulfotransferases in glycosaminoglycan biosynthesis is directly mechanistically relevant to CHST6 function and to the pathogenesis of macular corneal dystrophy."
-  },
-  {
-    "id": "pmid:42094404",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract studies mGluR6 (GRM6) in retinal ON-bipolar signaling and explicitly shows mislocalization of TRPM1, Bassoon, and ELFN2 in GRM6-ablated organoids. NYX (nyctalopin) is a GPI-anchored protein essential for mGluR6 signaling at the OPL synapse and is in the same signaling complex; CACNA1F (Cav1.4) mediates depolarisation at the same synapse. Both genes cause CSNB and are directly tied to the circuit studied here."
-  },
-  {
-    "id": "pmid:28487520",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "The paper studies TMEM67 mutations in a large-animal model of Meckel syndrome. The gene_or_topic is CC2D2A, which causes MKS6 (a different Meckel locus) and Joubert syndrome. While TMEM67 and CC2D2A are both transition-zone ciliopathy proteins and produce overlapping syndromes, this paper investigates TMEM67 exclusively and does not study CC2D2A. For a gene-indexed ophthalmogenetics library, a paper about a distinct gene modelling a related but separate disease is correctly excluded under CC2D2A."
+    "reason": "Review covers calcium regulation in rod and cone photoreceptors, explicitly discussing the roles of CNGA1 (CNG channel) and SLC24A1 (NCKX exchanger) in calcium entry and extrusion in the outer segment. These two genes from the multi-gene query are central mechanistic subjects of the review."
   },
   {
     "id": "pmid:21268676",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract directly studies peripapillary RNFL thickness by SD-OCT in a cohort of choroideremia patients. CHM mutations are the sole cause of choroideremia, making this a direct clinical characterisation of the CHM disease phenotype."
+    "reason": "Abstract reports peripapillary RNFL thickness measurements via SD-OCT in 29 eyes of 16 choroideremia (CHM gene) patients, documenting structural defects. Directly characterises retinal pathology in CHM disease."
   },
   {
     "id": "pmid:1677924",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Title indicates this is a linkage analysis paper for choroideremia using closely mapped DNA markers. Choroideremia is caused by CHM mutations; early linkage mapping papers established the CHM locus and are foundational to the gene's clinical literature."
+    "reason": "Title describes linkage analysis of choroideremia using physically mapped DNA markers. Even with an absent abstract, this is clearly foundational gene-mapping work for the CHM locus, directly on-topic for the CHM gene collection."
   },
   {
-    "id": "pmid:42070230",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract describes AAV-Foxo1 gene therapy tested in a Fuchs endothelial corneal dystrophy mouse model. COL8A2 mutations cause FECD1 (early-onset Fuchs dystrophy). A paper developing and validating therapeutic strategies specifically for FECD disease models is relevant to the COL8A2 gene entry."
-  },
-  {
-    "id": "pmid:42771568",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Abstract explicitly reviews COL4A1/COL4A2-associated microangiopathy as a distinct entity within hereditary cerebral small vessel disease, covering clinical and radiological features. COL4A1 mutations also cause ophthalmic disease (retinal artery tortuosity, cataract, Axenfeld-Rieger-like anomalies); a detailed review of the full disease spectrum provides necessary clinical context for the gene. The paper does not need to be exclusively ophthalmic to be useful under COL4A1 in an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:42568836",
-    "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "Abstract is a retrospective study of a multigene bleeding/coagulation panel in patients with bleeding disorder of unknown cause or cerebrovascular events. COL4A1 appears as an incidental pathogenic finding in a subset of CVE patients, but the paper has no ophthalmic content and its scientific focus is haematology and coagulopathy. The connection to COL4A1 ophthalmic manifestations (the basis for its inclusion in this library) is too indirect to justify inclusion."
-  },
-  {
-    "id": "pmid:42184904",
+    "id": "pmid:18567786",
     "verdict": "relevant",
     "confidence": "high",
-    "reason": "Abstract directly studies genetic prediction of progression to endothelial keratoplasty in Fuchs endothelial corneal dystrophy, combining CTG18.1 expansion status with a FECD-specific polygenic risk score. COL8A2 mutations cause FECD1; this paper characterises the genetic architecture and clinical progression of the same disease, directly relevant to the COL8A2 gene entry."
+    "reason": "Abstract directly investigates deamidation of betaA3-crystallin (CRYBA1) and shows that specific deamidation sites trigger aggregation and alter interactions with the betaB1 subunit, linking to cataract pathogenesis. Directly on-topic for the CRYBA1 gene collection."
   },
   {
-    "id": "pmid:16359517",
+    "id": "pmid:4207130",
     "verdict": "relevant",
     "confidence": "medium",
-    "reason": "GAS6 is the primary ligand for MERTK, activating it on RPE cells to mediate photoreceptor outer-segment phagocytosis. Gamma-carboxylation is required for GAS6 to bind phosphatidylserine exposed on shed outer-segment membranes and trigger MERTK signalling. A paper elucidating gamma-carboxylation's role in GAS6 anti-apoptotic and receptor-activating function is directly mechanistically relevant to MERTK biology and to understanding retinitis pigmentosa caused by MERTK loss-of-function."
+    "reason": "Classic 1974 electrophysiology paper establishing that the photoreceptor potential is generated by a light-induced decrease in Na+ conductance and demonstrating that extracellular Ca2+ mimics steady background illumination. These are foundational findings for the phototransduction cascade and visual physiology topic covered by this collection."
+  },
+  {
+    "id": "pmid:8988423",
+    "verdict": "relevant",
+    "confidence": "high",
+    "reason": "Abstract validates the laser speckle method against hydrogen clearance for measuring optic nerve head blood flow in rabbits, demonstrating responses to CO2 and endothelin-1. Directly on-topic for the ocular vascular physiology collection, covering retinal/ONH blood flow regulation mechanisms."
   }
 ]

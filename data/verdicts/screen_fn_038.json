@@ -1,12 +1,12 @@
 [
-{"id": "pmid:10586887", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Factor VIII C2 domain structure; no RS1/retinoschisin link beyond a shared discoidin-type domain name"},
-{"id": "pmid:10049354", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Zebrafish you-too/gli2 Hedgehog transcription factor; not about SMO"},
-{"id": "pmid:23343527", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Dhh and angiogenesis; Smoothened only used as an endothelial knockout tool, SMO not the subject"},
-{"id": "pmid:38733884", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "c-Met dual inhibitors in cancer; no SMO link"},
-{"id": "pmid:34884862", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of SHH pathway malformation syndromes; SMO not central, gene-level focus is SHH/GLI"},
-{"id": "pmid:32906187", "verdict": "relevant", "confidence": 0.95, "reason": "Hypomorphic human SMO variants in holoprosencephaly; directly about SMO"},
-{"id": "pmid:38614282", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Proton vs photon irradiation of neonatal mouse brain; no SMO link"},
-{"id": "pmid:35812756", "verdict": "relevant", "confidence": 0.95, "reason": "Case report with bi-allelic SMO variants causing postaxial polydactyly"},
-{"id": "pmid:40475175", "verdict": "relevant", "confidence": 0.95, "reason": "Pallister-Hall-like syndrome case with homozygous SMO variant"},
-{"id": "pmid:32999669", "verdict": "relevant", "confidence": 0.75, "reason": "Ripasudil treatment of X-linked juvenile retinoschisis (the RS1 disease); disease-level match to RS1 gene topic, though it is a therapy case report"}
+{"id": "pmid:11704030", "verdict": "relevant", "confidence": 0.95, "reason": "Directly about PRPH2/RDS splice mutation causing pattern dystrophy; score rejection looks wrong for this gene."},
+{"id": "pmid:17963489", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Genome-wide homeobox gene classification; lists many homeobox genes but is not specifically about HMX1 or SIX6."},
+{"id": "pmid:27895971", "verdict": "uncertain", "confidence": 0.5, "reason": "Genetics review of microtia; HMX1 is a known microtia/oculoauricular gene but is not named in the abstract, so relevance depends on full text."},
+{"id": "pmid:39932789", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "VHL ablation in rods for retinitis pigmentosa; not about EYS or HK1 in the abstract (HK1 only indirectly via glycolysis)."},
+{"id": "pmid:40703653", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Itpka knockdown in Xenopus anterior neural development; no HMX1 link."},
+{"id": "pmid:26227955", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Review of outer and middle ear development; generic, no HMX1 named in abstract."},
+{"id": "pmid:16024820", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "ENU mutagenesis of proximal mouse Chr 5 embryonic lethals; no HMX1 link in abstract."},
+{"id": "pmid:39994471", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Genome-wide rare noncoding variant analysis of circulating proteins; HK1 not discussed in abstract."},
+{"id": "pmid:40347947", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Neuroblastoma developmental plasticity single-cell study; no HMX1 link."},
+{"id": "pmid:40033430", "verdict": "relevant", "confidence": 0.9, "reason": "Non-coding cis-regulatory variants in HK1 causing congenital hyperinsulinism; directly about the HK1 gene (not eye-specific, but on-topic for the gene)."}
 ]

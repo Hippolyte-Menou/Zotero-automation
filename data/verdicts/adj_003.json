@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:42934426",
-    "verdict": "relevant",
-    "confidence": 0.72,
-    "reason": "IQCB1 (NPHP5) is a nephronophthisis gene and RPGRIP1L (NPHP8/MKS5) is a Joubert/nephronophthisis gene. This review covers molecular mechanisms of nephronophthisis including Senior-Loken and Joubert syndromes where both genes are mutated. While kidney-focused, the ciliopathy molecular biology is directly relevant to these genes which cause retinal dystrophy as part of ciliopathy syndromes."
-  },
-  {
-    "id": "pmid:19627444",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "The study directly uses the Rs1h (retinoschisin-deficient) mouse model, explicitly studying RS1 gene biology. DHA supplementation in this RS1 disease model is directly relevant to understanding RS1-associated retinal degeneration mechanisms."
-  },
-  {
-    "id": "pmid:15076957",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "OCT study of X-linked retinoschisis, the disease caused by RS1 mutations. Directly relevant clinical characterization of the RS1 phenotype."
-  },
-  {
-    "id": "pmid:30935660",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Longitudinal natural history study of congenital X-linked retinoschisis (CXLRS) in 51 patients with disease typing and progression tracking. Directly studies the RS1-caused disease and is a primary clinical reference for the condition."
-  },
-  {
-    "id": "pmid:20648073",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "mfERG evaluation of focal retinal function in X-linked retinoschisis patients. Directly characterizes retinal function in the RS1 disease and provides electrophysiological benchmarks for the condition."
-  },
-  {
-    "id": "pmid:19187097",
+    "id": "pmid:33844406",
     "verdict": "relevant",
     "confidence": 0.85,
-    "reason": "Studies cGMP-dependent protein kinase (PKG) in photoreceptor degeneration in rd1 and rd2 models. PDE6A hydrolyzes cGMP in photoreceptors, CNGA3 is a cGMP-gated channel, and AIPL1 is a chaperone for PDE6. The paper dissects cGMP-mediated photoreceptor death mechanisms that are directly upstream and downstream of all three genes, and shows PKG inhibition rescues photoreceptors - mechanistically relevant to the shared cGMP pathway."
+    "reason": "KMT2D (MLL4) is a histone H3K4 methyltransferase; a review on the interplay between DNA and histone methylation directly covers KMT2D's core biochemical function and is mechanistically central to understanding KMT2D-associated disease."
   },
   {
-    "id": "pmid:15021226",
+    "id": "pmid:24434855",
+    "verdict": "correctly_rejected",
+    "confidence": 0.75,
+    "reason": "General cognitive epigenetics review in a neuropharmacology journal; this library tracks KMT2D for microphthalmia and structural eye disease. Even if KMT2D is mentioned among many genes, the paper's focus on cognitive/neurological epigenetics makes it peripheral to the ophthalmic scope of this collection."
+  },
+  {
+    "id": "pmid:1847109",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "The abstract explicitly discusses Myocilin (MYOC) production in relation to outflow resistance and corticosteroid responsiveness in uveitic glaucoma. MYOC gene expression and corticosteroid induction in trabecular meshwork are directly discussed, making this paper relevant to the MYOC gene's role in glaucoma pathogenesis."
+    "confidence": 0.98,
+    "reason": "The abstract explicitly reports cloning and sequencing of the mouse rod photoreceptor cGMP phosphodiesterase alpha-subunit (856 residues, 100 kDa). PDE6A encodes exactly this alpha-subunit. This is a foundational molecular characterization paper for PDE6A."
   },
   {
-    "id": "pmid:21835309",
+    "id": "pmid:22017973",
     "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "PubMed retrieval confirms this GWAS found associations between iris patterns and SEMA3A, TRAF3IP1, and SLC24A4 - not OCA2. OCA2 is not among the study's findings or analysis targets. Despite OCA2 being an iris pigmentation gene, this paper does not study OCA2 and therefore has no meaningful connection to it."
+    "confidence": 0.70,
+    "reason": "Book chapter on general Wnt signaling pathway mechanisms; no abstract is available to confirm FZD4-specific content. FZD4 is a Wnt receptor but a pathway-level review without demonstrated focus on FZD4 or vitreoretinopathy does not warrant rescue at score 4/6."
   },
   {
-    "id": "pmid:31605511",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Studies Smoothened (SMO) in stage-specific regulation of oligodendrocyte development in the spinal cord. The context is CNS myelin biology, not eye development. SMO is in the ophthalmogenetics library for its role in coloboma and microphthalmia (ocular structural development). A spinal cord oligodendrocyte study has no ophthalmological relevance."
-  },
-  {
-    "id": "pmid:39576500",
+    "id": "pmid:38909044",
     "verdict": "correctly_rejected",
     "confidence": 0.88,
-    "reason": "General review of GLI protein regulatory mechanisms in Hh signaling focused on tissue development and tumorigenesis. PubMed retrieval confirms no eye-specific content and no focus on SMO itself. While GLI proteins are downstream of SMO, this review has no connection to ocular development, coloboma, or microphthalmia - the ophthalmological context for which SMO is in the library."
+    "reason": "The abstract confirms USH1C appears as one of several novel HNF4A binding targets in pancreatic beta cells and hepatocytes; the paper's primary focus is HNF4A/HNF1A regulation in MODY and T2D biology. USH1C is incidental and there is no discussion of Usher syndrome or ocular disease."
   },
   {
-    "id": "pmid:39635117",
+    "id": "pmid:15645695",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "The abstract explicitly states the deletion removes all but two exons of USH1C, causing Usher syndrome with retinal dystrophy, deafness and vestibular dysfunction. The paper directly characterizes USH1C's role in eye and ear development through a contiguous gene deletion model."
+  },
+  {
+    "id": "pmid:23237960",
+    "verdict": "correctly_rejected",
+    "confidence": 0.78,
+    "reason": "The title specifies MYO7A mutation analysis (USH1B locus) as the diagnostic tool; USH1C is a distinct USH1 gene. Without an abstract, there is no evidence USH1C is substantively discussed. Papers focused on another USH1 gene are not automatically relevant to USH1C."
+  },
+  {
+    "id": "pmid:22219650",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "The abstract explicitly reports haplotype analysis and sequence analysis of USH1C, identifies linkage to the USH1C locus in one of four families, and finds pathogenic mutations in USH1C. USH1C is one of three primary genes directly studied in this paper."
+  },
+  {
+    "id": "pmid:3001710",
+    "verdict": "correctly_rejected",
+    "confidence": 0.80,
+    "reason": "This 1985 paper predates the characterization of ELP4/PAXNEB by over a decade. The paper maps the aniridia-Wilms tumor locus on 11p13 and discusses catalase, beta-globin, and calcitonin genes; ELP4 is not mentioned. Chromosomal co-location alone does not make this paper relevant to ELP4."
+  },
+  {
+    "id": "pmid:22342749",
+    "verdict": "correctly_rejected",
+    "confidence": 0.72,
+    "reason": "C. elegans endocytosis in sensory cilia paper with no abstract available. RAB28 is a cilia-localized RAB GTPase, but the connection is speculative without abstract confirmation. The generic title does not specifically implicate RAB28, and the score of 2/3 suggests the screener found no direct RAB28 signal."
+  },
+  {
+    "id": "pmid:7581389",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "The abstract reports identification of the eighth adRP locus on chromosome 17q using microsatellite markers D17S808 and D17S807 with lod score 8.28. FSCN2 (RP30) maps to chromosome 17q and this is the original linkage paper that localized the RP30 locus. This is a foundational paper for FSCN2."
+  },
+  {
+    "id": "pmid:21985185",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "The abstract describes a heterozygous ~0.6 Mb deletion downstream of PAX6 on chromosome 11p13 causing aniridia through a position effect. ELP4 (PAXNEB = PAX6 neighboring element B) resides in exactly this downstream region. The paper directly characterizes the position-effect mechanism that is the pathogenic basis for ELP4-associated aniridia."
+  },
+  {
+    "id": "pmid:31479441",
     "verdict": "correctly_rejected",
     "confidence": 0.90,
-    "reason": "Studies Hh signaling (including SMO) in myelin development and repair in oligodendrocytes, using LPC-induced demyelination and cholesterol synthesis as focus. This is a CNS myelination/multiple sclerosis context with no ophthalmological relevance. SMO's role in eye development (coloboma, microphthalmia) is unrelated to this paper's subject."
+    "reason": "The paper focuses on BBS proteins' role in dendritic spine homeostasis, hippocampal synaptic function, and cognitive impairment. This is a neurological phenotype study. MKKS is tracked in this ophthalmogenetics library for its role in retinal degeneration via ciliopathy, not cognitive phenotypes."
   },
   {
-    "id": "pmid:39473481",
+    "id": "pmid:28662344",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "Paper reviews dental anomalies and oral health management in BBS. No retinal, ophthalmic, or ciliopathy-mechanism content relevant to MKKS's role in photoreceptor or retinal degeneration biology."
+  },
+  {
+    "id": "pmid:37013719",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "Clinical evaluation of setmelanotide for obesity management in BBS via the MC4R pathway. Obesity pharmacotherapy is outside the scope of an ophthalmogenetics library tracking MKKS for retinal ciliopathy phenotypes."
+  },
+  {
+    "id": "pmid:14676542",
+    "verdict": "correctly_rejected",
+    "confidence": 0.95,
+    "reason": "Study of orthopaedic manifestations (polydactyly, scoliosis, tibia valga/vara) in 27 BBS patients. No retinal or ophthalmic content; outside the scope of this ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:33886537",
     "verdict": "correctly_rejected",
     "confidence": 0.90,
-    "reason": "Studies Budesonide binding to SMO cysteine-rich domain to promote myelination of oligodendrocyte precursor cells. The context is CNS remyelination and multiple sclerosis therapy. No connection to ocular development, coloboma, or microphthalmia."
+    "reason": "BBS mouse model study of hippocampal neurogenesis, context fear conditioning, and lithium rescue of cognitive impairment. Neurological phenotype research; not relevant to MKKS's ophthalmic/ciliary role in retinal degeneration."
   },
   {
-    "id": "pmid:1923319",
+    "id": "pmid:25005911",
     "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "Studies an Australian family with X-linked retinal dystrophy and explicitly discusses both RP2 (Xp11.3) and RP3 (Xp21) loci in the context of XLRP. Even though this family mapped to RP3, the paper's comparative analysis and clinical variability discussion directly address the RP2 gene locus and are relevant to the broader XLRP landscape in which RP2 sits."
+    "confidence": 0.93,
+    "reason": "Title directly states study of retinal vascular anomalies in patients with familial exudative vitreoretinopathy (FEVR). FZD4 (EVR1) is the primary FEVR causative gene and is explicitly listed among the gene_or_topic entries. This paper characterizes the clinical phenotype of FZD4-associated disease."
   },
   {
-    "id": "pmid:5764685",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Classic clinical characterization study of sex-linked (X-linked) retinitis pigmentosa using psychophysical and electrophysiological testing, with analysis of carrier females supporting Lyon hypothesis. X-linked RP is caused by RP2 or RPGR mutations, and this foundational study of XLRP phenotype and ERG findings is directly relevant to RP2."
-  },
-  {
-    "id": "pmid:33090715",
+    "id": "pmid:15134637",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Comprehensive genetic testing study of 800 Chinese IRD patients covering non-syndromic inherited retinal dystrophies. GUCY2D (LCA1/CORD6) and PITPNM3 (CORD5) are both IRD genes directly studied in this cohort. The paper characterizes diagnostic rates and variant spectra in these genes."
+    "reason": "Paper directly studies subunit configuration of heteromeric cone cyclic nucleotide-gated (CNG) channels. CNGA3 and CNGB3 are the cone CNG channel subunits whose mutations cause achromatopsia; this paper characterizes the structural basis of that channel complex. Directly relevant to CNGA3 and CNGB3 (and by extension the CNG channel family including CNGA1)."
   },
   {
-    "id": "pmid:22183351",
+    "id": "pmid:3132713",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Book chapter or review about genes and mutations in autosomal dominant cone and cone-rod dystrophy. GUCY2D causes dominant CORD6/LCA1 and PITPNM3 causes dominant CORD5. This paper directly covers the genetic landscape of the diseases caused by these two genes."
-  },
-  {
-    "id": "pmid:30910914",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Allele frequency analysis of reported pathogenic variants in 58 AD-IRD genes, questioning the pathogenicity of 122 variants including those in FSCN2, PITPNM3, and SEMA4A. The paper may specifically question whether variants in these genes truly cause AD-IRDs. This is directly relevant to the genetic interpretation and disease associations of all three genes in the gene_or_topic."
-  },
-  {
-    "id": "pmid:22156015",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Studies CD133 (PROM1/prominin-1) expression in rhabdomyosarcoma tissue and cell lines as a cancer stem cell marker. No ophthalmological content. PROM1 mutations cause retinal dystrophies (CORD12, STGD4, RP41, MCDR2), but this paper is entirely about muscle cancer biology with no eye disease relevance."
-  },
-  {
-    "id": "pmid:41613301",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Study of CD markers (likely including CD133/PROM1) in breast cancer stem cell isolation and chemoresistance. Entirely cancer biology context with no ophthalmological relevance. PROM1's retinal dystrophy role is unrelated to this paper's subject."
-  },
-  {
-    "id": "pmid:42518390",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "Rational design of peptide binders targeting prominin-1 (PROM1/CD133) and sortilin for cancer detection and targeted treatment. Cancer biomarker/drug delivery context. No ophthalmological relevance despite PROM1 being the target protein."
+    "confidence": 0.92,
+    "reason": "The abstract describes cloning of a cDNA encoding a tyrosinase-related protein (pMT4) distinct from tyrosinase and mapping it to the mouse brown (b) locus. This is the original paper identifying what became DCT/TYRP2 (dopachrome tautomerase). It is foundational to both DCT and TYR and directly relevant to albinism biology tracked in this library."
   }
 ]

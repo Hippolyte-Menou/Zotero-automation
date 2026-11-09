@@ -1,12 +1,12 @@
 [
-{"id": "pmid:11566855", "verdict": "relevant", "confidence": 0.8, "reason": "Zebrafish smoothened (smu) ortholog characterization; direct SMO gene biology, though not eye-specific"},
-{"id": "pmid:10733569", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Paper is about HSF1 vs HSF2 in proteasome stress; no HSF4 or CTM content"},
-{"id": "pmid:10960781", "verdict": "uncertain", "confidence": 0.5, "reason": "Zebrafish Gli-mediated hedgehog signaling and lens transdifferentiation; downstream of SMO, eye-relevant but not SMO-specific; no abstract"},
-{"id": "pmid:1975586", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Catalytic domain of ANP receptor (NPR-A/GUCY2A-like) membrane guanylate cyclase from rat brain; related family but not GUCY2D/retGC-1"},
-{"id": "pmid:15013805", "verdict": "uncertain", "confidence": 0.5, "reason": "Hedgehog pathway in lens regeneration; eye-relevant but pathway-level rather than SMO-specific; no abstract"},
-{"id": "pmid:31014769", "verdict": "relevant", "confidence": 0.85, "reason": "X-linked retinoschisis (RS1 disease) imaging study; disease-associated clinical work"},
-{"id": "pmid:14661905", "verdict": "relevant", "confidence": 0.85, "reason": "Scotopic threshold response correlated with RS1 mutations in XLRS; RS1 genotype-phenotype work"},
-{"id": "pmid:41982463", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Strain-level RGC subtype counts in inbred mice; no GUCA1A content"},
-{"id": "pmid:19169242", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Hedgehog signaling in myeloid leukaemia stem cells; pathway-level, not SMO-specific and not ocular; no abstract"},
-{"id": "pmid:15107405", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Hh signaling in neural crest and facial patterning; pathway-level (Shh/Fox genes), not SMO-focused or ocular"}
+{"id": "pmid:40599319", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Generic proteome-wide inheritance-mode prediction via structural interactomics; no KRT12 or keratin link"},
+{"id": "pmid:41000774", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KRT9/K9 and KRT16 palmoplantar keratoderma paper; KRT12 (K12) not discussed, only the keratin family is shared"},
+{"id": "pmid:9714819", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Canine phosducin (PDC) cDNA and photoreceptor dysplasia; the paper is about PDC, not PRCD, though it is a canine retinal degeneration study"},
+{"id": "pmid:7661398", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Canine opsin (RHO) polymorphisms in gPRA; no PRCD content"},
+{"id": "pmid:41867383", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "DNA extraction method from archival epoxy-embedded eye tissue; PRCD is only one of several control amplicon targets (with RHO, GUSB, REEP1), not a study of PRCD"},
+{"id": "pmid:25175706", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "FLA8/KIF3B kinesin-II and IFT in Chlamydomonas; MAK (male germ cell-associated kinase) not involved"},
+{"id": "pmid:35868558", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "miR-124a knockout and neuronal maturation; no MAK link"},
+{"id": "pmid:40336309", "verdict": "relevant", "confidence": 0.75, "reason": "Butterfly-shaped pattern dystrophy (autosomal dominant, PRPH2-associated phenotype) with RPE tear; clinical case within PRPH2-disease spectrum"},
+{"id": "pmid:8602784", "verdict": "relevant", "confidence": 0.9, "reason": "Peripherin/RDS (PRPH2) large deletion causing autosomal dominant butterfly-shaped macular dystrophy; core PRPH2 disease paper"},
+{"id": "pmid:7710395", "verdict": "relevant", "confidence": 0.95, "reason": "Peripherin/RDS codon 140 4-bp insertion causing dominant pattern dystrophy; core PRPH2 disease paper"}
 ]

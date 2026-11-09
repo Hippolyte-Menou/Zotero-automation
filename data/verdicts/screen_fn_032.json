@@ -1,12 +1,12 @@
 [
-{"id": "pmid:9299319", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bacterial periplasmic cytochrome c biogenesis (E. coli Ccm/DsbD thioreduction); HCCS is the mammalian holocytochrome c synthase (System III), no human HCCS or CCHL disease link"},
-{"id": "pmid:14534316", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "E. coli cytochrome b562 CXXCH variant and Ccm maturation system; bacterial, no HCCS or human disease content"},
-{"id": "pmid:15937156", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bordetella pertussis cytochrome c system II mutants; bacterial biology, not HCCS"},
-{"id": "pmid:12777830", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Medaka fish membrane guanylyl cyclase OlGC8, described as not belonging to any vertebrate membrane GC subfamily; not GUCY2D ortholog or retinal disease paper"},
-{"id": "pmid:41956070", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Autism rare-variant brain transcriptomics review; no GUCA1A or retinal content"},
-{"id": "pmid:20501793", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Melanosome transfer via filopodia in skin cells (MyoX/Cdc42); general pigmentation biology with no GPR143/OA1 or albinism content"},
-{"id": "pmid:10844653", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bacillus subtilis cytochrome c synthesis genes (resB, resC, ccdA); bacterial, not HCCS"},
-{"id": "pmid:16965270", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab7/Rab27a control of melanosome motor proteins in melanocytes; general melanosome transport without GPR143/OA1 or ocular albinism link"},
-{"id": "pmid:21291502", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab17 regulation of melanosome trafficking and filopodia in melanoma cells; no GPR143/OA1 or albinism content"},
-{"id": "pmid:7971749", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Ultrastructural study of melanosome transfer in Caucasian facial skin; general pigmentation biology, no GPR143 link"}
+{"id": "pmid:10739682", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Paper is about RDH4 (retinol dehydrogenase 4), a different gene from RDH11; no RDH11 link in title or abstract"},
+{"id": "pmid:22723017", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "PRPF31/TFPT promoter study for adRP; RP9 is a different gene (PAP-1 alias is not PRPF31)"},
+{"id": "pmid:25480548", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "rMATS RNA-seq alternative splicing software; no RNU2-2 content"},
+{"id": "pmid:38925148", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General spliceosome disassembly mechanism; U2 snRNP is involved but abstract has no RNU2-2 or U2 snRNA disease link"},
+{"id": "pmid:34426021", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of PRC1/PR-DUB H2AK119ub1 alterations in neurodevelopmental disorders and cancer; BCOR (PRC1.1 subunit, OFCD/microphthalmia-cataract gene) plausibly discussed but not named in abstract"},
+{"id": "pmid:40537162", "verdict": "relevant", "confidence": 0.6, "reason": "Joubert syndrome genetics review; RPGRIP1L is a major JBTS gene (also LCA6) and LCA5 is a ciliopathy/LCA gene in this spectrum; no abstract to confirm gene-level content"},
+{"id": "pmid:27196396", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Ofd1 neuroprotection in rat photoreceptor models; OFD1 is not LCA5 and no LCA5 content"},
+{"id": "pmid:36114230", "verdict": "relevant", "confidence": 0.95, "reason": "Directly characterizes LCA5 (lebercilin) binding LC8 and LCA5 oligomerization; LCA5-focused biology, rejected only on score"},
+{"id": "pmid:39925483", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "OFD1 splicing mutation in Joubert syndrome; OFD1 is not LCA5, no LCA5 variant reported"},
+{"id": "pmid:39849212", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "TMEM67 compound heterozygous variants in Joubert syndrome; TMEM67 is not LCA5 and LCA5 is not discussed"}
 ]

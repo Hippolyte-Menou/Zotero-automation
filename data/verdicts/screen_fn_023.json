@@ -1,12 +1,12 @@
 [
-{"id": "pmid:9345108", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "RP11 locus is PRPF31, not FSCN2 (RP30) or IMPDH1 (RP10); empty abstract; no link to either gene"},
-{"id": "pmid:29615051", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "generic review of membrane-bound transcription factor nuclear transport; MYRF not named, only a general MTF class member"},
-{"id": "pmid:22716662", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "RetinoStat lentiviral anti-angiogenic gene therapy for AMD; no OPN1MW link"},
-{"id": "pmid:38543807", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "AAV serotype and capsid review; no OPN1MW or blue-cone link"},
-{"id": "pmid:26232072", "verdict": "uncertain", "confidence": 0.5, "reason": "OPC/oligodendrocyte transcriptional regulation talk; MYRF is a canonical OL transcription factor but is not named; abstract empty and title garbled"},
-{"id": "pmid:32154951", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "epigenetic regulation review of oligodendrocyte differentiation; MYRF not mentioned"},
-{"id": "pmid:33812623", "verdict": "relevant", "confidence": 0.65, "reason": "study centers on SLC4A11 (NaBC1) protein function in myoblast adhesion and muscle regeneration; gene is the subject even though the context is non-ocular"},
-{"id": "pmid:35877446", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "general CNS myelinogenesis review; MYRF not named in abstract"},
-{"id": "pmid:39185722", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "bioderived nanoparticles for cardiac repair; AAV mentioned only as a vector class, no OPN1MW link"},
-{"id": "pmid:14326619", "verdict": "uncertain", "confidence": 0.5, "reason": "historical study of 35S-sulfate incorporation into retinal mucopolysaccharides; plausibly interphotoreceptor matrix proteoglycan biology (IMPG1/SPACR) but no direct IMPG1 mention"}
+ {"id": "pmid:39059679", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of hair follicle cell-ECM adhesion; no FREM1/FREM2 mention in title or abstract"},
+ {"id": "pmid:8055142", "verdict": "relevant", "confidence": 0.6, "reason": "Mouse model for Fraser syndrome (FREM2 is a Fraser syndrome gene); abstract is only affiliations so score was low"},
+ {"id": "pmid:33058542", "verdict": "relevant", "confidence": 0.8, "reason": "Study of the FREM1 gene itself (expression, prognosis, immune infiltration in breast cancer); gene-focused paper for FREM1"},
+ {"id": "pmid:41225364", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Xiang pig wrinkled skin RNA-seq; FREM2 not mentioned"},
+ {"id": "pmid:24143185", "verdict": "uncertain", "confidence": 0.5, "reason": "Fras1 missense mutation in blebs mouse; discusses Frem1-3 and Fraser syndrome biology but FREM2 is only peripheral"},
+ {"id": "pmid:28373534", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Trio exome study of early-onset high myopia; FAM161A not mentioned (BSG highlighted)"},
+ {"id": "pmid:23167750", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "UPD chromosome 2 exome case; FAM161A (chr2p) not named in abstract, candidate genes not specified as FAM161A"},
+ {"id": "pmid:14691175", "verdict": "relevant", "confidence": 0.9, "reason": "Deamidation effects on human alphaB-crystallin (CRYAB) structure and chaperone function; lens crystallin gene paper"},
+ {"id": "pmid:2851937", "verdict": "relevant", "confidence": 0.7, "reason": "Postmortem review of Fraser syndrome cases; FREM2 is a established Fraser syndrome gene, so disease-level relevance"},
+ {"id": "pmid:35595450", "verdict": "uncertain", "confidence": 0.5, "reason": "Fraser syndrome case with WES finding a novel FRAS1 mutation; disease-relevant to Fraser syndrome but the variant is in FRAS1, not FREM2"}
 ]

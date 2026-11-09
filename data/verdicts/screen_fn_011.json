@@ -1,12 +1,12 @@
 [
-{"id": "pmid:17161380", "verdict": "relevant", "confidence": 0.85, "reason": "ARD1 is a NAA10 alias; paper studies ARD1 splice isoforms (ARD1235/ARD1225) and their regulation, so it is gene-specific NAA10 biology"},
-{"id": "pmid:40336056", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "myopia prevalence and eye-health behavior survey in Hubei children; no ARR3 or ARRX content"},
-{"id": "pmid:39071383", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "study is on Elp1 (ELP1, familial dysautonomia gene) in chick trigeminal ganglion; ELP4 is not studied and ELP1 is a different subunit"},
-{"id": "pmid:38946992", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "melanoma-associated retinopathy case report centred on TRPM1 autoantibodies; LRIT3 (a CSNB1 gene and TRPM1 pathway partner) is not studied"},
-{"id": "pmid:23320748", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "EnRICH software tool for candidate gene prioritization; retinal disease gene case study does not feature NR2E3 specifically"},
-{"id": "pmid:1749427", "verdict": "relevant", "confidence": 0.9, "reason": "title describes a three-base-pair deletion in the peripherin-RDS gene (PRPH2 = RDS) in retinitis pigmentosa; PRPH2 is one of the filed genes, abstract is empty but title is clearly on-gene"},
-{"id": "pmid:23684651", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general review of cell stress and proteostasis in retinal degeneration; no specific focus on LRP2 or MYOC"},
-{"id": "pmid:32242237", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Impg2 knockout mouse study; the paper is on IMPG2, a paralog of IMPG1 (SPACR), not IMPG1 or HK1. Borderline only because IMPG1/IMPG2 are closely related interphotoreceptor matrix proteoglycans"},
-{"id": "pmid:19520207", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KLHL7 is the gene studied in this ADRP paper; IMPDH1, RD3, SAG and USP45 are not studied"},
-{"id": "pmid:42168701", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AI-guided redesign of prime editor reverse transcriptases; no MFRP content"}
+{"id": "pmid:41687602", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Machine-learning drug-protein interaction prediction (PointDPI); no PDE6A content, only generic retinal-dystrophy keyword overlap is absent from the abstract."},
+{"id": "pmid:38991362", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Benzo[a]pyrene toxicity in marine medaka; no SIX6 or eye-gene link, abstract empty."},
+{"id": "pmid:38199355", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "5G radiofrequency exposure in zebrafish embryos; no SIX6 link, abstract empty."},
+{"id": "pmid:38251014", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Particulate matter eye toxicity in zebrafish; eye development genes studied are pax6, rho, vsx1, cryaa, not SIX6. Weak eye-development overlap only."},
+{"id": "pmid:38521039", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Flutolanil zebrafish neuro/visual disruption toxicology; no SIX6 focus, abstract empty."},
+{"id": "pmid:40602884", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Microcystin-LR and probiotic effects on zebrafish visual system; no SIX6 focus, abstract empty."},
+{"id": "pmid:39781281", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "4-bromodiphenyl ether developmental toxicity in zebrafish; no SIX6 link."},
+{"id": "pmid:39481963", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Phenanthrene hematopoietic toxicity in zebrafish; no SIX6 link, abstract empty."},
+{"id": "pmid:39023660", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "OTX2-associated pattern dystrophy case series; OTX2 is a different homeobox gene from SIX6, no SIX6 mention. Shares only the microphthalmia/eye-development neighbourhood."},
+{"id": "pmid:22017973", "verdict": "uncertain", "confidence": 0.5, "reason": "Generic Wnt signaling activation review chapter with no abstract; FZD4 is one of ten frizzled receptors and is not evident in the title. Relevant only if the chapter treats FZD4 or FEVR-related signaling specifically."}
 ]

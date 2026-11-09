@@ -1,12 +1,12 @@
 [
-{"id": "pmid:11522784", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Dictyostelium guanylyl/adenylyl cyclase DdGCA with GTPgammaS; no GUCA1A (GCAP) link"},
-{"id": "pmid:19111294", "verdict": "uncertain", "confidence": 0.5, "reason": "Sperm ROS-GC1 (GUCY2D) calcium-modulated system; GCAP-type regulation is plausible but no abstract and no explicit GUCA1A content"},
-{"id": "pmid:42127184", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cx43 (GJA1) gap junction cryo-ET; no GJA3 (Cx46) or GJA8 (Cx50) content"},
-{"id": "pmid:41846671", "verdict": "uncertain", "confidence": 0.5, "reason": "Isolated cone dystrophy case report; GUCA1A is a known cause of cone dystrophy but the report does not mention genetics or GUCA1A, so the gene link is only disease-level"},
-{"id": "pmid:4297751", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ultrastructure of mouse melanoma premelanosomes; GPR143/OA1 not mentioned"},
-{"id": "pmid:9756475", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Transducin-PDE gamma subunit deactivation in rods; no GCAP/GUCA1A content"},
-{"id": "pmid:8461139", "verdict": "relevant", "confidence": 0.6, "reason": "Recoverin-like calcium-binding proteins on rod photoresponse; recoverin-family proteins (GCAPs, recoverin) regulate GRK1 and ROS-GC (GUCY2D) so the paper bears on both queried genes; abstract missing so score was low"},
-{"id": "pmid:8413670", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Proline residue in voltage gating of gap junctions; no abstract and no specific GJA8 (Cx50) link evident from title"},
-{"id": "pmid:10647174", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of why haem is covalently attached in c-type cytochromes; this is the reaction HCCS catalyses, so it is biology-adjacent, but it is general biochemistry rather than HCCS gene/disease content"},
-{"id": "pmid:9716376", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Proteasome inhibitors activate HSF1/HSF2/HSF3 in avian cells; HSF4 not studied"}
+{"id": "pmid:18280243", "verdict": "relevant", "confidence": 0.9, "reason": "Structure of BCOR corepressor peptide bound to BCL6 BTB domain; BCOR-centric biology"},
+{"id": "pmid:27631520", "verdict": "relevant", "confidence": 0.7, "reason": "ZC3H7B-BCOR gene fusions define a novel high-grade endometrial stromal sarcoma; gene-level BCOR alteration, not ocular, but on-topic for the BCOR gene"},
+{"id": "pmid:18599376", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of dental-involvement syndromes (no abstract); oculofaciocardiodental syndrome (BCOR) plausibly covered but not confirmed from metadata"},
+{"id": "pmid:24515802", "verdict": "relevant", "confidence": 0.9, "reason": "Perspective on BCOR and BCORL1 mutations, fusions, OFCD and Lenz microphthalmia syndrome; directly BCOR-focused"},
+{"id": "pmid:35253988", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "USP9X female syndromic ID; no BCOR content in title or abstract"},
+{"id": "pmid:37895297", "verdict": "relevant", "confidence": 0.9, "reason": "Axenfeld-Rieger spectrum genetic diagnoses; explicitly reports intragenic BCOR variants in ARS cases"},
+{"id": "pmid:39865314", "verdict": "uncertain", "confidence": 0.4, "reason": "Turkish IRD whole-exome cohort; ARSG and BBS12 not named in abstract, so gene-specific relevance cannot be confirmed"},
+{"id": "pmid:35100716", "verdict": "relevant", "confidence": 0.85, "reason": "BCOR alterations (mutations/fusions) in pediatric sarcomas and high-grade glioma; gene-level BCOR paper"},
+{"id": "pmid:35227579", "verdict": "uncertain", "confidence": 0.4, "reason": "Review of ocular phenotypes of inherited metabolic disorders; retinal degeneration covered generally, CERKL and IDH3A not named in abstract"},
+{"id": "pmid:20937879", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Ceramide inhibition in rd10 mouse RP model; not about CERKL (rd10 is a Pde6b model), only general retinitis pigmentosa"}
 ]

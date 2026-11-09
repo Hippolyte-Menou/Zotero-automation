@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41493658", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "GPR40 (FFAR1) microglial NLRP3/ERK study in AMD model; no AIPL1 (LCA4 photoreceptor chaperone) link"},
-{"id": "pmid:41514281", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "VCP inhibitor ML240 in retinal explants; no AIPL1 link"},
-{"id": "pmid:41859137", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Bibliometric review of retinitis pigmentosa research; generic RP, AIPL1 not mentioned"},
-{"id": "pmid:42679699", "verdict": "correctly_rejected", "confidence": 0.98, "reason": "Medicinal chemistry review of FDA-approved imidazole drugs; no BBS1 link, empty abstract"},
-{"id": "pmid:22174013", "verdict": "relevant", "confidence": 0.7, "reason": "NR2E3 is the gene under study (regulator of ESR1 in breast cancer); gene-centric biology paper, though not retinal. Borderline on whether gene-biology-only papers belong in the NR2E3 collection"},
-{"id": "pmid:30358468", "verdict": "relevant", "confidence": 0.8, "reason": "Genetic screening of Usher syndrome cohort reporting CDH23 and USH2A variants; directly about genes under the rejected entry and retinal-disease genetics"},
-{"id": "pmid:37123404", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Gene-agnostic IRD therapy review; NR2E3 not discussed in abstract, only matched via generic retinal-dystrophy terms"},
-{"id": "pmid:39449090", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Hypothalamic puberty transcriptomics in mice; no C12orf57 link (match is on generic 'gene' wording)"},
-{"id": "pmid:38907272", "verdict": "correctly_rejected", "confidence": 0.98, "reason": "Review of coleoid cephalopod embryonic brain development; no C12orf57 link"},
-{"id": "pmid:40498875", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Behavioral risk factors for childhood myopia in Ningxia; no ARR3 (cone arrestin) link"}
+{"id": "pmid:25574841", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "CdLS/WDSTS transcriptomopathy study; KMT2A and SMC1A/SMC3/TAF6 focus; KMT2D not discussed beyond gene-family context"},
+{"id": "pmid:25195505", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general review of epigenetic mechanisms of human disease; no KMT2D-specific content"},
+{"id": "pmid:18996222", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "lipid droplet biogenesis review; no RAB18 content"},
+{"id": "pmid:26188466", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general chromatin deregulation review; KMT2D not specifically addressed"},
+{"id": "pmid:19064991", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Abhd5-Mldp lipid droplet interaction study; no RAB18 link"},
+{"id": "pmid:32023484", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MLX transcription factor partitioning to lipid droplets; no RAB18 link"},
+{"id": "pmid:33385001", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "lipid droplet-mitochondria contact review; no RAB18 link"},
+{"id": "pmid:19754438", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "review of lipid droplet intracellular motion; no RAB18 link"},
+{"id": "pmid:16968708", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ADFP/Tip47 lipid droplet proteins in cell lines; no RAB18 link"},
+{"id": "pmid:23708524", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "lipophagy via RAB7 on lipid droplets in adipocytes; RAB7 not RAB18, so off-gene for RAB18 despite shared Rab-LD theme"}
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:31440135",
+    "id": "pmid:8457509",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract explicitly describes X-linked FEVR in a 4-generation family with linkage analysis and directly notes possible allelism with Norrie disease (NDP locus). Directly relevant to both NDP and Vitreoretinopathies."
+  },
+  {
+    "id": "pmid:2336278",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Documents fundus albipunctatus (FA), a congenital stationary night-blinding disorder tracked over 13-14 years. FA is an explicit search keyword and matches multiple retinal dystrophy search terms (congenital stationary night blindness, fundus albipunctatus). On-topic for Retinal dystrophies."
+  },
+  {
+    "id": "pmid:10366074",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Directly reviews the teneurin family structure and function, explicitly covering TENM3 (also called ODZ3/TEN3). Teneurins are the exact protein family TENM3 belongs to, and their developmental biology (synaptic specificity, cell-surface adhesion) is mechanistically relevant to TENM3-associated coloboma and microphthalmia."
+    "reason": "Title directly describes vitrectomy for retinal detachment in FEVR patients. FEVR is a core vitreoretinopathy and an explicit search keyword. Abstract is empty but title is unambiguous."
   },
   {
-    "id": "pmid:39287988",
-    "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "The paper explicitly studies SLC4A11 as an ammonia transporter - this provides direct mechanistic insight into SLC4A11 function. While the disease context is hepatocellular carcinoma, understanding how SLC4A11 operates as a transporter is foundational to understanding its pathological role in corneal dystrophy (CHED2, FECD4). The gene is studied at the molecular level."
-  },
-  {
-    "id": "pmid:20118971",
-    "verdict": "relevant",
-    "confidence": 0.65,
-    "reason": "SEMA4A is a semaphorin and this review covers semaphorin biology in immune cell responses. SEMA4A has documented roles in both immune regulation and retinal function - the two are not mutually exclusive. With an empty abstract, caution favors inclusion; semaphorin receptor biology reviewed here is mechanistically relevant to understanding SEMA4A's diverse cellular roles."
-  },
-  {
-    "id": "pmid:32057761",
+    "id": "pmid:18169555",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Steroid-induced glaucoma has a well-established link to MYOC (myocilin), which is expressed in trabecular meshwork and implicated in steroid-induced intraocular pressure elevation. A clinical management review of steroid-induced glaucoma is squarely relevant to the MYOC gene library entry."
+    "reason": "Ablatio falciformis congenita (congenital retinal fold) is a recognized early manifestation of FEVR and other inherited vitreoretinopathies. Abstract discusses hereditary congenital retinal folds, which are a hallmark feature of vitreoretinopathy syndromes. On-topic for Vitreoretinopathies."
   },
   {
-    "id": "pmid:8399348",
+    "id": "pmid:2759534",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract directly reports juvenile retinal detachment as a complication of FEVR in 90 individuals from 17 families, describing FEVR-specific retinal detachment subtypes. Directly relevant to both FZD4 (the AD-FEVR gene) and Vitreoretinopathies."
+  },
+  {
+    "id": "pmid:8418643",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title explicitly addresses X-linked FEVR genetics (DNA analysis with candidate genes). FEVR is an explicit search keyword for Vitreoretinopathies. Abstract is empty but subject matter is unambiguous from the title."
+  },
+  {
+    "id": "pmid:6911005",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title directly describes congenital retinal fold as a sign of dominant exudative vitreoretinopathy, which is a core topic under Vitreoretinopathies. Abstract is empty but title is unambiguous."
+  },
+  {
+    "id": "pmid:6685528",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Abstract describes FEVR associated with platelet aggregation defects in two families, investigating pathogenesis of this retinal vascular disorder. FEVR and vitreoretinal disease are core topics. Directly on-topic for Vitreoretinopathies."
+  },
+  {
+    "id": "pmid:6847052",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract is a classic clinical description of FEVR covering neovascularization, vitreous hemorrhage, retinal detachment, and differential diagnosis including confusion with retrolental fibroplasia. Directly on-topic for Vitreoretinopathies."
+  },
+  {
+    "id": "pmid:2496260",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Abstract explicitly studies platelet aggregation in FEVR family members, contesting the previously reported association with thrombocytopathy. Directly about FEVR pathophysiology and on-topic for Vitreoretinopathies."
+  },
+  {
+    "id": "pmid:19497727",
     "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "LRAT (lecithin retinol acyltransferase) esterifies retinol to retinyl esters in the visual cycle; enzymes that hydrolyze retinyl esters are the complementary arm of the same pathway. A paper on retinyl ester hydrolytic enzymes is directly relevant to LRAT's biochemical context and mutations causing Leber congenital amaurosis."
+    "reason": "AP-3 adaptor complex is the protein machinery defective in Hermansky-Pudlak syndrome type 2, one of the syndromic albinism subtypes listed as a search keyword. The paper reviews AP-3-dependent trafficking across a decade, directly informing HPS/Albinism biology. On-topic for Albinism."
   },
   {
-    "id": "pmid:28391084",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "SWI/SNF complexes in cancer therapeutics. ARID2 is tracked for intellectual disability / ophthalmic genetics, not oncology. With an empty abstract and a cancer-therapy framing, this paper does not connect to the ophthalmic or neurodevelopmental rationale for including ARID2 in the library."
+    "id": "pmid:9497254",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract directly reports mutation analysis in 68 HPS patients, identifying frameshift hot spots and locus heterogeneity. HPS causes oculocutaneous albinism and is an explicit Albinism search keyword. Directly on-topic for Albinism."
   },
   {
-    "id": "pmid:38910326",
-    "verdict": "correctly_rejected",
-    "confidence": 0.82,
-    "reason": "The abstract confirms the paper is specifically about SWI/SNF dysregulation in human lung diseases (malignant and non-malignant). ARID2 is tracked for intellectual disability and ophthalmic genetics; a lung disease focus is off-topic for this library regardless of ARID2 being a PBAF subunit."
-  },
-  {
-    "id": "pmid:9098284",
+    "id": "pmid:33892047",
     "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "Wagner vitreoretinal degeneration is a vitreoretinal disease directly within the scope of this gene entry (search keywords include vitreoretinopathy, stickler-syndrome). COL2A1 and VCAN/CSPG2 (also in search keywords) are both implicated in vitreoretinal conditions; a clinical paper on Wagner syndrome is relevant to the library's ophthalmic focus."
+    "reason": "Large registry study of childhood and early onset glaucoma genetics including anterior segment developmental anomalies (Axenfeld-Rieger syndrome, Peters anomaly) with FOXC1 as a top molecular diagnosis. PITX2 and FOXC1 act in the same transcription factor pathway for Axenfeld-Rieger syndrome; ARS is an explicit search keyword. The paper directly covers the diagnostic spectrum relevant to PITX2 and Ocular developmental anomalies."
   },
   {
-    "id": "pmid:27614704",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "The paper studies a COL11A1 variant in relation to adult height in a Chinese population. The ophthalmic rationale for COL11A1 in this library is Stickler syndrome and vitreoretinopathy; a population genetics study of height is not relevant to the gene's ocular disease context."
-  },
-  {
-    "id": "pmid:17029294",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "The abstract explicitly describes the paper as studying ColXIa1 in myocardial morphogenesis and heart valve development. Cardiac function research is off-topic for an ophthalmic genetics library. While COL11A1 mutations underlie Stickler syndrome, cardiac development is not part of the gene's ocular disease scope."
-  },
-  {
-    "id": "pmid:8333924",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "The abstract describes this as a review of autoimmunity to cartilage collagens in rheumatoid arthritis, using collagen-induced arthritis as an animal model. While COL2A1 is a cartilage collagen, the paper's focus on joint autoimmunity and rheumatoid arthritis is off-topic for the ophthalmic genetics library that tracks COL2A1 for Stickler syndrome and vitreoretinopathy."
-  },
-  {
-    "id": "pmid:18066062",
+    "id": "pmid:15941404",
     "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "WDPCP (Fritz/hFrtz) is known to function at the intersection of planar cell polarity and ciliogenesis. A paper linking ciliary proteins to basal body polarization and planar cell polarity is directly relevant to understanding WDPCP's mechanism, which underlies Bardet-Biedl syndrome and other ciliopathies in this library."
+    "confidence": 0.93,
+    "reason": "Abstract reviews cell biology of HPS, a syndromic albinism, covering melanosomes, BLOC complexes, and Rab38, with explicit mention of albinism as a defining feature. HPS is an explicit Albinism search keyword. On-topic for both Albinism and OCA2 (melanosome biogenesis pathway)."
   },
   {
-    "id": "pmid:22326026",
+    "id": "pmid:2126368",
     "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "WDPCP/BBS15/CPLANE5 is a bona fide ciliary protein. A proteomic analysis of mammalian primary cilia is directly relevant - it would be expected to include or inform the ciliary localization of WDPCP. With an empty abstract the confidence is moderate, but the topic matches WDPCP's core biology."
+    "confidence": 0.95,
+    "reason": "Abstract describes rufous (red) albinism in Southern Africa, a rare type of oculocutaneous albinism, with tyrosinase testing and visual evoked potentials assessing optic pathway decussation. Directly on-topic for Albinism."
   },
   {
-    "id": "pmid:22935613",
+    "id": "pmid:22709368",
     "verdict": "relevant",
-    "confidence": 0.83,
-    "reason": "WDPCP (Fritz) functions together with INTU and FUZZY as a planar cell polarity effector complex. A paper on Intu and primary cilia in cell differentiation is directly relevant to the WDPCP/Fritz/INTU/FUZZY ciliopathy pathway. This is mechanistically central to WDPCP's role in Bardet-Biedl syndrome."
+    "confidence": 0.95,
+    "reason": "Abstract screens 250 HPS-like patients and identifies a novel BLOC1S3 mutation causing HPS type 8 with oculocutaneous albinism and bleeding diathesis. HPS is an explicit Albinism search keyword. Directly on-topic for Albinism."
   },
   {
-    "id": "pmid:32894826",
+    "id": "pmid:15112108",
     "verdict": "relevant",
     "confidence": 0.87,
-    "reason": "WDPCP is a WD40-repeat protein whose mutations cause Bardet-Biedl syndrome (a ciliopathy). The abstract explicitly reviews WDR proteins in ciliopathies and endocrine disorders, which is precisely the disease context for WDPCP. This review likely covers WDPCP or its closely related family members."
+    "reason": "Title identifies the rat Ruby locus as Rab38 and links Fawn-hooded/Tester-Moriyama rat models to Hermansky-Pudlak syndrome, a form of syndromic albinism. HPS is an explicit Albinism search keyword. On-topic for Albinism pathogenesis. Abstract is empty but the title is specific."
   },
   {
-    "id": "pmid:18765832",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "FZD4 and FZD5 are frizzled Wnt receptors directly tracked in this entry. A paper on how alternative Wnt signaling is initiated by distinct frizzled receptors is mechanistically central to understanding FZD4 (FEVR) and FZD5 (coloboma) function. The search keywords explicitly include both genes."
-  },
-  {
-    "id": "pmid:1515706",
-    "verdict": "relevant",
-    "confidence": 0.80,
-    "reason": "The paper directly studies eye defect etiology in a mouse model, examining extracellular matrix (glycosaminoglycans, laminin) in developing eye structures. FREM1 and CRYGB are both associated with structural eye anomalies (microphthalmia, cataract). A paper specifically about ECM disruption in the developing eye is relevant to both genes."
-  },
-  {
-    "id": "pmid:6223038",
+    "id": "pmid:16185271",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "CHST6 encodes the sulfotransferase responsible for sulfating corneal keratan sulfate; its mutations abolish corneal keratan sulfate sulfation, causing macular corneal dystrophy. A paper specifically characterizing corneal keratan sulfate biochemistry is foundational to understanding CHST6's substrate and disease mechanism."
+    "reason": "Title reports high HPS1 frequency among Japanese albinism patients with functional mutant protein analysis. HPS is an explicit Albinism search keyword; TYRP1 (tyrosinase-related protein 1) is a core melanin synthesis gene. On-topic for both Albinism and TYRP1. Abstract is empty but the subject is unambiguous."
   },
   {
-    "id": "pmid:21298098",
-    "verdict": "correctly_rejected",
-    "confidence": 0.78,
-    "reason": "Although a Col4a1 mouse model is used, the paper's subject is tendon basement membrane biology and adhesion formation after tendon injury. The ophthalmic rationale for COL4A1 is anterior segment dysgenesis, cataract, and retinal disease. Tendon adhesion pathophysiology is not relevant to the ocular disease focus of this library entry."
-  },
-  {
-    "id": "pmid:33672553",
+    "id": "pmid:9931340",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "The abstract explicitly addresses Fuchs endothelial corneal dystrophy (FECD) - the precise disease caused by COL8A2 mutations. The paper studies oxidative stress in corneal endothelial cells in an FECD model, which is directly in-scope for a library tracking COL8A2 (FECD1, FECD). Highly relevant regardless of the specific therapeutic being tested."
+    "confidence": 0.93,
+    "reason": "Abstract identifies Ap3b1 (AP-3 beta3A subunit) mutations in the pearl hypopigmentation mouse as a model for HPS and congenital night blindness, linking AP-3 trafficking to melanosome biogenesis. Directly on-topic for Albinism."
+  },
+  {
+    "id": "pmid:10461199",
+    "verdict": "relevant",
+    "confidence": 0.87,
+    "reason": "Title describes multi-organellar disorders of pigmentation (HPS, Chediak-Higashi syndrome) using intracellular trafficking as the unifying mechanism. Both HPS and Chediak-Higashi are explicit Albinism search keywords. On-topic for Albinism. Abstract is empty but the subject is clear from the title."
   }
 ]

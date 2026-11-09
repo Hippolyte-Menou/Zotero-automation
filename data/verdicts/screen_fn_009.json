@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41516298", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Myopia review on repeated low-level red light therapy; no ARR3 (cone arrestin) link in title or abstract"},
-{"id": "pmid:30366342", "verdict": "relevant", "confidence": 0.9, "reason": "Disease-specific iPSC line from a Leber congenital amaurosis patient with homozygous AIPL1 mutation (p.Cys89Arg); directly about AIPL1-associated disease. Short resource paper, so low score is expected"},
-{"id": "pmid:42767135", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Computational analysis of dental developmental anomalies and chronic inflammatory disease; NHS here is an alias collision (Nance-Horan syndrome gene), no NHS gene link in title, abstract is empty"},
-{"id": "pmid:42758381", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "NHSL3 (NHS-like 3) knockout in hepatocellular carcinoma; a different gene from NHS (Nance-Horan), alias-prefix collision"},
-{"id": "pmid:42717234", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Epigenome-wide study of psychotherapy response in OCD; no NHS (Nance-Horan) link"},
-{"id": "pmid:23599499", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Directed differentiation of hPSCs into RPE for AMD; no VSX2 focus in title or abstract, generic retinal/RPE protocol"},
-{"id": "pmid:11879649", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Trafficking motifs in GIRK (Kir3) channels from brain and heart; not Kir7.1 (KCNJ13) or LCA16, and Kir1.4 alias refers to KCNJ15"},
-{"id": "pmid:26996528", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "hPSC-derived retinal ganglion cells and glaucoma model; no VSX2 link in title or abstract"},
-{"id": "pmid:41720444", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "School greenspace and myopia incidence cohort; no ARR3 link"},
-{"id": "pmid:41861897", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Differential diagnosis review of noninfectious posterior uveitis; no NYX or congenital stationary night blindness focus, abstract empty"}
+{"id": "pmid:22180631", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Rhodococcus bacterial lipid droplet proteome (ro02104, PspA); no RAB18 link in abstract, and bacterial LD biology is not RAB18 disease biology"},
+{"id": "pmid:34733677", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General congenital heart disease genetics review; KMT2D not named in abstract, only a generic mention possible in full text"},
+{"id": "pmid:25666439", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM5C (not KMT2D) patient mutation study; KMT2D aliases MLL2/MLL4 do not appear, different histone demethylase"},
+{"id": "pmid:24434855", "verdict": "uncertain", "confidence": 0.4, "reason": "Title-only review 'The genetics of cognitive epigenetics' with no abstract; could discuss KMT2D (chromatin regulator in Kabuki) but nothing in record confirms it"},
+{"id": "pmid:24793338", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Generic genetic basis of congenital cardiovascular malformations review with no abstract; no KMT2D-specific evidence in the record"},
+{"id": "pmid:24575121", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Exome sequencing Mendelian error filtering methods (CASSI); no KMT2D content"},
+{"id": "pmid:28476223", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Generic 'Genetics of Short Stature' review with no abstract; no KMT2D-specific evidence"},
+{"id": "pmid:31124279", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM6B (not KMT2D) de novo variants in neurodevelopmental disorders; KMT2D not mentioned"},
+{"id": "pmid:30929739", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM3B (not KMT2D) pathogenic variants in intellectual disability; KMT2D not mentioned"},
+{"id": "pmid:24296635", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Childhood obesity monogenic forms review (Macedonia); KMT2D not mentioned"}
 ]

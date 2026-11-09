@@ -1,12 +1,12 @@
 [
-{"id": "pmid:34544838", "verdict": "relevant", "confidence": 0.7, "reason": "Direct functional study of zebrafish myrf mutants (MYRF gene itself), CNS hypomyelination; gene-level paper, non-ocular but on the gene."},
-{"id": "pmid:24204318", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sox10 partner study in CNS/PNS myelination; MYRF not mentioned in abstract."},
-{"id": "pmid:33247189", "verdict": "relevant", "confidence": 0.55, "reason": "Studies NaBC1 (alias of SLC4A11) transporter function in MSC osteogenesis; on the gene product but non-ocular, borderline for inclusion."},
-{"id": "pmid:27891578", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Dusp15 in Schwann cell Erk signaling; MYRF only mentioned in background, not studied."},
-{"id": "pmid:39339769", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Mediterranean diet review for retinal disease; no OPN1MW link."},
-{"id": "pmid:32790717", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Golli/Mbp enhancer study; MYRF not in abstract, gene is MBP/Golli locus."},
-{"id": "pmid:39488795", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sonogenetics review; no OPN1MW or cone opsin content."},
-{"id": "pmid:38738427", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Wet AMD pharmacotherapy review; no OPN1MW link."},
-{"id": "pmid:39726128", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AAV retinal gene therapy nonclinical pathology; no OPN1MW link."},
-{"id": "pmid:39222301", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ARPE-19 maturation for AAV gene therapy testing; no OPN1MW link."}
+{"id": "pmid:35549429", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cross-tissue snRNA-seq atlas; FREM2 not mentioned beyond generic muscle-disease context; no FREM2 link"},
+{"id": "pmid:11180977", "verdict": "relevant", "confidence": 0.6, "reason": "Deamidation of human betaB1 crystallin (CRYBB1 protein) altering dimer structure; lens crystallin biology relevant to congenital cataract gene. Abstract missing"},
+{"id": "pmid:37470964", "verdict": "relevant", "confidence": 0.8, "reason": "Title reports FREM1 variants identified in a patient with trisomy 18 and progeria phenotype"},
+{"id": "pmid:34332989", "verdict": "uncertain", "confidence": 0.5, "reason": "Redox chemistry of lens crystallins (cysteines); may cover gamma-crystallins including CRYGD/CRYGS but abstract absent and focus is general crystallin redox"},
+{"id": "pmid:17161372", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Lengsin (LGSN) is a distinct glutamine synthetase-derived lens protein, not CRYGS (gamma-S crystallin)"},
+{"id": "pmid:19173613", "verdict": "uncertain", "confidence": 0.5, "reason": "Mass-spec method for deamidation quantification; gammaS-crystallin peptides from normal and cataractous lenses are the main biological application, but the paper is primarily methodological"},
+{"id": "pmid:36732661", "verdict": "uncertain", "confidence": 0.4, "reason": "Molecular study in isolated midline craniosynostosis; FREM1 not in title and abstract missing, so unclear whether FREM1 is a tested or reported gene"},
+{"id": "pmid:18334940", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "UV-A effects on alphaB-crystallin (CRYAB) and its deamidated mutants; not CRYGS (gamma-S crystallin)"},
+{"id": "pmid:40362380", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Unified theory of neurodegeneration via 4E-BP2 axon deamidation; no crystallin or CRYGS link"},
+{"id": "pmid:35341744", "verdict": "relevant", "confidence": 0.6, "reason": "Aggregation of gamma-crystallin domain-swapped model; gamma-crystallin family is the CRYGS/CRYG cataract-associated protein class"}
 ]

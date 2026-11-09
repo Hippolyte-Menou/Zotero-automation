@@ -1,12 +1,12 @@
 [
-{"id": "pmid:38895206", "verdict": "relevant", "confidence": 0.6, "reason": "Studies Kir7.1 (KCNJ13 protein) directly: Kir7.1 deletion and blocker experiments, MC4R-Kir7.1 coupling. Gene product biology is on topic, though the context is hypothalamic feeding rather than retina."},
-{"id": "pmid:39756144", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Kinetin derivatives correcting ELP1 (IKBKAP) splicing in familial dysautonomia. ELP1 is not ELP4; no ELP4 or aliases (C11orf19, PAXNEB) involved."},
-{"id": "pmid:38494278", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Book chapter on paraneoplastic vision loss with no abstract. Not specific to LRIT3 or CSNB1F."},
-{"id": "pmid:42095086", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Syncytin-a deficiency in murine sperm function. No BBS10 link; BBS10 aliases not mentioned."},
-{"id": "pmid:42256993", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Short rib-polydactyly syndrome caused by DYNC2I1 variant. DYNC2I1 is a distinct gene from BBS10; the ciliopathy overlap alone does not make it BBS10-relevant."},
-{"id": "pmid:11371347", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Kir2.1 (KCNJ2) mutations in Andersen syndrome. Different Kir subfamily member from KCNJ13 (Kir7.1)."},
-{"id": "pmid:15561419", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "General review of CNS potassium buffering. No KCNJ13 or Kir7.1 specificity."},
-{"id": "pmid:722275", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Biophysics review of multi-ion pores in delayed and inward rectifier K channels. Generic, not KCNJ13-specific."},
-{"id": "pmid:28602573", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Dopamine signaling and myopia review. No LRIT3 or CSNB link."},
-{"id": "pmid:7915826", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Mg2+ affinity in an inward-rectifier K channel (Kir2.x family, not Kir7.1). Not KCNJ13-specific."}
+{"id": "pmid:10218694", "verdict": "relevant", "confidence": 0.8, "reason": "Laser Doppler flowmetry of optic nerve head and retinal/choroidal blood flow in rhesus eyes; core ocular vascular physiology. Score-based rejection, not topic mismatch."},
+{"id": "pmid:11889464", "verdict": "relevant", "confidence": 0.85, "reason": "Gene transfer of dominant-negative RhoA in human trabecular meshwork raises outflow facility; directly about the IOP/outflow mechanism."},
+{"id": "pmid:19627444", "verdict": "relevant", "confidence": 0.7, "reason": "Studies the Rs1h (retinoschisin)-deficient mouse model of retinal degeneration; RS1 model biology, though the focus is microglia and DHA."},
+{"id": "pmid:15076957", "verdict": "relevant", "confidence": 0.9, "reason": "OCT of X-linked retinoschisis (RS1 disease phenotype); clearly on topic."},
+{"id": "pmid:30935660", "verdict": "relevant", "confidence": 0.95, "reason": "Natural history of congenital X-linked retinoschisis (RS1); clearly on topic."},
+{"id": "pmid:20648073", "verdict": "relevant", "confidence": 0.95, "reason": "mfERG in patients with X-linked retinoschisis (RS1); clearly on topic."},
+{"id": "pmid:19187097", "verdict": "uncertain", "confidence": 0.5, "reason": "PKG-mediated photoreceptor death in rd1 and rd2 RP models. rd1 reflects PDE6 loss-driven cGMP accumulation, so PDE6 biology is adjacent, but AIPL1 and CNGA3 are not addressed and PDE6A is not named."},
+{"id": "pmid:22183351", "verdict": "relevant", "confidence": 0.75, "reason": "Review of genes in autosomal dominant cone and cone-rod dystrophy, which includes GUCY2D and PITPNM3 disease genes."},
+{"id": "pmid:30910914", "verdict": "relevant", "confidence": 0.7, "reason": "Reassesses pathogenicity of AD-IRD variants across 58 genes, explicitly including FSCN2, PITPNM3 and SEMA4A gene-level disease claims."},
+{"id": "pmid:25138764", "verdict": "relevant", "confidence": 0.95, "reason": "Novel SLC4A11 mutations causing CHED2 (autosomal recessive congenital hereditary endothelial dystrophy); clearly on topic."}
 ]

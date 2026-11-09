@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41543272", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CRISPR clinical-trial survey and non-viral delivery review; no MFRP link"},
-{"id": "pmid:41680844", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "extracellular vesicle scaffold-protein drug delivery review; no MFRP link"},
-{"id": "pmid:41597209", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "gene editing for cardiovascular lipid targets review; no MFRP link"},
-{"id": "pmid:41813914", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "programmable cell therapy review with no abstract; no MFRP link"},
-{"id": "pmid:41647042", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "plant virus and bacteriophage VLP nucleic acid delivery review; no MFRP link"},
-{"id": "pmid:41717698", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "PRKCA base editing in heart failure; no MFRP link"},
-{"id": "pmid:41733889", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "engineered VLPs for genome editing review; no MFRP link"},
-{"id": "pmid:41775665", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "lung-targeting LNP protein delivery; no MFRP link"},
-{"id": "pmid:35112019", "verdict": "relevant", "confidence": 0.85, "reason": "case report of early gyrate atrophy (OAT deficiency, ornithine elevated) with retinal/choroidal OCT findings; the disease is the OAT-associated retinal dystrophy the gene is filed under"},
-{"id": "pmid:20388642", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "optineurin (OPTN) E50K transgenic mouse retinal degeneration; OPTN is not MYOC/myocilin, only generic glaucoma overlap"}
+{"id": "pmid:16601226", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Wnt signaling in endothelial commitment from ES cells; FZD5 not mentioned in abstract (flk1+ cells only); generic Wnt pathway paper, not FZD5-specific"},
+{"id": "pmid:11467451", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Wnt signaling in mammary tumorigenesis; no abstract; no FZD5 link evident from title"},
+{"id": "pmid:11575844", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "General review of neurologic disorders and hereditary hearing loss; no abstract; USH1C/Usher link not evident from title, at most a tangential Usher-syndrome mention"},
+{"id": "pmid:41684938", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Producer-cell engineering for virus-like particle delivery; no MFRP or retinal link"},
+{"id": "pmid:41534351", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "HIV latency reactivation with CyclinT1-Tat VLPs; unrelated to MFRP"},
+{"id": "pmid:40812307", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Fibulin-1 basement membrane in C. elegans under stretching; no COL4A1 focus in title, no abstract; collagen IV only tangential"},
+{"id": "pmid:11701921", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General review of guanine nucleotide-binding switch structures; ARL3/RAB28 only as members of a broad GTPase family, not gene-specific"},
+{"id": "pmid:15108271", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Methods paper on MLPA/MAPH gene deletion detection; no BCOR or ELP4 focus"},
+{"id": "pmid:7558016", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ROM1 heterozygous null mutation in retinitis pigmentosa family; ROM1 and PRPH2 focus, not FSCN2 or UNC119"},
+{"id": "pmid:25475188", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Clinical aniridia syndrome (PAX6) care guide; no FOXE3 or ELP4 focus, matched only on the aniridia/cataract search terms"}
 ]
