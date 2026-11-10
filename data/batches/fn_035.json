@@ -1,0 +1,206 @@
+{
+ "kind": "fn",
+ "items": [
+  {
+   "id": "pmid:35549429",
+   "kind": "fn",
+   "pmid": "35549429",
+   "doi": "10.1126/science.abl4290",
+   "title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+   "abstract": "Abstract Understanding the function of genes and their regulation in tissue homeostasis and disease requires knowing the cellular context in which genes are expressed in tissues across the body. Single cell genomics allows the generation of detailed cellular atlases in human tissues, but most efforts are focused on single tissue types. Here, we establish a framework for profiling multiple tissues across the human body at single-cell resolution using single nucleus RNA-Seq (snRNA-seq), and apply it to 8 diverse, archived, frozen tissue types (three donors per tissue). We apply four snRNA-seq methods to each of 25 samples from 16 donors, generating a cross-tissue atlas of 209,126 nuclei profiles, and benchmark them vs . scRNA-seq of comparable fresh tissues. We use a conditional variational autoencoder (cVAE) to integrate an atlas across tissues, donors, and laboratory methods. We highlight shared and tissue-specific features of tissue-resident immune cells, identifying tissue-restricted and non-restricted resident myeloid populations. These include a cross-tissue conserved dichotomy between LYVE1- and HLA class II-expressing macrophages, and the broad presence of LAM-like macrophages across healthy tissues that is also observed in disease. For rare, monogenic muscle diseases, we identify cell types that likely underlie the neuromuscular, metabolic, and immune components of these diseases, and biological processes involved in their pathology. For common complex diseases and traits analyzed by GWAS, we identify the cell types and gene modules that potentially underlie disease mechanisms. The experimental and analytical frameworks we describe will enable the generation of large-scale studies of how cellular and molecular processes vary across individuals and populations.",
+   "gene_or_topic": "FREM2",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "DKFZp686J0811",
+    "FRAS1 related extracellular matrix 2",
+    "FREM2",
+    "microphthalmia",
+    "structural-eye-disease"
+   ]
+  },
+  {
+   "id": "pmid:11180977",
+   "kind": "fn",
+   "pmid": "11180977",
+   "doi": "10.1006/exer.2000.0950",
+   "title": "Deamidation of Human \u03b2B1 Alters the Elongated Structure of the Dimer",
+   "abstract": "",
+   "gene_or_topic": "CRYBA1, CRYBA4, CRYBB1, CRYGS",
+   "category": "6 - Genes, 6 - Genes, 6 - Genes, 6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYB1",
+    "CRYBA1",
+    "CRYBA4",
+    "CRYBB1",
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:37470964",
+   "kind": "fn",
+   "pmid": "37470964",
+   "doi": "10.1007/s11033-023-08595-y",
+   "title": "Variants in FREM1 and trisomy 18 identified in a neonatal progeria patient",
+   "abstract": "",
+   "gene_or_topic": "FREM1",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "C9orf143",
+    "C9orf145",
+    "C9orf154",
+    "DKFZp686M16108",
+    "FLJ25461",
+    "FREM1",
+    "TILRR",
+    "microphthalmia",
+    "structural-eye-disease"
+   ]
+  },
+  {
+   "id": "pmid:34332989",
+   "kind": "fn",
+   "pmid": "34332989",
+   "doi": "10.1016/j.exer.2021.108707",
+   "title": "Redox chemistry of lens crystallins: A system of cysteines",
+   "abstract": "",
+   "gene_or_topic": "CRYGD, CRYGS",
+   "category": "6 - Genes, 6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG4",
+    "CRYG8",
+    "CRYGD",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:17161372",
+   "kind": "fn",
+   "pmid": "17161372",
+   "doi": "10.1016/j.str.2006.10.008",
+   "title": "Lengsin Is a Survivor of an Ancient Family of Class I Glutamine Synthetases Re-engineered by Evolution for a Role in the Vertebrate Lens",
+   "abstract": "",
+   "gene_or_topic": "CRYGS",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:19173613",
+   "kind": "fn",
+   "pmid": "19173613",
+   "doi": "10.1021/pr801054w",
+   "title": "Quantification of Isotopically Overlapping Deamidated and 18O-Labeled Peptides Using Isotopic Envelope Mixture Modeling",
+   "abstract": "A robust peptide quantification method was developed where overlapping peptide isotopic distributions were fit with predicted peptide isotopic envelope mixture models (IEMMs). Application to two difficult quantitative problems was demonstrated. The first was the quantification of deamidation, where masses of isotopic peaks differ by 1 Da, and the second was (18)O labeling, where the isotopic peaks are shifted 2 and 4 Da. In both cases, peptide quantification cannot be performed by simple integration of extracted ion chromatograms, because the isotopic envelopes of mass-shifted peptides are normally not resolved. To test the methodology for quantification of deamidation, several synthetic peptides and their corresponding deamidated forms were mixed at various ratios (1:0, 1:2, 2:1, 4:1, 10:1, and 20:1) and analyzed using the IEMM method, resulting in a high correlation (R(2) = 0.96) between measured and known percentages of deamidation. The IEMM method was then incorporated into a workflow for deamidation quantification in a large-scale proteomics experiment. A series of normal (3 day, 2 year, 35 year, and 70 year) and cataractous (93 year) human lenses were analyzed using two-dimensional liquid chromatography tandem mass spectrometry, and deamidation quantities of several gammaS-crystallin peptides ([N14-Q16], N53, [Q63-Q70], and N143) were determined. Two peptides (N53 and [Q63-Q70]) had more extensive deamidation in the water-insoluble portions of normal lens samples, and deamidation at N143 was more extensive in the 93 year water-insoluble cataractous sample. The utility of the technique for analysis of (18)O-labeled peptides was examined using mixtures of labeled BSA peptides in known (16)O/(18)O ratios (10:1, 4:1, 1:1, 1:4, and 1:10). The methodology allowed for accurate measurements of ratios of (16)O/(18)O peptides over the wide range of relative abundances.",
+   "gene_or_topic": "CRYGS",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:36732661",
+   "kind": "fn",
+   "pmid": "36732661",
+   "doi": "10.1038/s41431-023-01295-y",
+   "title": "Clinical interest of molecular study in cases of isolated midline craniosynostosis",
+   "abstract": "",
+   "gene_or_topic": "FREM1",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "C9orf143",
+    "C9orf145",
+    "C9orf154",
+    "DKFZp686M16108",
+    "FLJ25461",
+    "FREM1",
+    "TILRR",
+    "microphthalmia",
+    "structural-eye-disease"
+   ]
+  },
+  {
+   "id": "pmid:18334940",
+   "kind": "fn",
+   "pmid": "18334940",
+   "doi": "",
+   "title": "UV-A-induced structural and functional changes in human lens deamidated alphaB-crystallin.",
+   "abstract": "PURPOSE: To determine comparative effects of ultraviolet (UV)-A irradiation on structural and functional properties of wild type (WT) alphaB-crystallin and its three deamidated mutant proteins (alphaB-Asn78Asp, alphaB-Asn146Asp, and alphaB-Asn78/146Asp). METHODS: Three deamidated mutants previously generated from recombinant WT alphaB-crystallin, using a site-specific mutagenesis procedure as previously described [32], were used. The WT alphaB-crystallin and its three deamidated species were exposed to UV-A light (320-400 nm) at intensities of 20 or 50 J/cm(2). The UV-A-unexposed and UV-A-exposed preparations were examined for their chaperone activity, and their activities were correlated with the UV-A-induced structural changes. The structural properties studied included dimerization and degradation, intrinsic tryptophan (Trp) fluorescence, ANS (8-anilino-1-naphthalenesulfate)-binding, far ultraviolet circular dichroism (UV-CD) spectral analysis, molecular sizes by dynamic light scattering, and oxidation of Trp and methionine (Met) residues. RESULTS: The WT alphaB-crystallin and its three deamidated mutant proteins showed enhanced dimerization to 40 kDa species and partial degradation with increasing doses during UV-A-exposure. Compared to the deamidation of asparagines (Asn) 78 residue to aspartic acid (Asp) or both Asn78 and Asn146 residues to Asp, the deamidation of Asn146 residue to Asp resulted in a greater loss of chaperone activity. The UV-A-induced loss of chaperone activity due to structural changes was studied. The ANS-binding data suggested that the alphaB-Asn146Asp mutant protein had a relatively compact structure and an increase in surface hydrophobic patches compared to WT and two other deamidated proteins. Similarly, UV-A-exposure altered the Trp microenvironment in the deamidated mutant proteins compared to the WT alphaB-crystallin. Far-UV CD spectral analyses showed almost no changes among WT and deamidated species on UV-A-exposure except that the alphaB-Asn146Asp mutant protein showed maximum changes in the random coil structure relative to WT alphaB-crystallin and two other deamidated proteins. The UV-A-exposure also resulted in the aggregation of WT and the three deamidated mutant proteins with species of greater mass compared to the non-UV-A exposed species. Among the four spots recovered after two-dimensional (2D)-gel electrophoresis from WT and the three deamidated species, the Met and Trp residues of alphaB-Asn146Asp mutant showed maximum oxidation after UV-A exposure, which might account for its greater loss in chaperone activity compared to WT alphaB-crystallin and two other deamidated species. CONCLUSIONS: After UV-A-exposure, the deamidated alphaB-Asn146Asp mutant protein showed a complete loss of chaperone activity compared to WT alphaB and alphaB-Asn78Asp and alphaB-Asn78/146Asp deamidated species. Apparently, this loss of chaperone activity was due to oxidative changes leading to its greater structural alteration compared to other alphaB-species.",
+   "gene_or_topic": "CRYGS",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:40362380",
+   "kind": "fn",
+   "pmid": "40362380",
+   "doi": "10.3390/ijms26094143",
+   "title": "The Unified Theory of Neurodegeneration Pathogenesis Based on Axon Deamidation",
+   "abstract": "Until now, neurodegenerative diseases like Alzheimer's and Parkinson's have been studied separately in biochemistry and therapeutic drug development, and no causal link has ever been established between them. This study has developed a Unified Theory, which establishes that the regulation of axon and dendrite-specific 4E-BP2 deamidation rates controls the occurrence and progression of neurodegenerative diseases. This is based on identifying axon-specific 4E-BP2 deamidation as a universal denominator for the biochemical processes of deamidation, translational control, oxidative stress, and neurodegeneration. This was achieved by conducting a thorough and critical review of 224 scientific publications regarding (a) deamidation, (b) translational control in protein synthesis initiation, (c) neurodegeneration and (d) oxidative stress, and by applying my discovery of the fundamental neurobiological mechanism behind neuron-specific 4E-BP2 deamidation to practical applications in medicine. Based on this newly developed Unified Theory and my critical review of the scientific literature, I also designed three biochemical flowsheets of (1) in-vivo deamidation, (2) protein synthesis initiation and translational control, and (3) 4E-BP2 deamidation as a control system of the four biochemical processes. The Unified Theory of Neurodegeneration Pathogenesis based on axon deamidation, developed in this work, paves the way to controlling the occurrence and progression of neurodegenerative diseases such as Alzheimer's and Parkinson's through a unique, neuron-specific regulatory system that is 4E-BP2 deamidation, caused by the proteasome-poor environment in neuronal projections, consisting mainly of axons.",
+   "gene_or_topic": "CRYGS",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  },
+  {
+   "id": "pmid:35341744",
+   "kind": "fn",
+   "pmid": "35341744",
+   "doi": "10.1016/j.jmb.2022.167559",
+   "title": "Acquired Disorder and Asymmetry in a Domain-Swapped Model for \u03b3-Crystallin Aggregation",
+   "abstract": "",
+   "gene_or_topic": "CRYGS",
+   "category": "6 - Genes",
+   "reason": "score_below_threshold",
+   "effective_score": 3,
+   "threshold": 5,
+   "search_keywords": [
+    "CRYG8",
+    "CRYGS",
+    "congenital-cataract"
+   ]
+  }
+ ],
+ "verdict_out": "/home/user/Zotero-automation/audit_work/verdicts/screen_fn_035.json"
+}
