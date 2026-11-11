@@ -544,10 +544,15 @@ def cmd_apply(args) -> None:
         existing_dois = live.existing_dois
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
-    def rescue_fn(entries):
-        return run.process_rescue_queue(
-            entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
-            genes_parent_key, additions_tracker=[])
+    if args.no_rescue:
+        def rescue_fn(entries):
+            # Return all as failed so they stay out of the ledger and are retried next run.
+            return 0, entries
+    else:
+        def rescue_fn(entries):
+            return run.process_rescue_queue(
+                entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
+                genes_parent_key, additions_tracker=[])
 
     summary = apply_actions(
         fp, fn, screen, adj, zot=zot, rescue_fn=rescue_fn,
@@ -574,6 +579,9 @@ def main() -> None:
     p.add_argument("--adj-batch-size", type=int, default=20)
     p.add_argument("--genes-parent", default="6 - Genes")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--no-rescue", action="store_true",
+                   help="Skip rescue uploads; mark all rescue candidates as failed "
+                        "so they are excluded from the ledger and retried next run.")
     mode = p.add_mutually_exclusive_group(required=True)
     mode.add_argument("--prepare", action="store_true")
     mode.add_argument("--collect", action="store_true")
