@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T09:01:46Z",
+  "generated_at": "2026-11-15T09:13:26Z",
   "threshold_k": 0,
-  "total_evaluated": 31498,
-  "total_flagged": 525,
+  "total_evaluated": 31792,
+  "total_flagged": 527,
   "total_dismissed": 0,
-  "total_unresolvable": 130,
+  "total_unresolvable": 131,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -3629,6 +3629,44 @@
       ],
       "category": "6 - Genes",
       "subcollection": "PLK4"
+    },
+    {
+      "pmid": "41480687",
+      "doi": "10.3892/ijmm.2025.5723",
+      "zotero_key": "JTHA5DZD",
+      "title": "Advances in RPGR gene therapy for X‑linked retinitis pigmentosa: From preclinical insights to clinical application (Review)",
+      "authors": [
+        [
+          "Yushan",
+          "Long"
+        ],
+        [
+          "Qi",
+          "Jia"
+        ],
+        [
+          "Wenliang",
+          "Zhang"
+        ],
+        [
+          "Huan",
+          "Qin"
+        ],
+        [
+          "Kai",
+          "Yao"
+        ]
+      ],
+      "journal": "International Journal of Molecular Medicine",
+      "year": "2025",
+      "abstract": "‑associated retinal diseases.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:citation"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "RPGR"
     },
     {
       "pmid": "38249506",
@@ -11185,6 +11223,32 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Comparative Anatomy"
+    },
+    {
+      "pmid": "42583964",
+      "doi": "10.4103/ijp.ijp_301_25",
+      "zotero_key": "EFTRWSP3",
+      "title": "Honoring a scientific pioneer: August 17 as National Pharmacology Day in India",
+      "authors": [
+        [
+          "Babul Kumar",
+          "Bezbaruah"
+        ],
+        [
+          "Shambo Samrat",
+          "Samajdar"
+        ]
+      ],
+      "journal": "Indian Journal of Pharmacology",
+      "year": "2026",
+      "abstract": "The intellectual trajectory of Sir Ram Nath Chopra was marked by academic brilliance from an early age.Born on August 17, 1882, in Gujranwala (present-day Pakistan), Chopra began his formal education in Jammu and Srinagar before attending the prestigious Government College, Lahore.In 1903, he proceeded to England to pursue higher studies at Downing College, University of Cambridge, where he earned his B. A. in Natural Sciences Tripos (1905).During his time in Cambridge, he trained under the eminent experimental pharmacologist Dr. Walter E. Dixon, which significantly influenced his scientific temperament.He later obtained M.B. and M.D. degrees from Cambridge, M.R.C.P. from London and secured a position in the Indian Medical Service in 1908.This rare combination of classical education and modern experimental training uniquely equipped Chopra to revolutionize the field of pharmacology in colonial India.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA15"
     },
     {
       "pmid": "42793940",
