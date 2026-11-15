@@ -1,12 +1,12 @@
 [
-{"id": "pmid:38916958", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "SD-OCT and ERG study of retinal atrophy in mixed breed dogs; general canine PRA, no PRCD gene analysis"},
-{"id": "pmid:12809679", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Linkage mapping for collie eye anomaly (choroidal hypoplasia locus); not PRCD"},
-{"id": "pmid:11949808", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of veterinary clinical electrophysiology; no PRCD link"},
-{"id": "pmid:12400639", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of canine inherited retinal degeneration genetics; PRCD is likely one of the mapped genes but it is not the focus; borderline"},
-{"id": "pmid:11397244", "verdict": "relevant", "confidence": 0.7, "reason": "Describes Papillon dog rod-cone degeneration, the breed disease explicitly linked to gene symbol prcd"},
-{"id": "pmid:10895316", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Excludes RDS/Peripherin and ROM1 as gPRA candidates; PRCD not studied"},
-{"id": "pmid:9820795", "verdict": "uncertain", "confidence": 0.5, "reason": "Canine phosducin as gPRA candidate gene; historically tied to the PRCD locus area but the paper tests phosducin, not PRCD itself"},
-{"id": "pmid:1720261", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Epidermolysis bullosa simplex linked to keratin 14 and keratin 5; not KRT12"},
-{"id": "pmid:1381288", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Keratin 1 mutation in epidermolytic hyperkeratosis; not keratin 12"},
-{"id": "pmid:11470454", "verdict": "uncertain", "confidence": 0.5, "reason": "Human ocular surface epithelium review; KRT12 is a corneal epithelial marker so may be discussed, but no abstract to confirm"}
+{"id": "pmid:18940586", "verdict": "relevant", "confidence": 0.7, "reason": "Retinal progenitor temporal competence and photoreceptor/neuron genesis in mouse retina; fits Coat differentiation (retinal development). Abstract empty, judged from title."},
+{"id": "pmid:8468190", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General review of microvascular pericyte biology (mesenchyme to smooth muscle); not ophthalmic specialized microanatomy."},
+{"id": "pmid:12514120", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Rgs5 pericyte expression in embryonic vascular maturation and PDGF/GPCR signaling; not retinal or ophthalmic microanatomy."},
+{"id": "pmid:11772885", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Mural cell recruitment to tumor vessels; oncology/vascular biology, no ophthalmic microanatomy link."},
+{"id": "pmid:3454919", "verdict": "relevant", "confidence": 0.6, "reason": "Contrast sensitivity decline with ageing (neural vs optical); a visual function study, fits Visual function. Borderline since category is examination methodology. Abstract empty."},
+{"id": "pmid:21148186", "verdict": "relevant", "confidence": 0.8, "reason": "Clonal lineage reconstruction of rat retinal progenitor cells and stochastic cell fate decisions; retinal neurogenesis, fits Coat differentiation."},
+{"id": "pmid:7556462", "verdict": "relevant", "confidence": 0.7, "reason": "Fluorescein angiography compared with microvascular anatomy of macaque retina; retinal vasculature/inner retina anatomy fits Inner coat."},
+{"id": "pmid:6517350", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Pericyte-endothelial gap junctions in human cerebral capillaries; neurovascular microanatomy outside the retina-focused Specialized microanatomy keyword set. Abstract empty."},
+{"id": "pmid:8780163", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Pericytes as collagen-producing cells in dermal scarring; dermal fibrosis, not ophthalmic microanatomy."},
+{"id": "pmid:11239463", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "PDGF receptor signaling in vivo and embryological functions; not ophthalmic microanatomy."}
 ]

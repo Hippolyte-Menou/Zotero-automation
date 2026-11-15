@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:12939318",
+    "id": "pmid:26292967",
     "verdict": "relevant",
     "confidence": 0.97,
-    "reason": "Directly studies optic nerve head blood flow dynamics after acute IOP elevation in rabbits, including effects of nitric oxide synthase inhibition and calcium antagonism. Core content for 'Ocular vascular physiology'."
+    "reason": "Paper is directly about EphA2 receptor tyrosine kinase biology: vesicular recycling, ubiquitination, and signalling mode switching. EPHA2 is the gene_or_topic; this is core molecular biology of that gene."
   },
   {
-    "id": "pmid:8641839",
+    "id": "pmid:31738854",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Biochemical quantification of glycosaminoglycans in normal vs POAG trabecular meshwork; identifies hyaluronic acid depletion and chondroitin sulfate accumulation as contributors to increased aqueous outflow resistance. Directly relevant to 'Intraocular pressure' physiology."
+    "confidence": 0.99,
+    "reason": "Directly about CRYGS (gamma-S crystallin) G57W mutation and aggregation mechanism causing childhood cataracts. Core gene content matching both the gene symbol and the congenital-cataract keyword."
   },
   {
-    "id": "pmid:7556490",
+    "id": "pmid:40280119",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Title is 'The optic nerve head circulation in health and disease' (1994 von Sallman lecture). Abstract is absent but the title is unambiguous: squarely within 'Ocular vascular physiology'. Thin abstract is insufficient reason to exclude a topically precise paper."
+    "confidence": 0.90,
+    "reason": "Title explicitly names EphA2 receptors as subject; studies cholesterol-dependent dimerization and conformational dynamics of EphA2. Despite empty abstract, the paper is squarely about EPHA2 biophysics and directly relevant to the gene topic."
   },
   {
-    "id": "pmid:10218694",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Characterizes which layers of the optic nerve head circulation are measured by laser Doppler flowmetry using experimental occlusions of central retinal artery and posterior ciliary arteries in primates. Central to understanding ocular vascular physiology of the ONH."
-  },
-  {
-    "id": "pmid:11889464",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Demonstrates that gene transfer of dominant-negative RhoA to the intact human trabecular meshwork increases outflow facility by loosening cytoskeletal attachments. Directly studies the cellular regulation of aqueous outflow, core 'Intraocular pressure' physiology."
-  },
-  {
-    "id": "pmid:19627444",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Uses the Rs1h(-/Y) mouse (the established RS1 knockout model) to study microglia activation and photoreceptor survival; shows DHA supplementation delays degeneration and quiesces microglia. Directly uses and characterizes the RS1 disease model."
-  },
-  {
-    "id": "pmid:15076957",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "OCT study of X-linked retinoschisis, the disease caused by RS1 mutations. Thin abstract but title is unambiguous; imaging characterization of the RS1 phenotype is directly relevant."
-  },
-  {
-    "id": "pmid:30935660",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Natural history of congenital X-linked retinoschisis including phenotype conversion over time. Directly characterizes the clinical course of RS1 disease; relevant despite absent abstract."
-  },
-  {
-    "id": "pmid:20648073",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Multifocal ERG evaluation of focal retinal function in X-linked retinoschisis patients. Directly assesses retinal function in RS1 disease; relevant despite absent abstract."
-  },
-  {
-    "id": "pmid:19187097",
-    "verdict": "relevant",
+    "id": "pmid:42366206",
+    "verdict": "correctly_rejected",
     "confidence": 0.88,
-    "reason": "Shows PKG activation is a shared mechanism of cGMP-mediated photoreceptor death across two RP models. Mechanistically central to PDE6A disease (PDE6A loss causes cGMP accumulation that activates PKG), and relevant to CNGA3 (cGMP-gated channel physiology). The cGMP-PKG axis is the core pathomechanism for both genes."
+    "reason": "Paper studies EphA2 proteolytic fragments in hepatocellular carcinoma (HCC) progression. The entire disease context is liver cancer; there is no ophthalmological connection. An ophthalmogenetics library collecting EPHA2 cataract-related literature has no need for HCC-specific mechanistic work, and the screener was correct to exclude it."
   },
   {
-    "id": "pmid:22183351",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Book chapter reviewing genes and mutations in autosomal dominant cone and cone-rod dystrophy, the primary disease associations for GUCY2D (CORD6/LCA1) and PITPNM3 (CORD5). Directly covers both genes."
-  },
-  {
-    "id": "pmid:30910914",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Systematically re-examines allele frequencies of reported pathogenic variants in AD-IRD genes using gnomAD, questioning pathogenicity of variants in FSCN2 (RP30), PITPNM3 (CORD5), and SEMA4A. Directly relevant to variant interpretation for all three named genes."
-  },
-  {
-    "id": "pmid:25138764",
+    "id": "pmid:11479730",
     "verdict": "relevant",
     "confidence": 0.97,
-    "reason": "Reports two novel SLC4A11 mutations including a large deletion in Thai siblings with CHED2. Directly extends the mutation spectrum of SLC4A11 and characterizes the clinical presentation."
+    "reason": "PAX6 mutation screening in aniridia with Wilms tumor risk estimation. PAX6 and aniridia are both listed gene_or_topic/category entries; this is foundational clinical genetics work for a core ophthalmogenetics gene."
   },
   {
-    "id": "pmid:5936364",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Classic clinical description of chorioretinopathy with hereditary microcephaly in Mennonite inbred families, the exact phenotype caused by TUBGCP4 (and related gamma-tubulin complex subunit) mutations. Provides foundational phenotypic characterization of the TUBGCP4-associated disorder, predating molecular identification."
-  },
-  {
-    "id": "pmid:1449470",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Studies interaction of decorin (DCN gene product) core protein fragments with type I collagen. DCN mutations cause congenital stromal corneal dystrophy; understanding decorin-collagen binding is directly relevant to its pathomechanism. Thin abstract but gene-product focus is clear from title."
-  },
-  {
-    "id": "pmid:10686422",
+    "id": "pmid:1723855",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Demonstrates that alpha1(VIII) and alpha2(VIII) collagen chains (COL8A1 and COL8A2) form distinct homotrimeric proteins in vivo. Directly characterizes the biochemistry of the COL8A2 protein product relevant to Fuchs endothelial corneal dystrophy pathomechanism."
+    "reason": "Review of FGF role in eye lens morphogenesis (proliferation, migration, fiber differentiation). Directly relevant to lens embryology under the Derived structures / 2-Embryology topic category."
   },
   {
-    "id": "pmid:35455444",
-    "verdict": "relevant",
-    "confidence": 0.86,
-    "reason": "PDRN treatment in an in vitro FECD model: studies oxidative stress, inflammation, and apoptosis in corneal endothelial cells. FECD is the primary disease associated with COL8A2 mutations; mechanistic studies of FECD pathogenesis and treatment are pertinent to the gene's disease context."
-  },
-  {
-    "id": "pmid:17553638",
-    "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Studies functional diversification of Kir7.1 (the KCNJ13 gene product) in cichlid fish following gene duplication. Directly investigates the KCNJ13 protein; comparative functional genomics of this channel contributes to understanding its biology relevant to LCA16 and retinal dystrophy."
-  },
-  {
-    "id": "pmid:3261696",
+    "id": "pmid:1375041",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Compares posterior polymorphous corneal dystrophy (PPMD/PPCD) with congenital hereditary endothelial dystrophy. COL8A2 causes FECD1 and PPCD2; PIKFYVE causes PPCD3. Direct clinical comparison of the diseases associated with both named genes."
+    "reason": "Immunohistochemical study of aFGF and bFGF distribution in fetal rat eye with implications for lens development. Directly relevant to ocular embryology and lens morphogenesis under the Derived structures topic."
   },
   {
-    "id": "pmid:37358491",
+    "id": "pmid:17948455",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Quantifies visual performance improvement in achromatopsia patients using short-wavelength cutoff filter glasses. CNGA3 is the major achromatopsia gene (ACHM2); clinical studies characterizing achromatopsia and its management are directly relevant to the CNGA3 gene library."
+    "reason": "Title 'Congenital Aniridia' maps directly onto the Ocular malformations gene_or_topic and aniridia search keyword. Despite empty abstract, this is unambiguously relevant content for the ophthalmogenetics library."
+  },
+  {
+    "id": "pmid:5219504",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Classic electrophysiology paper on opponent color coding in fish retina ganglion cells, directly relevant to Visual physiology topic and 'color vision trichromacy mechanism' search keyword."
+  },
+  {
+    "id": "pmid:4988761",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Foundational paper on electrical activity of vertebrate rod and cone photoreceptors. Core visual physiology content matching phototransduction-related search keywords."
+  },
+  {
+    "id": "pmid:1426079",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Demonstrates laser Doppler flowmetry applied to optic nerve head blood flow. Directly relevant to Ocular vascular physiology topic and retinal/optic nerve blood flow keywords."
+  },
+  {
+    "id": "pmid:7801220",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Title names vascular endothelium as regulator of ocular circulation; directly relevant to Ocular vascular physiology topic. Despite empty abstract, subject matter is unambiguous."
+  },
+  {
+    "id": "pmid:90027",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Studies effects of raised IOP on retinal, prelaminar, laminar, and retrolaminar optic nerve blood flow in monkeys. Directly relevant to Ocular vascular physiology and retinal blood flow autoregulation keywords."
+  },
+  {
+    "id": "pmid:4477528",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Determines amino acid sequence of the alphaB2 chain of bovine alpha-crystallin, a principal structural protein of the transparent lens. Directly relevant to Transparent media anatomy topic and lens protein structure."
+  },
+  {
+    "id": "pmid:123231",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title names mucopolysaccharides (glycosaminoglycans) in IOP regulation, matching trabecular meshwork outflow and aqueous humor outflow search keywords under the Intraocular pressure topic."
+  },
+  {
+    "id": "pmid:8652890",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Describes morphology of the aqueous humor outflow pathway including trabecular meshwork and Schlemm's canal. Relevant to Transparent media physiology and aqueous humor dynamics search keywords."
+  },
+  {
+    "id": "pmid:18385065",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Measures circadian variation in aqueous flow, outflow facility, and IOP in healthy adults. Directly relevant to Transparent media physiology and aqueous humor dynamics production search keywords."
+  },
+  {
+    "id": "pmid:21402980",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Investigates daytime vs. nighttime aqueous humor dynamics, outflow facility, and IOP in healthy mature volunteers. Directly relevant to Transparent media physiology and aqueous humor secretion mechanism keywords."
+  },
+  {
+    "id": "pmid:30923717",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Clinical report of two siblings with X-linked juvenile retinoschisis, RS1 gene pathogenic variant in exon 6, and dorzolamide treatment response. Directly about RS1 gene and retinoschisis disease management."
+  },
+  {
+    "id": "pmid:3132713",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Foundational paper identifying the cDNA encoding tyrosinase-related protein 2 (DCT/TYRP2) mapping to the brown locus. DCT is listed gene_or_topic and the paper is seminal work on DCT gene function relevant to albinism genetics."
   }
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:40599319", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Generic proteome-wide inheritance-mode prediction via structural interactomics; no KRT12 or keratin link"},
-{"id": "pmid:41000774", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KRT9/K9 and KRT16 palmoplantar keratoderma paper; KRT12 (K12) not discussed, only the keratin family is shared"},
-{"id": "pmid:9714819", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Canine phosducin (PDC) cDNA and photoreceptor dysplasia; the paper is about PDC, not PRCD, though it is a canine retinal degeneration study"},
-{"id": "pmid:7661398", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Canine opsin (RHO) polymorphisms in gPRA; no PRCD content"},
-{"id": "pmid:41867383", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "DNA extraction method from archival epoxy-embedded eye tissue; PRCD is only one of several control amplicon targets (with RHO, GUSB, REEP1), not a study of PRCD"},
-{"id": "pmid:25175706", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "FLA8/KIF3B kinesin-II and IFT in Chlamydomonas; MAK (male germ cell-associated kinase) not involved"},
-{"id": "pmid:35868558", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "miR-124a knockout and neuronal maturation; no MAK link"},
-{"id": "pmid:40336309", "verdict": "relevant", "confidence": 0.75, "reason": "Butterfly-shaped pattern dystrophy (autosomal dominant, PRPH2-associated phenotype) with RPE tear; clinical case within PRPH2-disease spectrum"},
-{"id": "pmid:8602784", "verdict": "relevant", "confidence": 0.9, "reason": "Peripherin/RDS (PRPH2) large deletion causing autosomal dominant butterfly-shaped macular dystrophy; core PRPH2 disease paper"},
-{"id": "pmid:7710395", "verdict": "relevant", "confidence": 0.95, "reason": "Peripherin/RDS codon 140 4-bp insertion causing dominant pattern dystrophy; core PRPH2 disease paper"}
+{"id": "pmid:23132794", "verdict": "uncertain", "confidence": 0.5, "reason": "hPSC-derived neuroepithelium to retinal progenitor and photoreceptor differentiation; developmental biology of retina but no gene-level developmental genetics finding; borderline for 'Developmental genetics'"},
+{"id": "pmid:11124809", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "PDGFR-beta PI3K/PLCgamma signalling in vascular smooth muscle mice; not about specialized microanatomy"},
+{"id": "pmid:8111379", "verdict": "relevant", "confidence": 0.8, "reason": "PAX6 mutations in hereditary aniridia; core ocular malformation paper under the Ocular malformations topic (ELP4 part of the label does not apply, but the topic fits)"},
+{"id": "pmid:11146508", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "LacZ transgenic marker for limb muscle precursors and vascular smooth muscle; no ocular microanatomy content"},
+{"id": "pmid:6855632", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "pericytes and gas exchange capillaries in bovine lung; non-ocular, not specialized ocular microanatomy"},
+{"id": "pmid:12458092", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "branchial vascular sector morphogenesis in embryos; not ocular and not specialized ocular microanatomy"},
+{"id": "pmid:1709627", "verdict": "relevant", "confidence": 0.75, "reason": "substance P binding sites in rat and rabbit eyes (iris, choroid, retina, cornea); ocular neuropeptide innervation and vascular physiology fits the topic"},
+{"id": "pmid:12608700", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "neuron-specific PDGF-B ablation in CNS development; not ocular and not microanatomy"},
+{"id": "pmid:977252", "verdict": "relevant", "confidence": 0.7, "reason": "choline acetyltransferase activity across ocular tissues (iris, ciliary body, cornea, retina); ocular cholinergic innervation fits the Vascularization and innervation topic"},
+{"id": "pmid:10857836", "verdict": "relevant", "confidence": 0.8, "reason": "prenatal diagnosis of aniridia; aniridia is a core ocular malformation, fits the Ocular malformations topic"}
 ]

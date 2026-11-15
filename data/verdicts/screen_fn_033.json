@@ -1,12 +1,12 @@
 [
-{"id": "pmid:40358237", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Trigeminal neuralgia case in Dandy-Walker malformation with TOPORS variant; no LCA5 link"},
-{"id": "pmid:41074764", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ZFX X-linked neurodevelopmental disorder case; no LCA5 link"},
-{"id": "pmid:41094582", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Persistent left SVC in a Joubert syndrome patient; Joubert is a ciliopathy but the paper does not involve LCA5"},
-{"id": "pmid:8407213", "verdict": "relevant", "confidence": 0.7, "reason": "Canine prcd (progressive rod-cone degeneration) interphotoreceptor matrix study; prcd is the PRCD disease model and IMPG1 is an interphotoreceptor matrix component"},
-{"id": "pmid:24939053", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General review of gene discovery in inherited retinal degeneration; no specific KIF3B or LCA5 focus in abstract"},
-{"id": "pmid:2558906", "verdict": "relevant", "confidence": 0.75, "reason": "Canine rcd1 (PDE6A ortholog) and rcd2 (PRCD) non-allelism genetics; directly about PDE6A and PRCD-associated rod-cone dysplasia"},
-{"id": "pmid:19390472", "verdict": "relevant", "confidence": 0.6, "reason": "Albinism classification review including TYR-associated oculocutaneous albinism; disease-level relevance to TYR"},
-{"id": "pmid:33800529", "verdict": "relevant", "confidence": 0.9, "reason": "Genetic causes of oculocutaneous albinism with TYR and OCA2 variants in Pakistani families"},
-{"id": "pmid:40186350", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Generic AAV vector development review; no LCA5 link"},
-{"id": "pmid:21394582", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Generic intraocular viral gene transfer review; not specific to LCA5"}
+{"id": "pmid:11668599", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "NG2 as mural/pericyte marker in mouse vasculature; vascular biology, not ocular microanatomy for Specialized microanatomy"},
+{"id": "pmid:3085281", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "1986 review on pericytes; general microvascular biology, no ocular microanatomy link; no abstract"},
+{"id": "pmid:11285230", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "TGF-beta receptor deficiency and hematopoietic/angiogenesis in mice; not ocular microanatomy"},
+{"id": "pmid:11827992", "verdict": "uncertain", "confidence": 0.5, "reason": "VEGF isoform roles in retinal arterial/venular patterning in mice; retinal vascular development, only loosely microanatomy of the retina"},
+{"id": "pmid:11340256", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "general pericyte cell biology and pathology review; not specific to ocular microanatomy"},
+{"id": "pmid:8252628", "verdict": "relevant", "confidence": 0.55, "reason": "Drosophila hedgehog required for morphogenetic furrow progression in eye development; relevant to SHH biology in eye development, though a fly study and low score"},
+{"id": "pmid:11953313", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "conditional VEGF switching and adult neovascularization; not ocular microanatomy"},
+{"id": "pmid:9118474", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "endothelial to smooth muscle transdifferentiation in quail embryo aorta; vascular biology, not ocular microanatomy"},
+{"id": "pmid:10072376", "verdict": "uncertain", "confidence": 0.5, "reason": "review of intrinsic/extrinsic cues and bHLH genes in retinal cell fate; retinal development relevant to NR2E3 rod fate loosely, but NR2E3 not in abstract (no abstract)"},
+{"id": "pmid:10855683", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "angiogenesis in corpus luteum; reproductive biology, not ocular microanatomy"}
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:3287925",
+    "id": "pmid:43001013",
     "verdict": "on_topic",
     "confidence": 0.80,
-    "reason": "The 1986 Berlin nosology is the foundational clinical classification framework for heritable connective tissue disorders, including Marfan syndrome, which is caused by FBN1 mutations. As an essential reference document for understanding the disease phenotype that FBN1 mutations produce, it belongs in the FBN1 collection. The absence of an abstract is expected for a nosology/classification paper from 1986."
+    "reason": "Conjunctiva is a canonical adnexal structure; this paper directly measures conjunctival goblet-cell density and tear-film (precorneal) characteristics, which are core adnexal biology. The veterinary setting does not sever the topical connection to adnexal structures anatomy."
   },
   {
-    "id": "pmid:42949071",
-    "verdict": "off_topic",
-    "confidence": 0.80,
-    "reason": "The paper is about the role of AP-2beta (TFAP2B) in trabecular meshwork development, Schlemm's canal formation, and intraocular pressure homeostasis. These are glaucoma/aqueous outflow pathway topics. 'Transparent media' in ophthalmology anatomy refers to the optically clear structures light passes through (cornea, aqueous humor, lens, vitreous); this paper studies IOP regulation mechanisms and outflow pathway structures, not the anatomy or optical properties of transparent media. The connection to 'Transparent media' is too indirect to justify inclusion."
-  },
-  {
-    "id": "pmid:9326947",
-    "verdict": "off_topic",
-    "confidence": 0.82,
-    "reason": "This paper specifically recapitulates the vascular (aortic) aspect of Marfan syndrome by targeting FBN1 (fibrillin-1). ADAMTSL4 mutations cause autosomal recessive isolated ectopia lentis, not aortic or cardiovascular disease. The paper has an empty abstract and its title frames it exclusively as an FBN1/vascular-Marfan study. There is no plausible route by which a paper about the aortic phenotype of FBN1 knockout is specifically relevant to ADAMTSL4 biology."
-  },
-  {
-    "id": "pmid:29286095",
+    "id": "pmid:42211025",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "This review covers fibrillin-1 structure, assembly, and the role of FBN1 mutations in fibrillinopathies. It is directly relevant to FBN1. It is also relevant to ADAMTSL4 because ADAMTSL4 functions within the fibrillin-1 microfibril system, and this review provides essential mechanistic context for understanding how disruption of that system causes ectopia lentis. The score of 5 against a threshold of 6 is marginal and does not outweigh the clear topical relevance."
+    "confidence": 0.98,
+    "reason": "Entirely about X-linked juvenile retinoschisis caused by RS1 variants in a clinical cohort. RS1 gene is the explicit subject; five novel variants are reported. Directly relevant to RS1."
   },
   {
-    "id": "pmid:18425143",
-    "verdict": "correctly_rejected",
-    "confidence": 0.72,
-    "reason": "The title describes a general study of ubiquitin's role in spliceosome assembly. The abstract is empty, providing no evidence that the paper specifically addresses DHX38 (PRPF16) or SNRNP200 (U5-200KD/Brr2). Although both genes are spliceosome components, a broad paper on ubiquitin and spliceosome assembly is not specifically about these RP-associated helicases. The score-below-threshold rejection is appropriate absent evidence of direct relevance."
-  },
-  {
-    "id": "pmid:1852206",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Classic 1991 Nature paper establishing genetic linkage of Marfan syndrome to two fibrillin genes, one of which is FBN1 on chromosome 15. This is a foundational genetics paper for the FBN1 collection."
-  },
-  {
-    "id": "pmid:8430317",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Directly studies fibrillin transcript from a Marfan syndrome patient and demonstrates nonsense-mutation-induced exon skipping in FBN1. The abstract explicitly mentions fibrillin and Marfan syndrome, making this a core FBN1 disease-mechanism paper."
-  },
-  {
-    "id": "pmid:2402262",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Maps the Marfan syndrome genetic defect to chromosome 15 (where FBN1 resides) using linkage analysis. Foundational paper in the discovery of FBN1 as the Marfan gene. Directly relevant to FBN1."
-  },
-  {
-    "id": "pmid:1729284",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Studies fibrillin (FBN1 protein) synthesis, secretion, and extracellular matrix incorporation in dermal fibroblasts from 26 Marfan syndrome probands. Directly confirms FBN1 as the Marfan gene and characterizes the range of biochemical defects. Core FBN1 biology paper."
-  },
-  {
-    "id": "pmid:1301946",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Reports three new FBN1 missense mutations in Marfan syndrome patients, all in EGF-like domains at cysteine residues. The abstract explicitly names FBN1 and characterizes its mutations in Marfan syndrome. Directly on-topic."
-  },
-  {
-    "id": "pmid:19012347",
+    "id": "pmid:3476929",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Prospectively evaluates 279 patients referred for suspected Marfan syndrome to characterize the spectrum of Marfan-like features and differential diagnoses. FBN1 is the defining gene for Marfan syndrome; this clinical characterization study is directly relevant to the FBN1 collection."
+    "reason": "Characterises individual human gamma-crystallins expressed in the young lens (gammaG3/G4), their phase-separation behaviour, and implications for inherited and senile cataracts. The gamma-crystallin gene family includes CRYGB and CRYGD; this foundational study is on-topic for those genes."
   },
   {
-    "id": "pmid:8594563",
+    "id": "pmid:40065510",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Describes a software package and database for analysis of FBN1 mutations in Marfan syndrome. The abstract explicitly names FBN1, Marfan syndrome, and the database contents. Directly relevant to FBN1 mutation analysis."
+    "confidence": 0.95,
+    "reason": "FBN1 is explicitly named as the causal gene; study covers 41 individuals with early-onset Marfan syndrome carrying FBN1 variants in exons 24-32. Marfan syndrome includes ectopia lentis as a cardinal feature, making FBN1 papers relevant to this ophthalmogenetics library."
   },
   {
-    "id": "pmid:24613577",
+    "id": "pmid:19117906",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Title explicitly states that mutations at the 3' end of the FBN1 gene cause the neonatal progeroid variant of Marfan syndrome with congenital lipodystrophy. Directly about FBN1 genotype-phenotype correlation. Relevant despite empty abstract."
+    "confidence": 0.98,
+    "reason": "1009 probands with pathogenic FBN1 mutations; 55% had ectopia lentis (the cardinal ocular manifestation of Marfan syndrome). Directly relevant to FBN1 in an ophthalmogenetics library."
   },
   {
-    "id": "pmid:21883168",
+    "id": "pmid:26919284",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Evaluates diagnostic utility of FBN1 genotype combined with Ghent nosology phenotype in 300 consecutive patients referred for Marfan syndrome. The abstract explicitly discusses FBN1 mutation status and its effect on diagnosis. Core FBN1 clinical genetics paper."
+    "confidence": 0.97,
+    "reason": "25-year review of gene discovery in Marfan syndrome and related disorders; FBN1 is the central gene; explicitly lists ocular symptoms among the multisystem manifestations and discusses molecular pathomechanism."
   },
   {
-    "id": "pmid:9016526",
+    "id": "pmid:21564093",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Second edition of the computerized FBN1 mutation database (89 entries), directly providing mutation analysis tools and data for FBN1 and Marfan syndrome. Directly relevant."
+    "confidence": 0.97,
+    "reason": "Compares old and new Ghent criteria for Marfan syndrome in 1009 FBN1-mutation probands; ectopia lentis is explicitly given more diagnostic weight in the new nosology. Directly relevant to FBN1 and its ocular manifestations."
   },
   {
-    "id": "pmid:8040326",
+    "id": "pmid:17366579",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Describes a novel FBN1 missense mutation in a family with a Marfan/ectopia lentis phenotype. The abstract explicitly discusses ectopia lentis (a key ocular manifestation), FBN1, and the fibrillin polypeptide. Directly relevant to both FBN1 and its ocular phenotype."
+    "confidence": 0.95,
+    "reason": "Familial neonatal Marfan syndrome from parental mosaicism of an FBN1 missense mutation; ectopia lentis is listed as a clinical feature. FBN1 is the explicit gene studied."
   },
   {
-    "id": "pmid:19059503",
+    "id": "pmid:37688493",
     "verdict": "relevant",
-    "confidence": 0.82,
-    "reason": "Title describes compound-heterozygous Marfan syndrome; Marfan syndrome is caused exclusively by FBN1 mutations. A paper about compound-heterozygous Marfan syndrome concerns FBN1 genotype and is directly relevant to the FBN1 collection. Abstract is empty but the title is unambiguous."
+    "confidence": 0.93,
+    "reason": "NGS multipanel study of 136 patients with Marfan and related connective tissue disorders; FBN1 is the primary gene. Although cardiovascular-focused, it characterises FBN1 mutation types and severity, directly relevant to FBN1 genotype-phenotype understanding."
   },
   {
-    "id": "pmid:21936929",
+    "id": "pmid:41752009",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Characterizes large genomic deletions in the FBN1 gene using MLPA in Marfan syndrome patients. The abstract explicitly names FBN1, Marfan syndrome, and reports novel FBN1 deletions. Directly relevant."
+    "confidence": 0.97,
+    "reason": "FOXC1 knockdown in primary human limbal epithelial cells; regulatory effects on ocular-surface epithelial differentiation, cytokine signalling, and retinoid metabolism are characterised. FOXC1 is the explicit gene studied and the library gene_or_topic."
   },
   {
-    "id": "pmid:10441597",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Title explicitly names an FBN1 mutation causing Marfan-like manifestations via germline mosaicism. Directly relevant to FBN1 genetics despite empty abstract."
-  },
-  {
-    "id": "pmid:17627385",
+    "id": "pmid:8563763",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Applies dHPLC for mutation detection of the fibrillin-1 (FBN1) gene in 262 patients with Marfan syndrome or Marfan-like phenotypes. The abstract explicitly names FBN1, reports 93 mutations, and demonstrates diagnostic utility. Directly relevant to FBN1."
+    "reason": "Title unambiguously reports a mutation in fibrillin-1 (FBN1) causing Shprintzen-Goldberg syndrome (a Marfan-related fibrillinopathy). No abstract available, but the title establishes direct FBN1 relevance."
+  },
+  {
+    "id": "pmid:24702845",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Review of gene therapy for inherited retinal diseases; LCA type II due to RPE65 mutations is the centrepiece example throughout, with detailed discussion of RPE65 gene therapy trials. Directly relevant to RPE65."
+  },
+  {
+    "id": "pmid:12700307",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "FBN1 mutation (C4621T in exon 37) confirmed in a Marfan family with myopathy; fibrillin immunostaining abnormalities demonstrated in muscle. FBN1 is the explicit gene. Relevant to the broader FBN1 phenotypic spectrum."
+  },
+  {
+    "id": "pmid:8240311",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Foundational review establishing the fibrillin-1 (FBN1) protein as the cause of Marfan syndrome; discusses fibrillin structure, microfibril function, and disease mechanism. Core FBN1 literature."
+  },
+  {
+    "id": "pmid:2034688",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Early linkage study placing the Marfan syndrome locus on chromosome 15q (the FBN1 locus); LOD score 11.78. Foundational mapping paper for FBN1, directly relevant to this gene."
+  },
+  {
+    "id": "pmid:7897619",
+    "verdict": "relevant",
+    "confidence": 0.98,
+    "reason": "FBN1/fibrillin microfibrillar abnormalities in a Marfan family with predominant ocular defects (bilateral ectopia lentis); ciliary zonule ultrastructure is examined. Explicitly ophthalmological FBN1 paper; highly relevant to this library."
+  },
+  {
+    "id": "pmid:7778680",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Fibrillin (FBN1) microfibril morphology in fibroblast cultures from neonatal Marfan syndrome patients; describes immunofluorescence abnormalities. FBN1 is the explicit subject."
+  },
+  {
+    "id": "pmid:20886638",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "FBN1 cbEGF-domain missense mutations across a clinical spectrum; explicitly mentions ophthalmological features of Marfan syndrome as part of phenotypic evaluation. FBN1 is the gene studied."
+  },
+  {
+    "id": "pmid:8061930",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Title reports fibrillin (FBN1 protein) secretion and microfibril assembly in Marfan dermal fibroblasts. No abstract available, but the title unambiguously establishes FBN1 as the subject."
+  },
+  {
+    "id": "pmid:11123905",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Characterises monomer-dimer equilibrium of betaA3-crystallin (the protein product of CRYBA1) in a lens-biology context, with implications for lens clarity and cataract. Directly relevant to CRYBA1."
   }
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41410385", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Motile cilia subcellular proteomics across tissues; general ciliary proteome, no CEP290 or CABP4 focus. Only tangential ciliopathy framing."},
-{"id": "pmid:38798559", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Endocardial primary cilia and KLF4 in cushion development; no CEP290 link in abstract."},
-{"id": "pmid:40200693", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Homozygous WNT11 variant with laterality and heart/renal defects; no CEP290 link."},
-{"id": "pmid:9110977", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "BCL-6 transcriptional repressor in inflammation and germinal centers. BCL6 is a different gene from BCOR (BCL6 corepressor); GZF1 not involved."},
-{"id": "pmid:28157192", "verdict": "relevant", "confidence": 0.65, "reason": "Targeted-panel genetic diagnosis of simplex RP (68 IRD genes, 106 cases). Fits the Genetic testing topic and the retinal-dystrophy gene context; CERKL/RP1/USH2A are only named in search keywords, not the abstract."},
-{"id": "pmid:26773734", "verdict": "relevant", "confidence": 0.6, "reason": "Somatic BCOR loss-of-function mutations in ENKTL; a paper on the BCOR gene itself, though oncology rather than ocular. Borderline for an ophthalmic gene list."},
-{"id": "pmid:26752546", "verdict": "relevant", "confidence": 0.55, "reason": "Novel BCOR-MAML3 and ZC3H7B-BCOR fusions in sarcomas; a BCOR gene-level paper, oncology focus. Borderline."},
-{"id": "pmid:23580382", "verdict": "relevant", "confidence": 0.55, "reason": "ZC3H7B-BCOR chimeric transcript in endometrial stromal sarcoma; a BCOR gene-level paper, oncology focus. Borderline."},
-{"id": "pmid:21772852", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of epigenetics in MSC osteogenic and adipogenic differentiation; no BCOR mention."},
-{"id": "pmid:38884738", "verdict": "uncertain", "confidence": 0.35, "reason": "Book chapter on human genetics of TOF and DORV with an empty abstract. BCOR relevance cannot be judged from the metadata; it may mention BCOR among CHD genes."}
+{"id": "pmid:10960653", "verdict": "relevant", "confidence": 0.8, "reason": "Ocular motility topic: dynamic overshoots of square-wave jerks and congenital/manifest latent nystagmus are eye-movement physiology and disorders; abstract empty, low score likely due to missing abstract"},
+{"id": "pmid:11818400", "verdict": "uncertain", "confidence": 0.5, "reason": "Derived structures + NDP: mouse retinal vasculature development (angiogenesis vs vasculogenesis) is embryonic eye structure biology, but no Norrin/NDP link in title or abstract"},
+{"id": "pmid:1682128", "verdict": "relevant", "confidence": 0.85, "reason": "Optic vesicle topic: Msh-like homeobox genes define optic cup domains (corneal epithelium, neural retina, ciliary body/iris) during early eye development"},
+{"id": "pmid:2390999", "verdict": "relevant", "confidence": 0.8, "reason": "Optic vesicle topic: early tissue interactions in Xenopus embryonic lens formation, directly tied to optic vesicle-lens induction"},
+{"id": "pmid:11458394", "verdict": "relevant", "confidence": 0.85, "reason": "Optic vesicle and PAX6 topics: Pax6 controls Six3 in lens placodal ectoderm and Six3 induces ectopic optic vesicle-like structures"},
+{"id": "pmid:3181032", "verdict": "relevant", "confidence": 0.9, "reason": "Optic vesicle topic: classic reinvestigation of whether optic vesicle induces lens in amphibians, central to optic vesicle developmental biology"},
+{"id": "pmid:8881473", "verdict": "relevant", "confidence": 0.7, "reason": "Middle coat topic: nitrergic and VIPergic innervation of choroid and ciliary ganglion, i.e. uveal tract anatomy and choroidal vascular regulation; weak fit to Accommodation but fits Middle coat and Ocular vascular physiology"},
+{"id": "pmid:15036212", "verdict": "relevant", "confidence": 0.85, "reason": "Optic vesicle and SHH topics: review of cell-extrinsic growth factors (including sonic hedgehog) in vertebrate eye pattern formation and retinogenesis"},
+{"id": "pmid:1769326", "verdict": "relevant", "confidence": 0.75, "reason": "Optic vesicle topic: Xenopus ectoderm lens and neural competence timing during gastrulation, relevant to lens/optic vesicle induction biology"},
+{"id": "pmid:12167402", "verdict": "relevant", "confidence": 0.7, "reason": "Optic vesicle topic: MEK-1 induces RPE-to-neural retina transdifferentiation in the developing eye, a core optic cup/RPE fate biology paper"}
 ]

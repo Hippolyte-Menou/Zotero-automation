@@ -1,12 +1,12 @@
 [
- {"id": "pmid:39059679", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Review of hair follicle cell-ECM adhesion; no FREM1/FREM2 mention in title or abstract"},
- {"id": "pmid:8055142", "verdict": "relevant", "confidence": 0.6, "reason": "Mouse model for Fraser syndrome (FREM2 is a Fraser syndrome gene); abstract is only affiliations so score was low"},
- {"id": "pmid:33058542", "verdict": "relevant", "confidence": 0.8, "reason": "Study of the FREM1 gene itself (expression, prognosis, immune infiltration in breast cancer); gene-focused paper for FREM1"},
- {"id": "pmid:41225364", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Xiang pig wrinkled skin RNA-seq; FREM2 not mentioned"},
- {"id": "pmid:24143185", "verdict": "uncertain", "confidence": 0.5, "reason": "Fras1 missense mutation in blebs mouse; discusses Frem1-3 and Fraser syndrome biology but FREM2 is only peripheral"},
- {"id": "pmid:28373534", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Trio exome study of early-onset high myopia; FAM161A not mentioned (BSG highlighted)"},
- {"id": "pmid:23167750", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "UPD chromosome 2 exome case; FAM161A (chr2p) not named in abstract, candidate genes not specified as FAM161A"},
- {"id": "pmid:14691175", "verdict": "relevant", "confidence": 0.9, "reason": "Deamidation effects on human alphaB-crystallin (CRYAB) structure and chaperone function; lens crystallin gene paper"},
- {"id": "pmid:2851937", "verdict": "relevant", "confidence": 0.7, "reason": "Postmortem review of Fraser syndrome cases; FREM2 is a established Fraser syndrome gene, so disease-level relevance"},
- {"id": "pmid:35595450", "verdict": "uncertain", "confidence": 0.5, "reason": "Fraser syndrome case with WES finding a novel FRAS1 mutation; disease-relevant to Fraser syndrome but the variant is in FRAS1, not FREM2"}
+{"id": "pmid:1739128", "verdict": "relevant", "confidence": 0.6, "reason": "Paper is about CRYAB (alpha B-crystallin) protein expression in CNS glia and neurons in pathology; it is about the gene product itself, though not ocular. Borderline for a gene-specific ophthalmogenetics list."},
+{"id": "pmid:33727441", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of ultra-widefield retinal imaging; does not concern RS1/retinoschisin. Only generic retinal-disease terms overlap."},
+{"id": "pmid:11448327", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "NEI VFQ-25 quality-of-life questionnaire validation; no RBP3 or IRBP content."},
+{"id": "pmid:25317632", "verdict": "relevant", "confidence": 0.6, "reason": "OCT angiography vs fluorescein angiography for visualizing retinal vascular layers and peripapillary capillary plexus; fits the Inner coat / vascular anatomy and ocular imaging topics it is filed under."},
+{"id": "pmid:690139", "verdict": "relevant", "confidence": 0.8, "reason": "Purification and properties of rhodopsin kinase, which is GRK1 itself (rhodopsin kinase = G protein-coupled receptor kinase 1). Directly about the gene product."},
+{"id": "pmid:5395349", "verdict": "relevant", "confidence": 0.85, "reason": "Retinal and choroidal oxygen supply physiology at normal and high arterial oxygen tension; squarely on the ocular vascular physiology topic."},
+{"id": "pmid:28332564", "verdict": "relevant", "confidence": 0.7, "reason": "Pupillary light reflex testing (rod, cone, melanopsin pathways) in NPDR; fits specialized functional testing and neuro-ophthalmic examination topics."},
+{"id": "pmid:14434904", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Case report of abnormal internal carotid artery and vascular anomalies; intracranial/cervical vasculature, not orbital anatomy. Abstract is empty."},
+{"id": "pmid:22301125", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Global epidemiology and risk factors of diabetic retinopathy; a disease prevalence study, not a posterior segment examination technique or emerging technology."},
+{"id": "pmid:2712129", "verdict": "relevant", "confidence": 0.8, "reason": "Histologic retinal ganglion cell counts correlated with automated perimetry in glaucoma; structure-function link relevant to inner retina anatomy and functional visual field testing topics."}
 ]

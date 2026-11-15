@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:27631520",
-    "verdict": "correctly_rejected",
-    "confidence": 0.92,
-    "reason": "Paper describes ZC3H7B-BCOR gene fusions in uterine endometrial stromal sarcomas. While BCOR is the gene of interest, the clinical subject is exclusively gynaecological oncology with no ophthalmic phenotype mentioned. The BCOR connection is through its cancer fusion role, not through its oculofaciocardiodental or Lenz microphthalmia syndrome relevance. Not useful for an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:18599376",
-    "verdict": "correctly_rejected",
-    "confidence": 0.85,
-    "reason": "Broad dental genetics review covering amelogenesis imperfecta, dentinogenesis imperfecta, and dental anomalies in multiple congenital anomaly syndromes. PubMed MeSH terms contain no ocular descriptors. Although BCOR-related OFCD syndrome has dental involvement, this review does not specifically address BCOR or OFCD, and the library focus is ophthalmic genetics."
-  },
-  {
-    "id": "pmid:24515802",
+    "id": "pmid:18001286",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Abstract explicitly states 'Germline BCOR mutations have been detected in patients with oculofaciocardiodental and Lenz microphthalmia syndromes', directly linking BCOR to inherited eye malformation syndromes. Also discusses BCOR fusion transcripts and somatic mutations in retinoblastoma. This is essential background on BCOR's known ophthalmic disease associations."
+    "confidence": 0.97,
+    "reason": "Studies melanopsin-containing retinal ganglion cells (ipRGCs) in primate retina - morphology, dendritic stratification, and synaptic inputs from bipolar and amacrine cells. Melanopsin and ipRGCs are the core cellular substrate of the pupillary light reflex pathway, squarely within 'Pupillary physiology' and 'Neuro-ophthalmologic examinations'. Search keywords 'melanopsin signaling', 'intrinsically photosensitive retinal ganglion cell physiology', and 'pupillary light reflex pathway mechanism' all match this paper's subject."
   },
   {
-    "id": "pmid:37895297",
+    "id": "pmid:25624466",
     "verdict": "relevant",
     "confidence": 0.98,
-    "reason": "Directly reports pathogenic BCOR and PITX2 variants in Axenfeld-Rieger anomaly/syndrome, a primary anterior segment disorder. Abstract explicitly describes ARA, congenital glaucoma, corneal neovascularization, and cataracts associated with the identified variants. Core ophthalmogenetics content."
+    "reason": "Describes and validates a five-primary photostimulator for isolating rod, cone, and melanopsin-ipRGC contributions to pupil responses in humans. Melanopsin-mediated pupil responses are directly studied and quantified. This is core methodology for 'Pupillary physiology' and 'Neuro-ophthalmologic examinations', matching search keywords 'melanopsin signaling mechanism', 'pupillary light reflex', and 'pupillometry technique protocol'."
   },
   {
-    "id": "pmid:39865314",
+    "id": "pmid:8977478",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Study of inherited retinal diseases in 50 Turkish IRD patients identifies variants in ARSG and BBS12 genes among others, covering retinitis pigmentosa and Stargardt disease. Directly relevant to both genes catalogued (ARSG, BBS12) and to the library's retinal dystrophy focus."
+    "confidence": 0.95,
+    "reason": "Prospective study of pulsatile ocular blood flow (POBF) across age decades in normal subjects, examining effects of posture and IOP on POBF. This is directly within 'Ocular vascular physiology' - quantifies the hemodynamic parameters fundamental to retinal and choroidal perfusion physiology. Matches search keywords 'retinal blood flow regulation' and 'choroidal blood flow'."
   },
   {
-    "id": "pmid:35100716",
-    "verdict": "correctly_rejected",
-    "confidence": 0.93,
-    "reason": "Published in JCO Precision Oncology; describes BCOR alterations in pediatric sarcomas and high-grade glial malignancies. PubMed abstract is unavailable but journal, author affiliations (oncology departments), and title confirm an exclusively oncological focus with no ophthalmic content. BCOR's role here is as a cancer gene, not an eye disease gene."
-  },
-  {
-    "id": "pmid:35227579",
+    "id": "pmid:12812886",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Review explicitly titled 'Ocular phenotypes' for inherited metabolic disorders. Abstract describes 577 IMDs with ophthalmic manifestations including retinal degeneration, optic atrophy, corneal and lens involvement. Directly catalogues CERKL and IDH3A among the genes with ocular phenotypes."
-  },
-  {
-    "id": "pmid:22183377",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Title 'Ceramide Signaling in Retinal Degeneration' directly maps to CERKL (Ceramide Kinase-Like), which causes retinitis pigmentosa. Even without an available abstract, the subject matter is precisely the molecular pathway implicated in CERKL-associated retinal disease. Relevant to the library."
-  },
-  {
-    "id": "pmid:40442284",
-    "verdict": "correctly_rejected",
-    "confidence": 0.82,
-    "reason": "Identifies RNU2-2 and RNU5B-1 as neurodevelopmental disorder genes through R-loop region analysis. Abstract and search keywords contain no ophthalmic terms. The paper characterises these spliceosomal RNA genes in the context of NDDs with no mention of retinal, corneal, or other ocular phenotypes. Insufficient connection to ophthalmogenetics."
-  },
-  {
-    "id": "pmid:9188497",
-    "verdict": "correctly_rejected",
     "confidence": 0.88,
-    "reason": "Characterises 17beta-HSD6 and retinol dehydrogenase from rat and human prostate in the context of androgen/steroid metabolism. RDH11 is in the same enzyme superfamily but the paper's focus is prostate steroid biochemistry, not retinal biology. The retinol dehydrogenase mentioned (RoDH1) is a different enzyme than RDH11 and no retinal tissue is studied."
+    "reason": "Retrospective study of 34 patients with orbital cysts in microphthalmos and anophthalmos - the defining phenotypes associated with TENM3 mutations. While a clinical management paper, it characterises the structural severity and socket expansion properties of this congenital ocular malformation. Relevant to 'Ocular malformations' and to TENM3 phenotypic literature. Search keywords 'microphthalmia' and 'structural-eye-disease' match directly."
   },
   {
-    "id": "pmid:1869569",
-    "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Describes purification and characterisation of retinol dehydrogenase from bovine RETINAL rod outer segments, with kinetics for all-trans retinol and retinal. This is foundational biochemistry for the retinaldehyde/visual cycle enzyme family to which RDH11 belongs, studied directly in retinal tissue."
-  },
-  {
-    "id": "pmid:26231136",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "Review of biochemical properties and biotechnological production of retinoids, focusing on industrial/microbial retinoid synthesis. Although retinol dehydrogenase is briefly reviewed and retinal's role in the visual cycle is mentioned, the paper's primary scope is biotechnology and metabolic engineering, not retinal pathology or inherited eye disease."
-  },
-  {
-    "id": "pmid:31082679",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Generates iPSC lines from a retinitis pigmentosa patient carrying a homozygous CERKL c.769C>T (p.Arg257Ter) mutation. Directly studies CERKL-associated RP, provides disease-model cell lines for CERKL research. Core ophthalmogenetics content."
-  },
-  {
-    "id": "pmid:7876135",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "Clones and characterises liver microsomal retinol dehydrogenase (RoDH) expressed specifically in liver. The enzyme is studied in rat liver, not retinal tissue, in the context of hepatic retinoic acid biosynthesis. RDH11 is a related SDR family member but the paper does not study it or any retinal context."
-  },
-  {
-    "id": "pmid:34426021",
-    "verdict": "correctly_rejected",
-    "confidence": 0.75,
-    "reason": "General review of Polycomb PRC1/PR-DUB complexes in neurodevelopmental disorders and cancer. BCOR is a PRC1 component and would be catalogued in this review, but no ocular diseases, eye malformations, or ophthalmic phenotypes are mentioned in the abstract or MeSH terms (which cover Developmental Disabilities and Neoplasms). Insufficient ophthalmological relevance."
-  },
-  {
-    "id": "pmid:40537162",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Review of Joubert syndrome, a ciliopathy in which LCA5 and RPGRIP1L are causative genes. PubMed MeSH terms include 'Eye Abnormalities' and 'Retina', and Joubert syndrome is well known to involve Leber congenital amaurosis and coloboma as ocular manifestations. Directly relevant to both genes listed."
-  },
-  {
-    "id": "pmid:36114230",
+    "id": "pmid:21601076",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Studies the molecular interaction between LC8 and LCA5 (lebercilin), the protein product of the Leber congenital amaurosis gene LCA5, in the ciliary-centrosome system. Provides mechanistic insight into LCA5 protein biology directly relevant to ciliopathy-related retinal degeneration."
+    "reason": "Title 'Disorders of the pupil' (a chapter or review) is directly on-topic for 'Pupillary physiology' and 'Neuro-ophthalmologic examinations'. Though abstract is absent, the subject is an exact match to the collection scope - pupillary disorders are the central clinical application of pupillary physiology knowledge. No plausible off-topic reading."
   },
   {
-    "id": "pmid:8407213",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Studies structural changes in the interphotoreceptor matrix during progressive rod-cone degeneration (prcd) in dogs using lectin cytochemistry. PRCD and IMPG1 (interphotoreceptor matrix glycoprotein 1) are both directly studied. The paper examines photoreceptor-matrix interactions in the PRCD disease model, relevant to both catalogued genes."
-  },
-  {
-    "id": "pmid:2558906",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Establishes non-allelism of three early-onset hereditary retinal degeneration loci (rcd1, rcd2, erd) in dogs via cross-breeding experiments. These canine loci correspond to PDE6A (rcd1) and PRCD (erd/rcd2 lineage). Classic genetics paper establishing the genetic framework of retinal degeneration models for these genes."
-  },
-  {
-    "id": "pmid:19390472",
+    "id": "pmid:26311258",
     "verdict": "relevant",
     "confidence": 0.97,
-    "reason": "Clinical review of albinism with detailed description of ocular features: foveal hypoplasia, reduced vision, nystagmus, positive angle kappa, strabismus, iris transillumination, absent melanin in fundi, and retinostriate decussation. LRMDA (OCA7) and TYR (OCA1) are both albinism genes directly discussed. Core ophthalmogenetics content."
+    "reason": "Title explicitly describes dark-adaptation effects on rod, cone, and ipRGC sensitivity and their differential impact on the pupil light response (PLR). This is a direct, specific study of pupillary physiology mechanisms involving ipRGCs. Matches search keywords 'pupillary light reflex', 'intrinsically photosensitive retinal ganglion cells', and 'pupil physiology'. Relevant despite absent abstract."
+  },
+  {
+    "id": "pmid:24629312",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "OCT angiography of optic disc perfusion in glaucoma is directly relevant to 'Ocular imaging' (methodology), 'Vascularization and innervation' (optic disc blood supply), and 'Inner coat' (optic nerve head). Search keywords 'OCT angiography technique methodology' match this paper's exact subject. Despite absent abstract, the title is unambiguous."
+  },
+  {
+    "id": "pmid:11333324",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "In vivo confocal microscopy characterisation of corneal nerve distribution and morphology - stromal trunks, sub-basal plexus, and epithelial innervation. Directly relevant to 'Outer coat' anatomy and 'Vascularization and innervation' of the cornea. Matches search keywords 'corneal innervation anatomy', 'trigeminal innervation cornea', and 'corneal morphology'."
+  },
+  {
+    "id": "pmid:29520050",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Validates AI-based automated diabetic retinopathy detection using smartphone fundus photography (Remidio FOP device) against ophthalmologist grading. Directly relevant to both 'Emerging technologies' (AI + smartphone imaging) and 'Posterior segment examination' (fundus photography for DR). Matches search keywords 'artificial intelligence ophthalmology imaging methodology', 'smartphone fundoscopy technique', and 'fundus photography technique protocol'."
+  },
+  {
+    "id": "pmid:4600539",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Characterises W-, X-, and Y-cell retinal ganglion cell classes in cat retina - a foundational neurophysiology paper that established the classification of parallel retinal output pathways. Directly relevant to 'Inner coat' (retinal ganglion cell layer) and 'Ocular neurophysiology'. Matches search keywords 'retinal ganglion cell receptive field physiology' and 'retinal signal processing circuitry'."
+  },
+  {
+    "id": "pmid:9477998",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Laser Doppler flowmetry measurements of foveolar choroidal blood flow in AMD vs controls. Directly relevant to 'Middle coat' (choroid) and 'Ocular vascular physiology' (choroidal haemodynamics in disease). Matches search keywords 'choroidal blood flow', 'choroidal blood flow regulation', and 'foveal morphology' (physiological context)."
+  },
+  {
+    "id": "pmid:6187901",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "HRP tracing study of lateral geniculate body to striate cortex projections in squirrel monkey, delineating magnocellular, parvocellular, and intercalated (koniocellular) pathways and their laminar cortical targets. Directly relevant to 'Ocular neurophysiology', matching search keywords 'lateral geniculate nucleus visual processing', 'magnocellular parvocellular pathway', and 'optic radiation visual pathway'."
+  },
+  {
+    "id": "pmid:7275128",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Original description of the scanning laser ophthalmoscope (SLO) - a transformative retinal imaging instrument that pioneered confocal fundus imaging at low light levels. This is a foundational 'Emerging technologies' paper for ophthalmic examination. Matches search keywords 'adaptive optics scanning laser ophthalmoscopy technique' and directly corresponds to 'Emerging technologies' topic scope."
+  },
+  {
+    "id": "pmid:4986000",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Primate retinal and striate cortex topography and its relationship to visual acuity - covers retinal cell density maps and cortical magnification factor. Relevant to 'Inner coat' (retinal anatomy) and 'Ocular neurophysiology' (retinotopic organisation). Matches search keywords 'retinal histology', 'retinal lamination morphology', 'magnocellular parvocellular pathway', and 'visual cortex receptive field physiology'. Relevant despite absent abstract."
+  },
+  {
+    "id": "pmid:32977001",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Comprehensive review of corneal endothelial dysfunction covering pathophysiology, selective keratoplasty, cell therapy trials, gene therapy, and anti-sense approaches for Fuchs endothelial corneal dystrophy (FECD) and related conditions. COL8A2 mutations cause FECD1. Search keywords 'COL8A2', 'FECD', 'Fuchs endothelial corneal dystrophy', and 'Fuchs endothelial dystrophy' match directly. Highly relevant to 'Corneal dystrophies' and 'COL8A2'."
+  },
+  {
+    "id": "pmid:4960032",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Demonstrates absence of adrenergic innervation to intraocular retinal arterioles while choroidal vessels are heavily innervated - a key finding explaining differential regulation of retinal vs choroidal blood flow. Directly relevant to 'Vascularization and innervation' and 'Ocular vascular physiology'. Matches search keywords 'choroidal blood flow autonomic regulation', 'central retinal artery anatomy', and 'retinal vascular autoregulation mechanism'."
+  },
+  {
+    "id": "pmid:10985346",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Studies midline signalling regulation of retinal neurogenesis in zebrafish. RAX (Retina and Anterior neural fold homeobox) is a transcription factor essential for retinal progenitor specification and eye field formation, and midline-derived signals (Hedgehog, Nodal) regulate RAX-expressing retinal progenitors during neurogenesis. Search keywords 'RAX', 'retinal neurogenesis cell fate determination', and 'retinal neurogenesis wave embryonic' match this paper's subject within 'Coat differentiation' and 'RAX' gene scope."
+  },
+  {
+    "id": "pmid:25447109",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Compares smartphone ophthalmoscopy with slit-lamp biomicroscopy for diabetic retinopathy grading. Directly relevant to 'Emerging technologies' (smartphone ophthalmoscopy validation) and 'Posterior segment examination' (DR grading methodology). Matches search keywords 'smartphone fundoscopy technique', 'fundoscopy technique methodology', and 'indirect ophthalmoscopy technique principles'. Relevant despite absent abstract."
+  },
+  {
+    "id": "pmid:6841666",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "Anterograde and retrograde tracing of LGN interlaminar zone and S-layer projections to supragranular striate cortex in squirrel monkey, characterising the koniocellular (W-cell) pathway. Directly relevant to 'Ocular neurophysiology', matching search keywords 'lateral geniculate nucleus visual processing', 'magnocellular parvocellular pathway', and 'optic radiation visual pathway'."
+  },
+  {
+    "id": "pmid:8482114",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Quantitative measurement of casual meibomian lipid levels on lid margins in 421 subjects across age range 1-94 years, characterising age- and sex-related changes. Directly relevant to 'Adnexal structures' (meibomian glands) and 'Ocular surface examinations' (meibography, tear film assessment). Matches search keywords 'meibomian gland morphology', 'meibomian gland histology', 'meibography technique methodology', and 'tear film analysis methodology'."
   }
 ]

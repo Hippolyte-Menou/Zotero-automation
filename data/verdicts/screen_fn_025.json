@@ -1,12 +1,12 @@
 [
-{"id": "pmid:11060213", "verdict": "relevant", "confidence": 0.9, "reason": "Genetic heterogeneity of Usher type I in 151 families; directly about USH1 genes (MYO7A, CDH23, CLRN1, USH1C, ADGRV1). Empty abstract, low score is a data artifact."},
-{"id": "pmid:40836034", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Bbs8-/- mouse study of ciliary Hedgehog signalling in white adipose tissue; BBS8 is not in the list and the paper does not address ARL6, CEP290 or MKKS (BBS6). Only a loose BBS/cilia link."},
-{"id": "pmid:8387203", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Irish setter rcd1 model with a nonsense mutation in the PDE6 beta subunit (PDE6B). Not about PDE6A, PRCD or RPGRIP1; only a shared PDE6 family and retinal degeneration context."},
-{"id": "pmid:37019113", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "TOM1L2 ESCRT cargo retrieval from cilia; general ciliary trafficking, no ARL6 or CEP290 focus. Empty abstract."},
-{"id": "pmid:28381413", "verdict": "uncertain", "confidence": 0.5, "reason": "Photoreceptor disc formation via peripherin-dependent suppression of ciliary ectosome release. ROM1 is a peripherin partner in disc rim formation, so there is a plausible functional link, but ROM1, CDHR1 and RAB28 are not mentioned."},
-{"id": "pmid:10547847", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Primer3 web tool methods chapter; no biological link to BBS2, RPGRIP1 or YAP1."},
-{"id": "pmid:38532366", "verdict": "relevant", "confidence": 0.7, "reason": "Review of PROM1 (CD133) biology; PROM1 is itself a retinal dystrophy gene (CORD12/MCDR2/STGD4) and the review is about the gene product, so it is on-topic for PROM1 even though the retinal angle is absent."},
-{"id": "pmid:12408083", "verdict": "relevant", "confidence": 0.85, "reason": "Hearing impairment in Usher syndrome; USH2 and USH2C (ADGRV1) and CLRN1 are central to the hearing phenotype. Empty abstract."},
-{"id": "pmid:40737401", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "GPR161 mechanosensing at the primary cilium in neuronal migration; no ARSG or CEP290 link."},
-{"id": "pmid:19392879", "verdict": "relevant", "confidence": 0.6, "reason": "Review of canine inherited retinal degeneration models and gene therapy; the canine RPE65 (rd12) model is the canonical gene therapy target, and RPGRIP1 canine models are also in scope."}
+{"id": "pmid:26504666", "verdict": "relevant", "confidence": 0.6, "reason": "Binocular accommodation/convergence dynamics under binocular vs monocular viewing; core binocular vision physiology, though framed as instrument development"},
+{"id": "pmid:6496643", "verdict": "relevant", "confidence": 0.9, "reason": "Stereopsis in small-angle strabismus, stereotest comparison; central binocular vision topic"},
+{"id": "pmid:2765446", "verdict": "uncertain", "confidence": 0.5, "reason": "Visual acuity testing for malingering using dichoptic/per-eye presentation; binocular testing method but not clearly binocular vision science"},
+{"id": "pmid:3977672", "verdict": "relevant", "confidence": 0.85, "reason": "Titmus stereoacuity in optic nerve disease; stereopsis is a binocular vision measure"},
+{"id": "pmid:28824827", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Binocular OCT refers to a two-eye imaging device, not binocular vision; usability study"},
+{"id": "pmid:5425254", "verdict": "relevant", "confidence": 0.85, "reason": "Sensory adaptations in strabismus and retinal correspondence diagnostics; core binocular vision"},
+{"id": "pmid:4599876", "verdict": "relevant", "confidence": 0.7, "reason": "Methods for investigating strabismus, diplopia and ocular movements; strabismus/binocular examination"},
+{"id": "pmid:33940045", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Epidemiology of diabetic retinopathy prevalence; not about retinal vascular anatomy or posterior segment examination technique"},
+{"id": "pmid:23243564", "verdict": "uncertain", "confidence": 0.5, "reason": "OCT angiography of optic nerve head perfusion in early glaucoma; ONH microvasculature is loosely tied to Inner coat/neuro-ophth exams but mainly glaucoma imaging"},
+{"id": "pmid:17962471", "verdict": "relevant", "confidence": 0.85, "reason": "Pupillary light reflex physiology (rod-cone vs melanopsin) with pupillometry; matches Pupillary physiology and neuro-ophthalmic exam topics"}
 ]

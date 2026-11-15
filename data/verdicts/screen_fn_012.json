@@ -1,12 +1,12 @@
 [
-{"id": "pmid:21330445", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Enterocyte brush border shotgun proteomics; no USH1C/harmonin link in abstract"},
-{"id": "pmid:38909044", "verdict": "uncertain", "confidence": 0.5, "reason": "HNF4A/HNF1A ChIP-seq; USH1C is one of many identified target loci and abstract notes a functional follow-up on USH1C in beta cells, but the paper is not about USH1C itself"},
-{"id": "pmid:12871240", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Hearing loss genetic screening centred on GJB2, SLC26A4, WFS1; no USH1C mention"},
-{"id": "pmid:12014894", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Generic hearing impairment genetics review, no abstract; no USH1C-specific content evident from title"},
-{"id": "pmid:39119251", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Splice-switching ASO review for pediatric neurological disorders; no USH1C link"},
-{"id": "pmid:37600010", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Auditory-gut-brain axis review; no USH1C link"},
-{"id": "pmid:14744904", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Mouse ERG screening for Pde6b retinal dysfunction; no USH1C link"},
-{"id": "pmid:15645695", "verdict": "relevant", "confidence": 0.85, "reason": "Contiguous gene deletion that removes most of USH1C exons; clinical description links USH1C loss to Usher-type deafness and retinal dystrophy features"},
-{"id": "pmid:23237960", "verdict": "relevant", "confidence": 0.6, "reason": "Usher syndrome type 1 patient case (MYO7A); USH1C is one of the USH1 genes so disease-level relevance, but the paper's focus is MYO7A"},
-{"id": "pmid:22219650", "verdict": "relevant", "confidence": 0.9, "reason": "Usher type 1 families in which linkage and sequencing implicate USH1C in one family; USH1C mutations explicitly reported"}
+{"id": "pmid:9326342", "verdict": "relevant", "confidence": 0.85, "reason": "Linkage mapping of autosomal dominant Axenfeld-Rieger anomaly to 6p25, the FOXC1 locus; directly about the FOXC1-associated disease, rejected only on low abstract-based score (abstract empty)"},
+{"id": "pmid:8213068", "verdict": "relevant", "confidence": 0.7, "reason": "Describes neuronal migration defects in Small eye (Sey), the Pax6 point mutant mouse; genuine PAX6 mutant phenotype paper, though focused on cortex rather than eye"},
+{"id": "pmid:7768185", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fgf8 gene structure and expression in limb/facial/midbrain outgrowth regions; no eye, HMX1 or OTX2 content"},
+{"id": "pmid:7925426", "verdict": "relevant", "confidence": 0.7, "reason": "Review of alpha-crystallin structure, PTMs and chaperone activity (alphaA and alphaB, CRYAB is alphaB); lens transparency and congenital cataract relevance, though broad and not abstract-scored well"},
+{"id": "pmid:9147650", "verdict": "relevant", "confidence": 0.85, "reason": "Original description of PITX2 (Ptx2) homeobox gene, proposed candidate for Rieger syndrome with eye and anterior segment anomalies"},
+{"id": "pmid:19387080", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ROCK inhibitor culture of cynomolgus corneal endothelial cells for transplantation; no KRT3 or keratin-3 corneal dystrophy content"},
+{"id": "pmid:6801987", "verdict": "relevant", "confidence": 0.6, "reason": "Autosomal dominant anterior segment mesenchymal dysgenesis pedigree; ASMD is the phenotype later linked to HMX1, so fits the HMX1/ocular malformation topic, though it predates the gene link"},
+{"id": "pmid:9368012", "verdict": "uncertain", "confidence": 0.5, "reason": "Subunit exchange dynamics of alphaA-crystallin chaperone; lens crystallin biology relevant to CRYAB/transparency topic but studies alphaA rather than alphaB (CRYAB)"},
+{"id": "pmid:2868172", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Bland-Altman statistical methods for method agreement; not about anterior segment examination, binocular vision, ocular surface or visual function testing specifically"},
+{"id": "pmid:12365904", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Early Manifest Glaucoma Trial on IOP reduction and progression; not about ocular neurophysiology, lens/vitreous transparency physiology or ocular surface examination"}
 ]

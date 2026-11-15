@@ -1,12 +1,12 @@
 [
-{"id": "pmid:19797232", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Sphingosine synthesis in photoreceptor apoptosis (paraquat, ceramidase); no CERKL (ceramide kinase-like) study"},
-{"id": "pmid:22183377", "verdict": "uncertain", "confidence": 0.5, "reason": "Book chapter on ceramide signaling in retinal degeneration; no abstract, so CERKL content cannot be confirmed; likely general sphingolipid biology"},
-{"id": "pmid:21724910", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ceramide-1-phosphate in photoreceptor development/survival; a different sphingolipid, not CERKL"},
-{"id": "pmid:27571014", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Acid sphingomyelinase and ceramide in retinal ischemia; no CERKL link"},
-{"id": "pmid:25802487", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "C8orf37 mutations causing retinitis pigmentosa; a different gene from CERKL (RP26), so the paper is off-topic for CERKL"},
-{"id": "pmid:40766124", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "South African Parkinson disease GWAS; no CERKL relevance"},
-{"id": "pmid:16923157", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Acid sphingomyelinase-ceramide apoptosis in 661W cells; no CERKL study"},
-{"id": "pmid:16565407", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ceramide-mediated photoreceptor apoptosis (C2-ceramide, DHA); no CERKL study"},
-{"id": "pmid:21111813", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of ceramide kinase (CERK), a distinct enzyme from CERKL; no CERKL content"},
-{"id": "pmid:15504344", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Ceramide kinase (CERK) PH domain targeting; CERK is not CERKL"}
+{"id": "pmid:18048005", "verdict": "uncertain", "confidence": 0.5, "reason": "Ultrastructural/anatomical study of photoreceptor mitochondria positioned relative to retinal vasculature; links to inner-coat vascularization only indirectly, no abstract to confirm focus"},
+{"id": "pmid:7623103", "verdict": "relevant", "confidence": 0.6, "reason": "Single-unit recording of brainstem neurons (NRTP) encoding near/far response for vergence and accommodation; neural control of accommodation fits Accommodation physiology topic"},
+{"id": "pmid:10832720", "verdict": "relevant", "confidence": 0.85, "reason": "Reflective meniscometry is a tear meniscus examination technique for dry eye assessment; fits Ocular surface examinations"},
+{"id": "pmid:29224926", "verdict": "relevant", "confidence": 0.8, "reason": "Deep-learning automated OCT fluid detection; a clear emerging technology in ophthalmic imaging"},
+{"id": "pmid:26386158", "verdict": "uncertain", "confidence": 0.5, "reason": "OCTA/en face OCT features of paracentral acute middle maculopathy (inner retinal ischemia); touches retinal vasculature but is a clinical imaging report with no abstract and only loose fit to the inner coat vascularization topic"},
+{"id": "pmid:9716345", "verdict": "relevant", "confidence": 0.75, "reason": "Rieger syndrome (FOXC1/PITX2-associated) phenotype with cardiovascular anomaly; disease-associated clinical biology for FOXC1 and ocular malformations"},
+{"id": "pmid:20635", "verdict": "relevant", "confidence": 0.7, "reason": "Hubel and Wiesel review of macaque visual cortex architecture, ocular dominance columns and receptive fields; core ocular/visual neurophysiology"},
+{"id": "pmid:1565442", "verdict": "relevant", "confidence": 0.7, "reason": "Postoperative binocularity outcomes in adults with strabismus; directly about binocular vision status in strabismus"},
+{"id": "pmid:19191219", "verdict": "relevant", "confidence": 0.75, "reason": "Ascl1 regulation of Delta-like genes and Notch signaling in retinal development; fits Coat differentiation and developmental genetics of the eye"},
+{"id": "pmid:11456441", "verdict": "relevant", "confidence": 0.6, "reason": "Optic vesicle/RPE transdifferentiation in a Gas1 mutant; relevant to the optic vesicle and coat differentiation topics, though it is not specifically about PORCN"}
 ]

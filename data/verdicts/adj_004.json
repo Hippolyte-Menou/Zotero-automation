@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:8457509",
+    "id": "pmid:23825107",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Abstract explicitly describes X-linked FEVR in a 4-generation family with linkage analysis and directly notes possible allelism with Norrie disease (NDP locus). Directly relevant to both NDP and Vitreoretinopathies."
+    "confidence": 0.98,
+    "reason": "Paper directly studies BEST1 (bestrophin-1) missense mutations causing Best vitelliform macular dystrophy. The abstract is detailed and entirely focused on Best1 localization, oligomerization, and trafficking in RPE and MDCK cells. Central paper for BEST1 gene collection."
   },
   {
-    "id": "pmid:2336278",
+    "id": "pmid:28125082",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "RPGRIP1L (alias NPHP8) is a well-established Joubert syndrome gene (JBTS7). A prospective cohort study of 100 Joubert syndrome patients with molecular genetic findings will almost certainly contain pathogenic RPGRIP1L variants and clinical correlations. ARSG connection is weaker but the RPGRIP1L link alone justifies inclusion."
+  },
+  {
+    "id": "pmid:31422822",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Documents fundus albipunctatus (FA), a congenital stationary night-blinding disorder tracked over 13-14 years. FA is an explicit search keyword and matches multiple retinal dystrophy search terms (congenital stationary night blindness, fundus albipunctatus). On-topic for Retinal dystrophies."
+    "reason": "Title specifies gamma-D crystallin (CRYGD, alias CRYG4) mutant solubility. CRYGD mutations cause autosomal dominant congenital cataract through lens protein aggregation. A biophysical study of CRYGD mutant interactions is directly relevant to the gene collection."
   },
   {
-    "id": "pmid:10366074",
+    "id": "pmid:18272521",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Title directly describes vitrectomy for retinal detachment in FEVR patients. FEVR is a core vitreoretinopathy and an explicit search keyword. Abstract is empty but title is unambiguous."
+    "confidence": 0.98,
+    "reason": "TalphaC (alpha subunit of cone transducin) is the protein encoded by GNAT2. The abstract explicitly states inherited mutations in TalphaC cause total color blindness (achromatopsia). The paper characterizes a cone-specific regulatory enhancer in the GNAT2 promoter. Directly relevant."
   },
   {
-    "id": "pmid:18169555",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Ablatio falciformis congenita (congenital retinal fold) is a recognized early manifestation of FEVR and other inherited vitreoretinopathies. Abstract discusses hereditary congenital retinal folds, which are a hallmark feature of vitreoretinopathy syndromes. On-topic for Vitreoretinopathies."
-  },
-  {
-    "id": "pmid:2759534",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Abstract directly reports juvenile retinal detachment as a complication of FEVR in 90 individuals from 17 families, describing FEVR-specific retinal detachment subtypes. Directly relevant to both FZD4 (the AD-FEVR gene) and Vitreoretinopathies."
-  },
-  {
-    "id": "pmid:8418643",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Title explicitly addresses X-linked FEVR genetics (DNA analysis with candidate genes). FEVR is an explicit search keyword for Vitreoretinopathies. Abstract is empty but subject matter is unambiguous from the title."
-  },
-  {
-    "id": "pmid:6911005",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Title directly describes congenital retinal fold as a sign of dominant exudative vitreoretinopathy, which is a core topic under Vitreoretinopathies. Abstract is empty but title is unambiguous."
-  },
-  {
-    "id": "pmid:6685528",
+    "id": "pmid:15030569",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Abstract describes FEVR associated with platelet aggregation defects in two families, investigating pathogenesis of this retinal vascular disorder. FEVR and vitreoretinal disease are core topics. Directly on-topic for Vitreoretinopathies."
+    "reason": "Hermansky-Pudlak Syndrome (HPS) is defined by oculocutaneous albinism as a cardinal feature. The paper biochemically characterizes the BLOC-2 complex (HPS3/HPS5/HPS6 subunits) and uses fibroblasts from HPS patients. Directly relevant to the Albinism pathology topic."
   },
   {
-    "id": "pmid:6847052",
+    "id": "pmid:15170859",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Review of murine HPS genes and lysosome-related organelles including melanosomes. HPS causes oculocutaneous albinism through melanosome biogenesis defects. The abstract explicitly discusses pigmentation effects. Directly relevant to the Albinism topic."
+  },
+  {
+    "id": "pmid:21596161",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Abstract is a classic clinical description of FEVR covering neovascularization, vitreous hemorrhage, retinal detachment, and differential diagnosis including confusion with retrolental fibroplasia. Directly on-topic for Vitreoretinopathies."
+    "reason": "Title explicitly names TRPM1 and proposes its loss causes congenital retinal dysfunction in patients with 15q13.3 deletion. TRPM1 is the gene for CSNB1C (congenital stationary night blindness type 1C). Direct connection stated in the title despite empty abstract."
   },
   {
-    "id": "pmid:2496260",
+    "id": "pmid:34562437",
     "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Abstract explicitly studies platelet aggregation in FEVR family members, contesting the previously reported association with thrombocytopathy. Directly about FEVR pathophysiology and on-topic for Vitreoretinopathies."
+    "confidence": 0.97,
+    "reason": "Paper is specifically about anti-TRPM1 autoantibodies in paraneoplastic retinopathy with ON bipolar cell dysfunction. TRPM1 is expressed in retinal ON bipolar cells and this paper maps antigenic regions of TRPM1 in an autoimmune retinal disease context. Directly relevant to TRPM1."
   },
   {
-    "id": "pmid:19497727",
+    "id": "pmid:21678528",
     "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "AP-3 adaptor complex is the protein machinery defective in Hermansky-Pudlak syndrome type 2, one of the syndromic albinism subtypes listed as a search keyword. The paper reviews AP-3-dependent trafficking across a decade, directly informing HPS/Albinism biology. On-topic for Albinism."
+    "reason": "Paper differentiates human iPSCs into optic vesicle-like structures and RPE, applying them to gyrate atrophy (a retinal degenerative disease). Directly relevant to developmental genetics, VSX2 (retinal progenitor identity), PROM1 (photoreceptor/progenitor marker), and NRL (photoreceptor specification). Also covers genetic testing methodology for retinal disease."
   },
   {
-    "id": "pmid:9497254",
+    "id": "pmid:1672661",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Abstract directly reports mutation analysis in 68 HPS patients, identifying frameshift hot spots and locus heterogeneity. HPS causes oculocutaneous albinism and is an explicit Albinism search keyword. Directly on-topic for Albinism."
+    "confidence": 0.82,
+    "reason": "Foundational paper characterizing the paired domain DNA-binding activity in Pax genes. PAX2 and PAX6 are both critical eye development genes belonging to the paired box family. This paper establishes the molecular basis of paired domain function and directly informs understanding of PAX2/PAX6 molecular biology, relevant to the developmental genetics collections."
   },
   {
-    "id": "pmid:33892047",
+    "id": "pmid:2877747",
     "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Large registry study of childhood and early onset glaucoma genetics including anterior segment developmental anomalies (Axenfeld-Rieger syndrome, Peters anomaly) with FOXC1 as a top molecular diagnosis. PITX2 and FOXC1 act in the same transcription factor pathway for Axenfeld-Rieger syndrome; ARS is an explicit search keyword. The paper directly covers the diagnostic spectrum relevant to PITX2 and Ocular developmental anomalies."
+    "confidence": 0.80,
+    "reason": "1986 Cell paper identifying conservation of the paired box domain across Drosophila genes, the foundational discovery leading to the PAX gene family. PAX2 and PAX6 (critical eye genes) are paired box genes. Relevant as seminal literature for the developmental genetics and PAX2/PAX6 gene collections."
   },
   {
-    "id": "pmid:15941404",
+    "id": "pmid:11719191",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Abstract reviews cell biology of HPS, a syndromic albinism, covering melanosomes, BLOC complexes, and Rab38, with explicit mention of albinism as a defining feature. HPS is an explicit Albinism search keyword. On-topic for both Albinism and OCA2 (melanosome biogenesis pathway)."
+    "reason": "LRP5 is a co-receptor in the Norrin/FZD4/LRP5 signaling pathway. Loss-of-function LRP5 mutations cause familial exudative vitreoretinopathy (FEVR), the same pathway as FZD4 and NDP (Norrie disease). Title states eye development effects. Directly relevant to FZD4, NDP (Norrie disease), and vitreoretinopathy topics."
   },
   {
-    "id": "pmid:2126368",
+    "id": "pmid:3892740",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Abstract describes rufous (red) albinism in Southern Africa, a rare type of oculocutaneous albinism, with tyrosinase testing and visual evoked potentials assessing optic pathway decussation. Directly on-topic for Albinism."
+    "reason": "Paper is specifically about Axenfeld-Rieger syndrome. FOXC1 is one of the two major causative genes for Axenfeld-Rieger syndrome (along with PITX2). The search keywords include axenfeld-rieger and the gene collection for FOXC1 and ocular developmental anomalies. Directly relevant despite empty abstract."
   },
   {
-    "id": "pmid:22709368",
+    "id": "pmid:1718739",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Abstract screens 250 HPS-like patients and identifies a novel BLOC1S3 mutation causing HPS type 8 with oculocutaneous albinism and bleeding diathesis. HPS is an explicit Albinism search keyword. Directly on-topic for Albinism."
+    "confidence": 0.82,
+    "reason": "Paper describes a zebrafish pax gene (pax[zf-a]) expressed in the neural tube, relevant to the zebrafish models of PAX2/PAX6 and eye development. PAX2 and PAX6 are the focal genes and zebrafish pax gene characterization contributes to the developmental genetics context. Relevant despite empty abstract."
   },
   {
-    "id": "pmid:15112108",
-    "verdict": "relevant",
-    "confidence": 0.87,
-    "reason": "Title identifies the rat Ruby locus as Rab38 and links Fawn-hooded/Tester-Moriyama rat models to Hermansky-Pudlak syndrome, a form of syndromic albinism. HPS is an explicit Albinism search keyword. On-topic for Albinism pathogenesis. Abstract is empty but the title is specific."
-  },
-  {
-    "id": "pmid:16185271",
+    "id": "pmid:9786999",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Title reports high HPS1 frequency among Japanese albinism patients with functional mutant protein analysis. HPS is an explicit Albinism search keyword; TYRP1 (tyrosinase-related protein 1) is a core melanin synthesis gene. On-topic for both Albinism and TYRP1. Abstract is empty but the subject is unambiguous."
+    "reason": "Classic quantitative study of mouse retinal cell populations (rods, cones, bipolar, amacrine, Muller, ganglion cells). Directly relevant to the anatomy of the inner coat (retinal layers/histology) and provides foundational reference data for gene collections involving retinal cell types: GRM6 (ON bipolar), OPN1MW (cones), TULP1 (photoreceptors), HK1 (retinal metabolism)."
   },
   {
-    "id": "pmid:9931340",
+    "id": "pmid:18831967",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Abstract identifies Ap3b1 (AP-3 beta3A subunit) mutations in the pearl hypopigmentation mouse as a model for HPS and congenital night blindness, linking AP-3 trafficking to melanosome biogenesis. Directly on-topic for Albinism."
+    "reason": "ALDH1A3 (alias RALDH3) encodes the key retinoic acid-synthesizing enzyme in the developing eye. A review titled 'Keeping an eye on retinoic acid signaling during eye development' is directly relevant to ALDH1A3's function in ocular development. Relevant to both ALDH1A3 gene and derived structures topics."
   },
   {
-    "id": "pmid:10461199",
+    "id": "pmid:9584118",
     "verdict": "relevant",
-    "confidence": 0.87,
-    "reason": "Title describes multi-organellar disorders of pigmentation (HPS, Chediak-Higashi syndrome) using intracellular trafficking as the unifying mechanism. Both HPS and Chediak-Higashi are explicit Albinism search keywords. On-topic for Albinism. Abstract is empty but the subject is clear from the title."
+    "confidence": 0.95,
+    "reason": "Drosophila eyeless is the ortholog of PAX6; sine oculis is in the SIX gene family (SIX6 is listed). Paper establishes the genetic hierarchy of eye development in which eyeless/PAX6 induces sine oculis/SIX and eyes absent/EYA expression. Directly relevant to PAX6 and SIX6 gene collections and developmental genetics of the optic vesicle."
+  },
+  {
+    "id": "pmid:29539291",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "Clinical trial of cultured corneal endothelial cell injection for Fuchs's endothelial corneal dystrophy (bullous keratopathy). Fuchs endothelial corneal dystrophy is explicitly listed in the KRT3 search keywords and is a major corneal dystrophy. Directly relevant to the Corneal dystrophies topic; relevant to KRT3 collection by disease context even though the cellular pathology differs."
+  },
+  {
+    "id": "pmid:469662",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "Choanal atresia is a defining feature of CHARGE syndrome (Coloboma, Heart defects, choanal Atresia, Retardation, Genital abnormalities, Ear anomalies), which is caused by CHD7 mutations. The ocular manifestation of CHARGE is coloboma. This early description of choanal atresia with multiple anomalies likely describes CHARGE syndrome cases. Relevant to CHD7 and ocular malformations topics."
+  },
+  {
+    "id": "pmid:18270576",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Single-cell gene expression profiling of retinal progenitor cells. VSX2 (CHX10) is a key marker of retinal progenitors and is directly listed in the search keywords and gene collection. The paper studies transcription factor heterogeneity in RPCs including bHLH factors governing retinal cell fate - directly relevant to VSX2 gene and coat differentiation/developmental genetics topics."
   }
 ]

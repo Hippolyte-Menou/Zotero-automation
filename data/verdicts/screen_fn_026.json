@@ -1,12 +1,12 @@
 [
-{"id": "pmid:17906626", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Canine GWAS methods paper for mendelian traits; no abstract; no clear RPGRIP1/GRIP1 focus from title. Marginal at best."},
-{"id": "pmid:39798091", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Zebrafish motile cilia and CSF flow in brain physiology; no CEP290 link in title or abstract."},
-{"id": "pmid:40263625", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "Review of metabolic reprogramming in PKD and renal ciliopathies broadly; mentions nephronophthisis but not CEP290 specifically."},
-{"id": "pmid:40427710", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of cilia imaging techniques; generic ciliary biology with no CEP290 content."},
-{"id": "pmid:40066717", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cortical neuron primary cilia orientation and positioning in mouse; no CEP290 link."},
-{"id": "pmid:22841313", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "VGLUT3 knockout hearing restoration by gene therapy; concerns VGLUT3 not CLRN1 (clarin-1)."},
-{"id": "pmid:8794866", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Desmin knockout mice muscle pathology; desmin is not BFSP1 (filensin), no link."},
-{"id": "pmid:10469845", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of Finnish disease heritage genes; no CLRN1-specific content evident."},
-{"id": "pmid:4886533", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "1967-era review of lens cell macromolecular differentiation and gamma-crystallin; not BFSP2 (phakinin) specific."},
-{"id": "pmid:17493778", "verdict": "relevant", "confidence": 0.85, "reason": "Title is directly about anti-clarin-1 (CLRN1, USH3A) AAV ribozyme effects in mouse cochlea; abstract missing so score was low, but the paper is squarely on CLRN1."}
+{"id": "pmid:26203793", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "OCT angiography of peripapillary perfusion in glaucoma (clinical vascular imaging); not anatomy of the inner coat/retinal layers as a topic"},
+{"id": "pmid:4819676", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Evolutionary primate origins essay; no orbit anatomy content"},
+{"id": "pmid:1200479", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Primate brain evolution book; no orbit anatomy content, no abstract"},
+{"id": "pmid:8333488", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Comparative primate basicranial flexion and cranial base angle; orbital axis mentioned only as a correlate in evolutionary morphology, not orbit anatomy"},
+{"id": "pmid:31952424", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Caluromys ecology and primate origin hypotheses; no orbit anatomy content"},
+{"id": "pmid:6615303", "verdict": "relevant", "confidence": 0.85, "reason": "Kinetics and reflex-secretion study of Schirmer's test (ocular surface tear examination); directly within Ocular surface examinations"},
+{"id": "pmid:2935202", "verdict": "relevant", "confidence": 0.8, "reason": "Proteoglycan binding to corneal and scleral collagen fibrils by electron microscopy; core outer coat (cornea/sclera) ultrastructure, matching search keywords"},
+{"id": "pmid:2502021", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Primate cranial morphology and tarsier-anthropoid phylogeny; postorbital septum is evolutionary, not orbit anatomy in the ophthalmic sense"},
+{"id": "pmid:11327674", "verdict": "relevant", "confidence": 0.9, "reason": "Validation of phenol red thread test against tear turnover and volume; a tear-film examination technique directly within Ocular surface examinations"},
+{"id": "pmid:104630", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Masticatory muscle function and origin of anthropoid postorbital septum; evolutionary functional morphology, not orbit anatomy"}
 ]

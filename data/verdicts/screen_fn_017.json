@@ -1,12 +1,12 @@
 [
-{"id": "pmid:31479441", "verdict": "relevant", "confidence": 0.6, "reason": "Bardet-Biedl syndrome proteins (BBS6 = MKKS is a BBS gene) in neuronal synapse biology and cognitive phenotype of BBS; associated disease biology for MKKS"},
-{"id": "pmid:33068333", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "C. elegans ciliary tubulin code and EV release; no RAB28 content"},
-{"id": "pmid:28192796", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "PRPF31 adRP cohort; FSCN2 (RP30) not mentioned"},
-{"id": "pmid:12221539", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "ADRP genetics of RHO, RP1, RDS, NRL in 148 patients; FSCN2 not studied"},
-{"id": "pmid:28662344", "verdict": "uncertain", "confidence": 0.5, "reason": "Dental management review of BBS (MKKS-associated disease); clinical dentistry rather than gene biology, borderline for disease-level inclusion"},
-{"id": "pmid:28698011", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Aniridia-associated keratopathy imaging; aniridia is PAX6-driven, no ELP4 content in title or abstract"},
-{"id": "pmid:11689314", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Editorial on RP11/RP13 loci; no FSCN2 content evident, empty abstract"},
-{"id": "pmid:30205877", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General CRISPR/Cas9 review for retinal disease; no FSCN2-specific content"},
-{"id": "pmid:39778487", "verdict": "correctly_rejected", "confidence": 0.97, "reason": "Ginkgo biloba extract in Alzheimer mouse model; unrelated to MKKS/BBS"},
-{"id": "pmid:37013719", "verdict": "relevant", "confidence": 0.6, "reason": "Setmelanotide treatment of obesity due to Bardet-Biedl syndrome; BBS disease-level content tied to MKKS (BBS6)"}
+{"id": "pmid:8455128", "verdict": "relevant", "confidence": 0.9, "reason": "RCT comparing Worth 4-dot vs Polarized 4-dot binocular sensory testing; directly about binocular vision examination"},
+{"id": "pmid:3950840", "verdict": "relevant", "confidence": 0.9, "reason": "Binocular Polaroid test for suppression scotomas in strabismus and anisometropia; binocular vision testing"},
+{"id": "pmid:5656215", "verdict": "relevant", "confidence": 0.8, "reason": "Miniature four-dot test (Worth-type binocular test); title-only, no abstract, but topic fits binocular vision examination"},
+{"id": "pmid:5052852", "verdict": "relevant", "confidence": 0.9, "reason": "Combined Worth 4-dot flashlight for fusion, suppression and monofixation in strabismus tests"},
+{"id": "pmid:11369943", "verdict": "relevant", "confidence": 0.85, "reason": "Melanopsin-based photopigment driving pupillary constriction in mice; core pupillary physiology"},
+{"id": "pmid:11713469", "verdict": "uncertain", "confidence": 0.5, "reason": "Melanopsin ipRGCs as retinohypothalamic tract origin; ipRGC biology relevant to pupil reflex but paper is about circadian projections, not pupil physiology directly"},
+{"id": "pmid:8440594", "verdict": "uncertain", "confidence": 0.5, "reason": "Foveal ganglion cell loss in experimental glaucoma; relates to functional testing rationale but is primarily glaucoma histopathology"},
+{"id": "pmid:9488265", "verdict": "relevant", "confidence": 0.85, "reason": "Laser Doppler study of age effects on foveolar choroidal blood flow; choroidal/uveal vascular physiology"},
+{"id": "pmid:9169055", "verdict": "relevant", "confidence": 0.7, "reason": "Pax-6 lens induction in Xenopus; ocular embryology of lens placode and eye development, fits adnexal/optic development category loosely"},
+{"id": "pmid:18001286", "verdict": "uncertain", "confidence": 0.5, "reason": "Morphology and synaptic input of melanopsin ganglion cells in primate retina; ipRGC circuitry, no pupil measurement"}
 ]

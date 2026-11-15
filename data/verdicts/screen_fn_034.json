@@ -1,12 +1,12 @@
 [
-{"id": "pmid:40385550", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Trans-scleral subretinal microneedle delivery method in rodents and rabbits; no LCA5 or lebercilin content"},
-{"id": "pmid:40349927", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "AAV filter adsorption and surfactant formulation study; no LCA5 link"},
-{"id": "pmid:41230903", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Subretinal injection volume and retinal thinning in pig eye; no LCA5 link"},
-{"id": "pmid:40991728", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ELOVL2 and VLC-PUFA supplementation for aging vision and AMD; ELOVL2 is not PRCD, and PRCD is not mentioned"},
-{"id": "pmid:23824587", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Computational screening of OCA2 mutations; OCA2 is distinct from LRMDA (OCA7); abstract empty so judged on title only"},
-{"id": "pmid:1707331", "verdict": "relevant", "confidence": 0.6, "reason": "Embryonic and adult corneal epithelial differentiation with the K3/K12 keratin pair; directly concerns KRT12 (alias K12) expression, though the corneal focus is outside the adnexal-development label. Abstract empty"},
-{"id": "pmid:24581223", "verdict": "uncertain", "confidence": 0.5, "reason": "Canine retinal degeneration miRNA study in which prcd (PRCD-mutant dogs) is one of four models with qRT-PCR; PRCD is a secondary model rather than the focus"},
-{"id": "pmid:30541930", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Canine PRA caused by a PPT1 structural variant in Miniature Schnauzers; PRCD not the causal gene"},
-{"id": "pmid:17623091", "verdict": "uncertain", "confidence": 0.5, "reason": "Finnish lapphund progressive retinal atrophy mapped to CFA9 near GALK1; the paper cites the prcd (rod-cone degeneration) locus as nearby, but the study itself is about a different breed and locus"},
-{"id": "pmid:2309782", "verdict": "relevant", "confidence": 0.9, "reason": "Inheritance and segregation distortion of prcd (progressive rod-cone degeneration) in Miniature Poodles; directly about the PRCD-associated canine disease"}
+{"id": "pmid:10050070", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of vascular smooth muscle cell development in the cardiovascular system; no ocular or retinal microanatomy link to Specialized microanatomy"},
+{"id": "pmid:9468193", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Neural crest contribution to chick arch and systemic arteries; not ocular microanatomy"},
+{"id": "pmid:10878612", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "N-cadherin in pericyte-endothelial adhesion during chick brain angiogenesis; CNS vasculature, not ocular microanatomy"},
+{"id": "pmid:11022980", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General review of pericyte diversity across microvessels and tissues; no retinal or ocular specificity"},
+{"id": "pmid:1735226", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Pericytes as osteoprogenitors in rat femur periosteum; bone biology"},
+{"id": "pmid:1802127", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Microvascular pericyte morphology review; general vascular biology without ocular focus"},
+{"id": "pmid:1280560", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Drosophila hedgehog segment polarity gene expression; invertebrate segmentation, no eye or Developmental genetics ophthalmic link"},
+{"id": "pmid:12507901", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Tumor vessel maturation and anti-vascular therapy; oncology, no ocular microanatomy"},
+{"id": "pmid:10195310", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Coronary artery smooth muscle origin from epicardium; cardiac vascular development, not ocular"},
+{"id": "pmid:22958820", "verdict": "relevant", "confidence": 0.7, "reason": "Zebrafish retinal lineage tracing and Ath5 fate control; retinal neurogenesis is explicitly within the Coat differentiation (eye coat embryology) scope"}
 ]

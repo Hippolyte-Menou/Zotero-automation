@@ -1,12 +1,12 @@
 [
-{"id": "pmid:5936364", "verdict": "relevant", "confidence": 0.85, "reason": "1966 report of microcephaly with chorioretinopathy in Mennonite sibships; this phenotype is the TUBGCP4-associated microcephaly-chorioretinopathy syndrome, so it fits the gene's disease biology"},
-{"id": "pmid:1449470", "verdict": "relevant", "confidence": 0.6, "reason": "Biochemistry of decorin (DCN) core protein fragments binding type I collagen; about the gene product itself, though no abstract and no corneal disease focus"},
-{"id": "pmid:10686422", "verdict": "relevant", "confidence": 0.9, "reason": "Describes alpha1(VIII) and alpha2(VIII) (COL8A2 product) homotrimers in vivo; directly about COL8A2 protein"},
-{"id": "pmid:35455444", "verdict": "uncertain", "confidence": 0.5, "reason": "PDRN therapy in an in vitro Fuchs endothelial corneal dystrophy model; FECD is a COL8A2-associated disease (FECD1/PPCD2 aliases) but the paper does not study COL8A2 itself"},
-{"id": "pmid:17553638", "verdict": "relevant", "confidence": 0.55, "reason": "Functional diversification of Kir7.1 (KCNJ13 protein) in cichlids after gene duplication; about the gene product and its evolution, non-human but gene-centric"},
-{"id": "pmid:28738413", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Cone density AOSLO imaging in Stargardt disease and RPGR retinopathy; no focus on AIPL1, CNGB3 or OPN1MW"},
-{"id": "pmid:3261696", "verdict": "uncertain", "confidence": 0.5, "reason": "Clinical comparison of posterior polymorphous dystrophy (COL8A2-associated PPCD2 alias) and congenital hereditary endothelial dystrophy; no abstract, no PIKFYVE content; disease-level link only"},
-{"id": "pmid:37358491", "verdict": "relevant", "confidence": 0.6, "reason": "Achromatopsia visual acuity testing with filter glasses; achromatopsia is the core CNGA3-associated disease, consistent with disease-level inclusion"},
-{"id": "pmid:22177091", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Weaver syndrome caused by EZH2 mutations; not KMT2D (Kabuki) biology"},
-{"id": "pmid:14741744", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Proteomics of lipid droplet fraction in HuH7 hepatocytes; no RAB18 focus in title or abstract and no ocular disease link"}
+{"id": "pmid:1426079", "verdict": "relevant", "confidence": 0.85, "reason": "Laser Doppler flowmetry of optic nerve head blood flow in cats; core ocular vascular physiology"},
+{"id": "pmid:7801220", "verdict": "relevant", "confidence": 0.85, "reason": "Endothelium as regulator of ocular circulation; core ocular vascular physiology"},
+{"id": "pmid:90027", "verdict": "relevant", "confidence": 0.85, "reason": "Raised IOP effects on retinal and optic nerve blood flow in monkeys; ocular vascular physiology"},
+{"id": "pmid:4477528", "verdict": "uncertain", "confidence": 0.5, "reason": "Amino acid sequence of bovine alphaB2 crystallin; lens protein biochemistry, only indirectly tied to lens transparency"},
+{"id": "pmid:123231", "verdict": "relevant", "confidence": 0.7, "reason": "Mucopolysaccharides in intraocular pressure regulation; IOP physiology matches the topic"},
+{"id": "pmid:15949799", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Pig eye as a glaucoma model; not about transparent media physiology (weak aqueous-humor overlap only)"},
+{"id": "pmid:8652890", "verdict": "uncertain", "confidence": 0.5, "reason": "Morphology of aqueous outflow pathway (trabecular meshwork, Schlemm canal); aqueous humor anatomy but more glaucoma/outflow than transparent media"},
+{"id": "pmid:18385065", "verdict": "relevant", "confidence": 0.6, "reason": "Circadian aqueous humor flow and outflow physiology in healthy adults; aqueous humor dynamics is within the topic's own keyword scope"},
+{"id": "pmid:21402980", "verdict": "relevant", "confidence": 0.6, "reason": "Day vs night aqueous humor dynamics in healthy volunteers; aqueous physiology within topic scope"},
+{"id": "pmid:24215504", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Effect of anesthetics on mouse IOP and palpebral fissure; no transparent media physiology focus"}
 ]

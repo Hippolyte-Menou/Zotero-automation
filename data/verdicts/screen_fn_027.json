@@ -1,12 +1,12 @@
 [
-{"id": "pmid:8376465", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Type IV neuronal intermediate filament (alpha-internexin, NF triplet) assembly in transfected cells; no BFSP1/filensin content (BFSP1 is a lens type VI beaded filament protein)."},
-{"id": "pmid:12462438", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Canine ERG clinical guidelines; no RPGRIP1 content, no abstract."},
-{"id": "pmid:29708978", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Canine genetic disease variant prevalence across 152 variants; RPGRIP1 not discussed in abstract, only a generic inherited-disease panel."},
-{"id": "pmid:11124530", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Canine gPRA in Sloughi dogs due to PDE6B 8-bp insertion; RPGRIP1 not involved."},
-{"id": "pmid:17306875", "verdict": "relevant", "confidence": 0.95, "reason": "Title explicitly describes LCA caused by an RPGRIP1 mutation with treatment potential; abstract missing only because of data gap, so score was artificially low."},
-{"id": "pmid:31117272", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Giant Schnauzer PRA WGS identifying NECAP1 as candidate; RPGRIP1 not mentioned."},
-{"id": "pmid:23278760", "verdict": "relevant", "confidence": 0.95, "reason": "Novel RPGRIP1 frameshift mutation causing LCA6 in an Emirati family; core RPGRIP1 disease-variant paper."},
-{"id": "pmid:41083750", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Obesity effects on adipose stem cell primary cilia via RFX2/ADCY3; CEP290 not studied, only generic ciliopathy context."},
-{"id": "pmid:32736544", "verdict": "relevant", "confidence": 0.95, "reason": "Novel homozygous RPGRIP1 nonsense mutation in Japanese siblings with LCA6 and 27-year follow-up; core RPGRIP1 disease paper."},
-{"id": "pmid:16049101", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "ASAP microtubule-associated protein in mitotic spindle assembly; unrelated to RPGRIP1."}
+ {"id": "pmid:2622649", "verdict": "relevant", "confidence": 0.85, "reason": "Non-invasive tear film measurement technique (TP-RPT keratometer mire); squarely an ocular surface examination method"},
+ {"id": "pmid:20027618", "verdict": "relevant", "confidence": 0.8, "reason": "Pax6 control of Wnt inhibition in lens surface ectoderm; lens morphogenesis is embryology of an ocular derived structure"},
+ {"id": "pmid:19384360", "verdict": "relevant", "confidence": 0.55, "reason": "Image registration system for laser scanning ophthalmoscope (AO/autofluorescence retinal imaging); plausible emerging-technology examination method but generic image-processing focus, weak fit"},
+ {"id": "pmid:6639511", "verdict": "relevant", "confidence": 0.9, "reason": "VIP-immunoreactive nerve distribution in choroid, ciliary body and iris of human eye; direct uveal tract anatomy"},
+ {"id": "pmid:11053272", "verdict": "relevant", "confidence": 0.9, "reason": "Tear meniscus radius during cotton thread and Schirmer tests; ocular surface tear examination methodology"},
+ {"id": "pmid:11161729", "verdict": "relevant", "confidence": 0.75, "reason": "CGRP-immunoreactive innervation of intrinsic choroidal neurons (local reflex arc); choroid/middle coat neuroanatomy and physiology"},
+ {"id": "pmid:25827552", "verdict": "relevant", "confidence": 0.8, "reason": "Mobile phone indirect ophthalmoscopy fundus imaging technique review; posterior segment examination method"},
+ {"id": "pmid:9624698", "verdict": "relevant", "confidence": 0.9, "reason": "Rose bengal dye strip concentration and volume delivered to ocular surface; ocular surface staining examination technique"},
+ {"id": "pmid:37120657", "verdict": "relevant", "confidence": 0.85, "reason": "Comparison of ETDRS seven-field vs ultra-widefield imaging for diabetic retinopathy diagnosis; posterior segment examination"},
+ {"id": "pmid:10022192", "verdict": "relevant", "confidence": 0.8, "reason": "NOS-containing cells in chick retina, choroid, RPE and sclera; choroidal vascular smooth muscle innervation links to middle coat anatomy and vascular physiology"}
 ]

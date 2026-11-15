@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41167547", "verdict": "relevant", "confidence": 0.9, "reason": "Coffin-Siris case series on optic nerve hypoplasia; ARID1B is the principal Coffin-Siris gene, so the paper is directly about ARID1B-associated disease (score 5 vs threshold 6 only)."},
-{"id": "pmid:12161344", "verdict": "relevant", "confidence": 0.7, "reason": "Review of photoreceptor Ca2+ homeostasis covering phototransduction, NCKX (SLC24A1) extrusion and CNG channel-related dysfunction in retinitis pigmentosa and CSNB. Relevant to CNGA1/SLC24A1; no ACO2 link, but one of the three filed genes suffices."},
-{"id": "pmid:21268676", "verdict": "relevant", "confidence": 0.9, "reason": "SD-OCT RNFL measurements in choroideremia patients; directly about the CHM disease phenotype."},
-{"id": "pmid:1677924", "verdict": "relevant", "confidence": 0.9, "reason": "Linkage analysis of choroideremia with DNA markers (DXS540 region); this is the foundational mapping study for CHM/REP-1."},
-{"id": "pmid:18567786", "verdict": "relevant", "confidence": 0.8, "reason": "Deamidation of betaA3-crystallin, the product of the CRYBA1 gene, with aggregation and cataract relevance; on-topic for CRYBA1 (also lens crystallin family for CRYGD/CRYGS)."},
-{"id": "pmid:4207130", "verdict": "relevant", "confidence": 0.75, "reason": "Ionic mechanisms of rod photoreceptor potential in isolated retina; core visual physiology, matching the Visual physiology topic. Low score is the only rejection reason."},
-{"id": "pmid:8988423", "verdict": "relevant", "confidence": 0.85, "reason": "Laser speckle vs hydrogen clearance measurement of optic nerve head circulation; squarely on Ocular vascular physiology."},
-{"id": "pmid:12939318", "verdict": "relevant", "confidence": 0.9, "reason": "Time course of ONH circulation after acute IOP rise, with vasoactive interventions; core Ocular vascular physiology."},
-{"id": "pmid:8641839", "verdict": "relevant", "confidence": 0.8, "reason": "Trabecular meshwork glycosaminoglycan profiles in POAG and their link to outflow resistance; on-topic for Intraocular pressure physiology."},
-{"id": "pmid:7556490", "verdict": "relevant", "confidence": 0.9, "reason": "Review of optic nerve head circulation in health and disease (von Sallmann lecture); on-topic for Ocular vascular physiology."}
+{"id": "pmid:11059536", "verdict": "relevant", "confidence": 0.95, "reason": "Six novel FBN1 mutations in Marfan syndrome patients; core FBN1 gene paper rejected on score alone"},
+{"id": "pmid:7659684", "verdict": "relevant", "confidence": 0.85, "reason": "Prenatal and presymptomatic Marfan diagnosis via PCR linkage on fibrillin (FBN1) defects; disease-gene diagnostic paper"},
+{"id": "pmid:30479897", "verdict": "relevant", "confidence": 0.97, "reason": "Whole-exome sequencing finds novel FBN1 loss-of-function variants in Marfan families"},
+{"id": "pmid:9746367", "verdict": "relevant", "confidence": 0.97, "reason": "FBN1 exon 37 splice-site deletion in Marfan syndrome; gene-level mechanistic study"},
+{"id": "pmid:32431097", "verdict": "relevant", "confidence": 0.95, "reason": "Novel and reported FBN1 and TGFBR2 variants in Iranian Marfan families"},
+{"id": "pmid:7850971", "verdict": "relevant", "confidence": 0.7, "reason": "Aortic architecture in Marfan patients (FBN1-associated disease); abstract empty so judged from title, moderate confidence"},
+{"id": "pmid:36058493", "verdict": "relevant", "confidence": 0.93, "reason": "Early-onset Marfan case with recurrent FBN1 c.7606G>A variant review"},
+{"id": "pmid:41040364", "verdict": "relevant", "confidence": 0.93, "reason": "Fbn1 nonsense mutation mouse model of Marfan-associated aneurysm; FBN1 deficiency biology"},
+{"id": "pmid:33367186", "verdict": "relevant", "confidence": 0.6, "reason": "Axenfeld-Rieger syndrome case report (ARS is a FOXC1-associated disease); abstract does not name FOXC1, so moderate confidence"},
+{"id": "pmid:43013538", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Dexamethasone chromatin study on IOP and POAG genes; about glaucoma genetics, not developmental anomalies, so off-topic for Ocular developmental anomalies"}
 ]

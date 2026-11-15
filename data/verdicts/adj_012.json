@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:15359227",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Aniridia is the canonical PAX6 phenotype; optic nerve hypoplasia co-occurs in aniridia. The paper is directly on-topic for both PAX6 (gene topic) and Ocular malformations. Score below threshold reflects low citation overlap, not irrelevance."
+  },
+  {
+    "id": "pmid:8113014",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Detailed mechanistic study of the primate photopic ERG a-wave, dissecting photoreceptoral vs. postreceptoral contributions using pharmacological block. Directly relevant to both Visual physiology (phototransduction physiology) and Specialized functional testing (ERG technique). The paper's clinical implications for ISCEV-standard flash ERG interpretation make it pertinent to both topics."
+  },
+  {
+    "id": "pmid:4959937",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Foundational anatomical description of radial peripapillary capillaries of the retina across multiple species, including human. Directly relevant to Inner coat retinal anatomy; the paper describes a distinct vascular sublayer of the inner retina not covered by other capillary descriptions. Search keywords include 'nerve fiber layer anatomy' and 'retinal histology'."
+  },
+  {
+    "id": "pmid:6101903",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Title describes GTP-regulated GTPase (transducin) interactions with bovine photoreceptor membranes under light. GNAT1 encodes the alpha subunit of rod transducin, which is precisely the GTPase discussed. This is a foundational phototransduction paper directly relevant to both Visual physiology and GNAT1. Low score reflects age and citation-graph distance, not topic mismatch."
+  },
+  {
+    "id": "pmid:7928177",
+    "verdict": "relevant",
+    "confidence": 0.96,
+    "reason": "Presents a detailed histochemical method (alkaline phosphatase) for visualizing the entire choroidal vasculature en bloc, with cross-sectional serial sectioning. Findings include choriocapillaris architecture, drusen location, and diabetic angiopathy. Directly relevant to Middle coat anatomy and Ocular imaging technique. Search keywords include 'choroid histology', 'choriocapillaris ultrastructure', and 'fluorescein angiography technique protocol'."
+  },
+  {
+    "id": "pmid:15856272",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "In vivo confocal microscopy study of Langerhans cell density and distribution in the normal human corneal epithelium. Cornea is the outer coat; Langerhans cells are immunologically active cells within the corneal epithelial layer. Directly relevant to Outer coat microanatomy and corneal histology. No abstract available but title is unambiguous."
+  },
+  {
+    "id": "pmid:16376654",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Describes a progressive anterior fibrosis syndrome as a complication in patients with postsurgical congenital aniridia. Congenital aniridia is a primary ocular malformation; the clinical complication described is inseparable from the malformation context. Directly relevant to Ocular malformations."
+  },
+  {
+    "id": "pmid:11827992",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "In vivo mouse study of retinal arteriolar and venular patterning using mice expressing single VEGF isoforms. The paper characterizes the specialized microanatomy of retinal vasculature and identifies how loss of VEGF164 leads to dysregulated vessel outgrowth and impaired arterial specification. Directly relevant to Specialized microanatomy (retinal vascular architecture). Score of 1 against threshold 2 reflects citation-graph sparsity."
+  },
+  {
+    "id": "pmid:8252628",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Drosophila hedgehog (hh) is the founding member of the Hedgehog family and direct ortholog of SHH. This paper establishes hedgehog's requirement for morphogenetic furrow progression in the developing Drosophila eye - a foundational reference for SHH signaling in ocular development. Directly relevant to Coat differentiation (ocular neurogenesis) and SHH. Search keywords include 'SHH' explicitly."
+  },
+  {
+    "id": "pmid:10072376",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Review/analysis of intrinsic vs. extrinsic cues and bHLH transcription factors in retinal cell fate determination. NR2E3 operates in concert with NRL and CRX in photoreceptor cell fate; search keywords explicitly include 'NRL NR2E3 CRX photoreceptor cell fate' and 'bHLH transcription factor retinal cell fate'. Directly relevant to Coat differentiation and NR2E3."
+  },
+  {
+    "id": "pmid:22958820",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Presents complete quantitative lineage maps from individual retinal progenitor cells in zebrafish, demonstrating stochastic lineage progression. Identifies Ath5 (ATOH7/Math5) as a molecular link between fate choice and division mode. Directly relevant to Coat differentiation (retinal neurogenesis and cell fate). Search keywords include 'retinal ganglion cell genesis ATOH7 Math5' and 'retinal progenitor temporal competence multipotent'."
+  },
+  {
+    "id": "pmid:18940586",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "Title directly names the core topic: Ikaros transcription factor conferring early temporal competence to mouse retinal progenitor cells - which is precisely the 'retinal progenitor temporal competence multipotent' search keyword. Directly relevant to Coat differentiation. No abstract but the title is unambiguous."
+  },
+  {
+    "id": "pmid:3454919",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Study examining contrast sensitivity decline with aging and asking whether it is neural or optical in origin. Contrast sensitivity is a core visual function test; the paper is directly relevant to both the Visual function topic and contrast sensitivity testing methodology (search keyword: 'contrast sensitivity testing methodology'). No abstract but title makes the subject clear."
+  },
+  {
+    "id": "pmid:21148186",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Detailed in vitro lineage reconstruction of rat perinatal retinal progenitor cells using long-term videomicroscopy. Demonstrates stochastic mode of division and stochastic cell type choice in retinal progenitors. Directly relevant to Coat differentiation; abstract explicitly discusses retinal neurogenesis timing, cell fate, and stochasticity. Search keywords include 'retinal neurogenesis cell fate determination' and 'retinal progenitor temporal competence multipotent'."
+  },
+  {
+    "id": "pmid:7556462",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Comparison of fluorescein angiographic patterns with the underlying microvascular anatomy of macaque retinas. Directly relevant to Inner coat anatomy - characterizing the retinal microvascular architecture. Search keywords include 'retinal vascular morphology', 'retinal vasculature architecture'. No abstract but title is unambiguous."
+  },
+  {
+    "id": "pmid:22445509",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Math5 (ATOH7) is a bHLH transcription factor that specifies retinal ganglion cell fate; this paper defines the ganglion cell competence state in retinal progenitor subpopulations exiting the cell cycle. Search keywords explicitly include 'retinal ganglion cell genesis ATOH7 Math5' and 'bHLH transcription factor retinal cell fate'. Directly relevant to Coat differentiation."
+  },
+  {
+    "id": "pmid:1100415",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Classic paper on mesenchymal dysgenesis as the pathomechanism underlying Peters' anomaly, sclerocornea, and congenital endothelial dystrophy. These are anterior segment developmental anomalies; FOXE3 is a forkhead transcription factor whose mutations cause similar anterior segment dysgenesis. Directly relevant to Adnexal development and FOXE3. Search keywords include 'FOXE3', 'anterior-segment-dysgenesis', 'congenital-cataract'."
+  },
+  {
+    "id": "pmid:23132794",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Demonstrates a 5-day protocol for converting hES cells via self-organizing neuroepithelium into retinal progenitors, then to CRX+ photoreceptor precursors and rod photoreceptors within 4 weeks. Relevant to Developmental genetics - retinal progenitor specification, photoreceptor fate determination, and eye field transcription factor network. CRX is explicitly named in the abstract as a photoreceptor precursor marker. Search keywords include 'retinal fate determination transcription factor' and 'retinal progenitor cell competence'."
+  },
+  {
+    "id": "pmid:8111379",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Foundational paper identifying specific PAX6 point mutations, insertions, and splice site mutations in six hereditary aniridia families, confirming PAX6 as the aniridia gene. Directly relevant to Ocular malformations (aniridia) and ELP4 (which is adjacent to PAX6 and causes aniridia via position effects on PAX6 regulation). Search keywords include 'aniridia', 'ELP4', 'anterior-segment-dysgenesis'."
+  },
+  {
+    "id": "pmid:1709627",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Autoradiographic study characterizing Substance P (SP) binding sites in rat and rabbit eyes, finding high-affinity SP receptors in iris sphincter muscle, choroid, retina, corneal epithelium, and iridial stroma. Directly relevant to Vascularization and innervation (trigeminal innervation, neurovascular interactions) and Ocular vascular physiology (choroidal and retinal innervation). Search keywords include 'trigeminal innervation cornea' and 'choroidal blood flow autonomic regulation'."
+  }
+]

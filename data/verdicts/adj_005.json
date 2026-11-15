@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:10655547",
+    "id": "pmid:18778702",
     "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "HPS protein is part of the melanosome biogenesis machinery; Hermansky-Pudlak syndrome directly causes oculocutaneous albinism through organelle defects. Core mechanistic paper for the Albinism topic."
+    "confidence": 0.92,
+    "reason": "Rod photoreceptor differentiation in fetal and infant human retina is directly linked to NRL (the rod-specifying transcription factor), AIPL1 (LCA4 gene expressed in rods), and TULP1 (RP27/LCA15 gene expressed in photoreceptors). Despite a low citation score, the paper's subject is core to all three gene entries."
   },
   {
-    "id": "pmid:16760431",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "BLOC-1 and AP-3 complexes are mutated in Hermansky-Pudlak syndrome subtypes causing albinism. Paper characterises the shared pathway underlying hypopigmentation in HPS mouse models. Directly relevant to Albinism."
+    "id": "pmid:8269518",
+    "verdict": "correctly_rejected",
+    "confidence": 0.90,
+    "reason": "Riddle et al. 1993 is a landmark paper showing SHH mediates the polarizing activity of the ZPA (Zone of Polarizing Activity), a limb bud structure controlling digit patterning. The paper has no ophthalmic content. Although SHH plays roles in optic vesicle patterning, this paper is exclusively about limb development and does not belong in an ophthalmogenetics library."
   },
   {
-    "id": "pmid:16162817",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Tyrosinase sorting to melanosomes is the primary step whose failure causes oculocutaneous albinism. Paper is tagged both Albinism and TYR and directly investigates how AP-3 and AP-1 route tyrosinase to the melanosome."
-  },
-  {
-    "id": "pmid:2261023",
-    "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Clinical epidemiology study of HPS in Puerto Rico covering all types of oculocutaneous and ocular albinism, visual acuity outcomes, and optic tract crossing defects. Squarely within the Albinism topic."
-  },
-  {
-    "id": "pmid:12191018",
+    "id": "pmid:1962979",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Pallidin is a subunit of a multi-protein complex involved in biogenesis of melanosomes and platelet dense bodies - both defective in HPS. Direct mechanistic relevance to the Albinism topic via HPS pathogenesis."
+    "reason": "Full abstract confirms this is a detailed review of cGMP and calcium roles in vertebrate rod phototransduction, centered on the cGMP-activated conductance of the rod outer segment. CNGA1 (the rod cGMP-gated channel alpha subunit) is the direct molecular subject of the paper; mutations in CNGA1 cause autosomal recessive RP. Directly relevant to both CNGA1 and visual physiology entries."
   },
   {
-    "id": "pmid:11912185",
+    "id": "pmid:12464667",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "The abstract explicitly studies angiopoietin-1 (Ang1) function in retinal vasculature development; Ang1 is the canonical ligand for TEK/TIE2 (the gene of interest). The paper demonstrates Ang1 restores hierarchical retinal vasculature and rescues retinal edema and hemorrhage, with direct mention of diabetic retinopathies as clinical relevance."
+  },
+  {
+    "id": "pmid:12947416",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "The muted mouse is a model for HPS; paper identifies the mu gene regulating melanosome/lysosome biogenesis and causing hypopigmentation. Directly relevant to Albinism topic."
+    "reason": "chokh/rx3 is the zebrafish ortholog of RAX (retina and anterior neural fold homeobox). Loss of eyes caused by rx3 mutation is a primary characterization of RAX gene function in eye formation, directly relevant to both the RAX and RAX2 gene entries and the ocular malformations topic."
   },
   {
-    "id": "pmid:8541858",
+    "id": "pmid:9326342",
     "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Genetic mapping of the HPS gene defines the locus for a form of tyrosinase-positive oculocutaneous albinism. Foundational genetics paper for the Albinism topic."
+    "confidence": 0.95,
+    "reason": "Autosomal dominant Axenfeld-Rieger anomaly mapped to 6p25, the locus of FOXC1 (forkhead box C1). This is a foundational genetic mapping study for FOXC1-associated anterior segment disease. Directly relevant to both FOXC1 gene entry and ocular malformations."
   },
   {
-    "id": "pmid:6031677",
+    "id": "pmid:8213068",
+    "verdict": "relevant",
+    "confidence": 0.78,
+    "reason": "The Small eye (Sey) mouse is the canonical PAX6 animal model and central to ophthalmogenetics research on PAX6. While the paper's focus is on cortical neuronal migration defects (a non-ocular phenotype), it characterizes the fundamental PAX6 mutation model and the gene link is direct. For a gene-centric library, understanding PAX6 mutation phenotypes across tissues is part of its biology; the ophthalmogenetics connection is plausible."
+  },
+  {
+    "id": "pmid:7925426",
+    "verdict": "relevant",
+    "confidence": 0.94,
+    "reason": "Full abstract: comprehensive review of alpha-crystallin (alphaA and alphaB subunits) structure, post-translational modifications, chaperone activity, and relevance to lens transparency and molecular pathology. CRYAA and CRYAB are both directly reviewed; mutations in these genes cause congenital cataract. Directly relevant to both gene entries and transparent media topic."
+  },
+  {
+    "id": "pmid:9147650",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract: identification of PITX2 as a novel bicoid-related homeobox gene expressed in developing pituitary, eye, and brain, proposed as candidate gene for Rieger syndrome (anterior segment, dental, and craniofacial anomalies). PITX2 mutations are a known cause of Axenfeld-Rieger syndrome. The abstract explicitly connects this gene to eye anomalies and Rieger syndrome. Directly relevant to PITX2, FOXC1 (co-cause of Rieger syndrome), and adnexal/anterior segment development."
+  },
+  {
+    "id": "pmid:6801987",
+    "verdict": "relevant",
+    "confidence": 0.85,
+    "reason": "Variable expressivity of autosomal dominant anterior segment mesenchymal dysgenesis pedigree over six generations is a clinical genetics paper directly relevant to HMX1 (which is associated with anterior segment dysgenesis) and the ocular malformations topic. The subject is squarely within ophthalmogenetics."
+  },
+  {
+    "id": "pmid:9368012",
     "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "Pale ear (ep) and light ear are foundational mouse pigmentation mutants that subsequently became recognized HPS models; abstract is thin but the paper is cited in HPS gene-mapping work and is foundational reference material for albinism mouse genetics."
+    "reason": "Full abstract: fluorescence resonance energy transfer study of alphaA-crystallin subunit exchange kinetics and thermodynamics. CRYAB (and CRYAA) encode lens alpha-crystallin subunits that form mixed aggregates; understanding subunit dynamics is directly relevant to their chaperone function in lens transparency and molecular basis of cataract. Relevant to CRYAB gene entry and transparent media topic."
   },
   {
-    "id": "pmid:8043950",
+    "id": "pmid:4834596",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Full abstract: strabismus epidemiology in Cardiff children with cover test examination methodology. Strabismus is a core binocular vision disorder, and the paper includes description of cover test technique used for population screening. Relevant to the binocular vision topic in the Examinations category; the examination methodology component matches the search keywords."
+  },
+  {
+    "id": "pmid:22704232",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "ROCK inhibitor treatment of corneal endothelial cells is directly relevant to corneal dystrophies affecting the endothelium, particularly Fuchs endothelial corneal dystrophy (the most common endothelial dystrophy). ROCK inhibitors are an emerging therapy for corneal endothelial disease; this study demonstrates their ability to promote endothelial regeneration in vivo."
+  },
+  {
+    "id": "pmid:16650675",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Corneal pachymetry mapping with high-speed OCT is directly within the anterior segment examination topic (pachymetry measurement technique is in the search keywords). OCT-based corneal thickness mapping is a standard anterior segment diagnostic tool."
+  },
+  {
+    "id": "pmid:30720541",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Full abstract: prospective study of topical ripasudil (Rho kinase inhibitor) in patients with Fuchs corneal dystrophy undergoing Descemet stripping only. Fuchs endothelial corneal dystrophy is explicitly named as the corneal dystrophy under study; primary endpoints include endothelial cell density and pachymetry. Directly relevant to the corneal dystrophies topic."
+  },
+  {
+    "id": "pmid:7213162",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Full abstract: normative data for stereoacuity in 3-5 year olds using four commercially available stereotests (Frisby, Randot, RDE, TNO). Establishes age norms for binocular visual development, essential reference for binocular vision examination in clinical practice. Directly relevant to the binocular vision topic and stereoacuity testing in the Examinations category."
+  },
+  {
+    "id": "pmid:16102745",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Beta-catenin (Wnt signaling effector) function in lens morphogenesis and suppression of lens fate in periocular ectoderm is directly relevant to transparent media (lens development) and embryology of the eye. The paper is about lens induction and morphogenesis, pertinent to multiple listed topics including transparent media, derived structures, and developmental timeline."
+  },
+  {
+    "id": "pmid:24106120",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Full abstract: molecular mechanism of ROCK inhibitors Y-27632 and Y-39983 on corneal endothelial cell proliferation (cyclin D/p27 via PI3K/Akt), with in vivo rabbit corneal endothelial wound healing validation. Directly relevant to corneal dystrophies affecting the endothelium (Fuchs, CHED) and to the physiology of corneal endothelial repair. The intraocular pressure connection is secondary but ROCK inhibitor biology encompasses aqueous humor outflow."
+  },
+  {
+    "id": "pmid:8246948",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Full abstract: characterization of quail PAX6 (Pax-QNR) protein isoforms in the neuroretina including paired-domain vs. paired-less forms, subcellular localization, and phosphorylation. Directly characterizes PAX6 protein biology in the retina, relevant to PAX6 gene entry and developmental genetics of the retina. The aniridia/small eye connection is noted in the abstract."
+  },
+  {
+    "id": "pmid:1190281",
     "verdict": "relevant",
     "confidence": 0.87,
-    "reason": "Maps pale ear (ep) and ruby-eye (ru) on mouse chromosome 19 - these are established HPS models that led to identification of human albinism gene loci. Relevant to the Albinism topic as foundational mouse genetics; abstract is absent but title confirms the HPS-model genes."
-  },
-  {
-    "id": "pmid:17166758",
-    "verdict": "relevant",
-    "confidence": 0.97,
-    "reason": "Review of crystallins in the eye covering function and pathology - directly relevant to all nine crystallin gene entries (BFSP2, CRYAA, CRYAB, CRYBA1, CRYBB1, CRYBB2, CRYGB, CRYGD, CRYGS). Abstract is absent but title is unambiguous."
-  },
-  {
-    "id": "pmid:30570828",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "General review of kidney development biology. While FREM1, FREM2, and PAX2 all have roles in renal development, the paper contains no ophthalmic content. For an ophthalmogenetics library the kidney-development focus makes this off-topic; the ophthalmic aspects of these genes are not addressed."
-  },
-  {
-    "id": "pmid:15623520",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "Paper investigates lung lobation and capillary organisation in a Fras1-deficient Fraser syndrome mouse model. While FRAS1 is functionally related to FREM1/FREM2, the paper's subject is pulmonary development, not the ophthalmic manifestations (cryptophthalmos) that make these genes relevant to ophthalmogenetics."
-  },
-  {
-    "id": "pmid:37524861",
-    "verdict": "correctly_rejected",
-    "confidence": 0.92,
-    "reason": "Review of CAKUT (Congenital Anomalies of the Kidney and Urinary Tract) genetics. No ophthalmic content. Even though FREM2 mutations can contribute to Fraser syndrome renal anomalies, this paper is about kidney/urinary-tract disease and has no relevance to the ophthalmic aspects of FREM2."
-  },
-  {
-    "id": "pmid:8055142",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "Proposes a mouse model for Fraser syndrome, which has cryptophthalmos (failure of eyelid separation and eye malformation) as its cardinal ophthalmic feature. Directly relevant to FREM1/FREM2 as Fraser complex genes causing eye malformation. Abstract is minimal but title and context are clear."
-  },
-  {
-    "id": "pmid:33058542",
-    "verdict": "correctly_rejected",
-    "confidence": 0.97,
-    "reason": "FREM1 expression in breast cancer as a prognostic biomarker and immune infiltration marker. No ophthalmic content whatsoever. Correctly rejected from an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:24143185",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Novel Fras1 missense mutant mouse (bfb) with blebs phenotype in Fraser syndrome. FRAS1 is the direct binding partner of FREM1 and FREM2; blebs proteins collectively underlie Fraser syndrome, whose hallmark is cryptophthalmos. Relevant to FREM2 gene entry in an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:14691175",
-    "verdict": "relevant",
-    "confidence": 0.96,
-    "reason": "Structural and functional study of deamidation on human alphaB-crystallin (CRYAB). Directly investigates CRYAB protein properties relevant to lens pathology and cataract. Relevant to CRYAB and CRYGS gene entries."
-  },
-  {
-    "id": "pmid:2851937",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "Clinical review of 11 Fraser syndrome (cryptophthalmos-syndactyly syndrome) cases at postmortem, with detailed ocular, renal, and digital anomalies. Cryptophthalmos is a primary ophthalmic malformation; directly relevant to FREM2 as a Fraser syndrome gene."
-  },
-  {
-    "id": "pmid:35595450",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Whole exome sequencing identifying a novel FRAS1 mutation causing Fraser syndrome, with preimplantation genetic diagnosis application. FRAS1 is the central binding partner of FREM2; both cause the same syndrome (Fraser/cryptophthalmos). Relevant to FREM2 gene entry for ophthalmogenetics."
-  },
-  {
-    "id": "pmid:11180977",
-    "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Study of deamidation effects on betaB1-crystallin (CRYBB1) dimer structure. Directly relevant to CRYBA1, CRYBA4, CRYBB1, and CRYGS crystallin gene entries covering lens protein biochemistry. Abstract is absent but title is specific and unambiguous."
+    "reason": "Amblyopia screening using random-dot stereograms is directly relevant to the binocular vision topic in the Examinations category. Amblyopia is detected through binocular vision testing (stereoacuity testing methodology is in the search keywords); random-dot stereograms are a binocular examination tool. Screening methodology is core ophthalmological practice."
   }
 ]

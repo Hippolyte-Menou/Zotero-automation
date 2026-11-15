@@ -1,12 +1,12 @@
 [
-{"id": "pmid:27990414", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "General CHD genetics review; Kabuki syndrome mentioned only in passing, no KMT2D-specific content"},
-{"id": "pmid:25663264", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HLHS with 21q22.3 deletion; no KMT2D link"},
-{"id": "pmid:26345374", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Peri-operative risk in syndromic CHD; no KMT2D link"},
-{"id": "pmid:29203834", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Wiedemann-Steiner syndrome is KMT2A (MLL1), a different gene from KMT2D (MLL2/MLL4); no KMT2D content"},
-{"id": "pmid:35268351", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Epigenetics review of inborn errors of immunity; no KMT2D-specific content"},
-{"id": "pmid:27837088", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Microalgae membrane proteomics; the 'Retinitis Pigmentosa Type 2' hit is a name match to an algal clathrin light chain, unrelated to human RP2"},
-{"id": "pmid:38428701", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CircRNAs in hepatocellular carcinoma; no KMT2D link"},
-{"id": "pmid:42465316", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "TAOK3 in cervical cancer; no RP2 link (RP2 is a retinal dystrophy gene)"},
-{"id": "pmid:1847109", "verdict": "relevant", "confidence": 0.85, "reason": "Cloning of mouse rod photoreceptor cGMP PDE alpha subunit, which is PDE6A (alias PDEA); core PDE6A biology, low score likely from short abstract and lack of disease terms"},
-{"id": "pmid:41381288", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Lens lipidome and cataract/presbyopia pharmacology review; LSS (lanosterol synthase) not discussed in abstract"}
+{"id": "pmid:3892740", "verdict": "relevant", "confidence": 0.8, "reason": "Review of Axenfeld-Rieger syndrome (classic FOXC1/PITX2 developmental disorder); fits FOXC1 and ocular developmental anomalies. Abstract empty, judged from title."},
+{"id": "pmid:1889089", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "undulated/Pax-1 mutation concerns PAX1 (skeletal/thymus), not PAX2 or PAX6; only tangential paired-box developmental relevance."},
+{"id": "pmid:1718739", "verdict": "relevant", "confidence": 0.6, "reason": "Zebrafish pax[zf-a] is the pax2 ortholog (pax2a); paper on its neural tube expression is relevant to PAX2 developmental biology. Abstract empty, so identity judged from knowledge of the gene."},
+{"id": "pmid:28061512", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Canine chromatic pupillometry and melanopsin/ipRGC function in rod/cone degeneration models; a functional testing methods paper with no specific CNGB3 or RPE65 focus in the abstract."},
+{"id": "pmid:9786999", "verdict": "relevant", "confidence": 0.55, "reason": "Quantitative anatomy of major mouse retinal cell populations; fits the Inner coat (retina anatomy) topic. Not specific to ACO2, CRX, GRM6, HK1, OPN1MW or TULP1, so gene-level rejections are correct."},
+{"id": "pmid:18831967", "verdict": "relevant", "confidence": 0.6, "reason": "Review of retinoic acid signaling in eye development; RA synthesis by ALDH1A3 (RALDH3) is central to this topic. Abstract empty, judged from title."},
+{"id": "pmid:9584118", "verdict": "relevant", "confidence": 0.85, "reason": "Drosophila eyeless (Pax6) initiates sine oculis (SIX6 ortholog) and eyes absent; directly about PAX6 function in eye development."},
+{"id": "pmid:29539291", "verdict": "uncertain", "confidence": 0.5, "reason": "ROCK inhibitor cell injection for bullous keratopathy (endothelial decompensation, often from Fuchs dystrophy). Not KRT3 (correctly rejected for KRT3); for Corneal dystrophies it is a tangential therapy paper."},
+{"id": "pmid:469662", "verdict": "relevant", "confidence": 0.7, "reason": "Describes choanal atresia with multiple anomalies, the CHARGE association phenotype (CHD7 disease) including eye anomalies. Abstract empty, judged from title and known phenotype."},
+{"id": "pmid:18270576", "verdict": "uncertain", "confidence": 0.5, "reason": "Single retinal progenitor cell expression heterogeneity; relevant to retinal developmental genetics and transcription factors, but not VSX2-specific from the abstract."}
 ]

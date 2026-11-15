@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pmid:15036212",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Title directly addresses cell-extrinsic growth factors (BMP, FGF, Wnt) in vertebrate eye pattern formation and retinogenesis. This is squarely on-topic for 'Optic vesicle' and 'SHH' topics in embryology."
+  },
+  {
+    "id": "pmid:1769326",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Abstract explicitly studies lens-forming competence of Xenopus ectoderm in response to inductive signals from the optic vesicle. Lens induction by the optic vesicle is a defining aspect of optic vesicle biology; the paper is on-topic for 'Optic vesicle' embryology."
+  },
+  {
+    "id": "pmid:12167402",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Title describes MEK-1-induced transdifferentiation of pigmented epithelium into neural retina, directly relevant to RPE/neural retina fate determination, a core subject of 'Coat differentiation' and 'Optic vesicle' topics in embryology."
+  },
+  {
+    "id": "pmid:1129973",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Title specifies spectral sensitivity measurements of foveal cone photopigments between 400-500 nm. Cone photopigment spectral properties are foundational to 'Visual physiology' and relevant to neuro-ophthalmologic visual function examinations."
+  },
+  {
+    "id": "pmid:18594688",
+    "verdict": "relevant",
+    "confidence": 0.87,
+    "reason": "Abstract describes swept-source OCT speckle variance for microvasculature imaging, including vascular shutdown during photodynamic therapy. This is an early OCT angiography methodology paper directly relevant to 'Ocular imaging' (OCT angiography technique) and inner coat vascular anatomy."
+  },
+  {
+    "id": "pmid:28663902",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract presents a CNN + graph search framework for automated segmentation of nine retinal OCT layer boundaries in AMD eyes. Deep learning OCT segmentation is a core 'Emerging technologies' and 'machine learning OCT segmentation methodology' topic."
+  },
+  {
+    "id": "pmid:23929382",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract characterizes paracentral acute middle maculopathy via SD-OCT, linking lesions to superficial vs deep retinal capillary plexus occlusion. Directly relevant to 'Inner coat' layer anatomy (INL, ONL, OPL) and 'Vascularization and innervation' (retinal capillary plexus morphology)."
+  },
+  {
+    "id": "pmid:26307399",
+    "verdict": "relevant",
+    "confidence": 0.80,
+    "reason": "Title addresses paradigm-shifting imaging biomarkers in neovascular AMD. While unrelated to congenital cataracts, it is on-topic for the 'Emerging technologies' category (novel ophthalmic imaging). At least one of the two listed topics is served, so the item is relevant."
+  },
+  {
+    "id": "pmid:8501123",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract details the molecular structure and fibrillar organization of type V collagen in the chicken corneal stroma, including its role in regulating fibril diameter. This is directly on-topic for 'Outer coat' anatomy ('corneal stroma collagen' search keyword)."
+  },
+  {
+    "id": "pmid:24156929",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title describes phase-variance OCT, a technique for detecting vascular flow by comparing phase signals between successive A-scans. This is an OCT angiography methodology paper, directly relevant to 'Ocular imaging' (OCT angiography technique methodology)."
+  },
+  {
+    "id": "pmid:18048005",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title addresses mitochondria distribution in mammalian photoreceptors and their relationship to retinal vasculature. Directly relevant to 'Inner coat' (photoreceptor morphology, retinal ultrastructure) and 'Vascularization and innervation' (retinal vascular architecture supporting photoreceptors)."
+  },
+  {
+    "id": "pmid:7623103",
+    "verdict": "relevant",
+    "confidence": 0.82,
+    "reason": "Full abstract documents NRTP neurons encoding near/far vergence and ocular accommodation in alert macaques, forming part of a cerebropontocerebellar pathway. Neural control of accommodation is an integral component of 'Accommodation' physiology and complements the lens/ciliary muscle mechanism papers."
+  },
+  {
+    "id": "pmid:10832720",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract presents reflective meniscometry for noninvasive measurement of tear meniscus curvature, with validation in normal vs dry eyes. This is a novel ocular surface examination technique directly on-topic for 'Ocular surface examinations' and 'tear film analysis methodology'."
+  },
+  {
+    "id": "pmid:29224926",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Full abstract validates a deep learning method for automated detection and quantification of intraretinal cystoid fluid and subretinal fluid in OCT across AMD, DME, and RVO. Directly on-topic for 'Emerging technologies' (deep learning retinal imaging, machine learning OCT segmentation)."
+  },
+  {
+    "id": "pmid:26386158",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title describes OCT-A and en face OCT features of paracentral acute middle maculopathy, a condition caused by retinal capillary ischemia. Directly relevant to 'Inner coat' layer anatomy and 'Vascularization and innervation' (retinal capillary plexus imaging and architecture)."
+  },
+  {
+    "id": "pmid:9716345",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Full abstract describes Rieger Syndrome cases with cardiovascular defects and reviews the literature. Rieger Syndrome is a primary clinical phenotype of FOXC1 (and PITX2) mutations; cardiovascular findings are part of syndromic characterization. Directly on-topic for the 'FOXC1' gene and 'Ocular malformations' topics."
+  },
+  {
+    "id": "pmid:20635",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract is Hubel and Wiesel's landmark Ferrier lecture on macaque primary visual cortex architecture: ocular dominance columns, orientation selectivity columns, hypercolumns, and monocular deprivation effects. This is a foundational paper for 'Ocular neurophysiology', matching 'visual cortex orientation selectivity', 'visual cortex receptive field physiology', and 'lateral geniculate nucleus visual processing' keywords."
+  },
+  {
+    "id": "pmid:1565442",
+    "verdict": "relevant",
+    "confidence": 0.83,
+    "reason": "Title addresses postoperative binocularity recovery in adults with longstanding strabismus. Binocular outcomes after strabismus surgery are directly relevant to the 'Binocular vision' examination topic ('binocular vision testing protocol', 'strabismus examination technique methodology')."
+  },
+  {
+    "id": "pmid:19191219",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Full abstract demonstrates that Ascl1 (a bHLH proneural factor) regulates Delta-like gene expression and Notch signaling in mammalian retinal progenitors, with Ascl1 loss shifting fate toward gliogenesis. Directly on-topic for 'Coat differentiation' and 'Developmental genetics' (Notch signaling retinal progenitor neurogenesis, bHLH transcription factor retinal cell fate, Muller glia genesis)."
+  },
+  {
+    "id": "pmid:11456441",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title describes ventral RPE transdifferentiation to neural retina in a Gas1 mutant, directly relevant to 'Coat differentiation' (RPE/neural retina fate) and 'Optic vesicle' (dorsoventral patterning, neural retina RPE fate determination). The GAS1 protein is a co-receptor in SHH signaling, linking it to optic vesicle patterning mechanisms."
+  }
+]

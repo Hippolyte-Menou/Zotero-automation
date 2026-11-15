@@ -1,110 +1,122 @@
 [
   {
-    "id": "pmid:33800529",
+    "id": "pmid:3022149",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly names TYR and OCA2 genes and discusses LRMDA/OCA7 as one of the seven albinism genes. The paper directly studies pathogenic variants in these three genes (all listed as gene_or_topic) causing oculocutaneous albinism, including a digenic TYR/OCA2 case. Directly on-topic."
+    "confidence": 0.82,
+    "reason": "Calbindin and cytochrome oxidase zonal patterns in primate visual cortex layers is directly within ocular neurophysiology. The search keywords include 'visual cortex orientation selectivity' and 'visual cortex receptive field physiology', and this paper addresses the neurochemical organization of V1 - a core topic for understanding visual cortex physiology."
   },
   {
-    "id": "pmid:1707331",
+    "id": "pmid:14216948",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title names the K3/K12 keratin pair; K12 is the protein product of KRT12. The paper studies K12 expression during corneal epithelial differentiation in chick and rabbit, directly relevant to KRT12 biology. The abstract is empty but the title is unambiguous."
+    "confidence": 0.95,
+    "reason": "Title 'Tears and the Lacrimal Gland' (Scientific American, 1964) is a classic overview article directly on-topic for the Lacrimal system / Physiology topic. No ambiguity about subject matter."
   },
   {
-    "id": "pmid:24581223",
+    "id": "pmid:2862056",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly includes 'prcd (PRCD-mutation)' as one of four canine retinal degeneration models studied for miRNA expression changes. PRCD is directly investigated in this paper."
+    "confidence": 0.88,
+    "reason": "Uveal vasodilation produced by facial nerve stimulation is squarely within choroidal blood flow autonomic regulation, a named search keyword. Topic tags include Vascularization and innervation and Ocular vascular physiology, both matching this paper's subject."
   },
   {
-    "id": "pmid:17623091",
+    "id": "pmid:9303427",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract maps progressive retinal atrophy locus in Finnish lapphund and concludes 'The locus for progressive rod-cone degeneration is known to be close to the GALK1 locus... This suggests that the disease in this breed, as well as in the Swedish lapphund, may correspond to progressive rod-cone degeneration.' PRCD is the gene symbol for progressive rod-cone degeneration; directly relevant."
+    "confidence": 0.93,
+    "reason": "Abstract confirms the paper is about parasympathetic innervation of orbital and choroidal blood vessels via the pterygopalatine ganglion using VIP and nitric oxide to control choroidal blood flow. This matches 'choroidal blood flow autonomic regulation' and 'uveal tract' keywords directly. Avian model is acceptable for foundational physiology of this pathway."
   },
   {
-    "id": "pmid:2309782",
+    "id": "pmid:23034305",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title and abstract directly study 'progressive rod-cone degeneration (prcd)' in Miniature Poodle dogs, the same gene as PRCD. Abstract discusses PRCD inheritance patterns and draws comparison to retinitis pigmentosa."
+    "confidence": 0.78,
+    "reason": "Published in Ophthalmology journal (2012) under emerging technologies and posterior segment examination topics. 'Smartphone Photography Safety' in this context refers to ophthalmic smartphone imaging safety (phototoxicity risk to retina from smartphone-based fundus photography), directly relevant to the smartphone fundoscopy search keyword and emerging technology examination methods."
   },
   {
-    "id": "pmid:12400639",
+    "id": "pmid:26114843",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Review of canine inherited retinal degenerations notes linkage studies have identified genetic markers for a retinal degeneration 'found in at least six different breeds.' PRCD was precisely the multi-breed disease under linkage investigation at this period. As a review covering the entire field, it covers PRCD research. Relevant to PRCD."
+    "confidence": 0.97,
+    "reason": "Abstract explicitly describes a prospective study comparing mydriatic smartphone ophthalmoscopy to fundus camera for image quality and diagnostic utility. Directly on-topic for 'smartphone fundoscopy technique' and emerging ophthalmic examination technologies."
   },
   {
-    "id": "pmid:11397244",
+    "id": "pmid:18170025",
     "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract explicitly states 'The Papillon dog is another dog breed affected by progressive rod-cone degeneration, with similarities to the canine retinal disease given the gene symbol prcd.' PRCD is named by its gene symbol. Directly relevant."
+    "confidence": 0.90,
+    "reason": "Title 'THE LACRIMATION REFLEX' (BJO, 1944) is unambiguously on-topic for lacrimal system physiology. The lacrimation reflex is a core subject under lacrimal gland secretion physiology."
   },
   {
-    "id": "pmid:9820795",
+    "id": "pmid:18170692",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Title describes evaluation of phosducin as a candidate gene for canine generalized progressive retinal atrophies. Abstract is empty. Phosducin was investigated during the PRCD gene discovery effort as one of several photoreceptor-expressed candidates. Relevant to PRCD research context even if phosducin was ultimately ruled out."
+    "confidence": 0.93,
+    "reason": "Abstract explicitly reviews experiments on sympathetic nervous system control of lacrimal secretion in cats, dogs, rabbits, and monkeys. Directly on-topic for lacrimal gland secretion physiology and autonomic regulation of the lacrimal system."
   },
   {
-    "id": "pmid:11470454",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Title describes characteristics of the human ocular surface epithelium, the tissue where KRT12 is the hallmark corneal keratin. KRT12 expression and function in the ocular surface epithelium would be expected content in such a review. No abstract available but the subject matter is directly tied to KRT12."
-  },
-  {
-    "id": "pmid:32882212",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Title directly studies keratin expression by corneal and limbal stem cells during development. KRT12 is the primary keratin expressed in corneal epithelium and is a defining marker of corneal stem cell differentiation. Directly relevant to KRT12. Abstract empty but title is unambiguous."
-  },
-  {
-    "id": "pmid:18059516",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Meesmann corneal dystrophy is caused specifically by mutations in KRT3 or KRT12. A paper on managing Meesmann dystrophy is directly relevant to KRT12. Abstract empty but the disease-gene link is unambiguous."
-  },
-  {
-    "id": "pmid:40336309",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Abstract describes butterfly-shaped pattern dystrophy, one of the best-characterized phenotypes caused by PRPH2 mutations. Search keywords include both 'PRPH2' and 'pattern-dystrophy'. Although the abstract does not name PRPH2 explicitly, butterfly-shaped pattern dystrophy is prototypically a PRPH2-associated disorder and the paper is directly relevant to PRPH2."
-  },
-  {
-    "id": "pmid:8602784",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Peripherin/RDS is an alias for PRPH2. Abstract explicitly studies a large deletion in the peripherin/RDS gene causing butterfly-shaped macular dystrophy, performing linkage analysis and molecular characterization of the PRPH2 mutation. Directly relevant."
-  },
-  {
-    "id": "pmid:7710395",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Peripherin/RDS is PRPH2. Abstract studies a 4-bp insertion at codon 140 of the peripherin/RDS gene causing dominantly inherited pattern dystrophy. Directly relevant to PRPH2."
-  },
-  {
-    "id": "pmid:11704030",
-    "verdict": "relevant",
-    "confidence": "high",
-    "reason": "Peripherin/RDS is PRPH2. Title describes a splice site mutation in the peripherin/RDS gene causing pattern dystrophy. Directly relevant to PRPH2. Abstract is empty but title is unambiguous."
-  },
-  {
-    "id": "pmid:27895971",
-    "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "HMX1 mutations cause oculoauricular syndrome, which includes both microtia and structural eye defects (the reason HMX1 is in the ophthalmogenetics library). A review of the genetic causes of microtia would cover HMX1 as a causative gene with known ophthalmic co-phenotype. Relevant to HMX1."
-  },
-  {
-    "id": "pmid:40033430",
+    "id": "pmid:1631953",
     "verdict": "correctly_rejected",
-    "confidence": "medium",
-    "reason": "Abstract is entirely about non-coding cis-regulatory HK1 variants causing congenital hyperinsulinism via loss of beta-cell repression. The paper focuses solely on pancreatic beta-cell biology and insulin secretion; no retinal or ophthalmic content is mentioned. HK1 is in this ophthalmogenetics library for its retinal dystrophy role, not its metabolic role. A paper focused exclusively on the hyperinsulinism phenotype of HK1 is off-topic for an ophthalmogenetics library."
+    "confidence": 0.80,
+    "reason": "Title 'Mouse mutations and human disorders are paired' (Trends in Genetics, 1992) describes a general genetics paper cataloguing mouse mutation-human disorder correspondences across all organ systems. Without an abstract and with a low score (2 vs threshold 4), there is no evidence this paper specifically addresses ocular malformations in meaningful depth rather than as one entry among many system-wide comparisons. Too broad to justify inclusion in an ophthalmology-specific library."
   },
   {
-    "id": "pmid:7510254",
+    "id": "pmid:13313216",
     "verdict": "relevant",
-    "confidence": "medium",
-    "reason": "Title describes a novel NK-related mouse homeobox gene expressed in nervous structures during embryonic development. HMX1 is an NK-related homeobox gene (H6 family, also called NKX5-3), and the search keywords include both HMX1 and NKX5-3. This paper likely characterizes HMX1 or a direct homolog; expression in neural structures during embryogenesis is consistent with HMX1's known role in sensory organ development. Abstract is empty but title and gene aliases match strongly."
+    "confidence": 0.88,
+    "reason": "Abstract describes adrenaline secretory effects on lacrimal glands and supersensitivity induced by parasympathicolytic treatment in cats. This is directly on-topic for lacrimal gland secretion physiology and autonomic pharmacology of the lacrimal system."
+  },
+  {
+    "id": "pmid:22543161",
+    "verdict": "relevant",
+    "confidence": 0.87,
+    "reason": "Abstract confirms this paper uses clonal lineage analysis to show that Olig2-expressing retinal progenitor cells are biased toward producing rod photoreceptors and amacrine interneurons. This is directly on-topic for coat differentiation (amacrine cells, photoreceptors), retinal neurogenesis, and developmental genetics of the retina. VSX2/CHX10 and bHLH transcription factor keywords are matched."
+  },
+  {
+    "id": "pmid:1311084",
+    "verdict": "correctly_rejected",
+    "confidence": 0.78,
+    "reason": "Abstract explicitly focuses on PAX2 expression in embryonic kidney condensing mesenchyme and Wilms tumor epithelial cells. While PAX2 is an ophthalmic gene (renal coloboma syndrome), this paper's content is entirely about kidney development and pediatric kidney tumor biology with no described ocular component. The ophthalmogenetics library should include PAX2 papers that address its role in eye development or ocular disease, not purely renal papers."
+  },
+  {
+    "id": "pmid:19827163",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Abstract systematically maps birthdates of amacrine cell subtypes (GABAergic vs glycinergic) in mouse retina using BrdU labeling, correlating birthday with molecular identity and soma position. This is directly on-topic for retinal inner coat anatomy, coat differentiation (amacrine interneurons), and embryological development of retinal layers."
+  },
+  {
+    "id": "pmid:2703301",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Abstract uses oxygen microelectrodes to measure retinal PO2 during elevated IOP, demonstrating choroidal oxygen pressure decreases and photoreceptor oxygen consumption changes. This directly addresses retinal oxygen delivery physiology and choroidal blood flow regulation under pressure, both named search keywords for Ocular vascular physiology."
+  },
+  {
+    "id": "pmid:2100987",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract describes detailed electrophysiological characterization of cone phototransduction in macaque (membrane current, flash sensitivity, single photon responses, bleaching adaptation). This is a landmark paper directly on-topic for cone phototransduction mechanism and visual physiology."
+  },
+  {
+    "id": "pmid:8510755",
+    "verdict": "correctly_rejected",
+    "confidence": 0.75,
+    "reason": "Title 'Segmental organization of embryonic diencephalon' (Nature, 1993) refers to Puelles and Rubenstein's prosomeric model of brain development, covering the full anterior neuraxis segmentation. While the optic vesicle evaginates from the diencephalon and OTX2 is relevant to anterior brain patterning, this paper's subject is broad CNS segmentation, not optic vesicle or ocular development specifically. The low score (2 vs threshold 4) reflects weak co-citation with the ophthalmology literature. The connection is too indirect for inclusion."
+  },
+  {
+    "id": "pmid:8093449",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Abstract directly characterizes bovine alphaB-crystallin (the CRYAB gene product) alongside mouse HSP25, demonstrating chaperone activity, mixed polymer formation, and structural similarity. This is a foundational paper on CRYAB function as a molecular chaperone in the lens. Directly on-topic for the CRYAB gene and transparent media topics."
+  },
+  {
+    "id": "pmid:1739128",
+    "verdict": "correctly_rejected",
+    "confidence": 0.78,
+    "reason": "Abstract describes alphaB-crystallin (CRYAB) accumulation in CNS astrocytes, oligodendrocytes, and neurons under pathological conditions (Rosenthal fibers, neurodegeneration). While CRYAB is an ophthalmic gene, the entire content of this paper concerns CNS neuropathology with no ophthalmic component described. The transparent media / lens relevance is absent; this paper is about CNS glial biology, not eye disease."
+  },
+  {
+    "id": "pmid:25317632",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract demonstrates OCT angiography (SSADA) imaging of distinct retinal vascular layers compared to fluorescein angiography, showing superior visualization of the radial peripapillary capillary network. Directly on-topic for retinal vascular anatomy (inner coat, vascularization), OCT angiography technique, and ocular imaging examination methods."
+  },
+  {
+    "id": "pmid:690139",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract characterizes the purification and properties of rhodopsin kinase (GRK1), showing rhodopsin specificity, molecular weight, substrate kinetics, and that newly formed discs are preferentially phosphorylated. This is a landmark foundational paper on GRK1 (a named gene topic) and its role in phototransduction termination. Directly on-topic for visual physiology and GRK1."
   }
 ]

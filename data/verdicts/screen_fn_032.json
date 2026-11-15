@@ -1,12 +1,12 @@
 [
-{"id": "pmid:10739682", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Paper is about RDH4 (retinol dehydrogenase 4), a different gene from RDH11; no RDH11 link in title or abstract"},
-{"id": "pmid:22723017", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "PRPF31/TFPT promoter study for adRP; RP9 is a different gene (PAP-1 alias is not PRPF31)"},
-{"id": "pmid:25480548", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "rMATS RNA-seq alternative splicing software; no RNU2-2 content"},
-{"id": "pmid:38925148", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General spliceosome disassembly mechanism; U2 snRNP is involved but abstract has no RNU2-2 or U2 snRNA disease link"},
-{"id": "pmid:34426021", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of PRC1/PR-DUB H2AK119ub1 alterations in neurodevelopmental disorders and cancer; BCOR (PRC1.1 subunit, OFCD/microphthalmia-cataract gene) plausibly discussed but not named in abstract"},
-{"id": "pmid:40537162", "verdict": "relevant", "confidence": 0.6, "reason": "Joubert syndrome genetics review; RPGRIP1L is a major JBTS gene (also LCA6) and LCA5 is a ciliopathy/LCA gene in this spectrum; no abstract to confirm gene-level content"},
-{"id": "pmid:27196396", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Ofd1 neuroprotection in rat photoreceptor models; OFD1 is not LCA5 and no LCA5 content"},
-{"id": "pmid:36114230", "verdict": "relevant", "confidence": 0.95, "reason": "Directly characterizes LCA5 (lebercilin) binding LC8 and LCA5 oligomerization; LCA5-focused biology, rejected only on score"},
-{"id": "pmid:39925483", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "OFD1 splicing mutation in Joubert syndrome; OFD1 is not LCA5, no LCA5 variant reported"},
-{"id": "pmid:39849212", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "TMEM67 compound heterozygous variants in Joubert syndrome; TMEM67 is not LCA5 and LCA5 is not discussed"}
+{"id": "pmid:9211853", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "PDGF-B knockout mouse pericyte loss and microaneurysms; general vascular development, not retinal/ocular microanatomy; score 1 below threshold 2"},
+{"id": "pmid:11689847", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Biomaterial polymer system for dual growth factor delivery; no microanatomy link; no abstract"},
+{"id": "pmid:11081514", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Flk1+ ES-cell-derived vascular progenitors; embryonic vasculogenesis, not eye microanatomy"},
+{"id": "pmid:11032855", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Edg-1/S1P receptor in vascular maturation and smooth muscle/pericyte recruitment; general vascular biology, not ocular microanatomy"},
+{"id": "pmid:11927558", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "TGF-beta type I receptors balancing endothelial activation; vascular biology, no retina or eye microanatomy content; no abstract"},
+{"id": "pmid:2526131", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Pericyte/smooth muscle inhibition of endothelial migration via TGF-beta1 activation in vitro; vascular cell biology, not specialized ocular microanatomy"},
+{"id": "pmid:10348742", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Endoglin knockout angiogenesis defects; HHT vascular development, not retinal or eye microanatomy"},
+{"id": "pmid:10229225", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "VEGF164/188 isoforms and myocardial angiogenesis; cardiac vascular biology, off-topic for ocular microanatomy"},
+{"id": "pmid:8779717", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Tissue factor in embryonic blood vessel development; no eye or retinal microanatomy content; no abstract"},
+{"id": "pmid:8873772", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "TGF-beta receptor II deficiency and yolk sac hematopoiesis; embryonic vascular development, not ocular microanatomy; no abstract"}
 ]

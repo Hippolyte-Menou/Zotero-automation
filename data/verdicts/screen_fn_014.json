@@ -1,12 +1,12 @@
 [
-{"id": "pmid:15630479", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Vertebrate conserved non-coding enhancer paper; ELP4 not mentioned. Only a PAX6-neighborhood enhancer link (ELP4 is alias PAXNEB), so weak ELP4 relevance."},
-{"id": "pmid:29125462", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "LRRK2 phosphorylates Rab proteins and ciliogenesis; RAB28 not among the phosphorylated Rabs or discussed."},
-{"id": "pmid:8163553", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Drosophila singed (fascin) actin bundling; FSCN2 (retinal fascin, RP30) not discussed. Fascin-1 family paper only."},
-{"id": "pmid:24530063", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans ciliated neuron extracellular vesicles; no RAB28 link (abstract empty, judged on title)."},
-{"id": "pmid:18974354", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "C. elegans glia and sensory organ function (fig-1); no RAB28 link."},
-{"id": "pmid:12592367", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Fascin-1 prognostic value in NSCLC; FSCN1 not FSCN2, and not a retinal dystrophy paper."},
-{"id": "pmid:15935778", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "C. elegans daf-6 patched-related lumen formation; no RAB28 link (abstract empty, judged on title)."},
-{"id": "pmid:3001710", "verdict": "uncertain", "confidence": 0.5, "reason": "Aniridia-Wilms 11p13 deletion mapping; the ELP4/PAXNEB locus lies in the WAGR/aniridia region near PAX6, but ELP4 is not named. Gene-level relevance is borderline."},
-{"id": "pmid:26687621", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans ciliated sensory neuron transcriptional profiling; no RAB28 link (abstract empty, judged on title)."},
-{"id": "pmid:8415664", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Echinoderm fascin cloning and singed homology; FSCN2 not discussed."}
+{"id": "pmid:19907920", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "General review of Rho-kinase inhibitor pharmacology (pan vs isoform selectivity); no corneal dystrophy focus in title or abstract, and the abstract is empty."},
+{"id": "pmid:30720541", "verdict": "relevant", "confidence": 0.95, "reason": "Prospective study of topical ripasudil after Descemet stripping only for Fuchs endothelial corneal dystrophy; directly on topic and was rejected only on score."},
+{"id": "pmid:7213162", "verdict": "relevant", "confidence": 0.8, "reason": "Stereoacuity norms in children across stereotests; core binocular vision examination content, matching the Binocular vision topic."},
+{"id": "pmid:16102745", "verdict": "relevant", "confidence": 0.75, "reason": "Beta-catenin requirement in lens morphogenesis and periocular ectoderm fate; ocular embryology relevant to the Derived structures and Developmental timeline topics."},
+{"id": "pmid:26338317", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Ripasudil IOP-lowering trial in glaucoma and ocular hypertension; not about corneal dystrophies."},
+{"id": "pmid:24106120", "verdict": "uncertain", "confidence": 0.5, "reason": "ROCK inhibitors promote corneal endothelial cell proliferation and wound healing, which is related to endothelial dystrophy therapy, but it is not a dystrophy study and the IOP link is only incidental to the Y-27632 agent."},
+{"id": "pmid:8246948", "verdict": "relevant", "confidence": 0.8, "reason": "Characterization of Pax-6 (PAX6) protein isoforms in neuroretina; directly about the PAX6 gene in eye development, matching the Developmental genetics topic."},
+{"id": "pmid:18495812", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Rho kinases in corneal epithelial wound healing; not about corneal dystrophies."},
+{"id": "pmid:1190281", "verdict": "relevant", "confidence": 0.6, "reason": "Amblyopia screening with random-dot stereograms tests binocular function; plausibly within the Binocular vision examination topic. Abstract is empty."},
+{"id": "pmid:33859757", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Nanoceria-based long-acting Y-27632 eye drops for ocular hypertension; glaucoma pharmacology, not corneal dystrophy."}
 ]

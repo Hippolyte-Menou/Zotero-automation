@@ -1,12 +1,12 @@
 [
-{"id": "pmid:25574841", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "CdLS/WDSTS transcriptomopathy study; KMT2A and SMC1A/SMC3/TAF6 focus; KMT2D not discussed beyond gene-family context"},
-{"id": "pmid:25195505", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general review of epigenetic mechanisms of human disease; no KMT2D-specific content"},
-{"id": "pmid:18996222", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "lipid droplet biogenesis review; no RAB18 content"},
-{"id": "pmid:26188466", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "general chromatin deregulation review; KMT2D not specifically addressed"},
-{"id": "pmid:19064991", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Abhd5-Mldp lipid droplet interaction study; no RAB18 link"},
-{"id": "pmid:32023484", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "MLX transcription factor partitioning to lipid droplets; no RAB18 link"},
-{"id": "pmid:33385001", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "lipid droplet-mitochondria contact review; no RAB18 link"},
-{"id": "pmid:19754438", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "review of lipid droplet intracellular motion; no RAB18 link"},
-{"id": "pmid:16968708", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ADFP/Tip47 lipid droplet proteins in cell lines; no RAB18 link"},
-{"id": "pmid:23708524", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "lipophagy via RAB7 on lipid droplets in adipocytes; RAB7 not RAB18, so off-gene for RAB18 despite shared Rab-LD theme"}
+{"id": "pmid:7573033", "verdict": "relevant", "confidence": 0.6, "reason": "Hermansky-Pudlak syndrome linkage study (HPS is a syndromic albinism; oculocutaneous albinism is a core feature); topic Albinism"},
+{"id": "pmid:8041115", "verdict": "relevant", "confidence": 0.5, "reason": "Chediak-Higashi syndrome melanocyte/melanosome study; patient has oculocutaneous albinism; pigmentary disorder biology relevant to Albinism topic"},
+{"id": "pmid:9345105", "verdict": "relevant", "confidence": 0.5, "reason": "Locus heterogeneity in Puerto Rican HPS families; no abstract; HPS is albinism-related syndrome; weak but plausible"},
+{"id": "pmid:17166758", "verdict": "relevant", "confidence": 0.8, "reason": "Review of crystallins in eye function and pathology; covers the crystallin genes listed under this group"},
+{"id": "pmid:14691175", "verdict": "relevant", "confidence": 0.85, "reason": "Deamidation of alphaB-crystallin (CRYAB) structure and chaperone function; directly about CRYAB"},
+{"id": "pmid:454290", "verdict": "relevant", "confidence": 0.8, "reason": "Usher syndrome type III (USH3A = CLRN1 disease) with retinitis pigmentosa and deafness; clinical description of the associated disease"},
+{"id": "pmid:32627316", "verdict": "uncertain", "confidence": 0.5, "reason": "Setmelanotide trial in Bardet-Biedl syndrome obesity; about the BBS syndrome clinically but not BBS1 gene biology; drug/obesity focus"},
+{"id": "pmid:29540715", "verdict": "relevant", "confidence": 0.95, "reason": "iPSC-RPE model of autosomal recessive bestrophinopathy with BEST1 mutation; directly on BEST1"},
+{"id": "pmid:23825107", "verdict": "relevant", "confidence": 0.95, "reason": "BEST1 (bestrophin-1) missense mutations and trafficking in BVMD; directly on BEST1"},
+{"id": "pmid:28125082", "verdict": "relevant", "confidence": 0.75, "reason": "Molecular genetic findings in 100 Joubert syndrome patients; RPGRIP1L is a core Joubert gene (JBTS7) and the cohort is a ciliopathy gene study; abstract missing"}
 ]

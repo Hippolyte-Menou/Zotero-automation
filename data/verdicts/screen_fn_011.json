@@ -1,12 +1,12 @@
 [
-{"id": "pmid:41687602", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Machine-learning drug-protein interaction prediction (PointDPI); no PDE6A content, only generic retinal-dystrophy keyword overlap is absent from the abstract."},
-{"id": "pmid:38991362", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Benzo[a]pyrene toxicity in marine medaka; no SIX6 or eye-gene link, abstract empty."},
-{"id": "pmid:38199355", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "5G radiofrequency exposure in zebrafish embryos; no SIX6 link, abstract empty."},
-{"id": "pmid:38251014", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Particulate matter eye toxicity in zebrafish; eye development genes studied are pax6, rho, vsx1, cryaa, not SIX6. Weak eye-development overlap only."},
-{"id": "pmid:38521039", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Flutolanil zebrafish neuro/visual disruption toxicology; no SIX6 focus, abstract empty."},
-{"id": "pmid:40602884", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Microcystin-LR and probiotic effects on zebrafish visual system; no SIX6 focus, abstract empty."},
-{"id": "pmid:39781281", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "4-bromodiphenyl ether developmental toxicity in zebrafish; no SIX6 link."},
-{"id": "pmid:39481963", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Phenanthrene hematopoietic toxicity in zebrafish; no SIX6 link, abstract empty."},
-{"id": "pmid:39023660", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "OTX2-associated pattern dystrophy case series; OTX2 is a different homeobox gene from SIX6, no SIX6 mention. Shares only the microphthalmia/eye-development neighbourhood."},
-{"id": "pmid:22017973", "verdict": "uncertain", "confidence": 0.5, "reason": "Generic Wnt signaling activation review chapter with no abstract; FZD4 is one of ten frizzled receptors and is not evident in the title. Relevant only if the chapter treats FZD4 or FEVR-related signaling specifically."}
+{"id": "pmid:2006220", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General review of retinal architecture; no GRM6 focus (GRM6 is only a mGluR6 bipolar-cell mention at most). Not GRM6-specific."},
+{"id": "pmid:6348799", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "1983 review of retinal lipid chemistry/metabolism; predates ELOVL4 and PRCD discovery; no gene-specific content."},
+{"id": "pmid:18778702", "verdict": "uncertain", "confidence": 0.5, "reason": "Human fetal rod differentiation study; plausibly examines NRL-driven rod program, but abstract is missing and no gene-specific focus is evident for AIPL1/TULP1."},
+{"id": "pmid:8269518", "verdict": "relevant", "confidence": 0.6, "reason": "Core SHH signaling paper (Sonic hedgehog as ZPA polarizing signal); it is SHH biology, though limb rather than eye."},
+{"id": "pmid:8812425", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "POAG linkage mapping of the GLC1B locus, which is distinct from MYOC (GLC1A) and CYP1B1 (GLC3A). Glaucoma-genetics neighbour, not about either gene."},
+{"id": "pmid:1962979", "verdict": "uncertain", "confidence": 0.5, "reason": "Review of cGMP/Ca2+ phototransduction messengers; discusses the rod cGMP-gated channel (CNGA1 biology) but is not gene-specific. HK1 has no link."},
+{"id": "pmid:11078474", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "FOXC2 (MFH-1) mutations in lymphedema-distichiasis; paralog of FOXC1, not FOXC1 itself. Eyelid distichiasis is only a peripheral link."},
+{"id": "pmid:7410600", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "1980s anatomical study of crossed/uncrossed retinofugal projections in albino vs pigmented mice; predates TENM3 and is not about TENM3 biology."},
+{"id": "pmid:12464667", "verdict": "relevant", "confidence": 0.85, "reason": "Angiopoietin-1 (the canonical TIE2 ligand) restores retinal vessel hierarchy; directly within TIE2/TEK signaling biology in the retina."},
+{"id": "pmid:12947416", "verdict": "relevant", "confidence": 0.9, "reason": "Zebrafish chokh/rx3 mutation causing eye loss; rx3 is the zebrafish ortholog of RAX, which is the gene under which the paper is filed."}
 ]

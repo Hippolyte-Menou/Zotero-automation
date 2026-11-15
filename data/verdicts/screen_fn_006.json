@@ -1,12 +1,12 @@
 [
-{"id": "pmid:18606534", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General lipid droplet cell biology review; no RAB18 mention in title or abstract (empty abstract). Generic LD biology only, not RAB18-specific."},
-{"id": "pmid:17622624", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "HCV core protein lipid droplet association and virus production; no RAB18 link."},
-{"id": "pmid:16543254", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "Drosophila lipid droplet subproteome; RAB18 not named in abstract. Generic LD proteomics, at most a tangential mention of Rab proteins that the abstract does not show."},
-{"id": "pmid:19416659", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Leukocyte lipid bodies in inflammation review (empty abstract); no RAB18 link."},
-{"id": "pmid:23551521", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Ectopic lipid storage and insulin resistance review; no RAB18 link."},
-{"id": "pmid:23711956", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Phospholipids and ER structure review (empty abstract); no RAB18 link."},
-{"id": "pmid:28642194", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Lipophagy review (empty abstract); no RAB18 link."},
-{"id": "pmid:33844406", "verdict": "uncertain", "confidence": 0.5, "reason": "Filed under KMT2D. Review on DNA and histone methylation with disease implications; KMT2D (MLL4/MLL2) is a histone methyltransferase and plausibly discussed, but abstract is empty and the title is general. Not clearly KMT2D-specific; the score-based rejection looks reasonable."},
-{"id": "pmid:22578141", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Lipid droplets in immunity and host-pathogen interactions review; no RAB18 link."},
-{"id": "pmid:21870882", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Skeletal muscle lipid droplet proteome and apo A-I; RAB18 not named in abstract. Generic LD proteomics."}
+{"id": "pmid:24065806", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Rat EVP/IOP response to brainstem (superior salivatory nucleus) stimulation; aqueous/EVP physiology, not transparency biophysics of cornea, lens or vitreous."},
+{"id": "pmid:21911663", "verdict": "correctly_rejected", "confidence": 0.55, "reason": "Day/night aqueous humor dynamics in ocular hypertension; IOP/aqueous flow topic rather than transparent media physiology. Adjacent via aqueous keywords, so not strongly off-topic."},
+{"id": "pmid:3428392", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Outflow facility measurement method in rabbits (no abstract); aqueous outflow methodology, not transparent media physiology."},
+{"id": "pmid:30923717", "verdict": "relevant", "confidence": 0.9, "reason": "X-linked juvenile retinoschisis with RS1 pathogenic variant genotype-phenotype correlation; directly about RS1-associated disease."},
+{"id": "pmid:26875007", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Global myopia epidemiology meta-analysis; not about ACO2, ARR3, PITPNM3, LRIT3, OPN1MW, middle coat, retinal dystrophy or ocular vascular physiology. Weak indirect link only via myopia keywords."},
+{"id": "pmid:3132713", "verdict": "relevant", "confidence": 0.7, "reason": "Cloning of a tyrosinase-related protein mapping to the mouse brown locus (TYRP1 pigmentation gene); pigmentation/albinism-family biology closely tied to TYR and albinism topic."},
+{"id": "pmid:7573305", "verdict": "relevant", "confidence": 0.9, "reason": "Surgical treatment of familial exudative vitreoretinopathy in children; core FEVR clinical topic."},
+{"id": "pmid:1180303", "verdict": "relevant", "confidence": 0.6, "reason": "Posterior hyperplastic primary vitreous, a congenital vitreoretinal developmental disorder in the differential of FEVR/Norrie-type vitreoretinopathies. Relevant but not classic FEVR."},
+{"id": "pmid:95062", "verdict": "relevant", "confidence": 0.9, "reason": "Case series of familial exudative vitreo-retinopathy in a family; direct FEVR topic."},
+{"id": "pmid:687201", "verdict": "relevant", "confidence": 0.85, "reason": "Dominantly inherited peripheral retinal neovascularization in nine family members, a historical description of the FEVR phenotype."}
 ]

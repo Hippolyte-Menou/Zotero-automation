@@ -1,12 +1,12 @@
 [
-{"id": "pmid:1691189", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Keratin 8/18 cystine cross-linking and heterodimer assembly; no KRT12 content"},
-{"id": "pmid:1721910", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Transgenic mouse model of EBS with generic keratin mutants; KRT12 not discussed"},
-{"id": "pmid:9028791", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "General keratin disease review (K1/K5/K14/K16/K17 etc.); KRT12 not mentioned"},
-{"id": "pmid:1702787", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "K14 deletion mutants and filament assembly; no KRT12 link"},
-{"id": "pmid:7505575", "verdict": "correctly_rejected", "confidence": 0.65, "reason": "General keratin overlap regions vs genodermatosis mutations; no KRT12-specific content"},
-{"id": "pmid:11593936", "verdict": "correctly_rejected", "confidence": 0.55, "reason": "Corneal integrity review (no abstract); topic is corneal transparency, not KRT12 specifically"},
-{"id": "pmid:7506606", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "KRT14 three-nucleotide deletion in EBS; not KRT12"},
-{"id": "pmid:32882212", "verdict": "relevant", "confidence": 0.65, "reason": "Keratin expression in developing corneal and limbal epithelium; KRT12 is the canonical corneal differentiation keratin, so this bears directly on KRT12 biology"},
-{"id": "pmid:18059516", "verdict": "relevant", "confidence": 0.6, "reason": "Meesmann corneal dystrophy (KRT3/KRT12-associated) case management; disease-level relevance to KRT12, though surgical focus"},
-{"id": "pmid:40410165", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Corneal epithelial DIA proteome resource; no KRT12-specific focus"}
+ {"id": "pmid:22445509", "verdict": "relevant", "confidence": 0.6, "reason": "Math5/Atoh7 retinal ganglion cell competence during retinal progenitor cell-cycle exit; retinal neurogenesis is embryonic ocular coat differentiation. Abstract empty, so judged on title only."},
+ {"id": "pmid:537510", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pericyte-endothelial relationships in cardiac and skeletal muscle capillaries; no retinal specialized microanatomy link."},
+ {"id": "pmid:11250151", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Mitogen supply and progenitor cell number; general developmental biology, not retinal microanatomy."},
+ {"id": "pmid:10082080", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "CNS microvascular pericytes presenting antigen to T-lymphocytes; neuroimmunology, not ocular microanatomy."},
+ {"id": "pmid:9917840", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Morphogenesis of first blood vessels (vascular development, smooth muscle); not retinal specialized microanatomy."},
+ {"id": "pmid:10419690", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "PDGFB and placental labyrinth development; no ocular link."},
+ {"id": "pmid:10200908", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pericyte osteogenic differentiation and skeletal ectopic ossification; not ocular microanatomy."},
+ {"id": "pmid:9537425", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Pdgf receptors in muscle lineages (chimaera analysis); no ocular link."},
+ {"id": "pmid:1100415", "verdict": "uncertain", "confidence": 0.5, "reason": "Mesenchymal dysgenesis in Peters anomaly, sclerocornea and congenital endothelial dystrophy. Anterior segment dysgenesis is a FOXE3-associated phenotype, so arguably relevant to the FOXE3 gene group, but the paper is not about adnexal development as the topic name states."},
+ {"id": "pmid:10458020", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Angiogenesis in bovine corpus luteum; ovarian biology, not ocular."}
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:11704030", "verdict": "relevant", "confidence": 0.95, "reason": "Directly about PRPH2/RDS splice mutation causing pattern dystrophy; score rejection looks wrong for this gene."},
-{"id": "pmid:17963489", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Genome-wide homeobox gene classification; lists many homeobox genes but is not specifically about HMX1 or SIX6."},
-{"id": "pmid:27895971", "verdict": "uncertain", "confidence": 0.5, "reason": "Genetics review of microtia; HMX1 is a known microtia/oculoauricular gene but is not named in the abstract, so relevance depends on full text."},
-{"id": "pmid:39932789", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "VHL ablation in rods for retinitis pigmentosa; not about EYS or HK1 in the abstract (HK1 only indirectly via glycolysis)."},
-{"id": "pmid:40703653", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Itpka knockdown in Xenopus anterior neural development; no HMX1 link."},
-{"id": "pmid:26227955", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Review of outer and middle ear development; generic, no HMX1 named in abstract."},
-{"id": "pmid:16024820", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "ENU mutagenesis of proximal mouse Chr 5 embryonic lethals; no HMX1 link in abstract."},
-{"id": "pmid:39994471", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Genome-wide rare noncoding variant analysis of circulating proteins; HK1 not discussed in abstract."},
-{"id": "pmid:40347947", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Neuroblastoma developmental plasticity single-cell study; no HMX1 link."},
-{"id": "pmid:40033430", "verdict": "relevant", "confidence": 0.9, "reason": "Non-coding cis-regulatory variants in HK1 causing congenital hyperinsulinism; directly about the HK1 gene (not eye-specific, but on-topic for the gene)."}
+{"id": "pmid:11431464", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "PDGF-BB ion channel physiology of retinal pericytes; about microvascular pericyte electrophysiology, not retinal cell morphology/microanatomy as the topic describes"},
+{"id": "pmid:18029452", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "generic human iPSC derivation paper (Yu et al. 2007); no eye development content"},
+{"id": "pmid:21015608", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "microtome nuclear counting methods paper, no abstract; no ocular neurophysiology content"},
+{"id": "pmid:8645190", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "generic review of collagen fibril formation; no decorin, cornea or sclera content in abstract; only tangentially related to outer coat/DCN"},
+{"id": "pmid:8978605", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "netrin-1 commissural axon guidance in vertebrate nervous system; not optic vesicle biology"},
+{"id": "pmid:10660044", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "epithelial cell-cell adhesion and actin polymerization; does not concern FAT1 or adnexal development"},
+{"id": "pmid:9820935", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "dry eye pathology review (ocular surface-lacrimal gland inflammation); touches innervation but not vascularization/innervation anatomy topic"},
+{"id": "pmid:8464695", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "zebrafish krox-20 hindbrain cloning and expression; no STRA6 or eye developmental timeline content"},
+{"id": "pmid:7821215", "verdict": "relevant", "confidence": 0.6, "reason": "dachshund (DACH1 homolog) required for Drosophila eye disc retinal determination; eye developmental genetics, though invertebrate and not optic vesicle per se"},
+{"id": "pmid:19379795", "verdict": "relevant", "confidence": 0.6, "reason": "retinal cell generation from mouse and human iPSCs; eye/retinal developmental biology relevant to developmental genetics topic (abstract missing)"}
 ]

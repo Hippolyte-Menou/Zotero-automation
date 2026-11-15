@@ -1,12 +1,12 @@
 [
- {"id": "pmid:40442284", "verdict": "relevant", "confidence": 0.95, "reason": "Identifies RNU2-2 (and RNU5B-1) as neurodevelopmental disorder genes via R-loop region variant enrichment; directly about RNU2-2."},
- {"id": "pmid:39763302", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Genetic testing yield in inherited retinal dystrophies by race/ethnicity; ARSG not mentioned."},
- {"id": "pmid:39285668", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Microbial production review of vitamin A/retinoids; no RDH11 or RDH12 link in abstract."},
- {"id": "pmid:9188497", "verdict": "uncertain", "confidence": 0.5, "reason": "Cloning of 17beta-HSD6 and comparison with retinol dehydrogenase 1 (RoDH1); RDH11 not named. RDH11 is a related SDR family member, so the link is indirect."},
- {"id": "pmid:38863195", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "SUMF1 biallelic variants with retinal dystrophy; SUMF1 is the sulfatase-activating factor, not ARSG. ARSG not mentioned."},
- {"id": "pmid:1869569", "verdict": "uncertain", "confidence": 0.5, "reason": "Purification of a retinol dehydrogenase from bovine rod outer segments; enzyme not identified as RDH11, so relevance to RDH11 is indirect."},
- {"id": "pmid:26231136", "verdict": "uncertain", "confidence": 0.4, "reason": "Review of retinoid-converting enzymes and biotech retinoid production; no abstract, so the RDH11 link cannot be verified from metadata."},
- {"id": "pmid:31082679", "verdict": "relevant", "confidence": 0.9, "reason": "Generates iPSC lines from a retinitis pigmentosa patient homozygous for a CERKL variant (p.Arg257Ter); directly about CERKL-associated disease modeling."},
- {"id": "pmid:37592806", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "HGSNAT-related retinopathy; ARSG not mentioned and the gene is unrelated to the query."},
- {"id": "pmid:7876135", "verdict": "uncertain", "confidence": 0.5, "reason": "Cloning of a liver microsomal retinol dehydrogenase (RoDH); the specific gene identity relative to RDH11 is not stated in the abstract."}
+{"id": "pmid:15359227", "verdict": "relevant", "confidence": 0.8, "reason": "Clinical paper on aniridia (classic PAX6 disease) with optic nerve hypoplasia; fits Ocular malformations and PAX6 topics"},
+{"id": "pmid:26120273", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fasudil in alkali-burn corneal neovascularization in mice; not a corneal dystrophy"},
+{"id": "pmid:8113014", "verdict": "relevant", "confidence": 0.7, "reason": "Primate photopic ERG a-wave origin; core electrophysiology for Visual physiology and ERG-based functional testing"},
+{"id": "pmid:4959937", "verdict": "relevant", "confidence": 0.7, "reason": "Anatomy of radial peripapillary retinal capillaries in man and animals; retinal anatomy under Inner coat"},
+{"id": "pmid:6101903", "verdict": "relevant", "confidence": 0.75, "reason": "Light/GTP-regulated GTPase (transducin, the GNAT1 protein product) in bovine photoreceptor membranes; alias-level match to GNAT1 and phototransduction"},
+{"id": "pmid:7928177", "verdict": "relevant", "confidence": 0.8, "reason": "High-resolution histology of human choroidal vasculature; fits Middle coat (uveal) anatomy and imaging"},
+{"id": "pmid:15856272", "verdict": "relevant", "confidence": 0.7, "reason": "Corneal epithelium Langerhans cell density by in vivo confocal microscopy; corneal histology fits Outer coat anatomy"},
+{"id": "pmid:11401394", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Paper studies SIX3 (paralog of SIX6), not SIX6; SIX6 is not named or aliased in it. Eye/forebrain development context is only loosely related to the gene"},
+{"id": "pmid:16376654", "verdict": "relevant", "confidence": 0.75, "reason": "Progressive anterior fibrosis in postsurgical congenital aniridia; aniridia is a core ocular malformation"},
+{"id": "pmid:12049574", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "OHTS randomized glaucoma prevention trial; clinical therapeutics, not ocular neurophysiology"}
 ]

@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:37470964",
-    "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "The abstract confirms novel compound heterozygous variants in FREM1 were identified and speculated to cause the neonatal progeria phenotype in this patient. The paper directly characterizes FREM1 variants, fully on-topic for the FREM1 gene entry."
-  },
-  {
-    "id": "pmid:34332989",
+    "id": "pmid:30386798",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Published in Experimental Eye Research, this review focuses on the redox chemistry of Cys-rich gamma-crystallins (which CRYGD and CRYGS are) in the context of lens transparency and cataract. Directly relevant to both genes."
+    "reason": "Review of ROCK inhibitors in ophthalmology explicitly covers Fuchs endothelial dystrophy as a primary indication, with detailed discussion of corneal endothelium healing. Fuchs endothelial corneal dystrophy is a named search keyword. Directly relevant to corneal dystrophies topic."
   },
   {
-    "id": "pmid:19173613",
-    "verdict": "relevant",
-    "confidence": 0.88,
-    "reason": "Although primarily a proteomics methods paper, the application directly studies gammaS-crystallin (CRYGS) peptide deamidation across normal aging and cataractous human lenses. CRYGS protein is a primary subject of the study, making it on-topic for the CRYGS gene entry."
-  },
-  {
-    "id": "pmid:36732661",
-    "verdict": "correctly_rejected",
-    "confidence": 0.88,
-    "reason": "The abstract reveals this is a craniosynostosis study of 101 infants; FREM1 appears as an incidental finding in only 1 patient out of 101. The paper's focus is SMAD6, FGFR2, and TWIST1 in craniosynostosis; there is no discussion of eye anomalies or FREM1-related ophthalmic phenotypes. The connection to ophthalmogenetics is too marginal."
-  },
-  {
-    "id": "pmid:35341744",
+    "id": "pmid:19139339",
     "verdict": "relevant",
     "confidence": 0.95,
-    "reason": "Published from the National Eye Institute, this structural study of gammaS-crystallin (CRYGS) domain-swapping and aggregation is explicitly tied to cataract pathogenesis. Directly on-topic for the CRYGS gene entry."
+    "reason": "Study of interobserver reliability of prism and alternate cover test (PACT) in childhood esotropia. Directly matches search keywords 'cover test technique protocol', 'prism cover test methodology', and 'strabismus examination technique methodology'. Core methodology paper for binocular vision examination."
   },
   {
-    "id": "pmid:11060213",
+    "id": "pmid:33758139",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "Classic paper characterizing genetic heterogeneity of Usher syndrome type I with 151 families. MYO7A mutations identified in 64 families; USH1D (CDH23) and additional chromosome 10 loci mapped. MeSH terms include Retinitis Pigmentosa. Directly relevant to MYO7A, CDH23, USH1C, and by extension to the broader Usher gene set (ADGRV1, CLRN1) in the library."
+    "confidence": 0.97,
+    "reason": "Pilot study of ROCK inhibitor (netarsudil) after descemetorhexis without endothelial keratoplasty (DWEK) for Fuchs Endothelial Corneal Dystrophy. Title contains search keyword verbatim. Directly studies treatment of a corneal dystrophy subtype."
   },
   {
-    "id": "pmid:28381413",
+    "id": "pmid:33737034",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Randomized double-masked trial of netarsudil for corneal edema in Fuchs Dystrophy. Title explicitly names Fuchs Dystrophy, a primary search keyword. Abstract is empty but title is unambiguous. Directly relevant to corneal dystrophies."
+  },
+  {
+    "id": "pmid:500993",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Comparative study of Titmus, TNO, and Randot stereo acuity tests in children, including developmental norms. Directly matches search keywords 'stereoacuity testing' and 'stereoacuity testing methodology'. Core clinical measurement paper for binocular vision examination."
+  },
+  {
+    "id": "pmid:15592119",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Study of intraexaminer and interexaminer repeatability of the alternate cover test using different prism neutralization endpoints. Directly matches 'prism cover test methodology' and 'cover test technique protocol' keywords. Foundational reliability paper for binocular vision examination methodology."
+  },
+  {
+    "id": "pmid:7243215",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Evaluation of clinical stereoacuity tests. Empty abstract, but title directly matches 'stereoacuity testing methodology' search keyword. Evaluation of clinical stereoacuity measurement instruments is core to binocular vision examination."
+  },
+  {
+    "id": "pmid:18121093",
     "verdict": "relevant",
     "confidence": 0.85,
-    "reason": "The paper studies photoreceptor disc morphogenesis via peripherin and its suppression of ciliary ectosome release. ROM1 (retinal outer segment membrane protein 1) is a direct peripherin-binding partner essential for disc formation and is in the gene list. The abstract is fully within the photoreceptor biology scope of CDHR1, RAB28, and ROM1."
+    "reason": "Classic paper on the threshold of eye movement perceptible to the unaided eye. Foundational for cover test methodology (how much deviation is detectable). Matches 'cover test technique protocol' and 'strabismus examination technique methodology' keywords. Historical methodological basis for binocular vision examination."
   },
   {
-    "id": "pmid:38532366",
+    "id": "pmid:34481406",
     "verdict": "relevant",
-    "confidence": 0.90,
-    "reason": "PROM1 (CD133/prominin-1) is the primary subject of this review. PROM1 mutations cause Stargardt disease, macular dystrophy, and retinitis pigmentosa; the review explicitly covers PROM1's role in cilia and membrane protrusions relevant to photoreceptor biology. Directly on-topic for the PROM1 gene entry."
+    "confidence": 0.95,
+    "reason": "Review summarizing clinical efficacy of ROCK inhibitor eye drops for Fuchs endothelial corneal dystrophy, addressing off-label use. Directly relevant to corneal dystrophies; Fuchs endothelial corneal dystrophy is a named search keyword."
   },
   {
-    "id": "pmid:12408083",
-    "verdict": "relevant",
-    "confidence": 0.80,
-    "reason": "Published in an ENT journal but MeSH terms explicitly include Retinitis Pigmentosa, confirming the ophthalmic component is covered. ADGRV1 and CLRN1 are in the library for their USH3/USH2C retinal dystrophy roles; a paper describing genotype-phenotype correlations across the full Usher syndrome spectrum (hearing + retinal) is directly relevant for understanding these genes."
-  },
-  {
-    "id": "pmid:19392879",
+    "id": "pmid:26180462",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "Review of canine models of inherited retinal degeneration for therapy testing, with particular emphasis on corrective gene therapy. RPE65 and RPGRIP1 canine models are cornerstones of LCA gene therapy development. Directly relevant to both genes."
+    "reason": "Review of optical principles for strabismus measurement including prism optics for cover testing and Hirschberg/Krimsky testing. Directly matches 'prism cover test methodology', 'cover test technique', and 'strabismus examination technique methodology' keywords. Core methodology paper for binocular vision examination."
   },
   {
-    "id": "pmid:17493778",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "The paper studies AAV-delivered anti-clarin-1 ribozyme effects in the mouse cochlea (outer and inner hair cells, stria vascularis). Despite CLRN1 being a USH3A gene with retinal involvement, this paper has no retinal component and the finding (ribozyme-induced cochlear apoptosis) is a negative result for therapy. Too cochlear-focused for an ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:17306875",
+    "id": "pmid:33269892",
     "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "Published in Ophthalmology, this case report directly investigates retinal structure and treatment potential in a patient with RPGRIP1-LCA (LCA6), using OCT and psychophysics to map preserved photoreceptors. Central case report for RPGRIP1 gene therapy candidacy."
+    "confidence": 0.78,
+    "reason": "Case series of ROCK inhibitor (netarsudil) for corneal edema from endothelial dysfunction, including iridocorneal endothelial syndrome and keratoplasty failures. While cases are not corneal dystrophies per se, the therapeutic mechanism (ROCK inhibition for corneal endothelial dysfunction) is central to corneal dystrophy treatment research, and the paper extends the evidence base used to inform Fuchs dystrophy management. Connection is plausible and substantive."
   },
   {
-    "id": "pmid:23278760",
+    "id": "pmid:8455128",
     "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "The abstract directly reports a novel homozygous RPGRIP1 frameshift mutation (c.2608_2609insA) causing LCA6 in a consanguineous Emirati family, confirmed by NGS and Sanger sequencing. Textbook example of on-topic content for the RPGRIP1 gene entry."
+    "confidence": 0.95,
+    "reason": "Randomized comparison of Worth four-dot and Polarized four-dot tests for binocular sensorial states. Directly matches 'Worth four-dot test' and 'Worth four-dot test technique' search keywords. Core clinical measurement paper for binocular vision examination."
   },
   {
-    "id": "pmid:32736544",
+    "id": "pmid:3950840",
     "verdict": "relevant",
-    "confidence": 0.98,
-    "reason": "The abstract confirms a novel homozygous RPGRIP1 nonsense mutation (p.C765X) causing LCA6 in Japanese siblings, with 27-year follow-up. Directly on-topic for both RPGR and RPGRIP1 gene entries, with detailed clinical and genotypic data."
+    "confidence": 0.90,
+    "reason": "Description of binocular Polaroid test for detecting suppression scotomas in strabismic and anisometropic patients. Matches 'binocular vision testing' keywords. Directly relevant to binocular vision examination as a test for binocular sensory status."
   },
   {
-    "id": "pmid:28157192",
+    "id": "pmid:5656215",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "The abstract describes molecular diagnosis of 106 simplex RP cases using a targeted gene panel; USH2A, CERKL, and RP1 are among the causative genes identified. Directly relevant to the CERKL, RP1, USH2A gene entries, and also to the Genetic testing topic category."
-  },
-  {
-    "id": "pmid:26773734",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "The abstract is entirely about BCOR aberrations in extranodal NK/T-cell lymphoma. The paper discusses BCOR as a tumor suppressor in lymphoma pathogenesis. No connection to ophthalmology, eye development, microphthalmia, or structural eye disease."
-  },
-  {
-    "id": "pmid:26752546",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "The abstract covers novel BCOR-MAML3 and ZC3H7B-BCOR gene fusions in small blue round cell sarcomas. Pure oncology paper; no connection to ophthalmogenetics, microphthalmia, or structural eye disease."
-  },
-  {
-    "id": "pmid:23580382",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "The abstract describes ZC3H7B-BCOR gene fusion in endometrial stromal sarcomas. Pure gynecological oncology paper; no connection to ophthalmogenetics, microphthalmia, or structural eye disease."
-  },
-  {
-    "id": "pmid:38884738",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "The abstract covers human genetics of Tetralogy of Fallot and double-outlet right ventricle (cardiac defects). BCOR is not mentioned in the abstract or MeSH terms; the paper focuses on NKX2-5, GATA4, TBX1/TBX5, and 22q11 deletion. No direct ophthalmogenetics connection."
-  },
-  {
-    "id": "pmid:18280243",
-    "verdict": "correctly_rejected",
     "confidence": 0.85,
-    "reason": "The abstract describes the crystal structure of a BCOR corepressor peptide bound to the BCL6 BTB domain, with application to killing BCL6-positive lymphoma cells. Structural biology/lymphoma paper; does not address BCOR's role in eye development, microphthalmia, or structural eye disease."
+    "reason": "Miniature Four-Dot Test paper. Empty abstract, but title describes a variant of the Worth four-dot test. Matches 'Worth four-dot test technique' search keyword. Relevant to binocular vision examination."
+  },
+  {
+    "id": "pmid:5052852",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Paper on combined Worth 4-dot flashlight as a strabismus examination extension. Abstract keyword list explicitly includes Worth 4-dot test, fusion, suppression, scotoma, and screening. Directly matches 'Worth four-dot test', 'Worth four-dot test technique', and 'strabismus examination' search keywords."
+  },
+  {
+    "id": "pmid:11369943",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Characterization of an ocular photopigment driving pupillary constriction in mice. Empty abstract, but title describes what is now understood as melanopsin-based ipRGC phototransduction. Directly matches 'melanopsin signaling', 'pupillary light reflex', and 'intrinsically photosensitive retinal ganglion cells' keywords for pupillary physiology topic."
+  },
+  {
+    "id": "pmid:11713469",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Foundational paper placing melanopsin in cells of origin of the retinohypothalamic tract. Empty abstract, but title is unambiguous. Directly matches 'melanopsin signaling', 'pupillary light reflex pathway mechanism', and 'intrinsically photosensitive retinal ganglion cells' keywords for pupillary physiology and neuro-ophthalmologic topics."
+  },
+  {
+    "id": "pmid:8440594",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Study of selective foveal ganglion cell loss by size in experimental glaucoma, correlating to optic nerve fiber loss. Directly relevant to 'retinal ganglion cell physiology' and 'retinal ganglion cell receptive field physiology' search keywords for ocular neurophysiology. The magnocellular-selective loss finding is a key concept in retinal ganglion cell physiology."
+  },
+  {
+    "id": "pmid:9488265",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Study of age-related changes in foveolar choroidal blood flow using laser Doppler flowmetry. Directly matches 'choroidal blood flow', 'choroidal blood flow regulation', and 'choroidal blood flow autonomic regulation' search keywords for middle coat anatomy and ocular vascular physiology topics."
+  },
+  {
+    "id": "pmid:9169055",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Pax-6 induction of lens formation in Xenopus, demonstrating cell-autonomous lens induction by Pax-6 and ectopic lens formation. Directly matches 'lens induction placode specification', 'lens placode invagination', and 'optic vesicle induction development' search keywords for the optic vesicle/derived structures embryology topic."
   }
 ]

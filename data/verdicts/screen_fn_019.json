@@ -1,12 +1,12 @@
 [
-{"id": "pmid:18169555", "verdict": "relevant", "confidence": 0.6, "reason": "Congenital retinal fold (ablatio falciformis congenita) series, familial and hereditary, linked to pseudoglioma; falciform folds are a recognized FEVR feature"},
-{"id": "pmid:13188933", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Cicatricial stage of retrolental fibroplasia (ROP); no FEVR content in title or abstract"},
-{"id": "pmid:2759534", "verdict": "relevant", "confidence": 0.95, "reason": "Retinal detachment in 180 eyes with FEVR from 17 families; core FEVR clinical paper"},
-{"id": "pmid:8418643", "verdict": "relevant", "confidence": 0.95, "reason": "X-linked FEVR DNA analysis with candidate genes; core FEVR genetics"},
-{"id": "pmid:6911005", "verdict": "relevant", "confidence": 0.9, "reason": "Congenital retinal fold as a sign of dominant exudative vitreoretinopathy; FEVR phenotype"},
-{"id": "pmid:6685528", "verdict": "relevant", "confidence": 0.9, "reason": "Two FEVR families with platelet aggregation defects; FEVR clinical/pathogenesis paper"},
-{"id": "pmid:6847052", "verdict": "relevant", "confidence": 0.95, "reason": "Case series of familial exudative vitreoretinopathy with clinical features and management"},
-{"id": "pmid:2496260", "verdict": "relevant", "confidence": 0.9, "reason": "Study of a FEVR family examining platelet aggregation; FEVR-focused"},
-{"id": "pmid:19497727", "verdict": "relevant", "confidence": 0.55, "reason": "Review of AP-3-dependent trafficking and disease; AP-3 (AP3B1) defects cause Hermansky-Pudlak syndrome, a syndromic albinism. Abstract empty, so judged from title only"},
-{"id": "pmid:9497254", "verdict": "relevant", "confidence": 0.85, "reason": "Mutation analysis of HPS patients; abstract explicitly describes oculocutaneous albinism as a feature of HPS"}
+{"id": "pmid:1534034", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Wnt-1 mutant midbrain-hindbrain engrailed cell deletion; no OTX2 or PAX2 focus in title or abstract"},
+{"id": "pmid:10205062", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Non-rod non-cone ocular photoreceptors and pineal melatonin suppression; circadian/photoreceptor topic, not pupillary physiology per se"},
+{"id": "pmid:2767197", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Cortical GABA neuron calcium-binding protein classes; not ocular or visual neurophysiology"},
+{"id": "pmid:11333324", "verdict": "relevant", "confidence": 0.75, "reason": "Corneal nerve distribution and morphology by confocal microscopy; directly matches Outer coat innervation anatomy"},
+{"id": "pmid:29520050", "verdict": "relevant", "confidence": 0.7, "reason": "AI-based diabetic retinopathy detection on smartphone fundus photography; fits Emerging technologies and posterior segment examination"},
+{"id": "pmid:4600539", "verdict": "relevant", "confidence": 0.8, "reason": "Cat retinal ganglion cell physiology (W, X, Y classes); core ocular neurophysiology"},
+{"id": "pmid:9477998", "verdict": "relevant", "confidence": 0.85, "reason": "Foveolar choroidal blood flow measured by laser Doppler in AMD; choroidal vascular physiology"},
+{"id": "pmid:6187901", "verdict": "uncertain", "confidence": 0.5, "reason": "Lateral geniculate to striate cortex laminar projections in squirrel monkey; visual pathway neuroanatomy, borderline for ocular neurophysiology"},
+{"id": "pmid:7275128", "verdict": "relevant", "confidence": 0.75, "reason": "Scanning laser ophthalmoscope instrument description; fits Emerging technologies imaging"},
+{"id": "pmid:4986000", "verdict": "relevant", "confidence": 0.7, "reason": "Retinal and striate cortex topography relative to visual acuity in monkeys; ocular/visual neurophysiology"}
 ]

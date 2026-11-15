@@ -1,12 +1,12 @@
 [
- {"id": "pmid:17135363", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Leukocyte lipid body proteomics (U937, neutrophils); no RAB18 link in abstract. Lipid droplet biology only, not RAB18 disease or gene biology."},
- {"id": "pmid:21844583", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Review of adipocyte vs non-adipocyte lipid droplet size and composition; no RAB18 or eye-disease link."},
- {"id": "pmid:23319140", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Drosophila S2 cell lipid droplet proteome method; RAB18 not mentioned. Generic LD proteomics."},
- {"id": "pmid:19708857", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Yeast ER stress and lipid droplet formation; no RAB18 or ophthalmic link."},
- {"id": "pmid:28028537", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Rab10-EHBP1-EHD2 complex in lipophagy. Rab10 is a different Rab GTPase from RAB18; no RAB18 link in abstract."},
- {"id": "pmid:22311986", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Adipocyte lipid droplet remodeling in 3T3-L1 cells; no RAB18 link."},
- {"id": "pmid:21498505", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "LPCAT1/2 localization to lipid droplets; RAB18 not mentioned. Generic lipid metabolism."},
- {"id": "pmid:24680889", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "SETD5 de novo LoF in intellectual disability; filed under KMT2D, no KMT2D link in abstract. Also filed under the wrong gene for its own content."},
- {"id": "pmid:25655664", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Brown adipose tissue lipid droplet remodeling during cold; empty abstract, title shows no RAB18 link."},
- {"id": "pmid:18487653", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Bovine milk fat globule membrane proteome; unrelated to RAB18 or eye disease."}
+{"id": "pmid:9714600", "verdict": "uncertain", "confidence": 0.45, "reason": "General review of AP-3 adaptor complex biology; abstract empty. Albinism link only indirect via HPS-2 (AP3B1) and melanosome biogenesis, not stated in available metadata."},
+{"id": "pmid:10617778", "verdict": "relevant", "confidence": 0.95, "reason": "RDH5 mutations as cause of fundus albipunctatus, a recessive congenital stationary night blindness retinal dystrophy. Squarely within Retinal dystrophies; rejection was score-based only."},
+{"id": "pmid:17601429", "verdict": "relevant", "confidence": 0.85, "reason": "Visual prognosis after corneal transplant in children with Peters anomaly type I, an anterior segment developmental malformation. Fits ocular developmental anomalies and their pathology."},
+{"id": "pmid:9335339", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "AP-3 cargo transport to the yeast vacuole. Basic yeast cell biology with no albinism or pigmentation disease link."},
+{"id": "pmid:9303295", "verdict": "uncertain", "confidence": 0.5, "reason": "Drosophila garnet eye-color mutant, AP-3 delta-adaptin, pigment granule biogenesis. Model of lysosome-related organelle defect with some pigmentation relevance, but not albinism in humans and abstract is empty."},
+{"id": "pmid:9182526", "verdict": "uncertain", "confidence": 0.5, "reason": "Identification of beta3A-adaptin, the AP-3 subunit later linked to HPS-2 (AP3B1). Abstract does not mention albinism or HPS, so the albinism link is indirect."},
+{"id": "pmid:15232098", "verdict": "relevant", "confidence": 0.85, "reason": "Review linking albinism syndromes (HPS, Chediak-Higashi, Griscelli) to lysosome-related secretion and immunity. Directly albinism-related biology despite short abstract."},
+{"id": "pmid:8895568", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "LAMP-1 tyrosine-based sorting signal in Golgi-derived clathrin vesicles. Generic membrane trafficking with no albinism or pigmentation disease focus."},
+{"id": "pmid:11452004", "verdict": "relevant", "confidence": 0.9, "reason": "AP-3 role in tyrosinase and TRP-1 trafficking in HPS-2 human melanocytes. Melanosome biogenesis in a pigmentary disorder model, directly albinism-relevant."},
+{"id": "pmid:11807095", "verdict": "uncertain", "confidence": 0.55, "reason": "AP-3 assembly and function in mocha and pearl mouse mutants (pearl = Ap3b1 deficiency, HPS-2 model). Albinism link is via a hypopigmentation model, but the paper is mainly about LAMP-1 sorting mechanics."}
 ]

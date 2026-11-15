@@ -1,12 +1,12 @@
 [
-{"id": "pmid:37255601", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Neural crest skin derivatives paper (ITGA6 markers); Hmx1 appears only as a secondary finding in neural crest fibroblasts, not a focus on HMX1 biology or eye disease"},
-{"id": "pmid:41350484", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Cardiac autonomic innervation review with no abstract; no HMX1 link"},
-{"id": "pmid:2573058", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Drosophila NK-homeobox genes (NK-1 to NK-4); only distantly related to the vertebrate HMX1 ortholog family, no HMX1 content"},
-{"id": "pmid:19450575", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "FoxD1/CBF2 in chick retina temporal specificity; no HMX1 link and no abstract"},
-{"id": "pmid:40229884", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Promoter/UTR variants in rare disease cohort; no HK1 content in abstract"},
-{"id": "pmid:40574282", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "DHFR metabolic memory in periodontal disease; no HK1 link"},
-{"id": "pmid:41273414", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Type 2 diabetes variant-to-function review; HK1 not mentioned"},
-{"id": "pmid:40041288", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Contiguous gene CNVs in congenital hyperinsulinism; HK1 not named in abstract and HI is not an HK1 phenotype"},
-{"id": "pmid:41456278", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Mouse retina glucose-flux GC-MS protocol; general glycolysis methods, HK1 not named; weak link to retinal glycolysis only"},
-{"id": "pmid:7510254", "verdict": "relevant", "confidence": 0.6, "reason": "Title describes a novel NK-related mouse homeobox gene with nervous-system expression, consistent with the original cloning/description of the Hmx1 (H6 family) gene; abstract empty so based on title, could be verified"}
+{"id": "pmid:5969670", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Chick cranial neural crest fate mapping; facial processes and visceral arches, not adnexa (eyelid, lacrimal, meibomian, orbit) development specifically"},
+{"id": "pmid:11780127", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Planar cell polarity gene stbm in vertebrate gastrulation/cell fate; no eye or ocular derived-structure content; abstract empty"},
+{"id": "pmid:9112994", "verdict": "relevant", "confidence": 0.9, "reason": "Direct anatomy of human corneal subbasal nerve architecture and density; squarely on corneal innervation topic"},
+{"id": "pmid:8120313", "verdict": "uncertain", "confidence": 0.5, "reason": "Epidemiologic link between visual impairment and mobility/physical function in older adults; relates to visual function clinically but not to vision testing methodology the topic's keywords describe"},
+{"id": "pmid:13869506", "verdict": "relevant", "confidence": 0.65, "reason": "Single-unit recording in central visual pathways; fits ocular/visual neurophysiology topic"},
+{"id": "pmid:5418855", "verdict": "relevant", "confidence": 0.95, "reason": "Morning glory syndrome, a congenital optic disc anomaly; core ocular malformation"},
+{"id": "pmid:15509763", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "General human embryonic stem cell review; no eye-specific developmental genetics content"},
+{"id": "pmid:12110163", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Drosophila dorsal closure live imaging; unrelated to adnexal development"},
+{"id": "pmid:14814019", "verdict": "relevant", "confidence": 0.9, "reason": "Corneal innervation observations; direct fit for vascularization and innervation topic of the cornea/outer coat"},
+{"id": "pmid:11906813", "verdict": "uncertain", "confidence": 0.5, "reason": "Visual field defects and retinal ganglion cell loss in experimental glaucoma; relates to visual pathway loss but is more glaucoma pathophysiology than neurophysiology"}
 ]

@@ -1,12 +1,12 @@
 [
-{"id": "pmid:22180631", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Rhodococcus bacterial lipid droplet proteome (ro02104, PspA); no RAB18 link in abstract, and bacterial LD biology is not RAB18 disease biology"},
-{"id": "pmid:34733677", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "General congenital heart disease genetics review; KMT2D not named in abstract, only a generic mention possible in full text"},
-{"id": "pmid:25666439", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM5C (not KMT2D) patient mutation study; KMT2D aliases MLL2/MLL4 do not appear, different histone demethylase"},
-{"id": "pmid:24434855", "verdict": "uncertain", "confidence": 0.4, "reason": "Title-only review 'The genetics of cognitive epigenetics' with no abstract; could discuss KMT2D (chromatin regulator in Kabuki) but nothing in record confirms it"},
-{"id": "pmid:24793338", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "Generic genetic basis of congenital cardiovascular malformations review with no abstract; no KMT2D-specific evidence in the record"},
-{"id": "pmid:24575121", "verdict": "correctly_rejected", "confidence": 0.95, "reason": "Exome sequencing Mendelian error filtering methods (CASSI); no KMT2D content"},
-{"id": "pmid:28476223", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Generic 'Genetics of Short Stature' review with no abstract; no KMT2D-specific evidence"},
-{"id": "pmid:31124279", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM6B (not KMT2D) de novo variants in neurodevelopmental disorders; KMT2D not mentioned"},
-{"id": "pmid:30929739", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "KDM3B (not KMT2D) pathogenic variants in intellectual disability; KMT2D not mentioned"},
-{"id": "pmid:24296635", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Childhood obesity monogenic forms review (Macedonia); KMT2D not mentioned"}
+{"id": "pmid:31422822", "verdict": "relevant", "confidence": 0.8, "reason": "Biophysics of gamma-D crystallin (CRYGD) mutant solubility, a lens crystallin linked to congenital cataract; directly about the CRYGD protein"},
+{"id": "pmid:18272521", "verdict": "relevant", "confidence": 0.8, "reason": "Enhancer/promoter regulation of the cone transducin alpha subunit (TalphaC, GNAT2), with mention of inherited achromatopsia-causing mutations"},
+{"id": "pmid:15030569", "verdict": "relevant", "confidence": 0.6, "reason": "BLOC-2 complex of HPS3/HPS5/HPS6; Hermansky-Pudlak syndrome is a syndromic oculocutaneous albinism, so relevant to the Albinism topic, though the work is mainly cell biology"},
+{"id": "pmid:15170859", "verdict": "relevant", "confidence": 0.6, "reason": "Review of murine Hermansky-Pudlak genes (BLOCs) as models of HPS, a syndromic albinism; relevant to Albinism topic"},
+{"id": "pmid:21596161", "verdict": "relevant", "confidence": 0.75, "reason": "Title and abstract link loss of TRPM1 to congenital retinal dysfunction in siblings with a 15q13.3 deletion; TRPM1 is explicitly named as a causal candidate"},
+{"id": "pmid:34562437", "verdict": "relevant", "confidence": 0.7, "reason": "Maps antigenic regions of TRPM1 targeted by autoantibodies in paraneoplastic retinopathy with ON bipolar cell dysfunction; TRPM1 is the protein of interest"},
+{"id": "pmid:21678528", "verdict": "uncertain", "confidence": 0.5, "reason": "hPSC-derived optic vesicle-like structures and retinal development model; relevant to Developmental genetics, but abstract does not focus on NRL, PROM1 or VSX2 specifically. Gene-level relevance is weak; topic-level may be acceptable"},
+{"id": "pmid:1672661", "verdict": "relevant", "confidence": 0.55, "reason": "Foundational paper identifying the paired box DNA-binding domain (Drosophila Prd, linked to mouse Pax-1); the paired domain defines the PAX family including PAX2 and PAX6"},
+{"id": "pmid:2877747", "verdict": "relevant", "confidence": 0.55, "reason": "Discovery of the conserved paired domain shared by paired and related genes; foundational for the PAX gene family (PAX2, PAX6) relevant to ocular development"},
+{"id": "pmid:11719191", "verdict": "relevant", "confidence": 0.6, "reason": "LRP5 (Norrin/FZD4 co-receptor) knockout shows FEVR-like vitreoretinopathy and eye development defects; relevant to the Vitreoretinopathies topic and to the FZD4/NDP pathway"}
 ]

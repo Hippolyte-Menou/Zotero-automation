@@ -1,12 +1,12 @@
 [
- {"id": "pmid:21857800", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "C. elegans glial sensory compartment morphogenesis (LIT-1/NLK, DAF-6, WASP); no RAB28 or cone-rod dystrophy link"},
- {"id": "pmid:3793408", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Immunoferritin localization of actin in photoreceptor cilia; no FSCN2 mention, and FSCN2 (fascin-2) is not the actin protein studied"},
- {"id": "pmid:7581389", "verdict": "relevant", "confidence": 0.7, "reason": "Maps the adRP eighth locus (RP30, 17q) that is now known to be FSCN2; the gene behind this locus is FSCN2"},
- {"id": "pmid:9132491", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "FISH study of WAGR/11p13 deletions around PAX6 and WT1; ELP4 not examined. Only the PAXNEB alias (a neighbouring-gene name) links it"},
- {"id": "pmid:28321846", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "PAX6 mutation spectrum in Russian aniridia cohort; ELP4 not mentioned. Link is only via the PAXNEB alias"},
- {"id": "pmid:23692385", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "LZTFL1 (BBS17) mutations with mesoaxial polydactyly; not MKKS (BBS6)"},
- {"id": "pmid:33036185", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Zebrafish rhodopsin P23H retinitis pigmentosa model; no FSCN2 link"},
- {"id": "pmid:22736939", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Genotyping microarray for adRP in Spanish families; generic adRP diagnostics, FSCN2/RP30 not specifically studied"},
- {"id": "pmid:21985185", "verdict": "uncertain", "confidence": 0.5, "reason": "PAX6 3' deletion on 11p13 with a four-gene region; ELP4 may lie within the deleted neighbourhood but the paper does not name it. Link is via PAXNEB alias only"},
- {"id": "pmid:21816254", "verdict": "correctly_rejected", "confidence": 0.75, "reason": "OCT phenotyping of aniridia; no ELP4 content. Abstract is empty, so judged on title only"}
+{"id": "pmid:7243215", "verdict": "relevant", "confidence": 0.8, "reason": "Evaluation of clinical stereoacuity tests is a binocular vision examination topic; abstract empty, judged on title"},
+{"id": "pmid:18121093", "verdict": "uncertain", "confidence": 0.5, "reason": "1949 paper on objectively perceptible eye movement; abstract empty; could plausibly relate to ocular deviation/phoria testing but title alone is ambiguous"},
+{"id": "pmid:32727014", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Fasudil PLGA intravitreal depot for glaucoma; not about corneal dystrophies"},
+{"id": "pmid:34481406", "verdict": "relevant", "confidence": 0.9, "reason": "ROCK inhibitor eye drops for Fuchs endothelial corneal dystrophy; directly on topic"},
+{"id": "pmid:26180462", "verdict": "relevant", "confidence": 0.85, "reason": "Optical issues in measuring strabismus (cover testing, Hirschberg, Krimsky); on topic for binocular vision examination"},
+{"id": "pmid:30720574", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Ripasudil blepharitis side effects in glaucoma patients; not a corneal dystrophy"},
+{"id": "pmid:33269892", "verdict": "uncertain", "confidence": 0.5, "reason": "Netarsudil for corneal edema from endothelial dysfunction (pseudophakic bullous keratopathy, graft failure, ICE); endothelial decompensation is adjacent to Fuchs but not a dystrophy case"},
+{"id": "pmid:35326007", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "ROCK-inhibitor induced reticular epithelial corneal edema as a drug side effect; discusses endothelial decompensation but is not about a corneal dystrophy"},
+{"id": "pmid:26075454", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "ROCK inhibitor for corneal neovascularization and scarring after trauma; not a corneal dystrophy"},
+{"id": "pmid:33188243", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Topical ripasudil for corneal allograft survival; transplant immunology, not a corneal dystrophy"}
 ]

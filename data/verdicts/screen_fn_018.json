@@ -1,12 +1,12 @@
 [
-{"id": "pmid:14676542", "verdict": "relevant", "confidence": 0.6, "reason": "Clinical orthopaedic series of 27 Bardet-Biedl syndrome patients; BBS is the disease tied to MKKS (BBS6), so disease-level relevance, though gene not named"},
-{"id": "pmid:33886537", "verdict": "relevant", "confidence": 0.5, "reason": "Mouse model of Bardet-Biedl syndrome ciliopathy genes; disease-level relevance to MKKS/BBS6, but MKKS itself not specifically studied"},
-{"id": "pmid:26875007", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Global myopia prevalence meta-analysis; not about ACO2, ARR3, LRIT3, OPN1MW, PITPNM3, choroid/vascular physiology or retinal dystrophies as listed"},
-{"id": "pmid:25005911", "verdict": "relevant", "confidence": 0.85, "reason": "Retinal vascular anomalies in familial exudative vitreoretinopathy; FEVR is caused by FZD4, which is the listed gene"},
-{"id": "pmid:15134637", "verdict": "relevant", "confidence": 0.75, "reason": "Subunit configuration of heteromeric cone CNG channels (CNGA3/CNGB3 achromatopsia channels); CNG channel family biology under CNGA1 composite entry"},
-{"id": "pmid:3132713", "verdict": "uncertain", "confidence": 0.5, "reason": "Describes the brown-locus tyrosinase-related protein (mouse TYRP1, not DCT/TRP-2) in pigmentation; loosely albinism/pigment biology but not DCT-specific"},
-{"id": "pmid:11221837", "verdict": "correctly_rejected", "confidence": 0.8, "reason": "Melanoma T-cell antigen discovery (HLA-A2 epitopes, TRP-2 epitope); no albinism or SLC45A2 focus"},
-{"id": "pmid:8457509", "verdict": "relevant", "confidence": 0.85, "reason": "X-linked exudative vitreoretinopathy family with linkage to Xp11 Norrie disease locus; NDP is the listed gene"},
-{"id": "pmid:2336278", "verdict": "relevant", "confidence": 0.85, "reason": "Long-term follow-up of fundus albipunctatus, a congenital stationary night-blindness retinal dystrophy; matches Retinal dystrophies topic"},
-{"id": "pmid:10366074", "verdict": "relevant", "confidence": 0.8, "reason": "Vitrectomy outcomes for retinal detachment in familial exudative vitreoretinopathy patients; matches Vitreoretinopathies topic"}
+{"id": "pmid:25624466", "verdict": "relevant", "confidence": 0.7, "reason": "Five-primary photostimulator measuring melanopsin-mediated pupil responses and TCSF in humans; genuinely pupillary physiology / ipRGC methods"},
+{"id": "pmid:8977478", "verdict": "relevant", "confidence": 0.9, "reason": "Age-related pulsatile ocular blood flow in normal subjects; core ocular vascular physiology"},
+{"id": "pmid:12812886", "verdict": "relevant", "confidence": 0.6, "reason": "Management of orbital cysts in congenital microphthalmos/anophthalmos; falls under ocular malformations (no TENM3 link, but topic-level match)"},
+{"id": "pmid:21601076", "verdict": "relevant", "confidence": 0.75, "reason": "Book chapter 'Disorders of the pupil' (no abstract); pupillary physiology and neuro-ophthalmic pupil exam content"},
+{"id": "pmid:26311258", "verdict": "relevant", "confidence": 0.9, "reason": "Dark adaptation effects on rod/cone/ipRGC sensitivity and pupil light response; directly pupillary physiology"},
+{"id": "pmid:13944428", "verdict": "correctly_rejected", "confidence": 0.7, "reason": "1960s EM survey of junctional complexes across rat/guinea pig epithelia (gut, liver, kidney); not specialized ocular microanatomy"},
+{"id": "pmid:8929536", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Olfactory receptor axon topography in olfactory bulb; no pupillary physiology link"},
+{"id": "pmid:24629312", "verdict": "relevant", "confidence": 0.75, "reason": "OCT angiography of optic disc perfusion in glaucoma; clearly ocular imaging (examination) content, abstract missing"},
+{"id": "pmid:3945815", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Parvalbumin in rat cortical GABA neurons; no ocular neurophysiology link"},
+{"id": "pmid:23151476", "verdict": "correctly_rejected", "confidence": 0.6, "reason": "Mouse melanopsin neurons and light effects on mood/learning; not a neuro-ophthalmologic examination topic (abstract missing)"}
 ]

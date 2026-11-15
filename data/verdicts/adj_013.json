@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pmid:977252",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Choline acetyltransferase (ChAT) is the biosynthetic enzyme for acetylcholine and a direct quantitative marker of cholinergic innervation. The paper measures ChAT activity in iris, ciliary body, corneal epithelium, retina, and pigment epithelium-choroid across four mammalian species, making it directly relevant to the 'Vascularization and innervation' anatomy topic and the 'Ocular vascular physiology' physiology topic."
+  },
+  {
+    "id": "pmid:10857836",
+    "verdict": "relevant",
+    "confidence": 0.92,
+    "reason": "Aniridia is a classic congenital ocular malformation caused by PAX6 haploinsufficiency. A paper on its prenatal diagnosis is unambiguously on-topic for 'Ocular malformations' under Embryology. The title leaves no room for doubt despite the missing abstract."
+  },
+  {
+    "id": "pmid:7821215",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Dachshund (dac) is a canonical member of the retinal determination gene network (alongside eyeless/PAX6, sine oculis, eyes absent) and is required for retinal differentiation in the Drosophila eye imaginal disc. The abstract describes morphogenetic furrow progression, hedgehog signaling, and cell-fate determination - core developmental genetics of the eye. Directly fits both 'Developmental genetics' and 'Optic vesicle' topics."
+  },
+  {
+    "id": "pmid:19379795",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Generation of retinal cells from iPSCs is squarely within developmental genetics of the retina: it uses transcription factor programs that govern retinal specification and differentiation. The title is unambiguous and the topic 'Developmental genetics' under Embryology clearly encompasses this work, even without an abstract."
+  },
+  {
+    "id": "pmid:9112994",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "The paper provides a detailed light- and electron-microscopic characterization of the human corneal subbasal nerve plexus: fiber orientation, bifurcation pattern, density gradient (central vs. peripheral), and fiber diameter (C-fiber class, 0.4 micron). This directly serves both 'Outer coat' (corneal anatomy) and 'Vascularization and innervation' (corneal innervation architecture)."
+  },
+  {
+    "id": "pmid:8120313",
+    "verdict": "correctly_rejected",
+    "confidence": 0.85,
+    "reason": "This is an epidemiological/geriatrics outcomes paper using visual acuity as a predictor of mobility limitations and ADL disability in elderly populations. The topic 'Visual function' under 'Examinations' and its search keywords focus on examination methodology (perimetry algorithms, LogMAR chart design, contrast sensitivity protocols). This paper does not address how visual function is assessed or its physiological basis; it studies the downstream public-health consequences of visual impairment for physical function. Correctly excluded."
+  },
+  {
+    "id": "pmid:13869506",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Single-unit recording in central visual pathways is a foundational methodology in ocular neurophysiology. The search keywords explicitly cover retinal ganglion cell receptive fields, lateral geniculate nucleus processing, visual cortex physiology, and ON/OFF pathways - all topics this 1962 paper (a Journal of Physiology article from the Hubel/Wiesel era) would address. Fits 'Ocular neurophysiology' under Physiology."
+  },
+  {
+    "id": "pmid:5418855",
+    "verdict": "relevant",
+    "confidence": 0.93,
+    "reason": "Morning glory disc anomaly is a congenital malformation of the optic disc arising from defective closure of the embryonic optic fissure. The title 'Morning Glory Syndrome: Unusual Congenital Optic Disk Anomaly' is unambiguous. Directly fits 'Ocular malformations' under Embryology, matching the search keywords on optic fissure closure defects and congenital ocular anomaly morphogenesis."
+  },
+  {
+    "id": "pmid:14814019",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "The title 'Observations on the innervation of the cornea' directly addresses the anatomy of corneal innervation, which matches the 'Vascularization and innervation' topic and the search keyword 'trigeminal innervation cornea'. Relevant despite missing abstract."
+  },
+  {
+    "id": "pmid:11906813",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Visual field defects arising from retinal ganglion cell loss in experimental glaucoma are a central concern of ocular neurophysiology. The paper links neural losses (the physiological substrate) to functional visual field deficits - directly relevant to 'Ocular neurophysiology' under Physiology, and to search keywords covering retinal ganglion cell physiology and visual pathway processing."
+  }
+]

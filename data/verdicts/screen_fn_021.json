@@ -1,12 +1,12 @@
 [
-{"id": "pmid:10461199", "verdict": "relevant", "confidence": 0.7, "reason": "Review of multi-organellar pigmentation disorders (HPS, Chediak-Higashi, related trafficking defects) that underlie albinism-type phenotypes; albinism-adjacent biology"},
-{"id": "pmid:11454451", "verdict": "correctly_rejected", "confidence": 0.9, "reason": "Generic review of adaptor-related proteins in membrane trafficking; no albinism or HPS link in title/abstract"},
-{"id": "pmid:10655547", "verdict": "relevant", "confidence": 0.95, "reason": "HPS protein complex in early melanosome biogenesis; HPS causes oculocutaneous albinism"},
-{"id": "pmid:8666661", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Novel adaptor-related coat complex (p47/beta-NAP) at the TGN; no albinism or HPS content"},
-{"id": "pmid:16760431", "verdict": "relevant", "confidence": 0.6, "reason": "BLOC-1 (HPS complex) and AP-3 deficiency in mouse mutants affecting lysosome-related organelle cargo sorting; HPS/melanosome biology, indirect albinism link"},
-{"id": "pmid:16162817", "verdict": "relevant", "confidence": 0.85, "reason": "AP-3/AP-1 sorting of tyrosinase (TYR, OCA1 gene) from endosomes to melanosomes"},
-{"id": "pmid:7509809", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "LIMP II (SCARB2) lysosomal targeting signal; no albinism, HPS or pigmentation link"},
-{"id": "pmid:2261023", "verdict": "relevant", "confidence": 0.95, "reason": "Clinical study of albinism types and Hermansky-Pudlak syndrome in Puerto Rico"},
-{"id": "pmid:12191018", "verdict": "relevant", "confidence": 0.9, "reason": "Pallidin (HPS gene product, HPS9) complex in biogenesis of lysosome-related organelles such as melanosomes"},
-{"id": "pmid:11912185", "verdict": "relevant", "confidence": 0.9, "reason": "muted gene, mouse model for Hermansky-Pudlak syndrome; melanosome defects and ocular pigment phenotype"}
+{"id": "pmid:14216948", "verdict": "relevant", "confidence": 0.8, "reason": "Popular article on tears and the lacrimal gland; directly about lacrimal system physiology. Abstract empty, judged from title."},
+{"id": "pmid:2862056", "verdict": "relevant", "confidence": 0.8, "reason": "Uveal (choroidal) vasodilation and facial nerve innervation in mammals; fits Middle coat vascularization and innervation and ocular vascular physiology."},
+{"id": "pmid:9303427", "verdict": "relevant", "confidence": 0.9, "reason": "Pterygopalatine ganglion innervation of orbital and choroidal vessels (VIP/NO vasodilation); squarely on Middle coat vascularization and innervation."},
+{"id": "pmid:23034305", "verdict": "uncertain", "confidence": 0.5, "reason": "Title suggests a safety note on smartphone eye photography; no abstract. Loosely relates to Emerging technologies but the subject (safety, not diagnostic examination) is unclear."},
+{"id": "pmid:26114843", "verdict": "relevant", "confidence": 0.85, "reason": "Smartphone ophthalmoscopy vs fundus camera diagnostic quality trial; fits Emerging technologies and posterior segment examination."},
+{"id": "pmid:18170025", "verdict": "relevant", "confidence": 0.8, "reason": "The lacrimation reflex; direct lacrimal system physiology. Abstract empty, judged from title."},
+{"id": "pmid:18170692", "verdict": "relevant", "confidence": 0.9, "reason": "Role of the sympathetic nervous system in lacrimal secretion; clear lacrimal gland physiology."},
+{"id": "pmid:1631953", "verdict": "uncertain", "confidence": 0.5, "reason": "Short commentary on mouse mutations paired with human disorders; no abstract and no clear ocular focus from title. Could discuss eye mutants but not evidenced."},
+{"id": "pmid:13313216", "verdict": "relevant", "confidence": 0.85, "reason": "Adrenaline secretory response and supersensitivity of the lachrymal gland after parasympatholytic treatment in cats; lacrimal gland physiology."},
+{"id": "pmid:2476281", "verdict": "correctly_rejected", "confidence": 0.85, "reason": "Drosophila in situ hybridization method and hunchback translational control; not ocular or eye development, so off the Developmental genetics eye-focused topic."}
 ]

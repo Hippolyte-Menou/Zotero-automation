@@ -1,122 +1,122 @@
 [
   {
-    "id": "pmid:33844406",
+    "id": "pmid:7573305",
     "verdict": "relevant",
-    "confidence": 0.85,
-    "reason": "KMT2D (MLL4) is a histone H3K4 methyltransferase; a review on the interplay between DNA and histone methylation directly covers KMT2D's core biochemical function and is mechanistically central to understanding KMT2D-associated disease."
+    "confidence": 0.97,
+    "reason": "Title directly names familial exudative vitreoretinopathy (FEVR), a primary target condition in the Vitreoretinopathies topic. Surgical treatment paper is clinically relevant to this category."
   },
   {
-    "id": "pmid:24434855",
-    "verdict": "correctly_rejected",
-    "confidence": 0.75,
-    "reason": "General cognitive epigenetics review in a neuropharmacology journal; this library tracks KMT2D for microphthalmia and structural eye disease. Even if KMT2D is mentioned among many genes, the paper's focus on cognitive/neurological epigenetics makes it peripheral to the ophthalmic scope of this collection."
+    "id": "pmid:1180303",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Posterior hyperplastic primary vitreous (PHPV, now persistent fetal vasculature) is a congenital vitreoretinal disorder that belongs within the Vitreoretinopathies topic. Title clearly scopes the paper to vitreoretinal pathology."
   },
   {
-    "id": "pmid:1847109",
+    "id": "pmid:95062",
     "verdict": "relevant",
     "confidence": 0.98,
-    "reason": "The abstract explicitly reports cloning and sequencing of the mouse rod photoreceptor cGMP phosphodiesterase alpha-subunit (856 residues, 100 kDa). PDE6A encodes exactly this alpha-subunit. This is a foundational molecular characterization paper for PDE6A."
+    "reason": "Abstract explicitly describes familial exudative vitreo-retinopathy in two brothers with congenital retinal folds and discusses differential diagnosis. FEVR is a named target condition and the paper is entirely on topic."
   },
   {
-    "id": "pmid:22017973",
-    "verdict": "correctly_rejected",
-    "confidence": 0.70,
-    "reason": "Book chapter on general Wnt signaling pathway mechanisms; no abstract is available to confirm FZD4-specific content. FZD4 is a Wnt receptor but a pathway-level review without demonstrated focus on FZD4 or vitreoretinopathy does not warrant rescue at score 4/6."
+    "id": "pmid:687201",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Abstract describes a dominantly inherited peripheral retinal vascular disorder with secondary vitreous changes and retinal detachment - the phenotype closely overlaps with FEVR. Peripheral retinal neovascularization with vitreous involvement fits the Vitreoretinopathies category."
   },
   {
-    "id": "pmid:38909044",
-    "verdict": "correctly_rejected",
+    "id": "pmid:9714600",
+    "verdict": "relevant",
     "confidence": 0.88,
-    "reason": "The abstract confirms USH1C appears as one of several novel HNF4A binding targets in pancreatic beta cells and hepatocytes; the paper's primary focus is HNF4A/HNF1A regulation in MODY and T2D biology. USH1C is incidental and there is no discussion of Usher syndrome or ocular disease."
+    "reason": "AP-3 complex is mechanistically central to albinism: AP-3 mutations cause Hermansky-Pudlak syndrome type 2 (HPS-2), which produces oculocutaneous albinism through defective melanosome biogenesis. HPS is explicitly in the search keywords."
   },
   {
-    "id": "pmid:15645695",
+    "id": "pmid:10617778",
     "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "The abstract explicitly states the deletion removes all but two exons of USH1C, causing Usher syndrome with retinal dystrophy, deafness and vestibular dysfunction. The paper directly characterizes USH1C's role in eye and ear development through a contiguous gene deletion model."
+    "confidence": 0.97,
+    "reason": "Abstract describes RDH5 mutations causing fundus albipunctatus, a congenital stationary night blindness disorder. Fundus albipunctatus is explicitly listed in the Retinal dystrophies search keywords and the abstract confirms the retinal dystrophy phenotype in detail."
   },
   {
-    "id": "pmid:23237960",
-    "verdict": "correctly_rejected",
-    "confidence": 0.78,
-    "reason": "The title specifies MYO7A mutation analysis (USH1B locus) as the diagnostic tool; USH1C is a distinct USH1 gene. Without an abstract, there is no evidence USH1C is substantively discussed. Papers focused on another USH1 gene are not automatically relevant to USH1C."
-  },
-  {
-    "id": "pmid:22219650",
-    "verdict": "relevant",
-    "confidence": 0.95,
-    "reason": "The abstract explicitly reports haplotype analysis and sequence analysis of USH1C, identifies linkage to the USH1C locus in one of four families, and finds pathogenic mutations in USH1C. USH1C is one of three primary genes directly studied in this paper."
-  },
-  {
-    "id": "pmid:3001710",
-    "verdict": "correctly_rejected",
-    "confidence": 0.80,
-    "reason": "This 1985 paper predates the characterization of ELP4/PAXNEB by over a decade. The paper maps the aniridia-Wilms tumor locus on 11p13 and discusses catalase, beta-globin, and calcitonin genes; ELP4 is not mentioned. Chromosomal co-location alone does not make this paper relevant to ELP4."
-  },
-  {
-    "id": "pmid:22342749",
-    "verdict": "correctly_rejected",
-    "confidence": 0.72,
-    "reason": "C. elegans endocytosis in sensory cilia paper with no abstract available. RAB28 is a cilia-localized RAB GTPase, but the connection is speculative without abstract confirmation. The generic title does not specifically implicate RAB28, and the score of 2/3 suggests the screener found no direct RAB28 signal."
-  },
-  {
-    "id": "pmid:7581389",
+    "id": "pmid:17601429",
     "verdict": "relevant",
     "confidence": 0.93,
-    "reason": "The abstract reports identification of the eighth adRP locus on chromosome 17q using microsatellite markers D17S808 and D17S807 with lod score 8.28. FSCN2 (RP30) maps to chromosome 17q and this is the original linkage paper that localized the RP30 locus. This is a foundational paper for FSCN2."
+    "reason": "Peters anomaly is explicitly listed in the search keywords for Ocular developmental anomalies and Ocular malformations. A paper reporting long-term visual prognosis after corneal transplant for Peters anomaly type I is directly relevant to both topic branches listed for this item."
   },
   {
-    "id": "pmid:21985185",
+    "id": "pmid:9303295",
     "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "The abstract describes a heterozygous ~0.6 Mb deletion downstream of PAX6 on chromosome 11p13 causing aniridia through a position effect. ELP4 (PAXNEB = PAX6 neighboring element B) resides in exactly this downstream region. The paper directly characterizes the position-effect mechanism that is the pathogenic basis for ELP4-associated aniridia."
+    "confidence": 0.83,
+    "reason": "The Drosophila garnet gene encodes a homolog of the AP-3 delta adaptin subunit; defective pigment granule biogenesis in this mutant is mechanistically equivalent to the melanosome defects causing HPS-related albinism. This foundational work on adaptin-mediated pigment granule sorting is directly relevant to the Albinism topic."
   },
   {
-    "id": "pmid:31479441",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "The paper focuses on BBS proteins' role in dendritic spine homeostasis, hippocampal synaptic function, and cognitive impairment. This is a neurological phenotype study. MKKS is tracked in this ophthalmogenetics library for its role in retinal degeneration via ciliopathy, not cognitive phenotypes."
-  },
-  {
-    "id": "pmid:28662344",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "Paper reviews dental anomalies and oral health management in BBS. No retinal, ophthalmic, or ciliopathy-mechanism content relevant to MKKS's role in photoreceptor or retinal degeneration biology."
-  },
-  {
-    "id": "pmid:37013719",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "Clinical evaluation of setmelanotide for obesity management in BBS via the MC4R pathway. Obesity pharmacotherapy is outside the scope of an ophthalmogenetics library tracking MKKS for retinal ciliopathy phenotypes."
-  },
-  {
-    "id": "pmid:14676542",
-    "verdict": "correctly_rejected",
-    "confidence": 0.95,
-    "reason": "Study of orthopaedic manifestations (polydactyly, scoliosis, tibia valga/vara) in 27 BBS patients. No retinal or ophthalmic content; outside the scope of this ophthalmogenetics library."
-  },
-  {
-    "id": "pmid:33886537",
-    "verdict": "correctly_rejected",
-    "confidence": 0.90,
-    "reason": "BBS mouse model study of hippocampal neurogenesis, context fear conditioning, and lithium rescue of cognitive impairment. Neurological phenotype research; not relevant to MKKS's ophthalmic/ciliary role in retinal degeneration."
-  },
-  {
-    "id": "pmid:25005911",
-    "verdict": "relevant",
-    "confidence": 0.93,
-    "reason": "Title directly states study of retinal vascular anomalies in patients with familial exudative vitreoretinopathy (FEVR). FZD4 (EVR1) is the primary FEVR causative gene and is explicitly listed among the gene_or_topic entries. This paper characterizes the clinical phenotype of FZD4-associated disease."
-  },
-  {
-    "id": "pmid:15134637",
+    "id": "pmid:9182526",
     "verdict": "relevant",
     "confidence": 0.90,
-    "reason": "Paper directly studies subunit configuration of heteromeric cone cyclic nucleotide-gated (CNG) channels. CNGA3 and CNGB3 are the cone CNG channel subunits whose mutations cause achromatopsia; this paper characterizes the structural basis of that channel complex. Directly relevant to CNGA3 and CNGB3 (and by extension the CNG channel family including CNGA1)."
+    "reason": "Abstract characterizes beta3A-adaptin as the AP-3 subunit mutated in HPS-2 (Hermansky-Pudlak syndrome type 2), which causes oculocutaneous albinism. The AP-3 complex is a core mechanism linking to the Albinism topic."
   },
   {
-    "id": "pmid:3132713",
+    "id": "pmid:15232098",
     "verdict": "relevant",
-    "confidence": 0.92,
-    "reason": "The abstract describes cloning of a cDNA encoding a tyrosinase-related protein (pMT4) distinct from tyrosinase and mapping it to the mouse brown (b) locus. This is the original paper identifying what became DCT/TYRP2 (dopachrome tautomerase). It is foundational to both DCT and TYR and directly relevant to albinism biology tracked in this library."
+    "confidence": 0.97,
+    "reason": "Abstract explicitly discusses albinism, melanosomes as lysosome-related organelles for melanin secretion, and the mechanistic link between albinism and immunity via HPS and Chediak-Higashi syndrome. Directly on topic for Albinism."
+  },
+  {
+    "id": "pmid:11452004",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract studies HPS-2 melanocytes with AP-3 beta3A deficiency and demonstrates a specific role for AP-3 in tyrosinase trafficking to melanosomes. Directly relevant to the pathomechanism of HPS-associated oculocutaneous albinism."
+  },
+  {
+    "id": "pmid:11807095",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Abstract uses mocha (AP-3 delta deficient) and pearl (AP-3 beta3A deficient) mouse mutants, which are established HPS models. Studies AP-3 complex assembly and LAMP-1 sorting relevant to lysosome/melanosome biogenesis in albinism-related syndromes."
+  },
+  {
+    "id": "pmid:7573033",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract describes genetic mapping of an HPS gene to chromosome 10q in a Puerto Rican population. Hermansky-Pudlak syndrome, which produces oculocutaneous albinism, is explicitly in the search keywords. This is a foundational genetics paper for HPS/albinism."
+  },
+  {
+    "id": "pmid:8041115",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract explicitly reports oculocutaneous albinism in a CHS patient and characterizes melanosome and tyrosinase trafficking defects in cultured CHS melanocytes. Chediak-Higashi syndrome is in the search keywords and the paper directly studies the albinism phenotype."
+  },
+  {
+    "id": "pmid:9345105",
+    "verdict": "relevant",
+    "confidence": 0.90,
+    "reason": "Title clearly identifies this as a genetics study of Hermansky-Pudlak syndrome, which causes oculocutaneous albinism. HPS is in the search keywords and locus heterogeneity findings are directly relevant to the genetic basis of this albinism subtype."
+  },
+  {
+    "id": "pmid:17166758",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Title describes a review of crystallins in the eye covering function and pathology. All nine genes listed (BFSP2, CRYAA, CRYAB, CRYBA1, CRYBB1, CRYBB2, CRYGB, CRYGD, CRYGS) are crystallin or lens-structural genes, and multiple are explicitly in the search keywords. A review article directly covering this gene family is highly relevant."
+  },
+  {
+    "id": "pmid:14691175",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract studies deamidation effects on alphaB-crystallin (CRYAB) chaperone activity and oligomerization using site-directed mutagenesis. CRYAB is listed in both the gene_or_topic and search keywords. The paper directly investigates the structure-function relationship of a target gene product."
+  },
+  {
+    "id": "pmid:454290",
+    "verdict": "relevant",
+    "confidence": 0.95,
+    "reason": "Abstract describes Usher syndrome type III with retinitis pigmentosa and progressive sensorineural deafness. CLRN1 causes USH3A (Usher syndrome type 3A); USH3 and USH3A are explicitly in the search keywords. This is a clinical description of the disease phenotype caused by CLRN1 mutations."
+  },
+  {
+    "id": "pmid:32627316",
+    "verdict": "relevant",
+    "confidence": 0.88,
+    "reason": "Abstract reports approximately one year of setmelanotide treatment for obesity in Bardet-Biedl syndrome (BBS). BBS1 is a primary genetic cause of BBS; bardet-biedl and BBS1 are in the search keywords. A clinical trial targeting BBS-associated obesity is relevant to the BBS1 disease context even if focused on the metabolic rather than retinal manifestation."
+  },
+  {
+    "id": "pmid:29540715",
+    "verdict": "relevant",
+    "confidence": 0.97,
+    "reason": "Abstract describes BEST1 gene mutations causing autosomal recessive bestrophinopathy in an iPSC-RPE model, with impaired phagocytosis as a shared trait of bestrophinopathies. BEST1, bestrophin 1, and bestrophinopathy are all in the search keywords. This is directly on target for the BEST1 gene."
   }
 ]

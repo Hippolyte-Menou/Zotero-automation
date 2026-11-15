@@ -1,12 +1,12 @@
 [
-{"id": "pmid:29286095", "verdict": "relevant", "confidence": 0.95, "reason": "Review of fibrillin-1 (FBN1) structure and failure in human disease, including fibrillinopathies; genuinely on FBN1 topic"},
-{"id": "pmid:18425143", "verdict": "uncertain", "confidence": 0.5, "reason": "Spliceosome assembly/ubiquitin paper with empty abstract; likely concerns Brr2 (SNRNP200) but title does not name it and no abstract to confirm; not clearly a retinal or SNRNP200 disease paper"},
-{"id": "pmid:1852206", "verdict": "relevant", "confidence": 0.95, "reason": "Original linkage of Marfan syndrome to FBN1 (fibrillin gene); core FBN1 disease paper"},
-{"id": "pmid:8430317", "verdict": "relevant", "confidence": 0.9, "reason": "Nonsense mutation causing constitutive exon skipping in FBN1 transcript from a Marfan patient; FBN1 molecular pathology"},
-{"id": "pmid:2402262", "verdict": "relevant", "confidence": 0.95, "reason": "Linkage mapping of the Marfan syndrome gene defect to chromosome 15 (FBN1 locus)"},
-{"id": "pmid:1729284", "verdict": "relevant", "confidence": 0.95, "reason": "Fibrillin synthesis and secretion defects in Marfan fibroblasts; shows FBN1 mutations cause Marfan"},
-{"id": "pmid:1301946", "verdict": "relevant", "confidence": 0.95, "reason": "FBN1 missense mutations clustering in EGF-like domains in Marfan patients"},
-{"id": "pmid:19012347", "verdict": "relevant", "confidence": 0.8, "reason": "Clinical spectrum in patients screened for suspected Marfan syndrome (FBN1 disease); differential diagnosis paper, closely tied to FBN1 disease biology"},
-{"id": "pmid:8594563", "verdict": "relevant", "confidence": 0.9, "reason": "Software and mutation database for the FBN1 gene; directly FBN1-focused"},
-{"id": "pmid:24613577", "verdict": "relevant", "confidence": 0.95, "reason": "Neonatal progeroid Marfan variant caused by FBN1 3-prime end mutations"}
+{"id": "pmid:42211025", "verdict": "relevant", "confidence": 0.97, "reason": "X-linked juvenile retinoschisis cohort with RS1 variants (novel Q43*, R182C, discoidin domain); core RS1 disease paper"},
+{"id": "pmid:3476929", "verdict": "relevant", "confidence": 0.6, "reason": "Human gamma-crystallin gene products in lens and their link to inherited/senile cataract; gamma-crystallin family (CRYG genes) is the CRYGB/CRYGD family, but the paper centres on gamma G3/G4 identities, so the mapping to CRYGB/CRYGD is indirect"},
+{"id": "pmid:40065510", "verdict": "relevant", "confidence": 0.97, "reason": "Early-onset Marfan syndrome with FBN1 exon 24-32 variants and genotype-survival correlation"},
+{"id": "pmid:19117906", "verdict": "relevant", "confidence": 0.97, "reason": "320 paediatric probands with pathogenic FBN1 mutations; clinical and molecular Marfan study"},
+{"id": "pmid:26919284", "verdict": "relevant", "confidence": 0.95, "reason": "Review of 25 years of Marfan syndrome gene discovery; FBN1 is the central gene"},
+{"id": "pmid:21564093", "verdict": "relevant", "confidence": 0.95, "reason": "Ghent nosology comparison in a series of 1009 FBN1-mutation probands"},
+{"id": "pmid:17366579", "verdict": "relevant", "confidence": 0.97, "reason": "Familial neonatal Marfan syndrome from FBN1 p.Cys1086Tyr with parental mosaicism"},
+{"id": "pmid:37688493", "verdict": "relevant", "confidence": 0.95, "reason": "Mexican MFS cohort with multigene panel; FBN1 variants and genotype-phenotype analysis"},
+{"id": "pmid:41752009", "verdict": "relevant", "confidence": 0.8, "reason": "FOXC1 siRNA knockdown in limbal epithelial cells; direct FOXC1 functional study relevant to FOXC1 ocular surface biology (FOXC1 is a listed gene)"},
+{"id": "pmid:8563763", "verdict": "relevant", "confidence": 0.95, "reason": "Original FBN1 mutation report in Marfanoid-craniosynostosis (Shprintzen-Goldberg) syndrome; abstract empty but title is clearly FBN1-focused"}
 ]
