@@ -1,6 +1,516 @@
 {
- "generated_at": "2026-11-14T13:49:46Z",
+ "generated_at": "2026-11-16T16:35:10Z",
  "additions": [
+  {
+   "pmid": "42817932",
+   "doi": "10.64898/2026.09.14.751502",
+   "title": "A non-retinoid triazolopyrimidine RBP4 antagonist for the treatment of Stargardt disease",
+   "year": "2026",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T14:51:35Z"
+  },
+  {
+   "pmid": "30647958",
+   "doi": "10.1155/2018/3039672",
+   "title": "Corrigendum to “Mutation Spectrum of the ABCA4 Gene in a Greek Cohort with Stargardt Disease: Identification of Novel Mutations and Evidence of Three Prevalent Mutated Alleles”",
+   "year": "2018",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T14:51:35Z"
+  },
+  {
+   "pmid": "43027993",
+   "doi": "10.3390/ijms27219744",
+   "title": "Wide-Field Fundus Autofluorescence Patterns in a Polish Cohort of Genotyped Patients with Phenotype of Retinitis Pigmentosa, Usher Syndrome and Cone–Rod Dystrophy",
+   "year": "2026",
+   "subcollection": "ABCA4",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T14:51:38Z"
+  },
+  {
+   "pmid": "42171934",
+   "doi": "10.1007/s11033-026-11984-8",
+   "title": "ADAM9: an updated view of its biology and pathology",
+   "year": "2026",
+   "subcollection": "ADAM9",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T14:55:03Z"
+  },
+  {
+   "pmid": "43017928",
+   "doi": "10.1177/11206721261507143",
+   "title": "Genetic Spectrum and molecular diagnosis of nystagmus in a spanish paediatric cohort",
+   "year": "2026",
+   "subcollection": "CNGA3",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:03:19Z"
+  },
+  {
+   "pmid": "43028290",
+   "doi": "10.3390/ijms272110044",
+   "title": "Integrated microRNA and mRNA Profiling in the Corneal Endothelium of Fuchs Endothelial Corneal Dystrophy",
+   "year": "2026",
+   "subcollection": "COL8A2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:04:58Z"
+  },
+  {
+   "pmid": "43017679",
+   "doi": "10.22336/rjo.2026.55",
+   "title": "Clinical, Histopathological, and AS-OCT Correlations in Corneal Transplantation: Implications for Surgical Decision-Making",
+   "year": "2026",
+   "subcollection": "COL8A2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:04:58Z"
+  },
+  {
+   "pmid": "43028222",
+   "doi": "10.3390/ijms27219978",
+   "title": "Congenital Bilateral Cataracts Associated with CRYBA1: A Familial Case Report Highlighting Genetic Diagnosis, Surgical Management, and Lifelong Glaucoma Surveillance",
+   "year": "2026",
+   "subcollection": "CRYBA1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:06:33Z"
+  },
+  {
+   "pmid": "43013084",
+   "doi": "10.1080/13816810.2026.2759311",
+   "title": "FOXC1-related Axenfeld–Rieger spectrum secondary to 6p25 deletion with concomitant distal 13q duplication arising from a maternal balanced t(6;13) translocation",
+   "year": "2026",
+   "subcollection": "FOXC1",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:12:15Z"
+  },
+  {
+   "pmid": "29752539",
+   "doi": "10.1007/s00439-018-1890-3",
+   "title": "Correction to: A zebrafish model of foxe3 deficiency demonstrates lens and eye defects with dysregulation of key genes involved in cataract formation in humans",
+   "year": "2018",
+   "subcollection": "FOXE3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:13:05Z"
+  },
+  {
+   "pmid": "42348420",
+   "doi": "10.1016/j.celrep.2026.117605",
+   "title": "The calcium pump ATP2B1/PMCA1 regulates CNS vascular development by facilitating Norrin- and WNT7A/B-induced Frizzled4 signaling",
+   "year": "2026",
+   "subcollection": "FZD4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:17:12Z"
+  },
+  {
+   "pmid": "43028094",
+   "doi": "10.3390/ijms27219849",
+   "title": "Restoration of the Inner Blood–Retinal Barrier in Diabetic Retinopathy Through Norrin-FZD4 Signaling",
+   "year": "2026",
+   "subcollection": "FZD4",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:17:12Z"
+  },
+  {
+   "pmid": "32369452",
+   "doi": "10.1172/jci136951",
+   "title": "Long-range cis-regulatory elements controlling GDF6 expression are essential for ear development",
+   "year": "2020",
+   "subcollection": "GDF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:19:05Z"
+  },
+  {
+   "pmid": "32489577",
+   "doi": "10.1177/2041731420919334",
+   "title": "High BMPR2 expression leads to enhanced SMAD1/5/8 signalling and GDF6 responsiveness in human adipose-derived stem cells: implications for stem cell therapies for intervertebral disc degeneration",
+   "year": "2020",
+   "subcollection": "GDF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:19:05Z"
+  },
+  {
+   "pmid": "42918775",
+   "doi": "10.1038/s41467-026-77891-5",
+   "title": "Calcium induced N-terminal gating and pore collapse in connexin-46/50 gap junctions",
+   "year": "2026",
+   "subcollection": "GJA3",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:21:45Z"
+  },
+  {
+   "pmid": "27900449",
+   "doi": "10.1007/s00417-016-3557-x",
+   "title": "Erratum to: Exome sequencing identifies a novel mutation in GJA8 associated with inherited cataract in a Chinese family",
+   "year": "2016",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:24:15Z"
+  },
+  {
+   "pmid": "41356364",
+   "doi": "10.21203/rs.3.rs-7501684/v1",
+   "title": "Connexin Restrains EMT by Dual-Domain Mechanisms to Preserve Epithelial Identity",
+   "year": "2025",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:24:15Z"
+  },
+  {
+   "pmid": "42369041",
+   "doi": "10.1016/j.isci.2026.116399",
+   "title": "Connexin 50 mediates disease-relevant alpha-synuclein oligomer propagation and neuroinflammation in neurodegenerative disease",
+   "year": "2026",
+   "subcollection": "GJA8",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:24:15Z"
+  },
+  {
+   "pmid": "28854565",
+   "doi": "10.1093/hmg/ddx131",
+   "title": "The ocular albinism type 1 protein, an intracellular G protein-coupled receptor, regulates melanosome transport in pigment cells",
+   "year": "2017",
+   "subcollection": "GPR143",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:31:17Z"
+  },
+  {
+   "pmid": "42039654",
+   "doi": "10.64898/2026.04.16.719077",
+   "title": "Defining the DNA Binding Specificity of GRHL2",
+   "year": "2026",
+   "subcollection": "GRHL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:34:08Z"
+  },
+  {
+   "pmid": "30017589",
+   "doi": "10.1016/j.stem.2018.06.005",
+   "title": "GRHL2-Dependent Enhancer Switching Maintains a Pluripotent Stem Cell Transcriptional Subnetwork after Exit from Naive Pluripotency",
+   "year": "2018",
+   "subcollection": "GRHL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:34:08Z"
+  },
+  {
+   "pmid": "41760369",
+   "doi": "10.1002/biof.70086",
+   "title": "GRHL2 / SENP1 / VDR Signaling Axis: A Key Regulator of SUMOylation and Calcitriol Resistance in SHPT",
+   "year": "2026",
+   "subcollection": "GRHL2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:34:08Z"
+  },
+  {
+   "pmid": "41371955",
+   "doi": "10.1523/jneurosci.2277-24.2025",
+   "title": "The Retinal Light Response Is Modulated by an mGluR5-Mediated Retrograde Signal from ON-Bipolar Cells to Photoreceptors",
+   "year": "2025",
+   "subcollection": "GRM6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:38:14Z"
+  },
+  {
+   "pmid": "41661511",
+   "doi": "10.1007/s13346-026-02070-4",
+   "title": "A gel-forming antioxidant eye drop for photoreceptor protection in retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "GUCA1B",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:40:01Z"
+  },
+  {
+   "pmid": "43024382",
+   "doi": "10.1002/mgg3.70346",
+   "title": "Potential Role of a Rare HCCS Variant Associated With Microphthalmia With Linear Skin Defects and Phenotypic Heterogeneity",
+   "year": "2026",
+   "subcollection": "HCCS",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:41:44Z"
+  },
+  {
+   "pmid": "12588966",
+   "doi": "10.1177/002215540305100313",
+   "title": "Homeobox Protein, Hmx3, in Postnatally Developing Rat Submandibular Glands",
+   "year": "2003",
+   "subcollection": "HMX1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:43:02Z"
+  },
+  {
+   "pmid": "43019019",
+   "doi": "10.1177/19450265261507577",
+   "title": "Identification of MYO7A Variants in Consanguineous Pakistani Families with Syndromic Hearing Loss",
+   "year": "2026",
+   "subcollection": "MYO7A",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:50:53Z"
+  },
+  {
+   "pmid": "42992368",
+   "doi": "10.1002/adma.75648",
+   "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:52:34Z"
+  },
+  {
+   "pmid": "42841269",
+   "doi": "10.1039/d6cp01297c",
+   "title": "Thermoelectric transport properties of Sc 2 X 2 Te 2 (X = Cl, Br, I) predicted with four-phonon scattering",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:52:34Z"
+  },
+  {
+   "pmid": "42976656",
+   "doi": "10.1016/j.addbeh.2026.108889",
+   "title": "Tobacco use screening among adolescent primary care patients by ethnicity, sex and language preference",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:52:34Z"
+  },
+  {
+   "pmid": "42908369",
+   "doi": "10.1002/jcc.70532",
+   "title": "Homoleptic Noble Gas Complexes of Rhombic Be 2 X 2 Clusters: Stability and Nature of the Ng⋯Be Interaction",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:52:34Z"
+  },
+  {
+   "pmid": "42623714",
+   "doi": "10.1016/j.vaccine.2026.129065",
+   "title": "Ethiopia missed opportunities for vaccination study: Cluster-randomized evaluation of 5-dose measles vaccine vials and a flexible open-vial policy, 2021–2022",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T15:52:34Z"
+  },
+  {
+   "pmid": "38844435",
+   "doi": "10.1111/pcmr.13177",
+   "title": "Two‐pore channel 2 is required for soluble adenylyl cyclase‐dependent regulation of melanosomal pH and melanin synthesis",
+   "year": "2024",
+   "subcollection": "OCA2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:56:03Z"
+  },
+  {
+   "pmid": "43027953",
+   "doi": "10.3390/ijms27219705",
+   "title": "Clinical and Genetic Spectrum of OPN1LW/OPN1MW-Associated Disorders in a Chinese Cohort: Contribution of Long-Read Sequencing",
+   "year": "2026",
+   "subcollection": "OPN1LW",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T15:57:08Z"
+  },
+  {
+   "pmid": "42782305",
+   "doi": "10.1007/s00417-026-07514-8",
+   "title": "Retinal vessel oxygen metabolism correlates with photoreceptor degeneration in retinitis pigmentosa.",
+   "year": "2026",
+   "subcollection": "RHO",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:06:44Z"
+  },
+  {
+   "pmid": "43019592",
+   "doi": "10.1088/2057-1976/aec170",
+   "title": "Topology-preserving segmentation of abnormal nailfold capillaries using dynamic snake convolution and Transformer-augmented U 2 -Net",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:07:55Z"
+  },
+  {
+   "pmid": "42976385",
+   "doi": "10.1016/j.molimm.2026.10.013",
+   "title": "Pharmacological suppression of canonical NF-κB signaling attenuates epithelial injury and splenic immune-cell alterations in dextran sulfate sodium-induced colitis",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:07:55Z"
+  },
+  {
+   "pmid": "42956668",
+   "doi": "10.1016/j.ejmech.2026.119390",
+   "title": "Design, synthesis, and biological evaluation of diosgenin derivatives containing arylsulfonamide moieties as anti-osteosarcoma agents through modulation of the Hippo pathway",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:07:55Z"
+  },
+  {
+   "pmid": "42879250",
+   "doi": "10.1039/d6cc02741e",
+   "title": "An organotellurium-based BOPHY system for discrimination of homocysteine over cysteine",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:07:55Z"
+  },
+  {
+   "pmid": "42867596",
+   "doi": "10.1007/s00894-026-06972-5",
+   "title": "Sequential oxidative transformation of the chalcopyrite (001)-S surface by H$$_{2}$$O and O$$_{2}$$: electronic structure insights from DFT calculations",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:07:55Z"
+  },
+  {
+   "pmid": "43018420",
+   "doi": "10.1167/iovs.67.13.22",
+   "title": "Discovering a Novel AAV2-Based Capsid for RPE Transduction Via Intravitreal Injection for Leber Congenital Amaurosis Type 2 Gene Therapy",
+   "year": "2026",
+   "subcollection": "RPE65",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:09:37Z"
+  },
+  {
+   "pmid": "43020825",
+   "doi": "10.1038/s41419-026-09191-1",
+   "title": "Activation of ER stress mediated by HspB4/Cryaa reduction contributes to photoreceptor apoptosis in rd9 mouse model of X-linked Retinitis Pigmentosa",
+   "year": "2026",
+   "subcollection": "RPGR",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:11:09Z"
+  },
+  {
+   "pmid": "41278648",
+   "doi": "10.1101/2025.10.17.683101",
+   "title": "Hierarchical regulation of cerebellar neurogenesis by Sin3A-mediated gene repression",
+   "year": "2025",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:21:40Z"
+  },
+  {
+   "pmid": "15557334",
+   "doi": "10.1074/jbc.m410015200",
+   "title": "Oct-3/4 and Sox2 Regulate Oct-3/4 Gene in Embryonic Stem Cells",
+   "year": "2004",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:21:40Z"
+  },
+  {
+   "pmid": "18388306",
+   "doi": "10.1634/stemcells.2007-1002",
+   "title": "Regulation of Self-Renewal and Pluripotency by Sox2 in Human Embryonic Stem Cells",
+   "year": "2008",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:21:40Z"
+  },
+  {
+   "pmid": "21543769",
+   "doi": "10.1095/biolreprod.111.090886",
+   "title": "SOX2 Modulates Reprogramming of Gene Expression in Two-Cell Mouse Embryos1",
+   "year": "2011",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:21:40Z"
+  },
+  {
+   "pmid": "12923055",
+   "doi": "10.1101/gad.269303",
+   "title": "Crystal structure of a POU/HMG/DNA ternary complex suggests differential assembly of Oct4 and Sox2 on two enhancers",
+   "year": "2003",
+   "subcollection": "SOX2",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:21:40Z"
+  },
+  {
+   "pmid": "32369573",
+   "doi": "10.1182/blood.2019003442",
+   "title": "Platelets docking to VWF prevent leaks during leukocyte extravasation by stimulating Tie-2",
+   "year": "2020",
+   "subcollection": "TEK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:25:57Z"
+  },
+  {
+   "pmid": "43027380",
+   "doi": "10.3390/cells15212025",
+   "title": "Establishment and Characterization of TGFBI R124L iPSCs Derived from a Reis–Bücklers Corneal Dystrophy Family",
+   "year": "2026",
+   "subcollection": "TGFBI",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:26:51Z"
+  },
+  {
+   "pmid": "32783370",
+   "doi": "10.1002/ajmg.c.31824",
+   "title": "The genetic landscape of inherited eye disorders in 74 consecutive families from the United Arab Emirates",
+   "year": "2020",
+   "subcollection": "TTLL5",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-16T16:28:21Z"
+  },
+  {
+   "pmid": "43030448",
+   "doi": "10.3390/jcm15218302",
+   "title": "Co-Targeting the Dysregulated Ocular and Cochlear Blood Flow via Ophthalmic Nerve Stimulation for the Treatment of Type 2 Usher Syndrome: Prospective Case Series",
+   "year": "2026",
+   "subcollection": "USH2A",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-16T16:32:28Z"
+  },
   {
    "pmid": "43001013",
    "doi": "10.1111/vop.70301",
@@ -12700,726 +13210,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-09-22T12:17:37Z"
-  },
-  {
-   "pmid": "16189710",
-   "doi": "10.1007/s00439-005-0054-4",
-   "title": "Severe autosomal recessive retinitis pigmentosa maps to chromosome 1p13.3–p21.2 between D1S2896 and D1S457 but outside ABCA4",
-   "year": "2005",
-   "subcollection": "ABCA4",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T11:53:13Z"
-  },
-  {
-   "pmid": "42757722",
-   "doi": "10.1002/ajmg.a.70305",
-   "title": "First Report of Uniparental Isodisomy of Chromosome 15 Revealing Angelman Syndrome and Microphthalmia Associated With a Novel Homozygous ALDH1A3 Variant",
-   "year": "2026",
-   "subcollection": "ALDH1A3",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T11:56:45Z"
-  },
-  {
-   "pmid": "42755371",
-   "doi": "10.1242/dev.206057",
-   "title": "CiliaIO: Machine learning reveals spatial patterns of cilia beating dynamics in the zebrafish spinal cord",
-   "year": "2026",
-   "subcollection": "BBS2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T11:59:20Z"
-  },
-  {
-   "pmid": "42755333",
-   "doi": "10.1080/13816810.2026.2731369",
-   "title": "Genetic findings and clinical features of extreme refractive errors in Thai children using whole genome sequencing",
-   "year": "2026",
-   "subcollection": "COL2A1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T12:05:10Z"
-  },
-  {
-   "pmid": "42758422",
-   "doi": "10.1007/s13258-026-01805-4",
-   "title": "Exome-wide screening discovers novel pathogenic variants in Vietnamese primary congenital glaucoma patients",
-   "year": "2026",
-   "subcollection": "CYP1B1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T12:09:53Z"
-  },
-  {
-   "pmid": "42751619",
-   "doi": "10.2147/opth.s623649",
-   "title": "Genetic Architecture and Clinical Phenotypes of Primary Open-Angle Glaucoma: An Updated Review of Mendelian Genes, GWAS Loci, and Polygenic Risk",
-   "year": "2026",
-   "subcollection": "CYP1B1",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T12:09:53Z"
-  },
-  {
-   "pmid": "42751639",
-   "doi": "10.2147/opth.s632710",
-   "title": "Clinical and Multimodal Imaging Features of Familial Exudative Vitreoretinopathy: The Genetic and Phenotypic Spectrum",
-   "year": "2026",
-   "subcollection": "FZD4",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T12:18:26Z"
-  },
-  {
-   "pmid": "10978502",
-   "doi": "10.1016/s0167-4781(00)00147-0",
-   "title": "Structure of the 5′ region of the human hexokinase type I (HKI) gene and identification of an additional testis-specific HKI mRNA",
-   "year": "2000",
-   "subcollection": "HK1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:32:49Z"
-  },
-  {
-   "pmid": "10356311",
-   "doi": "10.1006/mgme.1999.2842",
-   "title": "Human HKR Isozyme: Organization of the Hexokinase I Gene, the Erythroid-Specific Promoter, and Transcription Initiation Site",
-   "year": "1999",
-   "subcollection": "HK1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:32:49Z"
-  },
-  {
-   "pmid": "34532855",
-   "doi": "10.1111/cge.14058",
-   "title": "HK1 haemolytic anaemia in association with a neurological phenotype and co‐existing CEP290 Meckel–Gruber in a Romani family",
-   "year": "2021",
-   "subcollection": "HK1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:32:49Z"
-  },
-  {
-   "pmid": "2297576",
-   "doi": "10.1182/blood.v75.3.770.770",
-   "title": "An isozyme of hexokinase specific for the human red blood cell (HKR) [see comments]",
-   "year": "1990",
-   "subcollection": "HK1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:32:49Z"
-  },
-  {
-   "pmid": "42753158",
-   "doi": "10.1111/ceo.70169",
-   "title": "The Role of the MYOC Gene in Primary Open Angle Glaucoma in Ethiopia",
-   "year": "2026",
-   "subcollection": "MYOC",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T12:42:04Z"
-  },
-  {
-   "pmid": "10498281",
-   "doi": "10.1093/cercor/9.6.627",
-   "title": "The Transcription Factor, Pax6, is Required for Cell Proliferation and Differentiation in the Developing Cerebral Cortex",
-   "year": "1999",
-   "subcollection": "PAX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:49:28Z"
-  },
-  {
-   "pmid": "9163426",
-   "doi": "10.1038/387406a0",
-   "title": "Pax6 is required for differentiation of glucagon-producing α-cells in mouse pancreas",
-   "year": "1997",
-   "subcollection": "PAX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:49:28Z"
-  },
-  {
-   "pmid": "9737963",
-   "doi": "10.1074/jbc.273.39.25062",
-   "title": "Redox Potential Controls the Structure and DNA Binding Activity of the Paired Domain",
-   "year": "1998",
-   "subcollection": "PAX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:49:28Z"
-  },
-  {
-   "pmid": "17470285",
-   "doi": "10.1186/1471-213x-7-39",
-   "title": "Rybp, a polycomb complex-associated protein, is required for mouse eye development",
-   "year": "2007",
-   "subcollection": "PAX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:49:28Z"
-  },
-  {
-   "pmid": "25930172",
-   "doi": "10.1016/j.ijporl.2015.04.002",
-   "title": "Novel mutation located in EC7 domain of protocadherin-15 uncovered by targeted massively parallel sequencing in a family segregating non-syndromic deafness DFNB23",
-   "year": "2015",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "17277737",
-   "doi": "",
-   "title": "Large genomic rearrangements within the PCDH15 gene are a significant cause of USH1F syndrome.",
-   "year": "2007",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "40802839",
-   "doi": "10.1371/journal.pgen.1011825",
-   "title": "Role of Pcdh15 in the development of intrinsic polarity of inner ear hair cells",
-   "year": "2025",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "15634702",
-   "doi": "10.1242/dev.01591",
-   "title": "Duplicated genes with split functions: independent roles of protocadherin15 orthologues in zebrafish hearing and vision",
-   "year": "2005",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "30057206",
-   "doi": "10.1016/j.neuron.2018.07.006",
-   "title": "Mechanotransduction by PCDH15 Relies on a Novel cis-Dimeric Architecture",
-   "year": "2018",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "20538994",
-   "doi": "10.1167/iovs.10-5359",
-   "title": "Identification of Large Rearrangements of thePCDH15Gene by Combined MLPA and a CGH: Large Duplications Are Responsible for Usher Syndrome",
-   "year": "2010",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "22815625",
-   "doi": "",
-   "title": "Mutation screening of the PCDH15 gene in Spanish patients with Usher syndrome type I.",
-   "year": "2012",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "16799054",
-   "doi": "10.1167/iovs.06-0108",
-   "title": "Ames Waltzer Deaf Mice Have Reduced Electroretinogram Amplitudes and Complex Alternative Splicing of Pcdh15 Transcripts",
-   "year": "2006",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "41668373",
-   "doi": "10.1016/j.bpj.2026.02.003",
-   "title": "The protocadherin-15-LHFPL5 tip link complex is a heterotetrameric assembly in hair cell stereocilia",
-   "year": "2026",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "42723338",
-   "doi": "10.1002/mgg3.70298",
-   "title": "Compound Heterozygous PCDH15 Variants Associated With Cone‐Rod Dystrophy in a Chinese Pedigree",
-   "year": "2026",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "42411868",
-   "doi": "10.1167/iovs.67.8.21",
-   "title": "Genomic Copy Number Variants Associated With Strabismus and Amblyopia in the All of Us Research Program",
-   "year": "2026",
-   "subcollection": "PCDH15",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:51:11Z"
-  },
-  {
-   "pmid": "31925423",
-   "doi": "10.1093/hmg/ddz299",
-   "title": "Rhodopsin signaling mediates light-induced photoreceptor cell death in rd10 mice through a transducin-independent mechanism",
-   "year": "2019",
-   "subcollection": "PDE6B",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T12:54:52Z"
-  },
-  {
-   "pmid": "1658797",
-   "doi": "10.1073/pnas.88.22.10138",
-   "title": "Mouse retinoic acid receptor alpha 2 isoform is transcribed from a promoter that contains a retinoic acid response element.",
-   "year": "1991",
-   "subcollection": "RARB",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:01:37Z"
-  },
-  {
-   "pmid": "8034721",
-   "doi": "10.1016/s0021-9258(17)32199-3",
-   "title": "Arg269 and Lys220 of retinoic acid receptor-beta are important for the binding of retinoic acid.",
-   "year": "1994",
-   "subcollection": "RARB",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:01:37Z"
-  },
-  {
-   "pmid": "12486767",
-   "doi": "10.1002/tera.10101",
-   "title": "Quantification and localization of expression of the retinoic acid receptor‐β and ‐γ mRNA isoforms during neurulation in mouse embryos with or without spina bifida",
-   "year": "2002",
-   "subcollection": "RARB",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:01:37Z"
-  },
-  {
-   "pmid": "42758552",
-   "doi": "10.1093/brain/awag294",
-   "title": "Compromised striatal structure and function in mouse models of RARB-related disorder",
-   "year": "2026",
-   "subcollection": "RARB",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-21T13:01:39Z"
-  },
-  {
-   "pmid": "29657248",
-   "doi": "10.1507/endocrj.ej17-0554",
-   "title": "Association of fat mass and obesity-associated and retinitis pigmentosa guanosine triphosphatase (GTPase) regulator-interacting protein-1 like polymorphisms with body mass index in Chinese women",
-   "year": "2018",
-   "subcollection": "RPGRIP1L",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:08:09Z"
-  },
-  {
-   "pmid": "32399473",
-   "doi": "10.1159/000502199",
-   "title": "DNA Variant in the RPGRIP1L Gene Influences Alternative Splicing",
-   "year": "2019",
-   "subcollection": "RPGRIP1L",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:08:09Z"
-  },
-  {
-   "pmid": "15294867",
-   "doi": "10.1242/dev.01301",
-   "title": "Synergistic and antagonistic roles of the Sonic hedgehog N- and C-terminal lipids",
-   "year": "2004",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "9716521",
-   "doi": "10.1242/dev.125.18.3553",
-   "title": "The teratogenic Veratrum alkaloid cyclopamine inhibits Sonic hedgehog signal transduction",
-   "year": "1998",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "9728329",
-   "doi": "10.1023/a:1005406719292",
-   "title": "Holoprosencephaly: A paradigm for the complex genetics of brain development",
-   "year": "1998",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "11493554",
-   "doi": "10.1242/dev.128.12.2351",
-   "title": "N-terminal fatty-acylation of sonic hedgehog enhances the induction of rodent ventral forebrain neurons",
-   "year": "2001",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "10510184",
-   "doi": "10.1046/j.1460-9568.1999.00777.x",
-   "title": "Discrete localizations of hedgehog signalling components in the developing and adult rat nervous system",
-   "year": "1999",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "9778248",
-   "doi": "10.1016/s0092-8674(00)81783-3",
-   "title": "Specification of Motor Neuron Identity by the MNR2 Homeodomain Protein",
-   "year": "1998",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "21747935",
-   "doi": "10.1371/journal.pone.0021353",
-   "title": "Lipid Modifications of Sonic Hedgehog Ligand Dictate Cellular Reception and Signal Response",
-   "year": "2011",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "10603350",
-   "doi": "10.1242/dev.127.2.333",
-   "title": "Sonic hedgehog synergizes with the extracellular matrix protein Vitronectin to induce spinal motor neuron differentiation",
-   "year": "2000",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "10457014",
-   "doi": "10.1242/dev.126.18.4053",
-   "title": "Sonic hedgehog controls epaxial muscle determination through Myf5 activation",
-   "year": "1999",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "10887084",
-   "doi": "10.1242/dev.127.15.3283",
-   "title": "Sonic hedgehog signaling at gastrula stages specifies ventral telencephalic cells in the chick embryo",
-   "year": "2000",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "9221786",
-   "doi": "10.1523/jneurosci.17-15-05891.1997",
-   "title": "Sonic hedgehog promotes the survival of specific CNS neuron populations and protects these cells from toxic insult In vitro.",
-   "year": "1997",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "14960493",
-   "doi": "10.1242/dev.01027",
-   "title": "Cooperation between sonic hedgehog and fibroblast growth factor/MAPK signalling pathways in neocortical precursors",
-   "year": "2004",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "25732819",
-   "doi": "10.1016/j.celrep.2015.01.058",
-   "title": "Identification of a Family of Fatty-Acid-Speciated Sonic Hedgehog Proteins, Whose Members Display Differential Biological Properties",
-   "year": "2015",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "31760659",
-   "doi": "10.1002/cne.24825",
-   "title": "Sonic hedgehog expression in zebrafish forebrain identifies the teleostean pallidal signaling center and shows preglomerular complex and posterior tubercular dopamine cells to arise from shh cells",
-   "year": "2019",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "32829689",
-   "doi": "10.1098/rstb.2019.0660",
-   "title": "Of mitogens and morphogens: modelling Sonic Hedgehog mechanisms in vertebrate development",
-   "year": "2020",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "10662651",
-   "doi": "10.1242/dev.127.5.1131",
-   "title": "Control of chick tectum territory along dorsoventral axis by Sonic hedgehog",
-   "year": "2000",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "33923415",
-   "doi": "10.3390/cells10040914",
-   "title": "Role of SHH in Patterning Human Pluripotent Cells towards Ventral Forebrain Fates",
-   "year": "2021",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "11044404",
-   "doi": "10.1242/dev.127.22.4905",
-   "title": "Regulation of pancreas development by hedgehog signaling",
-   "year": "2000",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "12584240",
-   "doi": "10.1242/jcs.00313",
-   "title": "Megalin and the neurodevelopmental biology of sonic hedgehog and retinol",
-   "year": "2003",
-   "subcollection": "SHH",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:12:00Z"
-  },
-  {
-   "pmid": "23963167",
-   "doi": "10.1167/iovs.13-12779",
-   "title": "Investigation of Known Genetic Risk Factors for Primary Open Angle Glaucoma in Two Populations of African Ancestry",
-   "year": "2013",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "41894275",
-   "doi": "10.1097/md.0000000000048106",
-   "title": "Genetic associations of variants in 10 glaucoma-related genes with POAG risk and structural phenotypes in Korean subjects",
-   "year": "2026",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "35658088",
-   "doi": "10.1097/ijg.0000000000002060",
-   "title": "Association of Polymorphisms at the SIX1/SIX6 Locus With Normal Tension Glaucoma in a Korean Population",
-   "year": "2022",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "31740454",
-   "doi": "10.1534/g3.119.400882",
-   "title": "Transcription Profiles of Age-at-Maturity-Associated Genes Suggest Cell Fate Commitment Regulation as a Key Factor in the Atlantic Salmon Maturation Process",
-   "year": "2019",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "25711633",
-   "doi": "10.1167/iovs.14-16269",
-   "title": "Genetic Variants Associated With Different Risks for High Tension Glaucoma and Normal Tension Glaucoma in a Chinese Population",
-   "year": "2015",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "25798827",
-   "doi": "10.1371/journal.pone.0119703",
-   "title": "Genetic Association of SNPs near ATOH7, CARD10, CDKN2B, CDC7 and SIX1/SIX6 with the Endophenotypes of Primary Open Angle Glaucoma in Indian Population",
-   "year": "2015",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "28663559",
-   "doi": "10.1038/s41598-017-02299-7",
-   "title": "Association of SIX1/SIX6 locus polymorphisms with regional circumpapillary retinal nerve fibre layer thickness: The Nagahama study",
-   "year": "2017",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "28472212",
-   "doi": "10.1167/iovs.16-20797",
-   "title": "Association of Glaucoma-Susceptible Genes to Regional Circumpapillary Retinal Nerve Fiber Layer Thickness and Visual Field Defects",
-   "year": "2017",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "33553411",
-   "doi": "10.12998/wjcc.v9.i3.697",
-   "title": "Coinheritance of OLFM2 and SIX6 variants in a Chinese family with juvenile-onset primary open-angle glaucoma: A case report",
-   "year": "2021",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "25669751",
-   "doi": "10.1038/srep08378",
-   "title": "The Genetics of POAG in Black South Africans: A Candidate Gene Association Study",
-   "year": "2015",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "32821913",
-   "doi": "10.1167/iovs.61.10.37",
-   "title": "Association of Glaucoma Risk Genes with Retinal Nerve Fiber Layer in a Multi-ethnic Asian Population: The Singapore Epidemiology of Eye Diseases Study",
-   "year": "2020",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "29691916",
-   "doi": "10.1111/mec.14705",
-   "title": "Genomic signatures of fine‐scale local selection in Atlantic salmon suggest involvement of sexual maturation, energy homeostasis and immune defence‐related genes",
-   "year": "2018",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "31211355",
-   "doi": "10.1210/en.2019-00113",
-   "title": "Deletion of the Homeodomain Protein Six6 From GnRH Neurons Decreases GnRH Gene Expression, Resulting in Infertility",
-   "year": "2019",
-   "subcollection": "SIX6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:15:36Z"
-  },
-  {
-   "pmid": "23028443",
-   "doi": "10.1371/journal.pone.0043083",
-   "title": "Ten-m3 Is Required for the Development of Topography in the Ipsilateral Retinocollicular Pathway",
-   "year": "2012",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
-  },
-  {
-   "pmid": "27374343",
-   "doi": "10.1016/j.cub.2016.05.035",
-   "title": "Neural Mechanisms Generating Orientation Selectivity in the Retina",
-   "year": "2016",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
-  },
-  {
-   "pmid": "32158383",
-   "doi": "10.3389/fnbeh.2020.00022",
-   "title": "Environmental Enrichment Rescues Visually-Mediated Behavior in Ten-m3 Knockout Mice During an Early Critical Period",
-   "year": "2020",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
-  },
-  {
-   "pmid": "37092850",
-   "doi": "10.1002/dneu.22912",
-   "title": "Ten‐m4 plays a unique role in the establishment of binocular visual circuits",
-   "year": "2023",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
-  },
-  {
-   "pmid": "31767573",
-   "doi": "10.1523/eneuro.0478-18.2019",
-   "title": "Environmental Enrichment Partially Repairs Subcortical Mapping Errors in Ten-m3 Knock-Out Mice during an Early Critical Period",
-   "year": "2019",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
-  },
-  {
-   "pmid": "40600169",
-   "doi": "10.1016/j.ibneur.2025.05.013",
-   "title": "Microglia: Mediators of experience-driven corrective neuroplasticity",
-   "year": "2025",
-   "subcollection": "TENM3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-21T13:22:11Z"
   }
  ]
 }
