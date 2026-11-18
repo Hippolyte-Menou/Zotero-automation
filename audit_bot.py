@@ -523,6 +523,7 @@ def apply_actions(fp_candidates, fn_candidates, screen_verdicts, adj_verdicts, *
 
 def cmd_apply(args) -> None:
     import run
+    from bio_toolkit.clients.openalex import OpenAlexClient as _OA
     fp, fn = load_batch_items(args.work_dir)
     screen = load_verdicts(args.work_dir, "screen_")
     adj = load_verdicts(args.work_dir, "adj_")
@@ -544,9 +545,43 @@ def cmd_apply(args) -> None:
         existing_dois = live.existing_dois
     genes_parent_key = zot.get_or_create_collection(args.genes_parent)
 
+    # Pre-fetch all rescue candidate works in bulk (3-4 API calls instead of one
+    # per item) so a large rescue set doesn't exhaust per-request rate limits.
+    _rescue_cache: dict[str, dict] = {}
+    if not args.dry_run:
+        plan_preview = compute_apply(fp, fn, screen, adj)
+        to_rescue_preview = plan_preview["to_rescue"]
+        pmids_needed = [c.get("pmid", "").strip() for c in to_rescue_preview
+                        if c.get("pmid", "").strip()]
+        dois_needed = [c.get("doi", "").strip() for c in to_rescue_preview
+                       if not c.get("pmid", "").strip() and c.get("doi", "").strip()]
+        if pmids_needed:
+            for w in openalex.fetch_works_by_pmids(pmids_needed):
+                pid = _OA.extract_pmid(w) or ""
+                if pid:
+                    _rescue_cache[pid] = w
+        if dois_needed:
+            for w in openalex.fetch_works_by_dois(dois_needed):
+                doi_key = (w.get("doi") or "").lower()
+                if doi_key:
+                    _rescue_cache[doi_key] = w
+        logger.info(
+            f"Pre-fetched {len(_rescue_cache)} works for "
+            f"{len(to_rescue_preview)} rescue candidates"
+        )
+
+    class _CachedOpenAlex:
+        """Serves pre-fetched works from cache; falls back to the real client."""
+        def fetch_works_by_pmids(self, pmid_list):
+            return [_rescue_cache[p] for p in pmid_list if p in _rescue_cache]
+        def fetch_works_by_dois(self, doi_list):
+            return [_rescue_cache[d.lower()] for d in doi_list if d.lower() in _rescue_cache]
+        def __getattr__(self, name):
+            return getattr(openalex, name)
+
     def rescue_fn(entries):
         return run.process_rescue_queue(
-            entries, zot, openalex, existing_pmids, existing_dois, pmid_to_key,
+            entries, zot, _CachedOpenAlex(), existing_pmids, existing_dois, pmid_to_key,
             genes_parent_key, additions_tracker=[])
 
     summary = apply_actions(
