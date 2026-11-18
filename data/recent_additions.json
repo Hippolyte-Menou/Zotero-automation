@@ -1,6 +1,406 @@
 {
- "generated_at": "2026-11-17T17:10:50Z",
+ "generated_at": "2026-11-18T17:25:42Z",
  "additions": [
+  {
+   "pmid": "29351602",
+   "doi": "10.1093/hmg/ddy024",
+   "title": "The integrity and organization of the human AIPL1 functional domains is critical for its role as a HSP90-dependent co-chaperone for rod PDE6",
+   "year": "2018",
+   "subcollection": "AIPL1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:17:56Z"
+  },
+  {
+   "pmid": "23388626",
+   "doi": "10.1101/cshperspect.a013169",
+   "title": "Endoplasmic Reticulum Stress Sensing in the Unfolded Protein Response",
+   "year": "2013",
+   "subcollection": "ATF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:31:58Z"
+  },
+  {
+   "pmid": "35940910",
+   "doi": "10.1101/cshperspect.a041262",
+   "title": "Evolutionary Aspects of the Unfolded Protein Response",
+   "year": "2022",
+   "subcollection": "ATF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:31:58Z"
+  },
+  {
+   "pmid": "22127591",
+   "doi": "10.14670/hh-27.1",
+   "title": "Cell fate following ER stress: just a matter of \"quo ante\" recovery or death?",
+   "year": "2012",
+   "subcollection": "ATF6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:31:58Z"
+  },
+  {
+   "pmid": "22940089",
+   "doi": "10.1016/j.visres.2012.08.005",
+   "title": "Phenotypic expression of Bardet–Biedl syndrome in patients homozygous for the common M390R mutation in the BBS1 gene",
+   "year": "2012",
+   "subcollection": "BBS1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:34:12Z"
+  },
+  {
+   "pmid": "26108280",
+   "doi": "10.1038/jhg.2015.41",
+   "title": "Erratum: Oculofaciocardiodental syndrome: novel BCOR mutations and expression in dental cells",
+   "year": "2015",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:38:16Z"
+  },
+  {
+   "pmid": "33945606",
+   "doi": "10.1182/blood.2021010958",
+   "title": "BCOR gene alterations in hematologic diseases",
+   "year": "2021",
+   "subcollection": "BCOR",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:38:16Z"
+  },
+  {
+   "pmid": "43040567",
+   "doi": "10.1186/s40246-026-01027-5",
+   "title": "Ophthalmological and genetic findings associated with CRB1 dysfunction in autosomal recessive retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "CHM",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T15:44:10Z"
+  },
+  {
+   "pmid": "42859789",
+   "doi": "10.2147/opth.s646865",
+   "title": "Development and Clinical Evaluation of an Anterior Chamber Angle–Based Lens Sizing Method for Implantable Collamer Lens Surgery",
+   "year": "2026",
+   "subcollection": "COL18A1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T15:47:27Z"
+  },
+  {
+   "pmid": "43042478",
+   "doi": "10.1097/ico.0000000000004303",
+   "title": "Micro-Aberrations Scattering Index (MASI) as a Novel Metric for Subclinical Optical Degradation in Early Fuchs Endothelial Corneal Dystrophy",
+   "year": "2026",
+   "subcollection": "COL8A2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T15:49:00Z"
+  },
+  {
+   "pmid": "43043350",
+   "doi": "10.1167/tvst.15.11.16",
+   "title": "Distinct Retinal Curvature Phenotypes in Inherited Retinal Dystrophies: Linking Genotype, Choroidal Hemodynamics, and Biomechanics",
+   "year": "2026",
+   "subcollection": "CRX",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T15:50:39Z"
+  },
+  {
+   "pmid": "41661511",
+   "doi": "10.1007/s13346-026-02070-4",
+   "title": "A gel-forming antioxidant eye drop for photoreceptor protection in retinitis pigmentosa",
+   "year": "2026",
+   "subcollection": "GUCA1B",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:04:19Z"
+  },
+  {
+   "pmid": "42946707",
+   "doi": "10.1038/s41413-026-00584-8",
+   "title": "KMT2C and KMT2D regulate skeletal development through stage-specific epigenetic control of chondrogenesis",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:10:39Z"
+  },
+  {
+   "pmid": "42875463",
+   "doi": "10.1038/s41467-026-77757-w",
+   "title": "Chromatin modifiers KMT2D, cBAF, and p300 cooperatively facilitate de novo binding of transcription factors on enhancers",
+   "year": "2026",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:10:39Z"
+  },
+  {
+   "pmid": "41133716",
+   "doi": "10.3390/epigenomes9040041",
+   "title": "Exploration into the MLL4/WRAD Enzyme-Substrate Network: Systematic In Vitro Identification of CFP1 as a Potential Non-Histone Substrate of the MLL4 Lysine Methyltransferase",
+   "year": "2025",
+   "subcollection": "KMT2D",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:10:39Z"
+  },
+  {
+   "pmid": "17047157",
+   "doi": "10.1182/blood-2006-05-021634",
+   "title": "A soluble form of the Mer receptor tyrosine kinase inhibits macrophage clearance of apoptotic cells and platelet aggregation",
+   "year": "2006",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:17:46Z"
+  },
+  {
+   "pmid": "41623683",
+   "doi": "10.1093/oxfimm/iqag001",
+   "title": "Therapeutic potential of TAM receptors in autoimmune diseases: insights from original studies",
+   "year": "2026",
+   "subcollection": "MERTK",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:17:46Z"
+  },
+  {
+   "pmid": "32027362",
+   "doi": "10.1093/hmg/ddz173",
+   "title": "Phenotypic and biochemical analysis of an international cohort of individuals with variants in NAA10 and NAA15",
+   "year": "2020",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:23:06Z"
+  },
+  {
+   "pmid": "42992368",
+   "doi": "10.1002/adma.75648",
+   "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "42991389",
+   "doi": "10.1039/d6ra04888a",
+   "title": "Cytotoxic metabolites from the endophytic fungus Penicillium sp. ArD1 derived from Corchorus olitorius seeds",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "42841269",
+   "doi": "10.1039/d6cp01297c",
+   "title": "Thermoelectric transport properties of Sc 2 X 2 Te 2 (X = Cl, Br, I) predicted with four-phonon scattering",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "42976656",
+   "doi": "10.1016/j.addbeh.2026.108889",
+   "title": "Tobacco use screening among adolescent primary care patients by ethnicity, sex and language preference",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "42908369",
+   "doi": "10.1002/jcc.70532",
+   "title": "Homoleptic Noble Gas Complexes of Rhombic Be 2 X 2 Clusters: Stability and Nature of the Ng⋯Be Interaction",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "42656951",
+   "doi": "10.1039/d6sc05234g",
+   "title": "Hidden tellurium speciation resolves the paradox of infinite Te chains in LaCu x Te 2",
+   "year": "2026",
+   "subcollection": "NAA10",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T16:23:10Z"
+  },
+  {
+   "pmid": "9224659",
+   "doi": "10.1046/j.1365-2443.1997.1170315.x",
+   "title": "Autoregulation of Pax6 transcriptional activation by two distinct DNA‐binding subdomains of the paired domain",
+   "year": "1997",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:42:10Z"
+  },
+  {
+   "pmid": "11193200",
+   "doi": "10.14670/hh-16.239",
+   "title": "Pax genes in development and maturation of the vertebrate visual system: implications for optic nerve regeneration.",
+   "year": "2001",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:42:10Z"
+  },
+  {
+   "pmid": "9049631",
+   "doi": "10.1101/gr.7.2.128",
+   "title": "Cloning and characterization of two vertebrate homologs of the Drosophila eyes absent gene.",
+   "year": "1997",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:42:10Z"
+  },
+  {
+   "pmid": "42840470",
+   "doi": "10.1016/j.isci.2026.117632",
+   "title": "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment",
+   "year": "2026",
+   "subcollection": "PAX6",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:42:10Z"
+  },
+  {
+   "pmid": "42146341",
+   "doi": "10.1101/2024.02.14.580149",
+   "title": "Impact of Aii Amacrine Cell Rewiring in a Pathoconnectome-Based Computational Model of Early Retinal Degeneration",
+   "year": "2024",
+   "subcollection": "PDE6B",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T16:49:04Z"
+  },
+  {
+   "pmid": "43019592",
+   "doi": "10.1088/2057-1976/aec170",
+   "title": "Topology-preserving segmentation of abnormal nailfold capillaries using dynamic snake convolution and Transformer-augmented U 2 -Net",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T17:01:29Z"
+  },
+  {
+   "pmid": "42976385",
+   "doi": "10.1016/j.molimm.2026.10.013",
+   "title": "Pharmacological suppression of canonical NF-κB signaling attenuates epithelial injury and splenic immune-cell alterations in dextran sulfate sodium-induced colitis",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T17:01:29Z"
+  },
+  {
+   "pmid": "42956668",
+   "doi": "10.1016/j.ejmech.2026.119390",
+   "title": "Design, synthesis, and biological evaluation of diosgenin derivatives containing arylsulfonamide moieties as anti-osteosarcoma agents through modulation of the Hippo pathway",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T17:01:29Z"
+  },
+  {
+   "pmid": "42879250",
+   "doi": "10.1039/d6cc02741e",
+   "title": "An organotellurium-based BOPHY system for discrimination of homocysteine over cysteine",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T17:01:29Z"
+  },
+  {
+   "pmid": "42867596",
+   "doi": "10.1007/s00894-026-06972-5",
+   "title": "Sequential oxidative transformation of the chalcopyrite (001)-S surface by H$$_{2}$$O and O$$_{2}$$: electronic structure insights from DFT calculations",
+   "year": "2026",
+   "subcollection": "RNU2-2",
+   "category": "6 - Genes",
+   "source": "source:recent",
+   "uploaded_at": "2026-11-18T17:01:29Z"
+  },
+  {
+   "pmid": "43011305",
+   "doi": "10.17912/micropub.biology.002438",
+   "title": "Kif3a deletion from posterior limb regions results in ectopic anterior digits in mice.",
+   "year": "2026",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:10:46Z"
+  },
+  {
+   "pmid": "11782449",
+   "doi": "10.1101/gad.940702",
+   "title": "Myf5 is a direct target of long-range Shh signaling and Gli regulation for muscle specification",
+   "year": "2002",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:10:46Z"
+  },
+  {
+   "pmid": "11284692",
+   "doi": "10.1021/bi002487u",
+   "title": "Enhanced Potency of Human Sonic Hedgehog by Hydrophobic Modification",
+   "year": "2001",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:10:46Z"
+  },
+  {
+   "pmid": "9303533",
+   "doi": "10.1101/gad.11.17.2163",
+   "title": "Notochord induction of zebrafish slow muscle mediated by Sonic hedgehog",
+   "year": "1997",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:10:46Z"
+  },
+  {
+   "pmid": "9925646",
+   "doi": "10.1101/gad.13.2.225",
+   "title": "Sonic hedgehog promotes somitic chondrogenesis by altering the cellular response to BMP signaling",
+   "year": "1999",
+   "subcollection": "SHH",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:10:46Z"
+  },
+  {
+   "pmid": "41469516",
+   "doi": "10.1038/s41419-025-08352-y",
+   "title": "CRX is an intrinsic suppressor of epithelial‒mesenchymal transition in retinal pigment epithelial cells: a promising therapeutic avenue for subretinal fibrosis",
+   "year": "2025",
+   "subcollection": "YAP1",
+   "category": "6 - Genes",
+   "source": "source:citation",
+   "uploaded_at": "2026-11-18T17:24:27Z"
+  },
   {
    "pmid": "42763440",
    "doi": "10.21203/rs.3.rs-10872429/v1",
@@ -110,26 +510,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-11-17T16:33:34Z"
-  },
-  {
-   "pmid": "42991389",
-   "doi": "10.1039/d6ra04888a",
-   "title": "Cytotoxic metabolites from the endophytic fungus Penicillium sp. ArD1 derived from Corchorus olitorius seeds",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-17T16:34:06Z"
-  },
-  {
-   "pmid": "42656951",
-   "doi": "10.1039/d6sc05234g",
-   "title": "Hidden tellurium speciation resolves the paradox of infinite Te chains in LaCu x Te 2",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-17T16:34:06Z"
   },
   {
    "pmid": "8619954",
@@ -482,16 +862,6 @@
    "uploaded_at": "2026-11-16T15:38:14Z"
   },
   {
-   "pmid": "41661511",
-   "doi": "10.1007/s13346-026-02070-4",
-   "title": "A gel-forming antioxidant eye drop for photoreceptor protection in retinitis pigmentosa",
-   "year": "2026",
-   "subcollection": "GUCA1B",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T15:40:01Z"
-  },
-  {
    "pmid": "43024382",
    "doi": "10.1002/mgg3.70346",
    "title": "Potential Role of a Rare HCCS Variant Associated With Microphthalmia With Linear Skin Defects and Phenotypic Heterogeneity",
@@ -520,46 +890,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-11-16T15:50:53Z"
-  },
-  {
-   "pmid": "42992368",
-   "doi": "10.1002/adma.75648",
-   "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T15:52:34Z"
-  },
-  {
-   "pmid": "42841269",
-   "doi": "10.1039/d6cp01297c",
-   "title": "Thermoelectric transport properties of Sc 2 X 2 Te 2 (X = Cl, Br, I) predicted with four-phonon scattering",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T15:52:34Z"
-  },
-  {
-   "pmid": "42976656",
-   "doi": "10.1016/j.addbeh.2026.108889",
-   "title": "Tobacco use screening among adolescent primary care patients by ethnicity, sex and language preference",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T15:52:34Z"
-  },
-  {
-   "pmid": "42908369",
-   "doi": "10.1002/jcc.70532",
-   "title": "Homoleptic Noble Gas Complexes of Rhombic Be 2 X 2 Clusters: Stability and Nature of the Ng⋯Be Interaction",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T15:52:34Z"
   },
   {
    "pmid": "42623714",
@@ -600,56 +930,6 @@
    "category": "6 - Genes",
    "source": "source:recent",
    "uploaded_at": "2026-11-16T16:06:44Z"
-  },
-  {
-   "pmid": "43019592",
-   "doi": "10.1088/2057-1976/aec170",
-   "title": "Topology-preserving segmentation of abnormal nailfold capillaries using dynamic snake convolution and Transformer-augmented U 2 -Net",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T16:07:55Z"
-  },
-  {
-   "pmid": "42976385",
-   "doi": "10.1016/j.molimm.2026.10.013",
-   "title": "Pharmacological suppression of canonical NF-κB signaling attenuates epithelial injury and splenic immune-cell alterations in dextran sulfate sodium-induced colitis",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T16:07:55Z"
-  },
-  {
-   "pmid": "42956668",
-   "doi": "10.1016/j.ejmech.2026.119390",
-   "title": "Design, synthesis, and biological evaluation of diosgenin derivatives containing arylsulfonamide moieties as anti-osteosarcoma agents through modulation of the Hippo pathway",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T16:07:55Z"
-  },
-  {
-   "pmid": "42879250",
-   "doi": "10.1039/d6cc02741e",
-   "title": "An organotellurium-based BOPHY system for discrimination of homocysteine over cysteine",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T16:07:55Z"
-  },
-  {
-   "pmid": "42867596",
-   "doi": "10.1007/s00894-026-06972-5",
-   "title": "Sequential oxidative transformation of the chalcopyrite (001)-S surface by H$$_{2}$$O and O$$_{2}$$: electronic structure insights from DFT calculations",
-   "year": "2026",
-   "subcollection": "RNU2-2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-11-16T16:07:55Z"
   },
   {
    "pmid": "43018420",
@@ -12260,416 +12540,6 @@
    "category": "6 - Genes",
    "source": "source:citation",
    "uploaded_at": "2026-09-24T12:46:34Z"
-  },
-  {
-   "pmid": "33545358",
-   "doi": "10.1016/j.ymthe.2021.01.033",
-   "title": "Enforced dimerization between XBP1s and ATF6f enhances the protective effects of the UPR in models of neurodegeneration",
-   "year": "2021",
-   "subcollection": "ATF6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:04:12Z"
-  },
-  {
-   "pmid": "42721961",
-   "doi": "10.1016/j.stemcr.2026.103078",
-   "title": "Chemical induction and reversal of photoreceptor dystrophy in retinal organoids",
-   "year": "2026",
-   "subcollection": "ATF6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:04:12Z"
-  },
-  {
-   "pmid": "19898960",
-   "doi": "10.1007/s12192-009-0142-9",
-   "title": "Plasma cell differentiation initiates a limited ER stress response by specifically suppressing the PERK-dependent branch of the unfolded protein response",
-   "year": "2009",
-   "subcollection": "ATF6",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:04:12Z"
-  },
-  {
-   "pmid": "42767787",
-   "doi": "10.1136/bcr-2026-275017",
-   "title": "Posterior chamber phakic intraocular lens in posterior polymorphous corneal dystrophy",
-   "year": "2026",
-   "subcollection": "COL8A2",
-   "category": "6 - Genes",
-   "source": "source:recent",
-   "uploaded_at": "2026-09-23T11:15:41Z"
-  },
-  {
-   "pmid": "42751076",
-   "doi": "10.1155/crop/1626256",
-   "title": "Ophthalmic Manifestations in A Patient With Kabuki Syndrome: A Case Report With a KDM6A Gene Variant",
-   "year": "2026",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "22652693",
-   "doi": "10.1093/bfgp/els017",
-   "title": "WRAD: enabler of the SET1-family of H3K4 methyltransferases",
-   "year": "2012",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "33823156",
-   "doi": "10.1016/j.jbc.2021.100635",
-   "title": "Distinct kinetic mechanisms of H3K4 methylation catalyzed by MLL3 and MLL4 core complexes",
-   "year": "2021",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "42578949",
-   "doi": "10.1093/jleuko/qiag110",
-   "title": "Kmt2c and Kmt2d histone methyltransferase deficiencies compromise macrophage function",
-   "year": "2026",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "30335158",
-   "doi": "10.1093/nar/gky982",
-   "title": "H3.3K4M destabilizes enhancer H3K4 methyltransferases MLL3/MLL4 and impairs adipose tissue development",
-   "year": "2018",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "23508102",
-   "doi": "10.1128/mcb.01742-12",
-   "title": "Quantitative Dissection and Stoichiometry Determination of the Human SET1/MLL Histone Methyltransferase Complexes",
-   "year": "2013",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "35362120",
-   "doi": "10.1002/jnr.25050",
-   "title": "Bate palmas mutant mice as a model of Kabuki syndrome: Higher susceptibility to infections and vocalization impairments?",
-   "year": "2022",
-   "subcollection": "KMT2D",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:32:37Z"
-  },
-  {
-   "pmid": "42749089",
-   "doi": "10.1016/j.arr.2026.103364",
-   "title": "NAA10 and NAA15 mutations in cardiovascular disorders: Recent advances and mechanistic insights",
-   "year": "2026",
-   "subcollection": "NAA10",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:41:12Z"
-  },
-  {
-   "pmid": "20954240",
-   "doi": "10.1002/pro.526",
-   "title": "Homology modeling and deletion mutants of human nicotinamide mononucleotide adenylyltransferase isozyme 2: New insights on structure and function relationship",
-   "year": "2010",
-   "subcollection": "NMNAT1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:46:01Z"
-  },
-  {
-   "pmid": "26149760",
-   "doi": "10.1016/j.toxlet.2015.06.1708",
-   "title": "Deregulation of NR2E3, an orphan nuclear receptor, by benzo(a)pyrene-induced oxidative stress is associated with histone modification status change of the estrogen receptor gene promoter",
-   "year": "2015",
-   "subcollection": "NR2E3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:47:13Z"
-  },
-  {
-   "pmid": "38881534",
-   "doi": "10.1002/advs.202400726",
-   "title": "Targeting Nr2e3 to Modulate Tet2 Expression: Therapeutic Potential for Depression Treatment",
-   "year": "2024",
-   "subcollection": "NR2E3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:47:13Z"
-  },
-  {
-   "pmid": "3827838",
-   "doi": "10.1042/bj2400019",
-   "title": "Interspecies conservation of structure of interphotoreceptor retinoid-binding protein Similarities and differences as adjudged by peptide mapping and N-terminal sequencing",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "2592435",
-   "doi": "10.1002/jcp.1041410329",
-   "title": "Synthesis and secretion of interphotoreceptor retinoid‐binding protein (IRBP) by isolated normal and rd mouse retinal photoreceptor neurons in culture",
-   "year": "1989",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "6389570",
-   "doi": "10.1083/jcb.99.6.2092",
-   "title": "An extracellular retinol-binding glycoprotein in the eyes of mutant rats with retinal dystrophy: development, localization, and biosynthesis.",
-   "year": "1984",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3743780",
-   "doi": "10.1016/0014-5793(86)80918-8",
-   "title": "N‐terminal sequence homologies in interstitial retinol‐binding proteins from 10 vertebrate species",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "7836393",
-   "doi": "10.1074/jbc.270.3.1289",
-   "title": "A Single Cis-acting Element in a Short Promoter Segment of the Gene Encoding the Interphotoreceptor Retinoid-binding Protein Confers Tissue-specific Expression",
-   "year": "1995",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3195063",
-   "doi": "10.1016/0042-6989(88)90106-x",
-   "title": "IRBP-like proteins in the eyes of six cephalopod species—immunochemical relationship to vertebrate interstitial retinol-binding protein (IRBP) and cephalopod retinal-binding protein",
-   "year": "1988",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3721782",
-   "doi": "",
-   "title": "Interstitial retinol-binding protein (IRBP) in subretinal fluid.",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3455009",
-   "doi": "10.1007/bf01534925",
-   "title": "Human interstitial retinol-binding protein (IRBP): cloning, partial sequence, and chromosomal localization",
-   "year": "1987",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "20501275",
-   "doi": "10.1016/0197-0186(88)90106-4",
-   "title": "Phosphorylation of interphotoreceptor retinoid-binding protein (IRBP)",
-   "year": "1988",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3721781",
-   "doi": "",
-   "title": "Retinoid-binding proteins in cone-dominant retinas.",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "2160453",
-   "doi": "10.1016/s0021-9258(19)38895-7",
-   "title": "Tissue-specific expression in transgenic mice directed by the 5'-flanking sequences of the human gene encoding interphotoreceptor retinoid-binding protein.",
-   "year": "1990",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3721783",
-   "doi": "",
-   "title": "Immunochemical distribution of interphotoreceptor retinoid-binding protein in selected species.",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "9352446",
-   "doi": "10.1023/a:1018589609622",
-   "title": "Delayed rhodopsin regeneration and altered distribution of interphotoreceptor retinoid binding protein (IRBP) in the mivit/mivit (vitiligo) mouse",
-   "year": "1997",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "1936175",
-   "doi": "10.1016/0014-4835(91)90245-a",
-   "title": "Interphotoreceptor retinoid-binding protein (IRBP) in progressive rod-cone degeneration (prcd)—Biochemical, immunocytochemical and immunologic studies",
-   "year": "1991",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "3944106",
-   "doi": "10.1016/s0021-9258(17)36000-3",
-   "title": "The structures of the asparagine-linked sugar chains of bovine interphotoreceptor retinol-binding protein. Occurrence of fucosylated hybrid-type oligosaccharides.",
-   "year": "1986",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "11821982",
-   "doi": "10.1076/ceyr.23.1.20.5419",
-   "title": "Structural characterization and comparison of promoter activity of mouse and bovine interphotoreceptor retinoid-binding protein (IRBP) gene 5' flanking regions in WERI, Y79, chick retina cells, and transgenic mice",
-   "year": "2001",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "4044165",
-   "doi": "",
-   "title": "Zonulae adherentes pore size in the external limiting membrane of the rabbit retina.",
-   "year": "1985",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "1521586",
-   "doi": "10.1016/0014-4835(92)90160-t",
-   "title": "Synthesis and secretion of interphotoreceptor retinoid-binding protein (IRBP) and developmental expression of IRBP mRNA in normal and rd mouse retinas",
-   "year": "1992",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "1426058",
-   "doi": "10.1016/0014-4835(92)90186-v",
-   "title": "Photoreceptor-specific activity of the human interphotoreceptor retinoid-binding protein (IRBP) promoter in transgenic mice",
-   "year": "1992",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "11934446",
-   "doi": "10.1016/s0042-6989(02)00037-8",
-   "title": "The effect of retinoids and butyrate on the expression of CRX and IRBP in retinoblastoma cells",
-   "year": "2002",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "11522290",
-   "doi": "10.1016/s0014-5793(01)02662-x",
-   "title": "Evidence of a tissue‐restricting DNA regulatory element in the mouse IRBP promoter",
-   "year": "2001",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "4039712",
-   "doi": "",
-   "title": "Immunocytochemical localization of interphotoreceptor retinoid-binding protein in developing normal and RCS rat retinas.",
-   "year": "1985",
-   "subcollection": "RBP3",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T11:59:53Z"
-  },
-  {
-   "pmid": "1715867",
-   "doi": "10.1016/s0021-9258(18)55354-0",
-   "title": "Topological and epitope mapping of the cellular retinaldehyde-binding protein from retina.",
-   "year": "1991",
-   "subcollection": "RLBP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T12:09:37Z"
-  },
-  {
-   "pmid": "9736766",
-   "doi": "",
-   "title": "Molecular characterization of the mouse gene encoding cellular retinaldehyde-binding protein.",
-   "year": "1998",
-   "subcollection": "RLBP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T12:09:37Z"
-  },
-  {
-   "pmid": "3198595",
-   "doi": "10.1016/s0021-9258(18)37339-3",
-   "title": "Cloning of the cDNAs encoding the cellular retinaldehyde-binding protein from bovine and human retina and comparison of the protein structures.",
-   "year": "1988",
-   "subcollection": "RLBP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T12:09:37Z"
-  },
-  {
-   "pmid": "28096191",
-   "doi": "10.1194/jlr.m073692",
-   "title": "Allosteric modulation of the substrate specificity of acyl-CoA wax alcohol acyltransferase 2",
-   "year": "2017",
-   "subcollection": "RLBP1",
-   "category": "6 - Genes",
-   "source": "source:citation",
-   "uploaded_at": "2026-09-23T12:09:37Z"
   }
  ]
 }
