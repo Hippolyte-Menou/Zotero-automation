@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T09:13:26Z",
+  "generated_at": "2026-11-22T09:48:40Z",
   "threshold_k": 0,
-  "total_evaluated": 31792,
-  "total_flagged": 527,
+  "total_evaluated": 32125,
+  "total_flagged": 556,
   "total_dismissed": 0,
-  "total_unresolvable": 131,
+  "total_unresolvable": 59,
   "hierarchy": {
     "1 - Anatomy": [
       "Adnexal structures",
@@ -42,6 +42,7 @@
       "Alstrom syndrome",
       "Aniridia",
       "Anomalies du developpement oculaire",
+      "Anophthalmia and microphthalmia",
       "Bardet-Biedl syndrome",
       "Best vitelliform macular dystrophy",
       "Cataract",
@@ -51,6 +52,7 @@
       "Congenital cataracts",
       "Congenital hereditary stromal dystrophy",
       "Congenital stationary night blindness",
+      "Corneal dystrophies",
       "Corneal dystrophy",
       "Familial exudative vitreoretinopathy",
       "Foveal hypoplasia",
@@ -3885,6 +3887,32 @@
       "subcollection": ""
     },
     {
+      "pmid": "30085560",
+      "doi": "",
+      "zotero_key": "AHG757IA",
+      "title": "Albinism.",
+      "authors": [
+        [
+          "JR",
+          "Federico"
+        ],
+        [
+          "K",
+          "Krishnamurthy"
+        ]
+      ],
+      "journal": "",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Albinism, ocular, Syndromic albinism"
+    },
+    {
       "pmid": "",
       "doi": "10.1159/000308802",
       "zotero_key": "6IR4F4UB",
@@ -4207,6 +4235,398 @@
       ],
       "category": "1 - Anatomy",
       "subcollection": "Vascularization and innervation"
+    },
+    {
+      "pmid": "29494035",
+      "doi": "",
+      "zotero_key": "IJFANU7M",
+      "title": "Anatomy, Head and Neck, Eye",
+      "authors": [
+        [
+          "Ibraheem",
+          "Rehman"
+        ],
+        [
+          "Bita",
+          "Hazhirkarzar"
+        ],
+        [
+          "Bhupendra C.",
+          "Patel"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "Vision is perhaps the most useful of the senses for humans. More than 50% of the sensory receptors in the human body are located in the eyes, and a significant portion of the cerebral cortex is devoted to interpreting visual information. The eyes are responsible for detecting visible light, which ranges from 400 to 700 nanometers in wavelength. Objects can absorb and reflect different wavelengths of light. An object appears white if it reflects all wavelengths of light, and it appears black if it absorbs all wavelengths of light.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Middle coat"
+    },
+    {
+      "pmid": "30137849",
+      "doi": "",
+      "zotero_key": "ZHPI9RJV",
+      "title": "Anatomy, Head and Neck, Eye Extraocular Muscles",
+      "authors": [
+        [
+          "Caleb L.",
+          "Shumway"
+        ],
+        [
+          "Mahsaw",
+          "Motlagh"
+        ],
+        [
+          "Matthew",
+          "Wade"
+        ]
+      ],
+      "journal": "",
+      "year": "2022",
+      "abstract": "There are 7 extraocular muscles. There are 4 rectus muscles, 2 oblique muscles, and the standalone levator palpebrae superioris. The 4 rectus muscles are the medial rectus, lateral rectus, superior rectus, and inferior rectus. The oblique muscles are the superior and inferior obliques. The levator palpebrae superioris is primarily responsible for eyelid elevation (see Image. The Extraocular Muscles of the Orbit).[1]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "29493926",
+      "doi": "",
+      "zotero_key": "VXQKJEMQ",
+      "title": "Anatomy, Head and Neck, Eye Fovea",
+      "authors": [
+        [
+          "Ibraheem",
+          "Rehman"
+        ],
+        [
+          "Navid",
+          "Mahabadi"
+        ],
+        [
+          "Mahsaw",
+          "Motlagh"
+        ],
+        [
+          "Tayyeba",
+          "Ali"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "More than 50% of the sensory receptors in the human body are located in the eyes, and a significant portion of the cerebral cortex is devoted to interpreting visual information. The eyes are responsible for detecting visible light, which ranges from 400 to 700 nanometers in wavelength. Objects can absorb and reflect different wavelengths of light, which in turn, are detected by the eye. The color of an object is actually a manifestation of the wavelength that is reflected and not that which is absorbed. For example, an object appears white if it reflects all wavelengths of light and it appears black if it absorbs all wavelengths of light. The fovea centralis, or fovea, is a small depression within the neurosensory retina where visual acuity is the highest. The fovea itself is the central portion of the macula, which is responsible for central vision.[1][2][3][4]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Inner coat"
+    },
+    {
+      "pmid": "30969665",
+      "doi": "",
+      "zotero_key": "3D7U2B4T",
+      "title": "Anatomy, Head and Neck, Orbit",
+      "authors": [
+        [
+          "Nicholas",
+          "Luibil"
+        ],
+        [
+          "Michael J.",
+          "Lopez"
+        ],
+        [
+          "Bhupendra C.",
+          "Patel"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The orbits are bony structures of the skull that house the globe, extraocular muscles, nerves, blood vessels, lacrimal apparatus, and adipose tissue. Each orbit protects the globe, while the supportive tissues allow the globe to move in three dimensions (horizontal, vertical, and torsional).[1][2] The anatomy of the orbit is a complex topic vital for understanding the communication between the eye and the central nervous system and the potential for the spread of malignancy or infection. Certain surgical emergencies, such as severe fractures, are often intricate because of the delicate anatomy of the orbit and its contents.[1][2] The following article will provide insight into the structure and function of the different components of the orbit and will explain the importance of understanding orbital anatomy and physiology in relation to pathology.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "30285385",
+      "doi": "",
+      "zotero_key": "JUBAZBGV",
+      "title": "Anatomy, Head and Neck, Orbit Bones",
+      "authors": [
+        [
+          "Caleb L.",
+          "Shumway"
+        ],
+        [
+          "Mahsaw",
+          "Motlagh"
+        ],
+        [
+          "Matthew",
+          "Wade"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The following seven bones form the orbit:",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "30085520",
+      "doi": "",
+      "zotero_key": "9ECBDPU8",
+      "title": "Anatomy, Head and Neck: Eye Inferior Rectus Muscle",
+      "authors": [
+        [
+          "Caleb L.",
+          "Shumway"
+        ],
+        [
+          "Mahsaw",
+          "Motlagh"
+        ],
+        [
+          "Matthew",
+          "Wade"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The inferior rectus muscle is one of the seven extraocular muscles. It is primarily responsible for depressing the eye (downgaze). The inferior rectus is one of the four rectus muscles, including the superior rectus, the medial rectus, and the lateral rectus. There are also two oblique extraocular muscles, the superior and inferior obliques. The seventh extraocular muscle is the levator palpebrae superioris.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "30335285",
+      "doi": "",
+      "zotero_key": "IPMFZZGU",
+      "title": "Anatomy, Head and Neck: Eye Iris Sphincter Muscle",
+      "authors": [
+        [
+          "Jeffrey",
+          "Bloom"
+        ],
+        [
+          "Mahsaw",
+          "Motlagh"
+        ],
+        [
+          "Craig N.",
+          "Czyz"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The iris sphincter muscle, also known as the pupillary sphincter or sphincter pupillae, is a muscle located in the colored part of the eye called the iris. The sphincter muscle fibers are located near the pupillary margin and are slightly anterior to the pigmented epithelium of the iris. It encircles the pupil of the iris and functions to constrict the pupil in bright light via the pupillary light reflex or during accommodation. By controlling the pupil's diameter, the iris controls the amount of light that reaches the back of the eye at the retina.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Middle coat"
+    },
+    {
+      "pmid": "30285382",
+      "doi": "",
+      "zotero_key": "HGRHG8Q2",
+      "title": "Anatomy, Head and Neck: Eye Lacrimal Duct",
+      "authors": [
+        [
+          "Laurence",
+          "Ducker"
+        ],
+        [
+          "Roxana Y.",
+          "Rivera"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The lacrimal duct system transmits tears from the surface of the eye to the nasal cavity. Tears enter the duct system at the lacrimal punctae and conduct through canaliculi within the eyelids. The canaliculi drain into the lacrimal sac. Tears continue down the intra-osseous lacrimal duct where they exit into the nasal cavity at the inferior meatus. Obstruction of the lacrimal duct system results in epiphora or excessive tearing. This condition is particularly common in children but is also common in adults.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Adnexal structures"
+    },
+    {
+      "pmid": "30969543",
+      "doi": "",
+      "zotero_key": "XQBIPFA4",
+      "title": "Anatomy, Head and Neck: Eye Lateral Rectus Muscle",
+      "authors": [
+        [
+          "Alejandro Fernández",
+          "Cabrera"
+        ],
+        [
+          "Juan",
+          "Suárez-Quintanilla"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The lateral rectus is one of the seven extraocular muscles. These muscles control every movement of the eye; usually, one muscle moves the eye in one direction, and the combination of all of them allows the eye to move in every direction. Extraocular muscles include four rectus muscles (medial, lateral, superior an inferior rectus), two oblique muscles (superior and inferior) and levator palpebrae superioris.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "29262013",
+      "doi": "",
+      "zotero_key": "V3TDDUS8",
+      "title": "Anatomy, Head and Neck: Eye Muscles",
+      "authors": [
+        [
+          "Parker E.",
+          "Ludwig"
+        ],
+        [
+          "Sanah",
+          "Aslam"
+        ],
+        [
+          "Craig N.",
+          "Czyz"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The muscles of the eye are integral to its function and motion. Muscles directly associated with the eye include the extraocular muscles which control the external movement of the eye; the intraocular muscles, which are responsible for pupil accommodation and reaction to light; and the protractor and retractors of the eyelids. Deficits in the muscles or the nerves innervating these muscles can result in functional impairment of the involved structures.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "29489208",
+      "doi": "",
+      "zotero_key": "UB7DTJAN",
+      "title": "Anatomy, Head and Neck: Eye Nasolacrimal",
+      "authors": [
+        [
+          "Megan L.",
+          "Cochran"
+        ],
+        [
+          "Sanah",
+          "Aslam"
+        ],
+        [
+          "Craig N.",
+          "Czyz"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The purpose of the nasolacrimal system is to drain tears from the ocular surface to the lacrimal sac and, ultimately, the nasal cavity. Blockage of the nasolacrimal system can cause tears to flow over the eyelid and down the cheek; this condition is epiphora.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Adnexal structures"
+    },
+    {
+      "pmid": "30725837",
+      "doi": "",
+      "zotero_key": "CNKV2QWV",
+      "title": "Anatomy, Head and Neck: Eye Superior Oblique Muscle",
+      "authors": [
+        [
+          "Ahmed",
+          "Abdelhady"
+        ],
+        [
+          "Bhupendra C.",
+          "Patel"
+        ],
+        [
+          "Sanah",
+          "Aslam"
+        ],
+        [
+          "Daifallah M. Al",
+          "Aboud"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The superior oblique is one of the two noteworthy oblique extraocular muscles. These muscles are unique in that they do not originate from the common tendinous ring, have an angular attachment to the eyeball, and they attach to the posterior aspect of the eyeball. The superior oblique functions explicitly to move the eye in the down-and-out position and intort the eye.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Orbit"
+    },
+    {
+      "pmid": "31082008",
+      "doi": "",
+      "zotero_key": "AUTA4GZA",
+      "title": "Anatomy, Head and Neck: Eye, Superior Tarsal Muscle (Müller Muscle)",
+      "authors": [
+        [
+          "Tushar",
+          "Dave"
+        ],
+        [
+          "Saama",
+          "Sabeti"
+        ],
+        [
+          "Bhupendra C.",
+          "Patel"
+        ]
+      ],
+      "journal": "",
+      "year": "2024",
+      "abstract": "The superior tarsal muscle, also known as the Müller muscle, is an accessory smooth muscle that allows for the retraction and elevation of the upper eyelid. This muscle receives sympathetic innervation from fibers originating from the sympathetic cervical ganglion, and vascular supply from the superior branches of the ophthalmic artery.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Vascularization and innervation"
+    },
+    {
+      "pmid": "30725963",
+      "doi": "",
+      "zotero_key": "XVQRQZJN",
+      "title": "Anatomy, Head and Neck: Eyelash",
+      "authors": [
+        [
+          "Bhupendra C.",
+          "Patel"
+        ],
+        [
+          "Michael J.",
+          "Lopez"
+        ],
+        [
+          "Zachary P.",
+          "Joos"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The Greek word for eyelid is “blepharon,” from which is derived the prefix \"belpharo,\" which has been in use since antiquity. The Greek for an eyelash is “blepharida” which is not used in medicine today. The Latin for eyelid is “palpebra” and that for eyelash is “cilium” a word only in use since the early 18 century.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "1 - Anatomy",
+      "subcollection": "Adnexal structures"
     },
     {
       "pmid": "",
@@ -6653,6 +7073,56 @@
       "subcollection": "ARID1B"
     },
     {
+      "pmid": "20301768",
+      "doi": "",
+      "zotero_key": "WEIV5DWQ",
+      "title": "COL4A1-Related Disorders.",
+      "authors": [
+        [
+          "MP",
+          "Adam"
+        ],
+        [
+          "S",
+          "Bick"
+        ],
+        [
+          "GM",
+          "Mirzaa"
+        ],
+        [
+          "RA",
+          "Pagon"
+        ],
+        [
+          "SE",
+          "Wallace"
+        ],
+        [
+          "A",
+          "Amemiya"
+        ],
+        [
+          "E",
+          "Plaisier"
+        ],
+        [
+          "P",
+          "Ronco"
+        ]
+      ],
+      "journal": "",
+      "year": "1993",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies",
+      "subcollection": "Cataract, Axenfeld-Rieger syndrome"
+    },
+    {
       "pmid": "",
       "doi": "10.1167/iovs.13-13039",
       "zotero_key": "I55NRHC7",
@@ -7587,6 +8057,60 @@
       ],
       "category": "6 - Genes",
       "subcollection": "COL8A2"
+    },
+    {
+      "pmid": "36251835",
+      "doi": "",
+      "zotero_key": "7MZ9U8VU",
+      "title": "Corneal Topography",
+      "authors": [
+        [
+          "Uma",
+          "Sridhar"
+        ],
+        [
+          "Koushik",
+          "Tripathy"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "The healthy central cornea is aspheric and prolate (the central curvature is steeper than the periphery).[1] Attempts to measure the cornea were made as early as the 1600s by Scheiner, who compared reflections produced by glass spheres whose diameters were known to the reflections from the anterior surface of the cornea.[2] The central keratometric values vary between 40 D to 47 D (mean 43D).[1] The standard keratometry device measures two points at a 2.25-4 mm zone in the central cornea.[3][4]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "4 - Examinations, 5 - Pathologies",
+      "subcollection": "Anterior segment examination, Corneal dystrophies"
+    },
+    {
+      "pmid": "30969511",
+      "doi": "",
+      "zotero_key": "ETDU4ZWM",
+      "title": "Corneal Ulcer",
+      "authors": [
+        [
+          "Liza B.",
+          "Byrd"
+        ],
+        [
+          "Bharat",
+          "Gurnani"
+        ],
+        [
+          "Nathan",
+          "Martin"
+        ]
+      ],
+      "journal": "",
+      "year": "2024",
+      "abstract": "A corneal ulcer is a corneal epithelium defect involving the underlying stroma and is potentially a vision-threatening ocular emergency.[1] It is usually associated with tissue excavation, infiltration, and necrosis. Even with prompt treatment, patients can suffer significant morbidity with complications, including corneal scarring or perforation, development of glaucoma, cataracts or anterior and posterior synechiae, and vision loss. Untreated bacterial keratitis may result in endophthalmitis and subsequent loss of the eye.[2] The annual incidence of corneal ulcers in the United States alone is estimated to be between 30,000 and 75,000, and 12.2% of all corneal transplants performed are for managing infectious keratitis.[3][4] This condition must be recognized quickly so prompt treatment can be initiated, and emergent ophthalmologic evaluation be arranged.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Corneal dystrophies"
     },
     {
       "pmid": "41866701",
@@ -9763,6 +10287,34 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "32644331",
+      "doi": "",
+      "zotero_key": "TVG3F7JE",
+      "title": "Eyelid Coloboma",
+      "authors": [
+        [
+          "Venkata M.",
+          "Kanukollu"
+        ],
+        [
+          "Kyle",
+          "Blair"
+        ],
+        [
+          "Syed Shoeb",
+          "Ahmad"
+        ]
+      ],
+      "journal": "",
+      "year": "2025",
+      "abstract": "Columba is derived from the Greek word koloboma (\"curtailed\" or mutilated) and describes a hole or gap in ocular tissue present at birth. The abnormality usually results from incomplete development of the eye in embryonic development. An eyelid coloboma is a congenital full-thickness defect of the eyelid margin; structures that may be affected are the eyelid, iris, lens, ciliary body, choroid, retina, or optic nerve. Congenital eyelid coloboma can be unilateral or bilateral, involving 1 or all 4 lids. The defect can range from a minor marginal notch to a complete full-thickness absence of the entire eyelid margin, affecting approximately one-third to half of the eyelid. Usually, the upper eyelid is primarily affected, and the most common site of involvement occurs at the junction between the medial and middle thirds of the upper eyelid. Eyelid coloboma is an incomplete form of cryptophthalmos, a congenital condition characterized by eyelid abnormalities due to a failure in differentiation.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Ocular developmental anomalies"
+    },
+    {
       "pmid": "39567705",
       "doi": "10.1038/s41433-024-03481-8",
       "zotero_key": "KEBQ8SV8",
@@ -9821,6 +10373,64 @@
       ],
       "category": "",
       "subcollection": ""
+    },
+    {
+      "pmid": "42992368",
+      "doi": "10.1002/adma.75648",
+      "zotero_key": "IU7IA49V",
+      "title": "Ferroionic‐Assisted, Charge‐Driven Polymorphic Phase Engineering for Multilevel Memristive Devices",
+      "authors": [
+        [
+          "Nayeon",
+          "Kim"
+        ],
+        [
+          "Chengqi",
+          "Wei"
+        ],
+        [
+          "Eunji",
+          "Hwang"
+        ],
+        [
+          "Woohyun",
+          "Cho"
+        ],
+        [
+          "Heemyoung",
+          "Hong"
+        ],
+        [
+          "Yongjoon",
+          "Lee"
+        ],
+        [
+          "Daeho",
+          "Noh"
+        ],
+        [
+          "Min Seok",
+          "Jang"
+        ],
+        [
+          "Zhongrui",
+          "Wang"
+        ],
+        [
+          "Heejun",
+          "Yang"
+        ]
+      ],
+      "journal": "Advanced Materials",
+      "year": "2026",
+      "abstract": "ABSTRACT Memristive device operation can arise from diverse microscopic mechanisms, including charge polarization and trapping, magnetic ordering, ionic migration, and structural phase transitions. Among these, crystalline–crystalline phase transitions in polymorphic materials offer a unique platform for nonvolatile resistance modulation but are often hindered by large energy barriers and limited endurance. Here, we demonstrate a multimodal, charge‐driven phase modulation in an atomically thin polymorphic material, Mo 0.92 W 0.08 Te 2 , enabled by electrostatic coupling to a ferroionic substrate, CuInP 2 S 6 . The polymorphic channel exhibits reversible switching between semiconducting and metallic phases via electrostatically accumulated charges, reflecting the intrinsically low energy barrier between its competing polymorphs. Integration with the ferroionic substrate enables spatially localized, nonvolatile charge accumulation in the channel, which provides distinct, programmable phase‐control pathways under a two‐terminal bias configuration. The phase‐induced resistance modulation through field‐driven ionic processes is governed by the evolution of a phase‐dependent Schottky junction at the electrode–channel interface, yielding multiple, stable conductance states under pulsed electrical excitation. Leveraging these experimentally derived synaptic characteristics, we conducted an MNIST inference simulation with a convolutional neural network, achieving 98.45% accuracy. This ferroionic‐assisted phase‐engineering strategy offers new opportunities beyond traditional phase‐change devices for adaptive electronic and neuromorphic material platforms.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "40965398",
@@ -11109,6 +11719,142 @@
       ],
       "category": "",
       "subcollection": ""
+    },
+    {
+      "pmid": "34662013",
+      "doi": "",
+      "zotero_key": "GURB3ZZ5",
+      "title": "Heterochromia.",
+      "authors": [
+        [
+          "F",
+          "Lui"
+        ],
+        [
+          "TJ",
+          "Stokkermans"
+        ]
+      ],
+      "journal": "",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "1 - Anatomy, 5 - Pathologies",
+      "subcollection": "Middle coat, Albinism, ocular, Iris coloboma"
+    },
+    {
+      "pmid": "42656951",
+      "doi": "10.1039/d6sc05234g",
+      "zotero_key": "AEU3Z9CH",
+      "title": "Hidden tellurium speciation resolves the paradox of infinite Te chains in LaCu x Te 2",
+      "authors": [
+        [
+          "Yihao",
+          "Wang"
+        ],
+        [
+          "Thomas S.",
+          "Ie"
+        ],
+        [
+          "Clayton",
+          "Halbert"
+        ],
+        [
+          "Shima",
+          "Shahabfar"
+        ],
+        [
+          "John",
+          "Bakir"
+        ],
+        [
+          "Hengdi",
+          "Zhao"
+        ],
+        [
+          "Joohee",
+          "Bang"
+        ],
+        [
+          "Justin M.",
+          "Hoffman"
+        ],
+        [
+          "Fatemeh",
+          "Safari"
+        ],
+        [
+          "Paribesh",
+          "Acharyya"
+        ],
+        [
+          "Debattam",
+          "Sarkar"
+        ],
+        [
+          "Adam",
+          "Balvanz"
+        ],
+        [
+          "Anukriti",
+          "Ghimire"
+        ],
+        [
+          "Souvik",
+          "Sasmal"
+        ],
+        [
+          "Christos D.",
+          "Malliakas"
+        ],
+        [
+          "Jesse",
+          "Smith"
+        ],
+        [
+          "Nilesh P.",
+          "Salke"
+        ],
+        [
+          "Stephan",
+          "Rosenkranz"
+        ],
+        [
+          "Shanti",
+          "Deemyad"
+        ],
+        [
+          "Chris M.",
+          "Wolverton"
+        ],
+        [
+          "Russell J.",
+          "Hemley"
+        ],
+        [
+          "Duck Young",
+          "Chung"
+        ],
+        [
+          "Mercouri G.",
+          "Kanatzidis"
+        ]
+      ],
+      "journal": "Chemical Science",
+      "year": "2026",
+      "abstract": "Instead of infinite tellurium chains, LaCu x Te 2 intrinsically forms a statistically disordered collinear arrangement of monotelluride and oligotelluride species, yielding semiconducting transport and quasi-linear magnetoresistance at low temperatures.",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "",
@@ -12527,6 +13273,30 @@
       ],
       "category": "6 - Genes",
       "subcollection": "BEST1"
+    },
+    {
+      "pmid": "37603618",
+      "doi": "",
+      "zotero_key": "H425FDUC",
+      "title": "Iridocorneal Endothelial Syndrome",
+      "authors": [
+        [
+          "Shibandri",
+          "Das"
+        ],
+        [
+          "Koushik",
+          "Tripathy"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "Iridocorneal endothelial syndrome (ICE) is a rare disorder characterized by the increased proliferation and migration of corneal endothelial cells to the iris and iridocorneal angle, leading to secondary angle-closure glaucoma, corneal edema, and atrophy of the iris.[1] This condition is often associated with secondary glaucoma due to obstruction of the trabecular meshwork in the iridocorneal angle, the formation of peripheral anterior synechiae of the iris, or both.[1] Patients typically present with changes in the shape of the iris, a decrease in visual acuity, blurred vision, or a combination thereof.[2] Vision loss typically occurs due to the progression of secondary glaucoma and corneal decompensation.[3] If left untreated, ICE can progress to blindness.[4]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Corneal dystrophies"
     },
     {
       "pmid": "42508613",
@@ -16063,6 +16833,30 @@
       "subcollection": "PAX6"
     },
     {
+      "pmid": "32965985",
+      "doi": "",
+      "zotero_key": "4SIKDVBC",
+      "title": "Pellucid Marginal Corneal Degeneration",
+      "authors": [
+        [
+          "Jigyasa",
+          "Sahu"
+        ],
+        [
+          "Kshitij",
+          "Raizada"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "Pellucid marginal corneal degeneration (PMCD) is a bilateral, noninflammatory, peripheral corneal thinning disease. It is characterized by a peripheral crescentic band of thinning, usually in the inferior cornea. The ectatic zone, which is 1-2 mm from the limbus, lies above the point of the maximum corneal thinning. The term pellucid marginal degeneration was coined first by Schalaeppi in 1957 as \"la dystrophie marginale inferieure pellucide de la cornee\". \"Pellucid,\" meaning clear, signifies the clarity of the cornea despite the presence of ectasia.[1]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Corneal dystrophies"
+    },
+    {
       "pmid": "41052222",
       "doi": "10.1097/iae.0000000000004690",
       "zotero_key": "B6CPZNV3",
@@ -16133,6 +16927,34 @@
       ],
       "category": "6 - Genes",
       "subcollection": "UBIAD1"
+    },
+    {
+      "pmid": "39383284",
+      "doi": "",
+      "zotero_key": "Q587A2EV",
+      "title": "Peripheral Hypertrophic Subepithelial Corneal Degeneration",
+      "authors": [
+        [
+          "Majid",
+          "Moshirfar"
+        ],
+        [
+          "Kayvon A.",
+          "Moin"
+        ],
+        [
+          "Yasmyne",
+          "Ronquillo"
+        ]
+      ],
+      "journal": "",
+      "year": "2024",
+      "abstract": "Peripheral hypertrophic subepithelial corneal degeneration (PHSCD) was first described by Maust and Raber in 2003, who reported 6 patients with peripheral, symmetric, and bilateral subepithelial fibrotic lesions in the periphery and mid-periphery of the cornea. The authors explained that although similar to Salzmann nodular degeneration, these 6 women had ocular irritation symptoms and no preceding episodes of keratitis or inflammation.[1] Since its initial description, several cases have been reported describing PHSCD as an isolated diagnosis.[2][3][4][5][6][7] Many of these cases have reported risk factors, various clinical presentations, diagnostic findings, and management strategies for patients with PHSCD.",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Corneal dystrophies"
     },
     {
       "pmid": "41980014",
@@ -16559,6 +17381,32 @@
       "subcollection": "Comparative Anatomy"
     },
     {
+      "pmid": "31194346",
+      "doi": "",
+      "zotero_key": "WS9JQUD7",
+      "title": "Physiology, Accommodation.",
+      "authors": [
+        [
+          "M",
+          "Motlagh"
+        ],
+        [
+          "R",
+          "Geetha"
+        ]
+      ],
+      "journal": "",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "3 - Physiology",
+      "subcollection": "Accommodation, Physiologie pupillaire"
+    },
+    {
       "pmid": "",
       "doi": "10.1002/cne.903160404",
       "zotero_key": "H7B26QQ3",
@@ -16677,6 +17525,30 @@
       ],
       "category": "6 - Genes",
       "subcollection": "COL8A2"
+    },
+    {
+      "pmid": "34662063",
+      "doi": "",
+      "zotero_key": "S4UVFZG9",
+      "title": "Posterior Polar Cataract",
+      "authors": [
+        [
+          "Bharat",
+          "Gurnani"
+        ],
+        [
+          "Kirandeep",
+          "Kaur"
+        ]
+      ],
+      "journal": "",
+      "year": "2023",
+      "abstract": "Posterior polar cataract (PPC) is a unique subset of congenital cataract which forms a surgical challenge for all ophthalmologists.[1]] This challenge is due to the high incidence of intraoperative complications in the form of posterior capsular rupture and aphakia.[2] It is well known that patients with PPC have a pre-existing thin posterior capsule, and also the PPC is densely adherent to the posterior capsule, making it weak.[3]",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [],
+      "category": "5 - Pathologies",
+      "subcollection": "Congenital cataracts"
     },
     {
       "pmid": "42420907",
@@ -19276,6 +20148,60 @@
       "subcollection": "Posterior segment examination"
     },
     {
+      "pmid": "20301477",
+      "doi": "",
+      "zotero_key": "HN3UBR5U",
+      "title": "SOX2 Disorder.",
+      "authors": [
+        [
+          "MP",
+          "Adam"
+        ],
+        [
+          "S",
+          "Bick"
+        ],
+        [
+          "GM",
+          "Mirzaa"
+        ],
+        [
+          "RA",
+          "Pagon"
+        ],
+        [
+          "SE",
+          "Wallace"
+        ],
+        [
+          "A",
+          "Amemiya"
+        ],
+        [
+          "KA",
+          "Williamson"
+        ],
+        [
+          "TM",
+          "Yates"
+        ],
+        [
+          "DR",
+          "FitzPatrick"
+        ]
+      ],
+      "journal": "",
+      "year": "1993",
+      "abstract": "",
+      "cited_by_count": 1,
+      "centrality": 0,
+      "source_tags": [
+        "source:deep-search"
+      ],
+      "category": "5 - Pathologies, 2 - Embryology",
+      "subcollection": "Anophthalmia and microphthalmia, Ocular malformations"
+    },
+    {
       "pmid": "42778164",
       "doi": "10.1071/hc26149",
       "zotero_key": "E9SP5BS3",
@@ -21598,6 +22524,64 @@
       ],
       "category": "4 - Examinations",
       "subcollection": "Specialized functional testing"
+    },
+    {
+      "pmid": "42976656",
+      "doi": "10.1016/j.addbeh.2026.108889",
+      "zotero_key": "GZ5RND2C",
+      "title": "Tobacco use screening among adolescent primary care patients by ethnicity, sex and language preference",
+      "authors": [
+        [
+          "Steffani R.",
+          "Bailey"
+        ],
+        [
+          "Jun",
+          "Hwang"
+        ],
+        [
+          "Jennifer",
+          "Lucas"
+        ],
+        [
+          "Kristin",
+          "Lyon-Scott"
+        ],
+        [
+          "Miguel",
+          "Marino"
+        ],
+        [
+          "Roopradha",
+          "Datta"
+        ],
+        [
+          "Ana Romàn",
+          "Quiñones"
+        ],
+        [
+          "Brian",
+          "Chan"
+        ],
+        [
+          "Ximena A.",
+          "Levander"
+        ],
+        [
+          "John",
+          "Heintzman"
+        ]
+      ],
+      "journal": "Addictive Behaviors",
+      "year": "2026",
+      "abstract": "",
+      "cited_by_count": 0,
+      "centrality": 0,
+      "source_tags": [
+        "source:recent"
+      ],
+      "category": "6 - Genes",
+      "subcollection": "NAA10"
     },
     {
       "pmid": "",
