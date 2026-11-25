@@ -217776,5 +217776,2360 @@
    "screener": "haiku",
    "adjudicator": "sonnet"
   }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:43070598",
+  "key": "EDQUM3VG",
+  "gene_or_topic": "RHO",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:43070036",
+  "key": "8HR2SVCS",
+  "gene_or_topic": "NAA10",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:43070599",
+  "key": "U4HR86VC",
+  "gene_or_topic": "BEST1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2823263",
+  "pmid": "2823263",
+  "gene_or_topic": "Albinism, DCT, OCA2, TYR",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27625881",
+  "pmid": "27625881",
+  "gene_or_topic": "CHM, OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17706913",
+  "pmid": "17706913",
+  "gene_or_topic": "ADGRV1, CDH23, PCDH15",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4753152",
+  "pmid": "4753152",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32694307",
+  "pmid": "32694307",
+  "gene_or_topic": "LTBP2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9170158",
+  "pmid": "9170158",
+  "gene_or_topic": "DCT, OCA2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23817132",
+  "pmid": "23817132",
+  "gene_or_topic": "SOX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:38096290",
+  "pmid": "38096290",
+  "gene_or_topic": "SOX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1903559",
+  "pmid": "1903559",
+  "gene_or_topic": "Optic vesicle, OPN1LW, RHO",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12062536",
+  "pmid": "12062536",
+  "gene_or_topic": "BFSP1, BFSP2, KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8666378",
+  "pmid": "8666378",
+  "gene_or_topic": "OPN1LW, OPN1MW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:35400991",
+  "pmid": "35400991",
+  "gene_or_topic": "OPN1LW, OPN1MW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11163047",
+  "pmid": "11163047",
+  "gene_or_topic": "OPN1LW, OPN1MW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1557124",
+  "pmid": "1557124",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1557123",
+  "pmid": "1557123",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8284327",
+  "pmid": "8284327",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27622081",
+  "pmid": "27622081",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10708034",
+  "pmid": "10708034",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9893829",
+  "pmid": "9893829",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23337435",
+  "pmid": "23337435",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15086310",
+  "pmid": "15086310",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18598397",
+  "pmid": "18598397",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32180681",
+  "pmid": "32180681",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:41965817",
+  "pmid": "41965817",
+  "gene_or_topic": "OPN1LW",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1690687",
+  "pmid": "1690687",
+  "gene_or_topic": "KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7511548",
+  "pmid": "7511548",
+  "gene_or_topic": "KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15914610",
+  "pmid": "15914610",
+  "gene_or_topic": "KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1388724",
+  "pmid": "1388724",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:40705412",
+  "pmid": "40705412",
+  "gene_or_topic": "TACSTD2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9334387",
+  "pmid": "9334387",
+  "gene_or_topic": "IMPDH1, PRPH2, ROM1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37034790",
+  "pmid": "37034790",
+  "gene_or_topic": "ACTB",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:39922575",
+  "pmid": "39922575",
+  "gene_or_topic": "OAT",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15153612",
+  "pmid": "15153612",
+  "gene_or_topic": "KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15326108",
+  "pmid": "15326108",
+  "gene_or_topic": "KRT12",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17574030",
+  "pmid": "17574030",
+  "gene_or_topic": "ALMS1, ALMS1, ARL3, ARL6, BBS1, BBS10, BBS12, CC2D2A, IFT140, IFT172, IQCB1, LRP2, MKKS, WDPCP",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7479749",
+  "pmid": "7479749",
+  "gene_or_topic": "CNGA1, Retinal dystrophies, CNGA1, CNGA3, PDE6A, SLC24A1, TULP1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7493036",
+  "pmid": "7493036",
+  "gene_or_topic": "GNAT1, PDE6A, TUBGCP4, TULP1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28749477",
+  "pmid": "28749477",
+  "gene_or_topic": "BBS2, Genetic testing, Genetic testing, OPN1MW, SPATA7, TUBGCP4",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37369713",
+  "pmid": "37369713",
+  "gene_or_topic": "COL8A2, KRT3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29117645",
+  "pmid": "29117645",
+  "gene_or_topic": "KRT3, PIKFYVE, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32416058",
+  "pmid": "32416058",
+  "gene_or_topic": "KRT3, PIKFYVE, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32366062",
+  "pmid": "32366062",
+  "gene_or_topic": "KRT3, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17659994",
+  "pmid": "17659994",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28120575",
+  "pmid": "28120575",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10328397",
+  "pmid": "10328397",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29170458",
+  "pmid": "29170458",
+  "gene_or_topic": "PIKFYVE, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1454323",
+  "pmid": "1454323",
+  "gene_or_topic": "PIKFYVE, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29196743",
+  "pmid": "29196743",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:25014148",
+  "pmid": "25014148",
+  "gene_or_topic": "PIKFYVE, TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:16329366",
+  "pmid": "16329366",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9574743",
+  "pmid": "9574743",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6364818",
+  "pmid": "6364818",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19158553",
+  "pmid": "19158553",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28749898",
+  "pmid": "28749898",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22967865",
+  "pmid": "22967865",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:30296329",
+  "pmid": "30296329",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23828476",
+  "pmid": "23828476",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29233738",
+  "pmid": "29233738",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12400061",
+  "pmid": "12400061",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10218700",
+  "pmid": "10218700",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9463327",
+  "pmid": "9463327",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17198850",
+  "pmid": "17198850",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:14502125",
+  "pmid": "14502125",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:27590038",
+  "pmid": "27590038",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:32982153",
+  "pmid": "32982153",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:36945753",
+  "pmid": "36945753",
+  "gene_or_topic": "TGFBI",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4600539",
+  "pmid": "4600539",
+  "gene_or_topic": "Inner coat, Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9477998",
+  "pmid": "9477998",
+  "gene_or_topic": "Middle coat, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6187901",
+  "pmid": "6187901",
+  "gene_or_topic": "Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4986000",
+  "pmid": "4986000",
+  "gene_or_topic": "Inner coat, Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4960032",
+  "pmid": "4960032",
+  "gene_or_topic": "Middle coat, Vascularization and innervation, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:25447109",
+  "pmid": "25447109",
+  "gene_or_topic": "Emerging technologies, Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8482114",
+  "pmid": "8482114",
+  "gene_or_topic": "Adnexal structures, Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:14216948",
+  "pmid": "14216948",
+  "gene_or_topic": "Lacrimal system",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2862056",
+  "pmid": "2862056",
+  "gene_or_topic": "Accommodation, Middle coat, Vascularization and innervation, Accommodation, Middle coat, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9303427",
+  "pmid": "9303427",
+  "gene_or_topic": "Accommodation, Middle coat, Vascularization and innervation, Middle coat, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26114843",
+  "pmid": "26114843",
+  "gene_or_topic": "Emerging technologies, Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18170025",
+  "pmid": "18170025",
+  "gene_or_topic": "Lacrimal system",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18170692",
+  "pmid": "18170692",
+  "gene_or_topic": "Lacrimal system",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:13313216",
+  "pmid": "13313216",
+  "gene_or_topic": "Lacrimal system",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1311084",
+  "pmid": "1311084",
+  "gene_or_topic": "Ocular malformations, GZF1, PAX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15996547",
+  "pmid": "15996547",
+  "gene_or_topic": "Developmental timeline, FZD5, FZD5, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22543161",
+  "pmid": "22543161",
+  "gene_or_topic": "Coat differentiation, Developmental genetics, VSX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8093449",
+  "pmid": "8093449",
+  "gene_or_topic": "Transparent media, CRYAB",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1739128",
+  "pmid": "1739128",
+  "gene_or_topic": "Transparent media, CRYAB",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2703301",
+  "pmid": "2703301",
+  "gene_or_topic": "Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2100987",
+  "pmid": "2100987",
+  "gene_or_topic": "Visual physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:33727441",
+  "pmid": "33727441",
+  "gene_or_topic": "Posterior segment examination, RS1",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11448327",
+  "pmid": "11448327",
+  "gene_or_topic": "Ocular aging, RBP3, Visual function, Visual function",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:25317632",
+  "pmid": "25317632",
+  "gene_or_topic": "Inner coat, Vascularization and innervation, Ocular imaging, Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7981748",
+  "pmid": "7981748",
+  "gene_or_topic": "Ocular malformations, PAX6",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5395349",
+  "pmid": "5395349",
+  "gene_or_topic": "Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28332564",
+  "pmid": "28332564",
+  "gene_or_topic": "Neuro-ophthalmologic examinations, Neuro-ophthalmologic examinations, Specialized functional testing",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2712129",
+  "pmid": "2712129",
+  "gene_or_topic": "Inner coat, Neuro-ophthalmologic examinations, Ocular neurophysiology, Neuro-ophthalmologic examinations, Ocular neurophysiology, Specialized functional testing",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4415892",
+  "pmid": "4415892",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7259597",
+  "pmid": "7259597",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6860208",
+  "pmid": "6860208",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1269367",
+  "pmid": "1269367",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9666929",
+  "pmid": "9666929",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5571197",
+  "pmid": "5571197",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7110720",
+  "pmid": "7110720",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28728924",
+  "pmid": "28728924",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26504666",
+  "pmid": "26504666",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6496643",
+  "pmid": "6496643",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3977672",
+  "pmid": "3977672",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5425254",
+  "pmid": "5425254",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4599876",
+  "pmid": "4599876",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17962471",
+  "pmid": "17962471",
+  "gene_or_topic": "Neuro-ophthalmologic examinations, Neuro-ophthalmologic examinations, Pupillary physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6615303",
+  "pmid": "6615303",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2935202",
+  "pmid": "2935202",
+  "gene_or_topic": "Outer coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11327674",
+  "pmid": "11327674",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2622649",
+  "pmid": "2622649",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:20027618",
+  "pmid": "20027618",
+  "gene_or_topic": "Derived structures, Ocular malformations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6639511",
+  "pmid": "6639511",
+  "gene_or_topic": "Middle coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11053272",
+  "pmid": "11053272",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11161729",
+  "pmid": "11161729",
+  "gene_or_topic": "Accommodation, Middle coat, Accommodation, Middle coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:25827552",
+  "pmid": "25827552",
+  "gene_or_topic": "Emerging technologies, Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9624698",
+  "pmid": "9624698",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:37120657",
+  "pmid": "37120657",
+  "gene_or_topic": "Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10022192",
+  "pmid": "10022192",
+  "gene_or_topic": "Middle coat, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10960653",
+  "pmid": "10960653",
+  "gene_or_topic": "Ocular motility",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1682128",
+  "pmid": "1682128",
+  "gene_or_topic": "Derived structures, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:2390999",
+  "pmid": "2390999",
+  "gene_or_topic": "Derived structures, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11458394",
+  "pmid": "11458394",
+  "gene_or_topic": "Derived structures, Developmental timeline, Optic vesicle, PAX6",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3181032",
+  "pmid": "3181032",
+  "gene_or_topic": "Optic vesicle, PAX6",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8881473",
+  "pmid": "8881473",
+  "gene_or_topic": "Accommodation, Middle coat, Middle coat, Ocular vascular physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15036212",
+  "pmid": "15036212",
+  "gene_or_topic": "Optic vesicle, SHH",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12167402",
+  "pmid": "12167402",
+  "gene_or_topic": "Coat differentiation, Optic vesicle, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1129973",
+  "pmid": "1129973",
+  "gene_or_topic": "Neuro-ophthalmologic examinations, Neuro-ophthalmologic examinations, Visual physiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:28663902",
+  "pmid": "28663902",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:23929382",
+  "pmid": "23929382",
+  "gene_or_topic": "Inner coat, Vascularization and innervation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26307399",
+  "pmid": "26307399",
+  "gene_or_topic": "Emerging technologies, Congenital cataracts",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8501123",
+  "pmid": "8501123",
+  "gene_or_topic": "Outer coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18048005",
+  "pmid": "18048005",
+  "gene_or_topic": "Inner coat, Vascularization and innervation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7623103",
+  "pmid": "7623103",
+  "gene_or_topic": "Accommodation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10832720",
+  "pmid": "10832720",
+  "gene_or_topic": "Ocular surface examinations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19839040",
+  "pmid": "19839040",
+  "gene_or_topic": "Ocular malformations, ALDH1A3, SMO, STRA6",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:29224926",
+  "pmid": "29224926",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9716345",
+  "pmid": "9716345",
+  "gene_or_topic": "FOXC1, Ocular malformations, Ocular malformations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:1565442",
+  "pmid": "1565442",
+  "gene_or_topic": "Binocular vision",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19191219",
+  "pmid": "19191219",
+  "gene_or_topic": "Coat differentiation, Developmental genetics",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:11456441",
+  "pmid": "11456441",
+  "gene_or_topic": "Coat differentiation, Optic vesicle, PORCN",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:15359227",
+  "pmid": "15359227",
+  "gene_or_topic": "Ocular malformations, PAX6, TRIM44",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8113014",
+  "pmid": "8113014",
+  "gene_or_topic": "Visual physiology, Specialized functional testing",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4959937",
+  "pmid": "4959937",
+  "gene_or_topic": "Inner coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:16376654",
+  "pmid": "16376654",
+  "gene_or_topic": "Ocular malformations",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8252628",
+  "pmid": "8252628",
+  "gene_or_topic": "Coat differentiation, SHH",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10072376",
+  "pmid": "10072376",
+  "gene_or_topic": "Coat differentiation, NR2E3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22958820",
+  "pmid": "22958820",
+  "gene_or_topic": "Coat differentiation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18940586",
+  "pmid": "18940586",
+  "gene_or_topic": "Coat differentiation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3454919",
+  "pmid": "3454919",
+  "gene_or_topic": "Visual function",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:21148186",
+  "pmid": "21148186",
+  "gene_or_topic": "Coat differentiation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7556462",
+  "pmid": "7556462",
+  "gene_or_topic": "Inner coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-25T03:48:13Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22445509",
+  "pmid": "22445509",
+  "gene_or_topic": "Coat differentiation",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
  }
 ]
