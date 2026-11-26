@@ -220131,5 +220131,755 @@
    "screener": "haiku",
    "adjudicator": "sonnet"
   }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:42704299",
+  "key": "XF6HGD2Q",
+  "gene_or_topic": "NAA10",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:18535593",
+  "key": "VS8M5NJG",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:29861580",
+  "key": "DSFIT8H4",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:33674733",
+  "key": "76M3SHF7",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:34308265",
+  "key": "7HAIMDGT",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22269169",
+  "pmid": "22269169",
+  "gene_or_topic": "FOXE3, OTX2, PAX6, PITX3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4958088",
+  "pmid": "4958088",
+  "gene_or_topic": "Coat differentiation, VSX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17597530",
+  "pmid": "17597530",
+  "gene_or_topic": "CRX, OTX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26523756",
+  "pmid": "26523756",
+  "gene_or_topic": "MERTK",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19529151",
+  "pmid": "19529151",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19742022",
+  "pmid": "19742022",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19474832",
+  "pmid": "19474832",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8328536",
+  "pmid": "8328536",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3832605",
+  "pmid": "3832605",
+  "gene_or_topic": "Inner coat, Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12742848",
+  "pmid": "12742848",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17081868",
+  "pmid": "17081868",
+  "gene_or_topic": "Anterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6477244",
+  "pmid": "6477244",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18024852",
+  "pmid": "18024852",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5833111",
+  "pmid": "5833111",
+  "gene_or_topic": "Derived structures, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7946352",
+  "pmid": "7946352",
+  "gene_or_topic": "Coat differentiation, NR2E3, NR2E3, OPN1MW, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9533843",
+  "pmid": "9533843",
+  "gene_or_topic": "Middle coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19550532",
+  "pmid": "19550532",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10647714",
+  "pmid": "10647714",
+  "gene_or_topic": "Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10848220",
+  "pmid": "10848220",
+  "gene_or_topic": "Anterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:24:54Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4976686",
+  "pmid": "4976686",
+  "gene_or_topic": "Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:42704299",
+  "key": "XF6HGD2Q",
+  "gene_or_topic": "NAA10",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:18535593",
+  "key": "VS8M5NJG",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:29861580",
+  "key": "DSFIT8H4",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:33674733",
+  "key": "76M3SHF7",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fp",
+  "action": "trash",
+  "id": "pmid:34308265",
+  "key": "7HAIMDGT",
+  "gene_or_topic": "COL18A1",
+  "screener_verdict": "off_topic",
+  "adjudicator_verdict": "off_topic",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:22269169",
+  "pmid": "22269169",
+  "gene_or_topic": "FOXE3, OTX2, PAX6, PITX3",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4958088",
+  "pmid": "4958088",
+  "gene_or_topic": "Coat differentiation, VSX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17597530",
+  "pmid": "17597530",
+  "gene_or_topic": "CRX, OTX2",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:26523756",
+  "pmid": "26523756",
+  "gene_or_topic": "MERTK",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19529151",
+  "pmid": "19529151",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19742022",
+  "pmid": "19742022",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19474832",
+  "pmid": "19474832",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:8328536",
+  "pmid": "8328536",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:3832605",
+  "pmid": "3832605",
+  "gene_or_topic": "Inner coat, Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:12742848",
+  "pmid": "12742848",
+  "gene_or_topic": "Emerging technologies, Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:17081868",
+  "pmid": "17081868",
+  "gene_or_topic": "Anterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:6477244",
+  "pmid": "6477244",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:18024852",
+  "pmid": "18024852",
+  "gene_or_topic": "Emerging technologies",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:5833111",
+  "pmid": "5833111",
+  "gene_or_topic": "Derived structures, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:7946352",
+  "pmid": "7946352",
+  "gene_or_topic": "Coat differentiation, NR2E3, NR2E3, OPN1MW, Optic vesicle",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:9533843",
+  "pmid": "9533843",
+  "gene_or_topic": "Middle coat",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:19550532",
+  "pmid": "19550532",
+  "gene_or_topic": "Ocular imaging",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10647714",
+  "pmid": "10647714",
+  "gene_or_topic": "Posterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:10848220",
+  "pmid": "10848220",
+  "gene_or_topic": "Anterior segment examination",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
+ },
+ {
+  "ts": "2026-11-26T04:27:12Z",
+  "direction": "fn",
+  "action": "rescue",
+  "id": "pmid:4976686",
+  "pmid": "4976686",
+  "gene_or_topic": "Ocular neurophysiology",
+  "screener_verdict": "relevant",
+  "adjudicator_verdict": "relevant",
+  "applied": true,
+  "models": {
+   "screener": "haiku",
+   "adjudicator": "sonnet"
+  }
  }
 ]
